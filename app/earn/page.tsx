@@ -1,0 +1,253 @@
+"use client";
+
+import { useState } from "react";
+import Image from "next/image";
+import { TrendingUp, Users, DollarSign, Target, Award, Briefcase, ChevronRight, Star } from "lucide-react";
+
+const earningMethods = [
+  {
+    icon: Users,
+    title: "Membership Program",
+    description: "Join our membership program and earn through referrals",
+    benefits: ["Rs.1500 registration", "Team building", "Cash back rewards", "Leadership bonuses"]
+  },
+  {
+    icon: Briefcase,
+    title: "Agency Partnership",
+    description: "Become our agency partner and earn commission on bookings",
+    benefits: ["Rs.6000 investment", "Higher commission rates", "Marketing support", "Brand recognition"]
+  },
+  {
+    icon: Target,
+    title: "Tour Guide",
+    description: "Work as a tour guide and showcase Bengal's beauty",
+    benefits: ["Flexible schedule", "Tips and earnings", "Meet new people", "Share knowledge"]
+  },
+  {
+    icon: DollarSign,
+    title: "Network Marketing",
+    description: "Build your network and earn through our DP growth plan",
+    benefits: ["Unlimited potential", "Team support", "Training provided", "Performance bonuses"]
+  }
+];
+
+const successStories = [
+  {
+    name: "Rahul Sharma",
+    role: "Tour Guide",
+    earnings: "Rs.25,000/month",
+    story: "Started as a part-time guide, now earning full-time income showing tourists the beauty of Bengal."
+  },
+  {
+    name: "Priya Patel",
+    role: "Agency Partner",
+    earnings: "Rs.45,000/month",
+    story: "Joined as agency partner, now managing team of 15 guides and earning consistent commissions."
+  },
+  {
+    name: "Amit Kumar",
+    role: "DP Member",
+    earnings: "Rs.35,000/month",
+    story: "Built a team of 50+ members in 6 months, now earning through our growth structure."
+  }
+];
+
+export default function EarnPage() {
+  const [selectedMethod, setSelectedMethod] = useState("");
+
+  return (
+    <>
+      {/* ================= HERO ================= */}
+      <section className="relative h-[80vh] overflow-hidden">
+        <div className="absolute inset-0">
+          <Image
+            src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            alt="Earn With Bengal Tourism"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-red-900/40"></div>
+        </div>
+        
+        <div className="relative z-10 h-full flex items-center justify-center px-6">
+          <div className="text-center max-w-5xl mx-auto">
+            <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md border border-white/30 rounded-full px-6 py-3 mb-8">
+              <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+              <span className="text-white font-medium text-sm">Earn With Us</span>
+            </div>
+            
+            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+              Build Your
+              <span className="block bg-gradient-to-r from-red-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
+                Income Stream
+                <svg className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-3/4 h-4" viewBox="0 0 300 16" fill="none">
+                  <path d="M10 8 Q 75 4, 150 8 T 290 8" stroke="url(#gradient)" strokeWidth="3" strokeLinecap="round" />
+                  <defs>
+                    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" stopColor="#EF4444" />
+                      <stop offset="50%" stopColor="#F59E0B" />
+                      <stop offset="100%" stopColor="#F97316" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </span>
+            </h1>
+            
+            <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-12 leading-relaxed">
+              Multiple earning opportunities • Flexible work options • Unlimited potential
+            </p>
+
+            {/* Trust Indicators */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
+              <div className="text-center">
+                <div className="text-3xl md:text-4xl font-bold text-white mb-2">1500</div>
+                <div className="text-white/80 text-sm">Min Investment</div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl md:text-4xl font-bold text-white mb-2">2.5L</div>
+                <div className="text-white/80 text-sm">Max Earning</div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl md:text-4xl font-bold text-white mb-2">500+</div>
+                <div className="text-white/80 text-sm">Active Earners</div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl md:text-4xl font-bold text-white mb-2">24/7</div>
+                <div className="text-white/80 text-sm">Support</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Scroll Indicator */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+          <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center">
+            <div className="w-1 h-3 bg-white/70 rounded-full mt-2"></div>
+          </div>
+        </div>
+      </section>
+
+      {/* ================= EARNING METHODS ================= */}
+      <section className="py-20 bg-gradient-to-br from-slate-50 to-slate-100">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-black text-gray-900 mb-6">Choose Your Earning Method</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Multiple ways to earn with Bengal Tourism. Choose what suits you best.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {earningMethods.map((method, index) => (
+              <div
+                key={index}
+                className={`bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer ${
+                  selectedMethod === method.title ? "ring-4 ring-red-500" : ""
+                }`}
+                onClick={() => setSelectedMethod(method.title)}
+              >
+                <div className="w-16 h-16 bg-gradient-to-r from-red-600 to-orange-600 rounded-2xl flex items-center justify-center mb-6">
+                  <method.icon className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">{method.title}</h3>
+                <p className="text-gray-600 mb-4">{method.description}</p>
+                <ul className="space-y-2">
+                  {method.benefits.map((benefit, idx) => (
+                    <li key={idx} className="flex items-center text-sm text-gray-700">
+                      <ChevronRight className="w-4 h-4 text-green-500 mr-2" />
+                      {benefit}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ================= SUCCESS STORIES ================= */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-black text-gray-900 mb-6">Success Stories</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Real people, real earnings. See how others are succeeding with Bengal Tourism.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {successStories.map((story, index) => (
+              <div key={index} className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 shadow-lg">
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-r from-red-600 to-orange-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                    {story.name.split(' ').map(n => n[0]).join('')}
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-gray-900">{story.name}</h3>
+                    <p className="text-sm text-gray-600">{story.role}</p>
+                  </div>
+                </div>
+                <div className="mb-4">
+                  <div className="text-2xl font-bold text-green-600">{story.earnings}</div>
+                </div>
+                <p className="text-gray-700 text-sm">{story.story}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ================= WHY CHOOSE US ================= */}
+      <section className="py-20 bg-gradient-to-br from-red-50 to-orange-50">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-black text-gray-900 mb-6">Why Earn With Bengal Tourism?</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Join a trusted brand with proven success in the tourism industry
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="bg-white rounded-2xl p-8 shadow-lg">
+              <Award className="w-12 h-12 text-red-600 mb-4" />
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Trusted Brand</h3>
+              <p className="text-gray-700">15+ years of excellence in tourism with thousands of satisfied customers.</p>
+            </div>
+            <div className="bg-white rounded-2xl p-8 shadow-lg">
+              <TrendingUp className="w-12 h-12 text-red-600 mb-4" />
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Growth Potential</h3>
+              <p className="text-gray-700">Unlimited earning potential with our proven growth structure and support system.</p>
+            </div>
+            <div className="bg-white rounded-2xl p-8 shadow-lg">
+              <Users className="w-12 h-12 text-red-600 mb-4" />
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Team Support</h3>
+              <p className="text-gray-700">Complete training and ongoing support to help you succeed in your journey.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ================= CTA ================= */}
+      <section className="py-20 bg-gradient-to-br from-red-600 to-orange-600">
+        <div className="max-w-7xl mx-auto px-6 text-center">
+          <h2 className="text-4xl font-black text-white mb-6">Ready to Start Earning?</h2>
+          <p className="text-xl text-white/90 max-w-3xl mx-auto mb-12">
+            Join thousands of people who are already earning with Bengal Tourism
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/membership" className="px-8 py-3 bg-white text-red-600 font-bold rounded-xl hover:bg-gray-100 transition">
+              Join Membership
+            </a>
+            <a href="/dp" className="px-8 py-3 bg-white text-red-600 font-bold rounded-xl hover:bg-gray-100 transition">
+              View DP Plan
+            </a>
+            <a href="/career" className="px-8 py-3 bg-white text-red-600 font-bold rounded-xl hover:bg-gray-100 transition">
+              Explore Careers
+            </a>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}

@@ -65,18 +65,18 @@ export default function Navbar() {
                                     <h3 className="font-bold text-red-600 mb-3">TAILOR MADE</h3>
                                     <ul className="space-y-2">
                                        
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Boat Cruise & Stay</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Camping & Tenting</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Event Management</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Film Shooting</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Heritage Tour & Walks</a></li>
+                                        <li><a href="/boat-stay" className="text-gray-700 hover:text-red-600 block py-1">Boat Cruise & Stay</a></li>
+                                        <li><a href="/camping-adventure" className="text-gray-700 hover:text-red-600 block py-1">Camping & Tenting</a></li>
+                                        <li><a href="/event-management" className="text-gray-700 hover:text-red-600 block py-1">Event Management</a></li>
+                                        <li><a href="/film-shooting" className="text-gray-700 hover:text-red-600 block py-1">Film Shooting</a></li>
+                                        <li><a href="/heritage-tour" className="text-gray-700 hover:text-red-600 block py-1">Heritage Tour & Walks</a></li>
                                         <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Hills - Off Beat Destinations</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Jungle Safari</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Plains - Off Beat Destinations</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Religious & Pilgrimage Tour</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">River Rafting</a></li>
+                                        <li><a href="/jungle-safari" className="text-gray-700 hover:text-red-600 block py-1">Jungle Safari</a></li>
+                                        <li><a href="/village-offbeat" className="text-gray-700 hover:text-red-600 block py-1">Plains - Off Beat Destinations</a></li>
+                                        <li><a href="/religious-pilgrimage" className="text-gray-700 hover:text-red-600 block py-1">Religious & Pilgrimage Tour</a></li>
+                                        <li><a href="/river-rafting" className="text-gray-700 hover:text-red-600 block py-1">River Rafting</a></li>
                                         <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Short Breaks from Kolkata</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Trekking</a></li>
+                                        <li><a href="/trekking-trails" className="text-gray-700 hover:text-red-600 block py-1">Trekking</a></li>
                                     </ul>
                                 </div>
 
