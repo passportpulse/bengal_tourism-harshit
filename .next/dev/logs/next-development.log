@@ -265,3 +265,66 @@ https://nextjs.org/docs/messages/module-not-found
 [00:22:19.589] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:22:19.597] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:24:19.385] Server  LOG     ✓ Compiled in 44ms
+[06:05:31.482] Server  LOG     ✓ Compiled in 689ms
+[06:05:44.172] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:06:09.696] Server  LOG     ✓ Compiled in 165ms
+[06:06:17.359] Server  LOG     ✓ Compiled in 20ms
+[06:06:50.082] Server  LOG     ✓ Compiled in 111ms
+[06:06:58.481] Server  LOG     ✓ Compiled in 0ms
+[06:07:38.258] Server  LOG     ✓ Compiled in 40ms
+[06:09:10.311] Server  LOG     ✓ Compiled in 0ms
+[06:09:55.196] Server  LOG     ✓ Compiled in 0ms
+[06:16:43.275] Server  LOG     ✓ Compiled in 560ms
+[06:16:43.492] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[06:16:43.492] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[06:16:44.450] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[06:17:17.166] Server  LOG     ✓ Compiled in 894ms
+[06:19:07.392] Server  LOG     ✓ Compiled in 32ms
+[06:19:13.085] Server  LOG     ✓ Compiled in 23ms
+[06:19:51.153] Server  LOG     ✓ Compiled in 75ms
+[06:21:03.092] Server  LOG     ✓ Compiled in 90ms
+[06:21:30.537] Server  LOG     ✓ Compiled in 28ms
+[06:22:55.837] Server  LOG     ✓ Compiled in 166ms
+[06:24:37.457] Server  LOG     ✓ Compiled in 47ms
+[06:24:54.395] Server  LOG     ✓ Compiled in 25ms
+[06:27:17.465] Server  LOG     ✓ Compiled in 339ms
+[06:27:41.286] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:28:57.839] Server  LOG     ✓ Compiled in 93ms
+[06:28:58.068] Server  LOG     ✓ Compiled in 134ms
+[06:42:20.113] Server  LOG     ✓ Compiled in 79ms
+[06:42:23.513] Server  LOG     ✓ Compiled in 32ms
+[06:42:30.814] Server  LOG     ✓ Compiled in 42ms
+[06:43:24.707] Server  LOG     ✓ Compiled in 67ms
+[06:43:28.467] Server  LOG     ✓ Compiled in 22ms
+[06:43:49.828] Server  LOG     ✓ Compiled in 160ms
+[06:44:34.883] Server  LOG     ✓ Compiled in 34ms
+[06:50:19.356] Server  LOG     ✓ Compiled in 78ms
+[06:54:35.787] Server  LOG     ✓ Compiled in 55ms
+[07:25:40.009] Server  LOG     ✓ Compiled in 337ms
+[07:27:08.529] Server  LOG     ✓ Compiled in 115ms
+[07:27:48.107] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:28:19.111] Server  LOG     ✓ Compiled in 69ms
+[07:30:08.298] Server  LOG     ✓ Compiled in 76ms
+[07:36:45.997] Server  LOG     ✓ Compiled in 271ms
+[07:39:23.982] Server  LOG     ✓ Compiled in 71ms
+[07:39:46.901] Server  LOG     ✓ Compiled in 35ms
+[07:40:04.007] Server  LOG     ✓ Compiled in 32ms
+[07:40:46.632] Server  LOG     ✓ Compiled in 46ms
+[07:42:00.576] Server  LOG     ✓ Compiled in 64ms
+[07:43:08.226] Server  LOG     ✓ Compiled in 62ms
+[07:43:18.427] Server  LOG     ✓ Compiled in 81ms
+[07:43:49.781] Server  LOG     ✓ Compiled in 49ms
+[07:44:04.235] Server  LOG     ✓ Compiled in 45ms
+[07:44:16.991] Server  LOG     ✓ Compiled in 53ms
+[07:45:13.603] Server  LOG     ✓ Compiled in 30ms
+[07:50:37.368] Server  LOG     ✓ Compiled in 152ms
+[07:53:46.243] Server  LOG     ✓ Compiled in 116ms
