@@ -38,11 +38,11 @@ export default function Navbar() {
                                 <div>
                                     <h3 className="font-bold text-red-600 mb-3">BENGAL BECKONS</h3>
                                     <ul className="space-y-2">
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Queen of the Hills</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Sea & Sand of the East</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Wildlife Forest & Jungle Safari</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">City of Joy</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Largest Mangrove of the World</a></li>
+                                        <li><a href="/darjeeling" className="text-gray-700 hover:text-red-600 block py-1">Queen of the Hills</a></li>
+                                        <li><a href="/digha" className="text-gray-700 hover:text-red-600 block py-1">Sea & Sand of the East</a></li>
+                                        <li><a href="/dooars" className="text-gray-700 hover:text-red-600 block py-1">Wildlife Forest & Jungle Safari</a></li>
+                                        <li><a href="/kolkata" className="text-gray-700 hover:text-red-600 block py-1">Shillong Pkj</a></li>
+                                        <li><a href="/sundarban" className="text-gray-700 hover:text-red-600 block py-1">Largest Mangrove of the World</a></li>
                                     </ul>
                                 </div>
 
@@ -50,13 +50,13 @@ export default function Navbar() {
                                 <div>
                                     <h3 className="font-bold text-red-600 mb-3">HOT SPOTS</h3>
                                     <ul className="space-y-2">
-                                             <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Darjeeling & Kalimpong Pkj</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Dooars - Lataguri & Jaldapara Pkj</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Digha & Mandarmoni Pkj</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Bakkhali Pkj</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Kolkata Pkj</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Regional Bengal Pkj</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Sundarban Pkj</a></li>
+                                        <li><a href="/darjeeling" className="text-gray-700 hover:text-red-600 block py-1">Darjeeling & Kalimpong Pkj</a></li>
+                                        <li><a href="/dooars" className="text-gray-700 hover:text-red-600 block py-1">Dooars - Lataguri & Jaldapara Pkj</a></li>
+                                        <li><a href="/digha" className="text-gray-700 hover:text-red-600 block py-1">Digha & Mandarmoni Pkj</a></li>
+                                        <li><a href="/bakkhali" className="text-gray-700 hover:text-red-600 block py-1">Bakkhali Pkj</a></li>
+                                        <li><a href="/kolkata" className="text-gray-700 hover:text-red-600 block py-1">Kolkata Pkj</a></li>
+                                        <li><a href="/eco-tourism" className="text-gray-700 hover:text-red-600 block py-1">Regional Bengal Pkj</a></li>
+                                        <li><a href="/sundarban" className="text-gray-700 hover:text-red-600 block py-1">Sundarban Pkj</a></li>
                                     </ul>
                                 </div>
 
@@ -64,7 +64,7 @@ export default function Navbar() {
                                 <div>
                                     <h3 className="font-bold text-red-600 mb-3">TAILOR MADE</h3>
                                     <ul className="space-y-2">
-                                       
+
                                         <li><a href="/boat-stay" className="text-gray-700 hover:text-red-600 block py-1">Boat Cruise & Stay</a></li>
                                         <li><a href="/camping-adventure" className="text-gray-700 hover:text-red-600 block py-1">Camping & Tenting</a></li>
                                         <li><a href="/event-management" className="text-gray-700 hover:text-red-600 block py-1">Event Management</a></li>
@@ -75,7 +75,7 @@ export default function Navbar() {
                                         <li><a href="/village-offbeat" className="text-gray-700 hover:text-red-600 block py-1">Plains - Off Beat Destinations</a></li>
                                         <li><a href="/religious-pilgrimage" className="text-gray-700 hover:text-red-600 block py-1">Religious & Pilgrimage Tour</a></li>
                                         <li><a href="/river-rafting" className="text-gray-700 hover:text-red-600 block py-1">River Rafting</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Short Breaks from Kolkata</a></li>
+                                        <li><a href="/theme-tours" className="text-gray-700 hover:text-red-600 block py-1">Short Breaks from Kolkata</a></li>
                                         <li><a href="/trekking-trails" className="text-gray-700 hover:text-red-600 block py-1">Trekking</a></li>
                                     </ul>
                                 </div>
@@ -84,16 +84,16 @@ export default function Navbar() {
                                 <div>
                                     <h3 className="font-bold text-red-600 mb-3">OTHERS</h3>
                                     <ul className="space-y-2">
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Puri & Odisha Pkj</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Sikkim & Gangtok</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Silk Route Pkj</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Goa Pkj</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Himachal Pkj</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Jammu & Kashmir Pkj</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Andaman & Nicobar Pkj</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Assam & Guwahati Pkj</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Rajasthan & Jaipur Pkj</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Kerala & Munnar Pkj</a></li>
+                                        <li><a href="/odisha-tourism" className="text-gray-700 hover:text-red-600 block py-1">Puri & Odisha Pkj</a></li>
+                                        <li><a href="/sikkim-tourism" className="text-gray-700 hover:text-red-600 block py-1">Sikkim & Gangtok</a></li>
+                                        <li><a href="/silk-route-tourism" className="text-gray-700 hover:text-red-600 block py-1">Silk Route Pkj</a></li>
+                                        <li><a href="/goa-tourism" className="text-gray-700 hover:text-red-600 block py-1">Goa Pkj</a></li>
+                                        <li><a href="/himachal-tourism" className="text-gray-700 hover:text-red-600 block py-1">Himachal Pkj</a></li>
+                                        <li><a href="/jammu-kashmir-tourism" className="text-gray-700 hover:text-red-600 block py-1">Jammu & Kashmir Pkj</a></li>
+                                        <li><a href="/andaman-nicobar-tourism" className="text-gray-700 hover:text-red-600 block py-1">Andaman & Nicobar Pkj</a></li>
+                                        <li><a href="/shillong-tourism" className="text-gray-700 hover:text-red-600 block py-1">Assam & Guwahati Pkj</a></li>
+                                        <li><a href="/rajasthan-tourism" className="text-gray-700 hover:text-red-600 block py-1">Rajasthan & Jaipur Pkj</a></li>
+                                        <li><a href="/kerala-tourism" className="text-gray-700 hover:text-red-600 block py-1">Kerala & Munnar Pkj</a></li>
                                     </ul>
                                 </div>
 
@@ -101,27 +101,27 @@ export default function Navbar() {
                                 <div>
                                     <h3 className="font-bold text-red-600 mb-3">EXCLUSIVE</h3>
                                     <ul className="space-y-2">
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Medical Tourism</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Air Ambulance Service</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Wellness Tourism -Spa-Massage-Yoga</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Tea Tourism</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Hotel-Resort-Guest House</a></li>
-                                    </ul>
+                                        <li><a href="/medical-tourism" className="text-gray-700 hover:text-red-600 block py-1">Medical Tourism</a></li>
+                                        <li><a href="/air-ambulance" className="text-gray-700 hover:text-red-600 block py-1">Air Ambulance Service</a></li>
+                                        <li><a href="/spa-wellness" className="text-gray-700 hover:text-red-600 block py-1">Wellness Tourism -Spa-Massage-Yoga</a></li>
+                                        <li><a href="/tea-tourism" className="text-gray-700 hover:text-red-600 block py-1">Tea Tourism</a></li>
+                                        <li><a href="/hotel-booking" className="text-gray-700 hover:text-red-600 block py-1">Hotel-Resort-Guest House</a></li>
+                                    </ul>       
                                 </div>
 
                                 {/* FOREIGN TOURS */}
                                 <div>
-                                    <h3 className="font-bold text-red-600 mb-3">FOREIGN TOURS</h3>
+                                    <h3 className="font-bold text-red-600 mb-3">FOREIGN TOURS</h3>  
                                     <ul className="space-y-2">
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Bhutan - Thimpu & Paro</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Dubai</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Nepal & Kathmandu</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Thailand & Bangkok</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Lakshadweep</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Singapore</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Malaysia</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Bali</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Maldives</a></li>
+                                        <li><a href="/bhutan" className="text-gray-700 hover:text-red-600 block py-1">Bhutan - Thimpu & Paro</a></li>
+                                        <li><a href="/dubai" className="text-gray-700 hover:text-red-600 block py-1">Dubai</a></li>
+                                        <li><a href="/nepal" className="text-gray-700 hover:text-red-600 block py-1">Nepal & Kathmandu</a></li>
+                                        <li><a href="/thailand" className="text-gray-700 hover:text-red-600 block py-1">Thailand & Bangkok</a></li>
+                                        <li><a href="/lakshadweep" className="text-gray-700 hover:text-red-600 block py-1">Lakshadweep</a></li>
+                                        <li><a href="/singapore" className="text-gray-700 hover:text-red-600 block py-1">Singapore</a></li>
+                                        <li><a href="/malaysia" className="text-gray-700 hover:text-red-600 block py-1">Malaysia</a></li>
+                                        <li><a href="/bali" className="text-gray-700 hover:text-red-600 block py-1">Bali</a></li>
+                                        <li><a href="/maldives" className="text-gray-700 hover:text-red-600 block py-1">Maldives</a></li>
                                     </ul>
                                 </div>
                             </div>
