@@ -614,12 +614,9 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$left$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronLeft$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/chevron-left.js [app-client] (ecmascript) <export default as ChevronLeft>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/chevron-right.js [app-client] (ecmascript) <export default as ChevronRight>");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
-;
 ;
 ;
 const images = [
@@ -645,159 +642,131 @@ function HeroSection() {
         }
     }["HeroSection.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "relative bg-[#f6efe6] overflow-hidden py-24",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-yellow-500 font-semibold mb-4",
-                                children: "✨ Bengal Tourism Welcomes You"
-                            }, void 0, false, {
-                                fileName: "[project]/components/HeroSection.tsx",
-                                lineNumber: 34,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "text-5xl font-bold text-gray-900 leading-tight mb-6",
-                                children: [
-                                    "Explore, Experience ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                        fileName: "[project]/components/HeroSection.tsx",
-                                        lineNumber: 39,
-                                        columnNumber: 45
-                                    }, this),
-                                    " & Expect More Than ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                        fileName: "[project]/components/HeroSection.tsx",
-                                        lineNumber: 39,
-                                        columnNumber: 71
-                                    }, this),
-                                    " Your Expectation."
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/components/HeroSection.tsx",
-                                lineNumber: 38,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-gray-600 max-w-md mb-10",
-                                children: "From history and heritage to food, festivals and modern life, Bengal welcomes you with stories that stay forever."
-                            }, void 0, false, {
-                                fileName: "[project]/components/HeroSection.tsx",
-                                lineNumber: 42,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex flex-wrap items-center gap-6",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "bg-yellow-500 text-black px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:bg-yellow-400 transition transform hover:scale-105",
-                                        children: "Find out more"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/HeroSection.tsx",
-                                        lineNumber: 50,
-                                        columnNumber: 25
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "border-2 border-yellow-600 text-yellow-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-600 hover:text-white transition transform hover:scale-105",
-                                        children: "Contact Us"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/HeroSection.tsx",
-                                        lineNumber: 54,
-                                        columnNumber: 25
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/components/HeroSection.tsx",
-                                lineNumber: 49,
-                                columnNumber: 21
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/HeroSection.tsx",
-                        lineNumber: 33,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "relative h-[520px] lg:h-[640px]",
-                        children: [
-                            images.map((img, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: `absolute inset-0 transition-all duration-1000 ease-out
+        className: "relative overflow-hidden bg-[#f6efe6]",
+        style: {
+            backgroundImage: 'url(/home4-banner-bg.png)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            minHeight: '80vh'
+        },
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center min-h-[70vh]",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-yellow-500 font-semibold mb-4",
+                            children: "✨ Bengal Tourism Welcomes You"
+                        }, void 0, false, {
+                            fileName: "[project]/components/HeroSection.tsx",
+                            lineNumber: 40,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                            className: "text-5xl font-bold text-gray-900 leading-tight mb-6",
+                            children: [
+                                "Explore, Experience ",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                    fileName: "[project]/components/HeroSection.tsx",
+                                    lineNumber: 45,
+                                    columnNumber: 45
+                                }, this),
+                                " & Expect More Than ",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                    fileName: "[project]/components/HeroSection.tsx",
+                                    lineNumber: 45,
+                                    columnNumber: 71
+                                }, this),
+                                " Your Expectation."
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/HeroSection.tsx",
+                            lineNumber: 44,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-gray-600 max-w-md mb-10",
+                            children: "From history and heritage to food, festivals and modern life, Bengal welcomes you with stories that stay forever."
+                        }, void 0, false, {
+                            fileName: "[project]/components/HeroSection.tsx",
+                            lineNumber: 48,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex flex-wrap items-center gap-6",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    className: "bg-yellow-500 text-black px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:bg-yellow-400 transition transform hover:scale-105",
+                                    children: "Find out more"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/HeroSection.tsx",
+                                    lineNumber: 56,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    className: "border-2 border-yellow-600 text-yellow-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-600 hover:text-white transition transform hover:scale-105",
+                                    children: "Contact Us"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/HeroSection.tsx",
+                                    lineNumber: 60,
+                                    columnNumber: 25
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/HeroSection.tsx",
+                            lineNumber: 55,
+                            columnNumber: 21
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/HeroSection.tsx",
+                    lineNumber: 39,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "relative h-[420px] lg:h-[340px]",
+                    children: [
+                        images.map((img, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: `absolute inset-0 transition-all duration-1000 ease-out
                 ${i === active ? "opacity-100 scale-100" : "opacity-0 scale-105"}
               `,
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        src: img,
-                                        alt: "Travel",
-                                        fill: true,
-                                        className: "object-cover ",
-                                        priority: i === 0
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/HeroSection.tsx",
-                                        lineNumber: 72,
-                                        columnNumber: 29
-                                    }, this)
-                                }, i, false, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    src: img,
+                                    alt: "Travel",
+                                    fill: true,
+                                    className: "object-cover ",
+                                    priority: i === 0
+                                }, void 0, false, {
                                     fileName: "[project]/components/HeroSection.tsx",
-                                    lineNumber: 66,
-                                    columnNumber: 25
-                                }, this)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "absolute -bottom-30 -right-30 w-54 h-54 bg-[#f6efe6] rotate-45"
-                            }, void 0, false, {
-                                fileName: "[project]/components/HeroSection.tsx",
-                                lineNumber: 83,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                onClick: ()=>setActive((active - 1 + images.length) % images.length),
-                                className: "absolute -bottom-10 -right-5 w-12 h-12 rounded-full border border-gray-700 flex items-center justify-center bg-white/80 hover:bg-white transition",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$left$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronLeft$3e$__["ChevronLeft"], {}, void 0, false, {
-                                    fileName: "[project]/components/HeroSection.tsx",
-                                    lineNumber: 92,
-                                    columnNumber: 25
+                                    lineNumber: 78,
+                                    columnNumber: 29
                                 }, this)
-                            }, void 0, false, {
+                            }, i, false, {
                                 fileName: "[project]/components/HeroSection.tsx",
-                                lineNumber: 88,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                onClick: ()=>setActive((active + 1) % images.length),
-                                className: "absolute -bottom-10 -right-20 w-12 h-12 rounded-full border border-gray-700 flex items-center justify-center bg-white/80 hover:bg-white transition",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {}, void 0, false, {
-                                    fileName: "[project]/components/HeroSection.tsx",
-                                    lineNumber: 99,
-                                    columnNumber: 25
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/components/HeroSection.tsx",
-                                lineNumber: 95,
-                                columnNumber: 21
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/HeroSection.tsx",
-                        lineNumber: 62,
-                        columnNumber: 17
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/components/HeroSection.tsx",
-                lineNumber: 30,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute inset-6 border border-dashed border-black/10 pointer-events-none"
-            }, void 0, false, {
-                fileName: "[project]/components/HeroSection.tsx",
-                lineNumber: 106,
-                columnNumber: 13
-            }, this)
-        ]
-    }, void 0, true, {
+                                lineNumber: 72,
+                                columnNumber: 25
+                            }, this)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "absolute -bottom-30 -right-30 w-54 h-54 bg-[#f6efe6] rotate-45"
+                        }, void 0, false, {
+                            fileName: "[project]/components/HeroSection.tsx",
+                            lineNumber: 89,
+                            columnNumber: 21
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/HeroSection.tsx",
+                    lineNumber: 68,
+                    columnNumber: 17
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/HeroSection.tsx",
+            lineNumber: 36,
+            columnNumber: 13
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/components/HeroSection.tsx",
         lineNumber: 24,
         columnNumber: 9
@@ -816,24 +785,19 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 __turbopack_context__.s([
     "default",
-    ()=>PackagesHorizontalSlider,
-    "packages",
-    ()=>packages
+    ()=>PackagesHorizontalSlider
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/gsap/index.js [app-client] (ecmascript) <locals>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$ScrollTrigger$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/gsap/ScrollTrigger.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$compass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Compass$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/compass.js [app-client] (ecmascript) <export default as Compass>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/mountain.js [app-client] (ecmascript) <export default as Mountain>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trees$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Trees$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/trees.js [app-client] (ecmascript) <export default as Trees>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/waves.js [app-client] (ecmascript) <export default as Waves>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/building.js [app-client] (ecmascript) <export default as Building>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/heart.js [app-client] (ecmascript) <export default as Heart>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/calendar.js [app-client] (ecmascript) <export default as Calendar>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2d$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPinCheck$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/map-pin-check.js [app-client] (ecmascript) <export default as MapPinCheck>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-right.js [app-client] (ecmascript) <export default as ArrowRight>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trees$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Trees$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/trees.js [app-client] (ecmascript) <export default as Trees>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/building.js [app-client] (ecmascript) <export default as Building>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/waves.js [app-client] (ecmascript) <export default as Waves>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/mountain.js [app-client] (ecmascript) <export default as Mountain>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$compass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Compass$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/compass.js [app-client] (ecmascript) <export default as Compass>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
@@ -842,216 +806,679 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-;
-;
-const packages = [
-    {
-        slug: "darjeeling",
-        title: "Darjeeling",
-        subtitle: "Queen of the Hills",
-        tag: "Himalayan Paradise",
-        duration: "5N & 6D",
-        price: "₹12,999",
-        desc: "A refreshing hill getaway with misty mountains, tea gardens, and colonial charm.",
-        locations: "Darjeeling, Kalimpong, Kurseong, Mirik",
-        image: "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200",
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
-        iconColor: "text-red-500",
-        route: "/darjeeling"
-    },
-    {
-        slug: "dooars",
-        title: "Dooars",
-        subtitle: "Wildlife Paradise",
-        tag: "Wildlife Paradise",
-        duration: "5N & 6D",
-        price: "₹10,999",
-        desc: "An immersive nature escape through dense forests, rivers, and wildlife zones.",
-        locations: "Dooars, Jaldapara, Buxa, Chalsa",
-        image: "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200",
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trees$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Trees$3e$__["Trees"],
-        iconColor: "text-green-500",
-        route: "/dooars"
-    },
-    {
-        slug: "digha",
-        title: "Digha",
-        subtitle: "Beach Paradise",
-        tag: "Beach Paradise",
-        duration: "4N & 5D",
-        price: "₹8,999",
-        desc: "A relaxing coastal retreat with serene beaches and scenic sunsets.",
-        locations: "Digha, Mandarmoni, Shankarpur, Tajpur",
-        image: "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?w=1200",
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"],
-        iconColor: "text-blue-500",
-        route: "/digha"
-    },
-    {
-        slug: "kolkata",
-        title: "Kolkata",
-        subtitle: "City of Joy",
-        tag: "Cultural Heritage",
-        duration: "Custom",
-        price: "₹6,999",
-        desc: "Discover art, culture, history, and flavors in India’s cultural capital.",
-        locations: "Kolkata",
-        image: "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200",
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building$3e$__["Building"],
-        iconColor: "text-purple-500",
-        route: "/kolkata"
-    },
-    {
-        slug: "sundarban",
-        title: "Sundarban",
-        subtitle: "Mangrove Forest",
-        tag: "Mangrove Forest",
-        duration: "3N & 4D",
-        price: "₹9,999",
-        desc: "A thrilling mangrove adventure through rivers, creeks, and wildlife habitats.",
-        locations: "Sundarban, Sajnekhali, Godkhali, Kakdwip",
-        image: "https://images.unsplash.com/photo-1580655653885-65763b2597d0?w=1200",
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trees$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Trees$3e$__["Trees"],
-        iconColor: "text-emerald-500",
-        route: "/sundarban"
-    },
-    {
-        slug: "puri-konark",
-        title: "Puri & Konark",
-        subtitle: "Spiritual Journey",
-        tag: "Temple Tour",
-        duration: "5N & 6D",
-        price: "₹11,999",
-        desc: "A soulful journey through ancient temples and coastal spirituality.",
-        locations: "Puri, Bhubaneswar, Konark, Chilika, Gopalpur",
-        image: "https://images.unsplash.com/photo-1602941525421-8f8b81d6d77c?w=1200",
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building$3e$__["Building"],
-        iconColor: "text-orange-500",
-        route: "/odisha-tourism"
-    },
-    {
-        slug: "sikkim-gangtok",
-        title: "Sikkim & Gangtok",
-        subtitle: "Himalayan Beauty",
-        tag: "Mountain Escape",
-        duration: "5N & 6D",
-        price: "₹13,999",
-        desc: "Explore pristine landscapes, monasteries, and snow-clad mountains.",
-        locations: "Sikkim, Gangtok, Pelling, Lachen, Lachung",
-        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200",
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
-        iconColor: "text-indigo-500",
-        route: "/sikkim-tourism"
-    },
-    {
-        slug: "bhutan-paro",
-        title: "Bhutan & Paro",
-        subtitle: "Land of Thunder Dragon",
-        tag: "Temple Tour",
-        duration: "4N & 5D",
-        price: "₹15,999",
-        desc: "A peaceful escape into Bhutan’s spiritual culture and scenic valleys.",
-        locations: "Paro, Thimphu, Punakha, Lhuentse, Lhakhang",
-        image: "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=1200",
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$compass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Compass$3e$__["Compass"],
-        iconColor: "text-pink-500",
-        route: "/bhutan-tour"
-    },
-    {
-        slug: "bangkok-pattaya",
-        title: "Bangkok & Pattaya",
-        subtitle: "Thai Adventure",
-        tag: "City & Beach",
-        duration: "4N & 5D",
-        price: "₹18,999",
-        desc: "Experience vibrant nightlife, beaches, temples, and Thai culture.",
-        locations: "Bangkok, Pattaya, Ayutthaya, Chiang Mai, Chiang Rai",
-        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200",
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$compass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Compass$3e$__["Compass"],
-        iconColor: "text-teal-500",
-        route: "/thailand-tour"
-    },
-    {
-        slug: "nepal-kathmandu",
-        title: "Nepal / Kathmandu",
-        subtitle: "Himalayan Kingdom",
-        tag: "Mountain Escape",
-        duration: "4N & 5D",
-        price: "₹14,999",
-        desc: "A classic Himalayan journey blending culture, nature, and adventure.",
-        locations: "Kathmandu, Pokhara, Chitwan, Lhasa",
-        image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200",
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
-        iconColor: "text-red-500",
-        route: "/nepal-tour"
-    }
-];
-__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].registerPlugin(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$ScrollTrigger$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ScrollTrigger"]);
+// Package categories with their respective packages
+const packageCategories = {
+    "BENGAL BECKONS": [
+        {
+            slug: "darjeeling-queen-hills",
+            title: "Darjeeling",
+            subtitle: "Queen of the Hills",
+            tag: "Himalayan Paradise",
+            duration: "5N & 6D",
+            price: "₹12,999",
+            desc: "A refreshing hill getaway with misty mountains, tea gardens, and colonial charm.",
+            locations: "Darjeeling, Kalimpong, Kurseong, Mirik",
+            image: "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
+            iconColor: "text-red-500",
+            route: "/darjeeling",
+            showBookNow: true
+        },
+        {
+            slug: "digha-sea-sand",
+            title: "Digha",
+            subtitle: "Sea & Sand of the East",
+            tag: "Beach Paradise",
+            duration: "4N & 5D",
+            price: "₹8,999",
+            desc: "A relaxing coastal retreat with serene beaches and scenic sunsets.",
+            locations: "Digha, Mandarmoni, Shankarpur, Tajpur",
+            image: "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"],
+            iconColor: "text-blue-500",
+            route: "/digha",
+            showBookNow: true
+        },
+        {
+            slug: "sundarban-wildlife",
+            title: "Sundarban",
+            subtitle: "Largest Mangrove of the World",
+            tag: "Wildlife Forest & Jungle Safari",
+            duration: "3N & 4D",
+            price: "₹9,999",
+            desc: "A thrilling mangrove adventure through rivers, creeks, and wildlife habitats.",
+            locations: "Sundarban, Sajnekhali, Godkhali, Kakdwip",
+            image: "https://images.unsplash.com/photo-1580655653885-65763b2599a0?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trees$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Trees$3e$__["Trees"],
+            iconColor: "text-emerald-500",
+            route: "/sundarban",
+            showBookNow: true
+        },
+        {
+            slug: "kolkata-city-joy",
+            title: "Kolkata",
+            subtitle: "City of Joy",
+            tag: "Cultural Heritage",
+            duration: "Custom",
+            price: "₹6,999",
+            desc: "Discover art, culture, history, and flavors in India's cultural capital.",
+            locations: "Kolkata",
+            image: "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building$3e$__["Building"],
+            iconColor: "text-purple-500",
+            route: "/kolkata",
+            showBookNow: true
+        },
+        {
+            slug: "bakkhali-beach",
+            title: "Bakkhali",
+            subtitle: "Serene Beach Escape",
+            tag: "Beach Paradise",
+            duration: "4N & 5D",
+            price: "₹7,999",
+            desc: "A serene coastal escape with pristine beaches and swaying palms.",
+            locations: "Bakkhali, Henry Island, Jambudwip, Frasergunj",
+            image: "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"],
+            iconColor: "text-cyan-500",
+            route: "/bakkhali",
+            showBookNow: true
+        }
+    ],
+    "HOT SPOTS": [
+        {
+            slug: "darjeeling-kalimpong",
+            title: "Darjeeling & Kalimpong",
+            subtitle: "Hill Station Paradise",
+            tag: "Mountain Escape",
+            duration: "4N & 5D",
+            price: "₹11,999",
+            desc: "Experience the breathtaking beauty of Himalayan hills with tea gardens and mountain views.",
+            locations: "Darjeeling, Kalimpong, Gangtok",
+            image: "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
+            iconColor: "text-red-500",
+            route: "/darjeeling-kalimpong",
+            showBookNow: true
+        },
+        {
+            slug: "dooars-lataguri-jaldapara",
+            title: "Dooars - Lataguri & Jaldapara",
+            subtitle: "Wildlife Paradise",
+            tag: "Forest Safari",
+            duration: "3N & 4D",
+            price: "₹9,999",
+            desc: "Explore the lush forests and wildlife sanctuaries of North Bengal.",
+            locations: "Lataguri, Jaldapara, Gorumara",
+            image: "https://images.unsplash.com/photo-1580655653885-65763b2599a0?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trees$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Trees$3e$__["Trees"],
+            iconColor: "text-emerald-500",
+            route: "/dooars-tour",
+            showBookNow: true
+        },
+        {
+            slug: "digha-mandarmoni",
+            title: "Digha & Mandarmoni",
+            subtitle: "Beach Paradise",
+            tag: "Coastal Retreat",
+            duration: "3N & 4D",
+            price: "₹8,999",
+            desc: "Relax on the pristine beaches of Bengal's most popular coastal destinations.",
+            locations: "Digha, Mandarmoni, Shankarpur",
+            image: "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"],
+            iconColor: "text-blue-500",
+            route: "/digha-mandarmoni",
+            showBookNow: true
+        },
+        {
+            slug: "bakkhali-beach",
+            title: "Bakkhali",
+            subtitle: "Serene Beach Escape",
+            tag: "Beach Paradise",
+            duration: "2N & 3D",
+            price: "₹7,999",
+            desc: "Discover the tranquil beaches and coastal beauty of South Bengal.",
+            locations: "Bakkhali, Henry Island, Frasergunj",
+            image: "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"],
+            iconColor: "text-cyan-500",
+            route: "/bakkhali",
+            showBookNow: true
+        },
+        {
+            slug: "kolkata-city",
+            title: "Kolkata",
+            subtitle: "Cultural Capital",
+            tag: "Heritage Tour",
+            duration: "2N & 3D",
+            price: "₹6,999",
+            desc: "Immerse yourself in the rich culture, history, and flavors of the City of Joy.",
+            locations: "Kolkata, Howrah, Belur Math",
+            image: "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building$3e$__["Building"],
+            iconColor: "text-purple-500",
+            route: "/kolkata",
+            showBookNow: true
+        },
+        {
+            slug: "regional-bengal",
+            title: "Regional Bengal",
+            subtitle: "Complete Bengal Experience",
+            tag: "Cultural Tour",
+            duration: "6N & 7D",
+            price: "₹15,999",
+            desc: "A comprehensive tour covering the diverse landscapes and cultures of Bengal.",
+            locations: "Kolkata, Sundarban, Digha, Darjeeling",
+            image: "https://images.unsplash.com/photo-1528709673176-3c6c1e8f1c3e?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$compass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Compass$3e$__["Compass"],
+            iconColor: "text-orange-500",
+            route: "/regional-bengal",
+            showBookNow: true
+        }
+    ],
+    "OTHERS": [
+        {
+            slug: "puri-odisha",
+            title: "Puri & Odisha",
+            subtitle: "Temple Paradise",
+            tag: "Spiritual Journey",
+            duration: "4N & 5D",
+            price: "₹11,999",
+            desc: "Explore ancient temples, beaches, and rich cultural heritage of Odisha.",
+            locations: "Puri, Bhubaneswar, Konark, Chilika",
+            image: "https://images.unsplash.com/photo-1602941525421-8f8b81d8c3a5e?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building$3e$__["Building"],
+            iconColor: "text-orange-500",
+            route: "/odisha-tourism",
+            showBookNow: true
+        },
+        {
+            slug: "sikkim-gangtok",
+            title: "Sikkim & Gangtok",
+            subtitle: "Himalayan Beauty",
+            tag: "Mountain Escape",
+            duration: "5N & 6D",
+            price: "₹13,999",
+            desc: "Discover pristine landscapes, monasteries, and snow-clad mountains.",
+            locations: "Sikkim, Gangtok, Pelling, Lachen",
+            image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
+            iconColor: "text-indigo-500",
+            route: "/sikkim-tourism",
+            showBookNow: true
+        },
+        {
+            slug: "silk-route",
+            title: "Silk Route",
+            subtitle: "Ancient Trade Path",
+            tag: "Mountain Adventure",
+            duration: "6N & 7D",
+            price: "₹14,999",
+            desc: "Journey through the historic Silk Route with breathtaking mountain views.",
+            locations: "Gangtok, Zuluk, Nathula, Tsomgo Lake",
+            image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$compass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Compass$3e$__["Compass"],
+            iconColor: "text-amber-600",
+            route: "/silk-route-tour",
+            showBookNow: true
+        },
+        {
+            slug: "goa-beaches",
+            title: "Goa",
+            subtitle: "Beach Paradise",
+            tag: "Coastal Fun",
+            duration: "4N & 5D",
+            price: "₹12,999",
+            desc: "Experience vibrant beaches, nightlife, and Portuguese heritage.",
+            locations: "North Goa, South Goa, Panjim, Old Goa",
+            image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f1?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"],
+            iconColor: "text-teal-500",
+            route: "/goa-tour",
+            showBookNow: true
+        },
+        {
+            slug: "himachal-tour",
+            title: "Himachal",
+            subtitle: "Land of Gods",
+            tag: "Hill Station",
+            duration: "5N & 6D",
+            price: "₹13,999",
+            desc: "Explore scenic hill stations, temples, and adventure activities.",
+            locations: "Shimla, Manali, Dharamshala, Kullu",
+            image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
+            iconColor: "text-green-600",
+            route: "/himachal-tourism",
+            showBookNow: true
+        },
+        {
+            slug: "jammu-kashmir",
+            title: "Jammu & Kashmir",
+            subtitle: "Paradise on Earth",
+            tag: "Heavenly Beauty",
+            duration: "6N & 7D",
+            price: "₹16,999",
+            desc: "Experience the breathtaking valleys, lakes, and Mughal gardens.",
+            locations: "Srinagar, Gulmarg, Pahalgam, Sonamarg",
+            image: "https://images.unsplash.com/photo-1587593813483-9bb292317108?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
+            iconColor: "text-blue-600",
+            route: "/kashmir-tour",
+            showBookNow: true
+        }
+    ],
+    "EXCLUSIVE": [
+        {
+            slug: "medical-tourism",
+            title: "Medical Tourism",
+            subtitle: "Healthcare Journey",
+            tag: "Wellness & Health",
+            duration: "Custom",
+            price: "Contact for Price",
+            desc: "Access world-class medical facilities and expert healthcare services for your treatment needs.",
+            locations: "Kolkata, Delhi, Mumbai, Chennai",
+            image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building$3e$__["Building"],
+            iconColor: "text-blue-500",
+            route: "/medical-tourism",
+            showBookNow: true
+        },
+        {
+            slug: "air-ambulance",
+            title: "Air Ambulance Service",
+            subtitle: "Emergency Medical Transport",
+            tag: "Emergency Service",
+            duration: "24/7 Service",
+            price: "Contact for Price",
+            desc: "Rapid and reliable air ambulance services for critical medical emergencies.",
+            locations: "Pan India Service",
+            image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$compass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Compass$3e$__["Compass"],
+            iconColor: "text-red-600",
+            route: "/air-ambulance",
+            showBookNow: true
+        },
+        {
+            slug: "wellness-tourism",
+            title: "Wellness Tourism",
+            subtitle: "Spa-Massage-Yoga",
+            tag: "Relaxation & Rejuvenation",
+            duration: "3N & 4D",
+            price: "₹15,999",
+            desc: "Rejuvenate your mind, body, and soul with premium spa treatments and yoga sessions.",
+            locations: "Rishikesh, Kerala, Goa",
+            image: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trees$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Trees$3e$__["Trees"],
+            iconColor: "text-green-500",
+            route: "/wellness-tourism",
+            showBookNow: true
+        },
+        {
+            slug: "tea-tourism",
+            title: "Tea Tourism",
+            subtitle: "Tea Garden Experience",
+            tag: "Cultural Experience",
+            duration: "2N & 3D",
+            price: "₹8,999",
+            desc: "Explore lush tea gardens, learn tea processing, and enjoy authentic tea tasting sessions.",
+            locations: "Darjeeling, Assam, Munnar",
+            image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
+            iconColor: "text-emerald-600",
+            route: "/tea-tourism",
+            showBookNow: true
+        },
+        {
+            slug: "hotel-resort",
+            title: "Hotel-Resort-Guest House",
+            subtitle: "Premium Accommodation",
+            tag: "Luxury Stay",
+            duration: "Flexible",
+            price: "Contact for Price",
+            desc: "Exclusive accommodations ranging from luxury resorts to cozy guest houses across India.",
+            locations: "Pan India",
+            image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building$3e$__["Building"],
+            iconColor: "text-purple-500",
+            route: "/hotel-resort",
+            showBookNow: true
+        }
+    ],
+    "FOREIGN TOURS": [
+        {
+            slug: "bhutan-thimpu-paro",
+            title: "Bhutan-Thimpu & Paro",
+            subtitle: "Land of Thunder Dragon",
+            tag: "Mountain Kingdom",
+            duration: "5N & 6D",
+            price: "₹18,999",
+            desc: "Explore the serene beauty and spiritual culture of Bhutan's Himalayan kingdom.",
+            locations: "Thimphu, Paro, Punakha, Phobjikha",
+            image: "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
+            iconColor: "text-pink-500",
+            route: "/bhutan-tour",
+            showBookNow: true
+        },
+        {
+            slug: "dubai-tour",
+            title: "Dubai",
+            subtitle: "City of Gold",
+            tag: "Luxury & Adventure",
+            duration: "4N & 5D",
+            price: "₹25,999",
+            desc: "Experience ultra-modern architecture, luxury shopping, and desert adventures.",
+            locations: "Dubai, Abu Dhabi, Sharjah",
+            image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building$3e$__["Building"],
+            iconColor: "text-amber-500",
+            route: "/dubai-tour",
+            showBookNow: true
+        },
+        {
+            slug: "nepal-kathmandu",
+            title: "Nepal & Kathmandu",
+            subtitle: "Himalayan Kingdom",
+            tag: "Mountain Escape",
+            duration: "4N & 5D",
+            price: "₹14,999",
+            desc: "A classic Himalayan journey blending culture, nature, and adventure.",
+            locations: "Kathmandu, Pokhara, Chitwan, Nagarkot",
+            image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
+            iconColor: "text-red-500",
+            route: "/nepal-tour",
+            showBookNow: true
+        },
+        {
+            slug: "thailand-bangkok",
+            title: "Thailand & Bangkok",
+            subtitle: "Land of Smiles",
+            tag: "Tropical Paradise",
+            duration: "5N & 6D",
+            price: "₹22,999",
+            desc: "Discover vibrant nightlife, beaches, temples, and Thai culture.",
+            locations: "Bangkok, Pattaya, Phuket, Krabi",
+            image: "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"],
+            iconColor: "text-teal-500",
+            route: "/thailand-tour",
+            showBookNow: true
+        },
+        {
+            slug: "lakshadweep",
+            title: "Lakshadweep",
+            subtitle: "Coral Paradise",
+            tag: "Island Escape",
+            duration: "4N & 5D",
+            price: "₹20,999",
+            desc: "Explore pristine coral islands, crystal clear waters, and marine life.",
+            locations: "Kavaratti, Agatti, Bangaram, Kadmat",
+            image: "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"],
+            iconColor: "text-blue-500",
+            route: "/lakshadweep-tour",
+            showBookNow: true
+        },
+        {
+            slug: "singapore-tour",
+            title: "Singapore",
+            subtitle: "Lion City",
+            tag: "Modern Metropolis",
+            duration: "4N & 5D",
+            price: "₹24,999",
+            desc: "Experience futuristic architecture, gardens, and multicultural attractions.",
+            locations: "Singapore City, Sentosa, Marina Bay",
+            image: "https://images.unsplash.com/photo-1549180030-48bf079e4fd1?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building$3e$__["Building"],
+            iconColor: "text-red-600",
+            route: "/singapore-tour",
+            showBookNow: true
+        },
+        {
+            slug: "malaysia-tour",
+            title: "Malaysia",
+            subtitle: "Truly Asia",
+            tag: "Cultural Fusion",
+            duration: "5N & 6D",
+            price: "₹21,999",
+            desc: "Discover diverse cultures, modern cities, and tropical rainforests.",
+            locations: "Kuala Lumpur, Penang, Langkawi, Genting",
+            image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$compass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Compass$3e$__["Compass"],
+            iconColor: "text-blue-600",
+            route: "/malaysia-tour",
+            showBookNow: true
+        },
+        {
+            slug: "bali-tour",
+            title: "Bali",
+            subtitle: "Island of Gods",
+            tag: "Tropical Paradise",
+            duration: "5N & 6D",
+            price: "₹23,999",
+            desc: "Experience spiritual temples, rice terraces, and pristine beaches.",
+            locations: "Ubud, Kuta, Seminyak, Nusa Dua",
+            image: "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trees$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Trees$3e$__["Trees"],
+            iconColor: "text-green-600",
+            route: "/bali-tour",
+            showBookNow: true
+        },
+        {
+            slug: "maldives-tour",
+            title: "Maldives",
+            subtitle: "Tropical Heaven",
+            tag: "Luxury Islands",
+            duration: "5N & 6D",
+            price: "₹35,999",
+            desc: "Relax in overwater villas with crystal clear waters and coral reefs.",
+            locations: "Male, Atolls, Resort Islands",
+            image: "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"],
+            iconColor: "text-cyan-600",
+            route: "/maldives-tour",
+            showBookNow: true
+        }
+    ],
+    "PACKAGES": [
+        {
+            slug: "darjeeling",
+            title: "Darjeeling",
+            subtitle: "Queen of the Hills",
+            tag: "Himalayan Paradise",
+            duration: "5N & 6D",
+            price: "₹12,999",
+            desc: "A refreshing hill getaway with misty mountains, tea gardens, and colonial charm.",
+            locations: "Darjeeling, Kalimpong, Kurseong, Mirik",
+            image: "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
+            iconColor: "text-red-500",
+            route: "/darjeeling",
+            showBookNow: false
+        },
+        {
+            slug: "digha",
+            title: "Digha",
+            subtitle: "Beach Paradise",
+            tag: "Beach Paradise",
+            duration: "4N & 5D",
+            price: "₹8,999",
+            desc: "A relaxing coastal retreat with serene beaches and scenic sunsets.",
+            locations: "Digha, Mandarmoni, Shankarpur, Tajpur",
+            image: "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"],
+            iconColor: "text-blue-500",
+            route: "/digha"
+        },
+        {
+            slug: "kolkata",
+            title: "Kolkata",
+            subtitle: "City of Joy",
+            tag: "Cultural Heritage",
+            duration: "Custom",
+            price: "₹6,999",
+            desc: "Discover art, culture, history, and flavors in India's cultural capital.",
+            locations: "Kolkata",
+            image: "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building$3e$__["Building"],
+            iconColor: "text-purple-500",
+            route: "/kolkata"
+        },
+        {
+            slug: "sundarban",
+            title: "Sundarban",
+            subtitle: "Mangrove Forest",
+            tag: "Mangrove Forest",
+            duration: "3N & 4D",
+            price: "₹9,999",
+            desc: "A thrilling mangrove adventure through rivers, creeks, and wildlife habitats.",
+            locations: "Sundarban, Sajnekhali, Godkhali, Kakdwip",
+            image: "https://images.unsplash.com/photo-1580655653885-65763b2599a0?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trees$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Trees$3e$__["Trees"],
+            iconColor: "text-emerald-500",
+            route: "/sundarban"
+        },
+        {
+            slug: "puri-konark",
+            title: "Puri & Konark",
+            subtitle: "Spiritual Journey",
+            tag: "Temple Tour",
+            duration: "5N & 6D",
+            price: "₹11,999",
+            desc: "A soulful journey through ancient temples and coastal spirituality.",
+            locations: "Puri, Bhubaneswar, Konark, Chilika, Gopalpur",
+            image: "https://images.unsplash.com/photo-1602941525421-8f8b81d8c3a5e?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building$3e$__["Building"],
+            iconColor: "text-orange-500",
+            route: "/odisha-tourism"
+        },
+        {
+            slug: "sikkim-gangtok",
+            title: "Sikkim & Gangtok",
+            subtitle: "Himalayan Beauty",
+            tag: "Mountain Escape",
+            duration: "5N & 6D",
+            price: "₹13,999",
+            desc: "Explore pristine landscapes, monasteries, and snow-clad mountains.",
+            locations: "Sikkim, Gangtok, Pelling, Lachen, Lachung",
+            image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
+            iconColor: "text-indigo-500",
+            route: "/sikkim-tourism"
+        },
+        {
+            slug: "bakkhali",
+            title: "Bakkhali",
+            subtitle: "Beach Paradise",
+            tag: "Beach Paradise",
+            duration: "4N & 5D",
+            price: "₹7,999",
+            desc: "A serene coastal escape with pristine beaches and swaying palms.",
+            locations: "Bakkhali, Henry Island, Jambudwip, Frasergunj",
+            image: "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"],
+            iconColor: "text-cyan-500",
+            route: "/bakkhali"
+        },
+        {
+            slug: "murshidabad",
+            title: "Murshidabad",
+            subtitle: "Historical City",
+            tag: "Heritage Tour",
+            duration: "3N & 4D",
+            price: "₹8,999",
+            desc: "Explore the rich history and cultural heritage of this ancient city.",
+            locations: "Murshidabad, Hazardwari Palace, Katra Mosque",
+            image: "https://images.unsplash.com/photo-1528709673176-3c6c1e8f1c3e?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building$3e$__["Building"],
+            iconColor: "text-amber-600",
+            route: "/murshidabad"
+        },
+        {
+            slug: "bhutan-paro",
+            title: "Bhutan & Paro",
+            subtitle: "Land of Thunder Dragon",
+            tag: "Temple Tour",
+            duration: "4N & 5D",
+            price: "₹15,999",
+            desc: "A peaceful escape into Bhutan's spiritual culture and scenic valleys.",
+            locations: "Paro, Thimphu, Punakha, Lhuentse, Lhakhang",
+            image: "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
+            iconColor: "text-pink-500",
+            route: "/bhutan-tour"
+        },
+        {
+            slug: "andaman-nicobar-tourism",
+            title: "Andaman & Nicobar",
+            subtitle: "Island Paradise",
+            tag: "Beach & Adventure",
+            duration: "5N & 6D",
+            price: "₹18,999",
+            desc: "Discover pristine beaches, coral reefs, and tropical island adventures.",
+            locations: "Port Blair, Havelock, Neil Island, Ross Island",
+            image: "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"],
+            iconColor: "text-teal-500",
+            route: "/andaman-nicobar-tourism"
+        },
+        {
+            slug: "bangkok-pattaya",
+            title: "Bangkok & Pattaya",
+            subtitle: "Thai Adventure",
+            tag: "City & Beach",
+            duration: "4N & 5D",
+            price: "₹18,999",
+            desc: "Experience vibrant nightlife, beaches, temples, and Thai culture.",
+            locations: "Bangkok, Pattaya, Ayutthaya, Chiang Mai, Chiang Rai",
+            image: "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$compass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Compass$3e$__["Compass"],
+            iconColor: "text-teal-500",
+            route: "/thailand-tour"
+        },
+        {
+            slug: "nepal-kathmandu",
+            title: "Nepal / Kathmandu",
+            subtitle: "Himalayan Kingdom",
+            tag: "Mountain Escape",
+            duration: "4N & 5D",
+            price: "₹14,999",
+            desc: "A classic Himalayan journey blending culture, nature, and adventure.",
+            locations: "Kathmandu, Pokhara, Chitwan, Lhasa",
+            image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
+            iconColor: "text-red-500",
+            route: "/nepal-tour"
+        }
+    ]
+};
 function PackagesHorizontalSlider() {
     _s();
-    const sectionRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
-    const trackRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
-        "PackagesHorizontalSlider.useEffect": ()=>{
-            const section = sectionRef.current;
-            const track = trackRef.current;
-            const getScrollAmount = {
-                "PackagesHorizontalSlider.useEffect.getScrollAmount": ()=>track.scrollWidth - window.innerWidth
-            }["PackagesHorizontalSlider.useEffect.getScrollAmount"];
-            const tween = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].to(track, {
-                x: {
-                    "PackagesHorizontalSlider.useEffect.tween": ()=>-getScrollAmount()
-                }["PackagesHorizontalSlider.useEffect.tween"],
-                ease: "power1.out"
-            });
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$ScrollTrigger$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ScrollTrigger"].create({
-                trigger: section,
-                start: "top top",
-                end: {
-                    "PackagesHorizontalSlider.useEffect": ()=>`+=${getScrollAmount()}`
-                }["PackagesHorizontalSlider.useEffect"],
-                pin: true,
-                scrub: 1.5,
-                anticipatePin: 1,
-                animation: tween,
-                invalidateOnRefresh: true
-            });
-            const onResize = {
-                "PackagesHorizontalSlider.useEffect.onResize": ()=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$ScrollTrigger$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ScrollTrigger"].refresh()
-            }["PackagesHorizontalSlider.useEffect.onResize"];
-            window.addEventListener("resize", onResize);
-            return ({
-                "PackagesHorizontalSlider.useEffect": ()=>{
-                    window.removeEventListener("resize", onResize);
-                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$ScrollTrigger$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ScrollTrigger"].getAll().forEach({
-                        "PackagesHorizontalSlider.useEffect": (st)=>st.kill()
-                    }["PackagesHorizontalSlider.useEffect"]);
-                }
-            })["PackagesHorizontalSlider.useEffect"];
-        }
-    }["PackagesHorizontalSlider.useEffect"], []);
+    const [activeCategory, setActiveCategory] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("BENGAL BECKONS");
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        ref: sectionRef,
-        className: "relative h-screen bg-gray-50 overflow-hidden",
+        className: "relative bg-gray-50 py-24",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "max-w-7xl mx-auto px-6 pt-24 pb-10",
+                className: "max-w-7xl mx-auto px-6",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "",
+                    className: " mb-12",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex  gap-2 mb-3",
+                            className: "flex  gap-2 mb-3 ",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "text-red-600 font-semibold",
                                 children: "Popular Packages"
                             }, void 0, false, {
                                 fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                lineNumber: 219,
+                                lineNumber: 669,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                            lineNumber: 218,
+                            lineNumber: 668,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1063,381 +1490,425 @@ function PackagesHorizontalSlider() {
                                     children: "Tour Packages"
                                 }, void 0, false, {
                                     fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                    lineNumber: 224,
+                                    lineNumber: 674,
                                     columnNumber: 37
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                            lineNumber: 223,
+                            lineNumber: 673,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                    lineNumber: 217,
+                    lineNumber: 667,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                lineNumber: 216,
+                lineNumber: 666,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative",
+                className: "max-w-7xl mx-auto px-6 mb-8",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    ref: trackRef,
-                    className: " flex gap-6 pl-[max(1.5rem,calc((100vw-80rem)/2))] pr-6 ",
-                    children: packages.map((item, i)=>{
-                        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: " w-[450px] h-[600px] bg-white rounded-lg transition-all duration-300 transform \\ overflow-hidden flex-shrink-0 flex flex-col group  ",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "p-4",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "relative h-56 overflow-hidden bg-gray-200 rounded-t-base",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                src: item.image,
-                                                alt: item.title,
-                                                fill: true,
-                                                priority: i < 3,
-                                                className: " object-cover transition-transform duration-700 ease-out group-hover:scale-105 brightness-95 contrast-105 "
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                lineNumber: 253,
-                                                columnNumber: 41
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "absolute inset-0 bg-gradient-to-t from-white/20 to-transparent opacity-50"
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                lineNumber: 266,
-                                                columnNumber: 41
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "absolute top-2 left-2",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                    className: "inline-flex items-center gap-2 w-fit bg-white text-black text-sm font-medium px-3 py-2 rounded-lg shadow",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2d$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPinCheck$3e$__["MapPinCheck"], {
-                                                            className: "w-4 h-4 shrink-0"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                            lineNumber: 271,
-                                                            columnNumber: 49
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            children: item.title
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                            lineNumber: 272,
-                                                            columnNumber: 49
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
+                    className: "flex flex-wrap  gap-2 border-b border-gray-200",
+                    children: Object.keys(packageCategories).map((category)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: ()=>setActiveCategory(category),
+                            className: `px-6 py-3 text-sm transition-colors ${activeCategory === category ? "text-red-600 border-b-2 border-red-600" : "text-gray-600 hover:text-red-600 border-b-2 border-transparent"}`,
+                            children: category
+                        }, category, false, {
+                            fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                            lineNumber: 683,
+                            columnNumber: 25
+                        }, this))
+                }, void 0, false, {
+                    fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                    lineNumber: 681,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                lineNumber: 680,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "max-w-7xl mx-auto px-6",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch",
+                        children: packageCategories[activeCategory].slice(0, 6).map((item, i)=>{
+                            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: " max-w-[400px] bg-white rounded-lg transition-all duration-300 transform  overflow-hidden flex-shrink-0 flex flex-col group  ",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "p-4",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "relative h-56 overflow-hidden bg-gray-200 rounded-t-base",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: item.image,
+                                                    alt: item.title,
+                                                    fill: true,
+                                                    priority: i < 3,
+                                                    className: " object-cover transition-transform duration-700 ease-out group-hover:scale-105 brightness-95 contrast-105 "
+                                                }, void 0, false, {
                                                     fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                    lineNumber: 270,
-                                                    columnNumber: 45
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                lineNumber: 269,
-                                                columnNumber: 41
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/50 to-black/50 p-3",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "overflow-hidden",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "flex items-center gap-1 whitespace-nowrap transition-transform duration-700 ease-in-out",
-                                                        onMouseEnter: (e)=>{
-                                                            const target = e.currentTarget;
-                                                            target.style.transform = 'translateX(-20%)';
-                                                            target.style.transition = 'transform 0.7s ease-in-out';
-                                                        },
-                                                        onMouseLeave: (e)=>{
-                                                            const target = e.currentTarget;
-                                                            target.style.transform = 'translateX(0)';
-                                                            target.style.transition = 'transform 0.7s ease-in-out';
-                                                        },
-                                                        children: item.locations.split(',').map((location, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "flex items-center",
-                                                                children: [
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                        className: "text-sm text-white font-medium",
-                                                                        children: location.trim()
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                                        lineNumber: 294,
-                                                                        columnNumber: 61
-                                                                    }, this),
-                                                                    index < item.locations.split(',').length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
-                                                                        className: "w-3 h-3 text-white shrink-0 mx-1"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                                        lineNumber: 296,
-                                                                        columnNumber: 65
-                                                                    }, this)
-                                                                ]
-                                                            }, index, true, {
+                                                    lineNumber: 714,
+                                                    columnNumber: 41
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "absolute inset-0 bg-gradient-to-t from-white/20 to-transparent opacity-50"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                    lineNumber: 727,
+                                                    columnNumber: 41
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "absolute top-2 left-2",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                        className: "inline-flex items-center gap-2 w-fit bg-white text-black text-sm font-medium px-3 py-2 rounded-lg shadow",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2d$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPinCheck$3e$__["MapPinCheck"], {
+                                                                className: "w-4 h-4 shrink-0"
+                                                            }, void 0, false, {
                                                                 fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                                lineNumber: 293,
-                                                                columnNumber: 57
-                                                            }, this))
+                                                                lineNumber: 732,
+                                                                columnNumber: 49
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                children: item.title
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                                lineNumber: 733,
+                                                                columnNumber: 49
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                        lineNumber: 731,
+                                                        columnNumber: 45
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                    lineNumber: 730,
+                                                    columnNumber: 41
+                                                }, this),
+                                                activeCategory === "PACKAGES" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/50 to-black/50 p-3",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "overflow-hidden",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: "flex items-center gap-1 whitespace-nowrap transition-transform duration-700 ease-in-out",
+                                                            onMouseEnter: (e)=>{
+                                                                const target = e.currentTarget;
+                                                                target.style.transform = 'translateX(-20%)';
+                                                                target.style.transition = 'transform 0.7s ease-in-out';
+                                                            },
+                                                            onMouseLeave: (e)=>{
+                                                                const target = e.currentTarget;
+                                                                target.style.transform = 'translateX(0)';
+                                                                target.style.transition = 'transform 0.7s ease-in-out';
+                                                            },
+                                                            children: item.locations.split(',').map((location, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    className: "flex items-center",
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                            className: "text-sm text-white font-medium",
+                                                                            children: location.trim()
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                                            lineNumber: 756,
+                                                                            columnNumber: 65
+                                                                        }, this),
+                                                                        index < item.locations.split(',').length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
+                                                                            className: "w-3 h-3 text-white shrink-0 mx-1"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                                            lineNumber: 758,
+                                                                            columnNumber: 69
+                                                                        }, this)
+                                                                    ]
+                                                                }, index, true, {
+                                                                    fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                                    lineNumber: 755,
+                                                                    columnNumber: 61
+                                                                }, this))
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                            lineNumber: 741,
+                                                            columnNumber: 53
+                                                        }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                        lineNumber: 279,
+                                                        lineNumber: 740,
                                                         columnNumber: 49
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                    lineNumber: 278,
+                                                    lineNumber: 739,
                                                     columnNumber: 45
                                                 }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                lineNumber: 277,
-                                                columnNumber: 41
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                            lineNumber: 713,
+                                            columnNumber: 37
+                                        }, this)
+                                    }, void 0, false, {
                                         fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                        lineNumber: 252,
-                                        columnNumber: 37
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                    lineNumber: 250,
-                                    columnNumber: 33
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "p-6 flex flex-col flex-1",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex items-center gap-2 mb-3",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(item.icon, {
-                                                    className: `w-4 h-4 ${item.iconColor}`
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                    lineNumber: 311,
-                                                    columnNumber: 41
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "text-xs font-medium text-gray-600",
-                                                    children: "Exclusive Tour"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                    lineNumber: 312,
-                                                    columnNumber: 41
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                            lineNumber: 309,
-                                            columnNumber: 37
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "mb-4",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                    className: "text-xl font-bold text-gray-900 mb-1",
-                                                    children: item.title
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                    lineNumber: 317,
-                                                    columnNumber: 41
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-sm text-gray-600",
-                                                    children: item.subtitle
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                    lineNumber: 318,
-                                                    columnNumber: 41
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                            lineNumber: 316,
-                                            columnNumber: 37
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "grid grid-cols-2 gap-3 mb-4",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "flex items-center gap-2 text-sm text-gray-600",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$compass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Compass$3e$__["Compass"], {
-                                                            className: "w-4 h-4 text-gray-400"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                            lineNumber: 324,
-                                                            columnNumber: 45
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            children: item.tag
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                            lineNumber: 325,
-                                                            columnNumber: 45
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                    lineNumber: 323,
-                                                    columnNumber: 41
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "flex items-center gap-2 text-sm text-gray-600",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
-                                                            className: "w-4 h-4 text-gray-400"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                            lineNumber: 328,
-                                                            columnNumber: 45
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            children: item.duration
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                            lineNumber: 329,
-                                                            columnNumber: 45
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                    lineNumber: 327,
-                                                    columnNumber: 41
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                            lineNumber: 322,
-                                            columnNumber: 37
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-sm text-gray-600 leading-relaxed",
-                                                children: item.desc
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                lineNumber: 335,
-                                                columnNumber: 41
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                            lineNumber: 334,
-                                            columnNumber: 37
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "mt-auto mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "flex items-baseline gap-2",
+                                        lineNumber: 711,
+                                        columnNumber: 33
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "p-6 flex flex-col flex-1",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "flex items-center gap-2 mb-3",
                                                 children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "text-sm text-gray-500",
-                                                        children: "Starting from"
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(item.icon, {
+                                                        className: `w-4 h-4 ${item.iconColor}`
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                        lineNumber: 343,
-                                                        columnNumber: 45
+                                                        lineNumber: 774,
+                                                        columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "text-2xl font-bold text-red-600",
-                                                        children: item.price
+                                                        className: "text-xs font-medium text-gray-600",
+                                                        children: "Exclusive Tour"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                        lineNumber: 344,
+                                                        lineNumber: 775,
+                                                        columnNumber: 41
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                lineNumber: 772,
+                                                columnNumber: 37
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "mb-4",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                        className: "text-xl font-bold text-gray-900 mb-1",
+                                                        children: item.title
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                        lineNumber: 780,
+                                                        columnNumber: 41
+                                                    }, this),
+                                                    activeCategory === "PACKAGES" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "text-sm text-gray-600",
+                                                        children: item.subtitle
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                        lineNumber: 782,
                                                         columnNumber: 45
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                lineNumber: 342,
-                                                columnNumber: 41
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                            lineNumber: 341,
-                                            columnNumber: 37
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex gap-2",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                    href: "/book-tour",
-                                                    className: "flex-1 flex items-center justify-center gap-2 bg-red-600 text-white py-3 rounded-xl text-sm font-semibold hover:bg-red-700 transition-colors",
+                                                lineNumber: 779,
+                                                columnNumber: 37
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "grid grid-cols-2 gap-3 mb-4",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "flex items-center gap-2 text-sm text-gray-600",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$compass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Compass$3e$__["Compass"], {
+                                                                className: "w-4 h-4 text-gray-400"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                                lineNumber: 789,
+                                                                columnNumber: 45
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                children: item.tag
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                                lineNumber: 790,
+                                                                columnNumber: 45
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                        lineNumber: 788,
+                                                        columnNumber: 41
+                                                    }, this),
+                                                    activeCategory === "PACKAGES" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "flex items-center gap-2 text-sm text-gray-600",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
+                                                                className: "w-4 h-4 text-gray-400"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                                lineNumber: 794,
+                                                                columnNumber: 49
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                children: item.duration
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                                lineNumber: 795,
+                                                                columnNumber: 49
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                        lineNumber: 793,
+                                                        columnNumber: 45
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                lineNumber: 787,
+                                                columnNumber: 37
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "mb-4",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-sm text-gray-600 leading-relaxed",
+                                                    children: item.desc
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                    lineNumber: 802,
+                                                    columnNumber: 41
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                lineNumber: 801,
+                                                columnNumber: 37
+                                            }, this),
+                                            activeCategory === "PACKAGES" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "mt-auto mb-4",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "flex items-baseline gap-2",
                                                     children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"], {
-                                                            className: "w-4 h-4"
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-sm text-gray-500",
+                                                            children: "Starting from"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                            lineNumber: 356,
-                                                            columnNumber: 45
+                                                            lineNumber: 811,
+                                                            columnNumber: 49
                                                         }, this),
-                                                        "Book Now"
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-2xl font-bold text-red-600",
+                                                            children: item.price
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                            lineNumber: 812,
+                                                            columnNumber: 49
+                                                        }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                    lineNumber: 352,
-                                                    columnNumber: 41
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    lineNumber: 810,
+                                                    columnNumber: 45
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                lineNumber: 809,
+                                                columnNumber: 41
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "flex gap-2",
+                                                children: activeCategory === "PACKAGES" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                            href: "/book-tour",
+                                                            className: "flex-1 flex items-center justify-center gap-2 bg-red-600 text-white py-3 rounded-xl text-sm font-semibold hover:bg-red-700 transition-colors",
+                                                            children: "Book Now"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                            lineNumber: 823,
+                                                            columnNumber: 49
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                            href: item.route,
+                                                            className: "flex items-center justify-center gap-2 border border-red-600 text-red-600 px-4 py-3 rounded-xl text-sm font-semibold hover:bg-red-50 transition-colors",
+                                                            children: "View Details"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                            lineNumber: 829,
+                                                            columnNumber: 49
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                     href: item.route,
-                                                    className: "flex items-center justify-center gap-2 border border-red-600 text-red-600 px-4 py-3 rounded-xl text-sm font-semibold hover:bg-red-50 transition-colors",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$compass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Compass$3e$__["Compass"], {
-                                                        className: "w-4 h-4"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                        lineNumber: 360,
-                                                        columnNumber: 45
-                                                    }, this)
+                                                    className: "flex-1 flex items-center justify-center gap-2 bg-red-600 text-white px-4 py-3 rounded-xl text-sm font-semibold hover:bg-red-700 transition-colors",
+                                                    children: "Explore"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                                    lineNumber: 359,
-                                                    columnNumber: 41
+                                                    lineNumber: 834,
+                                                    columnNumber: 45
                                                 }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                            lineNumber: 351,
-                                            columnNumber: 37
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                                lineNumber: 820,
+                                                columnNumber: 37
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                        lineNumber: 770,
+                                        columnNumber: 33
+                                    }, this)
+                                ]
+                            }, item.slug, true, {
+                                fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                                lineNumber: 702,
+                                columnNumber: 29
+                            }, this);
+                        })
+                    }, void 0, false, {
+                        fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                        lineNumber: 699,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "text-center mt-12",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            href: "/packages",
+                            className: "inline-flex items-center gap-2 bg-red-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-red-700 transition transform hover:scale-105",
+                            children: [
+                                "Explore All Packages",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
+                                    className: "w-5 h-5"
+                                }, void 0, false, {
                                     fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                                    lineNumber: 307,
-                                    columnNumber: 33
+                                    lineNumber: 852,
+                                    columnNumber: 25
                                 }, this)
                             ]
-                        }, item.slug, true, {
+                        }, void 0, true, {
                             fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                            lineNumber: 241,
-                            columnNumber: 29
-                        }, this);
-                    })
-                }, void 0, false, {
-                    fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                    lineNumber: 231,
-                    columnNumber: 17
-                }, this)
-            }, void 0, false, {
+                            lineNumber: 847,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/PackagesHorizontalSlider.tsx",
+                        lineNumber: 846,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-                lineNumber: 230,
+                lineNumber: 698,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/PackagesHorizontalSlider.tsx",
-        lineNumber: 214,
+        lineNumber: 664,
         columnNumber: 9
     }, this);
 }
-_s(PackagesHorizontalSlider, "4VtcWYFrUhVxGhCs57vex1csoIQ=");
+_s(PackagesHorizontalSlider, "Gf/eRouuKB89w2Y7I9BkrdREU88=");
 _c = PackagesHorizontalSlider;
 var _c;
 __turbopack_context__.k.register(_c, "PackagesHorizontalSlider");

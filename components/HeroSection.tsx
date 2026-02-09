@@ -21,13 +21,19 @@ export default function HeroSection() {
     }, []);
 
     return (
-        <section className="relative bg-[#f6efe6] overflow-hidden py-24">
+        <section className="relative overflow-hidden bg-[#f6efe6]" style={{
+            backgroundImage: 'url(/home4-banner-bg.png)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            minHeight: '80vh'
+        }}>
             {/* <img
                     src="/Decore.png"
                     alt="Decorative elements"
                     className="absolute top-0 right-0 w-auto h-full object-contain"
                 /> */}
-            <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+            <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center min-h-[70vh]">
 
                 {/* LEFT CONTENT (UNCHANGED) */}
                 <div>
@@ -59,7 +65,7 @@ export default function HeroSection() {
                 </div>
 
                 {/* RIGHT IMAGE */}
-                <div className="relative h-[520px] lg:h-[640px]">
+                <div className="relative h-[420px] lg:h-[340px]">
 
                     {/* IMAGE SLIDER */}
                     {images.map((img, i) => (
@@ -85,7 +91,7 @@ export default function HeroSection() {
                     {/* 🌊 PARALLAX OVERLAY */}
 
                     {/* 🔄 ARROWS - Bottom Right Corner */}
-                    <button
+                    {/* <button
                         onClick={() => setActive((active - 1 + images.length) % images.length)}
                         className="absolute -bottom-10 -right-5 w-12 h-12 rounded-full border border-gray-700 flex items-center justify-center bg-white/80 hover:bg-white transition"
                     >
@@ -97,13 +103,12 @@ export default function HeroSection() {
                         className="absolute -bottom-10 -right-20 w-12 h-12 rounded-full border border-gray-700 flex items-center justify-center bg-white/80 hover:bg-white transition"
                     >
                         <ChevronRight />
-                    </button>
+                    </button> */}
 
                 </div>
             </div>
 
             {/* ✈️ PLANE DOTTED ANIMATION */}
-            <div className="absolute inset-6 border border-dashed border-black/10 pointer-events-none" />
 
 
         </section>

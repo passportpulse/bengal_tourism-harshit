@@ -717,3 +717,244 @@ Import traces:
 [02:16:05.549] Server  LOG     ✓ Compiled in 115ms
 [02:16:22.899] Server  LOG     ✓ Compiled in 50ms
 [02:16:36.626] Server  LOG     ✓ Compiled in 54ms
+[02:59:00.841] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200" 404
+[02:59:00.852] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200" 404
+[02:59:00.953] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1602941525421-8f8b81d6d77c?w=1200" 404
+[02:59:48.472] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200" 404
+[02:59:48.507] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1602941525421-8f8b81d6d77c?w=1200" 404
+[02:59:48.509] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200" 404
+[03:00:27.848] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:00:28.517] Browser WARN    Image with src "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:28.517] Browser WARN    Image with src "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:28.517] Browser WARN    Image with src "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1600" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:28.517] Browser WARN    Image with src "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:28.517] Browser WARN    Image with src "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:28.517] Browser WARN    Image with src "https://images.unsplash.com/photo-1580655653885-65763b2597d0?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:28.517] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/feature-img1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:28.517] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/feature-img2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:28.517] Browser WARN    Image with src "https://images.unsplash.com/photo-1548574505-5e239809ee19?q=80&w=2764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:28.517] Browser WARN    Image with src "https://images.unsplash.com/photo-1727640826472-bf7456dc030c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:28.517] Browser WARN    Image with src "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:28.517] Browser WARN    Image with src "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:28.517] Browser WARN    Image with src "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:28.517] Browser WARN    Image with src "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:29.685] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/about-img1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:29.813] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/about-img2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:29.813] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/about-img-bg.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:00:30.257] Browser WARN    Image with src "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1600" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:30.257] Browser WARN    Image with src "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1600" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:32.757] Browser WARN    Image with src "https://images.unsplash.com/photo-1550697797-f01b4e83a1be?q=80&w=2676&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:32.757] Browser WARN    Image with src "https://images.unsplash.com/photo-1651678938586-affccc71c270?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:40:28.559] Server  LOG     ✓ Compiled in 265ms
+[04:40:29.206] Server  ERROR   ⨯ ReferenceError: Mountain is not defined
+[04:40:29.690] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:40:29.921] Browser ERROR   uncaughtError: ReferenceError: Mountain is not defined
+[04:41:30.711] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:41:30.712] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./components/PackagesHorizontalSlider.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[04:41:30.712] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:41:30.829] Server  LOG     ✓ Compiled in 81ms
+[04:41:31.412] Server  ERROR   ⨯ ReferenceError: Mountain is not defined
+[04:41:31.691] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:41:31.896] Browser ERROR   uncaughtError: ReferenceError: Mountain is not defined
+[04:41:45.295] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:41:45.296] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./components/PackagesHorizontalSlider.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[04:41:45.296] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:41:45.320] Server  LOG     ✓ Compiled in 74ms
+[04:41:46.005] Server  ERROR   ⨯ ReferenceError: Mountain is not defined
+[04:41:46.210] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:41:46.376] Browser ERROR   uncaughtError: ReferenceError: Mountain is not defined
+[04:43:04.304] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:43:04.304] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./components/PackagesHorizontalSlider.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[04:43:04.305] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:43:04.927] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:43:05.326] Browser WARN    Image with src "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1600" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:43:05.326] Browser WARN    Image with src "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1600" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:43:05.326] Browser WARN    Image with src "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1600" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:43:05.326] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/about-img-bg.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:43:05.326] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/about-img2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:43:05.326] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/about-img1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:43:05.326] Browser WARN    Image with src "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:43:05.326] Browser WARN    Image with src "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:43:05.326] Browser WARN    Image with src "https://images.unsplash.com/photo-1580655653885-65763b2597d0?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:43:05.952] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/feature-img1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:43:05.952] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/feature-img2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:43:06.074] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200" 404
+[04:43:07.324] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1602941525421-8f8b81d6d77c?w=1200" 404
+[04:43:07.327] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200" 404
+[04:43:09.282] Browser WARN    Image with src "https://images.unsplash.com/photo-1548574505-5e239809ee19?q=80&w=2764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:43:09.282] Browser WARN    Image with src "https://images.unsplash.com/photo-1727640826472-bf7456dc030c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:43:09.628] Browser WARN    Image with src "https://images.unsplash.com/photo-1550697797-f01b4e83a1be?q=80&w=2676&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:43:44.280] Server  LOG     ✓ Compiled in 193ms
+[04:44:09.315] Server  LOG     ✓ Compiled in 160ms
+[04:44:49.112] Server  LOG     ✓ Compiled in 102ms
+[04:44:53.660] Server  LOG     ✓ Compiled in 54ms
+[04:45:29.961] Server  LOG     ✓ Compiled in 154ms
+[04:46:04.997] Server  LOG     ✓ Compiled in 48ms
+[04:49:22.296] Server  LOG     ✓ Compiled in 186ms
+[04:49:22.724] Browser ERROR   uncaughtError: ReferenceError: packages is not defined
+[04:50:12.031] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:50:12.064] Server  LOG     ✓ Compiled in 129ms
+[04:50:13.194] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:50:13.708] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200" 404
+[04:50:13.725] Browser WARN    Image with src "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1600" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:50:13.725] Browser WARN    Image with src "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1600" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:50:13.725] Browser WARN    Image with src "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1600" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:50:13.725] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/about-img-bg.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:50:13.725] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/about-img2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:50:13.725] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/about-img1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:50:13.725] Browser WARN    Image with src "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:50:13.796] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200" 404
+[04:50:14.288] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1580655653885-65763b2599a0?w=1200" 404
+[04:50:14.724] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/feature-img1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:50:14.724] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/feature-img2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:50:14.724] Browser WARN    Image with src "https://images.unsplash.com/photo-1548574505-5e239809ee19?q=80&w=2764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:50:14.724] Browser WARN    Image with src "https://images.unsplash.com/photo-1727640826472-bf7456dc030c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:50:14.724] Browser WARN    Image with src "https://images.unsplash.com/photo-1550697797-f01b4e83a1be?q=80&w=2676&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:50:14.724] Browser WARN    Image with src "https://images.unsplash.com/photo-1651678938586-affccc71c270?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:50:36.718] Browser WARN    Image with src "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:50:38.983] Browser WARN    Image with src "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:50:39.911] Browser WARN    Image with src "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:50:40.760] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1602941525421-8f8b81d8c3a5e?w=1200" 404
+[04:50:40.762] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200" 404
+[04:50:40.763] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1528709673176-3c6c1e8f1c3e?w=1200" 404
+[04:50:40.869] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200" 404
+[04:50:42.330] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1580655653885-65763b2599a0?w=1200" 404
+[04:50:42.332] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200" 404
+[04:50:42.333] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200" 404
+[04:50:43.329] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1602941525421-8f8b81d8c3a5e?w=1200" 404
+[04:50:44.691] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1528709673176-3c6c1e8f1c3e?w=1200" 404
+[04:50:44.692] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200" 404
+[04:50:45.034] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200" 404
+[04:50:45.907] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200" 404
+[04:52:24.430] Server  LOG     ✓ Compiled in 61ms
+[04:53:36.792] Server  LOG     ✓ Compiled in 66ms
+[04:53:50.241] Server  LOG     ✓ Compiled in 53ms
+[04:54:55.025] Server  LOG     ✓ Compiled in 49ms
+[04:55:33.925] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1602941525421-8f8b81d8c3a5e?w=1200" 404
+[04:55:34.597] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200" 404
+[04:55:34.774] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1580655653885-65763b2599a0?w=1200" 404
+[04:55:34.775] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200" 404
+[04:55:51.198] Server  LOG     ✓ Compiled in 51ms
+[04:56:02.821] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200" 404
+[04:56:02.825] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200" 404
+[04:56:02.830] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1580655653885-65763b2599a0?w=1200" 404
+[04:56:03.597] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1602941525421-8f8b81d8c3a5e?w=1200" 404
+[04:57:01.249] Server  LOG     ✓ Compiled in 92ms
+[04:57:01.628] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1580655653885-65763b2599a0?w=1200" 404
+[04:57:01.630] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200" 404
+[04:57:01.636] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200" 404
+[04:57:26.633] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200" 404
+[04:57:26.638] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1602941525421-8f8b81d8c3a5e?w=1200" 404
+[04:57:26.647] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200" 404
+[04:57:26.679] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1580655653885-65763b2599a0?w=1200" 404
+[04:57:31.753] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200" 404
+[04:57:31.755] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1580655653885-65763b2599a0?w=1200" 404
+[04:57:31.757] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200" 404
+[05:02:36.674] Server  LOG     ✓ Compiled in 75ms
+[05:02:39.957] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200" 404
+[05:02:44.489] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200" 404
+[05:02:45.240] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1602941525421-8f8b81d8c3a5e?w=1200" 404
+[05:02:45.242] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200" 404
+[05:02:45.245] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1580655653885-65763b2599a0?w=1200" 404
+[05:02:46.517] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200" 404
+[05:02:46.519] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200" 404
+[05:02:46.522] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1580655653885-65763b2599a0?w=1200" 404
+[05:02:46.526] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200" 404
+[05:03:09.685] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200" 404
+[05:03:09.690] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1580655653885-65763b2599a0?w=1200" 404
+[05:03:10.236] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200" 404
+[05:03:10.238] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200" 404
+[05:04:10.899] Server  LOG     ✓ Compiled in 86ms
+[05:04:17.674] Server  LOG     ✓ Compiled in 50ms
+[05:04:21.597] Server  LOG     ✓ Compiled in 76ms
+[05:05:16.686] Server  LOG     ✓ Compiled in 142ms
+[05:06:16.279] Server  LOG     ✓ Compiled in 118ms
+[05:09:35.806] Server  LOG     ✓ Compiled in 173ms
+[05:09:36.768] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200" 404
+[05:09:36.769] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1580655653885-65763b2599a0?w=1200" 404
+[05:09:36.770] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200" 404
+[05:09:37.553] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200" 404
+[05:09:37.712] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1528709673176-3c6c1e8f1c3e?w=1200" 404
+[05:09:43.436] Server  LOG     ✓ Compiled in 72ms
+[05:09:51.420] Server  LOG     ✓ Compiled in 53ms
+[05:11:32.873] Server  LOG     ✓ Compiled in 72ms
+[05:11:56.632] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1602941525421-8f8b81d8c3a5e?w=1200" 404
+[05:11:56.633] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1587593813483-9bb292317108?w=1200" 404
+[05:11:56.681] Browser WARN    Image with src "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:11:57.047] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1512343879784-a960bf40e7f1?w=1200" 404
+[05:12:09.106] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200" 404
+[05:12:09.108] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200" 404
+[05:12:09.111] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1580655653885-65763b2599a0?w=1200" 404
+[05:12:09.114] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200" 404
+[05:12:09.115] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1528709673176-3c6c1e8f1c3e?w=1200" 404
+[05:12:11.960] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1602941525421-8f8b81d8c3a5e?w=1200" 404
+[05:12:11.965] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1587593813483-9bb292317108?w=1200" 404
+[05:12:11.966] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1512343879784-a960bf40e7f1?w=1200" 404
+[05:12:49.638] Server  LOG     ✓ Compiled in 70ms
+[05:15:52.277] Server  LOG     ✓ Compiled in 176ms
+[05:15:53.083] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=1200" 404
+[05:15:54.760] Browser WARN    Image with src "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:15:54.760] Browser WARN    Image with src "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:15:54.760] Browser WARN    Image with src "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:15:54.760] Browser WARN    Image with src "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:18:06.299] Server  LOG     ✓ Compiled in 64ms
+[05:18:35.384] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=1200" 404
+[05:18:39.266] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1602941525421-8f8b81d8c3a5e?w=1200" 404
+[05:18:40.103] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1587593813483-9bb292317108?w=1200" 404
+[05:18:40.105] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1512343879784-a960bf40e7f1?w=1200" 404
+[05:19:15.314] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=1200" 404
+[05:21:57.712] Server  LOG     ✓ Compiled in 73ms
+[05:22:11.359] Server  LOG     ✓ Compiled in 80ms
+[05:22:27.049] Server  LOG     ✓ Compiled in 78ms
+[05:22:31.881] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1512343879784-a960bf40e7f1?w=1200" 404
+[05:22:31.883] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1587593813483-9bb292317108?w=1200" 404
+[05:22:31.887] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1602941525421-8f8b81d8c3a5e?w=1200" 404
+[05:22:39.446] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200" 404
+[05:22:39.448] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1580655653885-65763b2599a0?w=1200" 404
+[05:22:39.450] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200" 404
+[05:22:39.452] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200" 404
+[05:23:13.649] Server  LOG     ✓ Compiled in 314ms
+[05:23:27.912] Server  LOG     ✓ Compiled in 51ms
+[05:23:38.225] Server  LOG     ✓ Compiled in 71ms
+[05:23:52.372] Server  LOG     ✓ Compiled in 315ms
+[05:23:55.231] Server  LOG     ✓ Compiled in 218ms
+[05:24:01.460] Server  LOG     ✓ Compiled in 100ms
+[05:24:12.993] Server  LOG     ✓ Compiled in 234ms
+[05:24:25.424] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:24:25.535] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200" 404
+[05:24:25.536] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200" 404
+[05:24:25.537] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1580655653885-65763b2599a0?w=1200" 404
+[05:24:25.540] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200" 404
+[05:24:25.697] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/about-img-bg.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[05:24:25.697] Browser WARN    Image with src "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1600" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:24:25.697] Browser WARN    Image with src "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1600" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:24:25.697] Browser WARN    Image with src "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1600" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:24:25.697] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/about-img-bg.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:24:25.697] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/about-img2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:24:25.697] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/about-img1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:24:25.697] Browser WARN    Image with src "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:25:13.968] Server  LOG     ✓ Compiled in 132ms
+[05:25:31.429] Server  LOG     ✓ Compiled in 128ms
+[05:25:46.916] Server  LOG     ✓ Compiled in 49ms
+[05:25:59.313] Server  LOG     ✓ Compiled in 46ms
+[05:26:03.663] Server  LOG     ✓ Compiled in 47ms
+[05:28:15.473] Server  LOG     ✓ Compiled in 56ms
+[05:28:57.029] Server  LOG     ✓ Compiled in 55ms
+[05:29:21.920] Server  LOG     ✓ Compiled in 140ms
+[05:29:29.623] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200" 404
+[05:29:29.769] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1580655653885-65763b2599a0?w=1200" 404
+[05:29:34.682] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200" 404
+[05:29:34.687] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1580655653885-65763b2599a0?w=1200" 404
+[05:29:34.748] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:29:35.158] Browser WARN    Image with src "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:29:35.158] Browser WARN    Image with src "https://images.unsplash.com/photo-1580655653885-65763b2599a0?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:29:35.158] Browser WARN    Image with src "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1600" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:29:35.158] Browser WARN    Image with src "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1600" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:29:35.158] Browser WARN    Image with src "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1600" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:29:35.158] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/about-img-bg.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:29:35.158] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/about-img2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:29:35.158] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/about-img1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:29:35.158] Browser WARN    Image with src "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:29:47.789] Server  LOG     ✓ Compiled in 101ms
+[05:30:14.750] Server  LOG     ✓ Compiled in 156ms
