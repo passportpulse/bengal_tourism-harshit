@@ -1,120 +1,135 @@
+// "use client";
+
+// import { motion } from "framer-motion";
+
+// export default function HeroSection() {
+//   return (
+//     <section
+//       className="relative min-h-[80vh] flex items-center"
+//       style={{
+//         backgroundImage:
+//           "url(https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1600)",
+//         backgroundSize: "cover",
+//         backgroundPosition: "center",
+//         backgroundRepeat: "no-repeat",
+//       }}
+//     >
+//       {/* Dark Overlay */}
+//       <div className="absolute inset-0 bg-black/40" />
+
+//       {/* CONTENT */}
+//       <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
+//         <motion.div
+//           initial={{ opacity: 0, y: 40 }}
+//           animate={{ opacity: 1, y: 0 }}
+//           transition={{ duration: 0.9, ease: "easeOut" }}
+//           className="max-w-xl"
+//         >
+//           <p className="text-yellow-400 font-semibold mb-4">
+//             ✨ Bengal Tourism Welcomes You
+//           </p>
+
+//           <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight mb-6">
+//             Explore, Experience <br /> & Expect More
+//           </h1>
+
+//           <p className="text-white/90 text-lg mb-10">
+//             From history and heritage to food, festivals and modern life,
+//             Bengal welcomes you with stories that stay forever.
+//           </p>
+
+//           <div className="flex flex-wrap gap-6">
+//             <button className="bg-yellow-500 text-black px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:bg-yellow-400 transition">
+//               Find out more
+//             </button>
+
+//             <button className="border-2 border-yellow-400 text-yellow-400 px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-400 hover:text-black transition">
+//               Contact Us
+//             </button>
+//           </div>
+//         </motion.div>
+//       </div>
+//     </section>
+//   );
+// }
+
 "use client";
 
-import Image from "next/image";
+import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const images = [
-    "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1600",
-    "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1600",
-    "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1600",
+const bgImages = [
+  "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1600",
+  "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1600",
+  "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1600",
 ];
 
 export default function HeroSection() {
-    const [active, setActive] = useState(0);
+  const [active, setActive] = useState(0);
 
-    useEffect(() => {
-        const i = setInterval(() => {
-            setActive((p) => (p + 1) % images.length);
-        }, 5000);
-        return () => clearInterval(i);
-    }, []);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActive((prev) => (prev + 1) % bgImages.length);
+    }, 5000); // change every 5 sec
 
-    return (
-        <section className="relative overflow-hidden bg-[#f6efe6]" style={{
-            backgroundImage: 'url(/home4-banner-bg.png)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
-            minHeight: '80vh'
-        }}>
-            {/* <img
-                    src="/Decore.png"
-                    alt="Decorative elements"
-                    className="absolute top-0 right-0 w-auto h-full object-contain"
-                /> */}
-            <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center min-h-[70vh]">
+    return () => clearInterval(interval);
+  }, []);
 
-                {/* LEFT CONTENT (UNCHANGED) */}
-                <div>
-                    <p className="text-yellow-500 font-semibold mb-4">
-                        ✨ Bengal Tourism Welcomes You
-                    </p>
+  return (
+    <section className="relative min-h-[70vh] flex items-center overflow-hidden">
+      
+      {/* 🔁 BACKGROUND IMAGES */}
+      <AnimatePresence>
+        <motion.div
+          key={active}
+          initial={{ opacity: 0, scale: 1.05 }}
+          animate={{ opacity: 1, scale: 1 }}
+          exit={{ opacity: 0, scale: 1.05 }}
+          transition={{ duration: 1.2, ease: "easeInOut" }}
+          className="absolute inset-0"
+          style={{
+            backgroundImage: `url(${bgImages[active]})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        />
+      </AnimatePresence>
 
-                    <h1 className="text-5xl font-bold text-gray-900 leading-tight mb-6">
-                        Explore, Experience <br /> & Expect More Than <br /> Your Expectation.
-                    </h1>
+      {/* DARK OVERLAY */}
+      <div className="absolute inset-0 bg-black/40 z-[1]" />
 
-                    <p className="text-gray-600 max-w-md mb-10">
-                        From history and heritage to food, festivals and modern life,
-                        Bengal welcomes you with stories that stay forever.
-                    </p>
+      {/* CONTENT */}
+      <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.9, ease: "easeOut" }}
+          className="max-w-xl"
+        >
+          <p className="text-yellow-400 font-semibold mb-4">
+            ✨ Bengal Tourism Welcomes You
+          </p>
 
+          <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight mb-6">
+            Explore, Experience <br /> & Expect More
+          </h1>
 
+          <p className="text-white/90 text-lg mb-10">
+            From history and heritage to food, festivals and modern life,
+            Bengal welcomes you with stories that stay forever.
+          </p>
 
-                    <div className="flex flex-wrap items-center gap-6">
-                        <button className="bg-yellow-500 text-black px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:bg-yellow-400 transition transform hover:scale-105">
-                            Find out more
-                        </button>
+          <div className="flex flex-wrap gap-6">
+            <button className="bg-yellow-500 text-black px-4 py-2 rounded-full font-bold text-base shadow-lg hover:bg-yellow-400 transition">
+              Find out more
+            </button>
 
-                        <button className="border-2 border-yellow-600 text-yellow-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-600 hover:text-white transition transform hover:scale-105">
-                            Contact Us
-                        </button>
-                    </div>
-
-                </div>
-
-                {/* RIGHT IMAGE */}
-                <div className="relative h-[420px] lg:h-[340px]">
-
-                    {/* IMAGE SLIDER */}
-                    {images.map((img, i) => (
-                        <div
-                            key={i}
-                            className={`absolute inset-0 transition-all duration-1000 ease-out
-                ${i === active ? "opacity-100 scale-100" : "opacity-0 scale-105"}
-              `}
-                        >
-                            <Image
-                                src={img}
-                                alt="Travel"
-                                fill
-                                className="object-cover "
-                                priority={i === 0}
-                            />
-                        </div>
-                    ))}
-
-                    {/* 🔥 DIAGONAL CUT SHAPE */}
-                    <div className="absolute -bottom-30 -right-30 w-54 h-54 bg-[#f6efe6] rotate-45" />
-
-                    {/* 🌊 PARALLAX OVERLAY */}
-
-                    {/* 🔄 ARROWS - Bottom Right Corner */}
-                    {/* <button
-                        onClick={() => setActive((active - 1 + images.length) % images.length)}
-                        className="absolute -bottom-10 -right-5 w-12 h-12 rounded-full border border-gray-700 flex items-center justify-center bg-white/80 hover:bg-white transition"
-                    >
-                        <ChevronLeft />
-                    </button>
-
-                    <button
-                        onClick={() => setActive((active + 1) % images.length)}
-                        className="absolute -bottom-10 -right-20 w-12 h-12 rounded-full border border-gray-700 flex items-center justify-center bg-white/80 hover:bg-white transition"
-                    >
-                        <ChevronRight />
-                    </button> */}
-
-                </div>
-            </div>
-
-            {/* ✈️ PLANE DOTTED ANIMATION */}
-
-
-        </section>
-    );
+            <button className="border-2 border-yellow-400 text-yellow-400 px-4 py-2 rounded-full font-bold text-base hover:bg-yellow-400 hover:text-black transition">
+              Contact Us
+            </button>
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  );
 }
-
-
-
-
