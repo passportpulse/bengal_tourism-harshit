@@ -55,6 +55,7 @@ export default function HimachalTourismPage() {
               <div className="w-1 h-3 bg-white rounded-full mt-2 animate-pulse"></div>
             </div>
         </div>
+         </div>
       </section>
 
       {/* ================= HIMACHAL HIGHLIGHTS ================= */}
@@ -209,6 +210,7 @@ export default function HimachalTourismPage() {
               </div>
             </div>
         </div>
+         </div>
       </section>
 
       {/* ================= HIMACHAL HIGHLIGHTS ================= */}
@@ -293,6 +295,7 @@ export default function HimachalTourismPage() {
               </div>
             </div>
           </div>
+           </div>
         </section>
 
       {/* ================= HIMACHAL HIGHLIGHTS ================= */}
@@ -336,6 +339,7 @@ export default function HimachalTourismPage() {
               <p className="text-sm text-gray-600">Paragliding, River rafting, Trekking</p>
             </div>
         </div>
+         </div>
       </section>
 
       {/* ================= HIMACHAL HIGHLIGHTS ================= */}
@@ -369,6 +373,7 @@ export default function HimachalTourismPage() {
               </div>
             </div>
         </div>
+         </div>
       </section>
 
       {/* ================= HIMACHAL HIGHLIGHTS ================= */}
@@ -410,6 +415,7 @@ export default function HimachalTourismPage() {
               </p>
             </div>
         </div>
+         </div>
       </section>
 
       {/* ================= HIMACHAL HIGHLIGHTS ================= */}

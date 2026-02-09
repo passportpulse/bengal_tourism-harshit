@@ -8,57 +8,56 @@ export default function DarjeelingPage() {
     <main className="text-gray-800">
 
       {/* ================= HERO SECTION ================= */}
-      <section className="relative h-screen overflow-hidden">
-        {/* Background Image */}
-        <div className="absolute inset-0">
-          <img
-            src="https://images.unsplash.com/photo-1596416889642-3a91b9542c4b?w=1920&h=1080&fit=crop"
-            alt="Kanchendzonga mountain range with Darjeeling tea gardens"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60"></div>
-        </div>
+      <section className="relative bg-gradient-to-br from-white to-orange-50 py-24 overflow-hidden">
+        {/* Decorative Image - Touching top and right */}
+        <img
+          src="/Decore.png"
+          alt="Decorative elements"
+          className="absolute top-0 right-0 w-auto h-full object-contain"
+        />
 
-        {/* Hero Content */}
-        <div className="relative h-full flex items-center justify-center text-center text-white px-6">
-          <div className="max-w-4xl">
+        <div className="relative max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+
+          {/* ---------- LEFT CONTENT ---------- */}
+          <div>
             <div className="flex items-center justify-center gap-2 mb-4">
               <Mountain className="w-6 h-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold tracking-wide">Queen of the Hills</span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight mb-6 relative">
               Darjeeling
-              <span className="block text-3xl md:text-5xl mt-2 text-yellow-300">
+              <span className="block text-3xl md:text-5xl mt-2 text-orange-300">
                 What Alps is to Switzerland – Kanchendzonga is to Bengal
               </span>
             </h1>
 
-            <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-gray-600 text-lg mb-10 max-w-md">
               Located at 6,800 ft above sea level, home to the finest Darjeeling Tea on earth, 
               with a backdrop of mighty snow-capped Kanchendzonga
             </p>
 
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+            <div className="flex flex-wrap items-center gap-6">
               <button className="bg-yellow-500 text-black px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:bg-yellow-400 transition transform hover:scale-105">
                 Book Your Journey
               </button>
-              <button className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-black transition transform hover:scale-105">
+
+              <button className="border-2 border-yellow-600 text-yellow-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-600 hover:text-white transition transform hover:scale-105">
                 Explore Attractions
               </button>
             </div>
           </div>
-        </div>
 
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
-          <div className="flex flex-col items-center gap-2">
-            <span className="text-sm">Scroll to explore</span>
-            <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center">
-              <div className="w-1 h-3 bg-white rounded-full mt-2 animate-pulse"></div>
+          {/* ---------- RIGHT IMAGE ---------- */}
+          <div className="flex justify-center md:justify-end">
+            <img
+              src="https://images.unsplash.com/photo-1596416889642-3a91b9542c4b?w=600&h=400&fit=crop"
+              alt="Kanchendzonga mountain range with Darjeeling tea gardens"
+              className="w-full max-w-md md:max-w-lg lg:max-w-xl rounded-2xl shadow-2xl"
+            />
             </div>
           </div>
-        </div>
+       
       </section>
 
       {/* ================= QUICK FACTS ================= */}

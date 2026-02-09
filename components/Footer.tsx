@@ -16,7 +16,7 @@ export default function Footer() {
               <img 
                 src="/logo.png" 
                 alt="Bengal Tourism Logo" 
-                className="h-10 w-auto"
+                className="h-auto w-auto"
               />
               <div>
               
@@ -99,7 +99,7 @@ export default function Footer() {
       </div>
 
       {/* Newsletter Section */}
-      <div className="border-t border-gray-800">
+      {/* <div className="border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4 py-8">
           <div className="text-center">
             <h4 className="text-xl font-semibold mb-2">Subscribe to Our Newsletter</h4>
@@ -116,14 +116,14 @@ export default function Footer() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Bottom Footer */}
       <div className="border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-gray-400 text-sm">
-              © 2024 Bengal Tourism. All rights reserved.
+              © 2026 Bengal Tourism. All rights reserved.
             </div>
             <div className="flex gap-6 text-sm">
               <Link href="/privacy" className="text-gray-400 hover:text-red-400 transition">Privacy Policy</Link>

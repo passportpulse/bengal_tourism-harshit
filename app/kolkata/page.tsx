@@ -8,52 +8,53 @@ export default function KolkataPage() {
     <main className="text-gray-800">
 
       {/* ================= HERO SECTION ================= */}
-      <section className="relative h-screen overflow-hidden">
-        <div className="absolute inset-0">
-          <img
-            src="https://images.unsplash.com/photo-1596495516553-0534f5d9d6e?w=1920&h=1080&fit=crop"
-            alt="Kolkata Victoria Memorial Hall at sunset with city skyline"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-orange-900/80 via-red-800/60 to-orange-900/80"></div>
-        </div>
+      <section className="relative bg-gradient-to-br from-white to-orange-50 py-24 overflow-hidden">
+        {/* Decorative Image - Touching top and right */}
+        <img
+          src="/Decore.png"
+          alt="Decorative elements"
+          className="absolute top-0 right-0 w-auto h-full object-contain"
+        />
 
-        <div className="relative h-full flex items-center justify-center text-center text-white px-6">
-          <div className="max-w-4xl">
+        <div className="relative max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+
+          {/* ---------- LEFT CONTENT ---------- */}
+          <div>
             <div className="flex items-center justify-center gap-2 mb-4">
               <Sparkles className="w-6 h-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold tracking-wide">The City of Joy</span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight mb-6 relative">
               Kolkata
               <span className="block text-3xl md:text-5xl mt-2 text-orange-300">
                 Heritage • Culture • Cuisine • Arts
               </span>
             </h1>
 
-            <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-gray-600 text-lg mb-10 max-w-md">
               Experience the vibrant heart of Bengal - where colonial grandeur meets 
               cultural richness in every corner of this historic metropolis
             </p>
 
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+            <div className="flex flex-wrap items-center gap-6">
               <button className="bg-yellow-500 text-black px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:bg-yellow-400 transition transform hover:scale-105">
                 Explore City of Joy
               </button>
-              <button className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-orange-800 transition transform hover:scale-105">
+
+              <button className="border-2 border-yellow-600 text-yellow-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-600 hover:text-white transition transform hover:scale-105">
                 Taste Bengalicious
               </button>
             </div>
           </div>
-        </div>
 
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
-          <div className="flex flex-col items-center gap-2">
-            <span className="text-sm">Discover cultural capital</span>
-            <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center">
-              <div className="w-1 h-3 bg-white rounded-full mt-2 animate-pulse"></div>
-            </div>
+          {/* ---------- RIGHT IMAGE ---------- */}
+          <div className="flex justify-center md:justify-end">
+            <img
+              src="https://images.unsplash.com/photo-1596495516553-0534f5d9d6e?w=600&h=400&fit=crop"
+              alt="Kolkata Victoria Memorial Hall at sunset with city skyline"
+              className="w-full max-w-md md:max-w-lg lg:max-w-xl rounded-2xl shadow-2xl"
+            />
           </div>
         </div>
       </section>

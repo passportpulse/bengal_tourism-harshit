@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { Menu, X, Facebook, Instagram, MessageCircle, Phone } from "lucide-react"
+import { Menu, X, Facebook, Instagram, MessageCircle, Phone, Mail, Globe } from "lucide-react"
 
 export default function Navbar() {
     const [mobileOpen, setMobileOpen] = useState(false)
@@ -10,6 +10,42 @@ export default function Navbar() {
 
     return (
         <header className="sticky top-0 z-50">
+            {/* Top Bar with Social Media and Contact Info */}
+            <div className="bg-gray-900 text-white py-2">
+                <div className="max-w-7xl mx-auto px-4">
+                    <div className="flex justify-between items-center text-sm">
+                        {/* Social Media Icons */}
+                        <div className="flex items-center gap-4">
+                            <span className="text-gray-300">Follow Us:</span>
+                            <a href="#" className="text-gray-300 hover:text-white transition">
+                                <Facebook size={18} />
+                            </a>
+                            <a href="#" className="text-gray-300 hover:text-white transition">
+                                <Instagram size={18} />
+                            </a>
+                            <a href="#" className="text-gray-300 hover:text-white transition">
+                                <MessageCircle size={18} />
+                            </a>
+                            <a href="#" className="text-gray-300 hover:text-white transition">
+                                <Globe size={18} />
+                            </a>
+                        </div>
+
+                        {/* Contact Information */}
+                        <div className="flex items-center gap-6">
+                            <div className="flex items-center gap-2">
+                                <Mail size={16} />
+                                <span className="text-gray-300">info@bengaltourism.com</span>
+                            </div>
+                            <div className="flex items-center gap-2">
+                                <Phone size={16} />
+                                <span className="text-gray-300">+91 98765 43210</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             {/* Tour Packages Sidebar */}
             {tourSidebarOpen && (
                 <div className="fixed inset-0 z-50 flex">
@@ -41,7 +77,7 @@ export default function Navbar() {
                                         <li><a href="/darjeeling" className="text-gray-700 hover:text-red-600 block py-1">Queen of the Hills</a></li>
                                         <li><a href="/digha" className="text-gray-700 hover:text-red-600 block py-1">Sea & Sand of the East</a></li>
                                         <li><a href="/dooars" className="text-gray-700 hover:text-red-600 block py-1">Wildlife Forest & Jungle Safari</a></li>
-                                        <li><a href="/kolkata" className="text-gray-700 hover:text-red-600 block py-1">Shillong Pkj</a></li>
+                                        <li><a href="/kolkata" className="text-gray-700 hover:text-red-600 block py-1">Kolkata City Pkj</a></li>
                                         <li><a href="/sundarban" className="text-gray-700 hover:text-red-600 block py-1">Largest Mangrove of the World</a></li>
                                     </ul>
                                 </div>
@@ -136,19 +172,19 @@ export default function Navbar() {
                     <div className="flex h-20 items-center justify-between">
 
                         {/* Tour Packages Hamburger - Top Left */}
-                        <button
+                        {/* <button
                             onClick={() => setTourSidebarOpen(true)}
                             className="flex items-center gap-2 text-red-600 hover:text-red-700 transition p-2 rounded-lg hover:bg-red-50"
                         >
                             <Menu size={24} />
-                        </button>
+                        </button> */}
 
                         {/* Logo */}
                         <Link href="/" className="flex items-center gap-3">
                             <img
                                 src="/logo.png"
                                 alt="Bengal Tourism Logo"
-                                className="h-12 w-auto"
+                                className="h-16 w-auto"
                             />
                             <div>
 
@@ -175,14 +211,15 @@ export default function Navbar() {
                             <Link href="/brands" className="text-gray-700 font-semibold hover:text-red-600 transition">
                                 Brands
                             </Link>
-                            <Link
+                          
+                            <Link href="/contact" className="text-gray-700 font-semibold hover:text-red-600 transition">
+                                CONTACT PAGE
+                            </Link>
+                              <Link
                                 href="/book-tour"
                                 className="bg-red-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-red-700 transition"
                             >
                                 BOOK NOW
-                            </Link>
-                            <Link href="/contact" className="text-gray-700 font-semibold hover:text-red-600 transition">
-                                CONTACT PAGE
                             </Link>
                         </nav>
 
@@ -243,19 +280,20 @@ export default function Navbar() {
                         >
                             Brands
                         </Link>
-                        <Link
-                            href="/book-tour"
-                            className="block py-2 bg-red-600 text-white px-6 py-2 rounded-full font-semibold text-center"
-                            onClick={() => setMobileOpen(false)}
-                        >
-                            BOOK NOW
-                        </Link>
+                   
                         <Link
                             href="/contact"
                             className="block py-2 text-gray-700 font-semibold"
                             onClick={() => setMobileOpen(false)}
                         >
                             CONTACT PAGE
+                        </Link>
+                             <Link
+                            href="/book-tour"
+                            className="block py-2 bg-red-600 text-white px-6 py-2 rounded-full font-semibold text-center"
+                            onClick={() => setMobileOpen(false)}
+                        >
+                            BOOK NOW
                         </Link>
                     </div>
                 </div>
