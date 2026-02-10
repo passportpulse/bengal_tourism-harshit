@@ -17,12 +17,12 @@ export default function WhyChooseBengal() {
     <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
       {/* RIGHT IMAGES */}
-        <div className="relative w-full h-[520px] flex justify-center items-center">
+        <div className="relative w-full h-[520px] hidden md:flex justify-center items-center">
 
           {/* BIG CIRCLE IMAGE */}
           <div className="absolute right-0 w-[420px] h-[420px] rounded-full overflow-hidden">
             <Image
-              src="https://demo.egenslab.com/html/triprex/preview/assets/img/home5/feature-img1.jpg"
+              src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D"
               alt="Feature Image 1"
               fill
               className="object-cover"
@@ -32,7 +32,7 @@ export default function WhyChooseBengal() {
           {/* SMALL CIRCLE IMAGE */}
           <div className="absolute bottom-0 left-16 w-[260px] h-[260px] rounded-full overflow-hidden border-[10px] border-white">
             <Image
-              src="https://demo.egenslab.com/html/triprex/preview/assets/img/home5/feature-img2.jpg"
+              src="https://images.unsplash.com/photo-1528543606781-2f6e6857f318?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D"
               alt="Feature Image 2"
               fill
               className="object-cover"
@@ -46,7 +46,7 @@ export default function WhyChooseBengal() {
           </span>
 
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-6">
-            We Are Exploring The Tour <br /> With Excitement
+            We Are Exploring The Tour <br  className="md:block hidden"/> With Excitement
           </h2>
 
           <p className="text-gray-600 max-w-xl mb-10 leading-relaxed">

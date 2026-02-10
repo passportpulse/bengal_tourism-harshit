@@ -10,41 +10,7 @@ export default function Navbar() {
 
     return (
         <header className="sticky top-0 z-50">
-            {/* Top Bar with Social Media and Contact Info */}
-            <div className="bg-gray-900 text-white py-2">
-                <div className="max-w-7xl mx-auto px-4">
-                    <div className="flex justify-between items-center text-sm">
-                        {/* Social Media Icons */}
-                        <div className="flex items-center gap-4">
-                            <span className="text-gray-300">Follow Us:</span>
-                            <a href="#" className="text-gray-300 hover:text-white transition">
-                                <Facebook size={18} />
-                            </a>
-                            <a href="#" className="text-gray-300 hover:text-white transition">
-                                <Instagram size={18} />
-                            </a>
-                            <a href="#" className="text-gray-300 hover:text-white transition">
-                                <MessageCircle size={18} />
-                            </a>
-                            <a href="#" className="text-gray-300 hover:text-white transition">
-                                <Globe size={18} />
-                            </a>
-                        </div>
-
-                        {/* Contact Information */}
-                        <div className="flex items-center gap-6">
-                            <div className="flex items-center gap-2">
-                                <Mail size={16} />
-                                <span className="text-gray-300">info@bengaltourism.com</span>
-                            </div>
-                            <div className="flex items-center gap-2">
-                                <Phone size={16} />
-                                <span className="text-gray-300">+91 98765 43210</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+           
 
             {/* Tour Packages Sidebar */}
             {tourSidebarOpen && (

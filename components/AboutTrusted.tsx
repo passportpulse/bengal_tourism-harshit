@@ -6,10 +6,11 @@ import { PhoneCall, ShieldCheck, UserCheck, Clock, Award } from "lucide-react";
 export default function AboutTrusted() {
   return (
     <section className="relative py-28 bg-white overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-8 md:gap-12 lg:gap-20 items-center">
 
         {/* LEFT IMAGE STACK */}
         <div className="relative">
+               <div className="relative order-2 lg:order-1 mt-8 lg:mt-0">
           {/* background shape */}
           <Image
             src="https://demo.egenslab.com/html/triprex/preview/assets/img/home5/about-img-bg.png"
@@ -19,24 +20,24 @@ export default function AboutTrusted() {
             className="absolute left-20 -top-16 opacity-90"
           />
 
-          {/* top image */}
-          <div className="relative z-10 rounded-[10px] overflow-hidden w-[380px] h-[520px]">
-            <Image
-              src="https://demo.egenslab.com/html/triprex/preview/assets/img/home5/about-img2.jpg"
-              alt="about"
-              fill
-              className="object-cover"
-            />
-          </div>
+        {/* top image */}
+            <div className="relative z-10 rounded-[10px] overflow-hidden w-64 h-80 sm:w-80 sm:h-96 lg:w-[380px] lg:h-[520px] mx-auto">
+              <Image
+                src="/bangal2.jpg"
+                alt="about"
+                fill
+                className="object-cover"
+              />
+            </div>
 
-          {/* bottom overlap image */}
-          <div className="absolute bottom-[-60px] right-[-40px] z-20 rounded-[10px] overflow-hidden w-[380px] h-[260px] ">
-            <Image
-              src="https://demo.egenslab.com/html/triprex/preview/assets/img/home5/about-img1.jpg"
-              alt="travel"
-              fill
-              className="object-cover"
-            />
+         <div className="absolute bottom-[-20px] sm:bottom-[-30px] lg:bottom-[-60px] right-[-20px] sm:right-[-30px] lg:right-[-40px] z-20 rounded-[10px] overflow-hidden w-48 h-32 sm:w-56 sm:h-40 lg:w-[380px] lg:h-[260px]">
+              <Image
+                src="/bangal1.jpg"
+                alt="travel"
+                fill
+                className="object-cover"
+              />
+          </div>
           </div>
         </div>
 
@@ -64,13 +65,13 @@ export default function AboutTrusted() {
           </div>
 
           {/* CTA */}
-          <div className="flex flex-wrap items-center gap-6">
-            <button className=" text-black px-8 py-4 font-semibold transition secondary-btn3-bg">
+          <div className="flex flex-nowrap items-center gap-6">
+            <button className="text-sm text-black px-8 py-4 font-semibold transition secondary-btn3-bg">
               Discover More
             </button>
 
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-full border-2 border-[#EA3323] flex items-center justify-center ">
+              <div className="w-10 h-10 rounded-full border-2 border-[#EA3323] flex items-center justify-center ">
                 <PhoneCall className="text-[#EA3323]" />
               </div>
               <div>
@@ -97,12 +98,19 @@ interface FeatureProps {
 
 function Feature({ icon: Icon, text, rotate = 0 }: FeatureProps) {
   return (
-    <div className="flex items-center gap-4 bg-[#EA3323]/10 px-6 py-4 rounded-xl"  style={{ transform: `rotate(${rotate}deg)` }}>
-      <Icon 
-        className="text-[#EA3323] w-6 h-6" 
-       
-      />
+    <div
+      className={`flex items-center gap-4 bg-[#EA3323]/10 px-6 py-4 rounded-xl
+        transform
+        rotate-0
+        md:[transform:rotate(var(--rotate))]
+      `}
+      style={{ "--rotate": `${rotate}deg` } as React.CSSProperties}
+    >
+      <Icon className="text-[#EA3323] w-6 h-6" />
       <span className="font-semibold text-gray-900">{text}</span>
     </div>
   );
 }
+
+
+ 

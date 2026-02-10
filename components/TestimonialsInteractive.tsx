@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import {Star} from "lucide-react";
+import { Star } from "lucide-react";
 
 type Testimonial = {
   id: number;
@@ -53,37 +53,42 @@ const TestimonialsInteractive: React.FC = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setActive((prevActive) => {
-        const currentIndex = testimonials.findIndex(t => t.id === prevActive.id);
+        const currentIndex = testimonials.findIndex(
+          (t) => t.id === prevActive.id
+        );
         const nextIndex = (currentIndex + 1) % testimonials.length;
         return testimonials[nextIndex];
       });
-    }, 5000); // Change every 5 seconds
+    }, 5000);
 
-    return () => {
-      clearInterval(interval);
-    };
-  }, [testimonials.length]);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
-    <section className="relative bg-[#111] py-24 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+    <section className="relative bg-[#111] py-20 md:py-24 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-6 grid gap-16 lg:grid-cols-2 items-center">
 
         {/* LEFT CONTENT */}
-        <div>
+        <div className="text-center lg:text-left">
           <p className="text-[#FBFAB9] font-medium mb-3">Go & Discover</p>
-          <h2 className="text-white text-4xl md:text-5xl font-bold mb-6">
-            What’s Our Client’s <br /> Words
+          <h2 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
+            What’s Our Client’s <br className="hidden sm:block" /> Words
           </h2>
-          <p className="text-gray-400 max-w-md mb-8">
+          <p className="text-gray-400 max-w-md mx-auto lg:mx-0 mb-8">
             Real stories from Indian travelers who explored Bengal with us.
           </p>
-          <button className="bg-[#FBFAB9] hover:bg-teal-500 text-black font-semibold px-8 py-3 rounded-lg">
+          <button className="bg-[#FBFAB9] hover:bg-teal-500 text-black font-semibold px-8 py-3 rounded-lg transition">
             VIEW MORE
           </button>
         </div>
 
         {/* RIGHT SIDE */}
-        <div className="relative flex justify-center items-center w-[460px] h-[460px] mx-auto">
+        <div className="relative flex justify-center items-center mx-auto
+          w-[300px] h-[300px]
+          sm:w-[360px] sm:h-[360px]
+          md:w-[420px] md:h-[420px]
+          lg:w-[460px] lg:h-[460px]
+        ">
 
           {/* ORANGE SHAPE */}
           <div
@@ -97,18 +102,19 @@ const TestimonialsInteractive: React.FC = () => {
             }}
           />
 
-          {/* CONTENT (counter-rotated) */}
-          <div className="relative z-10 flex flex-col items-center text-center px-10 ">
-
-            <div className="text-white text-6xl mb-3"><img src="/partners/quote1.png" alt="" /></div>
+          {/* CONTENT */}
+          <div className="relative z-10 flex flex-col items-center text-center px-6 sm:px-8 md:px-10">
+            <div className="text-white text-4xl sm:text-5xl md:text-6xl mb-3">
+              <img src="/partners/quote1.png" alt="" />
+            </div>
 
             <div className="flex gap-1 mb-4">
               {Array.from({ length: 5 }).map((_, i) => (
-                <span key={i} className="text-white"><Star className="w-6 h-6" /></span>
+                <Star key={i} className="w-5 h-5 md:w-6 md:h-6 text-white" />
               ))}
             </div>
 
-            <p className="text-white text-sm mb-6">
+            <p className="text-white text-xs sm:text-sm mb-6 leading-relaxed">
               {active.message}
             </p>
 
@@ -116,24 +122,28 @@ const TestimonialsInteractive: React.FC = () => {
               <img
                 src={active.avatar}
                 alt={active.name}
-                className="w-20 h-20 rounded-xl object-cover"
+                className="w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 rounded-xl object-cover"
               />
             </div>
 
-            <h4 className="text-white font-semibold text-lg">
+            <h4 className="text-white font-semibold text-base md:text-lg">
               {active.name}
             </h4>
-            <p className="text-white/80 text-sm">{active.role}</p>
+            <p className="text-white/80 text-xs md:text-sm">{active.role}</p>
           </div>
 
-          {/* CLICKABLE AVATARS */}
+          {/* CLICKABLE AVATARS (DESKTOP ONLY) */}
           {testimonials.map((item, index) => (
             <button
               key={item.id}
               onClick={() => setActive(item)}
-              className={`absolute w-14 h-14 rounded-full bg-white p-1 transition
+              className={`hidden md:flex absolute w-14 h-14 rounded-full bg-white p-1 transition
                 ${getAvatarPosition(index)}
-                ${active.id === item.id ? "ring-4 ring-teal-400 scale-110" : "opacity-80 hover:opacity-100"}
+                ${
+                  active.id === item.id
+                    ? "ring-4 ring-teal-400 scale-110"
+                    : "opacity-80 hover:opacity-100"
+                }
               `}
             >
               <img

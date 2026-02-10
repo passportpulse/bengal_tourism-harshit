@@ -18,7 +18,7 @@ const packageCategories = {
             price: "₹12,999",
             desc: "A refreshing hill getaway with misty mountains, tea gardens, and colonial charm.",
             locations: "Darjeeling, Kalimpong, Kurseong, Mirik",
-            image: "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200",
+            image: "https://images.unsplash.com/photo-1698753864905-a447aa362ec9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRhcmplZWxpbmd8ZW58MHx8MHx8fDA%3D",
             icon: Mountain,
             iconColor: "text-red-500",
             route: "/darjeeling",
@@ -33,7 +33,7 @@ const packageCategories = {
             price: "₹8,999",
             desc: "A relaxing coastal retreat with serene beaches and scenic sunsets.",
             locations: "Digha, Mandarmoni, Shankarpur, Tajpur",
-            image: "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?w=1200",
+            image: "https://images.unsplash.com/photo-1657282928361-ec9de3f2bc74?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             icon: Waves,
             iconColor: "text-blue-500",
             route: "/digha",
@@ -48,7 +48,7 @@ const packageCategories = {
             price: "₹9,999",
             desc: "A thrilling mangrove adventure through rivers, creeks, and wildlife habitats.",
             locations: "Sundarban, Sajnekhali, Godkhali, Kakdwip",
-            image: "https://images.unsplash.com/photo-1580655653885-65763b2599a0?w=1200",
+            image: "https://images.unsplash.com/photo-1706459671568-9809c9d13430?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U3VuZGFyYmFufGVufDB8fDB8fHww",
             icon: Trees,
             iconColor: "text-emerald-500",
             route: "/sundarban",
@@ -63,7 +63,7 @@ const packageCategories = {
             price: "₹6,999",
             desc: "Discover art, culture, history, and flavors in India's cultural capital.",
             locations: "Kolkata",
-            image: "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200",
+            image: "https://images.unsplash.com/photo-1647102208648-5f3175091dda?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8S29sa2F0YXxlbnwwfHwwfHx8MA%3D%3D",
             icon: Building,
             iconColor: "text-purple-500",
             route: "/kolkata",
@@ -78,7 +78,7 @@ const packageCategories = {
             price: "₹7,999",
             desc: "A serene coastal escape with pristine beaches and swaying palms.",
             locations: "Bakkhali, Henry Island, Jambudwip, Frasergunj",
-            image: "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200",
+            image: "https://images.unsplash.com/photo-1736782487579-79f9cfc5570a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8QmFra2hhbGl8ZW58MHx8MHx8fDA%3D",
             icon: Waves,
             iconColor: "text-cyan-500",
             route: "/bakkhali",
@@ -95,7 +95,7 @@ const packageCategories = {
             price: "₹11,999",
             desc: "Experience the breathtaking beauty of Himalayan hills with tea gardens and mountain views.",
             locations: "Darjeeling, Kalimpong, Gangtok",
-            image: "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200",
+            image: "https://images.unsplash.com/photo-1696426886039-a3b5c8774e3d?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             icon: Mountain,
             iconColor: "text-red-500",
             route: "/darjeeling-kalimpong",
@@ -110,7 +110,7 @@ const packageCategories = {
             price: "₹9,999",
             desc: "Explore the lush forests and wildlife sanctuaries of North Bengal.",
             locations: "Lataguri, Jaldapara, Gorumara",
-            image: "https://images.unsplash.com/photo-1580655653885-65763b2599a0?w=1200",
+            image: "https://images.unsplash.com/photo-1669514463894-0475a3e062ff?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             icon: Trees,
             iconColor: "text-emerald-500",
             route: "/dooars-tour",
@@ -125,7 +125,7 @@ const packageCategories = {
             price: "₹8,999",
             desc: "Relax on the pristine beaches of Bengal's most popular coastal destinations.",
             locations: "Digha, Mandarmoni, Shankarpur",
-            image: "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?w=1200",
+            image: "https://media-cdn.tripadvisor.com/media/photo-s/12/45/4d/69/mandarmani-sea-beach.jpg",
             icon: Waves,
             iconColor: "text-blue-500",
             route: "/digha-mandarmoni",
@@ -140,7 +140,7 @@ const packageCategories = {
             price: "₹7,999",
             desc: "Discover the tranquil beaches and coastal beauty of South Bengal.",
             locations: "Bakkhali, Henry Island, Frasergunj",
-            image: "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200",
+            image: "https://images.unsplash.com/photo-1736782487536-0193bb1e853e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8QmFra2hhbGl8ZW58MHx8MHx8fDA%3D",
             icon: Waves,
             iconColor: "text-cyan-500",
             route: "/bakkhali",
@@ -155,7 +155,7 @@ const packageCategories = {
             price: "₹6,999",
             desc: "Immerse yourself in the rich culture, history, and flavors of the City of Joy.",
             locations: "Kolkata, Howrah, Belur Math",
-            image: "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200",
+            image: "https://images.unsplash.com/photo-1603813507806-0d311a6eecd1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8S29sa2F0YXxlbnwwfHwwfHx8MA%3D%3D",
             icon: Building,
             iconColor: "text-purple-500",
             route: "/kolkata",
@@ -170,105 +170,14 @@ const packageCategories = {
             price: "₹15,999",
             desc: "A comprehensive tour covering the diverse landscapes and cultures of Bengal.",
             locations: "Kolkata, Sundarban, Digha, Darjeeling",
-            image: "https://images.unsplash.com/photo-1528709673176-3c6c1e8f1c3e?w=1200",
+            image: "https://images.unsplash.com/photo-1760344654401-43c9fac457ff?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fFJlZ2lvbmFsJTIwQmVuZ2FsfGVufDB8fDB8fHww",
             icon: Compass,
             iconColor: "text-orange-500",
             route: "/regional-bengal",
             showBookNow: true,
         },
     ],
-    "OTHERS": [
-        {
-            slug: "puri-odisha",
-            title: "Puri & Odisha",
-            subtitle: "Temple Paradise",
-            tag: "Spiritual Journey",
-            duration: "4N & 5D",
-            price: "₹11,999",
-            desc: "Explore ancient temples, beaches, and rich cultural heritage of Odisha.",
-            locations: "Puri, Bhubaneswar, Konark, Chilika",
-            image: "https://images.unsplash.com/photo-1602941525421-8f8b81d8c3a5e?w=1200",
-            icon: Building,
-            iconColor: "text-orange-500",
-            route: "/odisha-tourism",
-            showBookNow: true,
-        },
-        {
-            slug: "sikkim-gangtok",
-            title: "Sikkim & Gangtok",
-            subtitle: "Himalayan Beauty",
-            tag: "Mountain Escape",
-            duration: "5N & 6D",
-            price: "₹13,999",
-            desc: "Discover pristine landscapes, monasteries, and snow-clad mountains.",
-            locations: "Sikkim, Gangtok, Pelling, Lachen",
-            image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200",
-            icon: Mountain,
-            iconColor: "text-indigo-500",
-            route: "/sikkim-tourism",
-            showBookNow: true,
-        },
-        {
-            slug: "silk-route",
-            title: "Silk Route",
-            subtitle: "Ancient Trade Path",
-            tag: "Mountain Adventure",
-            duration: "6N & 7D",
-            price: "₹14,999",
-            desc: "Journey through the historic Silk Route with breathtaking mountain views.",
-            locations: "Gangtok, Zuluk, Nathula, Tsomgo Lake",
-            image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200",
-            icon: Compass,
-            iconColor: "text-amber-600",
-            route: "/silk-route-tour",
-            showBookNow: true,
-        },
-        {
-            slug: "goa-beaches",
-            title: "Goa",
-            subtitle: "Beach Paradise",
-            tag: "Coastal Fun",
-            duration: "4N & 5D",
-            price: "₹12,999",
-            desc: "Experience vibrant beaches, nightlife, and Portuguese heritage.",
-            locations: "North Goa, South Goa, Panjim, Old Goa",
-            image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f1?w=1200",
-            icon: Waves,
-            iconColor: "text-teal-500",
-            route: "/goa-tour",
-            showBookNow: true,
-        },
-        {
-            slug: "himachal-tour",
-            title: "Himachal",
-            subtitle: "Land of Gods",
-            tag: "Hill Station",
-            duration: "5N & 6D",
-            price: "₹13,999",
-            desc: "Explore scenic hill stations, temples, and adventure activities.",
-            locations: "Shimla, Manali, Dharamshala, Kullu",
-            image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=1200",
-            icon: Mountain,
-            iconColor: "text-green-600",
-            route: "/himachal-tourism",
-            showBookNow: true,
-        },
-        {
-            slug: "jammu-kashmir",
-            title: "Jammu & Kashmir",
-            subtitle: "Paradise on Earth",
-            tag: "Heavenly Beauty",
-            duration: "6N & 7D",
-            price: "₹16,999",
-            desc: "Experience the breathtaking valleys, lakes, and Mughal gardens.",
-            locations: "Srinagar, Gulmarg, Pahalgam, Sonamarg",
-            image: "https://images.unsplash.com/photo-1587593813483-9bb292317108?w=1200",
-            icon: Mountain,
-            iconColor: "text-blue-600",
-            route: "/kashmir-tour",
-            showBookNow: true,
-        },
-    ],
+   
     "EXCLUSIVE": [
         {
             slug: "medical-tourism",
@@ -279,7 +188,7 @@ const packageCategories = {
             price: "Contact for Price",
             desc: "Access world-class medical facilities and expert healthcare services for your treatment needs.",
             locations: "Kolkata, Delhi, Mumbai, Chennai",
-            image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=1200",
+            image: "https://images.unsplash.com/photo-1745420052490-285dbfa1cf4d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVkaWNhbCUyMHRvdXJpc218ZW58MHx8MHx8fDA%3D",
             icon: Building,
             iconColor: "text-blue-500",
             route: "/medical-tourism",
@@ -294,7 +203,7 @@ const packageCategories = {
             price: "Contact for Price",
             desc: "Rapid and reliable air ambulance services for critical medical emergencies.",
             locations: "Pan India Service",
-            image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=1200",
+            image: "https://images.unsplash.com/photo-1696243144343-56a235858dce?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fEFpciUyMEFtYnVsYW5jZSUyMFNlcnZpY2V8ZW58MHx8MHx8fDA%3D",
             icon: Compass,
             iconColor: "text-red-600",
             route: "/air-ambulance",
@@ -309,7 +218,7 @@ const packageCategories = {
             price: "₹15,999",
             desc: "Rejuvenate your mind, body, and soul with premium spa treatments and yoga sessions.",
             locations: "Rishikesh, Kerala, Goa",
-            image: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=1200",
+            image: "https://ik.imgkit.net/3vlqs5axxjf/TW-Asia/ik-seo/uploadedImages/Industry/Travel_Trends/GettyImages-599463782/Wellness-tourism-takes-the-spotlight-for-2022-trav.jpg?tr=w-780%2Ch-440%2Cfo-auto",
             icon: Trees,
             iconColor: "text-green-500",
             route: "/wellness-tourism",
@@ -324,7 +233,7 @@ const packageCategories = {
             price: "₹8,999",
             desc: "Explore lush tea gardens, learn tea processing, and enjoy authentic tea tasting sessions.",
             locations: "Darjeeling, Assam, Munnar",
-            image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200",
+            image: "https://images.unsplash.com/photo-1723214520491-7f90eeda2cdd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VGVhJTIwVG91cmlzbSUyMnxlbnwwfHwwfHx8MA%3D%3D",
             icon: Mountain,
             iconColor: "text-emerald-600",
             route: "/tea-tourism",
@@ -339,7 +248,7 @@ const packageCategories = {
             price: "Contact for Price",
             desc: "Exclusive accommodations ranging from luxury resorts to cozy guest houses across India.",
             locations: "Pan India",
-            image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200",
+            image: "https://images.unsplash.com/photo-1761470371217-a4de0ff0e8df?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SG90ZWwtUmVzb3J0LUd1ZXN0JTIwSG91c2V8ZW58MHx8MHx8fDA%3D",
             icon: Building,
             iconColor: "text-purple-500",
             route: "/hotel-resort",
@@ -356,7 +265,7 @@ const packageCategories = {
             price: "₹18,999",
             desc: "Explore the serene beauty and spiritual culture of Bhutan's Himalayan kingdom.",
             locations: "Thimphu, Paro, Punakha, Phobjikha",
-            image: "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=1200",
+            image: "https://images.unsplash.com/photo-1532008779255-4b4dd2668c84?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Qmh1dGFuLVRoaW1wdXxlbnwwfHwwfHx8MA%3D%3D",
             icon: Mountain,
             iconColor: "text-pink-500",
             route: "/bhutan-tour",
@@ -371,7 +280,7 @@ const packageCategories = {
             price: "₹25,999",
             desc: "Experience ultra-modern architecture, luxury shopping, and desert adventures.",
             locations: "Dubai, Abu Dhabi, Sharjah",
-            image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200",
+            image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RHViYWl8ZW58MHx8MHx8fDA%3D",
             icon: Building,
             iconColor: "text-amber-500",
             route: "/dubai-tour",
@@ -386,7 +295,7 @@ const packageCategories = {
             price: "₹14,999",
             desc: "A classic Himalayan journey blending culture, nature, and adventure.",
             locations: "Kathmandu, Pokhara, Chitwan, Nagarkot",
-            image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200",
+            image: "https://images.unsplash.com/photo-1720811970882-70a5196ee37e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TmVwYWwlMjAlMjYlMjBLYXRobWFuZHV8ZW58MHx8MHx8fDA%3D",
             icon: Mountain,
             iconColor: "text-red-500",
             route: "/nepal-tour",
@@ -401,7 +310,7 @@ const packageCategories = {
             price: "₹22,999",
             desc: "Discover vibrant nightlife, beaches, temples, and Thai culture.",
             locations: "Bangkok, Pattaya, Phuket, Krabi",
-            image: "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200",
+            image: "https://images.unsplash.com/photo-1712487650909-2aaf5c5eac36?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VGhhaWxhbmQlMjAlMjYlMjBCYW5na29rfGVufDB8fDB8fHww",
             icon: Waves,
             iconColor: "text-teal-500",
             route: "/thailand-tour",
@@ -416,7 +325,7 @@ const packageCategories = {
             price: "₹20,999",
             desc: "Explore pristine coral islands, crystal clear waters, and marine life.",
             locations: "Kavaratti, Agatti, Bangaram, Kadmat",
-            image: "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?w=1200",
+            image: "https://images.unsplash.com/photo-1572025310208-2fd6b91764c1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TGFrc2hhZHdlZXB8ZW58MHx8MHx8fDA%3D",
             icon: Waves,
             iconColor: "text-blue-500",
             route: "/lakshadweep-tour",
@@ -431,7 +340,7 @@ const packageCategories = {
             price: "₹24,999",
             desc: "Experience futuristic architecture, gardens, and multicultural attractions.",
             locations: "Singapore City, Sentosa, Marina Bay",
-            image: "https://images.unsplash.com/photo-1549180030-48bf079e4fd1?w=1200",
+            image: "https://images.unsplash.com/photo-1496939376851-89342e90adcd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8U2luZ2Fwb3JlfGVufDB8fDB8fHww",
             icon: Building,
             iconColor: "text-red-600",
             route: "/singapore-tour",
@@ -483,6 +392,7 @@ const packageCategories = {
             showBookNow: true,
         },
     ],
+    
 "PACKAGES": [
 
         {
@@ -494,7 +404,7 @@ const packageCategories = {
             price: "₹12,999",
             desc: "A refreshing hill getaway with misty mountains, tea gardens, and colonial charm.",
             locations: "Darjeeling, Kalimpong, Kurseong, Mirik",
-            image: "https://images.unsplash.com/photo-1596445856538-8e8a1d8c3a5e?w=1200",
+            image: "https://images.unsplash.com/photo-1661169118679-1e1d6d40813a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8TWlyaWt8ZW58MHx8MHx8fDA%3D",
             icon: Mountain,
             iconColor: "text-red-500",
             route: "/darjeeling",
@@ -523,7 +433,7 @@ const packageCategories = {
             price: "₹6,999",
             desc: "Discover art, culture, history, and flavors in India's cultural capital.",
             locations: "Kolkata",
-            image: "https://images.unsplash.com/photo-1594736797933-d0301a9c8e78?w=1200",
+            image: "https://images.unsplash.com/photo-1728156615964-5228939b9e31?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fENpdHklMjBvZiUyMEpveXxlbnwwfHwwfHx8MA%3D%3D",
             icon: Building,
             iconColor: "text-purple-500",
             route: "/kolkata",
@@ -537,7 +447,7 @@ const packageCategories = {
             price: "₹9,999",
             desc: "A thrilling mangrove adventure through rivers, creeks, and wildlife habitats.",
             locations: "Sundarban, Sajnekhali, Godkhali, Kakdwip",
-            image: "https://images.unsplash.com/photo-1580655653885-65763b2599a0?w=1200",
+            image: "https://images.unsplash.com/photo-1701006516207-20e961e92aa5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8R29ka2hhbGl8ZW58MHx8MHx8fDA%3D",
             icon: Trees,
             iconColor: "text-emerald-500",
             route: "/sundarban",
@@ -551,7 +461,7 @@ const packageCategories = {
             price: "₹11,999",
             desc: "A soulful journey through ancient temples and coastal spirituality.",
             locations: "Puri, Bhubaneswar, Konark, Chilika, Gopalpur",
-            image: "https://images.unsplash.com/photo-1602941525421-8f8b81d8c3a5e?w=1200",
+            image: "https://images.unsplash.com/photo-1718696070982-20e85093bca4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Q2hpbGlrYXxlbnwwfHwwfHx8MA%3D%3D",
             icon: Building,
             iconColor: "text-orange-500",
             route: "/odisha-tourism",
@@ -565,7 +475,7 @@ const packageCategories = {
             price: "₹13,999",
             desc: "Explore pristine landscapes, monasteries, and snow-clad mountains.",
             locations: "Sikkim, Gangtok, Pelling, Lachen, Lachung",
-            image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200",
+            image: "https://images.unsplash.com/photo-1724600457405-a7eeabcff6b5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8UGVsbGluZ3xlbnwwfHwwfHx8MA%3D%3D",
             icon: Mountain,
             iconColor: "text-indigo-500",
             route: "/sikkim-tourism",
@@ -655,10 +565,105 @@ const packageCategories = {
             route: "/nepal-tour",
         },
     ],
+     "OTHERS": [
+        {
+            slug: "puri-odisha",
+            title: "Puri & Odisha",
+            subtitle: "Temple Paradise",
+            tag: "Spiritual Journey",
+            duration: "4N & 5D",
+            price: "₹11,999",
+            desc: "Explore ancient temples, beaches, and rich cultural heritage of Odisha.",
+            locations: "Puri, Bhubaneswar, Konark, Chilika",
+            image: "https://images.unsplash.com/photo-1629723248038-8b3bc1ecce29?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cHVyaS1vZGlzaGF8ZW58MHx8MHx8fDA%3D",
+            icon: Building,
+            iconColor: "text-orange-500",
+            route: "/odisha-tourism",
+            showBookNow: true,
+        },
+        {
+            slug: "sikkim-gangtok",
+            title: "Sikkim & Gangtok",
+            subtitle: "Himalayan Beauty",
+            tag: "Mountain Escape",
+            duration: "5N & 6D",
+            price: "₹13,999",
+            desc: "Discover pristine landscapes, monasteries, and snow-clad mountains.",
+            locations: "Sikkim, Gangtok, Pelling, Lachen",
+            image: "https://images.unsplash.com/photo-1635346537940-9d51faeb6e32?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U2lra2ltJTIwJTI2JTIwR2FuZ3Rva3xlbnwwfHwwfHx8MA%3D%3D",
+            icon: Mountain,
+            iconColor: "text-indigo-500",
+            route: "/sikkim-tourism",
+            showBookNow: true,
+        },
+        {
+            slug: "silk-route",
+            title: "Silk Route",
+            subtitle: "Ancient Trade Path",
+            tag: "Mountain Adventure",
+            duration: "6N & 7D",
+            price: "₹14,999",
+            desc: "Journey through the historic Silk Route with breathtaking mountain views.",
+            locations: "Gangtok, Zuluk, Nathula, Tsomgo Lake",
+            image: "https://plus.unsplash.com/premium_photo-1671639169260-18cec0fa6a51?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U2lsayUyMFJvdXRlfGVufDB8fDB8fHww",
+            icon: Compass,
+            iconColor: "text-amber-600",
+            route: "/silk-route-tour",
+            showBookNow: true,
+        },
+        {
+            slug: "goa-beaches",
+            title: "Goa",
+            subtitle: "Beach Paradise",
+            tag: "Coastal Fun",
+            duration: "4N & 5D",
+            price: "₹12,999",
+            desc: "Experience vibrant beaches, nightlife, and Portuguese heritage.",
+            locations: "North Goa, South Goa, Panjim, Old Goa",
+            image: "https://images.unsplash.com/photo-1587922546307-776227941871?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fEdvYXxlbnwwfHwwfHx8MA%3D%3D",
+            icon: Waves,
+            iconColor: "text-teal-500",
+            route: "/goa-tour",
+            showBookNow: true,
+        },
+        {
+            slug: "himachal-tour",
+            title: "Himachal",
+            subtitle: "Land of Gods",
+            tag: "Hill Station",
+            duration: "5N & 6D",
+            price: "₹13,999",
+            desc: "Explore scenic hill stations, temples, and adventure activities.",
+            locations: "Shimla, Manali, Dharamshala, Kullu",
+            image: "https://images.unsplash.com/photo-1503265192943-9d7eea6fc77a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8SGltYWNoYWx8ZW58MHx8MHx8fDA%3D",
+            icon: Mountain,
+            iconColor: "text-green-600",
+            route: "/himachal-tourism",
+            showBookNow: true,
+        },
+        {
+            slug: "jammu-kashmir",
+            title: "Jammu & Kashmir",
+            subtitle: "Paradise on Earth",
+            tag: "Heavenly Beauty",
+            duration: "6N & 7D",
+            price: "₹16,999",
+            desc: "Experience the breathtaking valleys, lakes, and Mughal gardens.",
+            locations: "Srinagar, Gulmarg, Pahalgam, Sonamarg",
+            image: "https://plus.unsplash.com/premium_photo-1697730426664-f04d9916f700?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8SmFtbXUlMjAlMjYlMjBLYXNobWlyfGVufDB8fDB8fHww",
+            icon: Mountain,
+            iconColor: "text-blue-600",
+            route: "/kashmir-tour",
+            showBookNow: true,
+        },
+    ],
 };
 
 export default function PackagesHorizontalSlider() {
     const [activeCategory, setActiveCategory] = useState<keyof typeof packageCategories>("BENGAL BECKONS");
+const categories = Object.keys(packageCategories) as Array<
+  keyof typeof packageCategories
+>;
 
     return (
         <section className="relative bg-gray-50 py-24">
@@ -677,22 +682,46 @@ export default function PackagesHorizontalSlider() {
             </div>
 
             {/* TABS */}
-            <div className="max-w-7xl mx-auto px-6 mb-8">
-                <div className="flex flex-wrap  gap-2 border-b border-gray-200">
-                    {(Object.keys(packageCategories) as Array<keyof typeof packageCategories>).map((category) => (
-                        <button
-                            key={category}
-                            onClick={() => setActiveCategory(category)}
-                            className={`px-6 py-3 text-sm transition-colors ${activeCategory === category
-                                    ? "text-red-600 border-b-2 border-red-600"
-                                    : "text-gray-600 hover:text-red-600 border-b-2 border-transparent"
-                                }`}
-                        >
-                            {category}
-                        </button>
-                    ))}
-                </div>
-            </div>
+     <div className="max-w-7xl mx-auto px-6 mb-8">
+
+  {/* ===== MOBILE DROPDOWN ===== */}
+  <div className="block md:hidden">
+    <select
+      value={activeCategory}
+      onChange={(e) =>
+        setActiveCategory(e.target.value as keyof typeof packageCategories)
+      }
+      className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-red-500"
+    >
+      {categories.map((category) => (
+        <option key={category} value={category}>
+          {category}
+        </option>
+      ))}
+    </select>
+  </div>
+
+  {/* ===== DESKTOP TABS ===== */}
+  <div className="hidden md:block">
+    <div className="flex gap-2 border-b border-gray-200">
+      {categories.map((category) => (
+        <button
+          key={category}
+          onClick={() => setActiveCategory(category)}
+          className={`px-6 py-3 text-sm font-medium transition-colors
+            ${
+              activeCategory === category
+                ? "text-red-600 border-b-2 border-red-600"
+                : "text-gray-600 hover:text-red-600 border-b-2 border-transparent"
+            }`}
+        >
+          {category}
+        </button>
+      ))}
+    </div>
+  </div>
+
+</div>
 
             {/* PACKAGES GRID */}
             <div className="max-w-7xl mx-auto px-6">

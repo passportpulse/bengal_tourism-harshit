@@ -9,7 +9,7 @@ const BreathtakingCities: React.FC = () => {
         <div>
 
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-            Explore the World’s <br /> Most Beautiful Cities
+            Explore the World’s <br className="hidden md:block"/> Most Beautiful Cities
           </h1>
 
           <p className="text-gray-600 max-w-lg mb-10">
@@ -41,16 +41,16 @@ const BreathtakingCities: React.FC = () => {
             className="rounded-3xl object-cover w-full h-[520px]"
           />
 
-          {/* Watch Video Button */}
-          <div className="absolute top-10 -left-15 bg-white rounded-full shadow-lg flex items-center gap-4 px-6 py-4 cursor-pointer hover:shadow-xl transition">
-              <span className="font-semibold text-gray-800">
-              Watch Video
-            </span>
-            <div className="w-12 h-12 rounded-full bg-[#EA3323] flex items-center justify-center text-white text-xl">
-              ▶
-            </div>
-         
-          </div>
+     {/* Watch Video Button */}
+<div className="hidden md:flex absolute top-10 -left-15 bg-white rounded-full shadow-lg items-center gap-4 px-6 py-4 cursor-pointer hover:shadow-xl transition">
+  <span className="font-semibold text-gray-800">
+    Watch Video
+  </span>
+  <div className="w-12 h-12 rounded-full bg-[#EA3323] flex items-center justify-center text-white text-xl">
+    ▶
+  </div>
+</div>
+
         </div>
 
       </div>
