@@ -94,7 +94,7 @@ const bengalPackages = [
         image: "https://images.unsplash.com/photo-1696426886039-a3b5c8774e3d?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         icon: Mountain,
         iconColor: "text-red-500",
-        route: "/darjeeling-kalimpong",
+        route: "/darjeeling",
         showBookNow: true,
     },
     {
@@ -109,7 +109,7 @@ const bengalPackages = [
         image: "https://images.unsplash.com/photo-1669514463894-0475a3e062ff?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         icon: Trees,
         iconColor: "text-emerald-500",
-        route: "/dooars-tour",
+        route: "/dooars",
         showBookNow: true,
     },
     {
@@ -124,7 +124,7 @@ const bengalPackages = [
         image: "https://media-cdn.tripadvisor.com/media/photo-s/12/45/4d/69/mandarmani-sea-beach.jpg",
         icon: Waves,
         iconColor: "text-blue-500",
-        route: "/digha-mandarmoni",
+        route: "/digha",
         showBookNow: true,
     },
     {
@@ -139,7 +139,7 @@ const bengalPackages = [
         image: "https://images.unsplash.com/photo-1760344654401-43c9fac457ff?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fFJlZ2lvbmFsJTIwQmVuZ2FsfGVufDB8fDB8fHww",
         icon: Compass,
         iconColor: "text-orange-500",
-        route: "/regional-bengal",
+        route: "/religious-pilgrimage",
         showBookNow: true,
     },
 ];

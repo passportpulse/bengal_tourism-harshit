@@ -49,7 +49,7 @@ const exclusivePackages = [
         image: "https://ik.imgkit.net/3vlqs5axxjf/TW-Asia/ik-seo/uploadedImages/Industry/Travel_Trends/GettyImages-599463782/Wellness-tourism-takes-the-spotlight-for-2022-trav.jpg?tr=w-780%2Ch-440%2Cfo-auto",
         icon: Trees,
         iconColor: "text-green-500",
-        route: "/wellness-tourism",
+        route: "/spa-wellness",
         showBookNow: true,
     },
     {
