@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { MapPin, Calendar, Users, DollarSign, ArrowRight, Clock, Star, Mountain, Waves, Building, Trees, Compass } from "lucide-react";
+import RandomPackageSections from "../../components/RandomPackageSections";
 
 // Package categories
 const packageCategories = [
@@ -162,6 +163,9 @@ export default function PackagesPage() {
           </div>
         </div>
       </section>
+
+      {/* Random Package Sections */}
+      <RandomPackageSections />
 
       {/* Quick Stats Section */}
       <section className="py-16 px-4 bg-white">

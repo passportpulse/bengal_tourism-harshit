@@ -36,7 +36,7 @@ const foreignTourPackages = [
         image: "https://images.unsplash.com/photo-1532008779255-4b4dd2668c84?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Qmh1dGFuLVRoaW1wdXxlbnwwfHwwfHx8MA%3D%3D",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
         iconColor: "text-pink-500",
-        route: "/bhutan-tour",
+        route: "/bhutan",
         showBookNow: true
     },
     {
@@ -51,7 +51,7 @@ const foreignTourPackages = [
         image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RHViYWl8ZW58MHx8MHx8fDA%3D",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Building$3e$__["Building"],
         iconColor: "text-amber-500",
-        route: "/dubai-tour",
+        route: "/dubai",
         showBookNow: true
     },
     {
@@ -66,7 +66,7 @@ const foreignTourPackages = [
         image: "https://images.unsplash.com/photo-1720811970882-70a5196ee37e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TmVwYWwlMjAlMjYlMjBLYXRobWFuZHV8ZW58MHx8MHx8fDA%3D",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
         iconColor: "text-red-500",
-        route: "/nepal-tour",
+        route: "/nepal",
         showBookNow: true
     },
     {
@@ -81,7 +81,7 @@ const foreignTourPackages = [
         image: "https://images.unsplash.com/photo-1712487650909-2aaf5c5eac36?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VGhhaWxhbmQlMjAlMjYlMjBCYW5na29rfGVufDB8fDB8fHww",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"],
         iconColor: "text-teal-500",
-        route: "/thailand-tour",
+        route: "/thailand",
         showBookNow: true
     },
     {
@@ -96,7 +96,7 @@ const foreignTourPackages = [
         image: "https://images.unsplash.com/photo-1572025310208-2fd6b91764c1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TGFrc2hhZHdlZXB8ZW58MHx8MHx8fDA%3D",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"],
         iconColor: "text-blue-500",
-        route: "/lakshadweep-tour",
+        route: "/lakshadweep",
         showBookNow: true
     },
     {
@@ -111,7 +111,7 @@ const foreignTourPackages = [
         image: "https://images.unsplash.com/photo-1496939376851-89342e90adcd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8U2luZ2Fwb3JlfGVufDB8fDB8fHww",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Building$3e$__["Building"],
         iconColor: "text-red-600",
-        route: "/singapore-tour",
+        route: "/singapore",
         showBookNow: true
     },
     {
@@ -126,7 +126,7 @@ const foreignTourPackages = [
         image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$compass$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Compass$3e$__["Compass"],
         iconColor: "text-blue-600",
-        route: "/malaysia-tour",
+        route: "/malaysia",
         showBookNow: true
     },
     {
@@ -141,7 +141,7 @@ const foreignTourPackages = [
         image: "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=1200",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trees$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Trees$3e$__["Trees"],
         iconColor: "text-green-600",
-        route: "/bali-tour",
+        route: "/bali",
         showBookNow: true
     },
     {
@@ -156,7 +156,7 @@ const foreignTourPackages = [
         image: "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"],
         iconColor: "text-cyan-600",
-        route: "/maldives-tour",
+        route: "/maldives",
         showBookNow: true
     }
 ];

@@ -1,4 +1,5 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
   "/packages/bengal-beckons/page": "app/packages/bengal-beckons/page.js",
   "/packages/exclusive/page": "app/packages/exclusive/page.js",
   "/packages/foreign-tours/page": "app/packages/foreign-tours/page.js",
