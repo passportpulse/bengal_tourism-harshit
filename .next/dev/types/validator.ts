@@ -387,6 +387,24 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../../app/offbeat-hills/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/offbeat-hills">> = Specific
+  const handler = {} as typeof import("../../../app/offbeat-hills/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/offbeat-plains/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/offbeat-plains">> = Specific
+  const handler = {} as typeof import("../../../app/offbeat-plains/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../app/package-cost/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/package-cost">> = Specific
@@ -450,6 +468,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../../app/pilgrimage-tour/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/pilgrimage-tour">> = Specific
+  const handler = {} as typeof import("../../../app/pilgrimage-tour/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../app/privacy/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/privacy">> = Specific
@@ -499,6 +526,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 {
   type __IsExpected<Specific extends AppPageConfig<"/shillong-tourism">> = Specific
   const handler = {} as typeof import("../../../app/shillong-tourism/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/short-breaks/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/short-breaks">> = Specific
+  const handler = {} as typeof import("../../../app/short-breaks/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
