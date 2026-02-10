@@ -56,10 +56,10 @@ export default function HomePage() {
       <main className="text-gray-800">
 
         <HeroSection />
-       <RandomPackageSections />
-        <AboutTrusted />
-
         <PackagesHorizontalSlider />
+     
+        <AboutTrusted />
+  <RandomPackageSections />
 
         <BreathtakingCities />
         <WhyChooseBengal />
