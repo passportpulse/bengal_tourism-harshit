@@ -1,0 +1,452 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/air-ambulance",
+      "regex": "^/air\\-ambulance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/air\\-ambulance(?:/)?$"
+    },
+    {
+      "page": "/andaman-nicobar-tourism",
+      "regex": "^/andaman\\-nicobar\\-tourism(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/andaman\\-nicobar\\-tourism(?:/)?$"
+    },
+    {
+      "page": "/bakkhali",
+      "regex": "^/bakkhali(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/bakkhali(?:/)?$"
+    },
+    {
+      "page": "/bali",
+      "regex": "^/bali(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/bali(?:/)?$"
+    },
+    {
+      "page": "/bhutan",
+      "regex": "^/bhutan(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/bhutan(?:/)?$"
+    },
+    {
+      "page": "/boat-stay",
+      "regex": "^/boat\\-stay(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/boat\\-stay(?:/)?$"
+    },
+    {
+      "page": "/book-hotel",
+      "regex": "^/book\\-hotel(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/book\\-hotel(?:/)?$"
+    },
+    {
+      "page": "/book-tour",
+      "regex": "^/book\\-tour(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/book\\-tour(?:/)?$"
+    },
+    {
+      "page": "/brands",
+      "regex": "^/brands(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/brands(?:/)?$"
+    },
+    {
+      "page": "/camping-adventure",
+      "regex": "^/camping\\-adventure(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/camping\\-adventure(?:/)?$"
+    },
+    {
+      "page": "/career",
+      "regex": "^/career(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/career(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
+      "page": "/darjeeling",
+      "regex": "^/darjeeling(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/darjeeling(?:/)?$"
+    },
+    {
+      "page": "/digha",
+      "regex": "^/digha(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/digha(?:/)?$"
+    },
+    {
+      "page": "/dooars",
+      "regex": "^/dooars(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dooars(?:/)?$"
+    },
+    {
+      "page": "/dp",
+      "regex": "^/dp(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dp(?:/)?$"
+    },
+    {
+      "page": "/dubai",
+      "regex": "^/dubai(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dubai(?:/)?$"
+    },
+    {
+      "page": "/earn",
+      "regex": "^/earn(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/earn(?:/)?$"
+    },
+    {
+      "page": "/eco-tourism",
+      "regex": "^/eco\\-tourism(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/eco\\-tourism(?:/)?$"
+    },
+    {
+      "page": "/event-management",
+      "regex": "^/event\\-management(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/event\\-management(?:/)?$"
+    },
+    {
+      "page": "/film-shooting",
+      "regex": "^/film\\-shooting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/film\\-shooting(?:/)?$"
+    },
+    {
+      "page": "/goa-tourism",
+      "regex": "^/goa\\-tourism(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/goa\\-tourism(?:/)?$"
+    },
+    {
+      "page": "/heritage-tour",
+      "regex": "^/heritage\\-tour(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/heritage\\-tour(?:/)?$"
+    },
+    {
+      "page": "/himachal-tourism",
+      "regex": "^/himachal\\-tourism(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/himachal\\-tourism(?:/)?$"
+    },
+    {
+      "page": "/hotel-booking",
+      "regex": "^/hotel\\-booking(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/hotel\\-booking(?:/)?$"
+    },
+    {
+      "page": "/hotel-resort",
+      "regex": "^/hotel\\-resort(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/hotel\\-resort(?:/)?$"
+    },
+    {
+      "page": "/jammu-kashmir-tourism",
+      "regex": "^/jammu\\-kashmir\\-tourism(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/jammu\\-kashmir\\-tourism(?:/)?$"
+    },
+    {
+      "page": "/jungle-safari",
+      "regex": "^/jungle\\-safari(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/jungle\\-safari(?:/)?$"
+    },
+    {
+      "page": "/kerala-tourism",
+      "regex": "^/kerala\\-tourism(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kerala\\-tourism(?:/)?$"
+    },
+    {
+      "page": "/kolkata",
+      "regex": "^/kolkata(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kolkata(?:/)?$"
+    },
+    {
+      "page": "/lakshadweep",
+      "regex": "^/lakshadweep(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/lakshadweep(?:/)?$"
+    },
+    {
+      "page": "/malaysia",
+      "regex": "^/malaysia(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/malaysia(?:/)?$"
+    },
+    {
+      "page": "/maldives",
+      "regex": "^/maldives(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/maldives(?:/)?$"
+    },
+    {
+      "page": "/marketplace",
+      "regex": "^/marketplace(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/marketplace(?:/)?$"
+    },
+    {
+      "page": "/medical-tourism",
+      "regex": "^/medical\\-tourism(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/medical\\-tourism(?:/)?$"
+    },
+    {
+      "page": "/membership",
+      "regex": "^/membership(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/membership(?:/)?$"
+    },
+    {
+      "page": "/nepal",
+      "regex": "^/nepal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/nepal(?:/)?$"
+    },
+    {
+      "page": "/odisha-tourism",
+      "regex": "^/odisha\\-tourism(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/odisha\\-tourism(?:/)?$"
+    },
+    {
+      "page": "/package-cost",
+      "regex": "^/package\\-cost(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/package\\-cost(?:/)?$"
+    },
+    {
+      "page": "/packages",
+      "regex": "^/packages(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/packages(?:/)?$"
+    },
+    {
+      "page": "/packages/bengal-beckons",
+      "regex": "^/packages/bengal\\-beckons(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/packages/bengal\\-beckons(?:/)?$"
+    },
+    {
+      "page": "/packages/exclusive",
+      "regex": "^/packages/exclusive(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/packages/exclusive(?:/)?$"
+    },
+    {
+      "page": "/packages/foreign-tours",
+      "regex": "^/packages/foreign\\-tours(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/packages/foreign\\-tours(?:/)?$"
+    },
+    {
+      "page": "/packages/india",
+      "regex": "^/packages/india(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/packages/india(?:/)?$"
+    },
+    {
+      "page": "/privacy",
+      "regex": "^/privacy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacy(?:/)?$"
+    },
+    {
+      "page": "/rajasthan-tourism",
+      "regex": "^/rajasthan\\-tourism(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/rajasthan\\-tourism(?:/)?$"
+    },
+    {
+      "page": "/refund",
+      "regex": "^/refund(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/refund(?:/)?$"
+    },
+    {
+      "page": "/religious-pilgrimage",
+      "regex": "^/religious\\-pilgrimage(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/religious\\-pilgrimage(?:/)?$"
+    },
+    {
+      "page": "/river-rafting",
+      "regex": "^/river\\-rafting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/river\\-rafting(?:/)?$"
+    },
+    {
+      "page": "/robots.txt",
+      "regex": "^/robots\\.txt(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/robots\\.txt(?:/)?$"
+    },
+    {
+      "page": "/shillong-tourism",
+      "regex": "^/shillong\\-tourism(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/shillong\\-tourism(?:/)?$"
+    },
+    {
+      "page": "/sikkim-tourism",
+      "regex": "^/sikkim\\-tourism(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sikkim\\-tourism(?:/)?$"
+    },
+    {
+      "page": "/silk-route-tourism",
+      "regex": "^/silk\\-route\\-tourism(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/silk\\-route\\-tourism(?:/)?$"
+    },
+    {
+      "page": "/singapore",
+      "regex": "^/singapore(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/singapore(?:/)?$"
+    },
+    {
+      "page": "/site-map",
+      "regex": "^/site\\-map(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/site\\-map(?:/)?$"
+    },
+    {
+      "page": "/sitemap.xml",
+      "regex": "^/sitemap\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    },
+    {
+      "page": "/spa-wellness",
+      "regex": "^/spa\\-wellness(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/spa\\-wellness(?:/)?$"
+    },
+    {
+      "page": "/sundarban",
+      "regex": "^/sundarban(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sundarban(?:/)?$"
+    },
+    {
+      "page": "/tea-tourism",
+      "regex": "^/tea\\-tourism(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tea\\-tourism(?:/)?$"
+    },
+    {
+      "page": "/terms",
+      "regex": "^/terms(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terms(?:/)?$"
+    },
+    {
+      "page": "/thailand",
+      "regex": "^/thailand(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/thailand(?:/)?$"
+    },
+    {
+      "page": "/theme-tours",
+      "regex": "^/theme\\-tours(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/theme\\-tours(?:/)?$"
+    },
+    {
+      "page": "/trekking-trails",
+      "regex": "^/trekking\\-trails(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/trekking\\-trails(?:/)?$"
+    },
+    {
+      "page": "/village-offbeat",
+      "regex": "^/village\\-offbeat(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/village\\-offbeat(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

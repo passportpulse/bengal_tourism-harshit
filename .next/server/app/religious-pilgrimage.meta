@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/religious-pilgrimage/layout,_N_T_/religious-pilgrimage/page,_N_T_/religious-pilgrimage"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/religious-pilgrimage/__PAGE__",
+    "/religious-pilgrimage",
+    "/_index",
+    "/_head"
+  ]
+}

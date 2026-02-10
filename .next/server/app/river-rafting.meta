@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/river-rafting/layout,_N_T_/river-rafting/page,_N_T_/river-rafting"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/river-rafting/__PAGE__",
+    "/river-rafting",
+    "/_index",
+    "/_head"
+  ]
+}

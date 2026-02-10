@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/heritage-tour/layout,_N_T_/heritage-tour/page,_N_T_/heritage-tour"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/heritage-tour/__PAGE__",
+    "/heritage-tour",
+    "/_index",
+    "/_head"
+  ]
+}
