@@ -1,189 +1,55 @@
 "use client";
 
-import Link from "next/link";
+import { useState } from "react";
 import Image from "next/image";
-import { MapPin, Calendar, Users, DollarSign, ArrowRight, Clock, Star } from "lucide-react";
+import Link from "next/link";
+import { MapPin, Calendar, Users, DollarSign, ArrowRight, Clock, Star, Mountain, Waves, Building, Trees, Compass } from "lucide-react";
 
-const tourPackages = [
+// Package categories
+const packageCategories = [
   {
-    id: 1,
-    name: "DARJEELING HILL Circuit",
-    subtitle: "Queen of the Hills",
-    days: "5N / 6D",
-    priceINR: 15400,
-    priceUSD: 225,
-    minMaxPax: "02 / Customised",
-    schedule: "Any Day",
-    pickup: "NJP / Bagdogra",
-    category: "Hills"
+    id: "bengal-beckons",
+    name: "Bengal Beckons",
+    subtitle: "Explore the beauty of West Bengal",
+    description: "From the Himalayan foothills to the Bay of Bengal",
+    icon: Mountain,
+    iconColor: "text-red-500",
+    bgColor: "from-red-500 to-orange-500",
+    image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    route: "/packages/bengal-beckons"
   },
   {
-    id: 2,
-    name: "KALIMPONG + DEOLO / MIRIK + TABAKOSHI",
-    subtitle: "Land of Orchids & Mists",
-    days: "3N / 4D",
-    priceINR: 9100,
-    priceUSD: 150,
-    minMaxPax: "02 / Customised",
-    schedule: "Any Day",
-    pickup: "NJP / NJP/Bagdogra",
-    category: "Hills"
+    id: "india",
+    name: "India",
+    subtitle: "Discover Incredible India",
+    description: "From Kashmir to Kanyakumari, experience diverse cultures",
+    icon: Building,
+    iconColor: "text-orange-500",
+    bgColor: "from-orange-500 to-yellow-500",
+    image: "https://images.unsplash.com/photo-1524492412937-b28074a5607e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    route: "/packages/india"
   },
   {
-    id: 3,
-    name: "CHATAKPUR /-SITTONG-/ AHALDARA",
-    subtitle: "Switzerland of East / Orange Valley",
-    days: "2N / 3D",
-    priceINR: 6400,
-    priceUSD: 95,
-    minMaxPax: "04 / Customised",
-    schedule: "Any Day",
-    pickup: "NJP / NJP/Bagdogra",
-    category: "Hills"
+    id: "foreign-tours",
+    name: "Foreign Tours",
+    subtitle: "International Adventures",
+    description: "Explore exotic destinations around the world",
+    icon: Waves,
+    iconColor: "text-blue-500",
+    bgColor: "from-blue-500 to-purple-500",
+    image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    route: "/packages/foreign-tours"
   },
   {
-    id: 4,
-    name: "SANDAKPHU & MANEBHANJAN",
-    subtitle: "Trekkers Paradise",
-    days: "2N / 3D",
-    priceINR: 6400,
-    priceUSD: 95,
-    minMaxPax: "04 / Customised",
-    schedule: "Any Day",
-    pickup: "NJP / Bagdogra",
-    category: "Hills"
-  },
-  {
-    id: 5,
-    name: "OFF BEAT DESTINATIONS - Hills",
-    subtitle: "Explore the Himalayan Range of Bengal",
-    days: "2N / 3D",
-    priceINR: 6400,
-    priceUSD: 95,
-    minMaxPax: "04 / Customised",
-    schedule: "Any Day",
-    pickup: "NJP / Bagdogra",
-    category: "Hills"
-  },
-  {
-    id: 6,
-    name: "DOOARS / DUARS FOREST Circuit",
-    subtitle: "National Wildlife Sanctuary",
-    days: "5N / 6D",
-    priceINR: 15400,
-    priceUSD: 225,
-    minMaxPax: "02 / Customised",
-    schedule: "Any Day",
-    pickup: "NJP / NJP/ Bagdogra",
-    category: "Wildlife"
-  },
-  {
-    id: 7,
-    name: "GORUMARA (or) JALDAPARA",
-    subtitle: "Jeep Safari & Elephant Safari",
-    days: "3N / 4D",
-    priceINR: 9100,
-    priceUSD: 150,
-    minMaxPax: "02 / Customised",
-    schedule: "Any Day",
-    pickup: "NJP / Bagdogra",
-    category: "Wildlife"
-  },
-  {
-    id: 8,
-    name: "RISHYAP - JHANDI - LAVA - LONGCHU - CHIBBO",
-    subtitle: "Kolakham - Neora Valley - Change Falls - Gorubathan",
-    days: "2N / 3D",
-    priceINR: 6400,
-    priceUSD: 95,
-    minMaxPax: "04 / Customised",
-    schedule: "Any Day",
-    pickup: "NJP / Bagdogra",
-    category: "Hills"
-  },
-  {
-    id: 9,
-    name: "SHORT BREAKS from KOLKATA",
-    subtitle: "From Kolkata to a Place of your Choice",
-    days: "0N / 1D",
-    priceINR: 3700,
-    priceUSD: 75,
-    minMaxPax: "06 / Curated",
-    schedule: "Any Day",
-    pickup: "Kolkata",
-    category: "Day Tour"
-  },
-  {
-    id: 10,
-    name: "REGIONAL DESTINATION in BENGAL",
-    subtitle: "The Diversity & Cultures of Bengal",
-    days: "2N / 3D",
-    priceINR: 6400,
-    priceUSD: 95,
-    minMaxPax: "04 / Customised",
-    schedule: "Any Day",
-    pickup: "Kolkata / Local Station",
-    category: "Cultural"
-  },
-  {
-    id: 11,
-    name: "OFF BEAT DESTINATIONS - Plains",
-    subtitle: "Explore the Bengal Countryside",
-    days: "1N / 2D",
-    priceINR: 3700,
-    priceUSD: 75,
-    minMaxPax: "06 / Curated",
-    schedule: "Any Day",
-    pickup: "Kolkata / Local Station",
-    category: "Cultural"
-  },
-  {
-    id: 12,
-    name: "PILGRIMAGE & RELIGIOUS Tours",
-    subtitle: "Shakti Peetha's in Bengal & Other",
-    days: "1N / 2D",
-    priceINR: 3700,
-    priceUSD: 75,
-    minMaxPax: "06 / Curated",
-    schedule: "Any Day",
-    pickup: "Kolkata",
-    category: "Pilgrimage"
-  },
-  {
-    id: 13,
-    name: "DIGHA SEA BEACH Circuit",
-    subtitle: "Sea Beach Destination of the East",
-    days: "4N / 5D",
-    priceINR: 12700,
-    priceUSD: 175,
-    minMaxPax: "02 / Customised",
-    schedule: "Any Day/Weekends",
-    pickup: "Kolkata",
-    category: "Beach"
-  },
-  {
-    id: 14,
-    name: "MANDARMONI & TAJPUR Sea Beach",
-    subtitle: "Lover's Paradise",
-    days: "3N / 4D",
-    priceINR: 9100,
-    priceUSD: 150,
-    minMaxPax: "02 / Customised",
-    schedule: "Any Day",
-    pickup: "Kolkata",
-    category: "Beach"
-  },
-  {
-    id: 15,
-    name: "BAKKHALI - MOUSUNI Island's",
-    subtitle: "Weekend Destination by the Sea",
-    days: "2N / 3D",
-    priceINR: 6400,
-    priceUSD: 95,
-    minMaxPax: "04 / Customised",
-    schedule: "Any Day / Weekends",
-    pickup: "Kolkata",
-    category: "Beach"
+    id: "exclusive",
+    name: "Exclusive Services",
+    subtitle: "Premium & Specialized",
+    description: "Medical tourism, wellness, and luxury accommodations",
+    icon: Trees,
+    iconColor: "text-green-500",
+    bgColor: "from-green-500 to-teal-500",
+    image: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    route: "/packages/exclusive"
   }
 ];
 
@@ -213,7 +79,7 @@ export default function PackagesPage() {
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Bengal Tourism's
               <span className="block bg-gradient-to-r from-red-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
-                Tariff
+                Tour Packages
                 <svg className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-3/4 h-4" viewBox="0 0 300 16" fill="none">
                   <path d="M10 8 Q 75 4, 150 8 T 290 8" stroke="url(#gradient)" strokeWidth="3" strokeLinecap="round" />
                   <defs>
@@ -228,72 +94,95 @@ export default function PackagesPage() {
             </h1>
             
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-12 leading-relaxed">
-              SOME OF OUR PRE-SCHEDULED & POPULAR TOUR PACKAGES
+              Choose from our wide range of curated tour packages across different categories
             </p>
           </div>
         </div>
       </section>
 
-      {/* Packages Grid Section */}
+      {/* Categories Grid Section */}
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {tourPackages.map((pkg) => (
-              <div key={pkg.id} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white p-4">
-                  <div className="flex justify-between items-start mb-2">
-                    <span className="text-2xl font-bold">#{pkg.id}</span>
-                    <span className="bg-white/20 px-3 py-1 rounded-full text-sm font-medium">
-                      {pkg.category}
-                    </span>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Explore Our <span className="text-red-600">Package Categories</span>
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Select a category to view all available packages in that segment
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {packageCategories.map((category, i) => (
+              <Link
+                key={category.id}
+                href={category.route}
+                className="group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
+              >
+                {/* Image Background */}
+                <div className="relative h-48 overflow-hidden">
+                  <Image
+                    src={category.image}
+                    alt={category.name}
+                    fill
+                    className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+                  />
+                  <div className={`absolute inset-0 bg-gradient-to-br ${category.bgColor} opacity-80`}></div>
+                  
+                  {/* Icon Overlay */}
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="bg-white/20 backdrop-blur-sm rounded-full p-4">
+                      <category.icon className={`w-12 h-12 text-white ${category.iconColor}`} />
+                    </div>
                   </div>
-                  <h3 className="text-lg font-bold mb-1">{pkg.name}</h3>
-                  <p className="text-white/90 text-sm">{pkg.subtitle}</p>
                 </div>
                 
-                <div className="p-6 space-y-4">
-                  <div className="flex items-center gap-2 text-gray-700">
-                    <Clock className="w-4 h-4 text-red-600" />
-                    <span className="text-sm font-medium">{pkg.days}</span>
-                  </div>
+                {/* Content */}
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-red-600 transition-colors">
+                    {category.name}
+                  </h3>
+                  <p className="text-sm font-medium text-gray-600 mb-3">
+                    {category.subtitle}
+                  </p>
+                  <p className="text-sm text-gray-500 mb-4 line-clamp-2">
+                    {category.description}
+                  </p>
                   
-                  <div className="flex items-center gap-2 text-gray-700">
-                    <Users className="w-4 h-4 text-red-600" />
-                    <span className="text-sm font-medium">{pkg.minMaxPax}</span>
-                  </div>
-                  
-                  <div className="flex items-center gap-2 text-gray-700">
-                    <Calendar className="w-4 h-4 text-red-600" />
-                    <span className="text-sm font-medium">{pkg.schedule}</span>
-                  </div>
-                  
-                  <div className="flex items-center gap-2 text-gray-700">
-                    <MapPin className="w-4 h-4 text-red-600" />
-                    <span className="text-sm font-medium">{pkg.pickup}</span>
-                  </div>
-                  
-                  <div className="border-t pt-4">
-                    <div className="flex justify-between items-center mb-3">
-                      <div>
-                        <p className="text-2xl font-bold text-gray-900">₹{pkg.priceINR.toLocaleString()}</p>
-                        <p className="text-sm text-gray-600">per person</p>
-                      </div>
-                      <div className="text-right">
-                        <p className="text-xl font-bold text-gray-900">${pkg.priceUSD}</p>
-                        <p className="text-sm text-gray-600">per person</p>
-                      </div>
-                    </div>
-                    
-                    <Link href="/book-tour">
-                      <button className="w-full bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-200 flex items-center justify-center gap-2">
-                        BOOK NOW
-                        <ArrowRight className="w-4 h-4" />
-                      </button>
-                    </Link>
+                  <div className="flex items-center gap-2 text-red-600 font-semibold text-sm group-hover:gap-3 transition-all">
+                    <span>Explore Packages</span>
+                    <ArrowRight className="w-4 h-4" />
                   </div>
                 </div>
-              </div>
+                
+                {/* Hover Effect Border */}
+                <div className="absolute inset-0 rounded-2xl border-2 border-transparent group-hover:border-red-200 transition-colors"></div>
+              </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Quick Stats Section */}
+      <section className="py-16 px-4 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="text-3xl font-bold text-red-600 mb-2">50+</div>
+              <div className="text-sm text-gray-600">Tour Packages</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-red-600 mb-2">15+</div>
+              <div className="text-sm text-gray-600">Years Experience</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-red-600 mb-2">10K+</div>
+              <div className="text-sm text-gray-600">Happy Customers</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-red-600 mb-2">4.8★</div>
+              <div className="text-sm text-gray-600">Average Rating</div>
+            </div>
           </div>
         </div>
       </section>

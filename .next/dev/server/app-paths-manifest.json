@@ -1,9 +1,7 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/about/page": "app/about/page.js",
-  "/career/page": "app/career/page.js",
-  "/darjeeling/page": "app/darjeeling/page.js",
-  "/earn/page": "app/earn/page.js",
-  "/package-cost/page": "app/package-cost/page.js",
+  "/packages/bengal-beckons/page": "app/packages/bengal-beckons/page.js",
+  "/packages/exclusive/page": "app/packages/exclusive/page.js",
+  "/packages/foreign-tours/page": "app/packages/foreign-tours/page.js",
+  "/packages/page": "app/packages/page.js",
   "/page": "app/page.js"
 }
