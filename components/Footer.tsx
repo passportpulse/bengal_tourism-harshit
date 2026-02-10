@@ -152,7 +152,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
           <p>© 2026 Bengal Tourism. All rights reserved.</p>
           <div className="flex gap-6">
-            {["privacy", "terms", "refund", "sitemap"].map((page) => (
+            {["privacy", "terms", "refund"].map((page) => (
               <Link
                 key={page}
                 href={`/${page}`}
@@ -161,6 +161,12 @@ export default function Footer() {
                 {page} policy
               </Link>
             ))}
+            <Link
+              href="/site-map"
+              className="hover:text-red-400 transition"
+            >
+              Sitemap
+            </Link>
           </div>
         </div>
       </div>
