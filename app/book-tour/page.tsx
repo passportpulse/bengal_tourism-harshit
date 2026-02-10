@@ -227,7 +227,7 @@ export default function BookingPage() {
                       type="text"
                       value={formData.fullName}
                       onChange={(e) => handleInputChange("fullName", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       placeholder="Enter your full name"
                       required
                     />
@@ -240,7 +240,7 @@ export default function BookingPage() {
                       type="email"
                       value={formData.email}
                       onChange={(e) => handleInputChange("email", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       placeholder="Enter your email address"
                       required
                     />
@@ -254,14 +254,14 @@ export default function BookingPage() {
                         type="text"
                         value={formData.countryCode}
                         onChange={(e) => handleInputChange("countryCode", e.target.value)}
-                        className="w-32 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                        className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                         placeholder="+91"
                       />
                       <input
                         type="tel"
                         value={formData.phone}
                         onChange={(e) => handleInputChange("phone", e.target.value)}
-                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                         placeholder="Enter 10 digit mobile number"
                         maxLength={10}
                         required
@@ -276,7 +276,7 @@ export default function BookingPage() {
                       type="text"
                       value={formData.address}
                       onChange={(e) => handleInputChange("address", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       placeholder="Enter your complete address"
                       required
                     />
@@ -284,7 +284,7 @@ export default function BookingPage() {
                       type="text"
                       value={formData.pinCode}
                       onChange={(e) => handleInputChange("pinCode", e.target.value)}
-                      className="w-full mt-3 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full mt-3 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       placeholder="Enter PIN/Zip Code"
                       maxLength={6}
                       required
@@ -308,7 +308,7 @@ export default function BookingPage() {
                       type="text"
                       value={formData.destination}
                       onChange={(e) => handleInputChange("destination", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       placeholder="Enter your destination"
                       required
                     />
@@ -321,7 +321,7 @@ export default function BookingPage() {
                       type="number"
                       value={formData.adults}
                       onChange={(e) => handleInputChange("adults", parseInt(e.target.value) || 0)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       min="1"
                       required
                     />
@@ -334,7 +334,7 @@ export default function BookingPage() {
                       type="number"
                       value={formData.children}
                       onChange={(e) => handleInputChange("children", parseInt(e.target.value) || 0)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       min="0"
                     />
                   </div>
@@ -345,7 +345,7 @@ export default function BookingPage() {
                     <textarea
                       value={formData.specialInfo}
                       onChange={(e) => handleInputChange("specialInfo", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       rows={4}
                       placeholder="Extra cost for non-sharing car, premium room, food habits, etc."
                     />
@@ -368,7 +368,7 @@ export default function BookingPage() {
                       type="date"
                       value={formData.checkIn}
                       onChange={(e) => handleInputChange("checkIn", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       required
                     />
                   </div>
@@ -380,7 +380,7 @@ export default function BookingPage() {
                       type="date"
                       value={formData.checkOut}
                       onChange={(e) => handleInputChange("checkOut", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       required
                     />
                   </div>
@@ -392,7 +392,7 @@ export default function BookingPage() {
                       type="text"
                       value={formData.pickupPlace}
                       onChange={(e) => handleInputChange("pickupPlace", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       placeholder="Enter pickup location"
                     />
                   </div>
@@ -404,7 +404,7 @@ export default function BookingPage() {
                       type="text"
                       value={formData.dropPlace}
                       onChange={(e) => handleInputChange("dropPlace", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       placeholder="Enter drop location"
                     />
                   </div>
@@ -433,7 +433,7 @@ export default function BookingPage() {
                           handleInputChange("costPerAdult", e.target.value);
                           setTimeout(calculateTotals, 100);
                         }}
-                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                         placeholder="See Tariff Section"
                         required
                       />
@@ -454,7 +454,7 @@ export default function BookingPage() {
                           handleInputChange("costPerChildren", e.target.value);
                           setTimeout(calculateTotals, 100);
                         }}
-                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                         placeholder="0 if no children"
                       />
                     </div>
@@ -470,7 +470,7 @@ export default function BookingPage() {
                         handleInputChange("totalNights", e.target.value);
                         setTimeout(calculateTotals, 100);
                       }}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       placeholder="Number of nights"
                       required
                     />
@@ -487,7 +487,7 @@ export default function BookingPage() {
                         type="number"
                         value={formData.estimatedCost}
                         readOnly
-                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg bg-gray-50"
+                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 text-gray-600"
                         placeholder="Auto-calculated"
                       />
                     </div>
@@ -504,7 +504,7 @@ export default function BookingPage() {
                         type="number"
                         value={formData.bookingAmount}
                         readOnly
-                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg bg-gray-50"
+                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 text-gray-600"
                         placeholder="Auto-calculated"
                       />
                     </div>
@@ -527,7 +527,7 @@ export default function BookingPage() {
                       type="text"
                       value={formData.promoCode}
                       onChange={(e) => handleInputChange("promoCode", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       placeholder="Enter promo code if any"
                     />
                   </div>
@@ -539,7 +539,7 @@ export default function BookingPage() {
                       type="text"
                       value={formData.membershipNo}
                       onChange={(e) => handleInputChange("membershipNo", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       placeholder="Enter membership number"
                     />
                   </div>

@@ -179,10 +179,10 @@ export default function Navbar() {
                             </Link>
                           
                             <Link href="/contact" className="text-gray-700 font-semibold hover:text-red-600 transition">
-                                CONTACT PAGE
+                                Contact Us
                             </Link>
                               <Link
-                                href="/book-tour"
+                                href="/book-hotel"
                                 className="bg-red-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-red-700 transition"
                             >
                                 BOOK NOW
@@ -252,10 +252,10 @@ export default function Navbar() {
                             className="block py-2 text-gray-700 font-semibold"
                             onClick={() => setMobileOpen(false)}
                         >
-                            CONTACT PAGE
+                            Contact Us
                         </Link>
                              <Link
-                            href="/book-tour"
+                            href="/book-hotal"
                             className="block py-2 bg-red-600 text-white px-6 py-2 rounded-full font-semibold text-center"
                             onClick={() => setMobileOpen(false)}
                         >

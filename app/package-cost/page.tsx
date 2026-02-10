@@ -720,7 +720,7 @@ export default function TariffPage() {
                   <td className="p-3 border text-center text-gray-500">{pkg.generalItineraryPlan}</td>
                   <td className="p-3 border text-center">
                     <a
-                      href="/booking"
+                      href="/book-tour"
                       className="inline-block bg-green-600 hover:bg-green-700 text-white px-4 py-1 rounded-md font-semibold"
                     >
                       GO

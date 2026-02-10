@@ -1063,14 +1063,14 @@ function Navbar() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/contact",
                                         className: "text-gray-700 font-semibold hover:text-red-600 transition",
-                                        children: "CONTACT PAGE"
+                                        children: "Contact Us"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.tsx",
                                         lineNumber: 181,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "/book-tour",
+                                        href: "/book-hotel",
                                         className: "bg-red-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-red-700 transition",
                                         children: "BOOK NOW"
                                     }, void 0, false, {
@@ -1190,14 +1190,14 @@ function Navbar() {
                             href: "/contact",
                             className: "block py-2 text-gray-700 font-semibold",
                             onClick: ()=>setMobileOpen(false),
-                            children: "CONTACT PAGE"
+                            children: "Contact Us"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
                             lineNumber: 250,
                             columnNumber: 25
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            href: "/book-tour",
+                            href: "/book-hotal",
                             className: "block py-2 bg-red-600 text-white px-6 py-2 rounded-full font-semibold text-center",
                             onClick: ()=>setMobileOpen(false),
                             children: "BOOK NOW"

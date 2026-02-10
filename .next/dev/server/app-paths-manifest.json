@@ -1,3 +1,9 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/career/page": "app/career/page.js",
+  "/darjeeling/page": "app/darjeeling/page.js",
+  "/earn/page": "app/earn/page.js",
+  "/package-cost/page": "app/package-cost/page.js",
   "/page": "app/page.js"
 }
