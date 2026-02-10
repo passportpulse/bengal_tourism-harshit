@@ -40,7 +40,7 @@ const popularPackages = [
     price: "₹25,999",
     desc: "Experience ultra-modern architecture, luxury shopping, and desert adventures.",
     locations: "Dubai, Abu Dhabi, Sharjah",
-    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RHViYWl8ZW58MHx8MHx8fDA%3D",
+    image: "https://images.unsplash.com/photo-1725958977969-f6c5c3d42fbc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZHViYWklNUN8ZW58MHx8MHx8fDA%3D",
     icon: Building,
     iconColor: "text-amber-500",
     route: "/dubai",
