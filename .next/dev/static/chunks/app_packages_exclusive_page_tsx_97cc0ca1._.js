@@ -121,7 +121,7 @@ function ExclusivePackagesPage() {
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "absolute inset-0 bg-gradient-to-br from-indigo-900/70 via-purple-800/50 to-pink-900/40"
+                                className: "absolute inset-0 bg-gradient-to-br from-red-900/70 via-orange-800/50 to-yellow-900/40"
                             }, void 0, false, {
                                 fileName: "[project]/app/packages/exclusive/page.tsx",
                                 lineNumber: 100,
@@ -167,7 +167,7 @@ function ExclusivePackagesPage() {
                                     children: [
                                         "Exclusive",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "block bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent",
+                                            className: "block bg-gradient-to-r from-red-400 via-orange-400 to-yellow-400 bg-clip-text text-transparent",
                                             children: "Services"
                                         }, void 0, false, {
                                             fileName: "[project]/app/packages/exclusive/page.tsx",
@@ -243,7 +243,7 @@ function ExclusivePackagesPage() {
                                     children: [
                                         "Premium ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "text-indigo-600",
+                                            className: "text-red-600",
                                             children: "Exclusive"
                                         }, void 0, false, {
                                             fileName: "[project]/app/packages/exclusive/page.tsx",
@@ -259,7 +259,7 @@ function ExclusivePackagesPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-lg text-gray-600 max-w-2xl mx-auto",
-                                    children: "Experience the finest services tailored to your specific needs and preferences"
+                                    children: "Experience finest services tailored to your specific needs and preferences"
                                 }, void 0, false, {
                                     fileName: "[project]/app/packages/exclusive/page.tsx",
                                     lineNumber: 138,
@@ -514,7 +514,7 @@ function ExclusivePackagesPage() {
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                className: "text-2xl font-bold text-indigo-600",
+                                                                className: "text-2xl font-bold text-red-600",
                                                                 children: item.price
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/packages/exclusive/page.tsx",
@@ -537,7 +537,7 @@ function ExclusivePackagesPage() {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                             href: "/book-tour",
-                                                            className: "flex-1 flex items-center justify-center gap-2 bg-indigo-600 text-white py-3 rounded-xl text-sm font-semibold hover:bg-indigo-700 transition-colors",
+                                                            className: "flex-1 flex items-center justify-center gap-2 bg-red-600 text-white py-3 rounded-xl text-sm font-semibold hover:bg-red-700 transition-colors",
                                                             children: "Book Now"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/packages/exclusive/page.tsx",
@@ -546,7 +546,7 @@ function ExclusivePackagesPage() {
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                             href: item.route,
-                                                            className: "flex items-center justify-center gap-2 border border-indigo-600 text-indigo-600 px-4 py-3 rounded-xl text-sm font-semibold hover:bg-indigo-50 transition-colors",
+                                                            className: "flex items-center justify-center gap-2 border border-red-600 text-red-600 px-4 py-3 rounded-xl text-sm font-semibold hover:bg-red-50 transition-colors",
                                                             children: "View Details"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/packages/exclusive/page.tsx",

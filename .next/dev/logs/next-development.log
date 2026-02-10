@@ -93,3 +93,9 @@ Import trace:
 [00:23:36.597] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200" 404
 [00:23:40.752] Server  ERROR   TimeoutError: The operation was aborted due to timeout
 [00:23:40.765] Server  ERROR   TimeoutError: The operation was aborted due to timeout
+[00:29:28.551] Server  LOG     ✓ Compiled in 214ms
+[00:29:38.889] Server  LOG     ✓ Compiled in 108ms
+[00:29:59.176] Server  LOG     ✓ Compiled in 66ms
+[00:30:16.556] Server  LOG     ✓ Compiled in 71ms
+[00:30:24.029] Server  LOG     ✓ Compiled in 51ms
+[00:35:44.042] Server  LOG     ✓ Compiled in 79ms

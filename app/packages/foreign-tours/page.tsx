@@ -157,7 +157,7 @@ export default function ForeignToursPackagesPage() {
                         className="object-cover"
                         priority
                     />
-                    <div className="absolute inset-0 bg-gradient-to-br from-purple-900/70 via-blue-800/50 to-teal-900/40"></div>
+                    <div className="absolute inset-0 bg-gradient-to-br from-red-900/70 via-orange-800/50 to-yellow-900/40"></div>
                 </div>
                 
                 <div className="relative z-10 h-full flex items-center justify-center px-6">
@@ -169,7 +169,7 @@ export default function ForeignToursPackagesPage() {
                         
                         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
                             Foreign
-                            <span className="block bg-gradient-to-r from-purple-400 via-blue-400 to-teal-400 bg-clip-text text-transparent">
+                            <span className="block bg-gradient-to-r from-red-400 via-orange-400 to-yellow-400 bg-clip-text text-transparent">
                                 Tour Packages
                             </span>
                         </h1>
@@ -193,10 +193,10 @@ export default function ForeignToursPackagesPage() {
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                            Popular <span className="text-purple-600">International</span> Tour Packages
+                            Popular <span className="text-red-600">Foreign</span> Tour Packages
                         </h2>
                         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                            From Southeast Asia to the Middle East, discover the world's most amazing destinations
+                            From Southeast Asia to Middle East, discover world's most amazing destinations
                         </p>
                     </div>
                     
@@ -279,7 +279,7 @@ export default function ForeignToursPackagesPage() {
                                     <div className="mt-auto mb-4">
                                         <div className="flex items-baseline gap-2">
                                             <span className="text-sm text-gray-500">Starting from</span>
-                                            <span className="text-2xl font-bold text-purple-600">
+                                            <span className="text-2xl font-bold text-red-600">
                                                 {item.price}
                                             </span>
                                         </div>
@@ -289,11 +289,11 @@ export default function ForeignToursPackagesPage() {
                                     <div className="flex gap-2">
                                         <Link
                                             href="/book-tour"
-                                            className="flex-1 flex items-center justify-center gap-2 bg-purple-600 text-white py-3 rounded-xl text-sm font-semibold hover:bg-purple-700 transition-colors"
+                                            className="flex-1 flex items-center justify-center gap-2 bg-red-600 text-white py-3 rounded-xl text-sm font-semibold hover:bg-red-700 transition-colors"
                                         >
                                             Book Now
                                         </Link>
-                                        <Link href={item.route} className="flex items-center justify-center gap-2 border border-purple-600 text-purple-600 px-4 py-3 rounded-xl text-sm font-semibold hover:bg-purple-50 transition-colors">
+                                        <Link href={item.route} className="flex items-center justify-center gap-2 border border-red-600 text-red-600 px-4 py-3 rounded-xl text-sm font-semibold hover:bg-red-50 transition-colors">
                                             View Details
                                         </Link>
                                     </div>

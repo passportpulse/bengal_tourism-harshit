@@ -112,25 +112,25 @@ export default function IndiaPackagesPage() {
                         className="object-cover"
                         priority
                     />
-                    <div className="absolute inset-0 bg-gradient-to-br from-blue-900/70 via-blue-800/50 to-orange-900/40"></div>
+                    <div className="absolute inset-0 bg-gradient-to-br from-red-900/70 via-orange-800/50 to-yellow-900/40"></div>
                 </div>
                 
                 <div className="relative z-10 h-full flex items-center justify-center px-6">
                     <div className="text-center max-w-5xl mx-auto">
                         <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md border border-white/30 rounded-full px-6 py-3 mb-8">
                             <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                            <span className="text-white font-medium text-sm">Discover Incredible India</span>
+                            <span className="text-white font-medium text-sm">Explore Incredible India</span>
                         </div>
                         
                         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
                             India
-                            <span className="block bg-gradient-to-r from-orange-400 via-yellow-400 to-red-400 bg-clip-text text-transparent">
+                            <span className="block bg-gradient-to-r from-red-400 via-orange-400 to-yellow-400 bg-clip-text text-transparent">
                                 Tourism Packages
                             </span>
                         </h1>
                         
                         <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-12 leading-relaxed">
-                            Explore the diverse landscapes, cultures, and heritage of incredible India
+                            Explore diverse landscapes, cultures, and heritage of incredible India
                         </p>
                         
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -148,10 +148,10 @@ export default function IndiaPackagesPage() {
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                            Popular <span className="text-orange-600">India</span> Tour Packages
+                            Popular <span className="text-red-600">India</span> Tour Packages
                         </h2>
                         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                            From the Himalayas to the beaches, discover the best of India with our curated tour packages
+                            From Himalayas to beaches, discover the best of India with our curated tour packages
                         </p>
                     </div>
                     
@@ -234,7 +234,7 @@ export default function IndiaPackagesPage() {
                                     <div className="mt-auto mb-4">
                                         <div className="flex items-baseline gap-2">
                                             <span className="text-sm text-gray-500">Starting from</span>
-                                            <span className="text-2xl font-bold text-orange-600">
+                                            <span className="text-2xl font-bold text-red-600">
                                                 {item.price}
                                             </span>
                                         </div>
@@ -244,11 +244,11 @@ export default function IndiaPackagesPage() {
                                     <div className="flex gap-2">
                                         <Link
                                             href="/book-tour"
-                                            className="flex-1 flex items-center justify-center gap-2 bg-orange-600 text-white py-3 rounded-xl text-sm font-semibold hover:bg-orange-700 transition-colors"
+                                            className="flex-1 flex items-center justify-center gap-2 bg-red-600 text-white py-3 rounded-xl text-sm font-semibold hover:bg-red-700 transition-colors"
                                         >
                                             Book Now
                                         </Link>
-                                        <Link href={item.route} className="flex items-center justify-center gap-2 border border-orange-600 text-orange-600 px-4 py-3 rounded-xl text-sm font-semibold hover:bg-orange-50 transition-colors">
+                                        <Link href={item.route} className="flex items-center justify-center gap-2 border border-red-600 text-red-600 px-4 py-3 rounded-xl text-sm font-semibold hover:bg-red-50 transition-colors">
                                             View Details
                                         </Link>
                                     </div>

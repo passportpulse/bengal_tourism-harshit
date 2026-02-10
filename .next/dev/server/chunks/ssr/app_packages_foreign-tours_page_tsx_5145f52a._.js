@@ -182,7 +182,7 @@ function ForeignToursPackagesPage() {
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "absolute inset-0 bg-gradient-to-br from-purple-900/70 via-blue-800/50 to-teal-900/40"
+                                className: "absolute inset-0 bg-gradient-to-br from-red-900/70 via-orange-800/50 to-yellow-900/40"
                             }, void 0, false, {
                                 fileName: "[project]/app/packages/foreign-tours/page.tsx",
                                 lineNumber: 160,
@@ -228,7 +228,7 @@ function ForeignToursPackagesPage() {
                                     children: [
                                         "Foreign",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "block bg-gradient-to-r from-purple-400 via-blue-400 to-teal-400 bg-clip-text text-transparent",
+                                            className: "block bg-gradient-to-r from-red-400 via-orange-400 to-yellow-400 bg-clip-text text-transparent",
                                             children: "Tour Packages"
                                         }, void 0, false, {
                                             fileName: "[project]/app/packages/foreign-tours/page.tsx",
@@ -304,8 +304,8 @@ function ForeignToursPackagesPage() {
                                     children: [
                                         "Popular ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "text-purple-600",
-                                            children: "International"
+                                            className: "text-red-600",
+                                            children: "Foreign"
                                         }, void 0, false, {
                                             fileName: "[project]/app/packages/foreign-tours/page.tsx",
                                             lineNumber: 196,
@@ -320,7 +320,7 @@ function ForeignToursPackagesPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-lg text-gray-600 max-w-2xl mx-auto",
-                                    children: "From Southeast Asia to the Middle East, discover the world's most amazing destinations"
+                                    children: "From Southeast Asia to Middle East, discover world's most amazing destinations"
                                 }, void 0, false, {
                                     fileName: "[project]/app/packages/foreign-tours/page.tsx",
                                     lineNumber: 198,
@@ -575,7 +575,7 @@ function ForeignToursPackagesPage() {
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                className: "text-2xl font-bold text-purple-600",
+                                                                className: "text-2xl font-bold text-red-600",
                                                                 children: item.price
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/packages/foreign-tours/page.tsx",
@@ -598,7 +598,7 @@ function ForeignToursPackagesPage() {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                             href: "/book-tour",
-                                                            className: "flex-1 flex items-center justify-center gap-2 bg-purple-600 text-white py-3 rounded-xl text-sm font-semibold hover:bg-purple-700 transition-colors",
+                                                            className: "flex-1 flex items-center justify-center gap-2 bg-red-600 text-white py-3 rounded-xl text-sm font-semibold hover:bg-red-700 transition-colors",
                                                             children: "Book Now"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/packages/foreign-tours/page.tsx",
@@ -607,7 +607,7 @@ function ForeignToursPackagesPage() {
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                             href: item.route,
-                                                            className: "flex items-center justify-center gap-2 border border-purple-600 text-purple-600 px-4 py-3 rounded-xl text-sm font-semibold hover:bg-purple-50 transition-colors",
+                                                            className: "flex items-center justify-center gap-2 border border-red-600 text-red-600 px-4 py-3 rounded-xl text-sm font-semibold hover:bg-red-50 transition-colors",
                                                             children: "View Details"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/packages/foreign-tours/page.tsx",
