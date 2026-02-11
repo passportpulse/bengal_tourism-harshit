@@ -1,12 +1,27 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useRef } from "react"
 import Link from "next/link"
 import { Menu, X, Facebook, Instagram, MessageCircle, Phone, Mail, Globe } from "lucide-react"
 
 export default function Navbar() {
     const [mobileOpen, setMobileOpen] = useState(false)
     const [tourSidebarOpen, setTourSidebarOpen] = useState(false)
+    const [destinationsOpen, setDestinationsOpen] = useState(false)
+    const timeoutRef = useRef<NodeJS.Timeout | null>(null)
+
+    const handleMouseEnter = () => {
+        if (timeoutRef.current) {
+            clearTimeout(timeoutRef.current)
+        }
+        setDestinationsOpen(true)
+    }
+
+    const handleMouseLeave = () => {
+        timeoutRef.current = setTimeout(() => {
+            setDestinationsOpen(false)
+        }, 200)
+    }
 
     return (
         <header className="sticky top-0 z-50">
@@ -134,7 +149,7 @@ export default function Navbar() {
 
             {/* Main Navigation */}
             <div className="bg-white border-b">
-                <div className="max-w-7xl mx-auto px-4">
+                <div className="max-w-7xl mx-auto px-4"> 
                     <div className="flex h-20 items-center justify-between">
 
                         {/* Tour Packages Hamburger - Top Left */}
@@ -158,13 +173,64 @@ export default function Navbar() {
                         </Link>
 
                         {/* Desktop Nav */}
-                        <nav className="hidden lg:flex items-center gap-8">
+                        <nav className="hidden lg:flex items-center gap-6">
                             <Link href="/" className="text-amber-700 font-semibold hover:text-red-600 transition">
                                 HOME
                             </Link>
+                   
+                            
                             <Link href="/about" className="text-gray-700 font-semibold hover:text-red-600 transition">
                                 About Us
                             </Link>
+                                     
+                            {/* Destinations Dropdown */}
+                            <div 
+                                className="relative"
+                                onMouseEnter={handleMouseEnter}
+                                onMouseLeave={handleMouseLeave}
+                            >
+                                <button
+                                    className="text-gray-700 font-semibold hover:text-red-600 transition flex items-center gap-1"
+                                >
+                                    Destinations
+                                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                                    </svg>
+                                </button>
+                                
+                                {destinationsOpen && (
+                                    <div 
+                                        className="absolute top-full left-0 mt-2 w-56 bg-white shadow-lg rounded-lg border border-gray-200 z-50"
+                                        onMouseEnter={handleMouseEnter}
+                                        onMouseLeave={handleMouseLeave}
+                                    >
+                                        <Link
+                                            href="/packages/bengal-beckons"
+                                            className="block px-4 py-3 text-gray-700 hover:bg-red-50 hover:text-red-600 transition"
+                                        >
+                                            Bengal Beckons
+                                        </Link>
+                                        <Link
+                                            href="/packages/india"
+                                            className="block px-4 py-3 text-gray-700 hover:bg-red-50 hover:text-red-600 transition"
+                                        >
+                                            Incredible India
+                                        </Link>
+                                        <Link
+                                            href="/packages/foreign-tours"
+                                            className="block px-4 py-3 text-gray-700 hover:bg-red-50 hover:text-red-600 transition"
+                                        >
+                                            Foreign Destinations
+                                        </Link>
+                                        <Link
+                                            href="/packages/exclusive"
+                                            className="block px-4 py-3 text-gray-700 hover:bg-red-50 hover:text-red-600 transition"
+                                        >
+                                            Exclusive Offers
+                                        </Link>
+                                    </div>
+                                )}
+                            </div>
                             <Link href="/earn" className="text-gray-700 font-semibold hover:text-red-600 transition">
                                 Earn With Us
                             </Link>
@@ -211,6 +277,53 @@ export default function Navbar() {
                         >
                             HOME
                         </Link>
+                        
+                        {/* Mobile Destinations */}
+                        <div>
+                            <button
+                                onClick={() => setDestinationsOpen(!destinationsOpen)}
+                                className="w-full text-left py-2 text-gray-700 font-semibold flex items-center justify-between"
+                            >
+                                Destinations
+                                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                                </svg>
+                            </button>
+                            
+                            {destinationsOpen && (
+                                <div className="pl-4 mt-2 space-y-2">
+                                    <Link
+                                        href="/packages/bengal-beckons"
+                                        className="block py-2 text-gray-600 hover:text-red-600"
+                                        onClick={() => setMobileOpen(false)}
+                                    >
+                                        Bengal Beckons
+                                    </Link>
+                                    <Link
+                                        href="/packages/india"
+                                        className="block py-2 text-gray-600 hover:text-red-600"
+                                        onClick={() => setMobileOpen(false)}
+                                    >
+                                        Incredible India
+                                    </Link>
+                                    <Link
+                                        href="/packages/foreign-tours"
+                                        className="block py-2 text-gray-600 hover:text-red-600"
+                                        onClick={() => setMobileOpen(false)}
+                                    >
+                                        Foreign Destinations
+                                    </Link>
+                                    <Link
+                                        href="/packages/exclusive"
+                                        className="block py-2 text-gray-600 hover:text-red-600"
+                                        onClick={() => setMobileOpen(false)}
+                                    >
+                                        Exclusive Offers
+                                    </Link>
+                                </div>
+                            )}
+                        </div>
+                        
                         <Link
                             href="/about"
                             className="block py-2 text-gray-700 font-semibold"

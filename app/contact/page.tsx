@@ -3,11 +3,11 @@ import ContactPage from "@/components/contact/ContactPage";
 
 export const metadata: Metadata = {
   title: 'Contact Bengal Tourism - Get in Touch | Official Tourism Portal',
-  description: 'Contact Bengal Tourism for tour bookings, hotel reservations, and travel inquiries. 24/7 customer support available via phone, email, and contact form. Visit our Kolkata office or reach out online.',
-  keywords: 'Contact Bengal Tourism, Bengal Tourism contact, Kolkata office, Bengal tourism phone, customer support, travel inquiries, tour booking contact',
+  description: 'Contact Bengal Tourism for tour bookings at 6289783779 and hotel bookings at 9007995888. WhatsApp support available. Email: bengaltourism@gmail.com. Visit our office at AG-209, Flat No402, Kestopur, Kolkata - 700101.',
+  keywords: 'Contact Bengal Tourism, Bengal Tourism contact, Kolkata office, Bengal tourism phone, customer support, travel inquiries, tour booking contact, hotel booking contact',
   openGraph: {
     title: 'Contact Bengal Tourism - Get in Touch',
-    description: 'Contact Bengal Tourism for tour bookings, hotel reservations, and travel inquiries. 24/7 customer support available.',
+    description: 'Contact Bengal Tourism for tour bookings at 6289783779 and hotel bookings at 9007995888. WhatsApp support available.',
     type: 'website',
     url: 'https://bengaltourism.com/contact',
     images: [
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Contact Bengal Tourism - Get in Touch',
-    description: 'Contact Bengal Tourism for tour bookings, hotel reservations, and travel inquiries. 24/7 customer support available.',
+    description: 'Contact Bengal Tourism for tour bookings at 6289783779 and hotel bookings at 9007995888. WhatsApp support available.',
     images: ['https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200'],
   },
   robots: {

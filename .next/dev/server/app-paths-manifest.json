@@ -1,1 +1,11 @@
-{}
+{
+  "/about/page": "app/about/page.js",
+  "/book-hotel/page": "app/book-hotel/page.js",
+  "/darjeeling/page": "app/darjeeling/page.js",
+  "/hotel-booking/page": "app/hotel-booking/page.js",
+  "/jammu-kashmir-tourism/page": "app/jammu-kashmir-tourism/page.js",
+  "/kerala-tourism/page": "app/kerala-tourism/page.js",
+  "/packages/exclusive/page": "app/packages/exclusive/page.js",
+  "/packages/india/page": "app/packages/india/page.js",
+  "/page": "app/page.js"
+}

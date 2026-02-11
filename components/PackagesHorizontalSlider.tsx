@@ -12,21 +12,21 @@ const packages = [
             "https://images.unsplash.com/photo-1571679654681-ba01b9e1e117?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2VzdCUyMGJlbmdhbHxlbnwwfHwwfHx8MA%3D%3D",
     },
     {
-        title: "India",
+        title: "Incredible India",
         subtitle: "Discover Incredible India",
         href: "/packages/india",
         image:
             "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
     },
     {
-        title: "Foreign Tours",
+        title: "Foreign Destinations",
         subtitle: "International Adventures",
         href: "/packages/foreign-tours",
         image:
             "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
     },
     {
-        title: "Exclusive",
+        title: "Exclusive Offers ",
         subtitle: "Premium Travel Experiences",
         href: "/packages/exclusive",
         image:

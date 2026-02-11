@@ -826,19 +826,19 @@ const packages = [
         image: "https://images.unsplash.com/photo-1571679654681-ba01b9e1e117?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2VzdCUyMGJlbmdhbHxlbnwwfHwwfHx8MA%3D%3D"
     },
     {
-        title: "India",
+        title: "Incredible India",
         subtitle: "Discover Incredible India",
         href: "/packages/india",
         image: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80"
     },
     {
-        title: "Foreign Tours",
+        title: "Foreign Destinations",
         subtitle: "International Adventures",
         href: "/packages/foreign-tours",
         image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80"
     },
     {
-        title: "Exclusive",
+        title: "Exclusive Offers ",
         subtitle: "Premium Travel Experiences",
         href: "/packages/exclusive",
         image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80"
@@ -1180,73 +1180,73 @@ const experiences = [
     {
         title: "Boat Cruise & Stay",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$ship$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Ship$3e$__["Ship"],
-        route: "/experiences/boat-cruise",
+        route: "/boat-stay",
         image: "https://images.unsplash.com/photo-1548574505-5e239809ee19?q=80&w=2764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         title: "Camping & Tenting",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$tent$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Tent$3e$__["Tent"],
-        route: "/experiences/camping",
+        route: "/camping-adventure",
         image: "https://images.unsplash.com/photo-1727640826472-bf7456dc030c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         title: "Event Management",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$party$2d$popper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__PartyPopper$3e$__["PartyPopper"],
-        route: "/experiences/events",
+        route: "/event-management",
         image: "https://images.unsplash.com/photo-1550697797-f01b4e83a1be?q=80&w=2676&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         title: "Film Shooting",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$camera$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Camera$3e$__["Camera"],
-        route: "/experiences/film-shooting",
+        route: "/film-shooting",
         image: "https://images.unsplash.com/photo-1681137063068-081072cf04b4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RmlsbSUyMHNob290aW5nfGVufDB8fDB8fHww"
     },
     {
         title: "Heritage Tour & Walks",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$landmark$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Landmark$3e$__["Landmark"],
-        route: "/experiences/heritage-walks",
+        route: "/heritage-tour",
         image: "https://images.unsplash.com/photo-1763912111586-aed87ee0c3aa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEhlcml0YWdlJTIwVG91ciUyMCUyNiUyMFdhbGtzfGVufDB8fDB8fHww"
     },
     {
         title: "Hills – Off Beat Destinations",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
-        route: "/experiences/offbeat-hills",
+        route: "/offbeat-hills",
         image: "https://images.unsplash.com/photo-1599106242383-271adeb2e828?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SGlsbHN8ZW58MHx8MHx8fDA%3D"
     },
     {
         title: "Jungle Safari",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trees$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Trees$3e$__["Trees"],
-        route: "/experiences/jungle-safari",
+        route: "/jungle-safari",
         image: "https://images.unsplash.com/photo-1554380726-5bd6b17b42e5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SnVuZ2xlJTIwU2FmYXJpfGVufDB8fDB8fHww"
     },
     {
         title: "Plains – Off Beat Destinations",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"],
-        route: "/experiences/offbeat-plains",
+        route: "/offbeat-plains",
         image: "https://images.unsplash.com/photo-1651678938586-affccc71c270?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         title: "Religious & Pilgrimage Tour",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$church$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Church$3e$__["Church"],
-        route: "/experiences/pilgrimage",
+        route: "/pilgrimage-tour",
         image: "https://images.unsplash.com/photo-1761474440561-78a792962f3a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UGlsZ3JpbWFnZSUyMFRvdXJ8ZW58MHx8MHx8fDA%3D"
     },
     {
         title: "River Rafting",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"],
-        route: "/experiences/river-rafting",
+        route: "/river-rafting",
         image: "https://images.unsplash.com/photo-1629248457649-b082812aea6c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Uml2ZXIlMjBSYWZ0aW5nfGVufDB8fDB8fHww"
     },
     {
         title: "Short Breaks from Kolkata",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__["Clock"],
-        route: "/experiences/short-breaks",
+        route: "/short-breaks",
         image: "https://images.unsplash.com/photo-1761933810905-ccc35b14d937?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2hvcnQlMjBCcmVha3N8ZW58MHx8MHx8fDA%3D"
     },
     {
         title: "Trekking",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$footprints$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Footprints$3e$__["Footprints"],
-        route: "/experiences/trekking",
+        route: "/trekking-trails",
         image: "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VHJla2tpbmd8ZW58MHx8MHx8fDA%3D"
     }
 ];
@@ -2608,7 +2608,7 @@ const packageCategories = {
             subtitle: "Queen of the Hills",
             tag: "Himalayan Paradise",
             duration: "5N & 6D",
-            price: "₹12,999",
+            price: "₹ 14500",
             desc: "A refreshing hill getaway with misty mountains, tea gardens, and colonial charm.",
             locations: "Darjeeling, Kalimpong, Kurseong, Mirik",
             image: "https://images.unsplash.com/photo-1698753864905-a447aa362ec9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRhcmplZWxpbmd8ZW58MHx8MHx8fDA%3D",
@@ -2623,7 +2623,7 @@ const packageCategories = {
             subtitle: "Sea & Sand of the East",
             tag: "Beach Paradise",
             duration: "4N & 5D",
-            price: "₹8,999",
+            price: "₹ 12700",
             desc: "A relaxing coastal retreat with serene beaches and scenic sunsets.",
             locations: "Digha, Mandarmoni, Shankarpur, Tajpur",
             image: "https://images.unsplash.com/photo-1657282928361-ec9de3f2bc74?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -2638,7 +2638,7 @@ const packageCategories = {
             subtitle: "Largest Mangrove of the World",
             tag: "Wildlife Forest & Jungle Safari",
             duration: "3N & 4D",
-            price: "₹9,999",
+            price: "₹ 9100",
             desc: "A thrilling mangrove adventure through rivers, creeks, and wildlife habitats.",
             locations: "Sundarban, Sajnekhali, Godkhali, Kakdwip",
             image: "https://images.unsplash.com/photo-1706459671568-9809c9d13430?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U3VuZGFyYmFufGVufDB8fDB8fHww",
@@ -2668,7 +2668,7 @@ const packageCategories = {
             subtitle: "Serene Beach Escape",
             tag: "Beach Paradise",
             duration: "4N & 5D",
-            price: "₹7,999",
+            price: "₹ 12700",
             desc: "A serene coastal escape with pristine beaches and swaying palms.",
             locations: "Bakkhali, Henry Island, Jambudwip, Frasergunj",
             image: "https://images.unsplash.com/photo-1736782487579-79f9cfc5570a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8QmFra2hhbGl8ZW58MHx8MHx8fDA%3D",
@@ -2683,8 +2683,8 @@ const packageCategories = {
             subtitle: "Hill Station Paradise",
             tag: "Mountain Escape",
             duration: "4N & 5D",
-            price: "₹11,999",
-            desc: "Experience the breathtaking beauty of Himalayan hills with tea gardens and mountain views.",
+            price: "₹ 12700",
+            desc: "Experience breathtaking beauty of Himalayan hills with tea gardens and mountain views.",
             locations: "Darjeeling, Kalimpong, Gangtok",
             image: "https://images.unsplash.com/photo-1696426886039-a3b5c8774e3d?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
@@ -2698,7 +2698,7 @@ const packageCategories = {
             subtitle: "Wildlife Paradise",
             tag: "Forest Safari",
             duration: "3N & 4D",
-            price: "₹9,999",
+            price: "₹ 9100",
             desc: "Explore the lush forests and wildlife sanctuaries of North Bengal.",
             locations: "Lataguri, Jaldapara, Gorumara",
             image: "https://images.unsplash.com/photo-1669514463894-0475a3e062ff?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -2713,7 +2713,7 @@ const packageCategories = {
             subtitle: "Beach Paradise",
             tag: "Coastal Retreat",
             duration: "3N & 4D",
-            price: "₹8,999",
+            price: "₹ 9100",
             desc: "Relax on the pristine beaches of Bengal's most popular coastal destinations.",
             locations: "Digha, Mandarmoni, Shankarpur",
             image: "https://media-cdn.tripadvisor.com/media/photo-s/12/45/4d/69/mandarmani-sea-beach.jpg",
@@ -3158,7 +3158,7 @@ const packageCategories = {
             subtitle: "Temple Paradise",
             tag: "Spiritual Journey",
             duration: "4N & 5D",
-            price: "₹11,999",
+            price: "₹ 12700",
             desc: "Explore ancient temples, beaches, and rich cultural heritage of Odisha.",
             locations: "Puri, Bhubaneswar, Konark, Chilika",
             image: "https://images.unsplash.com/photo-1629723248038-8b3bc1ecce29?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cHVyaS1vZGlzaGF8ZW58MHx8MHx8fDA%3D",
@@ -3173,7 +3173,7 @@ const packageCategories = {
             subtitle: "Himalayan Beauty",
             tag: "Mountain Escape",
             duration: "5N & 6D",
-            price: "₹13,999",
+            price: "₹ 14500",
             desc: "Discover pristine landscapes, monasteries, and snow-clad mountains.",
             locations: "Sikkim, Gangtok, Pelling, Lachen",
             image: "https://images.unsplash.com/photo-1635346537940-9d51faeb6e32?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U2lra2ltJTIwJTI2JTIwR2FuZ3Rva3xlbnwwfHwwfHx8MA%3D%3D",
@@ -3187,8 +3187,8 @@ const packageCategories = {
             title: "Silk Route",
             subtitle: "Ancient Trade Path",
             tag: "Mountain Adventure",
-            duration: "6N & 7D",
-            price: "₹14,999",
+            duration: "5N & 6D",
+            price: "₹ 14500",
             desc: "Journey through the historic Silk Route with breathtaking mountain views.",
             locations: "Gangtok, Zuluk, Nathula, Tsomgo Lake",
             image: "https://plus.unsplash.com/premium_photo-1671639169260-18cec0fa6a51?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U2lsayUyMFJvdXRlfGVufDB8fDB8fHww",
@@ -3288,7 +3288,7 @@ const popularPackages = [
         subtitle: "Queen of the Hills",
         tag: "Himalayan Paradise",
         duration: "5N & 6D",
-        price: "₹12,999",
+        price: "₹ 14500",
         desc: "A refreshing hill getaway with misty mountains, tea gardens, and colonial charm.",
         locations: "Darjeeling, Kalimpong, Kurseong, Mirik",
         image: "https://images.unsplash.com/photo-1698753864905-a447aa362ec9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRhcmplZWxpbmd8ZW58MHx8MHx8fDA%3D",
@@ -3318,7 +3318,7 @@ const popularPackages = [
         subtitle: "Beach Paradise",
         tag: "Coastal Fun",
         duration: "4N & 5D",
-        price: "₹12,999",
+        price: "₹ 12700",
         desc: "Experience vibrant beaches, nightlife, and Portuguese heritage.",
         locations: "North Goa, South Goa, Panjim, Old Goa",
         image: "https://images.unsplash.com/photo-1587922546307-776227941871?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fEdvYXxlbnwwfHwwfHx8MA%3D%3D",
@@ -3348,7 +3348,7 @@ const popularPackages = [
         subtitle: "Largest Mangrove of the World",
         tag: "Wildlife Forest & Jungle Safari",
         duration: "3N & 4D",
-        price: "₹9,999",
+        price: "₹ 9100",
         desc: "A thrilling mangrove adventure through rivers, creeks, and wildlife habitats.",
         locations: "Sundarban, Sajnekhali, Godkhali, Kakdwip",
         image: "https://images.unsplash.com/photo-1706459671568-9809c9d13430?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U3VuZGFyYmFufGVufDB8fDB8fHww",
@@ -3393,7 +3393,7 @@ const popularPackages = [
         subtitle: "Himalayan Beauty",
         tag: "Mountain Escape",
         duration: "5N & 6D",
-        price: "₹13,999",
+        price: "₹ 14500",
         desc: "Discover pristine landscapes, monasteries, and snow-clad mountains.",
         locations: "Sikkim, Gangtok, Pelling, Lachen",
         image: "https://images.unsplash.com/photo-1724600457405-a7eeabcff6b5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8UGVsbGluZ3xlbnwwfHwwfHx8MA%3D%3D",

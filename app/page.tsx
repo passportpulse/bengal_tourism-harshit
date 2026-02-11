@@ -9,6 +9,7 @@ import CTASection from '@/components/CTASection'
 import TailorMadeBentoGrid from '@/components/TailorMadeBentoGrid'
 import AboutTrusted from '@/components/AboutTrusted'
 import RandomPackageSections from '@/components/RandomPackageSections'
+import HotelBookingSection from '@/components/HotelBookingSection'
 
 export const metadata: Metadata = {
   title: 'Bengal Tourism - Explore the Beauty of West Bengal | Official Tourism Portal',
@@ -57,6 +58,9 @@ export default function HomePage() {
 
         <HeroSection />
         <PackagesHorizontalSlider />
+        
+        {/* ================= HOTEL BOOKING SECTION ================= */}
+        <HotelBookingSection />
      
         <AboutTrusted />
   <RandomPackageSections />

@@ -37,39 +37,64 @@ const destinations = [
 
 const roomTypes: { [key: string]: Array<{ value: string; label: string; price: number; meal?: string }> } = {
   "17": [
-    { value: "57", label: "AC Deluxe Dbl Bed Room", price: 2800, meal: "[Free Breakfast]" },
-    { value: "58", label: "AC Super Dlx Dbl Bed Room [River Side]", price: 3700, meal: "[Free Breakfast]" },
-    { value: "59", label: "AC Executive Dbl Bed Room [River Front]", price: 4600, meal: "[Free Breakfast]" },
-    { value: "99", label: "AC Deluxe Room Package [2 Persons]", price: 5500, meal: "[Breakfast + Dinner]" },
-    { value: "100", label: "AC Executive Room Package [2 Persons]", price: 6400, meal: "[Breakfast + Lunch + Dinner]" },
+    { value: "2000", label: "Basic", price: 2000 },
+    { value: "2800", label: "Standard", price: 2800 },
+    { value: "3700", label: "Deluxe", price: 3700 },
+    { value: "4600", label: "Super Deluxe", price: 4600 },
+    { value: "5500", label: "Executive", price: 5500 },
+    { value: "6400", label: "Royal", price: 6400 },
+    { value: "7300", label: "Premium", price: 7300 },
+    { value: "8200", label: "Super Premium", price: 8200 },
+    { value: "9100", label: "Luxury", price: 9100 },
+    { value: "15400", label: "Star Luxury", price: 15400 },
   ],
   "28": [
-    { value: "57", label: "AC Deluxe Dbl Bed Room", price: 2800, meal: "[Free Breakfast]" },
-    { value: "58", label: "AC Super Dlx Dbl Bed Room [River Side]", price: 3700, meal: "[Free Breakfast]" },
-    { value: "59", label: "AC Executive Dbl Bed Room [River Front]", price: 4600, meal: "[Free Breakfast]" },
-    { value: "99", label: "AC Deluxe Room Package [2 Persons]", price: 5500, meal: "[Breakfast + Dinner]" },
-    { value: "100", label: "AC Executive Room Package [2 Persons]", price: 6400, meal: "[Breakfast + Lunch + Dinner]" },
+    { value: "2000", label: "Basic", price: 2000 },
+    { value: "2800", label: "Standard", price: 2800 },
+    { value: "3700", label: "Deluxe", price: 3700 },
+    { value: "4600", label: "Super Deluxe", price: 4600 },
+    { value: "5500", label: "Executive", price: 5500 },
+    { value: "6400", label: "Royal", price: 6400 },
+    { value: "7300", label: "Premium", price: 7300 },
+    { value: "8200", label: "Super Premium", price: 8200 },
+    { value: "9100", label: "Luxury", price: 9100 },
+    { value: "15400", label: "Star Luxury", price: 15400 },
   ],
   "7": [
-    { value: "57", label: "AC Deluxe Dbl Bed Room", price: 2800, meal: "[Free Breakfast]" },
-    { value: "58", label: "AC Super Dlx Dbl Bed Room [River Side]", price: 3700, meal: "[Free Breakfast]" },
-    { value: "59", label: "AC Executive Dbl Bed Room [River Front]", price: 4600, meal: "[Free Breakfast]" },
-    { value: "99", label: "AC Deluxe Room Package [2 Persons]", price: 5500, meal: "[Breakfast + Dinner]" },
-    { value: "100", label: "AC Executive Room Package [2 Persons]", price: 6400, meal: "[Breakfast + Lunch + Dinner]" },
+    { value: "2000", label: "Basic", price: 2000 },
+    { value: "2800", label: "Standard", price: 2800 },
+    { value: "3700", label: "Deluxe", price: 3700 },
+    { value: "4600", label: "Super Deluxe", price: 4600 },
+    { value: "5500", label: "Executive", price: 5500 },
+    { value: "6400", label: "Royal", price: 6400 },
+    { value: "7300", label: "Premium", price: 7300 },
+    { value: "8200", label: "Super Premium", price: 8200 },
+    { value: "9100", label: "Luxury", price: 9100 },
+    { value: "15400", label: "Star Luxury", price: 15400 },
   ],
   "4": [
-    { value: "57", label: "AC Deluxe Dbl Bed Room", price: 2800, meal: "[Free Breakfast]" },
-    { value: "58", label: "AC Super Dlx Dbl Bed Room [River Side]", price: 3700, meal: "[Free Breakfast]" },
-    { value: "59", label: "AC Executive Dbl Bed Room [River Front]", price: 4600, meal: "[Free Breakfast]" },
-    { value: "99", label: "AC Deluxe Room Package [2 Persons]", price: 5500, meal: "[Breakfast + Dinner]" },
-    { value: "100", label: "AC Executive Room Package [2 Persons]", price: 6400, meal: "[Breakfast + Lunch + Dinner]" },
+    { value: "2000", label: "Basic", price: 2000 },
+    { value: "2800", label: "Standard", price: 2800 },
+    { value: "3700", label: "Deluxe", price: 3700 },
+    { value: "4600", label: "Super Deluxe", price: 4600 },
+    { value: "5500", label: "Executive", price: 5500 },
+    { value: "6400", label: "Royal", price: 6400 },
+    { value: "7300", label: "Premium", price: 7300 },
+    { value: "8200", label: "Super Premium", price: 8200 },
+    { value: "9100", label: "Luxury", price: 9100 },
+    { value: "15400", label: "Star Luxury", price: 15400 },
   ],
   "29": [
-    { value: "57", label: "AC Deluxe Dbl Bed Room", price: 2800, meal: "[Free Breakfast]" },
-    { value: "58", label: "AC Super Dlx Dbl Bed Room [River Side]", price: 3700, meal: "[Free Breakfast]" },
-    { value: "59", label: "AC Executive Dbl Bed Room [River Front]", price: 4600, meal: "[Free Breakfast]" },
-    { value: "99", label: "AC Deluxe Room Package [2 Persons]", price: 5500, meal: "[Breakfast + Dinner]" },
-    { value: "100", label: "AC Executive Room Package [2 Persons]", price: 6400, meal: "[Breakfast + Lunch + Dinner]" },
+    { value: "2000", label: "Basic", price: 2000 },
+    { value: "2800", label: "Standard", price: 2800 },
+    { value: "3700", label: "Deluxe", price: 3700 },
+    { value: "4600", label: "Super Deluxe", price: 4600 },
+    { value: "5500", label: "Executive", price: 5500 },
+    { value: "6400", label: "Royal", price: 6400 },
+    { value: "7300", label: "Premium", price: 7300 },
+    { value: "8200", label: "Super Premium", price: 8200 },
+    { value: "9100", label: "Luxury", price: 9100 },
+    { value: "15400", label: "Star Luxury", price: 15400 },
   ],
 };
 
@@ -155,6 +180,7 @@ export default function HotelBookingPage() {
     adults: 1,
     children: 0,
     specialInfo: "",
+    preferredHotel: "",
     costPerRoom: "",
     totalNights: "",
     estimatedCost: "",
@@ -189,6 +215,20 @@ export default function HotelBookingPage() {
       estimatedCost: total.toString(),
       bookingAmount: bookingAmount.toString(),
     }));
+  };
+
+  const calculateNights = () => {
+    if (formData.checkIn && formData.checkOut) {
+      const checkIn = new Date(formData.checkIn);
+      const checkOut = new Date(formData.checkOut);
+      const diffTime = Math.abs(checkOut.getTime() - checkIn.getTime());
+      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+      
+      if (diffDays > 0) {
+        setFormData(prev => ({ ...prev, totalNights: diffDays.toString() }));
+        setTimeout(calculateTotals, 100);
+      }
+    }
   };
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -333,7 +373,7 @@ export default function HotelBookingPage() {
                       <option value="">-- Select Room Type --</option>
                       {availableRooms.map((room) => (
                         <option key={room.value} value={room.value}>
-                          {room.label} : Rs.{room.price}/- {room.meal}
+                          {room.label} : ₹{room.price}/-
                         </option>
                       ))}
                     </select>
@@ -357,6 +397,18 @@ export default function HotelBookingPage() {
                         </option>
                       ))}
                     </select>
+                  </div>
+                  <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      Preferred Hotel Name / Similar
+                    </label>
+                    <input
+                      type="text"
+                      value={formData.preferredHotel}
+                      onChange={(e) => handleInputChange("preferredHotel", e.target.value)}
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                      placeholder="Enter preferred hotel name or similar requirements"
+                    />
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
@@ -387,7 +439,10 @@ export default function HotelBookingPage() {
                     <input
                       type="date"
                       value={formData.checkIn}
-                      onChange={(e) => handleInputChange("checkIn", e.target.value)}
+                      onChange={(e) => {
+                        handleInputChange("checkIn", e.target.value);
+                        setTimeout(calculateNights, 100);
+                      }}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       required
                     />
@@ -399,7 +454,10 @@ export default function HotelBookingPage() {
                     <input
                       type="date"
                       value={formData.checkOut}
-                      onChange={(e) => handleInputChange("checkOut", e.target.value)}
+                      onChange={(e) => {
+                        handleInputChange("checkOut", e.target.value);
+                        setTimeout(calculateNights, 100);
+                      }}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       required
                     />
@@ -435,7 +493,7 @@ export default function HotelBookingPage() {
               {/* Pricing Section */}
               <div>
                 <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-                  <DollarSign className="text-red-600" />
+                  <span className="text-red-600">₹</span>
                   Pricing Details
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -444,20 +502,30 @@ export default function HotelBookingPage() {
                       Cost per Room (per night) <span className="text-red-500">*</span>
                     </label>
                     <div className="flex gap-2">
-                      <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
-                        <option>USD</option>
+                      <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-500">
+                        <option>INR</option>
                       </select>
-                      <input
-                        type="number"
+                      <select
                         value={formData.costPerRoom}
                         onChange={(e) => {
                           handleInputChange("costPerRoom", e.target.value);
                           setTimeout(calculateTotals, 100);
                         }}
                         className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
-                        placeholder="Auto-filled based on room type"
                         required
-                      />
+                      >
+                        <option value="">Select Cost</option>
+                        <option value="2000">2000 - Basic</option>
+                        <option value="2800">2800 - Standard</option>
+                        <option value="3700">3700 - Deluxe</option>
+                        <option value="4600">4600 - Super Deluxe</option>
+                        <option value="5500">5500 - Executive</option>
+                        <option value="6400">6400 - Royal</option>
+                        <option value="7300">7300 - Premium</option>
+                        <option value="8200">8200 - Super Premium</option>
+                        <option value="9100">9100 - Luxury</option>
+                        <option value="15400">15400 - Star Luxury</option>
+                      </select>
                     </div>
                   </div>
                   <div>
@@ -481,8 +549,8 @@ export default function HotelBookingPage() {
                       Estimated Cost <span className="text-red-500">*</span>
                     </label>
                     <div className="flex gap-2">
-                      <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
-                        <option>USD</option>
+                      <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-500">
+                        <option>INR</option>
                       </select>
                       <input
                         type="number"
@@ -498,8 +566,8 @@ export default function HotelBookingPage() {
                       Booking Confirmation (50% of Estimated Cost) <span className="text-red-500">*</span>
                     </label>
                     <div className="flex gap-2">
-                      <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
-                        <option>USD</option>
+                      <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-500">
+                        <option>INR</option>
                       </select>
                       <input
                         type="number"

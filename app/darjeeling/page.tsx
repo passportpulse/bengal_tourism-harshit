@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users } from 'lucide-react'
+import PackagePricing from '@/components/PackagePricing'
 
 export default function DarjeelingPage() {
   return (
@@ -416,6 +417,12 @@ export default function DarjeelingPage() {
           </div>
         </div>
       </section>
+
+      {/* ================= PACKAGE PRICING ================= */}
+      <PackagePricing 
+        title="Darjeeling Tour Packages"
+        subtitle="Choose your perfect Himalayan getaway duration"
+      />
 
       {/* ================= BOOKING CTA ================= */}
       <section className="py-20 bg-gradient-to-r from-orange-500 to-yellow-500 text-white">
