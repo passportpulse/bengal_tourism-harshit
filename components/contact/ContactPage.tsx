@@ -105,15 +105,46 @@ export default function ContactPage() {
 
   const [showSuccess, setShowSuccess] = useState(false);
   const [openFAQ, setOpenFAQ] = useState<number | null>(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleInputChange = (field: string, value: string) => {
     setFormData(prev => ({ ...prev, [field]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Contact form submitted:", formData);
-    setShowSuccess(true);
+    setIsSubmitting(true);
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (response.ok && data.success) {
+        setShowSuccess(true);
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          subject: "",
+          department: "",
+          message: ""
+        });
+      } else {
+        alert(data.error || 'Failed to send message. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      alert('Failed to send message. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const toggleFAQ = (id: number) => {
@@ -249,6 +280,8 @@ export default function ContactPage() {
             <input
               type="text"
               placeholder="Your Name"
+              value={formData.name}
+              onChange={(e) => handleInputChange("name", e.target.value)}
               className="w-full pl-12 py-4 border rounded-lg text-gray-800 focus:ring-2 focus:ring-red-500 outline-none"
               required
             />
@@ -259,6 +292,8 @@ export default function ContactPage() {
             <input
               type="email"
               placeholder="Email Address"
+              value={formData.email}
+              onChange={(e) => handleInputChange("email", e.target.value)}
               className="w-full pl-12 py-4 border rounded-lg text-gray-800 focus:ring-2 focus:ring-red-500 outline-none"
               required
             />
@@ -269,6 +304,8 @@ export default function ContactPage() {
             <input
               type="tel"
               placeholder="Phone Number"
+              value={formData.phone}
+              onChange={(e) => handleInputChange("phone", e.target.value)}
               className="w-full pl-12 py-4 border rounded-lg text-gray-800 focus:ring-2 focus:ring-red-500 outline-none"
               required
             />
@@ -277,13 +314,28 @@ export default function ContactPage() {
           <textarea
             rows={4}
             placeholder="Write your message..."
+            value={formData.message}
+            onChange={(e) => handleInputChange("message", e.target.value)}
             className="w-full p-4 border rounded-lg text-gray-800 focus:ring-2 focus:ring-red-500 outline-none"
             required
           />
 
-          <button className="w-full py-4 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition flex items-center justify-center gap-2">
-            <Send className="w-5 h-5" />
-            Send Message
+          <button 
+            type="submit"
+            disabled={isSubmitting}
+            className="w-full py-4 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            {isSubmitting ? (
+              <>
+                <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                Sending...
+              </>
+            ) : (
+              <>
+                <Send className="w-5 h-5" />
+                Send Message
+              </>
+            )}
           </button>
 
         </form>

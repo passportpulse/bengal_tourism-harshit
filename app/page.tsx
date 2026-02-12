@@ -61,6 +61,7 @@ export default function HomePage() {
         
         {/* ================= HOTEL BOOKING SECTION ================= */}
         <HotelBookingSection />
+        <TailorMadeBentoGrid />
      
         <AboutTrusted />
   <RandomPackageSections />
@@ -70,7 +71,6 @@ export default function HomePage() {
         {/* ================= FEATURES SECTION ================= */}
 
         <TestimonialsInteractive />
-        <TailorMadeBentoGrid />
 
         <CTASection />
 

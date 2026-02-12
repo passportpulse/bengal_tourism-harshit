@@ -111,7 +111,7 @@ export default function DooarsPage() {
                   <p className="text-green-100">5 Nights / 6 Days</p>
                 </div>
                 <div className="text-right">
-                  <div className="text-3xl font-bold">₹15,000</div>
+                  <div className="text-3xl font-bold">₹18,000</div>
                   <div className="text-green-100">Per Person</div>
                 </div>
               </div>
@@ -210,7 +210,7 @@ export default function DooarsPage() {
             <div className="bg-gradient-to-br from-blue-50 to-green-50 rounded-2xl p-6 border-2 border-blue-200">
               <h3 className="text-xl font-bold mb-3">Jaldapara Special</h3>
               <p className="text-gray-600 mb-4">With Buxa Tiger Reserve, Jhalong, Bindu</p>
-              <p className="text-2xl font-bold text-blue-600 mb-2">₹9,100</p>
+              <p className="text-2xl font-bold text-blue-600 mb-2">₹15,000</p>
               <p className="text-sm text-gray-500 mb-4">3 Nights / 4 Days</p>
               <button className="w-full bg-blue-600 text-white py-2 rounded-lg font-semibold hover:bg-blue-700 transition">
                 Book Now
@@ -220,7 +220,7 @@ export default function DooarsPage() {
             <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-2xl p-6 border-2 border-orange-200">
               <h3 className="text-xl font-bold mb-3">Lataguri Gateway</h3>
               <p className="text-gray-600 mb-4">Gorumara, Samsing, Suntalekhola</p>
-              <p className="text-2xl font-bold text-orange-600 mb-2">₹9,100</p>
+              <p className="text-2xl font-bold text-orange-600 mb-2">₹14,000</p>
               <p className="text-sm text-gray-500 mb-4">3 Nights / 4 Days</p>
               <button className="w-full bg-orange-600 text-white py-2 rounded-lg font-semibold hover:bg-orange-700 transition">
                 Book Now
@@ -230,7 +230,7 @@ export default function DooarsPage() {
             <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border-2 border-purple-200">
               <h3 className="text-xl font-bold mb-3">Rishyap Add-on</h3>
               <p className="text-gray-600 mb-4">Jaldapara, Lava, Neora Valley</p>
-              <p className="text-2xl font-bold text-purple-600 mb-2">₹9,100</p>
+              <p className="text-2xl font-bold text-purple-600 mb-2">₹16,000</p>
               <p className="text-sm text-gray-500 mb-4">3 Nights / 4 Days</p>
               <button className="w-full bg-purple-600 text-white py-2 rounded-lg font-semibold hover:bg-purple-700 transition">
                 Book Now
@@ -551,7 +551,25 @@ export default function DooarsPage() {
             </div>
           </div>
 
-        
+          <div className="text-center">
+            <div className="bg-white text-green-800 rounded-2xl p-8 max-w-2xl mx-auto">
+              <h3 className="text-2xl font-bold mb-4">Ready for Your Jungle Safari?</h3>
+              <p className="text-gray-700 mb-6">
+                Contact us for special tailor-made packages designed according to your preferences
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <button className="bg-green-600 text-white px-8 py-3 rounded-full font-bold hover:bg-green-700 transition">
+                  Call Now: +91 98765 43210
+                </button>
+                <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-bold hover:bg-blue-700 transition">
+                  Email: info@bengaltourism.com
+                </button>
+              </div>
+              <p className="text-sm text-gray-600 mt-4">
+                For more pictures, offers & reviews, visit our Facebook Page
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 

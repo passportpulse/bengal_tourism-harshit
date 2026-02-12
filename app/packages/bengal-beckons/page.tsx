@@ -3,7 +3,91 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Calendar, Clock, Star, MapPinCheck, ArrowRight, Trees, Building, Waves, Mountain, Compass } from "lucide-react";
+import { Calendar, Clock, Star, MapPinCheck, ArrowRight, Trees, Building, Waves, Mountain, Compass, Ship, Tent, PartyPopper, Camera, Landmark, Church, Footprints } from "lucide-react";
+
+// Experience types
+interface Experience {
+  title: string;
+  icon: any;
+  route: string;
+  image: string;
+}
+
+// Bengal Beckons experiences data
+const experiences: Experience[] = [
+  {
+    title: "Boat Cruise & Stay",
+    icon: Ship,
+    route: "/boat-stay",
+    image: "https://images.unsplash.com/photo-1548574505-5e239809ee19?q=80&w=2764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    title: "Camping & Tenting",
+    icon: Tent,
+    route: "/camping-adventure",
+    image: "https://images.unsplash.com/photo-1727640826472-bf7456dc030c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    title: "Event Management",
+    icon: PartyPopper,
+    route: "/event-management",
+    image: "https://images.unsplash.com/photo-1550697797-f01b4e83a1be?q=80&w=2676&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    title: "Film Shooting",
+    icon: Camera,
+    route: "/film-shooting",
+    image: "https://images.unsplash.com/photo-1681137063068-081072cf04b4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RmlsbSUyMHNob290aW5nfGVufDB8fDB8fHww",
+  },
+  {
+    title: "Heritage Tour & Walks",
+    icon: Landmark,
+    route: "/heritage-tour",
+    image: "https://images.unsplash.com/photo-1763912111586-aed87ee0c3aa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEhlcml0YWdlJTIwVG91ciUyMCUyNiUyMFdhbGtzfGVufDB8fDB8fHww",
+  },
+  {
+    title: "Hills – Off Beat Destinations",
+    icon: Mountain,
+    route: "/offbeat-hills",
+    image: "https://images.unsplash.com/photo-1599106242383-271adeb2e828?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SGlsbHN8ZW58MHx8MHx8fDA%3D",
+  },
+  {
+    title: "Jungle Safari",
+    icon: Trees,
+    route: "/jungle-safari",
+    image: "https://images.unsplash.com/photo-1554380726-5bd6b17b42e5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SnVuZ2xlJTIwU2FmYXJpfGVufDB8fDB8fHww",
+  },
+  {
+    title: "Plains – Off Beat Destinations",
+    icon: MapPinCheck,
+    route: "/offbeat-plains",
+    image: "https://images.unsplash.com/photo-1651678938586-affccc71c270?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    title: "Religious & Pilgrimage Tour",
+    icon: Church,
+    route: "/pilgrimage-tour",
+    image: "https://images.unsplash.com/photo-1761474440561-78a792962f3a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UGlsZ3JpbWFnZSUyMFRvdXJ8ZW58MHx8MHx8fDA%3D",
+  },
+  {
+    title: "River Rafting",
+    icon: Waves,
+    route: "/river-rafting",
+    image: "https://images.unsplash.com/photo-1629248457649-b082812aea6c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Uml2ZXIlMjBSYWZ0aW5nfGVufDB8fDB8fHww",
+  },
+  {
+    title: "Short Breaks from Kolkata",
+    icon: Clock,
+    route: "/short-breaks",
+    image: "https://images.unsplash.com/photo-1761933810905-ccc35b14d937?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2hvcnQlMjBCcmVha3N8ZW58MHx8MHx8fDA%3D",
+  },
+  {
+    title: "Trekking",
+    icon: Footprints,
+    route: "/trekking-trails",
+    image: "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VHJla2tpbmd8ZW58MHx8MHx8fDA%3D",
+  },
+];
 
 // Bengal Beckons packages data
 const bengalPackages = [
@@ -218,6 +302,59 @@ export default function BengalBeckonsPackagesPage() {
                                     </div>
                                 </div>
                             </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* Experiences Section */}
+            <section className="py-16 px-4 bg-white">
+                <div className="max-w-7xl mx-auto">
+                    <div className="text-center mb-12">
+                        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                            Amazing <span className="text-red-600">Experiences</span>
+                        </h2>
+                        <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                            Discover unique adventures and unforgettable moments across Bengal
+                        </p>
+                    </div>
+                    
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                        {experiences.map((experience, index) => (
+                            <Link
+                                key={index}
+                                href={experience.route}
+                                className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+                            >
+                                {/* Image Container */}
+                                <div className="relative h-48 overflow-hidden">
+                                    <Image
+                                        src={experience.image}
+                                        alt={experience.title}
+                                        fill
+                                        className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                                    />
+                                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+                                    
+                                    {/* Icon Overlay */}
+                                    <div className="absolute top-4 right-4">
+                                        <div className="w-10 h-10 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg">
+                                            <experience.icon className="w-5 h-5 text-red-600" />
+                                        </div>
+                                    </div>
+                                    
+                                    {/* Title Overlay */}
+                                    <div className="absolute bottom-0 left-0 right-0 p-4">
+                                        <h3 className="text-lg font-bold text-white mb-1">
+                                            {experience.title}
+                                        </h3>
+                                        <div className="flex items-center gap-2 text-white/90 text-sm">
+                                            <span>Explore</span>
+                                            <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </Link>
                         ))}
                     </div>
                 </div>

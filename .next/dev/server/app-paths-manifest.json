@@ -1,13 +1,5 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/about/page": "app/about/page.js",
   "/book-hotel/page": "app/book-hotel/page.js",
-  "/book-tour/page": "app/book-tour/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/earn/page": "app/earn/page.js",
-  "/hotel-resort/page": "app/hotel-resort/page.js",
-  "/membership/page": "app/membership/page.js",
-  "/packages/exclusive/page": "app/packages/exclusive/page.js",
-  "/page": "app/page.js",
-  "/short-breaks/page": "app/short-breaks/page.js"
+  "/packages/bengal-beckons/page": "app/packages/bengal-beckons/page.js",
+  "/page": "app/page.js"
 }

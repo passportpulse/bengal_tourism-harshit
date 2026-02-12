@@ -237,9 +237,9 @@ export default function Navbar() {
                             <Link href="/career" className="text-gray-700 font-semibold hover:text-red-600 transition">
                                 Career
                             </Link>
-                            <Link href="/package-cost" className="text-gray-700 font-semibold hover:text-red-600 transition">
+                            {/* <Link href="/package-cost" className="text-gray-700 font-semibold hover:text-red-600 transition">
                                 Package Cost
-                            </Link>
+                            </Link> */}
                             <Link href="/brands" className="text-gray-700 font-semibold hover:text-red-600 transition">
                                 Brands
                             </Link>
@@ -345,13 +345,13 @@ export default function Navbar() {
                         >
                             Career
                         </Link>
-                        <Link
+                        {/* <Link
                             href="/package-cost"
                             className="block py-2 text-gray-700 font-semibold"
                             onClick={() => setMobileOpen(false)}
                         >
                             Package Cost
-                        </Link>
+                        </Link> */}
                         <Link
                             href="/brands"
                             className="block py-2 text-gray-700 font-semibold"

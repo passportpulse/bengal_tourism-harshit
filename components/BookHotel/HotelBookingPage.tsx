@@ -191,24 +191,73 @@ export default function HotelBookingPage() {
   });
 
   const [availableRooms, setAvailableRooms] = useState<Array<{ value: string; label: string; price: number; meal?: string }>>([]);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  // Helper function to format date to DD-MM-YYYY
+  const formatDateToDDMMYYYY = (dateString: string) => {
+    if (!dateString) return '';
+    const date = new Date(dateString);
+    const day = String(date.getDate()).padStart(2, '0');
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const year = date.getFullYear();
+    return `${day}-${month}-${year}`;
+  };
+
+  // Helper function to parse DD-MM-YYYY to YYYY-MM-DD for date input
+  const parseDDMMYYYYToISO = (dateString: string) => {
+    if (!dateString) return '';
+    // If already in ISO format, return as is
+    if (dateString.includes('-') && dateString.split('-')[0].length === 4) {
+      return dateString;
+    }
+    // Parse DD-MM-YYYY format
+    const parts = dateString.split('-');
+    if (parts.length === 3) {
+      const [day, month, year] = parts;
+      return `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
+    }
+    return dateString;
+  };
 
   const handleInputChange = (field: string, value: string | number) => {
-    setFormData(prev => ({ ...prev, [field]: value }));
+    // Convert noOfRooms to integer if it's the field being updated
+    if (field === "noOfRooms") {
+      value = parseInt(value.toString()) || 1;
+    }
+    
+    const newFormData = { ...formData, [field]: value };
+    setFormData(newFormData);
     
     // Update available rooms when destination changes
     if (field === "destination") {
       const rooms = roomTypes[value as string] || [];
       setAvailableRooms(rooms);
-      setFormData(prev => ({ ...prev, roomType: "", costPerRoom: "" }));
+      // Reset room type and cost when destination changes
+      setFormData(prev => ({ ...prev, ...newFormData, roomType: "", costPerRoom: "" }));
+    }
+    
+    // Update cost per room when room type changes
+    if (field === "roomType") {
+      const selectedRoom = availableRooms.find(room => room.value === value);
+      if (selectedRoom) {
+        setFormData(prev => ({ ...prev, ...newFormData, costPerRoom: selectedRoom.price.toString() }));
+        // Trigger calculation after state update
+        setTimeout(() => calculateTotalsWithNewData(selectedRoom.price.toString(), newFormData.totalNights, newFormData.noOfRooms, newFormData.paymentType), 50);
+      }
+    }
+    
+    // Trigger calculation for relevant fields
+    if (field === "noOfRooms" || field === "paymentType") {
+      setTimeout(() => calculateTotalsWithNewData(newFormData.costPerRoom, newFormData.totalNights, newFormData.noOfRooms, newFormData.paymentType), 50);
     }
   };
 
-  const calculateTotals = () => {
-    const costPerRoom = parseFloat(formData.costPerRoom || "0");
-    const totalNights = parseInt(formData.totalNights || "0");
-    const noOfRooms = parseInt(formData.noOfRooms?.toString() || "1");
+  const calculateTotalsWithNewData = (cost: string, nights: string, rooms: string | number, paymentType: string) => {
+    const costPerRoom = parseFloat(cost || "0");
+    const totalNights = parseInt(nights || "0");
+    const noOfRooms = parseInt(rooms?.toString() || "1");
     const total = costPerRoom * totalNights * noOfRooms;
-    const bookingAmount = formData.paymentType === "full" ? total : total * 0.5;
+    const bookingAmount = paymentType === "full" ? total : total * 0.5;
     
     setFormData(prev => ({
       ...prev,
@@ -217,24 +266,56 @@ export default function HotelBookingPage() {
     }));
   };
 
-  const calculateNights = () => {
-    if (formData.checkIn && formData.checkOut) {
-      const checkIn = new Date(formData.checkIn);
-      const checkOut = new Date(formData.checkOut);
-      const diffTime = Math.abs(checkOut.getTime() - checkIn.getTime());
-      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+  const calculateNights = (checkIn: string, checkOut: string) => {
+    if (checkIn && checkOut) {
+      const checkInDate = new Date(parseDDMMYYYYToISO(checkIn));
+      const checkOutDate = new Date(parseDDMMYYYYToISO(checkOut));
       
-      if (diffDays > 0) {
-        setFormData(prev => ({ ...prev, totalNights: diffDays.toString() }));
-        setTimeout(calculateTotals, 100);
+      if (!isNaN(checkInDate.getTime()) && !isNaN(checkOutDate.getTime())) {
+        const diffTime = Math.abs(checkOutDate.getTime() - checkInDate.getTime());
+        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+        
+        if (diffDays > 0) {
+          setFormData(prev => {
+            const updated = { ...prev, totalNights: diffDays.toString() };
+            // Trigger calculation with updated data
+            setTimeout(() => calculateTotalsWithNewData(updated.costPerRoom, diffDays.toString(), updated.noOfRooms, updated.paymentType), 50);
+            return updated;
+          });
+        }
       }
     }
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Hotel booking submitted:", formData);
-    // Handle hotel booking submission
+    setIsSubmitting(true);
+
+    try {
+      const response = await fetch('/api/hotel-booking', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (response.ok && data.success) {
+        alert('Hotel booking request submitted successfully! You will receive a confirmation email shortly.');
+        // Reset form or redirect as needed
+        // For now, just show success message
+      } else {
+        alert(data.error || 'Failed to submit booking request. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error submitting booking:', error);
+      alert('Failed to submit booking request. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -360,11 +441,6 @@ export default function HotelBookingPage() {
                       value={formData.roomType}
                       onChange={(e) => {
                         handleInputChange("roomType", e.target.value);
-                        const selectedRoom = availableRooms.find(room => room.value === e.target.value);
-                        if (selectedRoom) {
-                          handleInputChange("costPerRoom", selectedRoom.price.toString());
-                          setTimeout(calculateTotals, 100);
-                        }
                       }}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       required
@@ -377,6 +453,11 @@ export default function HotelBookingPage() {
                         </option>
                       ))}
                     </select>
+                    {formData.costPerRoom && !formData.destination && (
+                      <p className="text-xs text-gray-500 mt-1">
+                        Room Type: {availableRooms.find(r => r.value === formData.costPerRoom)?.label || 'Selected'} (Auto-set from cost)
+                      </p>
+                    )}
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
@@ -386,7 +467,6 @@ export default function HotelBookingPage() {
                       value={formData.noOfRooms}
                       onChange={(e) => {
                         handleInputChange("noOfRooms", e.target.value);
-                        setTimeout(calculateTotals, 100);
                       }}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       required
@@ -438,14 +518,24 @@ export default function HotelBookingPage() {
                     </label>
                     <input
                       type="date"
-                      value={formData.checkIn}
+                      value={parseDDMMYYYYToISO(formData.checkIn)}
                       onChange={(e) => {
-                        handleInputChange("checkIn", e.target.value);
-                        setTimeout(calculateNights, 100);
+                        const formattedDate = formatDateToDDMMYYYY(e.target.value);
+                        const newFormData = { ...formData, checkIn: formattedDate };
+                        setFormData(newFormData);
+                        // Auto calculate nights if check-out is already selected
+                        if (newFormData.checkOut) {
+                          calculateNights(formattedDate, newFormData.checkOut);
+                        }
                       }}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       required
                     />
+                    {formData.checkIn && (
+                      <p className="text-xs text-gray-500 mt-1">
+                        Selected: {formatDateToDDMMYYYY(parseDDMMYYYYToISO(formData.checkIn))}
+                      </p>
+                    )}
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
@@ -453,14 +543,24 @@ export default function HotelBookingPage() {
                     </label>
                     <input
                       type="date"
-                      value={formData.checkOut}
+                      value={parseDDMMYYYYToISO(formData.checkOut)}
                       onChange={(e) => {
-                        handleInputChange("checkOut", e.target.value);
-                        setTimeout(calculateNights, 100);
+                        const formattedDate = formatDateToDDMMYYYY(e.target.value);
+                        const newFormData = { ...formData, checkOut: formattedDate };
+                        setFormData(newFormData);
+                        // Auto calculate nights whenever check-out changes
+                        if (newFormData.checkIn) {
+                          calculateNights(newFormData.checkIn, formattedDate);
+                        }
                       }}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       required
                     />
+                    {formData.checkOut && (
+                      <p className="text-xs text-gray-500 mt-1">
+                        Selected: {formatDateToDDMMYYYY(parseDDMMYYYYToISO(formData.checkOut))}
+                      </p>
+                    )}
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
@@ -508,12 +608,26 @@ export default function HotelBookingPage() {
                       <select
                         value={formData.costPerRoom}
                         onChange={(e) => {
-                          handleInputChange("costPerRoom", e.target.value);
-                          setTimeout(calculateTotals, 100);
-                        }}
-                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
-                        required
-                      >
+                        const newCost = e.target.value;
+                        const newFormData = { ...formData, costPerRoom: newCost };
+                        setFormData(newFormData);
+                        
+                        // Update room type to match cost per room
+                        const matchedRoom = availableRooms.find(room => room.price.toString() === newCost);
+                        if (matchedRoom) {
+                          setFormData(prev => ({ ...prev, costPerRoom: newCost, roomType: matchedRoom.value }));
+                        }
+                        
+                        // Calculate totals if we have nights
+                        if (formData.totalNights && parseInt(formData.totalNights) > 0) {
+                          calculateTotalsWithNewData(newCost, formData.totalNights, formData.noOfRooms, formData.paymentType);
+                        } else {
+                          alert("Please select check-in and check-out dates first to calculate the total price.");
+                        }
+                      }}
+                      className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                      required
+                    >
                         <option value="">Select Cost</option>
                         <option value="2000">2000 - Basic</option>
                         <option value="2800">2800 - Standard</option>
@@ -535,14 +649,14 @@ export default function HotelBookingPage() {
                     <input
                       type="number"
                       value={formData.totalNights}
-                      onChange={(e) => {
-                        handleInputChange("totalNights", e.target.value);
-                        setTimeout(calculateTotals, 100);
-                      }}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
-                      placeholder="Number of nights"
+                      readOnly
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600 bg-gray-50"
+                      placeholder="Auto-calculated from dates"
                       required
                     />
+                    <p className="text-xs text-gray-500 mt-1">
+                      Auto-calculated from check-in and check-out dates
+                    </p>
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
@@ -596,7 +710,6 @@ export default function HotelBookingPage() {
                       checked={formData.paymentType === "full"}
                       onChange={(e) => {
                         handleInputChange("paymentType", e.target.value);
-                        setTimeout(calculateTotals, 100);
                       }}
                       className="w-4 h-4 text-blue-600 focus:ring-blue-500"
                     />
@@ -610,7 +723,6 @@ export default function HotelBookingPage() {
                       checked={formData.paymentType === "partial"}
                       onChange={(e) => {
                         handleInputChange("paymentType", e.target.value);
-                        setTimeout(calculateTotals, 100);
                       }}
                       className="w-4 h-4 text-blue-600 focus:ring-blue-500"
                     />
@@ -668,9 +780,17 @@ export default function HotelBookingPage() {
               <div className="text-center">
                 <button
                   type="submit"
-                  className="bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 text-white px-12 py-4 rounded-xl font-bold text-lg shadow-lg transform hover:scale-105 transition-all duration-200"
+                  disabled={isSubmitting}
+                  className="bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 text-white px-12 py-4 rounded-xl font-bold text-lg shadow-lg transform hover:scale-105 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
                 >
-                  SUBMIT after PAYMENT
+                  {isSubmitting ? (
+                    <>
+                      <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin inline-block mr-2"></div>
+                      Processing...
+                    </>
+                  ) : (
+                    'SUBMIT after PAYMENT'
+                  )}
                 </button>
               </div>
 

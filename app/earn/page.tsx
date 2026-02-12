@@ -54,6 +54,59 @@ const successStories = [
 
 export default function EarnPage() {
   const [selectedMethod, setSelectedMethod] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    earningMethod: "",
+    paymentMode: "",
+    ifscUpi: "",
+  });
+
+  const handleInputChange = (field: string, value: string) => {
+    setFormData(prev => ({ ...prev, [field]: value }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    try {
+      const response = await fetch('/api/membership', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (response.ok && data.success) {
+        alert('Membership application submitted successfully! You will receive a confirmation email shortly.');
+        // Reset form
+        setFormData({
+          firstName: "",
+          lastName: "",
+          email: "",
+          phone: "",
+          earningMethod: "",
+          paymentMode: "",
+          ifscUpi: "",
+        });
+        setSelectedMethod("");
+      } else {
+        alert(data.error || 'Failed to submit application. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error submitting application:', error);
+      alert('Failed to submit application. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
   return (
     <>
@@ -249,6 +302,8 @@ export default function EarnPage() {
                     </label>
                     <input
                       type="text"
+                      value={formData.firstName}
+                      onChange={(e) => handleInputChange("firstName", e.target.value)}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="Enter first name"
                       required
@@ -260,6 +315,8 @@ export default function EarnPage() {
                     </label>
                     <input
                       type="text"
+                      value={formData.lastName}
+                      onChange={(e) => handleInputChange("lastName", e.target.value)}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="Enter last name"
                       required
@@ -274,6 +331,8 @@ export default function EarnPage() {
                     </label>
                     <input
                       type="email"
+                      value={formData.email}
+                      onChange={(e) => handleInputChange("email", e.target.value)}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="your@email.com"
                       required
@@ -285,6 +344,8 @@ export default function EarnPage() {
                     </label>
                     <input
                       type="tel"
+                      value={formData.phone}
+                      onChange={(e) => handleInputChange("phone", e.target.value)}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="+91 98765 43210"
                       required
@@ -297,6 +358,8 @@ export default function EarnPage() {
                     Select Earning Method <span className="text-red-500">*</span>
                   </label>
                   <select
+                    value={formData.earningMethod}
+                    onChange={(e) => handleInputChange("earningMethod", e.target.value)}
                     className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                     required
                   >
@@ -314,6 +377,8 @@ export default function EarnPage() {
                       Payment Mode <span className="text-red-500">*</span>
                     </label>
                     <select
+                      value={formData.paymentMode}
+                      onChange={(e) => handleInputChange("paymentMode", e.target.value)}
                       className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                       required
                     >
@@ -330,6 +395,8 @@ export default function EarnPage() {
                     </label>
                     <input
                       type="text"
+                      value={formData.ifscUpi}
+                      onChange={(e) => handleInputChange("ifscUpi", e.target.value)}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="Enter IFSC code or UPI name"
                       required
@@ -351,12 +418,32 @@ export default function EarnPage() {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <button
                     type="submit"
-                    className="flex-1 bg-gradient-to-r from-red-600 to-orange-600 text-white font-bold py-4 px-8 rounded-xl hover:from-red-700 hover:to-orange-700 transition-all duration-300 transform hover:scale-105"
+                    disabled={isSubmitting}
+                    className="flex-1 bg-gradient-to-r from-red-600 to-orange-600 text-white font-bold py-4 px-8 rounded-xl hover:from-red-700 hover:to-orange-700 transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
                   >
-                    Submit Application
+                    {isSubmitting ? (
+                      <>
+                        <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin inline-block mr-2"></div>
+                        Processing...
+                      </>
+                    ) : (
+                      'Submit Application'
+                    )}
                   </button>
                   <button
                     type="button"
+                    onClick={() => {
+                      setFormData({
+                        firstName: "",
+                        lastName: "",
+                        email: "",
+                        phone: "",
+                        earningMethod: "",
+                        paymentMode: "",
+                        ifscUpi: "",
+                      });
+                      setSelectedMethod("");
+                    }}
                     className="flex-1 bg-gray-200 text-gray-800 font-bold py-4 px-8 rounded-xl hover:bg-gray-300 transition-all duration-300"
                   >
                     Clear Form

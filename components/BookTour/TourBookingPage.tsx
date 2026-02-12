@@ -95,6 +95,34 @@ export default function TourBookingPage() {
     paymentType: "full"
   });
 
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  // Helper function to format date to DD-MM-YYYY
+  const formatDateToDDMMYYYY = (dateString: string) => {
+    if (!dateString) return '';
+    const date = new Date(dateString);
+    const day = String(date.getDate()).padStart(2, '0');
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const year = date.getFullYear();
+    return `${day}-${month}-${year}`;
+  };
+
+  // Helper function to parse DD-MM-YYYY to YYYY-MM-DD for date input
+  const parseDDMMYYYYToISO = (dateString: string) => {
+    if (!dateString) return '';
+    // If already in ISO format, return as is
+    if (dateString.includes('-') && dateString.split('-')[0].length === 4) {
+      return dateString;
+    }
+    // Parse DD-MM-YYYY format
+    const parts = dateString.split('-');
+    if (parts.length === 3) {
+      const [day, month, year] = parts;
+      return `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
+    }
+    return dateString;
+  };
+
   const handleInputChange = (field: string, value: string | number) => {
     setFormData(prev => ({ ...prev, [field]: value }));
   };
@@ -112,10 +140,52 @@ export default function TourBookingPage() {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const calculateNights = () => {
+    if (formData.checkIn && formData.checkOut) {
+      // Convert DD-MM-YYYY to Date objects
+      const checkInDate = new Date(parseDDMMYYYYToISO(formData.checkIn));
+      const checkOutDate = new Date(parseDDMMYYYYToISO(formData.checkOut));
+      
+      if (!isNaN(checkInDate.getTime()) && !isNaN(checkOutDate.getTime())) {
+        const diffTime = Math.abs(checkOutDate.getTime() - checkInDate.getTime());
+        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+        
+        if (diffDays > 0) {
+          setFormData(prev => ({ ...prev, totalNights: diffDays.toString() }));
+          setTimeout(calculateTotals, 100);
+        }
+      }
+    }
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Booking submitted:", formData);
-    // Handle booking submission
+    setIsSubmitting(true);
+
+    try {
+      const response = await fetch('/api/tour-booking', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (response.ok && data.success) {
+        alert('Tour booking request submitted successfully! You will receive a confirmation email shortly.');
+        // Reset form or redirect as needed
+        // For now, just show success message
+      } else {
+        alert(data.error || 'Failed to submit booking request. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error submitting booking:', error);
+      alert('Failed to submit booking request. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -366,11 +436,23 @@ export default function TourBookingPage() {
                     </label>
                     <input
                       type="date"
-                      value={formData.checkIn}
-                      onChange={(e) => handleInputChange("checkIn", e.target.value)}
+                      value={parseDDMMYYYYToISO(formData.checkIn)}
+                      onChange={(e) => {
+                        const formattedDate = formatDateToDDMMYYYY(e.target.value);
+                        handleInputChange("checkIn", formattedDate);
+                        // Auto calculate nights if check-out is already selected
+                        if (formData.checkOut) {
+                          setTimeout(calculateNights, 100);
+                        }
+                      }}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       required
                     />
+                    {formData.checkIn && (
+                      <p className="text-xs text-gray-500 mt-1">
+                        Selected: {formatDateToDDMMYYYY(parseDDMMYYYYToISO(formData.checkIn))}
+                      </p>
+                    )}
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
@@ -378,11 +460,21 @@ export default function TourBookingPage() {
                     </label>
                     <input
                       type="date"
-                      value={formData.checkOut}
-                      onChange={(e) => handleInputChange("checkOut", e.target.value)}
+                      value={parseDDMMYYYYToISO(formData.checkOut)}
+                      onChange={(e) => {
+                        const formattedDate = formatDateToDDMMYYYY(e.target.value);
+                        handleInputChange("checkOut", formattedDate);
+                        // Auto calculate nights whenever check-out changes
+                        setTimeout(calculateNights, 100);
+                      }}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       required
                     />
+                    {formData.checkOut && (
+                      <p className="text-xs text-gray-500 mt-1">
+                        Selected: {formatDateToDDMMYYYY(parseDDMMYYYYToISO(formData.checkOut))}
+                      </p>
+                    )}
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
@@ -466,14 +558,14 @@ export default function TourBookingPage() {
                     <input
                       type="number"
                       value={formData.totalNights}
-                      onChange={(e) => {
-                        handleInputChange("totalNights", e.target.value);
-                        setTimeout(calculateTotals, 100);
-                      }}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
-                      placeholder="Number of nights"
+                      readOnly
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600 bg-gray-50"
+                      placeholder="Auto-calculated from dates"
                       required
                     />
+                    <p className="text-xs text-gray-500 mt-1">
+                      Auto-calculated from check-in and check-out dates
+                    </p>
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
@@ -619,9 +711,17 @@ export default function TourBookingPage() {
                 <div className="text-center">
                   <button
                     type="submit"
-                    className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-12 py-4 rounded-xl font-bold text-lg shadow-lg transform hover:scale-105 transition-all duration-200"
+                    disabled={isSubmitting}
+                    className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-12 py-4 rounded-xl font-bold text-lg shadow-lg transform hover:scale-105 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
                   >
-                    SUBMIT after PAYMENT
+                    {isSubmitting ? (
+                      <>
+                        <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin inline-block mr-2"></div>
+                        Processing...
+                      </>
+                    ) : (
+                      'SUBMIT after PAYMENT'
+                    )}
                   </button>
                 </div>
 
