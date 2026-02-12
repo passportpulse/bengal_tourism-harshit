@@ -322,6 +322,7 @@ export default function SpaWellnessPage() {
             </div>
           </div>
         </div>
+         </div>
       </section>
 
       {/* ================= BOOKING CTA ================= */}

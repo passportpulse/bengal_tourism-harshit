@@ -7,7 +7,7 @@ import { Search, MapPin, Calendar, Users, DollarSign } from "lucide-react"
 
 const popularDestinations = [
   { name: "Darjeeling", image: "https://images.unsplash.com/photo-1622308644420-b20142dc993c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", price: "₹2,500/night" },
-  { name: "Kolkata", image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=800&h=600&fit=crop", price: "₹3,200/night" },
+  { name: "Kolkata", image: "/kolkata-DIY.avif", price: "₹3,200/night" },
   { name: "Digha", image: "https://images.unsplash.com/photo-1657282928361-ec9de3f2bc74?w=800&h=600&fit=crop", price: "₹1,800/night" },
   { name: "Sundarban", image: "https://images.unsplash.com/photo-1706459671568-9809c9d13430?w=800&h=600&fit=crop", price: "₹2,100/night" },
 ]
