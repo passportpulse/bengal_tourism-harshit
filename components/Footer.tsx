@@ -129,8 +129,8 @@ export default function Footer() {
               <div className="flex gap-3">
                 <MapPin size={18} className="text-red-400 mt-1" />
                 <span>
-                  123, Park Street <br />
-                  Kolkata, West Bengal – 700016
+                  AG-209, Flat No402, <br />
+                  Kestopur, Kolkata - 700101
                 </span>
               </div>
 
