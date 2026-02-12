@@ -67,10 +67,11 @@ export default function HomePage() {
   <RandomPackageSections />
 
         <BreathtakingCities />
+        <TestimonialsInteractive />
+
         <WhyChooseBengal />
         {/* ================= FEATURES SECTION ================= */}
 
-        <TestimonialsInteractive />
 
         <CTASection />
 

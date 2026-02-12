@@ -1,5 +1,14 @@
 {
+  "/about/page": "app/about/page.js",
+  "/boat-stay/page": "app/boat-stay/page.js",
   "/book-hotel/page": "app/book-hotel/page.js",
+  "/book-tour/page": "app/book-tour/page.js",
+  "/camping-adventure/page": "app/camping-adventure/page.js",
+  "/event-management/page": "app/event-management/page.js",
+  "/film-shooting/page": "app/film-shooting/page.js",
+  "/heritage-tour/page": "app/heritage-tour/page.js",
+  "/offbeat-hills/page": "app/offbeat-hills/page.js",
   "/packages/bengal-beckons/page": "app/packages/bengal-beckons/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/short-breaks/page": "app/short-breaks/page.js"
 }
