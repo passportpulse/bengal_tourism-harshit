@@ -120,7 +120,7 @@ const payments = [
                             lineNumber: 26,
                             columnNumber: 12
                         }, ("TURBOPACK compile-time value", void 0)),
-                        " 9804333779@upi"
+                        " 6289783779@upi"
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/membership/page.tsx",
@@ -160,7 +160,7 @@ const payments = [
                             lineNumber: 36,
                             columnNumber: 12
                         }, ("TURBOPACK compile-time value", void 0)),
-                        " 9804333779"
+                        " 6289783779"
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/membership/page.tsx",
@@ -200,7 +200,7 @@ const payments = [
                             lineNumber: 46,
                             columnNumber: 12
                         }, ("TURBOPACK compile-time value", void 0)),
-                        " 9804333779"
+                        " 6289783779"
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/membership/page.tsx",
@@ -240,7 +240,7 @@ const payments = [
                             lineNumber: 56,
                             columnNumber: 12
                         }, ("TURBOPACK compile-time value", void 0)),
-                        " 9804333779"
+                        " 6289783779"
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/membership/page.tsx",
@@ -280,7 +280,7 @@ const payments = [
                             lineNumber: 66,
                             columnNumber: 12
                         }, ("TURBOPACK compile-time value", void 0)),
-                        " 9804333779"
+                        " 6289783779"
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/membership/page.tsx",

@@ -24,7 +24,7 @@ const payments = [
     details: (
       <>
         <p><b>UPI:</b> bengaltourism@upi</p>
-        <p><b>Mobile UPI:</b> 9804333779@upi</p>
+        <p><b>Mobile UPI:</b> 6289783779@upi</p>
       </>
     ),
   },
@@ -34,7 +34,7 @@ const payments = [
     details: (
       <>
         <p><b>UPI:</b> bengaltourism@ybl</p>
-        <p><b>Phone:</b> 9804333779</p>
+        <p><b>Phone:</b> 6289783779</p>
       </>
     ),
   },
@@ -44,7 +44,7 @@ const payments = [
     details: (
       <>
         <p><b>UPI:</b> bengaltourism@axl</p>
-        <p><b>Phone:</b> 9804333779</p>
+        <p><b>Phone:</b> 6289783779</p>
       </>
     ),
   },
@@ -54,7 +54,7 @@ const payments = [
     details: (
       <>
         <p><b>UPI:</b> bengaltourism@okaxis</p>
-        <p><b>Phone:</b> 9804333779</p>
+        <p><b>Phone:</b> 6289783779</p>
       </>
     ),
   },
@@ -64,7 +64,7 @@ const payments = [
     details: (
       <>
         <p><b>Email:</b> bengaltourism@gmail.com</p>
-        <p><b>Mobile:</b> 9804333779</p>
+        <p><b>Mobile:</b> 6289783779</p>
       </>
     ),
   },

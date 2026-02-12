@@ -510,7 +510,7 @@ export default function CareerPage() {
               <Mail className="w-5 h-5 mr-2" />
               careers@bengaltourism.com
             </a>
-            <a href="tel:+919804333779" className="flex items-center justify-center px-6 py-3 bg-gradient-to-r from-red-600 to-orange-600 text-white rounded-xl font-bold hover:from-red-700 hover:to-orange-700 transition">
+            <a href="tel:+916289783779" className="flex items-center justify-center px-6 py-3 bg-gradient-to-r from-red-600 to-orange-600 text-white rounded-xl font-bold hover:from-red-700 hover:to-orange-700 transition">
               <Phone className="w-5 h-5 mr-2" />
               +91 98043 33779
             </a>
