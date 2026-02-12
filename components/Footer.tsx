@@ -103,8 +103,20 @@ export default function Footer() {
               <div className="flex gap-3">
                 <Phone size={18} className="text-red-400" />
                 <div>
-                  <p>Tour Booking: <strong className="text-white">6289783779</strong></p>
-                  <p>Hotel Booking: <strong className="text-white">9007995888</strong></p>
+                 <p>
+  Tour Booking:{" "}
+  <a href="tel:6289783779" className="text-white font-semibold hover:text-yellow-400">
+    6289783779
+  </a>
+</p>
+
+<p>
+  Hotel Booking:{" "}
+  <a href="tel:9007995888" className="text-white font-semibold hover:text-yellow-400">
+    9007995888
+  </a>
+</p>
+
                 </div>
               </div>
 
@@ -112,20 +124,16 @@ export default function Footer() {
                 <MessageCircle size={18} className="text-red-400" />
                 <div>
                   <a href="https://wa.me/916289783779" target="_blank" className="hover:text-red-400">
-                    Tour WhatsApp
+                    Tour WhatsApp: <strong className="text-white">6289783779</strong>
                   </a>
                   <br />
                   <a href="https://wa.me/919007995888" target="_blank" className="hover:text-red-400">
-                    Hotel WhatsApp
+                    Hotel WhatsApp: <strong className="text-white">9007995888</strong>
                   </a>
                 </div>
               </div>
 
-              <div className="flex gap-3">
-                <Mail size={18} className="text-red-400" />
-                <span>bengaltourism@gmail.com</span>
-              </div>
-
+           
               <div className="flex gap-3">
                 <MapPin size={18} className="text-red-400 mt-1" />
                 <span>

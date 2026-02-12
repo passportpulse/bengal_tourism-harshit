@@ -4784,6 +4784,12 @@
   }
 
   @media (hover: hover) {
+    .hover\:text-yellow-400:hover {
+      color: var(--color-yellow-400);
+    }
+  }
+
+  @media (hover: hover) {
     .hover\:underline:hover {
       text-decoration-line: underline;
     }
