@@ -11,7 +11,7 @@ export default function KeralaTourismPage() {
       <section className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1576096424-5f6e4e1a5?w=1920&h=1080&fit=crop"
+            src="/Kerala.jpeg"
             alt="Beautiful Kerala backwaters with houseboats and coconut trees"
             className="w-full h-full object-cover"
           />
@@ -25,14 +25,14 @@ export default function KeralaTourismPage() {
               <span className="text-yellow-400 font-semibold tracking-wide">KERALA TOURISM</span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <h1 className="text-5xl text-center md:text-7xl font-bold mb-6 leading-tight">
               God's Own Country
               <span className="block text-3xl md:text-5xl mt-2 text-green-300">
                 Munnar • Alleppey • Kovalam • Thekkady • Periyar
               </span>
             </h1>
 
-            <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto text-center leading-relaxed">
               Experience the tropical paradise with special tailor-made 
               combination packages designed on request
             </p>
@@ -267,45 +267,7 @@ export default function KeralaTourismPage() {
         </div>
       </section>
 
-      {/* ================= BOOKING CTA ================= */}
-      <section className="py-20 bg-gradient-to-r from-green-600 to-emerald-600 text-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Book Your Kerala Journey</h2>
-            <p className="text-xl text-green-100 max-w-3xl mx-auto">
-              Special tailor-made combination packages designed on request
-            </p>
-          </div>
-
-          <div className="bg-white text-green-800 rounded-2xl p-8 max-w-2xl mx-auto">
-            <h3 className="text-2xl font-bold mb-4">Ready to Explore Kerala?</h3>
-            <p className="text-gray-700 mb-6">
-              Contact us for personalized Kerala tourism packages with flexible duration and custom itineraries
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-green-600 text-white px-8 py-3 rounded-full font-bold hover:bg-green-700 transition">
-                <Phone className="w-4 h-4 inline mr-2" />
-                Call: +91 98765 43210
-              </button>
-              <button className="bg-emerald-600 text-white px-8 py-3 rounded-full font-bold hover:bg-emerald-700 transition">
-                <Mail className="w-4 h-4 inline mr-2" />
-                Email: kerala@bengaltourism.com
-              </button>
-            </div>
-            <p className="text-sm text-gray-600 mt-4">
-              For more pictures, offers & reviews, visit our Facebook Page
-            </p>
-            <div className="mt-6 bg-green-100 p-4 rounded-lg">
-              <p className="text-green-800 font-bold text-center mb-2">
-                🌴 Discover God's Own Country
-              </p>
-              <p className="text-sm text-green-700 text-center">
-                Experience the perfect blend of backwaters, beaches, hill stations, and wildlife in Kerala
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+   
 
     </main>
   )

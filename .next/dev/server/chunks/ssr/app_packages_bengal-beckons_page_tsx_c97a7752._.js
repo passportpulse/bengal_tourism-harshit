@@ -26,11 +26,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 const bengalPackages = [
     {
         slug: "darjeeling-queen-hills",
-        title: "Darjeeling",
-        subtitle: "Queen of the Hills",
+        title: "Queen of the Hills",
         tag: "Himalayan Paradise",
         duration: "5N & 6D",
-        price: "₹12,999",
         desc: "A refreshing hill getaway with misty mountains, tea gardens, and colonial charm.",
         locations: "Darjeeling, Kalimpong, Kurseong, Mirik",
         image: "https://images.unsplash.com/photo-1698753864905-a447aa362ec9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRhcmplZWxpbmd8ZW58MHx8MHx8fDA%3D",
@@ -41,11 +39,9 @@ const bengalPackages = [
     },
     {
         slug: "digha-sea-sand",
-        title: "Digha",
-        subtitle: "Sea & Sand of the East",
+        title: "Sea & Sand of the East",
         tag: "Beach Paradise",
         duration: "4N & 5D",
-        price: "₹8,999",
         desc: "A relaxing coastal retreat with serene beaches and scenic sunsets.",
         locations: "Digha, Mandarmoni, Shankarpur, Tajpur",
         image: "https://images.unsplash.com/photo-1657282928361-ec9de3f2bc74?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -56,14 +52,12 @@ const bengalPackages = [
     },
     {
         slug: "sundarban-wildlife",
-        title: "Sundarban",
-        subtitle: "Largest Mangrove of the World",
+        title: "Largest Mangrove of the World",
         tag: "Wildlife Forest & Jungle Safari",
         duration: "3N & 4D",
-        price: "₹9,999",
         desc: "A thrilling mangrove adventure through rivers, creeks, and wildlife habitats.",
         locations: "Sundarban, Sajnekhali, Godkhali, Kakdwip",
-        image: "https://images.unsplash.com/photo-1706459671568-9809c9d13430?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U3VuZGFyYmFufGVufDB8fDB8fHww",
+        image: "https://images.unsplash.com/photo-1706459671568-9809c9d13430?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U3VuZGFyYmFufGVufDB8fDB8fHx8MA%3D%3D",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trees$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Trees$3e$__["Trees"],
         iconColor: "text-emerald-500",
         route: "/sundarban",
@@ -71,11 +65,9 @@ const bengalPackages = [
     },
     {
         slug: "kolkata-city-joy",
-        title: "Kolkata",
-        subtitle: "City of Joy",
+        title: "City of Joy",
         tag: "Cultural Heritage",
         duration: "Custom",
-        price: "₹6,999",
         desc: "Discover art, culture, history, and flavors in India's cultural capital.",
         locations: "Kolkata",
         image: "https://images.unsplash.com/photo-1647102208648-5f3175091dda?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8S29sa2F0YXxlbnwwfHwwfHx8MA%3D%3D",
@@ -85,78 +77,16 @@ const bengalPackages = [
         showBookNow: true
     },
     {
-        slug: "bakkhali-beach",
-        title: "Bakkhali",
-        subtitle: "Serene Beach Escape",
-        tag: "Beach Paradise",
-        duration: "4N & 5D",
-        price: "₹7,999",
-        desc: "A serene coastal escape with pristine beaches and swaying palms.",
-        locations: "Bakkhali, Henry Island, Jambudwip, Frasergunj",
-        image: "https://images.unsplash.com/photo-1736782487579-79f9cfc5570a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8QmFra2hhbGl8ZW58MHx8MHx8fDA%3D",
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"],
-        iconColor: "text-cyan-500",
-        route: "/bakkhali",
-        showBookNow: true
-    },
-    {
-        slug: "darjeeling-kalimpong",
-        title: "Darjeeling & Kalimpong",
-        subtitle: "Hill Station Paradise",
-        tag: "Mountain Escape",
-        duration: "4N & 5D",
-        price: "₹11,999",
-        desc: "Experience the breathtaking beauty of Himalayan hills with tea gardens and mountain views.",
-        locations: "Darjeeling, Kalimpong, Gangtok",
-        image: "https://images.unsplash.com/photo-1696426886039-a3b5c8774e3d?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
-        iconColor: "text-red-500",
-        route: "/darjeeling",
-        showBookNow: true
-    },
-    {
         slug: "dooars-lataguri-jaldapara",
-        title: "Dooars - Lataguri & Jaldapara",
-        subtitle: "Wildlife Paradise",
+        title: "Wildlife Forest & Jungle Safari",
         tag: "Forest Safari",
         duration: "3N & 4D",
-        price: "₹9,999",
         desc: "Explore the lush forests and wildlife sanctuaries of North Bengal.",
         locations: "Lataguri, Jaldapara, Gorumara",
         image: "https://images.unsplash.com/photo-1669514463894-0475a3e062ff?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trees$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Trees$3e$__["Trees"],
         iconColor: "text-emerald-500",
         route: "/dooars",
-        showBookNow: true
-    },
-    {
-        slug: "digha-mandarmoni",
-        title: "Digha & Mandarmoni",
-        subtitle: "Beach Paradise",
-        tag: "Coastal Retreat",
-        duration: "3N & 4D",
-        price: "₹8,999",
-        desc: "Relax on the pristine beaches of Bengal's most popular coastal destinations.",
-        locations: "Digha, Mandarmoni, Shankarpur",
-        image: "https://media-cdn.tripadvisor.com/media/photo-s/12/45/4d/69/mandarmani-sea-beach.jpg",
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"],
-        iconColor: "text-blue-500",
-        route: "/digha",
-        showBookNow: true
-    },
-    {
-        slug: "regional-bengal",
-        title: "Regional Bengal",
-        subtitle: "Complete Bengal Experience",
-        tag: "Cultural Tour",
-        duration: "6N & 7D",
-        price: "₹15,999",
-        desc: "A comprehensive tour covering the diverse landscapes and cultures of Bengal.",
-        locations: "Kolkata, Sundarban, Digha, Darjeeling",
-        image: "https://images.unsplash.com/photo-1760344654401-43c9fac457ff?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fFJlZ2lvbmFsJTIwQmVuZ2FsfGVufDB8fDB8fHww",
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$compass$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Compass$3e$__["Compass"],
-        iconColor: "text-orange-500",
-        route: "/religious-pilgrimage",
         showBookNow: true
     }
 ];
@@ -178,20 +108,20 @@ function BengalBeckonsPackagesPage() {
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                lineNumber: 153,
+                                lineNumber: 83,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute inset-0 bg-gradient-to-br from-red-900/70 via-orange-800/50 to-yellow-900/40"
                             }, void 0, false, {
                                 fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                lineNumber: 160,
+                                lineNumber: 90,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                        lineNumber: 152,
+                        lineNumber: 82,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -206,7 +136,7 @@ function BengalBeckonsPackagesPage() {
                                             className: "w-2 h-2 bg-green-400 rounded-full animate-pulse"
                                         }, void 0, false, {
                                             fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                            lineNumber: 166,
+                                            lineNumber: 96,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -214,13 +144,13 @@ function BengalBeckonsPackagesPage() {
                                             children: "Explore Beautiful Bengal"
                                         }, void 0, false, {
                                             fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                            lineNumber: 167,
+                                            lineNumber: 97,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                    lineNumber: 165,
+                                    lineNumber: 95,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -232,13 +162,13 @@ function BengalBeckonsPackagesPage() {
                                             children: "Beckons"
                                         }, void 0, false, {
                                             fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                            lineNumber: 172,
+                                            lineNumber: 102,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                    lineNumber: 170,
+                                    lineNumber: 100,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -246,7 +176,7 @@ function BengalBeckonsPackagesPage() {
                                     children: "Discover the diverse landscapes, rich culture, and warm hospitality of West Bengal"
                                 }, void 0, false, {
                                     fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                    lineNumber: 177,
+                                    lineNumber: 107,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -259,36 +189,36 @@ function BengalBeckonsPackagesPage() {
                                                 className: "w-5 h-5 rotate-180"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                lineNumber: 183,
+                                                lineNumber: 113,
                                                 columnNumber: 33
                                             }, this),
                                             "Back to All Packages"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                        lineNumber: 182,
+                                        lineNumber: 112,
                                         columnNumber: 29
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                    lineNumber: 181,
+                                    lineNumber: 111,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                            lineNumber: 164,
+                            lineNumber: 94,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                        lineNumber: 163,
+                        lineNumber: 93,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                lineNumber: 151,
+                lineNumber: 81,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -308,14 +238,14 @@ function BengalBeckonsPackagesPage() {
                                             children: "Bengal"
                                         }, void 0, false, {
                                             fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                            lineNumber: 196,
+                                            lineNumber: 126,
                                             columnNumber: 37
                                         }, this),
                                         " Tour Packages"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                    lineNumber: 195,
+                                    lineNumber: 125,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -323,13 +253,13 @@ function BengalBeckonsPackagesPage() {
                                     children: "From the Himalayan foothills to the Bay of Bengal, experience the best of West Bengal"
                                 }, void 0, false, {
                                     fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                    lineNumber: 198,
+                                    lineNumber: 128,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                            lineNumber: 194,
+                            lineNumber: 124,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -348,14 +278,14 @@ function BengalBeckonsPackagesPage() {
                                                     className: "object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                    lineNumber: 211,
+                                                    lineNumber: 141,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                    lineNumber: 218,
+                                                    lineNumber: 148,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -367,25 +297,25 @@ function BengalBeckonsPackagesPage() {
                                                                 className: "w-4 h-4"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                                lineNumber: 223,
+                                                                lineNumber: 153,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 children: item.title
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                                lineNumber: 224,
+                                                                lineNumber: 154,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                        lineNumber: 222,
+                                                        lineNumber: 152,
                                                         columnNumber: 41
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                    lineNumber: 221,
+                                                    lineNumber: 151,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -402,41 +332,41 @@ function BengalBeckonsPackagesPage() {
                                                                             children: location.trim()
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                                            lineNumber: 234,
+                                                                            lineNumber: 164,
                                                                             columnNumber: 57
                                                                         }, this),
                                                                         index < item.locations.split(',').length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
                                                                             className: "w-3 h-3 text-white shrink-0 mx-1"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                                            lineNumber: 236,
+                                                                            lineNumber: 166,
                                                                             columnNumber: 61
                                                                         }, this)
                                                                     ]
                                                                 }, index, true, {
                                                                     fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                                    lineNumber: 233,
+                                                                    lineNumber: 163,
                                                                     columnNumber: 53
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                            lineNumber: 231,
+                                                            lineNumber: 161,
                                                             columnNumber: 45
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                        lineNumber: 230,
+                                                        lineNumber: 160,
                                                         columnNumber: 41
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                    lineNumber: 229,
+                                                    lineNumber: 159,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                            lineNumber: 210,
+                                            lineNumber: 140,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -449,7 +379,7 @@ function BengalBeckonsPackagesPage() {
                                                             className: `w-4 h-4 ${item.iconColor}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                            lineNumber: 249,
+                                                            lineNumber: 179,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -457,38 +387,28 @@ function BengalBeckonsPackagesPage() {
                                                             children: "Bengal Tour"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                            lineNumber: 250,
+                                                            lineNumber: 180,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                    lineNumber: 248,
+                                                    lineNumber: 178,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "mb-4",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                            className: "text-xl font-bold text-gray-900 mb-1",
-                                                            children: item.title
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                            lineNumber: 255,
-                                                            columnNumber: 41
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "text-sm text-gray-600",
-                                                            children: item.subtitle
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                            lineNumber: 256,
-                                                            columnNumber: 41
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                        className: "text-xl font-bold text-gray-900",
+                                                        children: item.title
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/packages/bengal-beckons/page.tsx",
+                                                        lineNumber: 185,
+                                                        columnNumber: 41
+                                                    }, this)
+                                                }, void 0, false, {
                                                     fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                    lineNumber: 254,
+                                                    lineNumber: 184,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -501,20 +421,20 @@ function BengalBeckonsPackagesPage() {
                                                                     className: "w-4 h-4 text-gray-400"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                                    lineNumber: 262,
+                                                                    lineNumber: 191,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                     children: item.tag
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                                    lineNumber: 263,
+                                                                    lineNumber: 192,
                                                                     columnNumber: 45
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                            lineNumber: 261,
+                                                            lineNumber: 190,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -524,26 +444,26 @@ function BengalBeckonsPackagesPage() {
                                                                     className: "w-4 h-4 text-gray-400"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                                    lineNumber: 266,
+                                                                    lineNumber: 195,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                     children: item.duration
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                                    lineNumber: 267,
+                                                                    lineNumber: 196,
                                                                     columnNumber: 45
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                            lineNumber: 265,
+                                                            lineNumber: 194,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                    lineNumber: 260,
+                                                    lineNumber: 189,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -553,44 +473,12 @@ function BengalBeckonsPackagesPage() {
                                                         children: item.desc
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                        lineNumber: 273,
+                                                        lineNumber: 202,
                                                         columnNumber: 41
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                    lineNumber: 272,
-                                                    columnNumber: 37
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "mt-auto mb-4",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "flex items-baseline gap-2",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                className: "text-sm text-gray-500",
-                                                                children: "Starting from"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                                lineNumber: 281,
-                                                                columnNumber: 45
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                className: "text-2xl font-bold text-red-600",
-                                                                children: item.price
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                                lineNumber: 282,
-                                                                columnNumber: 45
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                        lineNumber: 280,
-                                                        columnNumber: 41
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                    lineNumber: 279,
+                                                    lineNumber: 201,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -602,7 +490,7 @@ function BengalBeckonsPackagesPage() {
                                                             children: "Book Now"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                            lineNumber: 290,
+                                                            lineNumber: 209,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -611,47 +499,47 @@ function BengalBeckonsPackagesPage() {
                                                             children: "View Details"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                            lineNumber: 296,
+                                                            lineNumber: 215,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                                    lineNumber: 289,
+                                                    lineNumber: 208,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                            lineNumber: 246,
+                                            lineNumber: 176,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, item.slug, true, {
                                     fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                                    lineNumber: 205,
+                                    lineNumber: 135,
                                     columnNumber: 29
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                            lineNumber: 203,
+                            lineNumber: 133,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                    lineNumber: 193,
+                    lineNumber: 123,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-                lineNumber: 192,
+                lineNumber: 122,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/packages/bengal-beckons/page.tsx",
-        lineNumber: 149,
+        lineNumber: 79,
         columnNumber: 9
     }, this);
 }

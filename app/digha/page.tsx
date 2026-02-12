@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import { Waves, MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, DollarSign, Award, Compass, Utensils, Fish, Beer, TreePine, Ship } from 'lucide-react'
+import PackagePricing from '@/components/PackagePricing'
 
 export default function DighaPage() {
   return (
@@ -196,47 +197,10 @@ export default function DighaPage() {
           </div>
 
           {/* Weekend Packages Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-6 border-2 border-blue-200">
-              <h3 className="text-xl font-bold mb-3">Digha Secret Weekend</h3>
-              <p className="text-gray-600 mb-4">Perfect quick beach getaway</p>
-              <p className="text-2xl font-bold text-blue-600 mb-2">₹8,000</p>
-              <p className="text-sm text-gray-500 mb-4">2 Nights / 3 Days</p>
-              <button className="w-full bg-blue-600 text-white py-2 rounded-lg font-semibold hover:bg-blue-700 transition">
-                Book Now
-              </button>
-            </div>
-
-            <div className="bg-gradient-to-br from-pink-50 to-purple-50 rounded-2xl p-6 border-2 border-pink-200">
-              <h3 className="text-xl font-bold mb-3">Mandarmoni Romantic</h3>
-              <p className="text-gray-600 mb-4">Couples paradise beach</p>
-              <p className="text-2xl font-bold text-pink-600 mb-2">₹9,000</p>
-              <p className="text-sm text-gray-500 mb-4">2 Nights / 3 Days</p>
-              <button className="w-full bg-pink-600 text-white py-2 rounded-lg font-semibold hover:bg-pink-700 transition">
-                Book Now
-              </button>
-            </div>
-
-            <div className="bg-gradient-to-br from-green-50 to-teal-50 rounded-2xl p-6 border-2 border-green-200">
-              <h3 className="text-xl font-bold mb-3">Tajpur Solitude</h3>
-              <p className="text-gray-600 mb-4">Peaceful beach retreat</p>
-              <p className="text-2xl font-bold text-green-600 mb-2">₹8,500</p>
-              <p className="text-sm text-gray-500 mb-4">2 Nights / 3 Days</p>
-              <button className="w-full bg-green-600 text-white py-2 rounded-lg font-semibold hover:bg-green-700 transition">
-                Book Now
-              </button>
-            </div>
-
-            <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-2xl p-6 border-2 border-orange-200">
-              <h3 className="text-xl font-bold mb-3">Baguran Jalpai Offbeat</h3>
-              <p className="text-gray-600 mb-4">Hidden beach gem</p>
-              <p className="text-2xl font-bold text-orange-600 mb-2">₹7,500</p>
-              <p className="text-sm text-gray-500 mb-4">2 Nights / 3 Days</p>
-              <button className="w-full bg-orange-600 text-white py-2 rounded-lg font-semibold hover:bg-orange-700 transition">
-                Book Now
-              </button>
-            </div>
-          </div>
+        <PackagePricing 
+                title="Digha Beach Packages"
+                subtitle="Choose your perfect beach getaway duration"
+              />
         </div>
       </section>
 

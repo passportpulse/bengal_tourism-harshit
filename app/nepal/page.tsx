@@ -11,28 +11,28 @@ export default function NepalPage() {
       <section className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1544736655-e9d6a0b8e1a?w=1920&h=1080&fit=crop"
+            src="https://images.unsplash.com/photo-1720811970882-70a5196ee37e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TmVwYWwlMjAlMjYlMjBLYXRobWFuZHV8ZW58MHx8MHx8fDA%3D"
             alt="Himalayan mountains with ancient temple and prayer flags"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-green-900/80 via-emerald-800/60 to-green-900/80"></div>
         </div>
 
-        <div className="relative h-full flex items-center justify-center text-center text-white px-6">
+        <div className="relative h-full flex items-center  justify-center text-center text-white px-6">
           <div className="max-w-4xl">
             <div className="flex items-center justify-center gap-2 mb-4">
               <Mountain className="w-6 h-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold tracking-wide">Nepal Himalayan Paradise</span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <h1 className="text-5xl md:text-7xl text-center font-bold mb-6 leading-tight">
               Nepal
               <span className="block text-3xl md:text-5xl mt-2 text-green-300">
                 Kathmandu • Patan • Bhaktapur • Nagarkot
               </span>
             </h1>
 
-            <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl mb-8 text-center text-gray-200 max-w-3xl mx-auto leading-relaxed">
               Experience the mystical Himalayan kingdom with ancient temples, 
               cultural heritage, and breathtaking mountain views
             </p>
@@ -289,68 +289,7 @@ export default function NepalPage() {
         </div>
       </section>
 
-      {/* ================= BOOKING CTA ================= */}
-      <section className="py-20 bg-gradient-to-r from-green-600 to-emerald-600 text-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Book Your Himalayan Adventure</h2>
-            <p className="text-xl text-green-100 max-w-3xl mx-auto">
-              Special tailor-made packages designed for your perfect Nepal experience
-            </p>
-          </div>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <Clock className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Flexible Duration</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">4-7 Days</p>
-              <p className="text-green-100">Custom packages available</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <Users className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Group Size</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">2-15 People</p>
-              <p className="text-green-100">Private & group tours</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <DollarSign className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Starting From</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">₹15,000</p>
-              <p className="text-green-100">Per person</p>
-            </div>
-          </div>
-
-          <div className="text-center">
-            <div className="bg-white text-green-800 rounded-2xl p-8 max-w-2xl mx-auto">
-              <h3 className="text-2xl font-bold mb-4">Ready for Himalayan Adventure?</h3>
-              <p className="text-gray-700 mb-6">
-                Contact us for special tailor-made packages designed according to your preferences
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="bg-green-600 text-white px-8 py-3 rounded-full font-bold hover:bg-green-700 transition">
-                  Call Now: +91 98765 43210
-                </button>
-                <button className="bg-emerald-600 text-white px-8 py-3 rounded-full font-bold hover:bg-emerald-700 transition">
-                  Email: info@bengaltourism.com
-                </button>
-              </div>
-              <p className="text-sm text-gray-600 mt-4">
-                For more pictures, offers & reviews, visit our Facebook Page
-              </p>
-              <div className="mt-6 bg-green-100 p-4 rounded-lg">
-                <p className="text-green-800 font-bold text-center mb-2">
-                  🏔️ Discover Himalayan Kingdom
-                </p>
-                <p className="text-sm text-green-700 text-center">
-                  Experience ancient temples, cultural heritage, and breathtaking mountain views
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
     </main>
   )

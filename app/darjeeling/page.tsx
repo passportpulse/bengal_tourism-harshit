@@ -52,7 +52,7 @@ export default function DarjeelingPage() {
           {/* ---------- RIGHT IMAGE ---------- */}
           <div className="flex justify-center md:justify-end">
             <img
-              src="https://images.unsplash.com/photo-1596416889642-3a91b9542c4b?w=600&h=400&fit=crop"
+              src="/download.jpeg"
               alt="Kanchendzonga mountain range with Darjeeling tea gardens"
               className="w-full max-w-md md:max-w-lg lg:max-w-xl rounded-2xl shadow-2xl"
             />
@@ -139,7 +139,7 @@ export default function DarjeelingPage() {
 
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=800&fit=crop"
+                src="/1827756-aa-26731221.webp"
                 alt="Historic Darjeeling with colonial architecture"
                 className="rounded-2xl shadow-2xl w-full"
               />
@@ -264,7 +264,7 @@ export default function DarjeelingPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
               <img
-                src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop"
+                src="/Mirik.jpeg"
                 alt="Mirik Lake"
                 className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
               />
@@ -277,7 +277,7 @@ export default function DarjeelingPage() {
 
             <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
               <img
-                src="https://images.unsplash.com/photo-1605639691513-f84b9b8926c7?w=400&h=300&fit=crop"
+                src="/Kurseong.jpeg"
                 alt="Kurseong"
                 className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
               />
@@ -290,7 +290,7 @@ export default function DarjeelingPage() {
 
             <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
               <img
-                src="https://images.unsplash.com/photo-1596394516093-50169e4c36e7?w=400&h=300&fit=crop"
+                src="/Kalimpong.jpeg"
                 alt="Kalimpong"
                 className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
               />
@@ -303,7 +303,7 @@ export default function DarjeelingPage() {
 
             <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
               <img
-                src="https://images.unsplash.com/photo-1579735579519-f6e4a7e0e9f9?w=400&h=300&fit=crop"
+                src="/Lava.jpg"
                 alt="Lava"
                 className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
               />
@@ -316,7 +316,7 @@ export default function DarjeelingPage() {
 
             <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
               <img
-                src="https://images.unsplash.com/photo-1605540436173-7c8b43b8d5f2?w=400&h=300&fit=crop"
+                src="/Rishap.jpeg"
                 alt="Rishap"
                 className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
               />
@@ -327,13 +327,6 @@ export default function DarjeelingPage() {
               </div>
             </div>
 
-            <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
-              <div className="text-center text-white p-6">
-                <h3 className="text-2xl font-bold mb-2">Sikkim & Beyond</h3>
-                <p className="text-gray-200 mb-4">Gangtok • Pelling • Yuksom • Nathula</p>
-                <p className="text-sm">And many more Himalayan treasures...</p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -444,20 +437,7 @@ export default function DarjeelingPage() {
             </button>
           </div>
 
-          <div className="mt-12 flex items-center justify-center gap-8 text-sm">
-            <div className="flex items-center gap-2">
-              <Clock className="w-5 h-5" />
-              <span>Best Time: Mar - Jun, Sep - Dec</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <MapPin className="w-5 h-5" />
-              <span>West Bengal, India</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Users className="w-5 h-5" />
-              <span>Perfect for All Travelers</span>
-            </div>
-          </div>
+       
         </div>
       </section>
 

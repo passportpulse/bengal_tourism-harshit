@@ -11,7 +11,7 @@ export default function HotelResortPage() {
       <section className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1761470371217-a4de0ff0e8df?w=1920&h=1080&fit=crop"
+            src="https://images.unsplash.com/photo-1761470371217-a4de0ff0e8df?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SG90ZWwtUmVzb3J0LUd1ZXN0JTIwSG91c2V8ZW58MHx8MHx8fDA%3D"
             alt="Luxury resort with swimming pool and ocean view"
             className="w-full h-full object-cover"
           />
@@ -25,14 +25,14 @@ export default function HotelResortPage() {
               <span className="text-yellow-400 font-semibold tracking-wide">Premium Accommodation</span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <h1 className="text-5xl text-center md:text-7xl font-bold mb-6 leading-tight">
               Hotel-Resort
               <span className="block text-3xl md:text-5xl mt-2 text-blue-300">
                 Guest House • Luxury Stays • Premium Hospitality
               </span>
             </h1>
 
-            <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-center md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
               Experience the finest accommodations ranging from luxury resorts to cozy guest houses across India
             </p>
 
@@ -257,33 +257,7 @@ export default function HotelResortPage() {
             </div>
           </div>
 
-          <div className="text-center">
-            <div className="bg-white text-purple-800 rounded-2xl p-8 max-w-2xl mx-auto">
-              <h3 className="text-2xl font-bold mb-4">Ready for Premium Hospitality?</h3>
-              <p className="text-gray-700 mb-6">
-                Contact us for exclusive accommodations across India tailored to your preferences
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="bg-purple-600 text-white px-8 py-3 rounded-full font-bold hover:bg-purple-700 transition">
-                  Call Now: +91 98765 43210
-                </button>
-                <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-bold hover:bg-blue-700 transition">
-                  Email: info@bengaltourism.com
-                </button>
-              </div>
-              <p className="text-sm text-gray-600 mt-4">
-                For more pictures, offers & reviews, visit our Facebook Page
-              </p>
-              <div className="mt-6 bg-purple-100 p-4 rounded-lg">
-                <p className="text-purple-800 font-bold text-center mb-2">
-                  🏨 Discover Premium Stays
-                </p>
-                <p className="text-sm text-purple-700 text-center">
-                  Experience luxury accommodations, cozy guest houses, and premium hospitality
-                </p>
-              </div>
-            </div>
-          </div>
+       
         </div>
       </section>
 

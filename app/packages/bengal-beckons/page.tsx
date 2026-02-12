@@ -9,11 +9,9 @@ import { Calendar, Clock, Star, MapPinCheck, ArrowRight, Trees, Building, Waves,
 const bengalPackages = [
     {
         slug: "darjeeling-queen-hills",
-        title: "Darjeeling",
-        subtitle: "Queen of the Hills",
+        title: "Queen of the Hills",
         tag: "Himalayan Paradise",
         duration: "5N & 6D",
-        price: "₹ 14500",
         desc: "A refreshing hill getaway with misty mountains, tea gardens, and colonial charm.",
         locations: "Darjeeling, Kalimpong, Kurseong, Mirik",
         image: "https://images.unsplash.com/photo-1698753864905-a447aa362ec9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRhcmplZWxpbmd8ZW58MHx8MHx8fDA%3D",
@@ -24,11 +22,9 @@ const bengalPackages = [
     },
     {
         slug: "digha-sea-sand",
-        title: "Digha",
-        subtitle: "Sea & Sand of the East",
+        title: "Sea & Sand of the East",
         tag: "Beach Paradise",
         duration: "4N & 5D",
-        price: "₹ 12700",
         desc: "A relaxing coastal retreat with serene beaches and scenic sunsets.",
         locations: "Digha, Mandarmoni, Shankarpur, Tajpur",
         image: "https://images.unsplash.com/photo-1657282928361-ec9de3f2bc74?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -39,14 +35,12 @@ const bengalPackages = [
     },
     {
         slug: "sundarban-wildlife",
-        title: "Sundarban",
-        subtitle: "Largest Mangrove of the World",
+        title: "Largest Mangrove of the World",
         tag: "Wildlife Forest & Jungle Safari",
         duration: "3N & 4D",
-        price: "₹ 9100",
         desc: "A thrilling mangrove adventure through rivers, creeks, and wildlife habitats.",
         locations: "Sundarban, Sajnekhali, Godkhali, Kakdwip",
-        image: "https://images.unsplash.com/photo-1706459671568-9809c9d13430?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U3VuZGFyYmFufGVufDB8fDB8fHww",
+        image: "https://images.unsplash.com/photo-1706459671568-9809c9d13430?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U3VuZGFyYmFufGVufDB8fDB8fHx8MA%3D%3D",
         icon: Trees,
         iconColor: "text-emerald-500",
         route: "/sundarban",
@@ -54,11 +48,9 @@ const bengalPackages = [
     },
     {
         slug: "kolkata-city-joy",
-        title: "Kolkata",
-        subtitle: "City of Joy",
+        title: "City of Joy",
         tag: "Cultural Heritage",
         duration: "Custom",
-        price: "₹6,999",
         desc: "Discover art, culture, history, and flavors in India's cultural capital.",
         locations: "Kolkata",
         image: "https://images.unsplash.com/photo-1647102208648-5f3175091dda?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8S29sa2F0YXxlbnwwfHwwfHx8MA%3D%3D",
@@ -68,78 +60,16 @@ const bengalPackages = [
         showBookNow: true,
     },
     {
-        slug: "bakkhali-beach",
-        title: "Bakkhali",
-        subtitle: "Serene Beach Escape",
-        tag: "Beach Paradise",
-        duration: "4N & 5D",
-        price: "₹ 12700",
-        desc: "A serene coastal escape with pristine beaches and swaying palms.",
-        locations: "Bakkhali, Henry Island, Jambudwip, Frasergunj",
-        image: "https://images.unsplash.com/photo-1736782487579-79f9cfc5570a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8QmFra2hhbGl8ZW58MHx8MHx8fDA%3D",
-        icon: Waves,
-        iconColor: "text-cyan-500",
-        route: "/bakkhali",
-        showBookNow: true,
-    },
-    {
-        slug: "darjeeling-kalimpong",
-        title: "Darjeeling & Kalimpong",
-        subtitle: "Hill Station Paradise",
-        tag: "Mountain Escape",
-        duration: "4N & 5D",
-        price: "₹ 12700",
-        desc: "Experience the breathtaking beauty of Himalayan hills with tea gardens and mountain views.",
-        locations: "Darjeeling, Kalimpong, Gangtok",
-        image: "https://images.unsplash.com/photo-1696426886039-a3b5c8774e3d?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        icon: Mountain,
-        iconColor: "text-red-500",
-        route: "/darjeeling",
-        showBookNow: true,
-    },
-    {
         slug: "dooars-lataguri-jaldapara",
-        title: "Dooars - Lataguri & Jaldapara",
-        subtitle: "Wildlife Paradise",
+        title: "Wildlife Forest & Jungle Safari",
         tag: "Forest Safari",
         duration: "3N & 4D",
-        price: "₹ 9100",
         desc: "Explore the lush forests and wildlife sanctuaries of North Bengal.",
         locations: "Lataguri, Jaldapara, Gorumara",
         image: "https://images.unsplash.com/photo-1669514463894-0475a3e062ff?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         icon: Trees,
         iconColor: "text-emerald-500",
         route: "/dooars",
-        showBookNow: true,
-    },
-    {
-        slug: "digha-mandarmoni",
-        title: "Digha & Mandarmoni",
-        subtitle: "Beach Paradise",
-        tag: "Coastal Retreat",
-        duration: "3N & 4D",
-        price: "₹ 9100",
-        desc: "Relax on the pristine beaches of Bengal's most popular coastal destinations.",
-        locations: "Digha, Mandarmoni, Shankarpur",
-        image: "https://media-cdn.tripadvisor.com/media/photo-s/12/45/4d/69/mandarmani-sea-beach.jpg",
-        icon: Waves,
-        iconColor: "text-blue-500",
-        route: "/digha",
-        showBookNow: true,
-    },
-    {
-        slug: "regional-bengal",
-        title: "Regional Bengal",
-        subtitle: "Complete Bengal Experience",
-        tag: "Cultural Tour",
-        duration: "6N & 7D",
-        price: "₹ 14500",
-        desc: "A comprehensive tour covering the diverse landscapes and cultures of Bengal.",
-        locations: "Kolkata, Sundarban, Digha, Darjeeling",
-        image: "https://images.unsplash.com/photo-1760344654401-43c9fac457ff?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fFJlZ2lvbmFsJTIwQmVuZ2FsfGVufDB8fDB8fHww",
-        icon: Compass,
-        iconColor: "text-orange-500",
-        route: "/religious-pilgrimage",
         showBookNow: true,
     },
 ];
@@ -250,10 +180,9 @@ export default function BengalBeckonsPackagesPage() {
                                         <span className="text-xs font-medium text-gray-600">Bengal Tour</span>
                                     </div>
 
-                                    {/* Title and Subtitle */}
+                                    {/* Title */}
                                     <div className="mb-4">
-                                        <h3 className="text-xl font-bold text-gray-900 mb-1">{item.title}</h3>
-                                        <p className="text-sm text-gray-600">{item.subtitle}</p>
+                                        <h3 className="text-xl font-bold text-gray-900">{item.title}</h3>
                                     </div>
 
                                     {/* Tag and Duration */}
@@ -273,16 +202,6 @@ export default function BengalBeckonsPackagesPage() {
                                         <p className="text-sm text-gray-600 leading-relaxed">
                                             {item.desc}
                                         </p>
-                                    </div>
-
-                                    {/* Price */}
-                                    <div className="mt-auto mb-4">
-                                        <div className="flex items-baseline gap-2">
-                                            <span className="text-sm text-gray-500">Starting from</span>
-                                            <span className="text-2xl font-bold text-red-600">
-                                                {item.price}
-                                            </span>
-                                        </div>
                                     </div>
 
                                     {/* Action Buttons */}

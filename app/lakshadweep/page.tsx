@@ -25,14 +25,14 @@ export default function LakshadweepPage() {
               <span className="text-cyan-400 font-semibold tracking-wide">Lakshadweep Coral Paradise</span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <h1 className="text-5xl  text-center  md:text-7xl font-bold mb-6 leading-tight">
               Lakshadweep
               <span className="block text-3xl md:text-5xl mt-2 text-cyan-300">
                 Coral Islands • Beach Paradise • Marine Life
               </span>
             </h1>
 
-            <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl  text-center  md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
               Discover India's ultimate tropical destination with pristine coral islands, 
               crystal clear waters, and vibrant marine ecosystems
             </p>
@@ -258,33 +258,7 @@ export default function LakshadweepPage() {
             </div>
           </div>
 
-          <div className="text-center">
-            <div className="bg-white text-cyan-800 rounded-2xl p-8 max-w-2xl mx-auto">
-              <h3 className="text-2xl font-bold mb-4">Ready for Coral Paradise?</h3>
-              <p className="text-gray-700 mb-6">
-                Contact us for exclusive packages to India's most beautiful coral islands
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="bg-cyan-600 text-white px-8 py-3 rounded-full font-bold hover:bg-cyan-700 transition">
-                  Call Now: +91 98765 43210
-                </button>
-                <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-bold hover:bg-blue-700 transition">
-                  Email: info@bengaltourism.com
-                </button>
-              </div>
-              <p className="text-sm text-gray-600 mt-4">
-                For more pictures, offers & reviews, visit our Facebook Page
-              </p>
-              <div className="mt-6 bg-cyan-100 p-4 rounded-lg">
-                <p className="text-cyan-800 font-bold text-center mb-2">
-                  🏝️ Discover Coral Paradise
-                </p>
-                <p className="text-sm text-cyan-700 text-center">
-                  Experience pristine beaches, crystal clear waters, and vibrant marine life
-                </p>
-              </div>
-            </div>
-          </div>
+      
         </div>
       </section>
 

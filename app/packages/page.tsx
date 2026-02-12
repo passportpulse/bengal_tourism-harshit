@@ -165,7 +165,7 @@ export default function PackagesPage() {
       </section>
 
       {/* Random Package Sections */}
-      <RandomPackageSections />
+      
 
       {/* Quick Stats Section */}
       <section className="py-16 px-4 bg-white">

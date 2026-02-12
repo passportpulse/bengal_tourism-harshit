@@ -13,7 +13,6 @@ const foreignTourPackages = [
             subtitle: "Land of Thunder Dragon",
             tag: "Mountain Kingdom",
             duration: "5N & 6D",
-            price: "₹18,999",
             desc: "Explore the serene beauty and spiritual culture of Bhutan's Himalayan kingdom.",
             locations: "Thimphu, Paro, Punakha, Phobjikha",
             image: "https://images.unsplash.com/photo-1532008779255-4b4dd2668c84?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Qmh1dGFuLVRoaW1wdXxlbnwwfHwwfHx8MA%3D%3D",
@@ -28,7 +27,6 @@ const foreignTourPackages = [
             subtitle: "City of Gold",
             tag: "Luxury & Adventure",
             duration: "4N & 5D",
-            price: "₹25,999",
             desc: "Experience ultra-modern architecture, luxury shopping, and desert adventures.",
             locations: "Dubai, Abu Dhabi, Sharjah",
             image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RHViYWl8ZW58MHx8MHx8fDA%3D",
@@ -43,7 +41,6 @@ const foreignTourPackages = [
             subtitle: "Himalayan Kingdom",
             tag: "Mountain Escape",
             duration: "4N & 5D",
-            price: "₹14,999",
             desc: "A classic Himalayan journey blending culture, nature, and adventure.",
             locations: "Kathmandu, Pokhara, Chitwan, Nagarkot",
             image: "https://images.unsplash.com/photo-1720811970882-70a5196ee37e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TmVwYWwlMjAlMjYlMjBLYXRobWFuZHV8ZW58MHx8MHx8fDA%3D",
@@ -58,10 +55,9 @@ const foreignTourPackages = [
             subtitle: "Land of Smiles",
             tag: "Tropical Paradise",
             duration: "5N & 6D",
-            price: "₹22,999",
             desc: "Discover vibrant nightlife, beaches, temples, and Thai culture.",
             locations: "Bangkok, Pattaya, Phuket, Krabi",
-            image: "https://images.unsplash.com/photo-1712487650909-2aaf5c5eac36?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VGhhaWxhbmQlMjAlMjYlMjBCYW5na29rfGVufDB8fDB8fHww",
+            image: "https://images.unsplash.com/photo-1712487650909-2aaf5c5eac36?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VGhhaWxhbmQlMjAlMjYlMjBCYW5na29rfGVufDB8fHww",
             icon: Waves,
             iconColor: "text-teal-500",
             route: "/thailand",
@@ -73,7 +69,6 @@ const foreignTourPackages = [
             subtitle: "Coral Paradise",
             tag: "Island Escape",
             duration: "4N & 5D",
-            price: "₹20,999",
             desc: "Explore pristine coral islands, crystal clear waters, and marine life.",
             locations: "Kavaratti, Agatti, Bangaram, Kadmat",
             image: "https://images.unsplash.com/photo-1572025310208-2fd6b91764c1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TGFrc2hhZHdlZXB8ZW58MHx8MHx8fDA%3D",
@@ -88,10 +83,9 @@ const foreignTourPackages = [
             subtitle: "Lion City",
             tag: "Modern Metropolis",
             duration: "4N & 5D",
-            price: "₹24,999",
             desc: "Experience futuristic architecture, gardens, and multicultural attractions.",
             locations: "Singapore City, Sentosa, Marina Bay",
-            image: "https://images.unsplash.com/photo-1496939376851-89342e90adcd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8U2luZ2Fwb3JlfGVufDB8fDB8fHww",
+            image: "https://images.unsplash.com/photo-1496939376851-89342e90adcd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8U2luZ2Fwb3JlfGVufDB8fHww",
             icon: Building,
             iconColor: "text-red-600",
             route: "/singapore",
@@ -103,7 +97,6 @@ const foreignTourPackages = [
             subtitle: "Truly Asia",
             tag: "Cultural Fusion",
             duration: "5N & 6D",
-            price: "₹21,999",
             desc: "Discover diverse cultures, modern cities, and tropical rainforests.",
             locations: "Kuala Lumpur, Penang, Langkawi, Genting",
             image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200",
@@ -118,7 +111,6 @@ const foreignTourPackages = [
             subtitle: "Island of Gods",
             tag: "Tropical Paradise",
             duration: "5N & 6D",
-            price: "₹23,999",
             desc: "Experience spiritual temples, rice terraces, and pristine beaches.",
             locations: "Ubud, Kuta, Seminyak, Nusa Dua",
             image: "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=1200",
@@ -133,10 +125,9 @@ const foreignTourPackages = [
             subtitle: "Tropical Heaven",
             tag: "Luxury Islands",
             duration: "5N & 6D",
-            price: "₹35,999",
             desc: "Relax in overwater villas with crystal clear waters and coral reefs.",
             locations: "Male, Atolls, Resort Islands",
-            image: "https://images.unsplash.com/photo-1506905925346-21bda4d32de4?w=1200",
+            image: "/Maldives.jpeg",
             icon: Waves,
             iconColor: "text-cyan-600",
             route: "/maldives",
@@ -276,23 +267,25 @@ export default function ForeignToursPackagesPage() {
                                     </div>
 
                                     {/* Price */}
-                                    <div className="mt-auto mb-4">
+                                    {/* <div className="mt-auto mb-4">
                                         <div className="flex items-baseline gap-2">
                                             <span className="text-sm text-gray-500">Starting from</span>
                                             <span className="text-2xl font-bold text-red-600">
                                                 {item.price}
                                             </span>
                                         </div>
-                                    </div>
+                                    </div> */}
 
                                     {/* Action Buttons */}
                                     <div className="flex gap-2">
-                                        <Link
-                                            href="/book-tour"
-                                            className="flex-1 flex items-center justify-center gap-2 bg-red-600 text-white py-3 rounded-xl text-sm font-semibold hover:bg-red-700 transition-colors"
-                                        >
-                                            Book Now
-                                        </Link>
+                                        {item.showBookNow && (
+                                            <Link
+                                                href="/book-tour"
+                                                className="flex-1 flex items-center justify-center gap-2 bg-red-600 text-white py-3 rounded-xl text-sm font-semibold hover:bg-red-700 transition-colors"
+                                            >
+                                                Book Now
+                                            </Link>
+                                        )}
                                         <Link href={item.route} className="flex items-center justify-center gap-2 border border-red-600 text-red-600 px-4 py-3 rounded-xl text-sm font-semibold hover:bg-red-50 transition-colors">
                                             View Details
                                         </Link>

@@ -20,7 +20,7 @@ export default function KolkataPage() {
 
           {/* ---------- LEFT CONTENT ---------- */}
           <div>
-            <div className="flex items-center justify-center gap-2 mb-4">
+            <div className="flex items-center  gap-2 mb-4">
               <Sparkles className="w-6 h-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold tracking-wide">The City of Joy</span>
             </div>
@@ -51,7 +51,7 @@ export default function KolkataPage() {
           {/* ---------- RIGHT IMAGE ---------- */}
           <div className="flex justify-center md:justify-end">
             <img
-              src="https://images.unsplash.com/photo-1596495516553-0534f5d9d6e?w=600&h=400&fit=crop"
+              src="/kolkata-DIY.avif"
               alt="Kolkata Victoria Memorial Hall at sunset with city skyline"
               className="w-full max-w-md md:max-w-lg lg:max-w-xl rounded-2xl shadow-2xl"
             />
@@ -478,39 +478,12 @@ export default function KolkataPage() {
             <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
               <DollarSign className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
               <h3 className="text-xl font-bold mb-2">Starting From</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">₹8,000</p>
+              <p className="text-3xl font-bold text-yellow-400 mb-2">₹6,400</p>
               <p className="text-orange-100">Per person</p>
             </div>
           </div>
 
-          <div className="text-center">
-            <div className="bg-white text-orange-800 rounded-2xl p-8 max-w-2xl mx-auto">
-              <h3 className="text-2xl font-bold mb-4">Ready for Cultural Immersion?</h3>
-              <p className="text-gray-700 mb-6">
-                Contact us for special tailor-made packages designed according to your preferences
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="bg-orange-600 text-white px-8 py-3 rounded-full font-bold hover:bg-orange-700 transition">
-                  Call Now: +91 98765 43210
-                </button>
-                <button className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-red-700 transition">
-                  Email: info@bengaltourism.com
-                </button>
-              </div>
-              <p className="text-sm text-gray-600 mt-4">
-                For more pictures, offers & reviews, visit our Facebook Page
-              </p>
-              <div className="mt-6 bg-orange-100 p-4 rounded-lg">
-                <p className="text-orange-800 font-bold text-center mb-2">
-                  🍽 #Bengalicious #BengaliCuisine
-                </p>
-                <p className="text-sm text-orange-700 text-center">
-                  We highly recommend our guests to taste (eat with your hands for enhanced flavors) 
-                  of local Bengali Specialty Cuisine
-                </p>
-              </div>
-            </div>
-          </div>
+       
         </div>
       </section>
 

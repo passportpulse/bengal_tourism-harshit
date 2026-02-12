@@ -11,7 +11,7 @@ export default function ThailandPage() {
       <section className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1506903080960-2ab8f6b7a?w=1920&h=1080&fit=crop"
+            src="https://images.unsplash.com/photo-1712487650909-2aaf5c5eac36?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VGhhaWxhbmQlMjAlMjYlMjBCYW5na29rfGVufDB8fHww"
             alt="Tropical beach with palm trees and crystal clear water in Thailand"
             className="w-full h-full object-cover"
           />
@@ -22,17 +22,17 @@ export default function ThailandPage() {
           <div className="max-w-4xl">
             <div className="flex items-center justify-center gap-2 mb-4">
               <Sun className="w-6 h-6 text-yellow-400" />
-              <span className="text-yellow-400 font-semibold tracking-wide">Thailand Tropical Paradise</span>
+              <span className="text-yellow-400 text-center font-semibold tracking-wide">Thailand Tropical Paradise</span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <h1 className="text-5xl md:text-7xl text-center font-bold mb-6 leading-tight">
               Thailand
-              <span className="block text-3xl md:text-5xl mt-2 text-teal-300">
+              <span className="block text-3xl text-center md:text-5xl mt-2 text-teal-300">
                 Bangkok • Pattaya • Phi Phi Islands • Krabi
               </span>
             </h1>
 
-            <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-center mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
               Experience the ultimate tropical paradise with stunning beaches, 
               crystal clear waters, and vibrant island adventures
             </p>
@@ -296,56 +296,9 @@ export default function ThailandPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <Clock className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Flexible Duration</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">4-7 Days</p>
-              <p className="text-blue-100">Custom packages available</p>
-            </div>
+       
 
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <Users className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Group Size</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">2-15 People</p>
-              <p className="text-blue-100">Private & group tours</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <DollarSign className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Starting From</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">₹25,000</p>
-              <p className="text-blue-100">Per person</p>
-            </div>
-          </div>
-
-          <div className="text-center">
-            <div className="bg-white text-teal-800 rounded-2xl p-8 max-w-2xl mx-auto">
-              <h3 className="text-2xl font-bold mb-4">Ready for Tropical Paradise?</h3>
-              <p className="text-gray-700 mb-6">
-                Contact us for special tailor-made packages designed according to your preferences
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="bg-teal-600 text-white px-8 py-3 rounded-full font-bold hover:bg-teal-700 transition">
-                  Call Now: +91 98765 43210
-                </button>
-                <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-bold hover:bg-blue-700 transition">
-                  Email: info@bengaltourism.com
-                </button>
-              </div>
-              <p className="text-sm text-gray-600 mt-4">
-                For more pictures, offers & reviews, visit our Facebook Page
-              </p>
-              <div className="mt-6 bg-teal-100 p-4 rounded-lg">
-                <p className="text-teal-800 font-bold text-center mb-2">
-                  🏝️ Discover Tropical Thailand
-                </p>
-                <p className="text-sm text-teal-700 text-center">
-                  Experience stunning beaches, crystal waters, and vibrant island adventures
-                </p>
-              </div>
-            </div>
-          </div>
+       
         </div>
       </section>
 

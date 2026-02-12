@@ -61,7 +61,7 @@ const indiaPackages = [
             price: "₹ 12700",
             desc: "Experience sun, sand, and Portuguese heritage in India's beach capital.",
             locations: "North Goa, South Goa, Panjim, Old Goa",
-            image: "https://images.unsplash.com/photo-1512314889869-4a1d5c8d2528?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8R29hJTIwQmVhY2hlc3xlbnwwfHx8fHwxNjE1NTc4MjM1",
+            image: "/Goa.jpeg",
             icon: Waves,
             iconColor: "text-blue-500",
             route: "/goa-tourism",
@@ -76,7 +76,7 @@ const indiaPackages = [
             price: "₹ 14500",
             desc: "Explore snow-capped peaks, valleys, and colonial hill towns.",
             locations: "Shimla, Manali, Kullu, Dharamshala",
-            image: "https://images.unsplash.com/photo-1605540432065-1a7b0c0b5d2a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8SGltYWNoYWwlMjBQcmFkYXNlfGVufDB8fDB8fHwxNjE1NTc4MjM1",
+            image: "/Himachal.jpeg",
             icon: Mountain,
             iconColor: "text-green-500",
             route: "/himachal-tourism",
@@ -91,7 +91,7 @@ const indiaPackages = [
             price: "₹ 14500",
             desc: "Discover the breathtaking beauty of valleys, lakes, and Mughal gardens.",
             locations: "Srinagar, Gulmarg, Pahalgam, Sonamarg",
-            image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fkptbW11JTIwJTI2JTIwS2FzaG1pcnxlbnwwfHx8fHwxNjE1NTc4MjM1",
+            image: "/jammu.jpeg",
             icon: Mountain,
             iconColor: "text-red-500",
             route: "/jammu-kashmir-tourism",
@@ -106,7 +106,7 @@ const indiaPackages = [
             price: "₹ 14500",
             desc: "Explore pristine beaches, coral reefs, and tropical forests.",
             locations: "Port Blair, Havelock, Neil Island, Ross Island",
-            image: "https://images.unsplash.com/photo-1540202403980-9b6e3c9a24c7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEFuZGFtYW4lMjBJc2xhbmRzfGVufDB8fDB8fHwxNjE1NTc4MjM1",
+            image: "/Andaman.jpeg",
             icon: Waves,
             iconColor: "text-cyan-500",
             route: "/andaman-nicobar-tourism",
@@ -121,7 +121,7 @@ const indiaPackages = [
             price: "₹ 14500",
             desc: "Experience wildlife safaris, tea gardens, and Brahmaputra river.",
             locations: "Guwahati, Kaziranga, Shillong, Tezpur",
-            image: "https://images.unsplash.com/photo-1569250948230-4c643999d61a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEFzc2FtJTIwVGVhJTIwR2FyZGVufGVufDB8fDB8fHwxNjE1NTc4MjM1",
+            image: "/Assam.jpeg",
             icon: Trees,
             iconColor: "text-green-600",
             route: "/assam-guwahati-tourism",
@@ -136,7 +136,7 @@ const indiaPackages = [
             price: "₹ 14500",
             desc: "Discover magnificent forts, palaces, and royal Rajasthani culture.",
             locations: "Jaipur, Udaipur, Jodhpur, Jaisalmer",
-            image: "https://images.unsplash.com/photo-1524492412937-c98baa861e0a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFJhamFzdGhhbiUyMEZvcnRzfGVufDB8fDB8fHwxNjE1NTc4MjM1",
+            image: "/Rajasthan.jpeg",
             icon: Building,
             iconColor: "text-amber-500",
             route: "/rajasthan-tourism",
@@ -151,7 +151,7 @@ const indiaPackages = [
             price: "₹ 14500",
             desc: "Experience backwaters, tea plantations, and Ayurvedic wellness.",
             locations: "Kochi, Munnar, Alleppey, Thekkady",
-            image: "https://images.unsplash.com/photo-1605540432065-1a7b0c0b5d2a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8S2VyYWxhJTIwQmFja3dhdGVyc3xlbnwwfHx8fHwxNjE1NTc4MjM1",
+            image: "/Kerala.jpeg",
             icon: Trees,
             iconColor: "text-emerald-500",
             route: "/kerala-tourism",
@@ -166,7 +166,7 @@ export default function IndiaPackagesPage() {
             <section className="relative h-[60vh] overflow-hidden">
                 <div className="absolute inset-0">
                     <Image
-                        src="https://images.unsplash.com/photo-1524492412937-b28074a5607e?w=2070&auto=format&fit=crop&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src="/india-tour-by-jcr-1.png"
                         alt="India Tourism"
                         fill
                         className="object-cover"

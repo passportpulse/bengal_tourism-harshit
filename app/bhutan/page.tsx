@@ -11,7 +11,7 @@ export default function BhutanPage() {
       <section className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1544736655-e9d6a0b8e1a?w=1920&h=1080&fit=crop"
+            src="https://images.unsplash.com/photo-1532008779255-4b4dd2668c84?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Qmh1dGFuLVRoaW1wdXxlbnwwfHwwfHx8MA%3D%3D"
             alt="Beautiful Bhutan valley with mountains and traditional monastery"
             className="w-full h-full object-cover"
           />
@@ -365,33 +365,6 @@ export default function BhutanPage() {
             </div>
           </div>
 
-          <div className="text-center">
-            <div className="bg-white text-blue-800 rounded-2xl p-8 max-w-2xl mx-auto">
-              <h3 className="text-2xl font-bold mb-4">Ready for Himalayan Adventure?</h3>
-              <p className="text-gray-700 mb-6">
-                Contact us for special tailor-made packages designed according to your preferences
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-bold hover:bg-blue-700 transition">
-                  Call Now: +91 98765 43210
-                </button>
-                <button className="bg-purple-600 text-white px-8 py-3 rounded-full font-bold hover:bg-purple-700 transition">
-                  Email: info@bengaltourism.com
-                </button>
-              </div>
-              <p className="text-sm text-gray-600 mt-4">
-                For more pictures, offers & reviews, visit our Facebook Page
-              </p>
-              <div className="mt-6 bg-blue-100 p-4 rounded-lg">
-                <p className="text-blue-800 font-bold text-center mb-2">
-                  🏔 Discover the Thunder Dragon Kingdom
-                </p>
-                <p className="text-sm text-blue-700 text-center">
-                  Experience the mystical Himalayan kingdom with ancient monasteries and sacred mountains
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 

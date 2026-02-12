@@ -116,7 +116,7 @@ export default function SundarbanPage() {
                   <p className="text-green-100">2 Nights / 3 Days</p>
                 </div>
                 <div className="text-right">
-                  <div className="text-3xl font-bold">₹12,000</div>
+                  <div className="text-3xl font-bold">₹6400</div>
                   <div className="text-green-100">Per Person</div>
                 </div>
               </div>
@@ -219,7 +219,7 @@ export default function SundarbanPage() {
                   <p className="text-orange-100">4 Days / 3 Nights with Additional Areas</p>
                 </div>
                 <div className="text-right">
-                  <div className="text-3xl font-bold">₹15,000</div>
+                  <div className="text-3xl font-bold">₹9100</div>
                   <div className="text-orange-100">Per Person</div>
                 </div>
               </div>

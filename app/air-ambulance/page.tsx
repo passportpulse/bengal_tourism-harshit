@@ -11,7 +11,7 @@ export default function AirAmbulancePage() {
       <section className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1576096424-5f6e4e1a5?w=1920&h=1080&fit=crop"
+            src="https://images.unsplash.com/photo-1696243144343-56a235858dce?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fEFpciUyMEFtYnVsYW5jZSUyMFNlcnZpY2V8ZW58MHx8MHx8fDA%3D"
             alt="Medical helicopter with emergency medical team and equipment"
             className="w-full h-full object-cover"
           />
@@ -22,17 +22,17 @@ export default function AirAmbulancePage() {
           <div className="max-w-4xl">
             <div className="flex items-center justify-center gap-2 mb-4">
               <Heart className="w-6 h-6 text-yellow-400" />
-              <span className="text-yellow-400 font-semibold tracking-wide">Air Ambulance Service</span>
+              <span className="text-yellow-400  font-semibold tracking-wide">Air Ambulance Service</span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <h1 className="text-5xl text-center md:text-7xl font-bold mb-6 leading-tight">
               Emergency Medical Services
               <span className="block text-3xl md:text-5xl mt-2 text-orange-300">
                 Charter Flights • Medical Team • Patient Care
               </span>
             </h1>
 
-            <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-center md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
               Professional air ambulance services with experienced medical teams, 
               specialized aircraft, and comprehensive patient care for critical situations
             </p>
@@ -311,33 +311,7 @@ export default function AirAmbulancePage() {
             </div>
           </div>
 
-          <div className="text-center">
-            <div className="bg-white text-red-800 rounded-2xl p-8 max-w-2xl mx-auto">
-              <h3 className="text-2xl font-bold mb-4">Emergency Medical Transport?</h3>
-              <p className="text-gray-700 mb-6">
-                Contact us immediately for critical medical transport services
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-red-700 transition">
-                  Call Now: +91 7003796250
-                </button>
-                <button className="bg-orange-600 text-white px-8 py-3 rounded-full font-bold hover:bg-orange-700 transition">
-                  WhatsApp: +91 7003796250
-                </button>
-              </div>
-              <p className="text-sm text-gray-600 mt-4">
-                For more information, visit our Facebook Page
-              </p>
-              <div className="mt-6 bg-red-100 p-4 rounded-lg">
-                <p className="text-red-800 font-bold text-center mb-2">
-                  🚑 Professional Medical Transport
-                </p>
-                <p className="text-sm text-red-700 text-center">
-                  Experienced teams, advanced equipment, and comprehensive care
-                </p>
-              </div>
-            </div>
-          </div>
+      
         </div>
       </section>
 

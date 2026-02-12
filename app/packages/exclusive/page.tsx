@@ -216,14 +216,14 @@ export default function ExclusivePackagesPage() {
                                     </div>
 
                                     {/* Price */}
-                                    <div className="mt-auto mb-4">
+                                    {/* <div className="mt-auto mb-4">
                                         <div className="flex items-baseline gap-2">
                                             <span className="text-sm text-gray-500">Starting from</span>
                                             <span className="text-2xl font-bold text-red-600">
                                                 {item.price}
                                             </span>
                                         </div>
-                                    </div>
+                                    </div> */}
 
                                     {/* Action Buttons */}
                                     <div className="flex gap-2">

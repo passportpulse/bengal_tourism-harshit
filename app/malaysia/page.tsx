@@ -11,7 +11,7 @@ export default function MalaysiaPage() {
       <section className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1519740402-1b4d6a0b8e1a?w=1920&h=1080&fit=crop"
+            src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200"
             alt="Tropical rainforest with Petronas Twin Towers and cultural village in Malaysia"
             className="w-full h-full object-cover"
           />
@@ -25,14 +25,14 @@ export default function MalaysiaPage() {
               <span className="text-yellow-400 font-semibold tracking-wide">Malaysia Tropical Paradise</span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <h1 className="text-5xl md:text-7xl text-center font-bold mb-6 leading-tight">
               Malaysia
               <span className="block text-3xl md:text-5xl mt-2 text-green-300">
                 Kuala Lumpur • Genting Highlands • Batu Caves
               </span>
             </h1>
 
-            <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-center mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
               Experience the ultimate tropical paradise with stunning rainforests, 
               cultural heritage, and magnificent highland adventures
             </p>
@@ -206,34 +206,7 @@ export default function MalaysiaPage() {
           </div>
         </div>
 
-          <div className="text-center">
-            <div className="bg-white text-emerald-800 rounded-2xl p-8 max-w-2xl mx-auto">
-              <h3 className="text-2xl font-bold mb-4">Ready for Tropical Paradise?</h3>
-              <p className="text-gray-700 mb-6">
-                Contact us for special tailor-made packages designed according to your preferences
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="bg-green-600 text-white px-8 py-3 rounded-full font-bold hover:bg-green-700 transition">
-                  Call Now: +91 98765 43210
-                </button>
-                <button className="bg-emerald-600 text-white px-8 py-3 rounded-full font-bold hover:bg-emerald-700 transition">
-                  Email: info@bengaltourism.com
-                </button>
-              </div>
-              <p className="text-sm text-gray-600 mt-4">
-                For more pictures, offers & reviews, visit our Facebook Page
-              </p>
-              <div className="mt-6 bg-emerald-100 p-4 rounded-lg">
-                <p className="text-emerald-800 font-bold text-center mb-2">
-                  🌴 Discover Tropical Malaysia
-                </p>
-                <p className="text-sm text-emerald-700 text-center">
-                  Experience stunning rainforests, cultural heritage, and magnificent highland adventures
-                </p>
-              </div>
-            </div>
-          </div>
-     
+    
       </section>
 
     </main>

@@ -11,7 +11,7 @@ export default function SpaWellnessPage() {
       <section className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1576096424-5f6e4e1a5?w=1920&h=1080&fit=crop"
+            src="https://ik.imgkit.net/3vlqs5axxjf/TW-Asia/ik-seo/uploadedImages/Industry/Travel_Trends/GettyImages-599463782/Wellness-tourism-takes-the-spotlight-for-2022-trav.jpg?tr=w-780%2Ch-440%2Cfo-auto"
             alt="Luxury spa resort with swimming pool and wellness facilities"
             className="w-full h-full object-cover"
           />
@@ -25,14 +25,14 @@ export default function SpaWellnessPage() {
               <span className="text-yellow-400 font-semibold tracking-wide">Spa & Wellness</span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <h1 className="text-5xl text-center md:text-7xl font-bold mb-6 leading-tight">
               Wellness & Rejuvenation
               <span className="block text-3xl md:text-5xl mt-2 text-purple-300">
                 Ayurvedic Treatments • Yoga • Meditation • Spa Therapies
               </span>
             </h1>
 
-            <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-center md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
               Experience ultimate wellness and rejuvenation with ancient Ayurvedic wisdom, 
               yoga, meditation, and spa therapies in the Himalayan foothills
             </p>
@@ -281,7 +281,7 @@ export default function SpaWellnessPage() {
                   </button>
                 </div>
             </div>
-
+</div>
             {/* 5-Day Detox */}
             <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
               <div className="h-48 bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
@@ -300,6 +300,7 @@ export default function SpaWellnessPage() {
                   </button>
                 </div>
             </div>
+</div>
 
             {/* 7-Day Wellness Retreat */}
             <div className="bg-gradient-to-br from-green-50 to-teal-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
@@ -320,7 +321,7 @@ export default function SpaWellnessPage() {
                 </div>
             </div>
           </div>
-        </div> </div> </div></div>
+        </div>
       </section>
 
       {/* ================= BOOKING CTA ================= */}
@@ -354,35 +355,9 @@ export default function SpaWellnessPage() {
               <p className="text-3xl font-bold text-yellow-400 mb-2">₹15,000</p>
               <p className="text-emerald-100">Per person</p>
             </div>
-
-            <div className="text-center">
-            <div className="bg-white text-emerald-800 rounded-2xl p-8 max-w-2xl mx-auto">
-              <h3 className="text-2xl font-bold mb-4">Ready for Wellness Journey?</h3>
-              <p className="text-gray-700 mb-6">
-                Contact us for personalized wellness programs designed according to your health goals
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="bg-emerald-600 text-white px-8 py-3 rounded-full font-bold hover:bg-emerald-700 transition">
-                  Call Now: +91 98765 43210
-                </button>
-                <button className="bg-purple-600 text-white px-8 py-3 rounded-full font-bold hover:bg-purple-700 transition">
-                  Email: info@bengaltourism.com
-                </button>
-              </div>
-              <p className="text-sm text-gray-600 mt-4">
-                For more pictures, offers & reviews, visit our Facebook Page
-              </p>
-              <div className="mt-6 bg-emerald-100 p-4 rounded-lg">
-                <p className="text-emerald-800 font-bold text-center mb-2">
-                  🧘‍♀️ Find Inner Balance
-                </p>
-                <p className="text-sm text-emerald-700 text-center">
-                  Experience ancient wisdom and modern wellness in the Himalayas
-                </p>
-              </div>
-            </div>
+        
           </div>
-        </div>   </div>
+        </div>
       </section>
 
     </main>

@@ -11,7 +11,7 @@ export default function GoaTourismPage() {
       <section className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1576096424-5f6e4e1a5?w=1920&h=1080&fit=crop"
+            src="/Goa.jpeg"
             alt="Beautiful Goan beach with palm trees and golden sand"
             className="w-full h-full object-cover"
           />
@@ -25,14 +25,14 @@ export default function GoaTourismPage() {
               <span className="text-yellow-400 font-semibold tracking-wide">GOA TOURISM</span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <h1 className="text-5xl text-center md:text-7xl font-bold mb-6 leading-tight">
               Goa Beach Budget Tour
               <span className="block text-3xl md:text-5xl mt-2 text-blue-300">
                 Calangute • Anjuna • Dona Paula • Beach Paradise
               </span>
             </h1>
 
-            <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-center md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
               Experience the perfect blend of beaches, nightlife, and Portuguese heritage 
               with special tailor-made budget packages
             </p>
@@ -345,45 +345,7 @@ export default function GoaTourismPage() {
         </div>
       </section>
 
-      {/* ================= BOOKING CTA ================= */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-cyan-600 text-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Book Your Goa Beach Tour</h2>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Special tailor-made combination packages designed on request
-            </p>
-          </div>
-
-          <div className="bg-white text-blue-800 rounded-2xl p-8 max-w-2xl mx-auto">
-            <h3 className="text-2xl font-bold mb-4">Ready for Goa Beach Paradise?</h3>
-            <p className="text-gray-700 mb-6">
-              Contact us for personalized Goa tourism packages with flexible duration and custom itineraries
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-bold hover:bg-blue-700 transition">
-                <Phone className="w-4 h-4 inline mr-2" />
-                Call: +91 98765 43210
-              </button>
-              <button className="bg-cyan-600 text-white px-8 py-3 rounded-full font-bold hover:bg-cyan-700 transition">
-                <Mail className="w-4 h-4 inline mr-2" />
-                Email: goa@bengaltourism.com
-              </button>
-            </div>
-            <p className="text-sm text-gray-600 mt-4">
-              For more pictures, offers & reviews, visit our Facebook Page
-            </p>
-            <div className="mt-6 bg-blue-100 p-4 rounded-lg">
-              <p className="text-blue-800 font-bold text-center mb-2">
-                🏖️ Discover Beach Paradise
-              </p>
-              <p className="text-sm text-blue-700 text-center">
-                Experience the perfect blend of beaches, nightlife, and Portuguese heritage in Goa
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+    
 
     </main>
   )
