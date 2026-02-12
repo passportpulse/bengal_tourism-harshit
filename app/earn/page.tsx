@@ -228,6 +228,184 @@ export default function EarnPage() {
         </div>
       </section>
 
+      {/* ================= MEMBERSHIP FORM ================= */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-black text-gray-900 mb-6">Start Your Journey</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Fill out the form below to join our membership program and start earning
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Form Side */}
+            <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
+              <form className="space-y-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      First Name <span className="text-red-500">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      placeholder="Enter first name"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      Last Name <span className="text-red-500">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      placeholder="Enter last name"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      Email <span className="text-red-500">*</span>
+                    </label>
+                    <input
+                      type="email"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      placeholder="your@email.com"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      Phone <span className="text-red-500">*</span>
+                    </label>
+                    <input
+                      type="tel"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      placeholder="+91 98765 43210"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    Select Earning Method <span className="text-red-500">*</span>
+                  </label>
+                  <select
+                    className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                    required
+                  >
+                    <option value="" className=" text-gray-500">--Select Method--</option>
+                    <option value="membership" className=" text-gray-500">Membership Program</option>
+                    <option value="agency" className=" text-gray-500">Agency Partnership</option>
+                    <option value="guide" className=" text-gray-500">Tour Guide</option>
+                    <option value="network" className=" text-gray-500">Network Marketing</option>
+                  </select>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      Payment Mode <span className="text-red-500">*</span>
+                    </label>
+                    <select
+                      className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      required
+                    >
+                      <option value="" className=" text-gray-500"> --Select Payment--</option>
+                      <option value="bank_transfer" className=" text-gray-500">Bank Transfer</option>
+                      <option value="upi" className=" text-gray-500">UPI Payment</option>
+                      <option value="phonepe" className=" text-gray-500">PhonePe</option>
+                      <option value="gpay" className=" text-gray-500">Google Pay</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      IFSC Code / UPI Name <span className="text-red-500">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      placeholder="Enter IFSC code or UPI name"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div className="flex items-start">
+                  <input
+                    type="checkbox"
+                    required
+                    className="mt-1 w-4 h-4 text-red-600 focus:ring-red-500 rounded"
+                  />
+                  <span className="text-sm text-gray-700 leading-relaxed ml-3">
+                    I agree to the terms and conditions of Bengal Tourism earning program and understand that submission without payment is not valid.
+                  </span>
+                </div>
+
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <button
+                    type="submit"
+                    className="flex-1 bg-gradient-to-r from-red-600 to-orange-600 text-white font-bold py-4 px-8 rounded-xl hover:from-red-700 hover:to-orange-700 transition-all duration-300 transform hover:scale-105"
+                  >
+                    Submit Application
+                  </button>
+                  <button
+                    type="button"
+                    className="flex-1 bg-gray-200 text-gray-800 font-bold py-4 px-8 rounded-xl hover:bg-gray-300 transition-all duration-300"
+                  >
+                    Clear Form
+                  </button>
+                </div>
+              </form>
+            </div>
+
+            {/* Image Side */}
+            <div className="relative">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                <img
+                  src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&h=600&fit=crop&auto=format"
+                  alt="Earn with Bengal Tourism"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-r from-red-600/80 to-orange-600/80 flex items-center justify-center">
+                  <div className="text-center text-white p-8">
+                    <div className="mb-6">
+                      <TrendingUp className="w-16 h-16 mx-auto mb-4" />
+                      <h3 className="text-3xl font-bold mb-4">Start Earning Today</h3>
+                      <p className="text-xl mb-6">Join our successful network of earners</p>
+                    </div>
+                    <div className="grid grid-cols-2 gap-6 text-center">
+                      <div>
+                        <div className="text-4xl font-bold mb-2">₹1500</div>
+                        <div className="text-sm opacity-90">Min Investment</div>
+                      </div>
+                      <div>
+                        <div className="text-4xl font-bold mb-2">2.5L</div>
+                        <div className="text-sm opacity-90">Max Earning</div>
+                      </div>
+                      <div>
+                        <div className="text-4xl font-bold mb-2">500+</div>
+                        <div className="text-sm opacity-90">Active Earners</div>
+                      </div>
+                      <div>
+                        <div className="text-4xl font-bold mb-2">24/7</div>
+                        <div className="text-sm opacity-90">Support</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ================= CTA ================= */}
       <section className="py-20 bg-gradient-to-br from-red-600 to-orange-600">
         <div className="max-w-7xl mx-auto px-6 text-center">

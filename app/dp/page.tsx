@@ -151,7 +151,7 @@ export default function DPPage() {
             {/* Growth Stages */}
             <div className="space-y-6 mb-16">
               {growthStages.map((stage, index) => (
-                <div key={index} className="flex items-center gap-6 p-6 bg-gradient-to-r from-gray-50 to-white rounded-xl border border-gray-200 hover:shadow-lg transition-all">
+                <div key={index} className="flex items-center gap-6 p-6 bg-gradient-to-r from-gray-50 to-white rounded-xl border border-gray-200 hover:shadow-lg transition-all min-h-[120px]">
                   <div className={`w-16 h-16 ${stage.color} rounded-full flex items-center justify-center text-white font-bold text-xl flex-shrink-0`}>
                     {index === 0 ? "👤" : index + 1}
                   </div>

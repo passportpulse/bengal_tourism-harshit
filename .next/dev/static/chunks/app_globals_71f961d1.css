@@ -1219,6 +1219,10 @@
     min-height: 80vh;
   }
 
+  .min-h-\[120px\] {
+    min-height: 120px;
+  }
+
   .min-h-screen {
     min-height: 100vh;
   }
@@ -2016,6 +2020,10 @@
     background-color: var(--color-gray-100);
   }
 
+  .bg-gray-200 {
+    background-color: var(--color-gray-200);
+  }
+
   .bg-gray-300 {
     background-color: var(--color-gray-300);
   }
@@ -2607,6 +2615,20 @@
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
+  .from-red-600\/80 {
+    --tw-gradient-from: #e40014cc;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .from-red-600\/80 {
+      --tw-gradient-from: color-mix(in oklab, var(--color-red-600) 80%, transparent);
+    }
+  }
+
+  .from-red-600\/80 {
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+
   .from-red-900\/70 {
     --tw-gradient-from: #82181ab3;
   }
@@ -3171,6 +3193,20 @@
 
   .to-orange-600 {
     --tw-gradient-to: var(--color-orange-600);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+
+  .to-orange-600\/80 {
+    --tw-gradient-to: #f05100cc;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .to-orange-600\/80 {
+      --tw-gradient-to: color-mix(in oklab, var(--color-orange-600) 80%, transparent);
+    }
+  }
+
+  .to-orange-600\/80 {
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
@@ -4097,6 +4133,10 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
+  .placeholder-gray-500::placeholder {
+    color: var(--color-gray-500);
+  }
+
   .opacity-80 {
     opacity: .8;
   }
@@ -4398,6 +4438,12 @@
   @media (hover: hover) {
     .hover\:bg-gray-200:hover {
       background-color: var(--color-gray-200);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:bg-gray-300:hover {
+      background-color: var(--color-gray-300);
     }
   }
 

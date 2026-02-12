@@ -262,7 +262,7 @@ export default function MembershipPage() {
                       type="text"
                       value={formData.introducedByMember}
                       onChange={(e) => handleInputChange("introducedByMember", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="Enter member/unit number"
                     />
                   </div>
@@ -273,7 +273,7 @@ export default function MembershipPage() {
                     <select
                       value={formData.initial}
                       onChange={(e) => handleInputChange("initial", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                     >
                       <option value="">Select</option>
                       {titles.map(title => (
@@ -289,7 +289,7 @@ export default function MembershipPage() {
                       type="text"
                       value={formData.firstName}
                       onChange={(e) => handleInputChange("firstName", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="Enter first name"
                       required
                     />
@@ -302,7 +302,7 @@ export default function MembershipPage() {
                       type="text"
                       value={formData.lastName}
                       onChange={(e) => handleInputChange("lastName", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="Enter last name"
                       required
                     />
@@ -315,7 +315,7 @@ export default function MembershipPage() {
                       type="date"
                       value={formData.dateOfBirth}
                       onChange={(e) => handleInputChange("dateOfBirth", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                       required
                     />
                   </div>
@@ -327,7 +327,7 @@ export default function MembershipPage() {
                       type="email"
                       value={formData.email}
                       onChange={(e) => handleInputChange("email", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="your@email.com"
                       required
                     />
@@ -376,7 +376,7 @@ export default function MembershipPage() {
                       type="text"
                       value={formData.city}
                       onChange={(e) => handleInputChange("city", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="Enter city"
                       required
                     />
@@ -389,7 +389,7 @@ export default function MembershipPage() {
                       type="text"
                       value={formData.pinCode}
                       onChange={(e) => handleInputChange("pinCode", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="Enter pin code"
                       maxLength={6}
                       required
@@ -424,7 +424,7 @@ export default function MembershipPage() {
                     <select
                       value={formData.regdFee}
                       onChange={(e) => handleInputChange("regdFee", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                       required
                     >
                       <option value="">--Select--</option>
@@ -447,7 +447,7 @@ export default function MembershipPage() {
                     <select
                       value={formData.paymentMode}
                       onChange={(e) => handleInputChange("paymentMode", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                       required
                     >
                       <option value="">--Select--</option>
@@ -492,20 +492,20 @@ export default function MembershipPage() {
                       type="text"
                       value={formData.branchName}
                       onChange={(e) => handleInputChange("branchName", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="Enter branch name/code"
                     />
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      IFSC Code <span className="text-red-500">*</span>
+                      {formData.paymentMode === "bank_transfer" ? "IFSC Code" : "UPI Name / Phone No"} <span className="text-red-500">*</span>
                     </label>
                     <input
                       type="text"
                       value={formData.ifscCode}
                       onChange={(e) => handleInputChange("ifscCode", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
-                      placeholder="Enter IFSC code"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      placeholder={formData.paymentMode === "bank_transfer" ? "Enter IFSC code" : "Enter UPI name or phone number"}
                       required
                     />
                   </div>
