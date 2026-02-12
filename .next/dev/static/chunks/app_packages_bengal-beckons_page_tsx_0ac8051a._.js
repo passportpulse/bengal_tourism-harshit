@@ -83,7 +83,7 @@ const experiences = [
     {
         title: "Religious & Pilgrimage Tour",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$church$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Church$3e$__["Church"],
-        route: "/pilgrimage-tour",
+        route: "/religious-pilgrimage",
         image: "https://images.unsplash.com/photo-1761474440561-78a792962f3a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UGlsZ3JpbWFnZSUyMFRvdXJ8ZW58MHx8MHx8fDA%3D"
     },
     {

@@ -1,5 +1,5 @@
 var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/offbeat-hills/page.js")
-R.c("server/chunks/ssr/node_modules_d5e463f7._.js")
+R.c("server/chunks/ssr/node_modules_98f7f6fc._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__0c344db3._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_7381059c._.js")
 R.c("server/chunks/ssr/[externals]__7f148858._.js")

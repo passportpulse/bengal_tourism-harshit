@@ -4,76 +4,71 @@ import { MapPin, Calendar, Users, Star, ArrowRight, Trees, Camera, Wind } from '
 
 export default function OffbeatPlains() {
   const plainDestinations = [
-    {
-      name: "Bishnupur",
-      description: "Terracotta temple town with rich heritage",
-      duration: "2N & 3D",
-      price: "₹4,999",
-      image: "https://images.unsplash.com/photo-1651678938586-affccc71c270?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      rating: 4.6
-    },
-    {
-      name: "Murshidabad",
-      description: "Historic Nawabi capital with palaces",
-      duration: "2N & 3D",
-      price: "₹5,499",
-      image: "https://images.unsplash.com/photo-1614850523296-d8c1e4edc8e1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UGFsYWNlJTIwSGVyaXRhZ2V8ZW58MHx8MHx8fDA%3D",
-      rating: 4.7
-    },
-    {
-      name: "Cooch Behar",
-      description: "Royal kingdom with magnificent palaces",
-      duration: "2N & 3D",
-      price: "₹4,499",
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Um95YWwlMjBQYWxhY2V8ZW58MHx8MHx8fDA%3D",
-      rating: 4.5
-    },
-    {
-      name: "Malda",
-      description: "Ancient capital with mango orchards",
-      duration: "2N & 3D",
-      price: "₹3,999",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VGVhJTIwR2FyZGVuc3xlbnwwfHx8fHwxNzAwNDM5NjY5fA%3D%3D",
-      rating: 4.4
-    },
-    {
-      name: "Bankura",
-      description: "Tribal culture and unique terracotta art",
-      duration: "2N & 3D",
-      price: "₹3,499",
-      image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VmlsbGFnZSUyMExpZmV8ZW58MHx8MHx8fDA%3D",
-      rating: 4.3
-    },
-    {
-      name: "Purulia",
-      description: "Tribal heartland with natural springs",
-      duration: "2N & 3D",
-      price: "₹4,499",
-      image: "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VHJhZGl0aW9uYWwlMjBWaWxsYWdlfGVufDB8fDB8fHwxNzAwNDM5NjY5fA%3D%3D",
-      rating: 4.5
-    }
+    { name: "ASAN NAGAR Farm House", location: "NADIA", duration: "1N/2D", type: "Farm House" },
+    { name: "BARANTI", location: "PURULIA", duration: "1N/2D", type: "Nature" },
+    { name: "BALLAVPUR Forest", location: "BIRBHUM", duration: "1N/2D", type: "Forest" },
+    { name: "BETHUADUARI", location: "NADIA", duration: "1N/2D", type: "Heritage" },
+    { name: "BELUN Gram", location: "KATWA", duration: "1N/2D", type: "Village" },
+    { name: "BANDH NABAGRAM Eco Village", location: "KATWA", duration: "1N/2D", type: "Eco Village" },
+    { name: "BINURIA Farm House", location: "Birbhum", duration: "1N/2D", type: "Farm House" },
+    { name: "DASHGHARA", location: "CHINSURA", duration: "1N/2D", type: "Heritage" },
+    { name: "DUARSINI", location: "BARDHAMAN", duration: "1N/2D", type: "Nature" },
+    { name: "DARANDA Farm House", location: "BIRBHUM", duration: "1N/2D", type: "Farm House" },
+    { name: "DEBANANDAPUR Village Resort", location: "BOLPUR", duration: "1N/2D", type: "Village Resort" },
+    { name: "DHANGI KUSUM / NAKAT", location: "JHARGRAM", duration: "1N/2D", type: "Tribal" },
+    { name: "DOLADANGA Tribal Hamlet", location: "PURULIA", duration: "1N/2D", type: "Tribal" },
+    { name: "GARPACHKOT Tent House", location: "PURULIA", duration: "1N/2D", type: "Tent House" },
+    { name: "GANGANI Grand Canyon", location: "GARBETA", duration: "2N/3D", type: "Nature" },
+    { name: "GARH Jungle", location: "DURGAPUR", duration: "1N/2D", type: "Jungle" },
+    { name: "HADAL Narayanpur", location: "BANKURA", duration: "1N/2D", type: "Heritage" },
+    { name: "HENRY'S Island", location: "BAKKHALI ISLAND", duration: "2N/3D", type: "Island" },
+    { name: "JUNPUT", location: "MIDNAPORE", duration: "1N/2D", type: "Beach" },
+    { name: "JOYPUR Forest", location: "BANKURA", duration: "1N/2D", type: "Forest" },
+    { name: "JHARGRAM Rahbari", location: "JHARGRAM", duration: "1N/2D", type: "Heritage" },
+    { name: "KATWA Jol Bari", location: "BURDWAN", duration: "1N/2D", type: "Heritage" },
+    { name: "LAL KAKRA Beach", location: "24-PARHANAS", duration: "1N/2D", type: "Beach" },
+    { name: "MURUGUMA", location: "PURULIA", duration: "1N/2D", type: "Nature" },
+    { name: "MINAKHAN Farm House", location: "BASIRHAT", duration: "1N/2D", type: "Farm House" },
+    { name: "MURSHIDABAD Raj Bari", location: "MURSHUDABAD", duration: "1N/2D", type: "Heritage" },
+    { name: "MONCHASHA Eco Tourism", location: "MIDNAPORE", duration: "1N/2D", type: "Eco Tourism" },
+    { name: "MOUSUNI Island", location: "24-PARHANAS", duration: "1N/2D", type: "Island" },
+    { name: "MATHABURU Tribal Hamlet", location: "Purulia", duration: "1N/2D", type: "Tribal" },
+    { name: "MANGALKUNG Haunted", location: "Purulia", duration: "1N/2D", type: "Adventure" },
+    { name: "MACHRANGA Island", location: "HASNABAD", duration: "1N/2D", type: "Island" },
+    { name: "MUNDIRA Gram", location: "KATWA", duration: "1N/2D", type: "Village" },
+    { name: "PIYALI Island", location: "SUNDARBAN", duration: "1N/2D", type: "Island" },
+    { name: "PINGLA Patachitra Hub", location: "WEST MIDNAPORE", duration: "1N/2D", type: "Art & Culture" },
+    { name: "ROHINI Gram", location: "JHARGRAM", duration: "1N/2D", type: "Village" },
+    { name: "SAMSERNAGAR", location: "24-PARHANAS", duration: "1N/2D", type: "Heritage" },
+    { name: "SUNDARGRAM", location: "SOUTH 24-PARGANAS", duration: "1N/2D", type: "Village" },
+    { name: "SANTINIKETAN Eco Hut", location: "SANTINIKETAN", duration: "1N/2D", type: "Eco Stay" },
+    { name: "SONAJHURI", location: "AYODHHA PAHAR & GARPANCHAKOT", duration: "1N/2D", type: "Nature" },
+    { name: "SIULIBONA Gram", location: "PURULIA-SUNIA PAHAR", duration: "1N/2D", type: "Village" },
+    { name: "TAJPUR Eco Resort", location: "MIDNAPORE", duration: "1N/2D", type: "Eco Resort" },
+    { name: "TAJPUR Village Hut", location: "MIDNAPORE", duration: "1N/2D", type: "Village Hut" },
+    { name: "MORE To be added", location: "xxxx", duration: "1N/2D", type: "Coming Soon" }
   ]
 
   const experiences = [
     {
-      icon: Camera,
-      title: "Heritage Photography",
-      description: "Capture ancient temples and palaces"
+      icon: Trees,
+      title: "Fresh Air & Nature",
+      description: "Abundant space for fresh air and unpolluted environment"
     },
     {
-      icon: Trees,
-      title: "Rural Village Walks",
-      description: "Experience authentic village life"
+      icon: Camera,
+      title: "Local Culture Experience",
+      description: "Learn about local cultures and everyday living"
     },
     {
       icon: Wind,
-      title: "Folk Culture Shows",
-      description: "Enjoy traditional music and dance"
+      title: "Organic Living",
+      description: "Home cooked meals with organic & locally grown vegetables"
     },
     {
       icon: MapPin,
-      title: "Archaeological Tours",
-      description: "Explore ancient ruins and monuments"
+      title: "Sustainable Tourism",
+      description: "Support less privileged communities and reduce carbon footprint"
     }
   ]
 
@@ -82,11 +77,11 @@ export default function OffbeatPlains() {
       {/* Hero Section */}
       <section className="relative h-96 bg-gradient-to-r from-amber-600 to-orange-600">
         <div className="absolute inset-0 bg-black/40"></div>
-        <div className="relative container mx-auto px-4 h-full flex items-center">
-          <div className="text-white max-w-3xl">
-            <h1 className="text-5xl font-bold mb-4">Plains – Off Beat Destinations</h1>
-            <p className="text-xl mb-6">Explore the hidden cultural treasures of Bengal's countryside</p>
-            <div className="flex gap-4">
+        <div className="relative container mx-auto px-4 h-full flex items-center justify-center">
+          <div className="text-white max-w-3xl text-center">
+            <h1 className="text-5xl font-bold mb-4">OFFBEAT TOUR – Plains</h1>
+            <p className="text-xl mb-6">Special Tailor made Combination Package, Number of Days & Cost can be designed on Request</p>
+            <div className="flex gap-4 justify-center">
               <Link href="/book-tour" className="bg-red-600 text-white px-6 py-3 rounded-lg hover:bg-red-700 transition flex items-center gap-2">
                 Book Now
                 <ArrowRight className="w-4 h-4" />
@@ -103,37 +98,30 @@ export default function OffbeatPlains() {
       <section id="destinations" className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Hidden Cultural Gems</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">PLAINS - OFF BEAT DESTINATIONS</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Discover the rich heritage and authentic rural experiences of Bengal's plains
+              Get back to Nature. Contribute to reduce the Carbon footprint & make Earth a better place for our Generation.
+              Support the less privileged community to earn a sustainable income.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {plainDestinations.map((destination, index) => (
               <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
-                <div className="h-48 relative">
-                  <img 
-                    src={destination.image} 
-                    alt={destination.name}
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute top-4 right-4 bg-white/90 px-3 py-1 rounded-full">
-                    <div className="flex items-center gap-1">
-                      <Star className="w-4 h-4 text-yellow-500 fill-current" />
-                      <span className="text-sm font-medium">{destination.rating}</span>
-                    </div>
-                  </div>
-                </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">{destination.name}</h3>
-                  <p className="text-gray-600 mb-4">{destination.description}</p>
-                  <div className="flex items-center justify-between mb-4">
-                    <div className="flex items-center gap-2 text-sm text-gray-500">
-                      <Calendar className="w-4 h-4" />
-                      <span>{destination.duration}</span>
-                    </div>
-                    <div className="text-xl font-bold text-amber-600">{destination.price}</div>
+                  <div className="flex items-start justify-between mb-3">
+                    <h3 className="text-lg font-semibold text-gray-900">{destination.name}</h3>
+                    <span className="bg-amber-100 text-amber-800 text-xs px-2 py-1 rounded-full">
+                      {destination.type}
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2 text-sm text-gray-500 mb-2">
+                    <MapPin className="w-4 h-4" />
+                    <span>{destination.location}</span>
+                  </div>
+                  <div className="flex items-center gap-2 text-sm text-gray-500 mb-4">
+                    <Calendar className="w-4 h-4" />
+                    <span>{destination.duration}</span>
                   </div>
                   <Link 
                     href="/book-tour" 
@@ -148,13 +136,93 @@ export default function OffbeatPlains() {
         </div>
       </section>
 
+      {/* Tour Information Section */}
+      <section className="py-16 px-4 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Tour Itinerary</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Detailed information about your offbeat journey experience
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-amber-50 rounded-xl p-6">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Day – 1: Start of tour</h3>
+              <ul className="space-y-2 text-gray-700">
+                <li>• Pick up from Respective Local Station on your arrival (or) from Kolkata at (05-06 am) by Car (extra charge)</li>
+                <li>• Breakfast en-route</li>
+                <li>• Check-in after arrival. Rest</li>
+                <li>• Lunch at respective place of halt</li>
+                <li>• Evening free</li>
+                <li>• Bon-fire, Bar-B-Queue & Local Tribal Dance/Music on request can be arranged with extra charge</li>
+                <li>• Dinner & Overnight at Resort/Farmhouse/Homestay at Respective Destinations</li>
+              </ul>
+            </div>
+
+            <div className="bg-orange-50 rounded-xl p-6">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Day – 2: Return Journey</h3>
+              <ul className="space-y-2 text-gray-700">
+                <li>• Early morning Bed Tea</li>
+                <li>• Explore the local area on your own</li>
+                <li>• Breakfast at Hotel</li>
+                <li>• After having breakfast, Check-out & start for your return journey</li>
+                <li>• Sightseeing en-route if any</li>
+                <li>• Drop to Respective Local Station</li>
+                <li>• Proceed towards Kolkata by Car (extra charge) at your destination around (09-10pm)</li>
+                <li>• Tour ends…..</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Inclusions/Exclusions Section */}
+      <section className="py-16 px-4 bg-gradient-to-br from-amber-50 to-orange-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Package Details</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              What's included and excluded in your offbeat tour package
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-white rounded-xl p-6 shadow-lg">
+              <h3 className="text-xl font-semibold text-green-700 mb-4">✓ Includes</h3>
+              <ul className="space-y-2 text-gray-700">
+                <li>• Pick-up & Drop</li>
+                <li>• Accommodation in Resort/Farmhouse/Homestay with Bed Tea</li>
+                <li>• Breakfast</li>
+                <li>• Lunch/Picnic Basket</li>
+                <li>• Evening Tea & Snacks</li>
+                <li>• Dinner</li>
+                <li>• All Sight-seeing</li>
+                <li>• Pvt. Transfer</li>
+              </ul>
+            </div>
+
+            <div className="bg-white rounded-xl p-6 shadow-lg">
+              <h3 className="text-xl font-semibold text-red-700 mb-4">✗ Excludes</h3>
+              <ul className="space-y-2 text-gray-700">
+                <li>• AC Accommodation where available</li>
+                <li>• Price of Air Travel</li>
+                <li>• AC Train Fare</li>
+                <li>• Exclusive Non Sharing Car/ Vehicle extra if availed</li>
+                <li>• Anything not mentioned in Tour Itinerary</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Experiences Section */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Cultural Experiences</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose Offbeat Tourism?</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Immerse yourself in the rich traditions and rural life of Bengal
+              Experience authentic rural Bengal with sustainable tourism
             </p>
           </div>
 
@@ -175,13 +243,13 @@ export default function OffbeatPlains() {
       {/* CTA Section */}
       <section className="py-16 px-4 bg-gradient-to-r from-amber-600 to-orange-600">
         <div className="max-w-4xl mx-auto text-center text-white">
-          <h2 className="text-3xl font-bold mb-4">Discover Rural Bengal?</h2>
+          <h2 className="text-3xl font-bold mb-4">Ready to Get Back to Nature?</h2>
           <p className="text-xl mb-8">
-            Let us take you on a journey through the cultural heartland of Bengal
+            Join us in supporting sustainable tourism and reducing carbon footprint while experiencing authentic rural Bengal
           </p>
           <div className="flex gap-4 justify-center">
             <Link href="/book-tour" className="bg-white text-amber-600 px-8 py-3 rounded-lg hover:bg-gray-100 transition font-semibold">
-              Plan Your Journey
+              Plan Your Offbeat Journey
             </Link>
             <Link href="/contact" className="border-2 border-white text-white px-8 py-3 rounded-lg hover:bg-white hover:text-amber-600 transition font-semibold">
               Talk to Expert

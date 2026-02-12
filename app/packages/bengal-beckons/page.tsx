@@ -66,7 +66,7 @@ const experiences: Experience[] = [
   {
     title: "Religious & Pilgrimage Tour",
     icon: Church,
-    route: "/pilgrimage-tour",
+    route: "/religious-pilgrimage",
     image: "https://images.unsplash.com/photo-1761474440561-78a792962f3a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UGlsZ3JpbWFnZSUyMFRvdXJ8ZW58MHx8MHx8fDA%3D",
   },
   {

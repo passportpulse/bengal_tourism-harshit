@@ -7,8 +7,14 @@
   "/event-management/page": "app/event-management/page.js",
   "/film-shooting/page": "app/film-shooting/page.js",
   "/heritage-tour/page": "app/heritage-tour/page.js",
+  "/jungle-safari/page": "app/jungle-safari/page.js",
   "/offbeat-hills/page": "app/offbeat-hills/page.js",
+  "/offbeat-plains/page": "app/offbeat-plains/page.js",
   "/packages/bengal-beckons/page": "app/packages/bengal-beckons/page.js",
   "/page": "app/page.js",
-  "/short-breaks/page": "app/short-breaks/page.js"
+  "/pilgrimage-tour/page": "app/pilgrimage-tour/page.js",
+  "/religious-pilgrimage/page": "app/religious-pilgrimage/page.js",
+  "/river-rafting/page": "app/river-rafting/page.js",
+  "/short-breaks/page": "app/short-breaks/page.js",
+  "/trekking-trails/page": "app/trekking-trails/page.js"
 }
