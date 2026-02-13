@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { MapPin, Calendar, Users, Star, Clock, Check, Heart, Navigation, Camera, Utensils, Trees, Fish, Waves } from "lucide-react";
+import PackagePricing from '@/components/PackagePricing';
 
 const highlights = [
   {
@@ -350,6 +351,12 @@ export default function BoatStayPage() {
           </div>
         </div>
       </section>
+
+      {/* ================= PACKAGE PRICING ================= */}
+      <PackagePricing 
+        title="Boat Stay Tour Packages"
+        subtitle="Choose your perfect water adventure duration"
+      />
     </>
   );
 }

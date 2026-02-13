@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { MapPin, Calendar, Users, Star, Clock, Check, Heart, Navigation, Camera, Utensils, Trees, Fish, Waves, Mountain, Building, Tent, Shield, Sun } from "lucide-react";
+import PackagePricing from '@/components/PackagePricing';
 
 const highlights = [
   {
@@ -471,6 +472,12 @@ export default function CampingAdventurePage() {
           </div>
         </div>
       </section>
+
+      {/* ================= PACKAGE PRICING ================= */}
+      <PackagePricing 
+        title="Camping Adventure Tour Packages"
+        subtitle="Choose your perfect outdoor adventure duration"
+      />
     </>
   );
 }

@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, DollarSign, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame } from 'lucide-react'
+import PackagePricing from '@/components/PackagePricing'
 
 export default function EcoTourismPage() {
   return (
@@ -533,6 +534,12 @@ export default function EcoTourismPage() {
           </div>
         </div>
       </section>
+
+      {/* ================= PACKAGE PRICING ================= */}
+      <PackagePricing 
+        title="Eco Tourism Packages"
+        subtitle="Choose your perfect nature adventure duration"
+      />
 
     </main>
   )

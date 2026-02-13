@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, DollarSign, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout, Car } from 'lucide-react'
+import PackagePricing from '@/components/PackagePricing'
 
 export default function DubaiPage() {
   return (
@@ -323,6 +324,12 @@ export default function DubaiPage() {
           </div>
         </div>
       </section>
+
+      {/* ================= PACKAGE PRICING ================= */}
+      <PackagePricing 
+        title="Dubai Tour Packages"
+        subtitle="Choose your perfect luxury city adventure duration"
+      />
 
     </main>
   )

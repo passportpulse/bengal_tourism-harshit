@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import { Waves, MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, DollarSign, Award, Compass, Utensils, Fish, Ship, Building, Trees, Anchor, Sparkles } from 'lucide-react'
+import PackagePricing from '@/components/PackagePricing'
 
 export default function BakkhaliPage() {
   return (
@@ -484,6 +485,12 @@ export default function BakkhaliPage() {
           </div>
         </div>
       </section>
+
+      {/* ================= PACKAGE PRICING ================= */}
+      <PackagePricing 
+        title="Bakkhali & Islands Tour Packages"
+        subtitle="Choose your perfect coastal getaway duration"
+      />
 
     </main>
   )

@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, DollarSign, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout } from 'lucide-react'
+import PackagePricing from '@/components/PackagePricing'
 
 export default function BhutanPage() {
   return (
@@ -367,6 +368,12 @@ export default function BhutanPage() {
 
         </div>
       </section>
+
+      {/* ================= PACKAGE PRICING ================= */}
+      <PackagePricing 
+        title="Bhutan Tour Packages"
+        subtitle="Choose your perfect Land of Thunder Dragon duration"
+      />
 
     </main>
   )

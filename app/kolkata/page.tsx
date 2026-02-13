@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, DollarSign, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Archive, Church } from 'lucide-react'
+import PackagePricing from '@/components/PackagePricing'
 
 export default function KolkataPage() {
   return (

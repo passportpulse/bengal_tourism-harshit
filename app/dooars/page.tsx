@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import { Trees, MapPin, Calendar, Users, Star, Clock, Camera, Eye, Bird, Truck, Mountain, Car, Home, DollarSign, AlertCircle, CheckCircle, Compass } from 'lucide-react'
+import PackagePricing from '@/components/PackagePricing'
 
 export default function DooarsPage() {
   return (
@@ -572,6 +573,12 @@ export default function DooarsPage() {
           </div>
         </div>
       </section>
+
+      {/* ================= PACKAGE PRICING ================= */}
+      <PackagePricing 
+        title="Dooars Tour Packages"
+        subtitle="Choose your perfect wilderness adventure duration"
+      />
 
     </main>
   )

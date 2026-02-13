@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { MapPin, Calendar, Users, Star, Clock, Check, Heart, Camera, Trees, Mountain, Navigation, Sun, Compass, Globe, Building, Utensils, Coffee } from "lucide-react";
+import PackagePricing from '@/components/PackagePricing';
 
 const wildlifeSanctuaries = [
   {
@@ -643,6 +644,12 @@ export default function JungleSafariPage() {
           </div>
         </div>
       </section>
+      
+      {/* ================= PACKAGE PRICING ================= */}
+      <PackagePricing 
+        title="Jungle Safari Tour Packages"
+        subtitle="Choose your perfect wildlife adventure duration"
+      />
     </>
   );
 }
