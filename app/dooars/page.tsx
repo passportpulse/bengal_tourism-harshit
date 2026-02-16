@@ -132,6 +132,7 @@ export default function DooarsPage() {
                     <li>• Via Coronation Bridge</li>
                     <li>• Bengal Safari Park (if time permits)</li>
                     <li>• Check-in & Elephant Safari booking</li>
+                    <li>• Breakfast & Dinner included</li>
                   </ul>
                 </div>
                 
@@ -146,6 +147,7 @@ export default function DooarsPage() {
                     <li>• Mahakal Temple trek</li>
                     <li>• Tiger Rehabilitation Centre</li>
                     <li>• Sikiyajhora evening</li>
+                    <li>• Breakfast & Dinner included</li>
                   </ul>
                 </div>
                 
@@ -160,6 +162,7 @@ export default function DooarsPage() {
                     <li>• Madan Mohan Temple</li>
                     <li>• Phuntsholing (Bhutan)</li>
                     <li>• Zangthoo Pelri Lhakhang</li>
+                    <li>• Breakfast & Dinner included</li>
                   </ul>
                 </div>
                 
@@ -174,6 +177,7 @@ export default function DooarsPage() {
                     <li>• Scenic beauty of hills</li>
                     <li>• Transfer to Lataguri</li>
                     <li>• Check-in at resort</li>
+                    <li>• Breakfast & Dinner included</li>
                   </ul>
                 </div>
                 
@@ -188,6 +192,7 @@ export default function DooarsPage() {
                     <li>• Rocky Island visit</li>
                     <li>• Jatraposad Watch Tower</li>
                     <li>• Cultural program evening</li>
+                    <li>• Breakfast & Dinner included</li>
                   </ul>
                 </div>
                 
@@ -201,6 +206,7 @@ export default function DooarsPage() {
                     <li>• Gajoldoba visit (if time permits)</li>
                     <li>• Drive to NJP/Bagdogra</li>
                     <li>• Drop for onward journey</li>
+                    <li>• Breakfast & Dinner included</li>
                   </ul>
                 </div>
               </div>

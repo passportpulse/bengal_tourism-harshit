@@ -58,7 +58,7 @@ const earningMethods = [
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$indian$2d$rupee$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__IndianRupee$3e$__["IndianRupee"],
         title: "Network Marketing",
-        description: "Build your network and earn through our DP growth plan",
+        description: "Build your network and earn through our MgM growth plan",
         benefits: [
             "Unlimited potential",
             "Team support",
@@ -82,7 +82,7 @@ const successStories = [
     },
     {
         name: "Amit Kumar",
-        role: "DP Member",
+        role: "MgM Member",
         earnings: "Rs.35,000/month",
         story: "Built a team of 50+ members in 6 months, now earning through our growth structure."
     }
@@ -1551,7 +1551,7 @@ function EarnPage() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                     href: "/dp",
                                     className: "px-8 py-3 bg-white text-red-600 font-bold rounded-xl hover:bg-gray-100 transition",
-                                    children: "View DP Plan"
+                                    children: "View MgM Plan"
                                 }, void 0, false, {
                                     fileName: "[project]/app/earn/page.tsx",
                                     lineNumber: 506,

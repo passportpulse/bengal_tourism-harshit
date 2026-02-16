@@ -85,7 +85,7 @@ export default function GoaTourismPage() {
                       Check in and relax for a while. Lunch break. 
                       Spend a leisurely time on beaches near you, sampling some delicious Goan cuisine. 
                       Soak in the pulsating night-life on Goan Beaches. 
-                      Dinner & Overnight at Hotel/Resort at Anjuna / Calangute / Goa.
+                      Breakfast & Dinner included. Dinner & Overnight at Hotel/Resort at Anjuna / Calangute / Goa.
                     </p>
                   </div>
 
@@ -101,7 +101,7 @@ export default function GoaTourismPage() {
                       Visit Fort Aguada, Calangute Beach, Anjuna Beach, Baga Beach and Coco Beach. 
                       Lunch en-route. Return in evening. 
                       Soak in the pulsating night-life on Goan Beaches. 
-                      Overnight at Hotel/Resort at Anjuna / Calangute / Goa.
+                      Breakfast & Dinner included. Overnight at Hotel/Resort at Anjuna / Calangute / Goa.
                     </p>
                   </div>
 
@@ -118,7 +118,7 @@ export default function GoaTourismPage() {
                       Lunch en-route. After lunch, visit Dona Paula Bay and Miramar Beach. 
                       Afterwards, spend some time at Panjim Market and indulge in some shopping. 
                       Soak in the pulsating night-life on Goan Beaches. 
-                      Overnight at Hotel/Resort at Baga / Palolem / Goa.
+                      Breakfast & Dinner included. Overnight at Hotel/Resort at Baga / Palolem / Goa.
                     </p>
                   </div>
                 </div>
@@ -138,7 +138,7 @@ export default function GoaTourismPage() {
                       Have your Lunch in any of the Shacks dotting the sea-shore. 
                       Return to your Hotel. Take an afternoon siesta. 
                       Evening free for your last minute shopping & another last visit to Beach. 
-                      Overnight at Hotel/Resort at Baga / Palolem / Goa.
+                      Breakfast & Dinner included. Overnight at Hotel/Resort at Baga / Palolem / Goa.
                     </p>
                   </div>
 
@@ -151,7 +151,7 @@ export default function GoaTourismPage() {
                     <p className="text-gray-700 leading-relaxed">
                       After breakfast, check-out & transfer to Dabolim Airport / Madgaon Railway Station 
                       for your return journey on your departure time. 
-                      Tour ends...
+                      Breakfast & Dinner included. Tour ends...
                     </p>
                   </div>
 

@@ -138,6 +138,7 @@ export default function SundarbanPage() {
                     <li>• Check-in & lunch at resort</li>
                     <li>• Evening: Jotirampur Bird Watching</li>
                     <li>• Cultural program (optional)</li>
+                    <li>• Breakfast & Dinner included</li>
                     <li>• Dinner & overnight stay</li>
                   </ul>
                 </div>
@@ -155,6 +156,7 @@ export default function SundarbanPage() {
                     <li>• Visit 3 Watch Towers: Netidhopani, Dobanki, Sajnekhali</li>
                     <li>• Canopy Walk & Museum visit</li>
                     <li>• Cultural program (optional)</li>
+                    <li>• Breakfast & Dinner included</li>
                     <li>• Dinner & overnight stay</li>
                   </ul>
                 </div>
@@ -171,6 +173,7 @@ export default function SundarbanPage() {
                     <li>• Visit Rabindranath's Heritage Bungalow</li>
                     <li>• OR Sudhanyakhali watch tower</li>
                     <li>• Lunch on boat</li>
+                    <li>• Breakfast & Dinner included</li>
                     <li>• Return to Godhkhali</li>
                     <li>• Drop at Kolkata Science City (6-7 PM)</li>
                   </ul>

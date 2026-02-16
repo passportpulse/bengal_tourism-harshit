@@ -135,6 +135,7 @@ export default function DighaPage() {
                     <li>• Reach Digha (1-2 PM)</li>
                     <li>• Hotel check-in & lunch</li>
                     <li>• Evening local market visit</li>
+                    <li>• Breakfast & Dinner included</li>
                   </ul>
                 </div>
                 
@@ -149,6 +150,7 @@ export default function DighaPage() {
                     <li>• Udaipur (Odisha border) option</li>
                     <li>• Water sports & rides</li>
                     <li>• Fresh coconut & beach beer</li>
+                    <li>• Breakfast & Dinner included</li>
                   </ul>
                 </div>
                 
@@ -163,6 +165,7 @@ export default function DighaPage() {
                     <li>• Mandarmoni check-in</li>
                     <li>• Rolling beach exploration</li>
                     <li>• Evening bonfire & BBQ</li>
+                    <li>• Breakfast & Dinner included</li>
                   </ul>
                 </div>
                 
@@ -177,6 +180,7 @@ export default function DighaPage() {
                     <li>• Local seafood lunch</li>
                     <li>• Spicy crab curry special</li>
                     <li>• Country chicken fry</li>
+                    <li>• Breakfast & Dinner included</li>
                   </ul>
                 </div>
                 
@@ -191,6 +195,7 @@ export default function DighaPage() {
                     <li>• Sea bath</li>
                     <li>• Check-out (11 AM)</li>
                     <li>• Return to Kolkata</li>
+                    <li>• Breakfast & Dinner included</li>
                   </ul>
                 </div>
               </div>

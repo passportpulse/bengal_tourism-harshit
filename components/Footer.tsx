@@ -8,7 +8,8 @@ import {
   Phone,
   Mail,
   MapPin,
-  Clock
+  Clock,
+  Twitter
 } from "lucide-react"
 
 export default function Footer() {
@@ -32,14 +33,30 @@ export default function Footer() {
             </p>
 
             <div className="flex gap-3">
-              {[Facebook, Instagram, MessageCircle].map((Icon, i) => (
-                <div
-                  key={i}
-                  className="w-9 h-9 flex items-center justify-center rounded-full bg-red-600/90 hover:bg-red-600 transition cursor-pointer"
-                >
-                  <Icon size={16} />
-                </div>
-              ))}
+              <a
+                href="https://facebook.com/BengalTourismWestBengalTourism"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-9 h-9 flex items-center justify-center rounded-full bg-red-600/90 hover:bg-red-600 transition"
+              >
+                <Facebook size={16} />
+              </a>
+              <a
+                href="https://instagram.com/bengaltourismco"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-9 h-9 flex items-center justify-center rounded-full bg-red-600/90 hover:bg-red-600 transition"
+              >
+                <Instagram size={16} />
+              </a>
+              <a
+                href="https://twitter.com/BengalTourismCo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-9 h-9 flex items-center justify-center rounded-full bg-red-600/90 hover:bg-red-600 transition"
+              >
+                <Twitter size={16} />
+              </a>
             </div>
           </div>
 

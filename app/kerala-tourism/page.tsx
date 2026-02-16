@@ -84,7 +84,7 @@ export default function KeralaTourismPage() {
                       You will be picking from Cochin Airport / Ernakulam railway station and drive to Munnar (04 Hrs drive). 
                       On the way enjoy some waterfalls and natural scenic spots. 
                       On arrival at Munnar check into Hotel and relax for the rest of the day. 
-                      Overnight stay at Hotel will be arranged.
+                      Breakfast & Dinner included. Overnight stay at Hotel will be arranged.
                     </p>
                   </div>
 
@@ -97,9 +97,9 @@ export default function KeralaTourismPage() {
                     <p className="text-gray-700 leading-relaxed">
                       After breakfast spend the day with local sightseeing. 
                       Situated at the confluence of three mountain streams - Mudrapuzha, Nallathanni and Kundale, Munnar is 1600 Meter above sea level. 
-                      This majestic hill station was once the summer resort of British government in South India. 
+                      This majestic hill station was once the summer resort of the British government in South India. 
                       Local sightseeing of Munnar includes visit to Mattupetty Dam, Kundale Lake and Echo point. 
-                      Overnight stay is arranged at Munnar.
+                      Breakfast & Dinner included. Overnight stay is arranged at Munnar.
                     </p>
                   </div>
 
@@ -113,10 +113,10 @@ export default function KeralaTourismPage() {
                       After breakfast check out from Hotel and drive to Thekkady (04 Hrs). 
                       On arrival check in to Hotel. 
                       Proceed for sightseeing tour of Thekkady - one of the world's most fascinating wild life reserves. 
-                      The Periyar wild life sanctuary in Thekkady is spread across 777 sq km of which 360 sq km is thick ever green forest. 
-                      Noted for its geomorphology, diversity of wild life and scenic beauty, sanctuary was declared a Tiger Reserve in 1978. 
+                      The Periyar wild life sanctuary in Thekkady is spread across 777 sq km of which 360 sq km is thick evergreen forest. 
+                      Noted for its geomorphology, diversity of wild life and scenic beauty, the sanctuary was declared a Tiger Reserve in 1978. 
                       Optional activities like Boating at Periyar Lake, Spice Plantation visit and Elephant Ride can be done at an extra cost. 
-                      Overnight stay is arranged in Thekkady.
+                      Breakfast & Dinner included. Overnight stay is arranged in Thekkady.
                     </p>
                   </div>
 
@@ -132,7 +132,7 @@ export default function KeralaTourismPage() {
                       Check in time is 01:00 PM and cruise starts with lunch. 
                       While cruising, let your eyes settle for bowed-down paddy fields, local inhabitants, rustic homes, ancient churches / temples and swaying coconut groves. 
                       Food will be served onboard. 
-                      Overnight stay in houseboat.
+                      Breakfast & Dinner included. Overnight stay in houseboat.
                     </p>
                   </div>
 
@@ -147,7 +147,7 @@ export default function KeralaTourismPage() {
                       On arrival check-in into Hotel. 
                       Kovalam is one of the prime beach destinations in India. 
                       Enjoy evening watching a spectacular sunset or swimming at picturesque Kovalam Beach. 
-                      Overnight stay is to be spent at Hotel.
+                      Breakfast & Dinner included. Overnight stay is to be spent at Hotel.
                     </p>
                   </div>
 
@@ -161,7 +161,7 @@ export default function KeralaTourismPage() {
                       After breakfast check-out from Hotel. 
                       Visit some local area if time permits. 
                       Then leave to drop-off at Cochin Airport / Ernakulam Railway Station for your onward journey. 
-                      Tour ends...
+                      Breakfast & Dinner included. Tour ends...
                     </p>
                   </div>
 

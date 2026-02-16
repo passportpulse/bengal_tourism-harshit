@@ -90,7 +90,7 @@ function ContactCTA() {
                                             lineNumber: 46,
                                             columnNumber: 15
                                         }, this),
-                                        "WhatsApp for Tour Booking"
+                                        "WhatsApp for Tour Booking - 6289783779"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ContactCTA.tsx",
@@ -109,7 +109,7 @@ function ContactCTA() {
                                             lineNumber: 56,
                                             columnNumber: 15
                                         }, this),
-                                        "WhatsApp for Hotel Booking"
+                                        "WhatsApp for Hotel Booking - 9007995888"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ContactCTA.tsx",

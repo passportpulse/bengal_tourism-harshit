@@ -47,7 +47,7 @@ const milestones = [
   { year: "2008", title: "Founded", description: "Started with a vision to showcase Bengal's beauty" },
   { year: "2012", title: "Expansion", description: "Expanded to cover all major tourist destinations in Bengal" },
   { year: "2018", title: "Digital Transformation", description: "Launched online booking and membership platform" },
-  { year: "2024", title: "Growth Plan", description: "Introduced DP growth structure for member empowerment" }
+  { year: "2024", title: "Growth Plan", description: "Introduced MgM growth structure for member empowerment" }
 ];
 
 export default function AboutPage() {

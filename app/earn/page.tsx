@@ -26,7 +26,7 @@ const earningMethods = [
   {
     icon: IndianRupee,
     title: "Network Marketing",
-    description: "Build your network and earn through our DP growth plan",
+    description: "Build your network and earn through our MgM growth plan",
     benefits: ["Unlimited potential", "Team support", "Training provided", "Performance bonuses"]
   }
 ];
@@ -46,7 +46,7 @@ const successStories = [
   },
   {
     name: "Amit Kumar",
-    role: "DP Member",
+    role: "MgM Member",
     earnings: "Rs.35,000/month",
     story: "Built a team of 50+ members in 6 months, now earning through our growth structure."
   }
@@ -503,8 +503,8 @@ export default function EarnPage() {
             <a href="/membership" className="px-8 py-3 bg-white text-red-600 font-bold rounded-xl hover:bg-gray-100 transition">
               Join Membership
             </a>
-            <a href="/dp" className="px-8 py-3 bg-white text-red-600 font-bold rounded-xl hover:bg-gray-100 transition">
-              View DP Plan
+            <a href="mgm" className="px-8 py-3 bg-white text-red-600 font-bold rounded-xl hover:bg-gray-100 transition">
+              View MgM Plan
             </a>
             <a href="/career" className="px-8 py-3 bg-white text-red-600 font-bold rounded-xl hover:bg-gray-100 transition">
               Explore Careers

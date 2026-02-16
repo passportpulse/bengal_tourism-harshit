@@ -136,6 +136,7 @@ export default function BakkhaliPage() {
                     <li>• Hotel check-in & lunch</li>
                     <li>• Bishhalaxmi Temple visit</li>
                     <li>• Evening beach & shopping</li>
+                    <li>• Breakfast & Dinner included</li>
                   </ul>
                 </div>
                 
@@ -150,6 +151,7 @@ export default function BakkhaliPage() {
                     <li>• Boat to Jambu Deep</li>
                     <li>• Crocodile Breeding Centre</li>
                     <li>• Return to Bakkhali</li>
+                    <li>• Breakfast & Dinner included</li>
                   </ul>
                 </div>
                 
@@ -164,6 +166,7 @@ export default function BakkhaliPage() {
                     <li>• Optional: Gangasagar tour</li>
                     <li>• Extra: ₹1500 per person</li>
                     <li>• Return to Kolkata</li>
+                    <li>• Breakfast & Dinner included</li>
                   </ul>
                 </div>
               </div>

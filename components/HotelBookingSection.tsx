@@ -37,98 +37,11 @@ export default function HotelBookingSection({ className = "" }: { className?: st
           </p>
         </div>
 
-        {/* Search Card */}
-        <div className="backdrop-blur-xl bg-white/70 border border-gray-200 rounded-3xl shadow-2xl p-8 mb-16">
-          <div className="grid md:grid-cols-4 gap-6 mb-8">
-
-            {/* Destination */}
-            <div>
-              <label className="block text-sm font-semibold text-gray-600 mb-2">Destination</label>
-              <div className="relative">
-                <MapPin className="absolute left-4 top-3.5 w-5 h-5 text-gray-400" />
-                <input
-                  type="text"
-                  placeholder="Where do you want to stay?"
-                  className="w-full pl-12 pr-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition"
-                  value={searchData.destination}
-                  onChange={(e) => setSearchData({ ...searchData, destination: e.target.value })}
-                />
-              </div>
-            </div>
-
-            {/* Check-in */}
-            <div>
-              <label className="block text-sm font-semibold text-gray-600 mb-2">Check-in</label>
-              <div className="relative">
-                <Calendar className="absolute left-4 top-3.5 w-5 h-5 text-gray-400" />
-                <input
-                  type="date"
-                  className="w-full pl-12 pr-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition"
-                  value={searchData.checkIn}
-                  onChange={(e) => setSearchData({ ...searchData, checkIn: e.target.value })}
-                />
-              </div>
-            </div>
-
-            {/* Check-out */}
-            <div>
-              <label className="block text-sm font-semibold text-gray-600 mb-2">Check-out</label>
-              <div className="relative">
-                <Calendar className="absolute left-4 top-3.5 w-5 h-5 text-gray-400" />
-                <input
-                  type="date"
-                  className="w-full pl-12 pr-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition"
-                  value={searchData.checkOut}
-                  onChange={(e) => setSearchData({ ...searchData, checkOut: e.target.value })}
-                />
-              </div>
-            </div>
-
-            {/* Guests */}
-            <div>
-              <label className="block text-sm font-semibold text-gray-600 mb-2">Guests</label>
-              <div className="relative">
-                <Users className="absolute left-4 top-3.5 w-5 h-5 text-gray-400" />
-                <select
-                  className="w-full pl-12 pr-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none appearance-none transition"
-                  value={searchData.guests}
-                  onChange={(e) => setSearchData({ ...searchData, guests: e.target.value })}
-                >
-                  <option value="1">1 Guest</option>
-                  <option value="2">2 Guests</option>
-                  <option value="3">3 Guests</option>
-                  <option value="4">4+ Guests</option>
-                </select>
-              </div>
-            </div>
-
-          </div>
-
-          {/* Buttons */}
-          <div className="flex flex-col md:flex-row gap-4">
-            <Link
-              href="/book-hotel"
-              className="flex-1 bg-gradient-to-r from-red-500 to-red-600 text-white py-4 px-6 rounded-xl font-semibold hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 shadow-lg"
-            >
-              <Search className="w-5 h-5" />
-              Search Hotels
-            </Link>
-
-            <Link
-              href="/book-hotel"
-              className="flex-1  text-red-600 border-red-600 border py-4 px-6 rounded-xl font-semibold transition-all duration-300 flex items-center justify-center gap-2 shadow-lg"
-            >
-              <IndianRupee className="w-5 h-5" />
-              Best Deals
-            </Link>
-          </div>
-        </div>
+     
 
         {/* Popular Destinations */}
         <div>
-          <h3 className="text-3xl font-bold text-gray-900 mb-10 text-center">
-            Popular Destinations
-          </h3>
+       
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {popularDestinations.map((destination, index) => (

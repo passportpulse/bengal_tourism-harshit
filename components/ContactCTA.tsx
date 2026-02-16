@@ -44,7 +44,7 @@ export default function ContactCTA() {
               className="flex items-center gap-3 bg-green-600 px-6 py-3 rounded-xl font-semibold hover:bg-green-500 transition"
             >
               <MessageCircle size={20} />
-              WhatsApp for Tour Booking
+              WhatsApp for Tour Booking - 6289783779
             </a>
 
             {/* WhatsApp Hotel */}
@@ -54,7 +54,7 @@ export default function ContactCTA() {
               className="flex items-center gap-3 bg-green-700 px-6 py-3 rounded-xl font-semibold hover:bg-green-600 transition"
             >
               <MessageCircle size={20} />
-              WhatsApp for Hotel Booking
+              WhatsApp for Hotel Booking - 9007995888
             </a>
 
             {/* Email */}
