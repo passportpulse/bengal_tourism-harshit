@@ -3,6 +3,7 @@
   "/about/page": "app/about/page.js",
   "/book-hotel/page": "app/book-hotel/page.js",
   "/darjeeling/page": "app/darjeeling/page.js",
+  "/digha/page": "app/digha/page.js",
   "/dooars/page": "app/dooars/page.js",
   "/hotel-booking/page": "app/hotel-booking/page.js",
   "/kalimpong/page": "app/kalimpong/page.js",

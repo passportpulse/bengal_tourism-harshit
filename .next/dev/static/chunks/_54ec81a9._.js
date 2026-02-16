@@ -147,7 +147,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             lineNumber: 63,
                                                             columnNumber: 19
                                                         }, this),
-                                                        " Sightseeing"
+                                                        " Sightseeing as per Itinerary"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
@@ -275,7 +275,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             lineNumber: 100,
                                                             columnNumber: 19
                                                         }, this),
-                                                        " Sightseeing"
+                                                        " Sightseeing as per Itinerary"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
@@ -403,7 +403,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             lineNumber: 136,
                                                             columnNumber: 19
                                                         }, this),
-                                                        " Sightseeing"
+                                                        " Sightseeing as per Itinerary"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
@@ -531,7 +531,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             lineNumber: 172,
                                                             columnNumber: 19
                                                         }, this),
-                                                        " Sightseeing"
+                                                        " Sightseeing as per Itinerary"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
@@ -571,7 +571,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "bg-gray-400 text-white text-xs py-1 rounded-full",
+                                            className: " text-white text-xs py-1 rounded-full",
                                             children: "Not feasible"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
@@ -593,6 +593,84 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             fileName: "[project]/components/PackagePricing.tsx",
                                             lineNumber: 195,
                                             columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                            className: "mt-6 space-y-3 text-gray-600 text-sm",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    className: "flex items-center gap-2",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
+                                                            className: "w-4 h-4 text-indigo-600"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/PackagePricing.tsx",
+                                                            lineNumber: 200,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        " Accommodation"
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/PackagePricing.tsx",
+                                                    lineNumber: 199,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    className: "flex items-center gap-2",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
+                                                            className: "w-4 h-4 text-indigo-600"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/PackagePricing.tsx",
+                                                            lineNumber: 203,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        " Breakfast & Dinner"
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/PackagePricing.tsx",
+                                                    lineNumber: 202,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    className: "flex items-center gap-2",
+                                                    children: [
+                                                        "  ",
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
+                                                            className: "w-4 h-4 text-indigo-600"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/PackagePricing.tsx",
+                                                            lineNumber: 205,
+                                                            columnNumber: 60
+                                                        }, this),
+                                                        " Pick & Drop"
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/PackagePricing.tsx",
+                                                    lineNumber: 205,
+                                                    columnNumber: 18
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    className: "flex items-center gap-2",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
+                                                            className: "w-4 h-4 text-indigo-600"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/PackagePricing.tsx",
+                                                            lineNumber: 208,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        " Sightseeing as per Itinerary"
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/PackagePricing.tsx",
+                                                    lineNumber: 207,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/PackagePricing.tsx",
+                                            lineNumber: 198,
+                                            columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
@@ -606,7 +684,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                     children: "Not Available"
                                 }, void 0, false, {
                                     fileName: "[project]/components/PackagePricing.tsx",
-                                    lineNumber: 200,
+                                    lineNumber: 214,
                                     columnNumber: 13
                                 }, this)
                             ]

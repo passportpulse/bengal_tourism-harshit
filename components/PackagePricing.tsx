@@ -60,7 +60,7 @@ export default function PackagePricing({
                  <li className="flex items-center gap-2">  <Check className="w-4 h-4 text-indigo-600" /> Pick & Drop
                 </li>
                 <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-indigo-600" /> Sightseeing
+                  <Check className="w-4 h-4 text-indigo-600" /> Sightseeing as per Itinerary
                 </li>
                
               </ul>
@@ -97,7 +97,7 @@ export default function PackagePricing({
                  <li className="flex items-center gap-2">  <Check className="w-4 h-4 text-indigo-600" /> Pick & Drop
                 </li>
                 <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-indigo-600" /> Sightseeing
+                  <Check className="w-4 h-4 text-indigo-600" /> Sightseeing as per Itinerary
                 </li>
                
               </ul>
@@ -133,7 +133,7 @@ export default function PackagePricing({
                  <li className="flex items-center gap-2">  <Check className="w-4 h-4 text-indigo-600" /> Pick & Drop
                 </li>
                 <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-indigo-600" /> Sightseeing
+                  <Check className="w-4 h-4 text-indigo-600" /> Sightseeing as per Itinerary
                 </li>
                
               </ul>
@@ -169,7 +169,7 @@ export default function PackagePricing({
                  <li className="flex items-center gap-2">  <Check className="w-4 h-4 text-indigo-600" /> Pick & Drop
                 </li>
                 <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-indigo-600" /> Sightseeing
+                  <Check className="w-4 h-4 text-indigo-600" /> Sightseeing as per Itinerary
                 </li>
                
               </ul>
@@ -187,7 +187,7 @@ export default function PackagePricing({
           <div className="bg-gray-100 border border-gray-200 rounded-3xl p-8 flex flex-col justify-between opacity-70">
 
             <div>
-              <span className="bg-gray-400 text-white text-xs py-1 rounded-full">
+              <span className=" text-white text-xs py-1 rounded-full">
                 Not feasible
               </span>
 
@@ -195,6 +195,20 @@ export default function PackagePricing({
               <p className="text-2xl font-semibold text-gray-400 mt-3">
                 ₹ 3,700
               </p>
+                  <ul className="mt-6 space-y-3 text-gray-600 text-sm">
+                <li className="flex items-center gap-2">
+                  <Check className="w-4 h-4 text-indigo-600" /> Accommodation
+                </li>
+                <li className="flex items-center gap-2">
+                  <Check className="w-4 h-4 text-indigo-600" /> Breakfast & Dinner
+                </li>
+                 <li className="flex items-center gap-2">  <Check className="w-4 h-4 text-indigo-600" /> Pick & Drop
+                </li>
+                <li className="flex items-center gap-2">
+                  <Check className="w-4 h-4 text-indigo-600" /> Sightseeing as per Itinerary
+                </li>
+               
+              </ul>
             </div>
 
             <button
