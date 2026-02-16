@@ -165,98 +165,106 @@ export default function DarjeelingPage() {
           </p>
         </div>
 
-        <div className="space-y-10 grid grid-cols-2 gap-10">
+<div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
 
-          {/* Day 1 */}
-          <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-orange-500 hover:shadow-xl transition">
-            <h3 className="text-2xl font-bold text-orange-600 mb-4 flex items-center gap-2">
-              <MapPin className="w-6 h-6" />
-              Day 1 – Arrival & Darjeeling Transfer
-            </h3>
-            <p className="text-gray-700 leading-relaxed">
-              Receive at NJP / IXB / Tenzing Norgay Bus Stand. Transfer to
-              Darjeeling (6750 ft), known as the Queen of the Hills.
-              Scenic drive through tea gardens with Himalayan views.
-              Check-in at hotel. Evening free at Mall Road.
-              Dinner & Overnight stay at Darjeeling.
-            </p>
-          </div>
+  {/* Day 1 */}
+  <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-orange-500 
+  hover:shadow-xl transition h-full flex flex-col">
+    <h3 className="text-2xl font-bold text-orange-600 mb-4 flex items-center gap-2">
+      <MapPin className="w-6 h-6" />
+      Day 1 – Arrival & Darjeeling Transfer
+    </h3>
+    <p className="text-gray-700 leading-relaxed flex-grow">
+      Receive at NJP / IXB / Tenzing Norgay Bus Stand. Transfer to
+      Darjeeling (6750 ft), known as the Queen of the Hills.
+      Scenic drive through tea gardens with Himalayan views.
+      Check-in at hotel. Evening free at Mall Road.
+      Dinner & Overnight stay at Darjeeling.
+    </p>
+  </div>
+ <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-purple-500 
+  hover:shadow-xl transition h-full flex flex-col">
+    <h3 className="text-2xl font-bold text-purple-600 mb-4 flex items-center gap-2">
+      <Train className="w-6 h-6" />
+      Day 4 – Kurseong / Toy Train
+    </h3>
+    <p className="text-gray-700 leading-relaxed flex-grow">
+      Visit Kurseong attractions including Eagle’s Craig,
+      Dow Hills, Makaibari Tea Estate.
+      Optional Toy Train Ride (subject to availability).
+      Dinner & Overnight at Darjeeling.
+    </p>
+  </div>
+  {/* Day 2 */}
+  <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-yellow-500 
+  hover:shadow-xl transition h-full flex flex-col">
+    <h3 className="text-2xl font-bold text-yellow-600 mb-4 flex items-center gap-2">
+      <Sunrise className="w-6 h-6" />
+      Day 2 – Tiger Hill & City Tour
+    </h3>
+    <p className="text-gray-700 leading-relaxed flex-grow">
+      Early morning visit to Tiger Hill for sunrise view.
+      En-route visit Ghoom Monastery & Batasia Loop.
+      After breakfast, city tour including HMI, Zoo,
+      Ropeway, Tea Estate, Japanese Temple,
+      Tibetan Refugee Centre & more.
+      Dinner & Overnight at Darjeeling.
+    </p>
+  </div>
+ {/* Day 5 */}
+  <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-blue-500 
+  hover:shadow-xl transition h-full flex flex-col">
+    <h3 className="text-2xl font-bold text-blue-600 mb-4 flex items-center gap-2">
+      <Home className="w-6 h-6" />
+      Day 5 – Kalimpong Transfer / South Sikkim (Optional)
+    </h3>
+    <p className="text-gray-700 leading-relaxed flex-grow">
+      Transfer to Kalimpong. Visit Durpin Monastery,
+      Deolo Hill, Morgan House etc.
+      OR Optional South Sikkim tour (Char Dham,
+      Temi Tea Garden, Namchi – extra charge).
+      Dinner & Overnight at Kalimpong.
+    </p>
+  </div>
+  {/* Day 3 */}
+  <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-green-500 
+  hover:shadow-xl transition h-full flex flex-col">
+    <h3 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
+      <Mountain className="w-6 h-6" />
+      Day 3 – Scenic Local Sightseeing
+    </h3>
+    <p className="text-gray-700 leading-relaxed flex-grow">
+      Full day tour covering Ghoom, Lepchajagat,
+      Lamahatta, Teen Chuley, Lover’s View Point,
+      and Tea Estates. Return by evening.
+      Dinner & Overnight at Darjeeling.
+    </p>
+  </div>
 
-          {/* Day 2 */}
-          <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-yellow-500 hover:shadow-xl transition">
-            <h3 className="text-2xl font-bold text-yellow-600 mb-4 flex items-center gap-2">
-              <Sunrise className="w-6 h-6" />
-              Day 2 – Tiger Hill & City Tour
-            </h3>
-            <p className="text-gray-700 leading-relaxed">
-              Early morning visit to Tiger Hill for sunrise view.
-              En-route visit Ghoom Monastery & Batasia Loop.
-              After breakfast, city tour including HMI, Zoo,
-              Ropeway, Tea Estate, Japanese Temple,
-              Tibetan Refugee Centre & more.
-              Dinner & Overnight at Darjeeling.
-            </p>
-          </div>
+  {/* Day 4 */}
+ 
 
-          {/* Day 3 */}
-          <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-green-500 hover:shadow-xl transition">
-            <h3 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
-              <Mountain className="w-6 h-6" />
-              Day 3 – Scenic Local Sightseeing
-            </h3>
-            <p className="text-gray-700 leading-relaxed">
-              Full day tour covering Ghoom, Lepchajagat,
-              Lamahatta, Teen Chuley, Lover’s View Point,
-              and Tea Estates. Return by evening.
-              Dinner & Overnight at Darjeeling.
-            </p>
-          </div>
+ 
 
-          {/* Day 4 */}
-          <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-purple-500 hover:shadow-xl transition">
-            <h3 className="text-2xl font-bold text-purple-600 mb-4 flex items-center gap-2">
-              <Train className="w-6 h-6" />
-              Day 4 – Kurseong / Toy Train
-            </h3>
-            <p className="text-gray-700 leading-relaxed">
-              Visit Kurseong attractions including Eagle’s Craig,
-              Dow Hills, Makaibari Tea Estate.
-              Optional Toy Train Ride (subject to availability).
-              Dinner & Overnight at Darjeeling.
-            </p>
-          </div>
+  {/* Day 6 */}
+  <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-red-500 
+  hover:shadow-xl transition h-full flex flex-col">
+    <h3 className="text-2xl font-bold text-red-600 mb-4 flex items-center gap-2">
+      <Plane className="w-6 h-6" />
+      Day 6 – Mirik & Departure
+    </h3>
+    <p className="text-gray-700 leading-relaxed flex-grow">
+      After breakfast check-out.
+      Visit Mirik, Gopal Dhara View Point,
+      Pashupati Market (Nepal border).
+      Drop at NJP / IXB before 6 PM.
+      Tour ends with beautiful memories.
+    </p>
+  </div>
 
-          {/* Day 5 */}
-          <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-blue-500 hover:shadow-xl transition">
-            <h3 className="text-2xl font-bold text-blue-600 mb-4 flex items-center gap-2">
-              <Home className="w-6 h-6" />
-              Day 5 – Kalimpong Transfer / South Sikkim (Optional)
-            </h3>
-            <p className="text-gray-700 leading-relaxed">
-              Transfer to Kalimpong. Visit Durpin Monastery,
-              Deolo Hill, Morgan House etc.
-              OR Optional South Sikkim tour (Char Dham,
-              Temi Tea Garden, Namchi – extra charge).
-              Dinner & Overnight at Kalimpong.
-            </p>
-          </div>
+</div>
 
-          {/* Day 6 */}
-          <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-red-500 hover:shadow-xl transition">
-            <h3 className="text-2xl font-bold text-red-600 mb-4 flex items-center gap-2">
-              <Plane className="w-6 h-6" />
-              Day 6 – Mirik & Departure
-            </h3>
-            <p className="text-gray-700 leading-relaxed">
-              After breakfast check-out.
-              Visit Mirik, Gopal Dhara View Point,
-              Pashupati Market (Nepal border).
-              Drop at NJP / IXB before 6 PM.
-              Tour ends with beautiful memories.
-            </p>
-          </div>
-  
-        </div>
+
       </div>
     </section>
       {/* ================= PLACES OF INTEREST ================= */}

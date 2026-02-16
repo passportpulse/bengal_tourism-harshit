@@ -290,12 +290,12 @@ export default function BengalBeckonsPackagesPage() {
 
                                     {/* Action Buttons */}
                                     <div className="flex gap-2">
-                                        <Link
+                                        {/* <Link
                                             href="/book-tour"
                                             className="flex-1 flex items-center justify-center gap-2 bg-red-600 text-white py-3 rounded-xl text-sm font-semibold hover:bg-red-700 transition-colors"
                                         >
                                             Book Now
-                                        </Link>
+                                        </Link> */}
                                         <Link href={item.route} className="flex items-center justify-center gap-2 border border-red-600 text-red-600 px-4 py-3 rounded-xl text-sm font-semibold hover:bg-red-50 transition-colors">
                                             View Details
                                         </Link>
