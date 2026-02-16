@@ -1,6 +1,7 @@
 "use client"
 
 import Image from 'next/image'
+import Link from 'next/link'
 import { Mountain, MapPin, Calendar, Star, Clock, Users, Camera, Trees, Utensils } from 'lucide-react'
 import PackagePricing from '@/components/PackagePricing'
 import ContactCTA from '@/components/ContactCTA'
@@ -40,9 +41,9 @@ export default function KurseongPage() {
             </p>
 
             <div className="flex flex-wrap items-center gap-6">
-              <button className="bg-green-500 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:bg-green-400 transition transform hover:scale-105">
+              <a href="/book-tour" className="bg-green-500 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:bg-green-400 transition transform hover:scale-105">
                 Book Your Journey
-              </button>
+              </a>
 
               <button className="border-2 border-green-600 text-green-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-green-600 hover:text-white transition transform hover:scale-105">
                 Explore Attractions
