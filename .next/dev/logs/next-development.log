@@ -227,3 +227,5 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [01:06:01.819] Server  LOG     ✓ Compiled in 65ms
 [01:06:05.740] Server  LOG     ✓ Compiled in 63ms
 [01:06:12.754] Server  LOG     ✓ Compiled in 83ms
+[01:06:51.052] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:06:58.365] Server  ERROR   TimeoutError: The operation was aborted due to timeout

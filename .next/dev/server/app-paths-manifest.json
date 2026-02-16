@@ -1,6 +1,7 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
   "/book-hotel/page": "app/book-hotel/page.js",
+  "/book-tour/page": "app/book-tour/page.js",
   "/brands/page": "app/brands/page.js",
   "/career/page": "app/career/page.js",
   "/dp/page": "app/dp/page.js",
