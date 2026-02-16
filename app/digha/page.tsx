@@ -115,10 +115,7 @@ export default function DighaPage() {
                   <p className="text-blue-100">Digha • Mandarmoni • Tajpur • Shankarpur • Udaipur</p>
                   <p className="text-blue-100">4 Nights / 5 Days</p>
                 </div>
-                <div className="text-right">
-                  <div className="text-3xl font-bold">₹12,000</div>
-                  <div className="text-blue-100">Per Person</div>
-                </div>
+             
               </div>
             </div>
             
@@ -439,60 +436,7 @@ export default function DighaPage() {
         </div>
       </section>
 
-      {/* ================= SPECIAL OFFERS ================= */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-cyan-600 text-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Special Offers</h2>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Exclusive deals for your perfect beach vacation
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <Award className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Book 7 Nights</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">Get 8th Day FREE</p>
-              <p className="text-blue-100">Extended beach paradise</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <Users className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Book & Refer</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">Cash Back</p>
-              <p className="text-blue-100">Up to ₹2.50 lakh</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <Star className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Early Bird</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">20% OFF</p>
-              <p className="text-blue-100">Book 30 days in advance</p>
-            </div>
-          </div>
-
-          <div className="text-center">
-            <div className="bg-white text-blue-800 rounded-2xl p-8 max-w-2xl mx-auto">
-              <h3 className="text-2xl font-bold mb-4">Ready for Beach Paradise?</h3>
-              <p className="text-gray-700 mb-6">
-                Contact us for special tailor-made packages designed according to your preferences
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-bold hover:bg-blue-700 transition">
-                  Call Now: +91 98765 43210
-                </button>
-                <button className="bg-cyan-600 text-white px-8 py-3 rounded-full font-bold hover:bg-cyan-700 transition">
-                  Email: info@bengaltourism.com
-                </button>
-              </div>
-              <p className="text-sm text-gray-600 mt-4">
-                For more pictures, offers & reviews, visit our Facebook Page
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+ 
     <PackagePricing 
         title="Digha Beach Packages"
         subtitle="Choose your perfect beach getaway duration"

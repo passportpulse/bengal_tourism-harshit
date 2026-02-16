@@ -1010,3 +1010,12 @@ It can also happen if the client has a browser extension installed which messes 
 [01:27:39.437] Server  LOG     ✓ Compiled in 81ms
 [01:27:45.784] Server  LOG     ✓ Compiled in 130ms
 [01:28:58.377] Server  LOG     ✓ Compiled in 104ms
+[01:30:12.948] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:33:53.710] Server  LOG     ✓ Compiled in 183ms
+[01:34:39.447] Server  LOG     ✓ Compiled in 122ms
+[01:35:04.333] Server  LOG     ✓ Compiled in 194ms
+[01:35:17.825] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:35:18.135] Browser WARN    Image with src "/Mirik.jpeg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:35:48.720] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:35:58.350] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:36:01.512] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

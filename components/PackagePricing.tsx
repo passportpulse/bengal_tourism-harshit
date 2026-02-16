@@ -187,7 +187,7 @@ export default function PackagePricing({
           <div className="bg-gray-100 border border-gray-200 rounded-3xl p-8 flex flex-col justify-between opacity-70">
 
             <div>
-              <span className=" text-white text-xs py-1 rounded-full">
+              <span className=" text-black text-xs py-1 rounded-full">
                 Not feasible
               </span>
 
