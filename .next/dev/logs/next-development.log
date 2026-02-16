@@ -1019,3 +1019,705 @@ It can also happen if the client has a browser extension installed which messes 
 [01:35:48.720] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [01:35:58.350] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [01:36:01.512] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:36:55.576] Browser WARN    Image with src "https://images.unsplash.com/photo-1698753864905-a447aa362ec9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRhcmplZWxpbmd8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:36:55.576] Browser WARN    Image with src "https://images.unsplash.com/photo-1657282928361-ec9de3f2bc74?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:36:55.576] Browser WARN    Image with src "https://images.unsplash.com/photo-1706459671568-9809c9d13430?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U3VuZGFyYmFufGVufDB8fDB8fHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:36:55.576] Browser WARN    Image with src "https://images.unsplash.com/photo-1647102208648-5f3175091dda?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8S29sa2F0YXxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:36:55.576] Browser WARN    Image with src "https://images.unsplash.com/photo-1669514463894-0475a3e062ff?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:36:55.576] Browser WARN    Image with src "https://images.unsplash.com/photo-1548574505-5e239809ee19?q=80&w=2764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:36:55.576] Browser WARN    Image with src "https://images.unsplash.com/photo-1727640826472-bf7456dc030c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:36:55.576] Browser WARN    Image with src "https://images.unsplash.com/photo-1681137063068-081072cf04b4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RmlsbSUyMHNob290aW5nfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:36:55.576] Browser WARN    Image with src "https://images.unsplash.com/photo-1550697797-f01b4e83a1be?q=80&w=2676&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:36:55.576] Browser WARN    Image with src "https://images.unsplash.com/photo-1763912111586-aed87ee0c3aa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEhlcml0YWdlJTIwVG91ciUyMCUyNiUyMFdhbGtzfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:36:55.576] Browser WARN    Image with src "https://images.unsplash.com/photo-1554380726-5bd6b17b42e5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SnVuZ2xlJTIwU2FmYXJpfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:36:55.576] Browser WARN    Image with src "https://images.unsplash.com/photo-1599106242383-271adeb2e828?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SGlsbHN8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:36:55.576] Browser WARN    Image with src "https://images.unsplash.com/photo-1761474440561-78a792962f3a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UGlsZ3JpbWFnZSUyMFRvdXJ8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:36:55.576] Browser WARN    Image with src "https://images.unsplash.com/photo-1629248457649-b082812aea6c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Uml2ZXIlMjBSYWZ0aW5nfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:36:55.576] Browser WARN    Image with src "https://images.unsplash.com/photo-1651678938586-affccc71c270?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:36:55.576] Browser WARN    Image with src "https://images.unsplash.com/photo-1761933810905-ccc35b14d937?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2hvcnQlMjBCcmVha3N8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:36:55.576] Browser WARN    Image with src "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VHJla2tpbmd8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:02.041] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:37:02.270] Browser WARN    Image with src "/Rishap.jpeg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:37:04.504] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:09.757] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:37:09.986] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:15.950] Browser WARN    Image with src "https://images.unsplash.com/photo-1698753864905-a447aa362ec9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRhcmplZWxpbmd8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:15.950] Browser WARN    Image with src "https://images.unsplash.com/photo-1657282928361-ec9de3f2bc74?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:15.950] Browser WARN    Image with src "https://images.unsplash.com/photo-1706459671568-9809c9d13430?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U3VuZGFyYmFufGVufDB8fDB8fHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:15.950] Browser WARN    Image with src "https://images.unsplash.com/photo-1548574505-5e239809ee19?q=80&w=2764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:15.950] Browser WARN    Image with src "https://images.unsplash.com/photo-1647102208648-5f3175091dda?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8S29sa2F0YXxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:15.950] Browser WARN    Image with src "https://images.unsplash.com/photo-1669514463894-0475a3e062ff?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:15.950] Browser WARN    Image with src "https://images.unsplash.com/photo-1681137063068-081072cf04b4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RmlsbSUyMHNob290aW5nfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:15.950] Browser WARN    Image with src "https://images.unsplash.com/photo-1763912111586-aed87ee0c3aa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEhlcml0YWdlJTIwVG91ciUyMCUyNiUyMFdhbGtzfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:15.950] Browser WARN    Image with src "https://images.unsplash.com/photo-1550697797-f01b4e83a1be?q=80&w=2676&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:15.950] Browser WARN    Image with src "https://images.unsplash.com/photo-1599106242383-271adeb2e828?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SGlsbHN8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:15.950] Browser WARN    Image with src "https://images.unsplash.com/photo-1727640826472-bf7456dc030c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:15.950] Browser WARN    Image with src "https://images.unsplash.com/photo-1554380726-5bd6b17b42e5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SnVuZ2xlJTIwU2FmYXJpfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:15.950] Browser WARN    Image with src "https://images.unsplash.com/photo-1651678938586-affccc71c270?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:15.950] Browser WARN    Image with src "https://images.unsplash.com/photo-1761474440561-78a792962f3a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UGlsZ3JpbWFnZSUyMFRvdXJ8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:15.950] Browser WARN    Image with src "https://images.unsplash.com/photo-1629248457649-b082812aea6c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Uml2ZXIlMjBSYWZ0aW5nfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:15.950] Browser WARN    Image with src "https://images.unsplash.com/photo-1761933810905-ccc35b14d937?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2hvcnQlMjBCcmVha3N8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:15.950] Browser WARN    Image with src "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VHJla2tpbmd8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:47.285] Browser WARN    Image with src "/Goa.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:47.285] Browser WARN    Image with src "/Himachal.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:47.285] Browser WARN    Image with src "/Andaman.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:47.285] Browser WARN    Image with src "/jammu.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:47.285] Browser WARN    Image with src "/Assam.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:47.285] Browser WARN    Image with src "/Rajasthan.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:47.869] Browser WARN    Image with src "/Kerala.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:48.292] Browser WARN    Image with src "https://images.unsplash.com/photo-1629723248038-8b3bc1ecce29?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cHVyaS1vZGlzaGF8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:48.419] Browser WARN    Image with src "https://images.unsplash.com/photo-1635346537940-9d51faeb6e32?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U2lra2ltJTIwJTI2JTIwR2FuZ3Rva3xlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:48.652] Browser WARN    Image with src "https://plus.unsplash.com/premium_photo-1671639169260-18cec0fa6a51?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U2lsayUyMFJvdXRlfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:39:54.576] Server  LOG     ✓ Compiled in 336ms
+[01:39:55.008] Browser ERROR   uncaughtError: ReferenceError: Sunrise is not defined
+[01:39:58.929] Browser ERROR   uncaughtError: ReferenceError: Sunrise is not defined
+[01:40:21.213] Server  LOG     ✓ Compiled in 195ms
+[01:40:21.229] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:40:21.831] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:40:22.533] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:22.940] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:40:29.941] Browser ERROR   ./app/darjeeling/page.tsx:4:146
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                                                  ^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Home` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:29.941] Browser ERROR   ./app/darjeeling/page.tsx:4:112
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                ^^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `MapPin` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:29.941] Browser ERROR   ./app/darjeeling/page.tsx:4:129
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                                 ^^^^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Mountain` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:29.941] Browser ERROR   ./app/darjeeling/page.tsx:4:152
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                                                        ^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Plane` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:29.941] Browser ERROR   ./app/darjeeling/page.tsx:4:120
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                        ^^^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Sunrise` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:29.941] Browser ERROR   ./app/darjeeling/page.tsx:4:139
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                                           ^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Train` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:29.941] Browser ERROR   ./app/darjeeling/page.tsx:4:146
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                                                  ^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Home` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:29.941] Browser ERROR   ./app/darjeeling/page.tsx:4:112
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                ^^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `MapPin` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:29.941] Browser ERROR   ./app/darjeeling/page.tsx:4:129
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                                 ^^^^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Mountain` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:29.941] Browser ERROR   ./app/darjeeling/page.tsx:4:152
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                                                        ^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Plane` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:29.941] Browser ERROR   ./app/darjeeling/page.tsx:4:120
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                        ^^^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Sunrise` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:29.941] Browser ERROR   ./app/darjeeling/page.tsx:4:139
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                                           ^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Train` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:31.040] Browser ERROR   ./app/darjeeling/page.tsx:4:146
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                                                  ^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Home` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:31.040] Browser ERROR   ./app/darjeeling/page.tsx:4:112
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                ^^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `MapPin` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:31.040] Browser ERROR   ./app/darjeeling/page.tsx:4:129
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                                 ^^^^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Mountain` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:31.040] Browser ERROR   ./app/darjeeling/page.tsx:4:152
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                                                        ^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Plane` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:31.040] Browser ERROR   ./app/darjeeling/page.tsx:4:120
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                        ^^^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Sunrise` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:31.040] Browser ERROR   ./app/darjeeling/page.tsx:4:139
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                                           ^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Train` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:31.941] Browser ERROR   ./app/darjeeling/page.tsx:4:146
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                                                  ^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Home` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:31.941] Browser ERROR   ./app/darjeeling/page.tsx:4:112
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                ^^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `MapPin` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:31.941] Browser ERROR   ./app/darjeeling/page.tsx:4:129
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                                 ^^^^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Mountain` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:31.941] Browser ERROR   ./app/darjeeling/page.tsx:4:152
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                                                        ^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Plane` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:31.941] Browser ERROR   ./app/darjeeling/page.tsx:4:120
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                        ^^^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Sunrise` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:31.941] Browser ERROR   ./app/darjeeling/page.tsx:4:139
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                                           ^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Train` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:32.209] Browser ERROR   ./app/darjeeling/page.tsx:4:146
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                                                  ^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Home` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:32.209] Browser ERROR   ./app/darjeeling/page.tsx:4:112
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                ^^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `MapPin` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:32.209] Browser ERROR   ./app/darjeeling/page.tsx:4:129
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                                 ^^^^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Mountain` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:32.209] Browser ERROR   ./app/darjeeling/page.tsx:4:152
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                                                        ^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Plane` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:32.209] Browser ERROR   ./app/darjeeling/page.tsx:4:120
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                        ^^^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Sunrise` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:32.209] Browser ERROR   ./app/darjeeling/page.tsx:4:139
+Ecmascript file had an error
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Plane, Sunrise, Home,  MapPin, Sunrise, Mountain, Train, Home, Plane } from 'lucide-react'
+    |                                                                                                                                           ^^^^^
+  5 | import PackagePricing from '@/components/PackagePricing'
+  6 | import ContactCTA from '@/components/ContactCTA'
+  7 |
+
+the name `Train` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[01:40:32.209] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/darjeeling" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="antialiased"
+-                           style={{overflow-x:"hidden",overflow-y:"hidden"}}
+                          >
+                  ...
+
+[01:40:32.209] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:40:37.958] Browser ERROR   uncaughtError: ReferenceError: Sunrise is not defined
+[01:40:37.958] Browser ERROR   uncaughtError: ReferenceError: Sunrise is not defined
+[01:41:06.920] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:41:06.928] Server  LOG     ✓ Compiled in 104ms
+[01:41:06.929] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:41:08.295] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:41:08.942] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
