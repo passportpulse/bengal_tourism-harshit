@@ -878,7 +878,7 @@ function MembershipPage() {
                                                             value: formData.introducedByMember,
                                                             onChange: (e)=>handleInputChange("introducedByMember", e.target.value),
                                                             className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500",
-                                                            placeholder: "Enter member/unit number"
+                                                            placeholder: "Enter member/unit do t"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/membership/page.tsx",
                                                             lineNumber: 261,
@@ -903,10 +903,10 @@ function MembershipPage() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
                                                             value: formData.initial,
                                                             onChange: (e)=>handleInputChange("initial", e.target.value),
-                                                            className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500",
+                                                            className: "w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                    value: "",
+                                                                    value: "text-gray-500",
                                                                     children: "Select"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/membership/page.tsx",
@@ -1012,7 +1012,7 @@ function MembershipPage() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                            className: "block text-sm font-semibold text-gray-700 mb-2",
+                                                            className: "block text-gray-500 text-sm font-semibold text-gray-700 mb-2",
                                                             children: [
                                                                 "Date of Birth ",
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1033,7 +1033,7 @@ function MembershipPage() {
                                                             type: "date",
                                                             value: formData.dateOfBirth,
                                                             onChange: (e)=>handleInputChange("dateOfBirth", e.target.value),
-                                                            className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500",
+                                                            className: "w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500",
                                                             required: true
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/membership/page.tsx",
@@ -1093,7 +1093,7 @@ function MembershipPage() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                    className: "block text-sm font-semibold text-gray-700 mb-2",
+                                                    className: "block text-sm text-gray-500 font-semibold text-gray-700 mt-4 mb-2",
                                                     children: [
                                                         "Mobile (Write ISD/STD code before number) ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1114,7 +1114,7 @@ function MembershipPage() {
                                                     type: "tel",
                                                     value: formData.mobile,
                                                     onChange: (e)=>handleInputChange("mobile", e.target.value),
-                                                    className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition",
+                                                    className: "w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition",
                                                     placeholder: "Ex: +91 98765 43210",
                                                     required: true
                                                 }, void 0, false, {
@@ -1177,7 +1177,7 @@ function MembershipPage() {
                                                     value: formData.address,
                                                     onChange: (e)=>handleInputChange("address", e.target.value),
                                                     rows: 3,
-                                                    className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition",
+                                                    className: "w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition",
                                                     placeholder: "Enter your complete address",
                                                     required: true
                                                 }, void 0, false, {
@@ -1280,7 +1280,7 @@ function MembershipPage() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                    className: "block text-sm font-semibold text-gray-700 mb-2",
+                                                    className: "block text-sm font-semibold text-gray-700 mt-4 mb-2",
                                                     children: "Name of Nominee"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/membership/page.tsx",
@@ -1291,7 +1291,7 @@ function MembershipPage() {
                                                     type: "text",
                                                     value: formData.nomineeName,
                                                     onChange: (e)=>handleInputChange("nomineeName", e.target.value),
-                                                    className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition",
+                                                    className: "w-full text-gray-500  px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition",
                                                     placeholder: "Enter nominee name"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/membership/page.tsx",
@@ -1355,11 +1355,12 @@ function MembershipPage() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
                                                             value: formData.regdFee,
                                                             onChange: (e)=>handleInputChange("regdFee", e.target.value),
-                                                            className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500",
+                                                            className: "w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500",
                                                             required: true,
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                     value: "",
+                                                                    className: "text-gray-500",
                                                                     children: "--Select--"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/membership/page.tsx",
@@ -1417,7 +1418,7 @@ function MembershipPage() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
                                                             value: formData.paymentMode,
                                                             onChange: (e)=>handleInputChange("paymentMode", e.target.value),
-                                                            className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500",
+                                                            className: "w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500",
                                                             required: true,
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1457,7 +1458,7 @@ function MembershipPage() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                    className: "block text-sm font-semibold text-gray-700 mb-2",
+                                                    className: "block text-sm font-semibold text-gray-700 mt-4 mb-2",
                                                     children: "Write your bank name (Where you need cash back)"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/membership/page.tsx",
@@ -1468,7 +1469,7 @@ function MembershipPage() {
                                                     type: "text",
                                                     value: formData.bankName,
                                                     onChange: (e)=>handleInputChange("bankName", e.target.value),
-                                                    className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition",
+                                                    className: "w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition",
                                                     placeholder: "Enter your bank name"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/membership/page.tsx",
@@ -1484,7 +1485,7 @@ function MembershipPage() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                    className: "block text-sm font-semibold text-gray-700 mb-2",
+                                                    className: "block text-sm font-semibold text-gray-700 mt-4 mb-2",
                                                     children: "Your bank account no"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/membership/page.tsx",
@@ -1495,7 +1496,7 @@ function MembershipPage() {
                                                     type: "text",
                                                     value: formData.accountNumber,
                                                     onChange: (e)=>handleInputChange("accountNumber", e.target.value),
-                                                    className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition",
+                                                    className: "w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition",
                                                     placeholder: "Enter account number"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/membership/page.tsx",
@@ -1514,7 +1515,7 @@ function MembershipPage() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                            className: "block text-sm font-semibold text-gray-700 mb-2",
+                                                            className: "block text-sm font-semibold text-gray-700 mb-2 mt-4",
                                                             children: "Branch Name/Branch Code"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/membership/page.tsx",
@@ -1525,7 +1526,7 @@ function MembershipPage() {
                                                             type: "text",
                                                             value: formData.branchName,
                                                             onChange: (e)=>handleInputChange("branchName", e.target.value),
-                                                            className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500",
+                                                            className: "w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500",
                                                             placeholder: "Enter branch name/code"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/membership/page.tsx",
@@ -1541,7 +1542,7 @@ function MembershipPage() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                            className: "block text-sm font-semibold text-gray-700 mb-2",
+                                                            className: "block text-sm font-semibold text-gray-700 mt-4 mb-2",
                                                             children: [
                                                                 formData.paymentMode === "bank_transfer" ? "IFSC Code" : "UPI Name / Phone No",
                                                                 " ",
@@ -1563,7 +1564,7 @@ function MembershipPage() {
                                                             type: "text",
                                                             value: formData.ifscCode,
                                                             onChange: (e)=>handleInputChange("ifscCode", e.target.value),
-                                                            className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500",
+                                                            className: "w-full px-4 py-3 text-gray-500 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500",
                                                             placeholder: formData.paymentMode === "bank_transfer" ? "Enter IFSC code" : "Enter UPI name or phone number",
                                                             required: true
                                                         }, void 0, false, {
@@ -1586,7 +1587,7 @@ function MembershipPage() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                    className: "block text-sm font-semibold text-gray-700 mb-2",
+                                                    className: "block text-sm font-semibold text-gray-700 mb-2 mt-4",
                                                     children: "Payment Date"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/membership/page.tsx",
@@ -1597,7 +1598,7 @@ function MembershipPage() {
                                                     type: "date",
                                                     value: formData.paymentDate,
                                                     onChange: (e)=>handleInputChange("paymentDate", e.target.value),
-                                                    className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                                                    className: "w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/membership/page.tsx",
                                                     lineNumber: 517,

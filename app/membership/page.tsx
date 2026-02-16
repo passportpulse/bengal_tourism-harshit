@@ -263,7 +263,7 @@ export default function MembershipPage() {
                       value={formData.introducedByMember}
                       onChange={(e) => handleInputChange("introducedByMember", e.target.value)}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
-                      placeholder="Enter member/unit number"
+                      placeholder="Enter member/unit do t"
                     />
                   </div>
                   <div>
@@ -273,9 +273,9 @@ export default function MembershipPage() {
                     <select
                       value={formData.initial}
                       onChange={(e) => handleInputChange("initial", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                     >
-                      <option value="">Select</option>
+                      <option value="text-gray-500">Select</option>
                       {titles.map(title => (
                         <option key={title} value={title}>{title}</option>
                       ))}
@@ -308,14 +308,14 @@ export default function MembershipPage() {
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    <label className="block text-gray-500 text-sm font-semibold text-gray-700 mb-2">
                       Date of Birth <span className="text-red-500">*</span>
                     </label>
                     <input
                       type="date"
                       value={formData.dateOfBirth}
                       onChange={(e) => handleInputChange("dateOfBirth", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                       required
                     />
                   </div>
@@ -334,14 +334,14 @@ export default function MembershipPage() {
                   </div>
                 </div>
                 <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                  <label className="block text-sm text-gray-500 font-semibold text-gray-700 mt-4 mb-2">
                     Mobile (Write ISD/STD code before number) <span className="text-red-500">*</span>
                   </label>
                   <input
                     type="tel"
                     value={formData.mobile}
                     onChange={(e) => handleInputChange("mobile", e.target.value)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                    className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
                     placeholder="Ex: +91 98765 43210"
                     required
                   />
@@ -362,7 +362,7 @@ export default function MembershipPage() {
                     value={formData.address}
                     onChange={(e) => handleInputChange("address", e.target.value)}
                     rows={3}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                    className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
                     placeholder="Enter your complete address"
                     required
                   />
@@ -397,14 +397,14 @@ export default function MembershipPage() {
                   </div>
                 </div>
                 <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                  <label className="block text-sm font-semibold text-gray-700 mt-4 mb-2">
                     Name of Nominee
                   </label>
                   <input
                     type="text"
                     value={formData.nomineeName}
                     onChange={(e) => handleInputChange("nomineeName", e.target.value)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                    className="w-full text-gray-500  px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
                     placeholder="Enter nominee name"
                   />
                 </div>
@@ -424,10 +424,10 @@ export default function MembershipPage() {
                     <select
                       value={formData.regdFee}
                       onChange={(e) => handleInputChange("regdFee", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                       required
                     >
-                      <option value="">--Select--</option>
+                      <option value="" className="text-gray-500">--Select--</option>
                       {membershipTypes.map(type => (
                         <option key={type.value} value={type.value}>
                           {type.label}
@@ -447,7 +447,7 @@ export default function MembershipPage() {
                     <select
                       value={formData.paymentMode}
                       onChange={(e) => handleInputChange("paymentMode", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                       required
                     >
                       <option value="">--Select--</option>
@@ -460,65 +460,65 @@ export default function MembershipPage() {
                   </div>
                 </div>
                 <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                  <label className="block text-sm font-semibold text-gray-700 mt-4 mb-2">
                     Write your bank name (Where you need cash back)
                   </label>
                   <input
                     type="text"
                     value={formData.bankName}
                     onChange={(e) => handleInputChange("bankName", e.target.value)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                    className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
                     placeholder="Enter your bank name"
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                  <label className="block text-sm font-semibold text-gray-700 mt-4 mb-2">
                     Your bank account no
                   </label>
                   <input
                     type="text"
                     value={formData.accountNumber}
                     onChange={(e) => handleInputChange("accountNumber", e.target.value)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                    className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
                     placeholder="Enter account number"
                   />
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    <label className="block text-sm font-semibold text-gray-700 mb-2 mt-4">
                       Branch Name/Branch Code
                     </label>
                     <input
                       type="text"
                       value={formData.branchName}
                       onChange={(e) => handleInputChange("branchName", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="Enter branch name/code"
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    <label className="block text-sm font-semibold text-gray-700 mt-4 mb-2">
                       {formData.paymentMode === "bank_transfer" ? "IFSC Code" : "UPI Name / Phone No"} <span className="text-red-500">*</span>
                     </label>
                     <input
                       type="text"
                       value={formData.ifscCode}
                       onChange={(e) => handleInputChange("ifscCode", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full px-4 py-3 text-gray-500 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder={formData.paymentMode === "bank_transfer" ? "Enter IFSC code" : "Enter UPI name or phone number"}
                       required
                     />
                   </div>
                 </div>
                 <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                  <label className="block text-sm font-semibold text-gray-700 mb-2 mt-4">
                     Payment Date
                   </label>
                   <input
                     type="date"
                     value={formData.paymentDate}
                     onChange={(e) => handleInputChange("paymentDate", e.target.value)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                    className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
                   />
                 </div>
               </div>
