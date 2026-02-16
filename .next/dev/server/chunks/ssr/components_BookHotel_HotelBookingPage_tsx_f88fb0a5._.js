@@ -283,7 +283,7 @@ const roomTypes = {
             price: 15400
         }
     ],
-    "4": [
+    "22": [
         {
             value: "2000",
             label: "Basic",
@@ -335,7 +335,7 @@ const roomTypes = {
             price: 15400
         }
     ],
-    "29": [
+    "14": [
         {
             value: "2000",
             label: "Basic",

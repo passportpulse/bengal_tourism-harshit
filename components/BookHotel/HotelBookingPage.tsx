@@ -72,7 +72,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "9100", label: "Luxury", price: 9100 },
     { value: "15400", label: "Star Luxury", price: 15400 },
   ],
-  "4": [
+  "22": [
     { value: "2000", label: "Basic", price: 2000 },
     { value: "2800", label: "Standard", price: 2800 },
     { value: "3700", label: "Deluxe", price: 3700 },
@@ -84,7 +84,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "9100", label: "Luxury", price: 9100 },
     { value: "15400", label: "Star Luxury", price: 15400 },
   ],
-  "29": [
+  "14": [
     { value: "2000", label: "Basic", price: 2000 },
     { value: "2800", label: "Standard", price: 2800 },
     { value: "3700", label: "Deluxe", price: 3700 },

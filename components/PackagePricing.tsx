@@ -45,8 +45,8 @@ export default function PackagePricing({
                 Most Popular
               </span>
 
-              <h3 className="text-2xl font-bold mt-6 text-gray-900">5N / 6D</h3>
-              <p className="text-3xl font-extrabold text-indigo-600 mt-3">
+      <h3 className="text-2xl font-bold mt-6 text-gray-900">5N / 6D</h3>
+               <p className="text-2xl font-semibold text-indigo-600 mt-3">
                 ₹ 15,400
               </p>
 
