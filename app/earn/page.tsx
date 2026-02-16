@@ -242,7 +242,6 @@ export default function EarnPage() {
                   </div>
                 </div>
                 <div className="mb-4">
-                  <div className="text-2xl font-bold text-green-600">{story.earnings}</div>
                 </div>
                 <p className="text-gray-700 text-sm">{story.story}</p>
               </div>

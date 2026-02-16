@@ -337,10 +337,7 @@ export default function BhutanPage() {
 
 
       {/* ================= PACKAGE PRICING ================= */}
-      <PackagePricing 
-        title="Bhutan Tour Packages"
-        subtitle="Choose your perfect Land of Thunder Dragon duration"
-      />
+   
   
 <ContactCTA />
     </main>

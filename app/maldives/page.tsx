@@ -244,10 +244,6 @@ export default function MaldivesPage() {
         </div>
       </section>
 
-      <PackagePricing 
-         title="Maldives Tour Packages"
-         subtitle="Choose your perfect tropical paradise duration"
-       />
  
         
      <ContactCTA />

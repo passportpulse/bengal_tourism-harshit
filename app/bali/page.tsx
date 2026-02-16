@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout } from 'lucide-react'
 import PackagePricing from '@/components/PackagePricing'
+import ContactCTA from '@/components/ContactCTA'
 
 export default function BaliPage() {
   return (
@@ -209,12 +210,8 @@ export default function BaliPage() {
       </section>
 
 
-      {/* ================= PACKAGE PRICING ================= */}
-      <PackagePricing 
-        title="Bali Tour Packages"
-        subtitle="Choose your perfect Island of Gods getaway duration"
-      />
 
+<ContactCTA />
     </main>
   )
 }

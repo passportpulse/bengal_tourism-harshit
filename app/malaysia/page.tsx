@@ -174,11 +174,6 @@ export default function MalaysiaPage() {
         </div>
       </section>
 
-     <PackagePricing 
-        title="Malaysia Tour Packages"
-        subtitle="Choose your perfect Southeast Asian adventure"
-      />
-
        
     <ContactCTA />
     </main>

@@ -217,10 +217,6 @@ export default function SingaporePage() {
         </div>
       </section>
 
-      <PackagePricing
-        title="Singapore Tour Packages"
-        subtitle="Choose your perfect modern city adventure"
-      />
 
       <ContactCTA />
 

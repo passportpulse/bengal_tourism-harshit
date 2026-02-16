@@ -1,4 +1,6 @@
 {
+  "/earn/page": "app/earn/page.js",
   "/medical-tourism/page": "app/medical-tourism/page.js",
+  "/packages/foreign-tours/page": "app/packages/foreign-tours/page.js",
   "/page": "app/page.js"
 }

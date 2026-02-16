@@ -288,10 +288,7 @@ export default function ThailandPage() {
         </div>
       </section>
 
-      <PackagePricing
-        title="Thailand Tour Packages"
-        subtitle="Choose your perfect tropical paradise duration"
-      />
+   
 
       <ContactCTA />
 

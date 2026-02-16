@@ -291,10 +291,6 @@ export default function NepalPage() {
         </div>
       </section>
 
-     <PackagePricing 
-        title="Nepal Tour Packages"
-        subtitle="Choose your perfect Himalayan adventure"
-      />
 
        
     <ContactCTA />

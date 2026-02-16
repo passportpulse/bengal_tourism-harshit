@@ -265,11 +265,7 @@ export default function DubaiPage() {
 
 
 
-      {/* ================= PACKAGE PRICING ================= */}
-      <PackagePricing 
-        title="Dubai Tour Packages"
-        subtitle="Choose your perfect luxury city adventure duration"
-      />
+
  
 <ContactCTA />
     </main>

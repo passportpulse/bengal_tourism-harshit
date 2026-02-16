@@ -227,11 +227,6 @@ export default function LakshadweepPage() {
         </div>
       </section>
 
-     <PackagePricing 
-        title="Lakshadweep Tour Packages"
-        subtitle="Choose your perfect coral island adventure"
-      />
-
        
     <ContactCTA />
     </main>
