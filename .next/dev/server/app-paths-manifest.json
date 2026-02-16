@@ -1,12 +1,15 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
   "/about/page": "app/about/page.js",
+  "/book-hotel/page": "app/book-hotel/page.js",
   "/darjeeling/page": "app/darjeeling/page.js",
+  "/dooars/page": "app/dooars/page.js",
   "/hotel-booking/page": "app/hotel-booking/page.js",
   "/kalimpong/page": "app/kalimpong/page.js",
   "/kurseong/page": "app/kurseong/page.js",
   "/lava/page": "app/lava/page.js",
   "/mirik/page": "app/mirik/page.js",
   "/packages/bengal-beckons/page": "app/packages/bengal-beckons/page.js",
+  "/page": "app/page.js",
   "/rishap/page": "app/rishap/page.js"
 }

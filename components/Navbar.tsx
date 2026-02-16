@@ -251,7 +251,7 @@ export default function Navbar() {
                                 href="/book-hotel"
                                 className="bg-red-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-red-700 transition"
                             >
-                                BOOK NOW
+                               Hotal Booking
                             </Link>
                         </nav>
 
@@ -372,7 +372,7 @@ export default function Navbar() {
                             className="block py-2 bg-red-600 text-white px-6 py-2 rounded-full font-semibold text-center"
                             onClick={() => setMobileOpen(false)}
                         >
-                            BOOK NOW
+                            Hotal Booking
                         </Link>
                     </div>
                 </div>
