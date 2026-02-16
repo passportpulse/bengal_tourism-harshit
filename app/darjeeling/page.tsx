@@ -1,7 +1,7 @@
 "use client"
 
 import Image from 'next/image'
-import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users } from 'lucide-react'
+import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link } from 'lucide-react'
 import PackagePricing from '@/components/PackagePricing'
 import ContactCTA from '@/components/ContactCTA'
 
@@ -26,7 +26,7 @@ export default function DarjeelingPage() {
               <Mountain className="w-6 h-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold tracking-wide">Queen of the Hills</span>
             </div>
-            
+
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight mb-6 relative">
               Darjeeling
               <span className="block text-3xl md:text-5xl mt-2 text-orange-300">
@@ -35,7 +35,7 @@ export default function DarjeelingPage() {
             </h1>
 
             <p className="text-gray-600 text-lg mb-10 max-w-md">
-              Located at 6,800 ft above sea level, home to the finest Darjeeling Tea on earth, 
+              Located at 6,800 ft above sea level, home to the finest Darjeeling Tea on earth,
               with a backdrop of mighty snow-capped Kanchendzonga
             </p>
 
@@ -57,9 +57,9 @@ export default function DarjeelingPage() {
               alt="Kanchendzonga mountain range with Darjeeling tea gardens"
               className="w-full max-w-md md:max-w-lg lg:max-w-xl rounded-2xl shadow-2xl"
             />
-            </div>
           </div>
-       
+        </div>
+
       </section>
 
       {/* ================= QUICK FACTS ================= */}
@@ -113,8 +113,8 @@ export default function DarjeelingPage() {
               <div className="bg-orange-50 p-6 rounded-xl">
                 <h3 className="text-2xl font-bold mb-3 text-orange-600">The Early Days</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  In the early 19th century, a patrol of the East India Company exploring access to Sikkim 
-                  discovered a sleepy hamlet atop a thickly wooded ridge with a brilliant view of Mt. Kangchendzonga. 
+                  In the early 19th century, a patrol of the East India Company exploring access to Sikkim
+                  discovered a sleepy hamlet atop a thickly wooded ridge with a brilliant view of Mt. Kangchendzonga.
                   The British soul, yearning for cold and rain, instantly recognized a 'hill station'.
                 </p>
               </div>
@@ -122,8 +122,8 @@ export default function DarjeelingPage() {
               <div className="bg-yellow-50 p-6 rounded-xl">
                 <h3 className="text-2xl font-bold mb-3 text-yellow-600">Frontier Town Era</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  In the 1840s & '50s, Darjeeling became a haven for international misfits - Tibetan & East European 
-                  refugees, fleeing Russians, displaced monarchs like the Emir of Afghanistan, and spies of every persuasion 
+                  In the 1840s & '50s, Darjeeling became a haven for international misfits - Tibetan & East European
+                  refugees, fleeing Russians, displaced monarchs like the Emir of Afghanistan, and spies of every persuasion
                   from British to Japanese, all drawn to this political compost shrouded in high mists.
                 </p>
               </div>
@@ -131,8 +131,8 @@ export default function DarjeelingPage() {
               <div className="bg-green-50 p-6 rounded-xl">
                 <h3 className="text-2xl font-bold mb-3 text-green-600">The Name's Origin</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  The name is believed to be a corruption of Dorje-ling, literally the 'land of the mystic thunderbolt' 
-                  from Indo-Tibetan Buddhist mythology. However, the Earl of Ronaldshay claimed it came from Lama 
+                  The name is believed to be a corruption of Dorje-ling, literally the 'land of the mystic thunderbolt'
+                  from Indo-Tibetan Buddhist mythology. However, the Earl of Ronaldshay claimed it came from Lama
                   Dorje-rinzing, founder of the monastery on Observatory Hill.
                 </p>
               </div>
@@ -263,71 +263,78 @@ export default function DarjeelingPage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
-              <img
-                src="/Mirik.jpeg"
-                alt="Mirik Lake"
-                className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-              <div className="absolute bottom-0 p-6 text-white">
-                <h3 className="text-2xl font-bold mb-2">Mirik</h3>
-                <p className="text-gray-200">Divine Lake & Orange Orchards</p>
+            <a href="/mirik">
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
+                <img
+                  src="/Mirik.jpeg"
+                  alt="Mirik Lake"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                <div className="absolute bottom-0 p-6 text-white">
+                  <h3 className="text-2xl font-bold mb-2">Mirik</h3>
+                  <p className="text-gray-200">Divine Lake & Orange Orchards</p>
+                </div>
               </div>
-            </div>
-
-            <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
-              <img
-                src="/Kurseong.jpeg"
-                alt="Kurseong"
-                className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-              <div className="absolute bottom-0 p-6 text-white">
-                <h3 className="text-2xl font-bold mb-2">Kurseong</h3>
-                <p className="text-gray-200">Land of the White Orchid</p>
+            </a>
+            <a href="/kurseong">
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
+                <img
+                  src="/Kurseong.jpeg"
+                  alt="Kurseong"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                <div className="absolute bottom-0 p-6 text-white">
+                  <h3 className="text-2xl font-bold mb-2">Kurseong</h3>
+                  <p className="text-gray-200">Land of the White Orchid</p>
+                </div>
               </div>
-            </div>
-
-            <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
-              <img
-                src="/Kalimpong.jpeg"
-                alt="Kalimpong"
-                className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-              <div className="absolute bottom-0 p-6 text-white">
-                <h3 className="text-2xl font-bold mb-2">Kalimpong</h3>
-                <p className="text-gray-200">Flower Nurseries & Views</p>
+            </a>
+            <a href="/kalimpong">
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
+                <img
+                  src="/Kalimpong.jpeg"
+                  alt="Kalimpong"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                <div className="absolute bottom-0 p-6 text-white">
+                  <h3 className="text-2xl font-bold mb-2">Kalimpong</h3>
+                  <p className="text-gray-200">Flower Nurseries & Views</p>
+                </div>
               </div>
-            </div>
-
-            <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
-              <img
-                src="/Lava.jpg"
-                alt="Lava"
-                className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-              <div className="absolute bottom-0 p-6 text-white">
-                <h3 className="text-2xl font-bold mb-2">Lava</h3>
-                <p className="text-gray-200">Abode of the Gods</p>
+            </a>
+            <a href="/lava">
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
+                <img
+                  src="/Lava.jpg"
+                  alt="Lava"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                <div className="absolute bottom-0 p-6 text-white">
+                  <h3 className="text-2xl font-bold mb-2">Lava</h3>
+                  <p className="text-gray-200">Gateway to Neora Valley</p>
+                </div>
               </div>
-            </div>
+            </a>
+            <a href="/rishap">
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
 
-            <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
-              <img
-                src="/Rishap.jpeg"
-                alt="Rishap"
-                className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-              <div className="absolute bottom-0 p-6 text-white">
-                <h3 className="text-2xl font-bold mb-2">Rishap</h3>
-                <p className="text-gray-200">Misty Magic</p>
+                <img
+                  src="/Rishap.jpeg"
+                  alt="Rishap"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                <div className="absolute bottom-0 p-6 text-white">
+                  <h3 className="text-2xl font-bold mb-2">Rishap</h3>
+                  <p className="text-gray-200">Misty Magic</p>
+                </div>
+
               </div>
-            </div>
-
+            </a>
           </div>
         </div>
       </section>
@@ -413,13 +420,13 @@ export default function DarjeelingPage() {
       </section>
 
       {/* ================= PACKAGE PRICING ================= */}
-      <PackagePricing 
+      <PackagePricing
         title="Darjeeling Tour Packages"
         subtitle="Choose your perfect Himalayan getaway duration"
       />
 
-     
-   <ContactCTA />
+
+      <ContactCTA />
 
     </main>
   )

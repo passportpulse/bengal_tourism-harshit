@@ -1,231 +1,858 @@
-[00:00:01.469] Server  LOG     ✓ Ready in 1041ms
-[00:00:04.581] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:09.820] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:59.446] Browser WARN    Image with src "/kolkata-DIY.avif" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:00.057] Browser WARN    Image with src "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:00.057] Browser WARN    Image with src "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:00.241] Browser WARN    Image with src "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:01.059] Browser WARN    Image with src "https://images.unsplash.com/photo-1571679654681-ba01b9e1e117?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2VzdCUyMGJlbmdhbHxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:01.059] Browser WARN    Image with src "https://images.unsplash.com/photo-1706459671568-9809c9d13430?w=800&h=600&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:01.059] Browser WARN    Image with src "https://images.unsplash.com/photo-1657282928361-ec9de3f2bc74?w=800&h=600&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:01.361] Browser WARN    Image with src "https://images.unsplash.com/photo-1681137063068-081072cf04b4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RmlsbSUyMHNob290aW5nfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:01.820] Browser WARN    Image with src "https://images.unsplash.com/photo-1622308644420-b20142dc993c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:02.265] Browser WARN    Image with src "https://images.unsplash.com/photo-1647102208648-5f3175091dda?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8S29sa2F0YXxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:02.569] Browser WARN    Image with src "https://images.unsplash.com/photo-1548574505-5e239809ee19?q=80&w=2764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:02.569] Browser WARN    Image with src "https://images.unsplash.com/photo-1712487650909-2aaf5c5eac36?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VGhhaWxhbmQlMjAlMjYlMjBCYW5na29rfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:02.569] Browser WARN    Image with src "https://images.unsplash.com/photo-1706459671568-9809c9d13430?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U3VuZGFyYmFufGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:02.569] Browser WARN    Image with src "https://images.unsplash.com/photo-1550697797-f01b4e83a1be?q=80&w=2676&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:02.909] Browser WARN    Image with src "https://images.unsplash.com/photo-1727640826472-bf7456dc030c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:02.909] Browser WARN    Image with src "https://images.unsplash.com/photo-1724600457405-a7eeabcff6b5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8UGVsbGluZ3xlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:03.136] Browser WARN    Image with src "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:03.560] Browser WARN    Image with src "https://images.unsplash.com/photo-1763912111586-aed87ee0c3aa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEhlcml0YWdlJTIwVG91ciUyMCUyNiUyMFdhbGtzfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:03.560] Browser WARN    Image with src "https://images.unsplash.com/photo-1554380726-5bd6b17b42e5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SnVuZ2xlJTIwU2FmYXJpfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:04.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1528543606781-2f6e6857f318?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:04.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1599106242383-271adeb2e828?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SGlsbHN8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:04.553] Browser WARN    Image with src "https://images.unsplash.com/photo-1629248457649-b082812aea6c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Uml2ZXIlMjBSYWZ0aW5nfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:04.553] Browser WARN    Image with src "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VHJla2tpbmd8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:04.922] Browser WARN    Image with src "/bangal2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:04.922] Browser WARN    Image with src "https://images.unsplash.com/photo-1761474440561-78a792962f3a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UGlsZ3JpbWFnZSUyMFRvdXJ8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:05.252] Browser WARN    Image with src "/bangal1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:05.252] Browser WARN    Image with src "https://images.unsplash.com/photo-1761933810905-ccc35b14d937?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2hvcnQlMjBCcmVha3N8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:05.656] Browser WARN    Image with src "https://images.unsplash.com/photo-1507525428034-b723cf961d3e" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:06.206] Browser WARN    Image with src "https://images.unsplash.com/photo-1651678938586-affccc71c270?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:06.206] Browser WARN    Image with src "https://images.unsplash.com/photo-1587922546307-776227941871?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fEdvYXxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:06.407] Browser WARN    Image with src "https://images.unsplash.com/photo-1725958977969-f6c5c3d42fbc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZHViYWklNUN8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:06.407] Browser WARN    Image with src "https://images.unsplash.com/photo-1698753864905-a447aa362ec9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRhcmplZWxpbmd8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:06.407] Browser WARN    Image with src "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:07.776] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/about-img-bg.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:49.228] Server  LOG     ✓ Compiled in 63ms
-[00:02:49.417] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:03:14.380] Server  LOG     ✓ Compiled in 44ms
-[00:15:55.612] Server  LOG     ✓ Compiled in 205ms
-[00:41:38.667] Server  LOG     ✓ Compiled in 69ms
-[00:42:26.703] Server  ERROR   TimeoutError: The operation was aborted due to timeout
-[00:42:26.710] Server  ERROR   TimeoutError: The operation was aborted due to timeout
-[00:42:26.712] Server  ERROR   TimeoutError: The operation was aborted due to timeout
-[00:42:26.715] Server  ERROR   TimeoutError: The operation was aborted due to timeout
-[00:42:26.718] Server  ERROR   TimeoutError: The operation was aborted due to timeout
-[00:42:26.720] Server  ERROR   TimeoutError: The operation was aborted due to timeout
-[00:42:27.979] Browser WARN    Image with src "/Maldives.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:42:31.069] Browser WARN    Image with src "https://images.unsplash.com/photo-1496939376851-89342e90adcd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8U2luZ2Fwb3JlfGVufDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:42:34.870] Server  ERROR   TimeoutError: The operation was aborted due to timeout
-[00:43:05.587] Server  ERROR   TimeoutError: The operation was aborted due to timeout
-[00:43:05.593] Server  ERROR   TimeoutError: The operation was aborted due to timeout
-[00:43:05.618] Server  ERROR   TimeoutError: The operation was aborted due to timeout
-[00:43:05.869] Server  ERROR   TimeoutError: The operation was aborted due to timeout
-[00:43:06.033] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:43:06.306] Browser WARN    Image with src "https://images.unsplash.com/photo-1532008779255-4b4dd2668c84?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Qmh1dGFuLVRoaW1wdXxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:43:06.306] Browser WARN    Image with src "https://images.unsplash.com/photo-1720811970882-70a5196ee37e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TmVwYWwlMjAlMjYlMjBLYXRobWFuZHV8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:43:06.306] Browser WARN    Image with src "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:43:06.306] Browser WARN    Image with src "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RHViYWl8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:43:06.306] Browser WARN    Image with src "https://images.unsplash.com/photo-1712487650909-2aaf5c5eac36?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VGhhaWxhbmQlMjAlMjYlMjBCYW5na29rfGVufDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:43:06.306] Browser WARN    Image with src "https://images.unsplash.com/photo-1496939376851-89342e90adcd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8U2luZ2Fwb3JlfGVufDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:43:06.306] Browser WARN    Image with src "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:43:06.306] Browser WARN    Image with src "/Maldives.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:43:09.933] Browser WARN    Image with src "https://images.unsplash.com/photo-1572025310208-2fd6b91764c1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TGFrc2hhZHdlZXB8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:45:02.285] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:45:02.475] Browser WARN    Image with src "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RHViYWl8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:45:02.670] Browser WARN    Image with src "https://images.unsplash.com/photo-1712487650909-2aaf5c5eac36?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VGhhaWxhbmQlMjAlMjYlMjBCYW5na29rfGVufDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:45:02.670] Browser WARN    Image with src "https://images.unsplash.com/photo-1572025310208-2fd6b91764c1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TGFrc2hhZHdlZXB8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:45:02.670] Browser WARN    Image with src "https://images.unsplash.com/photo-1496939376851-89342e90adcd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8U2luZ2Fwb3JlfGVufDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:45:02.670] Browser WARN    Image with src "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:45:02.670] Browser WARN    Image with src "/Maldives.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:45:02.988] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:45:03.309] Browser WARN    Image with src "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RHViYWl8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:45:03.309] Browser WARN    Image with src "https://images.unsplash.com/photo-1712487650909-2aaf5c5eac36?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VGhhaWxhbmQlMjAlMjYlMjBCYW5na29rfGVufDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:45:03.309] Browser WARN    Image with src "https://images.unsplash.com/photo-1572025310208-2fd6b91764c1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TGFrc2hhZHdlZXB8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:45:03.309] Browser WARN    Image with src "https://images.unsplash.com/photo-1496939376851-89342e90adcd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8U2luZ2Fwb3JlfGVufDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:45:03.309] Browser WARN    Image with src "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:45:03.309] Browser WARN    Image with src "/Maldives.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:45:05.403] Browser WARN    Image with src "https://images.unsplash.com/photo-1532008779255-4b4dd2668c84?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Qmh1dGFuLVRoaW1wdXxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:45:06.431] Browser WARN    Image with src "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:45:08.409] Browser WARN    Image with src "https://images.unsplash.com/photo-1720811970882-70a5196ee37e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TmVwYWwlMjAlMjYlMjBLYXRobWFuZHV8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:45:09.124] Server  ERROR   TimeoutError: The operation was aborted due to timeout
-[00:45:09.125] Server  ERROR   TimeoutError: The operation was aborted due to timeout
-[00:45:43.503] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:46:26.519] Server  LOG     ✓ Compiled in 56ms
-[00:47:15.004] Browser WARN    Image with src "https://images.unsplash.com/photo-1571679654681-ba01b9e1e117?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2VzdCUyMGJlbmdhbHxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:15.004] Browser WARN    Image with src "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:15.004] Browser WARN    Image with src "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:15.004] Browser WARN    Image with src "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:15.004] Browser WARN    Image with src "/kolkata-DIY.avif" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:15.004] Browser WARN    Image with src "https://images.unsplash.com/photo-1657282928361-ec9de3f2bc74?w=800&h=600&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:15.004] Browser WARN    Image with src "https://images.unsplash.com/photo-1622308644420-b20142dc993c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:15.004] Browser WARN    Image with src "https://images.unsplash.com/photo-1706459671568-9809c9d13430?w=800&h=600&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:17.457] Browser WARN    Image with src "https://images.unsplash.com/photo-1548574505-5e239809ee19?q=80&w=2764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:17.457] Browser WARN    Image with src "https://images.unsplash.com/photo-1727640826472-bf7456dc030c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:17.457] Browser WARN    Image with src "https://images.unsplash.com/photo-1681137063068-081072cf04b4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RmlsbSUyMHNob290aW5nfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:17.457] Browser WARN    Image with src "https://images.unsplash.com/photo-1550697797-f01b4e83a1be?q=80&w=2676&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:17.457] Browser WARN    Image with src "https://images.unsplash.com/photo-1554380726-5bd6b17b42e5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SnVuZ2xlJTIwU2FmYXJpfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:17.457] Browser WARN    Image with src "https://images.unsplash.com/photo-1599106242383-271adeb2e828?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SGlsbHN8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:17.457] Browser WARN    Image with src "https://images.unsplash.com/photo-1763912111586-aed87ee0c3aa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEhlcml0YWdlJTIwVG91ciUyMCUyNiUyMFdhbGtzfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:48.352] Server  LOG     ✓ Compiled in 176ms
-[00:47:48.557] Browser WARN    Image with src "https://images.unsplash.com/photo-1651678938586-affccc71c270?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:48.557] Browser WARN    Image with src "https://images.unsplash.com/photo-1761474440561-78a792962f3a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UGlsZ3JpbWFnZSUyMFRvdXJ8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:48.557] Browser WARN    Image with src "https://images.unsplash.com/photo-1629248457649-b082812aea6c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Uml2ZXIlMjBSYWZ0aW5nfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:48.557] Browser WARN    Image with src "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VHJla2tpbmd8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:48.557] Browser WARN    Image with src "https://images.unsplash.com/photo-1761933810905-ccc35b14d937?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2hvcnQlMjBCcmVha3N8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:53.218] Server  LOG     ✓ Compiled in 78ms
-[00:48:32.534] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/about-img-bg.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:48:32.534] Browser WARN    Image with src "/bangal2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:03.561] Server  LOG     ✓ Compiled in 57ms
-[00:49:10.074] Server  LOG     ✓ Compiled in 104ms
-[00:49:10.916] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1571679654681-ba01b9e1e117?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2VzdCUyMGJlbmdhbHxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1622308644420-b20142dc993c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "/kolkata-DIY.avif" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1657282928361-ec9de3f2bc74?w=800&h=600&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1706459671568-9809c9d13430?w=800&h=600&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1548574505-5e239809ee19?q=80&w=2764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1727640826472-bf7456dc030c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1550697797-f01b4e83a1be?q=80&w=2676&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1681137063068-081072cf04b4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RmlsbSUyMHNob290aW5nfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1763912111586-aed87ee0c3aa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEhlcml0YWdlJTIwVG91ciUyMCUyNiUyMFdhbGtzfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1599106242383-271adeb2e828?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SGlsbHN8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1554380726-5bd6b17b42e5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SnVuZ2xlJTIwU2FmYXJpfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1651678938586-affccc71c270?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1761474440561-78a792962f3a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UGlsZ3JpbWFnZSUyMFRvdXJ8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1629248457649-b082812aea6c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Uml2ZXIlMjBSYWZ0aW5nfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1761933810905-ccc35b14d937?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2hvcnQlMjBCcmVha3N8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VHJla2tpbmd8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/about-img-bg.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:49:12.153] Browser WARN    Image with src "/bangal2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "/bangal1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1698753864905-a447aa362ec9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRhcmplZWxpbmd8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1725958977969-f6c5c3d42fbc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZHViYWklNUN8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1587922546307-776227941871?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fEdvYXxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1706459671568-9809c9d13430?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U3VuZGFyYmFufGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1647102208648-5f3175091dda?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8S29sa2F0YXxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1712487650909-2aaf5c5eac36?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VGhhaWxhbmQlMjAlMjYlMjBCYW5na29rfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1724600457405-a7eeabcff6b5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8UGVsbGluZ3xlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:12.153] Browser WARN    Image with src "https://images.unsplash.com/photo-1528543606781-2f6e6857f318?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:45.687] Browser WARN    Image with src "https://images.unsplash.com/photo-1657282928361-ec9de3f2bc74?w=800&h=600&fit=crop" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:49:59.612] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1571679654681-ba01b9e1e117?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2VzdCUyMGJlbmdhbHxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1622308644420-b20142dc993c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "/kolkata-DIY.avif" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1657282928361-ec9de3f2bc74?w=800&h=600&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1706459671568-9809c9d13430?w=800&h=600&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1548574505-5e239809ee19?q=80&w=2764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1727640826472-bf7456dc030c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1550697797-f01b4e83a1be?q=80&w=2676&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1681137063068-081072cf04b4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RmlsbSUyMHNob290aW5nfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1763912111586-aed87ee0c3aa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEhlcml0YWdlJTIwVG91ciUyMCUyNiUyMFdhbGtzfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1599106242383-271adeb2e828?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SGlsbHN8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1554380726-5bd6b17b42e5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SnVuZ2xlJTIwU2FmYXJpfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1651678938586-affccc71c270?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1761474440561-78a792962f3a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UGlsZ3JpbWFnZSUyMFRvdXJ8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1629248457649-b082812aea6c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Uml2ZXIlMjBSYWZ0aW5nfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1761933810905-ccc35b14d937?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2hvcnQlMjBCcmVha3N8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1706459671568-9809c9d13430?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U3VuZGFyYmFufGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1647102208648-5f3175091dda?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8S29sa2F0YXxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1712487650909-2aaf5c5eac36?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VGhhaWxhbmQlMjAlMjYlMjBCYW5na29rfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1724600457405-a7eeabcff6b5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8UGVsbGluZ3xlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:00.302] Browser WARN    Image with src "https://images.unsplash.com/photo-1528543606781-2f6e6857f318?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:46.679] Browser WARN    Image with src "https://images.unsplash.com/photo-1698753864905-a447aa362ec9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRhcmplZWxpbmd8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:46.679] Browser WARN    Image with src "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:46.679] Browser WARN    Image with src "https://images.unsplash.com/photo-1725958977969-f6c5c3d42fbc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZHViYWklNUN8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:46.679] Browser WARN    Image with src "https://images.unsplash.com/photo-1587922546307-776227941871?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fEdvYXxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:46.679] Browser WARN    Image with src "https://demo.egenslab.com/html/triprex/preview/assets/img/home5/about-img-bg.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:50:46.679] Browser WARN    Image with src "/bangal1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:46.679] Browser WARN    Image with src "/bangal2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:46.679] Browser WARN    Image with src "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VHJla2tpbmd8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:24.603] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 26
-[00:53:25.132] Browser WARN    Image with src "/partners/374654-bhojohori-manna_2016-05-11-17-51-12.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:25.132] Browser WARN    Image with src "/partners/Tangail Saree_2017-11-13-12-27-21.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:25.132] Browser WARN    Image with src "/partners/Patachitra_2017-11-13-12-02-04.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:25.132] Browser WARN    Image with src "/partners/darjeeling20logo1_2016-05-13-07-49-05.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:25.132] Browser WARN    Image with src "/partners/Final Logo_2018-02-26-18-12-39.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:25.132] Browser WARN    Image with src "/partners/Jute-1_2018-02-26-18-36-58.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:25.132] Browser WARN    Image with src "/partners/Kantha Stich_2017-11-13-12-14-21.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:25.132] Browser WARN    Image with src "/partners/Dokra_2017-11-13-11-51-13.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:25.132] Browser WARN    Image with src "/partners/Dhakai Saree_2017-11-13-12-20-25.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:25.132] Browser WARN    Image with src "/partners/Bengali THali_2018-02-26-18-54-37.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:25.132] Browser WARN    Image with src "/partners/Rosogolla_2016-07-03-19-56-22.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:25.132] Browser WARN    Image with src "/partners/Bell utensils_2016-05-20-10-44-33.jfif" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:25.132] Browser WARN    Image with src "/partners/Teracota_2016-05-20-10-56-17.jfif" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:25.132] Browser WARN    Image with src "/partners/Clay Models_2016-05-20-10-57-32.jfif" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:25.132] Browser WARN    Image with src "/partners/Wooden Mask_2018-02-26-18-43-14.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:25.132] Browser WARN    Image with src "/partners/BT-Logo Image_2021-06-08-10-08-33.jfif" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:31.778] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:56:26.203] Server  LOG     ✓ Compiled in 129ms
-[00:57:02.282] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:57:21.316] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:57:23.795] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:57:25.245] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:58:20.653] Server  LOG     ✓ Compiled in 129ms
-[00:58:22.233] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:58:46.217] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:58:50.194] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:00:24.647] Server  LOG     ✓ Compiled in 89ms
-[01:02:46.905] Server  LOG     ✓ Compiled in 76ms
-[01:02:53.010] Server  LOG     ✓ Compiled in 64ms
-[01:03:05.498] Server  LOG     ✓ Compiled in 76ms
-[01:03:25.527] Server  LOG     ✓ Compiled in 71ms
-[01:03:33.765] Server  LOG     ✓ Compiled in 68ms
-[01:03:46.316] Server  LOG     ✓ Compiled in 57ms
-[01:03:55.567] Server  LOG     ✓ Compiled in 66ms
-[01:04:12.663] Server  LOG     ✓ Compiled in 66ms
-[01:04:29.441] Server  LOG     ✓ Compiled in 63ms
-[01:04:39.141] Server  LOG     ✓ Compiled in 68ms
-[01:04:49.445] Server  LOG     ✓ Compiled in 196ms
-[01:05:03.674] Server  LOG     ✓ Compiled in 57ms
-[01:05:08.764] Server  LOG     ✓ Compiled in 69ms
-[01:05:29.693] Server  LOG     ✓ Compiled in 59ms
-[01:05:33.066] Server  LOG     ✓ Compiled in 56ms
-[01:05:43.821] Server  LOG     ✓ Compiled in 53ms
-[01:06:01.819] Server  LOG     ✓ Compiled in 65ms
-[01:06:05.740] Server  LOG     ✓ Compiled in 63ms
-[01:06:12.754] Server  LOG     ✓ Compiled in 83ms
-[01:06:51.052] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:06:58.365] Server  ERROR   TimeoutError: The operation was aborted due to timeout
+[00:00:02.617] Server  LOG     ✓ Ready in 1996ms
+[00:00:04.463] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.941] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:05.433] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596394618093-3935a8b9c9c1?w=600&q=80" 404
+[00:00:05.531] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596394618093-3935a8b9c9c1?w=400&q=80" 404
+[00:00:26.955] Server  LOG     ✓ Compiled in 809ms
+[00:00:53.355] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:53.855] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/darjeeling" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+          <SegmentViewNode type="page" pagePath="darjeeling...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function DarjeelingPage} serverProvidedParams={{...}}>
+              <DarjeelingPage params={Promise} searchParams={Promise}>
+                <main className="text-gray-800">
+                  <section>
+                  <section>
+                  <section>
+                  <section>
+                  <section className="py-20 bg-w...">
+                    <div className="max-w-7xl ...">
+                      <div>
+                      <div className="grid md:gr...">
+                        <Link href="/mirik" className="group rela...">
+                          <svg ref={null} xmlns="http://www..." width={24} height={24} viewBox="0 0 24 24" fill="none" ...>
+                            <path>
+                            <path>
++                           <img
++                             src="/Mirik.jpeg"
++                             alt="Mirik Lake"
++                             className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
++                           >
+                            ...
+                        ...
+                  ...
+          ...
+        ...
+
+[00:00:53.855] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:58.481] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:58.744] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/darjeeling" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+          <SegmentViewNode type="page" pagePath="darjeeling...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function DarjeelingPage} serverProvidedParams={{...}}>
+              <DarjeelingPage params={Promise} searchParams={Promise}>
+                <main className="text-gray-800">
+                  <section>
+                  <section>
+                  <section>
+                  <section>
+                  <section className="py-20 bg-w...">
+                    <div className="max-w-7xl ...">
+                      <div>
+                      <div className="grid md:gr...">
+                        <Link href="/mirik" className="group rela...">
+                          <svg ref={null} xmlns="http://www..." width={24} height={24} viewBox="0 0 24 24" fill="none" ...>
+                            <path>
+                            <path>
++                           <img
++                             src="/Mirik.jpeg"
++                             alt="Mirik Lake"
++                             className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
++                           >
+                            ...
+                        ...
+                  ...
+          ...
+        ...
+
+[00:00:58.744] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:00.525] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:00.803] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/darjeeling" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+          <SegmentViewNode type="page" pagePath="darjeeling...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function DarjeelingPage} serverProvidedParams={{...}}>
+              <DarjeelingPage params={Promise} searchParams={Promise}>
+                <main className="text-gray-800">
+                  <section>
+                  <section>
+                  <section>
+                  <section>
+                  <section className="py-20 bg-w...">
+                    <div className="max-w-7xl ...">
+                      <div>
+                      <div className="grid md:gr...">
+                        <Link href="/mirik" className="group rela...">
+                          <svg ref={null} xmlns="http://www..." width={24} height={24} viewBox="0 0 24 24" fill="none" ...>
+                            <path>
+                            <path>
++                           <img
++                             src="/Mirik.jpeg"
++                             alt="Mirik Lake"
++                             className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
++                           >
+                            ...
+                        ...
+                  ...
+          ...
+        ...
+
+[00:01:00.803] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:52.795] Server  LOG     ✓ Compiled in 79ms
+[00:03:58.099] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:58.386] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/darjeeling" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+          <SegmentViewNode type="page" pagePath="darjeeling...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function DarjeelingPage} serverProvidedParams={{...}}>
+              <DarjeelingPage params={Promise} searchParams={Promise}>
+                <main className="text-gray-800">
+                  <section>
+                  <section>
+                  <section>
+                  <section>
+                  <section className="py-20 bg-w...">
+                    <div className="max-w-7xl ...">
+                      <div>
+                      <div className="grid md:gr...">
+                        <Link href="/mirik" className="group rela...">
+                          <svg ref={null} xmlns="http://www..." width={24} height={24} viewBox="0 0 24 24" fill="none" ...>
+                            <path>
+                            <path>
++                           <img
++                             src="/Mirik.jpeg"
++                             alt="Mirik Lake"
++                             className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
++                           >
+                            ...
+                        ...
+                  ...
+          ...
+        ...
+
+[00:03:58.386] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:00.227] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:00.360] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/darjeeling" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+          <SegmentViewNode type="page" pagePath="darjeeling...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function DarjeelingPage} serverProvidedParams={{...}}>
+              <DarjeelingPage params={Promise} searchParams={Promise}>
+                <main className="text-gray-800">
+                  <section>
+                  <section>
+                  <section>
+                  <section>
+                  <section className="py-20 bg-w...">
+                    <div className="max-w-7xl ...">
+                      <div>
+                      <div className="grid md:gr...">
+                        <Link href="/mirik" className="group rela...">
+                          <svg ref={null} xmlns="http://www..." width={24} height={24} viewBox="0 0 24 24" fill="none" ...>
+                            <path>
+                            <path>
++                           <img
++                             src="/Mirik.jpeg"
++                             alt="Mirik Lake"
++                             className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
++                           >
+                            ...
+                        ...
+                  ...
+          ...
+        ...
+
+[00:04:00.816] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:01.104] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/darjeeling" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+          <SegmentViewNode type="page" pagePath="darjeeling...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function DarjeelingPage} serverProvidedParams={{...}}>
+              <DarjeelingPage params={Promise} searchParams={Promise}>
+                <main className="text-gray-800">
+                  <section>
+                  <section>
+                  <section>
+                  <section>
+                  <section className="py-20 bg-w...">
+                    <div className="max-w-7xl ...">
+                      <div>
+                      <div className="grid md:gr...">
+                        <Link href="/mirik" className="group rela...">
+                          <svg ref={null} xmlns="http://www..." width={24} height={24} viewBox="0 0 24 24" fill="none" ...>
+                            <path>
+                            <path>
++                           <img
++                             src="/Mirik.jpeg"
++                             alt="Mirik Lake"
++                             className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
++                           >
+                            ...
+                        ...
+                  ...
+          ...
+        ...
+
+[00:04:01.104] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:01.532] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:01.684] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/darjeeling" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+          <SegmentViewNode type="page" pagePath="darjeeling...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function DarjeelingPage} serverProvidedParams={{...}}>
+              <DarjeelingPage params={Promise} searchParams={Promise}>
+                <main className="text-gray-800">
+                  <section>
+                  <section>
+                  <section>
+                  <section>
+                  <section className="py-20 bg-w...">
+                    <div className="max-w-7xl ...">
+                      <div>
+                      <div className="grid md:gr...">
+                        <Link href="/mirik" className="group rela...">
+                          <svg ref={null} xmlns="http://www..." width={24} height={24} viewBox="0 0 24 24" fill="none" ...>
+                            <path>
+                            <path>
++                           <img
++                             src="/Mirik.jpeg"
++                             alt="Mirik Lake"
++                             className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
++                           >
+                            ...
+                        ...
+                  ...
+          ...
+        ...
+
+[00:04:01.810] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:02.110] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:02.383] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/darjeeling" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+          <SegmentViewNode type="page" pagePath="darjeeling...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function DarjeelingPage} serverProvidedParams={{...}}>
+              <DarjeelingPage params={Promise} searchParams={Promise}>
+                <main className="text-gray-800">
+                  <section>
+                  <section>
+                  <section>
+                  <section>
+                  <section className="py-20 bg-w...">
+                    <div className="max-w-7xl ...">
+                      <div>
+                      <div className="grid md:gr...">
+                        <Link href="/mirik" className="group rela...">
+                          <svg ref={null} xmlns="http://www..." width={24} height={24} viewBox="0 0 24 24" fill="none" ...>
+                            <path>
+                            <path>
++                           <img
++                             src="/Mirik.jpeg"
++                             alt="Mirik Lake"
++                             className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
++                           >
+                            ...
+                        ...
+                  ...
+          ...
+        ...
+
+[00:04:02.383] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:03.678] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:03.922] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/darjeeling" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+          <SegmentViewNode type="page" pagePath="darjeeling...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function DarjeelingPage} serverProvidedParams={{...}}>
+              <DarjeelingPage params={Promise} searchParams={Promise}>
+                <main className="text-gray-800">
+                  <section>
+                  <section>
+                  <section>
+                  <section>
+                  <section className="py-20 bg-w...">
+                    <div className="max-w-7xl ...">
+                      <div>
+                      <div className="grid md:gr...">
+                        <Link href="/mirik" className="group rela...">
+                          <svg ref={null} xmlns="http://www..." width={24} height={24} viewBox="0 0 24 24" fill="none" ...>
+                            <path>
+                            <path>
++                           <img
++                             src="/Mirik.jpeg"
++                             alt="Mirik Lake"
++                             className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
++                           >
+                            ...
+                        ...
+                  ...
+          ...
+        ...
+
+[00:04:03.922] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:05:11.675] Server  LOG     ✓ Compiled in 235ms
+[00:05:34.087] Server  LOG     ✓ Compiled in 60ms
+[00:05:55.308] Server  LOG     ✓ Compiled in 91ms
+[00:05:55.412] Browser ERROR   ./app/darjeeling/page.tsx:320:27
+Parsing ecmascript source code failed
+  318 |
+  319 |             <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
+> 320 |            <Link></Link> />
+      |                           ^
+  321 |               <img
+  322 |                 src="/Rishap.jpeg"
+  323 |                 alt="Rishap"
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[00:06:30.791] Server  LOG     ✓ Compiled in 62ms
+[00:06:37.227] Server  LOG     ✓ Compiled in 67ms
+[00:09:52.735] Server  LOG     ✓ Compiled in 86ms
+[00:09:55.785] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:56.012] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/darjeeling" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+          <SegmentViewNode type="page" pagePath="darjeeling...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function DarjeelingPage} serverProvidedParams={{...}}>
+              <DarjeelingPage params={Promise} searchParams={Promise}>
+                <main className="text-gray-800">
+                  <section>
+                  <section>
+                  <section>
+                  <section>
+                  <section className="py-20 bg-w...">
+                    <div className="max-w-7xl ...">
+                      <div>
+                      <div className="grid md:gr...">
+                        <div>
+                        <div>
+                        <div>
+                        <div>
+                        <Link href="/rishap" className="group rela...">
+                          <svg ref={null} xmlns="http://www..." width={24} height={24} viewBox="0 0 24 24" fill="none" ...>
+                            <path>
+                            <path>
++                           <img
++                             src="/Rishap.jpeg"
++                             alt="Rishap"
++                             className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
++                           >
+                            ...
+                  ...
+          ...
+        ...
+
+[00:11:48.280] Server  LOG     ✓ Compiled in 145ms
+[00:14:33.599] Server  LOG     ✓ Compiled in 88ms
+[00:15:02.385] Server  LOG     ✓ Compiled in 75ms
+[00:15:15.473] Server  LOG     ✓ Compiled in 61ms
+[00:15:29.392] Server  LOG     ✓ Compiled in 69ms
+[00:15:46.753] Server  LOG     ✓ Compiled in 64ms
+[00:15:59.476] Server  LOG     ✓ Compiled in 52ms
+[00:16:24.021] Server  LOG     ✓ Compiled in 59ms
+[00:16:46.870] Server  LOG     ✓ Compiled in 57ms
+[00:16:52.575] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:52.983] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/darjeeling" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+          <SegmentViewNode type="page" pagePath="darjeeling...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function DarjeelingPage} serverProvidedParams={{...}}>
+              <DarjeelingPage params={Promise} searchParams={Promise}>
+                <main className="text-gray-800">
+                  <section>
+                  <section>
+                  <section>
+                  <section>
+                  <section className="py-20 bg-w...">
+                    <div className="max-w-7xl ...">
+                      <div>
+                      <div className="grid md:gr...">
+                        <Link href="/mirik">
+                          <svg ref={null} xmlns="http://www..." width={24} height={24} viewBox="0 0 24 24" fill="none" ...>
+                            <path>
+                            <path>
++                           <div
++                             className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transit..."
++                           >
+                        ...
+                  ...
+          ...
+        ...
+
+[00:16:54.369] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:54.568] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/darjeeling" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+          <SegmentViewNode type="page" pagePath="darjeeling...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function DarjeelingPage} serverProvidedParams={{...}}>
+              <DarjeelingPage params={Promise} searchParams={Promise}>
+                <main className="text-gray-800">
+                  <section>
+                  <section>
+                  <section>
+                  <section>
+                  <section className="py-20 bg-w...">
+                    <div className="max-w-7xl ...">
+                      <div>
+                      <div className="grid md:gr...">
+                        <Link href="/mirik">
+                          <svg ref={null} xmlns="http://www..." width={24} height={24} viewBox="0 0 24 24" fill="none" ...>
+                            <path>
+                            <path>
++                           <div
++                             className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transit..."
++                           >
+                        ...
+                  ...
+          ...
+        ...
+
+[00:16:55.260] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:55.468] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/darjeeling" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+          <SegmentViewNode type="page" pagePath="darjeeling...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function DarjeelingPage} serverProvidedParams={{...}}>
+              <DarjeelingPage params={Promise} searchParams={Promise}>
+                <main className="text-gray-800">
+                  <section>
+                  <section>
+                  <section>
+                  <section>
+                  <section className="py-20 bg-w...">
+                    <div className="max-w-7xl ...">
+                      <div>
+                      <div className="grid md:gr...">
+                        <Link href="/mirik">
+                          <svg ref={null} xmlns="http://www..." width={24} height={24} viewBox="0 0 24 24" fill="none" ...>
+                            <path>
+                            <path>
++                           <div
++                             className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transit..."
++                           >
+                        ...
+                  ...
+          ...
+        ...
+
+[00:17:05.821] Server  LOG     ✓ Compiled in 59ms
+[00:17:16.252] Server  LOG     ✓ Compiled in 57ms
+[00:17:21.937] Server  LOG     ✓ Compiled in 68ms
+[00:17:22.041] Browser ERROR   ./app/darjeeling/page.tsx:307:17
+Parsing ecmascript source code failed
+  305 |                 </div>
+  306 |               </div>
+> 307 |             </a>
+      |                 ^
+> 308 |             <a href="/lava">
+      | ^^^^^^^^^^^^^
+  309 |               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
+  310 |                 <img
+  311 |                   src="/Lava.jpg"
+
+Expected '</', got 'jsx text'
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[00:17:35.446] Server  LOG     ✓ Compiled in 66ms
+[00:17:35.550] Browser ERROR   ./app/darjeeling/page.tsx:293:17
+Parsing ecmascript source code failed
+  291 |                 </div>
+  292 |               </div>
+> 293 |             </a>
+      |                 ^
+> 294 |             <a href="/kalimpong">
+      | ^^^^^^^^^^^^^
+  295 |               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
+  296 |                 <img
+  297 |                   src="/Kalimpong.jpeg"
+
+Expected '</', got 'jsx text'
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[00:17:35.692] Browser ERROR   ./app/darjeeling/page.tsx:293:17
+Parsing ecmascript source code failed
+  291 |                 </div>
+  292 |               </div>
+> 293 |             </a>
+      |                 ^
+> 294 |             <a href="/kalimpong">
+      | ^^^^^^^^^^^^^
+  295 |               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
+  296 |                 <img
+  297 |                   src="/Kalimpong.jpeg"
+
+Expected '</', got 'jsx text'
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[00:17:43.295] Server  LOG     ✓ Compiled in 53ms
+[00:17:43.405] Browser ERROR   ./app/darjeeling/page.tsx:279:17
+Parsing ecmascript source code failed
+  277 |                 </div>
+  278 |               </div>
+> 279 |             </a>
+      |                 ^
+> 280 |             <a href="/kurseong">
+      | ^^^^^^^^^^^^^
+  281 |               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
+  282 |                 <img
+  283 |                   src="/Kurseong.jpeg"
+
+Expected '</', got 'jsx text'
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[00:17:43.560] Browser ERROR   ./app/darjeeling/page.tsx:279:17
+Parsing ecmascript source code failed
+  277 |                 </div>
+  278 |               </div>
+> 279 |             </a>
+      |                 ^
+> 280 |             <a href="/kurseong">
+      | ^^^^^^^^^^^^^
+  281 |               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
+  282 |                 <img
+  283 |                   src="/Kurseong.jpeg"
+
+Expected '</', got 'jsx text'
+
+Import traces:
+  Client Component Browser:
+    ./app/darjeeling/page.tsx [Client Component Browser]
+    ./app/darjeeling/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/darjeeling/page.tsx [Client Component SSR]
+    ./app/darjeeling/page.tsx [Server Component]
+[00:17:51.947] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:52.123] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:17:52.816] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596394618093-3935a8b9c9c1?w=600&q=80" 404
+[00:17:52.872] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596394618093-3935a8b9c9c1?w=400&q=80" 404
+[00:18:30.585] Server  LOG     ✓ Compiled in 62ms
+[00:18:30.735] Browser WARN    Image with src "/Mirik.jpeg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:21:04.153] Server  LOG     ✓ Compiled in 222ms
+[00:21:04.451] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/sum.jpeg" "received" null
+[00:21:26.287] Server  LOG     ✓ Compiled in 96ms
+[00:21:26.516] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/orn.jpeg" "received" null
+[00:21:38.291] Server  LOG     ✓ Compiled in 70ms
+[00:21:49.140] Server  LOG     ✓ Compiled in 60ms
+[00:22:00.657] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:04.061] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:04.214] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596394618093-3935a8b9c9c1?w=600&q=80" 404
+[00:22:04.230] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596394618093-3935a8b9c9c1?w=400&q=80" 404
+[00:22:04.994] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:49.015] Server  LOG     ✓ Compiled in 81ms
+[00:23:49.254] Browser WARN    Image with src "/Kurseong.jpeg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:24:32.652] Server  LOG     ✓ Compiled in 73ms
+[00:26:43.071] Server  LOG     ✓ Compiled in 249ms
+[00:27:05.161] Server  LOG     ✓ Compiled in 82ms
+[00:27:14.330] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:16.404] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:17.210] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596394618093-3935a8b9c9c1?w=600&q=80" 404
+[00:27:17.870] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596394618093-3935a8b9c9c1?w=400&q=80" 404
+[00:27:18.709] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:28:54.881] Server  LOG     ✓ Compiled in 327ms
+[00:28:55.066] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/Lava,jpg" "received" null
+[00:28:57.410] Server  LOG     ✓ Compiled in 69ms
+[00:29:26.621] Server  LOG     ✓ Compiled in 64ms
+[00:29:26.705] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/kurseong.jpg" "received" null
+[00:29:31.299] Server  LOG     ✓ Compiled in 84ms
+[00:29:31.602] Browser WARN    Image with src "/kurseong.jpeg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:31:38.137] Server  LOG     ✓ Compiled in 76ms
+[00:31:38.279] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:31:38.279] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:31:38.279] Browser ERROR   uncaughtError: Error: Failed to parse src "Neora.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:31:52.343] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:31:52.368] Server  LOG     ✓ Compiled in 62ms
+[00:31:52.918] Server  ERROR   TypeError: Invalid URL
+[00:31:52.950] Server  ERROR   ⨯ Error: Failed to parse src "durpin.jpeg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:31:52.974] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:31:52.974] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:31:52.974] Browser ERROR   uncaughtError: Error: Failed to parse src "durpin.jpeg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:31:53.239] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:53.506] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:31:53.506] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:31:53.506] Browser ERROR   uncaughtError: Error: Failed to parse src "durpin.jpeg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:31:57.702] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:31:57.842] Server  LOG     ✓ Compiled in 67ms
+[00:31:57.977] Server  ERROR   TypeError: Invalid URL
+[00:31:57.993] Server  ERROR   ⨯ Error: Failed to parse src "Neora.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:31:58.210] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:58.420] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:31:58.420] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:31:58.420] Browser ERROR   uncaughtError: Error: Failed to parse src "Neora.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:32:00.533] Server  ERROR   TypeError: Invalid URL
+[00:32:00.541] Server  ERROR   ⨯ Error: Failed to parse src "Neora.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:32:00.720] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:00.911] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:32:00.912] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:32:00.912] Browser ERROR   uncaughtError: Error: Failed to parse src "Neora.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:32:06.860] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:32:06.989] Server  LOG     ✓ Compiled in 57ms
+[00:32:07.368] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:07.625] Browser WARN    Image with src "/kurseong.jpeg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:32:10.971] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:33:09.933] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:12.497] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:13.399] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596394618093-3935a8b9c9c1?w=400&q=80" 404
+[00:33:13.454] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:33:13.529] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596394618093-3935a8b9c9c1?w=600&q=80" 404
+[00:34:03.966] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:42.239] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:42.603] Browser WARN    Image with src "/Lava.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:34:42.654] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596394618093-3935a8b9c9c1?w=400&q=80" 404
+[00:34:43.552] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:03.397] Server  LOG     ✓ Compiled in 57ms
+[00:35:03.494] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/Neora.jpeg" "received" null
+[00:35:06.902] Server  LOG     ✓ Compiled in 101ms
+[00:35:13.395] Server  LOG     ✓ Compiled in 60ms
+[00:35:13.406] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/Tiffin.jpg" "received" null
+[00:35:17.422] Server  LOG     ✓ Compiled in 76ms
+[00:35:17.432] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/Tiffin.jpge" "received" null
+[00:35:20.030] Server  LOG     ✓ Compiled in 189ms
+[00:35:48.282] Server  LOG     ✓ Compiled in 140ms
+[00:36:04.914] Server  LOG     ✓ Compiled in 50ms
+[00:36:21.350] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:24.104] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:24.260] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596394618093-3935a8b9c9c1?w=400&q=80" 404
+[00:36:24.513] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1596394618093-3935a8b9c9c1?w=600&q=80" 404
+[00:36:47.649] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:40:44.284] Server  LOG     ✓ Compiled in 108ms
+[00:40:44.955] Browser WARN    Image with src "/Rishap.jpeg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:41:19.470] Server  LOG     ✓ Compiled in 85ms
+[00:41:23.699] Server  LOG     ✓ Compiled in 69ms
+[00:41:23.845] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/village-life.jpg" "received" null
+[00:41:30.331] Server  LOG     ✓ Compiled in 61ms
+[00:41:30.342] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/village.jpg" "received" null
+[00:41:42.327] Server  LOG     ✓ Compiled in 57ms
+[00:42:13.027] Server  LOG     ✓ Compiled in 64ms
+[00:42:13.116] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/trails.jpg" "received" null
+[00:42:15.084] Server  LOG     ✓ Compiled in 97ms
+[00:42:29.302] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:30.950] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:31.175] Browser WARN    Image with src "/kurseong.jpeg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:42:32.616] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:42:51.469] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:51.745] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:46:22.827] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:23.032] Browser WARN    Image with src "/Mirik.jpeg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:46:23.513] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:46:55.847] Server  LOG     ✓ Compiled in 161ms
