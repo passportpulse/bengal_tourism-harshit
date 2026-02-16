@@ -1,8 +1,9 @@
 "use client"
 
 import Image from 'next/image'
-import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, DollarSign, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Archive, Church } from 'lucide-react'
+import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Archive, Church } from 'lucide-react'
 import PackagePricing from '@/components/PackagePricing'
+import ContactCTA from '@/components/ContactCTA'
 
 export default function KolkataPage() {
   return (
@@ -450,44 +451,13 @@ export default function KolkataPage() {
           </div>
         </div>
       </section>
-
-      {/* ================= BOOKING CTA ================= */}
-      <section className="py-20 bg-gradient-to-r from-orange-600 to-red-600 text-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Experience City of Joy</h2>
-            <p className="text-xl text-orange-100 max-w-3xl mx-auto">
-              Special tailor-made packages designed for your perfect Kolkata exploration
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <Clock className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Best Time</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">Oct - Mar</p>
-              <p className="text-orange-100">Pleasant weather</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <Users className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Group Size</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">Flexible</p>
-              <p className="text-orange-100">Custom packages</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <DollarSign className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Starting From</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">₹6,400</p>
-              <p className="text-orange-100">Per person</p>
-            </div>
-          </div>
+     <PackagePricing 
+        title="Kolkata Tour Packages"
+        subtitle="Choose your perfect cultural and colonial heritage adventure"
+      />
 
        
-        </div>
-      </section>
-
+    <ContactCTA />
     </main>
   )
 }

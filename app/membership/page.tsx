@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { User, MapPin, Phone, Mail, Calendar, CreditCard, Building, DollarSign, FileText, ArrowRight, Check } from "lucide-react";
+import { User, MapPin, Phone, Mail, Calendar, CreditCard, Building, IndianRupee, FileText, ArrowRight, Check } from "lucide-react";
 const payments = [
   {
     title: "BANK TRANSFER / CASH DEPOSIT",
@@ -596,7 +596,7 @@ export default function MembershipPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all">
               <div className="w-16 h-16 bg-gradient-to-r from-red-600 to-orange-600 rounded-2xl flex items-center justify-center mb-6">
-                <DollarSign className="w-8 h-8 text-white" />
+                <IndianRupee className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Great Earnings</h3>
               <p className="text-gray-600">Earn sustainable income through tourism bookings and network building</p>

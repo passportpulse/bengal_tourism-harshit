@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { ArrowRight, MapPin, Clock, DollarSign, Briefcase, Users, Building, GraduationCap, Award, TrendingUp, Heart, Mail, Phone, Send } from "lucide-react";
+import { ArrowRight, MapPin, Clock, IndianRupee, Briefcase, Users, Building, GraduationCap, Award, TrendingUp, Heart, Mail, Phone, Send } from "lucide-react";
 
 const jobCategories = [
   { id: "all", name: "All Opportunities", icon: "💼" },
@@ -255,7 +255,7 @@ export default function CareerPage() {
                     <span className="text-sm">{job.experience}</span>
                   </div>
                   <div className="flex items-center text-gray-700">
-                    <DollarSign className="w-4 h-4 mr-2 text-red-600" />
+                    <IndianRupee className="w-4 h-4 mr-2 text-red-600" />
                     <span className="text-sm">{job.salary}</span>
                   </div>
                 </div>

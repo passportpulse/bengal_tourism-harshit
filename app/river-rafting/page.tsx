@@ -3,6 +3,8 @@
 import { useState } from "react";
 import Image from "next/image";
 import { MapPin, Calendar, Users, Star, Clock, Check, Heart, Camera, Trees, Mountain, Navigation, Sun, Compass, Globe, Building, Utensils, Coffee, MapPinIcon, Tent, Footprints, Waves, Shield, Award } from "lucide-react";
+import ContactCTA from "@/components/ContactCTA";
+import PackagePricing from "@/components/PackagePricing";
 
 const raftingLocations = [
   {
@@ -610,23 +612,13 @@ export default function RiverRaftingPage() {
         </div>
       </section>
 
-      {/* ================= CTA ================= */}
-      <section className="py-20 bg-gradient-to-br from-blue-600 to-cyan-600">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-4xl font-black text-white mb-6">Plan Your River Adventure</h2>
-          <p className="text-xl text-white/90 max-w-3xl mx-auto mb-12">
-            Experience the thrill of white water rafting with expert guidance
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/book-tour" className="px-8 py-3 bg-white text-blue-600 font-bold rounded-xl hover:bg-gray-100 transition">
-              Book Rafting
-            </a>
-            <a href="/contact" className="px-8 py-3 bg-white text-blue-600 font-bold rounded-xl hover:bg-gray-100 transition">
-              Custom Package
-            </a>
-          </div>
-        </div>
-      </section>
+        <PackagePricing 
+           title="River Rafting Tour Packages"
+           subtitle="Choose your perfect water adventure duration"
+         />
+   
+          
+       <ContactCTA />
     </>
   );
 }

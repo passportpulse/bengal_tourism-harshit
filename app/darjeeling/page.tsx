@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users } from 'lucide-react'
 import PackagePricing from '@/components/PackagePricing'
+import ContactCTA from '@/components/ContactCTA'
 
 export default function DarjeelingPage() {
   return (
@@ -21,7 +22,7 @@ export default function DarjeelingPage() {
 
           {/* ---------- LEFT CONTENT ---------- */}
           <div>
-            <div className="flex items-center justify-center gap-2 mb-4">
+            <div className="flex items-center  gap-2 mb-4">
               <Mountain className="w-6 h-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold tracking-wide">Queen of the Hills</span>
             </div>
@@ -417,29 +418,8 @@ export default function DarjeelingPage() {
         subtitle="Choose your perfect Himalayan getaway duration"
       />
 
-      {/* ================= BOOKING CTA ================= */}
-      <section className="py-20 bg-gradient-to-r from-orange-500 to-yellow-500 text-white">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Ready to Experience Darjeeling?
-          </h2>
-          <p className="text-xl mb-8 text-gray-100">
-            Let the Queen of Hills enchant you with her beauty, history, and hospitality. 
-            Your Himalayan adventure awaits!
-          </p>
-          
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-            <button className="bg-white text-orange-600 px-8 py-4 rounded-full font-bold text-lg shadow-xl hover:bg-gray-100 transition transform hover:scale-105">
-              Book Your Trip Now
-            </button>
-            <button className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-orange-600 transition transform hover:scale-105">
-              Download Brochure
-            </button>
-          </div>
-
-       
-        </div>
-      </section>
+     
+   <ContactCTA />
 
     </main>
   )

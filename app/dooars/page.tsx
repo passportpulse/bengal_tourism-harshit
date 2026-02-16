@@ -1,8 +1,9 @@
 "use client"
 
 import Image from 'next/image'
-import { Trees, MapPin, Calendar, Users, Star, Clock, Camera, Eye, Bird, Truck, Mountain, Car, Home, DollarSign, AlertCircle, CheckCircle, Compass } from 'lucide-react'
+import { Trees, MapPin, Calendar, Users, Star, Clock, Camera, Eye, Bird, Truck, Mountain, Car, Home, IndianRupee, AlertCircle, CheckCircle, Compass } from 'lucide-react'
 import PackagePricing from '@/components/PackagePricing'
+import ContactCTA from '@/components/ContactCTA'
 
 export default function DooarsPage() {
   return (
@@ -519,60 +520,7 @@ export default function DooarsPage() {
         </div>
       </section>
 
-      {/* ================= BOOKING CTA ================= */}
-      <section className="py-20 bg-gradient-to-r from-green-600 to-blue-600 text-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Book Your Dooars Adventure</h2>
-            <p className="text-xl text-green-100 max-w-3xl mx-auto">
-              Ready to explore the pristine jungles of Dooars? Book your unforgettable wildlife safari today!
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <Clock className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Best Season</h3>
-              <p className="text-green-100">Oct - Mar</p>
-              <p className="text-sm text-green-200 mt-2">Perfect weather & wildlife sightings</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <Users className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Group Size</h3>
-              <p className="text-green-100">Flexible</p>
-              <p className="text-sm text-green-200 mt-2">Custom packages for all group sizes</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <DollarSign className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Starting From</h3>
-              <p className="text-green-100">₹14,000</p>
-              <p className="text-sm text-green-200 mt-2">Per person for 3N/4D package</p>
-            </div>
-          </div>
-
-          <div className="text-center">
-            <div className="bg-white text-green-800 rounded-2xl p-8 max-w-2xl mx-auto">
-              <h3 className="text-2xl font-bold mb-4">Ready for Your Jungle Safari?</h3>
-              <p className="text-gray-700 mb-6">
-                Contact us for special tailor-made packages designed according to your preferences
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="bg-green-600 text-white px-8 py-3 rounded-full font-bold hover:bg-green-700 transition">
-                  Call Now: +91 98765 43210
-                </button>
-                <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-bold hover:bg-blue-700 transition">
-                  Email: info@bengaltourism.com
-                </button>
-              </div>
-              <p className="text-sm text-gray-600 mt-4">
-                For more pictures, offers & reviews, visit our Facebook Page
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+   
 
       {/* ================= PACKAGE PRICING ================= */}
       <PackagePricing 
@@ -580,6 +528,7 @@ export default function DooarsPage() {
         subtitle="Choose your perfect wilderness adventure duration"
       />
 
+<ContactCTA />
     </main>
   )
 }

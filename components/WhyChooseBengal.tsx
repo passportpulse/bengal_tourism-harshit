@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Globe, DollarSign, Clock, Users, HeadphonesIcon, MapPin } from "lucide-react";
+import { Globe, IndianRupee, Clock, Users, HeadphonesIcon, MapPin } from "lucide-react";
 
 const features = [
   { title: "Worldwide Tour Coverage", icon: "/bengal-tour-icon.svg" },

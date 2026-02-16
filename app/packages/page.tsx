@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { MapPin, Calendar, Users, DollarSign, ArrowRight, Clock, Star, Mountain, Waves, Building, Trees, Compass } from "lucide-react";
+import { MapPin, Calendar, Users, IndianRupee, ArrowRight, Clock, Star, Mountain, Waves, Building, Trees, Compass } from "lucide-react";
 import RandomPackageSections from "../../components/RandomPackageSections";
 
 // Package categories

@@ -3,6 +3,8 @@
 import { useState } from "react";
 import Image from "next/image";
 import { MapPin, Calendar, Users, Star, Clock, Check, Heart, Camera, Trees, Mountain, Navigation, Sun, Compass, Globe, Building, Utensils, Coffee, MapPinIcon, Tent, Footprints } from "lucide-react";
+import ContactCTA from '@/components/ContactCTA';
+import PackagePricing from '@/components/PackagePricing';
 
 const trekkingRoutes = [
   {
@@ -126,6 +128,7 @@ export default function TrekkingTrailsPage() {
 
   return (
     <>
+    
       {/* ================= HERO ================= */}
       <section className="relative h-[80vh] overflow-hidden">
         <div className="absolute inset-0">
@@ -467,6 +470,14 @@ export default function TrekkingTrailsPage() {
           </div>
         </div>
       </section>
+
+      <PackagePricing
+        title="Trekking Tour Packages"
+        subtitle="Choose your perfect mountain adventure duration"
+      />
+
+      <ContactCTA />
+
     </>
   );
 }

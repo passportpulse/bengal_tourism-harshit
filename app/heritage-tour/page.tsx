@@ -3,6 +3,8 @@
 import { useState } from "react";
 import Image from "next/image";
 import { MapPin, Calendar, Users, Star, Clock, Check, Heart, Camera, Building, Book, Trees, Church, University, Globe, Utensils, ShoppingBag, Coffee, Navigation, Sunset, Mountain } from "lucide-react";
+import ContactCTA from "@/components/ContactCTA";
+import PackagePricing from "@/components/PackagePricing";
 
 const kolkataHeritage = [
   {
@@ -484,23 +486,13 @@ export default function HeritageTourPage() {
         </div>
       </section>
 
-      {/* ================= CTA ================= */}
-      <section className="py-20 bg-gradient-to-br from-amber-600 to-orange-600">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-4xl font-black text-white mb-6">Explore Bengal's Heritage</h2>
-          <p className="text-xl text-white/90 max-w-3xl mx-auto mb-12">
-            Let our expert guides show you the rich cultural heritage of West Bengal
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/book-tour" className="px-8 py-3 bg-white text-amber-600 font-bold rounded-xl hover:bg-gray-100 transition">
-              Book Heritage Tour
-            </a>
-            <a href="/contact" className="px-8 py-3 bg-white text-amber-600 font-bold rounded-xl hover:bg-gray-100 transition">
-              Custom Package
-            </a>
-          </div>
-        </div>
-      </section>
+       <PackagePricing 
+          title="Heritage Tour Packages"
+          subtitle="Choose your perfect heritage tour duration"
+        />
+  
+         
+      <ContactCTA />
     </>
   );
 }

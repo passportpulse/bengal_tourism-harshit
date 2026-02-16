@@ -1,7 +1,9 @@
 "use client"
 
 import Image from 'next/image'
-import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, DollarSign, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, } from 'lucide-react'
+import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper } from 'lucide-react'
+import ContactCTA from '@/components/ContactCTA'
+import PackagePricing from '@/components/PackagePricing'
 
 export default function ThemeToursPage() {
   return (
@@ -360,68 +362,12 @@ export default function ThemeToursPage() {
         </div>
       </section>
 
-      {/* ================= BOOKING CTA ================= */}
-      <section className="py-20 bg-gradient-to-r from-purple-600 to-pink-600 text-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Book Your Theme Tour</h2>
-            <p className="text-xl text-purple-100 max-w-3xl mx-auto">
-              Special tailor-made packages designed for your perfect cultural and adventure experience
-            </p>
-          </div>
+      <PackagePricing
+        title="Theme Tour Packages"
+        subtitle="Choose your perfect cultural adventure duration"
+      />
 
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <Clock className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Flexible Duration</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">1-7 Days</p>
-              <p className="text-purple-100">Custom packages available</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <Users className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Group Size</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">2-20 People</p>
-              <p className="text-purple-100">Private & group tours</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <DollarSign className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Starting From</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">₹6,000</p>
-              <p className="text-purple-100">Per person</p>
-            </div>
-          </div>
-
-          <div className="text-center">
-            <div className="bg-white text-purple-800 rounded-2xl p-8 max-w-2xl mx-auto">
-              <h3 className="text-2xl font-bold mb-4">Ready for Cultural Journey?</h3>
-              <p className="text-gray-700 mb-6">
-                Contact us for special tailor-made packages designed according to your preferences
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="bg-purple-600 text-white px-8 py-3 rounded-full font-bold hover:bg-purple-700 transition">
-                  Call Now: +91 98765 43210
-                </button>
-                <button className="bg-pink-600 text-white px-8 py-3 rounded-full font-bold hover:bg-pink-700 transition">
-                  Email: info@bengaltourism.com
-                </button>
-              </div>
-              <p className="text-sm text-gray-600 mt-4">
-                For more pictures, offers & reviews, visit our Facebook Page
-              </p>
-              <div className="mt-6 bg-purple-100 p-4 rounded-lg">
-                <p className="text-purple-800 font-bold text-center mb-2">
-                  🎭 Experience Authentic Bengal Culture
-                </p>
-                <p className="text-sm text-purple-700 text-center">
-                  We highly recommend local Bengali cuisine - must eat with your hands for enhanced flavors
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <ContactCTA />
 
     </main>
   )

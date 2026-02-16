@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { TrendingUp, Users, DollarSign, Target, Award, Briefcase, ChevronRight, Star } from "lucide-react";
+import { TrendingUp, Users, IndianRupee, Target, Award, Briefcase, ChevronRight, Star } from "lucide-react";
 
 const earningMethods = [
   {
@@ -24,7 +24,7 @@ const earningMethods = [
     benefits: ["Flexible schedule", "Tips and earnings", "Meet new people", "Share knowledge"]
   },
   {
-    icon: DollarSign,
+    icon: IndianRupee,
     title: "Network Marketing",
     description: "Build your network and earn through our DP growth plan",
     benefits: ["Unlimited potential", "Team support", "Training provided", "Performance bonuses"]

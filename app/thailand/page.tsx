@@ -1,7 +1,9 @@
 "use client"
 
 import Image from 'next/image'
-import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, DollarSign, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout } from 'lucide-react'
+import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout } from 'lucide-react'
+import ContactCTA from '@/components/ContactCTA'
+import PackagePricing from '@/components/PackagePricing'
 
 export default function ThailandPage() {
   return (
@@ -286,21 +288,12 @@ export default function ThailandPage() {
         </div>
       </section>
 
-      {/* ================= BOOKING CTA ================= */}
-      <section className="py-20 bg-gradient-to-r from-teal-600 to-blue-600 text-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Book Your Thailand Paradise</h2>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Special tailor-made packages designed for your perfect tropical adventure
-            </p>
-          </div>
+      <PackagePricing
+        title="Thailand Tour Packages"
+        subtitle="Choose your perfect tropical paradise duration"
+      />
 
-       
-
-       
-        </div>
-      </section>
+      <ContactCTA />
 
     </main>
   )

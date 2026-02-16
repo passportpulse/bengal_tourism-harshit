@@ -1,7 +1,9 @@
 "use client"
 
 import Image from 'next/image'
-import { Trees, Waves, MapPin, Calendar, Users, Star, Clock, Camera, Anchor, Eye, Bird, Fish, Trees as TreeIcon, Home, Ship, DollarSign, Award, Compass } from 'lucide-react'
+import { Trees, Waves, MapPin, Calendar, Users, Star, Clock, Camera, Anchor, Eye, Bird, Fish, Trees as TreeIcon, Home, Ship, IndianRupee, Award, Compass } from 'lucide-react'
+import ContactCTA from '@/components/ContactCTA'
+import PackagePricing from '@/components/PackagePricing'
 
 export default function SundarbanPage() {
   return (
@@ -551,7 +553,7 @@ export default function SundarbanPage() {
             </div>
 
             <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <DollarSign className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
+              <IndianRupee className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
               <h3 className="text-xl font-bold mb-2">Starting From</h3>
               <p className="text-green-100">₹12,000</p>
               <p className="text-sm text-green-200 mt-2">Per person for 2N/3D package</p>
@@ -579,6 +581,13 @@ export default function SundarbanPage() {
           </div>
         </div>
       </section>
+
+      <PackagePricing
+        title="Sundarban Tour Packages"
+        subtitle="Choose your perfect mangrove adventure duration"
+      />
+
+      <ContactCTA />
 
     </main>
   )

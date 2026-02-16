@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import { Church, MapPin, Calendar, Users, Star, ArrowRight, Heart, Sparkles } from 'lucide-react'
+import ContactCTA from '@/components/ContactCTA'
+import PackagePricing from '@/components/PackagePricing'
 
 export default function PilgrimageTour() {
   const pilgrimageSites = [
@@ -172,23 +174,13 @@ export default function PilgrimageTour() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-16 px-4 bg-gradient-to-r from-purple-600 to-pink-600">
-        <div className="max-w-4xl mx-auto text-center text-white">
-          <h2 className="text-3xl font-bold mb-4">Begin Your Spiritual Journey?</h2>
-          <p className="text-xl mb-8">
-            Let us guide you through the sacred path with comfort and devotion
-          </p>
-          <div className="flex gap-4 justify-center">
-            <Link href="/book-tour" className="bg-white text-purple-600 px-8 py-3 rounded-lg hover:bg-gray-100 transition font-semibold">
-              Plan Pilgrimage
-            </Link>
-            <Link href="/contact" className="border-2 border-white text-white px-8 py-3 rounded-lg hover:bg-white hover:text-purple-600 transition font-semibold">
-              Spiritual Guidance
-            </Link>
-          </div>
-        </div>
-      </section>
+         <PackagePricing 
+            title="Pilgrimage Tour Packages"
+            subtitle="Choose your perfect spiritual journey"
+          />
+    
+           
+        <ContactCTA />
     </div>
   )
 }

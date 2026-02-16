@@ -3,6 +3,8 @@
 import { useState } from "react";
 import Image from "next/image";
 import { MapPin, Calendar, Users, Star, Clock, Check, Heart, Mountain, Navigation, Camera, Tent, Coffee, Trees, Building, Globe, Sun, MapPinIcon, Utensils, Home } from "lucide-react";
+import ContactCTA from '@/components/ContactCTA';
+import PackagePricing from '@/components/PackagePricing';
 
 const destinations = [
   {
@@ -157,7 +159,7 @@ export default function VillageOffbeatPage() {
   const [activeTab, setActiveTab] = useState("hills");
 
   return (
-    <>
+    <main className="text-gray-800">
       {/* ================= HERO ================= */}
       <section className="relative h-[80vh] overflow-hidden">
         <div className="absolute inset-0">
@@ -564,6 +566,14 @@ export default function VillageOffbeatPage() {
           </div>
         </div>
       </section>
-    </>
-  )
+
+      <PackagePricing
+        title="Village Offbeat Tour Packages"
+        subtitle="Choose your perfect rural Bengal adventure duration"
+      />
+
+      <ContactCTA />
+
+    </main>
+  );
 };

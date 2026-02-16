@@ -1,7 +1,9 @@
 "use client"
 
 import Image from 'next/image'
-import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, DollarSign, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout } from 'lucide-react'
+import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout } from 'lucide-react'
+import ContactCTA from '@/components/ContactCTA'
+import PackagePricing from '@/components/PackagePricing'
 
 export default function HotelResortPage() {
   return (
@@ -223,44 +225,13 @@ export default function HotelResortPage() {
           </div>
         </div>
       </section>
-
-      {/* ================= BOOKING CTA ================= */}
-      <section className="py-20 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Book Your Premium Stay</h2>
-            <p className="text-xl text-purple-100 max-w-3xl mx-auto">
-              Exclusive accommodations ranging from luxury resorts to cozy guest houses
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <Clock className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Flexible Duration</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">1-30 Days</p>
-              <p className="text-purple-100">Custom stays available</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <Users className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Group Size</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">1-50 People</p>
-              <p className="text-purple-100">Solo to large groups</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <DollarSign className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Starting From</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">Contact</p>
-              <p className="text-purple-100">For best rates</p>
-            </div>
-          </div>
+     <PackagePricing 
+        title="Hotel & Resort Packages"
+        subtitle="Choose your perfect stay duration"
+      />
 
        
-        </div>
-      </section>
-
+    <ContactCTA />
     </main>
   )
 }

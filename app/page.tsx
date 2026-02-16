@@ -11,6 +11,7 @@ import AboutTrusted from '@/components/AboutTrusted'
 import RandomPackageSections from '@/components/RandomPackageSections'
 import HotelBookingSection from '@/components/HotelBookingSection'
 
+
 export const metadata: Metadata = {
   title: 'Bengal Tourism - Explore the Beauty of West Bengal | Official Tourism Portal',
   description: 'Discover the magic of Bengal with our curated tours and travel packages. Explore Kolkata, Darjeeling, Sundarbans, Digha and more. Book hotels, tours and experience the rich culture, heritage and natural beauty of West Bengal.',
@@ -71,7 +72,6 @@ export default function HomePage() {
 
         <WhyChooseBengal />
         {/* ================= FEATURES SECTION ================= */}
-
 
         <CTASection />
 

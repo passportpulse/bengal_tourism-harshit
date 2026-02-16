@@ -1,7 +1,9 @@
 "use client"
 
 import Image from 'next/image'
-import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, DollarSign, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout } from 'lucide-react'
+import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout } from 'lucide-react'
+import ContactCTA from '@/components/ContactCTA'
+import PackagePricing from '@/components/PackagePricing'
 
 export default function AirAmbulancePage() {
   return (
@@ -277,43 +279,12 @@ export default function AirAmbulancePage() {
           </div>
         </div>
       </section>
-
-      {/* ================= BOOKING CTA ================= */}
-      <section className="py-20 bg-gradient-to-r from-red-600 to-orange-600 text-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Book Emergency Medical Transport</h2>
-            <p className="text-xl text-red-100 max-w-3xl mx-auto">
-              Immediate response for critical medical situations with experienced teams
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <Clock className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">24/7 Emergency</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">Always Available</p>
-              <p className="text-red-100">Round-the-clock emergency response</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <Users className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Experienced Team</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">Highly Qualified</p>
-              <p className="text-red-100">Seasoned professionals</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <DollarSign className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Competitive Pricing</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">Quality Without Compromise</p>
-              <p className="text-red-100">Transparent pricing</p>
-            </div>
-          </div>
-
-      
-        </div>
-      </section>
+    <PackagePricing 
+        title="Air Ambulance Packages"
+        subtitle="Choose your perfect air ambulance service duration"
+      />
+<ContactCTA />
+    
 
     </main>
   )

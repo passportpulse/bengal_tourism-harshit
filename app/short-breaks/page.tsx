@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import { Clock, MapPin, Calendar, Users, Star, ArrowRight, Coffee, Trees, Camera, Utensils, Sparkles, Map } from 'lucide-react'
+import ContactCTA from '@/components/ContactCTA'
+import PackagePricing from '@/components/PackagePricing'
 
 export default function ShortBreaks() {
   const bengalPackages = [
@@ -585,11 +587,11 @@ export default function ShortBreaks() {
       <section className="relative h-[500px] bg-gradient-to-r from-blue-600 via-cyan-600 to-teal-600 overflow-hidden">
         <div className="absolute inset-0 bg-black/30"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
-        
+
         {/* Animated background elements */}
         <div className="absolute top-10 left-10 w-32 h-32 bg-white/10 rounded-full blur-xl animate-pulse"></div>
         <div className="absolute bottom-20 right-20 w-40 h-40 bg-white/10 rounded-full blur-xl animate-pulse delay-1000"></div>
-        
+
         <div className="relative container mx-auto px-4 h-full flex items-center justify-center">
           <div className="text-white text-center max-w-4xl">
             <div className="inline-flex items-center justify-center bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
@@ -622,7 +624,7 @@ export default function ShortBreaks() {
             </div>
             <h2 className="text-5xl font-bold text-gray-900 mb-6">Bengal Tourism Packages</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Discover West Bengal's diverse destinations with our specially curated short break packages. 
+              Discover West Bengal's diverse destinations with our specially curated short break packages.
               Each destination offers unique experiences, from cultural festivals to natural wonders.
             </p>
           </div>
@@ -634,7 +636,7 @@ export default function ShortBreaks() {
                 <div className="bg-gradient-to-r from-blue-600 to-cyan-600 p-6 relative overflow-hidden">
                   <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16"></div>
                   <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/10 rounded-full -ml-12 -mb-12"></div>
-                  
+
                   <div className="relative">
                     <div className="flex items-center justify-between mb-3">
                       <h3 className="text-2xl font-bold text-white line-clamp-1">{destination.name}</h3>
@@ -643,18 +645,18 @@ export default function ShortBreaks() {
                         <span className="text-sm font-bold text-white">{destination.rating}</span>
                       </div>
                     </div>
-                    
+
                     <div className="inline-flex items-center bg-white/20 backdrop-blur-sm px-3 py-2 rounded-full">
                       <MapPin className="w-4 h-4 mr-2 text-white" />
                       <span className="text-sm font-medium text-white">{destination.distance}</span>
                     </div>
                   </div>
                 </div>
-                
+
                 {/* Card Body */}
                 <div className="p-6">
                   <p className="text-gray-700 mb-6 leading-relaxed">{destination.description}</p>
-                  
+
                   {/* Special Feature */}
                   <div className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-4 py-3 rounded-xl mb-4 shadow-lg">
                     <span className="text-sm font-bold flex items-center gap-2">
@@ -662,7 +664,7 @@ export default function ShortBreaks() {
                       {destination.specialFeature}
                     </span>
                   </div>
-                  
+
                   {/* Cuisine */}
                   <div className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-4 py-3 rounded-xl mb-6 shadow-lg">
                     <span className="text-sm font-bold flex items-center gap-2">
@@ -670,7 +672,7 @@ export default function ShortBreaks() {
                       {destination.cuisine}
                     </span>
                   </div>
-                  
+
                   {/* Footer */}
                   <div className="flex items-center justify-between mb-6">
                     <div className="flex items-center gap-2 text-gray-600">
@@ -681,9 +683,9 @@ export default function ShortBreaks() {
                       {destination.price}
                     </div>
                   </div>
-                  
-                  <Link 
-                    href="/book-tour" 
+
+                  <Link
+                    href="/book-tour"
                     className="w-full bg-gradient-to-r from-blue-600 to-cyan-600 text-white py-4 rounded-xl hover:from-blue-700 hover:to-cyan-700 transition-all text-center block font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
                   >
                     Book Custom Package
@@ -705,7 +707,7 @@ export default function ShortBreaks() {
             </div>
             <h2 className="text-5xl font-bold text-gray-900 mb-6">Authentic Bengali Flavors</h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              We highly recommend authentic Bengali cuisine featuring Fish – Crab – Prawn – Lamb curries & Vegetable preparations & Rice, 
+              We highly recommend authentic Bengali cuisine featuring Fish – Crab – Prawn – Lamb curries & Vegetable preparations & Rice,
               Rosogolla, Mishti Doi & Sondesh. Experience the true flavors of Bengal!
             </p>
           </div>
@@ -764,32 +766,13 @@ export default function ShortBreaks() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20 px-4 bg-gradient-to-r from-blue-600 via-cyan-600 to-teal-600 relative overflow-hidden">
-        {/* Animated background elements */}
-        <div className="absolute top-10 left-10 w-32 h-32 bg-white/10 rounded-full blur-xl animate-pulse"></div>
-        <div className="absolute bottom-20 right-20 w-40 h-40 bg-white/10 rounded-full blur-xl animate-pulse delay-1000"></div>
-        
-        <div className="max-w-5xl mx-auto text-center text-white relative">
-          <div className="inline-flex items-center bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
-            <Sparkles className="w-4 h-4 mr-2" />
-            <span className="text-sm font-medium">Start Your Journey</span>
-          </div>
-          <h2 className="text-5xl font-bold mb-6">Ready for Your Bengal Adventure?</h2>
-          <p className="text-xl mb-12 max-w-3xl mx-auto leading-relaxed text-blue-100">
-            Book your perfect tailor-made package and explore the diverse destinations of West Bengal. 
-            From cultural festivals to natural wonders, your dream vacation awaits!
-          </p>
-          <div className="flex flex-wrap gap-6 justify-center">
-            <Link href="/book-tour" className="bg-gradient-to-r from-white to-gray-100 text-blue-600 px-10 py-4 rounded-xl hover:from-gray-100 hover:to-white transition-all transform hover:scale-105 font-bold text-lg shadow-2xl">
-              Design Custom Package
-            </Link>
-            <Link href="/contact" className="border-2 border-white text-white px-10 py-4 rounded-xl hover:bg-white hover:text-blue-600 transition-all transform hover:scale-105 font-bold text-lg">
-              Get Expert Suggestions
-            </Link>
-          </div>
-        </div>
-      </section>
+      <PackagePricing
+        title="Short Break Tour Packages"
+        subtitle="Choose your perfect quick getaway duration"
+      />
+
+
+      <ContactCTA />
     </div>
   )
 }

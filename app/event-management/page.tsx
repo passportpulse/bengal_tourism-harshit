@@ -3,6 +3,8 @@
 import { useState } from "react";
 import Image from "next/image";
 import { MapPin, Calendar, Users, Star, Clock, Check, Heart, Building, Briefcase, Film, GraduationCap, Phone, Mail, Award, Target, Handshake, Megaphone } from "lucide-react";
+import ContactCTA from "@/components/ContactCTA";
+import PackagePricing from "@/components/PackagePricing";
 
 const serviceCategories = [
   {
@@ -419,25 +421,11 @@ export default function EventManagementPage() {
         </div>
       </section>
 
-      {/* ================= CTA ================= */}
-      <section className="py-20 bg-gradient-to-br from-purple-600 to-pink-600">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-4xl font-black text-white mb-6">Plan Your Next Event With Us</h2>
-          <p className="text-xl text-white/90 max-w-3xl mx-auto mb-12">
-            Let our experienced team handle every detail of your event
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/contact" className="px-8 py-3 bg-white text-purple-600 font-bold rounded-xl hover:bg-gray-100 transition flex items-center">
-              <Phone className="w-5 h-5 mr-2" />
-              Contact Us
-            </a>
-            <a href="/book-tour" className="px-8 py-3 bg-white text-purple-600 font-bold rounded-xl hover:bg-gray-100 transition flex items-center">
-              <Mail className="w-5 h-5 mr-2" />
-              Get Quote
-            </a>
-          </div>
-        </div>
-      </section>
+       <PackagePricing 
+           title="Event Management Packages"
+           subtitle="Choose your perfect event management duration"
+         />
+   <ContactCTA />
     </>
   );
 }

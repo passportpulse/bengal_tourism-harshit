@@ -1,8 +1,9 @@
 "use client"
 
 import Image from 'next/image'
-import { Waves, MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, DollarSign, Award, Compass, Utensils, Fish, Beer, TreePine, Ship } from 'lucide-react'
+import { Waves, MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Fish, Beer, TreePine, Ship } from 'lucide-react'
 import PackagePricing from '@/components/PackagePricing'
+import ContactCTA from '@/components/ContactCTA'
 
 export default function DighaPage() {
   return (
@@ -195,12 +196,7 @@ export default function DighaPage() {
               </div>
             </div>
           </div>
-
-          {/* Weekend Packages Grid */}
-        <PackagePricing 
-                title="Digha Beach Packages"
-                subtitle="Choose your perfect beach getaway duration"
-              />
+\
         </div>
       </section>
 
@@ -492,7 +488,11 @@ export default function DighaPage() {
           </div>
         </div>
       </section>
-
+    <PackagePricing 
+        title="Digha Beach Packages"
+        subtitle="Choose your perfect beach getaway duration"
+      />
+<ContactCTA />
     </main>
   )
 }

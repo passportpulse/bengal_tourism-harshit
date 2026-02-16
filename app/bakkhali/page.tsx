@@ -1,8 +1,9 @@
 "use client"
 
 import Image from 'next/image'
-import { Waves, MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, DollarSign, Award, Compass, Utensils, Fish, Ship, Building, Trees, Anchor, Sparkles } from 'lucide-react'
+import { Waves, MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Fish, Ship, Building, Trees, Anchor, Sparkles } from 'lucide-react'
 import PackagePricing from '@/components/PackagePricing'
+import ContactCTA from '@/components/ContactCTA'
 
 export default function BakkhaliPage() {
   return (
@@ -431,67 +432,14 @@ export default function BakkhaliPage() {
         </div>
       </section>
 
-      {/* ================= BOOKING CTA ================= */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-cyan-600 text-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Book Your Island Adventure</h2>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Special tailor-made packages designed for your perfect coastal and spiritual journey
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <Clock className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Best Time</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">Oct - Mar</p>
-              <p className="text-blue-100">Pleasant weather</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <Users className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Group Size</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">Flexible</p>
-              <p className="text-blue-100">Custom packages</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <DollarSign className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Starting From</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">₹6,500</p>
-              <p className="text-blue-100">Per person</p>
-            </div>
-          </div>
-
-          <div className="text-center">
-            <div className="bg-white text-blue-800 rounded-2xl p-8 max-w-2xl mx-auto">
-              <h3 className="text-2xl font-bold mb-4">Ready for Coastal Paradise?</h3>
-              <p className="text-gray-700 mb-6">
-                Contact us for special tailor-made packages designed according to your preferences
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-bold hover:bg-blue-700 transition">
-                  Call Now: +91 98765 43210
-                </button>
-                <button className="bg-cyan-600 text-white px-8 py-3 rounded-full font-bold hover:bg-cyan-700 transition">
-                  Email: info@bengaltourism.com
-                </button>
-              </div>
-              <p className="text-sm text-gray-600 mt-4">
-                For more pictures, offers & reviews, visit our Facebook Page
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* ================= PACKAGE PRICING ================= */}
       <PackagePricing 
         title="Bakkhali & Islands Tour Packages"
         subtitle="Choose your perfect coastal getaway duration"
       />
-
+ 
+<ContactCTA />
     </main>
   )
 }

@@ -1,7 +1,9 @@
 "use client"
 
 import Image from 'next/image'
-import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, DollarSign, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout, Coffee, Leaf, TreePine, Stethoscope, HeartPulse, Shield, Globe, Phone, Mail, CheckCircle, AlertCircle, Activity, Brain, Bone, Eye, User } from 'lucide-react'
+import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout, Coffee, Leaf, TreePine, Stethoscope, HeartPulse, Shield, Globe, Phone, Mail, CheckCircle, AlertCircle, Activity, Brain, Bone, Eye, User } from 'lucide-react'
+import ContactCTA from '@/components/ContactCTA'
+import PackagePricing from '@/components/PackagePricing'
 
 export default function MedicalTourismPage() {
   return (
@@ -72,7 +74,7 @@ export default function MedicalTourismPage() {
             {/* Cost Advantage */}
             <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 text-center hover:shadow-xl transition">
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <DollarSign className="w-8 h-8 text-blue-600" />
+                <IndianRupee className="w-8 h-8 text-blue-600" />
               </div>
               <h3 className="text-xl font-bold mb-2">Reduced Cost</h3>
               <p className="text-gray-700">
@@ -274,7 +276,7 @@ export default function MedicalTourismPage() {
             {/* Apollo Gleneagles */}
             <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
               <div className="bg-gradient-to-r from-blue-500 to-cyan-500 p-6 text-white">
-                <DollarSign className="w-8 h-8 mb-2" />
+                <IndianRupee className="w-8 h-8 mb-2" />
                 <h3 className="text-xl font-bold">HIGHEST BILLING HOSPITAL</h3>
                 <p className="text-2xl font-bold mt-2">APOLLO GLENEAGLES</p>
                 <p className="text-sm opacity-90">KOLKATA</p>
@@ -517,7 +519,13 @@ export default function MedicalTourismPage() {
           </div>
         </div>
       </section>
+     <PackagePricing 
+        title="Medical Tourism Packages"
+        subtitle="Choose your perfect healthcare destination"
+      />
 
+       
+    <ContactCTA />
     </main>
   )
 }

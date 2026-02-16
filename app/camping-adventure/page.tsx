@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { MapPin, Calendar, Users, Star, Clock, Check, Heart, Navigation, Camera, Utensils, Trees, Fish, Waves, Mountain, Building, Tent, Shield, Sun } from "lucide-react";
 import PackagePricing from '@/components/PackagePricing';
+import ContactCTA from "@/components/ContactCTA";
 
 const highlights = [
   {
@@ -478,6 +479,8 @@ export default function CampingAdventurePage() {
         title="Camping Adventure Tour Packages"
         subtitle="Choose your perfect outdoor adventure duration"
       />
+         
+      <ContactCTA />
     </>
   );
 }

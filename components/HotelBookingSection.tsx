@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { Search, MapPin, Calendar, Users, DollarSign } from "lucide-react"
+import { Search, MapPin, Calendar, Users, IndianRupee } from "lucide-react"
 
 const popularDestinations = [
   { name: "Darjeeling", image: "https://images.unsplash.com/photo-1622308644420-b20142dc993c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", price: "₹2,500/night" },
@@ -118,7 +118,7 @@ export default function HotelBookingSection({ className = "" }: { className?: st
               href="/book-hotel"
               className="flex-1  text-red-600 border-red-600 border py-4 px-6 rounded-xl font-semibold transition-all duration-300 flex items-center justify-center gap-2 shadow-lg"
             >
-              <DollarSign className="w-5 h-5" />
+              <IndianRupee className="w-5 h-5" />
               Best Deals
             </Link>
           </div>

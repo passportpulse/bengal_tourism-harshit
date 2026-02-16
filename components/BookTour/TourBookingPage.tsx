@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowLeft, Calendar, Users, MapPin, Phone, Mail, CreditCard, Percent, User, Home, Clock, DollarSign } from "lucide-react";
+import { ArrowLeft, Calendar, Users, MapPin, Phone, Mail, CreditCard, Percent, User, Home, Clock, IndianRupee } from "lucide-react";
 const payments = [
   {
     title: "BANK TRANSFER / CASH DEPOSIT",
@@ -506,7 +506,7 @@ export default function TourBookingPage() {
               {/* Pricing Section */}
               <div>
                 <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-                  <DollarSign className="text-red-600" />
+                  <IndianRupee className="text-red-600" />
                   Pricing Details
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

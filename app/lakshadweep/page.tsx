@@ -1,7 +1,9 @@
 "use client"
 
 import Image from 'next/image'
-import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, DollarSign, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout } from 'lucide-react'
+import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout } from 'lucide-react'
+import ContactCTA from '@/components/ContactCTA'
+import PackagePricing from '@/components/PackagePricing'
 
 export default function LakshadweepPage() {
   return (
@@ -225,43 +227,13 @@ export default function LakshadweepPage() {
         </div>
       </section>
 
-      {/* ================= BOOKING CTA ================= */}
-      <section className="py-20 bg-gradient-to-r from-cyan-600 to-blue-600 text-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Book Your Lakshadweep Paradise</h2>
-            <p className="text-xl text-cyan-100 max-w-3xl mx-auto">
-              Exclusive packages to India's most beautiful coral islands
-            </p>
-          </div>
+     <PackagePricing 
+        title="Lakshadweep Tour Packages"
+        subtitle="Choose your perfect coral island adventure"
+      />
 
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <Clock className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Flexible Duration</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">3-5 Days</p>
-              <p className="text-cyan-100">Custom packages available</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <Users className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Group Size</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">2-20 People</p>
-              <p className="text-cyan-100">Private & group tours</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <DollarSign className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Starting From</h3>
-              <p className="text-3xl font-bold text-yellow-400 mb-2">₹20,999</p>
-              <p className="text-cyan-100">Per person</p>
-            </div>
-          </div>
-
-      
-        </div>
-      </section>
-
+       
+    <ContactCTA />
     </main>
   )
 }

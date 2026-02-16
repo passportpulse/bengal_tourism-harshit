@@ -72,7 +72,7 @@ export default function ContactCTA() {
         {/* Right Image */}
         <div className="relative w-full h-[400px]">
           <Image
-            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+            src="/newsletter.png"
             alt="Travel Image"
             fill
             className="object-cover rounded-2xl shadow-lg"

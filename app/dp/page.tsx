@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { User, Lock, TrendingUp, Users2, Award, DollarSign, ArrowRight } from "lucide-react";
+import { User, Lock, TrendingUp, Users2, Award, IndianRupee, ArrowRight } from "lucide-react";
 
 const growthStages = [
   {
@@ -175,7 +175,7 @@ export default function DPPage() {
               <h3 className="text-2xl font-black text-gray-900 mb-4 text-center">Cash Back Benefits</h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="text-center">
-                  <DollarSign className="w-12 h-12 text-green-600 mx-auto mb-3" />
+                  <IndianRupee className="w-12 h-12 text-green-600 mx-auto mb-3" />
                   <h4 className="font-bold text-gray-900 mb-2">Instant Cash Back</h4>
                   <p className="text-sm text-gray-600">Get cash back on every successful referral</p>
                 </div>
@@ -217,7 +217,7 @@ export default function DPPage() {
                   <p className="text-gray-700 mb-4">Reach different stages by building your team to specific targets.</p>
                   
                   <h4 className="font-bold text-gray-900 mb-3 flex items-center gap-2">
-                    <DollarSign className="w-5 h-5 text-blue-600" />
+                    <IndianRupee className="w-5 h-5 text-blue-600" />
                     Unlimited Potential
                   </h4>
                   <p className="text-gray-700">No limits on earnings - the more you grow, the more you earn.</p>
