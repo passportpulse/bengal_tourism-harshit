@@ -73,9 +73,9 @@ export default function HimachalTourismPage() {
           </div>
 
           <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 shadow-xl">
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="">
               <div>
-                <div className="space-y-6">
+                <div className="space-y-6 grid md:grid-cols-2 gap-8">
                   {/* Day 1 */}
                   <div className="border-l-4 border-blue-500 pl-6">
                     <div className="flex items-center gap-3 mb-2">
@@ -228,9 +228,9 @@ export default function HimachalTourismPage() {
           </div>
 
           <div className="bg-white rounded-2xl shadow-xl p-8">
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className=" gap-8">
               <div>
-                <div className="space-y-6">
+                <div className="space-y-6 grid md:grid-cols-2 gap-8">
                   {/* Day 1 */}
                   <div className="border-l-4 border-orange-500 pl-6">
                     <div className="flex items-center gap-3 mb-2">
@@ -244,7 +244,21 @@ export default function HimachalTourismPage() {
                       Dinner & Overnight at Hotel/Resort in Chandigarh.
                     </p>
                   </div>
-
+  {/* Day 3 */}
+                  <div className="border-l-4 border-orange-500 pl-6">
+                    <div className="flex items-center gap-3 mb-2">
+                      <Calendar className="w-5 h-5 text-orange-600" />
+                      <h3 className="text-xl font-bold">Day 3: Departure</h3>
+                    </div>
+                    <p className="text-gray-700 leading-relaxed">
+                      Breakfast & check-out from Hotel. 
+                      Visit some local area if time permits. 
+                      Lunch en-route. 
+                      Then leave to drop-off at Chandigarh Airport / Station for your onward / return train journey 
+                      flight to your destination as per your departure timing. 
+                      Tour ends...
+                    </p>
+                  </div>
                   {/* Day 2 */}
                   <div className="border-l-4 border-orange-500 pl-6">
                     <div className="flex items-center gap-3 mb-2">
@@ -260,21 +274,7 @@ export default function HimachalTourismPage() {
                     </p>
                   </div>
 
-                  {/* Day 3 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 3: Departure</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Breakfast & check-out from Hotel. 
-                      Visit some local area if time permits. 
-                      Lunch en-route. 
-                      Then leave to drop-off at Chandigarh Airport / Station for your onward / return train journey 
-                      flight to your destination as per your departure timing. 
-                      Tour ends...
-                    </p>
-                  </div>
+                
 
                   <div className="bg-orange-100 rounded-xl p-6 mt-8">
                     <h4 className="font-bold text-orange-800 mb-3">Chandigarh Highlights</h4>

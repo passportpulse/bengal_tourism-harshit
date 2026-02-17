@@ -272,11 +272,11 @@ export default function OdishaTourismPage() {
             title="CHANDRABHAGA "
             subtitle="Add-on (or) Separately with [KONARK- WATER SPORTS-2N/3D]"
             content={[
-            `Day –1: Start of tour: Our representative will receive you at Bhubaneswar Airport (extra charge) / Puri Station in the morning at (06-10 am). Drive to Chandrabhaga Sea Beach .Check into Hotel/Resort at Konark (or) Swiss Tent at Chandrabhaga beach (extra cost).Then visit the Konark Sun Temple, a must visit place while at Konark. Lunch en-route. Evening free to visit the local market. Dinner & Overnight at  Hotel / Resort (or) Swiss Cottages at Chandrabhaga / Konark.`,
+              `Day –1: Start of tour: Our representative will receive you at Bhubaneswar Airport (extra charge) / Puri Station in the morning at (06-10 am). Drive to Chandrabhaga Sea Beach .Check into Hotel/Resort at Konark (or) Swiss Tent at Chandrabhaga beach (extra cost).Then visit the Konark Sun Temple, a must visit place while at Konark. Lunch en-route. Evening free to visit the local market. Dinner & Overnight at  Hotel / Resort (or) Swiss Cottages at Chandrabhaga / Konark.`,
 
-`Day –2: Enjoy an early morning sunrise over the Bay of Bengal. After breakfast, explore & enjoy the various Water Sports activities on offer.  Lunch break. Return  & evening free to explore local area near the sea beach area. Dinner &   Overnight at  Hotel / Resort (or) Swiss Cottages at Chandrabhaga / Konark.`,
+              `Day –2: Enjoy an early morning sunrise over the Bay of Bengal. After breakfast, explore & enjoy the various Water Sports activities on offer.  Lunch break. Return  & evening free to explore local area near the sea beach area. Dinner &   Overnight at  Hotel / Resort (or) Swiss Cottages at Chandrabhaga / Konark.`,
 
-`Day –3: After breakfast, Check-out (10.00 am) from Hotel. Proceed for your onward journey. Visit some places of local  interest (as time permit). Lunch en-route. Then proceed towards Bhubaneswar Airport (extra charge)/ Puri  Railway Station,  in AC vehicle & drop at your point before (06.00pm) for your Forwarding Journey. Tour ends.`
+              `Day –3: After breakfast, Check-out (10.00 am) from Hotel. Proceed for your onward journey. Visit some places of local  interest (as time permit). Lunch en-route. Then proceed towards Bhubaneswar Airport (extra charge)/ Puri  Railway Station,  in AC vehicle & drop at your point before (06.00pm) for your Forwarding Journey. Tour ends.`
             ]}
           />
 

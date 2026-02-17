@@ -1,5 +1,7 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
+  "/andaman-nicobar-tourism/page": "app/andaman-nicobar-tourism/page.js",
+  "/assam-guwahati-tourism/page": "app/assam-guwahati-tourism/page.js",
   "/bali/page": "app/bali/page.js",
   "/bhutan/page": "app/bhutan/page.js",
   "/boat-stay/page": "app/boat-stay/page.js",
@@ -9,6 +11,9 @@
   "/dubai/page": "app/dubai/page.js",
   "/event-management/page": "app/event-management/page.js",
   "/film-shooting/page": "app/film-shooting/page.js",
+  "/goa-tourism/page": "app/goa-tourism/page.js",
+  "/himachal-tourism/page": "app/himachal-tourism/page.js",
+  "/jammu-kashmir-tourism/page": "app/jammu-kashmir-tourism/page.js",
   "/kerala-tourism/page": "app/kerala-tourism/page.js",
   "/kolkata/page": "app/kolkata/page.js",
   "/lakshadweep/page": "app/lakshadweep/page.js",
@@ -21,6 +26,9 @@
   "/packages/foreign-tours/page": "app/packages/foreign-tours/page.js",
   "/packages/india/page": "app/packages/india/page.js",
   "/page": "app/page.js",
+  "/rajasthan-tourism/page": "app/rajasthan-tourism/page.js",
+  "/sikkim-tourism/page": "app/sikkim-tourism/page.js",
+  "/silk-route-tourism/page": "app/silk-route-tourism/page.js",
   "/singapore/page": "app/singapore/page.js",
   "/sundarban/page": "app/sundarban/page.js"
 }

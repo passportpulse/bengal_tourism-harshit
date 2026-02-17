@@ -71,9 +71,9 @@ export default function AndamanNicobarTourismPage() {
           </div>
 
           <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 shadow-xl">
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="">
               <div>
-                <div className="space-y-6">
+                <div className="space-y-6 grid md:grid-cols-2 gap-8">
                   {/* Day 1 */}
                   <div className="border-l-4 border-blue-500 pl-6">
                     <div className="flex items-center gap-3 mb-2">
@@ -184,9 +184,9 @@ export default function AndamanNicobarTourismPage() {
           </div>
 
           <div className="bg-white rounded-2xl shadow-xl p-8">
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="">
               <div>
-                <div className="space-y-6">
+                <div className="space-y-6 grid md:grid-cols-2 gap-8">
                   {/* Day 1 */}
                   <div className="border-l-4 border-green-500 pl-6">
                     <div className="flex items-center gap-3 mb-2">
@@ -278,9 +278,9 @@ export default function AndamanNicobarTourismPage() {
           </div>
 
           <div className="bg-white rounded-2xl shadow-xl p-8">
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="">
               <div>
-                <div className="space-y-6">
+                <div className="space-y-6 grid md:grid-cols-2 gap-8">
                   {/* Day 1 */}
                   <div className="border-l-4 border-green-500 pl-6">
                     <div className="flex items-center gap-3 mb-2">
@@ -370,9 +370,9 @@ export default function AndamanNicobarTourismPage() {
           </div>
 
           <div className="bg-white rounded-2xl shadow-xl p-8">
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="">
               <div>
-                <div className="space-y-6">
+                <div className="space-y-6 grid md:grid-cols-2 gap-8">
                   {/* Day 1 */}
                   <div className="border-l-4 border-orange-500 pl-6">
                     <div className="flex items-center gap-3 mb-2">
