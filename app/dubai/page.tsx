@@ -13,7 +13,7 @@ export default function DubaiPage() {
       <section className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1512454320501-8f261f2d6a?w=1920&h=1080&fit=crop"
+            src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHViYWl8ZW58MHx8MHx8fDA%3D"
             alt="Dubai skyline with Burj Khalifa and modern architecture"
             className="w-full h-full object-cover"
           />
@@ -60,214 +60,89 @@ export default function DubaiPage() {
         </div>
       </section>
 
-      {/* ================= MAIN TOUR PACKAGES ================= */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Dubai Tour Packages</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Special tailor-made packages designed for your perfect luxury experience
-            </p>
-          </div>
+        <div className="bg-gray-50 py-20 px-6 md:px-12">
+      <div className="max-w-7xl mx-auto space-y-16">
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Burj Khalifa Desert Safari */}
-            <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-orange-400 to-yellow-500 flex items-center justify-center">
-                <Mountain className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Burj Khalifa Desert Safari</h3>
-                <p className="text-gray-700 mb-4">6 Nights / 7 Days of luxury desert adventure</p>
-                <div className="bg-orange-100 p-4 rounded-lg">
-                  <h4 className="font-bold mb-2">Desert Safari Experience</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• 2-hour Hummer limo ride</li>
-                    <li>• Desert BBQ dinner</li>
-                    <li>• Traditional entertainment</li>
-                    <li>• Luxury desert camp</li>
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-orange-600 font-semibold">Premium Package</span>
-                  <button className="bg-orange-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-orange-700 transition">
-                    Book Now
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            {/* Dhow Cruise */}
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
-                <Ship className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Traditional Dhow Cruise</h3>
-                <p className="text-gray-700 mb-4">Evening cruise with dinner and entertainment</p>
-                <div className="bg-blue-100 p-4 rounded-lg">
-                  <h4 className="font-bold mb-2">Cruise Highlights</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• Traditional wooden dhow</li>
-                    <li>• Dubai Marina views</li>
-                    <li>• Live entertainment</li>
-                    <li>• Gourmet dinner</li>
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-blue-600 font-semibold">Evening Cruise</span>
-                  <button className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-700 transition">
-                    Book Now
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            {/* Ferrari World */}
-            <div className="bg-gradient-to-br from-red-50 to-pink-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-red-400 to-pink-500 flex items-center justify-center">
-                <Car className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Ferrari World Abu Dhabi</h3>
-                <p className="text-gray-700 mb-4">Ultimate luxury car experience with city tour</p>
-                <div className="bg-red-100 p-4 rounded-lg">
-                  <h4 className="font-bold mb-2">Ferrari Experience</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• Ferrari World visit</li>
-                    <li>• Abu Dhabi city tour</li>
-                    <li>• Luxury shopping</li>
-                    <li>• Gourmet lunch</li>
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-red-600 font-semibold">Luxury Experience</span>
-                  <button className="bg-red-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-red-700 transition">
-                    Book Now
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            {/* Dolphin Show */}
-            <div className="bg-gradient-to-br from-green-50 to-teal-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-green-400 to-teal-500 flex items-center justify-center">
-                <Fish className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Dolphin Show</h3>
-                <p className="text-gray-700 mb-4">Amazing dolphin entertainment with VIP access</p>
-                <div className="bg-green-100 p-4 rounded-lg">
-                  <h4 className="font-bold mb-2">Show Features</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• VIP dolphin show access</li>
-                    <li>• Dubai Mall visit</li>
-                    <li>• Ski Dubai tickets</li>
-                    <li>• Private transfers</li>
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-green-600 font-semibold">Family Fun</span>
-                  <button className="bg-green-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-green-700 transition">
-                    Book Now
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            {/* Burj Khalifa & Dubai Mall */}
-            <div className="bg-gradient-to-br from-purple-50 to-indigo-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-purple-400 to-indigo-500 flex items-center justify-center">
-                <ShoppingBag className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Burj Khalifa & Dubai Mall</h3>
-                <p className="text-gray-700 mb-4">Shopping paradise with fountain show and transfers</p>
-                <div className="bg-purple-100 p-4 rounded-lg">
-                  <h4 className="font-bold mb-2">Shopping Experience</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• Dubai Mall shopping</li>
-                    <li>• Fountain show viewing</li>
-                    <li>• Luxury brand shopping</li>
-                    <li>• Private transfers</li>
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-purple-600 font-semibold">Shopping Paradise</span>
-                  <button className="bg-purple-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-purple-700 transition">
-                    Book Now
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
+        {/* HEADER */}
+        <div className="text-center space-y-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-amber-600">
+            Visit Dubai with Bengal Tourism
+          </h1>
+          <p className="text-gray-700 text-lg">
+            Special Tailor made Combination Package
+          </p>
+          <p className="text-gray-600">
+            Number of Days & Cost can be designed on Request.
+          </p>
         </div>
-      </section>
 
-      {/* ================= LUXURY ATTRACTIONS ================= */}
-      <section className="py-20 bg-gradient-to-br from-yellow-50 to-orange-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Luxury Attractions</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              World-class attractions and premium experiences in Dubai
-            </p>
-          </div>
+        {/* CIRCUIT TITLE */}
+        <div className="text-center space-y-2">
+          <h2 className="text-3xl font-bold text-gray-800">DUBAI</h2>
+          <p className="font-semibold text-gray-700">
+            Circuit with [BURJ KHALIFA – DESERT SAFARI -6N/7D]
+          </p>
+        </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Atlantis */}
-            <div className="bg-white rounded-2xl p-8 text-center hover:shadow-xl transition">
-              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Waves className="w-8 h-8 text-blue-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Atlantis Water Park</h3>
-              <p className="text-gray-700 mb-4">Ultimate water park with marine life and adventure</p>
-              <div className="bg-blue-100 p-4 rounded-lg">
-                <h4 className="font-bold mb-2">Attractions</h4>
-                <ul className="space-y-1 text-sm text-gray-700">
-                  <li>• Water slides & pools</li>
-                  <li>• Marine life exhibits</li>
-                  <li>• Adventure activities</li>
-                  <li>• Underwater tunnel</li>
-                </ul>
-                <div className="mt-4">
-                  <span className="text-blue-600 font-semibold">Water Adventure</span>
-                  <p className="text-sm text-gray-600">Full day access</p>
-                </div>
-              </div>
-            </div>
+        {/* DAY CARDS */}
+        <div className="space-y-10 grid md:grid-cols-2 gap-10 grid-col-1">
 
-            {/* Ski Dubai */}
-            <div className="bg-white rounded-2xl p-8 text-center hover:shadow-xl transition">
-              <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Mountain className="w-8 h-8 text-green-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Ski Dubai</h3>
-              <p className="text-gray-700 mb-4">Indoor ski resort with world-class facilities</p>
-              <div className="bg-green-100 p-4 rounded-lg">
-                <h4 className="font-bold mb-2">Ski Experience</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• Indoor skiing</li>
-                    <li>• Snow activities</li>
-                    <li>• Luxury facilities</li>
-                    <li>• All equipment included</li>
-                  </ul>
-                </div>
-              <div className="mt-4">
-                  <span className="text-green-600 font-semibold">Winter Sports</span>
-                  <p className="text-sm text-gray-600">Year-round adventure</p>
-                </div>
-              </div>
-            </div>
-          </div>
-       
-      </section>
+          <DayCard title="Day – 1">
+            Start of Tour: Board Flight from Kolkata / Delhi / Mumbai Airport. Arrival at Dubai Airport Terminal around (05-06 pm). Transfer to Hotel. Check-in. Evening free. Dinner & Overnight at Hotel Grand Excelsior / Similar in Dubai.
+          </DayCard>
 
+          <DayCard title="Day – 2">
+            Desert Safari: After breakfast in the Hotel around (07-09 am) – 9:00 am. Then for a 02 Hrs Limo Ride (optional). Lunch en-route or at Restaurant of your choice.Then proceed for Desert Safari on Hummer with BBQ Dinner included.  Return to Hotel. Overnight at Hotel Grand Excelsior / Similar at Dubai.
+          </DayCard>
+
+          <DayCard title="Day – 3">
+            Dhow Cruise: After breakfast in the Hotel around (07:09 am). Morning free for yourself for shopping on your own. Lunch en-route or at Restaurant of your choice. In the Evening, proceed for the Dhow Cruise with Dinner included. Return to Hotel. Overnight At Hotel Grand Excelsior / Similar at Dubai.
+          </DayCard>
+
+          <DayCard title="Day – 4">
+            Ferrari World: After breakfast in the Hotel around (07:09 am). Proceed for Abu Dhabi City Tour with Ferrari World. Lunch en-route or at Restaurant of your choice. Return in the evening. Free for Shopping. Dinner & Overnight at Hotel Grand Excelsior / Similar at Dubai.
+          </DayCard>
+
+          <DayCard title="Day – 5">
+            Burj Khalifa & Dubai Mall: After breakfast in the Hotel around (07:09 am). Proceed for Dolphin Show with entry ticket with Pvt. transfer. Visit Ski Dubai entry ticket with Pvt. Transfer. Lunch en-route or at Restaurant of your choice. Return to Hotel. Pick-up for tour of Burj Khalifa around (05:00pm) from Hotel for Dubai Mall & Fountain Show. Return transfer will be arranged by Guest themselves. Dinner & Overnight stay at Hotel Grand Excelsior / Similar at Dubai.
+          </DayCard>
+
+          <DayCard title="Day – 5 (Alternatively)">
+            ALTERNATIVELY: After breakfast in the Hotel around (07:09 am). Full day activity as per your special requirement or choice. Change of Hotel to Atlantis / Similar if requested can be arranged at (Extra Cost). Lunch en-route or at Restaurant/Hotel of your choice; say Atlantis. Dinner & Overnight at Hotel Atlantis / Similar at Dubai.
+          </DayCard>
+
+          <DayCard title="Day – 6">
+            After breakfast in the Hotel around (07:09 am). Free access to Aqua- Venture & Lost Chamber. Lunch en-route or at Restaurant of your choice & free for leisure, shopping on your own. Overnight at Hotel Atlantis (Extra Cost) / Similar at Dubai.
+          </DayCard>
+
+          <DayCard title="Day – 7">
+            Check-out: After breakfast in the Hotel around (07:09 am). Check-out by 11am-12:00 pm. Departure for the Airport & drop 4 Hrs prior to your flight timing. Have Lunch of your choice at the Airport Terminal. Tour ends.
+          </DayCard>
+
+        </div>
+
+      </div>
+    </div>
 
 
 
  
 <ContactCTA />
     </main>
+  )
+}
+
+
+/* Reusable Day Card Component */
+function DayCard({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-amber-500">
+      <h2 className="text-2xl font-semibold text-amber-600 mb-4">
+        {title}
+      </h2>
+      <p className="text-gray-700 leading-8 whitespace-pre-line">
+        {children}
+      </p>
+    </div>
   )
 }

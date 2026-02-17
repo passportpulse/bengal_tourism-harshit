@@ -21,20 +21,20 @@ export default function MaldivesPage() {
         </div>
 
         <div className="relative h-full flex items-center justify-center text-white px-6">
-          <div className="max-w-4xl">
+          <div className="max-w-4xl mx-auto">
             <div className="flex items-center justify-center gap-2 mb-4">
               <Sun className="w-6 h-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold tracking-wide">Maldives Tropical Heaven</span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <h1 className="text-5xl md:text-7xl text-center  font-bold mb-6 leading-tight">
               Maldives
               <span className="block text-3xl md:text-5xl mt-2 text-blue-300">
                 Luxury Islands • Overwater Villas • Coral Paradise
               </span>
             </h1>
 
-            <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl  text-center  md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
               Experience the ultimate luxury destination with overwater villas, 
               pristine beaches, and world-class diving in crystal clear waters
             </p>

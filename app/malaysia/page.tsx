@@ -60,119 +60,86 @@ export default function MalaysiaPage() {
         </div>
       </section>
 
-      {/* ================= MAIN TOUR PACKAGES ================= */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Malaysia Tour Packages</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Special tailor-made packages designed for your perfect tropical adventure
-            </p>
-          </div>
+    <div className="bg-gray-50 py-20 px-6 md:px-12">
+      <div className="max-w-7xl mx-auto space-y-16">
 
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* Kuala Lumpur Tour */}
-            <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center">
-                <Building className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Kuala Lumpur City Tour</h3>
-                <p className="text-gray-700 mb-4">4 Nights / 5 Days exploring vibrant Kuala Lumpur</p>
-                <div className="bg-orange-100 p-4 rounded-lg">
-                  <h4 className="font-bold mb-2">City Experience</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• King's Palace visit</li>
-                    <li>• National Monument viewing</li>
-                    <li>• National Mosque exploration</li>
-                    <li>• Jamed Mosque visit</li>
-                    <li>• Merdeka Square shopping</li>
-                    <li>• Cultural performances</li>
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-orange-600 font-semibold">Urban Adventure</span>
-                  <button className="bg-orange-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-orange-700 transition">
-                    Book Now
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            {/* Genting Highlands & Batu Caves */}
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
-                <Mountain className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Genting Highlands Adventure</h3>
-                <p className="text-gray-700 mb-4">2 Nights / 3 Days of highland exploration</p>
-                <div className="bg-blue-100 p-4 rounded-lg">
-                  <h4 className="font-bold mb-2">Highland Experience</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• Cable car ride to Genting Highlands</li>
-                    <li>• Snow world tour and activities</li>
-                    <li>• Mountain retreat at 6,000 feet</li>
-                    <li>• Panoramic views</li>
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-blue-600 font-semibold">Mountain Paradise</span>
-                  <button className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-700 transition">
-                    Book Now
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
+        {/* HEADER */}
+        <div className="text-center space-y-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-blue-700">
+            Malaysia Tour Itinerary
+          </h1>
+          <p className="text-gray-600">
+            Kuala Lumpur & Genting Highlands – 4 Days
+          </p>
         </div>
-      </section>
 
-      {/* ================= CULTURAL ATTRACTIONS ================= */}
-      <section className="py-20 bg-gradient-to-br from-yellow-50 to-orange-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Cultural Attractions</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Rich cultural heritage and natural wonders of Malaysia
-            </p>
-          </div>
+        {/* GRID */}
+        <div className="grid md:grid-cols-2 gap-10 items-stretch">
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Traditional Villages */}
-            <div className="bg-white rounded-2xl p-8 text-center hover:shadow-xl transition">
-              <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Utensils className="w-8 h-8 text-orange-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Traditional Villages</h3>
-              <p className="text-gray-700 mb-4">
-                Experience authentic Malay village life, traditional crafts, and cultural performances 
-                in the highlands. Visit indigenous communities and learn about their heritage.
-              </p>
-              <div className="flex items-center gap-2 text-orange-600">
-                <MapPin className="w-4 h-4" />
-                <span className="text-sm">Highland Communities</span>
-              </div>
-            </div>
-
-            {/* Modern Architecture */}
-            <div className="bg-white rounded-2xl p-8 text-center hover:shadow-xl transition">
-              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Building className="w-8 h-8 text-blue-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Modern Marvels</h3>
-              <p className="text-gray-700 mb-4">
-                Twin Towers, Marina Bay Sands, ArtScience Museum, 
-                and other architectural wonders showcasing Malaysia's modern development.
-              </p>
-              <div className="flex items-center gap-2 text-blue-600">
-                <MapPin className="w-4 h-4" />
-                <span className="text-sm">Architectural Icons</span>
-              </div>
+          {/* DAY 1 */}
+          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-blue-500 h-full flex flex-col min-h-[480px]">
+            <h2 className="text-2xl font-semibold text-blue-600 mb-4">
+              Day – 1 : Arrival & Kuala Lumpur City Tour
+            </h2>
+            <div className="text-gray-700 leading-8 flex-grow">
+             Arrival at Kuala Lumpur Airport by Air Asia Airlines and Meet and greet at airport and t transfer to hotel. . Pick up  from hotel, we proceed for panoramic city tour of Kuala Lumpur to get a closer look at Kuala Lumpur's most famou landmarks, like the King's Palace, National Monument, National Mosque, Jamed Mosque, Merdeka Square and National Museum. Admire Malaysia's most renowned structure, the world famous Petronas Twin Towers and enjoy a photo stop. See the magnificent Menara K L Tower - the tallest tower in Southeast Asia. Evening you can shop around at Loyat Plaza, Lot 10 or Bukit Bitang area of Kuala Lampur city. Overnight at hotel.
             </div>
           </div>
+
+        
+
+          {/* DAY 3 */}
+          <div className="bg-white shadow-xl rounded-3xl p-8 border-r-4 border-purple-500 h-full flex flex-col min-h-[480px]">
+            <h2 className="text-2xl font-semibold text-purple-600 mb-4">
+              Day – 3 : Genting Highlands
+            </h2>
+            <div className="text-gray-700 leading-8 flex-grow">
+            Enjoy your breakfast in the morning, check out from hotel and Transfer to( 67 Kms approx ) Genting highland. You will be taken an aerial route (Cable car) to top of the hills. Arrival at Genting highland, check in at hotel. Enjoy snow world tour (ticket only) in Genting. Genting Highlands which is a mountain retreat cum casino 6,000 feet above sea- level and located a moderate distance away from the city. We'll stop at the skyway cable-car station for a ride up by cable-car, where you'll be amazed at the magnificent view of mountains and rain forest scenery. There are many things to do in Genting Highlands, today. Overnight at hotel.
+            </div>
+          </div>
+  {/* DAY 2 */}
+          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-green-500 h-full flex flex-col min-h-[480px]">
+            <h2 className="text-2xl font-semibold text-green-600 mb-4">
+              Day – 2 : Batu Caves & Firefly Tour
+            </h2>
+            <div className="text-gray-700 leading-8 flex-grow">
+           Morning after breakfast. Pick up at 11.00A.M from hotel’s lobby and proceed to Batu Caves for a short tour. Batu Caves that comprises of three caverns and several smaller caves. It is the shrine of Lord Murugah, a Hindu deity – a flight of 272 steps lead up to the temple cave. Tour continues to Kuala Selangor town in the quiet hamlet of Kampung Kuantan, one of the largest firefly colonies in the world. On arrival at Kuala Selangor, visit “Kota Melawati” formerly known as “Fort Altingsburg”, the execution block, royal mausoleum and colonial buildings. A bird sanctuary park at the foot of Bukit Melawati is an ideal place for bird watchers to watch migratory birds. Also found are silvered – leaf monkeys, butterflies etc. Next proceed to Kampung Kuantan – the highlight of the tour. Row upstream in a small un-motorised boat (tongkang) in the quiet darkness to witness the blinking trees. This scintillating display of fireflies portrays an image of a flashing Christmas tree. The synchronized, rhythmic flashing is produced by the thousands of fireflies found in the mangrove swamp of Kampung Kuantan. The skilled local oarsmen make this experience a memorable and unforgettable one. Dinner at a famous seafood restaurant. Transfer back to hotel 
+            </div>
+          </div>
+          {/* DAY 4 */}
+          <div className="bg-white shadow-xl rounded-3xl p-8 border-r-4 border-red-500 h-full flex flex-col min-h-[480px]">
+            <h2 className="text-2xl font-semibold text-red-600 mb-4">
+              Day – 4 : Departure
+            </h2>
+            <div className="text-gray-700 leading-8 flex-grow">
+             Morning after breakfast drive to Kuala Lampur Airport at airport to catch your flight to your respective destination. End of the wonderful memory of Malaysia.
+
+
+            </div>
+          </div>
+
         </div>
-      </section>
+
+        {/* EXTENSION */}
+        <div className="bg-blue-50 border border-blue-200 rounded-3xl p-8 text-center shadow-lg">
+          <p className="text-gray-700 leading-8">
+            (You may extend your tour for 3-4 more days covering Singapore / Bali / Indonesia at a minimum cost / free*)
+          </p>
+        </div>
+
+        {/* RECOMMENDED */}
+        <div className="bg-white rounded-3xl shadow-xl p-8 text-center">
+          <h3 className="text-2xl font-semibold text-indigo-600 mb-4">
+            Recommended Stay
+          </h3>
+          <p className="text-gray-700 leading-8">
+            To stay at a resort of our choice at this destination.
+            See some names of Hotels, Resorts, Home Stay where we keep our Guests.
+          </p>
+        </div>
+
+      </div>
+    </div>
 
        
     <ContactCTA />

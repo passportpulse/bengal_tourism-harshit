@@ -96,6 +96,106 @@ export default function DighaPage() {
         </div>
       </section>
 
+       <div className="bg-gray-50 py-16 px-6 md:px-12">
+      <div className="max-w-7xl mx-auto space-y-16">
+
+        {/* Digha Section */}
+        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
+          <h2 className="text-4xl font-bold text-blue-700 border-b-4 border-blue-500 inline-block pb-2">
+            Digha – The Brighton of the East
+          </h2>
+
+          <p className="text-gray-700 leading-8">
+            Once upon a time, Digha was called ‘Brighton of the East’. Some websites still flaunts that tag.
+            There was a time when the hard & flat beach at Digha stretched for miles & the salt wind soughed among the casuarinas.
+            About 200 kms from Kolkata, on the shores of Bay of Bengal. Miles & miles of secluded Sea & rolling Beach’s,
+            it’s fringed by casuarinas & eucalyptus trees. Lovers & Honeymooner’s playground. Far away from the madding crowd.
+            Virgin & uncluttered.
+          </p>
+
+          <p className="text-gray-700 leading-8">
+            On the long walk to the mohona, one would come across beached boats, fishing nets & occasional giant turtles.
+            Over 200 yards of the water-front are now encased in concrete & tone, to prevent further erosion by the sea.
+            Lining the stone embankments are rows of food stalls & sovereign shops.
+          </p>
+
+          <p className="text-gray-700 leading-8">
+            Once upon a time, it was derigueur to shoot almost all romantic Bengali films in this grove.
+            There are now two beaches at Digha, Old & New. The waters at these beaches can be very choppy at times,
+            specially during the rainy season. Every second house in Digha is a hotel or a lodge,
+            catering to the budget as well as the fussy travellers.
+          </p>
+        </section>
+
+        {/* Mandarmani Section */}
+        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
+          <h2 className="text-4xl font-bold text-orange-600 border-b-4 border-orange-500 inline-block pb-2">
+            Mandarmani
+          </h2>
+
+          <p className="text-gray-700 leading-8">
+            Mandarmani is one of Bengal’s recently developed tourist destination that lies close to ever-popular
+            Digha and Shankarpur. With sun and surf, pristine sea beach and untrammelled silt coloured sand,
+            this beach is slowly becoming popular among the tourists.
+          </p>
+
+          <p className="text-gray-700 leading-8">
+            Mandarmani boasts of a 13 km long motorable beach, probably the longest motorable beach road in India.
+            On the beach you will undoubtedly get the chance to feel the divinity and tranquility.
+            If that is not enough to please your senses, then try to loll on the sand and listen to the waves crashing upon the shore,
+            which will surely drive away your bustling pressure.
+          </p>
+
+          <p className="text-gray-700 leading-8">
+            As an added attraction; this is the only place in eastern India where one can enjoy many beach adventure activities
+            like ATV Rides, Water Scooter, Para Gliding, Speed Boats & local motorised Cycle Van cruise on the beach.
+            Also try the freshly caught shrimps & crabs, fried to perfection with a glass of beer on the many make-shift shacks
+            that dot the beach while the waves laps at your feet & the breeze plays with your hair.
+            A perfect destination for some sun-bathing.
+          </p>
+        </section>
+
+        {/* Shankarpur Section */}
+        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
+          <h2 className="text-4xl font-bold text-green-600 border-b-4 border-green-500 inline-block pb-2">
+            Shankarpur
+          </h2>
+
+          <p className="text-gray-700 leading-8">
+            Then there is the secrets of the sea in Shankarpur. There is something about the silence of the seclude shore
+            that revives memories of innocence lost, or of a secret that one was privileged to learn & cherish as a giggly child.
+          </p>
+        </section>
+
+        {/* Places of Interest */}
+        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
+          <h2 className="text-3xl font-bold text-purple-700 border-b-4 border-purple-500 inline-block pb-2">
+            Places of Interest
+          </h2>
+
+          <p className="text-gray-700 leading-8">
+            Marine aquarium • Science Centre • Water Sports • Recreational activities • Mondarmoni • Tazpur •
+            Shankarpur (Casuarina Trees) • Mohona • Gadiara ( 3 rivers meet ) & more
+          </p>
+        </section>
+
+        {/* Nearby Destinations */}
+        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
+          <h2 className="text-3xl font-bold text-red-600 border-b-4 border-red-500 inline-block pb-2">
+            At a Short Distance
+          </h2>
+
+          <p className="text-gray-700 leading-8">
+            Puri (abode of the Lord of the Universe) • Konark (Sun temple & Erotic sculptures) • Simlipal (Tiger Reserve) •
+            Bhubaneswar, Udaigiri, Khandagiri & Ratnagiri • Nandan Kanan (Animal kingdom) • Chandipur •
+            Gopalpur (a sea to walk on) • Chilika Lagoon (River dolphins & Migratory birds) •
+            Gahirmatha (UNESCO World Heritage Site) • Bhitarkanika (Crocodiles) & more…
+          </p>
+        </section>
+
+      </div>
+    </div>
+
       {/* ================= TOUR PACKAGES ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">

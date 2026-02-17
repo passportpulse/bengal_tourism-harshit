@@ -100,7 +100,7 @@ export default function CampingAdventurePage() {
       <section className="relative h-[80vh] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Camping & Adventure Tours"
             fill
             className="object-cover"
@@ -167,313 +167,124 @@ export default function CampingAdventurePage() {
         </div>
       </section>
 
-      {/* ================= PACKAGE DESCRIPTION ================= */}
-      <section className="py-20 bg-gradient-to-br from-green-50 to-blue-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-black text-gray-900 mb-6">Special Tailor Made Combination Package</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Number of Days & Cost can be designed on Request
-            </p>
-          </div>
+ <div className="bg-gray-50 py-16 px-6 md:px-12 text-gray-800">
+      <div className="max-w-7xl mx-auto space-y-16">
 
-          <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <h3 className="text-3xl font-bold text-gray-900 mb-6">White Water Rafting Adventures</h3>
-                <p className="text-gray-700 leading-relaxed mb-6">
-                  There is a wide range in the intensity of the rapids making it adequate for all, 
-                  the young and the aged to enjoy the spectacular sport and the scenery while 
-                  leisurely floating down the rivers here in West Bengal.
-                </p>
-                <div className="bg-green-50 border border-green-200 rounded-xl p-6">
-                  <h4 className="font-bold text-green-900 mb-3">Adventure Highlights:</h4>
-                  <ul className="space-y-2 text-gray-700">
-                    <li className="flex items-start">
-                      <Check className="w-5 h-5 text-green-500 mr-2 mt-1 flex-shrink-0" />
-                      <span>Well-trained members and quality equipment</span>
-                    </li>
-                    <li className="flex items-start">
-                      <Check className="w-5 h-5 text-green-500 mr-2 mt-1 flex-shrink-0" />
-                      <span>Safe and pleasant ride guaranteed</span>
-                    </li>
-                    <li className="flex items-start">
-                      <Check className="w-5 h-5 text-green-500 mr-2 mt-1 flex-shrink-0" />
-                      <span>Government authorized rafting agencies</span>
-                    </li>
-                    <li className="flex items-start">
-                      <Check className="w-5 h-5 text-green-500 mr-2 mt-1 flex-shrink-0" />
-                      <span>Accomplished guides for all levels</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="relative h-96 rounded-xl overflow-hidden">
-                <Image
-                  src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
-                  alt="River Rafting Adventure"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ================= LOCATION TABS ================= */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-black text-gray-900 mb-6">Rafting Locations</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Choose your adventure destination
-            </p>
-          </div>
-
-          <div className="flex justify-center mb-12">
-            <div className="inline-flex rounded-full bg-gray-100 p-1">
-              <button
-                onClick={() => setActiveTab("westbengal")}
-                className={`px-6 py-2 rounded-full font-semibold transition ${
-                  activeTab === "westbengal" 
-                    ? "bg-gradient-to-r from-green-600 to-blue-600 text-white" 
-                    : "text-gray-600 hover:text-gray-900"
-                }`}
-              >
-                West Bengal
-              </button>
-              <button
-                onClick={() => setActiveTab("uttarakhand")}
-                className={`px-6 py-2 rounded-full font-semibold transition ${
-                  activeTab === "uttarakhand" 
-                    ? "bg-gradient-to-r from-green-600 to-blue-600 text-white" 
-                    : "text-gray-600 hover:text-gray-900"
-                }`}
-              >
-                Uttarakhand
-              </button>
-            </div>
-          </div>
-
-          {activeTab === "westbengal" && (
-            <div className="space-y-8">
-              <div className="bg-gradient-to-br from-blue-50 to-green-50 rounded-2xl p-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">West Bengal Rafting Adventures</h3>
-                
-                <div className="mb-8">
-                  <h4 className="text-xl font-semibold text-gray-900 mb-4">Chitrey & Rangeet</h4>
-                  <p className="text-gray-700 mb-4">
-                    White water rafting in Chitrey is the most sought after adventure for most tourists 
-                    in this region. Water adventure to explore the uniqueness of Darjeeling natural diversity.
-                  </p>
-                  <p className="text-gray-700">
-                    The famous Teesta and Rangeet rivers offer first class rafting and canoeing adventures. 
-                    According to tourist experience and interest, guests can either glide along calm blue waters 
-                    with magnificent scenery, or rush through roaring white rapids.
-                  </p>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div className="bg-white rounded-xl p-6">
-                    <h4 className="font-bold text-gray-900 mb-3">Best Time to Visit</h4>
-                    <p className="text-gray-600">Avoid monsoon or just after monsoon. Rest of the period is comparatively safe.</p>
-                  </div>
-                  <div className="bg-white rounded-xl p-6">
-                    <h4 className="font-bold text-gray-900 mb-3">Nearby Destinations</h4>
-                    <p className="text-gray-600">Darjeeling, Kalimpong, Tinchuley, Baramangua, ReshiKhola</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          )}
-
-          {activeTab === "uttarakhand" && (
-            <div className="space-y-8">
-              <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Uttarakhand Rafting Adventures</h3>
-                
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                  <div>
-                    <h4 className="text-xl font-semibold text-gray-900 mb-4">Rishikesh - Ganga River</h4>
-                    <p className="text-gray-700 mb-4">
-                      The Ganga in Uttarakhand is one of India's major and holiest of rivers. With a location 
-                      close to Delhi, it is a popular choice for first-timers, non-swimmers and families.
-                    </p>
-                    <p className="text-gray-700">
-                      It is also the hub of white-water rafting in India. It combines an action-packed trip 
-                      with the best rapids, float sections and wilderness.
-                    </p>
-                  </div>
-                  
-                  <div>
-                    <h4 className="text-xl font-semibold text-gray-900 mb-4">Alaknanda River</h4>
-                    <p className="text-gray-700 mb-4">
-                      The Alaknanda is the second major tributary of the Ganga. It drains through the big 
-                      mountains of Garhwal and has numerous mighty tributaries.
-                    </p>
-                    <p className="text-gray-700">
-                      Apart from challenging white water the river offers some spectacular scenery. 
-                      A self-contained trip is a great introduction to expedition rafting.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          )}
-        </div>
-      </section>
-
-      {/* ================= RAFTING OPTIONS ================= */}
-      <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-black text-gray-900 mb-6">Rafting Options</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Choose the right adventure based on your skill level
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {raftingLocations.map((location, index) => (
-              <div key={index} className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all">
-                <div className="flex items-center mb-4">
-                  <Waves className="w-8 h-8 text-blue-600 mr-3" />
-                  <div>
-                    <h3 className="text-lg font-bold text-gray-900">{location.name}</h3>
-                    <p className="text-sm text-gray-600">{location.location}</p>
-                  </div>
-                </div>
-                <div className="space-y-2 text-sm">
-                  <div className="flex justify-between">
-                    <span className="text-gray-600">Difficulty:</span>
-                    <span className="font-semibold text-gray-900">{location.difficulty}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-gray-600">Duration:</span>
-                    <span className="font-semibold text-gray-900">{location.duration}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-gray-600">Best For:</span>
-                    <span className="font-semibold text-gray-900">{location.bestFor}</span>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ================= CAMPING & GEAR ================= */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-black text-gray-900 mb-6">Camping & Required Gear</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Stay in modern camps with all facilities
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Camping Experience</h3>
-              <p className="text-gray-700 mb-6">
-                Recommended to stay in makeshift Tents / Camps but with all modern & hygienic facilities. 
-                Experience the thrill of outdoor adventure with comfort and safety.
-              </p>
-              <div className="bg-green-50 border border-green-200 rounded-xl p-6">
-                <h4 className="font-bold text-green-900 mb-3">Camping Features:</h4>
-                <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-start">
-                    <Check className="w-5 h-5 text-green-600 mr-2 mt-1" />
-                    <span>Modern tents with comfortable bedding</span>
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="w-5 h-5 text-green-600 mr-2 mt-1" />
-                    <span>Hygienic toilet and shower facilities</span>
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="w-5 h-5 text-green-600 mr-2 mt-1" />
-                    <span>Campfire and evening entertainment</span>
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="w-5 h-5 text-green-600 mr-2 mt-1" />
-                    <span>Meals prepared by experienced cooks</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Required Gear</h3>
-              <div className="bg-orange-50 border border-orange-200 rounded-xl p-6">
-                <h4 className="font-bold text-orange-900 mb-3">Essential Items:</h4>
-                <ul className="space-y-2">
-                  {recommendedGear.map((item, index) => (
-                    <li key={index} className="flex items-start">
-                      <span className="text-orange-600 mr-2">•</span>
-                      <span className="text-gray-700">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              
-              <div className="mt-6 bg-red-50 border border-red-200 rounded-xl p-6">
-                <h4 className="font-bold text-red-900 mb-3">Important Note:</h4>
-                <p className="text-gray-700">
-                  Foreign Tourists are required to produce their passport & photos for safety and security purposes.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ================= EXPERIENCES ================= */}
-      <section className="py-20 bg-gradient-to-br from-teal-50 to-green-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-black text-gray-900 mb-6">Adventure Experiences</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Choose your perfect adventure based on skill level
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {experiences.map((experience, index) => (
-              <div key={index} className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all">
-                <div className="w-16 h-16 bg-gradient-to-r from-teal-600 to-green-600 rounded-2xl flex items-center justify-center mb-6">
-                  <experience.icon className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">{experience.title}</h3>
-                <p className="text-gray-700 mb-4">{experience.description}</p>
-                <div className="bg-gray-100 rounded-lg px-4 py-2 inline-block">
-                  <span className="text-sm font-semibold text-gray-800">Difficulty: {experience.difficulty}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ================= CTA ================= */}
-      <section className="py-20 bg-gradient-to-br from-green-600 to-blue-600">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-4xl font-black text-white mb-6">Ready for Your Adventure?</h2>
-          <p className="text-xl text-white/90 max-w-3xl mx-auto mb-12">
-            Experience the thrill of white water rafting and camping in the Himalayas
+        {/* HEADER */}
+        <section className="text-center space-y-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-blue-700">
+            Special Tailor-made Combination Package
+          </h1>
+          <p className="text-lg text-gray-600">
+            Number of Days & Cost can be designed on Request
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/book-tour" className="px-8 py-3 bg-white text-green-600 font-bold rounded-xl hover:bg-gray-100 transition">
-              Book Adventure
-            </a>
-            <a href="/contact" className="px-8 py-3 bg-white text-green-600 font-bold rounded-xl hover:bg-gray-100 transition">
-              Custom Package
-            </a>
-          </div>
-        </div>
-      </section>
+        </section>
 
+        {/* WEST BENGAL RAFTING */}
+        <section className="bg-white rounded-3xl shadow-xl p-8 md:p-12 space-y-6">
+          <h2 className="text-3xl font-semibold text-blue-600 border-b-2 border-blue-500 inline-block pb-2">
+            White Water Rafting – West Bengal
+          </h2>
+
+          <p className="leading-8">
+            There is a wide range in the intensity of the rapids making it adequate for all, the young and the aged to enjoy the spectacular sport and the scenery while leisurely floating down the rivers here in West Bengal; which till date were lesser known. The well trained members and quality equipment will assure guest a safe and pleasant ride.
+          </p>
+
+          <p className="leading-8">
+            To enjoy rafting guest should spare a day during their stay in Darjeeling, Kalimpong, Tinchuley, Baramangua, ReshiKhola or any other nearby destinations. Take a one and half hour drive down to Teesta Bazar to enjoy this sport.
+          </p>
+
+          <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg">
+            <p className="leading-8">
+              It is advisable to avoid this sport during monsoon or just a month after monsoon rest of the period is comparatively safe.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-gray-100 p-6 rounded-2xl shadow">
+              <h3 className="font-semibold text-lg mb-2">For Non-Swimmers</h3>
+              <p>Melli to 29th Mile nearly 1½ Hours</p>
+              <p>Melli to Kalijhora nearly 3 hours</p>
+            </div>
+
+            <div className="bg-gray-100 p-6 rounded-2xl shadow">
+              <h3 className="font-semibold text-lg mb-2">For Swimmers</h3>
+              <p>Tarkhola to Malli nearly 2 hours</p>
+              <p>Tarkhola to 29 Mile nearly 3 hours</p>
+            </div>
+          </div>
+        </section>
+
+        {/* CHITREY & RANGET */}
+        <section className="bg-white rounded-3xl shadow-xl p-8 md:p-12 space-y-6">
+          <h2 className="text-3xl font-semibold text-green-600 border-b-2 border-green-500 inline-block pb-2">
+            Chitrey & Rangeet
+          </h2>
+
+          <p className="leading-8">
+            White water rafting in Chitrey is the most sought after adventure for most of the tourist in this part of the region. Water adventure to explore the uniqueness of Darjeeling natural diversity.
+          </p>
+
+          <p className="leading-8">
+            The famous Teesta and Rangeet rivers offer first class rafting and canoeing adventures. According to tourist experience and interest, guest can either glide along calm blue waters with magnificent scenery rising out of the banks, or rush through roaring white rapids.
+          </p>
+
+          <p className="leading-8">
+            Guest will always be in the capable hands of accomplished guide employed by government authorized rafting agencies. White Water Rafting is relatively new in the banks of Teesta. River Teesta and Rangeet have turbulent currents making it a formidable challenge to even the seasoned rafter.
+          </p>
+        </section>
+
+        {/* UTTARAKHAND SECTION */}
+        <section className="bg-white rounded-3xl shadow-xl p-8 md:p-12 space-y-10">
+          <h2 className="text-3xl font-semibold text-purple-600 border-b-2 border-purple-500 inline-block pb-2">
+            White Water Rafting & Camping – Uttarakhand
+          </h2>
+
+          <div className="space-y-6">
+            <h3 className="text-xl font-semibold text-purple-700">Rishikesh</h3>
+            <p className="leading-8">
+              The Ganga in Uttarakhand is one of India's major and holiest of rivers. With a location close to Delhi, it is a popular choice for first-timers, non-swimmers and families. It is also the hub of white-water rafting in India. It combines an action-packed trip with the best rapids, float sections and wilderness. A perfect introduction to white-water rafting and an ideal weekend getaway to calm overworked nerves.
+            </p>
+          </div>
+
+          <div className="space-y-6">
+            <h3 className="text-xl font-semibold text-purple-700">Alaknanda</h3>
+            <p className="leading-8">
+              The Alaknanda in Uttarakhand is the second major tributary of the Ganga besides the Bhagirathi. It drains through the big mountains of Garhwal and has numerous mighty tributaries including the Mandakini, Nandakini & Pindar.
+            </p>
+
+            <p className="leading-8">
+              Apart from challenging white water the river offers some spectacular scenery. A self-contained trip is a great introduction to expedition rafting. Our journey starts at Nandprayag below the big rapid - ‘Hillary's Fall', named after Sir Edmund Hillary's up-stream jet boat expedition, “Ocean to Sky”, many decades ago.
+            </p>
+          </div>
+        </section>
+
+        {/* STAY & IMPORTANT NOTES */}
+        <section className="bg-white rounded-3xl shadow-xl p-8 md:p-12 space-y-6">
+          <h2 className="text-2xl font-semibold text-orange-600 border-b-2 border-orange-500 inline-block pb-2">
+            Stay & Important Information
+          </h2>
+
+          <p className="leading-8">
+            Recommended to stay in makeshift Tents / Camps but with all modern & hygienic facilities.
+          </p>
+
+          <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-lg space-y-3">
+            <p>Please try to have the following:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>A set of dry clothes</li>
+              <li>Extra pair of sneakers or any other footwear</li>
+              <li>Suntan / Sun screen lotion</li>
+              <li>Shorts & Rain-coats</li>
+            </ul>
+            <p>
+              Foreign Tourists are required to produce their passport & photos.
+            </p>
+          </div>
+        </section>
+
+      </div>
+    </div>
       {/* ================= PACKAGE PRICING ================= */}
       <PackagePricing 
         title="Camping Adventure Tour Packages"

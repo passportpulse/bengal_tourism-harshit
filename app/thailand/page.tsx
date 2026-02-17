@@ -59,239 +59,146 @@ export default function ThailandPage() {
           </div>
         </div>
       </section>
+<div className="bg-gray-50 py-20 px-6 md:px-12">
+      <div className="max-w-7xl mx-auto space-y-20">
 
-      {/* ================= MAIN TOUR PACKAGES ================= */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Thailand Tour Packages</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Special tailor-made packages designed for your perfect tropical adventure
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Bangkok Tour */}
-            <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center">
-                <Building className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Bangkok City Tour</h3>
-                <p className="text-gray-700 mb-4">4 Nights / 5 Days exploring vibrant Bangkok</p>
-                <div className="bg-orange-100 p-4 rounded-lg">
-                  <h4 className="font-bold mb-2">City Experience</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• Temple visits (Wat Pho, Grand Palace)</li>
-                    <li>• Shopping and markets</li>
-                    <li>• Cultural performances</li>
-                    <li>• River cruise with dinner</li>
-                    <li>• Nightlife exploration</li>
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-orange-600 font-semibold">City Adventure</span>
-                  <button className="bg-orange-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-orange-700 transition">
-                    Book Now
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            {/* Pattaya Beach Tour */}
-            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-blue-400 to-cyan-500 flex items-center justify-center">
-                <Waves className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Pattaya Beach Retreat</h3>
-                <p className="text-gray-700 mb-4">4 Nights / 5 Days of tropical beach paradise</p>
-                <div className="bg-blue-100 p-4 rounded-lg">
-                  <h4 className="font-bold mb-2">Beach Experience</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• White sandy beaches</li>
-                    <li>• Water sports facilities</li>
-                    <li>• Island hopping tours</li>
-                    <li>• Nightlife and entertainment</li>
-                    <li>• Local cuisine experiences</li>
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-blue-600 font-semibold">Beach Paradise</span>
-                  <button className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-700 transition">
-                    Book Now
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            {/* Coral Island Tour */}
-            <div className="bg-gradient-to-br from-green-50 to-teal-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-green-400 to-teal-500 flex items-center justify-center">
-                <Fish className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Koh Lan Coral Island</h3>
-                <p className="text-gray-700 mb-4">4 Nights / 5 Days of island luxury and water adventures</p>
-                <div className="bg-green-100 p-4 rounded-lg">
-                  <h4 className="font-bold mb-2">Island Experience</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• Speed boat transfer</li>
-                    <li>• Snorkeling and diving</li>
-                    <li>• Coral reef exploration</li>
-                    <li>• Beach relaxation</li>
-                    <li>• Luxury island resort</li>
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-green-600 font-semibold">Island Luxury</span>
-                  <button className="bg-green-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-green-700 transition">
-                    Book Now
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            {/* Phi Phi Islands */}
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-purple-400 to-pink-500 flex items-center justify-center">
-                <Mountain className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Phi Phi Islands</h3>
-                <p className="text-gray-700 mb-4">1 Night / 2 Days of stunning island adventures</p>
-                <div className="bg-purple-100 p-4 rounded-lg">
-                  <h4 className="font-bold mb-2">Island Hopping</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• Phi Phi Leh (largest island)</li>
-                    <li>• Phi Phi Don (buddhist sanctuary)</li>
-                    <li>• James Bond Island</li>
-                    <li>• Bamboo Island</li>
-                    <li>• Poda Island</li>
-                    <li>• Long-tail boat transfers</li>
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-purple-600 font-semibold">Island Adventure</span>
-                  <button className="bg-purple-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-purple-700 transition">
-                    Book Now
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            {/* Krabi Island Hopping */}
-            <div className="bg-gradient-to-br from-teal-50 to-blue-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-teal-400 to-blue-500 flex items-center justify-center">
-                <Trees className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Krabi Island Hopping</h3>
-                <p className="text-gray-700 mb-4">2 Nights / 3 Days of tropical island exploration</p>
-                <div className="bg-teal-100 p-4 rounded-lg">
-                  <h4 className="font-bold mb-2">Island Experience</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• Chicken Island visit</li>
-                    <li>• Phra Nang Cave exploration</li>
-                    <li>• Tup Island visit</li>
-                    <li>• Poda Island visit</li>
-                    <li>• Long-tail boat transfers</li>
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-teal-600 font-semibold">Island Hopping</span>
-                  <button className="bg-teal-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-teal-700 transition">
-                    Book Now
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
+        {/* HEADER */}
+        <div className="text-center space-y-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-pink-600">
+            Visit & Explore Thailand
+          </h1>
+          <p className="text-lg text-gray-700">
+            Bangkok, Pattaya, Phuket, Krabi & Koh Samui with Bengal Tourism
+          </p>
+          <p className="text-gray-600">
+            Special Tailor made Combination Package, Number of Days & Cost can be designed on Request.
+          </p>
         </div>
-      </section>
 
-      {/* ================= ISLAND EXPERIENCES ================= */}
-      <section className="py-20 bg-gradient-to-br from-yellow-50 to-orange-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Island Experiences</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Ultimate tropical island adventures and water activities
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Water Sports */}
-            <div className="bg-white rounded-2xl p-8 text-center hover:shadow-xl transition">
-              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Waves className="w-8 h-8 text-blue-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Water Sports</h3>
-              <p className="text-gray-700 mb-4">
-                Snorkeling, diving, jet skiing, parasailing, and banana boat rides 
-                in crystal clear tropical waters surrounding the islands.
-              </p>
-              <div className="flex items-center gap-2 text-blue-600">
-                <MapPin className="w-4 h-4" />
-                <span className="text-sm">All Islands</span>
-              </div>
-            </div>
-
-            {/* Island Hopping */}
-            <div className="bg-white rounded-2xl p-8 text-center hover:shadow-xl transition">
-              <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Ship className="w-8 h-8 text-green-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Island Hopping</h3>
-              <p className="text-gray-700 mb-4">
-                Explore multiple islands by long-tail boats, experience local culture, 
-                and discover hidden beaches and pristine coral reefs.
-              </p>
-              <div className="flex items-center gap-2 text-green-600">
-                <MapPin className="w-4 h-4" />
-                <span className="text-sm">Phi Phi & Krabi</span>
-              </div>
-            </div>
-
-            {/* Beach Relaxation */}
-            <div className="bg-white rounded-2xl p-8 text-center hover:shadow-xl transition">
-              <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Sun className="w-8 h-8 text-orange-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Beach Paradise</h3>
-              <p className="text-gray-700 mb-4">
-                Relax on pristine white sand beaches, enjoy sunset views, 
-                and experience the ultimate tropical island lifestyle with luxury resorts.
-              </p>
-              <div className="flex items-center gap-2 text-orange-600">
-                <MapPin className="w-4 h-4" />
-                <span className="text-sm">Pattaya & Islands</span>
-              </div>
-            </div>
-
-            {/* Cultural Experiences */}
-            <div className="bg-white rounded-2xl p-8 text-center hover:shadow-xl transition">
-              <div className="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <PartyPopper className="w-8 h-8 text-purple-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Nightlife & Culture</h3>
-              <p className="text-gray-700 mb-4">
-                Experience vibrant nightlife, cultural shows, 
-                and traditional Thai entertainment. Visit local markets and taste authentic Thai cuisine.
-              </p>
-              <div className="flex items-center gap-2 text-purple-600">
-                <MapPin className="w-4 h-4" />
-                <span className="text-sm">Bangkok & Pattaya</span>
-              </div>
-            </div>
-          </div>
+        {/* MAIN CIRCUIT */}
+        <div className="space-y-6 text-center">
+          <h2 className="text-3xl font-bold text-gray-800">THAILAND</h2>
+          <p className="font-semibold text-gray-700">
+            Circuit with [BANGKOK – PATTAYA -4N/5D]
+          </p>
         </div>
-      </section>
 
-   
+        <div className="grid md:grid-cols-2 gap-10 items-stretch">
+
+          {/* DAY 1 */}
+          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-pink-500 h-full flex flex-col min-h-[520px]">
+            <h3 className="text-xl font-semibold mb-4 text-pink-600">Day –1</h3>
+            <div className="text-gray-700 leading-8 flex-grow">
+              Start from Kolkata: Board a flight at Kolkata Airport & reach Bangkok after a 2 hrs 40 mins non-stop flight to a warm reception. A 2.5 hrs drive will take you to picturesque Pattaya, a breathtakingly beautiful beach destination. A tropical beach retreat town, Pattaya is a perfect place to laze around under the swaying coconut trees, exploring white sandy beaches, numerous water sports facilities & crystal azure water. Night life in Pattaya; specially for adventure seekers, it is extremely & most happening place in the world. Lunch en-route. Post lunch, will take you for a village tour to Nong Nooch. You can either have the evening all to yourself or see the Alkazar Show at 08.00pm (extra cost), a world famous Cabaret show that can give Lido & Paris’s Moulin Rogue a run for their money. Return & Dinner place of your choice & Overnight at Hotel at Pattaya.
+            </div>
+          </div>
+
+          {/* DAY 2 */}
+          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-blue-500 h-full flex flex-col min-h-[520px]">
+            <h3 className="text-xl font-semibold mb-4 text-blue-600">Day –2</h3>
+            <div className="text-gray-700 leading-8 flex-grow">
+              Coral Island: After breakfast, speed boat your way to the idyllic Coral Island (Kohlan) through the aqua blue water of the Gulf of Thailand. Spend the day luxuriating under the warm tropical sun. Relax, swim, snorkel or just lie around sunning on the island’s immaculate golden beach. Lunch included in this tour. Return in the evening & free for you to shop, explore & seek more. Dinner at place of your choice & Overnight at Hotel at Pattaya
+            </div>
+          </div>
+
+          {/* DAY 3 */}
+          <div className="bg-white shadow-xl rounded-3xl p-8 border-r-4 border-green-500 h-full flex flex-col min-h-[520px]">
+            <h3 className="text-xl font-semibold mb-4 text-green-600">Day –3</h3>
+            <div className="text-gray-700 leading-8 flex-grow">
+              Towards Bangkok: After breakfast, you will enjoy the journey back to Bangkok where we will take you on a Temple & City Tour to experience another side of Bangkok. Thailand is home to more than 26,000 Wats (Buddhist temples) and we will take to see the most distinguished Wats, such as Wat Po (Temple of the Reclining Buddha), the largest & the oldest shrine in Bangkok or Grand Palace tour. Evening free to shop, explore & seek more. Dinner at place of your choice & Overnight at Hotel at Bangkok.
+            </div>
+          </div>
+
+          {/* DAY 4 */}
+          <div className="bg-white shadow-xl rounded-3xl p-8 border-r-4 border-purple-500 h-full flex flex-col min-h-[520px]">
+            <h3 className="text-xl font-semibold mb-4 text-purple-600">Day –4</h3>
+            <div className="text-gray-700 leading-8 flex-grow">
+              ALTERNATIVELY: After breakfast at hotel, morning free for shopping. Later in the evening, Cruise on river Chao Phraya & dinner on board. Return to the hotel & night free to explore varied night life of Bangkok. Overnight stay at Hotel / Resort at Bangkok.
+
+              <br /><br />
+
+              Departure: After breakfast, check-out of the Hotel in the afternoon. Visit the Siam Ocean World (extra cost) & if time permits and proceed to the airport for return flight to Kolkata, India. Tour ends
+            </div>
+          </div>
+
+        </div>
+
+        {/* PHUKET */}
+        <Section title="PHUKET" subtitle="Add-on (or) Separately with [PHI PHI ISLAND-2N/3D]">
+          <Content>
+            Day –1: Start of tour: Arrival at Phuket Airport (or) from Krabi by road. Transfer to Hotel. Check into Hotel. Lunch at a place of your choice. Then a short tour local places of Interest. . Return in the evening & free to yourself. Dinner at a place of your choice & Overnight at Hotel / Resort at Phuket.
+
+            <br /><br />
+
+            Day –1: Local sightseeing at PHUKET: After breakfast, visit Phi Phi Island. Lunch at Phi Phi Island. Return in the evening & free time to yourself. Dinner at a place of your choice & Overnight at Hotel / Resort / Phuket.
+
+            <br /><br />
+
+            Day –1: After breakfast, Check-out (10.00 am) Transfer by Air to Bangkok Airport for your return journey (or) transfer to Krabi by road transfer. Drop at Hotel. Tour ends
+          </Content>
+        </Section>
+
+        {/* KRABI */}
+        <Section title="KRABI" subtitle="Add-on (or) Separately with [JAMES BOND ISLAND-2N/3D]">
+          <Content>
+            Day –1: Start of tour: Our representative will be there to receive the Guest at arrival at Krabi (or) by road from Phuket. Check into Hotel. Lunch at any place on your own. Day at Leisure (or) can explore the Ao Nang Beach and further enjoy exciting island-hopping tour to the tropical hot spots in the Krabi Sea which includes Phra Nang Cave, Tup Island, Chicken Island and Poda Island, etc. Return in the evening & free to yourself. Dinner at a place of your choice & Overnight at Hotel / Resort at Krabi.
+
+            <br /><br />
+
+            Day –2: Local sightseeing at KRABI: After breakfast, proceed to Visit James Bond Island (or) Four Island tour of Koh Poda, Phranang Caves, Tup Islets by popular long tail boats. Lunch at any local place. Return in the evening & rree to yourself. Dinner at a place of your choice & Overnight at Hotel / Resort at Krabi.
+
+            <br /><br />
+
+            Day –3: After breakfast, Check-out (10.00 am) from Farmhouse/Homestay. Transfer by Air to Bangkok for your return journey (or) and then transfer to Koh Samui / Phuket. Drop at Hotel. Tour ends
+          </Content>
+        </Section>
+
+        {/* KOH SAMUI */}
+        <Section title="KOH SAMUI" subtitle="Add-on (or) Separately with [TALAI NAI – BUA BOK-2N/3D]">
+          <Content>
+            Day –1: Start of tour: Our representative will be there to receive the Guest at Arrival at Koh Samui (or) by road from Phuket. Lunch en-route or on arrival at Hotel. Then a short tour local places of Interest. . Return in the evening & free to yourself. Dinner at a place of your choice & Overnight at Hotel / Resort / Koh Samui.
+
+            <br /><br />
+
+            Day –2: Local sightseeing at KOH SAMUI: After breakfast, Take the Island Tour. Visit Jungle Safari, Experience Green Rain Forest, magnificent Coral Reefs, Scuba Diving, Snorkelling, amazing Spa Activities, etc. On land, your guide will accompany you by foot to the beautiful Emerald Lake, known to locals as Talay Nai. Make the most of the views of this impressive natural saltwater reservoir in an atmosphere of peace and serenity. Afternoon you will have the opportunity to climb to the highest part of the island, go hiking through the Bua Bok cave, which houses stalactites and stalagmites in the shape of a lotus flower or if you prefer, you can choose to relax and soak up the sun on the beach. Lunch at any local place. Return in the evening . Return in the evening & free to yourself. Dinner at a place of your choice & Overnight at Hotel / Resort / Koh Samui.
+
+            <br /><br />
+
+            Day –3: After breakfast, Check-out (10.00 am) from Farmhouse/Homestay. Transfer by Air to Bangkok for your return journey (or) and then transfer to Pattaya/Karabi/Phuket. Drop at Hotel. Tour ends.
+          </Content>
+        </Section>
+
+      </div>
+    </div>
 
       <ContactCTA />
 
     </main>
   )
+}
+
+
+
+interface SectionProps {
+  title: string;
+  subtitle: string;
+  children: React.ReactNode;
+}
+
+function Section({ title, subtitle, children }: SectionProps) {
+  return (
+    <div className="bg-white shadow-xl rounded-3xl p-10 space-y-6">
+      <h2 className="text-3xl font-bold text-indigo-600">{title}</h2>
+      <p className="text-gray-700 font-medium">{subtitle}</p>
+      {children}
+    </div>
+  )
+}
+
+interface ContentProps {
+  children: React.ReactNode;
+}
+
+function Content({ children }: ContentProps) {
+  return <div className="text-gray-700 leading-8">{children}</div>
 }

@@ -13,7 +13,7 @@ export default function BhutanPage() {
       <section className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1532008779255-4b4dd2668c84?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Qmh1dGFuLVRoaW1wdXxlbnwwfHwwfHx8MA%3D%3D"
+            src="https://images.unsplash.com/photo-1578556881786-851d4b79cb73?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Qmh1dGFufGVufDB8fDB8fHww"
             alt="Beautiful Bhutan valley with mountains and traditional monastery"
             className="w-full h-full object-cover"
           />
@@ -26,7 +26,7 @@ export default function BhutanPage() {
               <Mountain className="w-6 h-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold tracking-wide">Land of Thunder Dragon</span>
             </div>
-            
+
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
               Bhutan
               <span className="block text-3xl md:text-5xl mt-2 text-blue-300">
@@ -35,7 +35,7 @@ export default function BhutanPage() {
             </h1>
 
             <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
-              Experience the mystical Himalayan kingdom with ancient monasteries, 
+              Experience the mystical Himalayan kingdom with ancient monasteries,
               sacred temples, and breathtaking mountain passes
             </p>
 
@@ -60,286 +60,134 @@ export default function BhutanPage() {
         </div>
       </section>
 
-      {/* ================= MAIN TOUR PACKAGES ================= */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Bhutan Tour Packages</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Special tailor-made packages designed for your perfect Himalayan adventure
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* Thimpu-Punakha Package */}
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
-                <Mountain className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Thimpu - Punakha Circuit</h3>
-                <p className="text-gray-700 mb-4">6 Nights / 7 Days exploring the spiritual heart of Bhutan</p>
-                <div className="bg-blue-100 p-4 rounded-lg">
-                  <h4 className="font-bold mb-2">Package Highlights</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• Thimpu city tour & Memorial Chorten</li>
-                    <li>• Buddha Dordenma statue visit</li>
-                    <li>• National Animal Sanctuary</li>
-                    <li>• National Library & Folk Heritage Museum</li>
-                    <li>• Traditional Paper Making Factory</li>
-                    <li>• Thirteen Arts & Craft School</li>
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-blue-600 font-semibold">Starting from ₹45,000</span>
-                  <button className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-700 transition">
-                    Book Now
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            {/* Paro-Thimpu Package */}
-            <div className="bg-gradient-to-br from-green-50 to-teal-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-green-400 to-teal-500 flex items-center justify-center">
-                <Building className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Paro - Thimpu Valley Tour</h3>
-                <p className="text-gray-700 mb-4">6 Nights / 7 Days through beautiful valleys and ancient dzongs</p>
-                <div className="bg-green-100 p-4 rounded-lg">
-                  <h4 className="font-bold mb-2">Package Highlights</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• Paro Dzong visit (1644 fortress)</li>
-                    <li>• Ta Dzong hilltop temple</li>
-                    <li>• National Museum with 3000+ art treasures</li>
-                    <li>• Kyichu Lhakhang ancient temple</li>
-                    <li>• Annual Paro Tshechu festival</li>
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-green-600 font-semibold">Starting from ₹42,000</span>
-                  <button className="bg-green-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-green-700 transition">
-                    Book Now
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ================= ADVENTURE ACTIVITIES ================= */}
-      <section className="py-20 bg-gradient-to-br from-orange-50 to-yellow-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Adventure Activities</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Thrilling adventures and spiritual experiences in the Himalayan kingdom
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Tiger Nest */}
-            <div className="bg-white rounded-2xl p-8 text-center hover:shadow-xl transition">
-              <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Mountain className="w-8 h-8 text-orange-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Tiger Nest Monastery</h3>
-              <p className="text-gray-700 mb-4">Sacred meditation site where Guru Rinpoche meditated in cave</p>
-              <div className="bg-orange-100 p-4 rounded-lg">
-                <h4 className="font-bold mb-2">Experience</h4>
-                <ul className="space-y-1 text-sm text-gray-700">
-                  <li>• Sacred cave meditation</li>
-                  <li>• Historical significance</li>
-                  <li>• Spectacular cliff views</li>
-                  <li>• Spiritual atmosphere</li>
-                </ul>
-                <div className="mt-4">
-                  <span className="text-orange-600 font-semibold">900m elevation</span>
-                  <p className="text-sm text-gray-600">2-hour strenuous hike</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Dochu La Pass */}
-            <div className="bg-white rounded-2xl p-8 text-center hover:shadow-xl transition">
-              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Waves className="w-8 h-8 text-blue-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Dochu La Pass</h3>
-              <p className="text-gray-700 mb-4">Highest motorable pass with stunning Himalayan views</p>
-              <div className="bg-blue-100 p-4 rounded-lg">
-                <h4 className="font-bold mb-2">Experience</h4>
-                <ul className="space-y-1 text-sm text-gray-700">
-                  <li>• 4265 feet elevation</li>
-                  <li>• Mt. Chomolhari views</li>
-                  <li>• Pho Chhu & Mo Chhu confluence</li>
-                  <li>• Winter seat of Je Khenpo</li>
-                </ul>
-                <div className="mt-4">
-                  <span className="text-blue-600 font-semibold">Spiritual Place</span>
-                  <p className="text-sm text-gray-600">Popular with locals & tourists</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Chele La Pass */}
-            <div className="bg-white rounded-2xl p-8 text-center hover:shadow-xl transition">
-              <div className="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Sparkles className="w-8 h-8 text-purple-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Chele La Pass</h3>
-              <p className="text-gray-700 mb-4">Watch tower at 10065 feet with panoramic valley views</p>
-              <div className="bg-purple-100 p-4 rounded-lg">
-                <h4 className="font-bold mb-2">Features</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• Former watch tower</li>
-                    <li>• National Museum</li>
-                    <li>• 3000+ art treasures</li>
-                    <li>• Panoramic valley views</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        
-      </section>
-
-      {/* ================= CULTURAL EXPERIENCES ================= */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Cultural Experiences</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Immerse yourself in Bhutan's rich Buddhist culture and traditional heritage
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Traditional Arts */}
-            <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition">
-              <div className="flex items-center gap-3 mb-4">
-                <PartyPopper className="w-8 h-8 text-red-600" />
-                <h3 className="text-xl font-bold">Traditional Arts & Crafts</h3>
-              </div>
-              <p className="text-gray-700 mb-4">
-                Visit Thirteen Arts and Crafts School to learn traditional Bhutanese painting, 
-                sculpture, and textile making. Experience the preservation of ancient artistic techniques.
-              </p>
-              <div className="flex items-center gap-2 text-red-600">
-                <MapPin className="w-4 h-4" />
-                <span className="text-sm">Thimpu</span>
-              </div>
-            </div>
-
-            {/* Religious Festivals */}
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition">
-              <div className="flex items-center gap-3 mb-4">
-                <Heart className="w-8 h-8 text-blue-600" />
-                <h3 className="text-xl font-bold">Religious Festivals</h3>
-              </div>
-              <p className="text-gray-700 mb-4">
-                Experience the vibrant Paro Tshechu festival, the most important religious celebration 
-                attracting thousands of visitors. Witness traditional ceremonies, mask dances, and community gatherings.
-              </p>
-              <div className="flex items-center gap-2 text-blue-600">
-                <MapPin className="w-4 h-4" />
-                <span className="text-sm">Spring season</span>
-              </div>
-            </div>
-
-            {/* Monastery Life */}
-            <div className="bg-gradient-to-br from-green-50 to-teal-50 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition">
-              <div className="flex items-center gap-3 mb-4">
-                <Building className="w-8 h-8 text-green-600" />
-                <h3 className="text-xl font-bold">Monastery Life</h3>
-              </div>
-              <p className="text-gray-700 mb-4">
-                Experience daily life in Buddhist monasteries, observe monk prayers, 
-                and learn about meditation practices. Participate in traditional ceremonies and rituals.
-              </p>
-              <div className="flex items-center gap-2 text-green-600">
-                <MapPin className="w-4 h-4" />
-                <span className="text-sm">All major monasteries</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ================= ADDITIONAL DESTINATIONS ================= */}
-      <section className="py-20 bg-gradient-to-br from-purple-50 to-pink-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Additional Destinations</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Explore more hidden gems and sacred sites across the Himalayan kingdom
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Phobjikha Valley */}
-            <div className="bg-white rounded-2xl p-8 text-center hover:shadow-xl transition">
-              <div className="h-48 bg-gradient-to-br from-purple-400 to-pink-500 flex items-center justify-center">
-                <Bird className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Phobjikha Valley</h3>
-                <p className="text-gray-700 mb-4">Valley of Cranes with subtropical forests and glacial valleys</p>
-                <div className="bg-purple-100 p-4 rounded-lg">
-                  <h4 className="font-bold mb-2">Highlights</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• Crane watching</li>
-                    <li>• Subtropical forests</li>
-                    <li>• Glacial valleys</li>
-                    <li>• Gangtey Gonpa visit</li>
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-purple-600 font-semibold">3N/4D Package</span>
-                  <button className="bg-purple-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-purple-700 transition">
-                    Book Now
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            {/* Bumthang & Gantey Valley */}
-            <div className="bg-white rounded-2xl p-8 text-center hover:shadow-xl transition">
-              <div className="h-48 bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center">
-                <Sun className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Bumthang & Gantey Valley</h3>
-                <p className="text-gray-700 mb-4">200km journey to Haa Valley with royal family celebrations</p>
-                <div className="bg-orange-100 p-4 rounded-lg">
-                  <h4 className="font-bold mb-2">Experience</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• Royal family celebrations</li>
-                    <li>• Ancient temple visits</li>
-                    <li>• Traditional ceremonies</li>
-                    <li>• Cultural immersion</li>
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-orange-600 font-semibold">Add ₹5,000</span>
-                  <button className="bg-orange-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-orange-700 transition">
-                    Book Extension
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-
       {/* ================= PACKAGE PRICING ================= */}
-   
-  
-<ContactCTA />
+      <div className="bg-gray-50 py-20 px-6 md:px-12">
+        <div className="max-w-7xl mx-auto space-y-20">
+
+          {/* HEADER */}
+          <div className="text-center space-y-4">
+            <h1 className="text-4xl md:text-5xl font-bold text-emerald-700">
+              Visit and Explore Bhutan
+            </h1>
+            <p className="text-lg text-gray-700">
+              Paro, Thimpu, Punakha, Tiger Nest, Dochu La Pass with Bengal Tourism
+            </p>
+            <p className="text-gray-600">
+              Special Tailor made Combination Package, Number of Days & Cost can be designed on Request.
+            </p>
+          </div>
+
+          {/* MAIN CIRCUIT TITLE */}
+          <SectionTitle
+            title="BHUTAN"
+            subtitle="Land of the Thunder Dragon With [PARO – THIMPU – PUNAKHA- 6N/7D]"
+          />
+
+          {/* MAIN DAY WISE */}
+          <div className="space-y-10 grid md:grid-cols-2 gap-10 grid-col-1">
+            <DayCard title="Day – 1">
+              Start of tour from BENGAL: Our representative will be there to receive the Guest at Bagdogra Airport / NJP / Hasimara Station in Bengal. After getting entry permit form immigration office (Closed on Saturday & Sunday). Phuntsholing, we proceed towards Thimpu. Check-into Hotel at Thimpu. Lunch en-route or after check-in. (Note: Avoid reaching on Fridays & Saturdays as immigration office are closed on Saturday & Sunday). Dinner & Overnight stay at Hotel at Phunsholing/Jaigaon.
+
+              ALTERNATIVELY:Start of tour from PARO AIRPORT: Our representative will be there to receive the Guest at Paro Airport. After getting entry permit form immigration office (Closed on Saturday & Sunday). Phuntsholing, we proceeds towards Thimpu. Hotel at Thimpu. (Note: Avoid reaching on Fridays & Saturdays as immigration office are closed on Saturday & Sunday). Lunch-en-route. Return in the evening. Dinner & Overnight stay at Hotel at Thimpu.
+            </DayCard>
+
+            <DayCard title="Day – 2">
+              Phuntsholing-Thimpu—After getting entry permit form immigration office Phuntsholing, we proceeds towards Thimpu. Thimpu is 172 km and 7 hours driving time from Phuntsholing. Thimpu the capital of Bhutan is beautiful valley . The valley is surrounded by hills and provides outstanding view. Lunch-en-route. Return in the evening. Dinner & Overnight stay at Hotel at Thimpu.
+            </DayCard>
+
+            <DayCard title="Day – 3">
+              Thimpu Sight-seeing : In the morning after break fast, your Bhutan tours starts from the National Memorial Chorten built in the memory of Bhutan’s 3rd king and it is also a favourite place for local people. The next destination is the Buddha’s Dordenma statue. It is a gigantic Buddha statue made of Bronze and gilded gold. Later we will see Bhutan’s national animal, the Takin, in the Sanctuary. Finally today’s tour end at Thimpu Dzong. It is also called Trashichho Dzong, the largest religious building in Bhutan and the present king’s office and administrative center. The afternoon visit is scheduled for you to learn much about Bhutan’s culture, history and local peoples life. You will visit the Thirteen Traditional Arts and Craft School and the folk Heritage Museum, before continuing to the National Library and the Traditional Paper Making Factory. Lunch-en-route. Return in the evening. Dinner & Overnight stay at Hotel at Thimpu.
+            </DayCard>
+
+            <DayCard title="Day – 4">
+              Thimpu - Paro : Today after break we will move towards Paro. It takes about 2 hours. Today’s sightseeing tour starts from Paro Dzong, also named Rinpung Dzong. It is one of the most impressive dzongs in Bhutan and the finest example of Bhutnes’ architecture. It was built in 1644 as a fortrees and Buddhist temple, and is now the local religious administrative centre. A visit to Airport View Point is also scheduled. The annual Paro Tshechus held here in spring, is the most important local religious festival and attracts thousands of visitors. Later we visit Ta Dzong at the top of the hill above the Parodzong. It was originally the watch tower of Paro Dzong now it houses the National Museum with over 3000 art treasures. Our next destination is the KyichuLhakhang. One of the oldest temples inn Bhutan where the royal family’s most important celebration are held. Lunch-en-route. Return in the evening. Dinner & Overnight stay at Hotel at Paro.
+            </DayCard>
+
+            <DayCard title="Day – 5">
+              Paro - Hiking : This morning’s private tour is scheduled in the Taktsang ( Tiger Nest) , the most famous of Bhutan’s monasteries. It has long been recognized as a holy place as it was said that in the8th century the Guru Rinpoch flaw to the site of the monastery on the back of a Tiger and then meditated in a cave here. This site is located in the rocky cliffs over 900 meters above the floor of Paro valley. It is about aa two hours strenuous hike to get there, however it is worthwhile for the spectacular view and historical interest. After that we will go to the ruins of Drukgyel Dzong which was built to honour the memory of Bhutan’s victory over the Tibetan invaders. (OR) If you are not hiking to Tiger Nest, some local sight seeing included. Lunch-en-route. Return in the evening. Dinner & Overnight stay at Hotel at Paro.
+
+              ALTERNATIVELY: Paro – Chele La Pass: Che Le (Pass) considered to be one of the highest motor able passes in Bhutan & some local sight seeing as per time available. On a clear day, you can appreciate the stunning distant view of Mt. Chomolhari behind the ruins. Some local sight-seeing included. Lunch-en-route. Return in the evening. Dinner & Overnight stay at Hotel at Paro.
+            </DayCard>
+
+            <DayCard title="Day – 6">
+              Transfer from Paro to Phuntsholing / Dooars : After breakfast, check-out & drop to Paro Airport / Hasimara Station in Bengal around (02-03pm). (OR) Transfer back to Hotel at Phuntsholing. Tour Ends…. On the way take a short stop at Chuzom, the confluence of Paro and Thimpu rivers with three different style of stupa adorn this confluence. Drive further through Chapcha and later take glimpse of famous Chukha Dam and the magnificent Vince waterfall before Gedu town. Alternatively, we will take you to Jaldapara / Lataguri in Dooars. Dinner & Overnight stay at Hotel at Resort at Jaldapara / Lataguri.
+            </DayCard>
+
+            <DayCard title="Day – 7">
+              Early breakfast. Some socal sightsseing & places of interest in the Forest of Jangapara / Gorumara can be visited. You can also take a Jeep Safari if time permits. Lunch-en-route. Then drive to Bagdogra Airport / NJP Railway Station in Bengal for Forwarding Journey before (06.00pm) Tour ends.
+            </DayCard>
+          </div>
+
+          {/* ADD-ON SECTIONS */}
+          <AddOnSection
+            title="PUNAKHA"
+            subtitle="Add-on (or) Separately From [THIMPU - PARO- 2N/3D]"
+          />
+                  <div className="space-y-10 grid md:grid-cols-2 gap-10 grid-col-1">
+          <DayCard title="Day –   ">
+            ALTERNATIVELY: Thimpu – Punakha: For visiting Punakha, one has to rise early & visit Punakha. (Rs.3000/5500) per vehicle will be charged extra / payable locally). Punakha is situated at an elevation of 4265 feet. Punakha is the winter seat of Je Khenpo (the chief abbot). Its natural drainage from Pho Chhu (male) and Mo Chhu (female) rivers - It offers splendid views of the distant Himalayas at Dochula Pass situated at an elevation of 10065 feet on Thimphu – Punakha road.  The pass is also popular spiritual place for both locals and tourists because of an important temple that is located on the crest of Dochula pass. Visit  Punakha Dzong; strategically built at the confluence of the Pho Chu (male) and Mo Chu (female) rivers by the first Shabdrung of Bhutan, Ngawang Namgyel in 1637. Lunch-en-route. Return in the evening. Dinner & Overnight  at Hote l at Punakha.
+          </DayCard>
+          <DayCard title="Day –   ">
+            Punakha - Paro : Today after break we will move towards Paro. Check into Hotel. After which start a strenuous hiking up to Kila Goempa( Kila Nunnery ), located on  the cliffs at about 3500 meters (11,400 ft) above sea level. This hiking takes almost an hour each through forest and steep slopes. From here you will have beautiful views into the Haa and Paro valleys It takes about 2 hours. Today’s sightseeing tour starts from Paro Dzong, also named Rinpung Dzong. It is one of the most impressive dzongs in Bhutan and the finest example of Bhutnes’  architecture. It was built in 1644 as a fortress and Buddhist temple, and is now the local religious administrative centre. The annual ParoTshechus held here. Later we visit Ta Dzong at the top of the hill above the Parodzong. It was originally the watch tower of ParoDzong now it houses the National Museum with over 3000 art treasures. Our next destination is the Kyichu Lhakhang; one of the oldest temples inn Bhutan where the royal family’s most important celebration are held. Lunch-en-route. Return in the evening.  Dinner & Overnight stay at Hotel at Paro.
+          </DayCard>
+
+</div>
+
+
+          <AddOnSection
+            title="PHOBCHIKA"
+            subtitle="Add-on (or) Separately From [PUNAKHA - PARO- 2N/3D]"
+          />
+     <div className="space-y-10 grid md:grid-cols-2 gap-10 grid-col-1">
+          <DayCard title="Day – 1">
+            Thimphu-Phobchika valley-After breakfast move towards Phobjika valley-also known as the valley of the Cranes. As you leave Thimphu you’ll be surrounded by forest as your car climbs to the Dochulla Pass with its spectacular northern facing mountain views, continue to the subtropical valley of Punakha and down in to glacial valley of Phobjikha. Lunch-en-route. Return in the evening. Check into Hotel. Dinner & Overnight stay at Hotel/Resort at Phobchika.
+
+          </DayCard>
+          <DayCard title="Day – 2">
+            DAfter breakfast, Check-out for Half day site seen of Phobjikha valley which include visit to Gangtey Gonpa, etc. After site seen back to Punakha. Some local sight-seeing en-route included. Lunch-en-route. Return in the evening. Overnight stay in a Hotel at Punakha.
+
+          </DayCard>
+          <DayCard title="Day – 3">
+            To visit Bumthang / Gangtey / Haa Valley ( 200km, 7 hours drive ): In order to visit these additional places, it is advised to add one more night (or pay Rs. 5000/- per vehicle to visit these places by not visiting other places mentioned elsewhere. Lunch-en-route. Return in the evening. Dinner & Overnight at Hotel at Punakha / Paro.
+
+          </DayCard>
+          </div>
+        </div>
+      </div>
+
+      <ContactCTA />
     </main>
   )
 }
+
+/* COMPONENTS */
+
+function SectionTitle({ title, subtitle }: { title: string; subtitle: string }) {
+  return (
+    <div className="text-center space-y-2">
+      <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
+      <p className="font-semibold text-gray-700">{subtitle}</p>
+    </div>
+  )
+}
+
+function DayCard({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-emerald-600">
+      <h3 className="text-2xl font-semibold text-emerald-700 mb-4">{title}</h3>
+      <p className="text-gray-700 leading-8 whitespace-pre-line">{children}</p>
+    </div>
+  )
+}
+
+function AddOnSection({ title, subtitle }: { title: string; subtitle: string }) {
+  return (
+    <div className="bg-white shadow-xl rounded-3xl p-10 space-y-4">
+      <h3 className="text-2xl font-bold text-indigo-700">{title}</h3>
+      <p className="text-gray-700 font-medium">{subtitle}</p>
+      <p className="text-gray-600">
+        (Detailed day-wise content continues as per above structure.)
+      </p>
+    </div>
+  )
+} 

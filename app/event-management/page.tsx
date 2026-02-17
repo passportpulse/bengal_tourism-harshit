@@ -106,7 +106,7 @@ export default function EventManagementPage() {
       <section className="relative h-[80vh] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZXZlbnR8ZW58MHx8MHx8fDA%3D"
             alt="Event Management & Concierge"
             fill
             className="object-cover"
@@ -172,255 +172,131 @@ export default function EventManagementPage() {
           </div>
         </div>
       </section>
+<div className="bg-gray-50 py-16 px-6 md:px-12 text-gray-800">
+      <div className="max-w-7xl mx-auto space-y-16">
 
+        {/* HEADER */}
+        <section className="text-center space-y-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-indigo-700">
+            Event Management & Concierge Facility
+          </h1>
+          <p className="text-lg text-gray-600">
+            in West Bengal, India with Bengal Tourism
+          </p>
+
+          <div className="bg-white shadow-md rounded-2xl inline-block px-8 py-4 mt-4">
+            <p className="text-lg font-semibold">
+              Prices / Day on Request
+            </p>
+            <p className="mt-2">
+              • Normal &nbsp; • Deluxe &nbsp; • Luxury
+            </p>
+          </div>
+        </section>
+
+        {/* SERVICES SECTION */}
+        <section className="bg-white rounded-3xl shadow-xl p-8 md:p-12 space-y-6">
+          <h2 className="text-3xl font-semibold text-indigo-600 border-b-2 border-indigo-500 inline-block pb-2">
+            Group Booking & Corporate Services
+          </h2>
+
+          <p className="leading-8">
+            Contact us for any Group Booking for Film Shoots, Conference, Seminars,
+            Get-togethers, Excursions, Study tours, Product launch, Getaway, etc.
+            (all inclusive of Logistic + Boarding & Lodging + all Meals +
+            Location selection + Picnic + Hostess & Escorts + Others).
+          </p>
+
+          <p className="leading-8">
+            Our services are being retained by many Pvt. Entities, Corporate houses,
+            School & Colleges, to manage their Events, Study tours, Excursions,
+            Seminars, Conferences, Dealers meet, Product launches, etc.
+          </p>
+        </section>
+
+        {/* CLIENTS SECTION */}
+        <section className="bg-white rounded-3xl shadow-xl p-8 md:p-12 space-y-10">
+          <h2 className="text-3xl font-semibold text-indigo-600 border-b-2 border-indigo-500 inline-block pb-2">
+            Our Esteemed Clients
+          </h2>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 text-center text-sm md:text-base font-medium">
+            <div>AXIS Bank</div>
+            <div>24 Ghonta</div>
+            <div>Panacea</div>
+            <div>Lupin</div>
+            <div>Piramal Healthcare</div>
+            <div>Sun Pharma</div>
+            <div>Amul</div>
+            <div>Glaxo SmithKline</div>
+            <div>Life Medical</div>
+            <div>Ipca Laboratories</div>
+            <div>Abbot</div>
+            <div>USV Limited</div>
+            <div>Dr. Reddy’s</div>
+            <div>Himalaya</div>
+            <div>Procter & Gamble</div>
+            <div>Godrej</div>
+            <div>Reliance Industries</div>
+            <div>SAIL</div>
+            <div>State Bank of India</div>
+            <div>TISCO</div>
+            <div>Lemongrass</div>
+            <div>Rolta</div>
+            <div>ONGC</div>
+            <div>NTPC</div>
+            <div>Bridge & Roof</div>
+            <div>Birla Tyres</div>
+            <div>Britannia</div>
+            <div>Nestle</div>
+            <div>Sahara</div>
+            <div>Ener Vision</div>
+            <div>National Insurance</div>
+            <div>Tata Tea</div>
+            <div>Maruti</div>
+            <div>Hyundai</div>
+            <div>Tata Motors</div>
+            <div>Anjali Jewellers</div>
+            <div>Herbalife</div>
+            <div>Amway</div>
+            <div>Hindusthan Lever</div>
+            <div>Airtel</div>
+            <div>Vodafone</div>
+            <div>Samsung</div>
+            <div>LG</div>
+            <div>NOKIA</div>
+            <div>Heritage School</div>
+            <div>Delhi Public School</div>
+            <div>St. Xaviers’ College</div>
+            <div>Gokhale Memorial</div>
+            <div>La Martiniere</div>
+            <div>Indo English School</div>
+            <div>St. Pauls</div>
+            <div>St. Thomas’ School</div>
+            <div>Carmel School</div>
+            <div>Shree Shikshayatan</div>
+            <div>Balaji Films</div>
+            <div>Tata Memorial Hospital</div>
+            <div>Medica Superspeciality Hospital</div>
+            <div>Desun Hospital</div>
+            <div>SBI</div>
+            <div>HDFC Bank</div>
+            <div>Indian Oil</div>
+            <div>Essar</div>
+            <div>HT</div>
+            <div>Times of India</div>
+            <div>Toyota</div>
+            <div>Yash Raj Films</div>
+            <div>Academy of Cultural Arts</div>
+            <div>Kolkata Marathon</div>
+            <div>And more..</div>
+          </div>
+        </section>
+
+      </div>
+    </div>
       {/* ================= SERVICE CATEGORIES ================= */}
-      <section className="py-20 bg-gradient-to-br from-purple-50 to-pink-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-black text-gray-900 mb-6">Our Services</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Complete event management solutions for all occasions
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {serviceCategories.map((category, index) => (
-              <div key={index} className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
-                <div className={`w-16 h-16 bg-gradient-to-r ${category.color} rounded-2xl flex items-center justify-center mb-6`}>
-                  <category.icon className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">{category.title}</h3>
-                <p className="text-gray-600">{category.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ================= PRICING ================= */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-black text-gray-900 mb-6">Service Packages</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Choose the perfect package for your event
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {servicePackages.map((pkg, index) => (
-              <div key={index} className={`bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 ${
-                pkg.recommended ? "ring-4 ring-purple-500 ring-offset-2" : ""
-              }`}>
-                {pkg.recommended && (
-                  <div className="absolute top-4 right-4">
-                    <span className="bg-gradient-to-r from-purple-600 to-pink-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg">
-                      RECOMMENDED
-                    </span>
-                  </div>
-                )}
-                
-                <div className="p-8">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">{pkg.name}</h3>
-                  <p className="text-3xl font-bold text-purple-600 mb-6">{pkg.price}</p>
-                  
-                  <ul className="space-y-3 mb-8">
-                    {pkg.features.map((feature, idx) => (
-                      <li key={idx} className="flex items-start">
-                        <Check className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
-                        <span className="text-gray-700">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  
-                  <button className={`w-full py-3 px-6 rounded-xl font-semibold transition ${
-                    pkg.recommended
-                      ? "bg-gradient-to-r from-purple-600 to-pink-600 text-white hover:from-purple-700 hover:to-pink-700"
-                      : "bg-gray-100 text-gray-900 hover:bg-gray-200"
-                  }`}>
-                    Get Quote
-                  </button>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ================= CLIENTS ================= */}
-      <section className="py-20 bg-gradient-to-br from-gray-50 to-purple-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-black text-gray-900 mb-6">Our Valued Clients</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Trusted by leading corporations, educational institutions, and organizations
-            </p>
-          </div>
-
-          {/* Corporate Clients */}
-          <div className="mb-16">
-            <h3 className="text-2xl font-bold text-gray-900 mb-8 flex items-center">
-              <Building className="w-8 h-8 text-purple-600 mr-3" />
-              Corporate & Business Clients
-            </h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-              {corporateClients.map((client, index) => (
-                <div key={index} className="bg-white rounded-lg p-4 text-center shadow hover:shadow-lg transition-all">
-                  <p className="font-semibold text-gray-800 text-sm">{client}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Educational Clients */}
-          <div className="mb-16">
-            <h3 className="text-2xl font-bold text-gray-900 mb-8 flex items-center">
-              <GraduationCap className="w-8 h-8 text-green-600 mr-3" />
-              Educational Institutions
-            </h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-              {educationalClients.map((client, index) => (
-                <div key={index} className="bg-white rounded-lg p-4 text-center shadow hover:shadow-lg transition-all">
-                  <p className="font-semibold text-gray-800 text-sm">{client}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Other Clients */}
-          <div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-8 flex items-center">
-              <Award className="w-8 h-8 text-orange-600 mr-3" />
-              Healthcare, Media & Other Clients
-            </h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-              {otherClients.map((client, index) => (
-                <div key={index} className="bg-white rounded-lg p-4 text-center shadow hover:shadow-lg transition-all">
-                  <p className="font-semibold text-gray-800 text-sm">{client}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ================= INCLUDED SERVICES ================= */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-black text-gray-900 mb-6">All-Inclusive Services</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Complete event management with logistic, boarding, and more
-            </p>
-          </div>
-
-          <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 md:p-12">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {includedServices.map((service, index) => (
-                <div key={index} className="flex items-center">
-                  <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center text-white mr-4 flex-shrink-0">
-                    <Check className="w-6 h-6" />
-                  </div>
-                  <span className="text-gray-800 font-semibold">{service}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ================= EVENT TYPES ================= */}
-      <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-black text-gray-900 mb-6">Event Types We Manage</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              From corporate conferences to film shoots, we handle it all
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all">
-              <div className="w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl flex items-center justify-center mb-6">
-                <Briefcase className="w-8 h-8 text-white" />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Corporate Events</h3>
-              <ul className="space-y-2 text-gray-600">
-                <li>• Conferences & Seminars</li>
-                <li>• Product Launches</li>
-                <li>• Dealers Meet</li>
-                <li>• Team Building</li>
-              </ul>
-            </div>
-
-            <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all">
-              <div className="w-16 h-16 bg-gradient-to-r from-red-600 to-orange-600 rounded-2xl flex items-center justify-center mb-6">
-                <Film className="w-8 h-8 text-white" />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Film Production</h3>
-              <ul className="space-y-2 text-gray-600">
-                <li>• Film Shoots</li>
-                <li>• Location Management</li>
-                <li>• Production Support</li>
-                <li>• Equipment Rental</li>
-              </ul>
-            </div>
-
-            <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all">
-              <div className="w-16 h-16 bg-gradient-to-r from-green-600 to-teal-600 rounded-2xl flex items-center justify-center mb-6">
-                <GraduationCap className="w-8 h-8 text-white" />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Educational Events</h3>
-              <ul className="space-y-2 text-gray-600">
-                <li>• Study Tours</li>
-                <li>• Excursions</li>
-                <li>• College Events</li>
-                <li>• School Trips</li>
-              </ul>
-            </div>
-
-            <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all">
-              <div className="w-16 h-16 bg-gradient-to-r from-pink-600 to-rose-600 rounded-2xl flex items-center justify-center mb-6">
-                <Users className="w-8 h-8 text-white" />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Social Events</h3>
-              <ul className="space-y-2 text-gray-600">
-                <li>• Get-togethers</li>
-                <li>• Weddings</li>
-                <li>• Parties</li>
-                <li>• Cultural Events</li>
-              </ul>
-            </div>
-
-            <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all">
-              <div className="w-16 h-16 bg-gradient-to-r from-yellow-600 to-orange-600 rounded-2xl flex items-center justify-center mb-6">
-                <Target className="w-8 h-8 text-white" />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Special Events</h3>
-              <ul className="space-y-2 text-gray-600">
-                <li>• Marathons</li>
-                <li>• Sports Events</li>
-                <li>• Cultural Arts</li>
-                <li>• Community Events</li>
-              </ul>
-            </div>
-
-            <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all">
-              <div className="w-16 h-16 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-2xl flex items-center justify-center mb-6">
-                <Megaphone className="w-8 h-8 text-white" />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Marketing Events</h3>
-              <ul className="space-y-2 text-gray-600">
-                <li>• Brand Activations</li>
-                <li>• Product Demos</li>
-                <li>• Road Shows</li>
-                <li>• Promotional Events</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
+    
        <PackagePricing 
            title="Event Management Packages"
            subtitle="Choose your perfect event management duration"

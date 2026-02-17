@@ -97,6 +97,107 @@ export default function KolkataPage() {
         </div>
       </section>
 
+<div className="bg-gray-50 text-gray-800 py-16 px-6 md:px-12">
+      <div className="max-w-7xl mx-auto space-y-16">
+
+        {/* INTRO SECTION */}
+        <section className=" space-y-6">
+          <h1 className="text-4xl md:text-5xl font-bold border-b-4 border-white inline-block pb-3">
+            Visit & Explore Kolkata
+          </h1>
+
+          <p className="leading-8">
+            Formerly known as Calcutta, 1st Capital of India of the British Rule before it was shifted to New Delhi. Also known as City of Joy. Bastions & remains of the ancient British & French settlements, boasts of a mini China Town within itself, continuing the Bengali Babu culture and witnessing Bengal Renaissance. A truly Heritage City with many diversity where culture & arts gets its true recognition. Where again Food & Football shares the same frenzy as Jazz & Jatras. Where world Politics are equally debated with Global warming. Where you can savor a Mc. Donald’s & Coke together with a Kati roll & Chai in a clay cup. What Thames is to London – Hooghly is to Kolkata and more…
+          </p>
+
+          <p className="leading-8">
+            Kolkata – known as Calcutta till 1991 - is the Capital City of Bengal State in India. is located in the world’s largest River Delta – the ‘Ganges Delta’, which stretches between River Hooghly on the West and River Meghna on the East and a host of other smaller rivers zigzag through the Ganges Delta which merge and flow into the Bay of Bengal Sea. And the world’s thirteenth most populous urban area with 14.2 million people residing in its urban core and suburbs.
+          </p>
+
+          <p className="leading-8">
+            Before the establishment of the city of Calcutta – the Anglicized name of ‘Kolkata’, three villages existed in the same area – Kalikata, Govindapur and Sutanuti. Kolkata derives its name from the Kalikata village – which literally means ‘the land of Goddess Kali’. Post the British Imperial Period in 1947, India embarked upon the process of renaming its cities which had to be approved by the Central Government. And thus Calcutta was renamed Kolkata in 2001.
+          </p>
+        </section>
+
+        {/* CULTURE & HISTORY */}
+        <section className=" space-y-6">
+          <p className="leading-8">
+            Kolkata, having been gripped by the British politics and culture for centuries and having also been a seat and hub of Indian culture and art and religion, is a mammoth sized entity of a city that influenced the rest of the country towards political, educational, religious, artistic and general lifestyle reforms which is evident in its history and visible in its vibrant culture and myriad traditions.
+          </p>
+        </section>
+
+        {/* ARCHITECTURE */}
+        <section className="  space-y-6">
+          <h2 className="text-3xl font-semibold border-b-2 border-white inline-block pb-2">
+            City of Palaces & Bridges
+          </h2>
+
+          <p className="leading-8">
+            Kolkata is a City of Palaces - owing to the numerous palatial mansions dotting the Kolkata cityscape – most constructed during the British colonial era in Bengal when Kolkata was made the Capital of British India. Their architecture is influenced by and emanates a mix of Neo-classical, neo-Gothic, Baroque, Islamic, Oriental and predominantly European (British, French and Portuguese) schools of design.
+          </p>
+
+          <p className="leading-8">
+            Apart from the colossal and opulent constructions, Kolkata is home to some structural and technological marvels such as the world’s busiest and the 6th longest suspension type balanced Cantilever Bridge – the Howrah Bridge India’s longest Cable-stayed bridge – the Vidyasagar Setu; a multispan steel bridge – Vivekananda Setu and the Nivedita Setu – another cable-stayed bridge – all on one single river – Hooghly which spines through the city of Kolkata. Nothing short of being glorified, the Howrah Bridge was made the symbol of Kolkata.
+          </p>
+        </section>
+
+        {/* NOTABLE PERSONALITIES */}
+        <section className=" space-y-6">
+          <p className="leading-8">
+            Kolkata is also home to or has been a stepping stone for Nobel Prize winning Exponents such as Gurudev Rabindranath Tagore (Literature, 1913); Sir Ronald Ross (Medicine, 1902); C. V. Raman (Physics, 1930); Mother Teresa ( Peace, 1979); Amartya Sen (Economics, 1998); the ‘Oscar for Lifetime achievement’ awardee – Satyajit Ray and multi-time Grammy Winner – Pandit Ravi Shankar.
+          </p>
+
+          <p className="leading-8">
+            Apart from these, there are scrolls of world- renowned and generations of statesmen, freedom fighters, social reformers, poets, scientists, historians, writers, orators, philosophers, linguists, sportsmen, fine artists, theatre artistes, film artistes, musicians, dancers, photographers, magicians, film makers and businessmen.
+          </p>
+        </section>
+
+        {/* ADDa & FOOD */}
+        <section className="  space-y-6">
+          <p className="leading-8">
+            Call it a passion or obsession or maybe they are just wired that way but the gregarious Bengalis are all about boisterous and deep conversations, soul-stirring music, writing at the drop of a hat and food – both experimenting and eating. Visit the Coffee House at College Street in Kolkata and you can see what I mean. You will be amazed by the ‘Adda’ culture (having long-drawn and hearty conversations over hot cuppa tea) that’s in your face when you enter the Coffee House.
+          </p>
+
+          <p className="leading-8">
+            Food is central to the Bengalis because of which the popular Bengali saying – ‘machhey bhate bangali’ (meaning fish and rice make a Bengali) has come into existence. One may not know a Bengali or not know where their sweets come from but the sweets made by the Bengalis are relished by domestic and foreign sweet-toothies all over.
+          </p>
+        </section>
+
+        {/* PLACES OF INTEREST */}
+        <section className="  space-y-6">
+          <h2 className="text-3xl font-semibold border-b-2 border-white inline-block pb-2">
+            Places of Interest
+          </h2>
+
+          <p className="leading-8">
+            Victoria Memorial • Dakhineshwar Kali • Kalighat Temple • Missionaries of Charity • Banks of the river (Hooghly) Ganges • River Cruise • Indian Museum • St. Paul’s Cathedrae • The Last Supper (original painting) • Zoological Gardens • Botanical Gardens • Town Hall • Kumartuli • Marble Palace • Water World • Heritage Buildings • Night Clubs • Sir. Stuart’s Hog’s (New) Market • Tram Ride • Horse Drawn Carriage • Durga Puja festival (held once every year) • invitation to a Bengali marriage ceremony & more…
+          </p>
+        </section>
+
+        {/* NEARBY */}
+        <section className=" space-y-6">
+          <h2 className="text-3xl font-semibold border-b-2 border-white inline-block pb-2">
+            At a Short Distance
+          </h2>
+
+          <p className="leading-8">
+            Krishnanagar (Clay models) • Santiniketan ( all about Rabindranath Tagore & Kantha embroidery) • Bolpur (Baul Singers) • Mayapur (ISKCON - Hare Krishna Temple) • Navadwip • Bakreswar (9 Hot Springs) • Tarapeeth (Goddess Tara Ma) • Murshidabad ( Palaces of the erstwhile Nawabs of Bengal) • Chadernagore • Serampore (remains of French bastions) • Fulia (Handloom Weavers) & more…
+          </p>
+        </section>
+
+        {/* CUISINE */}
+        <section className=" space-y-6">
+          <h2 className="text-3xl font-semibold border-b-2 border-white inline-block pb-2">
+            Must Try Cuisine
+          </h2>
+
+          <p className="leading-8">
+            Highly recommended authentic Bengali in Fish – Crab – Prawn – Lamb curries & Vegetable preparations & Rice, Rosogolla, Mishti Doi & Sondesh. See Local Cuisine. Also all other Indian regional & International speciality cuisines like Chinese / Continental / Oriental / Lebanese / Thai / Japanese / European are there to pick from. You ask, we present!
+          </p>
+        </section>
+
+      </div>
+    </div>
       {/* ================= MAJOR ATTRACTIONS ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">

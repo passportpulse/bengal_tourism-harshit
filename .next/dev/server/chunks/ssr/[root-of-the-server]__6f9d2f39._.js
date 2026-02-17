@@ -88,15 +88,15 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
                                             lineNumber: 48,
-                                            columnNumber: 15
+                                            columnNumber: 7
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-3xl font-extrabold text-indigo-600 mt-3",
+                                            className: "text-2xl font-semibold text-indigo-600 mt-3",
                                             children: "₹ 15,400"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
                                             lineNumber: 49,
-                                            columnNumber: 15
+                                            columnNumber: 16
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                                             className: "mt-6 space-y-3 text-gray-600 text-sm",
@@ -146,7 +146,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             lineNumber: 60,
                                                             columnNumber: 60
                                                         }, this),
-                                                        " Pick & Drop"
+                                                        " PickU & Drop"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
@@ -1275,6 +1275,179 @@ function DighaPage() {
                 lineNumber: 64,
                 columnNumber: 7
             }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "bg-gray-50 py-16 px-6 md:px-12",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "max-w-7xl mx-auto space-y-16",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                            className: "bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "text-4xl font-bold text-blue-700 border-b-4 border-blue-500 inline-block pb-2",
+                                    children: "Digha – The Brighton of the East"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/digha/page.tsx",
+                                    lineNumber: 104,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-gray-700 leading-8",
+                                    children: "Once upon a time, Digha was called ‘Brighton of the East’. Some websites still flaunts that tag. There was a time when the hard & flat beach at Digha stretched for miles & the salt wind soughed among the casuarinas. About 200 kms from Kolkata, on the shores of Bay of Bengal. Miles & miles of secluded Sea & rolling Beach’s, it’s fringed by casuarinas & eucalyptus trees. Lovers & Honeymooner’s playground. Far away from the madding crowd. Virgin & uncluttered."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/digha/page.tsx",
+                                    lineNumber: 108,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-gray-700 leading-8",
+                                    children: "On the long walk to the mohona, one would come across beached boats, fishing nets & occasional giant turtles. Over 200 yards of the water-front are now encased in concrete & tone, to prevent further erosion by the sea. Lining the stone embankments are rows of food stalls & sovereign shops."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/digha/page.tsx",
+                                    lineNumber: 116,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-gray-700 leading-8",
+                                    children: "Once upon a time, it was derigueur to shoot almost all romantic Bengali films in this grove. There are now two beaches at Digha, Old & New. The waters at these beaches can be very choppy at times, specially during the rainy season. Every second house in Digha is a hotel or a lodge, catering to the budget as well as the fussy travellers."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/digha/page.tsx",
+                                    lineNumber: 122,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/digha/page.tsx",
+                            lineNumber: 103,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                            className: "bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "text-4xl font-bold text-orange-600 border-b-4 border-orange-500 inline-block pb-2",
+                                    children: "Mandarmani"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/digha/page.tsx",
+                                    lineNumber: 132,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-gray-700 leading-8",
+                                    children: "Mandarmani is one of Bengal’s recently developed tourist destination that lies close to ever-popular Digha and Shankarpur. With sun and surf, pristine sea beach and untrammelled silt coloured sand, this beach is slowly becoming popular among the tourists."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/digha/page.tsx",
+                                    lineNumber: 136,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-gray-700 leading-8",
+                                    children: "Mandarmani boasts of a 13 km long motorable beach, probably the longest motorable beach road in India. On the beach you will undoubtedly get the chance to feel the divinity and tranquility. If that is not enough to please your senses, then try to loll on the sand and listen to the waves crashing upon the shore, which will surely drive away your bustling pressure."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/digha/page.tsx",
+                                    lineNumber: 142,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-gray-700 leading-8",
+                                    children: "As an added attraction; this is the only place in eastern India where one can enjoy many beach adventure activities like ATV Rides, Water Scooter, Para Gliding, Speed Boats & local motorised Cycle Van cruise on the beach. Also try the freshly caught shrimps & crabs, fried to perfection with a glass of beer on the many make-shift shacks that dot the beach while the waves laps at your feet & the breeze plays with your hair. A perfect destination for some sun-bathing."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/digha/page.tsx",
+                                    lineNumber: 149,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/digha/page.tsx",
+                            lineNumber: 131,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                            className: "bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "text-4xl font-bold text-green-600 border-b-4 border-green-500 inline-block pb-2",
+                                    children: "Shankarpur"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/digha/page.tsx",
+                                    lineNumber: 160,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-gray-700 leading-8",
+                                    children: "Then there is the secrets of the sea in Shankarpur. There is something about the silence of the seclude shore that revives memories of innocence lost, or of a secret that one was privileged to learn & cherish as a giggly child."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/digha/page.tsx",
+                                    lineNumber: 164,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/digha/page.tsx",
+                            lineNumber: 159,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                            className: "bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "text-3xl font-bold text-purple-700 border-b-4 border-purple-500 inline-block pb-2",
+                                    children: "Places of Interest"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/digha/page.tsx",
+                                    lineNumber: 172,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-gray-700 leading-8",
+                                    children: "Marine aquarium • Science Centre • Water Sports • Recreational activities • Mondarmoni • Tazpur • Shankarpur (Casuarina Trees) • Mohona • Gadiara ( 3 rivers meet ) & more"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/digha/page.tsx",
+                                    lineNumber: 176,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/digha/page.tsx",
+                            lineNumber: 171,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                            className: "bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "text-3xl font-bold text-red-600 border-b-4 border-red-500 inline-block pb-2",
+                                    children: "At a Short Distance"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/digha/page.tsx",
+                                    lineNumber: 184,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-gray-700 leading-8",
+                                    children: "Puri (abode of the Lord of the Universe) • Konark (Sun temple & Erotic sculptures) • Simlipal (Tiger Reserve) • Bhubaneswar, Udaigiri, Khandagiri & Ratnagiri • Nandan Kanan (Animal kingdom) • Chandipur • Gopalpur (a sea to walk on) • Chilika Lagoon (River dolphins & Migratory birds) • Gahirmatha (UNESCO World Heritage Site) • Bhitarkanika (Crocodiles) & more…"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/digha/page.tsx",
+                                    lineNumber: 188,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/digha/page.tsx",
+                            lineNumber: 183,
+                            columnNumber: 9
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/digha/page.tsx",
+                    lineNumber: 100,
+                    columnNumber: 7
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/app/digha/page.tsx",
+                lineNumber: 99,
+                columnNumber: 8
+            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "py-20 bg-white",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1288,7 +1461,7 @@ function DighaPage() {
                                     children: "Beach Tour Packages"
                                 }, void 0, false, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 103,
+                                    lineNumber: 203,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1296,13 +1469,13 @@ function DighaPage() {
                                     children: "Special tailor-made combination packages designed for your perfect coastal getaway"
                                 }, void 0, false, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 104,
+                                    lineNumber: 204,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/digha/page.tsx",
-                            lineNumber: 102,
+                            lineNumber: 202,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1319,7 +1492,7 @@ function DighaPage() {
                                                     children: "Sea Beach Circuit - Complete Coastal Experience"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 114,
+                                                    lineNumber: 214,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1327,7 +1500,7 @@ function DighaPage() {
                                                     children: "Digha • Mandarmoni • Tajpur • Shankarpur • Udaipur"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 115,
+                                                    lineNumber: 215,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1335,23 +1508,23 @@ function DighaPage() {
                                                     children: "4 Nights / 5 Days"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 116,
+                                                    lineNumber: 216,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 113,
+                                            lineNumber: 213,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/digha/page.tsx",
-                                        lineNumber: 112,
+                                        lineNumber: 212,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 111,
+                                    lineNumber: 211,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1369,7 +1542,7 @@ function DighaPage() {
                                                                 className: "w-4 h-4 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 126,
+                                                                lineNumber: 226,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1377,13 +1550,13 @@ function DighaPage() {
                                                                 children: "Day 1"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 127,
+                                                                lineNumber: 227,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/digha/page.tsx",
-                                                        lineNumber: 125,
+                                                        lineNumber: 225,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1393,54 +1566,54 @@ function DighaPage() {
                                                                 children: "• Depart from Kolkata (7-8 AM)"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 130,
+                                                                lineNumber: 230,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Breakfast at Kolaghat"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 131,
+                                                                lineNumber: 231,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Reach Digha (1-2 PM)"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 132,
+                                                                lineNumber: 232,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Hotel check-in & lunch"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 133,
+                                                                lineNumber: 233,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Evening local market visit"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 134,
+                                                                lineNumber: 234,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Breakfast & Dinner included"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 135,
+                                                                lineNumber: 235,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/digha/page.tsx",
-                                                        lineNumber: 129,
+                                                        lineNumber: 229,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/digha/page.tsx",
-                                                lineNumber: 124,
+                                                lineNumber: 224,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1453,7 +1626,7 @@ function DighaPage() {
                                                                 className: "w-4 h-4 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 141,
+                                                                lineNumber: 241,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1461,13 +1634,13 @@ function DighaPage() {
                                                                 children: "Day 2"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 142,
+                                                                lineNumber: 242,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/digha/page.tsx",
-                                                        lineNumber: 140,
+                                                        lineNumber: 240,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1477,54 +1650,54 @@ function DighaPage() {
                                                                 children: "• Early morning sunrise experience"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 145,
+                                                                lineNumber: 245,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Old Digha/New Digha beach"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 146,
+                                                                lineNumber: 246,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Udaipur (Odisha border) option"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 147,
+                                                                lineNumber: 247,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Water sports & rides"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 148,
+                                                                lineNumber: 248,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Fresh coconut & beach beer"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 149,
+                                                                lineNumber: 249,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Breakfast & Dinner included"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 150,
+                                                                lineNumber: 250,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/digha/page.tsx",
-                                                        lineNumber: 144,
+                                                        lineNumber: 244,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/digha/page.tsx",
-                                                lineNumber: 139,
+                                                lineNumber: 239,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1537,7 +1710,7 @@ function DighaPage() {
                                                                 className: "w-4 h-4 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 156,
+                                                                lineNumber: 256,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1545,13 +1718,13 @@ function DighaPage() {
                                                                 children: "Day 3"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 157,
+                                                                lineNumber: 257,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/digha/page.tsx",
-                                                        lineNumber: 155,
+                                                        lineNumber: 255,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1561,54 +1734,54 @@ function DighaPage() {
                                                                 children: "• Check-out (10-11 AM)"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 160,
+                                                                lineNumber: 260,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• En-route Mohona visit"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 161,
+                                                                lineNumber: 261,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Mandarmoni check-in"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 162,
+                                                                lineNumber: 262,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Rolling beach exploration"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 163,
+                                                                lineNumber: 263,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Evening bonfire & BBQ"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 164,
+                                                                lineNumber: 264,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Breakfast & Dinner included"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 165,
+                                                                lineNumber: 265,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/digha/page.tsx",
-                                                        lineNumber: 159,
+                                                        lineNumber: 259,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/digha/page.tsx",
-                                                lineNumber: 154,
+                                                lineNumber: 254,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1621,7 +1794,7 @@ function DighaPage() {
                                                                 className: "w-4 h-4 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 171,
+                                                                lineNumber: 271,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1629,13 +1802,13 @@ function DighaPage() {
                                                                 children: "Day 4"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 172,
+                                                                lineNumber: 272,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/digha/page.tsx",
-                                                        lineNumber: 170,
+                                                        lineNumber: 270,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1645,54 +1818,54 @@ function DighaPage() {
                                                                 children: "• Shankarpur & Tajpur day tour"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 175,
+                                                                lineNumber: 275,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Beach activities"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 176,
+                                                                lineNumber: 276,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Local seafood lunch"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 177,
+                                                                lineNumber: 277,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Spicy crab curry special"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 178,
+                                                                lineNumber: 278,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Country chicken fry"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 179,
+                                                                lineNumber: 279,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Breakfast & Dinner included"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 180,
+                                                                lineNumber: 280,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/digha/page.tsx",
-                                                        lineNumber: 174,
+                                                        lineNumber: 274,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/digha/page.tsx",
-                                                lineNumber: 169,
+                                                lineNumber: 269,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1705,7 +1878,7 @@ function DighaPage() {
                                                                 className: "w-4 h-4 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 186,
+                                                                lineNumber: 286,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1713,13 +1886,13 @@ function DighaPage() {
                                                                 children: "Day 5"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 187,
+                                                                lineNumber: 287,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/digha/page.tsx",
-                                                        lineNumber: 185,
+                                                        lineNumber: 285,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1729,83 +1902,83 @@ function DighaPage() {
                                                                 children: "• Sunrise with morning tea"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 190,
+                                                                lineNumber: 290,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Beach stroll"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 191,
+                                                                lineNumber: 291,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Sea bath"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 192,
+                                                                lineNumber: 292,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Check-out (11 AM)"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 193,
+                                                                lineNumber: 293,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Return to Kolkata"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 194,
+                                                                lineNumber: 294,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Breakfast & Dinner included"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/digha/page.tsx",
-                                                                lineNumber: 195,
+                                                                lineNumber: 295,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/digha/page.tsx",
-                                                        lineNumber: 189,
+                                                        lineNumber: 289,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/digha/page.tsx",
-                                                lineNumber: 184,
+                                                lineNumber: 284,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/digha/page.tsx",
-                                        lineNumber: 123,
+                                        lineNumber: 223,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 122,
+                                    lineNumber: 222,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/digha/page.tsx",
-                            lineNumber: 110,
+                            lineNumber: 210,
                             columnNumber: 11
                         }, this),
                         "\\"
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/digha/page.tsx",
-                    lineNumber: 101,
+                    lineNumber: 201,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/digha/page.tsx",
-                lineNumber: 100,
+                lineNumber: 200,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1821,7 +1994,7 @@ function DighaPage() {
                                     children: "Beach Destinations"
                                 }, void 0, false, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 209,
+                                    lineNumber: 309,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1829,13 +2002,13 @@ function DighaPage() {
                                     children: "Explore the diverse coastal beauties of West Bengal"
                                 }, void 0, false, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 210,
+                                    lineNumber: 310,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/digha/page.tsx",
-                            lineNumber: 208,
+                            lineNumber: 308,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1850,12 +2023,12 @@ function DighaPage() {
                                                 className: "w-16 h-16 text-white group-hover:scale-110 transition"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/digha/page.tsx",
-                                                lineNumber: 218,
+                                                lineNumber: 318,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 217,
+                                            lineNumber: 317,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1866,7 +2039,7 @@ function DighaPage() {
                                                     children: "Digha"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 221,
+                                                    lineNumber: 321,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1874,7 +2047,7 @@ function DighaPage() {
                                                     children: "Most popular beach destination with old and new beach areas, perfect for families"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 222,
+                                                    lineNumber: 322,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1884,7 +2057,7 @@ function DighaPage() {
                                                             className: "w-4 h-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/digha/page.tsx",
-                                                            lineNumber: 224,
+                                                            lineNumber: 324,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1892,25 +2065,25 @@ function DighaPage() {
                                                             children: "East Midnapore"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/digha/page.tsx",
-                                                            lineNumber: 225,
+                                                            lineNumber: 325,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 223,
+                                                    lineNumber: 323,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 220,
+                                            lineNumber: 320,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 216,
+                                    lineNumber: 316,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1922,12 +2095,12 @@ function DighaPage() {
                                                 className: "w-16 h-16 text-white group-hover:scale-110 transition"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/digha/page.tsx",
-                                                lineNumber: 232,
+                                                lineNumber: 332,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 231,
+                                            lineNumber: 331,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1938,7 +2111,7 @@ function DighaPage() {
                                                     children: "Mandarmoni"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 235,
+                                                    lineNumber: 335,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1946,7 +2119,7 @@ function DighaPage() {
                                                     children: "Romantic beach with rolling waves and pristine golden sands"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 236,
+                                                    lineNumber: 336,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1956,7 +2129,7 @@ function DighaPage() {
                                                             className: "w-4 h-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/digha/page.tsx",
-                                                            lineNumber: 238,
+                                                            lineNumber: 338,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1964,25 +2137,25 @@ function DighaPage() {
                                                             children: "East Midnapore"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/digha/page.tsx",
-                                                            lineNumber: 239,
+                                                            lineNumber: 339,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 237,
+                                                    lineNumber: 337,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 234,
+                                            lineNumber: 334,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 230,
+                                    lineNumber: 330,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1994,12 +2167,12 @@ function DighaPage() {
                                                 className: "w-16 h-16 text-white group-hover:scale-110 transition"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/digha/page.tsx",
-                                                lineNumber: 246,
+                                                lineNumber: 346,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 245,
+                                            lineNumber: 345,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2010,7 +2183,7 @@ function DighaPage() {
                                                     children: "Tajpur"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 249,
+                                                    lineNumber: 349,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2018,7 +2191,7 @@ function DighaPage() {
                                                     children: "Serene and secluded beach perfect for solitude seekers"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 250,
+                                                    lineNumber: 350,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2028,7 +2201,7 @@ function DighaPage() {
                                                             className: "w-4 h-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/digha/page.tsx",
-                                                            lineNumber: 252,
+                                                            lineNumber: 352,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2036,25 +2209,25 @@ function DighaPage() {
                                                             children: "East Midnapore"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/digha/page.tsx",
-                                                            lineNumber: 253,
+                                                            lineNumber: 353,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 251,
+                                                    lineNumber: 351,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 248,
+                                            lineNumber: 348,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 244,
+                                    lineNumber: 344,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2066,12 +2239,12 @@ function DighaPage() {
                                                 className: "w-16 h-16 text-white group-hover:scale-110 transition"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/digha/page.tsx",
-                                                lineNumber: 260,
+                                                lineNumber: 360,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 259,
+                                            lineNumber: 359,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2082,7 +2255,7 @@ function DighaPage() {
                                                     children: "Shankarpur"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 263,
+                                                    lineNumber: 363,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2090,7 +2263,7 @@ function DighaPage() {
                                                     children: "Quiet beach destination with excellent seafood options"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 264,
+                                                    lineNumber: 364,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2100,7 +2273,7 @@ function DighaPage() {
                                                             className: "w-4 h-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/digha/page.tsx",
-                                                            lineNumber: 266,
+                                                            lineNumber: 366,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2108,25 +2281,25 @@ function DighaPage() {
                                                             children: "East Midnapore"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/digha/page.tsx",
-                                                            lineNumber: 267,
+                                                            lineNumber: 367,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 265,
+                                                    lineNumber: 365,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 262,
+                                            lineNumber: 362,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 258,
+                                    lineNumber: 358,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2138,12 +2311,12 @@ function DighaPage() {
                                                 className: "w-16 h-16 text-white group-hover:scale-110 transition"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/digha/page.tsx",
-                                                lineNumber: 274,
+                                                lineNumber: 374,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 273,
+                                            lineNumber: 373,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2154,7 +2327,7 @@ function DighaPage() {
                                                     children: "Udaipur"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 277,
+                                                    lineNumber: 377,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2162,7 +2335,7 @@ function DighaPage() {
                                                     children: "Beach at Odisha border with unique cultural blend"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 278,
+                                                    lineNumber: 378,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2172,7 +2345,7 @@ function DighaPage() {
                                                             className: "w-4 h-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/digha/page.tsx",
-                                                            lineNumber: 280,
+                                                            lineNumber: 380,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2180,25 +2353,25 @@ function DighaPage() {
                                                             children: "Odisha Border"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/digha/page.tsx",
-                                                            lineNumber: 281,
+                                                            lineNumber: 381,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 279,
+                                                    lineNumber: 379,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 276,
+                                            lineNumber: 376,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 272,
+                                    lineNumber: 372,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2210,12 +2383,12 @@ function DighaPage() {
                                                 className: "w-16 h-16 text-white group-hover:scale-110 transition"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/digha/page.tsx",
-                                                lineNumber: 288,
+                                                lineNumber: 388,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 287,
+                                            lineNumber: 387,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2226,7 +2399,7 @@ function DighaPage() {
                                                     children: "Monchasha Eco Village"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 291,
+                                                    lineNumber: 391,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2234,7 +2407,7 @@ function DighaPage() {
                                                     children: "Sustainable tourism with local village experience"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 292,
+                                                    lineNumber: 392,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2244,7 +2417,7 @@ function DighaPage() {
                                                             className: "w-4 h-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/digha/page.tsx",
-                                                            lineNumber: 294,
+                                                            lineNumber: 394,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2252,42 +2425,42 @@ function DighaPage() {
                                                             children: "Contai"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/digha/page.tsx",
-                                                            lineNumber: 295,
+                                                            lineNumber: 395,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 293,
+                                                    lineNumber: 393,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 290,
+                                            lineNumber: 390,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 286,
+                                    lineNumber: 386,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/digha/page.tsx",
-                            lineNumber: 215,
+                            lineNumber: 315,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/digha/page.tsx",
-                    lineNumber: 207,
+                    lineNumber: 307,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/digha/page.tsx",
-                lineNumber: 206,
+                lineNumber: 306,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2303,7 +2476,7 @@ function DighaPage() {
                                     children: "Water Sports & Activities"
                                 }, void 0, false, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 307,
+                                    lineNumber: 407,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2311,13 +2484,13 @@ function DighaPage() {
                                     children: "Thrilling adventures and relaxing beach activities for everyone"
                                 }, void 0, false, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 308,
+                                    lineNumber: 408,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/digha/page.tsx",
-                            lineNumber: 306,
+                            lineNumber: 406,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2332,12 +2505,12 @@ function DighaPage() {
                                                 className: "w-8 h-8 text-blue-600"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/digha/page.tsx",
-                                                lineNumber: 316,
+                                                lineNumber: 416,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 315,
+                                            lineNumber: 415,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2345,7 +2518,7 @@ function DighaPage() {
                                             children: "Speed Boat Rides"
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 318,
+                                            lineNumber: 418,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2353,7 +2526,7 @@ function DighaPage() {
                                             children: "Thrilling ocean adventures"
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 319,
+                                            lineNumber: 419,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2361,13 +2534,13 @@ function DighaPage() {
                                             children: "All Beaches"
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 320,
+                                            lineNumber: 420,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 314,
+                                    lineNumber: 414,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2379,12 +2552,12 @@ function DighaPage() {
                                                 className: "w-8 h-8 text-green-600"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/digha/page.tsx",
-                                                lineNumber: 325,
+                                                lineNumber: 425,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 324,
+                                            lineNumber: 424,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2392,7 +2565,7 @@ function DighaPage() {
                                             children: "Parasailing"
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 327,
+                                            lineNumber: 427,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2400,7 +2573,7 @@ function DighaPage() {
                                             children: "Bird's eye ocean view"
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 328,
+                                            lineNumber: 428,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2408,13 +2581,13 @@ function DighaPage() {
                                             children: "Mandarmoni"
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 329,
+                                            lineNumber: 429,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 323,
+                                    lineNumber: 423,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2426,12 +2599,12 @@ function DighaPage() {
                                                 className: "w-8 h-8 text-orange-600"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/digha/page.tsx",
-                                                lineNumber: 334,
+                                                lineNumber: 434,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 333,
+                                            lineNumber: 433,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2439,7 +2612,7 @@ function DighaPage() {
                                             children: "Jet Ski"
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 336,
+                                            lineNumber: 436,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2447,7 +2620,7 @@ function DighaPage() {
                                             children: "High-speed water fun"
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 337,
+                                            lineNumber: 437,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2455,13 +2628,13 @@ function DighaPage() {
                                             children: "Digha New Beach"
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 338,
+                                            lineNumber: 438,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 332,
+                                    lineNumber: 432,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2473,12 +2646,12 @@ function DighaPage() {
                                                 className: "w-8 h-8 text-purple-600"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/digha/page.tsx",
-                                                lineNumber: 343,
+                                                lineNumber: 443,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 342,
+                                            lineNumber: 442,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2486,7 +2659,7 @@ function DighaPage() {
                                             children: "Beach Photography"
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 345,
+                                            lineNumber: 445,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2494,7 +2667,7 @@ function DighaPage() {
                                             children: "Capture golden moments"
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 346,
+                                            lineNumber: 446,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2502,30 +2675,30 @@ function DighaPage() {
                                             children: "Sunrise/Sunset"
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 347,
+                                            lineNumber: 447,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 341,
+                                    lineNumber: 441,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/digha/page.tsx",
-                            lineNumber: 313,
+                            lineNumber: 413,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/digha/page.tsx",
-                    lineNumber: 305,
+                    lineNumber: 405,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/digha/page.tsx",
-                lineNumber: 304,
+                lineNumber: 404,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2541,7 +2714,7 @@ function DighaPage() {
                                     children: "Beach Cuisine"
                                 }, void 0, false, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 357,
+                                    lineNumber: 457,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2549,13 +2722,13 @@ function DighaPage() {
                                     children: "Savor the flavors of the sea with fresh coastal delicacies"
                                 }, void 0, false, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 358,
+                                    lineNumber: 458,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/digha/page.tsx",
-                            lineNumber: 356,
+                            lineNumber: 456,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2617,7 +2790,7 @@ function DighaPage() {
                                             children: item.icon
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 375,
+                                            lineNumber: 475,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -2625,7 +2798,7 @@ function DighaPage() {
                                             children: item.name
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 376,
+                                            lineNumber: 476,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2633,7 +2806,7 @@ function DighaPage() {
                                             children: item.desc
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 377,
+                                            lineNumber: 477,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2641,29 +2814,29 @@ function DighaPage() {
                                             children: item.price
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 378,
+                                            lineNumber: 478,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 374,
+                                    lineNumber: 474,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/digha/page.tsx",
-                            lineNumber: 363,
+                            lineNumber: 463,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/digha/page.tsx",
-                    lineNumber: 355,
+                    lineNumber: 455,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/digha/page.tsx",
-                lineNumber: 354,
+                lineNumber: 454,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2679,7 +2852,7 @@ function DighaPage() {
                                     children: "Offbeat Destinations"
                                 }, void 0, false, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 389,
+                                    lineNumber: 489,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2687,13 +2860,13 @@ function DighaPage() {
                                     children: "Discover hidden gems away from the crowds"
                                 }, void 0, false, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 390,
+                                    lineNumber: 490,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/digha/page.tsx",
-                            lineNumber: 388,
+                            lineNumber: 488,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2709,7 +2882,7 @@ function DighaPage() {
                                                     className: "w-8 h-8 text-green-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 398,
+                                                    lineNumber: 498,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2717,13 +2890,13 @@ function DighaPage() {
                                                     children: "Baguran Jalpai"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 399,
+                                                    lineNumber: 499,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 397,
+                                            lineNumber: 497,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2731,7 +2904,7 @@ function DighaPage() {
                                             children: "Pristine beach destination with Bankiput exploration. Perfect for those seeking solitude and untouched natural beauty. Experience authentic coastal village life with sustainable tourism practices."
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 401,
+                                            lineNumber: 501,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2742,7 +2915,7 @@ function DighaPage() {
                                                     children: "Package Highlights"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 406,
+                                                    lineNumber: 506,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2752,46 +2925,46 @@ function DighaPage() {
                                                             children: "• Beach camping options"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/digha/page.tsx",
-                                                            lineNumber: 408,
+                                                            lineNumber: 508,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                             children: "• Local village tours"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/digha/page.tsx",
-                                                            lineNumber: 409,
+                                                            lineNumber: 509,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                             children: "• Traditional fishing experiences"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/digha/page.tsx",
-                                                            lineNumber: 410,
+                                                            lineNumber: 510,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                             children: "• Eco-friendly stays"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/digha/page.tsx",
-                                                            lineNumber: 411,
+                                                            lineNumber: 511,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 407,
+                                                    lineNumber: 507,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 405,
+                                            lineNumber: 505,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 396,
+                                    lineNumber: 496,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2804,7 +2977,7 @@ function DighaPage() {
                                                     className: "w-8 h-8 text-blue-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 418,
+                                                    lineNumber: 518,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2812,13 +2985,13 @@ function DighaPage() {
                                                     children: "Monchasha Eco Village"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 419,
+                                                    lineNumber: 519,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 417,
+                                            lineNumber: 517,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2826,7 +2999,7 @@ function DighaPage() {
                                             children: "Sustainable tourism destination promoting self-sufficient village life. Experience Bengali culture, folk programs, and eco-friendly practices in harmony with nature."
                                         }, void 0, false, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 421,
+                                            lineNumber: 521,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2837,7 +3010,7 @@ function DighaPage() {
                                                     children: "Eco Experience"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 426,
+                                                    lineNumber: 526,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2847,63 +3020,63 @@ function DighaPage() {
                                                             children: "• Traditional Bengali meals"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/digha/page.tsx",
-                                                            lineNumber: 428,
+                                                            lineNumber: 528,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                             children: "• Village exploration"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/digha/page.tsx",
-                                                            lineNumber: 429,
+                                                            lineNumber: 529,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                             children: "• Cultural folk programs"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/digha/page.tsx",
-                                                            lineNumber: 430,
+                                                            lineNumber: 530,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                             children: "• Sustainable practices"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/digha/page.tsx",
-                                                            lineNumber: 431,
+                                                            lineNumber: 531,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/digha/page.tsx",
-                                                    lineNumber: 427,
+                                                    lineNumber: 527,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/digha/page.tsx",
-                                            lineNumber: 425,
+                                            lineNumber: 525,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/digha/page.tsx",
-                                    lineNumber: 416,
+                                    lineNumber: 516,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/digha/page.tsx",
-                            lineNumber: 395,
+                            lineNumber: 495,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/digha/page.tsx",
-                    lineNumber: 387,
+                    lineNumber: 487,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/digha/page.tsx",
-                lineNumber: 386,
+                lineNumber: 486,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PackagePricing$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2911,12 +3084,12 @@ function DighaPage() {
                 subtitle: "Choose your perfect beach getaway duration"
             }, void 0, false, {
                 fileName: "[project]/app/digha/page.tsx",
-                lineNumber: 440,
+                lineNumber: 540,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/digha/page.tsx",
-                lineNumber: 444,
+                lineNumber: 544,
                 columnNumber: 1
             }, this)
         ]

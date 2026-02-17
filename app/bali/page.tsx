@@ -60,155 +60,112 @@ export default function BaliPage() {
         </div>
       </section>
 
-      {/* ================= MAIN TOUR PACKAGES ================= */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Bali Tour Packages</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Special tailor-made packages designed for your perfect island adventure
-            </p>
+ <div className="bg-gray-50 py-20 px-6 md:px-12">
+      <div className="max-w-7xl mx-auto space-y-16">
+
+        {/* HEADER */}
+        <div className="text-center space-y-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-orange-600">
+            Bali Tour Itinerary
+          </h1>
+          <p className="text-gray-600">
+            4 Days – Leisure, Culture & Scenic Experience
+          </p>
+        </div>
+
+        {/* GRID LAYOUT */}
+        <div className="grid md:grid-cols-2 gap-12">
+
+          {/* LEFT COLUMN */}
+          <div className="space-y-12">
+
+            {/* DAY 1 */}
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-orange-500">
+              <h2 className="text-2xl font-semibold text-orange-600 mb-4">
+                Day – 1 : Arrival in Bali
+              </h2>
+              <p className="text-gray-700 leading-8">
+                Morning after breakfast departure for Bali by connecting flight from Singapore Airport. 
+                The flight journey is around 3.30 hrs and on arrival at the International Airport of Ngurah Rai, Bali, clearing Immigration, collect the bags and go through custom, meet & greet by our local people and transfer to respective hotel. 
+                Tour Guide then heading to your hotel. This day is free and can be arranged based on flight timings. 
+                Evening can be enjoyed on the Bali Sea beach.
+              </p>
+            </div>
+
+            {/* DAY 2 */}
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-green-500">
+              <h2 className="text-2xl font-semibold text-green-600 mb-4">
+                Day – 2 : Kintamani & Ubud Tour
+              </h2>
+              <p className="text-gray-700 leading-8">
+                Morning after breakfast the local tour combines arts and amazing views. 
+                First stop is TOHPATI village famous for colorful Batik fabrics and woven clothes. 
+                Passing BATUBULAN village known for stone carving. 
+                Proceed to KEMENUH village – home of talented woodcarvers and traditional Balinese house compound.
+              </p>
+              <p className="text-gray-700 leading-8 mt-4">
+                Drive to KINTAMANI for magnificent crater view with Mt. Batur and Lake Batur. 
+                Visit Agriculture to see Bali spices and herbal and test Bali coffee & tea. 
+                Visit TAMPAK SIRING – Tirta Empul holy spring water temple. 
+                Continue to TEGALALANG rice terraces and UBUD art village. Back to hotel.
+              </p>
+            </div>
+
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* Bali Cultural Tour */}
-            <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center">
-                <Building className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Bali Cultural Tour</h3>
-                <p className="text-gray-700 mb-4">4 Nights / 5 Days exploring rich Balinese culture</p>
-                <div className="bg-orange-100 p-4 rounded-lg">
-                  <h4 className="font-bold mb-2">Cultural Experience</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• Tohpati village - Batik fabrics & woodcarving</li>
-                    <li>• Batubulan village - Stone carving & traditional houses</li>
-                    <li>• Kintamani village - Woodcarving & art compounds</li>
-                    <li>• Agriculture visits - Spices & herbal testing</li>
-                    <li>• Traditional Balinese house compounds</li>
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-orange-600 font-semibold">Cultural Immersion</span>
-                  <button className="bg-orange-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-orange-700 transition">
-                    Book Now
-                  </button>
-                </div>
-              </div>
+          {/* RIGHT COLUMN */}
+          <div className="space-y-12">
+
+            {/* DAY 3 */}
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-r-4 border-purple-500">
+              <h2 className="text-2xl font-semibold text-purple-600 mb-4">
+                Day – 3 : Bedugul & Tanah Lot Tour
+              </h2>
+              <p className="text-gray-700 leading-8">
+                Morning after breakfast city tour covers TAMAN AYUN Royal Family Temple in Mengwi. 
+                Drive to BEDUGUL mountain resort (1100 meters above sea level). 
+                Visit tropical market and Lake Beratan with floating Ulun Danu Temple.
+              </p>
+              <p className="text-gray-700 leading-8 mt-4">
+                Proceed to TANAH LOT – spectacular temple built in the 17th century on top of rock offshore. 
+                The whole compound turns into wonderful silhouette during sunset. 
+                Back to hotel for accommodation.
+              </p>
             </div>
 
-            {/* Mountain Resort Experience */}
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
-                <Mountain className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Bedugul Mountain Resort</h3>
-                <p className="text-gray-700 mb-4">1 Night / 2 Days of mountain paradise</p>
-                <div className="bg-blue-100 p-4 rounded-lg">
-                  <h4 className="font-bold mb-2">Mountain Experience</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• 1100m above sea level</li>
-                    <li>• Tropical market & rice terraces</li>
-                    <li>• Lake Batur views & crater</li>
-                    <li>• Mt. Batur smoky crater views</li>
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-blue-600 font-semibold">Mountain Paradise</span>
-                  <button className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-700 transition">
-                    Book Now
-                  </button>
-                </div>
-              </div>
+            {/* DAY 4 */}
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-r-4 border-red-500">
+              <h2 className="text-2xl font-semibold text-red-600 mb-4">
+                Day – 4 : Departure
+              </h2>
+              <p className="text-gray-700 leading-8">
+                After breakfast, check-out from the hotel, transfer to Bali Airport for connecting flight to Singapore and further flight to respective destination.
+              </p>
             </div>
+
           </div>
         </div>
-      </section>
 
-      {/* ================= TEMPLE & VILLAGE EXPERIENCES ================= */}
-      <section className="py-20 bg-gradient-to-br from-yellow-50 to-orange-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Temple & Village Experiences</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Ancient temples, traditional villages, and authentic Balinese culture
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Royal Temple */}
-            <div className="bg-white rounded-2xl p-8 text-center hover:shadow-xl transition">
-              <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Building className="w-8 h-8 text-orange-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Taman Ayun Royal Temple</h3>
-              <p className="text-gray-700 mb-4">
-                Spectacular temple built in 17th century, dedicated to the goddess of water. 
-                Experience the magical power that keeps the young and witness the temple's 
-                magnificent silhouette against the sunset.
-              </p>
-              <div className="flex items-center gap-2 text-orange-600">
-                <MapPin className="w-4 h-4" />
-                <span className="text-sm">Mengwi</span>
-              </div>
-            </div>
-
-            {/* Floating Temple */}
-            <div className="bg-white rounded-2xl p-8 text-center hover:shadow-xl transition">
-              <div className="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Building className="w-8 h-8 text-purple-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Ulun Danu Temple</h3>
-              <p className="text-gray-700 mb-4">
-                Holy spring water temple believed to possess magical powers. 
-                The temple is dedicated to the goddess of water dwelling and is a place 
-                of spiritual significance for Balinese Hindus.
-              </p>
-              <div className="flex items-center gap-2 text-purple-600">
-                <MapPin className="w-4 h-4" />
-                <span className="text-sm">Bedugul</span>
-              </div>
-            </div>
-
-            {/* Traditional Villages */}
-            <div className="bg-white rounded-2xl p-8 text-center hover:shadow-xl transition">
-              <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Utensils className="w-8 h-8 text-green-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Traditional Villages</h3>
-              <p className="text-gray-700 mb-4">
-                Experience authentic Balinese village life with traditional crafts, 
-                cultural performances, and local cuisine. Visit artisan workshops 
-                and learn about ancient techniques passed down through generations.
-              </p>
-              <div className="flex items-center gap-2 text-green-600">
-                <MapPin className="w-4 h-4" />
-                <span className="text-sm">All Villages</span>
-              </div>
-            </div>
-
-            {/* Art & Craft */}
-            <div className="bg-white rounded-2xl p-8 text-center hover:shadow-xl transition">
-              <div className="bg-teal-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <ShoppingBag className="w-8 h-8 text-teal-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Art & Craft Workshops</h3>
-              <p className="text-gray-700 mb-4">
-                Visit traditional craft workshops specializing in Batik fabrics, 
-                woodcarving, silver work, and traditional Balinese art. Purchase 
-                authentic handmade souvenirs directly from skilled artisans.
-              </p>
-              <div className="flex items-center gap-2 text-teal-600">
-                <MapPin className="w-4 h-4" />
-                <span className="text-sm">Art Villages</span>
-              </div>
-            </div>
-          </div>
+        {/* EXTENSION SECTION */}
+        <div className="bg-orange-50 border border-orange-200 rounded-3xl p-8 text-center shadow-lg">
+          <p className="text-gray-700 leading-8">
+            (You may extend your tour for 3-4 more days covering Malaysia / Singapore / Indonesia at a minimum cost / free*)
+          </p>
         </div>
-      </section>
 
+        {/* RECOMMENDED STAY */}
+        <div className="bg-white rounded-3xl shadow-xl p-8 text-center">
+          <h3 className="text-2xl font-semibold text-blue-600 mb-4">
+            Recommended Stay
+          </h3>
+          <p className="text-gray-700 leading-8">
+            To stay at a resort of our choice at destination. 
+            See some names of Hotels, Resorts, Home Stay where we keep our Guests.
+          </p>
+        </div>
+
+      </div>
+    </div>
 
 
 <ContactCTA />

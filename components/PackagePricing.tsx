@@ -57,7 +57,7 @@ export default function PackagePricing({
                 <li className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-indigo-600" /> Breakfast & Dinner
                 </li>
-                 <li className="flex items-center gap-2">  <Check className="w-4 h-4 text-indigo-600" /> Pick & Drop
+                 <li className="flex items-center gap-2">  <Check className="w-4 h-4 text-indigo-600" /> PickU & Drop
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-indigo-600" /> Sightseeing as per Itinerary

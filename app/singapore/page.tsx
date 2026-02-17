@@ -60,163 +60,91 @@ export default function SingaporePage() {
         </div>
       </section>
 
-      {/* ================= MAIN TOUR PACKAGES ================= */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Singapore Tour Packages</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Special tailor-made packages designed for your perfect modern city experience
-            </p>
-          </div>
+     <div className="bg-gray-50 py-20 px-6 md:px-12">
+      <div className="max-w-7xl mx-auto space-y-16">
 
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* Singapore City Tour */}
-            <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center">
-                <Building className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Singapore City Tour</h3>
-                <p className="text-gray-700 mb-4">4 Nights / 5 Days exploring vibrant Singapore</p>
-                <div className="bg-orange-100 p-4 rounded-lg">
-                  <h4 className="font-bold mb-2">City Experience</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• Little India cultural experience</li>
-                    <li>• Marina Bay Sands viewing</li>
-                    <li>• China Town exploration</li>
-                    <li>• Merlion Park visit</li>
-                    <li>• Shopping at Orchard Road</li>
-                    <li>• Cultural performances</li>
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-orange-600 font-semibold">Urban Adventure</span>
-                  <button className="bg-orange-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-orange-700 transition">
-                    Book Now
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            {/* Sentosa Island Tour */}
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
-                <Trees className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Sentosa Island Adventure</h3>
-                <p className="text-gray-700 mb-4">2 Nights / 3 Days of island fun and attractions</p>
-                <div className="bg-blue-100 p-4 rounded-lg">
-                  <h4 className="font-bold mb-2">Island Experience</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• Universal Studios Singapore</li>
-                    <li>• Adventure Cove water park</li>
-                    <li>• Beach activities and sports</li>
-                    <li>• Underwater World and S.E.A. Aquarium</li>
-                    <li>• Skyline Luge and MegaZip</li>
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-blue-600 font-semibold">Island Paradise</span>
-                  <button className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-700 transition">
-                    Book Now
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            {/* Jurong Bird Park */}
-            <div className="bg-gradient-to-br from-green-50 to-teal-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-green-400 to-teal-500 flex items-center justify-center">
-                <Bird className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Jurong Bird Park</h3>
-                <p className="text-gray-700 mb-4">1 Night / 2 Days of nature and wildlife</p>
-                <div className="bg-green-100 p-4 rounded-lg">
-                  <h4 className="font-bold mb-2">Wildlife Experience</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• 600+ bird species</li>
-                    <li>• Nature trails and hiking</li>
-                    <li>• Bird watching towers</li>
-                    <li>• Wildlife photography</li>
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-green-600 font-semibold">Nature Paradise</span>
-                  <button className="bg-green-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-green-700 transition">
-                    Book Now
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
+        {/* HEADER */}
+        <div className="text-center space-y-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-red-600">
+            Singapore Tour Itinerary
+          </h1>
+          <p className="text-gray-700 text-lg">
+            Special Tailor made Combination Package
+          </p>
+          <p className="text-gray-600">
+            Number of Days & Cost can be designed on Request.
+          </p>
         </div>
-      </section>
 
-      {/* ================= ATTRACTIONS & EXPERIENCES ================= */}
-      <section className="py-20 bg-gradient-to-br from-yellow-50 to-orange-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Singapore Attractions</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              World-class attractions and unique experiences in the Lion City
-            </p>
-          </div>
+        {/* DAY GRID */}
+        <div className="grid md:grid-cols-2 gap-10 items-stretch">
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Night Safari */}
-            <div className="bg-white rounded-2xl p-8 text-center hover:shadow-xl transition">
-              <div className="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Sparkles className="w-8 h-8 text-purple-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Night Safari & Shopping</h3>
-              <p className="text-gray-700 mb-4">
-                Experience Singapore's vibrant nightlife, cultural shows, and world-class shopping 
-                at Orchard Road and Marina Bay. Enjoy dinner cruise and explore the city after dark.
-              </p>
-              <div className="flex items-center gap-2 text-purple-600">
-                <MapPin className="w-4 h-4" />
-                <span className="text-sm">City Center</span>
-              </div>
-            </div>
+          {/* DAY 1 */}
+          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-red-500 h-full flex flex-col min-h-[280px]">
+            <h2 className="text-2xl font-semibold text-red-600 mb-4">
+              Day – 1 : Arrival & City Tour
+            </h2>
+            <div className="text-gray-700 leading-8 flex-grow">
+          Departure for direct flight from Kolkata to Singapore by Air Travel. Transfer to respective hotel at Singapore. Check in hotel and free at your own leisure.  You will proceed to see the beautiful city of Singapore.  Half Day City tour ( 4Hrs). half day Singapore city tour which covers major attractions of the city like Little India,  Marina Bay, China Town, Merlion Park etc. Evening leisure and Night stay at Hotel / Resort / Singapore.
 
-            {/* Cultural Districts */}
-            <div className="bg-white rounded-2xl p-8 text-center hover:shadow-xl transition">
-              <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Utensils className="w-8 h-8 text-orange-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Cultural Districts</h3>
-              <p className="text-gray-700 mb-4">
-                Explore Chinatown, Little India, Kampong Glam, and other cultural 
-                districts showcasing Singapore's multicultural heritage and diverse culinary scene.
-              </p>
-              <div className="flex items-center gap-2 text-orange-600">
-                <MapPin className="w-4 h-4" />
-                <span className="text-sm">Heritage Areas</span>
-              </div>
-            </div>
 
-            {/* Modern Architecture */}
-            <div className="bg-white rounded-2xl p-8 text-center hover:shadow-xl transition">
-              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Building className="w-8 h-8 text-blue-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Modern Marvels</h3>
-              <p className="text-gray-700 mb-4">
-                Marina Bay Sands, Gardens by the Bay, ArtScience Museum, 
-                and other architectural wonders showcasing Singapore's modern development.
-              </p>
-              <div className="flex items-center gap-2 text-blue-600">
-                <MapPin className="w-4 h-4" />
-                <span className="text-sm">Architectural Icons</span>
-              </div>
             </div>
           </div>
+       {/* DAY 3 */}
+          <div className="bg-white shadow-xl rounded-3xl p-8 border-r-4 border-green-500 h-full flex flex-col min-h-[280px]">
+            <h2 className="text-2xl font-semibold text-green-600 mb-4">
+              Day – 3 : Jurong Bird Park & Shopping
+            </h2>
+            <div className="text-gray-700 leading-8 flex-grow">
+         After breakfast visit Jurong National Park. Jurong Bird Park is a 20.2 hectare open-concept park. It is the largest in the Asia Pacific and the best in the world. Its collection of more than 8,000 birds from 600 species is among the largest in the world. The Park specializes in birds from Southeast Asia. Evening free and walk to the city mall for shopping and free evening and Night stayat Hotel / Resort / Singapore.
+            </div>
+          </div>
+          {/* DAY 2 */}
+          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-blue-500 h-full flex flex-col min-h-[280px]">
+            <h2 className="text-2xl font-semibold text-blue-600 mb-4">
+              Day – 2 : Sentosa Island & Night Safari
+            </h2>
+            <div className="text-gray-700 leading-8 flex-grow">
+  Enjoy your breakfast in the morning; today you will proceed to see an optional tour of Sentosa Island. Visit the Underwater, World, Asia's most popular Sea Aquarium and Cable Car. Return by late afternoon.  Evening you can enjoy the Singapore night safari 4 hrs tour. Night stay at Hotel / Resort / Singapore.
+            </div>
+          </div>
+
+   
+
+          {/* DAY 4 */}
+          <div className="bg-white shadow-xl rounded-3xl p-8 border-r-4 border-purple-500 h-full flex flex-col min-h-[280px]">
+            <h2 className="text-2xl font-semibold text-purple-600 mb-4">
+              Day – 4 : Departure
+            </h2>
+            <div className="text-gray-700 leading-8 flex-grow">
+              After breakfast, Check-out from the hotel.
+              Transfer to Singapore Airport for your return journey.
+              Tour Ends...
+            </div>
+          </div>
+
         </div>
-      </section>
 
+        {/* EXTENSION BOX */}
+        <div className="bg-red-50 border border-red-200 rounded-3xl p-8 text-center shadow-lg">
+          <p className="text-gray-700 leading-8">
+            (You may extend your tour for 3-4 more days covering Malaysia / Bali / Indonesia at a minimum cost / free*)
+          </p>
+        </div>
+
+        {/* RECOMMENDED */}
+        <div className="bg-white rounded-3xl shadow-xl p-8 text-center">
+          <h3 className="text-2xl font-semibold text-indigo-600 mb-4">
+            Recommended Stay
+          </h3>
+          <p className="text-gray-700 leading-8">
+            To stay at a resort of our choice at Destinations.
+            See some names of Hotels, Resorts, Home Stay where we keep our Guests.
+          </p>
+        </div>
+
+      </div>
+    </div>
 
       <ContactCTA />
 

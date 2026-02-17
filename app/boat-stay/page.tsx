@@ -49,7 +49,9 @@ const placesOfInterest = [
   "Thakurani",
   "Hatiani",
   "Doani",
-  "Chemaguri"
+  "Chemaguri",
+  "Luxury River Cruises on the river Hooghly/Ganges",
+  "Bhagabatpur Crocodile Project"
 ];
 
 const nearbyPlaces = [
@@ -335,23 +337,6 @@ export default function BoatStayPage() {
         </div>
       </section>
 
-      {/* ================= CTA ================= */}
-      <section className="py-20 bg-gradient-to-br from-blue-600 to-teal-600">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-4xl font-black text-white mb-6">Design Your Custom Package</h2>
-          <p className="text-xl text-white/90 max-w-3xl mx-auto mb-12">
-            Let us create the perfect boat stay and river cruise experience for you
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/contact" className="px-8 py-3 bg-white text-blue-600 font-bold rounded-xl hover:bg-gray-100 transition">
-              Get Custom Quote
-            </a>
-            <a href="/book-tour" className="px-8 py-3 bg-white text-blue-600 font-bold rounded-xl hover:bg-gray-100 transition">
-              Book Now
-            </a>
-          </div>
-        </div>
-      </section>
 
       {/* ================= PACKAGE PRICING ================= */}
       <PackagePricing 

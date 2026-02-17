@@ -98,7 +98,135 @@ export default function SundarbanPage() {
           </div>
         </div>
       </section>
+<div className="bg-green-50 py-16 px-6 md:px-12">
+      <div className="max-w-7xl mx-auto space-y-16">
 
+        {/* Hero Section */}
+        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
+          <h2 className="text-4xl font-bold text-green-700 border-b-4 border-green-500 inline-block pb-2">
+            Visit & Explore Dooars with Bengal Tourism
+          </h2>
+
+          <p className="text-gray-700 leading-8">
+            Bengal’s favoured playground starts as you head east of Jalpaiguri & enter that land of river, mountain, tea & forest called the Dooars, you are first greeted by the paddy fields & tea gardens. And just when that get a tad monotonous, you arrive at the forests of Gorumara. The flat greenery gives way to vegetation so thick, sometimes you can barely see through it. When your skin breaks into those pleasure globules called goosebumps at the sight of mystifying foliage, you know you have reached your destination. Home of the famous One Horned Rhino, Indian Elephants & other wildlife’s natural habitat in the rain forests and more…
+          </p>
+        </section>
+
+        {/* Jaldapara & Chilapata */}
+        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
+          <h3 className="text-3xl font-bold text-emerald-600 border-b-4 border-emerald-500 inline-block pb-2">
+            Jaldapara & Chilapata
+          </h3>
+
+          <p className="text-gray-700 leading-8">
+            The Rhino country as Jaldapara teems with plant & animal life. It is home to about 60-80 rhinoceros. But the awe-aspiring aspect here is the forest itself. Looking at the dence foliage & tall trees that seem to close in upon you, you feel the shiver down your spine – of excitement mixed with some amount of trepidation. The canopy of trees are so dense that hardly any sunlight fell on the forest floors. One can also enjoy the Chilapata forest nearby, where you can spot elephants & leopards.
+          </p>
+        </section>
+
+        {/* Buxa Tiger Reserve */}
+        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
+          <h3 className="text-3xl font-bold text-lime-700 border-b-4 border-lime-600 inline-block pb-2">
+            Buxa Tiger Reserve
+          </h3>
+
+          <p className="text-gray-700 leading-8">
+            The famous Buxa Tiger Reserve in an area of about 760 sq.km is another paradise in the region of Dooars. The whole landscape is criss-crossed by many big & small rivers and springs & has innumerable watering holes for its animal population. Home to elephants, bisons, sambar, barking, hog & chital deer, wild boar, will buffaloes, leopards & mony more smaller cats and reptiles. About 30-35 Royal Bengal Tigers live in this park. This place is most suitable for hardcore wildlifers. Many treks also run through this jungle.
+          </p>
+        </section>
+
+        {/* Teesta & Mahananda */}
+        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
+          <h3 className="text-3xl font-bold text-teal-700 border-b-4 border-teal-600 inline-block pb-2">
+            Teesta & Mahananda
+          </h3>
+
+          <p className="text-gray-700 leading-8">
+            Just stand on the forested ridge at sunset & watch the army of sal & segun trees descend in nimble steps to the sandy banks of the Teesta, and you won’t want to move any further down that highway. As you stand transfixed by the sublime beauty of the forests and the Teesta, you’ll hear the shrill whistle of a railway engine about the enter the Mahananda Santuary or chugging its way through the deep forests towards Alipurduar.
+          </p>
+
+          <p className="text-gray-700 leading-8">
+            And as the first rays of the sun softly caress your eyes, look out from your room to an age-old jungle with many species of flora & fauna as yet undiscovered.
+          </p>
+        </section>
+
+        {/* Tea Gardens & Mongpong */}
+        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
+          <h3 className="text-3xl font-bold text-green-800 border-b-4 border-green-700 inline-block pb-2">
+            Tea Gardens & Mongpong
+          </h3>
+
+          <p className="text-gray-700 leading-8">
+            The serpentine mud-tracks vanishing into the deep woods beckon you on a voyage of discovery, as a moisture laden cool breezes with the fragrance of the forest & countless flowers uplift you. This channel around Mongpong & the Teesta is also an ideal breeding ground for migratory birds. The green encounter set in the western Dooars at Damdim & the rows of lush green tea bushes, line of taller trees shading them & a deep blue sky lording over it all. Even if you do not approve of colonial-style living, for the sheer closeness to nature that living near a tea garden provides & the scent of fresh tea pervading the air, it is worth prioritising privilege over principle at least for this one holiday.
+          </p>
+        </section>
+
+        {/* Suntalekhola & Neora Valley */}
+        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
+          <h3 className="text-3xl font-bold text-emerald-700 border-b-4 border-emerald-600 inline-block pb-2">
+            Suntalekhola & Neora Valley
+          </h3>
+
+          <p className="text-gray-700 leading-8">
+            The fairytale setting of Suntalekhola will elevate you to far greater heights than the altimeter’s reading of 2475 ft. Lovingly girdled by a gurgling brook & surrounded on all sides by towering mountains in varying shades of green, this place is connected to the civilized world only by a hanging footbridge that shakes every time you take a step. And the Neora Valley with its dense forests, colourful wild orchids, broad medley of butterflies & meandering mountain streams is one of the few remaining virgin forests in the country. The recent discovery of the Royal Bengal tiger here has prompted the administration to include it in the list of sensitive wildlife zones. With no access to mails & cell phones going dead, there’s no escaping the meeting with the inner you.
+          </p>
+
+          <p className="text-gray-700 leading-8">
+            A little magic awaits you in Jaldhaka.
+          </p>
+        </section>
+
+        {/* Safaris */}
+        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
+          <h3 className="text-3xl font-bold text-lime-700 border-b-4 border-lime-600 inline-block pb-2">
+            Jungle Safaris & Watchtowers
+          </h3>
+
+          <p className="text-gray-700 leading-8">
+            There are number of watchtowers inside the jungles from where one can spot animals from a safe distance, and without disturbing the natural sequence of events within their habitats. If you live in certain parts of the Gorumara, Buxa, Lataguri, Murti, Chapramari, Chalsa & other parks, elephant or jeep safaris are also available.
+          </p>
+        </section>
+
+        {/* Places of Interest */}
+        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
+          <h3 className="text-2xl font-bold text-purple-700 border-b-4 border-purple-500 inline-block pb-2">
+            Places of Interest
+          </h3>
+
+          <p className="text-gray-700 leading-8">
+            Jaldapara Wildlife Sanctuary • Gorumara National Park • Chapramari forests • Buxa Tiger reserve • Buxa Duar • Neora valley • Jayanti • Rajabhatkhawa • Bindu • Jaldhaka • Samsing • SantaleyKhola • Suntalekhola • Rasikbill • Cooch Behar • Toto Para • Dhupjhora • Chilapata • Raimatang • Bhutan Ghat • Bodaganj • Ambari • Kathambari • Kranti and Odlabari • Sikiajhora • Tashigaon • Chuna Bhatti • Lepchakha • Rovers Point • Mahakal cave & more…
+          </p>
+        </section>
+
+        {/* Nearby Destinations */}
+        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
+          <h3 className="text-2xl font-bold text-red-600 border-b-4 border-red-500 inline-block pb-2">
+            At a Short Distance
+          </h3>
+
+          <p className="text-gray-700 leading-8">
+            Darjeeling (Queen of the Hills) • Mirik (Divine Lake) • Kurseong (land of the White Orchid) • Kalimpong • Lava (Abode of the Gods) • Rishap (Misty magic) • Loleygaon • Tinchuley, Sandaphu (Trekkers delight) • Lepchajagat • Sikkim • Gangtok • Rumtek • Pelling • Yuksom • Ravangla • Aritar Reshi • Rongli • Nathang Valley • Rinchenpong • Legship • Norbugang Tsomgo lake • Nathula Pass • Baba Mandir • Lachen • Gurudongmar Lake • Tso Lhamu Lake • Lachung • Yumthang • Mangan • Singhik • Thangu • Uttarey • Bhutan • Paro • Thimpu • Phuentsholing • Trongsa • Bumathang • Punakha • Samdrup • Jongkhar • Lhuntse • Ura Valley • Trashigang & more…
+          </p>
+        </section>
+
+        {/* Cuisine & Note */}
+        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-4">
+          <h3 className="text-2xl font-bold text-orange-600 border-b-4 border-orange-500 inline-block pb-2">
+            Must Try Cuisine
+          </h3>
+
+          <p className="text-gray-700 leading-8">
+            Authentic north Bengal’s regional (Fish / Crab / Prawn - curry & Rice) preparations
+          </p>
+
+          <div className="bg-yellow-100 border-l-4 border-yellow-500 p-4 rounded-lg">
+            <p className="text-gray-800 font-medium">
+              Please Note: Jungle safaris remains closed from 15th June till 15th September as per Govt. rules.
+            </p>
+          </div>
+        </section>
+
+      </div>
+    </div>
       {/* ================= TOUR PACKAGES ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
@@ -115,12 +243,8 @@ export default function SundarbanPage() {
               <div className="flex items-center justify-between">
                 <div>
                   <h3 className="text-2xl font-bold mb-2">Circuit I - Mangrove Forest & Royal Bengal Tiger</h3>
-                  <p className="text-green-100">2 Nights / 3 Days</p>
                 </div>
-                <div className="text-right">
-                  <div className="text-3xl font-bold">₹6400</div>
-                  <div className="text-green-100">Per Person</div>
-                </div>
+                
               </div>
             </div>
             
@@ -182,38 +306,7 @@ export default function SundarbanPage() {
             </div>
           </div>
 
-          {/* Customise Options */}
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <div className="bg-gradient-to-br from-blue-50 to-green-50 rounded-2xl p-8 border-2 border-blue-200">
-              <div className="flex items-center gap-3 mb-4">
-                <Home className="w-8 h-8 text-blue-600" />
-                <h3 className="text-2xl font-bold">Premium 5* Resort</h3>
-              </div>
-              <p className="text-gray-700 mb-4">Luxury stay at premium 5-star resort in Sundarban</p>
-              <div className="flex items-center justify-between mb-4">
-                <span className="text-gray-600">Minimum 10-15 PAX</span>
-                <span className="text-2xl font-bold text-blue-600">₹19,000</span>
-              </div>
-              <button className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
-                Book Premium Resort
-              </button>
-            </div>
-
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 border-2 border-purple-200">
-              <div className="flex items-center gap-3 mb-4">
-                <Anchor className="w-8 h-8 text-purple-600" />
-                <h3 className="text-2xl font-bold">AC House Boat</h3>
-              </div>
-              <p className="text-gray-700 mb-4">Overnight stay on AC houseboat anchored on the river</p>
-              <div className="flex items-center justify-between mb-4">
-                <span className="text-gray-600">Minimum 10-15 PAX</span>
-                <span className="text-2xl font-bold text-purple-600">₹19,000</span>
-              </div>
-              <button className="w-full bg-purple-600 text-white py-3 rounded-lg font-semibold hover:bg-purple-700 transition">
-                Book House Boat
-              </button>
-            </div>
-          </div>
+    
 
           {/* Circuit III - Extended */}
           <div className="bg-gradient-to-r from-orange-600 to-red-600 text-white rounded-2xl overflow-hidden">
@@ -221,12 +314,8 @@ export default function SundarbanPage() {
               <div className="flex items-center justify-between mb-4">
                 <div>
                   <h3 className="text-2xl font-bold mb-2">Circuit III - Extended Mangrove Experience</h3>
-                  <p className="text-orange-100">4 Days / 3 Nights with Additional Areas</p>
                 </div>
-                <div className="text-right">
-                  <div className="text-3xl font-bold">₹9100</div>
-                  <div className="text-orange-100">Per Person</div>
-                </div>
+              
               </div>
               
               <div className="bg-white/10 backdrop-blur rounded-xl p-4">
@@ -530,60 +619,7 @@ export default function SundarbanPage() {
         </div>
       </section>
 
-      {/* ================= BOOKING INFORMATION ================= */}
-      <section className="py-20 bg-gradient-to-r from-green-600 to-blue-600 text-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Book Your Sundarban Adventure</h2>
-            <p className="text-xl text-green-100 max-w-3xl mx-auto">
-              Ready to explore the mystical mangrove forest? Book your unforgettable journey today!
-            </p>
-          </div>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <Clock className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Best Time to Visit</h3>
-              <p className="text-green-100">November to March</p>
-              <p className="text-sm text-green-200 mt-2">Pleasant weather, maximum wildlife sightings</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <Users className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Group Size</h3>
-              <p className="text-green-100">Minimum 6-15 PAX</p>
-              <p className="text-sm text-green-200 mt-2">Custom packages available for groups</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-center">
-              <IndianRupee className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Starting From</h3>
-              <p className="text-green-100">₹12,000</p>
-              <p className="text-sm text-green-200 mt-2">Per person for 2N/3D package</p>
-            </div>
-          </div>
-
-          <div className="text-center">
-            <div className="bg-white text-green-800 rounded-2xl p-8 max-w-2xl mx-auto">
-              <h3 className="text-2xl font-bold mb-4">Ready to Book?</h3>
-              <p className="text-gray-700 mb-6">
-                Contact us for special tailor-made packages designed according to your preferences
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="bg-green-600 text-white px-8 py-3 rounded-full font-bold hover:bg-green-700 transition">
-                  Call Now: +91 98765 43210
-                </button>
-                <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-bold hover:bg-blue-700 transition">
-                  Email: info@bengaltourism.com
-                </button>
-              </div>
-              <p className="text-sm text-gray-600 mt-4">
-                For more pictures, offers & reviews, visit our Facebook Page
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <PackagePricing
         title="Sundarban Tour Packages"
