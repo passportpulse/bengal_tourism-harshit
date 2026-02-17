@@ -238,7 +238,7 @@ export default function ForeignToursPackagesPage() {
                                     {/* Badge */}
                                     <div className="flex items-center gap-2 mb-3">
                                         <item.icon className={`w-4 h-4 ${item.iconColor}`} />
-                                        <span className="text-xs font-medium text-gray-600">International Tour</span>
+                                        <span className="text-xs font-medium text-gray-600">Foreign Tour</span>
                                     </div>
 
                                     {/* Title and Subtitle */}
@@ -253,10 +253,7 @@ export default function ForeignToursPackagesPage() {
                                             <Compass className="w-4 h-4 text-gray-400" />
                                             <span>{item.tag}</span>
                                         </div>
-                                        <div className="flex items-center gap-2 text-sm text-gray-600">
-                                            <Calendar className="w-4 h-4 text-gray-400" />
-                                            <span>{item.duration}</span>
-                                        </div>
+                                  
                                     </div>
 
                                     {/* Description */}

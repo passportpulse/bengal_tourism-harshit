@@ -285,3 +285,26 @@ Expected ';', '}' or <eof>
 [01:12:33.255] Server  LOG     ✓ Compiled in 68ms
 [01:12:58.517] Server  LOG     ✓ Compiled in 66ms
 [01:13:33.249] Server  LOG     ✓ Compiled in 72ms
+[01:14:45.148] Browser WARN    Image with src "https://images.unsplash.com/photo-1629723248038-8b3bc1ecce29?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cHVyaS1vZGlzaGF8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:45.148] Browser WARN    Image with src "https://images.unsplash.com/photo-1635346537940-9d51faeb6e32?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U2lra2ltJTIwJTI2JTIwR2FuZ3Rva3xlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:45.148] Browser WARN    Image with src "https://plus.unsplash.com/premium_photo-1671639169260-18cec0fa6a51?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U2lsayUyMFJvdXRlfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:45.148] Browser WARN    Image with src "/Himachal.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:45.148] Browser WARN    Image with src "/jammu.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:45.148] Browser WARN    Image with src "/Goa.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:45.148] Browser WARN    Image with src "/Andaman.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:45.148] Browser WARN    Image with src "/Assam.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:45.148] Browser WARN    Image with src "/Rajasthan.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:45.148] Browser WARN    Image with src "/Kerala.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:15:25.385] Server  LOG     ✓ Compiled in 162ms
+[01:16:02.375] Server  LOG     ✓ Compiled in 68ms
+[01:17:01.528] Server  LOG     ✓ Compiled in 92ms
+[01:17:12.504] Server  ERROR   ⨯ "upstream image" "https://ik.imgkit.net/3vlqs5axxjf/TW-Asia/ik-seo/uploadedImages/Industry/Travel_Trends/GettyImages-599463782/Wellness-tourism-takes-the-spotlight-for-2022-trav.jpg?tr=w-780%2Ch-440%2Cfo-auto" "resolved to private ip" "[\"64:ff9b::de1:6738\",\"64:ff9b::de1:676c\",\"64:ff9b::de1:6710\",\"64:ff9b::de1:675f\"]"
+[01:17:18.592] Server  ERROR   TimeoutError: The operation was aborted due to timeout
+[01:17:18.595] Server  ERROR   ⨯ "upstream image response timed out for" "https://images.unsplash.com/photo-1745420052490-285dbfa1cf4d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVkaWNhbCUyMHRvdXJpc218ZW58MHx8MHx8fDA%3D"
+[01:17:18.598] Server  ERROR   TimeoutError: The operation was aborted due to timeout
+[01:20:54.417] Server  LOG     ✓ Compiled in 86ms
+[01:21:23.204] Server  LOG     ✓ Compiled in 74ms
+[01:21:46.276] Server  LOG     ✓ Compiled in 94ms
+[01:24:59.884] Server  LOG     ✓ Compiled in 86ms
+[01:26:52.568] Server  LOG     ✓ Compiled in 67ms
+[01:27:33.980] Server  LOG     ✓ Compiled in 101ms

@@ -262,7 +262,7 @@ export default function IndiaPackagesPage() {
                                     {/* Badge */}
                                     <div className="flex items-center gap-2 mb-3">
                                         <item.icon className={`w-4 h-4 ${item.iconColor}`} />
-                                        <span className="text-xs font-medium text-gray-600">Exclusive Tour</span>
+                                        <span className="text-xs font-medium text-gray-600">Exclusive Offers</span>
                                     </div>
 
                                     {/* Title and Subtitle */}
@@ -277,10 +277,10 @@ export default function IndiaPackagesPage() {
                                             <Compass className="w-4 h-4 text-gray-400" />
                                             <span>{item.tag}</span>
                                         </div>
-                                        <div className="flex items-center gap-2 text-sm text-gray-600">
+                                        {/* <div className="flex items-center gap-2 text-sm text-gray-600">
                                             <Calendar className="w-4 h-4 text-gray-400" />
                                             <span>{item.duration}</span>
-                                        </div>
+                                        </div> */}
                                     </div>
 
                                     {/* Description */}

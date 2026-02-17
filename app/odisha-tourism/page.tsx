@@ -26,7 +26,7 @@ export default function OdishaTourismPage() {
               <Temple className="w-6 h-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold tracking-wide">ODISHA TOURISM</span>
             </div>
-            
+
             <h1 className="text-5xl text-center md:text-7xl font-bold mb-6 leading-tight">
               Visit & Explore Odisha
               <span className="block text-3xl md:text-5xl mt-2 text-orange-300">
@@ -35,7 +35,7 @@ export default function OdishaTourismPage() {
             </h1>
 
             <p className="text-xl md:text-2xl text-center mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
-              Experience the golden beaches, ancient temples, and rich cultural heritage 
+              Experience the golden beaches, ancient temples, and rich cultural heritage
               of Odisha with special tailor-made combination packages
             </p>
 
@@ -81,9 +81,9 @@ export default function OdishaTourismPage() {
                       <h3 className="text-xl font-bold">Day 1: Arrival & Puri</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      Our representative will receive you at Bhubaneswar Airport / Puri Station in the morning. 
-                      Drive to Puri and check into Hotel/Resort. Visit Lord Jagannath Temple to offer prayer to the Lord of the Universe. 
-                      Return to Hotel. Hit the Golden Beach for a bath. Laze around on the beach. Evening free to visit local market. 
+                      Our representative will receive you at Bhubaneswar Airport / Puri Station in the morning.
+                      Drive to Puri and check into Hotel/Resort. Visit Lord Jagannath Temple to offer prayer to the Lord of the Universe.
+                      Return to Hotel. Hit the Golden Beach for a bath. Laze around on the beach. Evening free to visit local market.
                       Dinner & Overnight at Hotel/Resort at Puri.
                     </p>
                   </div>
@@ -95,10 +95,10 @@ export default function OdishaTourismPage() {
                       <h3 className="text-xl font-bold">Day 2: Chilika Lake Excursion</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      Wake up early to spend time on the Golden Beach. After breakfast, proceed towards Chilika around 11.00 am. 
-                      Excursion to Satpada on Chilika Lake to spot Irrawady Dolphins at the confluence of Bay of Bengal & Asia's second largest brackish water lake. 
-                      Every year from mid-December to mid-April, birds from Siberia & Australia migrate to this lake for breeding. 
-                      Lunch at Chilika local hotels for famed Odiya cuisine. Return by early evening. 
+                      Wake up early to spend time on the Golden Beach. After breakfast, proceed towards Chilika around 11.00 am.
+                      Excursion to Satpada on Chilika Lake to spot Irrawady Dolphins at the confluence of Bay of Bengal & Asia's second largest brackish water lake.
+                      Every year from mid-December to mid-April, birds from Siberia & Australia migrate to this lake for breeding.
+                      Lunch at Chilika local hotels for famed Odiya cuisine. Return by early evening.
                       Dinner & Overnight in Hotel/Resort at Puri.
                     </p>
                   </div>
@@ -110,12 +110,12 @@ export default function OdishaTourismPage() {
                       <h3 className="text-xl font-bold">Day 3: Konark Sun Temple</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      Early morning, watch sunrise over the sea. Offer prayers at Jagannath Dham if not done earlier. 
-                      Back to hotel for breakfast. Proceed towards Konark to marvel at the Sun Temple, one of the World Heritage sites, 
-                      built in the form of a Chariot - the culmination of Orissan Temple Architecture in 13th Century AD. 
-                      The life-size figures depicting social, royal, cultural life on the Temple wall made Rabindranath Tagore express his feelings as 
-                      'Language of Man is defeated by Language of Stone at Konark'. Also famed Kamasutra carvings. 
-                      Lunch en-route. Visit 64 Yogini Temple at Heerapur, Pipli Appliqué work village & Raghurajpur Artisan's Village. 
+                      Early morning, watch sunrise over the sea. Offer prayers at Jagannath Dham if not done earlier.
+                      Back to hotel for breakfast. Proceed towards Konark to marvel at the Sun Temple, one of the World Heritage sites,
+                      built in the form of a Chariot - the culmination of Orissan Temple Architecture in 13th Century AD.
+                      The life-size figures depicting social, royal, cultural life on the Temple wall made Rabindranath Tagore express his feelings as
+                      'Language of Man is defeated by Language of Stone at Konark'. Also famed Kamasutra carvings.
+                      Lunch en-route. Visit 64 Yogini Temple at Heerapur, Pipli Appliqué work village & Raghurajpur Artisan's Village.
                       Return in evening. Dinner & Overnight at Hotel/Resort at Puri.
                     </p>
                   </div>
@@ -131,10 +131,10 @@ export default function OdishaTourismPage() {
                       <h3 className="text-xl font-bold">Day 4: Udaigiri & Khandagiri</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      After breakfast, visit Nandan Kanan zoo. The Caves of Udaigiri & Khandagiri dating back to 3rd Century BC 
-                      are worth visiting for their sculptures depicting social life of people of that age. 
-                      On the way visit Muketeshwar Temple, Dhauli Sanchi Stupa, Lingaraja Temple, Bramheswara Temple. 
-                      Lunch en-route. Drop to Bhubaneshwar Airport / Railway Station or back to Puri. 
+                      After breakfast, visit Nandan Kanan zoo. The Caves of Udaigiri & Khandagiri dating back to 3rd Century BC
+                      are worth visiting for their sculptures depicting social life of people of that age.
+                      On the way visit Muketeshwar Temple, Dhauli Sanchi Stupa, Lingaraja Temple, Bramheswara Temple.
+                      Lunch en-route. Drop to Bhubaneshwar Airport / Railway Station or back to Puri.
                       Dinner & Overnight at Hotel/Resort at Puri.
                     </p>
                   </div>
@@ -146,8 +146,8 @@ export default function OdishaTourismPage() {
                       <h3 className="text-xl font-bold">Day 5: Departure</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      After breakfast, Check-out (10.00 am) of Hotel. On return journey, visit some local places of interest if you have missed earlier. 
-                      Drop to Bhubaneswar Airport / Bhubaneswar / Puri Station in AC vehicle & drop at your point before 06.00pm for your forwarding journey. 
+                      After breakfast, Check-out (10.00 am) of Hotel. On return journey, visit some local places of interest if you have missed earlier.
+                      Drop to Bhubaneswar Airport / Bhubaneswar / Puri Station in AC vehicle & drop at your point before 06.00pm for your forwarding journey.
                       Tour ends.
                     </p>
                   </div>
@@ -180,181 +180,108 @@ export default function OdishaTourismPage() {
         </div>
       </section>
 
-      {/* ================= ADDITIONAL PACKAGES ================= */}
-      <section className="py-20 bg-gradient-to-br from-blue-50 to-cyan-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Additional Odisha Packages</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Explore more destinations with add-on packages
+      <div className="bg-gray-50 py-20 px-6 md:px-12">
+        <div className="max-w-7xl mx-auto space-y-20">
+
+          {/* PAGE TITLE */}
+          <div className="text-center space-y-4">
+            <h1 className="text-4xl md:text-5xl font-bold text-teal-700">
+              Odisha Add-On Tour Packages
+            </h1>
+            <p className="text-gray-600">
+              Explore Wildlife, Beaches & Eco Tourism Destinations
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* BHITARKANIKA */}
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
-              <div className="bg-gradient-to-r from-green-500 to-emerald-500 p-6 text-white">
-                <Bird className="w-8 h-8 mb-2" />
-                <h3 className="text-xl font-bold">BHITARKANIKA</h3>
-                <p className="text-green-100">With Gahirmatha - 2N/3D</p>
-              </div>
-              <div className="p-6">
-                <p className="text-gray-700 mb-4">
-                  UNESCO World Heritage Site, home to largest population of salt water crocodiles in India. 
-                  Experience lush green mangroves, migrating birds and turtles.
-                </p>
-                <div className="space-y-2 text-sm">
-                  <p className="font-bold">Day 1: Arrival at Bhadrak</p>
-                  <p className="font-bold">Day 2: Bhitarkanika National Park</p>
-                  <p className="font-bold">Day 3: Departure</p>
-                </div>
-                <button className="w-full bg-green-600 text-white py-2 rounded-lg font-semibold hover:bg-green-700 transition mt-4">
-                  Book Now
-                </button>
-              </div>
-            </div>
+          {/* DESTINATIONS */}
+          <Destination
+            title="BHITARKANIKA"
+            subtitle="Add-on (or) Separately with [GAHIRMATA-2N/3D]"
+            content={[
+              `Day – 1: Start of tour: Our representative will receive you at Bhubaneswar Airport / Balasore Station in the morning at (06-10 am). If from Airport, drive to Bhadrak via Chadbali (or) pick-up from Bhadrak station. Lunch en-route. Check into Hotel/Resort. Lunch break. Rest. Evening free to visit the local market. Dinner & Overnight at Hotel / Resort at Panchalingeswar.`,
+              `Day – 2: Local Sight-seeing: Early morning breakfast, excursion to Devkund water Falls, packed lunch served on the way, after launch visit Kuldiha Wildllife Sanctuary, Jorachua, Rishia Dam, Garh Simulia tower. On the returning time at evening we will visit Jagannath Temple, Nilgiri, Chandi Mandir, Kings Palace, etc. Return in evening. Evening free to stroll around local bazaar for shopping of handicrafts and relics. Overnight stay at Hotel/Resort at Panchalingeswar.`,
+              `Day – 3: Bhitarkanika Wildlife Santuary: After breakfast, check-out & excursion to visit & explore Bhitarkanika National Park, an Unesco World Heritage Site, Bhitarkanika is a Hot-spot of Biodiversity. You need to have an entry permit before you enter. It’s home to largest population of salt water crocodile in India. The land of lush green mangroves, migrating birds and turtles, the menacing estuarine crocodiles, meandering water courses, tranquil surrounding intercepted by the chirping of birds and the ever embracing nature, entrails visitors from near and far off places to flock these unique places of tourist importance. Out of more than 1,600 crocodiles, 1,485 are inside the sanctuary and 125 live on the fringes. Olive Ridley (Lepidochelys olivacea) is the most common sea turtle in Indian waters. Large nesting sites are found in Odiisha, the largest nesting site ever recorded is Gahirmatha adjacent to Bhitarkanika. Lunch en-route. Dinner & Overnight stay at Hotel/Resort at Balasore.`
+            ]}
+          />
 
-            {/* CHANDIPUR */}
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
-              <div className="bg-gradient-to-r from-blue-500 to-cyan-500 p-6 text-white">
-                <WavesIcon className="w-8 h-8 mb-2" />
-                <h3 className="text-xl font-bold">CHANDIPUR</h3>
-                <p className="text-blue-100">Sea Beach - 2N/3D</p>
-              </div>
-              <div className="p-6">
-                <p className="text-gray-700 mb-4">
-                  Enjoy serene sea beach with early morning sunrise views and peaceful environment 
-                  perfect for relaxation and beach activities.
-                </p>
-                <div className="space-y-2 text-sm">
-                  <p className="font-bold">Day 1: Arrival at Chandipur Sea Beach</p>
-                  <p className="font-bold">Day 2: Nilagiri & Panchelingeswar visit</p>
-                  <p className="font-bold">Day 3: Departure</p>
-                </div>
-                <button className="w-full bg-blue-600 text-white py-2 rounded-lg font-semibold hover:bg-blue-700 transition mt-4">
-                  Book Now
-                </button>
-              </div>
-            </div>
+          <Destination
+            title="CHANDIPUR"
+            subtitle="Add-on (or) Separately with [SEA BEACH-2N/3D]"
+            content={[
+              `Day – 1: Start of tour: Our representative will receive you at Bhubaneswar Airport / Balsore Station in the morning at (06-10 am). If from Airport, drive to Chandipur Sea Beach (or) pick-up from Balasore station. Lunch en-route. Check into Hotel/Resort. Lunch break. Rest. Evening free to visit the local market. Dinner & Overnight at Hotel / Resort at Chandipur.`,
+              `Day – 2: Early morning enjoy a sunrise over sea. After breakfast, visit Nilagiri & Panchelingeswar . Lunch break. Rest & evening free to explore local area. Dinner & Overnight stay at Hotel/Resort at Chandipur.`,
+              `Day – 3: After breakfast, Check-out (10.00 am) from Hotel. Proceed for your onward journey. Lunch en-route. Then proceed towards Bhubaneswar Airport (extra charge) / Balasore Railway Station, a 3-4 hrs drive in AC vehicle & drop at your point before (06.00pm) for your Forwarding Journey. Tour ends...`
+            ]}
+          />
 
-            {/* SIMLIPAL */}
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
-              <div className="bg-gradient-to-r from-green-600 to-emerald-600 p-6 text-white">
-                <Trees className="w-8 h-8 mb-2" />
-                <h3 className="text-xl font-bold">SIMLIPAL</h3>
-                <p className="text-green-100">Forest - 2N/3D</p>
-              </div>
-              <div className="p-6">
-                <p className="text-gray-700 mb-4">
-                  Experience thrilling jungle safari in Simlipal National Park with 
-                  beautiful waterfalls and rich wildlife.
-                </p>
-                <div className="space-y-2 text-sm">
-                  <p className="font-bold">Day 1: Arrival at Simlipal</p>
-                  <p className="font-bold">Day 2: Jungle Safari & Waterfalls</p>
-                  <p className="font-bold">Day 3: Departure</p>
-                </div>
-                <button className="w-full bg-green-600 text-white py-2 rounded-lg font-semibold hover:bg-green-700 transition mt-4">
-                  Book Now
-                </button>
-              </div>
-            </div>
+          <Destination
+            title="SIMLIPAL"
+            subtitle="Add-on (or) Separately with [FOREST-2N/3D]"
+            content={[
+              `Day – 1: Start of tour: Our representative will receive you at Bhubaneswar Airport / Balsore Station in the morning at (06-10 am). If from Airport, drive to Simlipal (or) pick-up from Balasore station. Lunch en-route. Check into Hotel/Resort. Lunch break. Rest. Evening free to visit the local market. Dinner & Overnight at Hotel / Resort at Chandipur.`,
+              `Day – 2: Excursion to Simlipal: Early morning after breakfast, experience a Jungle Safari. Visit Joranda / Barehipani Waterfalls. Lunch en-route. Return in evening. Dinner & Overnight stay at Hotel/Resort at Simlipal.`,
+              `Day – 3: After breakfast, Check-out (10.00 am) from Hotel. Proceed for your onward journey. Lunch en-route. Then proceed towards Bhubaneswar Airport (extra charge) / Balasore Railway Station, a 3-4 hrs drive in AC vehicle & drop at your point before (06.00pm) for your Forwarding Journey. Tour ends...`
+            ]}
+          />
 
-            {/* GOPALPUR */}
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
-              <div className="bg-gradient-to-r from-orange-500 to-amber-500 p-6 text-white">
-                <WavesIcon className="w-8 h-8 mb-2" />
-                <h3 className="text-xl font-bold">GOPALPUR</h3>
-                <p className="text-orange-100">On-Sea Beach - 2N/3D</p>
-              </div>
-              <div className="p-6">
-                <p className="text-gray-700 mb-4">
-                  Beautiful sea beach destination with Taptapani hot springs, 
-                  Dhabaleshwar temple and lighthouse visits.
-                </p>
-                <div className="space-y-2 text-sm">
-                  <p className="font-bold">Day 1: Arrival at Gopalpur</p>
-                  <p className="font-bold">Day 2: Local Sightseeing</p>
-                  <p className="font-bold">Day 3: Departure</p>
-                </div>
-                <button className="w-full bg-orange-600 text-white py-2 rounded-lg font-semibold hover:bg-orange-700 transition mt-4">
-                  Book Now
-                </button>
-              </div>
-            </div>
 
-            {/* DARINGBADI */}
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
-              <div className="bg-gradient-to-r from-purple-500 to-pink-500 p-6 text-white">
-                <Mountain className="w-8 h-8 mb-2" />
-                <h3 className="text-xl font-bold">DARINGBADI</h3>
-                <p className="text-purple-100">Kashmir of the East - 2N/3D</p>
-              </div>
-              <div className="p-6">
-                <p className="text-gray-700 mb-4">
-                  Hill station with coffee gardens, pine jungles, waterfalls and 
-                  stunning sunrise views from viewpoints.
-                </p>
-                <div className="space-y-2 text-sm">
-                  <p className="font-bold">Day 1: Arrival at Daringbadi</p>
-                  <p className="font-bold">Day 2: Hill View & Nature Park</p>
-                  <p className="font-bold">Day 3: Sunrise & Departure</p>
-                </div>
-                <button className="w-full bg-purple-600 text-white py-2 rounded-lg font-semibold hover:bg-purple-700 transition mt-4">
-                  Book Now
-                </button>
-              </div>
-            </div>
+          {/* SAME PATTERN FOR OTHER DESTINATIONS */}
+          {/* GOPALPUR */}
 
-            {/* SATKOSIA */}
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
-              <div className="bg-gradient-to-r from-red-500 to-orange-500 p-6 text-white">
-                <Trees className="w-8 h-8 mb-2" />
-                <h3 className="text-xl font-bold">SATKOSIA TIGER RESERVE</h3>
-                <p className="text-red-100">Playland of the Tigers - 2N/3D</p>
-              </div>
-              <div className="p-6">
-                <p className="text-gray-700 mb-4">
-                  Thrilling tiger reserve with jungle safari, trekking, night safari 
-                  and boat ride on Mahanadi river.
-                </p>
-                <div className="space-y-2 text-sm">
-                  <p className="font-bold">Day 1: Arrival at Satkosia</p>
-                  <p className="font-bold">Day 2: Jungle Safari & Trek</p>
-                  <p className="font-bold">Day 3: Departure</p>
-                </div>
-                <button className="w-full bg-red-600 text-white py-2 rounded-lg font-semibold hover:bg-red-700 transition mt-4">
-                  Book Now
-                </button>
-              </div>
-            </div>
 
-            {/* CHANDRABHAGA */}
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
-              <div className="bg-gradient-to-r from-cyan-500 to-blue-500 p-6 text-white">
-                <WavesIcon className="w-8 h-8 mb-2" />
-                <h3 className="text-xl font-bold">CHANDRABHAGA</h3>
-                <p className="text-cyan-100">Konark Water Sports - 2N/3D</p>
-              </div>
-              <div className="p-6">
-                <p className="text-gray-700 mb-4">
-                  Beach destination near Konark with various water sports activities 
-                  and Swiss tent accommodation options.
-                </p>
-                <div className="space-y-2 text-sm">
-                  <p className="font-bold">Day 1: Arrival at Chandrabhaga</p>
-                  <p className="font-bold">Day 2: Water Sports Activities</p>
-                  <p className="font-bold">Day 3: Departure</p>
-                </div>
-                <button className="w-full bg-cyan-600 text-white py-2 rounded-lg font-semibold hover:bg-cyan-700 transition mt-4">
-                  Book Now
-                </button>
-              </div>
-            </div>
-          </div>
+          <Destination
+            title="GOPALPUR"
+            subtitle="Add-on (or) Separately with [ON-SEA BEACH-2N/3D]"
+            content={[
+              `Day – 1: Start of tour: Our representative will receive you at Bhubaneswar Airport / Berhampur Station in the morning at (06-10 am). If from Airport, drive to Chandipur Sea Beach (or) pick-up from Balasore station. Lunch en-route. Check into Hotel/Resort. Lunch break. Rest. Evening free to visit the local market. Dinner &   Overnight at  Hotel / Resort at Gopalpur.`,
+              `Day –2: Enjoy an early morning sunrise over the Bay of Bengal. After breakfast, proceed to visit Taptapani , Dhabaleshwar, The Light House, etc.  Lunch en-route. Return  & evening free to explore local area near the sea beach area. Dinner &   Overnight at  Hotel / Resort at Gopalpur.`,
+              `Day –3: After breakfast, Check-out (10.00 am) from Hotel. Proceed for your onward journey. Visit some places of attraction like Tampura, Ghodahada, Aryapalli Beach, Rambha Forest, etc (as time permit). Lunch en-route. Then proceed towards Bhubaneswar Airport (extra charge)/ Berhampur  Railway Station,  in AC vehicle & drop at your point before (06.00pm) for your Forwarding Journey. Tour ends...`
+            ]}
+          />
+          {/* DARINGBADI */}
+
+
+          <Destination
+            title="DARINGBADI"
+            subtitle="Add-on (or) Separately with [KASHMIR OF THE EAST-2N/3D]"
+            content={[
+              `Day –1: Start of tour: Our representative will receive you at Bhubaneswar Airport / Berhampur Station in the morning at (06-10 am). If from Airport, drive to Chandipur Sea Beach (or) pick-up from Balasore station. Lunch en-route. Check into Hotel/Resort. Lunch break. Rest. Evening free to visit the local market. Dinner &   Overnight at  Hotel / Resort at Daringbadi.`,
+              `Day –2: Local sightseeing: After breakfast, proceed to explore Hill View Point, Nature Park, Dolun River, Pine Jungle, Daringbadi Waterfalls, Coffee Garden, etc. Lunch en-route. Back in evening. Dinner &   Overnight at  Hotel / Resort at Daringbadi.`,
+              `Day –3: Enjoy an early morning sunrise from Sunrise View Point. After breakfast, Check-out (10.00 am) from Hotel. Proceed for your onward journey. Lunch en-route. Then proceed towards Bhubaneswar Airport (extra charge) / Balasore  Railway Station in AC vehicle & drop at your point before (06.00pm) for your Forwarding Journey. Tour ends...`
+            ]}
+          />
+
+          <Destination
+            title="SATKOSIA TIGER RESERVE"
+            subtitle="Add-on (or) Separately with [PLAYLAND OF THE TIGERS-2N/3D]"
+            content={[
+              `Day –1: Start of tour: Our representative will receive you at Bhubaneswar Airport (extra charge) / Angul/Khurda Rd. Railway Station in the morning at (06-10 am). If from Airport, drive to Satkosia. Breakfast at Dhenkanal. Arrive & Check-in at Hotel/Resort at Purunakot. Lunch & rest. Afternoon, go for a jungle safari at Kandahera range. Evening free. Overnight at  Hotel / Resort (or) Swiss Cottages (extra charge) at Satkosia / Purunakot.`,
+
+              `Day –2: Local sightseeing: Early morning, enjoy a Jungle Trek at Nandini Nalla area. After breakfast, proceed to explore Jungle Safari at Tulka Forest range, Bhimdhara Waterfalls, etc. Lunch en-route. Post lunch, visit Baghmunda Forest range. Back in evening. Overnight at  Hotel / Resort (or) Swiss Cottages (extra charge) at Satkosia / Purunakot.`,
+
+              `Day –2: ALTERNATIVELY: Early morning, enjoy a Jungle Safari at Hatigirja Forest range. After breakfast, proceed to explore Jungle Safari at Katrang Nalla range. Lunch en-route. Post lunch, enjoy a boat ride on river Mahanadi. Back in evening. Dinner & you can go for a thrilling Night Safari in the Kandahera Forest range (if available).   Dinner &   Overnight at  Hotel / Resort (or) Swiss Cottages (extra charge) at Satkosia / Purunakot.`,
+
+              `Day –3: Enjoy an early morning sunrise from Sunrise View Point. After breakfast, Check-out (10.00 am) from Hotel. Proceed for your onward journey. Lunch en-route. Then proceed towards Bhubaneswar Airport (extra charge) / Angul/Khurda Rd.  Railway Station in AC vehicle & drop at your point before (06.00pm) for your Forwarding Journey. Tour ends.`
+            ]}
+          />
+
+
+          {/* CHANDRABHAGA */}
+
+          <Destination
+            title="CHANDRABHAGA "
+            subtitle="Add-on (or) Separately with [KONARK- WATER SPORTS-2N/3D]"
+            content={[
+            `Day –1: Start of tour: Our representative will receive you at Bhubaneswar Airport (extra charge) / Puri Station in the morning at (06-10 am). Drive to Chandrabhaga Sea Beach .Check into Hotel/Resort at Konark (or) Swiss Tent at Chandrabhaga beach (extra cost).Then visit the Konark Sun Temple, a must visit place while at Konark. Lunch en-route. Evening free to visit the local market. Dinner & Overnight at  Hotel / Resort (or) Swiss Cottages at Chandrabhaga / Konark.`,
+
+`Day –2: Enjoy an early morning sunrise over the Bay of Bengal. After breakfast, explore & enjoy the various Water Sports activities on offer.  Lunch break. Return  & evening free to explore local area near the sea beach area. Dinner &   Overnight at  Hotel / Resort (or) Swiss Cottages at Chandrabhaga / Konark.`,
+
+`Day –3: After breakfast, Check-out (10.00 am) from Hotel. Proceed for your onward journey. Visit some places of local  interest (as time permit). Lunch en-route. Then proceed towards Bhubaneswar Airport (extra charge)/ Puri  Railway Station,  in AC vehicle & drop at your point before (06.00pm) for your Forwarding Journey. Tour ends.`
+            ]}
+          />
+
         </div>
-      </section>
-
+      </div>
       {/* ================= ODISHA HIGHLIGHTS ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
@@ -393,14 +320,37 @@ export default function OdishaTourismPage() {
         </div>
       </section>
 
-   
-     <PackagePricing 
+
+      <PackagePricing
         title="Odisha Tour Packages"
         subtitle="Choose your perfect cultural and coastal adventure"
       />
 
-       
-    <ContactCTA />
+
+      <ContactCTA />
     </main>
   )
 }
+
+
+function Destination({ title, subtitle, content }: { title: string; subtitle: string; content: string[] }) {
+  return (
+    <div className="bg-white shadow-xl rounded-3xl p-10 space-y-6">
+      <h2 className="text-3xl font-bold text-indigo-700">{title}</h2>
+      <p className="font-semibold text-gray-700">{subtitle}</p>
+
+      <div className="space-y-6">
+        {content.map((item, index) => (
+          <div
+            key={index}
+            className="bg-gray-100 rounded-2xl p-6 border-l-4 border-indigo-500"
+          >
+            <p className="text-gray-700 leading-8 whitespace-pre-line">
+              {item}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+} 
