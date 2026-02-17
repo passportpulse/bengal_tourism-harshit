@@ -10,6 +10,7 @@ import TailorMadeBentoGrid from '@/components/TailorMadeBentoGrid'
 import AboutTrusted from '@/components/AboutTrusted'
 import RandomPackageSections from '@/components/RandomPackageSections'
 import HotelBookingSection from '@/components/HotelBookingSection'
+import LoginPage from '@/components/LoginPage'
 
 
 export const metadata: Metadata = {
@@ -65,6 +66,7 @@ export default function HomePage() {
         <TailorMadeBentoGrid />
      
         <AboutTrusted />
+        <LoginPage />
   <RandomPackageSections />
 
         <BreathtakingCities />

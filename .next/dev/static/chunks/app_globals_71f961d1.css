@@ -2586,6 +2586,20 @@
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
+  .from-blue-600\/70 {
+    --tw-gradient-from: #155dfcb3;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .from-blue-600\/70 {
+      --tw-gradient-from: color-mix(in oklab, var(--color-blue-600) 70%, transparent);
+    }
+  }
+
+  .from-blue-600\/70 {
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+
   .from-blue-900\/80 {
     --tw-gradient-from: #1c398ecc;
   }
@@ -3520,6 +3534,20 @@
 
   .to-indigo-600 {
     --tw-gradient-to: var(--color-indigo-600);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+
+  .to-indigo-600\/70 {
+    --tw-gradient-to: #4f39f6b3;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .to-indigo-600\/70 {
+      --tw-gradient-to: color-mix(in oklab, var(--color-indigo-600) 70%, transparent);
+    }
+  }
+
+  .to-indigo-600\/70 {
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
@@ -5111,6 +5139,13 @@
   }
 
   @media (hover: hover) {
+    .hover\:to-indigo-700:hover {
+      --tw-gradient-to: var(--color-indigo-700);
+      --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+    }
+  }
+
+  @media (hover: hover) {
     .hover\:to-orange-700:hover {
       --tw-gradient-to: var(--color-orange-700);
       --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
@@ -5640,6 +5675,12 @@
   @media (min-width: 48rem) {
     .md\:h-\[420px\] {
       height: 420px;
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:h-auto {
+      height: auto;
     }
   }
 
