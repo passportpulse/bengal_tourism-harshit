@@ -53,7 +53,7 @@ export default function DighaPage() {
           {/* ---------- RIGHT IMAGE ---------- */}
           <div className="flex justify-center md:justify-end">
             <img
-              src="/Digha.jpeg"
+              src="https://images.unsplash.com/photo-1657282928361-ec9de3f2bc74?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Digha sea beach with golden sand and blue waters"
               className="w-full max-w-md md:max-w-lg lg:max-w-xl rounded-2xl shadow-2xl"
             />
@@ -238,7 +238,7 @@ export default function DighaPage() {
 
             <div className="relative">
               <img
-                src="/Digha.jpeg"
+                src="/digha.jpeg"
                 alt="Historic Digha beach with casuarina trees"
                 className="rounded-2xl shadow-2xl w-full"
               />
@@ -441,7 +441,7 @@ export default function DighaPage() {
       </section>
 
       {/* ================= NEARBY DESTINATIONS ================= */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Nearby Destinations</h2>
@@ -454,7 +454,7 @@ export default function DighaPage() {
             <a href="/mandarmoni">
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
                 <img
-                  src="/Mandarmoni.jpeg"
+                  src="/mandarmani-sea-beach.jpg"
                   alt="Mandarmoni Beach"
                   className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
                 />
@@ -468,7 +468,7 @@ export default function DighaPage() {
             <a href="/tajpur">
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
                 <img
-                  src="/Tajpur.jpeg"
+                  src="https://images.unsplash.com/photo-1656087477241-90caeb015887?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGFqcHVyfGVufDB8fDB8fHww"
                   alt="Tajpur Beach"
                   className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
                 />
@@ -537,7 +537,7 @@ export default function DighaPage() {
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* ================= CUISINE SECTION ================= */}
       <section className="py-20 bg-gradient-to-br from-yellow-50 to-orange-50">

@@ -53,7 +53,7 @@ export default function TajpurPage() {
           {/* ---------- RIGHT IMAGE ---------- */}
           <div className="flex justify-center md:justify-end">
             <img
-              src="/Tajpur.jpeg"
+              src="/https://images.unsplash.com/photo-1656087477241-90caeb015887?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGFqcHVyfGVufDB8fDB8fHww"
               alt="Tajpur secluded beach with red crabs"
               className="w-full max-w-md md:max-w-lg lg:max-w-xl rounded-2xl shadow-2xl"
             />

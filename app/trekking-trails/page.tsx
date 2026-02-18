@@ -16,7 +16,7 @@ const trekkingRoutes = [
     highlights: ["Mt. Everest views", "Mt. Kanchenjunga views", "Red Panda habitat", "Himalayan black bears"],
     features: ["Vintage Land Rover jeeps", "Govt. trekkers' huts", "Forest areas", "Flowering plants"],
     bestTime: "March to May, October to December",
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1615462067592-d7ae31015538?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2luZ2FsaWxhJTIwTmF0aW9uYWwlMjBQYXJrfGVufDB8fDB8fHww"
   },
   {
     name: "Sandakphu Trek",
@@ -27,7 +27,7 @@ const trekkingRoutes = [
     highlights: ["360° Himalayan views", "Sunrise over Kanchenjunga", "Everest visibility", "Singalila National Park"],
     features: ["Basic accommodation", "Guided trek", "Permits included", "Transport from NJP"],
     bestTime: "March to May, October to December",
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1608095043017-dd2e3bd2d2fd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U2FuZGFrcGh1JTIwVHJla3xlbnwwfHwwfHx8MA%3D%3D"
   },
   {
     name: "Dzongri Trek",
@@ -38,7 +38,7 @@ const trekkingRoutes = [
     highlights: ["High altitude experience", "Remote wilderness", "Mountain views", "Adventure trekking"],
     features: ["Expert guides", "High altitude acclimatization", "Advanced equipment", "Safety measures"],
     bestTime: "April to June, September to November",
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1669418249791-3e8374fc3572?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RHpvbmdyaSUyMFRyZWt8ZW58MHx8MHx8fDA%3D"
   },
   {
     name: "Green Lake Trek",
@@ -49,7 +49,7 @@ const trekkingRoutes = [
     highlights: ["Sacred Green Lake", "Highest altitude trek", "Spiritual experience", "Panoramic views"],
     features: ["Expert mountaineering guides", "Advanced equipment", "Medical support", "Emergency evacuation"],
     bestTime: "May to June, September to October",
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1594794637878-bc15ed7d8192?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8R3JlZW4lMjBMYWtlJTIwVHJla3xlbnwwfHwwfHx8MA%3D%3D"
   }
 ];
 
@@ -133,7 +133,7 @@ export default function TrekkingTrailsPage() {
       <section className="relative h-[80vh] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VHJla2tpbmd8ZW58MHx8MHx8fDA%3D"
             alt="Trekking Trails in Himalayan Ranges"
             fill
             className="object-cover"
@@ -201,7 +201,7 @@ export default function TrekkingTrailsPage() {
       </section>
 
       {/* ================= CATEGORY TABS ================= */}
-      <section className="py-16 bg-white sticky top-0 z-40 shadow-lg border-b border-gray-100">
+      <section className="py-16 bg-gray-50 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex justify-center">
             <div className="inline-flex rounded-full bg-gray-100 p-1">
@@ -402,6 +402,7 @@ export default function TrekkingTrailsPage() {
                   One can reach the start of the trek at Moneybhanjan by the Darjeeling Himalayan Railway and further 
                   from there in vintage Land Rover jeeps.
                 </p>
+                
                 <p className="text-gray-700 leading-relaxed mb-6">
                   The trek can be done in three days or more with an option of a side trip to Phalut, 
                   through the ridge where one gets unrivalled panoramic views of Mt. Kanchenjunga & Mt. Everest!
@@ -417,7 +418,7 @@ export default function TrekkingTrailsPage() {
               </div>
               <div className="relative h-96 rounded-xl overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                  src="https://images.unsplash.com/photo-1568454537842-d933259bb258?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8VHJla2tpbmd8ZW58MHx8MHx8fDA%3D"
                   alt="Singalila National Park"
                   fill
                   className="object-cover"
@@ -453,23 +454,7 @@ export default function TrekkingTrailsPage() {
         </div>
       </section>
 
-      {/* ================= CTA ================= */}
-      <section className="py-20 bg-gradient-to-br from-blue-600 to-cyan-600">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-4xl font-black text-white mb-6">Plan Your Trekking Adventure</h2>
-          <p className="text-xl text-white/90 max-w-3xl mx-auto mb-12">
-            Experience the majestic Himalayan ranges with expert guidance
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/book-tour" className="px-8 py-3 bg-white text-blue-600 font-bold rounded-xl hover:bg-gray-100 transition">
-              Book Trek
-            </a>
-            <a href="/contact" className="px-8 py-3 bg-white text-blue-600 font-bold rounded-xl hover:bg-gray-100 transition">
-              Custom Package
-            </a>
-          </div>
-        </div>
-      </section>
+  
 
       <PackagePricing
         title="Trekking Tour Packages"

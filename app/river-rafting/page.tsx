@@ -15,7 +15,7 @@ const raftingLocations = [
     description: "White water rafting in the famous Teesta River with turbulent currents",
     highlights: ["Suitable for all ages", "Spectacular scenery", "Government authorized guides", "Quality equipment"],
     bestFor: "Beginners to experienced rafters",
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1575012412382-b7c489571d5f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VGVlc3RhJTIwUml2ZXJ8ZW58MHx8MHx8fDA%3D"
   },
   {
     name: "Rangeet River",
@@ -25,7 +25,7 @@ const raftingLocations = [
     description: "Most sought after adventure with magnificent scenery and challenging rapids",
     highlights: ["Chitrey & Rangeet", "First class rafting", "Canoeing adventures", "Accomplished guides"],
     bestFor: "Experienced rafters",
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1636294734011-3a642de28d8a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UmFuZ2VldCUyMFJpdmVyfGVufDB8fDB8fHww"
   },
   {
     name: "Ganga River",
@@ -35,7 +35,7 @@ const raftingLocations = [
     description: "One of India's major and holiest rivers, perfect for first-timers and families",
     highlights: ["Close to Delhi", "Hub of white-water rafting", "Best rapids", "Weekend getaway"],
     bestFor: "First-timers & families",
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1653392083932-d5e9e7d2ccd1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEdhbmdhJTIwUml2ZXJ8ZW58MHx8MHx8fDA%3D"
   },
   {
     name: "Alaknanda River",
@@ -45,7 +45,7 @@ const raftingLocations = [
     description: "Second major tributary of the Ganga with spectacular scenery and challenging white water",
     highlights: ["Hillary's Fall rapid", "Expedition rafting", "Spectacular scenery", "Mountain tributaries"],
     bestFor: "Experienced rafters",
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1742915424822-e74c3cb6c45b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QWxha25hbmRhJTIwUml2ZXJ8ZW58MHx8MHx8fDA%3D"
   }
 ];
 
@@ -206,7 +206,7 @@ export default function RiverRaftingPage() {
       <section className="relative h-[80vh] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            src="https://images.unsplash.com/photo-1629248457649-b082812aea6c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cml2ZXIlMjByYWZ0aW5nfGVufDB8fDB8fHww"
             alt="River Rafting & Adventure Tourism"
             fill
             className="object-cover"
@@ -274,7 +274,7 @@ export default function RiverRaftingPage() {
       </section>
 
       {/* ================= CATEGORY TABS ================= */}
-      <section className="py-16 bg-white sticky top-0 z-40 shadow-lg border-b border-gray-100">
+      <section className="py-16 bg-white  border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex justify-center">
             <div className="inline-flex rounded-full bg-gray-100 p-1">
@@ -315,67 +315,97 @@ export default function RiverRaftingPage() {
 
       {/* ================= RIVER RAFTING ================= */}
       {activeTab === "rafting" && (
-        <section className="py-20 bg-gradient-to-br from-blue-50 to-cyan-50">
-          <div className="max-w-7xl mx-auto px-6">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl font-black text-gray-900 mb-6">River Rafting Locations</h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Experience the thrill of white water rafting in West Bengal and beyond
-              </p>
+       <section className="py-20 bg-gradient-to-br from-blue-50 to-cyan-50">
+  <div className="max-w-7xl mx-auto px-6">
+    
+    {/* Heading */}
+    <div className="text-center mb-16">
+      <h2 className="text-4xl font-black text-gray-900 mb-6">
+        River Rafting Locations
+      </h2>
+      <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+        Experience the thrill of white water rafting in West Bengal and beyond
+      </p>
+    </div>
+
+    {/* Grid Updated */}
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      {raftingLocations.map((location, index) => (
+        <div
+          key={index}
+          className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-3"
+        >
+          
+          {/* Image Section */}
+          <div className="relative aspect-[4/3] rounded-t-2xl bg-gray-100 flex items-center justify-center overflow-hidden">
+            <Image
+              src={location.image}
+              alt={location.name}
+              fill
+              className="object-contain p-4"
+            />
+
+            {/* Difficulty Badge */}
+            <div className="absolute top-3 right-3">
+              <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-semibold shadow">
+                {location.difficulty}
+              </span>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {raftingLocations.map((location, index) => (
-                <div key={index} className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-                  <div className="relative h-48 rounded-t-xl overflow-hidden">
-                    <Image
-                      src={location.image}
-                      alt={location.name}
-                      fill
-                      className="object-cover"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                    <div className="absolute top-3 right-3">
-                      <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-bold">
-                        {location.difficulty}
-                      </span>
-                    </div>
-                    <div className="absolute bottom-3 left-3">
-                      <span className="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold">
-                        {location.location}
-                      </span>
-                    </div>
-                  </div>
-                  
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">{location.name}</h3>
-                    <p className="text-gray-600 mb-4">{location.description}</p>
-                    <div className="mb-4">
-                      <h4 className="font-semibold text-gray-900 mb-2">Highlights:</h4>
-                      <div className="flex flex-wrap gap-2">
-                        {location.highlights.map((highlight, idx) => (
-                          <span key={idx} className="bg-blue-50 text-blue-700 px-3 py-1 rounded-full text-sm">
-                            {highlight}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-                    <div className="bg-blue-50 border border-blue-200 rounded-xl p-4">
-                      <div className="flex justify-between items-center mb-2">
-                        <span className="text-sm text-blue-700 font-semibold">Duration:</span>
-                        <span className="text-sm text-gray-900">{location.duration}</span>
-                      </div>
-                      <div className="flex justify-between items-center">
-                        <span className="text-sm text-blue-700 font-semibold">Best For:</span>
-                        <span className="text-sm text-gray-900">{location.bestFor}</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              ))}
+            {/* Location Badge */}
+            <div className="absolute bottom-3 left-3">
+              <span className="bg-green-600 text-white px-3 py-1 rounded-full text-xs font-semibold shadow">
+                {location.location}
+              </span>
             </div>
           </div>
-        </section>
+
+          {/* Content */}
+          <div className="p-6">
+            <h3 className="text-lg font-bold text-gray-900 mb-2">
+              {location.name}
+            </h3>
+
+            <p className="text-sm text-gray-600 mb-4">
+              {location.description}
+            </p>
+
+            {/* Highlights */}
+            <div className="mb-4">
+              <h4 className="font-semibold text-gray-900 mb-2 text-sm">
+                Highlights:
+              </h4>
+              <div className="flex flex-wrap gap-2">
+                {location.highlights.map((highlight, idx) => (
+                  <span
+                    key={idx}
+                    className="bg-blue-100 text-blue-700 px-2 py-1 rounded-full text-xs"
+                  >
+                    {highlight}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            {/* Info Box */}
+            <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 text-sm">
+              <div className="flex justify-between mb-2">
+                <span className="text-blue-700 font-semibold">Duration:</span>
+                <span className="text-gray-900">{location.duration}</span>
+              </div>
+              <div className="flex justify-between">
+                <span className="text-blue-700 font-semibold">Best For:</span>
+                <span className="text-gray-900">{location.bestFor}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+
+  </div>
+</section>
+
       )}
 
       {/* ================= RAFTING ROUTES ================= */}

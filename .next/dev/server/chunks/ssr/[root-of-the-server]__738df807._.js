@@ -88,15 +88,15 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
                                             lineNumber: 48,
-                                            columnNumber: 15
+                                            columnNumber: 7
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-3xl font-extrabold text-indigo-600 mt-3",
+                                            className: "text-2xl font-semibold text-indigo-600 mt-3",
                                             children: "₹ 15,400"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
                                             lineNumber: 49,
-                                            columnNumber: 15
+                                            columnNumber: 16
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                                             className: "mt-6 space-y-3 text-gray-600 text-sm",
@@ -146,7 +146,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             lineNumber: 60,
                                                             columnNumber: 60
                                                         }, this),
-                                                        " Pick & Drop"
+                                                        " PickU & Drop"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",

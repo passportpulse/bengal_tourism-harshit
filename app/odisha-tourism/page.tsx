@@ -336,8 +336,18 @@ export default function OdishaTourismPage() {
 function Destination({ title, subtitle, content }: { title: string; subtitle: string; content: string[] }) {
   return (
     <div className="bg-white shadow-xl rounded-3xl p-10 space-y-6">
+       <div className="flex justify-between items-center mt-8">
+        <div>
       <h2 className="text-3xl font-bold text-indigo-700">{title}</h2>
       <p className="font-semibold text-gray-700">{subtitle}</p>
+      </div>
+         <a 
+          href="/book-tour" 
+          className="bg-indigo-600 text-white px-8 py-3 rounded-xl font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+        >
+          Book Now
+        </a>
+      </div>
 
       <div className="space-y-6">
         {content.map((item, index) => (
@@ -351,6 +361,9 @@ function Destination({ title, subtitle, content }: { title: string; subtitle: st
           </div>
         ))}
       </div>
+      
+     
+     
     </div>
   )
 } 

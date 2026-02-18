@@ -53,7 +53,7 @@ export default function MandarmoniPage() {
           {/* ---------- RIGHT IMAGE ---------- */}
           <div className="flex justify-center md:justify-end">
             <img
-              src="/Mandarmoni.jpeg"
+              src="/mandarmani-sea-beach.jpg"
               alt="Mandarmoni beach with cars driving on sand"
               className="w-full max-w-md md:max-w-lg lg:max-w-xl rounded-2xl shadow-2xl"
             />
@@ -138,7 +138,7 @@ export default function MandarmoniPage() {
 
             <div className="relative">
               <img
-                src="/Mandarmoni.jpeg"
+                src="/mandarmani-sea-beach.jpg"
                 alt="Mandarmoni beach adventure activities"
                 className="rounded-2xl shadow-2xl w-full"
               />
@@ -289,17 +289,17 @@ export default function MandarmoniPage() {
                 </div>
               </div>
             </a>
-            <a href="/shankarpur">
+            <a href="/mandarmoni">
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
                 <img
-                  src="/Shankarpur.jpeg"
-                  alt="Shankarpur Beach"
+                  src="/mandarmani-sea-beach.jpg"
+                  alt="Mandarmoni Beach"
                   className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                 <div className="absolute bottom-0 p-6 text-white">
-                  <h3 className="text-2xl font-bold mb-2">Shankarpur</h3>
-                  <p className="text-gray-200">Quiet Beach Paradise</p>
+                  <h3 className="text-2xl font-bold mb-2">Mandarmoni</h3>
+                  <p className="text-gray-200">Adventure Beach Paradise</p>
                 </div>
               </div>
             </a>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Clock, MapPin, Calendar, Users, Star, ArrowRight, Coffee, Trees, Camera, Utensils, Sparkles, Map } from 'lucide-react'
 import ContactCTA from '@/components/ContactCTA'
 import PackagePricing from '@/components/PackagePricing'
@@ -584,13 +585,19 @@ export default function ShortBreaks() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-orange-50">
       {/* Hero Section */}
-      <section className="relative h-[500px] bg-gradient-to-r from-blue-600 via-cyan-600 to-teal-600 overflow-hidden">
-        <div className="absolute inset-0 bg-black/30"></div>
-        <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+      <section className="relative h-[500px] md:h-[800px] overflow-hidden">
+        <div className="absolute inset-0">
+          <Image
+            src="https://images.unsplash.com/photo-1761933810905-ccc35b14d937?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2hvcnQlMjBCcmVha3N8ZW58MHx8MHx8fDA%3D"
+            alt="Bengal Short Break Adventures"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+        </div>
 
         {/* Animated background elements */}
-        <div className="absolute top-10 left-10 w-32 h-32 bg-white/10 rounded-full blur-xl animate-pulse"></div>
-        <div className="absolute bottom-20 right-20 w-40 h-40 bg-white/10 rounded-full blur-xl animate-pulse delay-1000"></div>
 
         <div className="relative container mx-auto px-4 h-full flex items-center justify-center">
           <div className="text-white text-center max-w-4xl">
