@@ -344,7 +344,7 @@ export default function ReligiousPilgrimagePage() {
       </section>
 
       {/* ================= CATEGORY TABS ================= */}
-      <section className="py-16 bg-white sticky top-0 z-40 shadow-lg border-b border-gray-100">
+      <section className="py-16 bg-white border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex justify-center">
             <div className="inline-flex rounded-full bg-gray-100 p-1">

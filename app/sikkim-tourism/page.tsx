@@ -346,18 +346,19 @@ export default function SikkimTourismPage() {
 function Destination({ title, subtitle, content }: { title: string; subtitle: string; content: string[] }) {
   return (
     <div className="bg-white shadow-xl rounded-3xl p-10 space-y-6">
-       <div className="flex justify-between items-center mt-8">
-        <div>
+       <div className="flex gap-5 items-center mt-8">
+   
       <h2 className="text-3xl font-bold text-indigo-700">{title}</h2>
-      <p className="font-semibold text-gray-700">{subtitle}</p>
-      </div>
-         <a 
+        <a 
           href="/book-tour" 
-          className="bg-indigo-600 text-white px-8 py-3 rounded-xl font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+          className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
         >
           Book Now
         </a>
-      </div>
+       </div>
+  
+        <p className="font-semibold text-gray-700">{subtitle}</p>
+    
 
       <div className="space-y-6">
         {content.map((item, index) => (
