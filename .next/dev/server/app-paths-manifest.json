@@ -1,5 +1,6 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
   "/andaman-nicobar-tourism/page": "app/andaman-nicobar-tourism/page.js",
   "/assam-guwahati-tourism/page": "app/assam-guwahati-tourism/page.js",
   "/bali/page": "app/bali/page.js",
