@@ -13,7 +13,7 @@ const shaktiPeeths = [
     bodyPart: "Toe",
     description: "One of the 51 Shakti Peeths, dedicated to Goddess Kali",
     significance: "Major pilgrimage site for Hindus",
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "/img/kali.jpeg"
   },
   {
     name: "Tarapith",
@@ -21,7 +21,7 @@ const shaktiPeeths = [
     bodyPart: "Eye ball",
     description: "Sacred Shakti Peeth dedicated to Goddess Tara",
     significance: "Powerful tantric center",
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "/img/Tarapith.jpeg"
   },
   {
     name: "Bakreswar",
@@ -29,7 +29,7 @@ const shaktiPeeths = [
     bodyPart: "Forehead & Brows",
     description: "Ancient Shakti Peeth with hot water springs",
     significance: "Known for healing properties",
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "/img/Bakreswar.jpeg"
   },
   {
     name: "Nataleshwari",
@@ -37,7 +37,7 @@ const shaktiPeeths = [
     bodyPart: "Throat",
     description: "Sacred Shakti Peeth dedicated to Goddess Nataleshwari",
     significance: "Ancient pilgrimage site",
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "/img/Nataleshwari.jpeg"
   },
   {
     name: "Kankhaleswari",
@@ -45,7 +45,7 @@ const shaktiPeeths = [
     bodyPart: "Waist",
     description: "Sacred Shakti Peeth near Santiniketan",
     significance: "Peaceful spiritual environment",
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "/img/Kankhaleswari.jpeg"
   },
   {
     name: "Attahas or Ma Fullara",
@@ -53,7 +53,7 @@ const shaktiPeeths = [
     bodyPart: "Lips",
     description: "Sacred Shakti Peeth with ancient temple",
     significance: "Historical and religious importance",
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "/img/Attahas-or-Ma-Fullara.jpeg"
   },
   {
     name: "Bahula",
@@ -61,7 +61,7 @@ const shaktiPeeths = [
     bodyPart: "Left arm",
     description: "Sacred Shakti Peeth dedicated to Goddess Bahula",
     significance: "Ancient spiritual center",
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "/img/Bahula.jpeg"
   },
   {
     name: "Ma Jahura",
@@ -69,7 +69,7 @@ const shaktiPeeths = [
     bodyPart: "3 faces of Ma",
     description: "Unique Shakti Peeth with triple-faced deity",
     significance: "Rare spiritual manifestation",
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "/img/Ma-Jahura.jpeg"
   },
   {
     name: "Ratnavali / Vibhash Shakti or Anandamayee",
@@ -276,7 +276,7 @@ export default function ReligiousPilgrimagePage() {
       <section className="relative h-[80vh] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            src="/img/puri.jpeg"
             alt="Religious & Pilgrimage Tours"
             fill
             className="object-cover"

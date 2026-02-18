@@ -1733,227 +1733,6 @@ function EarnPage() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "py-20 bg-gradient-to-b from-gray-50 to-white",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-7xl mx-auto px-6",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-center mb-12",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-4xl font-black text-gray-900 mb-4",
-                                    children: [
-                                        "Start Your",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "block bg-gradient-to-r from-red-600 via-orange-600 to-yellow-600 bg-clip-text text-transparent",
-                                            children: "Earning Journey Today"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/earn/page.tsx",
-                                            lineNumber: 229,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/earn/page.tsx",
-                                    lineNumber: 227,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-xl text-gray-600 max-w-3xl mx-auto",
-                                    children: "Join thousands who are already earning with Bengal Tourism. Watch how you can start your journey to financial freedom."
-                                }, void 0, false, {
-                                    fileName: "[project]/app/earn/page.tsx",
-                                    lineNumber: 233,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/app/earn/page.tsx",
-                            lineNumber: 226,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "relative rounded-2xl overflow-hidden shadow-2xl mb-12",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "aspect-video",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
-                                        autoPlay: true,
-                                        loop: true,
-                                        playsInline: true,
-                                        className: "w-full h-full object-cover",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
-                                                src: "/earn.mp4",
-                                                type: "video/mp4"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/earn/page.tsx",
-                                                lineNumber: 246,
-                                                columnNumber: 17
-                                            }, this),
-                                            "Your browser does not support the video tag."
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/app/earn/page.tsx",
-                                        lineNumber: 240,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/app/earn/page.tsx",
-                                    lineNumber: 239,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent pointer-events-none"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/earn/page.tsx",
-                                    lineNumber: 251,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/app/earn/page.tsx",
-                            lineNumber: 238,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "grid md:grid-cols-3 gap-8 text-center",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-white p-8 rounded-xl shadow-lg",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$up$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingUp$3e$__["TrendingUp"], {
-                                                className: "w-8 h-8 text-red-600"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/earn/page.tsx",
-                                                lineNumber: 257,
-                                                columnNumber: 17
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/earn/page.tsx",
-                                            lineNumber: 256,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "text-xl font-bold text-gray-900 mb-2",
-                                            children: "Grow Your Income"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/earn/page.tsx",
-                                            lineNumber: 259,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-gray-600",
-                                            children: "Multiple earning opportunities with flexible work options"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/earn/page.tsx",
-                                            lineNumber: 260,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/earn/page.tsx",
-                                    lineNumber: 255,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-white p-8 rounded-xl shadow-lg",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
-                                                className: "w-8 h-8 text-orange-600"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/earn/page.tsx",
-                                                lineNumber: 265,
-                                                columnNumber: 17
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/earn/page.tsx",
-                                            lineNumber: 264,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "text-xl font-bold text-gray-900 mb-2",
-                                            children: "Join Community"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/earn/page.tsx",
-                                            lineNumber: 267,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-gray-600",
-                                            children: "Be part of growing network of tourism professionals"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/earn/page.tsx",
-                                            lineNumber: 268,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/earn/page.tsx",
-                                    lineNumber: 263,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-white p-8 rounded-xl shadow-lg",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__["Award"], {
-                                                className: "w-8 h-8 text-yellow-600"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/earn/page.tsx",
-                                                lineNumber: 273,
-                                                columnNumber: 17
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/earn/page.tsx",
-                                            lineNumber: 272,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "text-xl font-bold text-gray-900 mb-2",
-                                            children: "Get Recognition"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/earn/page.tsx",
-                                            lineNumber: 275,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-gray-600",
-                                            children: "Earn rewards and recognition for your performance"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/earn/page.tsx",
-                                            lineNumber: 276,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/earn/page.tsx",
-                                    lineNumber: 271,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/app/earn/page.tsx",
-                            lineNumber: 254,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/app/earn/page.tsx",
-                    lineNumber: 225,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/app/earn/page.tsx",
-                lineNumber: 224,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "py-20 bg-white",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-7xl mx-auto px-6",
@@ -1966,7 +1745,7 @@ function EarnPage() {
                                     children: "Success Stories"
                                 }, void 0, false, {
                                     fileName: "[project]/app/earn/page.tsx",
-                                    lineNumber: 286,
+                                    lineNumber: 229,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1974,13 +1753,13 @@ function EarnPage() {
                                     children: "Real people, real earnings. See how others are succeeding with Bengal Tourism."
                                 }, void 0, false, {
                                     fileName: "[project]/app/earn/page.tsx",
-                                    lineNumber: 287,
+                                    lineNumber: 230,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/earn/page.tsx",
-                            lineNumber: 285,
+                            lineNumber: 228,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1996,7 +1775,7 @@ function EarnPage() {
                                                     children: story.name.split(' ').map((n)=>n[0]).join('')
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/earn/page.tsx",
-                                                    lineNumber: 296,
+                                                    lineNumber: 239,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2006,7 +1785,7 @@ function EarnPage() {
                                                             children: story.name
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/earn/page.tsx",
-                                                            lineNumber: 300,
+                                                            lineNumber: 243,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2014,26 +1793,26 @@ function EarnPage() {
                                                             children: story.role
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/earn/page.tsx",
-                                                            lineNumber: 301,
+                                                            lineNumber: 244,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/earn/page.tsx",
-                                                    lineNumber: 299,
+                                                    lineNumber: 242,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/earn/page.tsx",
-                                            lineNumber: 295,
+                                            lineNumber: 238,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/earn/page.tsx",
-                                            lineNumber: 304,
+                                            lineNumber: 247,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2041,29 +1820,29 @@ function EarnPage() {
                                             children: story.story
                                         }, void 0, false, {
                                             fileName: "[project]/app/earn/page.tsx",
-                                            lineNumber: 306,
+                                            lineNumber: 249,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/app/earn/page.tsx",
-                                    lineNumber: 294,
+                                    lineNumber: 237,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/earn/page.tsx",
-                            lineNumber: 292,
+                            lineNumber: 235,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/earn/page.tsx",
-                    lineNumber: 284,
+                    lineNumber: 227,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/earn/page.tsx",
-                lineNumber: 283,
+                lineNumber: 226,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2079,7 +1858,7 @@ function EarnPage() {
                                     children: "Why Earn With Bengal Tourism?"
                                 }, void 0, false, {
                                     fileName: "[project]/app/earn/page.tsx",
-                                    lineNumber: 317,
+                                    lineNumber: 260,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2087,13 +1866,13 @@ function EarnPage() {
                                     children: "Join a trusted brand with proven success in the tourism industry"
                                 }, void 0, false, {
                                     fileName: "[project]/app/earn/page.tsx",
-                                    lineNumber: 318,
+                                    lineNumber: 261,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/earn/page.tsx",
-                            lineNumber: 316,
+                            lineNumber: 259,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2106,7 +1885,7 @@ function EarnPage() {
                                             className: "w-12 h-12 text-red-600 mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/earn/page.tsx",
-                                            lineNumber: 325,
+                                            lineNumber: 268,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2114,7 +1893,7 @@ function EarnPage() {
                                             children: "Trusted Brand"
                                         }, void 0, false, {
                                             fileName: "[project]/app/earn/page.tsx",
-                                            lineNumber: 326,
+                                            lineNumber: 269,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2122,13 +1901,13 @@ function EarnPage() {
                                             children: "15+ years of excellence in tourism with thousands of satisfied customers."
                                         }, void 0, false, {
                                             fileName: "[project]/app/earn/page.tsx",
-                                            lineNumber: 327,
+                                            lineNumber: 270,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/earn/page.tsx",
-                                    lineNumber: 324,
+                                    lineNumber: 267,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2138,7 +1917,7 @@ function EarnPage() {
                                             className: "w-12 h-12 text-red-600 mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/earn/page.tsx",
-                                            lineNumber: 330,
+                                            lineNumber: 273,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2146,7 +1925,7 @@ function EarnPage() {
                                             children: "Growth Potential"
                                         }, void 0, false, {
                                             fileName: "[project]/app/earn/page.tsx",
-                                            lineNumber: 331,
+                                            lineNumber: 274,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2154,13 +1933,13 @@ function EarnPage() {
                                             children: "Unlimited earning potential with our proven growth structure and support system."
                                         }, void 0, false, {
                                             fileName: "[project]/app/earn/page.tsx",
-                                            lineNumber: 332,
+                                            lineNumber: 275,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/earn/page.tsx",
-                                    lineNumber: 329,
+                                    lineNumber: 272,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2170,7 +1949,7 @@ function EarnPage() {
                                             className: "w-12 h-12 text-red-600 mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/earn/page.tsx",
-                                            lineNumber: 335,
+                                            lineNumber: 278,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2178,7 +1957,7 @@ function EarnPage() {
                                             children: "Team Support"
                                         }, void 0, false, {
                                             fileName: "[project]/app/earn/page.tsx",
-                                            lineNumber: 336,
+                                            lineNumber: 279,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2186,30 +1965,30 @@ function EarnPage() {
                                             children: "Complete training and ongoing support to help you succeed in your journey."
                                         }, void 0, false, {
                                             fileName: "[project]/app/earn/page.tsx",
-                                            lineNumber: 337,
+                                            lineNumber: 280,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/earn/page.tsx",
-                                    lineNumber: 334,
+                                    lineNumber: 277,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/earn/page.tsx",
-                            lineNumber: 323,
+                            lineNumber: 266,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/earn/page.tsx",
-                    lineNumber: 315,
+                    lineNumber: 258,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/earn/page.tsx",
-                lineNumber: 314,
+                lineNumber: 257,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2225,7 +2004,7 @@ function EarnPage() {
                                     children: "Start Your Journey"
                                 }, void 0, false, {
                                     fileName: "[project]/app/earn/page.tsx",
-                                    lineNumber: 347,
+                                    lineNumber: 290,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2233,13 +2012,13 @@ function EarnPage() {
                                     children: "Fill out the form below to join our membership program and start earning"
                                 }, void 0, false, {
                                     fileName: "[project]/app/earn/page.tsx",
-                                    lineNumber: 348,
+                                    lineNumber: 291,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/earn/page.tsx",
-                            lineNumber: 346,
+                            lineNumber: 289,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2264,13 +2043,13 @@ function EarnPage() {
                                                                         children: "*"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/earn/page.tsx",
-                                                                        lineNumber: 360,
+                                                                        lineNumber: 303,
                                                                         columnNumber: 34
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/earn/page.tsx",
-                                                                lineNumber: 359,
+                                                                lineNumber: 302,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2282,13 +2061,13 @@ function EarnPage() {
                                                                 required: true
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/earn/page.tsx",
-                                                                lineNumber: 362,
+                                                                lineNumber: 305,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/earn/page.tsx",
-                                                        lineNumber: 358,
+                                                        lineNumber: 301,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2302,13 +2081,13 @@ function EarnPage() {
                                                                         children: "*"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/earn/page.tsx",
-                                                                        lineNumber: 373,
+                                                                        lineNumber: 316,
                                                                         columnNumber: 33
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/earn/page.tsx",
-                                                                lineNumber: 372,
+                                                                lineNumber: 315,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2320,19 +2099,19 @@ function EarnPage() {
                                                                 required: true
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/earn/page.tsx",
-                                                                lineNumber: 375,
+                                                                lineNumber: 318,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/earn/page.tsx",
-                                                        lineNumber: 371,
+                                                        lineNumber: 314,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/earn/page.tsx",
-                                                lineNumber: 357,
+                                                lineNumber: 300,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2349,13 +2128,13 @@ function EarnPage() {
                                                                         children: "*"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/earn/page.tsx",
-                                                                        lineNumber: 389,
+                                                                        lineNumber: 332,
                                                                         columnNumber: 29
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/earn/page.tsx",
-                                                                lineNumber: 388,
+                                                                lineNumber: 331,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2367,13 +2146,13 @@ function EarnPage() {
                                                                 required: true
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/earn/page.tsx",
-                                                                lineNumber: 391,
+                                                                lineNumber: 334,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/earn/page.tsx",
-                                                        lineNumber: 387,
+                                                        lineNumber: 330,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2387,13 +2166,13 @@ function EarnPage() {
                                                                         children: "*"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/earn/page.tsx",
-                                                                        lineNumber: 402,
+                                                                        lineNumber: 345,
                                                                         columnNumber: 29
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/earn/page.tsx",
-                                                                lineNumber: 401,
+                                                                lineNumber: 344,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2405,19 +2184,19 @@ function EarnPage() {
                                                                 required: true
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/earn/page.tsx",
-                                                                lineNumber: 404,
+                                                                lineNumber: 347,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/earn/page.tsx",
-                                                        lineNumber: 400,
+                                                        lineNumber: 343,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/earn/page.tsx",
-                                                lineNumber: 386,
+                                                lineNumber: 329,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2431,13 +2210,13 @@ function EarnPage() {
                                                                 children: "*"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/earn/page.tsx",
-                                                                lineNumber: 417,
+                                                                lineNumber: 360,
                                                                 columnNumber: 43
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/earn/page.tsx",
-                                                        lineNumber: 416,
+                                                        lineNumber: 359,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -2452,7 +2231,7 @@ function EarnPage() {
                                                                 children: "--Select Method--"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/earn/page.tsx",
-                                                                lineNumber: 425,
+                                                                lineNumber: 368,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2461,7 +2240,7 @@ function EarnPage() {
                                                                 children: "Membership Program"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/earn/page.tsx",
-                                                                lineNumber: 426,
+                                                                lineNumber: 369,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2470,7 +2249,7 @@ function EarnPage() {
                                                                 children: "Agency Partnership"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/earn/page.tsx",
-                                                                lineNumber: 427,
+                                                                lineNumber: 370,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2479,7 +2258,7 @@ function EarnPage() {
                                                                 children: "Tour Guide"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/earn/page.tsx",
-                                                                lineNumber: 428,
+                                                                lineNumber: 371,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2488,19 +2267,19 @@ function EarnPage() {
                                                                 children: "Network Marketing"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/earn/page.tsx",
-                                                                lineNumber: 429,
+                                                                lineNumber: 372,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/earn/page.tsx",
-                                                        lineNumber: 419,
+                                                        lineNumber: 362,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/earn/page.tsx",
-                                                lineNumber: 415,
+                                                lineNumber: 358,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2517,13 +2296,13 @@ function EarnPage() {
                                                                         children: "*"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/earn/page.tsx",
-                                                                        lineNumber: 436,
+                                                                        lineNumber: 379,
                                                                         columnNumber: 36
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/earn/page.tsx",
-                                                                lineNumber: 435,
+                                                                lineNumber: 378,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -2538,7 +2317,7 @@ function EarnPage() {
                                                                         children: " --Select Payment--"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/earn/page.tsx",
-                                                                        lineNumber: 444,
+                                                                        lineNumber: 387,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2547,7 +2326,7 @@ function EarnPage() {
                                                                         children: "Bank Transfer"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/earn/page.tsx",
-                                                                        lineNumber: 445,
+                                                                        lineNumber: 388,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2556,7 +2335,7 @@ function EarnPage() {
                                                                         children: "UPI Payment"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/earn/page.tsx",
-                                                                        lineNumber: 446,
+                                                                        lineNumber: 389,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2565,7 +2344,7 @@ function EarnPage() {
                                                                         children: "PhonePe"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/earn/page.tsx",
-                                                                        lineNumber: 447,
+                                                                        lineNumber: 390,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2574,19 +2353,19 @@ function EarnPage() {
                                                                         children: "Google Pay"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/earn/page.tsx",
-                                                                        lineNumber: 448,
+                                                                        lineNumber: 391,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/earn/page.tsx",
-                                                                lineNumber: 438,
+                                                                lineNumber: 381,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/earn/page.tsx",
-                                                        lineNumber: 434,
+                                                        lineNumber: 377,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2600,13 +2379,13 @@ function EarnPage() {
                                                                         children: "*"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/earn/page.tsx",
-                                                                        lineNumber: 453,
+                                                                        lineNumber: 396,
                                                                         columnNumber: 44
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/earn/page.tsx",
-                                                                lineNumber: 452,
+                                                                lineNumber: 395,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2618,19 +2397,19 @@ function EarnPage() {
                                                                 required: true
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/earn/page.tsx",
-                                                                lineNumber: 455,
+                                                                lineNumber: 398,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/earn/page.tsx",
-                                                        lineNumber: 451,
+                                                        lineNumber: 394,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/earn/page.tsx",
-                                                lineNumber: 433,
+                                                lineNumber: 376,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2642,7 +2421,7 @@ function EarnPage() {
                                                         className: "mt-1 w-4 h-4 text-red-600 focus:ring-red-500 rounded"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/earn/page.tsx",
-                                                        lineNumber: 467,
+                                                        lineNumber: 410,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2650,13 +2429,13 @@ function EarnPage() {
                                                         children: "I agree to the terms and conditions of Bengal Tourism earning program and understand that submission without payment is not valid."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/earn/page.tsx",
-                                                        lineNumber: 472,
+                                                        lineNumber: 415,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/earn/page.tsx",
-                                                lineNumber: 466,
+                                                lineNumber: 409,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2672,7 +2451,7 @@ function EarnPage() {
                                                                     className: "w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin inline-block mr-2"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/earn/page.tsx",
-                                                                    lineNumber: 485,
+                                                                    lineNumber: 428,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 "Processing..."
@@ -2680,7 +2459,7 @@ function EarnPage() {
                                                         }, void 0, true) : 'Submit Application'
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/earn/page.tsx",
-                                                        lineNumber: 478,
+                                                        lineNumber: 421,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2701,224 +2480,64 @@ function EarnPage() {
                                                         children: "Clear Form"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/earn/page.tsx",
-                                                        lineNumber: 492,
+                                                        lineNumber: 435,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/earn/page.tsx",
-                                                lineNumber: 477,
+                                                lineNumber: 420,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/earn/page.tsx",
-                                        lineNumber: 356,
+                                        lineNumber: 299,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/earn/page.tsx",
-                                    lineNumber: 355,
+                                    lineNumber: 298,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "relative",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "relative rounded-2xl overflow-hidden shadow-2xl",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                src: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&h=600&fit=crop&auto=format",
-                                                alt: "Earn with Bengal Tourism",
-                                                className: "w-full h-full object-cover"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/earn/page.tsx",
-                                                lineNumber: 517,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "absolute inset-0 bg-gradient-to-r from-red-600/80 to-orange-600/80 flex items-center justify-center",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "text-center text-white p-8",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "mb-6",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$up$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingUp$3e$__["TrendingUp"], {
-                                                                    className: "w-16 h-16 mx-auto mb-4"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/earn/page.tsx",
-                                                                    lineNumber: 525,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                    className: "text-3xl font-bold mb-4",
-                                                                    children: "Start Earning Today"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/earn/page.tsx",
-                                                                    lineNumber: 526,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                    className: "text-xl mb-6",
-                                                                    children: "Join our successful network of earners"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/earn/page.tsx",
-                                                                    lineNumber: 527,
-                                                                    columnNumber: 23
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/app/earn/page.tsx",
-                                                            lineNumber: 524,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "grid grid-cols-2 gap-6 text-center",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "text-4xl font-bold mb-2",
-                                                                            children: "₹1500"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/earn/page.tsx",
-                                                                            lineNumber: 531,
-                                                                            columnNumber: 25
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "text-sm opacity-90",
-                                                                            children: "Min Investment"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/earn/page.tsx",
-                                                                            lineNumber: 532,
-                                                                            columnNumber: 25
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/app/earn/page.tsx",
-                                                                    lineNumber: 530,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "text-4xl font-bold mb-2",
-                                                                            children: "2.5L"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/earn/page.tsx",
-                                                                            lineNumber: 535,
-                                                                            columnNumber: 25
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "text-sm opacity-90",
-                                                                            children: "Max Earning"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/earn/page.tsx",
-                                                                            lineNumber: 536,
-                                                                            columnNumber: 25
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/app/earn/page.tsx",
-                                                                    lineNumber: 534,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "text-4xl font-bold mb-2",
-                                                                            children: "500+"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/earn/page.tsx",
-                                                                            lineNumber: 539,
-                                                                            columnNumber: 25
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "text-sm opacity-90",
-                                                                            children: "Active Earners"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/earn/page.tsx",
-                                                                            lineNumber: 540,
-                                                                            columnNumber: 25
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/app/earn/page.tsx",
-                                                                    lineNumber: 538,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "text-4xl font-bold mb-2",
-                                                                            children: "24/7"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/earn/page.tsx",
-                                                                            lineNumber: 543,
-                                                                            columnNumber: 25
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "text-sm opacity-90",
-                                                                            children: "Support"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/earn/page.tsx",
-                                                                            lineNumber: 544,
-                                                                            columnNumber: 25
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/app/earn/page.tsx",
-                                                                    lineNumber: 542,
-                                                                    columnNumber: 23
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/app/earn/page.tsx",
-                                                            lineNumber: 529,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/app/earn/page.tsx",
-                                                    lineNumber: 523,
-                                                    columnNumber: 19
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/earn/page.tsx",
-                                                lineNumber: 522,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
+                                    className: "relative h-64 md:h-auto",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
+                                        src: "/earn.mp4",
+                                        controls: true,
+                                        loop: true,
+                                        playsInline: true,
+                                        className: "w-full h-full object-contain bg-white"
+                                    }, void 0, false, {
                                         fileName: "[project]/app/earn/page.tsx",
-                                        lineNumber: 516,
+                                        lineNumber: 459,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/earn/page.tsx",
-                                    lineNumber: 515,
+                                    lineNumber: 458,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/earn/page.tsx",
-                            lineNumber: 353,
+                            lineNumber: 296,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/earn/page.tsx",
-                    lineNumber: 345,
+                    lineNumber: 288,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/earn/page.tsx",
-                lineNumber: 344,
+                lineNumber: 287,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$careers$2f$careerspage$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/earn/page.tsx",
-                lineNumber: 554,
+                lineNumber: 473,
                 columnNumber: 2
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2931,7 +2550,7 @@ function EarnPage() {
                             children: "Ready to Start Earning?"
                         }, void 0, false, {
                             fileName: "[project]/app/earn/page.tsx",
-                            lineNumber: 558,
+                            lineNumber: 477,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2939,7 +2558,7 @@ function EarnPage() {
                             children: "Join thousands of people who are already earning with Bengal Tourism"
                         }, void 0, false, {
                             fileName: "[project]/app/earn/page.tsx",
-                            lineNumber: 559,
+                            lineNumber: 478,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2951,7 +2570,7 @@ function EarnPage() {
                                     children: "Join Membership"
                                 }, void 0, false, {
                                     fileName: "[project]/app/earn/page.tsx",
-                                    lineNumber: 563,
+                                    lineNumber: 482,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -2960,7 +2579,7 @@ function EarnPage() {
                                     children: "View MgM Plan"
                                 }, void 0, false, {
                                     fileName: "[project]/app/earn/page.tsx",
-                                    lineNumber: 566,
+                                    lineNumber: 485,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -2969,24 +2588,24 @@ function EarnPage() {
                                     children: "Explore Careers"
                                 }, void 0, false, {
                                     fileName: "[project]/app/earn/page.tsx",
-                                    lineNumber: 569,
+                                    lineNumber: 488,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/earn/page.tsx",
-                            lineNumber: 562,
+                            lineNumber: 481,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/earn/page.tsx",
-                    lineNumber: 557,
+                    lineNumber: 476,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/earn/page.tsx",
-                lineNumber: 556,
+                lineNumber: 475,
                 columnNumber: 7
             }, this)
         ]

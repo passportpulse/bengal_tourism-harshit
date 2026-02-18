@@ -886,3 +886,32 @@ Unterminated regexp literal
 [07:33:48.890] Server  LOG     ✓ Compiled in 76ms
 [07:36:46.041] Server  LOG     ✓ Compiled in 123ms
 [07:36:47.325] Browser WARN    Image with src "/img/puri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:37:53.924] Server  LOG     ✓ Compiled in 77ms
+[07:41:09.205] Server  LOG     ✓ Compiled in 77ms
+[07:41:10.324] Browser WARN    Image with src "/img/Tarapith.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:41:22.754] Server  LOG     ✓ Compiled in 80ms
+[07:44:08.741] Server  LOG     ✓ Compiled in 353ms
+[07:44:09.329] Browser WARN    Image with src "/img/kali.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:48:08.274] Server  LOG     ✓ Compiled in 164ms
+[07:48:10.489] Browser WARN    Image with src "/img/Bakreswar.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:50:56.525] Server  LOG     ✓ Compiled in 328ms
+[07:50:57.324] Browser WARN    Image with src "/img/Nataleshwari.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:55:57.041] Server  LOG     ✓ Compiled in 126ms
+[07:55:57.324] Browser WARN    Image with src "/img/Kankhaleswari.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:57:52.762] Server  LOG     ✓ Compiled in 133ms
+[07:57:53.358] Browser WARN    Image with src "/img/Attahas-or-Ma-Fullara.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:59:36.240] Server  LOG     ✓ Compiled in 130ms
+[07:59:37.332] Browser WARN    Image with src "/img/Bahula.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[08:01:13.168] Server  LOG     ✓ Compiled in 273ms
+[08:01:14.329] Browser WARN    Image with src "/img/Ma-Jahura.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[08:04:38.321] Server  LOG     ✓ Compiled in 184ms
+[08:05:12.412] Server  LOG     ✓ Compiled in 125ms
+[08:05:35.344] Server  LOG     ✓ Compiled in 121ms
+[08:05:37.801] Server  LOG     ✓ Compiled in 137ms
+[08:05:47.163] Server  LOG     ✓ Compiled in 84ms
+[08:06:12.748] Server  LOG     ✓ Compiled in 90ms
+[08:08:05.042] Server  LOG     ✓ Compiled in 108ms
+[08:08:24.743] Server  LOG     ✓ Compiled in 93ms
+[08:09:10.067] Server  LOG     ✓ Compiled in 709ms
+[08:09:12.372] Server  LOG     ✓ Compiled in 82ms
+[08:10:25.469] Server  LOG     ✓ Compiled in 253ms

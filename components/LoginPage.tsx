@@ -39,26 +39,12 @@ export default function LoginPage() {
 
           </div>
           <div className="grid md:grid-cols-2">
-
-            {/* Left Side - Video and Content */}
-            <div className="relative h-64 md:h-auto">
-              <video
-                src="/home.mp4"
-                controls
-                loop
-                playsInline
-                className="w-full h-full object-contain bg-white"
-              />
+ {/* Right Side - Login Form */}
+            <div className="">
+              <div className="max-w-sm ">
 
 
-            </div>
-
-            {/* Right Side - Login Form */}
-            <div className="p-8 md:p-12">
-              <div className="max-w-sm mx-auto">
-
-
-                <form onSubmit={handleSubmit} className="space-y-6">
+                <form onSubmit={handleSubmit} className="space-y-6 border border-gray-300 p-6 rounded-lg">
                   <div>
                     <label htmlFor="username" className="block text-sm font-medium text-gray-700 mb-2">
                       Username
@@ -109,6 +95,20 @@ export default function LoginPage() {
                 </div>
               </div>
             </div>
+            {/* Left Side - Video and Content */}
+            <div className="relative h-64 md:h-auto">
+              <video
+                src="/home.mp4"
+                controls
+                loop
+                playsInline
+                className="w-full h-full object-contain bg-white"
+              />
+
+
+            </div>
+
+           
 
           </div>
         </div>
