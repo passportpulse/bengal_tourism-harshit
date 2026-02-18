@@ -30,6 +30,7 @@
   "/membership/page": "app/membership/page.js",
   "/nepal/page": "app/nepal/page.js",
   "/odisha-tourism/page": "app/odisha-tourism/page.js",
+  "/offbeat-hills/page": "app/offbeat-hills/page.js",
   "/packages/bengal-beckons/page": "app/packages/bengal-beckons/page.js",
   "/packages/exclusive/page": "app/packages/exclusive/page.js",
   "/packages/foreign-tours/page": "app/packages/foreign-tours/page.js",

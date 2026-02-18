@@ -67,7 +67,6 @@ export default function HomePage() {
         {/* ================= HOTEL BOOKING SECTION ================= */}
         <HotelBookingSection />
         <TailorMadeBentoGrid />
-        <VideoLandingSection />
      
         <AboutTrusted />
         <LoginPage />

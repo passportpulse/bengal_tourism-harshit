@@ -23,39 +23,40 @@ export default function LoginPage() {
   }
 
   return (
-    <div className=" bg-gray-50">
-      <div className="min-h-screen flex items-center justify-center px-4">
-        <div className="max-w-6xl w-full  overflow-hidden">
+    <div className=" bg-white py-10">
+      <div className="flex items-center justify-center px-4">
+        <div className="max-w-7xl w-full  overflow-hidden">
+          <div className=" mb-12">
+            <div className="flex  gap-2 mb-3 ">
+              <span className="text-red-600 font-semibold">
+                Membership
+              </span>
+            </div>
+            <h2 className="text-4xl font-bold text-gray-900">
+              Sign In for <span className="text-red-600"> Membership</span>
+            </h2>
+            <p className="text-gray-600">Enter your credentials to access your account</p>
+
+          </div>
           <div className="grid md:grid-cols-2">
-            
-            {/* Left Side - Image and Content */}
+
+            {/* Left Side - Video and Content */}
             <div className="relative h-64 md:h-auto">
-              <Image
-                src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJhdmVsfGVufDB8fDB8fHww"
-                alt="Travel destination"
-                fill
-                className="object-cover"
+              <video
+                src="/home.mp4"
+                controls
+                loop
+                playsInline
+                className="w-full h-full object-contain bg-white"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-600/70 to-indigo-600/70 flex items-center justify-center">
-                <div className="text-center text-white p-8">
-                  <h2 className="text-4xl font-bold mb-4">Welcome Back</h2>
-                  <p className="text-lg mb-6">Your journey begins here</p>
-                  <div className="space-y-2">
-                    <p className="text-sm opacity-90">✨ Exclusive travel deals</p>
-                    <p className="text-sm opacity-90">🌍 Explore new destinations</p>
-                    <p className="text-sm opacity-90">🎯 Personalized experiences</p>
-                  </div>
-                </div>
-              </div>
+
+
             </div>
 
             {/* Right Side - Login Form */}
             <div className="p-8 md:p-12">
               <div className="max-w-sm mx-auto">
-                <div className="text-center mb-8">
-                  <h1 className="text-3xl font-bold text-gray-900 mb-2">Sign In</h1>
-                  <p className="text-gray-600">Enter your credentials to access your account</p>
-                </div>
+
 
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
