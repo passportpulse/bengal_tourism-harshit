@@ -868,3 +868,21 @@ Import traces:
 [07:26:21.595] Server  LOG     ✓ Compiled in 85ms
 [07:26:30.779] Server  LOG     ✓ Compiled in 99ms
 [07:26:37.806] Server  LOG     ✓ Compiled in 58ms
+[07:29:57.808] Server  LOG     ✓ Compiled in 141ms
+[07:30:08.710] Browser ERROR   ./app/offbeat-hills/page.tsx:318:6
+Parsing ecmascript source code failed
+  316 |         <ContactCTA />
+  317 |       </div>
+> 318 |     </div>
+      |      ^^^^^
+  319 |   )
+  320 | }
+  321 | function Destination({ title, subtitle, content }: { title: string; subtitle: string; content: string[] }) {
+
+Unterminated regexp literal
+[07:30:22.897] Server  LOG     ✓ Compiled in 74ms
+[07:31:14.212] Server  LOG     ✓ Compiled in 295ms
+[07:33:08.889] Server  LOG     ✓ Compiled in 170ms
+[07:33:48.890] Server  LOG     ✓ Compiled in 76ms
+[07:36:46.041] Server  LOG     ✓ Compiled in 123ms
+[07:36:47.325] Browser WARN    Image with src "/img/puri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes

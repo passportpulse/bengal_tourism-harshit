@@ -42,17 +42,22 @@ export default function OffbeatHills() {
       {/* Hero Section */}
       <section className="relative h-96 bg-gradient-to-r from-green-600 to-blue-600">
         <div className="absolute inset-0 bg-black/40"></div>
+        <div className="absolute inset-0">
+          <img
+            src="/img/Offbeat-hils.jpeg"
+            alt="Offbeat Hills Scenic Beauty"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-green-600/80 to-blue-600/80"></div>
+        </div>
         <div className="relative container mx-auto px-4 h-full flex items-center justify-center">
           <div className="text-white max-w-3xl text-center">
             <h1 className="text-5xl font-bold mb-4">OFFBEAT TOUR – Hills</h1>
             <p className="text-xl mb-6">Special Tailor made Combination Package, Number of Days & Cost can be designed on Request</p>
             <div className="flex gap-4 justify-center">
               <Link href="/book-tour" className="bg-red-600 text-white px-6 py-3 rounded-lg hover:bg-red-700 transition flex items-center gap-2">
-                Book Now
-                <ArrowRight className="w-4 h-4" />
-              </Link>
-              <Link href="#destinations" className="border-2 border-white text-white px-6 py-3 rounded-lg hover:bg-white hover:text-green-600 transition">
-                Explore Destinations
+                <ArrowRight className="w-5 h-5" />
+                Book Your Adventure
               </Link>
             </div>
           </div>
@@ -147,7 +152,7 @@ export default function OffbeatHills() {
               `Day –3 :After breakfast, Check-out (08.00 am) from Hotel/Homestay. Alternatively; extend your excursion to  Phalut at 11800 Ft  (extra cost). Experience the entire range of Kanchenjunga Range on a clear day. Range Rover will drop you at Manebhanjan. On the return journey, visit Mirik, Gopal Dhara View Point & Pashupati Market in Nepal. Lunch at Mirik. Then proceed towards Bagdogra Airport (IXB) / New Jalpaiguri Railway Station (NJP), a 3-4 hrs drive in AC vehicle & drop at your point before (06.00pm) for your Forwarding Journey. Tour ends...`
             ]}
           />
-
+e
 </div>
 
 

@@ -67,7 +67,7 @@ const experiences: Experience[] = [
     title: "Religious & Pilgrimage Tour",
     icon: Church,
     route: "/religious-pilgrimage",
-    image: "https://images.unsplash.com/photo-1761474440561-78a792962f3a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UGlsZ3JpbWFnZSUyMFRvdXJ8ZW58MHx8MHx8fDA%3D",
+    image: "/img/puri.jpeg",
   },
   {
     title: "River Rafting",
@@ -148,7 +148,7 @@ const bengalPackages = [
         title: "Wildlife Forest & Jungle Safari",
         tag: "Forest Safari",
         duration: "3N & 4D",
-        desc: "Explore the lush forests and wildlife sanctuaries of North Bengal.",
+        desc: "View Details the lush forests and wildlife sanctuaries of North Bengal.",
         locations: "Lataguri, Jaldapara, Gorumara",
         image: "https://images.unsplash.com/photo-1669514463894-0475a3e062ff?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         icon: Trees,
@@ -165,7 +165,7 @@ export default function BengalBeckonsPackagesPage() {
             <section className="relative h-[60vh] overflow-hidden">
                 <div className="absolute inset-0">
                     <Image
-                        src="https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=2070&auto=format&fit=crop&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src="/img/Darjeeling.jpeg"
                         alt="Bengal Tourism"
                         fill
                         className="object-cover"
@@ -178,7 +178,7 @@ export default function BengalBeckonsPackagesPage() {
                     <div className="text-center max-w-5xl mx-auto">
                         <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md border border-white/30 rounded-full px-6 py-3 mb-8">
                             <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                            <span className="text-white font-medium text-sm">Explore Beautiful Bengal</span>
+                            <span className="text-white font-medium text-sm">View Details Beautiful Bengal</span>
                         </div>
                         
                         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
@@ -349,7 +349,7 @@ export default function BengalBeckonsPackagesPage() {
                                             {experience.title}
                                         </h3>
                                         <div className="flex items-center gap-2 text-white/90 text-sm">
-                                            <span>Explore</span>
+                                            <span>View Details</span>
                                             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                                         </div>
                                     </div>
