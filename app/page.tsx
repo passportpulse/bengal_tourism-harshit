@@ -11,6 +11,7 @@ import AboutTrusted from '@/components/AboutTrusted'
 import RandomPackageSections from '@/components/RandomPackageSections'
 import HotelBookingSection from '@/components/HotelBookingSection'
 import LoginPage from '@/components/LoginPage'
+import VideoLandingSection from '@/components/VideoLandingSection'
 
 
 export const metadata: Metadata = {
@@ -61,9 +62,12 @@ export default function HomePage() {
         <HeroSection />
         <PackagesHorizontalSlider />
         
+        {/* ================= VIDEO LANDING SECTION ================= */}
+        
         {/* ================= HOTEL BOOKING SECTION ================= */}
         <HotelBookingSection />
         <TailorMadeBentoGrid />
+        <VideoLandingSection />
      
         <AboutTrusted />
         <LoginPage />

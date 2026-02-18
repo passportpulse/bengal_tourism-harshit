@@ -76,6 +76,30 @@ const contactMethods = [
     color: "text-orange-600"
   },
   {
+    icon: Mail,
+    title: "Hotel Booking",
+    value: "hotel.bengaltourism@gmail.com",
+    action: "mailto:hotel.bengaltourism@gmail.com",
+    button: "Send Email",
+    color: "text-blue-600"
+  },
+  {
+    icon: Mail,
+    title: "Tour Booking",
+    value: "booking.bengaltourism@gmail.com",
+    action: "mailto:booking.bengaltourism@gmail.com",
+    button: "Send Email",
+    color: "text-blue-600"
+  },
+  {
+    icon: Mail,
+    title: "Work With Us",
+    value: "members.bengaltourism@gmail.com",
+    action: "mailto:members.bengaltourism@gmail.com",
+    button: "Send Email",
+    color: "text-purple-600"
+  },
+  {
     icon: MessageSquare,
     title: "WhatsApp – Tour",
     value: "+91 62897 83779",
@@ -424,7 +448,10 @@ export default function ContactPage() {
                   <Mail className="w-5 h-5 text-red-600 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-bold text-gray-900 mb-1">Email</h4>
-                    <p className="text-gray-700">bengaltourism@gmail.com</p>
+                    <p className="text-gray-700">General: bengaltourism@gmail.com</p>
+                    <p className="text-gray-700">Hotel: hotel.bengaltourism@gmail.com</p>
+                    <p className="text-gray-700">Tours: booking.bengaltourism@gmail.com</p>
+                    <p className="text-gray-700">Work: members.bengaltourism@gmail.com</p>
                   </div>
                 </div>
               </div>

@@ -234,9 +234,9 @@ export default function Navbar() {
                             <Link href="/earn" className="text-gray-700 font-semibold hover:text-red-600 transition">
                                 Earn With Us
                             </Link>
-                            <Link href="/career" className="text-gray-700 font-semibold hover:text-red-600 transition">
+                            {/* <Link href="/career" className="text-gray-700 font-semibold hover:text-red-600 transition">
                                 Career
-                            </Link>
+                            </Link> */}
                             {/* <Link href="/package-cost" className="text-gray-700 font-semibold hover:text-red-600 transition">
                                 Package Cost
                             </Link> */}
@@ -338,13 +338,13 @@ export default function Navbar() {
                         >
                             Earn With Us
                         </Link>
-                        <Link
+                        {/* <Link
                             href="/career"
                             className="block py-2 text-gray-700 font-semibold"
                             onClick={() => setMobileOpen(false)}
                         >
                             Career
-                        </Link>
+                        </Link> */}
                         {/* <Link
                             href="/package-cost"
                             className="block py-2 text-gray-700 font-semibold"

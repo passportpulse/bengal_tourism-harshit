@@ -123,55 +123,7 @@ export default function CareerPage() {
 
   return (
     <>
-      {/* ================= HERO ================= */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <Image
-          src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-          alt="Career at Bengal Tourism"
-          fill
-          className="object-cover scale-110"
-          priority
-        />
-        <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
-
-        <div className="relative z-10 text-center max-w-5xl px-6">
-          <span className="inline-block mb-6 px-6 py-2 rounded-full bg-white/20 backdrop-blur-sm text-white font-semibold tracking-wide">
-            🚀 Join Our Team
-          </span>
-
-          <h1 className="text-5xl md:text-7xl font-black text-white leading-tight mb-6">
-            Career & Business
-            <span className="block bg-gradient-to-r from-yellow-400 via-orange-400 to-red-400 bg-clip-text text-transparent">
-              Opportunity with Bengal Tourism
-            </span>
-          </h1>
-
-          <p className="mt-6 text-lg md:text-xl text-white/90 max-w-4xl mx-auto leading-relaxed">
-            Work from home or office for sustainable income & earnings in tourism industry.
-            We don't promise salary BUT we assure great earnings.
-          </p>
-
-          <div className="mt-8 text-white/90 max-w-3xl mx-auto">
-            <p className="text-lg font-semibold mb-4">Join us to be a part of a success story as...</p>
-            <div className="flex flex-wrap gap-3 justify-center">
-              <span className="px-4 py-2 bg-white/20 rounded-full text-sm">Tour Managers</span>
-              <span className="px-4 py-2 bg-white/20 rounded-full text-sm">Networkers</span>
-              <span className="px-4 py-2 bg-white/20 rounded-full text-sm">Marketing & Sales</span>
-              <span className="px-4 py-2 bg-white/20 rounded-full text-sm">Tele-Callers</span>
-              <span className="px-4 py-2 bg-white/20 rounded-full text-sm">Entrepreneurs</span>
-            </div>
-          </div>
-
-          <div className="mt-10 flex gap-4 justify-center flex-wrap">
-            <button className="px-8 py-3 rounded-xl bg-white text-red-600 font-bold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-xl">
-              View Openings
-            </button>
-            <button className="px-8 py-3 rounded-xl bg-gradient-to-r from-red-600 to-orange-600 text-white font-bold hover:from-red-700 hover:to-orange-700 transition-all duration-300 transform hover:scale-105 shadow-xl">
-              Join Talent Pool
-            </button>
-          </div>
-        </div>
-      </section>
+   
 
       {/* ================= WHY JOIN US ================= */}
       <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
@@ -281,97 +233,7 @@ export default function CareerPage() {
         </div>
       </section>
 
-      {/* ================= APPLICATION FORM ================= */}
-      <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
-        <div className="max-w-4xl mx-auto px-6">
-          <div className="bg-white rounded-2xl shadow-2xl p-8 md:p-12">
-            <div className="text-center mb-10">
-              <h2 className="text-3xl font-black text-gray-900 mb-4">Can't Find What You're Looking For?</h2>
-              <p className="text-lg text-gray-600">
-                Join our talent pool and we'll reach out when suitable positions open up
-              </p>
-            </div>
-
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <label className="block text-sm font-bold text-gray-700 mb-2">
-                    Full Name <span className="text-red-500">*</span>
-                  </label>
-                  <input
-                    type="text"
-                    value={formData.name}
-                    onChange={(e) => handleInputChange("name", e.target.value)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
-                    placeholder="Enter your full name"
-                    required
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-bold text-gray-700 mb-2">
-                    Email Address <span className="text-red-500">*</span>
-                  </label>
-                  <input
-                    type="email"
-                    value={formData.email}
-                    onChange={(e) => handleInputChange("email", e.target.value)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
-                    placeholder="your@email.com"
-                    required
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-bold text-gray-700 mb-2">
-                    Phone Number <span className="text-red-500">*</span>
-                  </label>
-                  <input
-                    type="tel"
-                    value={formData.phone}
-                    onChange={(e) => handleInputChange("phone", e.target.value)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
-                    placeholder="+91 98765 43210"
-                    required
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-bold text-gray-700 mb-2">
-                    Preferred Position
-                  </label>
-                  <input
-                    type="text"
-                    value={formData.position}
-                    onChange={(e) => handleInputChange("position", e.target.value)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
-                    placeholder="e.g. Marketing Manager"
-                  />
-                </div>
-              </div>
-              <div>
-                <label className="block text-sm font-bold text-gray-700 mb-2">
-                  Tell us about yourself <span className="text-red-500">*</span>
-                </label>
-                <textarea
-                  value={formData.message}
-                  onChange={(e) => handleInputChange("message", e.target.value)}
-                  rows={5}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
-                  placeholder="Share your experience, skills, and why you want to join Bengal Tourism..."
-                  required
-                />
-              </div>
-              <div className="text-center">
-                <button
-                  type="submit"
-                  className="bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 text-white px-12 py-4 rounded-xl font-bold text-lg shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center mx-auto"
-                >
-                  <Send className="w-5 h-5 mr-2" />
-                  Submit Application
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </section>
+     
 
       {/* ================= ENTREPRENEUR OPPORTUNITIES ================= */}
       <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
@@ -498,25 +360,7 @@ export default function CareerPage() {
         </div>
       </section>
 
-      {/* ================= CONTACT ================= */}
-      <section className="py-16 bg-gray-900">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-3xl font-black text-white mb-8">Have Questions?</h2>
-          <p className="text-gray-300 text-lg mb-8 max-w-3xl mx-auto">
-            Our HR team is here to help you with your career journey at Bengal Tourism
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="mailto:careers@bengaltourism.com" className="flex items-center justify-center px-6 py-3 bg-white text-gray-900 rounded-xl font-bold hover:bg-gray-100 transition">
-              <Mail className="w-5 h-5 mr-2" />
-              careers@bengaltourism.com
-            </a>
-            <a href="tel:+916289783779" className="flex items-center justify-center px-6 py-3 bg-gradient-to-r from-red-600 to-orange-600 text-white rounded-xl font-bold hover:from-red-700 hover:to-orange-700 transition">
-              <Phone className="w-5 h-5 mr-2" />
-              +91 98043 33779
-            </a>
-          </div>
-        </div>
-      </section>
+     
     </>
   );
 }

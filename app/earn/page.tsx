@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { TrendingUp, Users, IndianRupee, Target, Award, Briefcase, ChevronRight, Star } from "lucide-react";
+import CareerPage from "@/components/careers/careerspage";
 
 const earningMethods = [
   {
@@ -215,6 +216,65 @@ export default function EarnPage() {
                 </ul>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ================= VIDEO SECTION ================= */}
+      <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-black text-gray-900 mb-4">
+              Start Your
+              <span className="block bg-gradient-to-r from-red-600 via-orange-600 to-yellow-600 bg-clip-text text-transparent">
+                Earning Journey Today
+              </span>
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Join thousands who are already earning with Bengal Tourism. Watch how you can start your journey to financial freedom.
+            </p>
+          </div>
+
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl mb-12">
+            <div className="aspect-video">
+              <video
+                autoPlay
+                loop
+                playsInline
+                className="w-full h-full object-cover"
+              >
+                <source src="/earn.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent pointer-events-none"></div>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 text-center">
+            <div className="bg-white p-8 rounded-xl shadow-lg">
+              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <TrendingUp className="w-8 h-8 text-red-600" />
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Grow Your Income</h3>
+              <p className="text-gray-600">Multiple earning opportunities with flexible work options</p>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-lg">
+              <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Users className="w-8 h-8 text-orange-600" />
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Join Community</h3>
+              <p className="text-gray-600">Be part of growing network of tourism professionals</p>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-lg">
+              <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Award className="w-8 h-8 text-yellow-600" />
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Get Recognition</h3>
+              <p className="text-gray-600">Earn rewards and recognition for your performance</p>
+            </div>
           </div>
         </div>
       </section>
@@ -491,7 +551,7 @@ export default function EarnPage() {
           </div>
         </div>
       </section>
-
+ <CareerPage />
       {/* ================= CTA ================= */}
       <section className="py-20 bg-gradient-to-br from-red-600 to-orange-600">
         <div className="max-w-7xl mx-auto px-6 text-center">

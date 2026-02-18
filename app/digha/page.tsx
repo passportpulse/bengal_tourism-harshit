@@ -1,7 +1,7 @@
 "use client"
 
 import Image from 'next/image'
-import { Waves, MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Fish, Beer, TreePine, Ship } from 'lucide-react'
+import { Waves, MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Fish, Beer, TreePine, Ship, Train, Mountain, Link, Sunrise, Plane } from 'lucide-react'
 import PackagePricing from '@/components/PackagePricing'
 import ContactCTA from '@/components/ContactCTA'
 
@@ -10,54 +10,56 @@ export default function DighaPage() {
     <main className="text-gray-800">
 
       {/* ================= HERO SECTION ================= */}
-      <section className="relative h-screen overflow-hidden">
-        <div className="absolute inset-0">
-          <img
-            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1920&h=1080&fit=crop"
-            alt="Digha sea beach with golden sand and blue waters"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-blue-900/80 via-blue-800/60 to-blue-900/80"></div>
-        </div>
+      <section className="relative bg-gradient-to-br from-white to-blue-50 py-24 overflow-hidden">
+        {/* Decorative Image - Touching top and right */}
+        <img
+          src="/Decore.png"
+          alt="Decorative elements"
+          className="absolute top-0 right-0 w-auto h-full object-contain"
+        />
 
-        <div className="relative h-full flex items-center justify-center text-center text-white px-6">
-          <div className="max-w-4xl">
-            <div className="flex items-center justify-center gap-2 mb-4">
+        <div className="relative max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+
+          {/* ---------- LEFT CONTENT ---------- */}
+          <div>
+            <div className="flex items-center  gap-2 mb-4">
               <Waves className="w-6 h-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold tracking-wide">Golden Beaches of Bengal</span>
             </div>
-            
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              Digha & Sea Beaches
+
+            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight mb-6 relative">
+              Digha
               <span className="block text-3xl md:text-5xl mt-2 text-blue-300">
-                Mandarmoni • Tajpur • Shankarpur • Udaipur
+                What Brighton is to England – Digha is to Bengal
               </span>
             </h1>
 
-            <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
-              Experience the pristine golden sands, gentle waves, and coastal charm of West Bengal's 
-              most beloved beach destinations - perfect for romance, adventure, and relaxation
+            <p className="text-gray-600 text-lg mb-10 max-w-md">
+              Located at Bay of Bengal, home to pristine golden sands and gentle waves,
+              with the perfect blend of coastal charm and beach activities
             </p>
 
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-              <button className="bg-yellow-500 text-black px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:bg-yellow-400 transition transform hover:scale-105">
+            <div className="flex flex-wrap items-center gap-6">
+              <a href="/book-tour" className="bg-yellow-500 text-black px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:bg-yellow-400 transition transform hover:scale-105">
                 Book Your Beach Holiday
-              </button>
-              <button className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-blue-800 transition transform hover:scale-105">
-                Explore Beach Packages
+              </a>
+
+              <button className="border-2 border-yellow-600 text-yellow-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-600 hover:text-white transition transform hover:scale-105">
+                Explore Beaches
               </button>
             </div>
+          </div>
+
+          {/* ---------- RIGHT IMAGE ---------- */}
+          <div className="flex justify-center md:justify-end">
+            <img
+              src="/Digha.jpeg"
+              alt="Digha sea beach with golden sand and blue waters"
+              className="w-full max-w-md md:max-w-lg lg:max-w-xl rounded-2xl shadow-2xl"
+            />
           </div>
         </div>
 
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
-          <div className="flex flex-col items-center gap-2">
-            <span className="text-sm">Discover coastal paradise</span>
-            <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center">
-              <div className="w-1 h-3 bg-white rounded-full mt-2 animate-pulse"></div>
-            </div>
-          </div>
-        </div>
       </section>
 
       {/* ================= QUICK FACTS ================= */}
@@ -196,256 +198,343 @@ export default function DighaPage() {
       </div>
     </div>
 
-      {/* ================= TOUR PACKAGES ================= */}
+      {/* ================= HISTORICAL BACKGROUND ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Beach Tour Packages</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Rich Coastal Heritage</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Special tailor-made combination packages designed for your perfect coastal getaway
+              From Brighton of the East to Modern Beach Paradise - A journey through time
             </p>
           </div>
 
-          {/* Sea Beach Circuit - 4N/5D */}
-          <div className="mb-8">
-            <div className="bg-gradient-to-r from-blue-600 to-cyan-600 text-white p-6 rounded-t-2xl">
-              <div className="flex items-center justify-between">
-                <div>
-                  <h3 className="text-2xl font-bold mb-2">Sea Beach Circuit - Complete Coastal Experience</h3>
-                  <p className="text-blue-100">Digha • Mandarmoni • Tajpur • Shankarpur • Udaipur</p>
-                  <p className="text-blue-100">4 Nights / 5 Days</p>
-                </div>
-             
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-xl">
+                <h3 className="text-2xl font-bold mb-3 text-blue-600">The Brighton Era</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Once upon a time, Digha was called 'Brighton of the East'. There was a time when the hard & flat beach 
+                  at Digha stretched for miles & the salt wind soughed among the casuarinas. About 200 kms from Kolkata, 
+                  on the shores of Bay of Bengal.
+                </p>
+              </div>
+
+              <div className="bg-yellow-50 p-6 rounded-xl">
+                <h3 className="text-2xl font-bold mb-3 text-yellow-600">Coastal Development</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Miles & miles of secluded Sea & rolling Beach's, fringed by casuarinas & eucalyptus trees. 
+                  Lovers & Honeymooner's playground. Far away from the madding crowd. Virgin & uncluttered.
+                </p>
+              </div>
+
+              <div className="bg-green-50 p-6 rounded-xl">
+                <h3 className="text-2xl font-bold mb-3 text-green-600">Modern Transformation</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Over 200 yards of the water-front are now encased in concrete & stone, to prevent further erosion by the sea. 
+                  Lining the stone embankments are rows of food stalls & souvenir shops. Every second house in Digha is a hotel.
+                </p>
               </div>
             </div>
-            
-            <div className="bg-white border-2 border-blue-600 border-t-0 rounded-b-2xl p-8">
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div className="bg-blue-50 p-4 rounded-lg">
-                  <div className="flex items-center gap-2 mb-2">
-                    <Calendar className="w-4 h-4 text-blue-600" />
-                    <h4 className="font-bold">Day 1</h4>
-                  </div>
-                  <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• Depart from Kolkata (7-8 AM)</li>
-                    <li>• Breakfast at Kolaghat</li>
-                    <li>• Reach Digha (1-2 PM)</li>
-                    <li>• Hotel check-in & lunch</li>
-                    <li>• Evening local market visit</li>
-                    <li>• Breakfast & Dinner included</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-blue-50 p-4 rounded-lg">
-                  <div className="flex items-center gap-2 mb-2">
-                    <Calendar className="w-4 h-4 text-blue-600" />
-                    <h4 className="font-bold">Day 2</h4>
-                  </div>
-                  <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• Early morning sunrise experience</li>
-                    <li>• Old Digha/New Digha beach</li>
-                    <li>• Udaipur (Odisha border) option</li>
-                    <li>• Water sports & rides</li>
-                    <li>• Fresh coconut & beach beer</li>
-                    <li>• Breakfast & Dinner included</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-blue-50 p-4 rounded-lg">
-                  <div className="flex items-center gap-2 mb-2">
-                    <Calendar className="w-4 h-4 text-blue-600" />
-                    <h4 className="font-bold">Day 3</h4>
-                  </div>
-                  <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• Check-out (10-11 AM)</li>
-                    <li>• En-route Mohona visit</li>
-                    <li>• Mandarmoni check-in</li>
-                    <li>• Rolling beach exploration</li>
-                    <li>• Evening bonfire & BBQ</li>
-                    <li>• Breakfast & Dinner included</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-blue-50 p-4 rounded-lg">
-                  <div className="flex items-center gap-2 mb-2">
-                    <Calendar className="w-4 h-4 text-blue-600" />
-                    <h4 className="font-bold">Day 4</h4>
-                  </div>
-                  <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• Shankarpur & Tajpur day tour</li>
-                    <li>• Beach activities</li>
-                    <li>• Local seafood lunch</li>
-                    <li>• Spicy crab curry special</li>
-                    <li>• Country chicken fry</li>
-                    <li>• Breakfast & Dinner included</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-blue-50 p-4 rounded-lg">
-                  <div className="flex items-center gap-2 mb-2">
-                    <Calendar className="w-4 h-4 text-blue-600" />
-                    <h4 className="font-bold">Day 5</h4>
-                  </div>
-                  <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• Sunrise with morning tea</li>
-                    <li>• Beach stroll</li>
-                    <li>• Sea bath</li>
-                    <li>• Check-out (11 AM)</li>
-                    <li>• Return to Kolkata</li>
-                    <li>• Breakfast & Dinner included</li>
-                  </ul>
-                </div>
+
+            <div className="relative">
+              <img
+                src="/Digha.jpeg"
+                alt="Historic Digha beach with casuarina trees"
+                className="rounded-2xl shadow-2xl w-full"
+              />
+              <div className="absolute -bottom-6 -left-6 bg-blue-500 text-white p-4 rounded-xl font-bold">
+                Since 1923
               </div>
             </div>
           </div>
-\
         </div>
       </section>
 
-      {/* ================= BEACH DESTINATIONS ================= */}
-      <section className="py-20 bg-gradient-to-br from-blue-50 to-cyan-50">
+ <section className="py-24 bg-gradient-to-b from-gray-50 to-white">
+      <div className="max-w-7xl mx-auto px-6">
+
+        {/* Header */}
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            5 Days Digha – Beach Circuit Tour Itinerary
+          </h2>
+          <p className="text-gray-600 max-w-2xl mx-auto">
+            Detailed sightseeing plan covering Digha, Mandarmoni,
+            Tajpur, Shankarpur & Udaipur.
+          </p>
+        </div>
+
+<div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
+
+  {/* Day 1 */}
+  <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-blue-500 
+  hover:shadow-xl transition h-full flex flex-col">
+    <h3 className="text-2xl font-bold text-blue-600 mb-4 flex items-center gap-2">
+      <MapPin className="w-6 h-6" />
+      Day 1 – Arrival & Digha Transfer
+    </h3>
+    <p className="text-gray-700 leading-relaxed flex-grow">
+      Depart from Kolkata (7-8 AM). Breakfast at Kolaghat.
+      Reach Digha (1-2 PM). Hotel check-in & lunch.
+      Evening local market visit. Dinner & Overnight stay at Digha.
+    </p>
+  </div>
+ <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-purple-500 
+  hover:shadow-xl transition h-full flex flex-col">
+    <h3 className="text-2xl font-bold text-purple-600 mb-4 flex items-center gap-2">
+      <Ship className="w-6 h-6" />
+      Day 4 – Mandarmoni Beach Day
+    </h3>
+    <p className="text-gray-700 leading-relaxed flex-grow">
+      Check-out (10-11 AM). En-route Mohona visit.
+      Mandarmoni check-in. Rolling beach exploration.
+      Evening bonfire & BBQ. Dinner & Overnight at Mandarmoni.
+    </p>
+  </div>
+  {/* Day 2 */}
+  <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-yellow-500 
+  hover:shadow-xl transition h-full flex flex-col">
+    <h3 className="text-2xl font-bold text-yellow-600 mb-4 flex items-center gap-2">
+      <Sunrise className="w-6 h-6" />
+      Day 2 – Beach Exploration
+    </h3>
+    <p className="text-gray-700 leading-relaxed flex-grow">
+      Early morning sunrise experience. Old Digha/New Digha beach.
+      Udaipur (Odisha border) option. Water sports & rides.
+      Fresh coconut & beach beer. Dinner & Overnight at Digha.
+    </p>
+  </div>
+ {/* Day 5 */}
+  <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-red-500 
+  hover:shadow-xl transition h-full flex flex-col">
+    <h3 className="text-2xl font-bold text-red-600 mb-4 flex items-center gap-2">
+      <Plane className="w-6 h-6" />
+      Day 5 – Departure
+    </h3>
+    <p className="text-gray-700 leading-relaxed flex-grow">
+      Sunrise with morning tea. Beach stroll. Sea bath.
+      Check-out (11 AM). Return to Kolkata.
+      Tour ends with beautiful beach memories.
+    </p>
+  </div>
+  {/* Day 3 */}
+  <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-green-500 
+  hover:shadow-xl transition h-full flex flex-col">
+    <h3 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
+      <Waves className="w-6 h-6" />
+      Day 3 – Shankarpur & Tajpur
+    </h3>
+    <p className="text-gray-700 leading-relaxed flex-grow">
+      Full day tour covering Shankarpur & Tajpur.
+      Beach activities. Local seafood lunch.
+      Spicy crab curry special. Country chicken fry.
+      Dinner & Overnight at Digha.
+    </p>
+  </div>
+
+
+
+</div>
+
+
+      </div>
+    </section>
+
+      {/* ================= PLACES OF INTEREST ================= */}
+      <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Beach Destinations</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Places of Interest</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Explore the diverse coastal beauties of West Bengal
+              Discover the coastal jewels of Digha - from pristine beaches to marine attractions
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Major Beaches */}
+            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition">
+              <div className="h-48 bg-gradient-to-br from-blue-400 to-cyan-500 flex items-center justify-center">
+                <Waves className="w-16 h-16 text-white" />
+              </div>
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-4">Beach Attractions</h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li className="flex items-center gap-2">
+                    <MapPin className="w-4 h-4 text-blue-500" />
+                    Old Digha Beach - Traditional charm
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <MapPin className="w-4 h-4 text-blue-500" />
+                    New Digha Beach - Modern facilities
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <MapPin className="w-4 h-4 text-blue-500" />
+                    Mohona - Sea confluence point
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Marine Attractions */}
+            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition">
+              <div className="h-48 bg-gradient-to-br from-green-400 to-blue-500 flex items-center justify-center">
+                <Fish className="w-16 h-16 text-white" />
+              </div>
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-4">Marine Attractions</h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li className="flex items-center gap-2">
+                    <MapPin className="w-4 h-4 text-blue-500" />
+                    Marine Aquarium - Rich marine life
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <MapPin className="w-4 h-4 text-blue-500" />
+                    Science Centre - Educational fun
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <MapPin className="w-4 h-4 text-blue-500" />
+                    Amarabati Park - Recreational hub
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Adventure Activities */}
+            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition">
+              <div className="h-48 bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center">
+                <Ship className="w-16 h-16 text-white" />
+              </div>
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-4">Water Sports</h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li className="flex items-center gap-2">
+                    <MapPin className="w-4 h-4 text-blue-500" />
+                    Speed Boat Rides - Thrilling adventure
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <MapPin className="w-4 h-4 text-blue-500" />
+                    Parasailing - Bird's eye view
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <MapPin className="w-4 h-4 text-blue-500" />
+                    Jet Ski - High-speed fun
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Extended Attractions Grid */}
+          <div className="mt-12 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+            {[
+              "Mandarmoni Beach", "Tajpur Beach", "Shankarpur Beach", "Udaipur Beach",
+              "Casuarina Trees", "Gadiara (3 Rivers)", "Chandaneswar Temple", "Digha Gate",
+              "Local Markets", "Seafood Stalls", "Coconut Vendors", "Beach Shacks"
+            ].map((place, index) => (
+              <div key={index} className="bg-white p-4 rounded-lg text-center hover:bg-blue-50 transition cursor-pointer">
+                <MapPin className="w-6 h-6 text-blue-500 mx-auto mb-2" />
+                <p className="text-sm font-medium">{place}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ================= NEARBY DESTINATIONS ================= */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Nearby Destinations</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Extend your journey to these enchanting coastal destinations around Digha
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center">
-                <Waves className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Digha</h3>
-                <p className="text-gray-700 mb-4">Most popular beach destination with old and new beach areas, perfect for families</p>
-                <div className="flex items-center gap-2 text-blue-600">
-                  <MapPin className="w-4 h-4" />
-                  <span className="text-sm">East Midnapore</span>
+            <a href="/mandarmoni">
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
+                <img
+                  src="/Mandarmoni.jpeg"
+                  alt="Mandarmoni Beach"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                <div className="absolute bottom-0 p-6 text-white">
+                  <h3 className="text-2xl font-bold mb-2">Mandarmoni</h3>
+                  <p className="text-gray-200">13km Motorable Beach</p>
                 </div>
               </div>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-pink-400 to-purple-500 flex items-center justify-center">
-                <Sun className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Mandarmoni</h3>
-                <p className="text-gray-700 mb-4">Romantic beach with rolling waves and pristine golden sands</p>
-                <div className="flex items-center gap-2 text-pink-600">
-                  <MapPin className="w-4 h-4" />
-                  <span className="text-sm">East Midnapore</span>
+            </a>
+            <a href="/tajpur">
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
+                <img
+                  src="/Tajpur.jpeg"
+                  alt="Tajpur Beach"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                <div className="absolute bottom-0 p-6 text-white">
+                  <h3 className="text-2xl font-bold mb-2">Tajpur</h3>
+                  <p className="text-gray-200">Serene Secluded Beach</p>
                 </div>
               </div>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-green-400 to-teal-500 flex items-center justify-center">
-                <Camera className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Tajpur</h3>
-                <p className="text-gray-700 mb-4">Serene and secluded beach perfect for solitude seekers</p>
-                <div className="flex items-center gap-2 text-green-600">
-                  <MapPin className="w-4 h-4" />
-                  <span className="text-sm">East Midnapore</span>
+            </a>
+            <a href="/shankarpur">
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
+                <img
+                  src="/Shankarpur.jpeg"
+                  alt="Shankarpur Beach"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                <div className="absolute bottom-0 p-6 text-white">
+                  <h3 className="text-2xl font-bold mb-2">Shankarpur</h3>
+                  <p className="text-gray-200">Quiet Beach Paradise</p>
                 </div>
               </div>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center">
-                <Fish className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Shankarpur</h3>
-                <p className="text-gray-700 mb-4">Quiet beach destination with excellent seafood options</p>
-                <div className="flex items-center gap-2 text-orange-600">
-                  <MapPin className="w-4 h-4" />
-                  <span className="text-sm">East Midnapore</span>
+            </a>
+            <a href="/udaipur">
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
+                <img
+                  src="/Udaipur.jpeg"
+                  alt="Udaipur Beach"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                <div className="absolute bottom-0 p-6 text-white">
+                  <h3 className="text-2xl font-bold mb-2">Udaipur</h3>
+                  <p className="text-gray-200">Odisha Border Beach</p>
                 </div>
               </div>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-purple-400 to-indigo-500 flex items-center justify-center">
-                <TreePine className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Udaipur</h3>
-                <p className="text-gray-700 mb-4">Beach at Odisha border with unique cultural blend</p>
-                <div className="flex items-center gap-2 text-purple-600">
-                  <MapPin className="w-4 h-4" />
-                  <span className="text-sm">Odisha Border</span>
+            </a>
+            <a href="/gadiara">
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
+                <img
+                  src="/Gadiara.jpeg"
+                  alt="Gadiara"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                <div className="absolute bottom-0 p-6 text-white">
+                  <h3 className="text-2xl font-bold mb-2">Gadiara</h3>
+                  <p className="text-gray-200">Three Rivers Confluence</p>
                 </div>
               </div>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-teal-400 to-blue-500 flex items-center justify-center">
-                <Home className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Monchasha Eco Village</h3>
-                <p className="text-gray-700 mb-4">Sustainable tourism with local village experience</p>
-                <div className="flex items-center gap-2 text-teal-600">
-                  <MapPin className="w-4 h-4" />
-                  <span className="text-sm">Contai</span>
+            </a>
+            <a href="/monchasha">
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
+                <img
+                  src="/Monchasha.jpeg"
+                  alt="Monchasha Eco Village"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                <div className="absolute bottom-0 p-6 text-white">
+                  <h3 className="text-2xl font-bold mb-2">Monchasha</h3>
+                  <p className="text-gray-200">Eco Village Experience</p>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ================= WATER SPORTS & ACTIVITIES ================= */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Water Sports & Activities</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Thrilling adventures and relaxing beach activities for everyone
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-6 text-center hover:shadow-xl transition">
-              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Ship className="w-8 h-8 text-blue-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Speed Boat Rides</h3>
-              <p className="text-gray-600 text-sm mb-3">Thrilling ocean adventures</p>
-              <p className="text-blue-600 font-semibold">All Beaches</p>
-            </div>
-
-            <div className="bg-gradient-to-br from-green-50 to-teal-50 rounded-2xl p-6 text-center hover:shadow-xl transition">
-              <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Fish className="w-8 h-8 text-green-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Parasailing</h3>
-              <p className="text-gray-600 text-sm mb-3">Bird's eye ocean view</p>
-              <p className="text-green-600 font-semibold">Mandarmoni</p>
-            </div>
-
-            <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-2xl p-6 text-center hover:shadow-xl transition">
-              <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Waves className="w-8 h-8 text-orange-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Jet Ski</h3>
-              <p className="text-gray-600 text-sm mb-3">High-speed water fun</p>
-              <p className="text-orange-600 font-semibold">Digha New Beach</p>
-            </div>
-
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 text-center hover:shadow-xl transition">
-              <div className="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Camera className="w-8 h-8 text-purple-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Beach Photography</h3>
-              <p className="text-gray-600 text-sm mb-3">Capture golden moments</p>
-              <p className="text-purple-600 font-semibold">Sunrise/Sunset</p>
-            </div>
+            </a>
           </div>
         </div>
       </section>
@@ -454,83 +543,77 @@ export default function DighaPage() {
       <section className="py-20 bg-gradient-to-br from-yellow-50 to-orange-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Beach Cuisine</h2>
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <Utensils className="w-8 h-8 text-orange-500" />
+              <h2 className="text-4xl md:text-5xl font-bold">Must Try Beach Cuisine</h2>
+            </div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Savor the flavors of the sea with fresh coastal delicacies
+              Authentic coastal delicacies influenced by Bengal's beach region cultures
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { name: "Spicy Crab Curry", icon: "🦀", desc: "Fresh local crabs in spicy gravy", price: "Must try" },
-              { name: "Country Chicken Fry", icon: "🍗", desc: "Traditional Bengali preparation", price: "Popular" },
-              { name: "Fresh Fish Fry", icon: "🐟", desc: "Daily catch from the sea", price: "Specialty" },
-              { name: "Prawn Malai Curry", icon: "🦐", desc: "Creamy prawn delicacy", price: "Delicious" },
-              { name: "Coconut Water", icon: "🥥", desc: "Fresh tender coconuts", price: "Refreshing" },
-              { name: "Beach BBQ", icon: "🍖", desc: "Evening bonfire grills", price: "Romantic" },
-              { name: "Seafood Platter", icon: "🦞", desc: "Mixed seafood delights", price: "Recommended" },
-              { name: "Local Beer", icon: "🍺", desc: "Chilled by the beach", price: "Perfect" }
+              { name: "Spicy Crab Curry", desc: "Fresh local crabs in spicy coastal gravy", icon: "🦀" },
+              { name: "Prawn Malai Curry", desc: "Creamy prawn delicacy with coconut milk", icon: "🦐" },
+              { name: "Fresh Fish Fry", desc: "Daily catch from the Bay of Bengal", icon: "🐟" },
+              { name: "Country Chicken Fry", desc: "Traditional Bengali preparation", icon: "🍗" },
+              { name: "Coconut Water", desc: "Fresh tender coconuts from beach vendors", icon: "🥥" },
+              { name: "Beach BBQ", desc: "Evening bonfire grills with seafood", icon: "🍖" },
+              { name: "Local Beer", desc: "Chilled beverages by the beach", icon: "🍺" },
+              { name: "Seafood Platter", desc: "Mixed coastal delights assortment", icon: "🦞" }
             ].map((item, index) => (
               <div key={index} className="bg-white rounded-xl p-6 text-center hover:shadow-xl transition group">
-                <div className="text-4xl mb-3 group-hover:scale-110 transition">{item.icon}</div>
-                <h4 className="font-bold text-lg mb-1">{item.name}</h4>
-                <p className="text-gray-600 text-sm mb-2">{item.desc}</p>
-                <p className="text-orange-600 font-semibold">{item.price}</p>
+                <div className="text-4xl mb-4 group-hover:scale-110 transition">{item.icon}</div>
+                <h3 className="text-xl font-bold mb-2">{item.name}</h3>
+                <p className="text-gray-600 text-sm">{item.desc}</p>
               </div>
             ))}
+          </div>
+
+          <div className="mt-12 bg-white rounded-2xl p-8 shadow-xl">
+            <h3 className="text-2xl font-bold mb-4 text-center">Cultural Influences</h3>
+            <div className="flex flex-wrap justify-center gap-4">
+              {["Bengali", "Odia", "Coastal", "Seafood", "Beach", "Traditional", "Local"].map((culture, index) => (
+                <span key={index} className="bg-orange-100 text-orange-700 px-4 py-2 rounded-full font-medium">
+                  {culture}
+                </span>
+              ))}
+            </div>
           </div>
         </div>
       </section>
 
-      {/* ================= OFFBEAT DESTINATIONS ================= */}
+      {/* ================= ACTIVITIES ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Offbeat Destinations</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Beach Adventures & Activities</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Discover hidden gems away from the crowds
+              From thrilling water sports to peaceful beach experiences - Digha offers it all
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-gradient-to-br from-green-50 to-blue-50 rounded-2xl p-8">
-              <div className="flex items-center gap-3 mb-4">
-                <TreePine className="w-8 h-8 text-green-600" />
-                <h3 className="text-2xl font-bold">Baguran Jalpai</h3>
-              </div>
-              <p className="text-gray-700 mb-4">
-                Pristine beach destination with Bankiput exploration. Perfect for those seeking solitude and untouched natural beauty. 
-                Experience authentic coastal village life with sustainable tourism practices.
-              </p>
-              <div className="bg-white p-4 rounded-lg">
-                <h4 className="font-bold mb-2">Package Highlights</h4>
-                <ul className="space-y-1 text-sm text-gray-600">
-                  <li>• Beach camping options</li>
-                  <li>• Local village tours</li>
-                  <li>• Traditional fishing experiences</li>
-                  <li>• Eco-friendly stays</li>
-                </ul>
-              </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 hover:shadow-xl transition">
+              <Ship className="w-12 h-12 text-blue-600 mb-4" />
+              <h3 className="text-2xl font-bold mb-3">Water Sports</h3>
+              <p className="text-gray-700 mb-4">Speed Boats • Jet Ski • Parasailing • Banana Boat</p>
+              <button className="text-blue-600 font-semibold hover:text-blue-700">Explore Water Sports →</button>
             </div>
 
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8">
-              <div className="flex items-center gap-3 mb-4">
-                <Home className="w-8 h-8 text-blue-600" />
-                <h3 className="text-2xl font-bold">Monchasha Eco Village</h3>
-              </div>
-              <p className="text-gray-700 mb-4">
-                Sustainable tourism destination promoting self-sufficient village life. Experience Bengali culture, 
-                folk programs, and eco-friendly practices in harmony with nature.
-              </p>
-              <div className="bg-white p-4 rounded-lg">
-                <h4 className="font-bold mb-2">Eco Experience</h4>
-                <ul className="space-y-1 text-sm text-gray-600">
-                  <li>• Traditional Bengali meals</li>
-                  <li>• Village exploration</li>
-                  <li>• Cultural folk programs</li>
-                  <li>• Sustainable practices</li>
-                </ul>
-              </div>
+            <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-2xl p-8 hover:shadow-xl transition">
+              <Camera className="w-12 h-12 text-orange-600 mb-4" />
+              <h3 className="text-2xl font-bold mb-3">Beach Photography</h3>
+              <p className="text-gray-700 mb-4">Sunrise • Sunset • Marine Life • Beach Portraits</p>
+              <button className="text-orange-600 font-semibold hover:text-orange-700">Photo Tours →</button>
+            </div>
+
+            <div className="bg-gradient-to-br from-green-50 to-teal-50 rounded-2xl p-8 hover:shadow-xl transition">
+              <Fish className="w-12 h-12 text-green-600 mb-4" />
+              <h3 className="text-2xl font-bold mb-3">Seafood Tours</h3>
+              <p className="text-gray-700 mb-4">Fresh Catch • Local Markets • Cooking Classes</p>
+              <button className="text-green-600 font-semibold hover:text-green-700">Food Tours →</button>
             </div>
           </div>
         </div>

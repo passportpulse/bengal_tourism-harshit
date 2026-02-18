@@ -130,7 +130,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             lineNumber: 60,
                                                             columnNumber: 60
                                                         }, this),
-                                                        " Pick & Drop"
+                                                        " PickU & Drop"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",

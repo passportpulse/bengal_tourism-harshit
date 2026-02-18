@@ -373,9 +373,9 @@ const payments = [
       <>
         <p><b>Beneficiary:</b></p>
         <p className="text-pink-700 font-semibold">Bengal Tourism</p>
-        <p>State Bank of India</p>
-        <p>A/C No. <b>33530363411</b></p>
-        <p>IFSC: <b>SBIN0014534</b></p>
+        <p><b> UPI:</b> 9804333779@upi</p>
+        <p><b>Phone:</b> 9804333779</p>
+        <p><b>Email:</b> hotel.bengaltourism@gmail.com</p>
       </>
     ),
   },
@@ -384,8 +384,9 @@ const payments = [
     img: "/payments/bhim.jpg",
     details: (
       <>
-        <p><b>UPI:</b> bengaltourism@upi</p>
-        <p><b>Mobile UPI:</b> 6289783779@upi</p>
+        <p><b> UPI:</b> 9804333779@okaxis</p>
+        <p><b>Phone:</b> 9804333779</p>
+        <p><b>Email:</b> hotel.bengaltourism@gmail.com</p>
       </>
     ),
   },
@@ -394,8 +395,9 @@ const payments = [
     img: "/payments/phonepe.jpg",
     details: (
       <>
-        <p><b>UPI:</b> bengaltourism@ybl</p>
-        <p><b>Phone:</b> 6289783779</p>
+        <p><b>UPI:</b> 9804333779@ybl</p>
+        <p><b>Phone:</b> 9804333779</p>
+        <p><b>Email:</b> hotel.bengaltourism@gmail.com</p>
       </>
     ),
   },
@@ -404,8 +406,9 @@ const payments = [
     img: "/payments/axispay.png",
     details: (
       <>
-        <p><b>UPI:</b> bengaltourism@axl</p>
-        <p><b>Phone:</b> 6289783779</p>
+        <p><b>UPI:</b> 9804333779@axisbank</p>
+        <p><b>Phone:</b> 9804333779</p>
+        <p><b>Email:</b> hotel.bengaltourism@gmail.com</p>
       </>
     ),
   },
@@ -414,8 +417,9 @@ const payments = [
     img: "/payments/gpay.png",
     details: (
       <>
-        <p><b>UPI:</b> bengaltourism@okaxis</p>
-        <p><b>Phone:</b> 6289783779</p>
+        <p><b>UPI:</b> 9804333779@okaxis</p>
+        <p><b>Phone:</b> 9804333779</p>
+        <p><b>Email:</b> hotel.bengaltourism@gmail.com</p>
       </>
     ),
   },
@@ -424,8 +428,8 @@ const payments = [
     img: "/payments/paypal.png",
     details: (
       <>
-        <p><b>Email:</b> bengaltourism@gmail.com</p>
-        <p><b>Mobile:</b> 6289783779</p>
+        <p><b>Email:</b> hotel.bengaltourism@gmail.com</p>
+        <p><b>Mobile:</b> 9804333779</p>
       </>
     ),
   },
@@ -587,7 +591,7 @@ export default function HotelBookingPage() {
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 py-8 px-4">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <div className="bg-white rounded-xl shadow-lg p-6 md:p-10">
           <form onSubmit={handleSubmit} className="space-y-8">
             <h1 className="text-3xl font-bold text-center text-gray-900 mb-8">
@@ -1007,7 +1011,7 @@ export default function HotelBookingPage() {
                   className="mt-1 w-4 h-4 text-red-600 focus:ring-red-500 rounded"
                 />
                 <span className="text-sm text-gray-700 leading-relaxed">
-                  I accept: Submission without successful payment is not valid. Please remember to save of acknowledgement after you hit Submit Button (&/or) payment confirmation from Bank. In case of manual submission of Booking Form via e-mail, we will send the confirmation of receipt & booking details via e-mail after we acknowledge receipt of valid payment at our Bank. I also agree to accept any similar hotel rooms provided by you and be liable to pay for any extra cost as per your special instructions, extra provision required, extra person/bed (1 child under 4 yrs free & other person above 4 Yrs chargeable) to be provided (&) Service Charges/GST will be calculated & paid later on acceptance & as per final invoice/bill.
+                  I accept: Submission without successful payment is not valid. Please remember to save of acknowledgement after you hit Submit Button (&/or) payment confirmation from Bank. In case of manual submission of Booking Form via e-mail, we will send the confirmation of receipt & booking details via E-mail / WhatsApp after we acknowledge receipt of valid payment at our Bank. I also agree to accept any similar hotel rooms provided by you and be liable to pay for any extra cost as per your special instructions, extra provision required, extra person/bed (1 child under 4 yrs free & other person above 4 Yrs chargeable) to be provided (&) Service Charges/GST will be calculated & paid later on acceptance & as per final invoice/bill.
                 </span>
               </label>
             </div>
