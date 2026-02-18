@@ -1000,7 +1000,7 @@ const shaktiPeeths = [
         bodyPart: "Right shoulder",
         description: "Sacred Shakti Peeth with divine energy",
         significance: "Known for spiritual bliss",
-        image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+        image: "/img/Ratnavali.jpeg"
     },
     {
         name: "Bargabhima or Bhim Kali",
@@ -1008,7 +1008,7 @@ const shaktiPeeths = [
         bodyPart: "Left ankle",
         description: "Ancient Shakti Peeth with historical significance",
         significance: "Connected to Mahabharata era",
-        image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+        image: "/img/Bargabhima.jpeg"
     },
     {
         name: "Kiriteshwari",
@@ -1016,7 +1016,7 @@ const shaktiPeeths = [
         bodyPart: "Crown",
         description: "Sacred Shakti Peeth in historic Murshidabad",
         significance: "Royal patronage and heritage",
-        image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+        image: "/img/Kiriteshwari.jpeg"
     },
     {
         name: "Trisrota",
@@ -1024,7 +1024,7 @@ const shaktiPeeths = [
         bodyPart: "Left leg",
         description: "Sacred Shakti Peeth in North Bengal",
         significance: "Natural beauty and spirituality",
-        image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+        image: "/img/Trisrota.jpeg"
     }
 ];
 const otherReligiousDestinations = [
