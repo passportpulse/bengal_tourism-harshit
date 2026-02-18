@@ -214,7 +214,12 @@ export default function IndiaPackagesPage() {
                             From Himalayas to beaches, discover the best of India with our curated tour packages
                         </p>
                     </div>
-                    
+                      {(() => {
+      const remainder = indiaPackages.length % 3;
+      const comingSoonCount =
+        remainder === 0 ? 0 : 3 - remainder;
+
+      return (   
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {indiaPackages.map((item, i) => (
                             <div
@@ -294,12 +299,12 @@ export default function IndiaPackagesPage() {
 
                                     {/* Action Buttons */}
                                     <div className="flex gap-2">
-                                        <Link
+                                        {/* <Link
                                             href="/book-tour"
                                             className="flex-1 flex items-center justify-center gap-2 bg-red-600 text-white py-3 rounded-xl text-sm font-semibold hover:bg-red-700 transition-colors"
                                         >
                                             Book Now
-                                        </Link>
+                                        </Link> */}
                                         <Link href={item.route} className="flex items-center justify-center gap-2 border border-red-600 text-red-600 px-4 py-3 rounded-xl text-sm font-semibold hover:bg-red-50 transition-colors">
                                             View Details
                                         </Link>
@@ -307,7 +312,29 @@ export default function IndiaPackagesPage() {
                                 </div>
                             </div>
                         ))}
-                    </div>
+                                {/* Coming Soon Cards (Desktop Only) */}
+          {Array.from({ length: comingSoonCount }).map((_, index) => (
+            <div
+              key={`coming-soon-${index}`}
+              className="hidden lg:flex bg-gray-100 border-2 border-dashed border-gray-300 rounded-xl items-center justify-center p-10 text-center"
+            >
+              <div>
+                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-red-100 flex items-center justify-center">
+                  <Clock className="w-8 h-8 text-red-500" />
+                </div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">
+                  Coming Soon
+                </h3>
+                <p className="text-sm text-gray-500">
+                  New exclusive service launching shortly
+                </p>
+              </div>
+            </div>
+          ))}
+
+        </div>
+      );
+    })()}
                 </div>
             </section>
         </main>

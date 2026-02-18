@@ -62,7 +62,6 @@ export default function HotelBookingSection({ className = "" }: { className?: st
 
                 <div className="absolute bottom-0 p-5 text-white">
                   <h4 className="text-xl font-bold">{destination.name}</h4>
-                  <p className="text-sm opacity-90">{destination.price}</p>
                 </div>
               </Link>
             ))}

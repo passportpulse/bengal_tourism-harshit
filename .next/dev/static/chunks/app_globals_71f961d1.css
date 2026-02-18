@@ -1841,6 +1841,11 @@
     border-left-width: 4px;
   }
 
+  .border-dashed {
+    --tw-border-style: dashed;
+    border-style: dashed;
+  }
+
   .border-\[\#EA3323\] {
     border-color: #ea3323;
   }

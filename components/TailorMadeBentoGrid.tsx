@@ -147,7 +147,7 @@ export default function TailorMadeBentoGrid() {
                 {experiences[0].title}
               </h3>
               <button className="bg-white text-gray-900 px-4 md:px-6 py-2 md:py-3 rounded-xl font-semibold hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg">
-                Explore Experience
+               View Details
               </button>
             </div>
           </Link>
@@ -209,7 +209,7 @@ export default function TailorMadeBentoGrid() {
                 {experiences[2].title}
               </h3>
               <button className="text-xs md:text-sm font-semibold underline underline-offset-4 hover:underline-offset-2 transition-all">
-                Explore →
+               View Details
               </button>
             </div>
           </Link>
@@ -240,7 +240,7 @@ export default function TailorMadeBentoGrid() {
                 {experiences[3].title}
               </h3>
               <button className="text-xs md:text-sm font-semibold underline underline-offset-4 hover:underline-offset-2 transition-all">
-                Explore →
+                View Details
               </button>
             </div>
           </Link>
@@ -274,7 +274,7 @@ export default function TailorMadeBentoGrid() {
                   {experiences[4].title}
                 </h3>
                 <button className="text-xs font-semibold underline underline-offset-2 transition-all">
-                  Explore →
+               View Details
                 </button>
               </div>
             </Link>
@@ -305,7 +305,7 @@ export default function TailorMadeBentoGrid() {
                   {experiences[5].title}
                 </h3>
                 <button className="text-xs font-semibold underline underline-offset-2 transition-all">
-                  Explore →
+                 View Details
                 </button>
               </div>
             </Link>
@@ -336,7 +336,7 @@ export default function TailorMadeBentoGrid() {
                   {experiences[6].title}
                 </h3>
                 <button className="text-xs font-semibold underline underline-offset-2 transition-all">
-                  Explore →
+              View Details
                 </button>
               </div>
             </Link>
@@ -367,7 +367,7 @@ export default function TailorMadeBentoGrid() {
                   {experiences[7].title}
                 </h3>
                 <button className="text-xs font-semibold underline underline-offset-2 transition-all">
-                  Explore →
+            View Details
                 </button>
               </div>
             </Link>
@@ -398,7 +398,7 @@ export default function TailorMadeBentoGrid() {
                   {experiences[8].title}
                 </h3>
                 <button className="text-xs font-semibold underline underline-offset-2 transition-all">
-                  Explore →
+              View Details
                 </button>
               </div>
             </Link>
@@ -429,7 +429,7 @@ export default function TailorMadeBentoGrid() {
                   {experiences[9].title}
                 </h3>
                 <button className="text-xs font-semibold underline underline-offset-2 transition-all">
-                  Explore →
+                   View Details
                 </button>
               </div>
             </Link>
@@ -460,7 +460,7 @@ export default function TailorMadeBentoGrid() {
                   {experiences[10].title}
                 </h3>
                 <button className="text-xs font-semibold underline underline-offset-2 transition-all">
-                  Explore →
+                  View Details
                 </button>
               </div>
             </Link>
@@ -491,7 +491,7 @@ export default function TailorMadeBentoGrid() {
                   {experiences[11].title}
                 </h3>
                 <button className="text-xs font-semibold underline underline-offset-2 transition-all">
-                  Explore →
+                  View Details
                 </button>
               </div>
             </Link>

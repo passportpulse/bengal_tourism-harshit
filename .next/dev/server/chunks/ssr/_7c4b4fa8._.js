@@ -1357,7 +1357,7 @@ function TailorMadeBentoGrid() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                             className: "bg-white text-gray-900 px-4 md:px-6 py-2 md:py-3 rounded-xl font-semibold hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg",
-                                            children: "Explore Experience"
+                                            children: "View Details"
                                         }, void 0, false, {
                                             fileName: "[project]/components/TailorMadeBentoGrid.tsx",
                                             lineNumber: 149,
@@ -1523,7 +1523,7 @@ function TailorMadeBentoGrid() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                             className: "text-xs md:text-sm font-semibold underline underline-offset-4 hover:underline-offset-2 transition-all",
-                                            children: "Explore →"
+                                            children: "View Details"
                                         }, void 0, false, {
                                             fileName: "[project]/components/TailorMadeBentoGrid.tsx",
                                             lineNumber: 211,
@@ -1606,7 +1606,7 @@ function TailorMadeBentoGrid() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                             className: "text-xs md:text-sm font-semibold underline underline-offset-4 hover:underline-offset-2 transition-all",
-                                            children: "Explore →"
+                                            children: "View Details"
                                         }, void 0, false, {
                                             fileName: "[project]/components/TailorMadeBentoGrid.tsx",
                                             lineNumber: 242,
@@ -1692,7 +1692,7 @@ function TailorMadeBentoGrid() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     className: "text-xs font-semibold underline underline-offset-2 transition-all",
-                                                    children: "Explore →"
+                                                    children: "View Details"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/TailorMadeBentoGrid.tsx",
                                                     lineNumber: 276,
@@ -1775,7 +1775,7 @@ function TailorMadeBentoGrid() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     className: "text-xs font-semibold underline underline-offset-2 transition-all",
-                                                    children: "Explore →"
+                                                    children: "View Details"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/TailorMadeBentoGrid.tsx",
                                                     lineNumber: 307,
@@ -1858,7 +1858,7 @@ function TailorMadeBentoGrid() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     className: "text-xs font-semibold underline underline-offset-2 transition-all",
-                                                    children: "Explore →"
+                                                    children: "View Details"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/TailorMadeBentoGrid.tsx",
                                                     lineNumber: 338,
@@ -1941,7 +1941,7 @@ function TailorMadeBentoGrid() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     className: "text-xs font-semibold underline underline-offset-2 transition-all",
-                                                    children: "Explore →"
+                                                    children: "View Details"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/TailorMadeBentoGrid.tsx",
                                                     lineNumber: 369,
@@ -2024,7 +2024,7 @@ function TailorMadeBentoGrid() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     className: "text-xs font-semibold underline underline-offset-2 transition-all",
-                                                    children: "Explore →"
+                                                    children: "View Details"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/TailorMadeBentoGrid.tsx",
                                                     lineNumber: 400,
@@ -2107,7 +2107,7 @@ function TailorMadeBentoGrid() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     className: "text-xs font-semibold underline underline-offset-2 transition-all",
-                                                    children: "Explore →"
+                                                    children: "View Details"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/TailorMadeBentoGrid.tsx",
                                                     lineNumber: 431,
@@ -2190,7 +2190,7 @@ function TailorMadeBentoGrid() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     className: "text-xs font-semibold underline underline-offset-2 transition-all",
-                                                    children: "Explore →"
+                                                    children: "View Details"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/TailorMadeBentoGrid.tsx",
                                                     lineNumber: 462,
@@ -2273,7 +2273,7 @@ function TailorMadeBentoGrid() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     className: "text-xs font-semibold underline underline-offset-2 transition-all",
-                                                    children: "Explore →"
+                                                    children: "View Details"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/TailorMadeBentoGrid.tsx",
                                                     lineNumber: 493,
@@ -3880,25 +3880,15 @@ function HotelBookingSection({ className = "" }) {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute bottom-0 p-5 text-white",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                className: "text-xl font-bold",
-                                                children: destination.name
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/HotelBookingSection.tsx",
-                                                lineNumber: 64,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-sm opacity-90",
-                                                children: destination.price
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/HotelBookingSection.tsx",
-                                                lineNumber: 65,
-                                                columnNumber: 19
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                            className: "text-xl font-bold",
+                                            children: destination.name
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/HotelBookingSection.tsx",
+                                            lineNumber: 64,
+                                            columnNumber: 19
+                                        }, this)
+                                    }, void 0, false, {
                                         fileName: "[project]/components/HotelBookingSection.tsx",
                                         lineNumber: 63,
                                         columnNumber: 17

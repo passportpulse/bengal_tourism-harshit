@@ -8,6 +8,7 @@
   "/book-hotel/page": "app/book-hotel/page.js",
   "/camping-adventure/page": "app/camping-adventure/page.js",
   "/digha/page": "app/digha/page.js",
+  "/dooars/page": "app/dooars/page.js",
   "/dubai/page": "app/dubai/page.js",
   "/event-management/page": "app/event-management/page.js",
   "/film-shooting/page": "app/film-shooting/page.js",
