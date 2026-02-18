@@ -77,24 +77,51 @@ export default function OffbeatPlains() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-50">
       {/* Hero Section */}
-      <section className="relative h-96 bg-gradient-to-r from-amber-600 to-orange-600">
-        <div className="absolute inset-0 bg-black/40"></div>
-        <div className="relative container mx-auto px-4 h-full flex items-center justify-center">
-          <div className="text-white max-w-3xl text-center">
-            <h1 className="text-5xl font-bold mb-4">OFFBEAT TOUR – Plains</h1>
-            <p className="text-xl mb-6">Special Tailor made Combination Package, Number of Days & Cost can be designed on Request</p>
-            <div className="flex gap-4 justify-center">
-              <Link href="/book-tour" className="bg-red-600 text-white px-6 py-3 rounded-lg hover:bg-red-700 transition flex items-center gap-2">
-                Book Now
-                <ArrowRight className="w-4 h-4" />
-              </Link>
-              <Link href="#destinations" className="border-2 border-white text-white px-6 py-3 rounded-lg hover:bg-white hover:text-amber-600 transition">
-                Explore Destinations
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+  <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+
+  {/* Background Image */}
+  <img
+    src="/img/Offbeat.jpeg"
+    alt="Offbeat Plains Scenic Beauty"
+    className="absolute inset-0 w-full h-full object-cover"
+  />
+
+  {/* Overlay */}
+  <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-amber-700/60 to-orange-600/70"></div>
+
+  {/* Content */}
+  <div className="relative z-10 max-w-4xl text-center px-6 text-white">
+    
+    <h1 className="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+      OFFBEAT TOUR – Plains
+    </h1>
+
+    <p className="text-lg md:text-xl mb-8 text-gray-200">
+      Special tailor-made combination packages.  
+      Number of days & pricing can be customized on request.
+    </p>
+
+    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+
+      <Link
+        href="/book-tour"
+        className="bg-red-600 hover:bg-red-700 px-8 py-3 rounded-full font-semibold transition duration-300 flex items-center justify-center gap-2 shadow-lg"
+      >
+        Book Now
+        <ArrowRight className="w-4 h-4" />
+      </Link>
+
+      <Link
+        href="#destinations"
+        className="border-2 border-white hover:bg-white hover:text-amber-700 px-8 py-3 rounded-full font-semibold transition duration-300"
+      >
+        Explore Destinations
+      </Link>
+
+    </div>
+
+  </div>
+</section>
 
       {/* Destinations Grid */}
       <section id="destinations" className="py-16 px-4">
