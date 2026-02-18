@@ -166,10 +166,10 @@ function PackageCard({ pkg, isPopular = false }: PackageCardProps) {
         />
         <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/40 to-transparent" />
 
-        {/* Duration */}
+        {/* Duration
         <div className="absolute top-4 left-4 bg-white/90 rounded-full px-3 py-1 text-xs font-semibold">
           {pkg.duration}
-        </div>
+        </div> */}
       </div>
 
       {/* CONTENT */}
@@ -183,10 +183,10 @@ function PackageCard({ pkg, isPopular = false }: PackageCardProps) {
             </h3>
             <p className="text-sm text-gray-600">{pkg.subtitle}</p>
           </div>
-          <div className="text-right">
+          {/* <div className="text-right">
             <p className="text-xl font-bold text-red-600">{pkg.price}</p>
             <p className="text-xs text-gray-500">per person</p>
-          </div>
+          </div> */}
         </div>
 
         {/* Location */}
@@ -209,19 +209,19 @@ function PackageCard({ pkg, isPopular = false }: PackageCardProps) {
 
         {/* 👉 BUTTONS – ALWAYS AT BOTTOM */}
         <div className="mt-auto flex gap-2">
-          <Link
+          {/* <Link
             href="/book-tour"
             className="flex-1 flex items-center justify-center gap-2 bg-red-600 text-white py-2 rounded-lg hover:bg-red-700 text-sm font-medium"
           >
             Book Now
             <ArrowRight className="w-4 h-4" />
-          </Link>
+          </Link> */}
 
           <Link
             href={pkg.route}
-            className="w-12 flex items-center justify-center border-2 border-red-600 text-red-600 rounded-lg hover:bg-red-50"
+            className="px-4 py-2 flex items-center justify-center border-2 border-red-600 text-red-600 rounded-lg hover:bg-red-50"
           >
-            <Compass className="w-4 h-4" />
+            View Details
           </Link>
         </div>
       </div>
