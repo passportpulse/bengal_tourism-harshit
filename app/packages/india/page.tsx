@@ -37,21 +37,7 @@ const indiaPackages = [
         route: "/sikkim-tourism",
         showBookNow: false,
     },
-    {
-        slug: "silk-route",
-        title: "Silk Route",
-        subtitle: "Ancient Trade Path",
-        tag: "Mountain Adventure",
-        duration: "5N & 6D",
-        price: "₹ 14500",
-        desc: "Journey through the historic Silk Route with breathtaking mountain views.",
-        locations: "Gangtok, Zuluk, Nathula, Tsomgo Lake",
-        image: "https://plus.unsplash.com/premium_photo-1671639169260-18cec0fa6a51?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U2lsayUyMFJvdXRlfGVufDB8fDB8fHww",
-        icon: Compass,
-        iconColor: "text-purple-500",
-        route: "/silk-route-tourism",
-        showBookNow: false,
-    },
+ 
     {
         slug: "goa",
         title: "Goa",

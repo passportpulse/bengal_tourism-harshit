@@ -1,7 +1,7 @@
 "use client"
 
 import Image from 'next/image'
-import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Sunrise, Home, Plane,  } from 'lucide-react'
+import { Mountain, Train, MapPin, Utensils, Camera, Calendar, Star, Clock, Users, Link, Sunrise, Home, Plane, } from 'lucide-react'
 import PackagePricing from '@/components/PackagePricing'
 import ContactCTA from '@/components/ContactCTA'
 
@@ -151,122 +151,122 @@ export default function DarjeelingPage() {
           </div>
         </div>
       </section>
- <section className="py-24 bg-gradient-to-b from-gray-50 to-white">
-      <div className="max-w-7xl mx-auto px-6">
+      <section className="py-24 bg-gradient-to-b from-gray-50 to-white">
+        <div className="max-w-7xl mx-auto px-6">
 
-        {/* Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            6 Days Darjeeling – Kalimpong Tour Itinerary
-          </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
-            Detailed sightseeing plan covering Darjeeling, Kurseong,
-            Kalimpong & Mirik.
-          </p>
+          {/* Header */}
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              6 Days Darjeeling – Kalimpong Tour Itinerary
+            </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Detailed sightseeing plan covering Darjeeling, Kurseong,
+              Kalimpong & Mirik.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
+
+            {/* Day 1 */}
+            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-orange-500 
+  hover:shadow-xl transition h-full flex flex-col">
+              <h3 className="text-2xl font-bold text-orange-600 mb-4 flex items-center gap-2">
+                <MapPin className="w-6 h-6" />
+                Day 1 – Arrival & Darjeeling Transfer
+              </h3>
+              <p className="text-gray-700 leading-relaxed flex-grow">
+                Receive at NJP / IXB / Tenzing Norgay Bus Stand. Transfer to
+                Darjeeling (6750 ft), known as the Queen of the Hills.
+                Scenic drive through tea gardens with Himalayan views.
+                Check-in at hotel. Evening free at Mall Road.
+                Dinner & Overnight stay at Darjeeling.
+              </p>
+            </div>
+            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-purple-500 
+  hover:shadow-xl transition h-full flex flex-col">
+              <h3 className="text-2xl font-bold text-purple-600 mb-4 flex items-center gap-2">
+                <Train className="w-6 h-6" />
+                Day 4 – Kurseong / Toy Train
+              </h3>
+              <p className="text-gray-700 leading-relaxed flex-grow">
+                Visit Kurseong attractions including Eagle’s Craig,
+                Dow Hills, Makaibari Tea Estate.
+                Optional Toy Train Ride (subject to availability).
+                Dinner & Overnight at Darjeeling.
+              </p>
+            </div>
+            {/* Day 2 */}
+            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-yellow-500 
+  hover:shadow-xl transition h-full flex flex-col">
+              <h3 className="text-2xl font-bold text-yellow-600 mb-4 flex items-center gap-2">
+                <Sunrise className="w-6 h-6" />
+                Day 2 – Tiger Hill & City Tour
+              </h3>
+              <p className="text-gray-700 leading-relaxed flex-grow">
+                Early morning visit to Tiger Hill for sunrise view.
+                En-route visit Ghoom Monastery & Batasia Loop.
+                After breakfast, city tour including HMI, Zoo,
+                Ropeway, Tea Estate, Japanese Temple,
+                Tibetan Refugee Centre & more.
+                Dinner & Overnight at Darjeeling.
+              </p>
+            </div>
+            {/* Day 5 */}
+            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-blue-500 
+  hover:shadow-xl transition h-full flex flex-col">
+              <h3 className="text-2xl font-bold text-blue-600 mb-4 flex items-center gap-2">
+                <Home className="w-6 h-6" />
+                Day 5 – Kalimpong Transfer / South Sikkim (Optional)
+              </h3>
+              <p className="text-gray-700 leading-relaxed flex-grow">
+                Transfer to Kalimpong. Visit Durpin Monastery,
+                Deolo Hill, Morgan House etc.
+                OR Optional South Sikkim tour (Char Dham,
+                Temi Tea Garden, Namchi – extra charge).
+                Dinner & Overnight at Kalimpong.
+              </p>
+            </div>
+            {/* Day 3 */}
+            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-green-500 
+  hover:shadow-xl transition h-full flex flex-col">
+              <h3 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
+                <Mountain className="w-6 h-6" />
+                Day 3 – Scenic Local Sightseeing
+              </h3>
+              <p className="text-gray-700 leading-relaxed flex-grow">
+                Full day tour covering Ghoom, Lepchajagat,
+                Lamahatta, Teen Chuley, Lover’s View Point,
+                and Tea Estates. Return by evening.
+                Dinner & Overnight at Darjeeling.
+              </p>
+            </div>
+
+            {/* Day 4 */}
+
+
+
+
+            {/* Day 6 */}
+            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-red-500 
+  hover:shadow-xl transition h-full flex flex-col">
+              <h3 className="text-2xl font-bold text-red-600 mb-4 flex items-center gap-2">
+                <Plane className="w-6 h-6" />
+                Day 6 – Mirik & Departure
+              </h3>
+              <p className="text-gray-700 leading-relaxed flex-grow">
+                After breakfast check-out.
+                Visit Mirik, Gopal Dhara View Point,
+                Pashupati Market (Nepal border).
+                Drop at NJP / IXB before 6 PM.
+                Tour ends with beautiful memories.
+              </p>
+            </div>
+
+          </div>
+
+
         </div>
-
-<div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
-
-  {/* Day 1 */}
-  <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-orange-500 
-  hover:shadow-xl transition h-full flex flex-col">
-    <h3 className="text-2xl font-bold text-orange-600 mb-4 flex items-center gap-2">
-      <MapPin className="w-6 h-6" />
-      Day 1 – Arrival & Darjeeling Transfer
-    </h3>
-    <p className="text-gray-700 leading-relaxed flex-grow">
-      Receive at NJP / IXB / Tenzing Norgay Bus Stand. Transfer to
-      Darjeeling (6750 ft), known as the Queen of the Hills.
-      Scenic drive through tea gardens with Himalayan views.
-      Check-in at hotel. Evening free at Mall Road.
-      Dinner & Overnight stay at Darjeeling.
-    </p>
-  </div>
- <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-purple-500 
-  hover:shadow-xl transition h-full flex flex-col">
-    <h3 className="text-2xl font-bold text-purple-600 mb-4 flex items-center gap-2">
-      <Train className="w-6 h-6" />
-      Day 4 – Kurseong / Toy Train
-    </h3>
-    <p className="text-gray-700 leading-relaxed flex-grow">
-      Visit Kurseong attractions including Eagle’s Craig,
-      Dow Hills, Makaibari Tea Estate.
-      Optional Toy Train Ride (subject to availability).
-      Dinner & Overnight at Darjeeling.
-    </p>
-  </div>
-  {/* Day 2 */}
-  <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-yellow-500 
-  hover:shadow-xl transition h-full flex flex-col">
-    <h3 className="text-2xl font-bold text-yellow-600 mb-4 flex items-center gap-2">
-      <Sunrise className="w-6 h-6" />
-      Day 2 – Tiger Hill & City Tour
-    </h3>
-    <p className="text-gray-700 leading-relaxed flex-grow">
-      Early morning visit to Tiger Hill for sunrise view.
-      En-route visit Ghoom Monastery & Batasia Loop.
-      After breakfast, city tour including HMI, Zoo,
-      Ropeway, Tea Estate, Japanese Temple,
-      Tibetan Refugee Centre & more.
-      Dinner & Overnight at Darjeeling.
-    </p>
-  </div>
- {/* Day 5 */}
-  <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-blue-500 
-  hover:shadow-xl transition h-full flex flex-col">
-    <h3 className="text-2xl font-bold text-blue-600 mb-4 flex items-center gap-2">
-      <Home className="w-6 h-6" />
-      Day 5 – Kalimpong Transfer / South Sikkim (Optional)
-    </h3>
-    <p className="text-gray-700 leading-relaxed flex-grow">
-      Transfer to Kalimpong. Visit Durpin Monastery,
-      Deolo Hill, Morgan House etc.
-      OR Optional South Sikkim tour (Char Dham,
-      Temi Tea Garden, Namchi – extra charge).
-      Dinner & Overnight at Kalimpong.
-    </p>
-  </div>
-  {/* Day 3 */}
-  <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-green-500 
-  hover:shadow-xl transition h-full flex flex-col">
-    <h3 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
-      <Mountain className="w-6 h-6" />
-      Day 3 – Scenic Local Sightseeing
-    </h3>
-    <p className="text-gray-700 leading-relaxed flex-grow">
-      Full day tour covering Ghoom, Lepchajagat,
-      Lamahatta, Teen Chuley, Lover’s View Point,
-      and Tea Estates. Return by evening.
-      Dinner & Overnight at Darjeeling.
-    </p>
-  </div>
-
-  {/* Day 4 */}
- 
-
- 
-
-  {/* Day 6 */}
-  <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-red-500 
-  hover:shadow-xl transition h-full flex flex-col">
-    <h3 className="text-2xl font-bold text-red-600 mb-4 flex items-center gap-2">
-      <Plane className="w-6 h-6" />
-      Day 6 – Mirik & Departure
-    </h3>
-    <p className="text-gray-700 leading-relaxed flex-grow">
-      After breakfast check-out.
-      Visit Mirik, Gopal Dhara View Point,
-      Pashupati Market (Nepal border).
-      Drop at NJP / IXB before 6 PM.
-      Tour ends with beautiful memories.
-    </p>
-  </div>
-
-</div>
-
-
-      </div>
-    </section>
+      </section>
       {/* ================= PLACES OF INTEREST ================= */}
       <section className="py-20 bg-gradient-to-br from-gray-50 to-orange-50">
         <div className="max-w-7xl mx-auto px-6">
@@ -368,91 +368,71 @@ export default function DarjeelingPage() {
       </section>
 
       {/* ================= NEARBY DESTINATIONS ================= */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Nearby Destinations</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Extend your journey to these enchanting destinations around Darjeeling
-            </p>
-          </div>
+  <section className="py-20 bg-white">
+  <div className="max-w-7xl mx-auto px-6">
+    
+    <div className="text-center mb-12">
+      <h2 className="text-4xl md:text-5xl font-bold mb-4">
+        Nearby Destinations
+      </h2>
+      <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+        Extend your journey to these enchanting destinations around Darjeeling
+      </p>
+    </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <a href="/mirik">
-              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
-                <img
-                  src="/Mirik.jpeg"
-                  alt="Mirik Lake"
-                  className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-                <div className="absolute bottom-0 p-6 text-white">
-                  <h3 className="text-2xl font-bold mb-2">Mirik</h3>
-                  <p className="text-gray-200">Divine Lake & Orange Orchards</p>
-                </div>
-              </div>
-            </a>
-            <a href="/kurseong">
-              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
-                <img
-                  src="/Kurseong.jpeg"
-                  alt="Kurseong"
-                  className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-                <div className="absolute bottom-0 p-6 text-white">
-                  <h3 className="text-2xl font-bold mb-2">Kurseong</h3>
-                  <p className="text-gray-200">Land of the White Orchid</p>
-                </div>
-              </div>
-            </a>
-            <a href="/kalimpong">
-              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
-                <img
-                  src="/Kalimpong.jpeg"
-                  alt="Kalimpong"
-                  className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-                <div className="absolute bottom-0 p-6 text-white">
-                  <h3 className="text-2xl font-bold mb-2">Kalimpong</h3>
-                  <p className="text-gray-200">Flower Nurseries & Views</p>
-                </div>
-              </div>
-            </a>
-            <a href="/lava">
-              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
-                <img
-                  src="/Lava.jpg"
-                  alt="Lava"
-                  className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-                <div className="absolute bottom-0 p-6 text-white">
-                  <h3 className="text-2xl font-bold mb-2">Lava</h3>
-                  <p className="text-gray-200">Gateway to Neora Valley</p>
-                </div>
-              </div>
-            </a>
-            <a href="/rishap">
-              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer">
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-                <img
-                  src="/Rishap.jpeg"
-                  alt="Rishap"
-                  className="w-full h-64 object-cover group-hover:scale-110 transition duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-                <div className="absolute bottom-0 p-6 text-white">
-                  <h3 className="text-2xl font-bold mb-2">Rishap</h3>
-                  <p className="text-gray-200">Misty Magic</p>
-                </div>
+      {/* CARD */}
+      {[
+        { name: "Mirik", img: "/Mirik.jpeg", desc: "Divine Lake & Orange Orchards", link: "/mirik" },
+        { name: "Kurseong", img: "/Kurseong.jpeg", desc: "Land of the White Orchid", link: "/kurseong" },
+        { name: "Kalimpong", img: "/Kalimpong.jpeg", desc: "Flower Nurseries & Views", link: "/kalimpong" },
+        { name: "Lava", img: "/Lava.jpg", desc: "Gateway to Neora Valley", link: "/lava" },
+        { name: "Rishap", img: "/Rishap.jpeg", desc: "Misty Magic", link: "/rishap" },
+      ].map((place, index) => (
+        
+        <div
+          key={index}
+          className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition duration-500"
+        >
+          <img
+            src={place.img}
+            alt={place.name}
+            className="w-full h-64 object-cover group-hover:scale-110 transition duration-700"
+          />
 
-              </div>
-            </a>
-          </div>
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+
+          {/* Content */}
+          <div className="absolute bottom-0 p-6 text-white w-full">
+            <div className="flex items-center justify-between">
+              <div>
+            <h3 className="text-2xl font-bold mb-2">{place.name}</h3>
+            <p className="text-gray-200 mb-4">{place.desc}</p>
+</div>
+            {/* Buttons */}
+            <div className="flex gap-3  transition duration-500">
+              
+           
+
+              <a
+                href="/book-tour"
+                className="bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-orange-600 transition"
+              >
+                Book Now
+              </a>
+
+            </div>
+            </div>
+            </div>
         </div>
-      </section>
+
+      ))}
+
+    </div>
+  </div>
+</section>
+
 
       {/* ================= CUISINE SECTION ================= */}
       <section className="py-20 bg-gradient-to-br from-yellow-50 to-orange-50">

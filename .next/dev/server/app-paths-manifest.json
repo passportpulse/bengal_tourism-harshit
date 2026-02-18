@@ -34,6 +34,7 @@
   "/packages/exclusive/page": "app/packages/exclusive/page.js",
   "/packages/foreign-tours/page": "app/packages/foreign-tours/page.js",
   "/packages/india/page": "app/packages/india/page.js",
+  "/packages/page": "app/packages/page.js",
   "/page": "app/page.js",
   "/rajasthan-tourism/page": "app/rajasthan-tourism/page.js",
   "/religious-pilgrimage/page": "app/religious-pilgrimage/page.js",
