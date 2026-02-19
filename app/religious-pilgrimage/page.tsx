@@ -407,7 +407,7 @@ export default function ReligiousPilgrimagePage() {
                       className="object-cover"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                    <div className="absolute top-3 right-3">
+                    <div className="absolute top-3 left-3">
                       <span className="bg-orange-600 text-white px-3 py-1 rounded-full text-sm font-bold">
                         {peeth.location}
                       </span>
@@ -428,7 +428,7 @@ export default function ReligiousPilgrimagePage() {
                     </div>
                     <button 
                       onClick={() => router.push('/book-tour')}
-                      className="w-full bg-red-600 text-white py-3 rounded-lg font-semibold hover:bg-red-700 transition mt-4"
+                      className="px-4 text-red-500 border border-red-500 py-3 rounded-lg font-semibold  transition mt-4"
                     >
                       Book Now for 2N/3D
                     </button>
