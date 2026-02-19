@@ -808,6 +808,7 @@ export default function HotelBookingPage() {
                     </p>
                   )}
                 </div>
+                
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
                     Check-out Date <span className="text-red-500">*</span>
@@ -832,6 +833,22 @@ export default function HotelBookingPage() {
                       Selected: {formatDateToDDMMYYYY(parseDDMMYYYYToISO(formData.checkOut))}
                     </p>
                   )}
+                </div>
+                    <div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    Total No. of Nights <span className="text-red-500">*</span>
+                  </label>
+                  <input
+                    type="number"
+                    value={formData.totalNights}
+                    readOnly
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600 bg-gray-50"
+                    placeholder="Auto-calculated from dates"
+                    required
+                  />
+                  <p className="text-xs text-gray-500 mt-1">
+                    Auto-calculated from check-in and check-out dates
+                  </p>
                 </div>
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
@@ -913,22 +930,7 @@ export default function HotelBookingPage() {
                     </select>
                   </div>
                 </div>
-                <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Total No. of Nights <span className="text-red-500">*</span>
-                  </label>
-                  <input
-                    type="number"
-                    value={formData.totalNights}
-                    readOnly
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600 bg-gray-50"
-                    placeholder="Auto-calculated from dates"
-                    required
-                  />
-                  <p className="text-xs text-gray-500 mt-1">
-                    Auto-calculated from check-in and check-out dates
-                  </p>
-                </div>
+            
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
                     Estimated Cost <span className="text-red-500">*</span>

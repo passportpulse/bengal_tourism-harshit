@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowLeft, Calendar, Users, MapPin, Phone, Mail, CreditCard, Percent, User, Home, Clock, IndianRupee } from "lucide-react";
@@ -102,6 +102,13 @@ export default function TourBookingPage() {
 
   const [isSubmitting, setIsSubmitting] = useState(false);
 
+  // Auto calculate nights when dates change
+  useEffect(() => {
+    if (formData.checkIn && formData.checkOut) {
+      calculateNights();
+    }
+  }, [formData.checkIn, formData.checkOut]);
+
   // Helper function to format date to DD-MM-YYYY
   const formatDateToDDMMYYYY = (dateString: string) => {
     if (!dateString) return '';
@@ -151,13 +158,25 @@ export default function TourBookingPage() {
       const checkInDate = new Date(parseDDMMYYYYToISO(formData.checkIn));
       const checkOutDate = new Date(parseDDMMYYYYToISO(formData.checkOut));
       
+      console.log('Check-in:', formData.checkIn, 'Date:', checkInDate);
+      console.log('Check-out:', formData.checkOut, 'Date:', checkOutDate);
+      
       if (!isNaN(checkInDate.getTime()) && !isNaN(checkOutDate.getTime())) {
-        const diffTime = Math.abs(checkOutDate.getTime() - checkInDate.getTime());
-        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+        // Calculate difference in days (check-out date - check-in date)
+        const diffTime = checkOutDate.getTime() - checkInDate.getTime();
+        const diffDays = Math.round(diffTime / (1000 * 60 * 60 * 24));
         
-        if (diffDays > 0) {
+        console.log('Diff time:', diffTime);
+        console.log('Diff days:', diffDays);
+        
+        // Ensure positive number of nights
+        if (diffDays >= 0) {
           setFormData(prev => ({ ...prev, totalNights: diffDays.toString() }));
+          // Calculate totals after updating nights
           setTimeout(calculateTotals, 100);
+        } else {
+          // If check-out is before check-in, reset nights
+          setFormData(prev => ({ ...prev, totalNights: "" }));
         }
       }
     }
@@ -445,10 +464,6 @@ export default function TourBookingPage() {
                       onChange={(e) => {
                         const formattedDate = formatDateToDDMMYYYY(e.target.value);
                         handleInputChange("checkIn", formattedDate);
-                        // Auto calculate nights if check-out is already selected
-                        if (formData.checkOut) {
-                          setTimeout(calculateNights, 100);
-                        }
                       }}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       required
@@ -469,8 +484,6 @@ export default function TourBookingPage() {
                       onChange={(e) => {
                         const formattedDate = formatDateToDDMMYYYY(e.target.value);
                         handleInputChange("checkOut", formattedDate);
-                        // Auto calculate nights whenever check-out changes
-                        setTimeout(calculateNights, 100);
                       }}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                       required
@@ -480,6 +493,22 @@ export default function TourBookingPage() {
                         Selected: {formatDateToDDMMYYYY(parseDDMMYYYYToISO(formData.checkOut))}
                       </p>
                     )}
+                  </div>
+                     <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      Total No. of Nights <span className="text-red-500">*</span>
+                    </label>
+                    <input
+                      type="number"
+                      value={formData.totalNights}
+                      readOnly
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600 bg-gray-50"
+                      placeholder="Auto-calculated from dates"
+                      required
+                    />
+                    <p className="text-xs text-gray-500 mt-1">
+                      Auto-calculated from check-in and check-out dates
+                    </p>
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
@@ -556,22 +585,7 @@ export default function TourBookingPage() {
                       />
                     </div>
                   </div>
-                  <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Total No. of Nights <span className="text-red-500">*</span>
-                    </label>
-                    <input
-                      type="number"
-                      value={formData.totalNights}
-                      readOnly
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600 bg-gray-50"
-                      placeholder="Auto-calculated from dates"
-                      required
-                    />
-                    <p className="text-xs text-gray-500 mt-1">
-                      Auto-calculated from check-in and check-out dates
-                    </p>
-                  </div>
+               
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
                       Estimated Cost <span className="text-red-500">*</span>
