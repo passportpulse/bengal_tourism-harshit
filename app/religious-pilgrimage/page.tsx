@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { MapPin, Calendar, Users, Star, Clock, Check, Heart, Camera, Trees, Mountain, Navigation, Sun, Compass, Globe, Building, Utensils, Coffee, MapPinIcon, Tent, Footprints, Waves, Shield, Award, Church, StarIcon } from "lucide-react";
 import ContactCTA from "@/components/ContactCTA";
@@ -267,6 +268,7 @@ const pilgrimageTips = [
 ];
 
 export default function ReligiousPilgrimagePage() {
+  const router = useRouter();
   const [selectedPeeth, setSelectedPeeth] = useState("");
   const [activeTab, setActiveTab] = useState("shakti");
 
@@ -388,7 +390,7 @@ export default function ReligiousPilgrimagePage() {
         <section className="py-20 bg-gradient-to-br from-orange-50 to-red-50">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-16">
-              <h2 className="text-4xl font-black text-gray-900 mb-6">Shakti Peeth's in West Bengal</h2>
+              <h2 className="text-4xl font-black text-gray-900 mb-6">Religious Tours in West Bengal</h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                 Sacred sites where parts of Goddess Sati's body fell
               </p>
@@ -407,23 +409,29 @@ export default function ReligiousPilgrimagePage() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                     <div className="absolute top-3 right-3">
                       <span className="bg-orange-600 text-white px-3 py-1 rounded-full text-sm font-bold">
-                        {peeth.bodyPart}
+                        {peeth.location}
                       </span>
                     </div>
                     <div className="absolute bottom-3 left-3">
-                      <span className="bg-red-600 text-white px-3 py-1 rounded-full text-sm font-bold">
-                        {peeth.location}
-                      </span>
+                    
                     </div>
                   </div>
                   
                   <div className="p-6">
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">{peeth.name}</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">{peeth.name}   <span className="bg-red-600 text-white px-3 py-1 rounded-full text-sm font-bold">
+                        {peeth.bodyPart}
+                      </span></h3>
                     <p className="text-gray-600 mb-4">{peeth.description}</p>
                     <div className="bg-orange-50 border border-orange-200 rounded-xl p-4">
                       <h4 className="font-bold text-orange-900 mb-2">Significance:</h4>
                       <p className="text-gray-700 text-sm">{peeth.significance}</p>
                     </div>
+                    <button 
+                      onClick={() => router.push('/book-tour')}
+                      className="w-full bg-red-600 text-white py-3 rounded-lg font-semibold hover:bg-red-700 transition mt-4"
+                    >
+                      Book Now for 2N/3D
+                    </button>
                   </div>
                 </div>
               ))}
