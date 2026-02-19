@@ -1,11 +1,16 @@
 "use client"
 
 import Image from 'next/image'
-import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Archive, Church } from 'lucide-react'
+import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Archive, Church, Check } from 'lucide-react'
 import PackagePricing from '@/components/PackagePricing'
 import ContactCTA from '@/components/ContactCTA'
-
+import { useRouter } from "next/navigation"
 export default function KolkataPage() {
+    const router = useRouter()
+  
+    const handleBookNow = () => {
+      router.push('/book-tour')
+    }
   return (
     <main className="text-gray-800">
 
@@ -552,11 +557,206 @@ export default function KolkataPage() {
           </div>
         </div>
       </section>
-     <PackagePricing 
-        title="Kolkata Tour Packages"
-        subtitle="Choose your perfect cultural and colonial heritage adventure"
-      />
+   <section className={`py-24 bg-gray-50`}>
+      <div className="max-w-7xl mx-auto px-6">
 
+        {/* Header */}
+        <div className="text-center mb-20">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          Kolkata Tour Packages
+          </h2>
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+        Choose your perfect cultural and colonial heritage adventure
+          </p>
+        </div>
+
+        {/* Cards Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+
+          {/* 5N/6D */}
+          <div className="bg-white border border-indigo-100 rounded-3xl p-8 shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300 flex flex-col justify-between">
+
+            <div>
+              <span className="text-gray-500 text-xs py-1 rounded-full">
+                Most Popular
+              </span>
+
+      <h3 className="text-2xl font-bold mt-6 text-gray-900">5N / 6D</h3>
+               <p className="text-2xl font-semibold text-indigo-600 mt-3">
+                ₹ 15,400
+              </p>
+
+                   <ul className="mt-6 space-y-3 text-gray-600 text-sm">
+                <li className="flex items-center gap-2">
+                  <Check className="w-4 h-4 text-indigo-600" /> Accommodation
+                </li>
+                <li className="flex items-center gap-2">
+                  <Check className="w-4 h-4 text-indigo-600" /> Breakfast & Dinner
+                </li>
+                 <li className="flex items-center gap-2">  <Check className="w-4 h-4 text-indigo-600" /> PickU & Drop
+                </li>
+                <li className="flex items-center gap-2">
+                  <Check className="w-4 h-4 text-indigo-600" /> Sightseeing as per Itinerary
+                </li>
+               
+              </ul>
+            </div>
+
+             <button
+              onClick={handleBookNow}
+              className="mt-8 bg-blue-500 text-white py-3 rounded-xl font-semibold hover:bg-blue-600 transition"
+            >
+              Book Now
+            </button>
+          </div>
+
+          {/* 4N/5D */}
+          <div className="bg-white border border-indigo-100 rounded-3xl p-8 shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300 flex flex-col justify-between">
+
+            <div>
+              <span className="text-gray-500 text-xs py-1 rounded-full">
+                Recommended
+              </span>
+
+              <h3 className="text-2xl font-bold mt-6 text-gray-900">4N / 5D</h3>
+              <p className="text-2xl font-bold text-indigo-600 mt-3">
+                ₹ 12,700
+              </p>
+
+                  <ul className="mt-6 space-y-3 text-gray-600 text-sm">
+                <li className="flex items-center gap-2">
+                  <Check className="w-4 h-4 text-indigo-600" /> Accommodation
+                </li>
+                <li className="flex items-center gap-2">
+                  <Check className="w-4 h-4 text-indigo-600" /> Breakfast & Dinner
+                </li>
+                 <li className="flex items-center gap-2">  <Check className="w-4 h-4 text-indigo-600" /> Pick & Drop
+                </li>
+                <li className="flex items-center gap-2">
+                  <Check className="w-4 h-4 text-indigo-600" /> Sightseeing as per Itinerary
+                </li>
+               
+              </ul>
+            </div>
+
+            <button
+              onClick={handleBookNow}
+              className="mt-8 bg-blue-500 text-white py-3 rounded-xl font-semibold hover:bg-blue-600 transition"
+            >
+              Book Now
+            </button>
+          </div>
+
+          {/* 3N/4D */}
+          <div className="bg-white border border-indigo-100 rounded-3xl p-8 shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300 flex flex-col justify-between">
+
+            <div>
+              <span className="text-gray-500 text-xs py-1 rounded-full">
+                Recommended for short breaks
+              </span>
+
+              <h3 className="text-2xl font-bold mt-6 text-gray-900">3N / 4D</h3>
+              <p className="text-2xl font-semibold text-indigo-600 mt-3">
+                ₹ 9,100
+              </p>
+                   <ul className="mt-6 space-y-3 text-gray-600 text-sm">
+                <li className="flex items-center gap-2">
+                  <Check className="w-4 h-4 text-indigo-600" /> Accommodation
+                </li>
+                <li className="flex items-center gap-2">
+                  <Check className="w-4 h-4 text-indigo-600" /> Breakfast & Dinner
+                </li>
+                 <li className="flex items-center gap-2">  <Check className="w-4 h-4 text-indigo-600" /> Pick & Drop
+                </li>
+                <li className="flex items-center gap-2">
+                  <Check className="w-4 h-4 text-indigo-600" /> Sightseeing as per Itinerary
+                </li>
+               
+              </ul>
+            </div>
+
+             <button
+              onClick={handleBookNow}
+              className="mt-8 bg-blue-500 text-white py-3 rounded-xl font-semibold hover:bg-blue-600 transition"
+            >
+              Book Now
+            </button>
+          </div>
+
+          {/* 2N/3D */}
+          <div className="bg-white border border-indigo-100 rounded-3xl p-8 shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300 flex flex-col justify-between">
+
+            <div>
+              <span className="text-gray-500 text-xs py-1 rounded-full">
+                Recommended only for group of 20+ persons
+              </span>
+
+              <h3 className="text-2xl font-bold mt-6 text-gray-900">2N / 3D</h3>
+              <p className="text-2xl font-semibold text-indigo-600 mt-3">
+                ₹ 6,400
+              </p>
+                    <ul className="mt-6 space-y-3 text-gray-600 text-sm">
+                <li className="flex items-center gap-2">
+                  <Check className="w-4 h-4 text-indigo-600" /> Accommodation
+                </li>
+                <li className="flex items-center gap-2">
+                  <Check className="w-4 h-4 text-indigo-600" /> Breakfast & Dinner
+                </li>
+                 <li className="flex items-center gap-2">  <Check className="w-4 h-4 text-indigo-600" /> Pick & Drop
+                </li>
+                <li className="flex items-center gap-2">
+                  <Check className="w-4 h-4 text-indigo-600" /> Sightseeing as per Itinerary
+                </li>
+               
+              </ul>
+            </div>
+
+            <button
+              onClick={handleBookNow}
+              className="mt-8 bg-blue-500 text-white py-3 rounded-xl font-semibold hover:bg-blue-600 transition"
+            >
+              Book Now
+            </button>
+          </div>
+
+     
+          <div className="bg-white border border-indigo-100 rounded-3xl p-8 shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300 flex flex-col justify-between">
+
+            <div>
+              <span className=" text-black text-sm py-1 rounded-full">
+                Day Tour
+              </span>
+
+              <h3 className="text-2xl font-bold text-gray-700 mt-6">1 Full day</h3>
+              <p className="text-2xl font-semibold text-indigo-600 mt-3">
+                ₹ 3,700
+              </p>
+                  <ul className="mt-6 space-y-3 text-gray-600 text-sm">
+               
+                <li className="flex items-center gap-2">
+                  <Check className="w-4 h-4 text-indigo-600" /> Launch Your cost
+                </li>
+                 <li className="flex items-center gap-2">  <Check className="w-4 h-4 text-indigo-600" /> Pick & Drop
+                </li>
+                
+                <li className="flex items-center gap-2">
+                  <Check className="w-4 h-4 text-indigo-600" /> Sightseeing as per Itinerary
+                </li>
+               
+              </ul>
+            </div>
+
+         <button
+              onClick={handleBookNow}
+              className="mt-8 bg-blue-500 text-white py-3 rounded-xl font-semibold hover:bg-blue-600 transition"
+            >
+            Book Now
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </section>
        
     <ContactCTA />
     </main>

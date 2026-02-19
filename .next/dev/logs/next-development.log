@@ -1098,3 +1098,48 @@ Unterminated regexp literal
 [09:25:41.962] Server  LOG     ✓ Compiled in 107ms
 [09:26:56.661] Server  LOG     ✓ Compiled in 116ms
 [09:30:50.522] Server  LOG     ✓ Compiled in 116ms
+[09:42:05.873] Server  LOG     ✓ Compiled in 115ms
+[09:47:47.619] Server  LOG     ✓ Compiled in 240ms
+[09:47:47.735] Browser ERROR   ./app/kolkata/page.tsx:722:13
+Parsing ecmascript source code failed
+  720 |           </div>
+  721 |
+> 722 |           */}
+      |             ^
+  723 |           <div className="bg-white border border-indigo-100 rounded-3xl p-8 shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300 flex flex-col justify-between">
+  724 |
+  725 |             <div>
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/kolkata/page.tsx [Client Component Browser]
+    ./app/kolkata/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/kolkata/page.tsx [Client Component SSR]
+    ./app/kolkata/page.tsx [Server Component]
+[09:47:47.804] Browser ERROR   ./app/kolkata/page.tsx:722:13
+Parsing ecmascript source code failed
+  720 |           </div>
+  721 |
+> 722 |           */}
+      |             ^
+  723 |           <div className="bg-white border border-indigo-100 rounded-3xl p-8 shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300 flex flex-col justify-between">
+  724 |
+  725 |             <div>
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/kolkata/page.tsx [Client Component Browser]
+    ./app/kolkata/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/kolkata/page.tsx [Client Component SSR]
+    ./app/kolkata/page.tsx [Server Component]
+[09:47:50.112] Server  LOG     ✓ Compiled in 352ms
+[09:48:07.139] Server  LOG     ✓ Compiled in 102ms
+[09:48:13.054] Server  LOG     ✓ Compiled in 117ms
