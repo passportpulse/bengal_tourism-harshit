@@ -96,8 +96,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.react-server.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/map-pin.js [app-rsc] (ecmascript) <export default as MapPin>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/calendar.js [app-rsc] (ecmascript) <export default as Calendar>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/star.js [app-rsc] (ecmascript) <export default as Star>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-right.js [app-rsc] (ecmascript) <export default as ArrowRight>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$camera$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Camera$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/camera.js [app-rsc] (ecmascript) <export default as Camera>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$utensils$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Utensils$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/utensils.js [app-rsc] (ecmascript) <export default as Utensils>");
@@ -116,7 +114,7 @@ function ShortBreaks() {
         {
             name: "Ajodhya Pahar in Purulia",
             description: "Experience the famous Hunting Festival with tribal culture and scenic beauty",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.7,
@@ -127,7 +125,7 @@ function ShortBreaks() {
         {
             name: "Baranti in Purulia",
             description: "Serene reservoir surrounded by hills, perfect for nature lovers",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1540202404-1b9279c8c475?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.6,
@@ -138,7 +136,7 @@ function ShortBreaks() {
         {
             name: "Bishnupur in Bankura",
             description: "Terracotta temples and famous Baluchari sarees with rich cultural heritage",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.8,
@@ -149,7 +147,7 @@ function ShortBreaks() {
         {
             name: "Bethuaduari in Nadia",
             description: "Historical fort with archaeological significance",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1516426122078-c41e6e1bdffb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.4,
@@ -160,7 +158,7 @@ function ShortBreaks() {
         {
             name: "Bakkhali in South 24-Parganas",
             description: "Pristine beach with casuarina groves and stunning sunsets",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.5,
@@ -171,7 +169,7 @@ function ShortBreaks() {
         {
             name: "Belun Gram in Katwa",
             description: "Rural Bengal experience with traditional village life",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.3,
@@ -182,7 +180,7 @@ function ShortBreaks() {
         {
             name: "Baguran Jalpai in East Midnapore",
             description: "Beautiful beach destination with coastal charm",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.4,
@@ -193,7 +191,7 @@ function ShortBreaks() {
         {
             name: "Ballavpur Forest in Birbhum",
             description: "Dense forest with diverse wildlife and nature trails",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.6,
@@ -204,7 +202,7 @@ function ShortBreaks() {
         {
             name: "Bakreshwar in Birbhum",
             description: "Sacred hot water springs with religious significance",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.7,
@@ -215,7 +213,7 @@ function ShortBreaks() {
         {
             name: "Bawali Rajbari in Budge Budge",
             description: "Heritage mansion showcasing colonial architecture",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1614850523296-d8c1e4edc8e1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.8,
@@ -226,7 +224,7 @@ function ShortBreaks() {
         {
             name: "Bandel in Hooghly",
             description: "Historical Portuguese settlement with ancient church",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1589822909392-6b9aba4398a9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.5,
@@ -237,7 +235,7 @@ function ShortBreaks() {
         {
             name: "Chandarnagar in Hooghly",
             description: "Former French colony with colonial architecture and museums",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.6,
@@ -248,7 +246,7 @@ function ShortBreaks() {
         {
             name: "Dashghara in Chinsura",
             description: "Former Dutch settlement with historical significance",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1516426122078-c41e6e1bdffb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.4,
@@ -259,7 +257,7 @@ function ShortBreaks() {
         {
             name: "Deulti in Howrah",
             description: "Riverside retreat with literary connections",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1540202404-1b9279c8c475?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.3,
@@ -270,7 +268,7 @@ function ShortBreaks() {
         {
             name: "Digha & Mandarmoni",
             description: "Twin beach destinations with famous Beach Festival",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1761933810905-ccc35b14d937?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.6,
@@ -281,7 +279,7 @@ function ShortBreaks() {
         {
             name: "Diamond Harbour in South 24-Parganas",
             description: "Confluence of Hooghly River with Bay of Bengal",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.4,
@@ -292,7 +290,7 @@ function ShortBreaks() {
         {
             name: "Falta & Raichak in South 24-Parganas",
             description: "Historical places with scenic riverside views",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1589822909392-6b9aba4398a9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.5,
@@ -303,7 +301,7 @@ function ShortBreaks() {
         {
             name: "Farm House in Basanti",
             description: "Rural farm experience near Sundarbans",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.3,
@@ -314,7 +312,7 @@ function ShortBreaks() {
         {
             name: "Farm House in Hasnabad",
             description: "Countryside experience with rural lifestyle",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1540202404-1b9279c8c475?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.3,
@@ -325,7 +323,7 @@ function ShortBreaks() {
         {
             name: "Farm House in Usthi",
             description: "Agricultural tourism with local farming experience",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.2,
@@ -336,7 +334,7 @@ function ShortBreaks() {
         {
             name: "Fulia & Shantipur in Nadia",
             description: "Famous for cotton handloom sarees and weaving traditions",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.7,
@@ -347,7 +345,7 @@ function ShortBreaks() {
         {
             name: "Gadiara & Goenkhali in Howrah",
             description: "Riverside confluence points with scenic beauty",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1540202404-1b9279c8c475?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.4,
@@ -358,7 +356,7 @@ function ShortBreaks() {
         {
             name: "Gangani in Garbeta",
             description: "Known as the Grand Canyon of Bengal",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.6,
@@ -369,7 +367,7 @@ function ShortBreaks() {
         {
             name: "Garh Jungle & Deul Park in Durgapur",
             description: "Ancient jungle with historical ruins",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.5,
@@ -380,7 +378,7 @@ function ShortBreaks() {
         {
             name: "Garh Panchkot in Purulia",
             description: "Historical fort with famous Chhau Dance Festival",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1516426122078-c41e6e1bdffb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.7,
@@ -389,9 +387,9 @@ function ShortBreaks() {
             cuisine: "Tribal & Purulia specialities"
         },
         {
-            name: "Ganga Sagar Island",
+            name: "Ganga Sagar Iland with Bakkhali",
             description: "Sacred pilgrimage site with Kapil Muni's Ashram and Holy Dip",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1540202404-1b9279c8c475?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.8,
@@ -402,7 +400,7 @@ function ShortBreaks() {
         {
             name: "Hadal Narayanpur in Bankura",
             description: "Famous for Dokra metal artefacts and tribal crafts",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.6,
@@ -413,7 +411,7 @@ function ShortBreaks() {
         {
             name: "Hazarduari Palace in Murshidabad",
             description: "Grand palace with thousand doors and famous Murshidabad Silk",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1614850523296-d8c1e4edc8e1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.9,
@@ -424,7 +422,7 @@ function ShortBreaks() {
         {
             name: "Itachuna Rajbari in Pandua",
             description: "Heritage mansion showcasing Bengali aristocracy",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1589822909392-6b9aba4398a9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.7,
@@ -435,7 +433,7 @@ function ShortBreaks() {
         {
             name: "Jharkhali in Sunderban",
             description: "Mangrove forest trail with wildlife experience",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.6,
@@ -446,7 +444,7 @@ function ShortBreaks() {
         {
             name: "Jangalmahal & Belpahari in Jhargram",
             description: "Tribal village experience with authentic tribal culture",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.5,
@@ -457,7 +455,7 @@ function ShortBreaks() {
         {
             name: "Joypur Forest in Bankura",
             description: "Dense forest with natural beauty and wildlife",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.6,
@@ -468,7 +466,7 @@ function ShortBreaks() {
         {
             name: "Kolkata",
             description: "Cultural hub with Film Festival, Book Fair, Durga Puja Carnival & Food Trails",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.8,
@@ -479,7 +477,7 @@ function ShortBreaks() {
         {
             name: "Kolaghat in East Midnapore",
             description: "Riverside town with industrial heritage",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1540202404-1b9279c8c475?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.3,
@@ -490,7 +488,7 @@ function ShortBreaks() {
         {
             name: "Krishnanagar in Nadia",
             description: "Famous for clay modelling and traditional crafts",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.5,
@@ -501,7 +499,7 @@ function ShortBreaks() {
         {
             name: "Machranga Island in Hasnabad",
             description: "Island paradise with natural beauty",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.4,
@@ -512,7 +510,7 @@ function ShortBreaks() {
         {
             name: "Mousuni Island in South 24-Parganas",
             description: "Pristine island with beach and rural life",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.5,
@@ -523,7 +521,7 @@ function ShortBreaks() {
         {
             name: "Mayapur – Isckon Temple in Nadia",
             description: "Spiritual destination with famous Chariot Festival of Lord Jagannath",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1589822909392-6b9aba4398a9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.8,
@@ -534,7 +532,7 @@ function ShortBreaks() {
         {
             name: "Mahisadal Rajbari in Haldia",
             description: "Heritage mansion with colonial architecture",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1614850523296-d8c1e4edc8e1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.6,
@@ -545,7 +543,7 @@ function ShortBreaks() {
         {
             name: "Mukutmonipur in Bankura",
             description: "Scenic dam surrounded by hills and forests",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.7,
@@ -556,7 +554,7 @@ function ShortBreaks() {
         {
             name: "Monchasha in East Midnapore",
             description: "Eco-tourism destination with rural experience",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.5,
@@ -567,7 +565,7 @@ function ShortBreaks() {
         {
             name: "Piyali Island in Sunderban",
             description: "Gateway to Sundarbans with mangrove experience",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.4,
@@ -578,7 +576,7 @@ function ShortBreaks() {
         {
             name: "Serampore",
             description: "Former Dutch colony with historical significance",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1589822909392-6b9aba4398a9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.5,
@@ -589,7 +587,7 @@ function ShortBreaks() {
         {
             name: "Santiniketan & Bolpur in Birbhum",
             description: "Tagore's abode with Basant Utsav/Holi & Batik Handicraft",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1589822909392-6b9aba4398a9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.9,
@@ -600,7 +598,7 @@ function ShortBreaks() {
         {
             name: "Sobuj Deep in Hooghly",
             description: "Green island with natural beauty",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.3,
@@ -611,7 +609,7 @@ function ShortBreaks() {
         {
             name: "Susunia Pahar in Bankura",
             description: "Hill destination with Adivasi or Tribal Hamlets",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.6,
@@ -622,7 +620,7 @@ function ShortBreaks() {
         {
             name: "Tarapith in Rampurhat",
             description: "Sacred Shakti Peeth with religious significance",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1589822909392-6b9aba4398a9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.8,
@@ -633,7 +631,7 @@ function ShortBreaks() {
         {
             name: "Tarakeswar",
             description: "Famed Shiva Temple with religious importance",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1589822909392-6b9aba4398a9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.7,
@@ -644,7 +642,7 @@ function ShortBreaks() {
         {
             name: "Taki / Petrapole in Hasnabad",
             description: "Border town with Bangladesh and cultural exchange",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1516426122078-c41e6e1bdffb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.4,
@@ -655,7 +653,7 @@ function ShortBreaks() {
         {
             name: "Tajpur in East Midnapore",
             description: "Up-coming port town with beautiful beach",
-            duration: "Customizable",
+            duration: "2N/3D",
             price: "On Request",
             image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
             rating: 4.5,
@@ -907,41 +905,15 @@ function ShortBreaks() {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "flex items-center justify-between mb-3",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                    className: "text-2xl font-bold text-white line-clamp-1",
-                                                                    children: destination.name
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/short-breaks/page.tsx",
-                                                                    lineNumber: 649,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "flex items-center gap-1 bg-white/20 backdrop-blur-sm px-3 py-2 rounded-full",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {
-                                                                            className: "w-4 h-4 text-yellow-300 fill-current"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/short-breaks/page.tsx",
-                                                                            lineNumber: 651,
-                                                                            columnNumber: 25
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                            className: "text-sm font-bold text-white",
-                                                                            children: destination.rating
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/short-breaks/page.tsx",
-                                                                            lineNumber: 652,
-                                                                            columnNumber: 25
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/app/short-breaks/page.tsx",
-                                                                    lineNumber: 650,
-                                                                    columnNumber: 23
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                                className: "text-2xl font-bold text-white line-clamp-1",
+                                                                children: destination.name
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/short-breaks/page.tsx",
+                                                                lineNumber: 649,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        }, void 0, false, {
                                                             fileName: "[project]/app/short-breaks/page.tsx",
                                                             lineNumber: 648,
                                                             columnNumber: 21
@@ -953,7 +925,7 @@ function ShortBreaks() {
                                                                     className: "w-4 h-4 mr-2 text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/short-breaks/page.tsx",
-                                                                    lineNumber: 657,
+                                                                    lineNumber: 654,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -961,13 +933,13 @@ function ShortBreaks() {
                                                                     children: destination.distance
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/short-breaks/page.tsx",
-                                                                    lineNumber: 658,
+                                                                    lineNumber: 655,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/short-breaks/page.tsx",
-                                                            lineNumber: 656,
+                                                            lineNumber: 653,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
@@ -990,7 +962,7 @@ function ShortBreaks() {
                                                     children: destination.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/short-breaks/page.tsx",
-                                                    lineNumber: 665,
+                                                    lineNumber: 662,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1002,19 +974,19 @@ function ShortBreaks() {
                                                                 className: "w-5 h-5"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/short-breaks/page.tsx",
-                                                                lineNumber: 670,
+                                                                lineNumber: 667,
                                                                 columnNumber: 23
                                                             }, this),
                                                             destination.specialFeature
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/short-breaks/page.tsx",
-                                                        lineNumber: 669,
+                                                        lineNumber: 666,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/short-breaks/page.tsx",
-                                                    lineNumber: 668,
+                                                    lineNumber: 665,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1026,75 +998,37 @@ function ShortBreaks() {
                                                                 className: "w-5 h-5"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/short-breaks/page.tsx",
-                                                                lineNumber: 678,
+                                                                lineNumber: 675,
                                                                 columnNumber: 23
                                                             }, this),
                                                             destination.cuisine
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/short-breaks/page.tsx",
-                                                        lineNumber: 677,
+                                                        lineNumber: 674,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/short-breaks/page.tsx",
-                                                    lineNumber: 676,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "flex items-center justify-between mb-6",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "flex items-center gap-2 text-gray-600",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
-                                                                    className: "w-5 h-5"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/short-breaks/page.tsx",
-                                                                    lineNumber: 686,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "font-medium",
-                                                                    children: destination.duration
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/short-breaks/page.tsx",
-                                                                    lineNumber: 687,
-                                                                    columnNumber: 23
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/app/short-breaks/page.tsx",
-                                                            lineNumber: 685,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "text-xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent",
-                                                            children: destination.price
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/short-breaks/page.tsx",
-                                                            lineNumber: 689,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/app/short-breaks/page.tsx",
-                                                    lineNumber: 684,
+                                                    lineNumber: 673,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                     href: "/book-tour",
                                                     className: "w-full bg-gradient-to-r from-blue-600 to-cyan-600 text-white py-4 rounded-xl hover:from-blue-700 hover:to-cyan-700 transition-all text-center block font-bold shadow-lg hover:shadow-xl transform hover:scale-105",
-                                                    children: "Book Custom Package"
-                                                }, void 0, false, {
+                                                    children: [
+                                                        "Book Now For ",
+                                                        destination.duration
+                                                    ]
+                                                }, void 0, true, {
                                                     fileName: "[project]/app/short-breaks/page.tsx",
-                                                    lineNumber: 694,
+                                                    lineNumber: 683,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/short-breaks/page.tsx",
-                                            lineNumber: 664,
+                                            lineNumber: 661,
                                             columnNumber: 17
                                         }, this)
                                     ]
@@ -1134,7 +1068,7 @@ function ShortBreaks() {
                                             className: "w-4 h-4 mr-2"
                                         }, void 0, false, {
                                             fileName: "[project]/app/short-breaks/page.tsx",
-                                            lineNumber: 712,
+                                            lineNumber: 701,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1142,13 +1076,13 @@ function ShortBreaks() {
                                             children: "Must Try Local Cuisine"
                                         }, void 0, false, {
                                             fileName: "[project]/app/short-breaks/page.tsx",
-                                            lineNumber: 713,
+                                            lineNumber: 702,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/short-breaks/page.tsx",
-                                    lineNumber: 711,
+                                    lineNumber: 700,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1156,7 +1090,7 @@ function ShortBreaks() {
                                     children: "Authentic Bengali Flavors"
                                 }, void 0, false, {
                                     fileName: "[project]/app/short-breaks/page.tsx",
-                                    lineNumber: 715,
+                                    lineNumber: 704,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1164,13 +1098,13 @@ function ShortBreaks() {
                                     children: "We highly recommend authentic Bengali cuisine featuring Fish – Crab – Prawn – Lamb curries & Vegetable preparations & Rice, Rosogolla, Mishti Doi & Sondesh. Experience the true flavors of Bengal!"
                                 }, void 0, false, {
                                     fileName: "[project]/app/short-breaks/page.tsx",
-                                    lineNumber: 716,
+                                    lineNumber: 705,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/short-breaks/page.tsx",
-                            lineNumber: 710,
+                            lineNumber: 699,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1186,12 +1120,12 @@ function ShortBreaks() {
                                                 children: "🐟"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/short-breaks/page.tsx",
-                                                lineNumber: 725,
+                                                lineNumber: 714,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/short-breaks/page.tsx",
-                                            lineNumber: 724,
+                                            lineNumber: 713,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1199,7 +1133,7 @@ function ShortBreaks() {
                                             children: "Authentic Fish Curries"
                                         }, void 0, false, {
                                             fileName: "[project]/app/short-breaks/page.tsx",
-                                            lineNumber: 727,
+                                            lineNumber: 716,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1207,13 +1141,13 @@ function ShortBreaks() {
                                             children: "Fresh river and sea fish prepared with traditional Bengali spices and mustard oil, bringing you the true taste of Bengal's waters"
                                         }, void 0, false, {
                                             fileName: "[project]/app/short-breaks/page.tsx",
-                                            lineNumber: 728,
+                                            lineNumber: 717,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/short-breaks/page.tsx",
-                                    lineNumber: 723,
+                                    lineNumber: 712,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1226,12 +1160,12 @@ function ShortBreaks() {
                                                 children: "🦐"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/short-breaks/page.tsx",
-                                                lineNumber: 732,
+                                                lineNumber: 721,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/short-breaks/page.tsx",
-                                            lineNumber: 731,
+                                            lineNumber: 720,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1239,7 +1173,7 @@ function ShortBreaks() {
                                             children: "Crab & Prawn Delicacies"
                                         }, void 0, false, {
                                             fileName: "[project]/app/short-breaks/page.tsx",
-                                            lineNumber: 734,
+                                            lineNumber: 723,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1247,13 +1181,13 @@ function ShortBreaks() {
                                             children: "Coastal specialties featuring fresh seafood with authentic Bengali preparations, perfect for seafood lovers"
                                         }, void 0, false, {
                                             fileName: "[project]/app/short-breaks/page.tsx",
-                                            lineNumber: 735,
+                                            lineNumber: 724,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/short-breaks/page.tsx",
-                                    lineNumber: 730,
+                                    lineNumber: 719,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1266,12 +1200,12 @@ function ShortBreaks() {
                                                 children: "🍮"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/short-breaks/page.tsx",
-                                                lineNumber: 739,
+                                                lineNumber: 728,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/short-breaks/page.tsx",
-                                            lineNumber: 738,
+                                            lineNumber: 727,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1279,7 +1213,7 @@ function ShortBreaks() {
                                             children: "Traditional Sweets"
                                         }, void 0, false, {
                                             fileName: "[project]/app/short-breaks/page.tsx",
-                                            lineNumber: 741,
+                                            lineNumber: 730,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1287,30 +1221,30 @@ function ShortBreaks() {
                                             children: "Famous Rosogolla, Mishti Doi & Sondesh - the perfect end to your Bengali meal with centuries-old recipes"
                                         }, void 0, false, {
                                             fileName: "[project]/app/short-breaks/page.tsx",
-                                            lineNumber: 742,
+                                            lineNumber: 731,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/short-breaks/page.tsx",
-                                    lineNumber: 737,
+                                    lineNumber: 726,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/short-breaks/page.tsx",
-                            lineNumber: 722,
+                            lineNumber: 711,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/short-breaks/page.tsx",
-                    lineNumber: 709,
+                    lineNumber: 698,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/short-breaks/page.tsx",
-                lineNumber: 708,
+                lineNumber: 697,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1328,7 +1262,7 @@ function ShortBreaks() {
                                             className: "w-4 h-4 mr-2"
                                         }, void 0, false, {
                                             fileName: "[project]/app/short-breaks/page.tsx",
-                                            lineNumber: 753,
+                                            lineNumber: 742,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1336,13 +1270,13 @@ function ShortBreaks() {
                                             children: "Why Choose Us"
                                         }, void 0, false, {
                                             fileName: "[project]/app/short-breaks/page.tsx",
-                                            lineNumber: 754,
+                                            lineNumber: 743,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/short-breaks/page.tsx",
-                                    lineNumber: 752,
+                                    lineNumber: 741,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1350,7 +1284,7 @@ function ShortBreaks() {
                                     children: "Why Choose Bengal Short Breaks?"
                                 }, void 0, false, {
                                     fileName: "[project]/app/short-breaks/page.tsx",
-                                    lineNumber: 756,
+                                    lineNumber: 745,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1358,13 +1292,13 @@ function ShortBreaks() {
                                     children: "Experience the perfect blend of culture, nature, and adventure with our carefully crafted packages"
                                 }, void 0, false, {
                                     fileName: "[project]/app/short-breaks/page.tsx",
-                                    lineNumber: 757,
+                                    lineNumber: 746,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/short-breaks/page.tsx",
-                            lineNumber: 751,
+                            lineNumber: 740,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1378,12 +1312,12 @@ function ShortBreaks() {
                                                 className: "w-10 h-10 text-blue-600"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/short-breaks/page.tsx",
-                                                lineNumber: 766,
+                                                lineNumber: 755,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/short-breaks/page.tsx",
-                                            lineNumber: 765,
+                                            lineNumber: 754,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1391,7 +1325,7 @@ function ShortBreaks() {
                                             children: feature.title
                                         }, void 0, false, {
                                             fileName: "[project]/app/short-breaks/page.tsx",
-                                            lineNumber: 768,
+                                            lineNumber: 757,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1399,29 +1333,29 @@ function ShortBreaks() {
                                             children: feature.description
                                         }, void 0, false, {
                                             fileName: "[project]/app/short-breaks/page.tsx",
-                                            lineNumber: 769,
+                                            lineNumber: 758,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/app/short-breaks/page.tsx",
-                                    lineNumber: 764,
+                                    lineNumber: 753,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/short-breaks/page.tsx",
-                            lineNumber: 762,
+                            lineNumber: 751,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/short-breaks/page.tsx",
-                    lineNumber: 750,
+                    lineNumber: 739,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/short-breaks/page.tsx",
-                lineNumber: 749,
+                lineNumber: 738,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PackagePricing$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -1429,12 +1363,12 @@ function ShortBreaks() {
                 subtitle: "Choose your perfect quick getaway duration"
             }, void 0, false, {
                 fileName: "[project]/app/short-breaks/page.tsx",
-                lineNumber: 776,
+                lineNumber: 765,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/short-breaks/page.tsx",
-                lineNumber: 782,
+                lineNumber: 771,
                 columnNumber: 7
             }, this)
         ]

@@ -10,7 +10,7 @@ export default function ShortBreaks() {
     {
       name: "Ajodhya Pahar in Purulia",
       description: "Experience the famous Hunting Festival with tribal culture and scenic beauty",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.7,
@@ -21,7 +21,7 @@ export default function ShortBreaks() {
     {
       name: "Baranti in Purulia",
       description: "Serene reservoir surrounded by hills, perfect for nature lovers",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1540202404-1b9279c8c475?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.6,
@@ -32,7 +32,7 @@ export default function ShortBreaks() {
     {
       name: "Bishnupur in Bankura",
       description: "Terracotta temples and famous Baluchari sarees with rich cultural heritage",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.8,
@@ -43,7 +43,7 @@ export default function ShortBreaks() {
     {
       name: "Bethuaduari in Nadia",
       description: "Historical fort with archaeological significance",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1516426122078-c41e6e1bdffb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.4,
@@ -54,7 +54,7 @@ export default function ShortBreaks() {
     {
       name: "Bakkhali in South 24-Parganas",
       description: "Pristine beach with casuarina groves and stunning sunsets",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.5,
@@ -65,7 +65,7 @@ export default function ShortBreaks() {
     {
       name: "Belun Gram in Katwa",
       description: "Rural Bengal experience with traditional village life",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.3,
@@ -76,7 +76,7 @@ export default function ShortBreaks() {
     {
       name: "Baguran Jalpai in East Midnapore",
       description: "Beautiful beach destination with coastal charm",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.4,
@@ -87,7 +87,7 @@ export default function ShortBreaks() {
     {
       name: "Ballavpur Forest in Birbhum",
       description: "Dense forest with diverse wildlife and nature trails",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.6,
@@ -98,7 +98,7 @@ export default function ShortBreaks() {
     {
       name: "Bakreshwar in Birbhum",
       description: "Sacred hot water springs with religious significance",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.7,
@@ -109,7 +109,7 @@ export default function ShortBreaks() {
     {
       name: "Bawali Rajbari in Budge Budge",
       description: "Heritage mansion showcasing colonial architecture",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1614850523296-d8c1e4edc8e1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.8,
@@ -120,7 +120,7 @@ export default function ShortBreaks() {
     {
       name: "Bandel in Hooghly",
       description: "Historical Portuguese settlement with ancient church",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1589822909392-6b9aba4398a9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.5,
@@ -131,7 +131,7 @@ export default function ShortBreaks() {
     {
       name: "Chandarnagar in Hooghly",
       description: "Former French colony with colonial architecture and museums",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.6,
@@ -142,7 +142,7 @@ export default function ShortBreaks() {
     {
       name: "Dashghara in Chinsura",
       description: "Former Dutch settlement with historical significance",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1516426122078-c41e6e1bdffb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.4,
@@ -153,7 +153,7 @@ export default function ShortBreaks() {
     {
       name: "Deulti in Howrah",
       description: "Riverside retreat with literary connections",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1540202404-1b9279c8c475?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.3,
@@ -164,7 +164,7 @@ export default function ShortBreaks() {
     {
       name: "Digha & Mandarmoni",
       description: "Twin beach destinations with famous Beach Festival",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1761933810905-ccc35b14d937?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.6,
@@ -175,7 +175,7 @@ export default function ShortBreaks() {
     {
       name: "Diamond Harbour in South 24-Parganas",
       description: "Confluence of Hooghly River with Bay of Bengal",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.4,
@@ -186,7 +186,7 @@ export default function ShortBreaks() {
     {
       name: "Falta & Raichak in South 24-Parganas",
       description: "Historical places with scenic riverside views",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1589822909392-6b9aba4398a9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.5,
@@ -197,7 +197,7 @@ export default function ShortBreaks() {
     {
       name: "Farm House in Basanti",
       description: "Rural farm experience near Sundarbans",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.3,
@@ -208,7 +208,7 @@ export default function ShortBreaks() {
     {
       name: "Farm House in Hasnabad",
       description: "Countryside experience with rural lifestyle",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1540202404-1b9279c8c475?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.3,
@@ -219,7 +219,7 @@ export default function ShortBreaks() {
     {
       name: "Farm House in Usthi",
       description: "Agricultural tourism with local farming experience",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.2,
@@ -230,7 +230,7 @@ export default function ShortBreaks() {
     {
       name: "Fulia & Shantipur in Nadia",
       description: "Famous for cotton handloom sarees and weaving traditions",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.7,
@@ -241,7 +241,7 @@ export default function ShortBreaks() {
     {
       name: "Gadiara & Goenkhali in Howrah",
       description: "Riverside confluence points with scenic beauty",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1540202404-1b9279c8c475?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.4,
@@ -252,7 +252,7 @@ export default function ShortBreaks() {
     {
       name: "Gangani in Garbeta",
       description: "Known as the Grand Canyon of Bengal",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.6,
@@ -263,7 +263,7 @@ export default function ShortBreaks() {
     {
       name: "Garh Jungle & Deul Park in Durgapur",
       description: "Ancient jungle with historical ruins",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.5,
@@ -274,7 +274,7 @@ export default function ShortBreaks() {
     {
       name: "Garh Panchkot in Purulia",
       description: "Historical fort with famous Chhau Dance Festival",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1516426122078-c41e6e1bdffb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.7,
@@ -283,9 +283,9 @@ export default function ShortBreaks() {
       cuisine: "Tribal & Purulia specialities"
     },
     {
-      name: "Ganga Sagar Island",
+    name: "Ganga Sagar Iland with Bakkhali",
       description: "Sacred pilgrimage site with Kapil Muni's Ashram and Holy Dip",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1540202404-1b9279c8c475?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.8,
@@ -296,7 +296,7 @@ export default function ShortBreaks() {
     {
       name: "Hadal Narayanpur in Bankura",
       description: "Famous for Dokra metal artefacts and tribal crafts",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.6,
@@ -307,7 +307,7 @@ export default function ShortBreaks() {
     {
       name: "Hazarduari Palace in Murshidabad",
       description: "Grand palace with thousand doors and famous Murshidabad Silk",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1614850523296-d8c1e4edc8e1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.9,
@@ -318,7 +318,7 @@ export default function ShortBreaks() {
     {
       name: "Itachuna Rajbari in Pandua",
       description: "Heritage mansion showcasing Bengali aristocracy",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1589822909392-6b9aba4398a9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.7,
@@ -329,7 +329,7 @@ export default function ShortBreaks() {
     {
       name: "Jharkhali in Sunderban",
       description: "Mangrove forest trail with wildlife experience",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.6,
@@ -340,7 +340,7 @@ export default function ShortBreaks() {
     {
       name: "Jangalmahal & Belpahari in Jhargram",
       description: "Tribal village experience with authentic tribal culture",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.5,
@@ -351,7 +351,7 @@ export default function ShortBreaks() {
     {
       name: "Joypur Forest in Bankura",
       description: "Dense forest with natural beauty and wildlife",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.6,
@@ -362,7 +362,7 @@ export default function ShortBreaks() {
     {
       name: "Kolkata",
       description: "Cultural hub with Film Festival, Book Fair, Durga Puja Carnival & Food Trails",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.8,
@@ -373,7 +373,7 @@ export default function ShortBreaks() {
     {
       name: "Kolaghat in East Midnapore",
       description: "Riverside town with industrial heritage",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1540202404-1b9279c8c475?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.3,
@@ -384,7 +384,7 @@ export default function ShortBreaks() {
     {
       name: "Krishnanagar in Nadia",
       description: "Famous for clay modelling and traditional crafts",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.5,
@@ -395,7 +395,7 @@ export default function ShortBreaks() {
     {
       name: "Machranga Island in Hasnabad",
       description: "Island paradise with natural beauty",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.4,
@@ -406,7 +406,7 @@ export default function ShortBreaks() {
     {
       name: "Mousuni Island in South 24-Parganas",
       description: "Pristine island with beach and rural life",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.5,
@@ -417,7 +417,7 @@ export default function ShortBreaks() {
     {
       name: "Mayapur – Isckon Temple in Nadia",
       description: "Spiritual destination with famous Chariot Festival of Lord Jagannath",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1589822909392-6b9aba4398a9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.8,
@@ -428,7 +428,7 @@ export default function ShortBreaks() {
     {
       name: "Mahisadal Rajbari in Haldia",
       description: "Heritage mansion with colonial architecture",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1614850523296-d8c1e4edc8e1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.6,
@@ -439,7 +439,7 @@ export default function ShortBreaks() {
     {
       name: "Mukutmonipur in Bankura",
       description: "Scenic dam surrounded by hills and forests",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.7,
@@ -450,7 +450,7 @@ export default function ShortBreaks() {
     {
       name: "Monchasha in East Midnapore",
       description: "Eco-tourism destination with rural experience",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.5,
@@ -461,7 +461,7 @@ export default function ShortBreaks() {
     {
       name: "Piyali Island in Sunderban",
       description: "Gateway to Sundarbans with mangrove experience",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.4,
@@ -472,7 +472,7 @@ export default function ShortBreaks() {
     {
       name: "Serampore",
       description: "Former Dutch colony with historical significance",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1589822909392-6b9aba4398a9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.5,
@@ -483,7 +483,7 @@ export default function ShortBreaks() {
     {
       name: "Santiniketan & Bolpur in Birbhum",
       description: "Tagore's abode with Basant Utsav/Holi & Batik Handicraft",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1589822909392-6b9aba4398a9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.9,
@@ -494,7 +494,7 @@ export default function ShortBreaks() {
     {
       name: "Sobuj Deep in Hooghly",
       description: "Green island with natural beauty",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.3,
@@ -505,7 +505,7 @@ export default function ShortBreaks() {
     {
       name: "Susunia Pahar in Bankura",
       description: "Hill destination with Adivasi or Tribal Hamlets",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.6,
@@ -516,7 +516,7 @@ export default function ShortBreaks() {
     {
       name: "Tarapith in Rampurhat",
       description: "Sacred Shakti Peeth with religious significance",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1589822909392-6b9aba4398a9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.8,
@@ -527,7 +527,7 @@ export default function ShortBreaks() {
     {
       name: "Tarakeswar",
       description: "Famed Shiva Temple with religious importance",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1589822909392-6b9aba4398a9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.7,
@@ -538,7 +538,7 @@ export default function ShortBreaks() {
     {
       name: "Taki / Petrapole in Hasnabad",
       description: "Border town with Bangladesh and cultural exchange",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1516426122078-c41e6e1bdffb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.4,
@@ -549,7 +549,7 @@ export default function ShortBreaks() {
     {
       name: "Tajpur in East Midnapore",
       description: "Up-coming port town with beautiful beach",
-      duration: "Customizable",
+      duration: "2N/3D",
       price: "On Request",
       image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       rating: 4.5,
@@ -647,10 +647,7 @@ export default function ShortBreaks() {
                   <div className="relative">
                     <div className="flex items-center justify-between mb-3">
                       <h3 className="text-2xl font-bold text-white line-clamp-1">{destination.name}</h3>
-                      <div className="flex items-center gap-1 bg-white/20 backdrop-blur-sm px-3 py-2 rounded-full">
-                        <Star className="w-4 h-4 text-yellow-300 fill-current" />
-                        <span className="text-sm font-bold text-white">{destination.rating}</span>
-                      </div>
+                   
                     </div>
 
                     <div className="inline-flex items-center bg-white/20 backdrop-blur-sm px-3 py-2 rounded-full">
@@ -681,21 +678,13 @@ export default function ShortBreaks() {
                   </div>
 
                   {/* Footer */}
-                  <div className="flex items-center justify-between mb-6">
-                    <div className="flex items-center gap-2 text-gray-600">
-                      <Calendar className="w-5 h-5" />
-                      <span className="font-medium">{destination.duration}</span>
-                    </div>
-                    <div className="text-xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
-                      {destination.price}
-                    </div>
-                  </div>
+               
 
                   <Link
                     href="/book-tour"
                     className="w-full bg-gradient-to-r from-blue-600 to-cyan-600 text-white py-4 rounded-xl hover:from-blue-700 hover:to-cyan-700 transition-all text-center block font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
                   >
-                    Book Custom Package
+                    Book Now For {destination.duration}
                   </Link>
                 </div>
               </div>
