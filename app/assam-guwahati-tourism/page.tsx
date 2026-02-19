@@ -111,7 +111,6 @@ export default function AssamGuwahatiTourismPage() {
               <div className="flex items-center justify-between">
                 <div>
                   <h3 className="text-3xl font-bold mb-2">North-East Budget Tour</h3>
-                  <p className="text-green-100">6 Days / 5 Nights Complete Package</p>
                 </div>
                 <div className="text-right">
                   <div className="text-4xl font-bold mb-2">Budget Friendly</div>

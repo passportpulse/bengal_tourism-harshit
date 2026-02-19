@@ -66,7 +66,7 @@ export default function RajasthanTourismPage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Rajasthan Circuit Package</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Jodhpur - Udaipur - Jaipur - Mt. Abu - 6N/7D
+              Jodhpur - Udaipur - Jaipur - Mt. Abu
             </p>
           </div>
 

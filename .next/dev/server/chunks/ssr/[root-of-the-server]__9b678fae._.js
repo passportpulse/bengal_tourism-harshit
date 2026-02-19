@@ -1113,7 +1113,7 @@ function AndamanNicobarTourismPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-xl text-gray-600 max-w-3xl mx-auto",
-                                    children: "6N/7D - Cellular Jail & Marine Life"
+                                    children: "Cellular Jail & Marine Life"
                                 }, void 0, false, {
                                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
                                     lineNumber: 68,
@@ -1510,7 +1510,7 @@ function AndamanNicobarTourismPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-xl text-gray-600 max-w-3xl mx-auto",
-                                    children: "4N/7D - Beach Paradise & Island Adventure"
+                                    children: "Beach Paradise & Island Adventure"
                                 }, void 0, false, {
                                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
                                     lineNumber: 181,
@@ -1842,7 +1842,7 @@ function AndamanNicobarTourismPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-xl text-gray-600 max-w-3xl mx-auto",
-                                    children: "3N/7D - Beach Paradise & Turtle Nesting"
+                                    children: "Beach Paradise & Turtle Nesting"
                                 }, void 0, false, {
                                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
                                     lineNumber: 275,
@@ -2174,7 +2174,7 @@ function AndamanNicobarTourismPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-xl text-gray-600 max-w-3xl mx-auto",
-                                    children: "6N/7D - Island Treasure Hunt"
+                                    children: "Island Treasure Hunt"
                                 }, void 0, false, {
                                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
                                     lineNumber: 367,

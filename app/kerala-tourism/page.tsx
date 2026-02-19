@@ -66,7 +66,7 @@ export default function KeralaTourismPage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Kerala Circuit Package</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Cochin - Munnar - Thekkady - Alleppey - 5N/6D
+              Cochin - Munnar - Thekkady - Alleppey 
             </p>
           </div>
 

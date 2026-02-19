@@ -1114,7 +1114,7 @@ function HimachalTourismPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-xl text-gray-600 max-w-3xl mx-auto",
-                                    children: "Simla - Kullu Manali - Dehradun - Muissourie - 6N/7D"
+                                    children: "Simla - Kullu Manali - Dehradun - Muissourie"
                                 }, void 0, false, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
                                     lineNumber: 70,
@@ -1603,7 +1603,7 @@ function HimachalTourismPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-xl text-gray-600 max-w-3xl mx-auto",
-                                    children: "Wagah Border - Golden Temple - 2N/3D"
+                                    children: "Wagah Border - Golden Temple"
                                 }, void 0, false, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
                                     lineNumber: 225,

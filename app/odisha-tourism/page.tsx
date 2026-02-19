@@ -66,7 +66,7 @@ export default function OdishaTourismPage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Golden Beach Puri</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              With Konark, Chilika & Bhubaneswar - 4N/5D
+              With Konark, Chilika & Bhubaneswar
             </p>
           </div>
 

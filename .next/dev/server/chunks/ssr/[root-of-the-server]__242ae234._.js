@@ -1113,7 +1113,7 @@ function JammuKashmirTourismPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-xl text-gray-600 max-w-3xl mx-auto",
-                                    children: "Srinagar - Gulmarg - Sonmarg - Pahalgam - 5N/6D"
+                                    children: "Srinagar - Gulmarg - Sonmarg - Pahalgam "
                                 }, void 0, false, {
                                     fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
                                     lineNumber: 68,
@@ -1143,7 +1143,7 @@ function JammuKashmirTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 80,
+                                                                lineNumber: 79,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1151,13 +1151,13 @@ function JammuKashmirTourismPage() {
                                                                 children: "Day 1: Arrival in Srinagar"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 81,
+                                                                lineNumber: 80,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 79,
+                                                        lineNumber: 78,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1165,13 +1165,13 @@ function JammuKashmirTourismPage() {
                                                         children: "Our services start with your arrival at Jammu Railway Station (or) Srinagar Airport. Meet & greet and transfer to Houseboat at Srinagar (or) Hotel at Srinagar. Check-in at Hotel. Lunch break. Rest of the day at leisure. Evening free at your own. Dinner & Overnight stay at Hotel/Resort (or) Houseboat at Dal Lake / Srinagar."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 83,
+                                                        lineNumber: 82,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                lineNumber: 78,
+                                                lineNumber: 77,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1184,7 +1184,7 @@ function JammuKashmirTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 96,
+                                                                lineNumber: 95,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1192,13 +1192,13 @@ function JammuKashmirTourismPage() {
                                                                 children: "Day 2: Srinagar Local Sightseeing"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 97,
+                                                                lineNumber: 96,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 95,
+                                                        lineNumber: 94,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1206,13 +1206,13 @@ function JammuKashmirTourismPage() {
                                                         children: "After breakfast, visit Mughal Gardens, Chashmi-e Shahi, Nishat & Shalimar Bagh. Lunch en-route. In the afternoon, enjoy a Shikara ride on the Dal Lake. Evening free at your own. Dinner & Overnight stay at Hotel/Resort at Srinagar."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 99,
+                                                        lineNumber: 98,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                lineNumber: 94,
+                                                lineNumber: 93,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1225,7 +1225,7 @@ function JammuKashmirTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 110,
+                                                                lineNumber: 109,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1233,13 +1233,13 @@ function JammuKashmirTourismPage() {
                                                                 children: "Day 3: Sonmarg Excursion"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 111,
+                                                                lineNumber: 110,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 109,
+                                                        lineNumber: 108,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1247,13 +1247,13 @@ function JammuKashmirTourismPage() {
                                                         children: "After breakfast, proceed for a full day excursion of Sonmarg, which is one of the most beautiful drives from Srinagar. Lunch en-route. You may take a pony ride (at your own cost) to Thajiwas Glacier where snow remains round the year. Return to Hotel by evening. Evening free at your own. Dinner & Overnight stay at Hotel/Resort at Srinagar."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 113,
+                                                        lineNumber: 112,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                lineNumber: 108,
+                                                lineNumber: 107,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1266,7 +1266,7 @@ function JammuKashmirTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 126,
+                                                                lineNumber: 125,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1274,13 +1274,13 @@ function JammuKashmirTourismPage() {
                                                                 children: "Day 4: Gulmarg - Meadow of Flowers"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 127,
+                                                                lineNumber: 126,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 125,
+                                                        lineNumber: 124,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1288,13 +1288,13 @@ function JammuKashmirTourismPage() {
                                                         children: "After breakfast, you will proceed for a full day excursion to Gulmarg, Meadow of Flowers, situated at an altitude of 2730 meters, full day at leisure to take leisurely walks on the lush green meadows of flowers with a backdrop of snow capped mountains. Lunch en-route. Enjoy pony ride or Gondola ride (rope way) to Khillan Marg at your own cost. Return to Hotel by evening. Evening free at your own. Dinner & Overnight stay at Hotel/Resort at Pahalgam / Srinagar (or) Drop to Jammu Airport/Railway Station for your onward journey. Tour ends..."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 129,
+                                                        lineNumber: 128,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                lineNumber: 124,
+                                                lineNumber: 123,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1307,7 +1307,7 @@ function JammuKashmirTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 144,
+                                                                lineNumber: 143,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1315,13 +1315,13 @@ function JammuKashmirTourismPage() {
                                                                 children: "Day 5: Pahalgam"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 145,
+                                                                lineNumber: 144,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 143,
+                                                        lineNumber: 142,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1329,13 +1329,13 @@ function JammuKashmirTourismPage() {
                                                         children: "After breakfast, you will proceed for Pahalgam, The Valley of Shepherds, located on the bank of beautiful Lidder River. Return to Hotel by evening. Evening free at your own. Dinner & Overnight stay at Hotel/Resort at Pahalgam / Srinagar (or) Drop to Jammu Airport/Railway Station for your onward journey. Tour ends..."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 147,
+                                                        lineNumber: 146,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                lineNumber: 142,
+                                                lineNumber: 141,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1348,7 +1348,7 @@ function JammuKashmirTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 160,
+                                                                lineNumber: 159,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1356,13 +1356,13 @@ function JammuKashmirTourismPage() {
                                                                 children: "Day 6: Local Day"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 161,
+                                                                lineNumber: 160,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 159,
+                                                        lineNumber: 158,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1370,13 +1370,13 @@ function JammuKashmirTourismPage() {
                                                         children: "After breakfast, your day is on your own for marketing or visit any place of attraction of your choice. Lunch en-route. Evening free at your own. Dinner & Overnight stay at Hotel/Resort at Srinagar."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 163,
+                                                        lineNumber: 162,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                lineNumber: 158,
+                                                lineNumber: 157,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1389,7 +1389,7 @@ function JammuKashmirTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 174,
+                                                                lineNumber: 173,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1397,13 +1397,13 @@ function JammuKashmirTourismPage() {
                                                                 children: "Day 7: Departure"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 175,
+                                                                lineNumber: 174,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 173,
+                                                        lineNumber: 172,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1411,13 +1411,13 @@ function JammuKashmirTourismPage() {
                                                         children: "After breakfast, check out of Hotel and get driven to Jammu Railway Station / Srinagar Airport for your return journey. Tour ends..."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 177,
+                                                        lineNumber: 176,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                lineNumber: 172,
+                                                lineNumber: 171,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1428,7 +1428,7 @@ function JammuKashmirTourismPage() {
                                                         children: "Package Highlights"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 184,
+                                                        lineNumber: 183,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1441,7 +1441,7 @@ function JammuKashmirTourismPage() {
                                                                         className: "w-4 h-4 text-green-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                        lineNumber: 187,
+                                                                        lineNumber: 186,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1449,13 +1449,13 @@ function JammuKashmirTourismPage() {
                                                                         children: "Houseboat Stay on Dal Lake"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                        lineNumber: 188,
+                                                                        lineNumber: 187,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 186,
+                                                                lineNumber: 185,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1465,7 +1465,7 @@ function JammuKashmirTourismPage() {
                                                                         className: "w-4 h-4 text-green-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                        lineNumber: 191,
+                                                                        lineNumber: 190,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1473,13 +1473,13 @@ function JammuKashmirTourismPage() {
                                                                         children: "Shikara Ride on Dal Lake"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                        lineNumber: 192,
+                                                                        lineNumber: 191,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 190,
+                                                                lineNumber: 189,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1489,7 +1489,7 @@ function JammuKashmirTourismPage() {
                                                                         className: "w-4 h-4 text-green-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                        lineNumber: 195,
+                                                                        lineNumber: 194,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1497,13 +1497,13 @@ function JammuKashmirTourismPage() {
                                                                         children: "Mughal Gardens & Nishat Bagh"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                        lineNumber: 196,
+                                                                        lineNumber: 195,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 194,
+                                                                lineNumber: 193,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1513,7 +1513,7 @@ function JammuKashmirTourismPage() {
                                                                         className: "w-4 h-4 text-green-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                        lineNumber: 199,
+                                                                        lineNumber: 198,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1521,46 +1521,46 @@ function JammuKashmirTourismPage() {
                                                                         children: "Sonmarg - Thajiwas Glacier"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                        lineNumber: 200,
+                                                                        lineNumber: 199,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 198,
+                                                                lineNumber: 197,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 185,
+                                                        lineNumber: 184,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                lineNumber: 183,
+                                                lineNumber: 182,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                        lineNumber: 76,
+                                        lineNumber: 75,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                    lineNumber: 75,
+                                    lineNumber: 74,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                lineNumber: 74,
+                                lineNumber: 73,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                            lineNumber: 73,
+                            lineNumber: 72,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1587,21 +1587,21 @@ function JammuKashmirTourismPage() {
                                     children: "Vaishno Devi Darshan Add-on"
                                 }, void 0, false, {
                                     fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                    lineNumber: 215,
+                                    lineNumber: 214,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-xl text-gray-600 max-w-3xl mx-auto",
-                                    children: "Jammu - Katra - 2N/3D"
+                                    children: "Jammu - Katra"
                                 }, void 0, false, {
                                     fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                    lineNumber: 216,
+                                    lineNumber: 215,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                            lineNumber: 214,
+                            lineNumber: 213,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1622,7 +1622,7 @@ function JammuKashmirTourismPage() {
                                                                 className: "w-5 h-5 text-orange-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 228,
+                                                                lineNumber: 227,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1630,13 +1630,13 @@ function JammuKashmirTourismPage() {
                                                                 children: "Day 1: Arrival at Jammu"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 229,
+                                                                lineNumber: 228,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 227,
+                                                        lineNumber: 226,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1644,13 +1644,13 @@ function JammuKashmirTourismPage() {
                                                         children: "On Arrival at Jammu Airport/Railway Station, meet assistance & transfer to Hotel at Katra. Breakfast en-route. Check-in at Hotel and relax for a while. Lunch break. Start your trekking journey for Darshan of Divine Shrine Vaishno Devi. Offer prayer. Lunch in any of the Langars en-route. After returning from Temple, rest of the day at leisure. Dinner & Overnight stay at Hotel at Katra."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 231,
+                                                        lineNumber: 230,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                lineNumber: 226,
+                                                lineNumber: 225,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1663,7 +1663,7 @@ function JammuKashmirTourismPage() {
                                                                 className: "w-5 h-5 text-orange-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 245,
+                                                                lineNumber: 244,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1671,13 +1671,13 @@ function JammuKashmirTourismPage() {
                                                                 children: "Day 2: Trekking Journey"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 246,
+                                                                lineNumber: 245,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 244,
+                                                        lineNumber: 243,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1685,13 +1685,13 @@ function JammuKashmirTourismPage() {
                                                         children: "Start your trekking journey (15 km) early morning on foot for Darshan of Divine Shrine Vaishno Devi. Offer prayer. Lunch in any of the Langars en-route. After returning from Temple, rest of the day at leisure. Dinner & Overnight stay at Hotel at Katra."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 248,
+                                                        lineNumber: 247,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                lineNumber: 243,
+                                                lineNumber: 242,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1704,7 +1704,7 @@ function JammuKashmirTourismPage() {
                                                                 className: "w-5 h-5 text-orange-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 259,
+                                                                lineNumber: 258,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1712,13 +1712,13 @@ function JammuKashmirTourismPage() {
                                                                 children: "Day 3: Srinagar Transfer"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 260,
+                                                                lineNumber: 259,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 258,
+                                                        lineNumber: 257,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1726,13 +1726,13 @@ function JammuKashmirTourismPage() {
                                                         children: "Early morning breakfast & proceed towards Srinagar. Check into Hotel at Srinagar/Jammu. Dinner & Overnight stay at Hotel/Resort at Jammu / Srinagar (or) Drop to Jammu Airport/Railway Station for your onward journey. Tour end..."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 262,
+                                                        lineNumber: 261,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                lineNumber: 257,
+                                                lineNumber: 256,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1743,7 +1743,7 @@ function JammuKashmirTourismPage() {
                                                         children: "Vaishno Devi Highlights"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 271,
+                                                        lineNumber: 270,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1756,7 +1756,7 @@ function JammuKashmirTourismPage() {
                                                                         className: "w-4 h-4 text-orange-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                        lineNumber: 274,
+                                                                        lineNumber: 273,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1764,13 +1764,13 @@ function JammuKashmirTourismPage() {
                                                                         children: "Sacred Trek to Vaishno Devi"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                        lineNumber: 275,
+                                                                        lineNumber: 274,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 273,
+                                                                lineNumber: 272,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1780,7 +1780,7 @@ function JammuKashmirTourismPage() {
                                                                         className: "w-4 h-4 text-orange-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                        lineNumber: 278,
+                                                                        lineNumber: 277,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1788,13 +1788,13 @@ function JammuKashmirTourismPage() {
                                                                         children: "Traditional Langars"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                        lineNumber: 279,
+                                                                        lineNumber: 278,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 277,
+                                                                lineNumber: 276,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1804,7 +1804,7 @@ function JammuKashmirTourismPage() {
                                                                         className: "w-4 h-4 text-orange-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                        lineNumber: 282,
+                                                                        lineNumber: 281,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1812,57 +1812,57 @@ function JammuKashmirTourismPage() {
                                                                         children: "Scenic Mountain Views"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                        lineNumber: 283,
+                                                                        lineNumber: 282,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                                lineNumber: 281,
+                                                                lineNumber: 280,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 272,
+                                                        lineNumber: 271,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                lineNumber: 270,
+                                                lineNumber: 269,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                        lineNumber: 224,
+                                        lineNumber: 223,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                    lineNumber: 223,
+                                    lineNumber: 222,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                lineNumber: 222,
+                                lineNumber: 221,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                            lineNumber: 221,
+                            lineNumber: 220,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                    lineNumber: 213,
+                    lineNumber: 212,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                lineNumber: 212,
+                lineNumber: 211,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1878,7 +1878,7 @@ function JammuKashmirTourismPage() {
                                     children: "Kashmir Highlights"
                                 }, void 0, false, {
                                     fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                    lineNumber: 298,
+                                    lineNumber: 297,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1886,13 +1886,13 @@ function JammuKashmirTourismPage() {
                                     children: "Key attractions and experiences in paradise on earth"
                                 }, void 0, false, {
                                     fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                    lineNumber: 299,
+                                    lineNumber: 298,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                            lineNumber: 297,
+                            lineNumber: 296,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1905,7 +1905,7 @@ function JammuKashmirTourismPage() {
                                             className: "w-12 h-12 text-blue-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                            lineNumber: 306,
+                                            lineNumber: 305,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1913,7 +1913,7 @@ function JammuKashmirTourismPage() {
                                             children: "Dal Lake"
                                         }, void 0, false, {
                                             fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                            lineNumber: 307,
+                                            lineNumber: 306,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1921,13 +1921,13 @@ function JammuKashmirTourismPage() {
                                             children: "Houseboats, Shikara rides, Mughal gardens"
                                         }, void 0, false, {
                                             fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                            lineNumber: 308,
+                                            lineNumber: 307,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                    lineNumber: 305,
+                                    lineNumber: 304,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1937,7 +1937,7 @@ function JammuKashmirTourismPage() {
                                             className: "w-12 h-12 text-green-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                            lineNumber: 312,
+                                            lineNumber: 311,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1945,7 +1945,7 @@ function JammuKashmirTourismPage() {
                                             children: "Mughal Gardens"
                                         }, void 0, false, {
                                             fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                            lineNumber: 313,
+                                            lineNumber: 312,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1953,13 +1953,13 @@ function JammuKashmirTourismPage() {
                                             children: "Nishat Bagh, Shalimar Bagh, Chashmi-e Shahi"
                                         }, void 0, false, {
                                             fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                            lineNumber: 314,
+                                            lineNumber: 313,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                    lineNumber: 311,
+                                    lineNumber: 310,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1969,7 +1969,7 @@ function JammuKashmirTourismPage() {
                                             className: "w-12 h-12 text-purple-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                            lineNumber: 318,
+                                            lineNumber: 317,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1977,7 +1977,7 @@ function JammuKashmirTourismPage() {
                                             children: "Gulmarg"
                                         }, void 0, false, {
                                             fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                            lineNumber: 319,
+                                            lineNumber: 318,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1985,13 +1985,13 @@ function JammuKashmirTourismPage() {
                                             children: "Meadow of Flowers, Khillan Marg"
                                         }, void 0, false, {
                                             fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                            lineNumber: 320,
+                                            lineNumber: 319,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                    lineNumber: 317,
+                                    lineNumber: 316,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2001,7 +2001,7 @@ function JammuKashmirTourismPage() {
                                             className: "w-12 h-12 text-orange-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                            lineNumber: 324,
+                                            lineNumber: 323,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2009,7 +2009,7 @@ function JammuKashmirTourismPage() {
                                             children: "Sonmarg"
                                         }, void 0, false, {
                                             fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                            lineNumber: 325,
+                                            lineNumber: 324,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2017,13 +2017,13 @@ function JammuKashmirTourismPage() {
                                             children: "Thajiwas Glacier, Snow Point"
                                         }, void 0, false, {
                                             fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                            lineNumber: 326,
+                                            lineNumber: 325,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                    lineNumber: 323,
+                                    lineNumber: 322,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2033,7 +2033,7 @@ function JammuKashmirTourismPage() {
                                             className: "w-12 h-12 text-cyan-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                            lineNumber: 330,
+                                            lineNumber: 329,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2041,7 +2041,7 @@ function JammuKashmirTourismPage() {
                                             children: "Pahalgam"
                                         }, void 0, false, {
                                             fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                            lineNumber: 331,
+                                            lineNumber: 330,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2049,30 +2049,30 @@ function JammuKashmirTourismPage() {
                                             children: "Valley of Shepherds, Lidder River"
                                         }, void 0, false, {
                                             fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                            lineNumber: 332,
+                                            lineNumber: 331,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                    lineNumber: 329,
+                                    lineNumber: 328,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                            lineNumber: 304,
+                            lineNumber: 303,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                    lineNumber: 296,
+                    lineNumber: 295,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                lineNumber: 295,
+                lineNumber: 294,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2089,7 +2089,7 @@ function JammuKashmirTourismPage() {
                                         className: "w-6 h-6 text-yellow-600 flex-shrink-0 mt-1"
                                     }, void 0, false, {
                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                        lineNumber: 343,
+                                        lineNumber: 342,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2099,7 +2099,7 @@ function JammuKashmirTourismPage() {
                                                 children: "Best Time to Visit"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                lineNumber: 345,
+                                                lineNumber: 344,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2109,46 +2109,46 @@ function JammuKashmirTourismPage() {
                                                         children: "• March to May: Pleasant weather, blooming flowers"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 347,
+                                                        lineNumber: 346,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• June to August: Best time for outdoor activities"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 348,
+                                                        lineNumber: 347,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• September to October: Autumn colors, clear skies"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 349,
+                                                        lineNumber: 348,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• November to February: Winter sports and snow activities"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 350,
+                                                        lineNumber: 349,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                lineNumber: 346,
+                                                lineNumber: 345,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                        lineNumber: 344,
+                                        lineNumber: 343,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                lineNumber: 342,
+                                lineNumber: 341,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2158,7 +2158,7 @@ function JammuKashmirTourismPage() {
                                         className: "w-6 h-6 text-blue-600 flex-shrink-0 mt-1"
                                     }, void 0, false, {
                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                        lineNumber: 355,
+                                        lineNumber: 354,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2168,7 +2168,7 @@ function JammuKashmirTourismPage() {
                                                 children: "Travel Tips"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                lineNumber: 357,
+                                                lineNumber: 356,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2178,62 +2178,62 @@ function JammuKashmirTourismPage() {
                                                         children: "• Book houseboats in advance during peak season"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 359,
+                                                        lineNumber: 358,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Carry warm clothing for high-altitude areas"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 360,
+                                                        lineNumber: 359,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Pony rides available at additional cost"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 361,
+                                                        lineNumber: 360,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Respect local customs and traditions"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                        lineNumber: 362,
+                                                        lineNumber: 361,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                                lineNumber: 358,
+                                                lineNumber: 357,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                        lineNumber: 356,
+                                        lineNumber: 355,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                                lineNumber: 354,
+                                lineNumber: 353,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                        lineNumber: 341,
+                        lineNumber: 340,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                    lineNumber: 340,
+                    lineNumber: 339,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                lineNumber: 339,
+                lineNumber: 338,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PackagePricing$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2241,12 +2241,12 @@ function JammuKashmirTourismPage() {
                 subtitle: "Choose your perfect paradise on earth duration"
             }, void 0, false, {
                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                lineNumber: 371,
+                lineNumber: 370,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/jammu-kashmir-tourism/page.tsx",
-                lineNumber: 378,
+                lineNumber: 377,
                 columnNumber: 8
             }, this)
         ]

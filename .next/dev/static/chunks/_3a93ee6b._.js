@@ -1114,7 +1114,7 @@ function KeralaTourismPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-xl text-gray-600 max-w-3xl mx-auto",
-                                    children: "Cochin - Munnar - Thekkady - Alleppey - 5N/6D"
+                                    children: "Cochin - Munnar - Thekkady - Alleppey"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kerala-tourism/page.tsx",
                                     lineNumber: 68,

@@ -66,8 +66,7 @@ export default function SikkimTourismPage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Sikkim & Gangtok</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              With Changu Lake – Nathu La Pass – Baba Mandir - 5N/6D
-            </p>
+              With Changu Lake – Nathu La Pass – Baba Mandir </p>
           </div>
 
           <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 shadow-xl">

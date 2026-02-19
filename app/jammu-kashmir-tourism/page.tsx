@@ -66,8 +66,7 @@ export default function JammuKashmirTourismPage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Jammu & Kashmir Circuit</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Srinagar - Gulmarg - Sonmarg - Pahalgam - 5N/6D
-            </p>
+              Srinagar - Gulmarg - Sonmarg - Pahalgam </p>
           </div>
 
           <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 shadow-xl">
@@ -214,7 +213,7 @@ export default function JammuKashmirTourismPage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Vaishno Devi Darshan Add-on</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Jammu - Katra - 2N/3D
+              Jammu - Katra
             </p>
           </div>
 

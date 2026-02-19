@@ -66,7 +66,7 @@ export default function GoaTourismPage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Goa Beach Circuit</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Anjuna - Calangute - Baga - 4N/5D
+              Anjuna - Calangute - Baga 
             </p>
           </div>
 

@@ -68,7 +68,7 @@ export default function HimachalTourismPage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Himachal Pradesh Circuit</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Simla - Kullu Manali - Dehradun - Muissourie - 6N/7D
+              Simla - Kullu Manali - Dehradun - Muissourie 
             </p>
           </div>
 
@@ -223,7 +223,7 @@ export default function HimachalTourismPage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Chandigarh Add-on</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Wagah Border - Golden Temple - 2N/3D
+              Wagah Border - Golden Temple 
             </p>
           </div>
 

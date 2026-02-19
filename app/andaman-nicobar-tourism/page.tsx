@@ -66,7 +66,7 @@ export default function AndamanNicobarTourismPage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">HaveLock - Neil - Ross Island</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              6N/7D - Cellular Jail & Marine Life
+            Cellular Jail & Marine Life
             </p>
           </div>
 
@@ -179,7 +179,7 @@ export default function AndamanNicobarTourismPage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Sitapur Beach & Ross Island</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              4N/7D - Beach Paradise & Island Adventure
+            Beach Paradise & Island Adventure
             </p>
           </div>
 
@@ -273,7 +273,7 @@ export default function AndamanNicobarTourismPage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Mayabunder - Ranget</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              3N/7D - Beach Paradise & Turtle Nesting
+          Beach Paradise & Turtle Nesting
             </p>
           </div>
 
@@ -365,7 +365,7 @@ export default function AndamanNicobarTourismPage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Bara Tang Island</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              6N/7D - Island Treasure Hunt
+            Island Treasure Hunt
             </p>
           </div>
 

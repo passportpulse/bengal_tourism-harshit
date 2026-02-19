@@ -1111,7 +1111,7 @@ function OdishaTourismPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-xl text-gray-600 max-w-3xl mx-auto",
-                                    children: "With Konark, Chilika & Bhubaneswar - 4N/5D"
+                                    children: "With Konark, Chilika & Bhubaneswar"
                                 }, void 0, false, {
                                     fileName: "[project]/app/odisha-tourism/page.tsx",
                                     lineNumber: 68,
@@ -1539,7 +1539,8 @@ function OdishaTourismPage() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Destination, {
                             title: "BHITARKANIKA",
-                            subtitle: "Add-on (or) Separately with [GAHIRMATA-2N/3D]",
+                            cta: "Book Now for 2N/3D",
+                            subtitle: "Add-on (or) Separately with GAHIRMATA",
                             content: [
                                 `Day – 1: Start of tour: Our representative will receive you at Bhubaneswar Airport / Balasore Station in the morning at (06-10 am). If from Airport, drive to Bhadrak via Chadbali (or) pick-up from Bhadrak station. Lunch en-route. Check into Hotel/Resort. Lunch break. Rest. Evening free to visit the local market. Dinner & Overnight at Hotel / Resort at Panchalingeswar.`,
                                 `Day – 2: Local Sight-seeing: Early morning breakfast, excursion to Devkund water Falls, packed lunch served on the way, after launch visit Kuldiha Wildllife Sanctuary, Jorachua, Rishia Dam, Garh Simulia tower. On the returning time at evening we will visit Jagannath Temple, Nilgiri, Chandi Mandir, Kings Palace, etc. Return in evening. Evening free to stroll around local bazaar for shopping of handicrafts and relics. Overnight stay at Hotel/Resort at Panchalingeswar.`,
@@ -1552,7 +1553,8 @@ function OdishaTourismPage() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Destination, {
                             title: "CHANDIPUR",
-                            subtitle: "Add-on (or) Separately with [SEA BEACH-2N/3D]",
+                            cta: "Book Now for 2N/3D",
+                            subtitle: "Add-on (or) Separately with SEA BEACH",
                             content: [
                                 `Day – 1: Start of tour: Our representative will receive you at Bhubaneswar Airport / Balsore Station in the morning at (06-10 am). If from Airport, drive to Chandipur Sea Beach (or) pick-up from Balasore station. Lunch en-route. Check into Hotel/Resort. Lunch break. Rest. Evening free to visit the local market. Dinner & Overnight at Hotel / Resort at Chandipur.`,
                                 `Day – 2: Early morning enjoy a sunrise over sea. After breakfast, visit Nilagiri & Panchelingeswar . Lunch break. Rest & evening free to explore local area. Dinner & Overnight stay at Hotel/Resort at Chandipur.`,
@@ -1560,12 +1562,13 @@ function OdishaTourismPage() {
                             ]
                         }, void 0, false, {
                             fileName: "[project]/app/odisha-tourism/page.tsx",
-                            lineNumber: 207,
+                            lineNumber: 208,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Destination, {
                             title: "SIMLIPAL",
-                            subtitle: "Add-on (or) Separately with [FOREST-2N/3D]",
+                            cta: "Book Now for 2N/3D",
+                            subtitle: "Add-on (or) Separately with FOREST",
                             content: [
                                 `Day – 1: Start of tour: Our representative will receive you at Bhubaneswar Airport / Balsore Station in the morning at (06-10 am). If from Airport, drive to Simlipal (or) pick-up from Balasore station. Lunch en-route. Check into Hotel/Resort. Lunch break. Rest. Evening free to visit the local market. Dinner & Overnight at Hotel / Resort at Chandipur.`,
                                 `Day – 2: Excursion to Simlipal: Early morning after breakfast, experience a Jungle Safari. Visit Joranda / Barehipani Waterfalls. Lunch en-route. Return in evening. Dinner & Overnight stay at Hotel/Resort at Simlipal.`,
@@ -1573,12 +1576,13 @@ function OdishaTourismPage() {
                             ]
                         }, void 0, false, {
                             fileName: "[project]/app/odisha-tourism/page.tsx",
-                            lineNumber: 217,
+                            lineNumber: 219,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Destination, {
                             title: "GOPALPUR",
-                            subtitle: "Add-on (or) Separately with [ON-SEA BEACH-2N/3D]",
+                            cta: "Book Now for 2N/3D",
+                            subtitle: "Add-on (or) Separately with ON-SEA BEACH",
                             content: [
                                 `Day – 1: Start of tour: Our representative will receive you at Bhubaneswar Airport / Berhampur Station in the morning at (06-10 am). If from Airport, drive to Chandipur Sea Beach (or) pick-up from Balasore station. Lunch en-route. Check into Hotel/Resort. Lunch break. Rest. Evening free to visit the local market. Dinner &   Overnight at  Hotel / Resort at Gopalpur.`,
                                 `Day –2: Enjoy an early morning sunrise over the Bay of Bengal. After breakfast, proceed to visit Taptapani , Dhabaleshwar, The Light House, etc.  Lunch en-route. Return  & evening free to explore local area near the sea beach area. Dinner &   Overnight at  Hotel / Resort at Gopalpur.`,
@@ -1586,12 +1590,13 @@ function OdishaTourismPage() {
                             ]
                         }, void 0, false, {
                             fileName: "[project]/app/odisha-tourism/page.tsx",
-                            lineNumber: 232,
+                            lineNumber: 235,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Destination, {
                             title: "DARINGBADI",
-                            subtitle: "Add-on (or) Separately with [KASHMIR OF THE EAST-2N/3D]",
+                            cta: "Book Now for 2N/3D",
+                            subtitle: "Add-on (or) Separately with KASHMIR OF THE EAST",
                             content: [
                                 `Day –1: Start of tour: Our representative will receive you at Bhubaneswar Airport / Berhampur Station in the morning at (06-10 am). If from Airport, drive to Chandipur Sea Beach (or) pick-up from Balasore station. Lunch en-route. Check into Hotel/Resort. Lunch break. Rest. Evening free to visit the local market. Dinner &   Overnight at  Hotel / Resort at Daringbadi.`,
                                 `Day –2: Local sightseeing: After breakfast, proceed to explore Hill View Point, Nature Park, Dolun River, Pine Jungle, Daringbadi Waterfalls, Coffee Garden, etc. Lunch en-route. Back in evening. Dinner &   Overnight at  Hotel / Resort at Daringbadi.`,
@@ -1599,12 +1604,13 @@ function OdishaTourismPage() {
                             ]
                         }, void 0, false, {
                             fileName: "[project]/app/odisha-tourism/page.tsx",
-                            lineNumber: 244,
+                            lineNumber: 248,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Destination, {
                             title: "SATKOSIA TIGER RESERVE",
-                            subtitle: "Add-on (or) Separately with [PLAYLAND OF THE TIGERS-2N/3D]",
+                            cta: "Book Now for 2N/3D",
+                            subtitle: "Add-on (or) Separately with PLAYLAND OF THE TIGERS",
                             content: [
                                 `Day –1: Start of tour: Our representative will receive you at Bhubaneswar Airport (extra charge) / Angul/Khurda Rd. Railway Station in the morning at (06-10 am). If from Airport, drive to Satkosia. Breakfast at Dhenkanal. Arrive & Check-in at Hotel/Resort at Purunakot. Lunch & rest. Afternoon, go for a jungle safari at Kandahera range. Evening free. Overnight at  Hotel / Resort (or) Swiss Cottages (extra charge) at Satkosia / Purunakot.`,
                                 `Day –2: Local sightseeing: Early morning, enjoy a Jungle Trek at Nandini Nalla area. After breakfast, proceed to explore Jungle Safari at Tulka Forest range, Bhimdhara Waterfalls, etc. Lunch en-route. Post lunch, visit Baghmunda Forest range. Back in evening. Overnight at  Hotel / Resort (or) Swiss Cottages (extra charge) at Satkosia / Purunakot.`,
@@ -1613,12 +1619,13 @@ function OdishaTourismPage() {
                             ]
                         }, void 0, false, {
                             fileName: "[project]/app/odisha-tourism/page.tsx",
-                            lineNumber: 254,
+                            lineNumber: 259,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Destination, {
                             title: "CHANDRABHAGA ",
-                            subtitle: "Add-on (or) Separately with [KONARK- WATER SPORTS-2N/3D]",
+                            cta: "Book Now for 2N/3D",
+                            subtitle: "Add-on (or) Separately with KONARK- WATER SPORTS",
                             content: [
                                 `Day –1: Start of tour: Our representative will receive you at Bhubaneswar Airport (extra charge) / Puri Station in the morning at (06-10 am). Drive to Chandrabhaga Sea Beach .Check into Hotel/Resort at Konark (or) Swiss Tent at Chandrabhaga beach (extra cost).Then visit the Konark Sun Temple, a must visit place while at Konark. Lunch en-route. Evening free to visit the local market. Dinner & Overnight at  Hotel / Resort (or) Swiss Cottages at Chandrabhaga / Konark.`,
                                 `Day –2: Enjoy an early morning sunrise over the Bay of Bengal. After breakfast, explore & enjoy the various Water Sports activities on offer.  Lunch break. Return  & evening free to explore local area near the sea beach area. Dinner &   Overnight at  Hotel / Resort (or) Swiss Cottages at Chandrabhaga / Konark.`,
@@ -1626,7 +1633,7 @@ function OdishaTourismPage() {
                             ]
                         }, void 0, false, {
                             fileName: "[project]/app/odisha-tourism/page.tsx",
-                            lineNumber: 271,
+                            lineNumber: 277,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1653,7 +1660,7 @@ function OdishaTourismPage() {
                                     children: "Odisha Highlights"
                                 }, void 0, false, {
                                     fileName: "[project]/app/odisha-tourism/page.tsx",
-                                    lineNumber: 289,
+                                    lineNumber: 296,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1661,13 +1668,13 @@ function OdishaTourismPage() {
                                     children: "Key attractions and experiences in the land of temples"
                                 }, void 0, false, {
                                     fileName: "[project]/app/odisha-tourism/page.tsx",
-                                    lineNumber: 290,
+                                    lineNumber: 297,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/odisha-tourism/page.tsx",
-                            lineNumber: 288,
+                            lineNumber: 295,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1680,7 +1687,7 @@ function OdishaTourismPage() {
                                             className: "w-12 h-12 text-orange-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/odisha-tourism/page.tsx",
-                                            lineNumber: 297,
+                                            lineNumber: 304,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1688,7 +1695,7 @@ function OdishaTourismPage() {
                                             children: "Ancient Temples"
                                         }, void 0, false, {
                                             fileName: "[project]/app/odisha-tourism/page.tsx",
-                                            lineNumber: 298,
+                                            lineNumber: 305,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1696,13 +1703,13 @@ function OdishaTourismPage() {
                                             children: "Lord Jagannath Temple, Konark Sun Temple, Lingaraja Temple"
                                         }, void 0, false, {
                                             fileName: "[project]/app/odisha-tourism/page.tsx",
-                                            lineNumber: 299,
+                                            lineNumber: 306,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/odisha-tourism/page.tsx",
-                                    lineNumber: 296,
+                                    lineNumber: 303,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1712,7 +1719,7 @@ function OdishaTourismPage() {
                                             className: "w-12 h-12 text-blue-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/odisha-tourism/page.tsx",
-                                            lineNumber: 303,
+                                            lineNumber: 310,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1720,7 +1727,7 @@ function OdishaTourismPage() {
                                             children: "Golden Beaches"
                                         }, void 0, false, {
                                             fileName: "[project]/app/odisha-tourism/page.tsx",
-                                            lineNumber: 304,
+                                            lineNumber: 311,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1728,13 +1735,13 @@ function OdishaTourismPage() {
                                             children: "Puri Golden Beach, Chandipur, Gopalpur, Chandrabhaga"
                                         }, void 0, false, {
                                             fileName: "[project]/app/odisha-tourism/page.tsx",
-                                            lineNumber: 305,
+                                            lineNumber: 312,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/odisha-tourism/page.tsx",
-                                    lineNumber: 302,
+                                    lineNumber: 309,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1744,7 +1751,7 @@ function OdishaTourismPage() {
                                             className: "w-12 h-12 text-green-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/odisha-tourism/page.tsx",
-                                            lineNumber: 309,
+                                            lineNumber: 316,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1752,7 +1759,7 @@ function OdishaTourismPage() {
                                             children: "Wildlife Sanctuaries"
                                         }, void 0, false, {
                                             fileName: "[project]/app/odisha-tourism/page.tsx",
-                                            lineNumber: 310,
+                                            lineNumber: 317,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1760,13 +1767,13 @@ function OdishaTourismPage() {
                                             children: "Chilika Lake, Bhitarkanika, Simlipal, Satkosia Tiger Reserve"
                                         }, void 0, false, {
                                             fileName: "[project]/app/odisha-tourism/page.tsx",
-                                            lineNumber: 311,
+                                            lineNumber: 318,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/odisha-tourism/page.tsx",
-                                    lineNumber: 308,
+                                    lineNumber: 315,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1776,7 +1783,7 @@ function OdishaTourismPage() {
                                             className: "w-12 h-12 text-purple-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/odisha-tourism/page.tsx",
-                                            lineNumber: 315,
+                                            lineNumber: 322,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1784,7 +1791,7 @@ function OdishaTourismPage() {
                                             children: "Hill Stations"
                                         }, void 0, false, {
                                             fileName: "[project]/app/odisha-tourism/page.tsx",
-                                            lineNumber: 316,
+                                            lineNumber: 323,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1792,30 +1799,30 @@ function OdishaTourismPage() {
                                             children: "Daringbadi - Kashmir of the East, with coffee gardens"
                                         }, void 0, false, {
                                             fileName: "[project]/app/odisha-tourism/page.tsx",
-                                            lineNumber: 317,
+                                            lineNumber: 324,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/odisha-tourism/page.tsx",
-                                    lineNumber: 314,
+                                    lineNumber: 321,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/odisha-tourism/page.tsx",
-                            lineNumber: 295,
+                            lineNumber: 302,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/odisha-tourism/page.tsx",
-                    lineNumber: 287,
+                    lineNumber: 294,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/odisha-tourism/page.tsx",
-                lineNumber: 286,
+                lineNumber: 293,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PackagePricing$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1823,12 +1830,12 @@ function OdishaTourismPage() {
                 subtitle: "Choose your perfect cultural and coastal adventure"
             }, void 0, false, {
                 fileName: "[project]/app/odisha-tourism/page.tsx",
-                lineNumber: 324,
+                lineNumber: 331,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/odisha-tourism/page.tsx",
-                lineNumber: 330,
+                lineNumber: 337,
                 columnNumber: 7
             }, this)
         ]
@@ -1838,25 +1845,35 @@ function OdishaTourismPage() {
         columnNumber: 5
     }, this);
 }
-function Destination({ title, subtitle, content }) {
+function Destination({ title, subtitle, content, cta }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "bg-white shadow-xl rounded-3xl p-10 space-y-6",
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                className: "text-3xl font-bold text-indigo-700",
-                children: title
-            }, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex gap-5 items-center mt-8",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "text-3xl font-bold text-indigo-700",
+                        children: title
+                    }, void 0, false, {
+                        fileName: "[project]/app/odisha-tourism/page.tsx",
+                        lineNumber: 348,
+                        columnNumber: 7
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                        href: "/book-tour",
+                        className: "bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg",
+                        children: cta
+                    }, void 0, false, {
+                        fileName: "[project]/app/odisha-tourism/page.tsx",
+                        lineNumber: 349,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/app/odisha-tourism/page.tsx",
-                lineNumber: 339,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "font-semibold text-gray-700",
-                children: subtitle
-            }, void 0, false, {
-                fileName: "[project]/app/odisha-tourism/page.tsx",
-                lineNumber: 340,
-                columnNumber: 7
+                lineNumber: 346,
+                columnNumber: 8
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "space-y-6",
@@ -1867,23 +1884,23 @@ function Destination({ title, subtitle, content }) {
                             children: item
                         }, void 0, false, {
                             fileName: "[project]/app/odisha-tourism/page.tsx",
-                            lineNumber: 348,
+                            lineNumber: 365,
                             columnNumber: 13
                         }, this)
                     }, index, false, {
                         fileName: "[project]/app/odisha-tourism/page.tsx",
-                        lineNumber: 344,
+                        lineNumber: 361,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/app/odisha-tourism/page.tsx",
-                lineNumber: 342,
+                lineNumber: 359,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/odisha-tourism/page.tsx",
-        lineNumber: 338,
+        lineNumber: 345,
         columnNumber: 5
     }, this);
 }
