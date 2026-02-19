@@ -156,7 +156,7 @@ export default function OffbeatPlains() {
                     href="/book-tour" 
                     className="w-full bg-amber-600 text-white py-2 rounded-lg hover:bg-amber-700 transition text-center block"
                   >
-                    Book This Trip
+                    Book for  {destination.duration}
                   </Link>
                 </div>
               </div>
