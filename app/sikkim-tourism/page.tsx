@@ -216,6 +216,7 @@ export default function SikkimTourismPage() {
           <Destination
             title="WEST SIKKIM"
             subtitle="Add-on (or) Separately with [PELLING-RAVANGLA- 2N/3D]"
+            cta='Book Now for 2N/3D'
             content={[
              `Day – 1 : Pick-up from New Jalpaiguri Railway Station (NJP) / Pakyong Airport / Bagdogra Airport (or) Hotel in Gangtok proceed towards Pelling/Ravangla. En-route local sight seeing. Lunch en-route. Check into Hotel. Evening free. Dinner & Overnight at Hotel/Resort at Pelling / Ravangla.`,
 
@@ -231,6 +232,7 @@ export default function SikkimTourismPage() {
           <Destination
             title="NORTH SIKKIM"
             subtitle="Add-on (or) Separately with [LACHEN - LACHUNG - GORUDONGMAR-2N/3D]"
+                cta='Book Now for 2N/3D'
             content={[
             `Day – 1 :Transfer to Lachen (North Sikkim): After breakfast, pick-up from Hotel at Gangtok (09.00am). Drive 135 km, 5 – 6 hours drive. Chungthang is 96 kilometers from Gangtok. Lunch at Chungthang. Lachen is 35 kilometers from Chungthang. Visit Seven Sister Falls & Naga Waterfalls. Check into a hotel. Welcome Tea. Evening free to stroll and visit the Lepcha Village. Dinner & Overnight stay in Hotel/ Resort at Lachen.`,
 
@@ -242,6 +244,7 @@ export default function SikkimTourismPage() {
 
           <Destination
             title="SILK ROUTE"
+                cta='Book Now for 4N/5D'
             subtitle="Add-on (or) Separately with [SILLERY-ZULUK-ARITAR-RESHIKHOLA-4N/5D]"
             content={[
               `Day –1 :Start of tour: Our representative will be there to receive the Guest at New Jalpaiguri Railway Station (NJP) / Bagdogra Airport (09.00 am). He will be assisting you to proceed for Sillery Gaon. Lunch en-route. Check-in to Hotel/Homestay. Post lunch, rest. Evening free for photography & idle your time. Back to resort. Dinner & Night stay in Hotel / Resort  Home Stay at Sillery Gaon.`,
@@ -343,7 +346,7 @@ export default function SikkimTourismPage() {
 }
 
 
-function Destination({ title, subtitle, content }: { title: string; subtitle: string; content: string[] }) {
+function Destination({ title, subtitle, content, cta }: { title: string; subtitle: string; content: string[]; cta: string; }) {
   return (
     <div className="bg-white shadow-xl rounded-3xl p-10 space-y-6">
        <div className="flex gap-5 items-center mt-8">
@@ -353,7 +356,7 @@ function Destination({ title, subtitle, content }: { title: string; subtitle: st
           href="/book-tour" 
           className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
         >
-          Book Now
+          {cta}
         </a>
        </div>
   
