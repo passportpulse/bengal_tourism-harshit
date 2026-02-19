@@ -64,7 +64,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$contact$2f$Con
 ;
 const metadata = {
     title: 'Contact Bengal Tourism - Get in Touch | Official Tourism Portal',
-    description: 'Contact Bengal Tourism for tour bookings at 6289783779 and hotel bookings at 9007995888. WhatsApp support available. Email: bengaltourism@gmail.com. Visit our office at AG-209, Flat No402, Kestopur, Kolkata - 700101.',
+    description: 'Contact Bengal Tourism for tour bookings at 6289783779 and hotel bookings at 9007995888. WhatsApp support available. Email: bengaltourism@gmail.com. Visit our office at AG-209, Flat No 402, Kestopur, Kolkata - 700101.',
     keywords: 'Contact Bengal Tourism, Bengal Tourism contact, Kolkata office, Bengal tourism phone, customer support, travel inquiries, tour booking contact, hotel booking contact',
     openGraph: {
         title: 'Contact Bengal Tourism - Get in Touch',

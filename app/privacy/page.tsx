@@ -82,7 +82,7 @@ export default function PrivacyPolicy() {
             <div className="mt-4 text-gray-600">
               <p><strong>Email:</strong> bengaltourism@gmail.com</p>
               <p><strong>Phone:</strong> 6289783779 (Tour Booking)</p>
-              <p><strong>Address:</strong> 123, Park Street, Kolkata, West Bengal 700016</p>
+              <p><strong>Address:</strong> AG-209, Flat No 402, Kestopur, Kolkata - 700101</p>
             </div>
           </section>
 

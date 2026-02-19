@@ -50,5 +50,6 @@
   "/singapore/page": "app/singapore/page.js",
   "/sundarban/page": "app/sundarban/page.js",
   "/tajpur/page": "app/tajpur/page.js",
+  "/terms/page": "app/terms/page.js",
   "/trekking-trails/page": "app/trekking-trails/page.js"
 }

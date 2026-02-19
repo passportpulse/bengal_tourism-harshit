@@ -71,6 +71,7 @@ export default function Footer() {
                 ["About Us", "/about"],
                 ["Tour Packages", "/packages"],
                 ["Contact", "/contact"],
+                ["Hotel Booking", "/book-hotel"],
               ].map(([label, href]) => (
                 <li key={label}>
                   <Link
