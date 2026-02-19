@@ -1164,3 +1164,6 @@ Import traces:
 [10:01:21.664] Server  LOG     ✓ Compiled in 88ms
 [10:01:32.570] Server  LOG     ✓ Compiled in 97ms
 [10:02:37.547] Server  LOG     ✓ Compiled in 85ms
+[10:11:52.829] Server  LOG     ✓ Finished filesystem cache database compaction in 10.3s
+[10:17:15.877] Server  LOG     ✓ Compiled in 320ms
+[10:17:45.486] Server  LOG     ✓ Compiled in 106ms

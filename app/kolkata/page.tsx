@@ -542,13 +542,12 @@ export default function KolkataPage() {
               </div>
               <p className="text-gray-700 mb-4">
                 Also known as Chor Bazaar, this historic market offers authentic Bengali items, 
-                spices, and traditional crafts. A paradise for those seeking genuine local products.
+                spices, and traditional crafts. A paradise for those seeking genuine and second Hand automobile parts.
               </p>
               <div className="bg-white p-4 rounded-lg">
                 <h4 className="font-bold mb-2">Specialties</h4>
                 <ul className="space-y-1 text-sm text-gray-600">
-                  <li>• Traditional brassware</li>
-                  <li>• Bengali confectionery</li>
+                  <li>• Second Hand automobile parts</li>
                   <li>• Spices & dry fruits</li>
                   <li>• Religious items</li>
                 </ul>
