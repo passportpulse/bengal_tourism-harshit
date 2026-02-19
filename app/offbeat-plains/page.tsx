@@ -6,49 +6,49 @@ import PackagePricing from '@/components/PackagePricing'
 
 export default function OffbeatPlains() {
   const plainDestinations = [
-    { name: "ASAN NAGAR Farm House", location: "NADIA", duration: "1N/2D", type: "Farm House" },
-    { name: "BARANTI", location: "PURULIA", duration: "1N/2D", type: "Nature" },
-    { name: "BALLAVPUR Forest", location: "BIRBHUM", duration: "1N/2D", type: "Forest" },
-    { name: "BETHUADUARI", location: "NADIA", duration: "1N/2D", type: "Heritage" },
-    { name: "BELUN Gram", location: "KATWA", duration: "1N/2D", type: "Village" },
-    { name: "BANDH NABAGRAM Eco Village", location: "KATWA", duration: "1N/2D", type: "Eco Village" },
-    { name: "BINURIA Farm House", location: "Birbhum", duration: "1N/2D", type: "Farm House" },
-    { name: "DASHGHARA", location: "CHINSURA", duration: "1N/2D", type: "Heritage" },
-    { name: "DUARSINI", location: "BARDHAMAN", duration: "1N/2D", type: "Nature" },
-    { name: "DARANDA Farm House", location: "BIRBHUM", duration: "1N/2D", type: "Farm House" },
-    { name: "DEBANANDAPUR Village Resort", location: "BOLPUR", duration: "1N/2D", type: "Village Resort" },
-    { name: "DHANGI KUSUM / NAKAT", location: "JHARGRAM", duration: "1N/2D", type: "Tribal" },
-    { name: "DOLADANGA Tribal Hamlet", location: "PURULIA", duration: "1N/2D", type: "Tribal" },
-    { name: "GARPACHKOT Tent House", location: "PURULIA", duration: "1N/2D", type: "Tent House" },
+    { name: "ASAN NAGAR Farm House", location: "NADIA", duration: "2N/3D", type: "Farm House" },
+    { name: "BARANTI", location: "PURULIA", duration: "2N/3D", type: "Nature" },
+    { name: "BALLAVPUR Forest", location: "BIRBHUM", duration: "2N/3D", type: "Forest" },
+    { name: "BETHUADUARI", location: "NADIA", duration: "2N/3D", type: "Heritage" },
+    { name: "BELUN Gram", location: "KATWA", duration: "2N/3D", type: "Village" },
+    { name: "BANDH NABAGRAM Eco Village", location: "KATWA", duration: "2N/3D", type: "Eco Village" },
+    { name: "BINURIA Farm House", location: "Birbhum", duration: "2N/3D", type: "Farm House" },
+    { name: "DASHGHARA", location: "CHINSURA", duration: "2N/3D", type: "Heritage" },
+    { name: "DUARSINI", location: "BARDHAMAN", duration: "2N/3D", type: "Nature" },
+    { name: "DARANDA Farm House", location: "BIRBHUM", duration: "2N/3D", type: "Farm House" },
+    { name: "DEBANANDAPUR Village Resort", location: "BOLPUR", duration: "2N/3D", type: "Village Resort" },
+    { name: "DHANGI KUSUM / NAKAT", location: "JHARGRAM", duration: "2N/3D", type: "Tribal" },
+    { name: "DOLADANGA Tribal Hamlet", location: "PURULIA", duration: "2N/3D", type: "Tribal" },
+    { name: "GARPACHKOT Tent House", location: "PURULIA", duration: "2N/3D", type: "Tent House" },
     { name: "GANGANI Grand Canyon", location: "GARBETA", duration: "2N/3D", type: "Nature" },
-    { name: "GARH Jungle", location: "DURGAPUR", duration: "1N/2D", type: "Jungle" },
-    { name: "HADAL Narayanpur", location: "BANKURA", duration: "1N/2D", type: "Heritage" },
+    { name: "GARH Jungle", location: "DURGAPUR", duration: "2N/3D", type: "Jungle" },
+    { name: "HADAL Narayanpur", location: "BANKURA", duration: "2N/3D", type: "Heritage" },
     { name: "HENRY'S Island", location: "BAKKHALI ISLAND", duration: "2N/3D", type: "Island" },
-    { name: "JUNPUT", location: "MIDNAPORE", duration: "1N/2D", type: "Beach" },
-    { name: "JOYPUR Forest", location: "BANKURA", duration: "1N/2D", type: "Forest" },
-    { name: "JHARGRAM Rahbari", location: "JHARGRAM", duration: "1N/2D", type: "Heritage" },
-    { name: "KATWA Jol Bari", location: "BURDWAN", duration: "1N/2D", type: "Heritage" },
-    { name: "LAL KAKRA Beach", location: "24-PARHANAS", duration: "1N/2D", type: "Beach" },
-    { name: "MURUGUMA", location: "PURULIA", duration: "1N/2D", type: "Nature" },
-    { name: "MINAKHAN Farm House", location: "BASIRHAT", duration: "1N/2D", type: "Farm House" },
-    { name: "MURSHIDABAD Raj Bari", location: "MURSHUDABAD", duration: "1N/2D", type: "Heritage" },
-    { name: "MONCHASHA Eco Tourism", location: "MIDNAPORE", duration: "1N/2D", type: "Eco Tourism" },
-    { name: "MOUSUNI Island", location: "24-PARHANAS", duration: "1N/2D", type: "Island" },
-    { name: "MATHABURU Tribal Hamlet", location: "Purulia", duration: "1N/2D", type: "Tribal" },
-    { name: "MANGALKUNG Haunted", location: "Purulia", duration: "1N/2D", type: "Adventure" },
-    { name: "MACHRANGA Island", location: "HASNABAD", duration: "1N/2D", type: "Island" },
-    { name: "MUNDIRA Gram", location: "KATWA", duration: "1N/2D", type: "Village" },
-    { name: "PIYALI Island", location: "SUNDARBAN", duration: "1N/2D", type: "Island" },
-    { name: "PINGLA Patachitra Hub", location: "WEST MIDNAPORE", duration: "1N/2D", type: "Art & Culture" },
-    { name: "ROHINI Gram", location: "JHARGRAM", duration: "1N/2D", type: "Village" },
-    { name: "SAMSERNAGAR", location: "24-PARHANAS", duration: "1N/2D", type: "Heritage" },
-    { name: "SUNDARGRAM", location: "SOUTH 24-PARGANAS", duration: "1N/2D", type: "Village" },
-    { name: "SANTINIKETAN Eco Hut", location: "SANTINIKETAN", duration: "1N/2D", type: "Eco Stay" },
-    { name: "SONAJHURI", location: "AYODHHA PAHAR & GARPANCHAKOT", duration: "1N/2D", type: "Nature" },
-    { name: "SIULIBONA Gram", location: "PURULIA-SUNIA PAHAR", duration: "1N/2D", type: "Village" },
-    { name: "TAJPUR Eco Resort", location: "MIDNAPORE", duration: "1N/2D", type: "Eco Resort" },
-    { name: "TAJPUR Village Hut", location: "MIDNAPORE", duration: "1N/2D", type: "Village Hut" },
-    { name: "MORE To be added", location: "xxxx", duration: "1N/2D", type: "Coming Soon" }
+    { name: "JUNPUT", location: "MIDNAPORE", duration: "2N/3D", type: "Beach" },
+    { name: "JOYPUR Forest", location: "BANKURA", duration: "2N/3D", type: "Forest" },
+    { name: "JHARGRAM Rahbari", location: "JHARGRAM", duration: "2N/3D", type: "Heritage" },
+    { name: "KATWA Jol Bari", location: "BURDWAN", duration: "2N/3D", type: "Heritage" },
+    { name: "LAL KAKRA Beach", location: "24-PARHANAS", duration: "2N/3D", type: "Beach" },
+    { name: "MURUGUMA", location: "PURULIA", duration: "2N/3D", type: "Nature" },
+    { name: "MINAKHAN Farm House", location: "BASIRHAT", duration: "2N/3D", type: "Farm House" },
+    { name: "MURSHIDABAD Raj Bari", location: "MURSHUDABAD", duration: "2N/3D", type: "Heritage" },
+    { name: "MONCHASHA Eco Tourism", location: "MIDNAPORE", duration: "2N/3D", type: "Eco Tourism" },
+    { name: "MOUSUNI Island", location: "24-PARHANAS", duration: "2N/3D", type: "Island" },
+    { name: "MATHABURU Tribal Hamlet", location: "Purulia", duration: "2N/3D", type: "Tribal" },
+    { name: "MANGALKUNG Haunted", location: "Purulia", duration: "2N/3D", type: "Adventure" },
+    { name: "MACHRANGA Island", location: "HASNABAD", duration: "2N/3D", type: "Island" },
+    { name: "MUNDIRA Gram", location: "KATWA", duration: "2N/3D", type: "Village" },
+    { name: "PIYALI Island", location: "SUNDARBAN", duration: "2N/3D", type: "Island" },
+    { name: "PINGLA Patachitra Hub", location: "WEST MIDNAPORE", duration: "2N/3D", type: "Art & Culture" },
+    { name: "ROHINI Gram", location: "JHARGRAM", duration: "2N/3D", type: "Village" },
+    { name: "SAMSERNAGAR", location: "24-PARHANAS", duration: "2N/3D", type: "Heritage" },
+    { name: "SUNDARGRAM", location: "SOUTH 24-PARGANAS", duration: "2N/3D", type: "Village" },
+    { name: "SANTINIKETAN Eco Hut", location: "SANTINIKETAN", duration: "2N/3D", type: "Eco Stay" },
+    { name: "SONAJHURI", location: "AYODHHA PAHAR & GARPANCHAKOT", duration: "2N/3D", type: "Nature" },
+    { name: "SIULIBONA Gram", location: "PURULIA-SUNIA PAHAR", duration: "2N/3D", type: "Village" },
+    { name: "TAJPUR Eco Resort", location: "MIDNAPORE", duration: "2N/3D", type: "Eco Resort" },
+    { name: "TAJPUR Village Hut", location: "MIDNAPORE", duration: "2N/3D", type: "Village Hut" },
+    { name: "MORE To be added", location: "xxxx", duration: "2N/3D", type: "Coming Soon" }
   ]
 
   const experiences = [
@@ -175,34 +175,59 @@ export default function OffbeatPlains() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-amber-50 rounded-xl p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Day – 1: Start of tour</h3>
-              <ul className="space-y-2 text-gray-700">
-                <li>• Pick up from Respective Local Station on your arrival (or) from Kolkata at (05-06 am) by Car (extra charge)</li>
-                <li>• Breakfast en-route</li>
-                <li>• Check-in after arrival. Rest</li>
-                <li>• Lunch at respective place of halt</li>
-                <li>• Evening free</li>
-                <li>• Bon-fire, Bar-B-Queue & Local Tribal Dance/Music on request can be arranged with extra charge</li>
-                <li>• Dinner & Overnight at Resort/Farmhouse/Homestay at Respective Destinations</li>
-              </ul>
-            </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-            <div className="bg-orange-50 rounded-xl p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Day – 2: Return Journey</h3>
-              <ul className="space-y-2 text-gray-700">
-                <li>• Early morning Bed Tea</li>
-                <li>• Explore the local area on your own</li>
-                <li>• Breakfast at Hotel</li>
-                <li>• After having breakfast, Check-out & start for your return journey</li>
-                <li>• Sightseeing en-route if any</li>
-                <li>• Drop to Respective Local Station</li>
-                <li>• Proceed towards Kolkata by Car (extra charge) at your destination around (09-10pm)</li>
-                <li>• Tour ends…..</li>
-              </ul>
-            </div>
-          </div>
+  {/* Day 1 */}
+  <div className="bg-amber-50 rounded-2xl p-6 shadow-md">
+    <h3 className="text-xl font-semibold text-gray-900 mb-4">
+      Day – 1: Arrival & Leisure
+    </h3>
+    <ul className="space-y-2 text-gray-700 text-sm leading-relaxed">
+      <li>• Pick-up from respective local station on arrival</li>
+      <li>• Optional transfer from Kolkata (05–06 AM) by car (extra charge)</li>
+      <li>• Breakfast en-route</li>
+      <li>• Check-in at Resort / Farmhouse / Homestay</li>
+      <li>• Lunch at place of stay</li>
+      <li>• Evening at leisure</li>
+      <li>• Bonfire, Bar-B-Que & Tribal Dance/Music (on request, extra charge)</li>
+      <li>• Dinner & Overnight stay</li>
+    </ul>
+  </div>
+
+  {/* Day 2 */}
+  <div className="bg-orange-50 rounded-2xl p-6 shadow-md">
+    <h3 className="text-xl font-semibold text-gray-900 mb-4">
+      Day – 2: Local Sightseeing
+    </h3>
+    <ul className="space-y-2 text-gray-700 text-sm leading-relaxed">
+      <li>• Early Morning Bed Tea</li>
+      <li>• Breakfast at stay</li>
+      <li>• Full-day local sightseeing tour</li>
+      <li>• Explore nearby off-beat & eco-tourism destinations</li>
+      <li>• Lunch during sightseeing</li>
+      <li>• Evening tea & snacks</li>
+      <li>• Dinner & Overnight stay</li>
+    </ul>
+  </div>
+
+  {/* Day 3 */}
+  <div className="bg-yellow-50 rounded-2xl p-6 shadow-md">
+    <h3 className="text-xl font-semibold text-gray-900 mb-4">
+      Day – 3: Return Journey
+    </h3>
+    <ul className="space-y-2 text-gray-700 text-sm leading-relaxed">
+      <li>• Early Morning Bed Tea</li>
+      <li>• Breakfast at Hotel</li>
+      <li>• Check-out after breakfast</li>
+      <li>• Sightseeing en-route (if applicable)</li>
+      <li>• Drop to respective local station</li>
+      <li>• Optional transfer to Kolkata (extra charge)</li>
+      <li>• Tour concludes with pleasant memories</li>
+    </ul>
+  </div>
+
+</div>
+
         </div>
       </section>
 

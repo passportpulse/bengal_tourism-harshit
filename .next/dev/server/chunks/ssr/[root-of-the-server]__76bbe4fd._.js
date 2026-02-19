@@ -112,85 +112,85 @@ function OffbeatPlains() {
         {
             name: "ASAN NAGAR Farm House",
             location: "NADIA",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Farm House"
         },
         {
             name: "BARANTI",
             location: "PURULIA",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Nature"
         },
         {
             name: "BALLAVPUR Forest",
             location: "BIRBHUM",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Forest"
         },
         {
             name: "BETHUADUARI",
             location: "NADIA",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Heritage"
         },
         {
             name: "BELUN Gram",
             location: "KATWA",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Village"
         },
         {
             name: "BANDH NABAGRAM Eco Village",
             location: "KATWA",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Eco Village"
         },
         {
             name: "BINURIA Farm House",
             location: "Birbhum",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Farm House"
         },
         {
             name: "DASHGHARA",
             location: "CHINSURA",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Heritage"
         },
         {
             name: "DUARSINI",
             location: "BARDHAMAN",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Nature"
         },
         {
             name: "DARANDA Farm House",
             location: "BIRBHUM",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Farm House"
         },
         {
             name: "DEBANANDAPUR Village Resort",
             location: "BOLPUR",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Village Resort"
         },
         {
             name: "DHANGI KUSUM / NAKAT",
             location: "JHARGRAM",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Tribal"
         },
         {
             name: "DOLADANGA Tribal Hamlet",
             location: "PURULIA",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Tribal"
         },
         {
             name: "GARPACHKOT Tent House",
             location: "PURULIA",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Tent House"
         },
         {
@@ -202,13 +202,13 @@ function OffbeatPlains() {
         {
             name: "GARH Jungle",
             location: "DURGAPUR",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Jungle"
         },
         {
             name: "HADAL Narayanpur",
             location: "BANKURA",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Heritage"
         },
         {
@@ -220,151 +220,151 @@ function OffbeatPlains() {
         {
             name: "JUNPUT",
             location: "MIDNAPORE",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Beach"
         },
         {
             name: "JOYPUR Forest",
             location: "BANKURA",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Forest"
         },
         {
             name: "JHARGRAM Rahbari",
             location: "JHARGRAM",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Heritage"
         },
         {
             name: "KATWA Jol Bari",
             location: "BURDWAN",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Heritage"
         },
         {
             name: "LAL KAKRA Beach",
             location: "24-PARHANAS",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Beach"
         },
         {
             name: "MURUGUMA",
             location: "PURULIA",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Nature"
         },
         {
             name: "MINAKHAN Farm House",
             location: "BASIRHAT",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Farm House"
         },
         {
             name: "MURSHIDABAD Raj Bari",
             location: "MURSHUDABAD",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Heritage"
         },
         {
             name: "MONCHASHA Eco Tourism",
             location: "MIDNAPORE",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Eco Tourism"
         },
         {
             name: "MOUSUNI Island",
             location: "24-PARHANAS",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Island"
         },
         {
             name: "MATHABURU Tribal Hamlet",
             location: "Purulia",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Tribal"
         },
         {
             name: "MANGALKUNG Haunted",
             location: "Purulia",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Adventure"
         },
         {
             name: "MACHRANGA Island",
             location: "HASNABAD",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Island"
         },
         {
             name: "MUNDIRA Gram",
             location: "KATWA",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Village"
         },
         {
             name: "PIYALI Island",
             location: "SUNDARBAN",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Island"
         },
         {
             name: "PINGLA Patachitra Hub",
             location: "WEST MIDNAPORE",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Art & Culture"
         },
         {
             name: "ROHINI Gram",
             location: "JHARGRAM",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Village"
         },
         {
             name: "SAMSERNAGAR",
             location: "24-PARHANAS",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Heritage"
         },
         {
             name: "SUNDARGRAM",
             location: "SOUTH 24-PARGANAS",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Village"
         },
         {
             name: "SANTINIKETAN Eco Hut",
             location: "SANTINIKETAN",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Eco Stay"
         },
         {
             name: "SONAJHURI",
             location: "AYODHHA PAHAR & GARPANCHAKOT",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Nature"
         },
         {
             name: "SIULIBONA Gram",
             location: "PURULIA-SUNIA PAHAR",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Village"
         },
         {
             name: "TAJPUR Eco Resort",
             location: "MIDNAPORE",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Eco Resort"
         },
         {
             name: "TAJPUR Village Hut",
             location: "MIDNAPORE",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Village Hut"
         },
         {
             name: "MORE To be added",
             location: "xxxx",
-            duration: "1N/2D",
+            duration: "2N/3D",
             type: "Coming Soon"
         }
     ];
@@ -658,170 +658,245 @@ function OffbeatPlains() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "grid grid-cols-1 md:grid-cols-2 gap-8",
+                            className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-amber-50 rounded-xl p-6",
+                                    className: "bg-amber-50 rounded-2xl p-6 shadow-md",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             className: "text-xl font-semibold text-gray-900 mb-4",
-                                            children: "Day – 1: Start of tour"
+                                            children: "Day – 1: Arrival & Leisure"
                                         }, void 0, false, {
                                             fileName: "[project]/app/offbeat-plains/page.tsx",
-                                            lineNumber: 180,
-                                            columnNumber: 15
+                                            lineNumber: 182,
+                                            columnNumber: 5
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                            className: "space-y-2 text-gray-700",
+                                            className: "space-y-2 text-gray-700 text-sm leading-relaxed",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    children: "• Pick up from Respective Local Station on your arrival (or) from Kolkata at (05-06 am) by Car (extra charge)"
+                                                    children: "• Pick-up from respective local station on arrival"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 182,
-                                                    columnNumber: 17
+                                                    lineNumber: 186,
+                                                    columnNumber: 7
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: "• Optional transfer from Kolkata (05–06 AM) by car (extra charge)"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/offbeat-plains/page.tsx",
+                                                    lineNumber: 187,
+                                                    columnNumber: 7
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: "• Breakfast en-route"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 183,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    children: "• Check-in after arrival. Rest"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 184,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    children: "• Lunch at respective place of halt"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 185,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    children: "• Evening free"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 186,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    children: "• Bon-fire, Bar-B-Queue & Local Tribal Dance/Music on request can be arranged with extra charge"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 187,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    children: "• Dinner & Overnight at Resort/Farmhouse/Homestay at Respective Destinations"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/offbeat-plains/page.tsx",
                                                     lineNumber: 188,
-                                                    columnNumber: 17
+                                                    columnNumber: 7
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: "• Check-in at Resort / Farmhouse / Homestay"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/offbeat-plains/page.tsx",
+                                                    lineNumber: 189,
+                                                    columnNumber: 7
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: "• Lunch at place of stay"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/offbeat-plains/page.tsx",
+                                                    lineNumber: 190,
+                                                    columnNumber: 7
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: "• Evening at leisure"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/offbeat-plains/page.tsx",
+                                                    lineNumber: 191,
+                                                    columnNumber: 7
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: "• Bonfire, Bar-B-Que & Tribal Dance/Music (on request, extra charge)"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/offbeat-plains/page.tsx",
+                                                    lineNumber: 192,
+                                                    columnNumber: 7
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: "• Dinner & Overnight stay"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/offbeat-plains/page.tsx",
+                                                    lineNumber: 193,
+                                                    columnNumber: 7
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/offbeat-plains/page.tsx",
-                                            lineNumber: 181,
-                                            columnNumber: 15
+                                            lineNumber: 185,
+                                            columnNumber: 5
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                    lineNumber: 179,
-                                    columnNumber: 13
+                                    lineNumber: 181,
+                                    columnNumber: 3
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-orange-50 rounded-xl p-6",
+                                    className: "bg-orange-50 rounded-2xl p-6 shadow-md",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             className: "text-xl font-semibold text-gray-900 mb-4",
-                                            children: "Day – 2: Return Journey"
+                                            children: "Day – 2: Local Sightseeing"
                                         }, void 0, false, {
                                             fileName: "[project]/app/offbeat-plains/page.tsx",
-                                            lineNumber: 193,
-                                            columnNumber: 15
+                                            lineNumber: 199,
+                                            columnNumber: 5
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                            className: "space-y-2 text-gray-700",
+                                            className: "space-y-2 text-gray-700 text-sm leading-relaxed",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    children: "• Early morning Bed Tea"
+                                                    children: "• Early Morning Bed Tea"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 195,
-                                                    columnNumber: 17
+                                                    lineNumber: 203,
+                                                    columnNumber: 7
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    children: "• Explore the local area on your own"
+                                                    children: "• Breakfast at stay"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 196,
-                                                    columnNumber: 17
+                                                    lineNumber: 204,
+                                                    columnNumber: 7
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: "• Full-day local sightseeing tour"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/offbeat-plains/page.tsx",
+                                                    lineNumber: 205,
+                                                    columnNumber: 7
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: "• Explore nearby off-beat & eco-tourism destinations"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/offbeat-plains/page.tsx",
+                                                    lineNumber: 206,
+                                                    columnNumber: 7
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: "• Lunch during sightseeing"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/offbeat-plains/page.tsx",
+                                                    lineNumber: 207,
+                                                    columnNumber: 7
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: "• Evening tea & snacks"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/offbeat-plains/page.tsx",
+                                                    lineNumber: 208,
+                                                    columnNumber: 7
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: "• Dinner & Overnight stay"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/offbeat-plains/page.tsx",
+                                                    lineNumber: 209,
+                                                    columnNumber: 7
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/offbeat-plains/page.tsx",
+                                            lineNumber: 202,
+                                            columnNumber: 5
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/offbeat-plains/page.tsx",
+                                    lineNumber: 198,
+                                    columnNumber: 3
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "bg-yellow-50 rounded-2xl p-6 shadow-md",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-xl font-semibold text-gray-900 mb-4",
+                                            children: "Day – 3: Return Journey"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/offbeat-plains/page.tsx",
+                                            lineNumber: 215,
+                                            columnNumber: 5
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                            className: "space-y-2 text-gray-700 text-sm leading-relaxed",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: "• Early Morning Bed Tea"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/offbeat-plains/page.tsx",
+                                                    lineNumber: 219,
+                                                    columnNumber: 7
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: "• Breakfast at Hotel"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 197,
-                                                    columnNumber: 17
+                                                    lineNumber: 220,
+                                                    columnNumber: 7
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    children: "• After having breakfast, Check-out & start for your return journey"
+                                                    children: "• Check-out after breakfast"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 198,
-                                                    columnNumber: 17
+                                                    lineNumber: 221,
+                                                    columnNumber: 7
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    children: "• Sightseeing en-route if any"
+                                                    children: "• Sightseeing en-route (if applicable)"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 199,
-                                                    columnNumber: 17
+                                                    lineNumber: 222,
+                                                    columnNumber: 7
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    children: "• Drop to Respective Local Station"
+                                                    children: "• Drop to respective local station"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 200,
-                                                    columnNumber: 17
+                                                    lineNumber: 223,
+                                                    columnNumber: 7
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    children: "• Proceed towards Kolkata by Car (extra charge) at your destination around (09-10pm)"
+                                                    children: "• Optional transfer to Kolkata (extra charge)"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 201,
-                                                    columnNumber: 17
+                                                    lineNumber: 224,
+                                                    columnNumber: 7
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    children: "• Tour ends….."
+                                                    children: "• Tour concludes with pleasant memories"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 202,
-                                                    columnNumber: 17
+                                                    lineNumber: 225,
+                                                    columnNumber: 7
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/offbeat-plains/page.tsx",
-                                            lineNumber: 194,
-                                            columnNumber: 15
+                                            lineNumber: 218,
+                                            columnNumber: 5
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                    lineNumber: 192,
-                                    columnNumber: 13
+                                    lineNumber: 214,
+                                    columnNumber: 3
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/offbeat-plains/page.tsx",
                             lineNumber: 178,
-                            columnNumber: 11
+                            columnNumber: 7
                         }, this)
                     ]
                 }, void 0, true, {
@@ -847,7 +922,7 @@ function OffbeatPlains() {
                                     children: "Package Details"
                                 }, void 0, false, {
                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                    lineNumber: 213,
+                                    lineNumber: 238,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -855,13 +930,13 @@ function OffbeatPlains() {
                                     children: "What's included and excluded in your offbeat tour package"
                                 }, void 0, false, {
                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                    lineNumber: 214,
+                                    lineNumber: 239,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/offbeat-plains/page.tsx",
-                            lineNumber: 212,
+                            lineNumber: 237,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -875,7 +950,7 @@ function OffbeatPlains() {
                                             children: "✓ Includes"
                                         }, void 0, false, {
                                             fileName: "[project]/app/offbeat-plains/page.tsx",
-                                            lineNumber: 221,
+                                            lineNumber: 246,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -885,68 +960,68 @@ function OffbeatPlains() {
                                                     children: "• Pick-up & Drop"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 223,
+                                                    lineNumber: 248,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: "• Accommodation in Resort/Farmhouse/Homestay with Bed Tea"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 224,
+                                                    lineNumber: 249,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: "• Breakfast"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 225,
+                                                    lineNumber: 250,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: "• Lunch/Picnic Basket"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 226,
+                                                    lineNumber: 251,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: "• Evening Tea & Snacks"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 227,
+                                                    lineNumber: 252,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: "• Dinner"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 228,
+                                                    lineNumber: 253,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: "• All Sight-seeing"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 229,
+                                                    lineNumber: 254,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: "• Pvt. Transfer"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 230,
+                                                    lineNumber: 255,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/offbeat-plains/page.tsx",
-                                            lineNumber: 222,
+                                            lineNumber: 247,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                    lineNumber: 220,
+                                    lineNumber: 245,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -957,7 +1032,7 @@ function OffbeatPlains() {
                                             children: "✗ Excludes"
                                         }, void 0, false, {
                                             fileName: "[project]/app/offbeat-plains/page.tsx",
-                                            lineNumber: 235,
+                                            lineNumber: 260,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -967,64 +1042,64 @@ function OffbeatPlains() {
                                                     children: "• AC Accommodation where available"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 237,
+                                                    lineNumber: 262,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: "• Price of Air Travel"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 238,
+                                                    lineNumber: 263,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: "• AC Train Fare"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 239,
+                                                    lineNumber: 264,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: "• Exclusive Non Sharing Car/ Vehicle extra if availed"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 240,
+                                                    lineNumber: 265,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: "• Anything not mentioned in Tour Itinerary"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                    lineNumber: 241,
+                                                    lineNumber: 266,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/offbeat-plains/page.tsx",
-                                            lineNumber: 236,
+                                            lineNumber: 261,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                    lineNumber: 234,
+                                    lineNumber: 259,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/offbeat-plains/page.tsx",
-                            lineNumber: 219,
+                            lineNumber: 244,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                    lineNumber: 211,
+                    lineNumber: 236,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/offbeat-plains/page.tsx",
-                lineNumber: 210,
+                lineNumber: 235,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1040,7 +1115,7 @@ function OffbeatPlains() {
                                     children: "Why Choose Offbeat Tourism?"
                                 }, void 0, false, {
                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                    lineNumber: 252,
+                                    lineNumber: 277,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1048,13 +1123,13 @@ function OffbeatPlains() {
                                     children: "Experience authentic rural Bengal with sustainable tourism"
                                 }, void 0, false, {
                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                    lineNumber: 253,
+                                    lineNumber: 278,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/offbeat-plains/page.tsx",
-                            lineNumber: 251,
+                            lineNumber: 276,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1068,12 +1143,12 @@ function OffbeatPlains() {
                                                 className: "w-8 h-8 text-amber-600"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/offbeat-plains/page.tsx",
-                                                lineNumber: 262,
+                                                lineNumber: 287,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/offbeat-plains/page.tsx",
-                                            lineNumber: 261,
+                                            lineNumber: 286,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1081,7 +1156,7 @@ function OffbeatPlains() {
                                             children: experience.title
                                         }, void 0, false, {
                                             fileName: "[project]/app/offbeat-plains/page.tsx",
-                                            lineNumber: 264,
+                                            lineNumber: 289,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1089,29 +1164,29 @@ function OffbeatPlains() {
                                             children: experience.description
                                         }, void 0, false, {
                                             fileName: "[project]/app/offbeat-plains/page.tsx",
-                                            lineNumber: 265,
+                                            lineNumber: 290,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                                    lineNumber: 260,
+                                    lineNumber: 285,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/offbeat-plains/page.tsx",
-                            lineNumber: 258,
+                            lineNumber: 283,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/offbeat-plains/page.tsx",
-                    lineNumber: 250,
+                    lineNumber: 275,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/offbeat-plains/page.tsx",
-                lineNumber: 249,
+                lineNumber: 274,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PackagePricing$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -1119,12 +1194,12 @@ function OffbeatPlains() {
                 subtitle: "Choose your perfect rural Bengal adventure"
             }, void 0, false, {
                 fileName: "[project]/app/offbeat-plains/page.tsx",
-                lineNumber: 272,
+                lineNumber: 297,
                 columnNumber: 10
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/offbeat-plains/page.tsx",
-                lineNumber: 278,
+                lineNumber: 303,
                 columnNumber: 9
             }, this)
         ]
