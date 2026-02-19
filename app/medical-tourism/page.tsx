@@ -522,7 +522,7 @@ export default function MedicalTourismPage() {
      {/* ================= PRICING INFORMATION ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="bg-white rounded-3xl shadow-2xl p-10 border border-blue-100">
+          <div className="bg-white">
             <div className="text-center mb-8">
               <div className="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
                 <IndianRupee className="w-10 h-10 text-blue-600" />
