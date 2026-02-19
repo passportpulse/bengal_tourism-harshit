@@ -592,7 +592,7 @@ function OffbeatPlains() {
                                                 href: "/book-tour",
                                                 className: "w-full bg-amber-600 text-white py-2 rounded-lg hover:bg-amber-700 transition text-center block",
                                                 children: [
-                                                    "Book for  ",
+                                                    "Book for ",
                                                     destination.duration
                                                 ]
                                             }, void 0, true, {

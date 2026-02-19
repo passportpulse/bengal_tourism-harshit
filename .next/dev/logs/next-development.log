@@ -1094,3 +1094,6 @@ Unterminated regexp literal
 [09:15:27.365] Browser WARN    Image with src "https://images.unsplash.com/photo-1761470371217-a4de0ff0e8df?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SG90ZWwtUmVzb3J0LUd1ZXN0JTIwSG91c2V8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [09:15:28.539] Server  ERROR   ⨯ "upstream image" "https://ik.imgkit.net/3vlqs5axxjf/TW-Asia/ik-seo/uploadedImages/Industry/Travel_Trends/GettyImages-599463782/Wellness-tourism-takes-the-spotlight-for-2022-trav.jpg?tr=w-780%2Ch-440%2Cfo-auto" "resolved to private ip" "[\"64:ff9b::12a4:ca14\",\"64:ff9b::12a4:ca75\",\"64:ff9b::12a4:ca6b\",\"64:ff9b::12a4:ca42\"]"
 [09:16:11.714] Server  LOG     ✓ Compiled in 277ms
+[09:24:51.459] Server  LOG     ✓ Compiled in 174ms
+[09:25:41.962] Server  LOG     ✓ Compiled in 107ms
+[09:26:56.661] Server  LOG     ✓ Compiled in 116ms

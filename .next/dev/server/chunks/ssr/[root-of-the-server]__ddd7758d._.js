@@ -1592,8 +1592,8 @@ function SikkimTourismPage() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Destination, {
                             title: "WEST SIKKIM",
-                            subtitle: "Add-on (or) Separately with [PELLING-RAVANGLA- 2N/3D]",
-                            cta: "Book Now for 2N/3D",
+                            subtitle: "Add-on (or) Separately with PELLING-RAVANGLA",
+                            cta: "Book Now for 3N/4D",
                             content: [
                                 `Day – 1 : Pick-up from New Jalpaiguri Railway Station (NJP) / Pakyong Airport / Bagdogra Airport (or) Hotel in Gangtok proceed towards Pelling/Ravangla. En-route local sight seeing. Lunch en-route. Check into Hotel. Evening free. Dinner & Overnight at Hotel/Resort at Pelling / Ravangla.`,
                                 `Day – 2 : After breakfast, sightseeing to Pemayangsha Monastery, Sangachoely, Kanchenjongha Falls, Singshore Bridge, Pelling Skywalk, Etc. Lunch en-route. Return in evening. Dinner & Overnight at Hotel/Resort at Pelling / Ravangla.`,
@@ -1607,7 +1607,7 @@ function SikkimTourismPage() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Destination, {
                             title: "NORTH SIKKIM",
-                            subtitle: "Add-on (or) Separately with [LACHEN - LACHUNG - GORUDONGMAR-2N/3D]",
+                            subtitle: "Add-on (or) Separately with LACHEN - LACHUNG - GORUDONGMAR",
                             cta: "Book Now for 2N/3D",
                             content: [
                                 `Day – 1 :Transfer to Lachen (North Sikkim): After breakfast, pick-up from Hotel at Gangtok (09.00am). Drive 135 km, 5 – 6 hours drive. Chungthang is 96 kilometers from Gangtok. Lunch at Chungthang. Lachen is 35 kilometers from Chungthang. Visit Seven Sister Falls & Naga Waterfalls. Check into a hotel. Welcome Tea. Evening free to stroll and visit the Lepcha Village. Dinner & Overnight stay in Hotel/ Resort at Lachen.`,
@@ -1622,7 +1622,7 @@ function SikkimTourismPage() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Destination, {
                             title: "SILK ROUTE",
                             cta: "Book Now for 4N/5D",
-                            subtitle: "Add-on (or) Separately with [SILLERY-ZULUK-ARITAR-RESHIKHOLA-4N/5D]",
+                            subtitle: "Add-on (or) Separately with SILLERY-ZULUK-ARITAR-RESHIKHOLA",
                             content: [
                                 `Day –1 :Start of tour: Our representative will be there to receive the Guest at New Jalpaiguri Railway Station (NJP) / Bagdogra Airport (09.00 am). He will be assisting you to proceed for Sillery Gaon. Lunch en-route. Check-in to Hotel/Homestay. Post lunch, rest. Evening free for photography & idle your time. Back to resort. Dinner & Night stay in Hotel / Resort  Home Stay at Sillery Gaon.`,
                                 `Day – 2 : Proceed for Zuluk:  Early morning breakfast. Check Out to visit Rongli (for inner line permit), Visit Lingtam, Kuekhola Falls. Lunch-en-route. Dinner & Night stay in Hotel / Resort / Home Stay at Zuluk.`,

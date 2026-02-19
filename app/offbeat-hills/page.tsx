@@ -78,6 +78,7 @@ export default function OffbeatHills() {
 <div className='space-y-6'>
           <Destination
             title="RISHYAP"
+              cta='Book Now for 2N/3D'
             subtitle="With [LAVA & NEORA VALLY-2N/3D]"
             content={[
               `Day – 1:Start of tour: Our representative will be there to receive the Guest at New Jalpaiguri Railway Station (NJP) / Bagdogra Airport (IXB) / Tenzing Norgay Bus Stand (Junction). He will be assisting you for the transfer to Rishyap at 8500 Ft,  lies the land of breath taking beauty, sloping tea gardens with spectacular views of the Mount Everest.  Check-in at Hotel/Homestay. Lunch & rest. Evening free to roam around the local area & Shopping centre on your own. Dinner & Overnight stay at Hotel/Resort/Homestay at Rishop / Neora Valley.`,
@@ -92,6 +93,7 @@ export default function OffbeatHills() {
 
           <Destination
             title="JORPOKHRI"
+              cta='Book Now for 2N/3D'
             subtitle="With [PEDONG-2N/3D]"
             content={[
               `Day –1:Start of tour: Our representative will be there to receive the Guest at New Jalpaiguri Railway Station (NJP) / Bagdogra Airport (IXB) / Tenzing Norgay Bus Stand (Junction). He will be assisting you for the transfer to Rishyap at 8500 Ft, lies the land of breath taking beauty, sloping tea gardens with spectacular views of the Mount Everest.  Check-in at Hotel/Homestay. Lunch & rest. Evening free to roam around the local area & Shopping centre on your own . Dinner & Overnight stay at Hotel/Resort/Homestay at Rishop / Jorpokri.`,
@@ -105,6 +107,7 @@ export default function OffbeatHills() {
 
           <Destination
             title="SITTONG"
+              cta='Book Now for 2N/3D'
             subtitle="The Orange Valley with [AHALDATRA-2N/3D]"
             content={[
               `Day –1:Start of tour: Our representative will be there to receive the Guest at New Jalpaiguri Railway Station (NJP) / Bagdogra Airport (IXB) / Tenzing Norgay Bus Stand (Junction). He will be assisting you for the transfer to Sittong at 4000 Ft. Often called the Orange Valley,  lies the land of breath taking beauty, sloping tea gardens with spectacular views of the Mount Everest is the Queen of the hills. Check-in at Homestay. Lunch & rest. Evening free to roam around the local area on your own. Dinner & Overnight stay at Farmhouse/Homestay at Sittong / Latpanchar / Ahaldara.`,
@@ -119,6 +122,7 @@ export default function OffbeatHills() {
 
           <Destination
             title="CHATAKPUR"
+              cta='Book Now for 2N/3D'
             subtitle="Switzerland of the East with [DAWAIPANI-2N/3D]"
             content={[
               'Day – 1 :Start of tour: Our representative will be there to receive the Guest at New Jalpaiguri Railway Station (NJP) / Bagdogra Airport (IXB) / Tenzing Norgay Bus Stand (Junction). Forwarding journey towards Chatakpur at 7800 ft.  Often called Switzerland of the East, its with mesmerizing beauty offers spectacular views of the Mount Everest, Mt. Kanchendzonga and the rest of spectacular Himalayan range. Check into Homestay. Lunch & rest.. Evening free to roam around the local area on your own. Dinner & Overnight stay at Farmhouse/Homestay at Chatakpur /  Dawaipani / Chitrey.',
@@ -133,6 +137,7 @@ export default function OffbeatHills() {
           <Destination
             title="TINCHULEY"
             subtitle="Offbeat with [TAKDAH -  RAMDHURA-2N/3D]"
+              cta='Book Now for 2N/3D'
             content={[
               `Day –1:Start of tour: Our representative will be there to receive the Guest at New Jalpaiguri Railway Station (NJP) / Bagdogra Airport (IXB) / Tenzing Norgay Bus Stand (Junction). He will be assisting you for the transfer to Tinchuley at 5800 Ft lies the land of breath taking beauty, sloping tea gardens with spectacular views of the Mount Everest. Check-in at Homestay. Lunch & rest. Evening free to roam around the local area on own. Dinner & Overnight stay at Farmhouse/Homestay at Tinchuley / Ramdhura / Takdah.`,
 
@@ -143,6 +148,7 @@ export default function OffbeatHills() {
           />
           <Destination
             title="SANDAKPHU"
+            cta='Book Now for 2N/3D'
             subtitle="Trekkers Paradise with [MANEBHANJAN – TUMLING/PHALUT-2N/3D]"
             content={[
               `Day –1 :Start of tour: Our representative will be there to receive the Guest at New Jalpaiguri Railway Station (NJP) / Bagdogra Airport (IXB) / Tenzing Norgay Bus Stand (Junction) at (07-08 am). He will be assisting you for the transfer to Manebhanjan. Breakfast here & start of journey in Land Rover from here. Purchase a Singalila Forest entry Permit. Proceed towards Tonglu /Tumling. Halt at Chitrey Monastery. Reach Tumling at a height of 10,000 ft, lies the land of breath taking beauty with spectacular views of the Mount Everest. Lunch en-route. Reach your Homestay & check-in. Evening free to roam around or local shopping centre. Dinner & Overnight stay at Hotel/Homestay at Tumling.`,
@@ -303,7 +309,7 @@ e
     </div>
   )
 }
-function Destination({ title, subtitle, content }: { title: string; subtitle: string; content: string[] }) {
+function Destination({ title, subtitle, content, cta }: { title: string; subtitle: string; content: string[]; cta: string }) {
   return (
     <div className="bg-white shadow-xl rounded-3xl p-10 space-y-6">
       <div className="flex gap-5 items-center mt-8">
@@ -313,11 +319,10 @@ function Destination({ title, subtitle, content }: { title: string; subtitle: st
           href="/book-tour"
           className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
         >
-          Book Now
+          {cta}
         </a>
       </div>
 
-      <p className="font-semibold text-gray-700">{subtitle}</p>
 
 
       <div className="space-y-6">
