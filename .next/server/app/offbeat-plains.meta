@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/offbeat-plains/layout,_N_T_/offbeat-plains/page,_N_T_/offbeat-plains"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/offbeat-plains/__PAGE__",
+    "/offbeat-plains",
+    "/_index",
+    "/_head"
+  ]
+}

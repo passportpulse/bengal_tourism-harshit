@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/rishap/layout,_N_T_/rishap/page,_N_T_/rishap"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/rishap/__PAGE__",
+    "/rishap",
+    "/_index",
+    "/_head"
+  ]
+}

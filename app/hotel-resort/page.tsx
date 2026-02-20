@@ -231,67 +231,109 @@ export default function HotelResortPage() {
           </div>
         </div>
       </section>
-   <section className="py-24 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-6">
+<section className="py-24 bg-gray-50">
+  <div className="max-w-7xl mx-auto px-6">
 
-        {/* Header */}
-        <div className="text-center mb-20">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Premium Hotel & Resort Packages
-          </h2>
-          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Luxury stay experience with buffet breakfast included
-          </p>
-        </div>
+    {/* Header */}
+    <div className="text-center mb-16">
+      <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        Premium Hotel & Resort Packages
+      </h2>
+      <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+        Luxury stay experience with buffet breakfast included
+      </p>
+    </div>
 
-        {/* Cards Grid */}
-        <div className="grid  gap-8">
+    {/* 2 Column Layout */}
+    <div className="grid md:grid-cols-2 gap-12 items-center">
 
-          {/* Existing Packages (Same as before) */}
+      {/* LEFT SIDE IMAGE */}
+      <div className="relative group">
 
-          {/* 1N/2D Premium */}
-          <div className="bg-gradient-to-br from-yellow-50 to-orange-100 border border-orange-200 rounded-3xl p-8 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition duration-300 flex flex-col justify-between">
+        <div className="relative overflow-hidden rounded-3xl shadow-xl">
+          <img
+            src="/hotal/myfair.jpg"
+            alt="Premium Hotel and Resort"
+            className="w-full h-[450px] object-cover group-hover:scale-105 transition duration-500"
+          />
 
-            <div>
-              <span className="text-orange-600 text-xs font-semibold">
-                Premium Hotel & Resort
-              </span>
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mt-6">
-                1N / 2D
-              </h3>
-
-              <p className="text-3xl font-bold text-orange-600 mt-3">
-                ₹ 21,000
-              </p>
-
-              <ul className="mt-6 space-y-3 text-gray-700 text-sm">
-                <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-orange-600" /> Luxury Accommodation
-                </li>
-                <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-orange-600" /> Buffet Breakfast Included
-                </li>
-                <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-orange-600" /> Resort Amenities Access
-                </li>
-                <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-orange-600" /> Scenic Experience
-                </li>
-              </ul>
-            </div>
-
-            <button
-              onClick={handleBookNow}
-              className="mt-8 bg-orange-500 text-white py-3 rounded-xl font-semibold hover:bg-orange-600 transition"
-            >
-              Book Now
-            </button>
+          {/* Advertise Badge */}
+          <div className="absolute top-6 left-6">
+            <span className="bg-orange-500 text-white px-4 py-2 rounded-full text-xs font-semibold shadow-lg">
+              Advertise & Services
+            </span>
           </div>
 
+          {/* Bottom CTA */}
+          <div className="absolute bottom-6 left-6 right-6">
+            <div className="bg-white/90 backdrop-blur-md rounded-2xl p-4 shadow-lg flex justify-between items-center">
+              <div>
+                <h4 className="font-bold text-gray-900 text-sm">
+                  Book Premium Hotels & Resorts
+                </h4>
+                <p className="text-gray-600 text-xs">
+                  Experience comfort, luxury & scenic stays
+                </p>
+              </div>
+
+              <a
+                href="/book-hotel"
+                className="bg-orange-500 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-orange-600 transition"
+              >
+                Book Now
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+
+      {/* RIGHT SIDE PACKAGE CARD */}
+      <div className="bg-gradient-to-br from-yellow-50 to-orange-100 border border-orange-200 rounded-3xl p-10 shadow-lg hover:shadow-2xl transition duration-300 flex flex-col justify-between">
+
+        <div>
+          <span className="text-orange-600 text-xs font-semibold">
+            Premium Hotel & Resort
+          </span>
+
+          <h3 className="text-2xl font-bold text-gray-900 mt-6">
+            1N / 2D Package
+          </h3>
+
+          <p className="text-4xl font-bold text-orange-600 mt-3">
+            ₹ 21,000
+          </p>
+
+          <ul className="mt-8 space-y-3 text-gray-700 text-sm">
+            <li className="flex items-center gap-2">
+              <Check className="w-4 h-4 text-orange-600" /> Luxury Accommodation
+            </li>
+            <li className="flex items-center gap-2">
+              <Check className="w-4 h-4 text-orange-600" /> Buffet Breakfast Included
+            </li>
+            <li className="flex items-center gap-2">
+              <Check className="w-4 h-4 text-orange-600" /> Resort Amenities Access
+            </li>
+            <li className="flex items-center gap-2">
+              <Check className="w-4 h-4 text-orange-600" /> Scenic & Relaxing Experience
+            </li>
+          </ul>
+        </div>
+
+        <a
+          href="/book-hotel"
+          className="mt-10 bg-orange-500 text-white py-3 rounded-xl font-semibold text-center hover:bg-orange-600 transition"
+        >
+          Book Now
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
        
     <ContactCTA />
     </main>

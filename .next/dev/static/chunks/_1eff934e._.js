@@ -1067,7 +1067,7 @@ function HotelResortPage() {
                     className: "max-w-7xl mx-auto px-6",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-center mb-20",
+                            className: "text-center mb-16",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                     className: "text-4xl md:text-5xl font-bold text-gray-900 mb-4",
@@ -1075,7 +1075,7 @@ function HotelResortPage() {
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-resort/page.tsx",
                                     lineNumber: 239,
-                                    columnNumber: 11
+                                    columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-gray-600 text-lg max-w-2xl mx-auto",
@@ -1083,162 +1083,260 @@ function HotelResortPage() {
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-resort/page.tsx",
                                     lineNumber: 242,
-                                    columnNumber: 11
+                                    columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/hotel-resort/page.tsx",
                             lineNumber: 238,
-                            columnNumber: 9
+                            columnNumber: 5
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "grid  gap-8",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-gradient-to-br from-yellow-50 to-orange-100 border border-orange-200 rounded-3xl p-8 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition duration-300 flex flex-col justify-between",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "grid md:grid-cols-2 gap-12 items-center",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "relative group",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "relative overflow-hidden rounded-3xl shadow-xl",
                                         children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-orange-600 text-xs font-semibold",
-                                                children: "Premium Hotel & Resort"
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                src: "/hotal/myfair.jpg",
+                                                alt: "Premium Hotel and Resort",
+                                                className: "w-full h-[450px] object-cover group-hover:scale-105 transition duration-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/hotel-resort/page.tsx",
-                                                lineNumber: 256,
-                                                columnNumber: 15
+                                                lineNumber: 254,
+                                                columnNumber: 11
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "text-2xl font-bold text-gray-900 mt-6",
-                                                children: "1N / 2D"
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/hotel-resort/page.tsx",
-                                                lineNumber: 260,
-                                                columnNumber: 15
+                                                lineNumber: 261,
+                                                columnNumber: 11
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-3xl font-bold text-orange-600 mt-3",
-                                                children: "₹ 21,000"
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "absolute top-6 left-6",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: "bg-orange-500 text-white px-4 py-2 rounded-full text-xs font-semibold shadow-lg",
+                                                    children: "Advertise & Services"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/hotel-resort/page.tsx",
+                                                    lineNumber: 265,
+                                                    columnNumber: 13
+                                                }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/hotel-resort/page.tsx",
                                                 lineNumber: 264,
-                                                columnNumber: 15
+                                                columnNumber: 11
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                className: "mt-6 space-y-3 text-gray-700 text-sm",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        className: "flex items-center gap-2",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
-                                                                className: "w-4 h-4 text-orange-600"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/hotel-resort/page.tsx",
-                                                                lineNumber: 270,
-                                                                columnNumber: 19
-                                                            }, this),
-                                                            " Luxury Accommodation"
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/app/hotel-resort/page.tsx",
-                                                        lineNumber: 269,
-                                                        columnNumber: 17
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        className: "flex items-center gap-2",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
-                                                                className: "w-4 h-4 text-orange-600"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/hotel-resort/page.tsx",
-                                                                lineNumber: 273,
-                                                                columnNumber: 19
-                                                            }, this),
-                                                            " Buffet Breakfast Included"
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/app/hotel-resort/page.tsx",
-                                                        lineNumber: 272,
-                                                        columnNumber: 17
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        className: "flex items-center gap-2",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
-                                                                className: "w-4 h-4 text-orange-600"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/hotel-resort/page.tsx",
-                                                                lineNumber: 276,
-                                                                columnNumber: 19
-                                                            }, this),
-                                                            " Resort Amenities Access"
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/app/hotel-resort/page.tsx",
-                                                        lineNumber: 275,
-                                                        columnNumber: 17
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        className: "flex items-center gap-2",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
-                                                                className: "w-4 h-4 text-orange-600"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/hotel-resort/page.tsx",
-                                                                lineNumber: 279,
-                                                                columnNumber: 19
-                                                            }, this),
-                                                            " Scenic Experience"
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/app/hotel-resort/page.tsx",
-                                                        lineNumber: 278,
-                                                        columnNumber: 17
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "absolute bottom-6 left-6 right-6",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "bg-white/90 backdrop-blur-md rounded-2xl p-4 shadow-lg flex justify-between items-center",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                                    className: "font-bold text-gray-900 text-sm",
+                                                                    children: "Book Premium Hotels & Resorts"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/app/hotel-resort/page.tsx",
+                                                                    lineNumber: 274,
+                                                                    columnNumber: 17
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                    className: "text-gray-600 text-xs",
+                                                                    children: "Experience comfort, luxury & scenic stays"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/app/hotel-resort/page.tsx",
+                                                                    lineNumber: 277,
+                                                                    columnNumber: 17
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/app/hotel-resort/page.tsx",
+                                                            lineNumber: 273,
+                                                            columnNumber: 15
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                            href: "/book-hotel",
+                                                            className: "bg-orange-500 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-orange-600 transition",
+                                                            children: "Book Now"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/hotel-resort/page.tsx",
+                                                            lineNumber: 282,
+                                                            columnNumber: 15
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/app/hotel-resort/page.tsx",
+                                                    lineNumber: 272,
+                                                    columnNumber: 13
+                                                }, this)
+                                            }, void 0, false, {
                                                 fileName: "[project]/app/hotel-resort/page.tsx",
-                                                lineNumber: 268,
-                                                columnNumber: 15
+                                                lineNumber: 271,
+                                                columnNumber: 11
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/hotel-resort/page.tsx",
-                                        lineNumber: 255,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        onClick: handleBookNow,
-                                        className: "mt-8 bg-orange-500 text-white py-3 rounded-xl font-semibold hover:bg-orange-600 transition",
-                                        children: "Book Now"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/hotel-resort/page.tsx",
-                                        lineNumber: 284,
-                                        columnNumber: 13
+                                        lineNumber: 253,
+                                        columnNumber: 9
                                     }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/app/hotel-resort/page.tsx",
-                                lineNumber: 253,
-                                columnNumber: 11
-                            }, this)
-                        }, void 0, false, {
+                                }, void 0, false, {
+                                    fileName: "[project]/app/hotel-resort/page.tsx",
+                                    lineNumber: 251,
+                                    columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "bg-gradient-to-br from-yellow-50 to-orange-100 border border-orange-200 rounded-3xl p-10 shadow-lg hover:shadow-2xl transition duration-300 flex flex-col justify-between",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: "text-orange-600 text-xs font-semibold",
+                                                    children: "Premium Hotel & Resort"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/hotel-resort/page.tsx",
+                                                    lineNumber: 297,
+                                                    columnNumber: 11
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                    className: "text-2xl font-bold text-gray-900 mt-6",
+                                                    children: "1N / 2D Package"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/hotel-resort/page.tsx",
+                                                    lineNumber: 301,
+                                                    columnNumber: 11
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-4xl font-bold text-orange-600 mt-3",
+                                                    children: "₹ 21,000"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/hotel-resort/page.tsx",
+                                                    lineNumber: 305,
+                                                    columnNumber: 11
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                                    className: "mt-8 space-y-3 text-gray-700 text-sm",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                            className: "flex items-center gap-2",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
+                                                                    className: "w-4 h-4 text-orange-600"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/app/hotel-resort/page.tsx",
+                                                                    lineNumber: 311,
+                                                                    columnNumber: 15
+                                                                }, this),
+                                                                " Luxury Accommodation"
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/app/hotel-resort/page.tsx",
+                                                            lineNumber: 310,
+                                                            columnNumber: 13
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                            className: "flex items-center gap-2",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
+                                                                    className: "w-4 h-4 text-orange-600"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/app/hotel-resort/page.tsx",
+                                                                    lineNumber: 314,
+                                                                    columnNumber: 15
+                                                                }, this),
+                                                                " Buffet Breakfast Included"
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/app/hotel-resort/page.tsx",
+                                                            lineNumber: 313,
+                                                            columnNumber: 13
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                            className: "flex items-center gap-2",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
+                                                                    className: "w-4 h-4 text-orange-600"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/app/hotel-resort/page.tsx",
+                                                                    lineNumber: 317,
+                                                                    columnNumber: 15
+                                                                }, this),
+                                                                " Resort Amenities Access"
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/app/hotel-resort/page.tsx",
+                                                            lineNumber: 316,
+                                                            columnNumber: 13
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                            className: "flex items-center gap-2",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
+                                                                    className: "w-4 h-4 text-orange-600"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/app/hotel-resort/page.tsx",
+                                                                    lineNumber: 320,
+                                                                    columnNumber: 15
+                                                                }, this),
+                                                                " Scenic & Relaxing Experience"
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/app/hotel-resort/page.tsx",
+                                                            lineNumber: 319,
+                                                            columnNumber: 13
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/app/hotel-resort/page.tsx",
+                                                    lineNumber: 309,
+                                                    columnNumber: 11
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/hotel-resort/page.tsx",
+                                            lineNumber: 296,
+                                            columnNumber: 9
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: "/book-hotel",
+                                            className: "mt-10 bg-orange-500 text-white py-3 rounded-xl font-semibold text-center hover:bg-orange-600 transition",
+                                            children: "Book Now"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/hotel-resort/page.tsx",
+                                            lineNumber: 325,
+                                            columnNumber: 9
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/hotel-resort/page.tsx",
+                                    lineNumber: 294,
+                                    columnNumber: 7
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/app/hotel-resort/page.tsx",
                             lineNumber: 248,
-                            columnNumber: 9
+                            columnNumber: 5
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/hotel-resort/page.tsx",
                     lineNumber: 235,
-                    columnNumber: 7
+                    columnNumber: 3
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/hotel-resort/page.tsx",
                 lineNumber: 234,
-                columnNumber: 4
+                columnNumber: 1
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/hotel-resort/page.tsx",
-                lineNumber: 296,
+                lineNumber: 338,
                 columnNumber: 5
             }, this)
         ]

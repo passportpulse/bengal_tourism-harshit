@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/mandarmoni/layout,_N_T_/mandarmoni/page,_N_T_/mandarmoni"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/mandarmoni/__PAGE__",
+    "/mandarmoni",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1,14 +1,22 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
+  "/air-ambulance/page": "app/air-ambulance/page.js",
   "/andaman-nicobar-tourism/page": "app/andaman-nicobar-tourism/page.js",
   "/assam-guwahati-tourism/page": "app/assam-guwahati-tourism/page.js",
   "/contact/page": "app/contact/page.js",
   "/digha/page": "app/digha/page.js",
   "/dooars/page": "app/dooars/page.js",
+  "/haridwar-rishikesh-tourism/page": "app/haridwar-rishikesh-tourism/page.js",
   "/himachal-tourism/page": "app/himachal-tourism/page.js",
+  "/hotel-resort/page": "app/hotel-resort/page.js",
   "/jammu-kashmir-tourism/page": "app/jammu-kashmir-tourism/page.js",
   "/kerala-tourism/page": "app/kerala-tourism/page.js",
+  "/medical-tourism/page": "app/medical-tourism/page.js",
   "/packages/bengal-beckons/page": "app/packages/bengal-beckons/page.js",
+  "/packages/exclusive/page": "app/packages/exclusive/page.js",
   "/packages/india/page": "app/packages/india/page.js",
   "/rajasthan-tourism/page": "app/rajasthan-tourism/page.js",
-  "/sundarban/page": "app/sundarban/page.js"
+  "/spa-wellness/page": "app/spa-wellness/page.js",
+  "/sundarban/page": "app/sundarban/page.js",
+  "/tea-tourism/page": "app/tea-tourism/page.js"
 }

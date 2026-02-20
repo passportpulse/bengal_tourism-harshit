@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/947f8f21c493100e.js","/_next/static/chunks/f3e35d9a80465ef3.js"],"ViewportBoundary"]
+3:I[97367,["/_next/static/chunks/947f8f21c493100e.js","/_next/static/chunks/f3e35d9a80465ef3.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"XVQ-f6LlcEL7Ed0m4apSR","rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Bengal Tourism - Explore the Land of Culture"}],["$","meta","1",{"name":"description","content":"Discover the beautiful destinations of West Bengal. From Darjeeling to Sundarban, experience the rich heritage and natural beauty of Bengal."}]]}]}]}],null]}],"loading":null,"isPartial":false}

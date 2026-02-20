@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/dooars/layout,_N_T_/dooars/page,_N_T_/dooars"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/dooars/__PAGE__",
+    "/dooars",
+    "/_index",
+    "/_head"
+  ]
+}

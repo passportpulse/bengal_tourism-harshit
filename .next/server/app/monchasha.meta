@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/monchasha/layout,_N_T_/monchasha/page,_N_T_/monchasha"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/monchasha/__PAGE__",
+    "/monchasha",
+    "/_index",
+    "/_head"
+  ]
+}

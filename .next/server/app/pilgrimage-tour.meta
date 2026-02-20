@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/pilgrimage-tour/layout,_N_T_/pilgrimage-tour/page,_N_T_/pilgrimage-tour"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/pilgrimage-tour/__PAGE__",
+    "/pilgrimage-tour",
+    "/_index",
+    "/_head"
+  ]
+}
