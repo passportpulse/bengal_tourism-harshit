@@ -262,14 +262,17 @@ export default function HotelResortPage() {
 
           {/* Advertise Badge */}
           <div className="absolute top-6 left-6">
-            <span className="bg-orange-500 text-white px-4 py-2 rounded-full text-xs font-semibold shadow-lg">
-              Advertise & Services
-            </span>
+            <div className="bg-white/90 backdrop-blur-md rounded-2xl p-4 shadow-lg flex justify-between items-center">
+              <div>
+                <h4 className="font-bold text-gray-900 text-sm">
+            Place For advertisement of preminum Hotels & Resorts
+           </h4>
+           </div></div>
           </div>
 
           {/* Bottom CTA */}
           <div className="absolute bottom-6 left-6 right-6">
-            <div className="bg-white/90 backdrop-blur-md rounded-2xl p-4 shadow-lg flex justify-between items-center">
+            <div className="w-full bg-white/90 backdrop-blur-md rounded-2xl p-4 shadow-lg flex justify-between items-center">
               <div>
                 <h4 className="font-bold text-gray-900 text-sm">
                   Book Premium Hotels & Resorts

@@ -33,7 +33,7 @@ const indiaPackages = [
         price: "₹ 9500",
         desc: "Experience the divine Ganga Aarti at Haridwar, explore yoga capital Rishikesh, enjoy river rafting, temples, and peaceful Himalayan vibes.",
         locations: "Haridwar, Rishikesh",
-        image: "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=900&auto=format&fit=crop&q=60",
+        image: "https://images.unsplash.com/photo-1625973937402-2a4d12bff645?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fERlaHJhZHVufGVufDB8fDB8fHww",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
         iconColor: "text-orange-500",
         route: "/haridwar-rishikesh-tourism",

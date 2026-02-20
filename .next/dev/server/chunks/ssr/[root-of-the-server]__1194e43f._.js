@@ -1127,9 +1127,22 @@ function HotelResortPage() {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "absolute top-6 left-6",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "bg-orange-500 text-white px-4 py-2 rounded-full text-xs font-semibold shadow-lg",
-                                                    children: "Advertise & Services"
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "bg-white/90 backdrop-blur-md rounded-2xl p-4 shadow-lg flex justify-between items-center",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                            className: "font-bold text-gray-900 text-sm",
+                                                            children: "Place For advertisement of preminum Hotels & Resorts"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/hotel-resort/page.tsx",
+                                                            lineNumber: 267,
+                                                            columnNumber: 17
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/hotel-resort/page.tsx",
+                                                        lineNumber: 266,
+                                                        columnNumber: 15
+                                                    }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/hotel-resort/page.tsx",
                                                     lineNumber: 265,
@@ -1143,7 +1156,7 @@ function HotelResortPage() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "absolute bottom-6 left-6 right-6",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "bg-white/90 backdrop-blur-md rounded-2xl p-4 shadow-lg flex justify-between items-center",
+                                                    className: "w-full bg-white/90 backdrop-blur-md rounded-2xl p-4 shadow-lg flex justify-between items-center",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             children: [
@@ -1152,7 +1165,7 @@ function HotelResortPage() {
                                                                     children: "Book Premium Hotels & Resorts"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/hotel-resort/page.tsx",
-                                                                    lineNumber: 274,
+                                                                    lineNumber: 277,
                                                                     columnNumber: 17
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1160,13 +1173,13 @@ function HotelResortPage() {
                                                                     children: "Experience comfort, luxury & scenic stays"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/hotel-resort/page.tsx",
-                                                                    lineNumber: 277,
+                                                                    lineNumber: 280,
                                                                     columnNumber: 17
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/hotel-resort/page.tsx",
-                                                            lineNumber: 273,
+                                                            lineNumber: 276,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1175,18 +1188,18 @@ function HotelResortPage() {
                                                             children: "Book Now"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/hotel-resort/page.tsx",
-                                                            lineNumber: 282,
+                                                            lineNumber: 285,
                                                             columnNumber: 15
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/hotel-resort/page.tsx",
-                                                    lineNumber: 272,
+                                                    lineNumber: 275,
                                                     columnNumber: 13
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/hotel-resort/page.tsx",
-                                                lineNumber: 271,
+                                                lineNumber: 274,
                                                 columnNumber: 11
                                             }, this)
                                         ]
@@ -1210,7 +1223,7 @@ function HotelResortPage() {
                                                     children: "Premium Hotel & Resort"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/hotel-resort/page.tsx",
-                                                    lineNumber: 297,
+                                                    lineNumber: 300,
                                                     columnNumber: 11
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1218,7 +1231,7 @@ function HotelResortPage() {
                                                     children: "1N / 2D Package"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/hotel-resort/page.tsx",
-                                                    lineNumber: 301,
+                                                    lineNumber: 304,
                                                     columnNumber: 11
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1226,7 +1239,7 @@ function HotelResortPage() {
                                                     children: "₹ 21,000"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/hotel-resort/page.tsx",
-                                                    lineNumber: 305,
+                                                    lineNumber: 308,
                                                     columnNumber: 11
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1239,27 +1252,10 @@ function HotelResortPage() {
                                                                     className: "w-4 h-4 text-orange-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/hotel-resort/page.tsx",
-                                                                    lineNumber: 311,
-                                                                    columnNumber: 15
-                                                                }, this),
-                                                                " Luxury Accommodation"
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/app/hotel-resort/page.tsx",
-                                                            lineNumber: 310,
-                                                            columnNumber: 13
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "flex items-center gap-2",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
-                                                                    className: "w-4 h-4 text-orange-600"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/hotel-resort/page.tsx",
                                                                     lineNumber: 314,
                                                                     columnNumber: 15
                                                                 }, this),
-                                                                " Buffet Breakfast Included"
+                                                                " Luxury Accommodation"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/hotel-resort/page.tsx",
@@ -1276,7 +1272,7 @@ function HotelResortPage() {
                                                                     lineNumber: 317,
                                                                     columnNumber: 15
                                                                 }, this),
-                                                                " Resort Amenities Access"
+                                                                " Buffet Breakfast Included"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/hotel-resort/page.tsx",
@@ -1293,23 +1289,40 @@ function HotelResortPage() {
                                                                     lineNumber: 320,
                                                                     columnNumber: 15
                                                                 }, this),
-                                                                " Scenic & Relaxing Experience"
+                                                                " Resort Amenities Access"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/hotel-resort/page.tsx",
                                                             lineNumber: 319,
                                                             columnNumber: 13
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                            className: "flex items-center gap-2",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
+                                                                    className: "w-4 h-4 text-orange-600"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/app/hotel-resort/page.tsx",
+                                                                    lineNumber: 323,
+                                                                    columnNumber: 15
+                                                                }, this),
+                                                                " Scenic & Relaxing Experience"
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/app/hotel-resort/page.tsx",
+                                                            lineNumber: 322,
+                                                            columnNumber: 13
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/hotel-resort/page.tsx",
-                                                    lineNumber: 309,
+                                                    lineNumber: 312,
                                                     columnNumber: 11
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/hotel-resort/page.tsx",
-                                            lineNumber: 296,
+                                            lineNumber: 299,
                                             columnNumber: 9
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1318,13 +1331,13 @@ function HotelResortPage() {
                                             children: "Book Now"
                                         }, void 0, false, {
                                             fileName: "[project]/app/hotel-resort/page.tsx",
-                                            lineNumber: 325,
+                                            lineNumber: 328,
                                             columnNumber: 9
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/hotel-resort/page.tsx",
-                                    lineNumber: 294,
+                                    lineNumber: 297,
                                     columnNumber: 7
                                 }, this)
                             ]
@@ -1346,7 +1359,7 @@ function HotelResortPage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/hotel-resort/page.tsx",
-                lineNumber: 338,
+                lineNumber: 341,
                 columnNumber: 5
             }, this)
         ]
