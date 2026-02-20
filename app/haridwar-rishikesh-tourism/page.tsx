@@ -198,7 +198,7 @@ export default function HaridwarRishikeshTourismPage() {
           {/* DESTINATIONS */}
  
 <Destination
-  title="Nainital Lake Tour"
+  title="Nainital Sightseeing  Tour"
   cta="Book Now for 2N/3D"
   subtitle="Lake District of India – Scenic Hill Escape"
   content={[
