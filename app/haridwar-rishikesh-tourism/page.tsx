@@ -188,17 +188,16 @@ export default function HaridwarRishikeshTourismPage() {
           {/* PAGE TITLE */}
           <div className="text-center space-y-4">
             <h1 className="text-4xl md:text-5xl font-bold text-teal-700">
-              Sikkim Add-On Tour Packages
+              Add-On Tour Packages
             </h1>
             <p className="text-gray-600">
               Explore Wildlife, Beaches & Eco Tourism Destinations
             </p>
           </div>
 
-          {/* DESTINATIONS */}
- 
+
 <Destination
-  title="Nainital Sightseeing  Tour"
+  title="Nainital Sightseeing Tour"
   cta="Book Now for 2N/3D"
   subtitle="Lake District of India – Scenic Hill Escape"
   content={[
