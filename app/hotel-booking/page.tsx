@@ -15,7 +15,7 @@ export default function HotelBookingPage() {
         { type: "Deluxe Package [2 Persons]", meals: "[Breakfast + Dinner]", price: "Rs. 5500/-" },
         { type: "Executive Package [2 Persons]", meals: "[Breakfast + Lunch + Dinner]", price: "Rs. 6400/-" }
       ],
-      hotels: ["Anand Palace", "Ascot", "Broadway", "Bellevue Heritage", "Central Heritage", "Cedar Inn", "Crystal Palace", "Mayfair Resorts", "Glenary", "Hermitage", "Sinclairs / Swiss Hotel", "Sterling Snow Lion"]
+      hotels: ["Anand Palace", "Ascot", "Broadway", "Bellevue Heritage", "Central Heritage", "Cedar Inn", "Crystal Palace", "Central Nirvana", "Dolphin", "Dreamland", "Dakeling", "Elgin", "Fairmount", "Golden Height Enclave", "Glenary", "Hermitage", "Krishna Residency", "Mayfair Resorts", "Maple", "Mt. Royal", "Mt. View", "North Star", "Oasis", "Pineridge", "Pinetree", "Pink Mountain", "Princess", "Palbheu", "R J Resort", "Rhododendron", "Spring Burn", "Sunflower", "Seven Seventeen", "Shangri-La", "Sonar Bangla", "Sinclairs / Swiss Hotel", "Sterling Snow Lion", "Travellers Inn", "Yuma", "Viceroy", "Windamare"]
     },
     {
       id: 2,
@@ -27,7 +27,7 @@ export default function HotelBookingPage() {
         { type: "AC Deluxe Package [2 Persons]", meals: "[Breakfast + Dinner]", price: "Rs. 5500/-" },
         { type: "AC Executive Package [2 Persons]", meals: "[Breakfast + Lunch + Dinner]", price: "Rs. 6400/-" }
       ],
-      hotels: ["Aranyak Resort", "Bamboo Trail", "Bonani", "Chatakpur Eco Hut", "Dooars Mountain", "Elephanta Forest", "Forest Inn", "Gorumara", "Jaldapara Resort", "Murti Tourist Lodge", "Sinclairs Hotel", "Tusker Den"]
+      hotels: ["Aranyak Resort", "Bamboo Trail", "Bonani", "Chatakpur Eco Hut", "Dooars Mountain", "Dreamland", "Debrani", "Elephanta Forest", "Forest Inn", "Gorumara", "Green Touch Resort", "Green Lagoon", "Golden Resort", "Green Heaven", "Hatihana Green Castle", "Hollong Tourist Lodge", "Hatari Resort", "Heaven Inn", "Jungle Inn", "Jaldapara Resort", "Jungle Resort", "Jaldapara Inn", "Jaldapara Tourist Lodge", "Kadambini Resort", "Kontiki Resort", "Khairibari Forest Hut", "Lake View", "Murti Tourist Lodge", "Murti River Resort", "Natures Hut", "Neora River Resort", "Pagoda Inn", "Prime Murti", "Pagoda", "Rhino Resort", "Riverwood Forest", "Rovers Inn", "Wild Hut", "Sinclairs Hotel", "Tusker Den"]
     },
     {
       id: 3,
@@ -39,7 +39,7 @@ export default function HotelBookingPage() {
         { type: "Deluxe Package [2 Persons]", meals: "[Breakfast + Dinner]", price: "Rs. 5500/-" },
         { type: "Executive Package [2 Persons]", meals: "[Breakfast + Lunch + Dinner]", price: "Rs. 6400/-" }
       ],
-      hotels: ["Amarjeet", "Bethleham", "Blue Pine", "Cochrane Place", "Central Nirvana", "Deolo Cliff", "Eagle Resort", "Mayfair Himalaya", "Morgan House", "Mountain View", "Neora Valley Resort"]
+      hotels: ["Amarjeet", "Bethleham", "Blue Pine", "Cochrane Place", "Central", "Central Nirvana", "Deolo Cliff", "Deolo Tourist Lodge", "Eagle Resort", "Hill Top Tourist Lodge", "Komfort Inn", "Mayfair Himalaya", "Morgan House", "Monarch", "Mirik Tourist Lodge", "Mountain View", "New Sonar Bangla", "Neora Valley Resort", "Lava Hotel", "Lovely Resort", "Pine View", "Penesha", "Park Hotel", "Rishyap Inn", "Silver Oak", "Soods Garden", "Summit Barsana", "Tres Teli", "White Orchid", "Yankee Resort"]
     },
     {
       id: 4,
@@ -51,7 +51,7 @@ export default function HotelBookingPage() {
         { type: "AC Superior Room [Front Sea View]", meals: "[Free Breakfast]", price: "Rs. 4600/-" },
         { type: "AC Executive Room [Sea View + Swimming Pool + Balcony]", meals: "[Free Breakfast]", price: "Rs. 5500/-" }
       ],
-      hotels: ["Asha International", "Ambalika", "Blue View", "Dolphin", "Digha Tourist Lodge", "Garden Retreat", "M Plaza", "Sea View", "Seagull", "Sonar Bangla", "Sea Hawk"]
+      hotels: ["Asha International", "Ambalika", "Blue View", "Dolphin", "Digha Tourist Lodge", "Jai Ram Hi Tide", "JP Hotel", "Garden Retreat", "Gitanjali", "Greenland Inn", "M Plaza", "Ownland Resort", "Peeku's Inn", "Sea View", "Seagull", "Pearl International", "Rajeet", "Reelook", "Sea Green", "Sea Bird", "Sonar Bangla", "Sea Hawk", "Sea Coast", "Sun View Resort", "Sea Sand", "Sea Star Resort"]
     },
     {
       id: 5,
@@ -63,7 +63,7 @@ export default function HotelBookingPage() {
         { type: "AC Superior Room [Front Sea View]", meals: "[Free Breakfast]", price: "Rs. 4600/-" },
         { type: "AC Executive Room [Sea View + Swimming Pool + Balcony]", meals: "[Free Breakfast]", price: "Rs. 5500/-" }
       ],
-      hotels: ["Asian Inn", "Atithi Heritage", "Balaji International", "Blue Lily", "Chariot", "Dolphin", "Golden Beach Resort", "Hans Coco Palm", "Mayfair Waves", "Sterling Resorts", "Toshali / Tara Palace"]
+      hotels: ["Asian Inn", "Atithi Heritage", "Balaji International", "Blue Lily", "Camellia", "Chariot", "Dolphin", "Dreamland", "Diamond Palace", "Empires", "East West", "Gajapati", "Golden Beach Resort", "Gold Coast Beach Resort", "Golden Palace", "Hans Coco Palm", "Holiday Resort", "Mayfair Waves", "Mayfair Beach Resort", "Marina Beach Resort", "Mahabodhi", "BNR", "Nayak Beach Resort", "Naren Palace", "Niladri", "New Sea Hawk", "Lucky India", "Puri Hotel", "Puri Beach Resort", "Pulin Puri", "Park Beach", "Prabhupada", "Raj Hotel", "Sree Hari", "Hotel Swimming", "Sea Coast", "Sonar Bangla", "Sea View", "Surya Beach", "Suv Palace", "Sagarika", "Sapphire Beach", "Sonali", "Sterling Resorts", "Sandy Villa", "Toshali / Tara Palace", "Victoria Club", "Zamindars Palace"]
     },
     {
       id: 6,
@@ -75,7 +75,7 @@ export default function HotelBookingPage() {
         { type: "Deluxe Package [2 Persons]", meals: "[Breakfast + Dinner]", price: "Rs. 6400/-" },
         { type: "AC Executive Package [2 Persons - Spa Resort]", meals: "[Breakfast + Dinner]", price: "Rs. 19000/-" }
       ],
-      hotels: ["Apple Orchard", "Bamboo Grove", "Central Heritage", "Chumbi Residency", "Coral Inn", "Mayfair Resorts & Spa", "Mist Tree Mountain", "Oakridge Retreat", "Silk Route Residency", "Summit Spa"]
+      hotels: ["Apple Orchard", "Anola", "Bamboo Grove", "Central Heritage", "Chumbi Residency", "Coral Inn", "Central Hotel", "Cherry Guest House", "Casino Mahjong", "Doma Palace", "Doma Residency", "Fortuna", "Juniper", "Mayfair Resorts & Spa", "Maya Inn", "Mist Tree Mountain", "Oakridge Retreat", "The Oriental", "Riccasa", "Rendezvous", "Royal Plaza", "Sonam Delek", "Silk Route Residency", "Sai Kripa", "Summit Spa", "Tamarind", "Terrace Valley", "Tres Teli", "Tara Palace", "Tashi Delek / Tashi Thendup", "Tashiling", "Tibet", "White Conch"]
     },
     {
       id: 7,
@@ -87,7 +87,7 @@ export default function HotelBookingPage() {
         { type: "Deluxe Package [2 Persons]", meals: "[Breakfast + Lunch + Dinner]", price: "Rs. 4600/-" },
         { type: "Executive Package [2 Persons]", meals: "[Breakfast + Lunch + Dinner]", price: "Rs. 5500/-" }
       ],
-      hotels: ["Deki Lodge", "Dzongu Himalayan", "Dawaipani", "Dheu Puri", "Everest Hut @ Lamahatta", "Gurung Guest House", "Mintokling Guest House", "Snow Lion @ Zuluk", "Tinchuley Homestay"]
+      hotels: ["Apple Valley Inn", "Aranya Regency", "Blue Sky Hotel / Babumoshai", "Blue Spring", "Chulyang", "Chinthang", "Grand Lachen", "Golden Fish", "Himalayan Residency", "Kongchen Tashi", "Lachung Continental", "Mt Narsing", "Norbu Ghang", "Ravangla Star", "Rabong Resort", "Sonar Bangla", "Sonam Chem", "Sai Kripa", "Snow White", "Snow Lion", "TresTeli", "Tashi Gang Resort", "Tashi Yangkel", "Yangla", "Yarlam"]
     },
     {
       id: 8,
@@ -99,7 +99,7 @@ export default function HotelBookingPage() {
         { type: "AC Deluxe Package [2 Persons]", meals: "[Breakfast + Dinner]", price: "Rs. 5500/-" },
         { type: "AC Executive Package [2 Persons]", meals: "[Breakfast + Lunch + Dinner]", price: "Rs. 6400/-" }
       ],
-      hotels: ["Apanjan", "Banani", "Eco Resort", "Mainak", "Mangrove Retreat", "Royal Bengal Resort", "Sajnekhali Tourist Lodge", "Tiger Camp", "United 21"]
+      hotels: ["Apanjan", "Banani", "Eco Resort", "Mainak", "Mangrove Retreat", "River Side", "Royal Bengal Resort", "Riverwood", "Riverside Holiday", "Sajnekhali Tourist Lodge", "Solitary Nook", "Sudarban Gateway Resort", "Suranjana Resort", "Hotel S-21", "Tiger Camp", "Tiger View Resort", "United 21", "Amrabati", "Bakkhali Tourist Lodge", "Bay View", "Dolphin", "Deepak", "Girish", "Punyalaksmi", "Seagull"]
     },
     {
       id: 9,
@@ -123,10 +123,22 @@ export default function HotelBookingPage() {
         { type: "Super Dlx Room Package - Mountain View [2 Persons]", meals: "[With Breakfast + Lunch/Dinner]", price: "Rs. 4000/-" },
         { type: "Executive Room Package [2 Persons]", meals: "[With Breakfast + Lunch + Dinner]", price: "Rs. 5000/-" }
       ],
-      hotels: ["Bagora Diki House", "Bird's View @ Kalimpong", "Chumerin", "Cherry Village @ Pelling", "Druk @ Lamahatta", "Fulbari", "Gurashey Forest", "Khushi Farm", "Mangwa Farm", "Sillery Gaon"]
+      hotels: ["Bagora Diki House", "Bird's View @ Kalimpong", "Chumerin", "Chatakpur Eco Resort", "Cherry Village @ Pelling", "Druk @ Lamahatta", "Deki Lodge", "Dzongu Himalayan", "Dawaipani", "Dheu Puri", "Dadul Guest House", "Everest Hut @ Lamahatta", "Fulbari", "Gurashey Forest", "Gurung Guest House @ Teenchuley", "Gompus @ Kalimpong", "Icchey Forest", "Kettle Valley", "Khushi Farm @ M", "Kinara", "Khawas Guest House", "Ratnagiri @ Mirik", "Reshikhola", "Mintokling Guest House", "Mukhiya Homestay", "Mangwa Farm", "Nidipa", "Nayachar", "Pedong", "Pakhrin @ Lepchghat", "Pudung Heritage", "Pastin Kaman", "Suden @ Aritar", "Snow Lion @ Zuluk", "Sillery Gaon", "Rodhighar @ Mirik", "Ratnagiri @ Mirik", "Taranga", "Tinchuley Homestay"]
     },
     {
-      id: 11,
+      id: 12,
+      place: "MANDARMONI",
+      region: "SHANKARPUR - TAJPUR",
+      rooms: [
+        { type: "AC Deluxe Room [Beach Front]", meals: "[Free Breakfast]", price: "Rs. 2800/-" },
+        { type: "AC Super Dlx Room [Sea Face + Balcony]", meals: "[Free Breakfast]", price: "Rs. 3700/-" },
+        { type: "AC Superior Room [Front Sea View]", meals: "[Free Breakfast]", price: "Rs. 4600/-" },
+        { type: "AC Executive Room [Sea View + Swimming Pool]", meals: "[Free Breakfast]", price: "Rs. 5500/-" }
+      ],
+      hotels: ["Aqua Marine", "Anutri", "Bombay Beach Resort", "Coastal View", "Debraj Resort", "Debjani", "J P Resort", "Junput Resort", "Golden Beach Resort", "Kings Crown", "Mandarmoni Village", "The Nest", "Silicon Valley", "Sun City", "Sana Beach Resort", "Sea Star", "Sana Beach Resort", "Tajpur Nature Camp", "United 21 Beach Resort", "Victoria Beach", "Youshna"]
+    },
+    {
+      id: 13,
       place: "RISHYAP",
       region: "NEORA VALLEY",
       rooms: [

@@ -22,6 +22,8 @@
   "/film-shooting/page": "app/film-shooting/page.js",
   "/goa-tourism/page": "app/goa-tourism/page.js",
   "/himachal-tourism/page": "app/himachal-tourism/page.js",
+  "/hotel-booking/page": "app/hotel-booking/page.js",
+  "/hotel-resort/page": "app/hotel-resort/page.js",
   "/jammu-kashmir-tourism/page": "app/jammu-kashmir-tourism/page.js",
   "/kerala-tourism/page": "app/kerala-tourism/page.js",
   "/kolkata/page": "app/kolkata/page.js",

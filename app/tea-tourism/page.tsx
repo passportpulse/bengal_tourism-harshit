@@ -113,7 +113,7 @@ export default function TeaTourismPage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Detailed Itinerary</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              7 Days of immersive tea tourism experience
+              Days of immersive tea tourism experience
             </p>
           </div>
 
@@ -377,7 +377,7 @@ export default function TeaTourismPage() {
             </div>
 
             <div className="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-xl transition">
-              <h3 className="text-2xl font-bold text-green-700 mb-2">3N/4D</h3>
+              <h3 className="text-2xl font-bold text-green-700 mb-2">Extended Tour</h3>
               <p className="text-3xl font-bold text-green-600 mb-4">₹ 37,000/-</p>
               <p className="text-gray-600 mb-4">Extended tea heritage tour</p>
               <a href="/book-tour" className="w-full bg-green-600 text-white p-3 rounded-lg font-semibold hover:bg-green-700 transition">
@@ -486,11 +486,7 @@ export default function TeaTourismPage() {
         </div>
       </section>
 
-      <PackagePricing
-        title="Tea Tourism Packages"
-        subtitle="Choose your perfect tea garden adventure duration"
-      />
-
+  
       <ContactCTA />
 
     </main>
