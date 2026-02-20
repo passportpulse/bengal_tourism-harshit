@@ -222,6 +222,11 @@ export default function GoaTourismPage() {
                     <span className="text-gray-700">Optional activity</span>
                   </div>
                 </div>
+                <div className="mt-4 p-3 bg-red-100 rounded-lg border border-red-200">
+                  <p className="text-red-800 text-sm font-semibold">
+                    ⚠️ Casino Permit excluded
+                  </p>
+                </div>
               </div>
             </div>
 

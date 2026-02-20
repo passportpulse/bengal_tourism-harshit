@@ -7,6 +7,7 @@ const EMAIL_PASS = process.env.EMAIL_PASS || '';
 const EMAIL_FROM = process.env.EMAIL_FROM || 'Bengal Tourism <bengaltourism@gmail.com>';
 
 const TO_EMAIL = 'bengaltourism@gmail.com';
+const NOTIFICATION_EMAIL = 'betenepali1@gmail.com';
 
 // Create transporter
 const transporter = nodemailer.createTransport({
@@ -118,6 +119,11 @@ export const sendContactFormEmail = async (formData: {
       sendEmail({
         to: TO_EMAIL,
         subject: `New Contact Form: ${formData.subject || 'General Inquiry'} from ${formData.name}`,
+        html: adminEmail,
+      }),
+      sendEmail({
+        to: NOTIFICATION_EMAIL,
+        subject: `🔔 New Contact Form: ${formData.subject || 'General Inquiry'} from ${formData.name}`,
         html: adminEmail,
       }),
       sendEmail({

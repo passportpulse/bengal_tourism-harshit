@@ -251,7 +251,22 @@ export default function HimachalTourismPage() {
                       Dinner & Overnight at Hotel/Resort in Chandigarh.
                     </p>
                   </div>
-  {/* Day 3 */}
+  {/* Day 2 */}
+                  <div className="border-l-4 border-orange-500 pl-6">
+                    <div className="flex items-center gap-3 mb-2">
+                      <Calendar className="w-5 h-5 text-orange-600" />
+                      <h3 className="text-xl font-bold">Day 2: Explore Chandigarh</h3>
+                    </div>
+                    <p className="text-gray-700 leading-relaxed">
+                      After breakfast, visit Rose Garden, Rock Garden, Golden Temple (a must visit), etc. 
+                      Attend lunch at Langar of Golden Temple (or) any local restaurant. 
+                      Post lunch, visit Jalianwala Bagh, Hall Bazaar, etc. 
+                      Return in evening. Free to explore local area. 
+                      Dinner & Overnight at Hotel/Resort in Chandigarh.
+                    </p>
+                  </div>
+
+                  {/* Day 3 */}
                   <div className="border-l-4 border-orange-500 pl-6">
                     <div className="flex items-center gap-3 mb-2">
                       <Calendar className="w-5 h-5 text-orange-600" />
@@ -264,20 +279,6 @@ export default function HimachalTourismPage() {
                       Then leave to drop-off at Chandigarh Airport / Station for your onward / return train journey 
                       flight to your destination as per your departure timing. 
                       Tour ends...
-                    </p>
-                  </div>
-                  {/* Day 2 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 2: Explore Chandigarh</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast, visit Rose Garden, Rock Garden, Golden Temple (a must visit), etc. 
-                      Attend lunch at Langar of Golden Temple (or) any local restaurant. 
-                      Post lunch, visit Jalianwala Bagh, Hall Bazaar, etc. 
-                      Return in evening. Free to explore local area. 
-                      Dinner & Overnight at Hotel/Resort in Chandigarh.
                     </p>
                   </div>
 

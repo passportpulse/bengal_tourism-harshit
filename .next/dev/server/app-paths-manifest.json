@@ -3,6 +3,7 @@
   "/about/page": "app/about/page.js",
   "/air-ambulance/page": "app/air-ambulance/page.js",
   "/andaman-nicobar-tourism/page": "app/andaman-nicobar-tourism/page.js",
+  "/api/contact/route": "app/api/contact/route.js",
   "/assam-guwahati-tourism/page": "app/assam-guwahati-tourism/page.js",
   "/bali/page": "app/bali/page.js",
   "/bhutan/page": "app/bhutan/page.js",
