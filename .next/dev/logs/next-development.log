@@ -1460,3 +1460,26 @@ Import traces:
 [11:33:35.749] Server  LOG     ✓ Compiled in 560ms
 [11:34:16.161] Server  LOG     ✓ Compiled in 106ms
 [11:34:56.622] Server  LOG     ✓ Compiled in 120ms
+[11:37:42.059] Server  LOG     ✓ Compiled in 189ms
+[11:39:30.040] Server  LOG     ✓ Compiled in 92ms
+[11:39:46.851] Server  LOG     ✓ Compiled in 114ms
+[11:40:46.205] Server  LOG     ✓ Compiled in 171ms
+[11:41:45.047] Server  LOG     ✓ Compiled in 151ms
+[11:43:54.605] Server  LOG     ✓ Compiled in 90ms
+[11:44:22.780] Server  LOG     ✓ Compiled in 507ms
+[11:45:01.481] Server  ERROR   ⨯ "upstream image" "https://ik.imgkit.net/3vlqs5axxjf/TW-Asia/ik-seo/uploadedImages/Industry/Travel_Trends/GettyImages-599463782/Wellness-tourism-takes-the-spotlight-for-2022-trav.jpg?tr=w-780%2Ch-440%2Cfo-auto" "resolved to private ip" "[\"64:ff9b::12a4:ca75\",\"64:ff9b::12a4:ca14\",\"64:ff9b::12a4:ca6b\",\"64:ff9b::12a4:ca42\"]"
+[11:45:01.606] Browser WARN    Image with src "https://images.unsplash.com/photo-1745420052490-285dbfa1cf4d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVkaWNhbCUyMHRvdXJpc218ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[11:45:01.606] Browser WARN    Image with src "https://images.unsplash.com/photo-1696243144343-56a235858dce?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fEFpciUyMEFtYnVsYW5jZSUyMFNlcnZpY2V8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[11:45:01.607] Browser WARN    Image with src "https://images.unsplash.com/photo-1723214520491-7f90eeda2cdd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VGVhJTIwVG91cmlzbSUyMnxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[11:45:01.607] Browser WARN    Image with src "https://images.unsplash.com/photo-1761470371217-a4de0ff0e8df?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SG90ZWwtUmVzb3J0LUd1ZXN0JTIwSG91c2V8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[11:45:07.714] Server  LOG     ○ Compiling /spa-wellness ...
+[11:45:35.099] Server  LOG     ✓ Compiled in 205ms
+[11:47:11.404] Server  LOG     ✓ Compiled in 290ms
+[11:49:48.245] Server  LOG     ✓ Compiled in 238ms
+[11:50:17.886] Server  LOG     ✓ Compiled in 211ms
+[11:50:18.341] Server  LOG     ✓ Compiled in 222ms
+[11:50:28.729] Server  LOG     ✓ Compiled in 160ms
+[11:50:30.744] Server  LOG     ✓ Finished filesystem cache database compaction in 10.2s
+[11:52:02.744] Server  LOG     ✓ Compiled in 100ms
+[11:53:12.134] Server  ERROR   ⨯ "upstream image" "https://ik.imgkit.net/3vlqs5axxjf/TW-Asia/ik-seo/uploadedImages/Industry/Travel_Trends/GettyImages-599463782/Wellness-tourism-takes-the-spotlight-for-2022-trav.jpg?tr=w-780%2Ch-440%2Cfo-auto" "resolved to private ip" "[\"64:ff9b::12a4:ca75\",\"64:ff9b::12a4:ca42\",\"64:ff9b::12a4:ca14\",\"64:ff9b::12a4:ca6b\"]"
+[11:53:59.247] Server  LOG     ✓ Compiled in 120ms

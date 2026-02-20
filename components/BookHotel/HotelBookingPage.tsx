@@ -1070,6 +1070,17 @@ export default function HotelBookingPage() {
             </div>
 
           </form>
+
+          {/* Book Hotels Now Link */}
+          <div className="text-center mt-6">
+            <Link
+              href="/book-hotel"
+              className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition transform hover:scale-105"
+            >
+              <Bed className="w-5 h-5" />
+              Book Hotels Now
+            </Link>
+          </div>
         </div>
       </div>
     </main>

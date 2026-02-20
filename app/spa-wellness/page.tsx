@@ -84,9 +84,9 @@ export default function SpaWellnessPage() {
                 </p>
                 <div className="flex items-center justify-between mt-4">
                   <span className="text-green-600 font-semibold">Ancient Healing</span>
-                  <button className="bg-green-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-green-700 transition">
+                  <a href="/book-tour" className="bg-green-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-green-700 transition">
                     Book Now
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -104,9 +104,9 @@ export default function SpaWellnessPage() {
                 </p>
                 <div className="flex items-center justify-between mt-4">
                   <span className="text-blue-600 font-semibold">Deep Relaxation</span>
-                  <button className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-700 transition">
+                  <a href="/book-tour" className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-700 transition">
                     Book Now
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -124,9 +124,9 @@ export default function SpaWellnessPage() {
                 </p>
                 <div className="flex items-center justify-between mt-4">
                   <span className="text-orange-600 font-semibold">Therapeutic Touch</span>
-                  <button className="bg-orange-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-orange-700 transition">
+                  <a href="/book-tour" className="bg-orange-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-orange-700 transition">
                     Book Now
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -144,9 +144,9 @@ export default function SpaWellnessPage() {
                 </p>
                 <div className="flex items-center justify-between mt-4">
                   <span className="text-purple-600 font-semibold">Natural Healing</span>
-                  <button className="bg-purple-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-purple-700 transition">
+                  <a href="/book-tour" className="bg-purple-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-purple-700 transition">
                     Book Now
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -177,9 +177,9 @@ export default function SpaWellnessPage() {
                 </p>
                 <div className="flex items-center justify-between mt-4">
                   <span className="text-orange-600 font-semibold">Physical Harmony</span>
-                  <button className="bg-orange-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-orange-700 transition">
+                  <a href="/book-tour" className="bg-orange-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-orange-700 transition">
                     Book Now
-                  </button>
+                  </a>
                 </div>
             </div>
 
@@ -195,9 +195,9 @@ export default function SpaWellnessPage() {
                 </p>
                 <div className="flex items-center justify-between mt-4">
                   <span className="text-green-600 font-semibold">Inner Peace</span>
-                  <button className="bg-green-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-green-700 transition">
+                  <a href="/book-tour" className="bg-green-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-green-700 transition">
                     Book Now
-                  </button>
+                  </a>
                 </div>
             </div>
           </div>
@@ -227,9 +227,9 @@ export default function SpaWellnessPage() {
                 </p>
                 <div className="flex items-center justify-between mt-4">
                   <span className="text-pink-600 font-semibold">Premium Care</span>
-                  <button className="bg-pink-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-pink-700 transition">
+                  <a href="/book-tour" className="bg-pink-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-pink-700 transition">
                     Book Now
-                  </button>
+                  </a>
                 </div>
             </div>
 
@@ -245,9 +245,9 @@ export default function SpaWellnessPage() {
                 </p>
                 <div className="flex items-center justify-between mt-4">
                   <span className="text-teal-600 font-semibold">Healthy Dining</span>
-                  <button className="bg-teal-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-teal-700 transition">
+                  <a href="/book-tour" className="bg-teal-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-teal-700 transition">
                     Book Now
-                  </button>
+                  </a>
                 </div>
             </div>
           </div>
@@ -278,9 +278,9 @@ export default function SpaWellnessPage() {
                 </p>
                 <div className="flex items-center justify-between mt-4">
                   <span className="text-orange-600 font-semibold">Complete Balance</span>
-                  <button className="bg-orange-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-orange-700 transition">
+                  <a href="/book-tour" className="bg-orange-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-orange-700 transition">
                     Book Now
-                  </button>
+                  </a>
                 </div>
             </div>
 </div>
@@ -297,9 +297,9 @@ export default function SpaWellnessPage() {
                 </p>
                 <div className="flex items-center justify-between mt-4">
                   <span className="text-blue-600 font-semibold">Deep Cleanse</span>
-                  <button className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-700 transition">
+                  <a href="/book-tour" className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-700 transition">
                     Book Now
-                  </button>
+                  </a>
                 </div>
             </div>
 </div>
@@ -317,9 +317,9 @@ export default function SpaWellnessPage() {
                 </p>
                 <div className="flex items-center justify-between mt-4">
                   <span className="text-green-600 font-semibold">Ultimate Transformation</span>
-                  <button className="bg-green-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-green-700 transition">
+                  <a href="/book-tour" className="bg-green-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-green-700 transition">
                     Book Now
-                  </button>
+                  </a>
                 </div>
             </div>
           </div>
@@ -327,10 +327,76 @@ export default function SpaWellnessPage() {
          </div>
       </section>
 
-      <PackagePricing
-        title="Spa & Wellness Packages"
-        subtitle="Choose your perfect rejuvenation duration"
-      />
+      {/* ================= SPA & WELLNESS TOUR PRICING ================= */}
+      <section className="py-20 bg-gradient-to-br from-purple-50 to-pink-50">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Spa & Wellness Tour Pricing</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Rejuvenate Your Mind, Body & Soul - Per Person Basis
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mb-8">
+            <div className="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-xl transition">
+              <h3 className="text-2xl font-bold text-purple-700 mb-2">1N/2D</h3>
+              <p className="text-3xl font-bold text-purple-600 mb-4">₹ 19,000/-</p>
+              <p className="text-gray-600 mb-4">Perfect weekend wellness escape</p>
+              <a href="/book-tour" className="w-full bg-purple-600 text-white p-3 rounded-lg font-semibold hover:bg-purple-700 transition">
+                Book Now
+              </a>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-xl transition">
+              <h3 className="text-2xl font-bold text-purple-700 mb-2">2N/3D</h3>
+              <p className="text-3xl font-bold text-purple-600 mb-4">₹ 28,000/-</p>
+              <p className="text-gray-600 mb-4">Complete rejuvenation experience</p>
+              <a href="/book-tour" className="w-full bg-purple-600 text-white p-3 rounded-lg font-semibold hover:bg-purple-700 transition">
+                Book Now
+              </a>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-xl transition">
+              <h3 className="text-2xl font-bold text-purple-700 mb-2">3N/4D</h3>
+              <p className="text-3xl font-bold text-purple-600 mb-4">₹ 37,000/-</p>
+              <p className="text-gray-600 mb-4">Deep wellness transformation</p>
+              <a href="/book-tour" className="w-full bg-purple-600 text-white p-3 rounded-lg font-semibold hover:bg-purple-700 transition">
+                Book Now
+              </a>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-xl transition">
+              <h3 className="text-2xl font-bold text-purple-700 mb-2">4N/5D</h3>
+              <p className="text-3xl font-bold text-purple-600 mb-4">₹ 46,000/-</p>
+              <p className="text-gray-600 mb-4">Extended wellness journey</p>
+              <a href="/book-tour" className="w-full bg-purple-600 text-white p-3 rounded-lg font-semibold hover:bg-purple-700 transition">
+                Book Now
+              </a>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-xl transition">
+              <h3 className="text-2xl font-bold text-purple-700 mb-2">5N/6D</h3>
+              <p className="text-3xl font-bold text-purple-600 mb-4">₹ 64,000/-</p>
+              <p className="text-gray-600 mb-4">Ultimate wellness retreat</p>
+              <a href="/book-tour" className="w-full bg-purple-600 text-white p-3 rounded-lg font-semibold hover:bg-purple-700 transition">
+                Book Now
+              </a>
+            </div>
+          </div>
+
+          <div className="bg-purple-100 rounded-xl p-6 mt-8">
+            <h4 className="font-bold text-purple-800 mb-3">Important Information</h4>
+            <div className="space-y-2 text-gray-700">
+              <p>• All rates are per person basis</p>
+              <p>• Includes accommodation, meals, and all wellness treatments</p>
+              <p>• Airport/railway station transfers included</p>
+              <p>• Daily yoga and meditation sessions included</p>
+              <p>• Personalized wellness consultation included</p>
+            </div>
+          </div>
+        </div>
+      </section>
+r
 
       <ContactCTA />
 

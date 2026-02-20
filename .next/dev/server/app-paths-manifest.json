@@ -48,8 +48,10 @@
   "/sikkim-tourism/page": "app/sikkim-tourism/page.js",
   "/silk-route-tourism/page": "app/silk-route-tourism/page.js",
   "/singapore/page": "app/singapore/page.js",
+  "/spa-wellness/page": "app/spa-wellness/page.js",
   "/sundarban/page": "app/sundarban/page.js",
   "/tajpur/page": "app/tajpur/page.js",
+  "/tea-tourism/page": "app/tea-tourism/page.js",
   "/terms/page": "app/terms/page.js",
   "/trekking-trails/page": "app/trekking-trails/page.js"
 }

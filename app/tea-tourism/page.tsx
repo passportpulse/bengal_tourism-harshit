@@ -345,155 +345,73 @@ export default function TeaTourismPage() {
         </div>
       </section>
 
-      {/* ================= PACKAGES & PRICING ================= */}
-      <section className="py-20 bg-gradient-to-r from-green-600 to-emerald-600 text-white">
+   
+
+      {/* ================= TEA TOURISM ADD-ON PRICING ================= */}
+      <section className="py-20 bg-gradient-to-br from-green-50 to-emerald-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Packages & Pricing</h2>
-            <p className="text-xl text-emerald-100 max-w-3xl mx-auto">
-              Flexible duration packages for couples (For 2 PAX / Couple)
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Tea Tourism Add-on Pricing</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Experience Tea Garden Heritage - Per Person Basis
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* 1N/2D */}
-            <div className="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition">
-              <div className="bg-gradient-to-r from-green-500 to-emerald-500 p-6 text-white">
-                <Clock className="w-12 h-12 mb-3" />
-                <h3 className="text-2xl font-bold">1N/2D</h3>
-                <p className="text-3xl font-bold mt-2">₹28,000/-</p>
-              </div>
-              <div className="p-6">
-                <ul className="space-y-3 mb-6">
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    <span>Heritage Bungalow Stay</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    <span>All Meals Included</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    <span>Tea Estate Tour</span>
-                  </li>
-                </ul>
-                <button className="w-full bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700 transition">
-                  Book Now
-                </button>
-              </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mb-8">
+            <div className="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-xl transition">
+              <h3 className="text-2xl font-bold text-green-700 mb-2">1N/2D</h3>
+              <p className="text-3xl font-bold text-green-600 mb-4">₹ 19,000/-</p>
+              <p className="text-gray-600 mb-4">Quick tea garden escape</p>
+              <a href="/book-tour" className="w-full bg-green-600 text-white p-3 rounded-lg font-semibold hover:bg-green-700 transition">
+                Book Now
+              </a>
             </div>
 
-            {/* 2N/3D */}
-            <div className="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition">
-              <div className="bg-gradient-to-r from-emerald-500 to-green-500 p-6 text-white">
-                <Clock className="w-12 h-12 mb-3" />
-                <h3 className="text-2xl font-bold">2N/3D</h3>
-                <p className="text-3xl font-bold mt-2">₹55,000/-</p>
-              </div>
-              <div className="p-6">
-                <ul className="space-y-3 mb-6">
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    <span>Extended Tea Estate Experience</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    <span>Tea Tasting Session</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    <span>Local Sightseeing</span>
-                  </li>
-                </ul>
-                <button className="w-full bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700 transition">
-                  Book Now
-                </button>
-              </div>
+            <div className="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-xl transition">
+              <h3 className="text-2xl font-bold text-green-700 mb-2">2N/3D</h3>
+              <p className="text-3xl font-bold text-green-600 mb-4">₹ 28,000/-</p>
+              <p className="text-gray-600 mb-4">Complete tea estate experience</p>
+              <a href="/book-tour" className="w-full bg-green-600 text-white p-3 rounded-lg font-semibold hover:bg-green-700 transition">
+                Book Now
+              </a>
             </div>
 
-            {/* 3N/4D */}
-            <div className="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition">
-              <div className="bg-gradient-to-r from-green-500 to-emerald-500 p-6 text-white">
-                <Clock className="w-12 h-12 mb-3" />
-                <h3 className="text-2xl font-bold">3N/4D</h3>
-                <p className="text-3xl font-bold mt-2">₹82,000/-</p>
-              </div>
-              <div className="p-6">
-                <ul className="space-y-3 mb-6">
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    <span>Complete Tea Experience</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    <span>Factory Tour & Processing</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    <span>Mirik Lake Visit</span>
-                  </li>
-                </ul>
-                <button className="w-full bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700 transition">
-                  Book Now
-                </button>
-              </div>
+            <div className="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-xl transition">
+              <h3 className="text-2xl font-bold text-green-700 mb-2">3N/4D</h3>
+              <p className="text-3xl font-bold text-green-600 mb-4">₹ 37,000/-</p>
+              <p className="text-gray-600 mb-4">Extended tea heritage tour</p>
+              <a href="/book-tour" className="w-full bg-green-600 text-white p-3 rounded-lg font-semibold hover:bg-green-700 transition">
+                Book Now
+              </a>
             </div>
 
-            {/* 4N/5D */}
-            <div className="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition">
-              <div className="bg-gradient-to-r from-emerald-500 to-green-500 p-6 text-white">
-                <Clock className="w-12 h-12 mb-3" />
-                <h3 className="text-2xl font-bold">4N/5D</h3>
-                <p className="text-3xl font-bold mt-2">₹91,000/-</p>
-              </div>
-              <div className="p-6">
-                <ul className="space-y-3 mb-6">
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    <span>Darjeeling Hill Station</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    <span>Toy Train Experience</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    <span>Tiger Hill Sunrise</span>
-                  </li>
-                </ul>
-                <button className="w-full bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700 transition">
-                  Book Now
-                </button>
-              </div>
+            <div className="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-xl transition">
+              <h3 className="text-2xl font-bold text-green-700 mb-2">4N/5D</h3>
+              <p className="text-3xl font-bold text-green-600 mb-4">₹ 46,000/-</p>
+              <p className="text-gray-600 mb-4">Comprehensive tea journey</p>
+              <a href="/book-tour" className="w-full bg-green-600 text-white p-3 rounded-lg font-semibold hover:bg-green-700 transition">
+                Book Now
+              </a>
             </div>
 
-            {/* 5N/6D */}
-            <div className="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition">
-              <div className="bg-gradient-to-r from-green-500 to-emerald-500 p-6 text-white">
-                <Clock className="w-12 h-12 mb-3" />
-                <h3 className="text-2xl font-bold">5N/6D</h3>
-                <p className="text-3xl font-bold mt-2">₹1,30,000/-</p>
-              </div>
-              <div className="p-6">
-                <ul className="space-y-3 mb-6">
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    <span>Complete Tea Heritage Tour</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    <span>Lamahatta Orchard Visit</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    <span>River Camp Experience</span>
-                  </li>
-                </ul>
-                <button className="w-full bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700 transition">
-                  Book Now
-                </button>
-              </div>
+            <div className="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-xl transition">
+              <h3 className="text-2xl font-bold text-green-700 mb-2">5N/6D</h3>
+              <p className="text-3xl font-bold text-green-600 mb-4">₹ 64,000/-</p>
+              <p className="text-gray-600 mb-4">Ultimate tea heritage experience</p>
+              <a href="/book-tour" className="w-full bg-green-600 text-white p-3 rounded-lg font-semibold hover:bg-green-700 transition">
+                Book Now
+              </a>
+            </div>
+          </div>
+
+          <div className="bg-green-100 rounded-xl p-6 mt-8">
+            <h4 className="font-bold text-green-800 mb-3">Important Information</h4>
+            <div className="space-y-2 text-gray-700">
+              <p>• All rates are per person basis</p>
+              <p>• Includes heritage bungalow accommodation</p>
+              <p>• All meals and tea tasting sessions included</p>
+              <p>• Guided tea estate tours included</p>
+              <p>• Airport/railway station transfers included</p>
             </div>
           </div>
         </div>

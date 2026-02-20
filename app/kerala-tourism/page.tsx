@@ -193,7 +193,96 @@ export default function KeralaTourismPage() {
         </div>
       </section>
 
-      {/* ================= KERALA HIGHLIGHTS ================= */}
+      {/* ================= HOUSEBOAT ADD-ON ================= */}
+      <section className="py-20 bg-gradient-to-br from-blue-50 to-cyan-50">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="flex justify-between  items-center mb-12">
+            <div>
+              <h2 className="text-4xl md:text-5xl font-bold mb-4">Houseboat Add-on</h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Alleppey Backwaters - Luxury Houseboat Experience
+              </p>
+            </div>
+            <a href="/book-tour" className='bg-red-600 font-semibold shadow-md rounded-full text-white px-3 py-3'>
+              Book Now for  (2N/3D)
+            </a>
+          </div>
+          <div className="bg-white rounded-2xl shadow-xl p-8">
+            <div className="">
+              <div>
+                <div className="space-y-6 grid md:grid-cols-2 gap-8">
+                  {/* Day 1 */}
+                  <div className="border-l-4 border-blue-500 pl-6">
+                    <div className="flex items-center gap-3 mb-2">
+                      <Calendar className="w-5 h-5 text-blue-600" />
+                      <h3 className="text-xl font-bold">Day 1: Board Houseboat at Alleppey</h3>
+                    </div>
+                    <p className="text-gray-700 leading-relaxed">
+                      Arrive at Alleppey and board your luxury houseboat.
+                      Welcome drink and lunch served onboard.
+                      Start cruising through the serene backwaters of Alleppey.
+                      Evening tea/coffee with snacks. Dinner onboard.
+                      Overnight stay in the houseboat.
+                    </p>
+                  </div>
+
+                  {/* Day 2 */}
+                  <div className="border-l-4 border-blue-500 pl-6">
+                    <div className="flex items-center gap-3 mb-2">
+                      <Calendar className="w-5 h-5 text-blue-600" />
+                      <h3 className="text-xl font-bold">Day 2: Backwater Exploration</h3>
+                    </div>
+                    <p className="text-gray-700 leading-relaxed">
+                      Breakfast onboard while cruising.
+                      Visit local villages, paddy fields, and coir factories.
+                      Lunch served during the cruise.
+                      Anchor for the night in a peaceful location.
+                      Dinner onboard with traditional Kerala cuisine.
+                      Overnight stay in the houseboat.
+                    </p>
+                  </div>
+
+                  {/* Day 3 */}
+                  <div className="border-l-4 border-blue-500 pl-6">
+                    <div className="flex items-center gap-3 mb-2">
+                      <Calendar className="w-5 h-5 text-blue-600" />
+                      <h3 className="text-xl font-bold">Day 3: Disembark</h3>
+                    </div>
+                    <p className="text-gray-700 leading-relaxed">
+                      Breakfast onboard.
+                      Morning cruise through narrow canals.
+                      Check-out from houseboat after lunch.
+                      Transfer to your next destination.
+                      Tour ends with beautiful backwater memories.
+                    </p>
+                  </div>
+
+                
+                  <div className="bg-blue-100 rounded-xl p-6 mt-8">
+                    <h4 className="font-bold text-blue-800 mb-3">Houseboat Highlights</h4>
+                    <div className="space-y-2">
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-blue-600" />
+                        <span className="text-gray-700">Luxury AC Houseboat</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-blue-600" />
+                        <span className="text-gray-700">All Meals Included</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-blue-600" />
+                        <span className="text-gray-700">Scenic Backwater Cruise</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+ {/* ================= KERALA HIGHLIGHTS ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
