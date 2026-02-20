@@ -140,26 +140,7 @@ export default function HotelBookingPage() {
                   </div>
 
                   {/* Hotels List */}
-                  <div className="border-t pt-6">
-                    <h4 className="text-xl font-bold mb-4 text-gray-800 flex items-center gap-2">
-                      <Building className="w-5 h-5 text-blue-600" />
-                      Affiliated Hotels & Resorts
-                    </h4>
-                    <div className="bg-gray-50 rounded-lg p-4">
-                      <div className="flex flex-wrap gap-2">
-                        {location.hotels.slice(0, 12).map((hotel, index) => (
-                          <span key={index} className="bg-white px-3 py-1 rounded-full text-sm shadow-sm border border-gray-200 hover:bg-blue-50 hover:border-blue-300 transition">
-                            {hotel}
-                          </span>
-                        ))}
-                        {location.hotels.length > 12 && (
-                          <span className="bg-blue-100 px-3 py-1 rounded-full text-sm text-blue-700 font-medium">
-                            +{location.hotels.length - 12} more...
-                          </span>
-                        )}
-                      </div>
-                    </div>
-                  </div>
+              
                 </div>
               </div>
             ))}
@@ -255,19 +236,6 @@ Aranyak Resort | Bamboo Trail | Bonani | Chatakpur Eco Hut | Dooars Mountain | D
       </div>
     </section>
 
-      <section className="mb-16">
-      <h3 className="text-3xl font-bold text-gray-900 mb-4">
-        Sikkim Hotels – Gangtok, Pelling, Lachung & Lachen
-      </h3>
-      <p className="text-gray-700 leading-relaxed mb-6">
-        Explore the Himalayan beauty of Sikkim with our curated hotels in Gangtok, 
-        Pelling, Ravangla, Lachung and Lachen. Options include spa resorts, 
-        mountain-view boutique hotels and traditional stays.
-      </p>
-      <div className="bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed">
-        Apple Orchard | Anola | Bamboo Grove | Central Heritage | Chumbi Residency | Coral Inn | Central Hotel | Cherry Guest House | Casino Mahjong | Doma Palace | Doma Residency | Fortuna | Juniper | Mayfair Resorts & Spa | Maya Inn | Mist Tree Mountain | Oakridge Retreat | The Oriental | Riccasa | Rendezvous | Royal Plaza | Sonam Delek | Silk Route Residency | Sai Kripa | Summit Spa | Tamarind | Terrace Valley | Tres Teli | Tara Palace | Tashi Delek / Tashi Thendup | Tashiling | Tibet | White Conch |... & Similar Hotels
-      </div>
-    </section>
 
     {/* ECO TOURISM CONTENT */}
     <section className="mt-20 bg-gradient-to-r from-green-50 to-emerald-50 border border-green-200 rounded-2xl p-10 shadow-lg">

@@ -118,3 +118,5 @@ Import traces:
 [00:47:21.164] Browser WARN    Image with src "/Kerala.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:48:47.667] Server  LOG     ✓ Compiled in 292ms
 [00:50:10.128] Server  LOG     ✓ Compiled in 127ms
+[00:52:45.096] Server  LOG     ✓ Compiled in 780ms
+[00:55:04.078] Server  LOG     ✓ Compiled in 381ms

@@ -8,6 +8,7 @@
   "/dooars/page": "app/dooars/page.js",
   "/haridwar-rishikesh-tourism/page": "app/haridwar-rishikesh-tourism/page.js",
   "/himachal-tourism/page": "app/himachal-tourism/page.js",
+  "/hotel-booking/page": "app/hotel-booking/page.js",
   "/hotel-resort/page": "app/hotel-resort/page.js",
   "/jammu-kashmir-tourism/page": "app/jammu-kashmir-tourism/page.js",
   "/kerala-tourism/page": "app/kerala-tourism/page.js",
