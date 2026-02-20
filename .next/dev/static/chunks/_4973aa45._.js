@@ -1144,35 +1144,35 @@ function AndamanNicobarTourismPage() {
                                                                 className: "w-5 h-5 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
+                                                                lineNumber: 79,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                                className: "text-xl font-bold",
+                                                                children: "Day 1: Arrival at Port Blair"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
                                                                 lineNumber: 80,
                                                                 columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                className: "text-xl font-bold",
-                                                                children: "Day 1: Arrival in Port Blair"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 81,
-                                                                columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 79,
+                                                        lineNumber: 78,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         className: "text-gray-700 leading-relaxed",
-                                                        children: "Arrival at Port Blair Airport & transfer to Hotel. After lunch, visit Corbyn's Cove Beach, Cellular-Jail where the heroic saga of the Indian freedom struggle is brought alive. Then proceed to Marina Park named as Rajiv Gandhi Park and back to respective Hotel. Evening free at your own. Dinner & Overnight stay at Hotel/Resort at Port Blair."
+                                                        children: "Arrival at Port Blair Airport. Transfer to Hotel & check-in. Visit Corbyn’s Cove Beach and the historic Cellular Jail. Experience the Light & Sound Show (optional). Dinner & Overnight stay at Port Blair."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 83,
+                                                        lineNumber: 82,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 78,
+                                                lineNumber: 77,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1185,35 +1185,35 @@ function AndamanNicobarTourismPage() {
                                                                 className: "w-5 h-5 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 95,
+                                                                lineNumber: 93,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                                 className: "text-xl font-bold",
-                                                                children: "Day 2: Neil Island Exploration"
+                                                                children: "Day 2: Havelock Island"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 96,
+                                                                lineNumber: 94,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 94,
+                                                        lineNumber: 92,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         className: "text-gray-700 leading-relaxed",
-                                                        children: "After breakfast, proceed to Neil Island which is about 30 km from Port Blair. Neil Island is famous for its marine life and is popular as a vegetable bowl of Andaman. And visit Bharatpur beach (it is famous for coral watching and swimming). Lunch on the beach. Live coral and Natural Rock Formation and afternoon visit Sunset Point at Laxmanpur Beach. Return in evening. Dinner & Overnight stay at Hotel/Resort at Neil Island."
+                                                        children: "Early morning transfer to Havelock Island by ferry. Visit the world-famous Radhanagar Beach. Enjoy leisure time by the turquoise waters. Dinner & Overnight stay at Havelock."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 98,
+                                                        lineNumber: 96,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 93,
+                                                lineNumber: 91,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1226,35 +1226,35 @@ function AndamanNicobarTourismPage() {
                                                                 className: "w-5 h-5 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 111,
+                                                                lineNumber: 107,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                                 className: "text-xl font-bold",
-                                                                children: "Day 3: Ross Island"
+                                                                children: "Day 3: Elephant Beach / Water Activities"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 112,
+                                                                lineNumber: 108,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
+                                                        fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
+                                                        lineNumber: 106,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "text-gray-700 leading-relaxed",
+                                                        children: "Visit Elephant Beach for snorkeling & water sports (optional). Enjoy marine life & coral reefs. Evening at leisure. Dinner & Overnight stay at Havelock."
+                                                    }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
                                                         lineNumber: 110,
                                                         columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-gray-700 leading-relaxed",
-                                                        children: 'Former residential and administrative island of the British during their rule of South East Asia was nicknamed as "Paris of the east". Then visit Bird Island with lush green mangroves and forest shelter numerous chirping birds, sylvan sands and Munda Pahar Beach and Sun Set Point. Return in evening. Dinner & Overnight stay at Hotel/Resort at Port Blair.'
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 114,
-                                                        columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 109,
+                                                lineNumber: 105,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1267,35 +1267,35 @@ function AndamanNicobarTourismPage() {
                                                                 className: "w-5 h-5 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 125,
+                                                                lineNumber: 121,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                                 className: "text-xl font-bold",
-                                                                children: "Day 4: Bara Tang Island"
+                                                                children: "Day 4: Neil Island"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 126,
+                                                                lineNumber: 122,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
+                                                        fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
+                                                        lineNumber: 120,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "text-gray-700 leading-relaxed",
+                                                        children: "Transfer to Neil Island by ferry. Visit Bharatpur Beach, Natural Rock Formation & Laxmanpur Beach. Experience peaceful island life. Dinner & Overnight stay at Neil Island."
+                                                    }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
                                                         lineNumber: 124,
                                                         columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-gray-700 leading-relaxed",
-                                                        children: "Best treasure gifted to islands. The road journey from Port Blair through a dense jungle. Visit Limestone Cave and Mud Volcano. On the way, one can see local tribals called Jarawas. Return in evening. Dinner & Overnight stay at Hotel/Resort at Port Blair."
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 128,
-                                                        columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 123,
+                                                lineNumber: 119,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1308,35 +1308,117 @@ function AndamanNicobarTourismPage() {
                                                                 className: "w-5 h-5 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 140,
+                                                                lineNumber: 135,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                                 className: "text-xl font-bold",
-                                                                children: "Day 5: Departure"
+                                                                children: "Day 5: Ross Island & North Bay"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 141,
+                                                                lineNumber: 136,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 139,
+                                                        lineNumber: 134,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         className: "text-gray-700 leading-relaxed",
-                                                        children: "Enjoy an early morning sunrise. After breakfast, check-out and drop to Port Blair Airport for connecting flight to Kolkata. Tour ends..."
+                                                        children: "Return to Port Blair. Visit Ross Island (Netaji Subhash Chandra Bose Island) & North Bay. Explore colonial ruins, mangroves & enjoy sea walk (optional). Dinner & Overnight stay at Port Blair."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 143,
+                                                        lineNumber: 138,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 138,
+                                                lineNumber: 133,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "border-l-4 border-blue-500 pl-6",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "flex items-center gap-3 mb-2",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
+                                                                className: "w-5 h-5 text-blue-600"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
+                                                                lineNumber: 149,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                                className: "text-xl font-bold",
+                                                                children: "Day 6: Baratang Island"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
+                                                                lineNumber: 150,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
+                                                        lineNumber: 148,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "text-gray-700 leading-relaxed",
+                                                        children: "Early morning road trip to Baratang Island through dense forest. Visit Limestone Caves & Mud Volcano. Return to Port Blair by evening. Dinner & Overnight stay at Port Blair."
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
+                                                        lineNumber: 152,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
+                                                lineNumber: 147,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "border-l-4 border-blue-500 pl-6",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "flex items-center gap-3 mb-2",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
+                                                                className: "w-5 h-5 text-blue-600"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
+                                                                lineNumber: 163,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                                className: "text-xl font-bold",
+                                                                children: "Day 7: Departure"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
+                                                                lineNumber: 164,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
+                                                        lineNumber: 162,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "text-gray-700 leading-relaxed",
+                                                        children: "Enjoy breakfast at hotel. Check-out & transfer to Port Blair Airport for your onward journey. Tour concludes with beautiful island memories."
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
+                                                        lineNumber: 166,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
+                                                lineNumber: 161,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1347,7 +1429,7 @@ function AndamanNicobarTourismPage() {
                                                         children: "Package Highlights"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 149,
+                                                        lineNumber: 175,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1360,7 +1442,7 @@ function AndamanNicobarTourismPage() {
                                                                         className: "w-4 h-4 text-blue-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 152,
+                                                                        lineNumber: 178,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1368,13 +1450,13 @@ function AndamanNicobarTourismPage() {
                                                                         children: "Cellular Jail Historical Experience"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 153,
+                                                                        lineNumber: 179,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 151,
+                                                                lineNumber: 177,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1384,7 +1466,7 @@ function AndamanNicobarTourismPage() {
                                                                         className: "w-4 h-4 text-blue-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 156,
+                                                                        lineNumber: 182,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1392,13 +1474,13 @@ function AndamanNicobarTourismPage() {
                                                                         children: "Neil Island Marine Life"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 157,
+                                                                        lineNumber: 183,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 155,
+                                                                lineNumber: 181,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1408,7 +1490,7 @@ function AndamanNicobarTourismPage() {
                                                                         className: "w-4 h-4 text-blue-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 160,
+                                                                        lineNumber: 186,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1416,13 +1498,13 @@ function AndamanNicobarTourismPage() {
                                                                         children: "Ross Island Mangroves & Bird Sanctuary"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 161,
+                                                                        lineNumber: 187,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 159,
+                                                                lineNumber: 185,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1432,7 +1514,7 @@ function AndamanNicobarTourismPage() {
                                                                         className: "w-4 h-4 text-blue-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 164,
+                                                                        lineNumber: 190,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1440,25 +1522,25 @@ function AndamanNicobarTourismPage() {
                                                                         children: "Bara Tang Island Treasure"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 165,
+                                                                        lineNumber: 191,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 163,
+                                                                lineNumber: 189,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 150,
+                                                        lineNumber: 176,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 148,
+                                                lineNumber: 174,
                                                 columnNumber: 19
                                             }, this)
                                         ]
@@ -1499,28 +1581,45 @@ function AndamanNicobarTourismPage() {
                     className: "max-w-7xl mx-auto px-6",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-center mb-12",
+                            className: "flex justify-between  items-center mb-12",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-4xl md:text-5xl font-bold mb-4",
-                                    children: "Sitapur Beach & Ross Island"
-                                }, void 0, false, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            className: "text-4xl md:text-5xl font-bold mb-4",
+                                            children: "Sitapur Beach & Ross Island"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
+                                            lineNumber: 208,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-xl text-gray-600 max-w-3xl mx-auto",
+                                            children: "Beach Paradise & Island Adventure"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
+                                            lineNumber: 209,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                    lineNumber: 180,
+                                    lineNumber: 207,
                                     columnNumber: 13
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-xl text-gray-600 max-w-3xl mx-auto",
-                                    children: "Beach Paradise & Island Adventure"
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    href: "/book-tour",
+                                    className: "bg-red-600 font-semibold shadow-md rounded-full text-white px-3 py-3",
+                                    children: "Book Now For 3N/4D"
                                 }, void 0, false, {
                                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                    lineNumber: 181,
+                                    lineNumber: 213,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                            lineNumber: 179,
+                            lineNumber: 206,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1541,7 +1640,7 @@ function AndamanNicobarTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 193,
+                                                                lineNumber: 225,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1549,13 +1648,13 @@ function AndamanNicobarTourismPage() {
                                                                 children: "Day 1: Arrival at Port Blair"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 194,
+                                                                lineNumber: 226,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 192,
+                                                        lineNumber: 224,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1563,13 +1662,13 @@ function AndamanNicobarTourismPage() {
                                                         children: "Arrival at Port Blair Airport & transfer to Hotel. After lunch, visit Corbyn's Cove Beach, Cellular-Jail where the heroic saga of the Indian freedom struggle is brought alive. Then proceed to Marina Park named as Rajiv Gandhi Park and back to respective Hotel. Evening free at your own. Dinner & Overnight stay at Hotel/Resort at Port Blair."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 196,
+                                                        lineNumber: 228,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 191,
+                                                lineNumber: 223,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1582,7 +1681,7 @@ function AndamanNicobarTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 208,
+                                                                lineNumber: 240,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1590,13 +1689,13 @@ function AndamanNicobarTourismPage() {
                                                                 children: "Day 2: Sitapur Beach"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 209,
+                                                                lineNumber: 241,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 207,
+                                                        lineNumber: 239,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1604,13 +1703,13 @@ function AndamanNicobarTourismPage() {
                                                         children: "After breakfast, proceed to explore Sitapur Beach. It is about 30 km from Port Blair; Sitapur Beach is famous for its marine life and is popular as a vegetable bowl of Andaman. And visit Bharatpur beach (it is famous for coral watching and swimming). Lunch on the beach. Live coral and Natural Rock Formation and afternoon visit Sunset Point at Laxmanpur Beach. Return in evening. Dinner & Overnight stay at Hotel/Resort at Sitapur."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 211,
+                                                        lineNumber: 243,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 206,
+                                                lineNumber: 238,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1623,7 +1722,7 @@ function AndamanNicobarTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 224,
+                                                                lineNumber: 256,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1631,13 +1730,13 @@ function AndamanNicobarTourismPage() {
                                                                 children: "Day 3: Ross Island"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 225,
+                                                                lineNumber: 257,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 223,
+                                                        lineNumber: 255,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1645,13 +1744,13 @@ function AndamanNicobarTourismPage() {
                                                         children: 'Former residential and administrative island of the British during their rule of South East Asia was nicknamed as "Paris of the east". Then visit Bird Island with lush green mangroves and forest shelter numerous chirping birds, sylvan sands and Munda Pahar Beach and Sun Set Point. Return in evening. Dinner & Overnight stay at Hotel/Resort at Port Blair.'
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 227,
+                                                        lineNumber: 259,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 222,
+                                                lineNumber: 254,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1664,7 +1763,7 @@ function AndamanNicobarTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 238,
+                                                                lineNumber: 270,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1672,13 +1771,13 @@ function AndamanNicobarTourismPage() {
                                                                 children: "Day 4: Departure"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 239,
+                                                                lineNumber: 271,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 237,
+                                                        lineNumber: 269,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1686,13 +1785,13 @@ function AndamanNicobarTourismPage() {
                                                         children: "Enjoy an early morning sunrise. After breakfast, check-out and drop to Port Blair Airport for connecting flight to Kolkata. Tour ends..."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 241,
+                                                        lineNumber: 273,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 236,
+                                                lineNumber: 268,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1703,7 +1802,7 @@ function AndamanNicobarTourismPage() {
                                                         children: "Package Highlights"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 247,
+                                                        lineNumber: 279,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1716,7 +1815,7 @@ function AndamanNicobarTourismPage() {
                                                                         className: "w-4 h-4 text-green-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 250,
+                                                                        lineNumber: 282,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1724,13 +1823,13 @@ function AndamanNicobarTourismPage() {
                                                                         children: "Sitapur Beach Experience"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 251,
+                                                                        lineNumber: 283,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 249,
+                                                                lineNumber: 281,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1740,7 +1839,7 @@ function AndamanNicobarTourismPage() {
                                                                         className: "w-4 h-4 text-green-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 254,
+                                                                        lineNumber: 286,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1748,13 +1847,13 @@ function AndamanNicobarTourismPage() {
                                                                         children: "Ross Island Adventure"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 255,
+                                                                        lineNumber: 287,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 253,
+                                                                lineNumber: 285,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1764,7 +1863,7 @@ function AndamanNicobarTourismPage() {
                                                                         className: "w-4 h-4 text-green-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 258,
+                                                                        lineNumber: 290,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1772,57 +1871,57 @@ function AndamanNicobarTourismPage() {
                                                                         children: "Coral Watching & Swimming"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 259,
+                                                                        lineNumber: 291,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 257,
+                                                                lineNumber: 289,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 248,
+                                                        lineNumber: 280,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 246,
+                                                lineNumber: 278,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                        lineNumber: 189,
+                                        lineNumber: 221,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                    lineNumber: 188,
+                                    lineNumber: 220,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                lineNumber: 187,
+                                lineNumber: 219,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                            lineNumber: 186,
+                            lineNumber: 218,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                    lineNumber: 178,
+                    lineNumber: 204,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                lineNumber: 177,
+                lineNumber: 203,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1831,28 +1930,45 @@ function AndamanNicobarTourismPage() {
                     className: "max-w-7xl mx-auto px-6",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-center mb-12",
+                            className: "flex justify-between  items-center mb-12",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-4xl md:text-5xl font-bold mb-4",
-                                    children: "Mayabunder - Ranget"
-                                }, void 0, false, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            className: "text-4xl md:text-5xl font-bold mb-4",
+                                            children: "Mayabunder - Ranget"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
+                                            lineNumber: 309,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-xl text-gray-600 max-w-3xl mx-auto",
+                                            children: "Beach Paradise & Turtle Nesting"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
+                                            lineNumber: 310,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                    lineNumber: 274,
+                                    lineNumber: 308,
                                     columnNumber: 13
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-xl text-gray-600 max-w-3xl mx-auto",
-                                    children: "Beach Paradise & Turtle Nesting"
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    href: "/book-tour",
+                                    className: "bg-red-600 font-semibold shadow-md rounded-full text-white px-3 py-3",
+                                    children: "Book Now For 3N/4D"
                                 }, void 0, false, {
                                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                    lineNumber: 275,
+                                    lineNumber: 314,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                            lineNumber: 273,
+                            lineNumber: 307,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1873,7 +1989,7 @@ function AndamanNicobarTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 287,
+                                                                lineNumber: 325,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1881,13 +1997,13 @@ function AndamanNicobarTourismPage() {
                                                                 children: "Day 1: Arrival at Port Blair"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 288,
+                                                                lineNumber: 326,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 286,
+                                                        lineNumber: 324,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1895,13 +2011,13 @@ function AndamanNicobarTourismPage() {
                                                         children: "Arrival at Port Blair Airport & transfer to Hotel. After lunch, visit Corbyn's Cove Beach, Cellular-Jail where the heroic saga of the Indian freedom struggle is brought alive. Then proceed to Marina Park named as Rajiv Gandhi Park and back to respective Hotel. Evening free at your own. Dinner & Overnight stay at Hotel/Resort at Port Blair."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 290,
+                                                        lineNumber: 328,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 285,
+                                                lineNumber: 323,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1914,7 +2030,7 @@ function AndamanNicobarTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 302,
+                                                                lineNumber: 340,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1922,13 +2038,13 @@ function AndamanNicobarTourismPage() {
                                                                 children: "Day 2: Ranget"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 303,
+                                                                lineNumber: 341,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 301,
+                                                        lineNumber: 339,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1936,13 +2052,13 @@ function AndamanNicobarTourismPage() {
                                                         children: "After breakfast, proceed to explore Ranget. It is 170kms by road. Visit Cuthbert Bay Beach Turtle nesting ground. Return in evening. Dinner & Overnight stay at Hotel/Resort at Ranget."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 305,
+                                                        lineNumber: 343,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 300,
+                                                lineNumber: 338,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1955,7 +2071,7 @@ function AndamanNicobarTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 316,
+                                                                lineNumber: 354,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1963,13 +2079,13 @@ function AndamanNicobarTourismPage() {
                                                                 children: "Day 3: Mayabunder"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 317,
+                                                                lineNumber: 355,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 315,
+                                                        lineNumber: 353,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1977,13 +2093,13 @@ function AndamanNicobarTourismPage() {
                                                         children: "After breakfast, proceed to explore Mayabunder. It is 170kms by road. Visit Cuthbert Bay Beach Turtle nesting ground. Return in evening. Dinner & Overnight stay at Hotel/Resort at Mayabunder."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 319,
+                                                        lineNumber: 357,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 314,
+                                                lineNumber: 352,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1996,7 +2112,7 @@ function AndamanNicobarTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 330,
+                                                                lineNumber: 368,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2004,13 +2120,13 @@ function AndamanNicobarTourismPage() {
                                                                 children: "Day 4: Departure"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 331,
+                                                                lineNumber: 369,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 329,
+                                                        lineNumber: 367,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2018,13 +2134,13 @@ function AndamanNicobarTourismPage() {
                                                         children: "Enjoy an early morning sunrise. After breakfast, check-out and drop to Port Blair Airport for connecting flight to Kolkata. Tour ends..."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 333,
+                                                        lineNumber: 371,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 328,
+                                                lineNumber: 366,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2035,7 +2151,7 @@ function AndamanNicobarTourismPage() {
                                                         children: "Package Highlights"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 339,
+                                                        lineNumber: 377,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2048,7 +2164,7 @@ function AndamanNicobarTourismPage() {
                                                                         className: "w-4 h-4 text-green-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 342,
+                                                                        lineNumber: 380,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2056,13 +2172,13 @@ function AndamanNicobarTourismPage() {
                                                                         children: "Ranget Beach Experience"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 343,
+                                                                        lineNumber: 381,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 341,
+                                                                lineNumber: 379,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2072,7 +2188,7 @@ function AndamanNicobarTourismPage() {
                                                                         className: "w-4 h-4 text-green-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 346,
+                                                                        lineNumber: 384,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2080,13 +2196,13 @@ function AndamanNicobarTourismPage() {
                                                                         children: "Cuthbert Bay Turtle Nesting"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 347,
+                                                                        lineNumber: 385,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 345,
+                                                                lineNumber: 383,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2096,7 +2212,7 @@ function AndamanNicobarTourismPage() {
                                                                         className: "w-4 h-4 text-green-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 350,
+                                                                        lineNumber: 388,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2104,57 +2220,57 @@ function AndamanNicobarTourismPage() {
                                                                         children: "Mayabunder Beach Activities"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 351,
+                                                                        lineNumber: 389,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 349,
+                                                                lineNumber: 387,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 340,
+                                                        lineNumber: 378,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 338,
+                                                lineNumber: 376,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                        lineNumber: 283,
+                                        lineNumber: 321,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                    lineNumber: 282,
+                                    lineNumber: 320,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                lineNumber: 281,
+                                lineNumber: 319,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                            lineNumber: 280,
+                            lineNumber: 318,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                    lineNumber: 272,
+                    lineNumber: 304,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                lineNumber: 271,
+                lineNumber: 303,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2163,28 +2279,45 @@ function AndamanNicobarTourismPage() {
                     className: "max-w-7xl mx-auto px-6",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-center mb-12",
+                            className: "flex justify-between  items-center mb-12",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-4xl md:text-5xl font-bold mb-4",
-                                    children: "Bara Tang Island"
-                                }, void 0, false, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            className: "text-4xl md:text-5xl font-bold mb-4",
+                                            children: "Bara Tang Island"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
+                                            lineNumber: 406,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-xl text-gray-600 max-w-3xl mx-auto",
+                                            children: "Island Treasure Hunt"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
+                                            lineNumber: 407,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                    lineNumber: 366,
+                                    lineNumber: 405,
                                     columnNumber: 13
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-xl text-gray-600 max-w-3xl mx-auto",
-                                    children: "Island Treasure Hunt"
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    href: "/book-tour",
+                                    className: "bg-red-600 font-semibold shadow-md rounded-full text-white px-3 py-3",
+                                    children: "Book Now For 3N/4D"
                                 }, void 0, false, {
                                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                    lineNumber: 367,
+                                    lineNumber: 411,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                            lineNumber: 365,
+                            lineNumber: 404,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2205,7 +2338,7 @@ function AndamanNicobarTourismPage() {
                                                                 className: "w-5 h-5 text-orange-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 379,
+                                                                lineNumber: 423,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2213,13 +2346,13 @@ function AndamanNicobarTourismPage() {
                                                                 children: "Day 1: Arrival at Port Blair"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 380,
+                                                                lineNumber: 424,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 378,
+                                                        lineNumber: 422,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2227,13 +2360,13 @@ function AndamanNicobarTourismPage() {
                                                         children: "Arrival at Port Blair Airport & transfer to Hotel. After lunch, visit Corbyn's Cove Beach, Cellular-Jail where the heroic saga of the Indian freedom struggle is brought alive. Then proceed to Marina Park named as Rajiv Gandhi Park and back to respective Hotel. Evening free at your own. Dinner & Overnight stay at Hotel/Resort at Port Blair."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 382,
+                                                        lineNumber: 426,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 377,
+                                                lineNumber: 421,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2246,7 +2379,7 @@ function AndamanNicobarTourismPage() {
                                                                 className: "w-5 h-5 text-orange-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 394,
+                                                                lineNumber: 438,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2254,13 +2387,13 @@ function AndamanNicobarTourismPage() {
                                                                 children: "Day 2: Bara Tang Island"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 395,
+                                                                lineNumber: 439,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 393,
+                                                        lineNumber: 437,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2268,13 +2401,13 @@ function AndamanNicobarTourismPage() {
                                                         children: "Best treasure gifted to islands. The road journey from Port Blair through a dense jungle. Visit Limestone Cave and Mud Volcano. On the way, one can see local tribals called Jarawas. Return in evening. Dinner & Overnight stay at Hotel/Resort at Port Blair."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 397,
+                                                        lineNumber: 441,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 392,
+                                                lineNumber: 436,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2287,7 +2420,7 @@ function AndamanNicobarTourismPage() {
                                                                 className: "w-5 h-5 text-orange-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 409,
+                                                                lineNumber: 453,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2295,13 +2428,13 @@ function AndamanNicobarTourismPage() {
                                                                 children: "Day 3: Island Exploration"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 410,
+                                                                lineNumber: 454,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 408,
+                                                        lineNumber: 452,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2309,13 +2442,13 @@ function AndamanNicobarTourismPage() {
                                                         children: "Explore the island's natural beauty, visit local villages, and enjoy the pristine beaches. Return in evening. Dinner & Overnight stay at Hotel/Resort at Port Blair."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 412,
+                                                        lineNumber: 456,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 407,
+                                                lineNumber: 451,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2328,7 +2461,7 @@ function AndamanNicobarTourismPage() {
                                                                 className: "w-5 h-5 text-orange-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 422,
+                                                                lineNumber: 466,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2336,13 +2469,13 @@ function AndamanNicobarTourismPage() {
                                                                 children: "Day 4: Departure"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 423,
+                                                                lineNumber: 467,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 421,
+                                                        lineNumber: 465,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2350,13 +2483,13 @@ function AndamanNicobarTourismPage() {
                                                         children: "Enjoy an early morning sunrise. After breakfast, check-out and drop to Port Blair Airport for connecting flight to Kolkata. Tour ends..."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 425,
+                                                        lineNumber: 469,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 420,
+                                                lineNumber: 464,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2367,7 +2500,7 @@ function AndamanNicobarTourismPage() {
                                                         children: "Package Highlights"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 431,
+                                                        lineNumber: 475,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2380,7 +2513,7 @@ function AndamanNicobarTourismPage() {
                                                                         className: "w-4 h-4 text-orange-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 434,
+                                                                        lineNumber: 478,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2388,13 +2521,13 @@ function AndamanNicobarTourismPage() {
                                                                         children: "Island Adventure Activities"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 435,
+                                                                        lineNumber: 479,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 433,
+                                                                lineNumber: 477,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2404,7 +2537,7 @@ function AndamanNicobarTourismPage() {
                                                                         className: "w-4 h-4 text-orange-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 438,
+                                                                        lineNumber: 482,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2412,13 +2545,13 @@ function AndamanNicobarTourismPage() {
                                                                         children: "Limestone Cave & Mud Volcano"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 439,
+                                                                        lineNumber: 483,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 437,
+                                                                lineNumber: 481,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2428,7 +2561,7 @@ function AndamanNicobarTourismPage() {
                                                                         className: "w-4 h-4 text-orange-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 442,
+                                                                        lineNumber: 486,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2436,57 +2569,57 @@ function AndamanNicobarTourismPage() {
                                                                         children: "Local Tribal Experience"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                        lineNumber: 443,
+                                                                        lineNumber: 487,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                                lineNumber: 441,
+                                                                lineNumber: 485,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 432,
+                                                        lineNumber: 476,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 430,
+                                                lineNumber: 474,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                        lineNumber: 375,
+                                        lineNumber: 419,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                    lineNumber: 374,
+                                    lineNumber: 418,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                lineNumber: 373,
+                                lineNumber: 417,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                            lineNumber: 372,
+                            lineNumber: 416,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                    lineNumber: 364,
+                    lineNumber: 402,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                lineNumber: 363,
+                lineNumber: 401,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2502,7 +2635,7 @@ function AndamanNicobarTourismPage() {
                                     children: "Andaman Islands Highlights"
                                 }, void 0, false, {
                                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                    lineNumber: 458,
+                                    lineNumber: 502,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2510,13 +2643,13 @@ function AndamanNicobarTourismPage() {
                                     children: "Key attractions and experiences in tropical paradise"
                                 }, void 0, false, {
                                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                    lineNumber: 459,
+                                    lineNumber: 503,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                            lineNumber: 457,
+                            lineNumber: 501,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2529,7 +2662,7 @@ function AndamanNicobarTourismPage() {
                                             className: "w-12 h-12 text-blue-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                            lineNumber: 466,
+                                            lineNumber: 510,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2537,7 +2670,7 @@ function AndamanNicobarTourismPage() {
                                             children: "Neil Island"
                                         }, void 0, false, {
                                             fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                            lineNumber: 467,
+                                            lineNumber: 511,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2545,13 +2678,13 @@ function AndamanNicobarTourismPage() {
                                             children: "Marine life, vegetable bowl of Andaman"
                                         }, void 0, false, {
                                             fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                            lineNumber: 468,
+                                            lineNumber: 512,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                    lineNumber: 465,
+                                    lineNumber: 509,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2561,7 +2694,7 @@ function AndamanNicobarTourismPage() {
                                             className: "w-12 h-12 text-green-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                            lineNumber: 472,
+                                            lineNumber: 516,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2569,7 +2702,7 @@ function AndamanNicobarTourismPage() {
                                             children: "Bird Island"
                                         }, void 0, false, {
                                             fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                            lineNumber: 473,
+                                            lineNumber: 517,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2577,13 +2710,13 @@ function AndamanNicobarTourismPage() {
                                             children: "Mangroves, forest shelter, chirping birds"
                                         }, void 0, false, {
                                             fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                            lineNumber: 474,
+                                            lineNumber: 518,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                    lineNumber: 471,
+                                    lineNumber: 515,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2593,7 +2726,7 @@ function AndamanNicobarTourismPage() {
                                             className: "w-12 h-12 text-purple-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                            lineNumber: 478,
+                                            lineNumber: 522,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2601,7 +2734,7 @@ function AndamanNicobarTourismPage() {
                                             children: "Ross Island"
                                         }, void 0, false, {
                                             fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                            lineNumber: 479,
+                                            lineNumber: 523,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2609,13 +2742,13 @@ function AndamanNicobarTourismPage() {
                                             children: "Green mangroves, sylvan sands, Sun Set Point"
                                         }, void 0, false, {
                                             fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                            lineNumber: 480,
+                                            lineNumber: 524,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                    lineNumber: 477,
+                                    lineNumber: 521,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2625,7 +2758,7 @@ function AndamanNicobarTourismPage() {
                                             className: "w-12 h-12 text-orange-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                            lineNumber: 484,
+                                            lineNumber: 528,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2633,7 +2766,7 @@ function AndamanNicobarTourismPage() {
                                             children: "Bara Tang Island"
                                         }, void 0, false, {
                                             fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                            lineNumber: 485,
+                                            lineNumber: 529,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2641,13 +2774,13 @@ function AndamanNicobarTourismPage() {
                                             children: "Island treasure, Limestone caves, Mud Volcano"
                                         }, void 0, false, {
                                             fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                            lineNumber: 486,
+                                            lineNumber: 530,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                    lineNumber: 483,
+                                    lineNumber: 527,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2657,7 +2790,7 @@ function AndamanNicobarTourismPage() {
                                             className: "w-12 h-12 text-cyan-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                            lineNumber: 490,
+                                            lineNumber: 534,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2665,7 +2798,7 @@ function AndamanNicobarTourismPage() {
                                             children: "Sitapur Beach"
                                         }, void 0, false, {
                                             fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                            lineNumber: 491,
+                                            lineNumber: 535,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2673,30 +2806,30 @@ function AndamanNicobarTourismPage() {
                                             children: "Coral watching, swimming, live coral"
                                         }, void 0, false, {
                                             fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                            lineNumber: 492,
+                                            lineNumber: 536,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                    lineNumber: 489,
+                                    lineNumber: 533,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                            lineNumber: 464,
+                            lineNumber: 508,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                    lineNumber: 456,
+                    lineNumber: 500,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                lineNumber: 455,
+                lineNumber: 499,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2713,7 +2846,7 @@ function AndamanNicobarTourismPage() {
                                         className: "w-6 h-6 text-yellow-600 flex-shrink-0 mt-1"
                                     }, void 0, false, {
                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                        lineNumber: 503,
+                                        lineNumber: 547,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2723,7 +2856,7 @@ function AndamanNicobarTourismPage() {
                                                 children: "Island Travel Tips"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 505,
+                                                lineNumber: 549,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2733,53 +2866,53 @@ function AndamanNicobarTourismPage() {
                                                         children: "• Book accommodations in advance during peak season (December-January)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 507,
+                                                        lineNumber: 551,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Carry light cotton clothing and beach essentials"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 508,
+                                                        lineNumber: 552,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Use reef-safe sunscreen to protect coral"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 509,
+                                                        lineNumber: 553,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Respect local marine conservation rules"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 510,
+                                                        lineNumber: 554,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Stay hydrated during island explorations"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 511,
+                                                        lineNumber: 555,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 506,
+                                                lineNumber: 550,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                        lineNumber: 504,
+                                        lineNumber: 548,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                lineNumber: 502,
+                                lineNumber: 546,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2789,7 +2922,7 @@ function AndamanNicobarTourismPage() {
                                         className: "w-6 h-6 text-blue-600 flex-shrink-0 mt-1"
                                     }, void 0, false, {
                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                        lineNumber: 516,
+                                        lineNumber: 560,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2799,7 +2932,7 @@ function AndamanNicobarTourismPage() {
                                                 children: "Best Time to Visit"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 518,
+                                                lineNumber: 562,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2809,62 +2942,62 @@ function AndamanNicobarTourismPage() {
                                                         children: "• October to May: Pleasant weather, calm seas"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 520,
+                                                        lineNumber: 564,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• June to September: Monsoon season - rough seas"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 521,
+                                                        lineNumber: 565,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• November to February: Turtle nesting season"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 522,
+                                                        lineNumber: 566,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• December to April: Clear waters for snorkeling"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                        lineNumber: 523,
+                                                        lineNumber: 567,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                                lineNumber: 519,
+                                                lineNumber: 563,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                        lineNumber: 517,
+                                        lineNumber: 561,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                                lineNumber: 515,
+                                lineNumber: 559,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                        lineNumber: 501,
+                        lineNumber: 545,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                    lineNumber: 500,
+                    lineNumber: 544,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                lineNumber: 499,
+                lineNumber: 543,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PackagePricing$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -2872,13 +3005,13 @@ function AndamanNicobarTourismPage() {
                 subtitle: "Choose your perfect Andaman & Nicobar adventure duration"
             }, void 0, false, {
                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                lineNumber: 531,
-                columnNumber: 5
+                lineNumber: 575,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/andaman-nicobar-tourism/page.tsx",
-                lineNumber: 535,
-                columnNumber: 1
+                lineNumber: 579,
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {

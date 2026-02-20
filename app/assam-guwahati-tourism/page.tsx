@@ -26,7 +26,7 @@ export default function AssamGuwahatiTourismPage() {
               <Trees className="w-6 h-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold tracking-wide">ASSAM TOURISM</span>
             </div>
-            
+
             <h1 className="text-5xl text-center md:text-7xl font-bold mb-6 leading-tight">
               Land of Tea Gardens
               <span className="block text-3xl md:text-5xl mt-2 text-green-300">
@@ -35,7 +35,7 @@ export default function AssamGuwahatiTourismPage() {
             </h1>
 
             <p className="text-center text-xl text-center text-green-100 mb-10 max-w-3xl mx-auto leading-relaxed">
-              Discover the pristine beauty of Assam - from world-famous tea gardens to one-horned rhinos, 
+              Discover the pristine beauty of Assam - from world-famous tea gardens to one-horned rhinos,
               from ancient temples to the mighty Brahmaputra river.
             </p>
 
@@ -88,7 +88,7 @@ export default function AssamGuwahatiTourismPage() {
         </div>
       </section>
 
-     {/* ================= BUDGET TOUR PACKAGE ================= */}
+      {/* ================= BUDGET TOUR PACKAGE ================= */}
       <section className="py-20 bg-gradient-to-br from-green-50 to-emerald-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
@@ -121,7 +121,7 @@ export default function AssamGuwahatiTourismPage() {
 
             {/* Detailed Itinerary */}
             <div className="p-8 space-y-8">
-              
+
               {/* Day 1 */}
               <div className="border-l-4 border-green-500 pl-6">
                 <div className="flex items-center gap-3 mb-3">
@@ -131,8 +131,8 @@ export default function AssamGuwahatiTourismPage() {
                   <h4 className="text-2xl font-bold text-gray-900">Arrival at Guwahati and Transfer to Shillong</h4>
                 </div>
                 <p className="text-gray-700 leading-relaxed">
-                  Meet your driver on arrival at Guwahati Railway station or Airport and start your journey towards Shillong which is also known as "Scotland of East". 
-                  On the way if time permits you can enjoy at Umium lake which is situated in a pristine surrounding. In the lake you can enjoy boating (your cost). 
+                  Meet your driver on arrival at Guwahati Railway station or Airport and start your journey towards Shillong which is also known as "Scotland of East".
+                  On the way if time permits you can enjoy at Umium lake which is situated in a pristine surrounding. In the lake you can enjoy boating (your cost).
                   Check-in to hotel upon arrival in Shillong. Rest of the day free to explore the market on your own. Overnight stay at Hotel / Shillong.
                 </p>
               </div>
@@ -146,9 +146,9 @@ export default function AssamGuwahatiTourismPage() {
                   <h4 className="text-2xl font-bold text-gray-900">Day tour to Cherrapunjee</h4>
                 </div>
                 <p className="text-gray-700 leading-relaxed">
-                  After breakfast, start your day tour of Cherapunjee which is famous as the wettest place with highest rainfall on earth. 
-                  You will be visiting Mawkadok View Point, Wakabha Falls, Noh Kali Kai Falls, Eco Park, Mawsami Cave and the famous 
-                  Noh Sngithiang Falls (Seven Sister Falls) which is one of the highest waterfall in India. 
+                  After breakfast, start your day tour of Cherapunjee which is famous as the wettest place with highest rainfall on earth.
+                  You will be visiting Mawkadok View Point, Wakabha Falls, Noh Kali Kai Falls, Eco Park, Mawsami Cave and the famous
+                  Noh Sngithiang Falls (Seven Sister Falls) which is one of the highest waterfall in India.
                   Evening return back to Shillong. Overnight stay at Hotel / Shillong.
                 </p>
               </div>
@@ -162,26 +162,35 @@ export default function AssamGuwahatiTourismPage() {
                   <h4 className="text-2xl font-bold text-gray-900">Visit Mawllynnong Village</h4>
                 </div>
                 <p className="text-gray-700 leading-relaxed">
-                  Early morning we will visit the cleanest village in India that is nearly 28 kms from Shillong. 
-                  Just close to the scenic village, there are interesting sights like the Living Roots Bridge and a beautiful sight of boulders 
+                  Early morning we will visit the cleanest village in India that is nearly 28 kms from Shillong.
+                  Just close to the scenic village, there are interesting sights like the Living Roots Bridge and a beautiful sight of boulders
                   balancing on another rock. In the afternoon we will return back to Shillong by evening. Overnight stay at Hotel / Shillong.
                 </p>
               </div>
 
               {/* ADD ON Day */}
               <div className="border-l-4 border-orange-500 pl-6 bg-orange-50 p-6 rounded-lg">
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="bg-orange-500 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">
-                    +
+                <div>
+
+                  <div className='flex justify-between items-center mb-3'>
+                    <div className="flex items-center gap-3 ">
+                      <div className="bg-orange-500 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">
+                        +
+                      </div>
+                      <h4 className="text-2xl font-bold text-gray-900">ADD ON (Extra 1 Day): Kaziranga Forest</h4>
+                    </div>
+                    <a href="/book-tour" className='bg-red-600 font-semibold shadow-md rounded-full text-white px-3 py-3'>
+                      Book Now For 1N/2D
+                    </a>
                   </div>
-                  <h4 className="text-2xl font-bold text-gray-900">ADD ON (Extra 1 Day): Kaziranga Forest</h4>
+
                 </div>
                 <p className="text-gray-700 leading-relaxed">
-                  Get up early for elephant safari into the forest. Our representative will take you to the elephant riding point by jeeps. 
-                  Here we will be carried through the tall grass. Meanwhile the morning mists will slowly lift leading to an experience that one cannot forget easily. 
+                  Get up early for elephant safari into the forest. Our representative will take you to the elephant riding point by jeeps.
+                  Here we will be carried through the tall grass. Meanwhile the morning mists will slowly lift leading to an experience that one cannot forget easily.
                   The elephant safari is the best mean for wildlife viewing as the wild animals are not afraid of the elephants and it is possible to observe them from very closely.
-                  Return to the resort for breakfast. After breakfast, we will go for jeep safari in the national park for wildlife viewing in the central zone. 
-                  Later return to the resort for unwinding yourself and having lunch. After lunch we will go on our second jeep safari of the day, this time we will visit the Western zone of the national park. 
+                  Return to the resort for breakfast. After breakfast, we will go for jeep safari in the national park for wildlife viewing in the central zone.
+                  Later return to the resort for unwinding yourself and having lunch. After lunch we will go on our second jeep safari of the day, this time we will visit the Western zone of the national park.
                   One can also spend some time at the Donga view point, situated in western zone. Overnight stay at Resort / Kaziranga.
                 </p>
               </div>
@@ -195,8 +204,8 @@ export default function AssamGuwahatiTourismPage() {
                   <h4 className="text-2xl font-bold text-gray-900">Shillong Local sightseeing</h4>
                 </div>
                 <p className="text-gray-700 leading-relaxed">
-                  After breakfast we will go for exploring Shillong visiting Shillong Peak, Elephant Falls, Lady Hyderi Park, Golf Course, 
-                  Cathedral Church, State Museum, Don Bosco Museum and Ward's Lake where you can enjoy boating on direct payment. 
+                  After breakfast we will go for exploring Shillong visiting Shillong Peak, Elephant Falls, Lady Hyderi Park, Golf Course,
+                  Cathedral Church, State Museum, Don Bosco Museum and Ward's Lake where you can enjoy boating on direct payment.
                   In the evening you are free to explore the market of Shillong on your own. Overnight at Hotel / Shillong.
                 </p>
               </div>
@@ -210,9 +219,9 @@ export default function AssamGuwahatiTourismPage() {
                   <h4 className="text-2xl font-bold text-gray-900">Transfer to Guwahati</h4>
                 </div>
                 <p className="text-gray-700 leading-relaxed">
-                  After breakfast we will start our journey towards Guwahati, which is also known as "Gateway of North-East". 
-                  Upon arrival check-in to hotel and later go for local sightseeing visiting Kalakshetra, Balaji Temple, Vasist Temple 
-                  and Umanad, which is a temple on an island on the might Brahmaputra. In the evening we will be going for a River cruise (your cost) or Kamakhya Temple. 
+                  After breakfast we will start our journey towards Guwahati, which is also known as "Gateway of North-East".
+                  Upon arrival check-in to hotel and later go for local sightseeing visiting Kalakshetra, Balaji Temple, Vasist Temple
+                  and Umanad, which is a temple on an island on the might Brahmaputra. In the evening we will be going for a River cruise (your cost) or Kamakhya Temple.
                   Overnight at Hotel / Guwahati.
                 </p>
               </div>
@@ -226,7 +235,7 @@ export default function AssamGuwahatiTourismPage() {
                   <h4 className="text-2xl font-bold text-gray-900">Visit Kamakhya Temple</h4>
                 </div>
                 <p className="text-gray-700 leading-relaxed">
-                  After breakfast, we will be visiting Kamakhya Temple which is one of the important and famous Shakti Pith Temple in India 
+                  After breakfast, we will be visiting Kamakhya Temple which is one of the important and famous Shakti Pith Temple in India
                   before boarding train or flight for your return journey. Tour Ends...
                 </p>
               </div>
@@ -532,7 +541,7 @@ export default function AssamGuwahatiTourismPage() {
         </div>
       </section>
 
-   
+
 
       {/* ================= TRAVEL TIPS ================= */}
       <section className="py-20 bg-white">
@@ -579,12 +588,12 @@ export default function AssamGuwahatiTourismPage() {
       </section>
 
       {/* ================= PACKAGE PRICING ================= */}
-      <PackagePricing 
+      <PackagePricing
         title="Assam & Guwahati Tour Packages"
         subtitle="Choose your perfect Northeast India adventure duration"
       />
       <ContactCTA />
-      
+
 
     </main>
   )

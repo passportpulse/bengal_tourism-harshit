@@ -210,14 +210,19 @@ export default function JammuKashmirTourismPage() {
       {/* ================= VAISHNO DEVI ADD-ON ================= */}
       <section className="py-20 bg-gradient-to-br from-orange-50 to-amber-50">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
+          <div className="flex justify-between  items-center mb-12">
+            <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Vaishno Devi Darshan Add-on</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Jammu - Katra
             </p>
+            </div>
+            <a href="/book-tour" className='bg-red-500  shadow-md rounded-full text-white px-3 py-3'>
+              Book Now For 2N/3D
+            </a>
           </div>
 
-          <div className="bg-white rounded-2xl shadow-xl p-8">
+          <div className="bg-white rounded-2xl t shadow-xl p-8">
             <div className="">
               <div>
                 <div className="space-y-6 grid md:grid-cols-2 gap-8">

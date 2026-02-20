@@ -718,11 +718,13 @@ export default function HotelBookingPage() {
                     disabled={!formData.destination}
                   >
                     <option value="">-- Select Room Type --</option>
-                    {availableRooms.map((room) => (
-                      <option key={room.value} value={room.value}>
-                        {room.label} : ₹{room.price}/-
-                      </option>
-                    ))}
+              {availableRooms.map((room) => (
+  <option key={room.value} value={room.value}>
+    {room.label} : ₹{room.price}/-{" "}
+    {room.price === 2000 ? "(Without Breakfast)" : "(With Breakfast)"}
+  </option>
+))}
+
                   </select>
                   {formData.costPerRoom && !formData.destination && (
                     <p className="text-xs text-gray-500 mt-1">

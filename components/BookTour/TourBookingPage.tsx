@@ -678,6 +678,20 @@ export default function TourBookingPage() {
                     />
                     <span className="font-medium text-gray-700">Full Payment</span>
                   </label>
+                  <label className="flex items-center gap-3 cursor-pointer">
+                    <input
+                      type="radio"
+                      name="payment"
+                      value="partial"
+                      checked={formData.paymentType === "partial"}
+                      onChange={(e) => {
+                        handleInputChange("paymentType", e.target.value);
+                        setTimeout(calculateTotals, 100);
+                      }}
+                      className="w-4 h-4 text-red-600 focus:ring-red-500"
+                    />
+                    <span className="font-medium text-gray-700">50% Payment</span>
+                  </label>
                  
                 </div>
               </div>

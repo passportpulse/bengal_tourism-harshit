@@ -26,7 +26,7 @@ export default function AndamanNicobarTourismPage() {
               <ShipIcon className="w-6 h-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold tracking-wide">ANDAMAN & NICOBAR</span>
             </div>
-            
+
             <h1 className="text-5xl text-center md:text-7xl font-bold mb-6 leading-tight">
               Tropical Island Paradise
               <span className="block text-3xl md:text-5xl mt-2 text-blue-300">
@@ -35,7 +35,7 @@ export default function AndamanNicobarTourismPage() {
             </h1>
 
             <p className="text-xl text-center md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
-              Experience the perfect blend of beaches, marine life, and colonial heritage 
+              Experience the perfect blend of beaches, marine life, and colonial heritage
               with special tailor-made combination packages
             </p>
 
@@ -66,7 +66,7 @@ export default function AndamanNicobarTourismPage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">HaveLock - Neil - Ross Island</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Cellular Jail & Marine Life
+              Cellular Jail & Marine Life
             </p>
           </div>
 
@@ -74,18 +74,16 @@ export default function AndamanNicobarTourismPage() {
             <div className="">
               <div>
                 <div className="space-y-6 grid md:grid-cols-2 gap-8">
-                  {/* Day 1 */}
                   <div className="border-l-4 border-blue-500 pl-6">
                     <div className="flex items-center gap-3 mb-2">
                       <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 1: Arrival in Port Blair</h3>
+                      <h3 className="text-xl font-bold">Day 1: Arrival at Port Blair</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      Arrival at Port Blair Airport & transfer to Hotel. 
-                      After lunch, visit Corbyn's Cove Beach, Cellular-Jail where the heroic saga of the Indian freedom struggle is brought alive. 
-                      Then proceed to Marina Park named as Rajiv Gandhi Park and back to respective Hotel. 
-                      Evening free at your own. 
-                      Dinner & Overnight stay at Hotel/Resort at Port Blair.
+                      Arrival at Port Blair Airport. Transfer to Hotel & check-in.
+                      Visit Corbyn’s Cove Beach and the historic Cellular Jail.
+                      Experience the Light & Sound Show (optional).
+                      Dinner & Overnight stay at Port Blair.
                     </p>
                   </div>
 
@@ -93,15 +91,13 @@ export default function AndamanNicobarTourismPage() {
                   <div className="border-l-4 border-blue-500 pl-6">
                     <div className="flex items-center gap-3 mb-2">
                       <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 2: Neil Island Exploration</h3>
+                      <h3 className="text-xl font-bold">Day 2: Havelock Island</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      After breakfast, proceed to Neil Island which is about 30 km from Port Blair. 
-                      Neil Island is famous for its marine life and is popular as a vegetable bowl of Andaman. 
-                      And visit Bharatpur beach (it is famous for coral watching and swimming). 
-                      Lunch on the beach. Live coral and Natural Rock Formation and afternoon visit Sunset Point at Laxmanpur Beach. 
-                      Return in evening. 
-                      Dinner & Overnight stay at Hotel/Resort at Neil Island.
+                      Early morning transfer to Havelock Island by ferry.
+                      Visit the world-famous Radhanagar Beach.
+                      Enjoy leisure time by the turquoise waters.
+                      Dinner & Overnight stay at Havelock.
                     </p>
                   </div>
 
@@ -109,13 +105,13 @@ export default function AndamanNicobarTourismPage() {
                   <div className="border-l-4 border-blue-500 pl-6">
                     <div className="flex items-center gap-3 mb-2">
                       <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 3: Ross Island</h3>
+                      <h3 className="text-xl font-bold">Day 3: Elephant Beach / Water Activities</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      Former residential and administrative island of the British during their rule of South East Asia was nicknamed as "Paris of the east". 
-                      Then visit Bird Island with lush green mangroves and forest shelter numerous chirping birds, sylvan sands and Munda Pahar Beach and Sun Set Point. 
-                      Return in evening. 
-                      Dinner & Overnight stay at Hotel/Resort at Port Blair.
+                      Visit Elephant Beach for snorkeling & water sports (optional).
+                      Enjoy marine life & coral reefs.
+                      Evening at leisure.
+                      Dinner & Overnight stay at Havelock.
                     </p>
                   </div>
 
@@ -123,14 +119,13 @@ export default function AndamanNicobarTourismPage() {
                   <div className="border-l-4 border-blue-500 pl-6">
                     <div className="flex items-center gap-3 mb-2">
                       <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 4: Bara Tang Island</h3>
+                      <h3 className="text-xl font-bold">Day 4: Neil Island</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      Best treasure gifted to islands. The road journey from Port Blair through a dense jungle. 
-                      Visit Limestone Cave and Mud Volcano. 
-                      On the way, one can see local tribals called Jarawas. 
-                      Return in evening. 
-                      Dinner & Overnight stay at Hotel/Resort at Port Blair.
+                      Transfer to Neil Island by ferry.
+                      Visit Bharatpur Beach, Natural Rock Formation & Laxmanpur Beach.
+                      Experience peaceful island life.
+                      Dinner & Overnight stay at Neil Island.
                     </p>
                   </div>
 
@@ -138,12 +133,43 @@ export default function AndamanNicobarTourismPage() {
                   <div className="border-l-4 border-blue-500 pl-6">
                     <div className="flex items-center gap-3 mb-2">
                       <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 5: Departure</h3>
+                      <h3 className="text-xl font-bold">Day 5: Ross Island & North Bay</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      Enjoy an early morning sunrise. After breakfast, check-out and drop to Port Blair Airport for connecting flight to Kolkata. Tour ends...
+                      Return to Port Blair.
+                      Visit Ross Island (Netaji Subhash Chandra Bose Island) & North Bay.
+                      Explore colonial ruins, mangroves & enjoy sea walk (optional).
+                      Dinner & Overnight stay at Port Blair.
                     </p>
                   </div>
+
+                  {/* Day 6 */}
+                  <div className="border-l-4 border-blue-500 pl-6">
+                    <div className="flex items-center gap-3 mb-2">
+                      <Calendar className="w-5 h-5 text-blue-600" />
+                      <h3 className="text-xl font-bold">Day 6: Baratang Island</h3>
+                    </div>
+                    <p className="text-gray-700 leading-relaxed">
+                      Early morning road trip to Baratang Island through dense forest.
+                      Visit Limestone Caves & Mud Volcano.
+                      Return to Port Blair by evening.
+                      Dinner & Overnight stay at Port Blair.
+                    </p>
+                  </div>
+
+                  {/* Day 7 */}
+                  <div className="border-l-4 border-blue-500 pl-6">
+                    <div className="flex items-center gap-3 mb-2">
+                      <Calendar className="w-5 h-5 text-blue-600" />
+                      <h3 className="text-xl font-bold">Day 7: Departure</h3>
+                    </div>
+                    <p className="text-gray-700 leading-relaxed">
+                      Enjoy breakfast at hotel.
+                      Check-out & transfer to Port Blair Airport for your onward journey.
+                      Tour concludes with beautiful island memories.
+                    </p>
+                  </div>
+
 
                   <div className="bg-blue-100 rounded-xl p-6 mt-8">
                     <h4 className="font-bold text-blue-800 mb-3">Package Highlights</h4>
@@ -176,11 +202,17 @@ export default function AndamanNicobarTourismPage() {
       {/* ================= SITAPUR BEACH & ROSS ISLAND ================= */}
       <section className="py-20 bg-gradient-to-br from-green-50 to-emerald-50">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Sitapur Beach & Ross Island</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Beach Paradise & Island Adventure
-            </p>
+
+          <div className="flex justify-between  items-center mb-12">
+            <div>
+              <h2 className="text-4xl md:text-5xl font-bold mb-4">Sitapur Beach & Ross Island</h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Beach Paradise & Island Adventure
+              </p>
+            </div>
+            <a href="/book-tour" className='bg-red-600 font-semibold shadow-md rounded-full text-white px-3 py-3'>
+              Book Now For 3N/4D
+            </a>
           </div>
 
           <div className="bg-white rounded-2xl shadow-xl p-8">
@@ -194,10 +226,10 @@ export default function AndamanNicobarTourismPage() {
                       <h3 className="text-xl font-bold">Day 1: Arrival at Port Blair</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      Arrival at Port Blair Airport & transfer to Hotel. 
-                      After lunch, visit Corbyn's Cove Beach, Cellular-Jail where the heroic saga of the Indian freedom struggle is brought alive. 
-                      Then proceed to Marina Park named as Rajiv Gandhi Park and back to respective Hotel. 
-                      Evening free at your own. 
+                      Arrival at Port Blair Airport & transfer to Hotel.
+                      After lunch, visit Corbyn's Cove Beach, Cellular-Jail where the heroic saga of the Indian freedom struggle is brought alive.
+                      Then proceed to Marina Park named as Rajiv Gandhi Park and back to respective Hotel.
+                      Evening free at your own.
                       Dinner & Overnight stay at Hotel/Resort at Port Blair.
                     </p>
                   </div>
@@ -209,11 +241,11 @@ export default function AndamanNicobarTourismPage() {
                       <h3 className="text-xl font-bold">Day 2: Sitapur Beach</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      After breakfast, proceed to explore Sitapur Beach. 
-                      It is about 30 km from Port Blair; Sitapur Beach is famous for its marine life and is popular as a vegetable bowl of Andaman. 
-                      And visit Bharatpur beach (it is famous for coral watching and swimming). 
-                      Lunch on the beach. Live coral and Natural Rock Formation and afternoon visit Sunset Point at Laxmanpur Beach. 
-                      Return in evening. 
+                      After breakfast, proceed to explore Sitapur Beach.
+                      It is about 30 km from Port Blair; Sitapur Beach is famous for its marine life and is popular as a vegetable bowl of Andaman.
+                      And visit Bharatpur beach (it is famous for coral watching and swimming).
+                      Lunch on the beach. Live coral and Natural Rock Formation and afternoon visit Sunset Point at Laxmanpur Beach.
+                      Return in evening.
                       Dinner & Overnight stay at Hotel/Resort at Sitapur.
                     </p>
                   </div>
@@ -225,9 +257,9 @@ export default function AndamanNicobarTourismPage() {
                       <h3 className="text-xl font-bold">Day 3: Ross Island</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      Former residential and administrative island of the British during their rule of South East Asia was nicknamed as "Paris of the east". 
-                      Then visit Bird Island with lush green mangroves and forest shelter numerous chirping birds, sylvan sands and Munda Pahar Beach and Sun Set Point. 
-                      Return in evening. 
+                      Former residential and administrative island of the British during their rule of South East Asia was nicknamed as "Paris of the east".
+                      Then visit Bird Island with lush green mangroves and forest shelter numerous chirping birds, sylvan sands and Munda Pahar Beach and Sun Set Point.
+                      Return in evening.
                       Dinner & Overnight stay at Hotel/Resort at Port Blair.
                     </p>
                   </div>
@@ -270,13 +302,19 @@ export default function AndamanNicobarTourismPage() {
       {/* ================= MAYABUNDER - RANGET ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Mayabunder - Ranget</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          Beach Paradise & Turtle Nesting
-            </p>
-          </div>
 
+
+          <div className="flex justify-between  items-center mb-12">
+            <div>
+              <h2 className="text-4xl md:text-5xl font-bold mb-4">Mayabunder - Ranget</h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Beach Paradise & Turtle Nesting
+              </p>
+            </div>
+            <a href="/book-tour" className='bg-red-600 font-semibold shadow-md rounded-full text-white px-3 py-3'>
+              Book Now For 3N/4D
+            </a>
+          </div>
           <div className="bg-white rounded-2xl shadow-xl p-8">
             <div className="">
               <div>
@@ -288,10 +326,10 @@ export default function AndamanNicobarTourismPage() {
                       <h3 className="text-xl font-bold">Day 1: Arrival at Port Blair</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      Arrival at Port Blair Airport & transfer to Hotel. 
-                      After lunch, visit Corbyn's Cove Beach, Cellular-Jail where the heroic saga of the Indian freedom struggle is brought alive. 
-                      Then proceed to Marina Park named as Rajiv Gandhi Park and back to respective Hotel. 
-                      Evening free at your own. 
+                      Arrival at Port Blair Airport & transfer to Hotel.
+                      After lunch, visit Corbyn's Cove Beach, Cellular-Jail where the heroic saga of the Indian freedom struggle is brought alive.
+                      Then proceed to Marina Park named as Rajiv Gandhi Park and back to respective Hotel.
+                      Evening free at your own.
                       Dinner & Overnight stay at Hotel/Resort at Port Blair.
                     </p>
                   </div>
@@ -303,9 +341,9 @@ export default function AndamanNicobarTourismPage() {
                       <h3 className="text-xl font-bold">Day 2: Ranget</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      After breakfast, proceed to explore Ranget. 
-                      It is 170kms by road. Visit Cuthbert Bay Beach Turtle nesting ground. 
-                      Return in evening. 
+                      After breakfast, proceed to explore Ranget.
+                      It is 170kms by road. Visit Cuthbert Bay Beach Turtle nesting ground.
+                      Return in evening.
                       Dinner & Overnight stay at Hotel/Resort at Ranget.
                     </p>
                   </div>
@@ -317,9 +355,9 @@ export default function AndamanNicobarTourismPage() {
                       <h3 className="text-xl font-bold">Day 3: Mayabunder</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      After breakfast, proceed to explore Mayabunder. 
-                      It is 170kms by road. Visit Cuthbert Bay Beach Turtle nesting ground. 
-                      Return in evening. 
+                      After breakfast, proceed to explore Mayabunder.
+                      It is 170kms by road. Visit Cuthbert Bay Beach Turtle nesting ground.
+                      Return in evening.
                       Dinner & Overnight stay at Hotel/Resort at Mayabunder.
                     </p>
                   </div>
@@ -362,11 +400,17 @@ export default function AndamanNicobarTourismPage() {
       {/* ================= BARA TANG ISLAND ================= */}
       <section className="py-20 bg-gradient-to-br from-orange-50 to-amber-50">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Bara Tang Island</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Island Treasure Hunt
-            </p>
+
+          <div className="flex justify-between  items-center mb-12">
+            <div>
+              <h2 className="text-4xl md:text-5xl font-bold mb-4">Bara Tang Island</h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Island Treasure Hunt
+              </p>
+            </div>
+            <a href="/book-tour" className='bg-red-600 font-semibold shadow-md rounded-full text-white px-3 py-3'>
+              Book Now For 3N/4D
+            </a>
           </div>
 
           <div className="bg-white rounded-2xl shadow-xl p-8">
@@ -380,10 +424,10 @@ export default function AndamanNicobarTourismPage() {
                       <h3 className="text-xl font-bold">Day 1: Arrival at Port Blair</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      Arrival at Port Blair Airport & transfer to Hotel. 
-                      After lunch, visit Corbyn's Cove Beach, Cellular-Jail where the heroic saga of the Indian freedom struggle is brought alive. 
-                      Then proceed to Marina Park named as Rajiv Gandhi Park and back to respective Hotel. 
-                      Evening free at your own. 
+                      Arrival at Port Blair Airport & transfer to Hotel.
+                      After lunch, visit Corbyn's Cove Beach, Cellular-Jail where the heroic saga of the Indian freedom struggle is brought alive.
+                      Then proceed to Marina Park named as Rajiv Gandhi Park and back to respective Hotel.
+                      Evening free at your own.
                       Dinner & Overnight stay at Hotel/Resort at Port Blair.
                     </p>
                   </div>
@@ -395,10 +439,10 @@ export default function AndamanNicobarTourismPage() {
                       <h3 className="text-xl font-bold">Day 2: Bara Tang Island</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      Best treasure gifted to islands. The road journey from Port Blair through a dense jungle. 
-                      Visit Limestone Cave and Mud Volcano. 
-                      On the way, one can see local tribals called Jarawas. 
-                      Return in evening. 
+                      Best treasure gifted to islands. The road journey from Port Blair through a dense jungle.
+                      Visit Limestone Cave and Mud Volcano.
+                      On the way, one can see local tribals called Jarawas.
+                      Return in evening.
                       Dinner & Overnight stay at Hotel/Resort at Port Blair.
                     </p>
                   </div>
@@ -410,8 +454,8 @@ export default function AndamanNicobarTourismPage() {
                       <h3 className="text-xl font-bold">Day 3: Island Exploration</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      Explore the island's natural beauty, visit local villages, and enjoy the pristine beaches. 
-                      Return in evening. 
+                      Explore the island's natural beauty, visit local villages, and enjoy the pristine beaches.
+                      Return in evening.
                       Dinner & Overnight stay at Hotel/Resort at Port Blair.
                     </p>
                   </div>
@@ -528,12 +572,12 @@ export default function AndamanNicobarTourismPage() {
         </div>
       </section>
 
-    <PackagePricing 
+      <PackagePricing
         title="Andaman & Nicobar Tour Packages"
         subtitle="Choose your perfect Andaman & Nicobar adventure duration"
       />
-<ContactCTA />
-    
+      <ContactCTA />
+
 
     </main>
   )
