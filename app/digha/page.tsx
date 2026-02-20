@@ -98,105 +98,162 @@ export default function DighaPage() {
         </div>
       </section>
 
-       <div className="bg-gray-50 py-16 px-6 md:px-12">
-      <div className="max-w-7xl mx-auto space-y-16">
+      <div className="bg-gray-50 py-16 px-6 md:px-12">
+        <div className="max-w-7xl mx-auto space-y-16">
 
-        {/* Digha Section */}
-        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
-          <h2 className="text-4xl font-bold text-blue-700 border-b-4 border-blue-500 inline-block pb-2">
-            Digha – The Brighton of the East
-          </h2>
+          {/* Digha Section */}
+          <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
+            <h2 className="text-4xl font-bold text-blue-700 border-b-4 border-blue-500 inline-block pb-2">
+              Digha – The Brighton of the East
+            </h2>
 
-          <p className="text-gray-700 leading-8">
-            Once upon a time, Digha was called ‘Brighton of the East’. Some websites still flaunts that tag.
-            There was a time when the hard & flat beach at Digha stretched for miles & the salt wind soughed among the casuarinas.
-            About 200 kms from Kolkata, on the shores of Bay of Bengal. Miles & miles of secluded Sea & rolling Beach’s,
-            it’s fringed by casuarinas & eucalyptus trees. Lovers & Honeymooner’s playground. Far away from the madding crowd.
-            Virgin & uncluttered.
-          </p>
+            <p className="text-gray-700 leading-8">
+              Once upon a time, Digha was called ‘Brighton of the East’. Some websites still flaunts that tag.
+              There was a time when the hard & flat beach at Digha stretched for miles & the salt wind soughed among the casuarinas.
+              About 200 kms from Kolkata, on the shores of Bay of Bengal. Miles & miles of secluded Sea & rolling Beach’s,
+              it’s fringed by casuarinas & eucalyptus trees. Lovers & Honeymooner’s playground. Far away from the madding crowd.
+              Virgin & uncluttered.
+            </p>
 
-          <p className="text-gray-700 leading-8">
-            On the long walk to the mohona, one would come across beached boats, fishing nets & occasional giant turtles.
-            Over 200 yards of the water-front are now encased in concrete & tone, to prevent further erosion by the sea.
-            Lining the stone embankments are rows of food stalls & sovereign shops.
-          </p>
+            <p className="text-gray-700 leading-8">
+              On the long walk to the mohona, one would come across beached boats, fishing nets & occasional giant turtles.
+              Over 200 yards of the water-front are now encased in concrete & tone, to prevent further erosion by the sea.
+              Lining the stone embankments are rows of food stalls & sovereign shops.
+            </p>
 
-          <p className="text-gray-700 leading-8">
-            Once upon a time, it was derigueur to shoot almost all romantic Bengali films in this grove.
-            There are now two beaches at Digha, Old & New. The waters at these beaches can be very choppy at times,
-            specially during the rainy season. Every second house in Digha is a hotel or a lodge,
-            catering to the budget as well as the fussy travellers.
-          </p>
-        </section>
+            <p className="text-gray-700 leading-8">
+              Once upon a time, it was derigueur to shoot almost all romantic Bengali films in this grove.
+              There are now two beaches at Digha, Old & New. The waters at these beaches can be very choppy at times,
+              specially during the rainy season. Every second house in Digha is a hotel or a lodge,
+              catering to the budget as well as the fussy travellers.
+            </p>
+          </section>
 
-        {/* Mandarmani Section */}
-        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
-          <h2 className="text-4xl font-bold text-orange-600 border-b-4 border-orange-500 inline-block pb-2">
-            Mandarmani
-          </h2>
+          {/* Mandarmani Section */}
+          <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
 
-          <p className="text-gray-700 leading-8">
-            Mandarmani is one of Bengal’s recently developed tourist destination that lies close to ever-popular
-            Digha and Shankarpur. With sun and surf, pristine sea beach and untrammelled silt coloured sand,
-            this beach is slowly becoming popular among the tourists.
-          </p>
+            <div className="flex gap-5 items-center mt-8">
 
-          <p className="text-gray-700 leading-8">
-            Mandarmani boasts of a 13 km long motorable beach, probably the longest motorable beach road in India.
-            On the beach you will undoubtedly get the chance to feel the divinity and tranquility.
-            If that is not enough to please your senses, then try to loll on the sand and listen to the waves crashing upon the shore,
-            which will surely drive away your bustling pressure.
-          </p>
+              <h2 className="text-4xl font-bold text-orange-600 border-b-4 border-orange-500 inline-block pb-2">
+                Mandrmoni
+              </h2>
+              <a
+                href="/book-tour"
+                className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+              >
+                Book Now for 2N/3D
+              </a>
+            </div>
 
-          <p className="text-gray-700 leading-8">
-            As an added attraction; this is the only place in eastern India where one can enjoy many beach adventure activities
-            like ATV Rides, Water Scooter, Para Gliding, Speed Boats & local motorised Cycle Van cruise on the beach.
-            Also try the freshly caught shrimps & crabs, fried to perfection with a glass of beer on the many make-shift shacks
-            that dot the beach while the waves laps at your feet & the breeze plays with your hair.
-            A perfect destination for some sun-bathing.
-          </p>
-        </section>
+            <p className="text-gray-700 leading-8">
+              Mandarmani is one of Bengal’s recently developed tourist destination that lies close to ever-popular
+              Digha and Shankarpur. With sun and surf, pristine sea beach and untrammelled silt coloured sand,
+              this beach is slowly becoming popular among the tourists.
+            </p>
 
-        {/* Shankarpur Section */}
-        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
-          <h2 className="text-4xl font-bold text-green-600 border-b-4 border-green-500 inline-block pb-2">
-            Shankarpur
-          </h2>
+            <p className="text-gray-700 leading-8">
+              Mandarmani boasts of a 13 km long motorable beach, probably the longest motorable beach road in India.
+              On the beach you will undoubtedly get the chance to feel the divinity and tranquility.
+              If that is not enough to please your senses, then try to loll on the sand and listen to the waves crashing upon the shore,
+              which will surely drive away your bustling pressure.
+            </p>
 
-          <p className="text-gray-700 leading-8">
-            Then there is the secrets of the sea in Shankarpur. There is something about the silence of the seclude shore
-            that revives memories of innocence lost, or of a secret that one was privileged to learn & cherish as a giggly child.
-          </p>
-        </section>
+            <p className="text-gray-700 leading-8">
+              As an added attraction; this is the only place in eastern India where one can enjoy many beach adventure activities
+              like ATV Rides, Water Scooter, Para Gliding, Speed Boats & local motorised Cycle Van cruise on the beach.
+              Also try the freshly caught shrimps & crabs, fried to perfection with a glass of beer on the many make-shift shacks
+              that dot the beach while the waves laps at your feet & the breeze plays with your hair.
+              A perfect destination for some sun-bathing.
+            </p>
+          </section>
 
-        {/* Places of Interest */}
-        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
-          <h2 className="text-3xl font-bold text-purple-700 border-b-4 border-purple-500 inline-block pb-2">
-            Places of Interest
-          </h2>
+          {/* Shankarpur Section */}
+          <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
 
-          <p className="text-gray-700 leading-8">
-            Marine aquarium • Science Centre • Water Sports • Recreational activities • Mondarmoni • Tazpur •
-            Shankarpur (Casuarina Trees) • Mohona • Gadiara ( 3 rivers meet ) & more
-          </p>
-        </section>
+            <div className="flex gap-5 items-center mt-8">
 
-        {/* Nearby Destinations */}
-        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
-          <h2 className="text-3xl font-bold text-red-600 border-b-4 border-red-500 inline-block pb-2">
-            At a Short Distance
-          </h2>
+              <h2 className="text-4xl font-bold text-orange-600 border-b-4 border-orange-500 inline-block pb-2">
+                Shankarpur
+              </h2>
+              <a
+                href="/book-tour"
+                className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+              >
+                Book Now for 2N/3D
+              </a>
+            </div>
+            <p className="text-gray-700 leading-8">
+              Then there is the secrets of the sea in Shankarpur. There is something about the silence of the seclude shore
+              that revives memories of innocence lost, or of a secret that one was privileged to learn & cherish as a giggly child.
+            </p>
+          </section>
 
-          <p className="text-gray-700 leading-8">
-            Puri (abode of the Lord of the Universe) • Konark (Sun temple & Erotic sculptures) • Simlipal (Tiger Reserve) •
-            Bhubaneswar, Udaigiri, Khandagiri & Ratnagiri • Nandan Kanan (Animal kingdom) • Chandipur •
-            Gopalpur (a sea to walk on) • Chilika Lagoon (River dolphins & Migratory birds) •
-            Gahirmatha (UNESCO World Heritage Site) • Bhitarkanika (Crocodiles) & more…
-          </p>
-        </section>
 
+
+          {/* Places of Interest */}
+          <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
+            <h2 className="text-3xl font-bold text-purple-700 border-b-4 border-purple-500 inline-block pb-2">
+              Tajpur – The Hidden Beach Gem of West Bengal
+            </h2>
+
+            <p className="text-gray-700 leading-8">
+              Tajpur is one of the most peaceful and offbeat beach destinations in West Bengal,
+              located between Mandarmoni and Shankarpur along the Bay of Bengal. Known for its
+              red crab beaches, tranquil surroundings and casuarina tree-lined coastline,
+              Tajpur offers a perfect weekend getaway for couples, families and nature lovers.
+            </p>
+
+            <p className="text-gray-700 leading-8">
+              Unlike crowded commercial beaches, Tajpur retains its untouched charm and
+              serene ambiance. Visitors can enjoy long beach walks, sunrise views over the
+              Bay of Bengal, and various water sports activities such as ATV rides,
+              speed boating and beach adventure games.
+            </p>
+
+            <p className="text-gray-700 leading-8">
+              Nearby attractions include Mandarmoni Beach, Shankarpur fishing harbour,
+              Mohona (where rivers meet the sea), Gadiara (confluence of three rivers),
+              Marine Aquarium & Research Centre in Digha and the Science Centre.
+              The calm environment, fresh seafood and eco-friendly resorts make Tajpur
+              an emerging favorite coastal destination in East India.
+            </p>
+          </section>
+
+          <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
+            <div className="flex gap-5 items-center mt-8">
+
+              <h2 className="text-4xl font-bold text-orange-600 border-b-4 border-orange-500 inline-block pb-2">
+                Upcoming port Town
+              </h2>
+              <a
+                href="/book-tour"
+                className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+              >
+                Book Now for 2N/3D
+              </a>
+            </div>
+
+            <p className="text-gray-700 leading-8">
+              Near by coastal town of Digha, Mandarmoni, and Tajpur
+            </p>
+          </section>
+
+          {/* Nearby Destinations */}
+          <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
+            <h2 className="text-3xl font-bold text-red-600 border-b-4 border-red-500 inline-block pb-2">
+              At a Short Distance
+            </h2>
+
+            <p className="text-gray-700 leading-8">
+              Puri (abode of the Lord of the Universe) • Konark (Sun temple & Erotic sculptures) • Simlipal (Tiger Reserve) •
+              Bhubaneswar, Udaigiri, Khandagiri & Ratnagiri • Nandan Kanan (Animal kingdom) • Chandipur •
+              Gopalpur (a sea to walk on) • Chilika Lagoon (River dolphins & Migratory birds) •
+              Gahirmatha (UNESCO World Heritage Site) • Bhitarkanika (Crocodiles) & more…
+            </p>
+          </section>
+
+        </div>
       </div>
-    </div>
 
       {/* ================= HISTORICAL BACKGROUND ================= */}
       <section className="py-20 bg-white">
@@ -213,8 +270,8 @@ export default function DighaPage() {
               <div className="bg-blue-50 p-6 rounded-xl">
                 <h3 className="text-2xl font-bold mb-3 text-blue-600">The Brighton Era</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Once upon a time, Digha was called 'Brighton of the East'. There was a time when the hard & flat beach 
-                  at Digha stretched for miles & the salt wind soughed among the casuarinas. About 200 kms from Kolkata, 
+                  Once upon a time, Digha was called 'Brighton of the East'. There was a time when the hard & flat beach
+                  at Digha stretched for miles & the salt wind soughed among the casuarinas. About 200 kms from Kolkata,
                   on the shores of Bay of Bengal.
                 </p>
               </div>
@@ -222,7 +279,7 @@ export default function DighaPage() {
               <div className="bg-yellow-50 p-6 rounded-xl">
                 <h3 className="text-2xl font-bold mb-3 text-yellow-600">Coastal Development</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Miles & miles of secluded Sea & rolling Beach's, fringed by casuarinas & eucalyptus trees. 
+                  Miles & miles of secluded Sea & rolling Beach's, fringed by casuarinas & eucalyptus trees.
                   Lovers & Honeymooner's playground. Far away from the madding crowd. Virgin & uncluttered.
                 </p>
               </div>
@@ -230,7 +287,7 @@ export default function DighaPage() {
               <div className="bg-green-50 p-6 rounded-xl">
                 <h3 className="text-2xl font-bold mb-3 text-green-600">Modern Transformation</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Over 200 yards of the water-front are now encased in concrete & stone, to prevent further erosion by the sea. 
+                  Over 200 yards of the water-front are now encased in concrete & stone, to prevent further erosion by the sea.
                   Lining the stone embankments are rows of food stalls & souvenir shops. Every second house in Digha is a hotel.
                 </p>
               </div>
@@ -250,95 +307,95 @@ export default function DighaPage() {
         </div>
       </section>
 
- <section className="py-24 bg-gradient-to-b from-gray-50 to-white">
-      <div className="max-w-7xl mx-auto px-6">
+      <section className="py-24 bg-gradient-to-b from-gray-50 to-white">
+        <div className="max-w-7xl mx-auto px-6">
 
-        {/* Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            5 Days Digha – Beach Circuit Tour Itinerary
-          </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
-            Detailed sightseeing plan covering Digha, Mandarmoni,
-            Tajpur, Shankarpur & Udaipur.
-          </p>
+          {/* Header */}
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Digha & Mandarmoni – Beach Circuit Tour Itinerary
+            </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Detailed sightseeing plan covering Digha, Mandarmoni,
+              Tajpur, Shankarpur & Udaipur.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
+
+            {/* Day 1 */}
+            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-blue-500 
+  hover:shadow-xl transition h-full flex flex-col">
+              <h3 className="text-2xl font-bold text-blue-600 mb-4 flex items-center gap-2">
+                <MapPin className="w-6 h-6" />
+                Day 1 – Arrival & Digha Transfer
+              </h3>
+              <p className="text-gray-700 leading-relaxed flex-grow">
+                Depart from Kolkata (7-8 AM). Breakfast at Kolaghat.
+                Reach Digha (1-2 PM). Hotel check-in & lunch.
+                Evening local market visit. Dinner & Overnight stay at Digha.
+              </p>
+            </div>
+            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-purple-500 
+  hover:shadow-xl transition h-full flex flex-col">
+              <h3 className="text-2xl font-bold text-purple-600 mb-4 flex items-center gap-2">
+                <Ship className="w-6 h-6" />
+                Day 4 – Mandarmoni Beach Day
+              </h3>
+              <p className="text-gray-700 leading-relaxed flex-grow">
+                Check-out (10-11 AM). En-route Mohona visit.
+                Mandarmoni check-in. Rolling beach exploration.
+                Evening bonfire & BBQ. Dinner & Overnight at Mandarmoni.
+              </p>
+            </div>
+            {/* Day 2 */}
+            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-yellow-500 
+  hover:shadow-xl transition h-full flex flex-col">
+              <h3 className="text-2xl font-bold text-yellow-600 mb-4 flex items-center gap-2">
+                <Sunrise className="w-6 h-6" />
+                Day 2 – Beach Exploration
+              </h3>
+              <p className="text-gray-700 leading-relaxed flex-grow">
+                Early morning sunrise experience. Old Digha/New Digha beach.
+                Udaipur (Odisha border) option. Water sports & rides.
+                Fresh coconut & beach beer. Dinner & Overnight at Digha.
+              </p>
+            </div>
+            {/* Day 5 */}
+            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-red-500 
+  hover:shadow-xl transition h-full flex flex-col">
+              <h3 className="text-2xl font-bold text-red-600 mb-4 flex items-center gap-2">
+                <Plane className="w-6 h-6" />
+                Day 5 – Departure
+              </h3>
+              <p className="text-gray-700 leading-relaxed flex-grow">
+                Sunrise with morning tea. Beach stroll. Sea bath.
+                Check-out (11 AM). Return to Kolkata.
+                Tour ends with beautiful beach memories.
+              </p>
+            </div>
+            {/* Day 3 */}
+            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-green-500 
+  hover:shadow-xl transition h-full flex flex-col">
+              <h3 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
+                <Waves className="w-6 h-6" />
+                Day 3 – Shankarpur & Tajpur
+              </h3>
+              <p className="text-gray-700 leading-relaxed flex-grow">
+                Full day tour covering Shankarpur & Tajpur.
+                Beach activities. Local seafood lunch.
+                Spicy crab curry special. Country chicken fry.
+                Dinner & Overnight at Digha.
+              </p>
+            </div>
+
+
+
+          </div>
+
+
         </div>
-
-<div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
-
-  {/* Day 1 */}
-  <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-blue-500 
-  hover:shadow-xl transition h-full flex flex-col">
-    <h3 className="text-2xl font-bold text-blue-600 mb-4 flex items-center gap-2">
-      <MapPin className="w-6 h-6" />
-      Day 1 – Arrival & Digha Transfer
-    </h3>
-    <p className="text-gray-700 leading-relaxed flex-grow">
-      Depart from Kolkata (7-8 AM). Breakfast at Kolaghat.
-      Reach Digha (1-2 PM). Hotel check-in & lunch.
-      Evening local market visit. Dinner & Overnight stay at Digha.
-    </p>
-  </div>
- <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-purple-500 
-  hover:shadow-xl transition h-full flex flex-col">
-    <h3 className="text-2xl font-bold text-purple-600 mb-4 flex items-center gap-2">
-      <Ship className="w-6 h-6" />
-      Day 4 – Mandarmoni Beach Day
-    </h3>
-    <p className="text-gray-700 leading-relaxed flex-grow">
-      Check-out (10-11 AM). En-route Mohona visit.
-      Mandarmoni check-in. Rolling beach exploration.
-      Evening bonfire & BBQ. Dinner & Overnight at Mandarmoni.
-    </p>
-  </div>
-  {/* Day 2 */}
-  <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-yellow-500 
-  hover:shadow-xl transition h-full flex flex-col">
-    <h3 className="text-2xl font-bold text-yellow-600 mb-4 flex items-center gap-2">
-      <Sunrise className="w-6 h-6" />
-      Day 2 – Beach Exploration
-    </h3>
-    <p className="text-gray-700 leading-relaxed flex-grow">
-      Early morning sunrise experience. Old Digha/New Digha beach.
-      Udaipur (Odisha border) option. Water sports & rides.
-      Fresh coconut & beach beer. Dinner & Overnight at Digha.
-    </p>
-  </div>
- {/* Day 5 */}
-  <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-red-500 
-  hover:shadow-xl transition h-full flex flex-col">
-    <h3 className="text-2xl font-bold text-red-600 mb-4 flex items-center gap-2">
-      <Plane className="w-6 h-6" />
-      Day 5 – Departure
-    </h3>
-    <p className="text-gray-700 leading-relaxed flex-grow">
-      Sunrise with morning tea. Beach stroll. Sea bath.
-      Check-out (11 AM). Return to Kolkata.
-      Tour ends with beautiful beach memories.
-    </p>
-  </div>
-  {/* Day 3 */}
-  <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-green-500 
-  hover:shadow-xl transition h-full flex flex-col">
-    <h3 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
-      <Waves className="w-6 h-6" />
-      Day 3 – Shankarpur & Tajpur
-    </h3>
-    <p className="text-gray-700 leading-relaxed flex-grow">
-      Full day tour covering Shankarpur & Tajpur.
-      Beach activities. Local seafood lunch.
-      Spicy crab curry special. Country chicken fry.
-      Dinner & Overnight at Digha.
-    </p>
-  </div>
-
-
-
-</div>
-
-
-      </div>
-    </section>
+      </section>
 
       {/* ================= PLACES OF INTEREST ================= */}
       <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
@@ -619,12 +676,12 @@ export default function DighaPage() {
         </div>
       </section>
 
- 
-    <PackagePricing 
+
+      <PackagePricing
         title="Digha Beach Packages"
         subtitle="Choose your perfect beach getaway duration"
       />
-<ContactCTA />
+      <ContactCTA />
     </main>
   )
 }

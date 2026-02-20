@@ -222,16 +222,17 @@ export default function HimachalTourismPage() {
         <div className="max-w-7xl mx-auto px-6">
         
 
-            <div className="flex justify-between  items-center mb-12">
-            <div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Chandigarh Add-on</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Wagah Border - Golden Temple 
-            </p>
-            </div>
-            <a href="/book-tour" className='bg-red-500  shadow-md rounded-full text-white px-3 py-3'>
+            <div className="mb-12">
+            <div className="flex gap-4  items-center mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold ">Add-on Chandigarh </h2>
+             <a href="/book-tour" className='bg-red-500  shadow-md rounded-full text-white px-3 py-3'>
               Book Now For 2N/3D
             </a>
+           
+            </div>
+            <p className="text-xl text-gray-600 max-w-3xl ">
+              Wagah Border - Golden Temple 
+            </p>
           </div>
 
           <div className="bg-white rounded-2xl shadow-xl p-8">
@@ -308,6 +309,102 @@ export default function HimachalTourismPage() {
            </div>
         </section>
 
+<section className="py-20 bg-gradient-to-br from-orange-50 to-amber-50">
+  <div className="max-w-7xl mx-auto px-6">
+
+    <div className="mb-12">
+      <div className="flex gap-4 items-center mb-4">
+        <h2 className="text-4xl md:text-5xl font-bold">Add-on Delhi, Agra & Mathura</h2>
+        <a href="/book-tour" className='bg-red-500 shadow-md rounded-full text-white px-3 py-3'>
+          Book Now For 3N/4D
+        </a>
+      </div>
+      <p className="text-xl text-gray-600 max-w-3xl">
+        Taj Mahal – India Gate – Red Fort – Vrindavan Temples
+      </p>
+    </div>
+
+    <div className="bg-white rounded-2xl shadow-xl p-8">
+      <div className="space-y-6 grid md:grid-cols-2 gap-8">
+
+        {/* Day 1 */}
+        <div className="border-l-4 border-orange-500 pl-6">
+          <div className="flex items-center gap-3 mb-2">
+            <Calendar className="w-5 h-5 text-orange-600" />
+            <h3 className="text-xl font-bold">Day 1: Arrival in Delhi</h3>
+          </div>
+          <p className="text-gray-700 leading-relaxed">
+            Arrival at Delhi Airport / Railway Station. Transfer to hotel. 
+            Visit India Gate, Rashtrapati Bhavan (Drive Pass), Parliament House, 
+            Lotus Temple & Qutub Minar. Evening free for shopping at Connaught Place. 
+            Overnight stay in Delhi.
+          </p>
+        </div>
+
+        {/* Day 2 */}
+        <div className="border-l-4 border-orange-500 pl-6">
+          <div className="flex items-center gap-3 mb-2">
+            <Calendar className="w-5 h-5 text-orange-600" />
+            <h3 className="text-xl font-bold">Day 2: Delhi – Agra</h3>
+          </div>
+          <p className="text-gray-700 leading-relaxed">
+            After breakfast, drive to Agra. Visit the magnificent Taj Mahal, 
+            Agra Fort & Mehtab Bagh. Explore local handicraft markets. 
+            Overnight stay in Agra.
+          </p>
+        </div>
+
+        {/* Day 3 */}
+        <div className="border-l-4 border-orange-500 pl-6">
+          <div className="flex items-center gap-3 mb-2">
+            <Calendar className="w-5 h-5 text-orange-600" />
+            <h3 className="text-xl font-bold">Day 3: Agra – Mathura – Vrindavan – Delhi</h3>
+          </div>
+          <p className="text-gray-700 leading-relaxed">
+            After breakfast, drive to Mathura. Visit Shri Krishna Janmabhoomi Temple, 
+            Dwarkadhish Temple & Banke Bihari Temple in Vrindavan. 
+            Attend evening aarti. Later return to Delhi. 
+            Overnight stay in Delhi.
+          </p>
+        </div>
+
+        {/* Day 4 */}
+        <div className="border-l-4 border-orange-500 pl-6">
+          <div className="flex items-center gap-3 mb-2">
+            <Calendar className="w-5 h-5 text-orange-600" />
+            <h3 className="text-xl font-bold">Day 4: Departure</h3>
+          </div>
+          <p className="text-gray-700 leading-relaxed">
+            Breakfast at hotel & check-out. Visit Red Fort & Jama Masjid 
+            if time permits. Transfer to Airport / Railway Station 
+            for onward journey. Tour ends with memorable experiences.
+          </p>
+        </div>
+
+        {/* Highlights */}
+        <div className="bg-orange-100 rounded-xl p-6 mt-8 md:col-span-2">
+          <h4 className="font-bold text-orange-800 mb-3">Tour Highlights</h4>
+          <div className="space-y-2">
+            <div className="flex items-center gap-2">
+              <CheckCircle className="w-4 h-4 text-orange-600" />
+              <span className="text-gray-700">Taj Mahal – World Wonder</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <CheckCircle className="w-4 h-4 text-orange-600" />
+              <span className="text-gray-700">India Gate & Qutub Minar</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <CheckCircle className="w-4 h-4 text-orange-600" />
+              <span className="text-gray-700">Mathura & Vrindavan Temple Darshan</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
       {/* ================= HIMACHAL HIGHLIGHTS ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">

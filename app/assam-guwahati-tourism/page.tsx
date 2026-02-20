@@ -110,12 +110,9 @@ export default function AssamGuwahatiTourismPage() {
             <div className="bg-gradient-to-r from-green-600 to-emerald-600 text-white p-8">
               <div className="flex items-center justify-between">
                 <div>
-                  <h3 className="text-3xl font-bold mb-2">North-East Budget Tour</h3>
+                  <h3 className="text-3xl font-bold mb-2">Guwahati Tour</h3>
                 </div>
-                <div className="text-right">
-                  <div className="text-4xl font-bold mb-2">Budget Friendly</div>
-                  <div className="text-green-100">Customizable Cost</div>
-                </div>
+             
               </div>
             </div>
 

@@ -196,16 +196,20 @@ export default function KeralaTourismPage() {
       {/* ================= HOUSEBOAT ADD-ON ================= */}
       <section className="py-20 bg-gradient-to-br from-blue-50 to-cyan-50">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="flex justify-between  items-center mb-12">
-            <div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-4">Houseboat Add-on</h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Alleppey Backwaters - Luxury Houseboat Experience
-              </p>
-            </div>
-            <a href="/book-tour" className='bg-red-600 font-semibold shadow-md rounded-full text-white px-3 py-3'>
-              Book Now for  (2N/3D)
+   
+
+             <div className=" mb-12">
+            <div className='flex gap-5  items-center'>
+               <h2 className="text-4xl md:text-5xl font-bold mb-4"> Add-on Houseboat </h2>
+               <a href="/book-tour" className='bg-red-600 font-semibold shadow-md rounded-full text-white px-3 py-3'>
+              Book Now For  2N/3D
             </a>
+            </div>
+           
+              <p className="text-xl text-gray-600 max-w-3xl">
+                           Alleppey Backwaters - Luxury Houseboat Experience
+
+              </p>
           </div>
           <div className="bg-white rounded-2xl shadow-xl p-8">
             <div className="">

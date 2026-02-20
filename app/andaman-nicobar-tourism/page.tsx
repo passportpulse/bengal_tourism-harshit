@@ -203,16 +203,17 @@ export default function AndamanNicobarTourismPage() {
       <section className="py-20 bg-gradient-to-br from-green-50 to-emerald-50">
         <div className="max-w-7xl mx-auto px-6">
 
-          <div className="flex justify-between  items-center mb-12">
-            <div>
+          <div className=" mb-12">
+            <div className="flex  items-center gap-5"> 
               <h2 className="text-4xl md:text-5xl font-bold mb-4">Sitapur Beach & Ross Island</h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Beach Paradise & Island Adventure
-              </p>
-            </div>
-            <a href="/book-tour" className='bg-red-600 font-semibold shadow-md rounded-full text-white px-3 py-3'>
+              <a href="/book-tour" className='bg-red-600 font-semibold shadow-md rounded-full text-white px-3 py-3'>
               Book Now For 3N/4D
             </a>
+             
+            </div>
+             <p className="text-xl text-gray-600 max-w-3xl">
+                Beach Paradise & Island Adventure
+              </p>
           </div>
 
           <div className="bg-white rounded-2xl shadow-xl p-8">
@@ -304,17 +305,20 @@ export default function AndamanNicobarTourismPage() {
         <div className="max-w-7xl mx-auto px-6">
 
 
-          <div className="flex justify-between  items-center mb-12">
-            <div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-4">Mayabunder - Ranget</h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Beach Paradise & Turtle Nesting
-              </p>
-            </div>
-            <a href="/book-tour" className='bg-red-600 font-semibold shadow-md rounded-full text-white px-3 py-3'>
+       
+           <div className=" mb-12">
+            <div className="flex  items-center gap-5"> 
+                  <h2 className="text-4xl md:text-5xl font-bold mb-4">Mayabunder - Ranget</h2>
+              <a href="/book-tour" className='bg-red-600 font-semibold shadow-md rounded-full text-white px-3 py-3'>
               Book Now For 3N/4D
             </a>
+             
+            </div>
+           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Beach Paradise & Turtle Nesting
+              </p>
           </div>
+
           <div className="bg-white rounded-2xl shadow-xl p-8">
             <div className="">
               <div>
@@ -401,18 +405,21 @@ export default function AndamanNicobarTourismPage() {
       <section className="py-20 bg-gradient-to-br from-orange-50 to-amber-50">
         <div className="max-w-7xl mx-auto px-6">
 
-          <div className="flex justify-between  items-center mb-12">
-            <div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-4">Bara Tang Island</h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Island Treasure Hunt
-              </p>
-            </div>
-            <a href="/book-tour" className='bg-red-600 font-semibold shadow-md rounded-full text-white px-3 py-3'>
+        
+
+
+           <div className=" mb-12">
+            <div className="flex  items-center gap-5"> 
+                       <h2 className="text-4xl md:text-5xl font-bold mb-4">Bara Tang Island</h2>
+              <a href="/book-tour" className='bg-red-600 font-semibold shadow-md rounded-full text-white px-3 py-3'>
               Book Now For 3N/4D
             </a>
+             
+            </div>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Island Treasure Hunt
+              </p>
           </div>
-
           <div className="bg-white rounded-2xl shadow-xl p-8">
             <div className="">
               <div>

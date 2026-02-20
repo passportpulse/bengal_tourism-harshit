@@ -110,12 +110,8 @@ export default function DooarsPage() {
               <div className="flex items-center justify-between">
                 <div>
                   <h3 className="text-2xl font-bold mb-2">Jungle Circuit - Jaldapara, Gorumara, Murti</h3>
-                  <p className="text-green-100">5 Nights / 6 Days</p>
                 </div>
-                <div className="text-right">
-                  <div className="text-3xl font-bold">₹15,400</div>
-                  <div className="text-green-100">Per Person</div>
-                </div>
+        
               </div>
             </div>
             
