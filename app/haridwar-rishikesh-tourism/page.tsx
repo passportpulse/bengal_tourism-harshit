@@ -196,26 +196,7 @@ export default function HaridwarRishikeshTourismPage() {
           </div>
 
           {/* DESTINATIONS */}
-       <Destination
-  title="Haridwar – Rishikesh Tour"
-  cta="Book Now for 2N/3D"
-  subtitle="Spiritual & Adventure Escape in Uttarakhand"
-  content={[
-`Haridwar and Rishikesh tour package offers a perfect blend of spirituality, yoga, and adventure in Uttarakhand. Known as the gateway to the Char Dham Yatra, Haridwar is famous for the sacred Ganga Aarti, while Rishikesh is globally known as the Yoga Capital of the World and a hub for river rafting and adventure activities.`,
-
-`Day 1: Haridwar Arrival – Rishikesh
-Meal Plan: Dinner
-Pick-up from Haridwar Railway Station and transfer to Rishikesh. Visit Laxman Jhula, Ram Jhula, Triveni Ghat and attend the divine Ganga Aarti. Evening at leisure. Overnight stay in Rishikesh.`,
-
-`Day 2: Rishikesh Local Sightseeing
-Meal Plan: Breakfast & Dinner
-Visit Neelkanth Mahadev Temple and The Beatles Ashram. Optional river rafting, zip-lining or bungee jumping at own cost. Overnight stay in Rishikesh.`,
-
-`Day 3: Rishikesh – Haridwar Departure
-Meal Plan: Breakfast
-After breakfast, check-out and transfer to Haridwar Railway Station. Tour concludes with spiritual memories.`  
-  ]}
-/>
+ 
 <Destination
   title="Nainital Lake Tour"
   cta="Book Now for 2N/3D"
