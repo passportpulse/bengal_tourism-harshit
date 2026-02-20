@@ -314,7 +314,7 @@ export default function HotelResortPage() {
               <Check className="w-4 h-4 text-orange-600" /> Luxury Accommodation
             </li>
             <li className="flex items-center gap-2">
-              <Check className="w-4 h-4 text-orange-600" /> Buffet Breakfast Included
+              <Check className="w-4 h-4 text-orange-600" /> Buffet Breakfast  & Dinner Included
             </li>
             <li className="flex items-center gap-2">
               <Check className="w-4 h-4 text-orange-600" /> Resort Amenities Access

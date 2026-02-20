@@ -48,7 +48,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
   "28": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -60,7 +60,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
   "7": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -72,7 +72,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
   "22": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -84,7 +84,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
   "14": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -96,7 +96,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
   "21": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -108,7 +108,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
   "4": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -120,7 +120,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
   "24": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -132,7 +132,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
   "23": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -144,7 +144,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
   "26": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -156,7 +156,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
 
   "9": [
@@ -169,7 +169,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
   "11": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -181,7 +181,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
   "27": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -193,7 +193,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
   "29": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -205,7 +205,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
   "12": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -217,7 +217,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
   "13": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -229,7 +229,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
   "15": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -241,7 +241,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
   "8": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -253,7 +253,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
   "6": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -265,7 +265,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
   "19": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -277,7 +277,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
    "10": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -289,7 +289,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
   "3": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -301,7 +301,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
   "20": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -313,7 +313,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
   "5": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -325,7 +325,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
     "16": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -337,7 +337,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
   "25": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -349,7 +349,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
   "18": [
     { value: "2000", label: "Basic", price: 2000 },
@@ -361,7 +361,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "7300", label: "Premium", price: 7300 },
     { value: "8200", label: "Super Premium", price: 8200 },
     { value: "9100", label: "Luxury", price: 9100 },
-    { value: "15400", label: "Star Luxury", price: 15400 },
+    { value: "21000", label: "Star Luxury", price: 21000 },
   ],
 };
 
@@ -718,10 +718,14 @@ export default function HotelBookingPage() {
                     disabled={!formData.destination}
                   >
                     <option value="">-- Select Room Type --</option>
-              {availableRooms.map((room) => (
+             {availableRooms.map((room) => (
   <option key={room.value} value={room.value}>
     {room.label} : ₹{room.price}/-{" "}
-    {room.price === 2000 ? "(Without Breakfast)" : "(With Breakfast)"}
+    {room.price === 2000
+      ? "(Without Breakfast)"
+      : room.price === 21000
+      ? "(With Breakfast & Dinner)"
+      : "(With Breakfast)"}
   </option>
 ))}
 
@@ -928,7 +932,7 @@ export default function HotelBookingPage() {
                       <option value="7300">7300 - Premium</option>
                       <option value="8200">8200 - Super Premium</option>
                       <option value="9100">9100 - Luxury</option>
-                      <option value="15400">15400 - Star Luxury</option>
+                      <option value="21000">21000 - Star Luxury</option>
                     </select>
                   </div>
                 </div>

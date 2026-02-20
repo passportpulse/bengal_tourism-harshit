@@ -28,7 +28,7 @@ export default function SundarbanPage() {
               <Trees className="w-6 h-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold tracking-wide">UNESCO World Heritage Site</span>
             </div>
-            
+
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
               Sundarban
               <span className="block text-3xl md:text-5xl mt-2 text-green-300">
@@ -37,7 +37,7 @@ export default function SundarbanPage() {
             </h1>
 
             <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
-              Explore the world's largest mangrove forest, home to majestic tigers, 
+              Explore the world's largest mangrove forest, home to majestic tigers,
               diverse wildlife, and the unique ecosystem of West Bengal
             </p>
 
@@ -62,6 +62,7 @@ export default function SundarbanPage() {
           </div>
         </div>
       </section>
+
 
       {/* ================= QUICK FACTS ================= */}
       <section className="py-16 bg-gradient-to-r from-green-50 to-blue-50">
@@ -98,135 +99,7 @@ export default function SundarbanPage() {
           </div>
         </div>
       </section>
-<div className="bg-green-50 py-16 px-6 md:px-12">
-      <div className="max-w-7xl mx-auto space-y-16">
 
-        {/* Hero Section */}
-        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
-          <h2 className="text-4xl font-bold text-green-700 border-b-4 border-green-500 inline-block pb-2">
-            Visit & Explore Dooars with Bengal Tourism
-          </h2>
-
-          <p className="text-gray-700 leading-8">
-            Bengal’s favoured playground starts as you head east of Jalpaiguri & enter that land of river, mountain, tea & forest called the Dooars, you are first greeted by the paddy fields & tea gardens. And just when that get a tad monotonous, you arrive at the forests of Gorumara. The flat greenery gives way to vegetation so thick, sometimes you can barely see through it. When your skin breaks into those pleasure globules called goosebumps at the sight of mystifying foliage, you know you have reached your destination. Home of the famous One Horned Rhino, Indian Elephants & other wildlife’s natural habitat in the rain forests and more…
-          </p>
-        </section>
-
-        {/* Jaldapara & Chilapata */}
-        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
-          <h3 className="text-3xl font-bold text-emerald-600 border-b-4 border-emerald-500 inline-block pb-2">
-            Jaldapara & Chilapata
-          </h3>
-
-          <p className="text-gray-700 leading-8">
-            The Rhino country as Jaldapara teems with plant & animal life. It is home to about 60-80 rhinoceros. But the awe-aspiring aspect here is the forest itself. Looking at the dence foliage & tall trees that seem to close in upon you, you feel the shiver down your spine – of excitement mixed with some amount of trepidation. The canopy of trees are so dense that hardly any sunlight fell on the forest floors. One can also enjoy the Chilapata forest nearby, where you can spot elephants & leopards.
-          </p>
-        </section>
-
-        {/* Buxa Tiger Reserve */}
-        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
-          <h3 className="text-3xl font-bold text-lime-700 border-b-4 border-lime-600 inline-block pb-2">
-            Buxa Tiger Reserve
-          </h3>
-
-          <p className="text-gray-700 leading-8">
-            The famous Buxa Tiger Reserve in an area of about 760 sq.km is another paradise in the region of Dooars. The whole landscape is criss-crossed by many big & small rivers and springs & has innumerable watering holes for its animal population. Home to elephants, bisons, sambar, barking, hog & chital deer, wild boar, will buffaloes, leopards & mony more smaller cats and reptiles. About 30-35 Royal Bengal Tigers live in this park. This place is most suitable for hardcore wildlifers. Many treks also run through this jungle.
-          </p>
-        </section>
-
-        {/* Teesta & Mahananda */}
-        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
-          <h3 className="text-3xl font-bold text-teal-700 border-b-4 border-teal-600 inline-block pb-2">
-            Teesta & Mahananda
-          </h3>
-
-          <p className="text-gray-700 leading-8">
-            Just stand on the forested ridge at sunset & watch the army of sal & segun trees descend in nimble steps to the sandy banks of the Teesta, and you won’t want to move any further down that highway. As you stand transfixed by the sublime beauty of the forests and the Teesta, you’ll hear the shrill whistle of a railway engine about the enter the Mahananda Santuary or chugging its way through the deep forests towards Alipurduar.
-          </p>
-
-          <p className="text-gray-700 leading-8">
-            And as the first rays of the sun softly caress your eyes, look out from your room to an age-old jungle with many species of flora & fauna as yet undiscovered.
-          </p>
-        </section>
-
-        {/* Tea Gardens & Mongpong */}
-        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
-          <h3 className="text-3xl font-bold text-green-800 border-b-4 border-green-700 inline-block pb-2">
-            Tea Gardens & Mongpong
-          </h3>
-
-          <p className="text-gray-700 leading-8">
-            The serpentine mud-tracks vanishing into the deep woods beckon you on a voyage of discovery, as a moisture laden cool breezes with the fragrance of the forest & countless flowers uplift you. This channel around Mongpong & the Teesta is also an ideal breeding ground for migratory birds. The green encounter set in the western Dooars at Damdim & the rows of lush green tea bushes, line of taller trees shading them & a deep blue sky lording over it all. Even if you do not approve of colonial-style living, for the sheer closeness to nature that living near a tea garden provides & the scent of fresh tea pervading the air, it is worth prioritising privilege over principle at least for this one holiday.
-          </p>
-        </section>
-
-        {/* Suntalekhola & Neora Valley */}
-        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
-          <h3 className="text-3xl font-bold text-emerald-700 border-b-4 border-emerald-600 inline-block pb-2">
-            Suntalekhola & Neora Valley
-          </h3>
-
-          <p className="text-gray-700 leading-8">
-            The fairytale setting of Suntalekhola will elevate you to far greater heights than the altimeter’s reading of 2475 ft. Lovingly girdled by a gurgling brook & surrounded on all sides by towering mountains in varying shades of green, this place is connected to the civilized world only by a hanging footbridge that shakes every time you take a step. And the Neora Valley with its dense forests, colourful wild orchids, broad medley of butterflies & meandering mountain streams is one of the few remaining virgin forests in the country. The recent discovery of the Royal Bengal tiger here has prompted the administration to include it in the list of sensitive wildlife zones. With no access to mails & cell phones going dead, there’s no escaping the meeting with the inner you.
-          </p>
-
-          <p className="text-gray-700 leading-8">
-            A little magic awaits you in Jaldhaka.
-          </p>
-        </section>
-
-        {/* Safaris */}
-        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
-          <h3 className="text-3xl font-bold text-lime-700 border-b-4 border-lime-600 inline-block pb-2">
-            Jungle Safaris & Watchtowers
-          </h3>
-
-          <p className="text-gray-700 leading-8">
-            There are number of watchtowers inside the jungles from where one can spot animals from a safe distance, and without disturbing the natural sequence of events within their habitats. If you live in certain parts of the Gorumara, Buxa, Lataguri, Murti, Chapramari, Chalsa & other parks, elephant or jeep safaris are also available.
-          </p>
-        </section>
-
-        {/* Places of Interest */}
-        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
-          <h3 className="text-2xl font-bold text-purple-700 border-b-4 border-purple-500 inline-block pb-2">
-            Places of Interest
-          </h3>
-
-          <p className="text-gray-700 leading-8">
-            Jaldapara Wildlife Sanctuary • Gorumara National Park • Chapramari forests • Buxa Tiger reserve • Buxa Duar • Neora valley • Jayanti • Rajabhatkhawa • Bindu • Jaldhaka • Samsing • SantaleyKhola • Suntalekhola • Rasikbill • Cooch Behar • Toto Para • Dhupjhora • Chilapata • Raimatang • Bhutan Ghat • Bodaganj • Ambari • Kathambari • Kranti and Odlabari • Sikiajhora • Tashigaon • Chuna Bhatti • Lepchakha • Rovers Point • Mahakal cave & more…
-          </p>
-        </section>
-
-        {/* Nearby Destinations */}
-        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
-          <h3 className="text-2xl font-bold text-red-600 border-b-4 border-red-500 inline-block pb-2">
-            At a Short Distance
-          </h3>
-
-          <p className="text-gray-700 leading-8">
-            Darjeeling (Queen of the Hills) • Mirik (Divine Lake) • Kurseong (land of the White Orchid) • Kalimpong • Lava (Abode of the Gods) • Rishap (Misty magic) • Loleygaon • Tinchuley, Sandaphu (Trekkers delight) • Lepchajagat • Sikkim • Gangtok • Rumtek • Pelling • Yuksom • Ravangla • Aritar Reshi • Rongli • Nathang Valley • Rinchenpong • Legship • Norbugang Tsomgo lake • Nathula Pass • Baba Mandir • Lachen • Gurudongmar Lake • Tso Lhamu Lake • Lachung • Yumthang • Mangan • Singhik • Thangu • Uttarey • Bhutan • Paro • Thimpu • Phuentsholing • Trongsa • Bumathang • Punakha • Samdrup • Jongkhar • Lhuntse • Ura Valley • Trashigang & more…
-          </p>
-        </section>
-
-        {/* Cuisine & Note */}
-        <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-4">
-          <h3 className="text-2xl font-bold text-orange-600 border-b-4 border-orange-500 inline-block pb-2">
-            Must Try Cuisine
-          </h3>
-
-          <p className="text-gray-700 leading-8">
-            Authentic north Bengal’s regional (Fish / Crab / Prawn - curry & Rice) preparations
-          </p>
-
-          <div className="bg-yellow-100 border-l-4 border-yellow-500 p-4 rounded-lg">
-            <p className="text-gray-800 font-medium">
-              Please Note: Jungle safaris remains closed from 15th June till 15th September as per Govt. rules.
-            </p>
-          </div>
-        </section>
-
-      </div>
-    </div>
       {/* ================= TOUR PACKAGES ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
@@ -236,101 +109,45 @@ export default function SundarbanPage() {
               Special tailor-made combination packages designed for your perfect Sundarban experience
             </p>
           </div>
-
+<div className="space-y-8">
           {/* Circuit I - 2N/3D */}
-          <div className="mb-12">
-            <div className="bg-gradient-to-r from-green-600 to-green-700 text-white p-6 rounded-t-2xl">
-              <div className="flex items-center justify-between">
-                <div>
-                  <h3 className="text-2xl font-bold mb-2">Circuit I - Mangrove Forest & Royal Bengal Tiger</h3>
-                </div>
-                
-              </div>
-            </div>
-            
-            <div className="bg-white border-2 border-green-600 border-t-0 rounded-b-2xl p-8">
-              <div className="grid md:grid-cols-3 gap-6">
-                <div className="bg-green-50 p-6 rounded-xl">
-                  <div className="flex items-center gap-2 mb-3">
-                    <Calendar className="w-5 h-5 text-green-600" />
-                    <h4 className="font-bold text-lg">Day 1</h4>
-                  </div>
-                  <ul className="space-y-2 text-sm text-gray-700">
-                    <li>• Pick up from Science City (8:30 AM)</li>
-                    <li>• Arrival at Godhkhali (120 km/3 hrs)</li>
-                    <li>• Launch journey to resort</li>
-                    <li>• Check-in & lunch at resort</li>
-                    <li>• Evening: Jotirampur Bird Watching</li>
-                    <li>• Cultural program (optional)</li>
-                    <li>• Breakfast & Dinner included</li>
-                    <li>• Dinner & overnight stay</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-green-50 p-6 rounded-xl">
-                  <div className="flex items-center gap-2 mb-3">
-                    <Calendar className="w-5 h-5 text-green-600" />
-                    <h4 className="font-bold text-lg">Day 2</h4>
-                  </div>
-                  <ul className="space-y-2 text-sm text-gray-700">
-                    <li>• Early morning tea & breakfast</li>
-                    <li>• Do-Banki Tiger Reserve cruise</li>
-                    <li>• Gazikhali, Pirkhali Creeks</li>
-                    <li>• Panchamukhi River crossing</li>
-                    <li>• Visit 3 Watch Towers: Netidhopani, Dobanki, Sajnekhali</li>
-                    <li>• Canopy Walk & Museum visit</li>
-                    <li>• Cultural program (optional)</li>
-                    <li>• Breakfast & Dinner included</li>
-                    <li>• Dinner & overnight stay</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-green-50 p-6 rounded-xl">
-                  <div className="flex items-center gap-2 mb-3">
-                    <Calendar className="w-5 h-5 text-green-600" />
-                    <h4 className="font-bold text-lg">Day 3</h4>
-                  </div>
-                  <ul className="space-y-2 text-sm text-gray-700">
-                    <li>• Early morning tea & breakfast</li>
-                    <li>• Village tour on foot</li>
-                    <li>• Experience local life</li>
-                    <li>• Visit Rabindranath's Heritage Bungalow</li>
-                    <li>• OR Sudhanyakhali watch tower</li>
-                    <li>• Lunch on boat</li>
-                    <li>• Breakfast & Dinner included</li>
-                    <li>• Return to Godhkhali</li>
-                    <li>• Drop at Kolkata Science City (6-7 PM)</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Destination
+            title="SUNDARBAN - I"
+            cta='Book Now for 2N/3D'
+            subtitle="Circuit-I MANGROVE FOREST-ROYAL BENGAL TIGER"
+            content={[
+              `Day - 1 : Start of tour : Pick up from Science City (08.30 a.m.). Packet breakfast with bottled water will be served in the Car / Bus. Arrival at Godhkhali (about 120 km / 3 hrs later). Departure by Launch at Resort / Hotel at Gosaba / Pakhiralay / Dayapur / Dulki / Bonnie Camp Island. Tea / Coffee / Refreshment to be served during the launch journey. Reach & check-in at the Resort / Hotel Buffet Lunch as per menu. Post lunch, Sightseeing by river cruise around Jotirampur Bird Watching Island for sighting of Migratory Birds. Evening Tea / Coffee / Refreshments are served. A colourful Cultural Programme of local village folk dance at the Resort / Hotel  (optional) can be arranged. Dinner & Overnight stay in Resort/ Hotel at Sundarban.`,
 
-    
+              `Day - 2 : Early Morning tea. Breakfast at Resort / Served on Boat, Sightseeing by river cruise around Do-Banki Tiger Reserve & Gazikhali, Pirkhali Creeks & Panchamukhi River crossing. Lunch as per menu at Resort / Served on Boat while-on-cruise. Visit 3 Watch Towers & Canopy Walk; namely in Netidhopani, Dobanki, Sajnekhali in the Tiger Project Area for a view of the wild animals, crocodiles, museum, watch towers, etc. A colourful Cultural Programme of local village folk dance at the Resort / Hotel (optional) can be arranged. Dinner & Overnight stay in Resort / Hotel at Sundarban.`,
 
-          {/* Circuit III - Extended */}
-          <div className="bg-gradient-to-r from-orange-600 to-red-600 text-white rounded-2xl overflow-hidden">
-            <div className="p-6">
-              <div className="flex items-center justify-between mb-4">
-                <div>
-                  <h3 className="text-2xl font-bold mb-2">Circuit III - Extended Mangrove Experience</h3>
-                </div>
-              
-              </div>
-              
-              <div className="bg-white/10 backdrop-blur rounded-xl p-4">
-                <h4 className="font-bold mb-2">Day 4 Special Features:</h4>
-                <ul className="space-y-1 text-sm">
-                  <li>• Deep creek exploration</li>
-                  <li>• Burir Dabri Watch Tower & Mud Walk</li>
-                  <li>• Kumirmari Watch Tower</li>
-                  <li>• Morich Jhapi & Bonnie Camp</li>
-                  <li>• Raimongal View Point</li>
-                  <li>• Special permission required (₹1000 extra)</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+              `Day – 3 : Early Morning tea. Breakfast at Resort / Served on Boat. A stroll down the river sides. A village tour on foot is held to experience the life of the local inhabitants and visit Rabindranath’s Heritage Bungalow & Hamilton’s Bungalow  (OR) visit to Sudhanyakhali watch tower by river cruise through creeks & around the cluster of islands of Sunderban Tiger Project area. Then towards Godhkhali by launch (lunch will be served on Boat. Proceed towards Kolkata by Car / Coach & drop off at Kolkata Science City around (06-07 pm). Tour ends…..`
+            ]}
+          />
+
+          <Destination
+            title=" SUNDARBAN Customise"
+            cta='Book Now for 2N/3D'
+            subtitle=""
+            content={[
+             `OPTION – 1:[Min 10-15 PAX] Rs.19000/- PAX :Overnight stay & food at a  Premium 5* Resort at Sundarban.`,
+             `OPTION –2: [Min 10-15 PAX] Rs.19000/- PAX :Overnight stay & food at AC House Boat anchored on the River in Sundarban.`
+            ]}
+          />
+              <Destination
+            title="SUNDARBAN-III"
+            cta='Book Now for 2N/3D'
+            subtitle="Circuit-III MANGROVE FOREST-OTHER AREAS"
+            content={[
+              `Day - 1 :Start of tour : Pick up from Science City (08.30 a.m.). Packet breakfast with bottled water will be served in the Car / Bus. Arrival at Godhkhali (about 120 km / 3 hrs later). Departure by Launch at Resort / Hotel at Gosaba / Pakhiralay / Dayapur / Dulki / Bonnie Camp Island. Tea / Coffee / Refreshment to be served during the launch journey. Reach & check-in at the Resort / Hotel Buffet Lunch as per menu. Post lunch, Sightseeing by river cruise around Jotirampur Bird Watching Island for sighting of Migratory Birds. Evening Tea / Coffee / Refreshments are served. A colourful Cultural Programme of local village folk dance at the Resort / Hotel  (optional) can be arranged. Dinner & Overnight stay in Resort/ Hotel at Sundarban.`,
+
+              `Day - 2 :Early Morning tea. Breakfast at Resort / Served on Boat, Sightseeing by river cruise around Do-Banki Tiger Reserve & Gazikhali, Pirkhali Creeks & Panchamukhi River crossing. Lunch as per menu at Resort / Served on Boat while-on-cruise. Visit 3 Watch Towers & Canopy Walk; namely in Netidhopani, Dobanki, Sajnekhali in the Tiger Project Area for a view of the wild animals, crocodiles, museum, watch towers, etc. A colourful Cultural Programme of local village folk dance at the Resort / Hotel (optional) can be arranged. Dinner & Overnight stay in Resort / Hotel at Sundarban.`,
+
+              `Day - 3 :Sundarban Other Area: (With additional Cost & Minimum 6-8 PAX) After bed tea, you will be cruising through the deep creeks and covering the watchtowers of Burir Dabri, Kumirmari as well as Morich Jhapi & Bonnie Camp. Breakfast on-board. Burirdabri in Sundarban national Park is famous for its watchtower, a mud-walk and mangrove cage trail leading to a viewpoint known as Raimongal View Point. A visit to the watch Tower at Burirdabri camp. The Kumirmari watchtower offers an exciting view of the jungles. (Rs.1000/- extra per persons towards special permission is required for this excursion). Overlooking an untamed forest, enjoy the sights and sounds of nature resplendent in her pristine virginal beauty. Lunch will be served on-board. Guest can also take a stroll through the Kumirmari bazaar if one wants to have a first-hand view of a typical rustic Indian market place. Dinner & Overnight stay in Hotel / Resort at Sundarban (OR) Boat Stay anchored in middle of the river.`,
+
+              `Day - 4 :Early Morning tea. Breakfast at Resort / Served on Boat. A stroll down the river sides. A village tour on foot is held to experience the life of the local inhabitants and visit Rabindranath’s Heritage Bungalow & Hamilton’s Bungalow  (OR) visit to Sudhanyakhali watch tower by river cruise through creeks & around the cluster of islands of Sunderban Tiger Project area. Then towards Godhkhali by launch (lunch will be served on Boat. Proceed towards Kolkata by Car / Coach & drop off at Kolkata Science City around (06-07 pm). Tour ends`
+            ]}
+          />
+       </div>
         </div>
       </section>
 
@@ -446,8 +263,8 @@ export default function SundarbanPage() {
             <div>
               <h3 className="text-3xl font-bold mb-6 text-green-700">Royal Bengal Tiger</h3>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                The majestic apex predator of Sundarban, uniquely adapted to mangrove habitat. 
-                These magnificent tigers are excellent swimmers and have developed special behaviors 
+                The majestic apex predator of Sundarban, uniquely adapted to mangrove habitat.
+                These magnificent tigers are excellent swimmers and have developed special behaviors
                 to thrive in the delta region.
               </p>
               <div className="grid grid-cols-2 gap-4">
@@ -631,3 +448,39 @@ export default function SundarbanPage() {
     </main>
   )
 }
+
+function Destination({ title, subtitle, content, cta }: { title: string; subtitle: string; content: string[]; cta: string; }) {
+  return (
+    <div className="bg-white shadow-xl rounded-3xl p-10 space-y-6">
+      <div className="flex gap-5 items-center mt-8">
+
+        <h2 className="text-3xl font-bold text-indigo-700">{title}</h2>
+        <a
+          href="/book-tour"
+          className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+        >
+          {cta}
+        </a>
+      </div>
+
+      <p className="font-semibold text-gray-700">{subtitle}</p>
+
+
+      <div className="space-y-6">
+        {content.map((item, index) => (
+          <div
+            key={index}
+            className="bg-gray-100 rounded-2xl p-6 border-l-4 border-indigo-500"
+          >
+            <p className="text-gray-700 leading-8 whitespace-pre-line">
+              {item}
+            </p>
+          </div>
+        ))}
+      </div>
+
+
+
+    </div>
+  )
+} 

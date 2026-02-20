@@ -1272,7 +1272,7 @@ function HotelResortPage() {
                                                                     lineNumber: 317,
                                                                     columnNumber: 15
                                                                 }, this),
-                                                                " Buffet Breakfast Included"
+                                                                " Buffet Breakfast  & Dinner Included"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/hotel-resort/page.tsx",
