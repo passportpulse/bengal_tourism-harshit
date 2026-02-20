@@ -165,7 +165,7 @@ export default function HotelBookingPage() {
     {/* DARJEELING */}
     <section className="mb-16">
       <h3 className="text-3xl font-bold text-gray-900 mb-4">
-        Hotels in Darjeeling – Luxury, Heritage & Boutique Stays
+        Hotels in Darjeeling 
       </h3>
       <p className="text-gray-700 leading-relaxed mb-6">
         Darjeeling, known as the “Queen of the Hills”, offers a blend of colonial charm and modern comfort. 
