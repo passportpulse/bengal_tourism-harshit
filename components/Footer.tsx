@@ -71,7 +71,7 @@ export default function Footer() {
                 ["About Us", "/about"],
                 ["Tour Packages", "/packages"],
                 ["Contact", "/contact"],
-                ["Hotel Booking", "/book-hotel"],
+                ["Hotel Booking", "/hotel-booking"],
               ].map(([label, href]) => (
                 <li key={label}>
                   <Link
@@ -96,6 +96,9 @@ export default function Footer() {
                 "Sundarban",
                 "Kolkata",
                 "Digha",
+                "Dooars",
+                "sikkim tourism",
+                "Thailand"
               
               ].map((place) => (
                 <li key={place}>

@@ -92,14 +92,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 55,
+                                                            lineNumber: 56,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Accommodation"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 54,
+                                                    lineNumber: 55,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -109,14 +109,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 58,
+                                                            lineNumber: 59,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Breakfast & Dinner"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 57,
+                                                    lineNumber: 58,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -127,14 +127,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 60,
+                                                            lineNumber: 61,
                                                             columnNumber: 60
                                                         }, this),
                                                         " PickU & Drop"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 60,
+                                                    lineNumber: 61,
                                                     columnNumber: 18
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -144,20 +144,20 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 63,
+                                                            lineNumber: 64,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Sightseeing as per Itinerary"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 62,
+                                                    lineNumber: 63,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 53,
+                                            lineNumber: 54,
                                             columnNumber: 20
                                         }, this)
                                     ]
@@ -172,7 +172,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                     children: "Book Now"
                                 }, void 0, false, {
                                     fileName: "[project]/components/PackagePricing.tsx",
-                                    lineNumber: 69,
+                                    lineNumber: 70,
                                     columnNumber: 14
                                 }, this)
                             ]
@@ -191,7 +191,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "Recommended"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 81,
+                                            lineNumber: 82,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -199,7 +199,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "4N / 5D"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 85,
+                                            lineNumber: 86,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -207,7 +207,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "₹ 12,700"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 86,
+                                            lineNumber: 87,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -220,14 +220,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 92,
+                                                            lineNumber: 93,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Accommodation"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 91,
+                                                    lineNumber: 92,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -237,14 +237,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 95,
+                                                            lineNumber: 96,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Breakfast & Dinner"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 94,
+                                                    lineNumber: 95,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -255,14 +255,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 97,
+                                                            lineNumber: 98,
                                                             columnNumber: 60
                                                         }, this),
                                                         " Pick & Drop"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 97,
+                                                    lineNumber: 98,
                                                     columnNumber: 18
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -272,26 +272,26 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 100,
+                                                            lineNumber: 101,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Sightseeing as per Itinerary"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 99,
+                                                    lineNumber: 100,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 90,
+                                            lineNumber: 91,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/PackagePricing.tsx",
-                                    lineNumber: 80,
+                                    lineNumber: 81,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -300,13 +300,13 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                     children: "Book Now"
                                 }, void 0, false, {
                                     fileName: "[project]/components/PackagePricing.tsx",
-                                    lineNumber: 106,
+                                    lineNumber: 107,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/PackagePricing.tsx",
-                            lineNumber: 78,
+                            lineNumber: 79,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -319,7 +319,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "Recommended for short breaks"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 118,
+                                            lineNumber: 119,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -327,7 +327,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "3N / 4D"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 122,
+                                            lineNumber: 123,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -335,7 +335,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "₹ 9,100"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 123,
+                                            lineNumber: 124,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -348,14 +348,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 128,
+                                                            lineNumber: 129,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Accommodation"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 127,
+                                                    lineNumber: 128,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -365,14 +365,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 131,
+                                                            lineNumber: 132,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Breakfast & Dinner"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 130,
+                                                    lineNumber: 131,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -383,14 +383,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 133,
+                                                            lineNumber: 134,
                                                             columnNumber: 60
                                                         }, this),
                                                         " Pick & Drop"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 133,
+                                                    lineNumber: 134,
                                                     columnNumber: 18
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -400,26 +400,26 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 136,
+                                                            lineNumber: 137,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Sightseeing as per Itinerary"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 135,
+                                                    lineNumber: 136,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 126,
+                                            lineNumber: 127,
                                             columnNumber: 20
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/PackagePricing.tsx",
-                                    lineNumber: 117,
+                                    lineNumber: 118,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -428,13 +428,13 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                     children: "Book Now"
                                 }, void 0, false, {
                                     fileName: "[project]/components/PackagePricing.tsx",
-                                    lineNumber: 142,
+                                    lineNumber: 143,
                                     columnNumber: 14
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/PackagePricing.tsx",
-                            lineNumber: 115,
+                            lineNumber: 116,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -447,7 +447,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "Recommended only for group of 20+ persons"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 154,
+                                            lineNumber: 155,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -455,7 +455,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "2N / 3D"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 158,
+                                            lineNumber: 159,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -463,7 +463,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "₹ 6,400"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 159,
+                                            lineNumber: 160,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -476,14 +476,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 164,
+                                                            lineNumber: 165,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Accommodation"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 163,
+                                                    lineNumber: 164,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -493,14 +493,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 167,
+                                                            lineNumber: 168,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Breakfast & Dinner"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 166,
+                                                    lineNumber: 167,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -511,14 +511,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 169,
+                                                            lineNumber: 170,
                                                             columnNumber: 60
                                                         }, this),
                                                         " Pick & Drop"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 169,
+                                                    lineNumber: 170,
                                                     columnNumber: 18
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -528,26 +528,26 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 172,
+                                                            lineNumber: 173,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Sightseeing as per Itinerary"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 171,
+                                                    lineNumber: 172,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 162,
+                                            lineNumber: 163,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/PackagePricing.tsx",
-                                    lineNumber: 153,
+                                    lineNumber: 154,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -556,13 +556,13 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                     children: "Book Now"
                                 }, void 0, false, {
                                     fileName: "[project]/components/PackagePricing.tsx",
-                                    lineNumber: 178,
+                                    lineNumber: 179,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/PackagePricing.tsx",
-                            lineNumber: 151,
+                            lineNumber: 152,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -575,7 +575,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "Not feasible"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 190,
+                                            lineNumber: 191,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -583,7 +583,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "1N / 2D"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 194,
+                                            lineNumber: 195,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -591,7 +591,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "₹ 3,700"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 195,
+                                            lineNumber: 196,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -604,14 +604,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 200,
+                                                            lineNumber: 201,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Accommodation"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 199,
+                                                    lineNumber: 200,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -621,14 +621,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 203,
+                                                            lineNumber: 204,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Breakfast & Dinner"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 202,
+                                                    lineNumber: 203,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -639,14 +639,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 205,
+                                                            lineNumber: 206,
                                                             columnNumber: 60
                                                         }, this),
                                                         " Pick & Drop"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 205,
+                                                    lineNumber: 206,
                                                     columnNumber: 18
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -656,26 +656,26 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 208,
+                                                            lineNumber: 209,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Sightseeing as per Itinerary"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 207,
+                                                    lineNumber: 208,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 198,
+                                            lineNumber: 199,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/PackagePricing.tsx",
-                                    lineNumber: 189,
+                                    lineNumber: 190,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -684,13 +684,13 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                     children: "Not Available"
                                 }, void 0, false, {
                                     fileName: "[project]/components/PackagePricing.tsx",
-                                    lineNumber: 214,
+                                    lineNumber: 215,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/PackagePricing.tsx",
-                            lineNumber: 187,
+                            lineNumber: 188,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1117,7 +1117,7 @@ function GoaTourismPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-xl text-gray-600 max-w-3xl mx-auto",
-                                    children: "Anjuna - Calangute - Baga - 4N/5D"
+                                    children: "Anjuna - Calangute - Baga"
                                 }, void 0, false, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
                                     lineNumber: 68,
@@ -1615,7 +1615,7 @@ function GoaTourismPage() {
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                     className: "text-gray-700",
-                                                                    children: "Entry permit included"
+                                                                    children: " Casino & Entry permit excluded"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
                                                                     lineNumber: 210,
@@ -1727,7 +1727,7 @@ function GoaTourismPage() {
                                                     className: "w-12 h-12 text-orange-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                    lineNumber: 230,
+                                                    lineNumber: 231,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1737,7 +1737,7 @@ function GoaTourismPage() {
                                                             children: "Beach Activities"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 232,
+                                                            lineNumber: 233,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1745,19 +1745,19 @@ function GoaTourismPage() {
                                                             children: "Water sports and beach fun"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 233,
+                                                            lineNumber: 234,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                    lineNumber: 231,
+                                                    lineNumber: 232,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 229,
+                                            lineNumber: 230,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1768,7 +1768,7 @@ function GoaTourismPage() {
                                                     children: "Available Activities"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                    lineNumber: 237,
+                                                    lineNumber: 238,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1781,7 +1781,7 @@ function GoaTourismPage() {
                                                                     className: "w-4 h-4 text-orange-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 240,
+                                                                    lineNumber: 241,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1789,13 +1789,13 @@ function GoaTourismPage() {
                                                                     children: "Parasailing"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 241,
+                                                                    lineNumber: 242,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 239,
+                                                            lineNumber: 240,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1805,7 +1805,7 @@ function GoaTourismPage() {
                                                                     className: "w-4 h-4 text-orange-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 244,
+                                                                    lineNumber: 245,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1813,13 +1813,13 @@ function GoaTourismPage() {
                                                                     children: "Jet skiing"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 245,
+                                                                    lineNumber: 246,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 243,
+                                                            lineNumber: 244,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1829,7 +1829,7 @@ function GoaTourismPage() {
                                                                     className: "w-4 h-4 text-orange-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 248,
+                                                                    lineNumber: 249,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1837,13 +1837,13 @@ function GoaTourismPage() {
                                                                     children: "Banana boat rides"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 249,
+                                                                    lineNumber: 250,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 247,
+                                                            lineNumber: 248,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1853,7 +1853,7 @@ function GoaTourismPage() {
                                                                     className: "w-4 h-4 text-orange-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 252,
+                                                                    lineNumber: 253,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1861,31 +1861,31 @@ function GoaTourismPage() {
                                                                     children: "Beach volleyball"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 253,
+                                                                    lineNumber: 254,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 251,
+                                                            lineNumber: 252,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                    lineNumber: 238,
+                                                    lineNumber: 239,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 236,
+                                            lineNumber: 237,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 228,
+                                    lineNumber: 229,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -1918,7 +1918,7 @@ function GoaTourismPage() {
                                     children: "Goa Highlights"
                                 }, void 0, false, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 266,
+                                    lineNumber: 267,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1926,13 +1926,13 @@ function GoaTourismPage() {
                                     children: "Key attractions and experiences in beach paradise"
                                 }, void 0, false, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 267,
+                                    lineNumber: 268,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/goa-tourism/page.tsx",
-                            lineNumber: 265,
+                            lineNumber: 266,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1945,7 +1945,7 @@ function GoaTourismPage() {
                                             className: "w-12 h-12 text-blue-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 274,
+                                            lineNumber: 275,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1953,7 +1953,7 @@ function GoaTourismPage() {
                                             children: "Beautiful Beaches"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 275,
+                                            lineNumber: 276,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1961,13 +1961,13 @@ function GoaTourismPage() {
                                             children: "Anjuna, Calangute, Baga, Coco, Palolem"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 276,
+                                            lineNumber: 277,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 273,
+                                    lineNumber: 274,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1977,7 +1977,7 @@ function GoaTourismPage() {
                                             className: "w-12 h-12 text-purple-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 280,
+                                            lineNumber: 281,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1985,7 +1985,7 @@ function GoaTourismPage() {
                                             children: "Dolphin Tours"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 281,
+                                            lineNumber: 282,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1993,13 +1993,13 @@ function GoaTourismPage() {
                                             children: "Dolphin sightseeing in Arabian Sea"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 282,
+                                            lineNumber: 283,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 279,
+                                    lineNumber: 280,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2009,7 +2009,7 @@ function GoaTourismPage() {
                                             className: "w-12 h-12 text-orange-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 286,
+                                            lineNumber: 287,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2017,7 +2017,7 @@ function GoaTourismPage() {
                                             children: "Historic Churches"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 287,
+                                            lineNumber: 288,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2025,13 +2025,13 @@ function GoaTourismPage() {
                                             children: "Basilica of Bom Jesus, Se Cathedral"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 288,
+                                            lineNumber: 289,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 285,
+                                    lineNumber: 286,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2041,7 +2041,7 @@ function GoaTourismPage() {
                                             className: "w-12 h-12 text-green-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 292,
+                                            lineNumber: 293,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2049,7 +2049,7 @@ function GoaTourismPage() {
                                             children: "Ancient Temples"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 293,
+                                            lineNumber: 294,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2057,13 +2057,13 @@ function GoaTourismPage() {
                                             children: "Shri Manguesh, Shantadurga, Kavlem"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 294,
+                                            lineNumber: 295,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 291,
+                                    lineNumber: 292,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2073,7 +2073,7 @@ function GoaTourismPage() {
                                             className: "w-12 h-12 text-indigo-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 298,
+                                            lineNumber: 299,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2081,7 +2081,7 @@ function GoaTourismPage() {
                                             children: "Nightlife"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 299,
+                                            lineNumber: 300,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2089,13 +2089,13 @@ function GoaTourismPage() {
                                             children: "Pulsating beach parties & clubs"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 300,
+                                            lineNumber: 301,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 297,
+                                    lineNumber: 298,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2105,7 +2105,7 @@ function GoaTourismPage() {
                                             className: "w-12 h-12 text-teal-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 304,
+                                            lineNumber: 305,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2113,7 +2113,7 @@ function GoaTourismPage() {
                                             children: "Fort Aguada"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 305,
+                                            lineNumber: 306,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2121,13 +2121,13 @@ function GoaTourismPage() {
                                             children: "Historic fort with panoramic views"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 306,
+                                            lineNumber: 307,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 303,
+                                    lineNumber: 304,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2137,7 +2137,7 @@ function GoaTourismPage() {
                                             className: "w-12 h-12 text-red-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 310,
+                                            lineNumber: 311,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2145,7 +2145,7 @@ function GoaTourismPage() {
                                             children: "Panjim Market"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 311,
+                                            lineNumber: 312,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2153,30 +2153,30 @@ function GoaTourismPage() {
                                             children: "Shopping & local handicrafts"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 312,
+                                            lineNumber: 313,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 309,
+                                    lineNumber: 310,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/goa-tourism/page.tsx",
-                            lineNumber: 272,
+                            lineNumber: 273,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/goa-tourism/page.tsx",
-                    lineNumber: 264,
+                    lineNumber: 265,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/goa-tourism/page.tsx",
-                lineNumber: 263,
+                lineNumber: 264,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2193,7 +2193,7 @@ function GoaTourismPage() {
                                         className: "w-6 h-6 text-yellow-600 flex-shrink-0 mt-1"
                                     }, void 0, false, {
                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                        lineNumber: 323,
+                                        lineNumber: 324,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2203,7 +2203,7 @@ function GoaTourismPage() {
                                                 children: "Beach Safety Tips"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/goa-tourism/page.tsx",
-                                                lineNumber: 325,
+                                                lineNumber: 326,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2213,46 +2213,46 @@ function GoaTourismPage() {
                                                         children: "• Avoid swimming during monsoon (June-September)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                                        lineNumber: 327,
+                                                        lineNumber: 328,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Carry sunscreen and hats for beach activities"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                                        lineNumber: 328,
+                                                        lineNumber: 329,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Stay hydrated during water sports"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                                        lineNumber: 329,
+                                                        lineNumber: 330,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Respect local customs and dress codes"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                                        lineNumber: 330,
+                                                        lineNumber: 331,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/goa-tourism/page.tsx",
-                                                lineNumber: 326,
+                                                lineNumber: 327,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                        lineNumber: 324,
+                                        lineNumber: 325,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/goa-tourism/page.tsx",
-                                lineNumber: 322,
+                                lineNumber: 323,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2262,7 +2262,7 @@ function GoaTourismPage() {
                                         className: "w-6 h-6 text-blue-600 flex-shrink-0 mt-1"
                                     }, void 0, false, {
                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                        lineNumber: 335,
+                                        lineNumber: 336,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2272,7 +2272,7 @@ function GoaTourismPage() {
                                                 children: "Best Time to Visit"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/goa-tourism/page.tsx",
-                                                lineNumber: 337,
+                                                lineNumber: 338,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2282,62 +2282,62 @@ function GoaTourismPage() {
                                                         children: "• November to February: Pleasant weather, fewer crowds"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                                        lineNumber: 339,
+                                                        lineNumber: 340,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• March to May: Perfect beach weather, water sports"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                                        lineNumber: 340,
+                                                        lineNumber: 341,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• September to October: Post-monsoon beauty"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                                        lineNumber: 341,
+                                                        lineNumber: 342,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• December: Christmas and New Year celebrations"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                                        lineNumber: 342,
+                                                        lineNumber: 343,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/goa-tourism/page.tsx",
-                                                lineNumber: 338,
+                                                lineNumber: 339,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                        lineNumber: 336,
+                                        lineNumber: 337,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/goa-tourism/page.tsx",
-                                lineNumber: 334,
+                                lineNumber: 335,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/goa-tourism/page.tsx",
-                        lineNumber: 321,
+                        lineNumber: 322,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/goa-tourism/page.tsx",
-                    lineNumber: 320,
+                    lineNumber: 321,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/goa-tourism/page.tsx",
-                lineNumber: 319,
+                lineNumber: 320,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PackagePricing$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -2345,12 +2345,12 @@ function GoaTourismPage() {
                 subtitle: "Choose your perfect beach paradise duration"
             }, void 0, false, {
                 fileName: "[project]/app/goa-tourism/page.tsx",
-                lineNumber: 351,
+                lineNumber: 352,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/goa-tourism/page.tsx",
-                lineNumber: 357,
+                lineNumber: 358,
                 columnNumber: 5
             }, this)
         ]

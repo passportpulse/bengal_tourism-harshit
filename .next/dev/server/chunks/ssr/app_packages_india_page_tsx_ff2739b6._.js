@@ -25,6 +25,21 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 // India packages data
 const indiaPackages = [
     {
+        slug: "dehradun-nainital",
+        title: "Dehradun & Nainital",
+        subtitle: "Hill Station Escape",
+        tag: "Mountain Retreat",
+        duration: "4N & 5D",
+        price: "₹ 13500",
+        desc: "Discover serene hill stations, lakes, and colonial architecture in the foothills of Himalayas.",
+        locations: "Dehradun, Nainital, Mussoorie, Rishikesh",
+        image: "https://images.unsplash.com/photo-1660791601899-f79f14cc427d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RGVocmFkdW58ZW58MHx8MHx8fDA%3D",
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
+        iconColor: "text-green-500",
+        route: "/dehradun-nainital-tourism",
+        showBookNow: false
+    },
+    {
         slug: "puri-odisha",
         title: "Puri & Odisha",
         subtitle: "Temple Paradise",
@@ -178,20 +193,20 @@ function IndiaPackagesPage() {
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/app/packages/india/page.tsx",
-                                lineNumber: 154,
+                                lineNumber: 169,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute inset-0 bg-gradient-to-br from-red-900/70 via-orange-800/50 to-yellow-900/40"
                             }, void 0, false, {
                                 fileName: "[project]/app/packages/india/page.tsx",
-                                lineNumber: 161,
+                                lineNumber: 176,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/packages/india/page.tsx",
-                        lineNumber: 153,
+                        lineNumber: 168,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -206,7 +221,7 @@ function IndiaPackagesPage() {
                                             className: "w-2 h-2 bg-green-400 rounded-full animate-pulse"
                                         }, void 0, false, {
                                             fileName: "[project]/app/packages/india/page.tsx",
-                                            lineNumber: 167,
+                                            lineNumber: 182,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -214,13 +229,13 @@ function IndiaPackagesPage() {
                                             children: "Explore Incredible India"
                                         }, void 0, false, {
                                             fileName: "[project]/app/packages/india/page.tsx",
-                                            lineNumber: 168,
+                                            lineNumber: 183,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/packages/india/page.tsx",
-                                    lineNumber: 166,
+                                    lineNumber: 181,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -232,13 +247,13 @@ function IndiaPackagesPage() {
                                             children: "Tourism Packages"
                                         }, void 0, false, {
                                             fileName: "[project]/app/packages/india/page.tsx",
-                                            lineNumber: 173,
+                                            lineNumber: 188,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/packages/india/page.tsx",
-                                    lineNumber: 171,
+                                    lineNumber: 186,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -246,7 +261,7 @@ function IndiaPackagesPage() {
                                     children: "Explore diverse landscapes, cultures, and heritage of incredible India"
                                 }, void 0, false, {
                                     fileName: "[project]/app/packages/india/page.tsx",
-                                    lineNumber: 178,
+                                    lineNumber: 193,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -259,36 +274,36 @@ function IndiaPackagesPage() {
                                                 className: "w-5 h-5 rotate-180"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/packages/india/page.tsx",
-                                                lineNumber: 184,
+                                                lineNumber: 199,
                                                 columnNumber: 33
                                             }, this),
                                             "Back to All Packages"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/packages/india/page.tsx",
-                                        lineNumber: 183,
+                                        lineNumber: 198,
                                         columnNumber: 29
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/packages/india/page.tsx",
-                                    lineNumber: 182,
+                                    lineNumber: 197,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/packages/india/page.tsx",
-                            lineNumber: 165,
+                            lineNumber: 180,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/packages/india/page.tsx",
-                        lineNumber: 164,
+                        lineNumber: 179,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/packages/india/page.tsx",
-                lineNumber: 152,
+                lineNumber: 167,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -308,14 +323,14 @@ function IndiaPackagesPage() {
                                             children: "India"
                                         }, void 0, false, {
                                             fileName: "[project]/app/packages/india/page.tsx",
-                                            lineNumber: 197,
+                                            lineNumber: 212,
                                             columnNumber: 37
                                         }, this),
                                         " Tour Packages"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/packages/india/page.tsx",
-                                    lineNumber: 196,
+                                    lineNumber: 211,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -323,13 +338,13 @@ function IndiaPackagesPage() {
                                     children: "From Himalayas to beaches, discover the best of India with our curated tour packages"
                                 }, void 0, false, {
                                     fileName: "[project]/app/packages/india/page.tsx",
-                                    lineNumber: 199,
+                                    lineNumber: 214,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/packages/india/page.tsx",
-                            lineNumber: 195,
+                            lineNumber: 210,
                             columnNumber: 21
                         }, this),
                         (()=>{
@@ -352,14 +367,14 @@ function IndiaPackagesPage() {
                                                             className: "object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/packages/india/page.tsx",
-                                                            lineNumber: 217,
+                                                            lineNumber: 232,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/packages/india/page.tsx",
-                                                            lineNumber: 224,
+                                                            lineNumber: 239,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -371,25 +386,25 @@ function IndiaPackagesPage() {
                                                                         className: "w-4 h-4"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/packages/india/page.tsx",
-                                                                        lineNumber: 229,
+                                                                        lineNumber: 244,
                                                                         columnNumber: 53
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         children: item.title
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/packages/india/page.tsx",
-                                                                        lineNumber: 230,
+                                                                        lineNumber: 245,
                                                                         columnNumber: 53
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/packages/india/page.tsx",
-                                                                lineNumber: 228,
+                                                                lineNumber: 243,
                                                                 columnNumber: 49
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/packages/india/page.tsx",
-                                                            lineNumber: 227,
+                                                            lineNumber: 242,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -406,41 +421,41 @@ function IndiaPackagesPage() {
                                                                                     children: location.trim()
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/packages/india/page.tsx",
-                                                                                    lineNumber: 240,
+                                                                                    lineNumber: 255,
                                                                                     columnNumber: 65
                                                                                 }, this),
                                                                                 index < item.locations.split(',').length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
                                                                                     className: "w-3 h-3 text-white shrink-0 mx-1"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/packages/india/page.tsx",
-                                                                                    lineNumber: 242,
+                                                                                    lineNumber: 257,
                                                                                     columnNumber: 69
                                                                                 }, this)
                                                                             ]
                                                                         }, index, true, {
                                                                             fileName: "[project]/app/packages/india/page.tsx",
-                                                                            lineNumber: 239,
+                                                                            lineNumber: 254,
                                                                             columnNumber: 61
                                                                         }, this))
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/packages/india/page.tsx",
-                                                                    lineNumber: 237,
+                                                                    lineNumber: 252,
                                                                     columnNumber: 53
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/packages/india/page.tsx",
-                                                                lineNumber: 236,
+                                                                lineNumber: 251,
                                                                 columnNumber: 49
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/packages/india/page.tsx",
-                                                            lineNumber: 235,
+                                                            lineNumber: 250,
                                                             columnNumber: 45
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/packages/india/page.tsx",
-                                                    lineNumber: 216,
+                                                    lineNumber: 231,
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -453,7 +468,7 @@ function IndiaPackagesPage() {
                                                                     className: `w-4 h-4 ${item.iconColor}`
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/packages/india/page.tsx",
-                                                                    lineNumber: 255,
+                                                                    lineNumber: 270,
                                                                     columnNumber: 49
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -461,13 +476,13 @@ function IndiaPackagesPage() {
                                                                     children: "Exclusive Offers"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/packages/india/page.tsx",
-                                                                    lineNumber: 256,
+                                                                    lineNumber: 271,
                                                                     columnNumber: 49
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/packages/india/page.tsx",
-                                                            lineNumber: 254,
+                                                            lineNumber: 269,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -478,7 +493,7 @@ function IndiaPackagesPage() {
                                                                     children: item.title
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/packages/india/page.tsx",
-                                                                    lineNumber: 261,
+                                                                    lineNumber: 276,
                                                                     columnNumber: 49
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -486,13 +501,13 @@ function IndiaPackagesPage() {
                                                                     children: item.subtitle
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/packages/india/page.tsx",
-                                                                    lineNumber: 262,
+                                                                    lineNumber: 277,
                                                                     columnNumber: 49
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/packages/india/page.tsx",
-                                                            lineNumber: 260,
+                                                            lineNumber: 275,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -504,25 +519,25 @@ function IndiaPackagesPage() {
                                                                         className: "w-4 h-4 text-gray-400"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/packages/india/page.tsx",
-                                                                        lineNumber: 268,
+                                                                        lineNumber: 283,
                                                                         columnNumber: 53
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         children: item.tag
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/packages/india/page.tsx",
-                                                                        lineNumber: 269,
+                                                                        lineNumber: 284,
                                                                         columnNumber: 53
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/packages/india/page.tsx",
-                                                                lineNumber: 267,
+                                                                lineNumber: 282,
                                                                 columnNumber: 49
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/packages/india/page.tsx",
-                                                            lineNumber: 266,
+                                                            lineNumber: 281,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -532,12 +547,12 @@ function IndiaPackagesPage() {
                                                                 children: item.desc
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/packages/india/page.tsx",
-                                                                lineNumber: 279,
+                                                                lineNumber: 294,
                                                                 columnNumber: 49
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/packages/india/page.tsx",
-                                                            lineNumber: 278,
+                                                            lineNumber: 293,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -548,24 +563,24 @@ function IndiaPackagesPage() {
                                                                 children: "View Details"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/packages/india/page.tsx",
-                                                                lineNumber: 294,
+                                                                lineNumber: 309,
                                                                 columnNumber: 49
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/packages/india/page.tsx",
-                                                            lineNumber: 287,
+                                                            lineNumber: 302,
                                                             columnNumber: 45
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/packages/india/page.tsx",
-                                                    lineNumber: 252,
+                                                    lineNumber: 267,
                                                     columnNumber: 41
                                                 }, this)
                                             ]
                                         }, item.slug, true, {
                                             fileName: "[project]/app/packages/india/page.tsx",
-                                            lineNumber: 211,
+                                            lineNumber: 226,
                                             columnNumber: 37
                                         }, this)),
                                     Array.from({
@@ -580,12 +595,12 @@ function IndiaPackagesPage() {
                                                             className: "w-8 h-8 text-red-500"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/packages/india/page.tsx",
-                                                            lineNumber: 309,
+                                                            lineNumber: 324,
                                                             columnNumber: 49
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/packages/india/page.tsx",
-                                                        lineNumber: 308,
+                                                        lineNumber: 323,
                                                         columnNumber: 45
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -593,7 +608,7 @@ function IndiaPackagesPage() {
                                                         children: "Coming Soon"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/packages/india/page.tsx",
-                                                        lineNumber: 311,
+                                                        lineNumber: 326,
                                                         columnNumber: 45
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -601,42 +616,42 @@ function IndiaPackagesPage() {
                                                         children: "New exclusive service launching shortly"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/packages/india/page.tsx",
-                                                        lineNumber: 314,
+                                                        lineNumber: 329,
                                                         columnNumber: 45
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/packages/india/page.tsx",
-                                                lineNumber: 307,
+                                                lineNumber: 322,
                                                 columnNumber: 41
                                             }, this)
                                         }, `coming-soon-${index}`, false, {
                                             fileName: "[project]/app/packages/india/page.tsx",
-                                            lineNumber: 303,
+                                            lineNumber: 318,
                                             columnNumber: 37
                                         }, this))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/packages/india/page.tsx",
-                                lineNumber: 209,
+                                lineNumber: 224,
                                 columnNumber: 29
                             }, this);
                         })()
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/packages/india/page.tsx",
-                    lineNumber: 194,
+                    lineNumber: 209,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/packages/india/page.tsx",
-                lineNumber: 193,
+                lineNumber: 208,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/packages/india/page.tsx",
-        lineNumber: 150,
+        lineNumber: 165,
         columnNumber: 9
     }, this);
 }

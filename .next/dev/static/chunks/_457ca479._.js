@@ -92,14 +92,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 55,
+                                                            lineNumber: 56,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Accommodation"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 54,
+                                                    lineNumber: 55,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -109,14 +109,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 58,
+                                                            lineNumber: 59,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Breakfast & Dinner"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 57,
+                                                    lineNumber: 58,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -127,14 +127,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 60,
+                                                            lineNumber: 61,
                                                             columnNumber: 60
                                                         }, this),
                                                         " PickU & Drop"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 60,
+                                                    lineNumber: 61,
                                                     columnNumber: 18
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -144,20 +144,20 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 63,
+                                                            lineNumber: 64,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Sightseeing as per Itinerary"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 62,
+                                                    lineNumber: 63,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 53,
+                                            lineNumber: 54,
                                             columnNumber: 20
                                         }, this)
                                     ]
@@ -172,7 +172,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                     children: "Book Now"
                                 }, void 0, false, {
                                     fileName: "[project]/components/PackagePricing.tsx",
-                                    lineNumber: 69,
+                                    lineNumber: 70,
                                     columnNumber: 14
                                 }, this)
                             ]
@@ -191,7 +191,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "Recommended"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 81,
+                                            lineNumber: 82,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -199,7 +199,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "4N / 5D"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 85,
+                                            lineNumber: 86,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -207,7 +207,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "₹ 12,700"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 86,
+                                            lineNumber: 87,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -220,14 +220,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 92,
+                                                            lineNumber: 93,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Accommodation"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 91,
+                                                    lineNumber: 92,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -237,14 +237,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 95,
+                                                            lineNumber: 96,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Breakfast & Dinner"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 94,
+                                                    lineNumber: 95,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -255,14 +255,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 97,
+                                                            lineNumber: 98,
                                                             columnNumber: 60
                                                         }, this),
                                                         " Pick & Drop"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 97,
+                                                    lineNumber: 98,
                                                     columnNumber: 18
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -272,26 +272,26 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 100,
+                                                            lineNumber: 101,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Sightseeing as per Itinerary"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 99,
+                                                    lineNumber: 100,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 90,
+                                            lineNumber: 91,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/PackagePricing.tsx",
-                                    lineNumber: 80,
+                                    lineNumber: 81,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -300,13 +300,13 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                     children: "Book Now"
                                 }, void 0, false, {
                                     fileName: "[project]/components/PackagePricing.tsx",
-                                    lineNumber: 106,
+                                    lineNumber: 107,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/PackagePricing.tsx",
-                            lineNumber: 78,
+                            lineNumber: 79,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -319,7 +319,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "Recommended for short breaks"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 118,
+                                            lineNumber: 119,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -327,7 +327,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "3N / 4D"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 122,
+                                            lineNumber: 123,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -335,7 +335,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "₹ 9,100"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 123,
+                                            lineNumber: 124,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -348,14 +348,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 128,
+                                                            lineNumber: 129,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Accommodation"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 127,
+                                                    lineNumber: 128,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -365,14 +365,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 131,
+                                                            lineNumber: 132,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Breakfast & Dinner"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 130,
+                                                    lineNumber: 131,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -383,14 +383,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 133,
+                                                            lineNumber: 134,
                                                             columnNumber: 60
                                                         }, this),
                                                         " Pick & Drop"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 133,
+                                                    lineNumber: 134,
                                                     columnNumber: 18
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -400,26 +400,26 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 136,
+                                                            lineNumber: 137,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Sightseeing as per Itinerary"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 135,
+                                                    lineNumber: 136,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 126,
+                                            lineNumber: 127,
                                             columnNumber: 20
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/PackagePricing.tsx",
-                                    lineNumber: 117,
+                                    lineNumber: 118,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -428,13 +428,13 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                     children: "Book Now"
                                 }, void 0, false, {
                                     fileName: "[project]/components/PackagePricing.tsx",
-                                    lineNumber: 142,
+                                    lineNumber: 143,
                                     columnNumber: 14
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/PackagePricing.tsx",
-                            lineNumber: 115,
+                            lineNumber: 116,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -447,7 +447,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "Recommended only for group of 20+ persons"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 154,
+                                            lineNumber: 155,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -455,7 +455,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "2N / 3D"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 158,
+                                            lineNumber: 159,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -463,7 +463,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "₹ 6,400"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 159,
+                                            lineNumber: 160,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -476,14 +476,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 164,
+                                                            lineNumber: 165,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Accommodation"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 163,
+                                                    lineNumber: 164,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -493,14 +493,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 167,
+                                                            lineNumber: 168,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Breakfast & Dinner"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 166,
+                                                    lineNumber: 167,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -511,14 +511,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 169,
+                                                            lineNumber: 170,
                                                             columnNumber: 60
                                                         }, this),
                                                         " Pick & Drop"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 169,
+                                                    lineNumber: 170,
                                                     columnNumber: 18
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -528,26 +528,26 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 172,
+                                                            lineNumber: 173,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Sightseeing as per Itinerary"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 171,
+                                                    lineNumber: 172,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 162,
+                                            lineNumber: 163,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/PackagePricing.tsx",
-                                    lineNumber: 153,
+                                    lineNumber: 154,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -556,13 +556,13 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                     children: "Book Now"
                                 }, void 0, false, {
                                     fileName: "[project]/components/PackagePricing.tsx",
-                                    lineNumber: 178,
+                                    lineNumber: 179,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/PackagePricing.tsx",
-                            lineNumber: 151,
+                            lineNumber: 152,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -575,7 +575,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "Not feasible"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 190,
+                                            lineNumber: 191,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -583,7 +583,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "1N / 2D"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 194,
+                                            lineNumber: 195,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -591,7 +591,7 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                             children: "₹ 3,700"
                                         }, void 0, false, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 195,
+                                            lineNumber: 196,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -604,14 +604,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 200,
+                                                            lineNumber: 201,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Accommodation"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 199,
+                                                    lineNumber: 200,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -621,14 +621,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 203,
+                                                            lineNumber: 204,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Breakfast & Dinner"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 202,
+                                                    lineNumber: 203,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -639,14 +639,14 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 205,
+                                                            lineNumber: 206,
                                                             columnNumber: 60
                                                         }, this),
                                                         " Pick & Drop"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 205,
+                                                    lineNumber: 206,
                                                     columnNumber: 18
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -656,26 +656,26 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                                             className: "w-4 h-4 text-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/PackagePricing.tsx",
-                                                            lineNumber: 208,
+                                                            lineNumber: 209,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Sightseeing as per Itinerary"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/PackagePricing.tsx",
-                                                    lineNumber: 207,
+                                                    lineNumber: 208,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/PackagePricing.tsx",
-                                            lineNumber: 198,
+                                            lineNumber: 199,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/PackagePricing.tsx",
-                                    lineNumber: 189,
+                                    lineNumber: 190,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -684,13 +684,13 @@ function PackagePricing({ title = "Darjeeling Tour Packages", subtitle = "Choose
                                     children: "Not Available"
                                 }, void 0, false, {
                                     fileName: "[project]/components/PackagePricing.tsx",
-                                    lineNumber: 214,
+                                    lineNumber: 215,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/PackagePricing.tsx",
-                            lineNumber: 187,
+                            lineNumber: 188,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1696,7 +1696,7 @@ function HimachalTourismPage() {
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                                 className: "text-xl font-bold",
-                                                                children: "Day 3: Departure"
+                                                                children: "Day 2: Explore Chandigarh"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
                                                                 lineNumber: 258,
@@ -1710,7 +1710,7 @@ function HimachalTourismPage() {
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         className: "text-gray-700 leading-relaxed",
-                                                        children: "Breakfast & check-out from Hotel. Visit some local area if time permits. Lunch en-route. Then leave to drop-off at Chandigarh Airport / Station for your onward / return train journey flight to your destination as per your departure timing. Tour ends..."
+                                                        children: "After breakfast, visit Rose Garden, Rock Garden, Golden Temple (a must visit), etc. Attend lunch at Langar of Golden Temple (or) any local restaurant. Post lunch, visit Jalianwala Bagh, Hall Bazaar, etc. Return in evening. Free to explore local area. Dinner & Overnight at Hotel/Resort in Chandigarh."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
                                                         lineNumber: 260,
@@ -1737,7 +1737,7 @@ function HimachalTourismPage() {
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                                 className: "text-xl font-bold",
-                                                                children: "Day 2: Explore Chandigarh"
+                                                                children: "Day 3: Departure"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
                                                                 lineNumber: 273,
@@ -1751,7 +1751,7 @@ function HimachalTourismPage() {
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         className: "text-gray-700 leading-relaxed",
-                                                        children: "After breakfast, visit Rose Garden, Rock Garden, Golden Temple (a must visit), etc. Attend lunch at Langar of Golden Temple (or) any local restaurant. Post lunch, visit Jalianwala Bagh, Hall Bazaar, etc. Return in evening. Free to explore local area. Dinner & Overnight at Hotel/Resort in Chandigarh."
+                                                        children: "Breakfast & check-out from Hotel. Visit some local area if time permits. Lunch en-route. Then leave to drop-off at Chandigarh Airport / Station for your onward / return train journey flight to your destination as per your departure timing. Tour ends..."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
                                                         lineNumber: 275,
@@ -1771,7 +1771,7 @@ function HimachalTourismPage() {
                                                         children: "Chandigarh Highlights"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 287,
+                                                        lineNumber: 288,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1784,7 +1784,7 @@ function HimachalTourismPage() {
                                                                         className: "w-4 h-4 text-orange-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                        lineNumber: 290,
+                                                                        lineNumber: 291,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1792,13 +1792,13 @@ function HimachalTourismPage() {
                                                                         children: "Rose Garden & Rock Garden"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                        lineNumber: 291,
+                                                                        lineNumber: 292,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 289,
+                                                                lineNumber: 290,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1808,7 +1808,7 @@ function HimachalTourismPage() {
                                                                         className: "w-4 h-4 text-orange-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                        lineNumber: 294,
+                                                                        lineNumber: 295,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1816,13 +1816,13 @@ function HimachalTourismPage() {
                                                                         children: "Golden Temple - Must Visit"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                        lineNumber: 295,
+                                                                        lineNumber: 296,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 293,
+                                                                lineNumber: 294,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1832,7 +1832,7 @@ function HimachalTourismPage() {
                                                                         className: "w-4 h-4 text-orange-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                        lineNumber: 298,
+                                                                        lineNumber: 299,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1840,25 +1840,25 @@ function HimachalTourismPage() {
                                                                         children: "Wagah Border Experience"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                        lineNumber: 299,
+                                                                        lineNumber: 300,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 297,
+                                                                lineNumber: 298,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 288,
+                                                        lineNumber: 289,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 286,
+                                                lineNumber: 287,
                                                 columnNumber: 19
                                             }, this)
                                         ]
@@ -1906,7 +1906,7 @@ function HimachalTourismPage() {
                                     children: "Himachal Highlights"
                                 }, void 0, false, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                                    lineNumber: 314,
+                                    lineNumber: 315,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1914,13 +1914,13 @@ function HimachalTourismPage() {
                                     children: "Key attractions and experiences in the 'Valley of Gods'"
                                 }, void 0, false, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                                    lineNumber: 315,
+                                    lineNumber: 316,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                            lineNumber: 313,
+                            lineNumber: 314,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1933,7 +1933,7 @@ function HimachalTourismPage() {
                                             className: "w-12 h-12 text-blue-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 322,
+                                            lineNumber: 323,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1941,7 +1941,7 @@ function HimachalTourismPage() {
                                             children: "Hill Stations"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 323,
+                                            lineNumber: 324,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1949,13 +1949,13 @@ function HimachalTourismPage() {
                                             children: "Shimla, Kullu, Manali, Kufri"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 324,
+                                            lineNumber: 325,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                                    lineNumber: 321,
+                                    lineNumber: 322,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1965,7 +1965,7 @@ function HimachalTourismPage() {
                                             className: "w-12 h-12 text-green-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 328,
+                                            lineNumber: 329,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1973,7 +1973,7 @@ function HimachalTourismPage() {
                                             children: "Snow Points"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 329,
+                                            lineNumber: 330,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1981,13 +1981,13 @@ function HimachalTourismPage() {
                                             children: "Rohtang Pass, Kullu Valley"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 330,
+                                            lineNumber: 331,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                                    lineNumber: 327,
+                                    lineNumber: 328,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1997,7 +1997,7 @@ function HimachalTourismPage() {
                                             className: "w-12 h-12 text-purple-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 334,
+                                            lineNumber: 335,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2005,7 +2005,7 @@ function HimachalTourismPage() {
                                             children: "Sacred Sites"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 335,
+                                            lineNumber: 336,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2013,13 +2013,13 @@ function HimachalTourismPage() {
                                             children: "Dharamshala, Hadimba Temple, Mata Vaishno Devi"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 336,
+                                            lineNumber: 337,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                                    lineNumber: 333,
+                                    lineNumber: 334,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2029,7 +2029,7 @@ function HimachalTourismPage() {
                                             className: "w-12 h-12 text-orange-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 340,
+                                            lineNumber: 341,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2037,7 +2037,7 @@ function HimachalTourismPage() {
                                             children: "Natural Beauty"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 341,
+                                            lineNumber: 342,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2045,13 +2045,13 @@ function HimachalTourismPage() {
                                             children: "Pine forests, Apple orchards, Kullu Valley"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 342,
+                                            lineNumber: 343,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                                    lineNumber: 339,
+                                    lineNumber: 340,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2061,7 +2061,7 @@ function HimachalTourismPage() {
                                             className: "w-12 h-12 text-cyan-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 346,
+                                            lineNumber: 347,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2069,7 +2069,7 @@ function HimachalTourismPage() {
                                             children: "Adventure"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 347,
+                                            lineNumber: 348,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2077,30 +2077,30 @@ function HimachalTourismPage() {
                                             children: "Paragliding, River rafting, Trekking"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 348,
+                                            lineNumber: 349,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                                    lineNumber: 345,
+                                    lineNumber: 346,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                            lineNumber: 320,
+                            lineNumber: 321,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                    lineNumber: 312,
+                    lineNumber: 313,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                lineNumber: 311,
+                lineNumber: 312,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2117,7 +2117,7 @@ function HimachalTourismPage() {
                                         className: "w-6 h-6 text-yellow-600 flex-shrink-0 mt-1"
                                     }, void 0, false, {
                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                        lineNumber: 361,
+                                        lineNumber: 362,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2127,7 +2127,7 @@ function HimachalTourismPage() {
                                                 children: "Rohtang Pass Information"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 363,
+                                                lineNumber: 364,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2137,46 +2137,46 @@ function HimachalTourismPage() {
                                                         children: "• Subject to weather conditions and road being open"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 365,
+                                                        lineNumber: 366,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Outsiders need to arrange own vehicle from local Union"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 366,
+                                                        lineNumber: 367,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Direct payment basis for local transport"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 367,
+                                                        lineNumber: 368,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Not included in package cost"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 368,
+                                                        lineNumber: 369,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 364,
+                                                lineNumber: 365,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                        lineNumber: 362,
+                                        lineNumber: 363,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                lineNumber: 360,
+                                lineNumber: 361,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2186,7 +2186,7 @@ function HimachalTourismPage() {
                                         className: "w-6 h-6 text-blue-600 flex-shrink-0 mt-1"
                                     }, void 0, false, {
                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                        lineNumber: 373,
+                                        lineNumber: 374,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2196,7 +2196,7 @@ function HimachalTourismPage() {
                                                 children: "Best Time to Visit"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 375,
+                                                lineNumber: 376,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2206,62 +2206,62 @@ function HimachalTourismPage() {
                                                         children: "• March to June: Pleasant weather, blooming flowers"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 377,
+                                                        lineNumber: 378,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• October to February: Snow-covered landscapes"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 378,
+                                                        lineNumber: 379,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• December to January: Winter sports and snow activities"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 379,
+                                                        lineNumber: 380,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Avoid monsoon (July-September) for clear mountain views"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 380,
+                                                        lineNumber: 381,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 376,
+                                                lineNumber: 377,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                        lineNumber: 374,
+                                        lineNumber: 375,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                lineNumber: 372,
+                                lineNumber: 373,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                        lineNumber: 359,
+                        lineNumber: 360,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                    lineNumber: 358,
+                    lineNumber: 359,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                lineNumber: 357,
+                lineNumber: 358,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PackagePricing$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -2269,12 +2269,12 @@ function HimachalTourismPage() {
                 subtitle: "Choose your perfect mountain adventure duration"
             }, void 0, false, {
                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                lineNumber: 389,
+                lineNumber: 390,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                lineNumber: 395,
+                lineNumber: 396,
                 columnNumber: 5
             }, this)
         ]

@@ -207,7 +207,7 @@ export default function GoaTourismPage() {
                 <div className="space-y-2 text-sm">
                   <div className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-purple-600" />
-                    <span className="text-gray-700">Entry permit included</span>
+                    <span className="text-gray-700"> Casino & Entry permit excluded</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-purple-600" />
@@ -222,11 +222,7 @@ export default function GoaTourismPage() {
                     <span className="text-gray-700">Optional activity</span>
                   </div>
                 </div>
-                <div className="mt-4 p-3 bg-red-100 rounded-lg border border-red-200">
-                  <p className="text-red-800 text-sm font-semibold">
-                    ⚠️ Casino Permit excluded
-                  </p>
-                </div>
+               
               </div>
             </div>
 

@@ -56,5 +56,6 @@
   "/tajpur/page": "app/tajpur/page.js",
   "/tea-tourism/page": "app/tea-tourism/page.js",
   "/terms/page": "app/terms/page.js",
+  "/thailand/page": "app/thailand/page.js",
   "/trekking-trails/page": "app/trekking-trails/page.js"
 }

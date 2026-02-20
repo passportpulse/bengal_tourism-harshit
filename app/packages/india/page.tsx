@@ -8,6 +8,21 @@ import { Calendar, Clock, Star, MapPinCheck, ArrowRight, Trees, Building, Waves,
 // India packages data
 const indiaPackages = [
     {
+        slug: "dehradun-nainital",
+        title: "Dehradun & Nainital",
+        subtitle: "Hill Station Escape",
+        tag: "Mountain Retreat",
+        duration: "4N & 5D",
+        price: "₹ 13500",
+        desc: "Discover serene hill stations, lakes, and colonial architecture in the foothills of Himalayas.",
+        locations: "Dehradun, Nainital, Mussoorie, Rishikesh",
+        image: "https://images.unsplash.com/photo-1660791601899-f79f14cc427d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RGVocmFkdW58ZW58MHx8MHx8fDA%3D",
+        icon: Mountain,
+        iconColor: "text-green-500",
+        route: "/dehradun-nainital-tourism",
+        showBookNow: false,
+    },
+    {
         slug: "puri-odisha",
         title: "Puri & Odisha",
         subtitle: "Temple Paradise",

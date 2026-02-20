@@ -1,14 +1,22 @@
 "use client"
 
 import Image from 'next/image'
+import { useRouter } from 'next/navigation'
 import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout, Coffee, Leaf, TreePine, Stethoscope, HeartPulse, Shield, Globe, Phone, Mail, CheckCircle, AlertCircle, Activity, Brain, Bone, Eye, User, Bed, Wifi, Car, Utensils as UtensilsIcon, Wind } from 'lucide-react'
 
 export default function HotelBookingPage() {
+  const router = useRouter()
+
+  const handleBookNow = () => {
+    router.push('/book-hotel')
+  }
+
   const hotelData = [
     {
       id: 1,
       place: "DARJEELING",
       region: "NORTH BENGAL",
+      image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=800&h=400&fit=crop",
       rooms: [
         { type: "Deluxe Dbl Bed [Valley View]", meals: "[Free Breakfast]", price: "Rs. 2800/-" },
         { type: "Super Dlx Dbl Bed [Hill View]", meals: "[Free Breakfast]", price: "Rs. 3700/-" },
@@ -21,6 +29,7 @@ export default function HotelBookingPage() {
       id: 2,
       place: "JALDAPARA",
       region: "DOOARS - LATAGURI - MURTI",
+      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=400&fit=crop",
       rooms: [
         { type: "AC Dlx Dbl Bed", meals: "[Free Breakfast]", price: "Rs. 2800/-" },
         { type: "AC Super Dlx Dbl Bed Cottage", meals: "[Free Breakfast]", price: "Rs. 3700/-" },
@@ -33,6 +42,7 @@ export default function HotelBookingPage() {
       id: 3,
       place: "KALIMPONG",
       region: "DEOLO - KURSEONG - MIRIK",
+      image: "https://images.unsplash.com/photo-1605639691523-eb2b8c9b4db7?w=800&h=400&fit=crop",
       rooms: [
         { type: "Deluxe Double Bed [Valley View]", meals: "[Free Breakfast]", price: "Rs. 2800/-" },
         { type: "Super Dlx Dbl Bed (Hill View)", meals: "[Free Breakfast]", price: "Rs. 3700/-" },
@@ -45,6 +55,7 @@ export default function HotelBookingPage() {
       id: 4,
       place: "DIGHA",
       region: "UDAIPUR / TAJPUR / MANDARMONI",
+      image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=800&h=400&fit=crop",
       rooms: [
         { type: "AC Deluxe Room [Beach Front/Non Sea Face]", meals: "[Free Breakfast]", price: "Rs. 2800/-" },
         { type: "AC Super Dlx Room (Sea Face + Balcony)", meals: "[Free Breakfast]", price: "Rs. 3700/-" },
@@ -57,6 +68,7 @@ export default function HotelBookingPage() {
       id: 5,
       place: "PURI",
       region: "ODISHA - GOPALPUR - CHANDIPUR - DARINGBADI",
+      image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=800&h=400&fit=crop",
       rooms: [
         { type: "AC Deluxe Room [Beach Front/Non Sea Face]", meals: "[Free Breakfast]", price: "Rs. 2800/-" },
         { type: "AC Super Dlx Room [Sea Face + Balcony]", meals: "[Free Breakfast]", price: "Rs. 3700/-" },
@@ -69,6 +81,7 @@ export default function HotelBookingPage() {
       id: 6,
       place: "GANGTOK",
       region: "SIKKIM - RAVANGLA - PELLING",
+      image: "https://images.unsplash.com/photo-1605639691523-eb2b8c9b4db7?w=800&h=400&fit=crop",
       rooms: [
         { type: "Deluxe Double Bed [Valley View]", meals: "[Free Breakfast]", price: "Rs. 3700/-" },
         { type: "Super Dlx Dbl Bed [Hill View]", meals: "[Free Breakfast]", price: "Rs. 4600/-" },
@@ -81,6 +94,7 @@ export default function HotelBookingPage() {
       id: 7,
       place: "LAMAHATTA",
       region: "TEEN CHULEY - SILK ROUTE - RESHIKHOLA - LACHEN - LACHUNG",
+      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=400&fit=crop",
       rooms: [
         { type: "Deluxe Double Bedroom [Valley View]", meals: "[Free Breakfast]", price: "Rs. 2800/-" },
         { type: "Super Dlx Dbl Bedroom [Hill View]", meals: "[Free Breakfast]", price: "Rs. 3700/-" },
@@ -93,6 +107,7 @@ export default function HotelBookingPage() {
       id: 8,
       place: "BAKKHALI",
       region: "SUNDARBAN - GADIARA - GOENKHALI - DEULTI",
+      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=400&fit=crop",
       rooms: [
         { type: "AC Dlx Dbl Bed", meals: "[Free Breakfast]", price: "Rs. 2800/-" },
         { type: "AC Super Dlx Dbl Bed / Cottage [River Front]", meals: "[Free Breakfast]", price: "Rs. 3700/-" },
@@ -105,6 +120,7 @@ export default function HotelBookingPage() {
       id: 9,
       place: "MUKUTMANIPUR",
       region: "AYODHYA PAHAR - SANTINIKETAN - BOLPUR - BISHNUPUR - TARAPITH",
+      image: "https://images.unsplash.com/photo-1605000793129-f6e2e4a5e2c?w=800&h=400&fit=crop",
       rooms: [
         { type: "AC Dlx Dbl Bed", meals: "[Free Breakfast]", price: "Rs. 2800/-" },
         { type: "AC Super Dlx Dbl Bed / Cottage", meals: "[Free Breakfast]", price: "Rs. 3700/-" },
@@ -117,6 +133,7 @@ export default function HotelBookingPage() {
       id: 10,
       place: "HOME STAY",
       region: "BENGAL / SIKKIM - ECO VILLAGE STAY",
+      image: "https://images.unsplash.com/photo-1605000793129-f6e2e4a5e2c?w=800&h=400&fit=crop",
       rooms: [
         { type: "Standard Room - Non View [2 Persons]", meals: "[Free Breakfast]", price: "Rs. 2000/-" },
         { type: "Deluxe Room - Valley View [2 Persons]", meals: "[Free Breakfast]", price: "Rs. 3000/-" },
@@ -129,6 +146,7 @@ export default function HotelBookingPage() {
       id: 12,
       place: "MANDARMONI",
       region: "SHANKARPUR - TAJPUR",
+      image: "https://images.unsplash.com/photo-1608459209172-7a6ecbb78e1f?w=800&h=400&fit=crop",
       rooms: [
         { type: "AC Deluxe Room [Beach Front]", meals: "[Free Breakfast]", price: "Rs. 2800/-" },
         { type: "AC Super Dlx Room [Sea Face + Balcony]", meals: "[Free Breakfast]", price: "Rs. 3700/-" },
@@ -141,6 +159,7 @@ export default function HotelBookingPage() {
       id: 13,
       place: "RISHYAP",
       region: "NEORA VALLEY",
+      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=400&fit=crop",
       rooms: [
         { type: "Dlx Dbl Bed [Valley View]", meals: "[Free Breakfast]", price: "Rs. 2800/-" },
         { type: "Super Dlx Dbl Room/Cottage [Hill View]", meals: "[Free Breakfast]", price: "Rs. 3700/-" },
@@ -174,19 +193,19 @@ export default function HotelBookingPage() {
 
         <div className="relative h-full flex items-center justify-center text-white px-6">
           <div className="max-w-4xl">
-            <div className="flex items-center justify-center gap-2 mb-4">
+            <div className="flex items-center text-center justify-center gap-2 mb-4">
               <Building className="w-6 h-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold tracking-wide">HOTEL BOOKING</span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <h1 className="text-5xl  text-center md:text-7xl font-bold mb-6 leading-tight">
               Best Discounted Hotels
               <span className="block text-3xl md:text-5xl mt-2 text-purple-300">
                 Guest Houses • Home Stays • All Tourist Locations
               </span>
             </h1>
 
-            <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl  text-center md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
               Well-appointed accommodations across Bengal, Odisha, Sikkim and other destinations
             </p>
 
@@ -194,7 +213,7 @@ export default function HotelBookingPage() {
               <button className="bg-yellow-500 text-black px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:bg-yellow-400 transition transform hover:scale-105">
                 View Hotels
               </button>
-              <button className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-purple-800 transition transform hover:scale-105">
+              <button onClick={handleBookNow} className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-purple-800 transition transform hover:scale-105">
                 Book Now
               </button>
             </div>
@@ -211,20 +230,7 @@ export default function HotelBookingPage() {
         </div>
       </section>
 
-      {/* ================= IMPORTANT NOTICE ================= */}
-      <section className="py-8 bg-yellow-50 border-y border-yellow-200">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="flex flex-col md:flex-row items-center gap-6">
-            <div className="flex items-center gap-3">
-              <Phone className="w-6 h-6 text-yellow-600" />
-              <span className="font-bold text-gray-800">Please confirm availability: <span className="text-yellow-600">+91 9007 99 5888</span></span>
-            </div>
-            <div className="text-sm text-gray-600">
-              Off Season Discounts / High Peak Season Rates shall apply & charged separately
-            </div>
-          </div>
-        </div>
-      </section>
+   
 
       {/* ================= HOTEL LISTINGS ================= */}
       <section className="py-20 bg-white">
@@ -238,48 +244,66 @@ export default function HotelBookingPage() {
 
           <div className="space-y-12">
             {hotelData.map((location) => (
-              <div key={location.id} className="bg-gradient-to-br from-gray-50 to-blue-50 rounded-2xl shadow-lg overflow-hidden">
-                <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-6">
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <h3 className="text-2xl font-bold">{location.place}</h3>
-                      <p className="text-blue-100">{location.region}</p>
-                    </div>
-                    <MapPin className="w-8 h-8 text-blue-200" />
+              <div key={location.id} className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition">
+                {/* Image Section - Full Width */}
+                <div className="relative h-64 md:h-80 overflow-hidden">
+                  <img
+                    src={location.image}
+                    alt={`${location.place} hotels and resorts`}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+                  <div className="absolute bottom-4 left-4 text-white">
+                    <h3 className="text-2xl md:text-3xl font-bold mb-1">{location.place}</h3>
+                    <p className="text-sm md:text-base opacity-90">{location.region}</p>
                   </div>
                 </div>
                 
-                <div className="p-6">
-                  <div className="grid md:grid-cols-4 gap-4 mb-6">
-                    {location.rooms.map((room, index) => (
-                      <div key={index} className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition">
-                        <div className="flex items-start justify-between mb-2">
-                          <Bed className="w-5 h-5 text-blue-600 flex-shrink-0" />
-                          <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded-full">Available</span>
+                {/* Content Section - Below Image */}
+                <div className="p-6 md:p-8">
+                  {/* Room Cards */}
+                  <div className="mb-8">
+                    <h4 className="text-xl font-bold mb-4 text-gray-800 flex items-center gap-2">
+                      <Bed className="w-5 h-5 text-blue-600" />
+                      Available Room Types
+                    </h4>
+                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+                      {location.rooms.map((room, index) => (
+                        <div key={index} className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-lg p-4 shadow-sm hover:shadow-md transition-all hover:scale-105 border border-blue-100">
+                          <div className="flex items-start justify-between mb-2">
+                            <Bed className="w-4 h-4 text-blue-600 flex-shrink-0" />
+                            <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded-full font-semibold">Available</span>
+                          </div>
+                          <h4 className="font-bold text-sm mb-2 text-gray-800 leading-tight">{room.type}</h4>
+                          <p className="text-xs text-gray-600 mb-2">{room.meals}</p>
+                          <p className="text-xl font-bold text-blue-600 mb-3">{room.price}</p>
+                          <button onClick={handleBookNow} className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2 rounded-lg text-sm font-semibold hover:from-blue-700 hover:to-purple-700 transition">
+                            Book Now
+                          </button>
                         </div>
-                        <h4 className="font-bold text-sm mb-1">{room.type}</h4>
-                        <p className="text-xs text-gray-600 mb-2">{room.meals}</p>
-                        <p className="text-lg font-bold text-blue-600">{room.price}</p>
-                        <button className="w-full mt-3 bg-blue-600 text-white py-2 rounded text-sm hover:bg-blue-700 transition">
-                          Book Now
-                        </button>
-                      </div>
-                    ))}
+                      ))}
+                    </div>
                   </div>
 
-                  <div className="border-t pt-4">
-                    <h4 className="font-bold mb-3 text-gray-800">Affiliated Hotels & Resorts:</h4>
-                    <div className="flex flex-wrap gap-2">
-                      {location.hotels.slice(0, 8).map((hotel, index) => (
-                        <span key={index} className="bg-white px-3 py-1 rounded-full text-sm shadow-sm border border-gray-200">
-                          {hotel}
-                        </span>
-                      ))}
-                      {location.hotels.length > 8 && (
-                        <span className="bg-gray-100 px-3 py-1 rounded-full text-sm text-gray-600">
-                          +{location.hotels.length - 8} more...
-                        </span>
-                      )}
+                  {/* Hotels List */}
+                  <div className="border-t pt-6">
+                    <h4 className="text-xl font-bold mb-4 text-gray-800 flex items-center gap-2">
+                      <Building className="w-5 h-5 text-blue-600" />
+                      Affiliated Hotels & Resorts
+                    </h4>
+                    <div className="bg-gray-50 rounded-lg p-4">
+                      <div className="flex flex-wrap gap-2">
+                        {location.hotels.slice(0, 12).map((hotel, index) => (
+                          <span key={index} className="bg-white px-3 py-1 rounded-full text-sm shadow-sm border border-gray-200 hover:bg-blue-50 hover:border-blue-300 transition">
+                            {hotel}
+                          </span>
+                        ))}
+                        {location.hotels.length > 12 && (
+                          <span className="bg-blue-100 px-3 py-1 rounded-full text-sm text-blue-700 font-medium">
+                            +{location.hotels.length - 12} more...
+                          </span>
+                        )}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -386,6 +410,7 @@ export default function HotelBookingPage() {
           </div>
         </div>
       </section>
+
 
  
 
