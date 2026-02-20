@@ -91,13 +91,13 @@ export default function TeaTourismPage() {
                   </div>
                   <div className="flex items-center gap-3">
                     <Users className="w-5 h-5 text-green-600" />
-                    <span className="text-gray-700">For 2 PAX / Couple</span>
+                    <span className="text-gray-700">For 1 Person</span>
                   </div>
                 </div>
               </div>
               <div className="relative h-64 md:h-80 rounded-2xl overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1576096424-5f6e4e1a5?w=600&h=400&fit=crop"
+                  src="https://images.unsplash.com/photo-1602020277972-99978250c8bd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGVhJTIwcGxhbnRhdGlvbnxlbnwwfHwwfHx8MA%3D%3D"
                   alt="Tea plantation with workers plucking tea leaves"
                   className="w-full h-full object-cover"
                 />
@@ -377,7 +377,7 @@ export default function TeaTourismPage() {
             </div>
 
             <div className="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-xl transition">
-              <h3 className="text-2xl font-bold text-green-700 mb-2">Extended Tour</h3>
+              <h3 className="text-2xl font-bold text-green-700 mb-2">3N/4D</h3>
               <p className="text-3xl font-bold text-green-600 mb-4">₹ 37,000/-</p>
               <p className="text-gray-600 mb-4">Extended tea heritage tour</p>
               <a href="/book-tour" className="w-full bg-green-600 text-white p-3 rounded-lg font-semibold hover:bg-green-700 transition">

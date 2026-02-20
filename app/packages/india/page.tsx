@@ -7,21 +7,22 @@ import { Calendar, Clock, Star, MapPinCheck, ArrowRight, Trees, Building, Waves,
 
 // India packages data
 const indiaPackages = [
-    {
-        slug: "dehradun-nainital",
-        title: "Dehradun & Nainital",
-        subtitle: "Hill Station Escape",
-        tag: "Mountain Retreat",
-        duration: "4N & 5D",
-        price: "₹ 13500",
-        desc: "Discover serene hill stations, lakes, and colonial architecture in the foothills of Himalayas.",
-        locations: "Dehradun, Nainital, Mussoorie, Rishikesh",
-        image: "https://images.unsplash.com/photo-1660791601899-f79f14cc427d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RGVocmFkdW58ZW58MHx8MHx8fDA%3D",
-        icon: Mountain,
-        iconColor: "text-green-500",
-        route: "/dehradun-nainital-tourism",
-        showBookNow: false,
-    },
+   {
+    slug: "haridwar-rishikesh",
+    title: "Haridwar & Rishikesh",
+    subtitle: "Spiritual & Adventure Retreat",
+    tag: "Ganga Spiritual Tour",
+    duration: "3N & 4D",
+    price: "₹ 9500",
+    desc: "Experience the divine Ganga Aarti at Haridwar, explore yoga capital Rishikesh, enjoy river rafting, temples, and peaceful Himalayan vibes.",
+    locations: "Haridwar, Rishikesh",
+    image: "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=900&auto=format&fit=crop&q=60",
+    icon: Mountain,
+    iconColor: "text-orange-500",
+    route: "/haridwar-rishikesh-tourism",
+    showBookNow: false,
+}
+,
     {
         slug: "puri-odisha",
         title: "Puri & Odisha",

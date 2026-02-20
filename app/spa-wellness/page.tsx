@@ -357,7 +357,7 @@ export default function SpaWellnessPage() {
             </div>
 
             <div className="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-xl transition">
-              <h3 className="text-2xl font-bold text-purple-700 mb-2">Extended Retreat</h3>
+              <h3 className="text-2xl font-bold text-purple-700 mb-2">3N/4D</h3>
               <p className="text-3xl font-bold text-purple-600 mb-4">₹ 37,000/-</p>
               <p className="text-gray-600 mb-4">Deep wellness transformation</p>
               <a href="/book-tour" className="w-full bg-purple-600 text-white p-3 rounded-lg font-semibold hover:bg-purple-700 transition">

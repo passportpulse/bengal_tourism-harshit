@@ -177,7 +177,7 @@ export default function AssamGuwahatiTourismPage() {
                       <div className="bg-orange-500 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">
                         +
                       </div>
-                      <h4 className="text-2xl font-bold text-gray-900">ADD ON (Extra 1 Day): Kaziranga Forest</h4>
+                      <h4 className="text-2xl font-bold text-gray-900">ADD ON: Kaziranga Forest</h4>
                     </div>
                     <a href="/book-tour" className='bg-red-600 font-semibold shadow-md rounded-full text-white px-3 py-3'>
                       Book Now For 1N/2D

@@ -97,7 +97,7 @@ export default function Footer() {
                 "Kolkata",
                 "Digha",
                 "Dooars",
-                "sikkim tourism",
+                "Sikkim Tourism",
                 "Thailand"
               
               ].map((place) => (

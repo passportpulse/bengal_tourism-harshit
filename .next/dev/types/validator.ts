@@ -182,6 +182,15 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
+// Validate ../../../app/dehradun-nainital-tourism/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/dehradun-nainital-tourism">> = Specific
+  const handler = {} as typeof import("../../../app/dehradun-nainital-tourism/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../app/digha/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/digha">> = Specific
@@ -258,6 +267,15 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
 {
   type __IsExpected<Specific extends AppPageConfig<"/goa-tourism">> = Specific
   const handler = {} as typeof import("../../../app/goa-tourism/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/haridwar-rishikesh-tourism/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/haridwar-rishikesh-tourism">> = Specific
+  const handler = {} as typeof import("../../../app/haridwar-rishikesh-tourism/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

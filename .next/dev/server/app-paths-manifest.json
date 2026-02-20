@@ -1,3 +1,12 @@
 {
-  "/hotel-booking/page": "app/hotel-booking/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/assam-guwahati-tourism/page": "app/assam-guwahati-tourism/page.js",
+  "/dehradun-nainital-tourism/page": "app/dehradun-nainital-tourism/page.js",
+  "/haridwar-rishikesh-tourism/page": "app/haridwar-rishikesh-tourism/page.js",
+  "/hotel-booking/page": "app/hotel-booking/page.js",
+  "/hotel-resort/page": "app/hotel-resort/page.js",
+  "/packages/exclusive/page": "app/packages/exclusive/page.js",
+  "/packages/india/page": "app/packages/india/page.js",
+  "/spa-wellness/page": "app/spa-wellness/page.js",
+  "/tea-tourism/page": "app/tea-tourism/page.js"
 }
