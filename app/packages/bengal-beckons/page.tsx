@@ -124,7 +124,7 @@ const bengalPackages = [
         duration: "3N & 4D",
         desc: "A thrilling mangrove adventure through rivers, creeks, and wildlife habitats.",
         locations: "Sundarban, Sajnekhali, Godkhali, Kakdwip",
-        image: "https://images.unsplash.com/photo-1706459671568-9809c9d13430?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U3VuZGFyYmFufGVufDB8fDB8fHx8MA%3D%3D",
+        image: "https://images.unsplash.com/photo-1477764250597-dffe9f601ae8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Um95YWwlMjBCZW5nYWwlMjBUaWdlcnxlbnwwfHwwfHx8MA%3D%3D",
         icon: Trees,
         iconColor: "text-emerald-500",
         route: "/sundarban",

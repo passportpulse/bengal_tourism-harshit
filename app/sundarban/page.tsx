@@ -14,7 +14,7 @@ export default function SundarbanPage() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1540206395-68808572332f?w=1920&h=1080&fit=crop"
+            src="https://images.unsplash.com/photo-1477764250597-dffe9f601ae8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Um95YWwlMjBCZW5nYWwlMjBUaWdlcnxlbnwwfHwwfHx8MA%3D%3D"
             alt="Sundarban mangrove forest with waterways"
             className="w-full h-full object-cover"
           />
@@ -219,6 +219,20 @@ export default function SundarbanPage() {
             </div>
 
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
+              <div className="h-48 bg-gradient-to-br from-yellow-400 to-orange-500 flex items-center justify-center">
+                <Compass className="w-16 h-16 text-white group-hover:scale-110 transition" />
+              </div>
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-3">Burir Dabri Watch Tower</h3>
+                <p className="text-gray-700 mb-4">Mud walk and mangrove cage trail to Raimongal View Point</p>
+                <div className="flex items-center gap-2 text-yellow-600">
+                  <MapPin className="w-4 h-4" />
+                  <span className="text-sm">Extended Area (Special Permit)</span>
+                </div>
+              </div>
+            </div>
+
+              <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
               <div className="h-48 bg-gradient-to-br from-yellow-400 to-orange-500 flex items-center justify-center">
                 <Compass className="w-16 h-16 text-white group-hover:scale-110 transition" />
               </div>
