@@ -158,13 +158,51 @@ export default function OffbeatHills() {
               `Day –3 :After breakfast, Check-out (08.00 am) from Hotel/Homestay. Alternatively; extend your excursion to  Phalut at 11800 Ft  (extra cost). Experience the entire range of Kanchenjunga Range on a clear day. Range Rover will drop you at Manebhanjan. On the return journey, visit Mirik, Gopal Dhara View Point & Pashupati Market in Nepal. Lunch at Mirik. Then proceed towards Bagdogra Airport (IXB) / New Jalpaiguri Railway Station (NJP), a 3-4 hrs drive in AC vehicle & drop at your point before (06.00pm) for your Forwarding Journey. Tour ends...`
             ]}
           />
-e
+
 </div>
 
 
         </div>
       </section>
+<section className="py-20 bg-white">
+  <div className="max-w-7xl mx-auto px-6">
 
+    {/* Heading */}
+    <div className="text-center mb-16">
+      <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
+        Offbeat Hill Locations
+      </h2>
+      <p className="text-gray-600 max-w-3xl mx-auto">
+        Discover hidden gems of Darjeeling & Kalimpong hills with customised tour packages.
+      </p>
+    </div>
+
+    {/* Locations Grid */}
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+
+      {[
+        "Tabakoshi", "Sittong", "Dawaipani", "Rishyap",
+        "Takdah", "Mungpoo", "Jorpokhri", "Pedong",
+        "Ahaldara", "Chatakpur", "Ramdura", "Longchu",
+        "Daragaon", "Kolakham", "Lava", "Chitrey",
+        "Latpanchar", "Kaffergaon", "Sandakphu", "Manebhanjan",
+        "Tinchuley", "Lepcha Jagat", "Charkhole", "Lamahatta",
+        "Tea Gardens", "Chibbo", "Tumling"
+      ].map((place, index) => (
+        <div
+          key={index}
+          className="bg-gray-50 border border-gray-200 rounded-xl p-4 text-center shadow-sm hover:shadow-md hover:-translate-y-1 transition duration-300 cursor-pointer"
+        >
+          <h3 className="font-semibold text-gray-800 text-sm md:text-base">
+            {place}
+          </h3>
+        </div>
+      ))}
+
+    </div>
+
+  </div>
+</section>
       {/* Tour Information Section */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">

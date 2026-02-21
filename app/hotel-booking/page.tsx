@@ -206,6 +206,27 @@ Aranyak Resort | Bamboo Trail | Bonani | Chatakpur Eco Hut | Dooars Mountain | D
       </div>
     </section>
 
+   <section className="mb-16">
+      <h3 className="text-3xl font-bold text-gray-900 mb-4">
+        Hotel names at Puri
+      </h3>
+    <p className="text-gray-700 leading-relaxed mb-6">
+  Puri is one of the most popular pilgrimage and beach destinations in Odisha, 
+  famous for the sacred Jagannath Temple and the serene coastline along the Bay of Bengal. 
+  Every year thousands of devotees and tourists visit Puri to attend the world-renowned 
+  Rath Yatra festival and enjoy the peaceful sea breeze at Golden Beach. 
+  From luxury sea-facing resorts and premium beach hotels to budget-friendly stays 
+  near VIP Road and Swargadwar, Puri offers accommodation options suitable for 
+  families, couples, pilgrims and leisure travelers. Many hotels are located close 
+  to the beach, Jagannath Temple and Marine Drive, making sightseeing and relaxation 
+  convenient for visitors.
+</p>
+      <div className="bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed">
+       Seagull / Park Beach / Camellia / Sagarika / Golden Tree / Puri Beach Resort / Golden Beach / Beach View / Victoria / Atithi  /  Raj / Suv Palace /  Diamond  / Sea Hawk / Sonar Bangla /  Sea View / East-West / Empires / Blue Lily / Prabhu Pada / Niladri / Shree Hari / Sea Wave / Landmark / Puri Inn Hotel / Sankhabela / Deep Resort / Surya Beach / Royal Palace / Hans Coco / Zamindar Palace / Dreamland / Sterling / Chariot (or) *Similar* (On VIP Road) Golden Palace / Nayak Beach / Sandy Villa / Tohshali Sands  / Sapphire / MH Residence / Krishna Palace / Sagar Tarang / Mayfair Waves / Holiday Inn (or) Similar Properties
+      </div>
+    </section>
+
+
     {/* COASTAL DESTINATIONS */}
     <section className="mb-16">
       <h3 className="text-3xl font-bold text-gray-900 mb-4">
