@@ -1044,7 +1044,7 @@ const otherReligiousDestinations = [
         location: "Jharkhand",
         type: "Hindu Temple",
         description: "One of the 12 Jyotirlingas of Lord Shiva",
-        significance: "Major Shiva pilgrimage"
+        significance: "Major Kaali pilgrimage"
     },
     {
         name: "Belur Math",
@@ -1131,11 +1131,11 @@ const otherReligiousDestinations = [
         significance: "Christian heritage tour"
     },
     {
-        name: "Taraknath Temple / Tarakeswar",
+        name: "Tarapeeth Temple / Tarakeswar",
         location: "Hooghly",
         type: "Hindu Temple",
         description: "Famous Ma Tara Temple",
-        significance: "Major Shiva pilgrimage"
+        significance: "Major Kaali pilgrimage"
     }
 ];
 const pilgrimageFeatures = [

@@ -1,15 +1,14 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
+  "/book-hotel/page": "app/book-hotel/page.js",
+  "/contact/page": "app/contact/page.js",
   "/haridwar-rishikesh-tourism/page": "app/haridwar-rishikesh-tourism/page.js",
-  "/jungle-safari/page": "app/jungle-safari/page.js",
+  "/hotel-booking/page": "app/hotel-booking/page.js",
   "/kolkata/page": "app/kolkata/page.js",
-  "/offbeat-hills/page": "app/offbeat-hills/page.js",
-  "/offbeat-plains/page": "app/offbeat-plains/page.js",
   "/packages/bengal-beckons/page": "app/packages/bengal-beckons/page.js",
   "/packages/foreign-tours/page": "app/packages/foreign-tours/page.js",
   "/packages/india/page": "app/packages/india/page.js",
   "/page": "app/page.js",
   "/religious-pilgrimage/page": "app/religious-pilgrimage/page.js",
-  "/short-breaks/page": "app/short-breaks/page.js",
   "/sundarban/page": "app/sundarban/page.js"
 }

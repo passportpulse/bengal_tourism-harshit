@@ -15,7 +15,7 @@ export const majorAttractions = [
   },
   {
     name: "Howrah Bridge",
-    image: "https://images.unsplash.com/photo-1571679654681-ba01b9e1e117?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8SG93cmFoJTIwQnJpZGdlfGVufDB8fDB8fHww",
+    image: "/kolkata-DIY.avif",
     description:
       "Iconic cantilever bridge over the Hooghly River, an engineering marvel.",
     location: "Howrah"
@@ -50,11 +50,25 @@ export const majorAttractions = [
   },
   {
     name: "Tram Museum",
-    image: "https://images.unsplash.com/photo-1645066143704-d9c5235d3ef4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8VHJhbSUyME11c2V1bXxlbnwwfHwwfHx8MA%3D%3D",
+    image: "/hotal/Tram.jpg",
     description:
       "Showcasing the vintage tram heritage and transportation history of Kolkata.",
     location: "Esplanade"
-  }
+  },
+ {
+  name: "Marble Palace",
+  image: "/hotal/marble-palace.jpeg",
+  description:
+    "A stunning 19th-century mansion in North Kolkata known for its grand architecture, rare antiques, marble sculptures, and beautiful courtyard.",
+  location: "Muktaram Babu Street, North Kolkata"
+},
+{
+  name: "Park Street",
+  image: "/hotal/park-street.jpg",
+  description:
+    "Kolkata’s most vibrant street famous for its restaurants, nightlife, colonial-era buildings, and festive decorations during Christmas and New Year.",
+  location: "Park Street Area, Central Kolkata"
+}
 ];
 export default function KolkataPage() {
     const router = useRouter()
@@ -109,7 +123,7 @@ export default function KolkataPage() {
           {/* ---------- RIGHT IMAGE ---------- */}
           <div className="flex justify-center md:justify-end">
             <img
-              src="/kolkata-DIY.avif"
+              src="/img/kolkata.jpeg"
               alt="Kolkata Victoria Memorial Hall at sunset with city skyline"
               className="w-full max-w-md md:max-w-lg lg:max-w-xl rounded-2xl shadow-2xl"
             />
@@ -437,33 +451,9 @@ export default function KolkataPage() {
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-yellow-400 to-orange-500 flex items-center justify-center">
-                <Sparkles className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Park Street</h3>
-                <p className="text-gray-700 mb-4">Vibrant nightlife with street food, entertainment, and cultural shows</p>
-                <div className="flex items-center gap-2 text-yellow-600">
-                  <MapPin className="w-4 h-4" />
-                  <span className="text-sm">Park Circus Area</span>
-                </div>
-              </div>
-            </div>
+        
 
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-green-400 to-teal-500 flex items-center justify-center">
-                <Train className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Tram Museum</h3>
-                <p className="text-gray-700 mb-4">Preserved heritage of Kolkata's iconic tram transportation system</p>
-                <div className="flex items-center gap-2 text-green-600">
-                  <MapPin className="w-4 h-4" />
-                  <span className="text-sm">Esplanade</span>
-                </div>
-              </div>
-            </div>
+        
 
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
               <div className="h-48 bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">

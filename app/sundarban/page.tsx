@@ -4,7 +4,56 @@ import Image from 'next/image'
 import { Trees, Waves, MapPin, Calendar, Users, Star, Clock, Camera, Anchor, Eye, Bird, Fish, Trees as TreeIcon, Home, Ship, IndianRupee, Award, Compass } from 'lucide-react'
 import ContactCTA from '@/components/ContactCTA'
 import PackagePricing from '@/components/PackagePricing'
-
+const watchTowers = [
+    {
+      id: 1,
+      name: "Sajnekhali Watch Tower",
+      image: "/hotal/Sajnekhali.jpeg",
+      description:
+        "Main tourist hub with museum, crocodile park, turtle sanctuary and mangrove interpretation center.",
+      location: "Sajnekhali, Sundarbans Tiger Reserve"
+    },
+    {
+      id: 2,
+      name: "Dobanki Watch Tower",
+      image: "/hotal/do-banki-camp02.png",
+      description:
+        "Famous for its thrilling canopy walk through dense mangrove forest.",
+      location: "Dobanki Camp Area"
+    },
+    {
+      id: 3,
+      name: "Netidhopani Watch Tower",
+      image: "/hotal/netidhopani.jpeg",
+      description:
+        "Historic ruins with mythological significance and excellent tiger sighting zone.",
+      location: "Deep Forest Core Area"
+    },
+    {
+      id: 4,
+      name: "Sudhanyakhali Watch Tower",
+      image: "/hotal/sudhanyakhali.jpeg",
+      description:
+        "Prime wildlife spotting location for Royal Bengal Tiger, deer and crocodiles.",
+      location: "Core Tiger Reserve Area"
+    },
+    {
+      id: 5,
+      name: "Burir Dabri Watch Tower",
+      image: "/hotal/burirdabri.jpeg",
+      description:
+        "Mud walk and mangrove cage trail leading to Raimangal View Point near Indo-Bangladesh border.",
+      location: "Extended Zone (Special Permit Required)"
+    },
+    {
+      id: 6,
+      name: "Kumirmari Watch Tower",
+      image: "/hotal/kumirmari.jpeg",
+      description:
+        "Village side watch point offering rustic mangrove landscape and local culture experience.",
+      location: "Kumirmari Village Area"
+    }
+  ];
 export default function SundarbanPage() {
   return (
     <main className="text-gray-800">
@@ -135,7 +184,7 @@ export default function SundarbanPage() {
           />
               <Destination
             title="SUNDARBAN-III"
-            cta='Book Now for 2N/3D'
+            cta='Book Now for 3N/4D'
             subtitle="Circuit-III MANGROVE FOREST-OTHER AREAS"
             content={[
               `Day - 1 :Start of tour : Pick up from Science City (08.30 a.m.). Packet breakfast with bottled water will be served in the Car / Bus. Arrival at Godhkhali (about 120 km / 3 hrs later). Departure by Launch at Resort / Hotel at Gosaba / Pakhiralay / Dayapur / Dulki / Bonnie Camp Island. Tea / Coffee / Refreshment to be served during the launch journey. Reach & check-in at the Resort / Hotel Buffet Lunch as per menu. Post lunch, Sightseeing by river cruise around Jotirampur Bird Watching Island for sighting of Migratory Birds. Evening Tea / Coffee / Refreshments are served. A colourful Cultural Programme of local village folk dance at the Resort / Hotel  (optional) can be arranged. Dinner & Overnight stay in Resort/ Hotel at Sundarban.`,
@@ -152,116 +201,59 @@ export default function SundarbanPage() {
       </section>
 
       {/* ================= WATCH TOWERS & ATTRACTIONS ================= */}
-      <section className="py-20 bg-gradient-to-br from-green-50 to-blue-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Watch Towers & Attractions</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Strategic viewpoints for wildlife spotting and experiencing the mangrove ecosystem
-            </p>
-          </div>
+  <section className="py-20 bg-gradient-to-br from-green-50 to-blue-50">
+      <div className="max-w-7xl mx-auto px-6">
+        
+        {/* Heading */}
+        <div className="text-center mb-12">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+            Watch Towers & Attractions
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Strategic viewpoints for wildlife spotting and experiencing the mangrove ecosystem
+          </p>
+        </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-green-400 to-blue-500 flex items-center justify-center">
-                <Eye className="w-16 h-16 text-white group-hover:scale-110 transition" />
+        {/* Grid */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {watchTowers.map((tower) => (
+            <div
+              key={tower.id}
+              className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group"
+            >
+              {/* Image */}
+              <div className="relative h-56">
+                <Image
+                  src={tower.image}
+                  alt={tower.name}
+                  fill
+                  className="object-cover group-hover:scale-110 transition duration-500"
+                />
               </div>
+
+              {/* Content */}
               <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Sajnekhali Watch Tower</h3>
-                <p className="text-gray-700 mb-4">Main tourist hub with museum, crocodile park, and turtle sanctuary</p>
+                <h3 className="text-2xl font-bold mb-3">
+                  {tower.name}
+                </h3>
+
+                <p className="text-gray-700 mb-4">
+                  {tower.description}
+                </p>
+
                 <div className="flex items-center gap-2 text-green-600">
                   <MapPin className="w-4 h-4" />
-                  <span className="text-sm">Tiger Project Area</span>
+                  <span className="text-sm">
+                    {tower.location}
+                  </span>
                 </div>
               </div>
             </div>
-
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center">
-                <Trees className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Dobanki Watch Tower</h3>
-                <p className="text-gray-700 mb-4">Famous for canopy walk through mangrove forest</p>
-                <div className="flex items-center gap-2 text-orange-600">
-                  <MapPin className="w-4 h-4" />
-                  <span className="text-sm">Do-Banki Tiger Reserve</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-purple-400 to-pink-500 flex items-center justify-center">
-                <Camera className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Netidhopani Watch Tower</h3>
-                <p className="text-gray-700 mb-4">Historical site with ruins and excellent tiger spotting</p>
-                <div className="flex items-center gap-2 text-purple-600">
-                  <MapPin className="w-4 h-4" />
-                  <span className="text-sm">Deep Forest Area</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-blue-400 to-green-500 flex items-center justify-center">
-                <Bird className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Sudhanyakhali Watch Tower</h3>
-                <p className="text-gray-700 mb-4">Prime location for tiger and deer sightings</p>
-                <div className="flex items-center gap-2 text-blue-600">
-                  <MapPin className="w-4 h-4" />
-                  <span className="text-sm">Core Tiger Area</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-yellow-400 to-orange-500 flex items-center justify-center">
-                <Compass className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Burir Dabri Watch Tower</h3>
-                <p className="text-gray-700 mb-4">Mud walk and mangrove cage trail to Raimongal View Point</p>
-                <div className="flex items-center gap-2 text-yellow-600">
-                  <MapPin className="w-4 h-4" />
-                  <span className="text-sm">Extended Area (Special Permit)</span>
-                </div>
-              </div>
-            </div>
-
-              <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-yellow-400 to-orange-500 flex items-center justify-center">
-                <Compass className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Burir Dabri Watch Tower</h3>
-                <p className="text-gray-700 mb-4">Mud walk and mangrove cage trail to Raimongal View Point</p>
-                <div className="flex items-center gap-2 text-yellow-600">
-                  <MapPin className="w-4 h-4" />
-                  <span className="text-sm">Extended Area (Special Permit)</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-teal-400 to-blue-500 flex items-center justify-center">
-                <Fish className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Kumirmari Watch Tower</h3>
-                <p className="text-gray-700 mb-4">Exciting jungle views and rustic market experience</p>
-                <div className="flex items-center gap-2 text-teal-600">
-                  <MapPin className="w-4 h-4" />
-                  <span className="text-sm">Village Area</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
-      </section>
+
+      </div>
+    </section>
 
       {/* ================= WILDLIFE & NATURE ================= */}
       <section className="py-20 bg-white">

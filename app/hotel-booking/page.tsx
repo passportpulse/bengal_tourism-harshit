@@ -1,6 +1,7 @@
 "use client"
 
 import Image from 'next/image'
+import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout, Coffee, Leaf, TreePine, Stethoscope, HeartPulse, Shield, Globe, Phone, Mail, CheckCircle, AlertCircle, Activity, Brain, Bone, Eye, User, Bed, Wifi, Car, Utensils as UtensilsIcon, Wind } from 'lucide-react'
 import ContactCTA from '@/components/ContactCTA'
@@ -32,7 +33,7 @@ export default function HotelBookingPage() {
       ],
       hotels: ["Anand Palace", "Ascot", "Broadway", "Bellevue Heritage", "Central Heritage", "Cedar Inn", "Crystal Palace", "Central Nirvana", "Dolphin", "Dreamland", "Dakeling", "Elgin", "Fairmount", "Golden Height Enclave", "Glenary", "Hermitage", "Krishna Residency", "Mayfair Resorts", "Maple", "Mt. Royal", "Mt. View", "North Star", "Oasis", "Pineridge", "Pinetree", "Pink Mountain", "Princess", "Palbheu", "R J Resort", "Rhododendron", "Spring Burn", "Sunflower", "Seven Seventeen", "Shangri-La", "Sonar Bangla", "Sinclairs / Swiss Hotel", "Sterling Snow Lion", "Travellers Inn", "Yuma", "Viceroy", "Windamare"]
     }
-    
+
   ]
 
   const extraPersonCharges = [
@@ -62,7 +63,7 @@ export default function HotelBookingPage() {
               <Building className="w-6 h-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold tracking-wide">HOTEL BOOKING</span>
             </div>
-            
+
             <h1 className="text-5xl  text-center md:text-7xl font-bold mb-6 leading-tight">
               Best Discounted Hotels
               <span className="block text-3xl md:text-5xl mt-2 text-purple-300">
@@ -95,7 +96,7 @@ export default function HotelBookingPage() {
         </div>
       </section>
 
-   
+
 
       {/* ================= HOTEL LISTINGS ================= */}
       <section className="py-20 bg-white">
@@ -111,8 +112,8 @@ export default function HotelBookingPage() {
             {hotelData.map((location) => (
               <div key={location.id} className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition">
                 {/* Image Section - Full Width */}
-             
-                
+
+
                 {/* Content Section - Below Image */}
                 <div className="p-6 md:p-8">
                   {/* Room Cards */}
@@ -140,146 +141,185 @@ export default function HotelBookingPage() {
                   </div>
 
                   {/* Hotels List */}
-              
+
                 </div>
               </div>
             ))}
           </div>
         </div>
       </section>
-<section className="py-24 bg-gradient-to-b from-white to-gray-50">
-  <div className="max-w-7xl mx-auto px-6">
+      <section className="py-24 bg-gradient-to-b from-white to-gray-50">
+        <div className="max-w-7xl mx-auto px-6">
 
-    {/* Main Heading */}
-    <header className="text-center mb-20">
-      <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">
-        Hotels, Resorts & Home Stays Across North Bengal & Eastern India
-      </h2>
-      <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
-        We offer carefully selected hotels, luxury resorts, boutique stays and eco-friendly home stays across 
-        Darjeeling, Dooars, Sundarban, Gangtok, Puri, Digha and other popular destinations. 
-        Our accommodations range from premium heritage properties to sustainable community-based homestays.
-      </p>
-    </header>
+          {/* Main Heading */}
+          <header className="text-center mb-20">
+            <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">
+              Hotels, Resorts & Home Stays Across North Bengal & Eastern India
+            </h2>
+            <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
+              We offer carefully selected hotels, luxury resorts, boutique stays and eco-friendly home stays across
+              Darjeeling, Dooars, Sundarban, Gangtok, Puri, Digha and other popular destinations.
+              Our accommodations range from premium heritage properties to sustainable community-based homestays.
+            </p>
+          </header>
 
-    {/* DARJEELING */}
-    <section className="mb-16">
-      <h3 className="text-3xl font-bold text-gray-900 mb-4">
-        Hotels in Darjeeling 
-      </h3>
-      <p className="text-gray-700 leading-relaxed mb-6">
-        Darjeeling, known as the “Queen of the Hills”, offers a blend of colonial charm and modern comfort. 
-        We provide accommodation options near Mall Road, Chowrasta, tea gardens and scenic viewpoints.
-      </p>
-      <div className="bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed">
-       Anand Palace | Ascot | Broadway | Bellevue Heritage | Central Heritage | Cedar Inn | Crystal Palace | Central Nirvana | Central Heritage | Dolphin | Dreamland | Dakeling | Elgin | Fairmount | Golden Height Enclave | Glenary | Hermitage | Krishna Residency | Mayfair Resorts | Maple | Mt. Royal | Mt. View | North Star | Oasis | Pineridge | Pinetree | Pink Mountain | Princess | Palbheu | R J Resort | Rhododendron | Spring Burn | Sunflower | Seven Seventeen | Shangri-La | Sonar Bangla | Sinclairs / Swiss Hotel | Sterling Snow Lion | Travellers Inn | Yuma | Viceroy | Windamare | ... & Similar Category Hotels
-      </div>
-    </section>
+          {/* DARJEELING */}
+          <section className="mb-16">
+            <div className="flex items-center gap-5  mb-4">
+              <h3 className="text-3xl font-bold text-gray-900">
+                Hotels in Darjeeling
+              </h3>
+              <Link href="/book-hotel" className="bg-gradient-to-r rounded-full from-red-600 to-red-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
+                Book Now
+              </Link>
+            </div>
+            <p className="text-gray-700 leading-relaxed mb-6">
+              Darjeeling, known as the “Queen of the Hills”, offers a blend of colonial charm and modern comfort.
+              We provide accommodation options near Mall Road, Chowrasta, tea gardens and scenic viewpoints.
+            </p>
+            <div className="bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed">
+              Anand Palace | Ascot | Broadway | Bellevue Heritage | Central Heritage | Cedar Inn | Crystal Palace | Central Nirvana | Central Heritage | Dolphin | Dreamland | Dakeling | Elgin | Fairmount | Golden Height Enclave | Glenary | Hermitage | Krishna Residency | Mayfair Resorts | Maple | Mt. Royal | Mt. View | North Star | Oasis | Pineridge | Pinetree | Pink Mountain | Princess | Palbheu | R J Resort | Rhododendron | Spring Burn | Sunflower | Seven Seventeen | Shangri-La | Sonar Bangla | Sinclairs / Swiss Hotel | Sterling Snow Lion | Travellers Inn | Yuma | Viceroy | Windamare | ... & Similar Category Hotels
+            </div>
+          </section>
 
-    {/* DOOARS */}
-    <section className="mb-16">
-      <h3 className="text-3xl font-bold text-gray-900 mb-4">
-        Dooars Resorts – Jungle Retreats & Wildlife Stays
-      </h3>
-      <p className="text-gray-700 leading-relaxed mb-6">
-        Experience wildlife tourism in Gorumara, Jaldapara, Murti and Lataguri. 
-        Our Dooars properties include forest resorts, river-side lodges and eco cottages 
-        ideal for nature lovers and wildlife enthusiasts.
-      </p>
-      <div className="bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed">
-Aranyak Resort | Bamboo Trail | Bonani | Chatakpur Eco Hut | Dooars Mountain | Dreamland | Debrani | Elephanta Forest | Forest Inn | Gorumara | Green Touch Resort | Green Lagoon | Golden Resort | Green Heaven | Hatihana Green Castle | Hollong Tourist Lodge | Hatari Resort | Heaven Inn | Jungle Inn | Jaldapara Resort | Jungle Resort | Jaldapara Inn | Jaldapara Tourist Lodge | Kadambini Resort | Kontiki Resort | Khairibari Forest Hut | Lake View | Murti Tourist Lodge | Murti River Resort | Natures Hut | Neora River Resort | Pagoda Inn | Prime Murti | Pagoda | Rhino Resort | Riverwood Forest | Rovers Inn | Wild Hut | Sinclairs Hotel | Tusker Den | Wild Hut | ... & Similar Jungle Resorts
-      </div>
-    </section>
+          {/* DOOARS */}
+          <section className="mb-16">
+            <div className="flex items-center gap-5  mb-4">
+              <h3 className="text-3xl font-bold text-gray-900">
+                Dooars Resorts – Jungle Retreats & Wildlife Stays
+              </h3>
+              <Link href="/book-hotel" className="bg-gradient-to-r rounded-full from-red-600 to-red-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
+                Book Now
+              </Link>
+            </div>
 
-    {/* SUNDARBAN */}
-    <section className="mb-16">
-      <h3 className="text-3xl font-bold text-gray-900 mb-4">
-        Sundarban Eco Resorts – Mangrove & Wildlife Tourism
-      </h3>
-      <p className="text-gray-700 leading-relaxed mb-6">
-        Discover the UNESCO World Heritage Mangrove Forest of Sundarban. 
-        Our eco-friendly resorts and river-side stays support local communities 
-        while offering safe and immersive wildlife experiences.
-      </p>
-      <div className="bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed">
-       Apanjan | Banani | Eco Resort | Mainak | Mangrove Retreat | River Side | Royal Bengal Resort | Riverwood | Riverside Holiday | Sajnekhali Tourist Lodge | Solitary Nook | Sudarban Gateway Resort | Suranjana Resort | Hotel S-21 | Tiger Camp | Tiger View Resort | United 21 ... & Similar Properties
-      </div>
-    </section>
+            <p className="text-gray-700 leading-relaxed mb-6">
+              Experience wildlife tourism in Gorumara, Jaldapara, Murti and Lataguri.
+              Our Dooars properties include forest resorts, river-side lodges and eco cottages
+              ideal for nature lovers and wildlife enthusiasts.
+            </p>
+            <div className="bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed">
+              Aranyak Resort | Bamboo Trail | Bonani | Chatakpur Eco Hut | Dooars Mountain | Dreamland | Debrani | Elephanta Forest | Forest Inn | Gorumara | Green Touch Resort | Green Lagoon | Golden Resort | Green Heaven | Hatihana Green Castle | Hollong Tourist Lodge | Hatari Resort | Heaven Inn | Jungle Inn | Jaldapara Resort | Jungle Resort | Jaldapara Inn | Jaldapara Tourist Lodge | Kadambini Resort | Kontiki Resort | Khairibari Forest Hut | Lake View | Murti Tourist Lodge | Murti River Resort | Natures Hut | Neora River Resort | Pagoda Inn | Prime Murti | Pagoda | Rhino Resort | Riverwood Forest | Rovers Inn | Wild Hut | Sinclairs Hotel | Tusker Den | Wild Hut | ... & Similar Jungle Resorts
+            </div>
+          </section>
 
-   <section className="mb-16">
-      <h3 className="text-3xl font-bold text-gray-900 mb-4">
-        Hotel names at Puri
-      </h3>
-    <p className="text-gray-700 leading-relaxed mb-6">
-  Puri is one of the most popular pilgrimage and beach destinations in Odisha, 
-  famous for the sacred Jagannath Temple and the serene coastline along the Bay of Bengal. 
-  Every year thousands of devotees and tourists visit Puri to attend the world-renowned 
-  Rath Yatra festival and enjoy the peaceful sea breeze at Golden Beach. 
-  From luxury sea-facing resorts and premium beach hotels to budget-friendly stays 
-  near VIP Road and Swargadwar, Puri offers accommodation options suitable for 
-  families, couples, pilgrims and leisure travelers. Many hotels are located close 
-  to the beach, Jagannath Temple and Marine Drive, making sightseeing and relaxation 
-  convenient for visitors.
-</p>
-      <div className="bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed">
-       Seagull / Park Beach / Camellia / Sagarika / Golden Tree / Puri Beach Resort / Golden Beach / Beach View / Victoria / Atithi  /  Raj / Suv Palace /  Diamond  / Sea Hawk / Sonar Bangla /  Sea View / East-West / Empires / Blue Lily / Prabhu Pada / Niladri / Shree Hari / Sea Wave / Landmark / Puri Inn Hotel / Sankhabela / Deep Resort / Surya Beach / Royal Palace / Hans Coco / Zamindar Palace / Dreamland / Sterling / Chariot (or) *Similar* (On VIP Road) Golden Palace / Nayak Beach / Sandy Villa / Tohshali Sands  / Sapphire / MH Residence / Krishna Palace / Sagar Tarang / Mayfair Waves / Holiday Inn (or) Similar Properties
-      </div>
-    </section>
+          {/* SUNDARBAN */}
+          <section className="mb-16">
 
+            <div className="flex items-center gap-5  mb-4">
+              <h3 className="text-3xl font-bold text-gray-900">
+                Sundarban Eco Resorts – Mangrove & Wildlife Tourism
+              </h3>
+              <Link href="/book-hotel" className="bg-gradient-to-r rounded-full from-red-600 to-red-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
+                Book Now
+              </Link>
+            </div>
+            <p className="text-gray-700 leading-relaxed mb-6">
+              Discover the UNESCO World Heritage Mangrove Forest of Sundarban.
+              Our eco-friendly resorts and river-side stays support local communities
+              while offering safe and immersive wildlife experiences.
+            </p>
+            <div className="bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed">
+              Apanjan | Banani | Eco Resort | Mainak | Mangrove Retreat | River Side | Royal Bengal Resort | Riverwood | Riverside Holiday | Sajnekhali Tourist Lodge | Solitary Nook | Sudarban Gateway Resort | Suranjana Resort | Hotel S-21 | Tiger Camp | Tiger View Resort | United 21 ... & Similar Properties
+            </div>
+          </section>
 
-    {/* COASTAL DESTINATIONS */}
-    <section className="mb-16">
-      <h3 className="text-3xl font-bold text-gray-900 mb-4">
-        Coastal Hotels – Digha, Mandarmoni, Puri & Bakkhali
-      </h3>
-      <p className="text-gray-700 leading-relaxed mb-6">
-        Enjoy beachfront stays along the Bay of Bengal including Digha, Mandarmoni, 
-        Tajpur, Shankarpur, Puri and Gopalpur. Choose from sea-view resorts, 
-        premium beach villas and family-friendly hotels.
-      </p>
-      <div className="bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed">
-        Asha International | Ambalika | Blue View | Dolphin | Digha Tourist Lodge | Jai Ram Hi Tide | JP Hotel | Garden Retreat | Gitanjali | Greenland Inn | M Plaza | Ownland Resort | Peeku's Inn | Sea View | Seagull | | Pearl International | Rajeet | Reelook | Sea Green | Sea Bird | Sonar Bangla | Sea Hawk | Sea Coast | Sun View Resort | Sea Sand | Sea Star Resort | & Similar Beach Resorts
-      </div>
-    </section>
+          <section className="mb-16">
 
-    {/* SIKKIM */}
-    <section className="mb-16">
-      <h3 className="text-3xl font-bold text-gray-900 mb-4">
-        Sikkim Hotels – Gangtok, Pelling, Lachung & Lachen
-      </h3>
-      <p className="text-gray-700 leading-relaxed mb-6">
-        Explore the Himalayan beauty of Sikkim with our curated hotels in Gangtok, 
-        Pelling, Ravangla, Lachung and Lachen. Options include spa resorts, 
-        mountain-view boutique hotels and traditional stays.
-      </p>
-      <div className="bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed">
-        Apple Orchard | Anola | Bamboo Grove | Central Heritage | Chumbi Residency | Coral Inn | Central Hotel | Cherry Guest House | Casino Mahjong | Doma Palace | Doma Residency | Fortuna | Juniper | Mayfair Resorts & Spa | Maya Inn | Mist Tree Mountain | Oakridge Retreat | The Oriental | Riccasa | Rendezvous | Royal Plaza | Sonam Delek | Silk Route Residency | Sai Kripa | Summit Spa | Tamarind | Terrace Valley | Tres Teli | Tara Palace | Tashi Delek / Tashi Thendup | Tashiling | Tibet | White Conch |... & Similar Hotels
-      </div>
-    </section>
+            <div className="flex items-center gap-5  mb-4">
+              <h3 className="text-3xl font-bold text-gray-900">
+                Hotel names at Puri
+              </h3>
+              <Link href="/book-hotel" className="bg-gradient-to-r rounded-full from-red-600 to-red-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
+                Book Now
+              </Link>
+            </div>
+            <p className="text-gray-700 leading-relaxed mb-6">
+              Puri is one of the most popular pilgrimage and beach destinations in Odisha,
+              famous for the sacred Jagannath Temple and the serene coastline along the Bay of Bengal.
+              Every year thousands of devotees and tourists visit Puri to attend the world-renowned
+              Rath Yatra festival and enjoy the peaceful sea breeze at Golden Beach.
+              From luxury sea-facing resorts and premium beach hotels to budget-friendly stays
+              near VIP Road and Swargadwar, Puri offers accommodation options suitable for
+              families, couples, pilgrims and leisure travelers. Many hotels are located close
+              to the beach, Jagannath Temple and Marine Drive, making sightseeing and relaxation
+              convenient for visitors.
+            </p>
+            <div className="bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed">
+              Seagull / Park Beach / Camellia / Sagarika / Golden Tree / Puri Beach Resort / Golden Beach / Beach View / Victoria / Atithi  /  Raj / Suv Palace /  Diamond  / Sea Hawk / Sonar Bangla /  Sea View / East-West / Empires / Blue Lily / Prabhu Pada / Niladri / Shree Hari / Sea Wave / Landmark / Puri Inn Hotel / Sankhabela / Deep Resort / Surya Beach / Royal Palace / Hans Coco / Zamindar Palace / Dreamland / Sterling / Chariot (or) *Similar* (On VIP Road) Golden Palace / Nayak Beach / Sandy Villa / Tohshali Sands  / Sapphire / MH Residence / Krishna Palace / Sagar Tarang / Mayfair Waves / Holiday Inn (or) Similar Properties
+            </div>
+          </section>
 
 
-    {/* ECO TOURISM CONTENT */}
-    <section className="mt-20 bg-gradient-to-r from-green-50 to-emerald-50 border border-green-200 rounded-2xl p-10 shadow-lg">
-      <h3 className="text-3xl font-bold text-gray-900 mb-6">
-        Sustainable Tourism & Bengal Home Stay Concept
-      </h3>
-      <p className="text-gray-700 leading-relaxed mb-4">
-        West Bengal’s biodiversity stretches from the Sundarban Mangrove Forest 
-        to the Neora Valley National Park in North Bengal. 
-        Eco-tourism here promotes environmental protection, local employment, 
-        and responsible travel.
-      </p>
-      <p className="text-gray-700 leading-relaxed">
-        Our Bengal Home Stay facilities support local communities while offering 
-        authentic cultural experiences in off-beat destinations like 
-        Lamahatta, Teenchuley, Dzongu, Sillery Gaon and Zuluk.
-        Together, we contribute towards the global mission —
-        <span className="font-semibold text-green-700"> Save Environment, Save Earth.</span>
-      </p>
-    </section>
+          {/* COASTAL DESTINATIONS */}
+          <section className="mb-16">
 
-  </div>
-</section>
+            <div className="flex items-center gap-5  mb-4">
+              <h3 className="text-3xl font-bold text-gray-900">
+                Coastal Hotels – Digha, Mandarmoni, Puri & Bakkhali
+              </h3>
+              <Link href="/book-hotel" className="bg-gradient-to-r rounded-full from-red-600 to-red-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
+                Book Now
+              </Link>
+            </div>
+            <p className="text-gray-700 leading-relaxed mb-6">
+              Enjoy beachfront stays along the Bay of Bengal including Digha, Mandarmoni,
+              Tajpur, Shankarpur, Puri and Gopalpur. Choose from sea-view resorts,
+              premium beach villas and family-friendly hotels.
+            </p>
+            <div className="bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed">
+              Asha International | Ambalika | Blue View | Dolphin | Digha Tourist Lodge | Jai Ram Hi Tide | JP Hotel | Garden Retreat | Gitanjali | Greenland Inn | M Plaza | Ownland Resort | Peeku's Inn | Sea View | Seagull | | Pearl International | Rajeet | Reelook | Sea Green | Sea Bird | Sonar Bangla | Sea Hawk | Sea Coast | Sun View Resort | Sea Sand | Sea Star Resort | & Similar Beach Resorts
+            </div>
+          </section>
+
+          {/* SIKKIM */}
+          <section className="mb-16">
+
+            <div className="flex items-center gap-5  mb-4">
+              <h3 className="text-3xl font-bold text-gray-900">
+                Sikkim Hotels – Gangtok, Pelling, Lachung & Lachen
+              </h3>
+              <Link href="/book-hotel" className="bg-gradient-to-r rounded-full from-red-600 to-red-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
+                Book Now
+              </Link>
+            </div>
+            <p className="text-gray-700 leading-relaxed mb-6">
+              Explore the Himalayan beauty of Sikkim with our curated hotels in Gangtok,
+              Pelling, Ravangla, Lachung and Lachen. Options include spa resorts,
+              mountain-view boutique hotels and traditional stays.
+            </p>
+            <div className="bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed">
+              Apple Orchard | Anola | Bamboo Grove | Central Heritage | Chumbi Residency | Coral Inn | Central Hotel | Cherry Guest House | Casino Mahjong | Doma Palace | Doma Residency | Fortuna | Juniper | Mayfair Resorts & Spa | Maya Inn | Mist Tree Mountain | Oakridge Retreat | The Oriental | Riccasa | Rendezvous | Royal Plaza | Sonam Delek | Silk Route Residency | Sai Kripa | Summit Spa | Tamarind | Terrace Valley | Tres Teli | Tara Palace | Tashi Delek / Tashi Thendup | Tashiling | Tibet | White Conch |... & Similar Hotels
+            </div>
+          </section>
+
+
+          {/* ECO TOURISM CONTENT */}
+          <section className="mt-20 bg-gradient-to-r from-green-50 to-emerald-50 border border-green-200 rounded-2xl p-10 shadow-lg">
+       
+                   <div className="flex items-center gap-5  mb-4">
+              <h3 className="text-3xl font-bold text-gray-900">
+              Sustainable Tourism & Bengal Home Stay Concept
+              </h3>
+           
+            </div>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              West Bengal’s biodiversity stretches from the Sundarban Mangrove Forest
+              to the Neora Valley National Park in North Bengal.
+              Eco-tourism here promotes environmental protection, local employment,
+              and responsible travel.
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              Our Bengal Home Stay facilities support local communities while offering
+              authentic cultural experiences in off-beat destinations like
+              Lamahatta, Teenchuley, Dzongu, Sillery Gaon and Zuluk.
+              Together, we contribute towards the global mission —
+              <span className="font-semibold text-green-700"> Save Environment, Save Earth.</span>
+            </p>
+          </section>
+
+        </div>
+      </section>
 
 
       {/* ================= EXTRA PERSON CHARGES ================= */}
@@ -320,11 +360,11 @@ Aranyak Resort | Bamboo Trail | Bonani | Chatakpur Eco Hut | Dooars Mountain | D
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-green-800">Support Local Communities</h3>
                 <p className="text-gray-700 mb-6 leading-relaxed">
-                  When it comes to boasting the richness of Indian Bio-diversity, North Bengal's Heritage Forests & Hills are nature lover's heaven. 
+                  When it comes to boasting the richness of Indian Bio-diversity, North Bengal's Heritage Forests & Hills are nature lover's heaven.
                   West Bengal's potential to attract nature lovers can certainly create economical, ecological and social relations with the environment.
                 </p>
                 <p className="text-gray-700 mb-6 leading-relaxed">
-                  Eco-tourism is the best example where all feasible conditions are met following environmental rules stringently, 
+                  Eco-tourism is the best example where all feasible conditions are met following environmental rules stringently,
                   further improving it with the inclusion of "community development".
                 </p>
                 <div className="space-y-3">
@@ -345,14 +385,14 @@ Aranyak Resort | Bamboo Trail | Bonani | Chatakpur Eco Hut | Dooars Mountain | D
               <div className="bg-white rounded-xl p-6">
                 <h4 className="font-bold mb-4 text-green-800">Featured Home Stays</h4>
                 <div className="grid grid-cols-2 gap-3">
-                  {["Bagora Diki House", "Bird's View @ Kalimpong", "Cherry Village @ Pelling", "Druk @ Lamahatta", 
-                    "Everest Hut @ Lamahatta", "Gurung Guest House", "Khushi Farm", "Mangwa Farm", 
+                  {["Bagora Diki House", "Bird's View @ Kalimpong", "Cherry Village @ Pelling", "Druk @ Lamahatta",
+                    "Everest Hut @ Lamahatta", "Gurung Guest House", "Khushi Farm", "Mangwa Farm",
                     "Sillery Gaon", "Snow Lion @ Zuluk", "Tinchuley Homestay"].map((stay, index) => (
-                    <div key={index} className="bg-green-50 p-3 rounded-lg text-sm">
-                      <Home className="w-4 h-4 text-green-600 mb-1" />
-                      <span className="text-gray-700">{stay}</span>
-                    </div>
-                  ))}
+                      <div key={index} className="bg-green-50 p-3 rounded-lg text-sm">
+                        <Home className="w-4 h-4 text-green-600 mb-1" />
+                        <span className="text-gray-700">{stay}</span>
+                      </div>
+                    ))}
                 </div>
               </div>
             </div>
@@ -368,8 +408,8 @@ Aranyak Resort | Bamboo Trail | Bonani | Chatakpur Eco Hut | Dooars Mountain | D
             <div>
               <h3 className="font-bold text-gray-800 mb-2">Important Booking Information</h3>
               <p className="text-gray-700 leading-relaxed mb-3">
-                Booking of Hotel Room/Accommodation in Hotel, Resorts, Lodge, Guest House, Home Stay is subject matter of Solicitation. 
-                Bengal Tourism will guarantee booking of your accommodation in your preferred Hotel/Guest House but reserves the right 
+                Booking of Hotel Room/Accommodation in Hotel, Resorts, Lodge, Guest House, Home Stay is subject matter of Solicitation.
+                Bengal Tourism will guarantee booking of your accommodation in your preferred Hotel/Guest House but reserves the right
                 to allot you accommodation in any property in the same location with similar or upgraded facilities.
               </p>
               <p className="text-gray-700 leading-relaxed">
@@ -381,8 +421,8 @@ Aranyak Resort | Bamboo Trail | Bonani | Chatakpur Eco Hut | Dooars Mountain | D
       </section>
 
 
- 
-<ContactCTA />
+
+      <ContactCTA />
     </main>
   )
 }

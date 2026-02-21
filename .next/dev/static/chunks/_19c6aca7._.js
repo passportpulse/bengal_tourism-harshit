@@ -190,6 +190,7 @@ __turbopack_context__.s([
     ()=>HotelBookingPage
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$house$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Home$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/house.js [app-client] (ecmascript) <export default as Home>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/building.js [app-client] (ecmascript) <export default as Building>");
@@ -200,6 +201,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
+;
 ;
 ;
 ;
@@ -349,20 +351,20 @@ function HotelBookingPage() {
                                 className: "w-full h-full object-cover"
                             }, void 0, false, {
                                 fileName: "[project]/app/hotel-booking/page.tsx",
-                                lineNumber: 51,
+                                lineNumber: 52,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute inset-0 bg-gradient-to-b from-purple-900/80 via-pink-800/60 to-purple-900/80"
                             }, void 0, false, {
                                 fileName: "[project]/app/hotel-booking/page.tsx",
-                                lineNumber: 56,
+                                lineNumber: 57,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/hotel-booking/page.tsx",
-                        lineNumber: 50,
+                        lineNumber: 51,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -377,7 +379,7 @@ function HotelBookingPage() {
                                             className: "w-6 h-6 text-yellow-400"
                                         }, void 0, false, {
                                             fileName: "[project]/app/hotel-booking/page.tsx",
-                                            lineNumber: 62,
+                                            lineNumber: 63,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -385,13 +387,13 @@ function HotelBookingPage() {
                                             children: "HOTEL BOOKING"
                                         }, void 0, false, {
                                             fileName: "[project]/app/hotel-booking/page.tsx",
-                                            lineNumber: 63,
+                                            lineNumber: 64,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 61,
+                                    lineNumber: 62,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -403,13 +405,13 @@ function HotelBookingPage() {
                                             children: "Guest Houses • Home Stays • All Tourist Locations"
                                         }, void 0, false, {
                                             fileName: "[project]/app/hotel-booking/page.tsx",
-                                            lineNumber: 68,
+                                            lineNumber: 69,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 66,
+                                    lineNumber: 67,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -417,7 +419,7 @@ function HotelBookingPage() {
                                     children: "Well-appointed accommodations across Bengal, Odisha, Sikkim and other destinations"
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 73,
+                                    lineNumber: 74,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -428,7 +430,7 @@ function HotelBookingPage() {
                                             children: "View Hotels"
                                         }, void 0, false, {
                                             fileName: "[project]/app/hotel-booking/page.tsx",
-                                            lineNumber: 78,
+                                            lineNumber: 79,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -437,24 +439,24 @@ function HotelBookingPage() {
                                             children: "Book Now"
                                         }, void 0, false, {
                                             fileName: "[project]/app/hotel-booking/page.tsx",
-                                            lineNumber: 81,
+                                            lineNumber: 82,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 77,
+                                    lineNumber: 78,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/hotel-booking/page.tsx",
-                            lineNumber: 60,
+                            lineNumber: 61,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/hotel-booking/page.tsx",
-                        lineNumber: 59,
+                        lineNumber: 60,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -467,7 +469,7 @@ function HotelBookingPage() {
                                     children: "Find Your Perfect Stay"
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 90,
+                                    lineNumber: 91,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -476,29 +478,29 @@ function HotelBookingPage() {
                                         className: "w-1 h-3 bg-white rounded-full mt-2 animate-pulse"
                                     }, void 0, false, {
                                         fileName: "[project]/app/hotel-booking/page.tsx",
-                                        lineNumber: 92,
+                                        lineNumber: 93,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 91,
+                                    lineNumber: 92,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/hotel-booking/page.tsx",
-                            lineNumber: 89,
+                            lineNumber: 90,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/hotel-booking/page.tsx",
-                        lineNumber: 88,
+                        lineNumber: 89,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/hotel-booking/page.tsx",
-                lineNumber: 49,
+                lineNumber: 50,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -514,7 +516,7 @@ function HotelBookingPage() {
                                     children: "Hotel Room Rates"
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 104,
+                                    lineNumber: 105,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -522,13 +524,13 @@ function HotelBookingPage() {
                                     children: "Affiliated Hotels & Resorts at Prominent Tourist Locations"
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 105,
+                                    lineNumber: 106,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/hotel-booking/page.tsx",
-                            lineNumber: 103,
+                            lineNumber: 104,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -547,14 +549,14 @@ function HotelBookingPage() {
                                                             className: "w-5 h-5 text-blue-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/hotel-booking/page.tsx",
-                                                            lineNumber: 121,
+                                                            lineNumber: 122,
                                                             columnNumber: 23
                                                         }, this),
                                                         "Available Room Types"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                                    lineNumber: 120,
+                                                    lineNumber: 121,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -569,7 +571,7 @@ function HotelBookingPage() {
                                                                             className: "w-4 h-4 text-blue-600 flex-shrink-0"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/hotel-booking/page.tsx",
-                                                                            lineNumber: 128,
+                                                                            lineNumber: 129,
                                                                             columnNumber: 29
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -577,13 +579,13 @@ function HotelBookingPage() {
                                                                             children: "Available"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/hotel-booking/page.tsx",
-                                                                            lineNumber: 129,
+                                                                            lineNumber: 130,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                                                    lineNumber: 127,
+                                                                    lineNumber: 128,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -591,7 +593,7 @@ function HotelBookingPage() {
                                                                     children: room.type
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                                                    lineNumber: 131,
+                                                                    lineNumber: 132,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -599,7 +601,7 @@ function HotelBookingPage() {
                                                                     children: room.meals
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                                                    lineNumber: 132,
+                                                                    lineNumber: 133,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -607,7 +609,7 @@ function HotelBookingPage() {
                                                                     children: room.price
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                                                    lineNumber: 133,
+                                                                    lineNumber: 134,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -616,50 +618,50 @@ function HotelBookingPage() {
                                                                     children: "Book Now"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                                                    lineNumber: 134,
+                                                                    lineNumber: 135,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, index, true, {
                                                             fileName: "[project]/app/hotel-booking/page.tsx",
-                                                            lineNumber: 126,
+                                                            lineNumber: 127,
                                                             columnNumber: 25
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                                    lineNumber: 124,
+                                                    lineNumber: 125,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/hotel-booking/page.tsx",
-                                            lineNumber: 119,
+                                            lineNumber: 120,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/hotel-booking/page.tsx",
-                                        lineNumber: 117,
+                                        lineNumber: 118,
                                         columnNumber: 17
                                     }, this)
                                 }, location.id, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 112,
+                                    lineNumber: 113,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/hotel-booking/page.tsx",
-                            lineNumber: 110,
+                            lineNumber: 111,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/hotel-booking/page.tsx",
-                    lineNumber: 102,
+                    lineNumber: 103,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/hotel-booking/page.tsx",
-                lineNumber: 101,
+                lineNumber: 102,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -675,239 +677,354 @@ function HotelBookingPage() {
                                     children: "Hotels, Resorts & Home Stays Across North Bengal & Eastern India"
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 155,
-                                    columnNumber: 7
+                                    lineNumber: 156,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed",
                                     children: "We offer carefully selected hotels, luxury resorts, boutique stays and eco-friendly home stays across Darjeeling, Dooars, Sundarban, Gangtok, Puri, Digha and other popular destinations. Our accommodations range from premium heritage properties to sustainable community-based homestays."
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 158,
-                                    columnNumber: 7
+                                    lineNumber: 159,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/hotel-booking/page.tsx",
-                            lineNumber: 154,
-                            columnNumber: 5
+                            lineNumber: 155,
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                             className: "mb-16",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-3xl font-bold text-gray-900 mb-4",
-                                    children: "Hotels in Darjeeling"
-                                }, void 0, false, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex items-center gap-5  mb-4",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-3xl font-bold text-gray-900",
+                                            children: "Hotels in Darjeeling"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/hotel-booking/page.tsx",
+                                            lineNumber: 169,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/book-hotel",
+                                            className: "bg-gradient-to-r rounded-full from-red-600 to-red-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105",
+                                            children: "Book Now"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/hotel-booking/page.tsx",
+                                            lineNumber: 172,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 167,
-                                    columnNumber: 7
+                                    lineNumber: 168,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-gray-700 leading-relaxed mb-6",
                                     children: "Darjeeling, known as the “Queen of the Hills”, offers a blend of colonial charm and modern comfort. We provide accommodation options near Mall Road, Chowrasta, tea gardens and scenic viewpoints."
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 170,
-                                    columnNumber: 7
+                                    lineNumber: 176,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed",
                                     children: "Anand Palace | Ascot | Broadway | Bellevue Heritage | Central Heritage | Cedar Inn | Crystal Palace | Central Nirvana | Central Heritage | Dolphin | Dreamland | Dakeling | Elgin | Fairmount | Golden Height Enclave | Glenary | Hermitage | Krishna Residency | Mayfair Resorts | Maple | Mt. Royal | Mt. View | North Star | Oasis | Pineridge | Pinetree | Pink Mountain | Princess | Palbheu | R J Resort | Rhododendron | Spring Burn | Sunflower | Seven Seventeen | Shangri-La | Sonar Bangla | Sinclairs / Swiss Hotel | Sterling Snow Lion | Travellers Inn | Yuma | Viceroy | Windamare | ... & Similar Category Hotels"
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 174,
-                                    columnNumber: 7
+                                    lineNumber: 180,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/hotel-booking/page.tsx",
-                            lineNumber: 166,
-                            columnNumber: 5
+                            lineNumber: 167,
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                             className: "mb-16",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-3xl font-bold text-gray-900 mb-4",
-                                    children: "Dooars Resorts – Jungle Retreats & Wildlife Stays"
-                                }, void 0, false, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex items-center gap-5  mb-4",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-3xl font-bold text-gray-900",
+                                            children: "Dooars Resorts – Jungle Retreats & Wildlife Stays"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/hotel-booking/page.tsx",
+                                            lineNumber: 188,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/book-hotel",
+                                            className: "bg-gradient-to-r rounded-full from-red-600 to-red-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105",
+                                            children: "Book Now"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/hotel-booking/page.tsx",
+                                            lineNumber: 191,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 181,
-                                    columnNumber: 7
+                                    lineNumber: 187,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-gray-700 leading-relaxed mb-6",
                                     children: "Experience wildlife tourism in Gorumara, Jaldapara, Murti and Lataguri. Our Dooars properties include forest resorts, river-side lodges and eco cottages ideal for nature lovers and wildlife enthusiasts."
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 184,
-                                    columnNumber: 7
+                                    lineNumber: 196,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed",
                                     children: "Aranyak Resort | Bamboo Trail | Bonani | Chatakpur Eco Hut | Dooars Mountain | Dreamland | Debrani | Elephanta Forest | Forest Inn | Gorumara | Green Touch Resort | Green Lagoon | Golden Resort | Green Heaven | Hatihana Green Castle | Hollong Tourist Lodge | Hatari Resort | Heaven Inn | Jungle Inn | Jaldapara Resort | Jungle Resort | Jaldapara Inn | Jaldapara Tourist Lodge | Kadambini Resort | Kontiki Resort | Khairibari Forest Hut | Lake View | Murti Tourist Lodge | Murti River Resort | Natures Hut | Neora River Resort | Pagoda Inn | Prime Murti | Pagoda | Rhino Resort | Riverwood Forest | Rovers Inn | Wild Hut | Sinclairs Hotel | Tusker Den | Wild Hut | ... & Similar Jungle Resorts"
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 189,
-                                    columnNumber: 7
+                                    lineNumber: 201,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/hotel-booking/page.tsx",
-                            lineNumber: 180,
-                            columnNumber: 5
+                            lineNumber: 186,
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                             className: "mb-16",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-3xl font-bold text-gray-900 mb-4",
-                                    children: "Sundarban Eco Resorts – Mangrove & Wildlife Tourism"
-                                }, void 0, false, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex items-center gap-5  mb-4",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-3xl font-bold text-gray-900",
+                                            children: "Sundarban Eco Resorts – Mangrove & Wildlife Tourism"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/hotel-booking/page.tsx",
+                                            lineNumber: 210,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/book-hotel",
+                                            className: "bg-gradient-to-r rounded-full from-red-600 to-red-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105",
+                                            children: "Book Now"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/hotel-booking/page.tsx",
+                                            lineNumber: 213,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 196,
-                                    columnNumber: 7
+                                    lineNumber: 209,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-gray-700 leading-relaxed mb-6",
                                     children: "Discover the UNESCO World Heritage Mangrove Forest of Sundarban. Our eco-friendly resorts and river-side stays support local communities while offering safe and immersive wildlife experiences."
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 199,
-                                    columnNumber: 7
+                                    lineNumber: 217,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed",
                                     children: "Apanjan | Banani | Eco Resort | Mainak | Mangrove Retreat | River Side | Royal Bengal Resort | Riverwood | Riverside Holiday | Sajnekhali Tourist Lodge | Solitary Nook | Sudarban Gateway Resort | Suranjana Resort | Hotel S-21 | Tiger Camp | Tiger View Resort | United 21 ... & Similar Properties"
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 204,
-                                    columnNumber: 7
+                                    lineNumber: 222,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/hotel-booking/page.tsx",
-                            lineNumber: 195,
-                            columnNumber: 5
+                            lineNumber: 207,
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                             className: "mb-16",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-3xl font-bold text-gray-900 mb-4",
-                                    children: "Hotel names at Puri"
-                                }, void 0, false, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex items-center gap-5  mb-4",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-3xl font-bold text-gray-900",
+                                            children: "Hotel names at Puri"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/hotel-booking/page.tsx",
+                                            lineNumber: 230,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/book-hotel",
+                                            className: "bg-gradient-to-r rounded-full from-red-600 to-red-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105",
+                                            children: "Book Now"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/hotel-booking/page.tsx",
+                                            lineNumber: 233,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 210,
-                                    columnNumber: 7
+                                    lineNumber: 229,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-gray-700 leading-relaxed mb-6",
                                     children: "Puri is one of the most popular pilgrimage and beach destinations in Odisha, famous for the sacred Jagannath Temple and the serene coastline along the Bay of Bengal. Every year thousands of devotees and tourists visit Puri to attend the world-renowned Rath Yatra festival and enjoy the peaceful sea breeze at Golden Beach. From luxury sea-facing resorts and premium beach hotels to budget-friendly stays near VIP Road and Swargadwar, Puri offers accommodation options suitable for families, couples, pilgrims and leisure travelers. Many hotels are located close to the beach, Jagannath Temple and Marine Drive, making sightseeing and relaxation convenient for visitors."
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 213,
-                                    columnNumber: 5
+                                    lineNumber: 237,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed",
                                     children: "Seagull / Park Beach / Camellia / Sagarika / Golden Tree / Puri Beach Resort / Golden Beach / Beach View / Victoria / Atithi  /  Raj / Suv Palace /  Diamond  / Sea Hawk / Sonar Bangla /  Sea View / East-West / Empires / Blue Lily / Prabhu Pada / Niladri / Shree Hari / Sea Wave / Landmark / Puri Inn Hotel / Sankhabela / Deep Resort / Surya Beach / Royal Palace / Hans Coco / Zamindar Palace / Dreamland / Sterling / Chariot (or) *Similar* (On VIP Road) Golden Palace / Nayak Beach / Sandy Villa / Tohshali Sands  / Sapphire / MH Residence / Krishna Palace / Sagar Tarang / Mayfair Waves / Holiday Inn (or) Similar Properties"
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 224,
-                                    columnNumber: 7
+                                    lineNumber: 248,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/hotel-booking/page.tsx",
-                            lineNumber: 209,
-                            columnNumber: 4
+                            lineNumber: 227,
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                             className: "mb-16",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-3xl font-bold text-gray-900 mb-4",
-                                    children: "Coastal Hotels – Digha, Mandarmoni, Puri & Bakkhali"
-                                }, void 0, false, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex items-center gap-5  mb-4",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-3xl font-bold text-gray-900",
+                                            children: "Coastal Hotels – Digha, Mandarmoni, Puri & Bakkhali"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/hotel-booking/page.tsx",
+                                            lineNumber: 258,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/book-hotel",
+                                            className: "bg-gradient-to-r rounded-full from-red-600 to-red-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105",
+                                            children: "Book Now"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/hotel-booking/page.tsx",
+                                            lineNumber: 261,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 232,
-                                    columnNumber: 7
+                                    lineNumber: 257,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-gray-700 leading-relaxed mb-6",
                                     children: "Enjoy beachfront stays along the Bay of Bengal including Digha, Mandarmoni, Tajpur, Shankarpur, Puri and Gopalpur. Choose from sea-view resorts, premium beach villas and family-friendly hotels."
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 235,
-                                    columnNumber: 7
+                                    lineNumber: 265,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed",
                                     children: "Asha International | Ambalika | Blue View | Dolphin | Digha Tourist Lodge | Jai Ram Hi Tide | JP Hotel | Garden Retreat | Gitanjali | Greenland Inn | M Plaza | Ownland Resort | Peeku's Inn | Sea View | Seagull | | Pearl International | Rajeet | Reelook | Sea Green | Sea Bird | Sonar Bangla | Sea Hawk | Sea Coast | Sun View Resort | Sea Sand | Sea Star Resort | & Similar Beach Resorts"
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 240,
-                                    columnNumber: 7
+                                    lineNumber: 270,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/hotel-booking/page.tsx",
-                            lineNumber: 231,
-                            columnNumber: 5
+                            lineNumber: 255,
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                             className: "mb-16",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-3xl font-bold text-gray-900 mb-4",
-                                    children: "Sikkim Hotels – Gangtok, Pelling, Lachung & Lachen"
-                                }, void 0, false, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex items-center gap-5  mb-4",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-3xl font-bold text-gray-900",
+                                            children: "Sikkim Hotels – Gangtok, Pelling, Lachung & Lachen"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/hotel-booking/page.tsx",
+                                            lineNumber: 279,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/book-hotel",
+                                            className: "bg-gradient-to-r rounded-full from-red-600 to-red-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105",
+                                            children: "Book Now"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/hotel-booking/page.tsx",
+                                            lineNumber: 282,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 247,
-                                    columnNumber: 7
+                                    lineNumber: 278,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-gray-700 leading-relaxed mb-6",
                                     children: "Explore the Himalayan beauty of Sikkim with our curated hotels in Gangtok, Pelling, Ravangla, Lachung and Lachen. Options include spa resorts, mountain-view boutique hotels and traditional stays."
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 250,
-                                    columnNumber: 7
+                                    lineNumber: 286,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed",
                                     children: "Apple Orchard | Anola | Bamboo Grove | Central Heritage | Chumbi Residency | Coral Inn | Central Hotel | Cherry Guest House | Casino Mahjong | Doma Palace | Doma Residency | Fortuna | Juniper | Mayfair Resorts & Spa | Maya Inn | Mist Tree Mountain | Oakridge Retreat | The Oriental | Riccasa | Rendezvous | Royal Plaza | Sonam Delek | Silk Route Residency | Sai Kripa | Summit Spa | Tamarind | Terrace Valley | Tres Teli | Tara Palace | Tashi Delek / Tashi Thendup | Tashiling | Tibet | White Conch |... & Similar Hotels"
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 255,
-                                    columnNumber: 7
+                                    lineNumber: 291,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/hotel-booking/page.tsx",
-                            lineNumber: 246,
-                            columnNumber: 5
+                            lineNumber: 276,
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                             className: "mt-20 bg-gradient-to-r from-green-50 to-emerald-50 border border-green-200 rounded-2xl p-10 shadow-lg",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-3xl font-bold text-gray-900 mb-6",
-                                    children: "Sustainable Tourism & Bengal Home Stay Concept"
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex items-center gap-5  mb-4",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "text-3xl font-bold text-gray-900",
+                                        children: "Sustainable Tourism & Bengal Home Stay Concept"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/hotel-booking/page.tsx",
+                                        lineNumber: 301,
+                                        columnNumber: 15
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 263,
-                                    columnNumber: 7
+                                    lineNumber: 300,
+                                    columnNumber: 20
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-gray-700 leading-relaxed mb-4",
                                     children: "West Bengal’s biodiversity stretches from the Sundarban Mangrove Forest to the Neora Valley National Park in North Bengal. Eco-tourism here promotes environmental protection, local employment, and responsible travel."
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 266,
-                                    columnNumber: 7
+                                    lineNumber: 306,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-gray-700 leading-relaxed",
@@ -918,31 +1035,31 @@ function HotelBookingPage() {
                                             children: " Save Environment, Save Earth."
                                         }, void 0, false, {
                                             fileName: "[project]/app/hotel-booking/page.tsx",
-                                            lineNumber: 277,
-                                            columnNumber: 9
+                                            lineNumber: 317,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 272,
-                                    columnNumber: 7
+                                    lineNumber: 312,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/hotel-booking/page.tsx",
-                            lineNumber: 262,
-                            columnNumber: 5
+                            lineNumber: 298,
+                            columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/hotel-booking/page.tsx",
-                    lineNumber: 151,
-                    columnNumber: 3
+                    lineNumber: 152,
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/hotel-booking/page.tsx",
-                lineNumber: 150,
-                columnNumber: 1
+                lineNumber: 151,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "py-20 bg-white",
@@ -957,7 +1074,7 @@ function HotelBookingPage() {
                                     children: "Home Stay Facilities"
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 312,
+                                    lineNumber: 352,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -965,13 +1082,13 @@ function HotelBookingPage() {
                                     children: "Experience authentic local hospitality with our recommended home stays"
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
-                                    lineNumber: 313,
+                                    lineNumber: 353,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/hotel-booking/page.tsx",
-                            lineNumber: 311,
+                            lineNumber: 351,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -986,7 +1103,7 @@ function HotelBookingPage() {
                                                 children: "Support Local Communities"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/hotel-booking/page.tsx",
-                                                lineNumber: 321,
+                                                lineNumber: 361,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -994,7 +1111,7 @@ function HotelBookingPage() {
                                                 children: "When it comes to boasting the richness of Indian Bio-diversity, North Bengal's Heritage Forests & Hills are nature lover's heaven. West Bengal's potential to attract nature lovers can certainly create economical, ecological and social relations with the environment."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/hotel-booking/page.tsx",
-                                                lineNumber: 322,
+                                                lineNumber: 362,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1002,7 +1119,7 @@ function HotelBookingPage() {
                                                 children: 'Eco-tourism is the best example where all feasible conditions are met following environmental rules stringently, further improving it with the inclusion of "community development".'
                                             }, void 0, false, {
                                                 fileName: "[project]/app/hotel-booking/page.tsx",
-                                                lineNumber: 326,
+                                                lineNumber: 366,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1015,7 +1132,7 @@ function HotelBookingPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/hotel-booking/page.tsx",
-                                                                lineNumber: 332,
+                                                                lineNumber: 372,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1023,13 +1140,13 @@ function HotelBookingPage() {
                                                                 children: "Sustainable income opportunities for locals"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/hotel-booking/page.tsx",
-                                                                lineNumber: 333,
+                                                                lineNumber: 373,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/hotel-booking/page.tsx",
-                                                        lineNumber: 331,
+                                                        lineNumber: 371,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1039,7 +1156,7 @@ function HotelBookingPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/hotel-booking/page.tsx",
-                                                                lineNumber: 336,
+                                                                lineNumber: 376,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1047,13 +1164,13 @@ function HotelBookingPage() {
                                                                 children: "Authentic cultural experiences"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/hotel-booking/page.tsx",
-                                                                lineNumber: 337,
+                                                                lineNumber: 377,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/hotel-booking/page.tsx",
-                                                        lineNumber: 335,
+                                                        lineNumber: 375,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1063,7 +1180,7 @@ function HotelBookingPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/hotel-booking/page.tsx",
-                                                                lineNumber: 340,
+                                                                lineNumber: 380,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1071,25 +1188,25 @@ function HotelBookingPage() {
                                                                 children: "Unexplored natural beauty"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/hotel-booking/page.tsx",
-                                                                lineNumber: 341,
+                                                                lineNumber: 381,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/hotel-booking/page.tsx",
-                                                        lineNumber: 339,
+                                                        lineNumber: 379,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/hotel-booking/page.tsx",
-                                                lineNumber: 330,
+                                                lineNumber: 370,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/hotel-booking/page.tsx",
-                                        lineNumber: 320,
+                                        lineNumber: 360,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1100,7 +1217,7 @@ function HotelBookingPage() {
                                                 children: "Featured Home Stays"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/hotel-booking/page.tsx",
-                                                lineNumber: 346,
+                                                lineNumber: 386,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1124,54 +1241,54 @@ function HotelBookingPage() {
                                                                 className: "w-4 h-4 text-green-600 mb-1"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/hotel-booking/page.tsx",
-                                                                lineNumber: 352,
-                                                                columnNumber: 23
+                                                                lineNumber: 392,
+                                                                columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 className: "text-gray-700",
                                                                 children: stay
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/hotel-booking/page.tsx",
-                                                                lineNumber: 353,
-                                                                columnNumber: 23
+                                                                lineNumber: 393,
+                                                                columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, index, true, {
                                                         fileName: "[project]/app/hotel-booking/page.tsx",
-                                                        lineNumber: 351,
-                                                        columnNumber: 21
+                                                        lineNumber: 391,
+                                                        columnNumber: 23
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/hotel-booking/page.tsx",
-                                                lineNumber: 347,
+                                                lineNumber: 387,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/hotel-booking/page.tsx",
-                                        lineNumber: 345,
+                                        lineNumber: 385,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/hotel-booking/page.tsx",
-                                lineNumber: 319,
+                                lineNumber: 359,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/hotel-booking/page.tsx",
-                            lineNumber: 318,
+                            lineNumber: 358,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/hotel-booking/page.tsx",
-                    lineNumber: 310,
+                    lineNumber: 350,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/hotel-booking/page.tsx",
-                lineNumber: 309,
+                lineNumber: 349,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1185,7 +1302,7 @@ function HotelBookingPage() {
                                 className: "w-6 h-6 text-yellow-600 flex-shrink-0 mt-1"
                             }, void 0, false, {
                                 fileName: "[project]/app/hotel-booking/page.tsx",
-                                lineNumber: 367,
+                                lineNumber: 407,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1195,7 +1312,7 @@ function HotelBookingPage() {
                                         children: "Important Booking Information"
                                     }, void 0, false, {
                                         fileName: "[project]/app/hotel-booking/page.tsx",
-                                        lineNumber: 369,
+                                        lineNumber: 409,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1203,7 +1320,7 @@ function HotelBookingPage() {
                                         children: "Booking of Hotel Room/Accommodation in Hotel, Resorts, Lodge, Guest House, Home Stay is subject matter of Solicitation. Bengal Tourism will guarantee booking of your accommodation in your preferred Hotel/Guest House but reserves the right to allot you accommodation in any property in the same location with similar or upgraded facilities."
                                     }, void 0, false, {
                                         fileName: "[project]/app/hotel-booking/page.tsx",
-                                        lineNumber: 370,
+                                        lineNumber: 410,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1211,40 +1328,40 @@ function HotelBookingPage() {
                                         children: "Off Season Discounts / High Peak Season Rates shall apply & charged separately."
                                     }, void 0, false, {
                                         fileName: "[project]/app/hotel-booking/page.tsx",
-                                        lineNumber: 375,
+                                        lineNumber: 415,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/hotel-booking/page.tsx",
-                                lineNumber: 368,
+                                lineNumber: 408,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/hotel-booking/page.tsx",
-                        lineNumber: 366,
+                        lineNumber: 406,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/hotel-booking/page.tsx",
-                    lineNumber: 365,
+                    lineNumber: 405,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/hotel-booking/page.tsx",
-                lineNumber: 364,
+                lineNumber: 404,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/hotel-booking/page.tsx",
-                lineNumber: 385,
-                columnNumber: 1
+                lineNumber: 425,
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/hotel-booking/page.tsx",
-        lineNumber: 46,
+        lineNumber: 47,
         columnNumber: 5
     }, this);
 }

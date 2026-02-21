@@ -26,7 +26,7 @@ export default function HaridwarRishikeshTourismPage() {
               <Temple className="w-6 h-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold tracking-wide">UTTARAKHAND SPIRITUAL TOUR</span>
             </div>
-            
+
             <h1 className="text-5xl text-center md:text-7xl font-bold mb-6 leading-tight">
               Haridwar - Rishikesh
               <span className="block text-3xl md:text-5xl mt-2 text-orange-300">
@@ -35,7 +35,7 @@ export default function HaridwarRishikeshTourismPage() {
             </h1>
 
             <p className="text-xl text-center md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
-              Experience the perfect blend of spirituality, adventure, and natural beauty 
+              Experience the perfect blend of spirituality, adventure, and natural beauty
               with special tailor-made packages for divine seekers
             </p>
 
@@ -81,10 +81,10 @@ export default function HaridwarRishikeshTourismPage() {
                       <h3 className="text-xl font-bold">Day 1: Arrival in Haridwar</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      On arrival at Haridwar Railway Station / Jolly Grant Airport, you will be transferred to Hotel. 
-                      Check in and relax for a while. Lunch break. 
-                      Evening visit to Har Ki Pauri for the mesmerizing Ganga Aarti ceremony. 
-                      Explore the local markets and have dinner. 
+                      On arrival at Haridwar Railway Station / Jolly Grant Airport, you will be transferred to Hotel.
+                      Check in and relax for a while. Lunch break.
+                      Evening visit to Har Ki Pauri for the mesmerizing Ganga Aarti ceremony.
+                      Explore the local markets and have dinner.
                       Breakfast & Dinner included. Overnight at Hotel in Haridwar.
                     </p>
                   </div>
@@ -96,10 +96,10 @@ export default function HaridwarRishikeshTourismPage() {
                       <h3 className="text-xl font-bold">Day 2: Haridwar Sightseeing</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      After breakfast, visit Mansa Devi Temple via cable car, then Chandi Devi Temple. 
-                      Visit Maya Devi Temple and Daksha Mahadev Temple. 
-                      Lunch at local restaurant. 
-                      Evening free for personal activities and shopping. 
+                      After breakfast, visit Mansa Devi Temple via cable car, then Chandi Devi Temple.
+                      Visit Maya Devi Temple and Daksha Mahadev Temple.
+                      Lunch at local restaurant.
+                      Evening free for personal activities and shopping.
                       Breakfast & Dinner included. Overnight at Hotel in Haridwar.
                     </p>
                   </div>
@@ -111,11 +111,11 @@ export default function HaridwarRishikeshTourismPage() {
                       <h3 className="text-xl font-bold">Day 3: Transfer to Rishikesh</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      After breakfast, check-out and transfer to Rishikesh (20 km). 
-                      Check in to hotel and relax. 
-                      Visit Laxman Jhula and Ram Jhula suspension bridges. 
-                      Explore Parmarth Niketan Ashram and attend evening Ganga Aarti. 
-                      Lunch en-route. 
+                      After breakfast, check-out and transfer to Rishikesh (20 km).
+                      Check in to hotel and relax.
+                      Visit Laxman Jhula and Ram Jhula suspension bridges.
+                      Explore Parmarth Niketan Ashram and attend evening Ganga Aarti.
+                      Lunch en-route.
                       Breakfast & Dinner included. Overnight at Hotel in Rishikesh.
                     </p>
                   </div>
@@ -131,11 +131,11 @@ export default function HaridwarRishikeshTourismPage() {
                       <h3 className="text-xl font-bold">Day 4: Rishikesh Exploration</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      After breakfast, visit Beatles Ashram and Neelkanth Mahadev Temple. 
-                      Explore yoga and meditation centers. 
-                      Optional adventure activities like river rafting and bungee jumping. 
-                      Lunch at local cafe. 
-                      Evening visit to local markets. 
+                      After breakfast, visit Beatles Ashram and Neelkanth Mahadev Temple.
+                      Explore yoga and meditation centers.
+                      Optional adventure activities like river rafting and bungee jumping.
+                      Lunch at local cafe.
+                      Evening visit to local markets.
                       Breakfast & Dinner included. Overnight at Hotel in Rishikesh.
                     </p>
                   </div>
@@ -147,9 +147,9 @@ export default function HaridwarRishikeshTourismPage() {
                       <h3 className="text-xl font-bold">Day 5: Yoga & Departure</h3>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      Early morning yoga session by the Ganges. 
-                      After breakfast, check-out & transfer to Haridwar Railway Station / Jolly Grant Airport 
-                      for your return journey on your departure time. 
+                      Early morning yoga session by the Ganges.
+                      After breakfast, check-out & transfer to Haridwar Railway Station / Jolly Grant Airport
+                      for your return journey on your departure time.
                       Breakfast included. Tour ends...
                     </p>
                   </div>
@@ -181,7 +181,7 @@ export default function HaridwarRishikeshTourismPage() {
           </div>
         </div>
       </section>
-        {/* ================= ADD-ON DESTINATIONS ================= */}
+      {/* ================= ADD-ON DESTINATIONS ================= */}
       <div className="bg-gray-50 py-20 px-6 md:px-12">
         <div className="max-w-7xl mx-auto space-y-20">
 
@@ -196,109 +196,46 @@ export default function HaridwarRishikeshTourismPage() {
           </div>
 
 
-<Destination
-  title="Nainital Sightseeing Tour"
-  cta="Book Now for 2N/3D"
-  subtitle="Lake District of India – Scenic Hill Escape"
-  content={[
-`Nainital is one of the most popular hill stations in Uttarakhand, known as the Lake District of India. Surrounded by lush hills and pristine lakes, Nainital offers boating, shopping at Mall Road, and panoramic Himalayan views.`,
+          <Destination
+            title="Nainital Sightseeing Tour"
+            cta="Book Now for 2N/3D"
+            subtitle="Lake District of India – Scenic Hill Escape"
+            content={[
+              `Nainital is one of the most popular hill stations in Uttarakhand, known as the Lake District of India. Surrounded by lush hills and pristine lakes, Nainital offers boating, shopping at Mall Road, and panoramic Himalayan views.`,
 
-`Day 1: Arrival in Nainital
+              `Day 1: Arrival in Nainital
 Meal Plan: Dinner
 Arrival and hotel check-in. Evening walk at Mall Road. Enjoy local markets and lakeside views. Overnight stay in Nainital.`,
 
-`Day 2: Nainital Local Sightseeing
+              `Day 2: Nainital Local Sightseeing
 Meal Plan: Breakfast & Dinner
 Visit Naini Lake for boating, Naina Devi Temple, Snow View Point and Tiffin Top. Optional visit to Bhimtal, Sattal and Naukuchiatal. Overnight stay in Nainital.`,
 
-`Day 3: Departure
+              `Day 3: Departure
 Meal Plan: Breakfast
-After breakfast, check-out and proceed for onward journey with beautiful hill memories.`  
-  ]}
-/>
-<Destination
-  title="Dehradun Sightseeing Tour"
-  cta="Book Now for 2N/3D"
-  subtitle="Capital of Uttarakhand – Nature & Heritage"
-  content={[
-`Dehradun, the capital city of Uttarakhand, is surrounded by the Shivalik hills and known for its pleasant climate, caves, waterfalls and colonial heritage buildings. It serves as the gateway to Mussoorie and Char Dham.`,
+After breakfast, check-out and proceed for onward journey with beautiful hill memories.`
+            ]}
+          />
+          <Destination
+            title="Dehradun Sightseeing Tour"
+            cta="Book Now for 2N/3D"
+            subtitle="Capital of Uttarakhand – Nature & Heritage"
+            content={[
+              `Dehradun, the capital city of Uttarakhand, is surrounded by the Shivalik hills and known for its pleasant climate, caves, waterfalls and colonial heritage buildings. It serves as the gateway to Mussoorie and Char Dham.`,
 
-`Day 1: Arrival in Dehradun
+              `Day 1: Arrival in Dehradun
 Meal Plan: Dinner
 Arrival and transfer to hotel. Evening at leisure. Overnight stay in Dehradun.`,
 
-`Day 2: Dehradun Local Sightseeing
+              `Day 2: Dehradun Local Sightseeing
 Meal Plan: Breakfast & Dinner
 Visit Robber’s Cave (Guchhupani), Sahastradhara sulphur springs, Forest Research Institute and Tapkeshwar Temple. Overnight stay in Dehradun.`,
 
-`Day 3: Departure
+              `Day 3: Departure
 Meal Plan: Breakfast
-After breakfast, check-out and transfer to railway station/airport for onward journey.`  
-  ]}
-/>
-
-
-
-<Destination
-            title="Nainital dehradun Haridwar"
-            cta='Book Now for 6N/7D'
-            subtitle="Add-on (or) Separately with Haridwar - rishikesh-nanital-dehradun-Haridwar"
-            content={[
-              `Day –1 :Haridwar Pickup – Rishikesh
-Meal Plan: Dinner Only
-Night Stay: Upon arrival at Haridwar Railway Station, you will be picked up
-and transferred to Rishikesh, known as the “Yoga Capital of the World.” After
-check-in and freshening up, proceed for local exploration. Visit the iconic
-suspension bridges Laxman Jhula and Ram Jhula. Explore nearby temples
-and cafes along the Ganga river. In the evening, attend the divine Ganga Aarti
-at Triveni Ghat and visit Parmarth Niketan for spiritual ambiance. Overnight
-stay in Rishikesh.`,
-
-              `Day – 2 : Rishikesh Local Sightseeing
-Meal Plan: Breakfast & Dinner
-Night Stay: After breakfast, proceed for full-day sightseeing in Rishikesh. Visit
-Neelkanth Mahadev Temple, located amidst scenic hills. Explore The Beatles
-Ashram (Chaurasi Kutia), famous for its artistic graffiti and meditation cells.
-You may also enjoy optional adventure activities such as river rafting in the
-Ganga, zip-lining, cliff jumping, or bungee jumping (at your own cost).
-Overnight stay in Rishikesh.`,
-
-              `Day – 3 :Rishikesh – Nainital
-Meal Plan: Breakfast & Dinner
-Night Stay: After breakfast, check out and drive to Nainital, known as the
-“Lake District of India.” Enjoy scenic hill views during the journey. Upon
-arrival, check-in to your hotel and relax. In the evening, you can enjoy a
-leisurely walk at The Mall Road and explore local shops. Overnight stay in
-Nainital.`,
-
-              `Day – 4 :Nainital Local Sightseeing
-Meal Plan: Breakfast & Dinner
-Night Stay: After breakfast, proceed for full-day sightseeing of Nainital. Start
-with boating at Naini Lake, followed by a visit to the sacred Naina Devi
-Temple. Visit popular viewpoints like Snow View Point and Tiffin Top for
-panoramic Himalayan views. You may also explore nearby lakes such as
-Bhimtal Lake, Sattal, and Naukuchiatal (optional). Overnight stay in Nainital.`,
-
-              `Day –5 : Nainital – Dehradun
-Meal Plan: Breakfast & Dinner
-Night Stay: After breakfast, check out and drive to Dehradun, the capital city
-of Uttarakhand surrounded by scenic hills. Upon arrival, check-in to the hotel
-and relax. Overnight stay in Dehradun.`,
-              `Day –6 : Dehradun Local Sightseeing
-Meal Plan: Breakfast & Dinner
-Night Stay: After breakfast, proceed for sightseeing in Dehradun. Visit
-Robber's Cave (Guchhupani), a natural cave formation with flowing stream.
-Explore Sahastradhara, known for its sulphur springs. Visit the grand colonial
-building of Forest Research Institute and the sacred Tapkeshwar Temple.
-Return to hotel. Overnight stay in Dehradun.`,
-              `Day –7 :Dehradun – Haridwar Drop
-Meal Plan: Breakfast Only
-Night Stay: After breakfast, check out from the hotel and drive back to
-Haridwar. Upon arrival, you will be dropped at Railway Station for your onward
-journey with beautiful memories of Uttarakhand.`
+After breakfast, check-out and transfer to railway station/airport for onward journey.`
             ]}
-          /> 
-
+          />
         </div>
       </div>
 
@@ -403,7 +340,7 @@ journey with beautiful memories of Uttarakhand.`
         </div>
       </section>
 
-    
+
       {/* ================= IMPORTANT INFORMATION ================= */}
       <section className="py-12 bg-yellow-50 border-y border-yellow-200">
         <div className="max-w-7xl mx-auto px-6">
@@ -437,13 +374,13 @@ journey with beautiful memories of Uttarakhand.`
       </section>
 
       {/* ================= PACKAGE PRICING ================= */}
-      <PackagePricing 
+      <PackagePricing
         title="Haridwar-Rishikesh Tour Packages"
         subtitle="Choose your perfect spiritual journey duration"
       />
 
-       
-    <ContactCTA />
+
+      <ContactCTA />
 
     </main>
   )
@@ -453,19 +390,19 @@ journey with beautiful memories of Uttarakhand.`
 function Destination({ title, subtitle, content, cta }: { title: string; subtitle: string; content: string[]; cta: string; }) {
   return (
     <div className="bg-white shadow-xl rounded-3xl p-10 space-y-6">
-       <div className="flex gap-5 items-center mt-8">
-   
-      <h2 className="text-3xl font-bold text-indigo-700">{title}</h2>
-        <a 
-          href="/book-tour" 
+      <div className="flex gap-5 items-center mt-8">
+
+        <h2 className="text-3xl font-bold text-indigo-700">{title}</h2>
+        <a
+          href="/book-tour"
           className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
         >
           {cta}
         </a>
-       </div>
-  
-        <p className="font-semibold text-gray-700">{subtitle}</p>
-    
+      </div>
+
+      <p className="font-semibold text-gray-700">{subtitle}</p>
+
 
       <div className="space-y-6">
         {content.map((item, index) => (
@@ -479,9 +416,9 @@ function Destination({ title, subtitle, content, cta }: { title: string; subtitl
           </div>
         ))}
       </div>
-      
-     
-     
+
+
+
     </div>
   )
 } 

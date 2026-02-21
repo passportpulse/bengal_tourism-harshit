@@ -1565,7 +1565,7 @@ After breakfast, check-out and proceed for onward journey with beautiful hill me
                         }, void 0, false, {
                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
                             lineNumber: 199,
-                            columnNumber: 1
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Destination, {
                             title: "Dehradun Sightseeing Tour",
@@ -1586,66 +1586,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                         }, void 0, false, {
                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
                             lineNumber: 219,
-                            columnNumber: 1
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Destination, {
-                            title: "Nainital dehradun Haridwar",
-                            cta: "Book Now for 6N/7D",
-                            subtitle: "Add-on (or) Separately with Haridwar - rishikesh-nanital-dehradun-Haridwar",
-                            content: [
-                                `Day –1 :Haridwar Pickup – Rishikesh
-Meal Plan: Dinner Only
-Night Stay: Upon arrival at Haridwar Railway Station, you will be picked up
-and transferred to Rishikesh, known as the “Yoga Capital of the World.” After
-check-in and freshening up, proceed for local exploration. Visit the iconic
-suspension bridges Laxman Jhula and Ram Jhula. Explore nearby temples
-and cafes along the Ganga river. In the evening, attend the divine Ganga Aarti
-at Triveni Ghat and visit Parmarth Niketan for spiritual ambiance. Overnight
-stay in Rishikesh.`,
-                                `Day – 2 : Rishikesh Local Sightseeing
-Meal Plan: Breakfast & Dinner
-Night Stay: After breakfast, proceed for full-day sightseeing in Rishikesh. Visit
-Neelkanth Mahadev Temple, located amidst scenic hills. Explore The Beatles
-Ashram (Chaurasi Kutia), famous for its artistic graffiti and meditation cells.
-You may also enjoy optional adventure activities such as river rafting in the
-Ganga, zip-lining, cliff jumping, or bungee jumping (at your own cost).
-Overnight stay in Rishikesh.`,
-                                `Day – 3 :Rishikesh – Nainital
-Meal Plan: Breakfast & Dinner
-Night Stay: After breakfast, check out and drive to Nainital, known as the
-“Lake District of India.” Enjoy scenic hill views during the journey. Upon
-arrival, check-in to your hotel and relax. In the evening, you can enjoy a
-leisurely walk at The Mall Road and explore local shops. Overnight stay in
-Nainital.`,
-                                `Day – 4 :Nainital Local Sightseeing
-Meal Plan: Breakfast & Dinner
-Night Stay: After breakfast, proceed for full-day sightseeing of Nainital. Start
-with boating at Naini Lake, followed by a visit to the sacred Naina Devi
-Temple. Visit popular viewpoints like Snow View Point and Tiffin Top for
-panoramic Himalayan views. You may also explore nearby lakes such as
-Bhimtal Lake, Sattal, and Naukuchiatal (optional). Overnight stay in Nainital.`,
-                                `Day –5 : Nainital – Dehradun
-Meal Plan: Breakfast & Dinner
-Night Stay: After breakfast, check out and drive to Dehradun, the capital city
-of Uttarakhand surrounded by scenic hills. Upon arrival, check-in to the hotel
-and relax. Overnight stay in Dehradun.`,
-                                `Day –6 : Dehradun Local Sightseeing
-Meal Plan: Breakfast & Dinner
-Night Stay: After breakfast, proceed for sightseeing in Dehradun. Visit
-Robber's Cave (Guchhupani), a natural cave formation with flowing stream.
-Explore Sahastradhara, known for its sulphur springs. Visit the grand colonial
-building of Forest Research Institute and the sacred Tapkeshwar Temple.
-Return to hotel. Overnight stay in Dehradun.`,
-                                `Day –7 :Dehradun – Haridwar Drop
-Meal Plan: Breakfast Only
-Night Stay: After breakfast, check out from the hotel and drive back to
-Haridwar. Upon arrival, you will be dropped at Railway Station for your onward
-journey with beautiful memories of Uttarakhand.`
-                            ]
-                        }, void 0, false, {
-                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                            lineNumber: 242,
-                            columnNumber: 1
+                            columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
@@ -1671,7 +1612,7 @@ journey with beautiful memories of Uttarakhand.`
                                     children: "Adventure Activities"
                                 }, void 0, false, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 310,
+                                    lineNumber: 247,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1679,13 +1620,13 @@ journey with beautiful memories of Uttarakhand.`
                                     children: "Optional activities with extra cost"
                                 }, void 0, false, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 311,
+                                    lineNumber: 248,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                            lineNumber: 309,
+                            lineNumber: 246,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1701,7 +1642,7 @@ journey with beautiful memories of Uttarakhand.`
                                                     className: "w-10 h-10 text-blue-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                    lineNumber: 319,
+                                                    lineNumber: 256,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1709,13 +1650,13 @@ journey with beautiful memories of Uttarakhand.`
                                                     children: "River Rafting"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                    lineNumber: 320,
+                                                    lineNumber: 257,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 318,
+                                            lineNumber: 255,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1723,13 +1664,13 @@ journey with beautiful memories of Uttarakhand.`
                                             children: "White water rafting in Ganges"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 322,
+                                            lineNumber: 259,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 317,
+                                    lineNumber: 254,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1742,7 +1683,7 @@ journey with beautiful memories of Uttarakhand.`
                                                     className: "w-10 h-10 text-green-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                    lineNumber: 327,
+                                                    lineNumber: 264,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1750,13 +1691,13 @@ journey with beautiful memories of Uttarakhand.`
                                                     children: "Bungee Jumping"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                    lineNumber: 328,
+                                                    lineNumber: 265,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 326,
+                                            lineNumber: 263,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1764,13 +1705,13 @@ journey with beautiful memories of Uttarakhand.`
                                             children: "India's highest bungee platform"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 330,
+                                            lineNumber: 267,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 325,
+                                    lineNumber: 262,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1783,7 +1724,7 @@ journey with beautiful memories of Uttarakhand.`
                                                     className: "w-10 h-10 text-purple-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                    lineNumber: 335,
+                                                    lineNumber: 272,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1791,13 +1732,13 @@ journey with beautiful memories of Uttarakhand.`
                                                     children: "Trekking"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                    lineNumber: 336,
+                                                    lineNumber: 273,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 334,
+                                            lineNumber: 271,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1805,30 +1746,30 @@ journey with beautiful memories of Uttarakhand.`
                                             children: "Guided trekking in Himalayan foothills"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 338,
+                                            lineNumber: 275,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 333,
+                                    lineNumber: 270,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                            lineNumber: 316,
+                            lineNumber: 253,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                    lineNumber: 308,
+                    lineNumber: 245,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                lineNumber: 307,
+                lineNumber: 244,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1844,7 +1785,7 @@ journey with beautiful memories of Uttarakhand.`
                                     children: "Spiritual Highlights"
                                 }, void 0, false, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 348,
+                                    lineNumber: 285,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1852,13 +1793,13 @@ journey with beautiful memories of Uttarakhand.`
                                     children: "Key attractions and spiritual experiences"
                                 }, void 0, false, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 349,
+                                    lineNumber: 286,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                            lineNumber: 347,
+                            lineNumber: 284,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1871,7 +1812,7 @@ journey with beautiful memories of Uttarakhand.`
                                             className: "w-12 h-12 text-orange-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 356,
+                                            lineNumber: 293,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1879,7 +1820,7 @@ journey with beautiful memories of Uttarakhand.`
                                             children: "Har Ki Pauri"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 357,
+                                            lineNumber: 294,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1887,13 +1828,13 @@ journey with beautiful memories of Uttarakhand.`
                                             children: "Sacred bathing ghats & Ganga Aarti"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 358,
+                                            lineNumber: 295,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 355,
+                                    lineNumber: 292,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1903,7 +1844,7 @@ journey with beautiful memories of Uttarakhand.`
                                             className: "w-12 h-12 text-blue-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 362,
+                                            lineNumber: 299,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1911,7 +1852,7 @@ journey with beautiful memories of Uttarakhand.`
                                             children: "Ganga Aarti"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 363,
+                                            lineNumber: 300,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1919,13 +1860,13 @@ journey with beautiful memories of Uttarakhand.`
                                             children: "Evening prayer ceremony"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 364,
+                                            lineNumber: 301,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 361,
+                                    lineNumber: 298,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1935,7 +1876,7 @@ journey with beautiful memories of Uttarakhand.`
                                             className: "w-12 h-12 text-green-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 368,
+                                            lineNumber: 305,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1943,7 +1884,7 @@ journey with beautiful memories of Uttarakhand.`
                                             children: "Yoga Centers"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 369,
+                                            lineNumber: 306,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1951,13 +1892,13 @@ journey with beautiful memories of Uttarakhand.`
                                             children: "World's yoga capital"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 370,
+                                            lineNumber: 307,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 367,
+                                    lineNumber: 304,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1967,7 +1908,7 @@ journey with beautiful memories of Uttarakhand.`
                                             className: "w-12 h-12 text-purple-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 374,
+                                            lineNumber: 311,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1975,7 +1916,7 @@ journey with beautiful memories of Uttarakhand.`
                                             children: "Ashrams"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 375,
+                                            lineNumber: 312,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1983,13 +1924,13 @@ journey with beautiful memories of Uttarakhand.`
                                             children: "Parmarth Niketan & Beatles Ashram"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 376,
+                                            lineNumber: 313,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 373,
+                                    lineNumber: 310,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1999,7 +1940,7 @@ journey with beautiful memories of Uttarakhand.`
                                             className: "w-12 h-12 text-indigo-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 380,
+                                            lineNumber: 317,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2007,7 +1948,7 @@ journey with beautiful memories of Uttarakhand.`
                                             children: "Laxman Jhula"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 381,
+                                            lineNumber: 318,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2015,13 +1956,13 @@ journey with beautiful memories of Uttarakhand.`
                                             children: "Iconic suspension bridge"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 382,
+                                            lineNumber: 319,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 379,
+                                    lineNumber: 316,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2031,7 +1972,7 @@ journey with beautiful memories of Uttarakhand.`
                                             className: "w-12 h-12 text-teal-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 386,
+                                            lineNumber: 323,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2039,7 +1980,7 @@ journey with beautiful memories of Uttarakhand.`
                                             children: "Mansa Devi"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 387,
+                                            lineNumber: 324,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2047,13 +1988,13 @@ journey with beautiful memories of Uttarakhand.`
                                             children: "Cable car temple ride"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 388,
+                                            lineNumber: 325,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 385,
+                                    lineNumber: 322,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2063,7 +2004,7 @@ journey with beautiful memories of Uttarakhand.`
                                             className: "w-12 h-12 text-red-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 392,
+                                            lineNumber: 329,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2071,7 +2012,7 @@ journey with beautiful memories of Uttarakhand.`
                                             children: "Meditation"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 393,
+                                            lineNumber: 330,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2079,13 +2020,13 @@ journey with beautiful memories of Uttarakhand.`
                                             children: "Spiritual wellness centers"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 394,
+                                            lineNumber: 331,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 391,
+                                    lineNumber: 328,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2095,7 +2036,7 @@ journey with beautiful memories of Uttarakhand.`
                                             className: "w-12 h-12 text-yellow-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 398,
+                                            lineNumber: 335,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2103,7 +2044,7 @@ journey with beautiful memories of Uttarakhand.`
                                             children: "Neelkanth Temple"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 399,
+                                            lineNumber: 336,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2111,30 +2052,30 @@ journey with beautiful memories of Uttarakhand.`
                                             children: "Ancient Shiva temple"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 400,
+                                            lineNumber: 337,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 397,
+                                    lineNumber: 334,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                            lineNumber: 354,
+                            lineNumber: 291,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                    lineNumber: 346,
+                    lineNumber: 283,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                lineNumber: 345,
+                lineNumber: 282,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2151,7 +2092,7 @@ journey with beautiful memories of Uttarakhand.`
                                         className: "w-6 h-6 text-yellow-600 flex-shrink-0 mt-1"
                                     }, void 0, false, {
                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                        lineNumber: 412,
+                                        lineNumber: 349,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2161,7 +2102,7 @@ journey with beautiful memories of Uttarakhand.`
                                                 children: "Spiritual Visit Tips"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                lineNumber: 414,
+                                                lineNumber: 351,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2171,46 +2112,46 @@ journey with beautiful memories of Uttarakhand.`
                                                         children: "• Dress modestly when visiting temples"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                        lineNumber: 416,
+                                                        lineNumber: 353,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Remove shoes before entering temples"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                        lineNumber: 417,
+                                                        lineNumber: 354,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Carry offerings like flowers and prasad"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                        lineNumber: 418,
+                                                        lineNumber: 355,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Respect local customs and traditions"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                        lineNumber: 419,
+                                                        lineNumber: 356,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                lineNumber: 415,
+                                                lineNumber: 352,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                        lineNumber: 413,
+                                        lineNumber: 350,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                lineNumber: 411,
+                                lineNumber: 348,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2220,7 +2161,7 @@ journey with beautiful memories of Uttarakhand.`
                                         className: "w-6 h-6 text-blue-600 flex-shrink-0 mt-1"
                                     }, void 0, false, {
                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                        lineNumber: 424,
+                                        lineNumber: 361,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2230,7 +2171,7 @@ journey with beautiful memories of Uttarakhand.`
                                                 children: "Best Time to Visit"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                lineNumber: 426,
+                                                lineNumber: 363,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2240,62 +2181,62 @@ journey with beautiful memories of Uttarakhand.`
                                                         children: "• October to March: Pleasant weather for sightseeing"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                        lineNumber: 428,
+                                                        lineNumber: 365,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• July to September: Monsoon season (avoid)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                        lineNumber: 429,
+                                                        lineNumber: 366,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• April to June: Summer months (hot but good for rafting)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                        lineNumber: 430,
+                                                        lineNumber: 367,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Festival times: Kumbh Mela special celebrations"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                        lineNumber: 431,
+                                                        lineNumber: 368,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                lineNumber: 427,
+                                                lineNumber: 364,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                        lineNumber: 425,
+                                        lineNumber: 362,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                lineNumber: 423,
+                                lineNumber: 360,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                        lineNumber: 410,
+                        lineNumber: 347,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                    lineNumber: 409,
+                    lineNumber: 346,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                lineNumber: 408,
+                lineNumber: 345,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PackagePricing$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -2303,13 +2244,13 @@ journey with beautiful memories of Uttarakhand.`
                 subtitle: "Choose your perfect spiritual journey duration"
             }, void 0, false, {
                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                lineNumber: 440,
+                lineNumber: 377,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                lineNumber: 446,
-                columnNumber: 5
+                lineNumber: 383,
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
@@ -2331,8 +2272,8 @@ function Destination({ title, subtitle, content, cta }) {
                         children: title
                     }, void 0, false, {
                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                        lineNumber: 458,
-                        columnNumber: 7
+                        lineNumber: 395,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "/book-tour",
@@ -2340,22 +2281,22 @@ function Destination({ title, subtitle, content, cta }) {
                         children: cta
                     }, void 0, false, {
                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                        lineNumber: 459,
+                        lineNumber: 396,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                lineNumber: 456,
-                columnNumber: 8
+                lineNumber: 393,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "font-semibold text-gray-700",
                 children: subtitle
             }, void 0, false, {
                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                lineNumber: 467,
-                columnNumber: 9
+                lineNumber: 404,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "space-y-6",
@@ -2366,23 +2307,23 @@ function Destination({ title, subtitle, content, cta }) {
                             children: item
                         }, void 0, false, {
                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                            lineNumber: 476,
+                            lineNumber: 413,
                             columnNumber: 13
                         }, this)
                     }, index, false, {
                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                        lineNumber: 472,
+                        lineNumber: 409,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                lineNumber: 470,
+                lineNumber: 407,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-        lineNumber: 455,
+        lineNumber: 392,
         columnNumber: 5
     }, this);
 }

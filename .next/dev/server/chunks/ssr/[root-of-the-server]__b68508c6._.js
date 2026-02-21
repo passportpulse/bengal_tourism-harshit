@@ -209,7 +209,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$utensils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Utensils$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/utensils.js [app-ssr] (ecmascript) <export default as Utensils>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Building$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/building.js [app-ssr] (ecmascript) <export default as Building>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sparkles$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Sparkles$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/sparkles.js [app-ssr] (ecmascript) <export default as Sparkles>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$tram$2d$front$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Train$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/tram-front.js [app-ssr] (ecmascript) <export default as Train>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shopping$2d$bag$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShoppingBag$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/shopping-bag.js [app-ssr] (ecmascript) <export default as ShoppingBag>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$book$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Book$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/book.js [app-ssr] (ecmascript) <export default as Book>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$archive$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Archive$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/archive.js [app-ssr] (ecmascript) <export default as Archive>");
@@ -230,7 +229,7 @@ const majorAttractions = [
     },
     {
         name: "Howrah Bridge",
-        image: "https://images.unsplash.com/photo-1571679654681-ba01b9e1e117?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8SG93cmFoJTIwQnJpZGdlfGVufDB8fDB8fHww",
+        image: "/kolkata-DIY.avif",
         description: "Iconic cantilever bridge over the Hooghly River, an engineering marvel.",
         location: "Howrah"
     },
@@ -260,9 +259,21 @@ const majorAttractions = [
     },
     {
         name: "Tram Museum",
-        image: "https://images.unsplash.com/photo-1645066143704-d9c5235d3ef4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8VHJhbSUyME11c2V1bXxlbnwwfHwwfHx8MA%3D%3D",
+        image: "/hotal/Tram.jpg",
         description: "Showcasing the vintage tram heritage and transportation history of Kolkata.",
         location: "Esplanade"
+    },
+    {
+        name: "Marble Palace",
+        image: "/hotal/marble-palace.jpeg",
+        description: "A stunning 19th-century mansion in North Kolkata known for its grand architecture, rare antiques, marble sculptures, and beautiful courtyard.",
+        location: "Muktaram Babu Street, North Kolkata"
+    },
+    {
+        name: "Park Street",
+        image: "/hotal/park-street.jpg",
+        description: "Kolkata’s most vibrant street famous for its restaurants, nightlife, colonial-era buildings, and festive decorations during Christmas and New Year.",
+        location: "Park Street Area, Central Kolkata"
     }
 ];
 function KolkataPage() {
@@ -282,7 +293,7 @@ function KolkataPage() {
                         className: "absolute top-0 right-0 w-auto h-full object-contain"
                     }, void 0, false, {
                         fileName: "[project]/app/kolkata/page.tsx",
-                        lineNumber: 71,
+                        lineNumber: 85,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -297,7 +308,7 @@ function KolkataPage() {
                                                 className: "w-6 h-6 text-yellow-400"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/kolkata/page.tsx",
-                                                lineNumber: 82,
+                                                lineNumber: 96,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -305,13 +316,13 @@ function KolkataPage() {
                                                 children: "The City of Joy"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/kolkata/page.tsx",
-                                                lineNumber: 83,
+                                                lineNumber: 97,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/kolkata/page.tsx",
-                                        lineNumber: 81,
+                                        lineNumber: 95,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -323,13 +334,13 @@ function KolkataPage() {
                                                 children: "Heritage • Culture • Cuisine • Arts"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/kolkata/page.tsx",
-                                                lineNumber: 88,
+                                                lineNumber: 102,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/kolkata/page.tsx",
-                                        lineNumber: 86,
+                                        lineNumber: 100,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -337,7 +348,7 @@ function KolkataPage() {
                                         children: "Experience the vibrant heart of Bengal - where colonial grandeur meets cultural richness in every corner of this historic metropolis"
                                     }, void 0, false, {
                                         fileName: "[project]/app/kolkata/page.tsx",
-                                        lineNumber: 93,
+                                        lineNumber: 107,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -348,7 +359,7 @@ function KolkataPage() {
                                                 children: "Explore City of Joy"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/kolkata/page.tsx",
-                                                lineNumber: 99,
+                                                lineNumber: 113,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -356,47 +367,47 @@ function KolkataPage() {
                                                 children: "Taste Bengalicious"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/kolkata/page.tsx",
-                                                lineNumber: 103,
+                                                lineNumber: 117,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/kolkata/page.tsx",
-                                        lineNumber: 98,
+                                        lineNumber: 112,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/kolkata/page.tsx",
-                                lineNumber: 80,
+                                lineNumber: 94,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "flex justify-center md:justify-end",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                    src: "/kolkata-DIY.avif",
+                                    src: "/img/kolkata.jpeg",
                                     alt: "Kolkata Victoria Memorial Hall at sunset with city skyline",
                                     className: "w-full max-w-md md:max-w-lg lg:max-w-xl rounded-2xl shadow-2xl"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 111,
+                                    lineNumber: 125,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/kolkata/page.tsx",
-                                lineNumber: 110,
+                                lineNumber: 124,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/kolkata/page.tsx",
-                        lineNumber: 77,
+                        lineNumber: 91,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/kolkata/page.tsx",
-                lineNumber: 69,
+                lineNumber: 83,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -415,84 +426,6 @@ function KolkataPage() {
                                             className: "w-10 h-10 text-orange-600"
                                         }, void 0, false, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 126,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/kolkata/page.tsx",
-                                        lineNumber: 125,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "font-bold text-lg mb-2",
-                                        children: "300+ Years"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/kolkata/page.tsx",
-                                        lineNumber: 128,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-600 text-sm",
-                                        children: "Rich history"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/kolkata/page.tsx",
-                                        lineNumber: 129,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/app/kolkata/page.tsx",
-                                lineNumber: 124,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "text-center",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 shadow-lg",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$archive$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Archive$3e$__["Archive"], {
-                                            className: "w-10 h-10 text-red-600"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 133,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/kolkata/page.tsx",
-                                        lineNumber: 132,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "font-bold text-lg mb-2",
-                                        children: "Heritage Sites"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/kolkata/page.tsx",
-                                        lineNumber: 135,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-600 text-sm",
-                                        children: "15+ monuments"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/kolkata/page.tsx",
-                                        lineNumber: 136,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/app/kolkata/page.tsx",
-                                lineNumber: 131,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "text-center",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 shadow-lg",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$utensils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Utensils$3e$__["Utensils"], {
-                                            className: "w-10 h-10 text-green-600"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/kolkata/page.tsx",
                                             lineNumber: 140,
                                             columnNumber: 17
                                         }, this)
@@ -503,7 +436,7 @@ function KolkataPage() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         className: "font-bold text-lg mb-2",
-                                        children: "Bengali Cuisine"
+                                        children: "300+ Years"
                                     }, void 0, false, {
                                         fileName: "[project]/app/kolkata/page.tsx",
                                         lineNumber: 142,
@@ -511,7 +444,7 @@ function KolkataPage() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-gray-600 text-sm",
-                                        children: "1000+ dishes"
+                                        children: "Rich history"
                                     }, void 0, false, {
                                         fileName: "[project]/app/kolkata/page.tsx",
                                         lineNumber: 143,
@@ -528,8 +461,8 @@ function KolkataPage() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 shadow-lg",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$camera$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Camera$3e$__["Camera"], {
-                                            className: "w-10 h-10 text-purple-600"
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$archive$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Archive$3e$__["Archive"], {
+                                            className: "w-10 h-10 text-red-600"
                                         }, void 0, false, {
                                             fileName: "[project]/app/kolkata/page.tsx",
                                             lineNumber: 147,
@@ -542,7 +475,7 @@ function KolkataPage() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         className: "font-bold text-lg mb-2",
-                                        children: "Art & Culture"
+                                        children: "Heritage Sites"
                                     }, void 0, false, {
                                         fileName: "[project]/app/kolkata/page.tsx",
                                         lineNumber: 149,
@@ -550,7 +483,7 @@ function KolkataPage() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-gray-600 text-sm",
-                                        children: "Tollywood hub"
+                                        children: "15+ monuments"
                                     }, void 0, false, {
                                         fileName: "[project]/app/kolkata/page.tsx",
                                         lineNumber: 150,
@@ -561,21 +494,99 @@ function KolkataPage() {
                                 fileName: "[project]/app/kolkata/page.tsx",
                                 lineNumber: 145,
                                 columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "text-center",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 shadow-lg",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$utensils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Utensils$3e$__["Utensils"], {
+                                            className: "w-10 h-10 text-green-600"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/kolkata/page.tsx",
+                                            lineNumber: 154,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/kolkata/page.tsx",
+                                        lineNumber: 153,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "font-bold text-lg mb-2",
+                                        children: "Bengali Cuisine"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/kolkata/page.tsx",
+                                        lineNumber: 156,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-gray-600 text-sm",
+                                        children: "1000+ dishes"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/kolkata/page.tsx",
+                                        lineNumber: 157,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/kolkata/page.tsx",
+                                lineNumber: 152,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "text-center",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 shadow-lg",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$camera$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Camera$3e$__["Camera"], {
+                                            className: "w-10 h-10 text-purple-600"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/kolkata/page.tsx",
+                                            lineNumber: 161,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/kolkata/page.tsx",
+                                        lineNumber: 160,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "font-bold text-lg mb-2",
+                                        children: "Art & Culture"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/kolkata/page.tsx",
+                                        lineNumber: 163,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-gray-600 text-sm",
+                                        children: "Tollywood hub"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/kolkata/page.tsx",
+                                        lineNumber: 164,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/kolkata/page.tsx",
+                                lineNumber: 159,
+                                columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/kolkata/page.tsx",
-                        lineNumber: 123,
+                        lineNumber: 137,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/kolkata/page.tsx",
-                    lineNumber: 122,
+                    lineNumber: 136,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/kolkata/page.tsx",
-                lineNumber: 121,
+                lineNumber: 135,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -591,7 +602,7 @@ function KolkataPage() {
                                     children: "Visit & Explore Kolkata"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 161,
+                                    lineNumber: 175,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -599,7 +610,7 @@ function KolkataPage() {
                                     children: "Formerly known as Calcutta, 1st Capital of India of the British Rule before it was shifted to New Delhi. Also known as City of Joy. Bastions & remains of the ancient British & French settlements, boasts of a mini China Town within itself, continuing the Bengali Babu culture and witnessing Bengal Renaissance. A truly Heritage City with many diversity where culture & arts gets its true recognition. Where again Food & Football shares the same frenzy as Jazz & Jatras. Where world Politics are equally debated with Global warming. Where you can savor a Mc. Donald’s & Coke together with a Kati roll & Chai in a clay cup. What Thames is to London – Hooghly is to Kolkata and more…"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 165,
+                                    lineNumber: 179,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -607,7 +618,7 @@ function KolkataPage() {
                                     children: "Kolkata – known as Calcutta till 1991 - is the Capital City of Bengal State in India. is located in the world’s largest River Delta – the ‘Ganges Delta’, which stretches between River Hooghly on the West and River Meghna on the East and a host of other smaller rivers zigzag through the Ganges Delta which merge and flow into the Bay of Bengal Sea. And the world’s thirteenth most populous urban area with 14.2 million people residing in its urban core and suburbs."
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 169,
+                                    lineNumber: 183,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -615,13 +626,13 @@ function KolkataPage() {
                                     children: "Before the establishment of the city of Calcutta – the Anglicized name of ‘Kolkata’, three villages existed in the same area – Kalikata, Govindapur and Sutanuti. Kolkata derives its name from the Kalikata village – which literally means ‘the land of Goddess Kali’. Post the British Imperial Period in 1947, India embarked upon the process of renaming its cities which had to be approved by the Central Government. And thus Calcutta was renamed Kolkata in 2001."
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 173,
+                                    lineNumber: 187,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/kolkata/page.tsx",
-                            lineNumber: 160,
+                            lineNumber: 174,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -631,12 +642,12 @@ function KolkataPage() {
                                 children: "Kolkata, having been gripped by the British politics and culture for centuries and having also been a seat and hub of Indian culture and art and religion, is a mammoth sized entity of a city that influenced the rest of the country towards political, educational, religious, artistic and general lifestyle reforms which is evident in its history and visible in its vibrant culture and myriad traditions."
                             }, void 0, false, {
                                 fileName: "[project]/app/kolkata/page.tsx",
-                                lineNumber: 180,
+                                lineNumber: 194,
                                 columnNumber: 11
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/kolkata/page.tsx",
-                            lineNumber: 179,
+                            lineNumber: 193,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -647,7 +658,7 @@ function KolkataPage() {
                                     children: "City of Palaces & Bridges"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 187,
+                                    lineNumber: 201,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -655,7 +666,7 @@ function KolkataPage() {
                                     children: "Kolkata is a City of Palaces - owing to the numerous palatial mansions dotting the Kolkata cityscape – most constructed during the British colonial era in Bengal when Kolkata was made the Capital of British India. Their architecture is influenced by and emanates a mix of Neo-classical, neo-Gothic, Baroque, Islamic, Oriental and predominantly European (British, French and Portuguese) schools of design."
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 191,
+                                    lineNumber: 205,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -663,13 +674,13 @@ function KolkataPage() {
                                     children: "Apart from the colossal and opulent constructions, Kolkata is home to some structural and technological marvels such as the world’s busiest and the 6th longest suspension type balanced Cantilever Bridge – the Howrah Bridge India’s longest Cable-stayed bridge – the Vidyasagar Setu; a multispan steel bridge – Vivekananda Setu and the Nivedita Setu – another cable-stayed bridge – all on one single river – Hooghly which spines through the city of Kolkata. Nothing short of being glorified, the Howrah Bridge was made the symbol of Kolkata."
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 195,
+                                    lineNumber: 209,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/kolkata/page.tsx",
-                            lineNumber: 186,
+                            lineNumber: 200,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -680,7 +691,7 @@ function KolkataPage() {
                                     children: "Kolkata is also home to or has been a stepping stone for Nobel Prize winning Exponents such as Gurudev Rabindranath Tagore (Literature, 1913); Sir Ronald Ross (Medicine, 1902); C. V. Raman (Physics, 1930); Mother Teresa ( Peace, 1979); Amartya Sen (Economics, 1998); the ‘Oscar for Lifetime achievement’ awardee – Satyajit Ray and multi-time Grammy Winner – Pandit Ravi Shankar."
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 202,
+                                    lineNumber: 216,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -688,13 +699,13 @@ function KolkataPage() {
                                     children: "Apart from these, there are scrolls of world- renowned and generations of statesmen, freedom fighters, social reformers, poets, scientists, historians, writers, orators, philosophers, linguists, sportsmen, fine artists, theatre artistes, film artistes, musicians, dancers, photographers, magicians, film makers and businessmen."
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 206,
+                                    lineNumber: 220,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/kolkata/page.tsx",
-                            lineNumber: 201,
+                            lineNumber: 215,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -705,7 +716,7 @@ function KolkataPage() {
                                     children: "Call it a passion or obsession or maybe they are just wired that way but the gregarious Bengalis are all about boisterous and deep conversations, soul-stirring music, writing at the drop of a hat and food – both experimenting and eating. Visit the Coffee House at College Street in Kolkata and you can see what I mean. You will be amazed by the ‘Adda’ culture (having long-drawn and hearty conversations over hot cuppa tea) that’s in your face when you enter the Coffee House."
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 213,
+                                    lineNumber: 227,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -713,13 +724,13 @@ function KolkataPage() {
                                     children: "Food is central to the Bengalis because of which the popular Bengali saying – ‘machhey bhate bangali’ (meaning fish and rice make a Bengali) has come into existence. One may not know a Bengali or not know where their sweets come from but the sweets made by the Bengalis are relished by domestic and foreign sweet-toothies all over."
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 217,
+                                    lineNumber: 231,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/kolkata/page.tsx",
-                            lineNumber: 212,
+                            lineNumber: 226,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -730,7 +741,7 @@ function KolkataPage() {
                                     children: "Places of Interest"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 224,
+                                    lineNumber: 238,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -738,13 +749,13 @@ function KolkataPage() {
                                     children: "Victoria Memorial • Dakhineshwar Kali • Kalighat Temple • Missionaries of Charity • Banks of the river (Hooghly) Ganges • River Cruise • Indian Museum • St. Paul’s Cathedrae • The Last Supper (original painting) • Zoological Gardens • Botanical Gardens • Town Hall • Kumartuli • Marble Palace • Water World • Heritage Buildings • Night Clubs • Sir. Stuart’s Hog’s (New) Market • Tram Ride • Horse Drawn Carriage • Durga Puja festival (held once every year) • invitation to a Bengali marriage ceremony & more…"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 228,
+                                    lineNumber: 242,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/kolkata/page.tsx",
-                            lineNumber: 223,
+                            lineNumber: 237,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -755,7 +766,7 @@ function KolkataPage() {
                                     children: "At a Short Distance"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 235,
+                                    lineNumber: 249,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -763,13 +774,13 @@ function KolkataPage() {
                                     children: "Krishnanagar (Clay models) • Santiniketan ( all about Rabindranath Tagore & Kantha embroidery) • Bolpur (Baul Singers) • Mayapur (ISKCON - Hare Krishna Temple) • Navadwip • Bakreswar (9 Hot Springs) • Tarapeeth (Goddess Tara Ma) • Murshidabad ( Palaces of the erstwhile Nawabs of Bengal) • Chadernagore • Serampore (remains of French bastions) • Fulia (Handloom Weavers) & more…"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 239,
+                                    lineNumber: 253,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/kolkata/page.tsx",
-                            lineNumber: 234,
+                            lineNumber: 248,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -780,7 +791,7 @@ function KolkataPage() {
                                     children: "Must Try Cuisine"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 246,
+                                    lineNumber: 260,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -788,24 +799,24 @@ function KolkataPage() {
                                     children: "Highly recommended authentic Bengali in Fish – Crab – Prawn – Lamb curries & Vegetable preparations & Rice, Rosogolla, Mishti Doi & Sondesh. See Local Cuisine. Also all other Indian regional & International speciality cuisines like Chinese / Continental / Oriental / Lebanese / Thai / Japanese / European are there to pick from. You ask, we present!"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 250,
+                                    lineNumber: 264,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/kolkata/page.tsx",
-                            lineNumber: 245,
+                            lineNumber: 259,
                             columnNumber: 9
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/kolkata/page.tsx",
-                    lineNumber: 157,
+                    lineNumber: 171,
                     columnNumber: 7
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/kolkata/page.tsx",
-                lineNumber: 156,
+                lineNumber: 170,
                 columnNumber: 1
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -821,7 +832,7 @@ function KolkataPage() {
                                     children: "Major Attractions"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 261,
+                                    lineNumber: 275,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -829,13 +840,13 @@ function KolkataPage() {
                                     children: "Iconic landmarks and must-visit destinations in the City of Joy"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 262,
+                                    lineNumber: 276,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/kolkata/page.tsx",
-                            lineNumber: 260,
+                            lineNumber: 274,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -852,20 +863,20 @@ function KolkataPage() {
                                                     className: "w-full h-full object-cover group-hover:scale-110 transition duration-500"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 274,
+                                                    lineNumber: 288,
                                                     columnNumber: 9
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 279,
+                                                    lineNumber: 293,
                                                     columnNumber: 9
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 273,
+                                            lineNumber: 287,
                                             columnNumber: 7
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -876,7 +887,7 @@ function KolkataPage() {
                                                     children: place.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 283,
+                                                    lineNumber: 297,
                                                     columnNumber: 9
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -884,7 +895,7 @@ function KolkataPage() {
                                                     children: place.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 284,
+                                                    lineNumber: 298,
                                                     columnNumber: 9
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -894,7 +905,7 @@ function KolkataPage() {
                                                             className: "w-4 h-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 286,
+                                                            lineNumber: 300,
                                                             columnNumber: 11
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -902,41 +913,41 @@ function KolkataPage() {
                                                             children: place.location
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 287,
+                                                            lineNumber: 301,
                                                             columnNumber: 11
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 285,
+                                                    lineNumber: 299,
                                                     columnNumber: 9
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 282,
+                                            lineNumber: 296,
                                             columnNumber: 7
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 269,
+                                    lineNumber: 283,
                                     columnNumber: 5
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/kolkata/page.tsx",
-                            lineNumber: 267,
+                            lineNumber: 281,
                             columnNumber: 7
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/kolkata/page.tsx",
-                    lineNumber: 259,
+                    lineNumber: 273,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/kolkata/page.tsx",
-                lineNumber: 258,
+                lineNumber: 272,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -952,7 +963,7 @@ function KolkataPage() {
                                     children: "Heritage & Historical Sites"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 300,
+                                    lineNumber: 314,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -960,13 +971,13 @@ function KolkataPage() {
                                     children: "Journey through centuries of history in these magnificent monuments"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 301,
+                                    lineNumber: 315,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/kolkata/page.tsx",
-                            lineNumber: 299,
+                            lineNumber: 313,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1028,7 +1039,7 @@ function KolkataPage() {
                                             children: site.icon
                                         }, void 0, false, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 318,
+                                            lineNumber: 332,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1036,7 +1047,7 @@ function KolkataPage() {
                                             children: site.name
                                         }, void 0, false, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 319,
+                                            lineNumber: 333,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1044,7 +1055,7 @@ function KolkataPage() {
                                             children: site.desc
                                         }, void 0, false, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 320,
+                                            lineNumber: 334,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1052,29 +1063,29 @@ function KolkataPage() {
                                             children: site.year
                                         }, void 0, false, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 321,
+                                            lineNumber: 335,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 317,
+                                    lineNumber: 331,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/kolkata/page.tsx",
-                            lineNumber: 306,
+                            lineNumber: 320,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/kolkata/page.tsx",
-                    lineNumber: 298,
+                    lineNumber: 312,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/kolkata/page.tsx",
-                lineNumber: 297,
+                lineNumber: 311,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1090,7 +1101,7 @@ function KolkataPage() {
                                     children: "Bengali Cuisine"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 332,
+                                    lineNumber: 346,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1098,13 +1109,13 @@ function KolkataPage() {
                                     children: "Taste the authentic flavors of Bengal - #Bengalicious #BengaliCuisine"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 333,
+                                    lineNumber: 347,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/kolkata/page.tsx",
-                            lineNumber: 331,
+                            lineNumber: 345,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1118,7 +1129,7 @@ function KolkataPage() {
                                             children: "Bhaja or Fry"
                                         }, void 0, false, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 340,
+                                            lineNumber: 354,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1132,20 +1143,20 @@ function KolkataPage() {
                                                             children: "•"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 343,
+                                                            lineNumber: 357,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: "Posto Bora/Bata, Daal-er Bora, Aloo/Begun/Ucchey/Borboti/Koraishutir/Kochuri"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 344,
+                                                            lineNumber: 358,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 342,
+                                                    lineNumber: 356,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1153,80 +1164,6 @@ function KolkataPage() {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             className: "text-green-600",
-                                                            children: "•"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 347,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            children: "Radha Ballabhi & more crispy delights"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 348,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 346,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    className: "flex items-start gap-2",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "text-green-600",
-                                                            children: "•"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 351,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            children: "Served with Kasundi or Kagji Lebu"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 352,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 350,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 341,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 339,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "text-2xl font-bold mb-4 text-orange-700",
-                                            children: "Bhaat or Steamed Rice"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 358,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                            className: "space-y-2 text-gray-700",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    className: "flex items-start gap-2",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "text-orange-600",
                                                             children: "•"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
@@ -1234,7 +1171,7 @@ function KolkataPage() {
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            children: "Basanti Polao, Basmati, Dhenki Kota, Gobindo Bhog"
+                                                            children: "Radha Ballabhi & more crispy delights"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
                                                             lineNumber: 362,
@@ -1250,7 +1187,7 @@ function KolkataPage() {
                                                     className: "flex items-start gap-2",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "text-orange-600",
+                                                            className: "text-green-600",
                                                             children: "•"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
@@ -1258,7 +1195,7 @@ function KolkataPage() {
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            children: "Khichuri Bhog, Radhunipagal, Tulaipanji/Badshabhog"
+                                                            children: "Served with Kasundi or Kagji Lebu"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
                                                             lineNumber: 366,
@@ -1269,52 +1206,28 @@ function KolkataPage() {
                                                     fileName: "[project]/app/kolkata/page.tsx",
                                                     lineNumber: 364,
                                                     columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    className: "flex items-start gap-2",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "text-orange-600",
-                                                            children: "•"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 369,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            children: "Bengal's own rice brands"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 370,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 368,
-                                                    columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 359,
+                                            lineNumber: 355,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 357,
+                                    lineNumber: 353,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8",
+                                    className: "bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "text-2xl font-bold mb-4 text-blue-700",
-                                            children: "Macch or Fish"
+                                            className: "text-2xl font-bold mb-4 text-orange-700",
+                                            children: "Bhaat or Steamed Rice"
                                         }, void 0, false, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 376,
+                                            lineNumber: 372,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1324,7 +1237,31 @@ function KolkataPage() {
                                                     className: "flex items-start gap-2",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "text-blue-600",
+                                                            className: "text-orange-600",
+                                                            children: "•"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/kolkata/page.tsx",
+                                                            lineNumber: 375,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            children: "Basanti Polao, Basmati, Dhenki Kota, Gobindo Bhog"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/kolkata/page.tsx",
+                                                            lineNumber: 376,
+                                                            columnNumber: 19
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/app/kolkata/page.tsx",
+                                                    lineNumber: 374,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    className: "flex items-start gap-2",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-orange-600",
                                                             children: "•"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
@@ -1332,7 +1269,7 @@ function KolkataPage() {
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            children: "Bhetki/Ilish paturi in Kolkapata/Banana leaves"
+                                                            children: "Khichuri Bhog, Radhunipagal, Tulaipanji/Badshabhog"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
                                                             lineNumber: 380,
@@ -1348,7 +1285,7 @@ function KolkataPage() {
                                                     className: "flex items-start gap-2",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "text-blue-600",
+                                                            className: "text-orange-600",
                                                             children: "•"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
@@ -1356,7 +1293,7 @@ function KolkataPage() {
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            children: "Ilish/Hilsa in Sorshey or Mustard sauce/Doi/Fry/Bhapa"
+                                                            children: "Bengal's own rice brands"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
                                                             lineNumber: 384,
@@ -1367,6 +1304,56 @@ function KolkataPage() {
                                                     fileName: "[project]/app/kolkata/page.tsx",
                                                     lineNumber: 382,
                                                     columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/kolkata/page.tsx",
+                                            lineNumber: 373,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/kolkata/page.tsx",
+                                    lineNumber: 371,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-2xl font-bold mb-4 text-blue-700",
+                                            children: "Macch or Fish"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/kolkata/page.tsx",
+                                            lineNumber: 390,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                            className: "space-y-2 text-gray-700",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    className: "flex items-start gap-2",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-blue-600",
+                                                            children: "•"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/kolkata/page.tsx",
+                                                            lineNumber: 393,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            children: "Bhetki/Ilish paturi in Kolkapata/Banana leaves"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/kolkata/page.tsx",
+                                                            lineNumber: 394,
+                                                            columnNumber: 19
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/app/kolkata/page.tsx",
+                                                    lineNumber: 392,
+                                                    columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     className: "flex items-start gap-2",
@@ -1376,38 +1363,62 @@ function KolkataPage() {
                                                             children: "•"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 387,
+                                                            lineNumber: 397,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            children: "Ilish/Hilsa in Sorshey or Mustard sauce/Doi/Fry/Bhapa"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/kolkata/page.tsx",
+                                                            lineNumber: 398,
+                                                            columnNumber: 19
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/app/kolkata/page.tsx",
+                                                    lineNumber: 396,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    className: "flex items-start gap-2",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-blue-600",
+                                                            children: "•"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/kolkata/page.tsx",
+                                                            lineNumber: 401,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: "Golda Chingri, Bagda Chingri, Chingri/Shrimp Bharta"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 388,
+                                                            lineNumber: 402,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 386,
+                                                    lineNumber: 400,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 377,
+                                            lineNumber: 391,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 375,
+                                    lineNumber: 389,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/kolkata/page.tsx",
-                            lineNumber: 338,
+                            lineNumber: 352,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1461,7 +1472,7 @@ function KolkataPage() {
                                             children: category.icon
                                         }, void 0, false, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 406,
+                                            lineNumber: 420,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1469,7 +1480,7 @@ function KolkataPage() {
                                             children: category.name
                                         }, void 0, false, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 407,
+                                            lineNumber: 421,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1477,29 +1488,29 @@ function KolkataPage() {
                                             children: category.items
                                         }, void 0, false, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 408,
+                                            lineNumber: 422,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 405,
+                                    lineNumber: 419,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/kolkata/page.tsx",
-                            lineNumber: 394,
+                            lineNumber: 408,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/kolkata/page.tsx",
-                    lineNumber: 330,
+                    lineNumber: 344,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/kolkata/page.tsx",
-                lineNumber: 329,
+                lineNumber: 343,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1515,7 +1526,7 @@ function KolkataPage() {
                                     children: "Cultural Experiences"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 419,
+                                    lineNumber: 433,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1523,13 +1534,13 @@ function KolkataPage() {
                                     children: "Immerse yourself in the vibrant cultural tapestry of Kolkata"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 420,
+                                    lineNumber: 434,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/kolkata/page.tsx",
-                            lineNumber: 418,
+                            lineNumber: 432,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1541,78 +1552,6 @@ function KolkataPage() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "h-48 bg-gradient-to-br from-pink-400 to-purple-500 flex items-center justify-center",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$book$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Book$3e$__["Book"], {
-                                                className: "w-16 h-16 text-white group-hover:scale-110 transition"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/kolkata/page.tsx",
-                                                lineNumber: 428,
-                                                columnNumber: 17
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 427,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "p-6",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                    className: "text-2xl font-bold mb-3",
-                                                    children: "College Street"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 431,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-gray-700 mb-4",
-                                                    children: "Book lovers paradise with academic charm and intellectual atmosphere"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 432,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "flex items-center gap-2 text-pink-600",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
-                                                            className: "w-4 h-4"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 434,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "text-sm",
-                                                            children: "North Calcutta"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 435,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 433,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 430,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 426,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "h-48 bg-gradient-to-br from-yellow-400 to-orange-500 flex items-center justify-center",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sparkles$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Sparkles$3e$__["Sparkles"], {
                                                 className: "w-16 h-16 text-white group-hover:scale-110 transition"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/kolkata/page.tsx",
@@ -1629,7 +1568,7 @@ function KolkataPage() {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     className: "text-2xl font-bold mb-3",
-                                                    children: "Park Street"
+                                                    children: "College Street"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
                                                     lineNumber: 445,
@@ -1637,14 +1576,14 @@ function KolkataPage() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "text-gray-700 mb-4",
-                                                    children: "Vibrant nightlife with street food, entertainment, and cultural shows"
+                                                    children: "Book lovers paradise with academic charm and intellectual atmosphere"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
                                                     lineNumber: 446,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "flex items-center gap-2 text-yellow-600",
+                                                    className: "flex items-center gap-2 text-pink-600",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
                                                             className: "w-4 h-4"
@@ -1655,7 +1594,7 @@ function KolkataPage() {
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             className: "text-sm",
-                                                            children: "Park Circus Area"
+                                                            children: "North Calcutta"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
                                                             lineNumber: 449,
@@ -1683,89 +1622,17 @@ function KolkataPage() {
                                     className: "bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "h-48 bg-gradient-to-br from-green-400 to-teal-500 flex items-center justify-center",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$tram$2d$front$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Train$3e$__["Train"], {
-                                                className: "w-16 h-16 text-white group-hover:scale-110 transition"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/kolkata/page.tsx",
-                                                lineNumber: 456,
-                                                columnNumber: 17
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 455,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "p-6",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                    className: "text-2xl font-bold mb-3",
-                                                    children: "Tram Museum"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 459,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-gray-700 mb-4",
-                                                    children: "Preserved heritage of Kolkata's iconic tram transportation system"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 460,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "flex items-center gap-2 text-green-600",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
-                                                            className: "w-4 h-4"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 462,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "text-sm",
-                                                            children: "Esplanade"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 463,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 461,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 458,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 454,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "h-48 bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$camera$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Camera$3e$__["Camera"], {
                                                 className: "w-16 h-16 text-white group-hover:scale-110 transition"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/kolkata/page.tsx",
-                                                lineNumber: 470,
+                                                lineNumber: 460,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 469,
+                                            lineNumber: 459,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1776,7 +1643,7 @@ function KolkataPage() {
                                                     children: "North Calcutta"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 473,
+                                                    lineNumber: 463,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1784,7 +1651,7 @@ function KolkataPage() {
                                                     children: "Heritage trails and photographer's delight with colonial architecture"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 474,
+                                                    lineNumber: 464,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1794,7 +1661,7 @@ function KolkataPage() {
                                                             className: "w-4 h-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 476,
+                                                            lineNumber: 466,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1802,25 +1669,25 @@ function KolkataPage() {
                                                             children: "Old Calcutta"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 477,
+                                                            lineNumber: 467,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 475,
+                                                    lineNumber: 465,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 472,
+                                            lineNumber: 462,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 468,
+                                    lineNumber: 458,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1832,12 +1699,12 @@ function KolkataPage() {
                                                 className: "w-16 h-16 text-white group-hover:scale-110 transition"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/kolkata/page.tsx",
-                                                lineNumber: 484,
+                                                lineNumber: 474,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 483,
+                                            lineNumber: 473,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1848,7 +1715,7 @@ function KolkataPage() {
                                                     children: "Tollywood"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 487,
+                                                    lineNumber: 477,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1856,7 +1723,7 @@ function KolkataPage() {
                                                     children: "Hub of Bengali film industry and shooting locations"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 488,
+                                                    lineNumber: 478,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1866,7 +1733,7 @@ function KolkataPage() {
                                                             className: "w-4 h-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 490,
+                                                            lineNumber: 480,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1874,42 +1741,42 @@ function KolkataPage() {
                                                             children: "Tollygunge"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 491,
+                                                            lineNumber: 481,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 489,
+                                                    lineNumber: 479,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 486,
+                                            lineNumber: 476,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 482,
+                                    lineNumber: 472,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/kolkata/page.tsx",
-                            lineNumber: 425,
+                            lineNumber: 439,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/kolkata/page.tsx",
-                    lineNumber: 417,
+                    lineNumber: 431,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/kolkata/page.tsx",
-                lineNumber: 416,
+                lineNumber: 430,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1925,7 +1792,7 @@ function KolkataPage() {
                                     children: "Shopping & Markets"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 503,
+                                    lineNumber: 493,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1933,13 +1800,13 @@ function KolkataPage() {
                                     children: "Explore bustling markets and shopping destinations in Kolkata"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 504,
+                                    lineNumber: 494,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/kolkata/page.tsx",
-                            lineNumber: 502,
+                            lineNumber: 492,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1955,7 +1822,7 @@ function KolkataPage() {
                                                     className: "w-8 h-8 text-orange-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 512,
+                                                    lineNumber: 502,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1963,13 +1830,13 @@ function KolkataPage() {
                                                     children: "New Market"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 513,
+                                                    lineNumber: 503,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 511,
+                                            lineNumber: 501,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1977,7 +1844,7 @@ function KolkataPage() {
                                             children: "One of Kolkata's oldest and busiest markets offering everything from textiles to electronics. Experience the vibrant chaos and bargaining culture of traditional Bengali markets."
                                         }, void 0, false, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 515,
+                                            lineNumber: 505,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1988,7 +1855,7 @@ function KolkataPage() {
                                                     children: "What to Buy"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 520,
+                                                    lineNumber: 510,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1998,46 +1865,46 @@ function KolkataPage() {
                                                             children: "• Traditional textiles & sarees"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 522,
+                                                            lineNumber: 512,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                             children: "• Bengali sweets & snacks"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 523,
+                                                            lineNumber: 513,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                             children: "• Electronics & gadgets"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 524,
+                                                            lineNumber: 514,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                             children: "• Handicrafts & souvenirs"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 525,
+                                                            lineNumber: 515,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 521,
+                                                    lineNumber: 511,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 519,
+                                            lineNumber: 509,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 510,
+                                    lineNumber: 500,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2050,7 +1917,7 @@ function KolkataPage() {
                                                     className: "w-8 h-8 text-purple-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 532,
+                                                    lineNumber: 522,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2058,13 +1925,13 @@ function KolkataPage() {
                                                     children: "Mullick Bazaar"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 533,
+                                                    lineNumber: 523,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 531,
+                                            lineNumber: 521,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2072,7 +1939,7 @@ function KolkataPage() {
                                             children: "Also known as Chor Bazaar, this historic market offers authentic Bengali items, spices, and traditional crafts. A paradise for those seeking genuine and second Hand automobile parts."
                                         }, void 0, false, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 535,
+                                            lineNumber: 525,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2083,7 +1950,7 @@ function KolkataPage() {
                                                     children: "Specialties"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 540,
+                                                    lineNumber: 530,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2093,56 +1960,56 @@ function KolkataPage() {
                                                             children: "• Second Hand automobile parts"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 542,
+                                                            lineNumber: 532,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                             children: "• Spices & dry fruits"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 543,
+                                                            lineNumber: 533,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                             children: "• Religious items"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 544,
+                                                            lineNumber: 534,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 541,
+                                                    lineNumber: 531,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 539,
+                                            lineNumber: 529,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 530,
+                                    lineNumber: 520,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/kolkata/page.tsx",
-                            lineNumber: 509,
+                            lineNumber: 499,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/kolkata/page.tsx",
-                    lineNumber: 501,
+                    lineNumber: 491,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/kolkata/page.tsx",
-                lineNumber: 500,
+                lineNumber: 490,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2158,7 +2025,7 @@ function KolkataPage() {
                                     children: "Kolkata Tour Packages"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 556,
+                                    lineNumber: 546,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2166,13 +2033,13 @@ function KolkataPage() {
                                     children: "Choose your perfect cultural and colonial heritage adventure"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 559,
+                                    lineNumber: 549,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/kolkata/page.tsx",
-                            lineNumber: 555,
+                            lineNumber: 545,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2188,7 +2055,7 @@ function KolkataPage() {
                                                     children: "Most Popular"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 571,
+                                                    lineNumber: 561,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2196,7 +2063,7 @@ function KolkataPage() {
                                                     children: "5N / 6D"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 575,
+                                                    lineNumber: 565,
                                                     columnNumber: 7
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2204,7 +2071,7 @@ function KolkataPage() {
                                                     children: "₹ 15,400"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 576,
+                                                    lineNumber: 566,
                                                     columnNumber: 16
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2217,14 +2084,14 @@ function KolkataPage() {
                                                                     className: "w-4 h-4 text-indigo-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                                    lineNumber: 582,
+                                                                    lineNumber: 572,
                                                                     columnNumber: 19
                                                                 }, this),
                                                                 " Accommodation"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 581,
+                                                            lineNumber: 571,
                                                             columnNumber: 17
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2234,14 +2101,14 @@ function KolkataPage() {
                                                                     className: "w-4 h-4 text-indigo-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                                    lineNumber: 585,
+                                                                    lineNumber: 575,
                                                                     columnNumber: 19
                                                                 }, this),
                                                                 " Breakfast & Dinner"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 584,
+                                                            lineNumber: 574,
                                                             columnNumber: 17
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2252,14 +2119,14 @@ function KolkataPage() {
                                                                     className: "w-4 h-4 text-indigo-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                                    lineNumber: 587,
+                                                                    lineNumber: 577,
                                                                     columnNumber: 60
                                                                 }, this),
                                                                 " PickU & Drop"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 587,
+                                                            lineNumber: 577,
                                                             columnNumber: 18
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2269,26 +2136,26 @@ function KolkataPage() {
                                                                     className: "w-4 h-4 text-indigo-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                                    lineNumber: 590,
+                                                                    lineNumber: 580,
                                                                     columnNumber: 19
                                                                 }, this),
                                                                 " Sightseeing as per Itinerary"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 589,
+                                                            lineNumber: 579,
                                                             columnNumber: 17
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 580,
+                                                    lineNumber: 570,
                                                     columnNumber: 20
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 570,
+                                            lineNumber: 560,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2297,13 +2164,13 @@ function KolkataPage() {
                                             children: "Book Now"
                                         }, void 0, false, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 596,
+                                            lineNumber: 586,
                                             columnNumber: 14
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 568,
+                                    lineNumber: 558,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2316,7 +2183,7 @@ function KolkataPage() {
                                                     children: "Recommended"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 608,
+                                                    lineNumber: 598,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2324,7 +2191,7 @@ function KolkataPage() {
                                                     children: "4N / 5D"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 612,
+                                                    lineNumber: 602,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2332,7 +2199,7 @@ function KolkataPage() {
                                                     children: "₹ 12,700"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 613,
+                                                    lineNumber: 603,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2345,14 +2212,14 @@ function KolkataPage() {
                                                                     className: "w-4 h-4 text-indigo-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                                    lineNumber: 619,
+                                                                    lineNumber: 609,
                                                                     columnNumber: 19
                                                                 }, this),
                                                                 " Accommodation"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 618,
+                                                            lineNumber: 608,
                                                             columnNumber: 17
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2362,14 +2229,14 @@ function KolkataPage() {
                                                                     className: "w-4 h-4 text-indigo-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                                    lineNumber: 622,
+                                                                    lineNumber: 612,
                                                                     columnNumber: 19
                                                                 }, this),
                                                                 " Breakfast & Dinner"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 621,
+                                                            lineNumber: 611,
                                                             columnNumber: 17
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2380,14 +2247,14 @@ function KolkataPage() {
                                                                     className: "w-4 h-4 text-indigo-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                                    lineNumber: 624,
+                                                                    lineNumber: 614,
                                                                     columnNumber: 60
                                                                 }, this),
                                                                 " Pick & Drop"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 624,
+                                                            lineNumber: 614,
                                                             columnNumber: 18
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2397,26 +2264,26 @@ function KolkataPage() {
                                                                     className: "w-4 h-4 text-indigo-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                                    lineNumber: 627,
+                                                                    lineNumber: 617,
                                                                     columnNumber: 19
                                                                 }, this),
                                                                 " Sightseeing as per Itinerary"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 626,
+                                                            lineNumber: 616,
                                                             columnNumber: 17
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 617,
+                                                    lineNumber: 607,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 607,
+                                            lineNumber: 597,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2425,13 +2292,13 @@ function KolkataPage() {
                                             children: "Book Now"
                                         }, void 0, false, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 633,
+                                            lineNumber: 623,
                                             columnNumber: 13
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 605,
+                                    lineNumber: 595,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2444,7 +2311,7 @@ function KolkataPage() {
                                                     children: "Recommended for short breaks"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 645,
+                                                    lineNumber: 635,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2452,7 +2319,7 @@ function KolkataPage() {
                                                     children: "3N / 4D"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 649,
+                                                    lineNumber: 639,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2460,7 +2327,7 @@ function KolkataPage() {
                                                     children: "₹ 9,100"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 650,
+                                                    lineNumber: 640,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2473,14 +2340,14 @@ function KolkataPage() {
                                                                     className: "w-4 h-4 text-indigo-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                                    lineNumber: 655,
+                                                                    lineNumber: 645,
                                                                     columnNumber: 19
                                                                 }, this),
                                                                 " Accommodation"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 654,
+                                                            lineNumber: 644,
                                                             columnNumber: 17
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2490,14 +2357,14 @@ function KolkataPage() {
                                                                     className: "w-4 h-4 text-indigo-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                                    lineNumber: 658,
+                                                                    lineNumber: 648,
                                                                     columnNumber: 19
                                                                 }, this),
                                                                 " Breakfast & Dinner"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 657,
+                                                            lineNumber: 647,
                                                             columnNumber: 17
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2508,14 +2375,14 @@ function KolkataPage() {
                                                                     className: "w-4 h-4 text-indigo-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                                    lineNumber: 660,
+                                                                    lineNumber: 650,
                                                                     columnNumber: 60
                                                                 }, this),
                                                                 " Pick & Drop"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 660,
+                                                            lineNumber: 650,
                                                             columnNumber: 18
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2525,26 +2392,26 @@ function KolkataPage() {
                                                                     className: "w-4 h-4 text-indigo-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                                    lineNumber: 663,
+                                                                    lineNumber: 653,
                                                                     columnNumber: 19
                                                                 }, this),
                                                                 " Sightseeing as per Itinerary"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 662,
+                                                            lineNumber: 652,
                                                             columnNumber: 17
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 653,
+                                                    lineNumber: 643,
                                                     columnNumber: 20
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 644,
+                                            lineNumber: 634,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2553,13 +2420,13 @@ function KolkataPage() {
                                             children: "Book Now"
                                         }, void 0, false, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 669,
+                                            lineNumber: 659,
                                             columnNumber: 14
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 642,
+                                    lineNumber: 632,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2572,7 +2439,7 @@ function KolkataPage() {
                                                     children: "Recommended only for group of 20+ persons"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 681,
+                                                    lineNumber: 671,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2580,7 +2447,7 @@ function KolkataPage() {
                                                     children: "2N / 3D"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 685,
+                                                    lineNumber: 675,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2588,7 +2455,7 @@ function KolkataPage() {
                                                     children: "₹ 6,400"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 686,
+                                                    lineNumber: 676,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2601,14 +2468,14 @@ function KolkataPage() {
                                                                     className: "w-4 h-4 text-indigo-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                                    lineNumber: 691,
+                                                                    lineNumber: 681,
                                                                     columnNumber: 19
                                                                 }, this),
                                                                 " Accommodation"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 690,
+                                                            lineNumber: 680,
                                                             columnNumber: 17
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2618,14 +2485,14 @@ function KolkataPage() {
                                                                     className: "w-4 h-4 text-indigo-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                                    lineNumber: 694,
+                                                                    lineNumber: 684,
                                                                     columnNumber: 19
                                                                 }, this),
                                                                 " Breakfast & Dinner"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 693,
+                                                            lineNumber: 683,
                                                             columnNumber: 17
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2636,14 +2503,14 @@ function KolkataPage() {
                                                                     className: "w-4 h-4 text-indigo-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                                    lineNumber: 696,
+                                                                    lineNumber: 686,
                                                                     columnNumber: 60
                                                                 }, this),
                                                                 " Pick & Drop"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 696,
+                                                            lineNumber: 686,
                                                             columnNumber: 18
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2653,26 +2520,26 @@ function KolkataPage() {
                                                                     className: "w-4 h-4 text-indigo-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                                    lineNumber: 699,
+                                                                    lineNumber: 689,
                                                                     columnNumber: 19
                                                                 }, this),
                                                                 " Sightseeing as per Itinerary"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 698,
+                                                            lineNumber: 688,
                                                             columnNumber: 17
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 689,
+                                                    lineNumber: 679,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 680,
+                                            lineNumber: 670,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2681,13 +2548,13 @@ function KolkataPage() {
                                             children: "Book Now"
                                         }, void 0, false, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 705,
+                                            lineNumber: 695,
                                             columnNumber: 13
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 678,
+                                    lineNumber: 668,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2700,7 +2567,7 @@ function KolkataPage() {
                                                     children: "Day Tour"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 717,
+                                                    lineNumber: 707,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2708,7 +2575,7 @@ function KolkataPage() {
                                                     children: "1 Full day"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 721,
+                                                    lineNumber: 711,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2716,7 +2583,7 @@ function KolkataPage() {
                                                     children: "₹ 3,700"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 722,
+                                                    lineNumber: 712,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2729,14 +2596,14 @@ function KolkataPage() {
                                                                     className: "w-4 h-4 text-indigo-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                                    lineNumber: 728,
+                                                                    lineNumber: 718,
                                                                     columnNumber: 19
                                                                 }, this),
                                                                 " Launch Your cost"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 727,
+                                                            lineNumber: 717,
                                                             columnNumber: 17
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2747,14 +2614,14 @@ function KolkataPage() {
                                                                     className: "w-4 h-4 text-indigo-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                                    lineNumber: 730,
+                                                                    lineNumber: 720,
                                                                     columnNumber: 60
                                                                 }, this),
                                                                 " Pick & Drop"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 730,
+                                                            lineNumber: 720,
                                                             columnNumber: 18
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2764,26 +2631,26 @@ function KolkataPage() {
                                                                     className: "w-4 h-4 text-indigo-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                                    lineNumber: 734,
+                                                                    lineNumber: 724,
                                                                     columnNumber: 19
                                                                 }, this),
                                                                 " Sightseeing as per Itinerary"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/kolkata/page.tsx",
-                                                            lineNumber: 733,
+                                                            lineNumber: 723,
                                                             columnNumber: 17
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/kolkata/page.tsx",
-                                                    lineNumber: 725,
+                                                    lineNumber: 715,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 716,
+                                            lineNumber: 706,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2792,41 +2659,41 @@ function KolkataPage() {
                                             children: "Book Now"
                                         }, void 0, false, {
                                             fileName: "[project]/app/kolkata/page.tsx",
-                                            lineNumber: 740,
+                                            lineNumber: 730,
                                             columnNumber: 10
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/kolkata/page.tsx",
-                                    lineNumber: 714,
+                                    lineNumber: 704,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/kolkata/page.tsx",
-                            lineNumber: 565,
+                            lineNumber: 555,
                             columnNumber: 9
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/kolkata/page.tsx",
-                    lineNumber: 552,
+                    lineNumber: 542,
                     columnNumber: 7
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/kolkata/page.tsx",
-                lineNumber: 551,
+                lineNumber: 541,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/kolkata/page.tsx",
-                lineNumber: 752,
+                lineNumber: 742,
                 columnNumber: 5
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/kolkata/page.tsx",
-        lineNumber: 66,
+        lineNumber: 80,
         columnNumber: 5
     }, this);
 }

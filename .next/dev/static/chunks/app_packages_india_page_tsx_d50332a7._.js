@@ -63,7 +63,7 @@ const indiaPackages = [
         price: "₹ 14500",
         desc: "Discover pristine landscapes, monasteries, and snow-clad mountains.",
         locations: "Sikkim, Gangtok, Pelling, Lachen",
-        image: "https://images.unsplash.com/photo-1553285207-a28928d5cc82?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEJ1ZGRoYXxlbnwwfHwwfHx8MA%3D%3D",
+        image: "/img/Bhutan.jpeg",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
         iconColor: "text-indigo-500",
         route: "/sikkim-tourism",
