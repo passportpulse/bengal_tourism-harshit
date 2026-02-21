@@ -14,7 +14,7 @@ const wildlifeSanctuaries = [
     specialty: "One Horned Rhino",
     animals: ["One Horned Rhino", "Indian Elephants", "Bison", "Leopards", "Deer", "Birds"],
     features: ["Grassland habitat", "Riverine forests", "Wildlife viewing", "Safari rides"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1500463959177-e0869687df26?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGp1bmdsZSUyMHNhZmFyaXxlbnwwfHwwfHx8MA%3D%3D"
   },
   {
     name: "Gorumara National Park",
@@ -23,7 +23,7 @@ const wildlifeSanctuaries = [
     specialty: "Indian Elephants",
     animals: ["Indian Elephants", "One Horned Rhino", "Leopards", "Bison", "Deer", "Birds"],
     features: ["Mixed forests", "Grasslands", "Elephant corridor", "Wildlife photography"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1562183667-a159d28118ec?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGp1bmdsZSUyMHNhZmFyaXxlbnwwfHwwfHx8MA%3D%3D"
   },
   {
     name: "Chapramari Wildlife Sanctuary",
@@ -32,7 +32,7 @@ const wildlifeSanctuaries = [
     specialty: "Wildlife Sanctuary",
     animals: ["Leopards", "Elephants", "Deer", "Bison", "Birds", "Reptiles"],
     features: ["Tropical forests", "Wildlife viewing", "Nature trails", "Photography"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1590514526581-bf7feaee0217?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8anVuZ2xlJTIwc2FmYXJpfGVufDB8fDB8fHww"
   },
   {
     name: "Buxa Tiger Reserve",
@@ -41,7 +41,7 @@ const wildlifeSanctuaries = [
     specialty: "Tiger Reserve",
     animals: ["Royal Bengal Tiger", "Leopards", "Elephants", "Bison", "Deer", "Birds"],
     features: ["Tiger habitat", "Historic fort", "Riverine forests", "Wildlife viewing"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1742833776566-c4a790252ff9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGp1bmdsZSUyMHNhZmFyaXxlbnwwfHwwfHx8MA%3D%3D"
   },
   {
     name: "Neora Valley National Park",
@@ -50,7 +50,7 @@ const wildlifeSanctuaries = [
     specialty: "Himalayan Wildlife",
     animals: ["Red Panda", "Clouded Leopard", "Himalayan Tahr", "Birds", "Butterflies"],
     features: ["Himalayan forests", "Rich biodiversity", "Trekking trails", "Nature walks"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1572065897336-d808c386c9ad?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8anVuZ2xlJTIwc2FmYXJpfGVufDB8fDB8fHww"
   }
 ];
 
@@ -285,7 +285,7 @@ export default function JungleSafariPage() {
       <section className="relative h-[80vh] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            src="https://images.unsplash.com/photo-1669021820355-7186908380d9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8anVuZ2xlJTIwc2FmYXJpfGVufDB8fDB8fHww"
             alt="Jungle Safari & Expedition"
             fill
             className="object-cover"
@@ -353,7 +353,7 @@ export default function JungleSafariPage() {
       </section>
 
       {/* ================= CATEGORY TABS ================= */}
-      <section className="py-16 bg-white sticky top-0 z-40 shadow-lg border-b border-gray-100">
+      <section className="py-16 bg-white  border-gray-100">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex justify-center">
             <div className="inline-flex rounded-full bg-gray-100 p-1">
@@ -393,66 +393,100 @@ export default function JungleSafariPage() {
       </section>
 
       {/* ================= WILDLIFE SANCTUARIES ================= */}
-      {activeTab === "sanctuaries" && (
-        <section className="py-20 bg-gradient-to-br from-green-50 to-emerald-50">
-          <div className="max-w-7xl mx-auto px-6">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl font-black text-gray-900 mb-6">Wildlife Sanctuaries</h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Home to the famous One Horned Rhino, Indian Elephants & other wildlife's natural habitat
-              </p>
-            </div>
+   {activeTab === "sanctuaries" && (
+  <section className="py-20 bg-gradient-to-br from-green-50 to-emerald-50">
+    <div className="max-w-7xl mx-auto px-6">
+      <div className="text-center mb-16">
+        <h2 className="text-4xl font-black text-gray-900 mb-6">
+          Wildlife Sanctuaries
+        </h2>
+        <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          Home to the famous One Horned Rhino, Indian Elephants & other wildlife's natural habitat
+        </p>
+      </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {wildlifeSanctuaries.map((sanctuary, index) => (
-                <div key={index} className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-                  <div className="relative h-48 rounded-t-xl overflow-hidden">
-                    <Image
-                      src={sanctuary.image}
-                      alt={sanctuary.name}
-                      fill
-                      className="object-cover"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                    <div className="absolute top-3 right-3">
-                      <span className="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold">
-                        {sanctuary.altitude}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {wildlifeSanctuaries.map((sanctuary, index) => (
+          <div
+            key={index}
+            className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between"
+          >
+            {/* Image Section */}
+            <div>
+              <div className="relative h-48 rounded-t-xl overflow-hidden">
+                <Image
+                  src={sanctuary.image}
+                  alt={sanctuary.name}
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+
+                <div className="absolute top-3 right-3">
+                  <span className="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold">
+                    {sanctuary.altitude}
+                  </span>
+                </div>
+
+                <div className="absolute bottom-3 left-3">
+                  <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-bold">
+                    {sanctuary.location}
+                  </span>
+                </div>
+              </div>
+
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-2">
+                  {sanctuary.name}
+                </h3>
+                <p className="text-gray-600 mb-4">
+                  {sanctuary.specialty}
+                </p>
+
+                <div className="mb-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">
+                    Wildlife:
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    {sanctuary.animals.map((animal, idx) => (
+                      <span
+                        key={idx}
+                        className="bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs"
+                      >
+                        {animal}
                       </span>
-                    </div>
-                    <div className="absolute bottom-3 left-3">
-                      <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-bold">
-                        {sanctuary.location}
-                      </span>
-                    </div>
-                  </div>
-                  
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">{sanctuary.name}</h3>
-                    <p className="text-gray-600 mb-4">{sanctuary.specialty}</p>
-                    <div className="mb-4">
-                      <h4 className="font-semibold text-gray-900 mb-2">Wildlife:</h4>
-                      <div className="flex flex-wrap gap-2">
-                        {sanctuary.animals.map((animal, idx) => (
-                          <span key={idx} className="bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs">
-                            {animal}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-                    <div className="flex flex-wrap gap-2">
-                      {sanctuary.features.map((feature, idx) => (
-                        <span key={idx} className="bg-blue-50 text-blue-700 px-3 py-1 rounded-full text-sm">
-                          {feature}
-                        </span>
-                      ))}
-                    </div>
+                    ))}
                   </div>
                 </div>
-              ))}
+
+                <div className="flex flex-wrap gap-2">
+                  {sanctuary.features.map((feature, idx) => (
+                    <span
+                      key={idx}
+                      className="bg-blue-50 text-blue-700 px-3 py-1 rounded-full text-sm"
+                    >
+                      {feature}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Book Button */}
+            <div className="px-6 pb-6">
+              <a
+                href="/book-tour"
+                className="block w-full text-center bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700 transition"
+              >
+                Book Now for 3N / 4D
+              </a>
             </div>
           </div>
-        </section>
-      )}
+        ))}
+      </div>
+    </div>
+  </section>
+)}
 
       {/* ================= NEARBY DESTINATIONS ================= */}
       {activeTab === "nearby" && (
@@ -628,23 +662,7 @@ export default function JungleSafariPage() {
         </div>
       </section>
 
-      {/* ================= CTA ================= */}
-      <section className="py-20 bg-gradient-to-br from-green-600 to-emerald-600">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-4xl font-black text-white mb-6">Plan Your Wildlife Adventure</h2>
-          <p className="text-xl text-white/90 max-w-3xl mx-auto mb-12">
-            Experience the thrill of wildlife in their natural habitat
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/book-tour" className="px-8 py-3 bg-white text-green-600 font-bold rounded-xl hover:bg-gray-100 transition">
-              Book Safari
-            </a>
-            <a href="/contact" className="px-8 py-3 bg-white text-green-600 font-bold rounded-xl hover:bg-gray-100 transition">
-              Custom Package
-            </a>
-          </div>
-        </div>
-      </section>
+
       
       {/* ================= PACKAGE PRICING ================= */}
       <PackagePricing 

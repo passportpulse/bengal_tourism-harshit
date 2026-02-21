@@ -5,6 +5,57 @@ import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, A
 import PackagePricing from '@/components/PackagePricing'
 import ContactCTA from '@/components/ContactCTA'
 import { useRouter } from "next/navigation"
+export const majorAttractions = [
+  {
+    name: "Victoria Memorial Hall",
+    image: "https://images.unsplash.com/photo-1622274420169-cd545e633859?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8VmljdG9yaWElMjBNZW1vcmlhbCUyMEhhbGx8ZW58MHx8MHx8fDA%3D",
+    description:
+      "Magnificent marble monument built in memory of Queen Victoria (1921).",
+    location: "Maidan"
+  },
+  {
+    name: "Howrah Bridge",
+    image: "https://images.unsplash.com/photo-1571679654681-ba01b9e1e117?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8SG93cmFoJTIwQnJpZGdlfGVufDB8fDB8fHww",
+    description:
+      "Iconic cantilever bridge over the Hooghly River, an engineering marvel.",
+    location: "Howrah"
+  },
+  {
+    name: "China Town",
+    image: "https://images.unsplash.com/photo-1529922111683-5102bf9f926d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2hpbmElMjBUb3dufGVufDB8fDB8fHww",
+    description:
+      "Oldest Chinese settlement known for authentic Chinese cuisine & heritage.",
+    location: "Tiretta Bazaar"
+  },
+  {
+    name: "Indian Museum",
+    image: "https://images.unsplash.com/photo-1598431415889-f712fa9c5c50?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SW5kaWFuJTIwTXVzZXVtfGVufDB8fDB8fHww",
+    description:
+      "Largest museum in India, founded in 1814, housing rare artifacts.",
+    location: "Jawaharlal Nehru Road"
+  },
+  {
+    name: "St. Paul's Cathedral",
+    image: "https://images.unsplash.com/photo-1532444143931-9f60a76242e7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U3QuJTIwUGF1bCdzJTIwQ2F0aGVkcmFsfGVufDB8fDB8fHww",
+    description:
+      "Gothic Revival cathedral built in 1847, an architectural masterpiece.",
+    location: "Cathedral Road"
+  },
+  {
+    name: "Botanical Gardens",
+    image: "https://images.unsplash.com/photo-1558966151-762ec9755ce3?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Qm90YW5pY2FsJTIwR2FyZGVuc3xlbnwwfHwwfHx8MA%3D%3D",
+    description:
+      "Home to the world’s largest banyan tree and lush 273-acre greenery.",
+    location: "Shibpur, Howrah"
+  },
+  {
+    name: "Tram Museum",
+    image: "https://images.unsplash.com/photo-1645066143704-d9c5235d3ef4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8VHJhbSUyME11c2V1bXxlbnwwfHwwfHx8MA%3D%3D",
+    description:
+      "Showcasing the vintage tram heritage and transportation history of Kolkata.",
+    location: "Esplanade"
+  }
+];
 export default function KolkataPage() {
     const router = useRouter()
   
@@ -213,91 +264,32 @@ export default function KolkataPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center">
-                <Building className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Victoria Memorial Hall</h3>
-                <p className="text-gray-700 mb-4">Magnificent marble monument built in memory of Queen Victoria (1921)</p>
-                <div className="flex items-center gap-2 text-orange-600">
-                  <MapPin className="w-4 h-4" />
-                  <span className="text-sm">Maidan</span>
-                </div>
-              </div>
-            </div>
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+  {majorAttractions.map((place, index) => (
+    <div
+      key={index}
+      className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group"
+    >
+      <div className="relative h-56 overflow-hidden">
+        <img
+          src={place.image}
+          alt={place.name}
+          className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+      </div>
 
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-blue-400 to-cyan-500 flex items-center justify-center">
-                <Ship className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Howrah Bridge</h3>
-                <p className="text-gray-700 mb-4">Iconic cantilever bridge over Hooghly River, engineering marvel</p>
-                <div className="flex items-center gap-2 text-blue-600">
-                  <MapPin className="w-4 h-4" />
-                  <span className="text-sm">Howrah</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-green-400 to-teal-500 flex items-center justify-center">
-                <Archive className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Indian Museum</h3>
-                <p className="text-gray-700 mb-4">Largest museum in India, founded in 1814, housing rare artifacts</p>
-                <div className="flex items-center gap-2 text-green-600">
-                  <MapPin className="w-4 h-4" />
-                  <span className="text-sm">Jawaharlal Nehru Road</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-purple-400 to-pink-500 flex items-center justify-center">
-                <Church className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">St. Paul's Cathedral</h3>
-                <p className="text-gray-700 mb-4">Gothic Revival style cathedral, built in 1847, architectural gem</p>
-                <div className="flex items-center gap-2 text-purple-600">
-                  <MapPin className="w-4 h-4" />
-                  <span className="text-sm"> Cathedral Road</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-yellow-400 to-orange-500 flex items-center justify-center">
-                <Trees className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Botanical Gardens</h3>
-                <p className="text-gray-700 mb-4">World's largest banyan tree, 273-acre paradise of flora</p>
-                <div className="flex items-center gap-2 text-yellow-600">
-                  <MapPin className="w-4 h-4" />
-                  <span className="text-sm">Shyambazar</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-teal-400 to-blue-500 flex items-center justify-center">
-                <Train className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Tram Museum</h3>
-                <p className="text-gray-700 mb-4">History of tram cars in India, vintage transportation heritage</p>
-                <div className="flex items-center gap-2 text-teal-600">
-                  <MapPin className="w-4 h-4" />
-                  <span className="text-sm">Esplanade</span>
-                </div>
-              </div>
-            </div>
-          </div>
+      <div className="p-6">
+        <h3 className="text-2xl font-bold mb-3">{place.name}</h3>
+        <p className="text-gray-700 mb-4">{place.description}</p>
+        <div className="flex items-center gap-2 text-orange-600">
+          <MapPin className="w-4 h-4" />
+          <span className="text-sm">{place.location}</span>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
         </div>
       </section>
 

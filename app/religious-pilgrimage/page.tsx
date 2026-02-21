@@ -209,7 +209,7 @@ const otherReligiousDestinations = [
     name: "Taraknath Temple / Tarakeswar",
     location: "Hooghly",
     type: "Hindu Temple",
-    description: "Famous Shiva temple",
+    description: "Famous Ma Tara Temple",
     significance: "Major Shiva pilgrimage"
   }
 ];

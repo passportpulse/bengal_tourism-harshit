@@ -283,7 +283,7 @@ export default function ShortBreaks() {
       cuisine: "Tribal & Purulia specialities"
     },
     {
-    name: "Ganga Sagar Iland with Bakkhali",
+      name: "Ganga Sagar Island & Kapil Muni's Ashram",
       description: "Sacred pilgrimage site with Kapil Muni's Ashram and Holy Dip",
       duration: "2N/3D",
       price: "On Request",
@@ -645,15 +645,12 @@ export default function ShortBreaks() {
                   <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/10 rounded-full -ml-12 -mb-12"></div>
 
                   <div className="relative">
-                    <div className="flex items-center justify-between mb-3">
-                      <h3 className="text-2xl font-bold text-white line-clamp-1">{destination.name}</h3>
                    
-                    </div>
+                      <h3 className="text-2xl font-bold text-white mb-3">{destination.name}</h3>
+                   
+             
 
-                    <div className="inline-flex items-center bg-white/20 backdrop-blur-sm px-3 py-2 rounded-full">
-                      <MapPin className="w-4 h-4 mr-2 text-white" />
-                      <span className="text-sm font-medium text-white">{destination.distance}</span>
-                    </div>
+                  
                   </div>
                 </div>
 
