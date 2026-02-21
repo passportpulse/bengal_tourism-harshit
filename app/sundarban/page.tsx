@@ -1,7 +1,7 @@
 "use client"
 
 import Image from 'next/image'
-import { Trees, Waves, MapPin, Calendar, Users, Star, Clock, Camera, Anchor, Eye, Bird, Fish, Trees as TreeIcon, Home, Ship, IndianRupee, Award, Compass } from 'lucide-react'
+import { Trees, Waves, MapPin, Calendar, Users, Star, Clock, Camera, Anchor, Eye, Bird, Fish, Trees as TreeIcon, Home, Ship, IndianRupee, Award, Compass, Play } from 'lucide-react'
 import ContactCTA from '@/components/ContactCTA'
 import PackagePricing from '@/components/PackagePricing'
 const watchTowers = [
@@ -285,6 +285,14 @@ export default function SundarbanPage() {
               </div>
             </div>
             <div className="relative">
+              {/* Video Section */}
+              <div className="absolute inset-0 bg-black/50 rounded-2xl flex items-center justify-center">
+                <div className="text-center text-white">
+                  <Play className="w-16 h-16 mb-4 mx-auto" />
+                  <h4 className="text-2xl font-bold mb-2">Tiger Videos</h4>
+                  <p className="text-lg">Coming Soon</p>
+                </div>
+              </div>
               <img
                 src="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=600&h=400&fit=crop"
                 alt="Royal Bengal Tiger in Sundarban"
