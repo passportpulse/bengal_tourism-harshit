@@ -97,7 +97,7 @@ export default function MembershipPage() {
     lastName: "",
     dateOfBirth: "",
     email: "",
-    mobile: "",
+    phone: "", // Changed from mobile to phone
     address: "",
     city: "",
     pinCode: "",
@@ -105,7 +105,7 @@ export default function MembershipPage() {
     bankName: "",
     accountNumber: "",
     branchName: "",
-    ifscCode: "",
+    ifscUpi: "", // Changed from ifscCode to ifscUpi
     regdFee: "",
     paymentMode: "",
     paymentDate: ""
@@ -118,10 +118,30 @@ export default function MembershipPage() {
     setFormData(prev => ({ ...prev, [field]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Membership form submitted:", formData);
-    setShowSuccess(true);
+    
+    try {
+      const response = await fetch('/api/membership', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (response.ok && data.success) {
+        console.log("Membership form submitted successfully:", formData);
+        setShowSuccess(true);
+      } else {
+        alert(data.error || 'Failed to submit membership application. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error submitting membership application:', error);
+      alert('Failed to submit membership application. Please try again.');
+    }
   };
 
   const nextStep = () => {
@@ -343,8 +363,8 @@ export default function MembershipPage() {
                   </label>
                   <input
                     type="tel"
-                    value={formData.mobile}
-                    onChange={(e) => handleInputChange("mobile", e.target.value)}
+                    value={formData.phone}
+                    onChange={(e) => handleInputChange("phone", e.target.value)}
                     className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
                     placeholder="Ex: +91 98765 43210"
                     required
@@ -506,8 +526,8 @@ export default function MembershipPage() {
                     </label>
                     <input
                       type="text"
-                      value={formData.ifscCode}
-                      onChange={(e) => handleInputChange("ifscCode", e.target.value)}
+                      value={formData.ifscUpi}
+                      onChange={(e) => handleInputChange("ifscUpi", e.target.value)}
                       className="w-full px-4 py-3 text-gray-500 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder={formData.paymentMode === "bank_transfer" ? "Enter IFSC code" : "Enter UPI name or phone number"}
                       required

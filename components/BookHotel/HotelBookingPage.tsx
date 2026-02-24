@@ -564,12 +564,21 @@ export default function HotelBookingPage() {
     setIsSubmitting(true);
 
     try {
+      // Find destination label from the destinations array
+      const destinationLabel = destinations.find(d => d.value === formData.destination)?.label || formData.destination;
+      
+      // Create submission data with destination label instead of value
+      const submissionData = {
+        ...formData,
+        destination: destinationLabel // Send the label instead of value
+      };
+
       const response = await fetch('/api/hotel-booking', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(submissionData),
       });
 
       const data = await response.json();
@@ -1075,16 +1084,7 @@ export default function HotelBookingPage() {
 
           </form>
 
-          {/* Book Hotels Now Link */}
-          <div className="text-center mt-6">
-            <Link
-              href="/book-hotel"
-              className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition transform hover:scale-105"
-            >
-              <Bed className="w-5 h-5" />
-              Book Hotels Now
-            </Link>
-          </div>
+         
         </div>
       </div>
     </main>

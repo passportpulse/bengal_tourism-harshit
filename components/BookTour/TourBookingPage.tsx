@@ -187,12 +187,22 @@ export default function TourBookingPage() {
     setIsSubmitting(true);
 
     try {
+      // Ensure all required data is properly formatted
+      const submissionData = {
+        ...formData,
+        // Ensure destination is properly formatted (trim whitespace)
+        destination: formData.destination.trim(),
+        // Format dates consistently
+        checkIn: formData.checkIn.trim(),
+        checkOut: formData.checkOut.trim(),
+      };
+
       const response = await fetch('/api/tour-booking', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(submissionData),
       });
 
       const data = await response.json();

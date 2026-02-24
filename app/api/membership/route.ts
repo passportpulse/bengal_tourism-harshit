@@ -10,13 +10,12 @@ export async function POST(request: NextRequest) {
       lastName,
       email,
       phone,
-      earningMethod,
       paymentMode,
       ifscUpi,
     } = body;
 
     // Validate required fields
-    const requiredFields = ['firstName', 'lastName', 'email', 'phone', 'earningMethod', 'paymentMode', 'ifscUpi'];
+    const requiredFields = ['firstName', 'lastName', 'email', 'phone', 'paymentMode', 'ifscUpi'];
 
     for (const field of requiredFields) {
       if (!body[field]) {
@@ -50,7 +49,6 @@ export async function POST(request: NextRequest) {
       lastName,
       email,
       phone,
-      earningMethod,
       paymentMode,
       ifscUpi,
     });
