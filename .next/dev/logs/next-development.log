@@ -587,3 +587,24 @@ It can also happen if the client has a browser extension installed which messes 
 [03:02:37.824] Server  LOG     ✓ Compiled in 70ms
 [03:02:50.620] Server  LOG     ✓ Compiled in 64ms
 [03:03:02.541] Server  LOG     ✓ Compiled in 60ms
+[03:08:11.322] Server  LOG     ✓ Compiled in 83ms
+[03:08:27.279] Server  LOG     ✓ Compiled in 65ms
+[03:08:29.835] Server  LOG     ✓ Compiled in 69ms
+[03:08:36.378] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:08:44.334] Browser LOG     Check-in: 26-02-2026 Date: "2026-02-26T00:00:00.000Z"
+[03:08:44.334] Browser LOG     Check-out: 28-02-2026 Date: "2026-02-28T00:00:00.000Z"
+[03:08:44.334] Browser LOG     Diff time: 172800000
+[03:08:44.334] Browser LOG     Diff days: 2
+[03:09:03.129] Browser LOG     Check-in: 27-02-2026 Date: "2026-02-27T00:00:00.000Z"
+[03:09:03.129] Browser LOG     Check-out: 28-02-2026 Date: "2026-02-28T00:00:00.000Z"
+[03:09:03.129] Browser LOG     Diff time: 86400000
+[03:09:03.129] Browser LOG     Diff days: 1
+[03:09:05.791] Browser LOG     Check-in: 27-02-2026 Date: "2026-02-27T00:00:00.000Z"
+[03:09:05.791] Browser LOG     Check-out: 28-03-2026 Date: "2026-03-28T00:00:00.000Z"
+[03:09:05.791] Browser LOG     Diff time: 2505600000
+[03:09:05.791] Browser LOG     Diff days: 29
+[03:09:07.275] Browser LOG     Check-in: 27-02-2026 Date: "2026-02-27T00:00:00.000Z"
+[03:09:07.275] Browser LOG     Check-out: 03-03-2026 Date: "2026-03-03T00:00:00.000Z"
+[03:09:07.275] Browser LOG     Diff time: 345600000
+[03:09:07.275] Browser LOG     Diff days: 4
+[03:11:35.225] Server  LOG     ✓ Compiled in 120ms

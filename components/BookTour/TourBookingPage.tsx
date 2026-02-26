@@ -525,7 +525,7 @@ export default function TourBookingPage() {
                   </div>
                     <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Total Cost <span className="text-red-500">*</span>
+                     Cost for nubmer of nights <span className="text-red-500">*</span>
                     </label>
                     <div className="flex gap-2">
                       <select className="px-4 text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
@@ -584,7 +584,7 @@ export default function TourBookingPage() {
                   </div>
    <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      No. of Children (5-8 yrs)
+                      No. of Children (5-8 yrs) 50%
                     </label>
                     <input
                       type="number"
