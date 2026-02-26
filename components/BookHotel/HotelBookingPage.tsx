@@ -371,12 +371,13 @@ const payments = [
     img: "/payments/sbi.png",
     details: (
       <>
-        <p><b>Beneficiary:</b></p>
-        <p className="text-pink-700 font-semibold">Bengal Tourism</p>
-           <p><b>UPI:</b>bengaltourism@okaxis</p>
-        <p><b> UPI:</b> 9804333779@upi</p>
-        <p><b>Phone:</b> 9804333779</p>
-        <p><b>Email:</b> hotel.bengaltourism@gmail.com</p>
+             
+  <p><b>Name:</b> Bengal Tourism. In</p>
+  <p><b>Bank:</b> State Bank of India (SBI)</p>
+  <p><b>Branch:</b> Kestopur</p>
+  <p><b>CA No.:</b> 33530363411</p>
+  <p><b>IFS Code:</b> SBIN 0014534</p>
+  <p><b>UPI:</b> bengaltourism@upi</p>
       </>
     ),
   },
