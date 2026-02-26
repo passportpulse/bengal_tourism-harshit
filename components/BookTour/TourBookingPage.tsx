@@ -67,7 +67,7 @@ const payments = [
     img: "/payments/paypal.png",
     details: (
       <>
-        <p><b>Email:</b> booking.bengaltourism@gmail.com</p>
+        <p><b>Email:</b> bengaltourism@gmail.com</p>
         <p><b>Mobile:</b> 9804333779</p>
       </>
     ),

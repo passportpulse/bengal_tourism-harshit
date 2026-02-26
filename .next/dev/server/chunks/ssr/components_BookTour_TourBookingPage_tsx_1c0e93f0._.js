@@ -335,7 +335,7 @@ const payments = [
                             lineNumber: 70,
                             columnNumber: 12
                         }, ("TURBOPACK compile-time value", void 0)),
-                        " booking.bengaltourism@gmail.com"
+                        " bengaltourism@gmail.com"
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
