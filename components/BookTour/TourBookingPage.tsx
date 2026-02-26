@@ -443,7 +443,7 @@ export default function TourBookingPage() {
 
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Check-in / Start Date <span className="text-red-500">*</span>
+                    Start of Journey Date <span className="text-red-500">*</span>
                     </label>
                     <input
                       type="date"
@@ -466,7 +466,7 @@ export default function TourBookingPage() {
                
                     <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Place of Start / Pick-up
+                      Place of Pick-up
                     </label>
                     <input
                       type="text"
@@ -493,7 +493,7 @@ export default function TourBookingPage() {
                   
                      <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Check-out / End Date <span className="text-red-500">*</span>
+                      End of Journey Date <span className="text-red-500">*</span>
                     </label>
                     <input
                       type="date"
@@ -511,10 +511,9 @@ export default function TourBookingPage() {
                       </p>
                     )}
                   </div>
-               
-                  <div>
+                     <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Place of End / Drop
+                      Place of Drop
                     </label>
                     <input
                       type="text"
@@ -524,50 +523,6 @@ export default function TourBookingPage() {
                       placeholder="Enter drop location"
                     />
                   </div>
-                    <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Total No. of Nights <span className="text-red-500">*</span>
-                    </label>
-                    <input
-                      type="number"
-                      value={formData.totalNights}
-                      readOnly
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600 bg-gray-50"
-                      placeholder="Auto-calculated from dates"
-                      required
-                    />
-                    <p className="text-xs text-gray-500 mt-1">
-                      Auto-calculated from check-in and check-out dates
-                    </p>
-                  </div>
-                    <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Total Cost <span className="text-red-500">*</span>
-                    </label>
-                    <div className="flex gap-2">
-                      <select className="px-4 text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
-                        <option>INR</option>
-                      </select>
-                      <input
-                        type="number"
-                        value={formData.estimatedCost}
-                        readOnly
-                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 text-gray-600"
-                        placeholder="Auto-calculated"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Travel Dates Section */}
-              <div>
-                <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-                  <Calendar className="text-red-600" />
-                  Travel Dates
-                </h2>
-                  
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
                       No. of Adult PAX <span className="text-red-500">*</span>
@@ -606,7 +561,49 @@ export default function TourBookingPage() {
                   />
                 </div>
                 
+               
+                     <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      Total Cost <span className="text-red-500">*</span>
+                    </label>
+                    <div className="flex gap-2">
+                      <select className="px-4 text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
+                        <option>INR</option>
+                      </select>
+                      <input
+                        type="number"
+                        value={formData.estimatedCost}
+                        readOnly
+                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 text-gray-600"
+                        placeholder="Auto-calculated"
+                      />
+                    </div>
+                  </div>
+                    <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      Total No. of Nights <span className="text-red-500">*</span>
+                    </label>
+                    <input
+                      type="number"
+                      value={formData.totalNights}
+                      readOnly
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600 bg-gray-50"
+                      placeholder="Auto-calculated from dates"
+                      required
+                    />
+                    <p className="text-xs text-gray-500 mt-1">
+                      Auto-calculated from check-in and check-out dates
+                    </p>
+                  </div>
+                 
                 </div>
+              </div>
+
+              {/* Travel Dates Section */}
+              <div>
+        
+                  
+               
               </div>
 
               {/* Pricing Section */}
