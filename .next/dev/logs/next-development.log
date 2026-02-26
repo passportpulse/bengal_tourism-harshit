@@ -496,3 +496,9 @@ It can also happen if the client has a browser extension installed which messes 
 [01:55:08.314] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [01:56:06.440] Server  LOG     ✓ Compiled in 75ms
 [01:57:24.274] Server  LOG     ✓ Compiled in 68ms
+[02:01:56.013] Server  LOG     ✓ Compiled in 87ms
+[02:02:08.459] Server  LOG     ✓ Compiled in 58ms
+[02:03:49.827] Server  LOG     ✓ Compiled in 72ms
+[02:03:49.939] Browser ERROR   A component is changing a controlled input to be uncontrolled. This is likely caused by the value changing from a defined to undefined, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://react.dev/link/controlled-components
+[02:03:50.222] Server  LOG     ✓ Compiled in 157ms
+[02:03:57.475] Server  LOG     ✓ Compiled in 69ms

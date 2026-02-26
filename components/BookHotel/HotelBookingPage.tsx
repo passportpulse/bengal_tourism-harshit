@@ -450,6 +450,7 @@ export default function HotelBookingPage() {
     checkOut: "",
     adults: 2,
     children: 0,
+    below5Children: 0,
     specialInfo: "",
     preferredHotel: "",
     costPerRoom: "",
@@ -887,7 +888,7 @@ export default function HotelBookingPage() {
                 <Calendar className="text-red-600" />
                 Stay No of person
               </h2>
-              <div className="grid grid-cols-1  md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1  md:grid-cols-3 gap-6">
 
 
                 <div>
@@ -909,8 +910,20 @@ export default function HotelBookingPage() {
                   </label>
                   <input
                     type="number"
-                    value={formData.children}
-                    onChange={(e) => handleInputChange("children", parseInt(e.target.value) || 0)}
+                    value={formData.below5Children}
+                    onChange={(e) => handleInputChange("below5Children", parseInt(e.target.value) || 0)}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    min="0"
+                  />
+                </div>
+                 <div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    Below (5 Years) Free
+                  </label>
+                  <input
+                    type="number"
+                     value={formData.below5Children}
+                    onChange={(e) => handleInputChange("below5Children", parseInt(e.target.value) || 0)}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                     min="0"
                   />
