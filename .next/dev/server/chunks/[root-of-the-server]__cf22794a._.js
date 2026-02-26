@@ -160,6 +160,12 @@ const TOUR_EMAIL_PORT = parseInt(process.env.TOUR_EMAIL_PORT || '587');
 const TOUR_EMAIL_USER = process.env.TOUR_EMAIL_USER || 'booking.bengaltourism@gmail.com';
 const TOUR_EMAIL_PASS = process.env.TOUR_EMAIL_PASS || '';
 const TOUR_EMAIL_FROM = process.env.TOUR_EMAIL_FROM || 'Bengal Tourism Tours <booking.bengaltourism@gmail.com>';
+// Membership Email Configuration
+const MEMBER_EMAIL_HOST = process.env.MEMBER_EMAIL_HOST || 'smtp.gmail.com';
+const MEMBER_EMAIL_PORT = parseInt(process.env.MEMBER_EMAIL_PORT || '587');
+const MEMBER_EMAIL_USER = process.env.MEMBER_EMAIL_USER || 'member.bengaltourism@gmail.com';
+const MEMBER_EMAIL_PASS = process.env.MEMBER_EMAIL_PASS || '';
+const MEMBER_EMAIL_FROM = process.env.MEMBER_EMAIL_FROM || 'Bengal membership Tours <member.bengaltourism@gmail.com>';
 const TO_EMAIL = 'bengaltourism@gmail.com';
 const NOTIFICATION_EMAIL = 'hotel.bengaltourism@gmail.com';
 // Create transporters
@@ -181,6 +187,15 @@ const tourTransporter = __TURBOPACK__imported__module__$5b$project$5d2f$node_mod
         pass: TOUR_EMAIL_PASS
     }
 });
+const memberTransporter = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$nodemailer$2f$lib$2f$nodemailer$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["default"].createTransport({
+    host: MEMBER_EMAIL_HOST,
+    port: MEMBER_EMAIL_PORT,
+    secure: MEMBER_EMAIL_PORT === 465,
+    auth: {
+        user: MEMBER_EMAIL_USER,
+        pass: MEMBER_EMAIL_PASS
+    }
+});
 // Verify transporter connections
 hotelTransporter.verify((error, success)=>{
     if (error) {
@@ -196,10 +211,30 @@ tourTransporter.verify((error, success)=>{
         console.log('Tour email server is ready to send messages');
     }
 });
+memberTransporter.verify((error, success)=>{
+    if (error) {
+        console.error('Membership email service error:', error);
+    } else {
+        console.log('Membership email server is ready to send messages');
+    }
+});
 const sendEmail = async (data)=>{
     try {
-        const transporter = data.transporter === 'tour' ? tourTransporter : hotelTransporter;
-        const from = data.transporter === 'tour' ? TOUR_EMAIL_FROM : EMAIL_FROM;
+        let transporter;
+        let from;
+        switch(data.transporter){
+            case 'tour':
+                transporter = tourTransporter;
+                from = TOUR_EMAIL_FROM;
+                break;
+            case 'member':
+                transporter = memberTransporter;
+                from = MEMBER_EMAIL_FROM;
+                break;
+            default:
+                transporter = hotelTransporter;
+                from = EMAIL_FROM;
+        }
         const mailOptions = {
             from: from,
             to: data.to,
@@ -291,59 +326,242 @@ const sendContactFormEmail = async (formData)=>{
 };
 const sendHotelBookingEmail = async (formData)=>{
     const adminEmail = `
-    <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-      <h2 style="color: #dc2626; border-bottom: 2px solid #dc2626; padding-bottom: 10px;">
-        New Hotel Booking Request
-      </h2>
-      <div style="background-color: #f9fafb; padding: 20px; border-radius: 8px; margin: 20px 0;">
-        <h3 style="color: #1f2937; margin-top: 0;">Personal Information</h3>
-        <p><strong>Name:</strong> ${formData.fullName}</p>
-        <p><strong>Email:</strong> ${formData.email}</p>
-        <p><strong>Phone:</strong> ${formData.countryCode} ${formData.phone}</p>
-        <p><strong>Address:</strong> ${formData.address}, ${formData.pinCode}</p>
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Hotel Booking Request</title>
+      <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5; }
+        .container { max-width: 600px; margin: 0 auto; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+        .header { background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%); color: white; padding: 30px; text-align: center; }
+        .header h1 { margin: 0; font-size: 28px; font-weight: 700; }
+        .header p { margin: 8px 0 0 0; opacity: 0.9; font-size: 16px; }
+        .content { padding: 40px 30px; }
+        .section { margin-bottom: 35px; }
+        .section-title { color: #1f2937; font-size: 20px; font-weight: 600; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid #f3f4f6; }
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        .info-item { background: #f9fafb; padding: 15px; border-radius: 8px; border-left: 4px solid #dc2626; }
+        .info-label { font-size: 12px; color: #6b7280; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 5px; }
+        .info-value { font-size: 16px; color: #1f2937; font-weight: 600; }
+        .highlight-box { background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%); border: 1px solid #fecaca; border-radius: 10px; padding: 20px; margin: 25px 0; }
+        .highlight-box h3 { color: #dc2626; margin: 0 0 15px 0; font-size: 18px; }
+        .footer { background: #f9fafb; padding: 25px 30px; text-align: center; border-top: 1px solid #e5e7eb; }
+        .footer p { margin: 0; color: #6b7280; font-size: 14px; }
+        .badge { display: inline-block; background: #dc2626; color: white; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+        .price-tag { background: #10b981; color: white; padding: 8px 16px; border-radius: 8px; font-weight: 600; display: inline-block; }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <div class="header">
+          <h1>🏨 New Hotel Booking Request</h1>
+          <p>A customer has requested a hotel booking</p>
+        </div>
         
-        <h3 style="color: #1f2937; margin-top: 20px;">Booking Details</h3>
-        <p><strong>Destination:</strong> ${formData.destination}</p>
-        <p><strong>Room Type:</strong> ${formData.roomType}</p>
-        <p><strong>No. of Rooms:</strong> ${formData.noOfRooms}</p>
-        <p><strong>Check-in:</strong> ${formData.checkIn}</p>
-        <p><strong>Check-out:</strong> ${formData.checkOut}</p>
-        <p><strong>Adults:</strong> ${formData.adults}</p>
-        <p><strong>Children:</strong> ${formData.children}</p>
-        <p><strong>Preferred Hotel:</strong> ${formData.preferredHotel || 'Not specified'}</p>
-        ${formData.specialInfo ? `<p><strong>Special Requirements:</strong> ${formData.specialInfo}</p>` : ''}
-        
-        <h3 style="color: #1f2937; margin-top: 20px;">Pricing</h3>
-        <p><strong>Cost per Room:</strong> ₹${formData.costPerRoom}/night</p>
-        <p><strong>Total Nights:</strong> ${formData.totalNights}</p>
-        <p><strong>Estimated Cost:</strong> ₹${formData.estimatedCost}</p>
-        <p><strong>Booking Amount:</strong> ₹${formData.bookingAmount} (${formData.paymentType === 'full' ? 'Full Payment' : '50% Advance'})</p>
+        <div class="content">
+          <div class="section">
+            <div class="section-title">👤 Personal Information</div>
+            <div class="info-grid">
+              <div class="info-item">
+                <div class="info-label">Full Name</div>
+                <div class="info-value">${formData.fullName}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Email Address</div>
+                <div class="info-value">${formData.email}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Phone Number</div>
+                <div class="info-value">${formData.countryCode} ${formData.phone}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Address</div>
+                <div class="info-value">${formData.address}, ${formData.pinCode}</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="section-title">🏨 Booking Details</div>
+            <div class="info-grid">
+              <div class="info-item">
+                <div class="info-label">Destination</div>
+                <div class="info-value">${formData.destination}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Room Type</div>
+                <div class="info-value">${formData.roomType}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Number of Rooms</div>
+                <div class="info-value">${formData.noOfRooms}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Check-in Date</div>
+                <div class="info-value">${formData.checkIn}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Check-out Date</div>
+                <div class="info-value">${formData.checkOut}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Total Nights</div>
+                <div class="info-value">${formData.totalNights}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Adults</div>
+                <div class="info-value">${formData.adults}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Children</div>
+                <div class="info-value">${formData.children}</div>
+              </div>
+            </div>
+            ${formData.preferredHotel ? `
+            <div class="info-item" style="margin-top: 15px;">
+              <div class="info-label">Preferred Hotel</div>
+              <div class="info-value">${formData.preferredHotel}</div>
+            </div>
+            ` : ''}
+            ${formData.specialInfo ? `
+            <div class="info-item" style="margin-top: 15px;">
+              <div class="info-label">Special Requirements</div>
+              <div class="info-value">${formData.specialInfo}</div>
+            </div>
+            ` : ''}
+          </div>
+
+          <div class="highlight-box">
+            <h3>💰 Pricing Information</h3>
+            <div class="info-grid">
+              <div class="info-item">
+                <div class="info-label">Cost per Room</div>
+                <div class="info-value price-tag">₹${formData.costPerRoom}/night</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Total Nights</div>
+                <div class="info-value">${formData.totalNights}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Estimated Cost</div>
+                <div class="info-value price-tag">₹${formData.estimatedCost}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Booking Amount</div>
+                <div class="info-value price-tag">₹${formData.bookingAmount}</div>
+              </div>
+            </div>
+            <div style="text-align: center; margin-top: 20px;">
+              <span class="badge">${formData.paymentType === 'full' ? 'Full Payment' : '50% Advance'}</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer">
+          <p>📅 Booking received on ${new Date().toLocaleDateString('en-IN', {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+    })}</p>
+          <p style="margin-top: 8px;">Bengal Tourism Hotel Booking System</p>
+        </div>
       </div>
-    </div>
+    </body>
+    </html>
   `;
     const userEmail = `
-    <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-      <h2 style="color: #dc2626; text-align: center; margin-bottom: 20px;">
-        Hotel Booking Request Received
-      </h2>
-      <div style="background-color: #fef2f2; padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid #fecaca;">
-        <p>Dear ${formData.fullName},</p>
-        <p>Thank you for your hotel booking request. We have received your submission and will process it shortly.</p>
-        <p><strong>Booking Reference:</strong> HT${Date.now()}</p>
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Hotel Booking Confirmation</title>
+      <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5; }
+        .container { max-width: 600px; margin: 0 auto; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+        .header { background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%); color: white; padding: 30px; text-align: center; }
+        .header h1 { margin: 0; font-size: 28px; font-weight: 700; }
+        .header p { margin: 8px 0 0 0; opacity: 0.9; font-size: 16px; }
+        .content { padding: 40px 30px; }
+        .success-box { background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); border: 1px solid #a7f3d0; border-radius: 10px; padding: 25px; margin-bottom: 30px; text-align: center; }
+        .success-box h2 { color: #059669; margin: 0 0 15px 0; font-size: 24px; }
+        .success-box p { color: #047857; margin: 0; font-size: 16px; line-height: 1.5; }
+        .booking-ref { background: #1f2937; color: white; padding: 15px 25px; border-radius: 8px; font-size: 18px; font-weight: 600; display: inline-block; margin: 15px 0; }
+        .summary-box { background: #f9fafb; border-radius: 10px; padding: 25px; margin: 25px 0; }
+        .summary-title { color: #1f2937; font-size: 20px; font-weight: 600; margin-bottom: 20px; }
+        .summary-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        .summary-item { padding: 12px 0; border-bottom: 1px solid #e5e7eb; }
+        .summary-item:last-child { border-bottom: none; }
+        .summary-label { font-size: 14px; color: #6b7280; margin-bottom: 5px; }
+        .summary-value { font-size: 16px; color: #1f2937; font-weight: 600; }
+        .footer { background: #f9fafb; padding: 25px 30px; text-align: center; border-top: 1px solid #e5e7eb; }
+        .footer p { margin: 0; color: #6b7280; font-size: 14px; }
+        .contact-info { background: #1f2937; color: white; padding: 20px; border-radius: 8px; margin: 20px 0; }
+        .contact-info p { margin: 5px 0; }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <div class="header">
+          <h1>🏨 Hotel Booking Request Received</h1>
+          <p>Thank you for choosing Bengal Tourism</p>
+        </div>
+        
+        <div class="content">
+          <div class="success-box">
+            <h2>✅ Booking Request Confirmed!</h2>
+            <p>Dear ${formData.fullName},</p>
+            <p>Thank you for your hotel booking request. We have received your submission and will process it shortly.</p>
+            <div class="booking-ref">Booking Reference: HT${Date.now()}</div>
+          </div>
+
+          <div class="summary-box">
+            <div class="summary-title">📋 Booking Summary</div>
+            <div class="summary-grid">
+              <div class="summary-item">
+                <div class="summary-label">Destination</div>
+                <div class="summary-value">${formData.destination}</div>
+              </div>
+              <div class="summary-item">
+                <div class="summary-label">Check-in</div>
+                <div class="summary-value">${formData.checkIn}</div>
+              </div>
+              <div class="summary-item">
+                <div class="summary-label">Check-out</div>
+                <div class="summary-value">${formData.checkOut}</div>
+              </div>
+              <div class="summary-item">
+                <div class="summary-label">Rooms</div>
+                <div class="summary-value">${formData.noOfRooms} ${formData.roomType}</div>
+              </div>
+              <div class="summary-item">
+                <div class="summary-label">Guests</div>
+                <div class="summary-value">${formData.adults} Adults, ${formData.children} Children</div>
+              </div>
+              <div class="summary-item">
+                <div class="summary-label">Booking Amount</div>
+                <div class="summary-value" style="color: #dc2626;">₹${formData.bookingAmount}</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-info">
+            <p><strong>📞 For any queries, contact us:</strong></p>
+            <p>📧 Email: bengaltourism@gmail.com</p>
+            <p>📱 Phone: +91 62897 83779</p>
+          </div>
+        </div>
+
+        <div class="footer">
+          <p>⏰ Our team will contact you within 24 hours to confirm your booking.</p>
+          <p style="margin-top: 8px;">© 2024 Bengal Tourism. All rights reserved.</p>
+        </div>
       </div>
-      <div style="background-color: #f9fafb; padding: 20px; border-radius: 8px; margin: 20px 0;">
-        <h3 style="color: #1f2937; margin-top: 0;">Booking Summary</h3>
-        <p><strong>Destination:</strong> ${formData.destination}</p>
-        <p><strong>Check-in:</strong> ${formData.checkIn}</p>
-        <p><strong>Check-out:</strong> ${formData.checkOut}</p>
-        <p><strong>Rooms:</strong> ${formData.noOfRooms} ${formData.roomType}</p>
-        <p><strong>Guests:</strong> ${formData.adults} Adults, ${formData.children} Children</p>
-        <p><strong>Booking Amount:</strong> ₹${formData.bookingAmount}</p>
-      </div>
-      <p style="color: #6b7280; font-size: 12px; text-align: center; margin-top: 20px;">
-        Our team will contact you within 24 hours to confirm your booking.
-      </p>
-    </div>
+    </body>
+    </html>
   `;
     try {
         await Promise.all([
@@ -354,7 +572,7 @@ const sendHotelBookingEmail = async (formData)=>{
                 transporter: 'hotel'
             }),
             sendEmail({
-                to: NOTIFICATION_EMAIL,
+                to: 'hotel.bengaltourism@gmail.com',
                 subject: `🔔 New Hotel Booking: ${formData.destination} from ${formData.fullName}`,
                 html: adminEmail,
                 transporter: 'hotel'
@@ -374,59 +592,243 @@ const sendHotelBookingEmail = async (formData)=>{
 };
 const sendTourBookingEmail = async (formData)=>{
     const adminEmail = `
-    <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-      <h2 style="color: #dc2626; border-bottom: 2px solid #dc2626; padding-bottom: 10px;">
-        New Tour Booking Request
-      </h2>
-      <div style="background-color: #f9fafb; padding: 20px; border-radius: 8px; margin: 20px 0;">
-        <h3 style="color: #1f2937; margin-top: 0;">Personal Information</h3>
-        <p><strong>Name:</strong> ${formData.fullName}</p>
-        <p><strong>Email:</strong> ${formData.email}</p>
-        <p><strong>Phone:</strong> ${formData.countryCode} ${formData.phone}</p>
-        <p><strong>Address:</strong> ${formData.address}, ${formData.pinCode}</p>
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Tour Booking Request</title>
+      <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5; }
+        .container { max-width: 600px; margin: 0 auto; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+        .header { background: linear-gradient(135deg, #059669 0%, #047857 100%); color: white; padding: 30px; text-align: center; }
+        .header h1 { margin: 0; font-size: 28px; font-weight: 700; }
+        .header p { margin: 8px 0 0 0; opacity: 0.9; font-size: 16px; }
+        .content { padding: 40px 30px; }
+        .section { margin-bottom: 35px; }
+        .section-title { color: #1f2937; font-size: 20px; font-weight: 600; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid #f3f4f6; }
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        .info-item { background: #f9fafb; padding: 15px; border-radius: 8px; border-left: 4px solid #059669; }
+        .info-label { font-size: 12px; color: #6b7280; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 5px; }
+        .info-value { font-size: 16px; color: #1f2937; font-weight: 600; }
+        .highlight-box { background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); border: 1px solid #a7f3d0; border-radius: 10px; padding: 20px; margin: 25px 0; }
+        .highlight-box h3 { color: #059669; margin: 0 0 15px 0; font-size: 18px; }
+        .footer { background: #f9fafb; padding: 25px 30px; text-align: center; border-top: 1px solid #e5e7eb; }
+        .footer p { margin: 0; color: #6b7280; font-size: 14px; }
+        .badge { display: inline-block; background: #059669; color: white; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+        .price-tag { background: #10b981; color: white; padding: 8px 16px; border-radius: 8px; font-weight: 600; display: inline-block; }
+        .promo-badge { background: #f59e0b; color: white; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <div class="header">
+          <h1>🌍 New Tour Booking Request</h1>
+          <p>A customer has requested a tour booking</p>
+        </div>
         
-        <h3 style="color: #1f2937; margin-top: 20px;">Tour Details</h3>
-        <p><strong>Destination:</strong> ${formData.destination}</p>
-        <p><strong>Start Date:</strong> ${formData.checkIn}</p>
-        <p><strong>End Date:</strong> ${formData.checkOut}</p>
-        <p><strong>Pickup Place:</strong> ${formData.pickupPlace || 'Not specified'}</p>
-        <p><strong>Drop Place:</strong> ${formData.dropPlace || 'Not specified'}</p>
-        <p><strong>Adults:</strong> ${formData.adults}</p>
-        <p><strong>Children:</strong> ${formData.children}</p>
-        <p><strong>Total Nights:</strong> ${formData.totalNights}</p>
-        ${formData.specialInfo ? `<p><strong>Special Requirements:</strong> ${formData.specialInfo}</p>` : ''}
-        
-        <h3 style="color: #1f2937; margin-top: 20px;">Pricing</h3>
-        <p><strong>Cost per Adult:</strong> ₹${formData.costPerAdult}</p>
-        <p><strong>Cost per Children:</strong> ₹${formData.costPerChildren || '0'}</p>
-        <p><strong>Estimated Cost:</strong> ₹${formData.estimatedCost}</p>
-        <p><strong>Booking Amount:</strong> ₹${formData.bookingAmount}</p>
-        ${formData.promoCode ? `<p><strong>Promo Code:</strong> ${formData.promoCode}</p>` : ''}
-        ${formData.membershipNo ? `<p><strong>Membership No:</strong> ${formData.membershipNo}</p>` : ''}
+        <div class="content">
+          <div class="section">
+            <div class="section-title">👤 Personal Information</div>
+            <div class="info-grid">
+              <div class="info-item">
+                <div class="info-label">Full Name</div>
+                <div class="info-value">${formData.fullName}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Email Address</div>
+                <div class="info-value">${formData.email}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Phone Number</div>
+                <div class="info-value">${formData.countryCode} ${formData.phone}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Address</div>
+                <div class="info-value">${formData.address}, ${formData.pinCode}</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="section-title">🗺️ Tour Details</div>
+            <div class="info-grid">
+              <div class="info-item">
+                <div class="info-label">Destination</div>
+                <div class="info-value">${formData.destination}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Start Date</div>
+                <div class="info-value">${formData.checkIn}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">End Date</div>
+                <div class="info-value">${formData.checkOut}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Total Nights</div>
+                <div class="info-value">${formData.totalNights}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Adults</div>
+                <div class="info-value">${formData.adults}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Children</div>
+                <div class="info-value">${formData.children}</div>
+              </div>
+            </div>
+            ${formData.pickupPlace ? `
+            <div class="info-item" style="margin-top: 15px;">
+              <div class="info-label">Pickup Place</div>
+              <div class="info-value">${formData.pickupPlace}</div>
+            </div>
+            ` : ''}
+            ${formData.dropPlace ? `
+            <div class="info-item" style="margin-top: 15px;">
+              <div class="info-label">Drop Place</div>
+              <div class="info-value">${formData.dropPlace}</div>
+            </div>
+            ` : ''}
+            ${formData.specialInfo ? `
+            <div class="info-item" style="margin-top: 15px;">
+              <div class="info-label">Special Requirements</div>
+              <div class="info-value">${formData.specialInfo}</div>
+            </div>
+            ` : ''}
+          </div>
+
+          <div class="highlight-box">
+            <h3>💰 Pricing Information</h3>
+            <div class="info-grid">
+              <div class="info-item">
+                <div class="info-label">Cost per Adult</div>
+                <div class="info-value price-tag">₹${formData.costPerAdult}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Cost per Children</div>
+                <div class="info-value price-tag">₹${formData.costPerChildren || '0'}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Estimated Cost</div>
+                <div class="info-value price-tag">₹${formData.estimatedCost}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Booking Amount</div>
+                <div class="info-value price-tag">₹${formData.bookingAmount}</div>
+              </div>
+            </div>
+            <div style="text-align: center; margin-top: 20px;">
+              ${formData.promoCode ? `<span class="promo-badge">Promo: ${formData.promoCode}</span>` : ''}
+              ${formData.membershipNo ? `<span class="badge" style="margin-left: 10px;">Member: ${formData.membershipNo}</span>` : ''}
+            </div>
+          </div>
+        </div>
+
+        <div class="footer">
+          <p>📅 Tour booking received on ${new Date().toLocaleDateString('en-IN', {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+    })}</p>
+          <p style="margin-top: 8px;">Bengal Tourism Tour Booking System</p>
+        </div>
       </div>
-    </div>
+    </body>
+    </html>
   `;
     const userEmail = `
-    <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-      <h2 style="color: #dc2626; text-align: center; margin-bottom: 20px;">
-        Tour Booking Request Received
-      </h2>
-      <div style="background-color: #fef2f2; padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid #fecaca;">
-        <p>Dear ${formData.fullName},</p>
-        <p>Thank you for your tour booking request. We have received your submission and will process it shortly.</p>
-        <p><strong>Booking Reference:</strong> TT${Date.now()}</p>
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Tour Booking Confirmation</title>
+      <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5; }
+        .container { max-width: 600px; margin: 0 auto; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+        .header { background: linear-gradient(135deg, #059669 0%, #047857 100%); color: white; padding: 30px; text-align: center; }
+        .header h1 { margin: 0; font-size: 28px; font-weight: 700; }
+        .header p { margin: 8px 0 0 0; opacity: 0.9; font-size: 16px; }
+        .content { padding: 40px 30px; }
+        .success-box { background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); border: 1px solid #a7f3d0; border-radius: 10px; padding: 25px; margin-bottom: 30px; text-align: center; }
+        .success-box h2 { color: #059669; margin: 0 0 15px 0; font-size: 24px; }
+        .success-box p { color: #047857; margin: 0; font-size: 16px; line-height: 1.5; }
+        .booking-ref { background: #1f2937; color: white; padding: 15px 25px; border-radius: 8px; font-size: 18px; font-weight: 600; display: inline-block; margin: 15px 0; }
+        .summary-box { background: #f9fafb; border-radius: 10px; padding: 25px; margin: 25px 0; }
+        .summary-title { color: #1f2937; font-size: 20px; font-weight: 600; margin-bottom: 20px; }
+        .summary-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        .summary-item { padding: 12px 0; border-bottom: 1px solid #e5e7eb; }
+        .summary-item:last-child { border-bottom: none; }
+        .summary-label { font-size: 14px; color: #6b7280; margin-bottom: 5px; }
+        .summary-value { font-size: 16px; color: #1f2937; font-weight: 600; }
+        .footer { background: #f9fafb; padding: 25px 30px; text-align: center; border-top: 1px solid #e5e7eb; }
+        .footer p { margin: 0; color: #6b7280; font-size: 14px; }
+        .contact-info { background: #1f2937; color: white; padding: 20px; border-radius: 8px; margin: 20px 0; }
+        .contact-info p { margin: 5px 0; }
+        .duration-badge { background: #3b82f6; color: white; padding: 8px 16px; border-radius: 8px; font-weight: 600; display: inline-block; margin: 10px 0; }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <div class="header">
+          <h1>🌍 Tour Booking Request Received</h1>
+          <p>Thank you for choosing Bengal Tourism</p>
+        </div>
+        
+        <div class="content">
+          <div class="success-box">
+            <h2>✅ Tour Booking Confirmed!</h2>
+            <p>Dear ${formData.fullName},</p>
+            <p>Thank you for your tour booking request. We have received your submission and will process it shortly.</p>
+            <div class="booking-ref">Booking Reference: TT${Date.now()}</div>
+          </div>
+
+          <div class="summary-box">
+            <div class="summary-title">📋 Tour Summary</div>
+            <div class="summary-grid">
+              <div class="summary-item">
+                <div class="summary-label">Destination</div>
+                <div class="summary-value">${formData.destination}</div>
+              </div>
+              <div class="summary-item">
+                <div class="summary-label">Duration</div>
+                <div class="summary-value duration-badge">${formData.checkIn} to ${formData.checkOut}</div>
+              </div>
+              <div class="summary-item">
+                <div class="summary-label">Travelers</div>
+                <div class="summary-value">${formData.adults} Adults, ${formData.children} Children</div>
+              </div>
+              <div class="summary-item">
+                <div class="summary-label">Total Nights</div>
+                <div class="summary-value">${formData.totalNights} Nights</div>
+              </div>
+              <div class="summary-item">
+                <div class="summary-label">Booking Amount</div>
+                <div class="summary-value" style="color: #059669;">₹${formData.bookingAmount}</div>
+              </div>
+              <div class="summary-item">
+                <div class="summary-label">Estimated Total</div>
+                <div class="summary-value" style="color: #dc2626;">₹${formData.estimatedCost}</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-info">
+            <p><strong>📞 For any queries, contact us:</strong></p>
+            <p>📧 Email: bengaltourism@gmail.com</p>
+            <p>📱 Phone: +91 62897 83779</p>
+          </div>
+        </div>
+
+        <div class="footer">
+          <p>⏰ Our team will contact you within 24 hours to confirm your tour details.</p>
+          <p style="margin-top: 8px;">© 2024 Bengal Tourism. All rights reserved.</p>
+        </div>
       </div>
-      <div style="background-color: #f9fafb; padding: 20px; border-radius: 8px; margin: 20px 0;">
-        <h3 style="color: #1f2937; margin-top: 0;">Tour Summary</h3>
-        <p><strong>Destination:</strong> ${formData.destination}</p>
-        <p><strong>Duration:</strong> ${formData.checkIn} to ${formData.checkOut}</p>
-        <p><strong>Travelers:</strong> ${formData.adults} Adults, ${formData.children} Children</p>
-        <p><strong>Booking Amount:</strong> ₹${formData.bookingAmount}</p>
-      </div>
-      <p style="color: #6b7280; font-size: 12px; text-align: center; margin-top: 20px;">
-        Our team will contact you within 24 hours to confirm your tour details.
-      </p>
-    </div>
+    </body>
+    </html>
   `;
     try {
         await Promise.all([
@@ -437,7 +839,7 @@ const sendTourBookingEmail = async (formData)=>{
                 transporter: 'tour'
             }),
             sendEmail({
-                to: NOTIFICATION_EMAIL,
+                to: 'booking.bengaltourism@gmail.com',
                 subject: `🔔 New Tour Booking: ${formData.destination} from ${formData.fullName}`,
                 html: adminEmail,
                 transporter: 'tour'
@@ -457,54 +859,208 @@ const sendTourBookingEmail = async (formData)=>{
 };
 const sendMembershipEmail = async (formData)=>{
     const adminEmail = `
-    <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-      <h2 style="color: #dc2626; border-bottom: 2px solid #dc2626; padding-bottom: 10px;">
-        New Membership Application
-      </h2>
-      <div style="background-color: #f9fafb; padding: 20px; border-radius: 8px; margin: 20px 0;">
-        <h3 style="color: #1f2937; margin-top: 0;">Applicant Information</h3>
-        <p><strong>Name:</strong> ${formData.firstName} ${formData.lastName}</p>
-        <p><strong>Email:</strong> ${formData.email}</p>
-        <p><strong>Phone:</strong> ${formData.phone}</p>
-        <p><strong>Earning Method:</strong> ${formData.earningMethod}</p>
-        <p><strong>Payment Mode:</strong> ${formData.paymentMode}</p>
-        <p><strong>IFSC Code/UPI Name:</strong> ${formData.ifscUpi}</p>
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Membership Application</title>
+      <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5; }
+        .container { max-width: 600px; margin: 0 auto; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+        .header { background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%); color: white; padding: 30px; text-align: center; }
+        .header h1 { margin: 0; font-size: 28px; font-weight: 700; }
+        .header p { margin: 8px 0 0 0; opacity: 0.9; font-size: 16px; }
+        .content { padding: 40px 30px; }
+        .section { margin-bottom: 35px; }
+        .section-title { color: #1f2937; font-size: 20px; font-weight: 600; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid #f3f4f6; }
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        .info-item { background: #f9fafb; padding: 15px; border-radius: 8px; border-left: 4px solid #7c3aed; }
+        .info-label { font-size: 12px; color: #6b7280; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 5px; }
+        .info-value { font-size: 16px; color: #1f2937; font-weight: 600; }
+        .highlight-box { background: linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%); border: 1px solid #d8b4fe; border-radius: 10px; padding: 20px; margin: 25px 0; }
+        .highlight-box h3 { color: #7c3aed; margin: 0 0 15px 0; font-size: 18px; }
+        .footer { background: #f9fafb; padding: 25px 30px; text-align: center; border-top: 1px solid #e5e7eb; }
+        .footer p { margin: 0; color: #6b7280; font-size: 14px; }
+        .badge { display: inline-block; background: #7c3aed; color: white; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+        .payment-badge { background: #10b981; color: white; padding: 8px 16px; border-radius: 8px; font-weight: 600; display: inline-block; }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <div class="header">
+          <h1>👥 New Membership Application</h1>
+          <p>A customer has applied for membership</p>
+        </div>
+        
+        <div class="content">
+          <div class="section">
+            <div class="section-title">👤 Applicant Information</div>
+            <div class="info-grid">
+              <div class="info-item">
+                <div class="info-label">Full Name</div>
+                <div class="info-value">${formData.firstName} ${formData.lastName}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Email Address</div>
+                <div class="info-value">${formData.email}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Phone Number</div>
+                <div class="info-value">${formData.phone}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Application Date</div>
+                <div class="info-value">${new Date().toLocaleDateString('en-IN')}</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="section-title">💳 Payment Information</div>
+            <div class="info-grid">
+              <div class="info-item">
+                <div class="info-label">Payment Mode</div>
+                <div class="info-value payment-badge">${formData.paymentMode}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">IFSC Code / UPI</div>
+                <div class="info-value">${formData.ifscUpi}</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="highlight-box">
+            <h3>📋 Application Details</h3>
+            <div class="info-grid">
+              <div class="info-item">
+                <div class="info-label">Application ID</div>
+                <div class="info-value">MB${Date.now()}</div>
+              </div>
+              <div class="info-item">
+                <div class="info-label">Status</div>
+                <div class="info-value"><span class="badge">Pending Review</span></div>
+              </div>
+            </div>
+            <div style="text-align: center; margin-top: 20px;">
+              <p style="color: #6b7280; font-size: 14px; margin: 0;">Application submitted on ${new Date().toLocaleDateString('en-IN', {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+    })}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer">
+          <p>🔄 Please review and process this membership application</p>
+          <p style="margin-top: 8px;">Bengal Tourism Membership System</p>
+        </div>
       </div>
-    </div>
+    </body>
+    </html>
   `;
     const userEmail = `
-    <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-      <h2 style="color: #dc2626; text-align: center; margin-bottom: 20px;">
-        Membership Application Received
-      </h2>
-      <div style="background-color: #fef2f2; padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid #fecaca;">
-        <p>Dear ${formData.firstName} ${formData.lastName},</p>
-        <p>Thank you for applying to our membership program. We have received your application and will review it shortly.</p>
-        <p><strong>Application ID:</strong> MB${Date.now()}</p>
-        <p><strong>Selected Program:</strong> ${formData.earningMethod}</p>
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Membership Application Confirmation</title>
+      <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5; }
+        .container { max-width: 600px; margin: 0 auto; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+        .header { background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%); color: white; padding: 30px; text-align: center; }
+        .header h1 { margin: 0; font-size: 28px; font-weight: 700; }
+        .header p { margin: 8px 0 0 0; opacity: 0.9; font-size: 16px; }
+        .content { padding: 40px 30px; }
+        .success-box { background: linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%); border: 1px solid #d8b4fe; border-radius: 10px; padding: 25px; margin-bottom: 30px; text-align: center; }
+        .success-box h2 { color: #7c3aed; margin: 0 0 15px 0; font-size: 24px; }
+        .success-box p { color: #6d28d9; margin: 0; font-size: 16px; line-height: 1.5; }
+        .application-ref { background: #1f2937; color: white; padding: 15px 25px; border-radius: 8px; font-size: 18px; font-weight: 600; display: inline-block; margin: 15px 0; }
+        .steps-box { background: #f9fafb; border-radius: 10px; padding: 25px; margin: 25px 0; }
+        .steps-title { color: #1f2937; font-size: 20px; font-weight: 600; margin-bottom: 20px; text-align: center; }
+        .step-item { display: flex; align-items: center; margin-bottom: 15px; padding: 15px; background: white; border-radius: 8px; border-left: 4px solid #7c3aed; }
+        .step-number { background: #7c3aed; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; margin-right: 15px; flex-shrink: 0; }
+        .step-text { color: #1f2937; font-size: 15px; }
+        .footer { background: #f9fafb; padding: 25px 30px; text-align: center; border-top: 1px solid #e5e7eb; }
+        .footer p { margin: 0; color: #6b7280; font-size: 14px; }
+        .contact-info { background: #1f2937; color: white; padding: 20px; border-radius: 8px; margin: 20px 0; }
+        .contact-info p { margin: 5px 0; }
+        .status-badge { background: #f59e0b; color: white; padding: 8px 16px; border-radius: 8px; font-weight: 600; display: inline-block; margin: 10px 0; }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <div class="header">
+          <h1>👥 Membership Application Received</h1>
+          <p>Thank you for joining Bengal Tourism</p>
+        </div>
+        
+        <div class="content">
+          <div class="success-box">
+            <h2>✅ Application Submitted Successfully!</h2>
+            <p>Dear ${formData.firstName} ${formData.lastName},</p>
+            <p>Thank you for applying to our membership program. We have received your application and will review it shortly.</p>
+            <div class="application-ref">Application ID: MB${Date.now()}</div>
+            <div class="status-badge">Status: Under Review</div>
+          </div>
+
+          <div class="steps-box">
+            <div class="steps-title">🔄 Next Steps</div>
+            <div class="step-item">
+              <div class="step-number">1</div>
+              <div class="step-text">Our team will review your application within 24-48 hours</div>
+            </div>
+            <div class="step-item">
+              <div class="step-number">2</div>
+              <div class="step-text">You'll receive payment instructions via email</div>
+            </div>
+            <div class="step-item">
+              <div class="step-number">3</div>
+              <div class="step-text">Once payment is confirmed, your membership will be activated</div>
+            </div>
+            <div class="step-item">
+              <div class="step-number">4</div>
+              <div class="step-text">Your membership kit will be dispatched to your address</div>
+            </div>
+          </div>
+
+          <div class="contact-info">
+            <p><strong>📞 For any queries, contact us:</strong></p>
+            <p>📧 Email: bengaltourism@gmail.com</p>
+            <p>📱 Phone: +91 62897 83779</p>
+          </div>
+        </div>
+
+        <div class="footer">
+          <p>⏰ We'll keep you updated on your application status</p>
+          <p style="margin-top: 8px;">© 2024 Bengal Tourism. All rights reserved.</p>
+        </div>
       </div>
-      <div style="text-align: center; margin: 30px 0;">
-        <h3 style="color: #1f2937;">Next Steps</h3>
-        <p>1. Our team will review your application</p>
-        <p>2. You'll receive payment instructions via email</p>
-        <p>3. Once payment is confirmed, your membership will be activated</p>
-      </div>
-      <p style="color: #6b7280; font-size: 12px; text-align: center; margin-top: 20px;">
-        For any queries, contact us at bengaltourism@gmail.com or call +91 62897 83779
-      </p>
-    </div>
+    </body>
+    </html>
   `;
     try {
         await Promise.all([
             sendEmail({
                 to: TO_EMAIL,
-                subject: `Membership Application: ${formData.earningMethod} from ${formData.firstName} ${formData.lastName}`,
-                html: adminEmail
+                subject: `Membership Application from ${formData.firstName} ${formData.lastName}`,
+                html: adminEmail,
+                transporter: 'member'
+            }),
+            sendEmail({
+                to: 'member.bengaltourism@gmail.com',
+                subject: `🔔 New Membership Application from ${formData.firstName} ${formData.lastName}`,
+                html: adminEmail,
+                transporter: 'member'
             }),
             sendEmail({
                 to: formData.email,
                 subject: 'Membership Application Received - Bengal Tourism',
-                html: userEmail
+                html: userEmail,
+                transporter: 'member'
             })
         ]);
         return true;

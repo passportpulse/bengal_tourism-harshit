@@ -123,10 +123,94 @@ export default function DubaiPage() {
 
       </div>
     </div>
+    <div className="bg-gray-50 py-20 px-6 md:px-12">
+      <div className="max-w-7xl mx-auto space-y-16">
+          <div className="text-center space-y-3">
+    <h2 className="text-4xl font-bold text-gray-800">Premium Add-On Experiences</h2>
+    <p className="text-gray-600">Enhance your Dubai Journey with Exclusive Experiences</p>
+  </div>
+<AddOnSection title="LUXURY YACHT EXPERIENCE" subtitle="Add-on (or) Separately with [YACHT CRUISE – 2N/3D]">
+  <div className="space-y-8 grid md:grid-cols-2 gap-8">
 
+    <DayCard title="Day – 1 : Dubai Marina Arrival">
+      Arrival at Dubai Hotel. Evening proceed for Private Yacht Cruise at Dubai Marina. 
+      Enjoy 3 Hours Sunset Sailing with BBQ Dinner, Soft Drinks & Music System onboard.
+      Witness JBR Skyline, Bluewaters Island & Ain Dubai from Sea.
+      Return to Hotel. Overnight stay at Dubai.
+    </DayCard>
 
+    <DayCard title="Day – 2 : Sky Views & Dinner Experience">
+      After breakfast, visit Sky Views Edge Walk at Address Sky View.
+      Afternoon free for leisure or shopping at Dubai Mall.
+      Evening enjoy Premium Dinner at Marina Waterfront Restaurant.
+      Overnight stay at Hotel.
+    </DayCard>
 
- 
+    <DayCard title="Day – 3 : Departure">
+      After breakfast, check-out from Hotel.
+      Transfer to Airport as per flight schedule.
+      Tour Ends.
+    </DayCard>
+
+  </div>
+</AddOnSection>
+<AddOnSection title="DESERT ROYAL EXPERIENCE" subtitle="Add-on (or) Separately with [DESERT ROYAL CAMP – 2N/3D]">
+  <div className="space-y-8 grid md:grid-cols-2 gap-8">
+
+    <DayCard title="Day – 1 : Luxury Desert Safari">
+      Arrival & Hotel Check-in.
+      Afternoon proceed for Luxury Desert Safari in 4x4 Land Cruiser.
+      Activities include Dune Bashing, Sandboarding, Camel Ride & Falcon Photography.
+      Evening enjoy VIP Seating BBQ Dinner with Live Belly Dance & Tanoura Show.
+      Overnight at Hotel in Dubai.
+    </DayCard>
+
+    <DayCard title="Day – 2 : Hot Air Balloon & Global Village">
+      Early Morning Hot Air Balloon Ride over Dubai Desert with Sunrise Photography.
+      Return for breakfast.
+      Evening visit Global Village or Miracle Garden (seasonal).
+      Dinner at Restaurant of your choice.
+      Overnight stay at Hotel.
+    </DayCard>
+
+    <DayCard title="Day – 3 : Departure">
+      Breakfast at Hotel.
+      Check-out & Airport Transfer.
+      Tour Ends.
+    </DayCard>
+
+  </div>
+</AddOnSection>
+<AddOnSection title="ATLANTIS LUXURY ESCAPE" subtitle="Add-on (or) Separately with [ATLANTIS – 2N/3D]">
+  <div className="space-y-8 grid md:grid-cols-2 gap-8">
+
+    <DayCard title="Day – 1 : Check-in Atlantis The Palm">
+      Transfer to Atlantis The Palm.
+      Check-in to Luxury Ocean View Room.
+      Evening free to explore The Pointe & Palm Jumeirah.
+      Overnight at Atlantis.
+    </DayCard>
+
+    <DayCard title="Day – 2 : Aquaventure & Lost Chambers">
+      After breakfast, full-day access to Aquaventure Waterpark.
+      Enjoy thrilling water slides & private beach access.
+      Visit Lost Chambers Aquarium.
+      Evening Dinner at Atlantis Signature Restaurant (Optional).
+      Overnight at Atlantis.
+    </DayCard>
+
+    <DayCard title="Day – 3 : Departure">
+      Breakfast at Hotel.
+      Check-out by 11 AM.
+      Transfer to Airport.
+      Tour Ends.
+    </DayCard>
+
+  </div>
+</AddOnSection>
+</div>
+
+ </div>
 <ContactCTA />
     </main>
   )
@@ -146,3 +230,15 @@ function DayCard({ title, children }: { title: string; children: React.ReactNode
     </div>
   )
 }
+
+function AddOnSection({ title, subtitle, children }: { title: string; subtitle: string; children: React.ReactNode }) {
+  return (
+    <div className="bg-white shadow-xl rounded-3xl p-10 space-y-4">
+      <h3 className="text-2xl font-bold text-amber-600">{title}</h3>
+      <p className="text-gray-700 font-medium">{subtitle}</p>
+      {children}
+    </div>
+  )
+}
+
+

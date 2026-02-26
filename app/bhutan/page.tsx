@@ -114,7 +114,7 @@ export default function BhutanPage() {
             </DayCard>
 
             <DayCard title="Day – 7">
-              Early breakfast. Some socal sightsseing & places of interest in the Forest of Jangapara / Gorumara can be visited. You can also take a Jeep Safari if time permits. Lunch-en-route. Then drive to Bagdogra Airport / NJP Railway Station in Bengal for Forwarding Journey before (06.00pm) Tour ends.
+              Early breakfast. some local sightseeing & places of interest in the Forest of Jangapara / Gorumara can be visited. You can also take a Jeep Safari if time permits. Lunch-en-route. Then drive to Bagdogra Airport / NJP Railway Station in Bengal for Forwarding Journey before (06.00pm) Tour ends.
             </DayCard>
           </div>
 
@@ -123,34 +123,41 @@ export default function BhutanPage() {
             title="PUNAKHA"
             subtitle="Add-on (or) Separately From [THIMPU - PARO- 2N/3D]"
           />
-                  <div className="space-y-10 grid md:grid-cols-2 gap-10 grid-col-1">
-          <DayCard title="Day –   ">
-            ALTERNATIVELY: Thimpu – Punakha: For visiting Punakha, one has to rise early & visit Punakha. (Rs.3000/5500) per vehicle will be charged extra / payable locally). Punakha is situated at an elevation of 4265 feet. Punakha is the winter seat of Je Khenpo (the chief abbot). Its natural drainage from Pho Chhu (male) and Mo Chhu (female) rivers - It offers splendid views of the distant Himalayas at Dochula Pass situated at an elevation of 10065 feet on Thimphu – Punakha road.  The pass is also popular spiritual place for both locals and tourists because of an important temple that is located on the crest of Dochula pass. Visit  Punakha Dzong; strategically built at the confluence of the Pho Chu (male) and Mo Chu (female) rivers by the first Shabdrung of Bhutan, Ngawang Namgyel in 1637. Lunch-en-route. Return in the evening. Dinner & Overnight  at Hote l at Punakha.
-          </DayCard>
-          <DayCard title="Day –   ">
-            Punakha - Paro : Today after break we will move towards Paro. Check into Hotel. After which start a strenuous hiking up to Kila Goempa( Kila Nunnery ), located on  the cliffs at about 3500 meters (11,400 ft) above sea level. This hiking takes almost an hour each through forest and steep slopes. From here you will have beautiful views into the Haa and Paro valleys It takes about 2 hours. Today’s sightseeing tour starts from Paro Dzong, also named Rinpung Dzong. It is one of the most impressive dzongs in Bhutan and the finest example of Bhutnes’  architecture. It was built in 1644 as a fortress and Buddhist temple, and is now the local religious administrative centre. The annual ParoTshechus held here. Later we visit Ta Dzong at the top of the hill above the Parodzong. It was originally the watch tower of ParoDzong now it houses the National Museum with over 3000 art treasures. Our next destination is the Kyichu Lhakhang; one of the oldest temples inn Bhutan where the royal family’s most important celebration are held. Lunch-en-route. Return in the evening.  Dinner & Overnight stay at Hotel at Paro.
-          </DayCard>
+          <div className="space-y-10 grid md:grid-cols-2 gap-10 grid-col-1">
+            <DayCard title="Day – 1  ">
+              ALTERNATIVELY: Thimpu – Punakha: For visiting Punakha, one has to rise early & visit Punakha. (Rs.3000/5500) per vehicle will be charged extra / payable locally). Punakha is situated at an elevation of 4265 feet. Punakha is the winter seat of Je Khenpo (the chief abbot). Its natural drainage from Pho Chhu (male) and Mo Chhu (female) rivers - It offers splendid views of the distant Himalayas at Dochula Pass situated at an elevation of 10065 feet on Thimphu – Punakha road.  The pass is also popular spiritual place for both locals and tourists because of an important temple that is located on the crest of Dochula pass. Visit  Punakha Dzong; strategically built at the confluence of the Pho Chu (male) and Mo Chu (female) rivers by the first Shabdrung of Bhutan, Ngawang Namgyel in 1637. Lunch-en-route. Return in the evening. Dinner & Overnight  at Hote l at Punakha.
+            </DayCard>
+            <DayCard title="Day –  2 ">
+              Punakha - Paro : Today after break we will move towards Paro. Check into Hotel. After which start a strenuous hiking up to Kila Goempa( Kila Nunnery ), located on  the cliffs at about 3500 meters (11,400 ft) above sea level. This hiking takes almost an hour each through forest and steep slopes. From here you will have beautiful views into the Haa and Paro valleys It takes about 2 hours. Today’s sightseeing tour starts from Paro Dzong, also named Rinpung Dzong. It is one of the most impressive dzongs in Bhutan and the finest example of Bhutnes’  architecture. It was built in 1644 as a fortress and Buddhist temple, and is now the local religious administrative centre. The annual ParoTshechus held here. Later we visit Ta Dzong at the top of the hill above the Parodzong. It was originally the watch tower of ParoDzong now it houses the National Museum with over 3000 art treasures. Our next destination is the Kyichu Lhakhang; one of the oldest temples inn Bhutan where the royal family’s most important celebration are held. Lunch-en-route. Return in the evening.  Dinner & Overnight stay at Hotel at Paro.
+            </DayCard>
+            <DayCard title="Day – 3 ">
+              Paro – Tiger’s Nest Hike – Departure : After early breakfast, proceed for the most iconic hike of Bhutan – Taktsang Monastery (Tiger’s Nest). The monastery is perched dramatically on a cliff at 3,120 meters (10,240 ft) above sea level. It is believed that Guru Rinpoche flew to this site on the back of a tigress and meditated here in the 8th century. The hike takes around 4–5 hours round trip depending on pace. Ponies are available (on direct payment basis).
 
-</div>
+              After completing the hike, return to hotel for freshening up. Later, depending on flight schedule, transfer to Paro International Airport for onward journey with unforgettable memories of Bhutan.
+
+              Tour Ends.
+            </DayCard>
+
+          </div>
 
 
           <AddOnSection
             title="PHOBCHIKA"
             subtitle="Add-on (or) Separately From [PUNAKHA - PARO- 2N/3D]"
           />
-     <div className="space-y-10 grid md:grid-cols-2 gap-10 grid-col-1">
-          <DayCard title="Day – 1">
-            Thimphu-Phobchika valley-After breakfast move towards Phobjika valley-also known as the valley of the Cranes. As you leave Thimphu you’ll be surrounded by forest as your car climbs to the Dochulla Pass with its spectacular northern facing mountain views, continue to the subtropical valley of Punakha and down in to glacial valley of Phobjikha. Lunch-en-route. Return in the evening. Check into Hotel. Dinner & Overnight stay at Hotel/Resort at Phobchika.
+          <div className="space-y-10 grid md:grid-cols-2 gap-10 grid-col-1">
+            <DayCard title="Day – 1">
+              Thimphu-Phobchika valley-After breakfast move towards Phobjika valley-also known as the valley of the Cranes. As you leave Thimphu you’ll be surrounded by forest as your car climbs to the Dochulla Pass with its spectacular northern facing mountain views, continue to the subtropical valley of Punakha and down in to glacial valley of Phobjikha. Lunch-en-route. Return in the evening. Check into Hotel. Dinner & Overnight stay at Hotel/Resort at Phobchika.
 
-          </DayCard>
-          <DayCard title="Day – 2">
-            DAfter breakfast, Check-out for Half day site seen of Phobjikha valley which include visit to Gangtey Gonpa, etc. After site seen back to Punakha. Some local sight-seeing en-route included. Lunch-en-route. Return in the evening. Overnight stay in a Hotel at Punakha.
+            </DayCard>
+            <DayCard title="Day – 2">
+              DAfter breakfast, Check-out for Half day site seen of Phobjikha valley which include visit to Gangtey Gonpa, etc. After site seen back to Punakha. Some local sight-seeing en-route included. Lunch-en-route. Return in the evening. Overnight stay in a Hotel at Punakha.
 
-          </DayCard>
-          <DayCard title="Day – 3">
-            To visit Bumthang / Gangtey / Haa Valley ( 200km, 7 hours drive ): In order to visit these additional places, it is advised to add one more night (or pay Rs. 5000/- per vehicle to visit these places by not visiting other places mentioned elsewhere. Lunch-en-route. Return in the evening. Dinner & Overnight at Hotel at Punakha / Paro.
+            </DayCard>
+            <DayCard title="Day – 3">
+              To visit Bumthang / Gangtey / Haa Valley ( 200km, 7 hours drive ): In order to visit these additional places, it is advised to add one more night (or pay Rs. 5000/- per vehicle to visit these places by not visiting other places mentioned elsewhere. Lunch-en-route. Return in the evening. Dinner & Overnight at Hotel at Punakha / Paro.
 
-          </DayCard>
+            </DayCard>
           </div>
         </div>
       </div>

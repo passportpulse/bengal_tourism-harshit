@@ -1890,7 +1890,7 @@ function HotelBookingPage() {
         noOfRooms: 1,
         checkIn: "",
         checkOut: "",
-        adults: 1,
+        adults: 2,
         children: 0,
         specialInfo: "",
         preferredHotel: "",
@@ -2292,7 +2292,7 @@ function HotelBookingPage() {
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "grid grid-cols-1 md:grid-cols-2 gap-6",
+                                    className: "grid grid-cols-1 md:grid-cols-3 gap-6",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: [
@@ -2353,14 +2353,14 @@ function HotelBookingPage() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                     className: "block text-sm font-semibold text-gray-700 mb-2",
                                                     children: [
-                                                        "Room Type ",
+                                                        "Check-in Date ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             className: "text-red-500",
                                                             children: "*"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
                                                             lineNumber: 718,
-                                                            columnNumber: 31
+                                                            columnNumber: 35
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
@@ -2368,54 +2368,37 @@ function HotelBookingPage() {
                                                     lineNumber: 717,
                                                     columnNumber: 19
                                                 }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
-                                                    value: formData.roomType,
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                    type: "date",
+                                                    value: parseDDMMYYYYToISO(formData.checkIn),
                                                     onChange: (e)=>{
-                                                        handleInputChange("roomType", e.target.value);
+                                                        const formattedDate = formatDateToDDMMYYYY(e.target.value);
+                                                        const newFormData = {
+                                                            ...formData,
+                                                            checkIn: formattedDate
+                                                        };
+                                                        setFormData(newFormData);
+                                                        // Auto calculate nights if check-out is already selected
+                                                        if (newFormData.checkOut) {
+                                                            calculateNights(formattedDate, newFormData.checkOut);
+                                                        }
                                                     },
                                                     className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600",
-                                                    required: true,
-                                                    disabled: !formData.destination,
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                            value: "",
-                                                            children: "-- Select Room Type --"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                            lineNumber: 729,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        availableRooms.map((room)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                value: room.value,
-                                                                children: [
-                                                                    room.label,
-                                                                    " : ₹",
-                                                                    room.price,
-                                                                    "/-",
-                                                                    " ",
-                                                                    room.price === 2000 ? "(Without Breakfast)" : room.price === 21000 ? "(With Breakfast & Dinner)" : "(With Breakfast)"
-                                                                ]
-                                                            }, room.value, true, {
-                                                                fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                                lineNumber: 731,
-                                                                columnNumber: 3
-                                                            }, this))
-                                                    ]
-                                                }, void 0, true, {
+                                                    required: true
+                                                }, void 0, false, {
                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
                                                     lineNumber: 720,
                                                     columnNumber: 19
                                                 }, this),
-                                                formData.costPerRoom && !formData.destination && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                formData.checkIn && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "text-xs text-gray-500 mt-1",
                                                     children: [
-                                                        "Room Type: ",
-                                                        availableRooms.find((r)=>r.value === formData.costPerRoom)?.label || 'Selected',
-                                                        " (Auto-set from cost)"
+                                                        "Selected: ",
+                                                        formatDateToDDMMYYYY(parseDDMMYYYYToISO(formData.checkIn))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 743,
+                                                    lineNumber: 736,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
@@ -2429,19 +2412,65 @@ function HotelBookingPage() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                     className: "block text-sm font-semibold text-gray-700 mb-2",
                                                     children: [
+                                                        "Total No. of Nights ",
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-red-500",
+                                                            children: "*"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                                            lineNumber: 743,
+                                                            columnNumber: 41
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                                    lineNumber: 742,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                    type: "number",
+                                                    value: formData.totalNights,
+                                                    readOnly: true,
+                                                    className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600 bg-gray-50",
+                                                    placeholder: "Auto-calculated from dates",
+                                                    required: true
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                                    lineNumber: 745,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-xs text-gray-500 mt-1",
+                                                    children: "Auto-calculated from check-in and check-out dates"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                                    lineNumber: 753,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                            lineNumber: 741,
+                                            columnNumber: 6
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                    className: "block text-sm font-semibold text-gray-700 mb-2",
+                                                    children: [
                                                         "No. of Rooms ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             className: "text-red-500",
                                                             children: "*"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                            lineNumber: 750,
+                                                            lineNumber: 760,
                                                             columnNumber: 34
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 749,
+                                                    lineNumber: 759,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -2462,18 +2491,213 @@ function HotelBookingPage() {
                                                             ]
                                                         }, i + 1, true, {
                                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                            lineNumber: 761,
+                                                            lineNumber: 771,
                                                             columnNumber: 23
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 752,
+                                                    lineNumber: 762,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                            lineNumber: 748,
+                                            lineNumber: 758,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                    className: "block text-sm font-semibold text-gray-700 mb-2",
+                                                    children: [
+                                                        "Check-out Date ",
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-red-500",
+                                                            children: "*"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                                            lineNumber: 779,
+                                                            columnNumber: 36
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                                    lineNumber: 778,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                    type: "date",
+                                                    value: parseDDMMYYYYToISO(formData.checkOut),
+                                                    onChange: (e)=>{
+                                                        const formattedDate = formatDateToDDMMYYYY(e.target.value);
+                                                        const newFormData = {
+                                                            ...formData,
+                                                            checkOut: formattedDate
+                                                        };
+                                                        setFormData(newFormData);
+                                                        // Auto calculate nights whenever check-out changes
+                                                        if (newFormData.checkIn) {
+                                                            calculateNights(newFormData.checkIn, formattedDate);
+                                                        }
+                                                    },
+                                                    className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600",
+                                                    required: true
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                                    lineNumber: 781,
+                                                    columnNumber: 19
+                                                }, this),
+                                                formData.checkOut && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-xs text-gray-500 mt-1",
+                                                    children: [
+                                                        "Selected: ",
+                                                        formatDateToDDMMYYYY(parseDDMMYYYYToISO(formData.checkOut))
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                                    lineNumber: 797,
+                                                    columnNumber: 21
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                            lineNumber: 777,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                    className: "block text-sm font-semibold text-gray-700 mb-2",
+                                                    children: [
+                                                        "Total Cost ",
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-red-500",
+                                                            children: "*"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                                            lineNumber: 804,
+                                                            columnNumber: 32
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                                    lineNumber: 803,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "flex gap-2",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
+                                                            className: "px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-500",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                children: "INR"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                                                lineNumber: 808,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                                            lineNumber: 807,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                            type: "number",
+                                                            value: formData.estimatedCost,
+                                                            readOnly: true,
+                                                            className: "flex-1 px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 text-gray-600",
+                                                            placeholder: "Auto-calculated"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                                            lineNumber: 810,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                                    lineNumber: 806,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                            lineNumber: 802,
+                                            columnNumber: 22
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                    className: "block text-sm font-semibold text-gray-700 mb-2",
+                                                    children: [
+                                                        "Room Type ",
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-red-500",
+                                                            children: "*"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                                            lineNumber: 822,
+                                                            columnNumber: 31
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                                    lineNumber: 821,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
+                                                    value: formData.roomType,
+                                                    onChange: (e)=>{
+                                                        handleInputChange("roomType", e.target.value);
+                                                    },
+                                                    className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600",
+                                                    required: true,
+                                                    disabled: !formData.destination,
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                            value: "",
+                                                            children: "-- Select Room Type --"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                                            lineNumber: 833,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        availableRooms.map((room)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                value: room.value,
+                                                                children: [
+                                                                    room.label,
+                                                                    " : ₹",
+                                                                    room.price,
+                                                                    "/-",
+                                                                    " ",
+                                                                    room.price === 2000 ? "(Without Breakfast)" : room.price === 21000 ? "(With Breakfast & Dinner)" : "(With Breakfast)"
+                                                                ]
+                                                            }, room.value, true, {
+                                                                fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                                                lineNumber: 835,
+                                                                columnNumber: 23
+                                                            }, this))
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                                    lineNumber: 824,
+                                                    columnNumber: 19
+                                                }, this),
+                                                formData.costPerRoom && !formData.destination && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-xs text-gray-500 mt-1",
+                                                    children: [
+                                                        "Room Type: ",
+                                                        availableRooms.find((r)=>r.value === formData.costPerRoom)?.label || 'Selected',
+                                                        " (Auto-set from cost)"
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                                    lineNumber: 847,
+                                                    columnNumber: 21
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
+                                            lineNumber: 820,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2483,7 +2707,7 @@ function HotelBookingPage() {
                                                     children: "Preferred Hotel Name / Similar"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 768,
+                                                    lineNumber: 853,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2494,13 +2718,13 @@ function HotelBookingPage() {
                                                     placeholder: "Enter preferred hotel name or similar requirements"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 771,
+                                                    lineNumber: 856,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                            lineNumber: 767,
+                                            lineNumber: 852,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2510,7 +2734,7 @@ function HotelBookingPage() {
                                                     children: "Special Information / Requirement"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 780,
+                                                    lineNumber: 865,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -2521,14 +2745,14 @@ function HotelBookingPage() {
                                                     placeholder: "Extra requirements, special requests, etc."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 783,
+                                                    lineNumber: 868,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                            lineNumber: 779,
-                                            columnNumber: 17
+                                            lineNumber: 864,
+                                            columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
@@ -2551,183 +2775,19 @@ function HotelBookingPage() {
                                             className: "text-red-600"
                                         }, void 0, false, {
                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                            lineNumber: 797,
+                                            lineNumber: 882,
                                             columnNumber: 17
                                         }, this),
-                                        "Stay Dates"
+                                        "Stay No of person"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                    lineNumber: 796,
+                                    lineNumber: 881,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6",
+                                    className: "grid grid-cols-1  gap-6",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                    className: "block text-sm font-semibold text-gray-700 mb-2",
-                                                    children: [
-                                                        "Check-in Date ",
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "text-red-500",
-                                                            children: "*"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                            lineNumber: 803,
-                                                            columnNumber: 35
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 802,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                    type: "date",
-                                                    value: parseDDMMYYYYToISO(formData.checkIn),
-                                                    onChange: (e)=>{
-                                                        const formattedDate = formatDateToDDMMYYYY(e.target.value);
-                                                        const newFormData = {
-                                                            ...formData,
-                                                            checkIn: formattedDate
-                                                        };
-                                                        setFormData(newFormData);
-                                                        // Auto calculate nights if check-out is already selected
-                                                        if (newFormData.checkOut) {
-                                                            calculateNights(formattedDate, newFormData.checkOut);
-                                                        }
-                                                    },
-                                                    className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600",
-                                                    required: true
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 805,
-                                                    columnNumber: 19
-                                                }, this),
-                                                formData.checkIn && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-xs text-gray-500 mt-1",
-                                                    children: [
-                                                        "Selected: ",
-                                                        formatDateToDDMMYYYY(parseDDMMYYYYToISO(formData.checkIn))
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 821,
-                                                    columnNumber: 21
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                            lineNumber: 801,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                    className: "block text-sm font-semibold text-gray-700 mb-2",
-                                                    children: [
-                                                        "Check-out Date ",
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "text-red-500",
-                                                            children: "*"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                            lineNumber: 829,
-                                                            columnNumber: 36
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 828,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                    type: "date",
-                                                    value: parseDDMMYYYYToISO(formData.checkOut),
-                                                    onChange: (e)=>{
-                                                        const formattedDate = formatDateToDDMMYYYY(e.target.value);
-                                                        const newFormData = {
-                                                            ...formData,
-                                                            checkOut: formattedDate
-                                                        };
-                                                        setFormData(newFormData);
-                                                        // Auto calculate nights whenever check-out changes
-                                                        if (newFormData.checkIn) {
-                                                            calculateNights(newFormData.checkIn, formattedDate);
-                                                        }
-                                                    },
-                                                    className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600",
-                                                    required: true
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 831,
-                                                    columnNumber: 19
-                                                }, this),
-                                                formData.checkOut && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-xs text-gray-500 mt-1",
-                                                    children: [
-                                                        "Selected: ",
-                                                        formatDateToDDMMYYYY(parseDDMMYYYYToISO(formData.checkOut))
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 847,
-                                                    columnNumber: 21
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                            lineNumber: 827,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                    className: "block text-sm font-semibold text-gray-700 mb-2",
-                                                    children: [
-                                                        "Total No. of Nights ",
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "text-red-500",
-                                                            children: "*"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                            lineNumber: 854,
-                                                            columnNumber: 41
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 853,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                    type: "number",
-                                                    value: formData.totalNights,
-                                                    readOnly: true,
-                                                    className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600 bg-gray-50",
-                                                    placeholder: "Auto-calculated from dates",
-                                                    required: true
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 856,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-xs text-gray-500 mt-1",
-                                                    children: "Auto-calculated from check-in and check-out dates"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 864,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                            lineNumber: 852,
-                                            columnNumber: 21
-                                        }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -2739,13 +2799,13 @@ function HotelBookingPage() {
                                                             children: "*"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                            lineNumber: 870,
+                                                            lineNumber: 890,
                                                             columnNumber: 35
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 869,
+                                                    lineNumber: 889,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2753,17 +2813,17 @@ function HotelBookingPage() {
                                                     value: formData.adults,
                                                     onChange: (e)=>handleInputChange("adults", parseInt(e.target.value) || 0),
                                                     className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600",
-                                                    min: "1",
+                                                    min: "2",
                                                     required: true
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 872,
+                                                    lineNumber: 892,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                            lineNumber: 868,
+                                            lineNumber: 888,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2773,7 +2833,7 @@ function HotelBookingPage() {
                                                     children: "No. of Children (5–10 yrs)"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 882,
+                                                    lineNumber: 902,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2784,25 +2844,25 @@ function HotelBookingPage() {
                                                     min: "0"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 885,
+                                                    lineNumber: 905,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                            lineNumber: 881,
+                                            lineNumber: 901,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                    lineNumber: 800,
+                                    lineNumber: 885,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                            lineNumber: 795,
+                            lineNumber: 880,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2815,14 +2875,14 @@ function HotelBookingPage() {
                                             children: "₹"
                                         }, void 0, false, {
                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                            lineNumber: 899,
+                                            lineNumber: 919,
                                             columnNumber: 17
                                         }, this),
                                         "Pricing Details"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                    lineNumber: 898,
+                                    lineNumber: 918,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2839,13 +2899,13 @@ function HotelBookingPage() {
                                                             children: "*"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                            lineNumber: 905,
+                                                            lineNumber: 925,
                                                             columnNumber: 47
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 904,
+                                                    lineNumber: 924,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2857,12 +2917,12 @@ function HotelBookingPage() {
                                                                 children: "INR"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                                lineNumber: 909,
+                                                                lineNumber: 929,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                            lineNumber: 908,
+                                                            lineNumber: 928,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -2898,7 +2958,7 @@ function HotelBookingPage() {
                                                                     children: "Select Cost"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                                    lineNumber: 934,
+                                                                    lineNumber: 954,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2906,7 +2966,7 @@ function HotelBookingPage() {
                                                                     children: "2000 - Basic"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                                    lineNumber: 935,
+                                                                    lineNumber: 955,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2914,7 +2974,7 @@ function HotelBookingPage() {
                                                                     children: "2800 - Standard"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                                    lineNumber: 936,
+                                                                    lineNumber: 956,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2922,7 +2982,7 @@ function HotelBookingPage() {
                                                                     children: "3700 - Deluxe"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                                    lineNumber: 937,
+                                                                    lineNumber: 957,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2930,7 +2990,7 @@ function HotelBookingPage() {
                                                                     children: "4600 - Super Deluxe"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                                    lineNumber: 938,
+                                                                    lineNumber: 958,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2938,7 +2998,7 @@ function HotelBookingPage() {
                                                                     children: "5500 - Executive"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                                    lineNumber: 939,
+                                                                    lineNumber: 959,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2946,7 +3006,7 @@ function HotelBookingPage() {
                                                                     children: "6400 - Royal"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                                    lineNumber: 940,
+                                                                    lineNumber: 960,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2954,7 +3014,7 @@ function HotelBookingPage() {
                                                                     children: "7300 - Premium"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                                    lineNumber: 941,
+                                                                    lineNumber: 961,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2962,7 +3022,7 @@ function HotelBookingPage() {
                                                                     children: "8200 - Super Premium"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                                    lineNumber: 942,
+                                                                    lineNumber: 962,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2970,7 +3030,7 @@ function HotelBookingPage() {
                                                                     children: "9100 - Luxury"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                                    lineNumber: 943,
+                                                                    lineNumber: 963,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2978,25 +3038,25 @@ function HotelBookingPage() {
                                                                     children: "21000 - Star Luxury"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                                    lineNumber: 944,
+                                                                    lineNumber: 964,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                            lineNumber: 911,
+                                                            lineNumber: 931,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 907,
+                                                    lineNumber: 927,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                            lineNumber: 903,
+                                            lineNumber: 923,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3010,13 +3070,13 @@ function HotelBookingPage() {
                                                             children: "*"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                            lineNumber: 951,
+                                                            lineNumber: 971,
                                                             columnNumber: 36
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 950,
+                                                    lineNumber: 970,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3028,12 +3088,12 @@ function HotelBookingPage() {
                                                                 children: "INR"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                                lineNumber: 955,
+                                                                lineNumber: 975,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                            lineNumber: 954,
+                                                            lineNumber: 974,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -3044,19 +3104,19 @@ function HotelBookingPage() {
                                                             placeholder: "Auto-calculated"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                            lineNumber: 957,
+                                                            lineNumber: 977,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 953,
+                                                    lineNumber: 973,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                            lineNumber: 949,
+                                            lineNumber: 969,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3070,13 +3130,13 @@ function HotelBookingPage() {
                                                             children: "*"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                            lineNumber: 968,
+                                                            lineNumber: 988,
                                                             columnNumber: 66
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 967,
+                                                    lineNumber: 987,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3088,12 +3148,12 @@ function HotelBookingPage() {
                                                                 children: "INR"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                                lineNumber: 972,
+                                                                lineNumber: 992,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                            lineNumber: 971,
+                                                            lineNumber: 991,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -3104,31 +3164,31 @@ function HotelBookingPage() {
                                                             placeholder: "Auto-calculated"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                            lineNumber: 974,
+                                                            lineNumber: 994,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 970,
+                                                    lineNumber: 990,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                            lineNumber: 966,
+                                            lineNumber: 986,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                    lineNumber: 902,
+                                    lineNumber: 922,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                            lineNumber: 897,
+                            lineNumber: 917,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3140,7 +3200,7 @@ function HotelBookingPage() {
                                             className: "text-blue-600"
                                         }, void 0, false, {
                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                            lineNumber: 989,
+                                            lineNumber: 1009,
                                             columnNumber: 17
                                         }, this),
                                         "Payment Type ",
@@ -3149,13 +3209,13 @@ function HotelBookingPage() {
                                             children: "*"
                                         }, void 0, false, {
                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                            lineNumber: 990,
+                                            lineNumber: 1010,
                                             columnNumber: 30
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                    lineNumber: 988,
+                                    lineNumber: 1008,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3175,7 +3235,7 @@ function HotelBookingPage() {
                                                     className: "w-4 h-4 text-blue-600 focus:ring-blue-500"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 994,
+                                                    lineNumber: 1014,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3183,13 +3243,13 @@ function HotelBookingPage() {
                                                     children: "Full Payment"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 1004,
+                                                    lineNumber: 1024,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                            lineNumber: 993,
+                                            lineNumber: 1013,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -3206,7 +3266,7 @@ function HotelBookingPage() {
                                                     className: "w-4 h-4 text-blue-600 focus:ring-blue-500"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 1007,
+                                                    lineNumber: 1027,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3214,25 +3274,25 @@ function HotelBookingPage() {
                                                     children: "50% Payment"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                    lineNumber: 1017,
+                                                    lineNumber: 1037,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                            lineNumber: 1006,
+                                            lineNumber: 1026,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                    lineNumber: 992,
+                                    lineNumber: 1012,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                            lineNumber: 987,
+                            lineNumber: 1007,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3246,7 +3306,7 @@ function HotelBookingPage() {
                                         className: "mt-1 w-4 h-4 text-red-600 focus:ring-red-500 rounded"
                                     }, void 0, false, {
                                         fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                        lineNumber: 1025,
+                                        lineNumber: 1045,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3254,18 +3314,18 @@ function HotelBookingPage() {
                                         children: "I accept: Submission without successful payment is not valid. Please remember to save of acknowledgement after you hit Submit Button (&/or) payment confirmation from Bank. In case of manual submission of Booking Form via e-mail, we will send the confirmation of receipt & booking details via E-mail / WhatsApp after we acknowledge receipt of valid payment at our Bank. I also agree to accept any similar hotel rooms provided by you and be liable to pay for any extra cost as per your special instructions, extra provision required, extra person/bed (1 child under 4 yrs free & other person above 4 Yrs chargeable) to be provided (&) Service Charges/GST will be calculated & paid later on acceptance & as per final invoice/bill."
                                     }, void 0, false, {
                                         fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                        lineNumber: 1030,
+                                        lineNumber: 1050,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                lineNumber: 1024,
+                                lineNumber: 1044,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                            lineNumber: 1023,
+                            lineNumber: 1043,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3273,7 +3333,7 @@ function HotelBookingPage() {
                             children: "Proceed to PAY using any mode given below. Earn Cash-Back upto Rs.10000/-"
                         }, void 0, false, {
                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                            lineNumber: 1037,
+                            lineNumber: 1057,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3289,12 +3349,12 @@ function HotelBookingPage() {
                                                 className: "h-20 object-contain"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                                lineNumber: 1049,
+                                                lineNumber: 1069,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                            lineNumber: 1048,
+                                            lineNumber: 1068,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -3302,7 +3362,7 @@ function HotelBookingPage() {
                                             children: item.title
                                         }, void 0, false, {
                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                            lineNumber: 1056,
+                                            lineNumber: 1076,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3310,18 +3370,18 @@ function HotelBookingPage() {
                                             children: item.details
                                         }, void 0, false, {
                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                            lineNumber: 1060,
+                                            lineNumber: 1080,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, i, true, {
                                     fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                    lineNumber: 1044,
+                                    lineNumber: 1064,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                            lineNumber: 1042,
+                            lineNumber: 1062,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3336,7 +3396,7 @@ function HotelBookingPage() {
                                             className: "w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin inline-block mr-2"
                                         }, void 0, false, {
                                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                            lineNumber: 1076,
+                                            lineNumber: 1096,
                                             columnNumber: 21
                                         }, this),
                                         "Processing..."
@@ -3344,12 +3404,12 @@ function HotelBookingPage() {
                                 }, void 0, true) : 'SUBMIT after PAYMENT'
                             }, void 0, false, {
                                 fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                                lineNumber: 1069,
+                                lineNumber: 1089,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/BookHotel/HotelBookingPage.tsx",
-                            lineNumber: 1068,
+                            lineNumber: 1088,
                             columnNumber: 13
                         }, this)
                     ]
@@ -3374,7 +3434,7 @@ function HotelBookingPage() {
         columnNumber: 5
     }, this);
 }
-_s(HotelBookingPage, "itiLvPCDJtX+0DooLo+d5RyLfVE=");
+_s(HotelBookingPage, "dnjijk7d+gvUOdtRnujXtOHyuSo=");
 _c = HotelBookingPage;
 var _c;
 __turbopack_context__.k.register(_c, "HotelBookingPage");

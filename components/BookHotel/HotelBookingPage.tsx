@@ -279,7 +279,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "9100", label: "Luxury", price: 9100 },
     { value: "21000", label: "Star Luxury", price: 21000 },
   ],
-   "10": [
+  "10": [
     { value: "2000", label: "Basic", price: 2000 },
     { value: "2800", label: "Standard", price: 2800 },
     { value: "3700", label: "Deluxe", price: 3700 },
@@ -327,7 +327,7 @@ const roomTypes: { [key: string]: Array<{ value: string; label: string; price: n
     { value: "9100", label: "Luxury", price: 9100 },
     { value: "21000", label: "Star Luxury", price: 21000 },
   ],
-    "16": [
+  "16": [
     { value: "2000", label: "Basic", price: 2000 },
     { value: "2800", label: "Standard", price: 2800 },
     { value: "3700", label: "Deluxe", price: 3700 },
@@ -448,7 +448,7 @@ export default function HotelBookingPage() {
     noOfRooms: 1,
     checkIn: "",
     checkOut: "",
-    adults: 1,
+    adults: 2,
     children: 0,
     specialInfo: "",
     preferredHotel: "",
@@ -566,7 +566,7 @@ export default function HotelBookingPage() {
     try {
       // Find destination label from the destinations array
       const destinationLabel = destinations.find(d => d.value === formData.destination)?.label || formData.destination;
-      
+
       // Create submission data with destination label instead of value
       const submissionData = {
         ...formData,
@@ -694,7 +694,7 @@ export default function HotelBookingPage() {
                 <Bed className="text-red-600" />
                 Hotel Details
               </h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
                     Destination <span className="text-red-500">*</span>
@@ -713,91 +713,6 @@ export default function HotelBookingPage() {
                     ))}
                   </select>
                 </div>
-                <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Room Type <span className="text-red-500">*</span>
-                  </label>
-                  <select
-                    value={formData.roomType}
-                    onChange={(e) => {
-                      handleInputChange("roomType", e.target.value);
-                    }}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
-                    required
-                    disabled={!formData.destination}
-                  >
-                    <option value="">-- Select Room Type --</option>
-             {availableRooms.map((room) => (
-  <option key={room.value} value={room.value}>
-    {room.label} : ₹{room.price}/-{" "}
-    {room.price === 2000
-      ? "(Without Breakfast)"
-      : room.price === 21000
-      ? "(With Breakfast & Dinner)"
-      : "(With Breakfast)"}
-  </option>
-))}
-
-                  </select>
-                  {formData.costPerRoom && !formData.destination && (
-                    <p className="text-xs text-gray-500 mt-1">
-                      Room Type: {availableRooms.find(r => r.value === formData.costPerRoom)?.label || 'Selected'} (Auto-set from cost)
-                    </p>
-                  )}
-                </div>
-                <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    No. of Rooms <span className="text-red-500">*</span>
-                  </label>
-                  <select
-                    value={formData.noOfRooms}
-                    onChange={(e) => {
-                      handleInputChange("noOfRooms", e.target.value);
-                    }}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
-                    required
-                  >
-                    {[...Array(10)].map((_, i) => (
-                      <option key={i + 1} value={i + 1}>
-                        {i + 1} {i === 0 ? 'Room' : 'Rooms'}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-                <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Preferred Hotel Name / Similar
-                  </label>
-                  <input
-                    type="text"
-                    value={formData.preferredHotel}
-                    onChange={(e) => handleInputChange("preferredHotel", e.target.value)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
-                    placeholder="Enter preferred hotel name or similar requirements"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Special Information / Requirement
-                  </label>
-                  <textarea
-                    value={formData.specialInfo}
-                    onChange={(e) => handleInputChange("specialInfo", e.target.value)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
-                    rows={4}
-                    placeholder="Extra requirements, special requests, etc."
-                  />
-                </div>
-              </div>
-            </div>
-
-            {/* Travel Dates Section */}
-            <div>
-              <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-                <Calendar className="text-red-600" />
-                Stay Dates
-              </h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
                     Check-in Date <span className="text-red-500">*</span>
@@ -823,8 +738,43 @@ export default function HotelBookingPage() {
                     </p>
                   )}
                 </div>
-                
+     <div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    Total No. of Nights <span className="text-red-500">*</span>
+                  </label>
+                  <input
+                    type="number"
+                    value={formData.totalNights}
+                    readOnly
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600 bg-gray-50"
+                    placeholder="Auto-calculated from dates"
+                    required
+                  />
+                  <p className="text-xs text-gray-500 mt-1">
+                    Auto-calculated from check-in and check-out dates
+                  </p>
+                </div>
+               
                 <div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    No. of Rooms <span className="text-red-500">*</span>
+                  </label>
+                  <select
+                    value={formData.noOfRooms}
+                    onChange={(e) => {
+                      handleInputChange("noOfRooms", e.target.value);
+                    }}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    required
+                  >
+                    {[...Array(10)].map((_, i) => (
+                      <option key={i + 1} value={i + 1}>
+                        {i + 1} {i === 0 ? 'Room' : 'Rooms'}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+                  <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
                     Check-out Date <span className="text-red-500">*</span>
                   </label>
@@ -849,22 +799,92 @@ export default function HotelBookingPage() {
                     </p>
                   )}
                 </div>
-                    <div>
+                     <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Total No. of Nights <span className="text-red-500">*</span>
+                    Total Cost <span className="text-red-500">*</span>
+                  </label>
+                  <div className="flex gap-2">
+                    <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-500">
+                      <option>INR</option>
+                    </select>
+                    <input
+                      type="number"
+                      value={formData.estimatedCost}
+                      readOnly
+                      className="flex-1 px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 text-gray-600"
+                      placeholder="Auto-calculated"
+                    />
+                  </div>
+                </div>
+              
+                <div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    Room Type <span className="text-red-500">*</span>
+                  </label>
+                  <select
+                    value={formData.roomType}
+                    onChange={(e) => {
+                      handleInputChange("roomType", e.target.value);
+                    }}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    required
+                    disabled={!formData.destination}
+                  >
+                    <option value="">-- Select Room Type --</option>
+                    {availableRooms.map((room) => (
+                      <option key={room.value} value={room.value}>
+                        {room.label} : ₹{room.price}/-{" "}
+                        {room.price === 2000
+                          ? "(Without Breakfast)"
+                          : room.price === 21000
+                            ? "(With Breakfast & Dinner)"
+                            : "(With Breakfast)"}
+                      </option>
+                    ))}
+
+                  </select>
+                  {formData.costPerRoom && !formData.destination && (
+                    <p className="text-xs text-gray-500 mt-1">
+                      Room Type: {availableRooms.find(r => r.value === formData.costPerRoom)?.label || 'Selected'} (Auto-set from cost)
+                    </p>
+                  )}
+                </div>
+                <div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    Preferred Hotel Name / Similar
                   </label>
                   <input
-                    type="number"
-                    value={formData.totalNights}
-                    readOnly
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600 bg-gray-50"
-                    placeholder="Auto-calculated from dates"
-                    required
+                    type="text"
+                    value={formData.preferredHotel}
+                    onChange={(e) => handleInputChange("preferredHotel", e.target.value)}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    placeholder="Enter preferred hotel name or similar requirements"
                   />
-                  <p className="text-xs text-gray-500 mt-1">
-                    Auto-calculated from check-in and check-out dates
-                  </p>
                 </div>
+                  <div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    Special Information / Requirement
+                  </label>
+                  <textarea
+                    value={formData.specialInfo}
+                    onChange={(e) => handleInputChange("specialInfo", e.target.value)}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    rows={4}
+                    placeholder="Extra requirements, special requests, etc."
+                  />
+                </div>
+              </div>
+            </div>
+
+            {/* Travel Dates Section */}
+            <div>
+              <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
+                <Calendar className="text-red-600" />
+                Stay No of person
+              </h2>
+              <div className="grid grid-cols-1  gap-6">
+
+          
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
                     No. of Adults <span className="text-red-500">*</span>
@@ -874,7 +894,7 @@ export default function HotelBookingPage() {
                     value={formData.adults}
                     onChange={(e) => handleInputChange("adults", parseInt(e.target.value) || 0)}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
-                    min="1"
+                    min="2"
                     required
                   />
                 </div>
@@ -945,7 +965,7 @@ export default function HotelBookingPage() {
                     </select>
                   </div>
                 </div>
-            
+
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
                     Estimated Cost <span className="text-red-500">*</span>
@@ -1084,7 +1104,7 @@ export default function HotelBookingPage() {
 
           </form>
 
-         
+
         </div>
       </div>
     </main>

@@ -26,7 +26,7 @@ export default function LakshadweepPage() {
               <Waves className="w-6 h-6 text-cyan-400" />
               <span className="text-cyan-400 font-semibold tracking-wide">Lakshadweep Coral Paradise</span>
             </div>
-            
+
             <h1 className="text-5xl  text-center  md:text-7xl font-bold mb-6 leading-tight">
               Lakshadweep
               <span className="block text-3xl md:text-5xl mt-2 text-cyan-300">
@@ -35,7 +35,7 @@ export default function LakshadweepPage() {
             </h1>
 
             <p className="text-xl  text-center  md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
-              Discover India's ultimate tropical destination with pristine coral islands, 
+              Discover India's ultimate tropical destination with pristine coral islands,
               crystal clear waters, and vibrant marine ecosystems
             </p>
 
@@ -60,118 +60,133 @@ export default function LakshadweepPage() {
         </div>
       </section>
 
-<div className="bg-gray-50 py-20 px-6 md:px-12">
-      <div className="max-w-7xl mx-auto space-y-20">
+      <div className="bg-gray-50 py-20 px-6 md:px-12">
+        <div className="max-w-7xl mx-auto space-y-20">
 
-        {/* HEADER */}
-        <div className="text-center space-y-4">
-          <h1 className="text-4xl md:text-5xl font-bold text-pink-600">
-            Visit & Explore Thailand
-          </h1>
-          <p className="text-lg text-gray-700">
-            Bangkok, Pattaya, Phuket, Krabi & Koh Samui with Bengal Tourism
-          </p>
-          <p className="text-gray-600">
-            Special Tailor made Combination Package, Number of Days & Cost can be designed on Request.
-          </p>
+          {/* HEADER */}
+          <div className="text-center space-y-4">
+            <h1 className="text-4xl md:text-5xl font-bold text-cyan-600">
+              Visit & Explore Lakshadweep
+            </h1>
+            <p className="text-lg text-gray-700">
+              Agatti, Bangaram, Kavaratti & Kadmat Islands
+            </p>
+            <p className="text-gray-600">
+              Special tailor-made Island Packages. Number of Days & Cost can be customized on request.
+            </p>
+          </div>
+
+          <div className="space-y-6 text-center">
+            <h2 className="text-3xl font-bold text-gray-800">LAKSHADWEEP</h2>
+            <p className="font-semibold text-gray-700">
+              Circuit with [AGATTI – BANGARAM – KAVARATTI – 4N/5D]
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-10 items-stretch">
+
+            {/* DAY 1 */}
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-pink-500 h-full flex flex-col min-h-[520px]">
+              <h3 className="text-xl font-semibold mb-4 text-cyan-600">Day –1</h3>
+              <div className="text-gray-700 leading-8 flex-grow">
+                Arrival at Agatti Airport. Our representative will receive you and transfer you to the beach resort. Agatti is famous for its turquoise lagoon and coral reefs. After check-in, relax and enjoy the pristine beach.
+
+                Post lunch, enjoy light water activities like kayaking or lagoon walk. Evening free to witness mesmerizing sunset views over the Arabian Sea. Dinner & Overnight stay at Beach Resort in Agatti.
+              </div>
+            </div>
+
+            {/* DAY 2 */}
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-blue-500 h-full flex flex-col min-h-[520px]">
+              <h3 className="text-xl font-semibold mb-4 text-blue-600">Day –2</h3>
+              <div className="text-gray-700 leading-8 flex-grow">
+                After breakfast, proceed by boat to Bangaram Island – one of the most beautiful coral islands in Lakshadweep. Famous for crystal clear water and exotic marine life.
+
+                Enjoy snorkeling, scuba diving (optional), and swimming in shallow lagoons. Experience vibrant coral reefs and colorful tropical fish. Lunch at Bangaram.
+
+                Return to Agatti by evening. Dinner & Overnight stay at Resort.
+              </div>
+            </div>
+
+            {/* DAY 3 */}
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-r-4 border-green-500 h-full flex flex-col min-h-[520px]">
+              <h3 className="text-xl font-semibold mb-4 text-green-600">Day –3</h3>
+              <div className="text-gray-700 leading-8 flex-grow">
+                After breakfast, transfer to Kavaratti Island – the capital of Lakshadweep. Visit Marine Aquarium showcasing rare marine species and corals.
+
+                Explore Ujra Mosque, enjoy lagoon boating and optional glass-bottom boat ride. Relax on the white sandy beaches surrounded by palm trees.
+
+                Evening at leisure. Dinner & Overnight stay at Resort in Kavaratti.
+              </div>
+            </div>
+
+            {/* DAY 4 */}
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-r-4 border-purple-500 h-full flex flex-col min-h-[520px]">
+              <h3 className="text-xl font-semibold mb-4 text-purple-600">Day –4</h3>
+              <div className="text-gray-700 leading-8 flex-grow">
+                After breakfast, day free for leisure and adventure activities. Enjoy optional scuba diving, deep sea fishing, kayaking, reef walking or simply relax by the beach.
+
+                Lakshadweep offers some of the best coral lagoons in India perfect for photography and peaceful relaxation.
+
+                Dinner & Overnight stay at Resort.
+              </div>
+            </div>
+
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-r-4 border-purple-500 h-full flex flex-col min-h-[520px]">
+
+              <h3 className="text-xl font-semibold mb-4 text-pink-600">Day –5</h3>
+              <div className="text-gray-700 leading-8 flex-grow">
+                After breakfast, check-out from Resort. Transfer to Agatti Airport for return journey with unforgettable memories of Lakshadweep’s coral paradise.
+
+                Tour Ends.
+              </div>
+            </div>
+          </div>
+
+      
+
+          {/* KRABI */}
+          <Section title="KADMAT ISLAND" subtitle="Add-on (or) Separately with [KADMAT – 2N/3D]">
+            <Content>
+             Day –1: Arrival at Kadmat Island. Transfer to Resort. Relax at white sandy beach. Evening sunset walk. Dinner & Overnight stay.
+
+<br />
+Day –2: After breakfast, enjoy water sports like snorkeling, scuba diving, kayaking & reef walking. Explore marine biodiversity and coral gardens. Evening free for leisure. Dinner & Overnight stay.
+
+<br />
+Day –3: After breakfast, check-out and transfer to Agatti Airport for onward journey. Tour ends.
+            </Content>
+          </Section>
+<Section title="MINICOY ISLAND" subtitle="Add-on (or) Separately with [MINICOY – 2N/3D]">
+  <Content>
+    Day –1: Arrival at Minicoy Island. Transfer to beach resort. Minicoy is famous for its crescent-shaped lagoon and lighthouse views. After check-in, relax on the untouched beaches surrounded by coconut groves. Evening visit to the historic Lighthouse offering panoramic sunset views. Dinner & Overnight stay at Resort.
+
+    <br /><br />
+
+    Day –2: After breakfast, enjoy lagoon activities like snorkeling, kayaking and glass-bottom boat ride. Explore vibrant coral reefs and tropical marine species. Later visit local village to experience traditional Mahl culture and tuna fishing heritage. Evening free for leisure by the beach. Dinner & Overnight stay.
+
+    <br /><br />
+
+    Day –3: After breakfast, check-out and transfer by boat/flight to Agatti for onward journey. Tour Ends.
+  </Content>
+</Section>
+
+<Section title="KALPENI ISLAND" subtitle="Add-on (or) Separately with [KALPENI – 2N/3D]">
+  <Content>
+    Day –1: Arrival at Kalpeni Island. Transfer to resort. Kalpeni is known for its shallow lagoons and beautiful coral debris beaches. After check-in, relax and enjoy serene beach time. Evening sunset photography and lagoon walk. Dinner & Overnight stay.
+
+    <br /><br />
+
+    Day –2: After breakfast, enjoy water sports like snorkeling, reef walking, kayaking and canoeing in crystal clear lagoon waters. Visit nearby small islets – Tilakkam and Pitti (if permitted). Enjoy beach picnic and marine exploration. Evening free for relaxation. Dinner & Overnight stay.
+
+    <br /><br />
+
+    Day –3: After breakfast, check-out and transfer to Agatti Airport for departure. Tour Ends.
+  </Content>
+</Section>
+
         </div>
-
-        {/* MAIN CIRCUIT */}
-        <div className="space-y-6 text-center">
-          <h2 className="text-3xl font-bold text-gray-800">THAILAND</h2>
-          <p className="font-semibold text-gray-700">
-            Circuit with [BANGKOK – PATTAYA -4N/5D]
-          </p>
-        </div>
-
-        <div className="grid md:grid-cols-2 gap-10 items-stretch">
-
-          {/* DAY 1 */}
-          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-pink-500 h-full flex flex-col min-h-[520px]">
-            <h3 className="text-xl font-semibold mb-4 text-pink-600">Day –1</h3>
-            <div className="text-gray-700 leading-8 flex-grow">
-              Start from Kolkata: Board a flight at Kolkata Airport & reach Bangkok after a 2 hrs 40 mins non-stop flight to a warm reception. A 2.5 hrs drive will take you to picturesque Pattaya, a breathtakingly beautiful beach destination. A tropical beach retreat town, Pattaya is a perfect place to laze around under the swaying coconut trees, exploring white sandy beaches, numerous water sports facilities & crystal azure water. Night life in Pattaya; specially for adventure seekers, it is extremely & most happening place in the world. Lunch en-route. Post lunch, will take you for a village tour to Nong Nooch. You can either have the evening all to yourself or see the Alkazar Show at 08.00pm (extra cost), a world famous Cabaret show that can give Lido & Paris’s Moulin Rogue a run for their money. Return & Dinner place of your choice & Overnight at Hotel at Pattaya.
-            </div>
-          </div>
-
-          {/* DAY 2 */}
-          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-blue-500 h-full flex flex-col min-h-[520px]">
-            <h3 className="text-xl font-semibold mb-4 text-blue-600">Day –2</h3>
-            <div className="text-gray-700 leading-8 flex-grow">
-              Coral Island: After breakfast, speed boat your way to the idyllic Coral Island (Kohlan) through the aqua blue water of the Gulf of Thailand. Spend the day luxuriating under the warm tropical sun. Relax, swim, snorkel or just lie around sunning on the island’s immaculate golden beach. Lunch included in this tour. Return in the evening & free for you to shop, explore & seek more. Dinner at place of your choice & Overnight at Hotel at Pattaya
-            </div>
-          </div>
-
-          {/* DAY 3 */}
-          <div className="bg-white shadow-xl rounded-3xl p-8 border-r-4 border-green-500 h-full flex flex-col min-h-[520px]">
-            <h3 className="text-xl font-semibold mb-4 text-green-600">Day –3</h3>
-            <div className="text-gray-700 leading-8 flex-grow">
-              Towards Bangkok: After breakfast, you will enjoy the journey back to Bangkok where we will take you on a Temple & City Tour to experience another side of Bangkok. Thailand is home to more than 26,000 Wats (Buddhist temples) and we will take to see the most distinguished Wats, such as Wat Po (Temple of the Reclining Buddha), the largest & the oldest shrine in Bangkok or Grand Palace tour. Evening free to shop, explore & seek more. Dinner at place of your choice & Overnight at Hotel at Bangkok.
-            </div>
-          </div>
-
-          {/* DAY 4 */}
-          <div className="bg-white shadow-xl rounded-3xl p-8 border-r-4 border-purple-500 h-full flex flex-col min-h-[520px]">
-            <h3 className="text-xl font-semibold mb-4 text-purple-600">Day –4</h3>
-            <div className="text-gray-700 leading-8 flex-grow">
-              ALTERNATIVELY: After breakfast at hotel, morning free for shopping. Later in the evening, Cruise on river Chao Phraya & dinner on board. Return to the hotel & night free to explore varied night life of Bangkok. Overnight stay at Hotel / Resort at Bangkok.
-
-              <br /><br />
-
-              Departure: After breakfast, check-out of the Hotel in the afternoon. Visit the Siam Ocean World (extra cost) & if time permits and proceed to the airport for return flight to Kolkata, India. Tour ends
-            </div>
-          </div>
-
-        </div>
-
-        {/* PHUKET */}
-        <Section title="PHUKET" subtitle="Add-on (or) Separately with [PHI PHI ISLAND-2N/3D]">
-          <Content>
-            Day –1: Start of tour: Arrival at Phuket Airport (or) from Krabi by road. Transfer to Hotel. Check into Hotel. Lunch at a place of your choice. Then a short tour local places of Interest. . Return in the evening & free to yourself. Dinner at a place of your choice & Overnight at Hotel / Resort at Phuket.
-
-            <br /><br />
-
-            Day –1: Local sightseeing at PHUKET: After breakfast, visit Phi Phi Island. Lunch at Phi Phi Island. Return in the evening & free time to yourself. Dinner at a place of your choice & Overnight at Hotel / Resort / Phuket.
-
-            <br /><br />
-
-            Day –1: After breakfast, Check-out (10.00 am) Transfer by Air to Bangkok Airport for your return journey (or) transfer to Krabi by road transfer. Drop at Hotel. Tour ends
-          </Content>
-        </Section>
-
-        {/* KRABI */}
-        <Section title="KRABI" subtitle="Add-on (or) Separately with [JAMES BOND ISLAND-2N/3D]">
-          <Content>
-            Day –1: Start of tour: Our representative will be there to receive the Guest at arrival at Krabi (or) by road from Phuket. Check into Hotel. Lunch at any place on your own. Day at Leisure (or) can explore the Ao Nang Beach and further enjoy exciting island-hopping tour to the tropical hot spots in the Krabi Sea which includes Phra Nang Cave, Tup Island, Chicken Island and Poda Island, etc. Return in the evening & free to yourself. Dinner at a place of your choice & Overnight at Hotel / Resort at Krabi.
-
-            <br /><br />
-
-            Day –2: Local sightseeing at KRABI: After breakfast, proceed to Visit James Bond Island (or) Four Island tour of Koh Poda, Phranang Caves, Tup Islets by popular long tail boats. Lunch at any local place. Return in the evening & rree to yourself. Dinner at a place of your choice & Overnight at Hotel / Resort at Krabi.
-
-            <br /><br />
-
-            Day –3: After breakfast, Check-out (10.00 am) from Farmhouse/Homestay. Transfer by Air to Bangkok for your return journey (or) and then transfer to Koh Samui / Phuket. Drop at Hotel. Tour ends
-          </Content>
-        </Section>
-
-        {/* KOH SAMUI */}
-        <Section title="KOH SAMUI" subtitle="Add-on (or) Separately with [TALAI NAI – BUA BOK-2N/3D]">
-          <Content>
-            Day –1: Start of tour: Our representative will be there to receive the Guest at Arrival at Koh Samui (or) by road from Phuket. Lunch en-route or on arrival at Hotel. Then a short tour local places of Interest. . Return in the evening & free to yourself. Dinner at a place of your choice & Overnight at Hotel / Resort / Koh Samui.
-
-            <br /><br />
-
-            Day –2: Local sightseeing at KOH SAMUI: After breakfast, Take the Island Tour. Visit Jungle Safari, Experience Green Rain Forest, magnificent Coral Reefs, Scuba Diving, Snorkelling, amazing Spa Activities, etc. On land, your guide will accompany you by foot to the beautiful Emerald Lake, known to locals as Talay Nai. Make the most of the views of this impressive natural saltwater reservoir in an atmosphere of peace and serenity. Afternoon you will have the opportunity to climb to the highest part of the island, go hiking through the Bua Bok cave, which houses stalactites and stalagmites in the shape of a lotus flower or if you prefer, you can choose to relax and soak up the sun on the beach. Lunch at any local place. Return in the evening . Return in the evening & free to yourself. Dinner at a place of your choice & Overnight at Hotel / Resort / Koh Samui.
-
-            <br /><br />
-
-            Day –3: After breakfast, Check-out (10.00 am) from Farmhouse/Homestay. Transfer by Air to Bangkok for your return journey (or) and then transfer to Pattaya/Karabi/Phuket. Drop at Hotel. Tour ends.
-          </Content>
-        </Section>
-
       </div>
-    </div>
-    <ContactCTA />
+      <ContactCTA />
     </main>
   )
 }

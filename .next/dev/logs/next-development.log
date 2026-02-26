@@ -1,111 +1,52 @@
-[00:00:02.103] Server  LOG     ✓ Ready in 1625ms
-[00:00:11.198] Browser WARN    Image with src "https://images.unsplash.com/photo-1571679654681-ba01b9e1e117?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2VzdCUyMGJlbmdhbHxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:11.198] Browser WARN    Image with src "https://images.unsplash.com/photo-1582899123786-d7123573fe89?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fFN0YXR1ZSUyMG9mJTIwVW5pdHl8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:11.198] Browser WARN    Image with src "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:11.198] Browser WARN    Image with src "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:11.198] Browser WARN    Image with src "https://images.unsplash.com/photo-1622308644420-b20142dc993c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:11.198] Browser WARN    Image with src "/kolkata-DIY.avif" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:11.198] Browser WARN    Image with src "https://images.unsplash.com/photo-1657282928361-ec9de3f2bc74?w=800&h=600&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:11.198] Browser WARN    Image with src "https://images.unsplash.com/photo-1706459671568-9809c9d13430?w=800&h=600&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:17.629] Server  LOG     Email server is ready to send messages
-[00:01:19.882] Server  LOG     Email sent successfully to: "mharshit1309@gmail.com"
-[00:01:21.160] Server  LOG     Email sent successfully to: "bengaltourism@gmail.com"
-[00:01:40.541] Server  LOG     Email sent successfully to: "bengaltourism@gmail.com"
-[00:01:40.660] Server  LOG     Email sent successfully to: "mharshit1309@gmail.com"
-[00:04:12.242] Server  LOG     ✓ Compiled in 157ms
-[00:07:55.259] Server  LOG       Reload env: .env.local
-[00:07:55.614] Server  LOG     ✓ Compiled in 342ms
-[00:15:17.337] Server  LOG       Reload env: .env.local
-[00:16:21.713] Server  LOG       Reload env: .env.local
-[00:19:49.388] Browser WARN    Image with src "https://images.unsplash.com/photo-1477764250597-dffe9f601ae8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Um95YWwlMjBCZW5nYWwlMjBUaWdlcnxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:49.388] Browser WARN    Image with src "https://images.unsplash.com/photo-1698753864905-a447aa362ec9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRhcmplZWxpbmd8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:49.388] Browser WARN    Image with src "https://images.unsplash.com/photo-1657282928361-ec9de3f2bc74?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:49.388] Browser WARN    Image with src "https://images.unsplash.com/photo-1647102208648-5f3175091dda?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8S29sa2F0YXxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:49.388] Browser WARN    Image with src "https://images.unsplash.com/photo-1669514463894-0475a3e062ff?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:49.582] Browser WARN    Image with src "https://images.unsplash.com/photo-1548574505-5e239809ee19?q=80&w=2764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:49.582] Browser WARN    Image with src "https://images.unsplash.com/photo-1550697797-f01b4e83a1be?q=80&w=2676&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:49.583] Browser WARN    Image with src "https://images.unsplash.com/photo-1681137063068-081072cf04b4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RmlsbSUyMHNob290aW5nfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:50.113] Browser WARN    Image with src "https://images.unsplash.com/photo-1727640826472-bf7456dc030c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:50.374] Browser WARN    Image with src "https://images.unsplash.com/photo-1763912111586-aed87ee0c3aa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEhlcml0YWdlJTIwVG91ciUyMCUyNiUyMFdhbGtzfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:50.374] Browser WARN    Image with src "https://images.unsplash.com/photo-1599106242383-271adeb2e828?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SGlsbHN8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:50.585] Browser WARN    Image with src "https://images.unsplash.com/photo-1651678938586-affccc71c270?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:50.585] Browser WARN    Image with src "https://images.unsplash.com/photo-1554380726-5bd6b17b42e5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SnVuZ2xlJTIwU2FmYXJpfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:50.585] Browser WARN    Image with src "https://images.unsplash.com/photo-1629248457649-b082812aea6c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Uml2ZXIlMjBSYWZ0aW5nfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:50.585] Browser WARN    Image with src "/img/puri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:50.585] Browser WARN    Image with src "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VHJla2tpbmd8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:50.585] Browser WARN    Image with src "https://images.unsplash.com/photo-1761933810905-ccc35b14d937?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2hvcnQlMjBCcmVha3N8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:20:50.564] Browser LOG     Check-in: 21-02-2026 Date: "2026-02-21T00:00:00.000Z"
-[00:20:50.565] Browser LOG     Check-out: 23-02-2026 Date: "2026-02-23T00:00:00.000Z"
-[00:20:50.565] Browser LOG     Diff time: 172800000
-[00:20:50.565] Browser LOG     Diff days: 2
-[00:21:11.888] Server  LOG     Tour email server is ready to send messages
-[00:21:11.893] Server  LOG     Hotel email server is ready to send messages
-[00:21:13.753] Server  LOG     Email sent successfully to: "bengaltourism@gmail.com" "via tour transporter"
-[00:21:13.929] Server  LOG     Email sent successfully to: "betenepali1@gmail.com" "via tour transporter"
-[00:21:14.757] Server  LOG     Email sent successfully to: "mharshit130921@gmail.com" "via tour transporter"
-[00:27:56.495] Server  LOG     Hotel email server is ready to send messages
-[00:27:57.722] Server  LOG     Tour email server is ready to send messages
-[00:27:59.511] Server  LOG     Email sent successfully to: "bengaltourism@gmail.com" "via hotel transporter"
-[00:27:59.662] Server  LOG     Email sent successfully to: "betenepali1@gmail.com" "via hotel transporter"
-[00:27:59.905] Server  LOG     Email sent successfully to: "mharshit130921@gmail.com" "via hotel transporter"
-[00:34:57.151] Server  LOG     Tour email server is ready to send messages
-[00:34:58.413] Server  LOG     Hotel email server is ready to send messages
-[00:34:59.695] Server  LOG     Email sent successfully to: "bengaltourism@gmail.com" "via hotel transporter"
-[00:34:59.699] Server  LOG     Email sent successfully to: "bengaltourism@gmail.com" "via hotel transporter"
-[00:35:02.304] Server  LOG     Email sent successfully to: "mharshit130921@gmail.com" "via hotel transporter"
-[00:36:03.219] Server  LOG     Email sent successfully to: "bengaltourism@gmail.com" "via hotel transporter"
-[00:36:03.433] Server  LOG     Email sent successfully to: "bengaltourism@gmail.com" "via hotel transporter"
-[00:36:03.834] Server  LOG     Email sent successfully to: "mharshit130921@gmail.com" "via hotel transporter"
-[00:38:04.158] Server  LOG     Hotel email server is ready to send messages
-[00:38:04.162] Server  LOG     Tour email server is ready to send messages
-[00:38:05.787] Server  LOG     Email sent successfully to: "bengaltourism@gmail.com" "via hotel transporter"
-[00:38:05.901] Server  LOG     Email sent successfully to: "hotel.bengaltourism@gmail.com" "via hotel transporter"
-[00:38:06.906] Server  LOG     Email sent successfully to: "mharshit130921@gmail.com" "via hotel transporter"
-[00:41:44.902] Server  LOG     Email sent successfully to: "hotel.bengaltourism@gmail.com" "via hotel transporter"
-[00:41:44.902] Server  LOG     Email sent successfully to: "mharshit1309@gmail.com" "via hotel transporter"
-[00:41:45.072] Server  LOG     Email sent successfully to: "bengaltourism@gmail.com" "via hotel transporter"
-[00:46:36.673] Server  LOG     ✓ Compiled in 124ms
-[00:47:07.709] Server  LOG     Email sent successfully to: "hotel.bengaltourism@gmail.com" "via hotel transporter"
-[00:47:08.108] Server  LOG     Email sent successfully to: "mharshit1309@gmail.com" "via hotel transporter"
-[00:47:08.128] Server  LOG     Email sent successfully to: "bengaltourism@gmail.com" "via hotel transporter"
-[00:49:14.262] Browser WARN    Image with src "https://images.unsplash.com/photo-1698753864905-a447aa362ec9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRhcmplZWxpbmd8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:14.531] Browser WARN    Image with src "https://images.unsplash.com/photo-1657282928361-ec9de3f2bc74?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:14.531] Browser WARN    Image with src "https://images.unsplash.com/photo-1477764250597-dffe9f601ae8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Um95YWwlMjBCZW5nYWwlMjBUaWdlcnxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:14.710] Browser WARN    Image with src "https://images.unsplash.com/photo-1647102208648-5f3175091dda?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8S29sa2F0YXxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:14.851] Browser WARN    Image with src "https://images.unsplash.com/photo-1548574505-5e239809ee19?q=80&w=2764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:15.011] Browser WARN    Image with src "https://images.unsplash.com/photo-1669514463894-0475a3e062ff?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:15.011] Browser WARN    Image with src "https://images.unsplash.com/photo-1550697797-f01b4e83a1be?q=80&w=2676&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:15.011] Browser WARN    Image with src "https://images.unsplash.com/photo-1681137063068-081072cf04b4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RmlsbSUyMHNob290aW5nfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:15.143] Browser WARN    Image with src "https://images.unsplash.com/photo-1727640826472-bf7456dc030c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:15.520] Browser WARN    Image with src "https://images.unsplash.com/photo-1554380726-5bd6b17b42e5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SnVuZ2xlJTIwU2FmYXJpfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:15.520] Browser WARN    Image with src "https://images.unsplash.com/photo-1763912111586-aed87ee0c3aa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEhlcml0YWdlJTIwVG91ciUyMCUyNiUyMFdhbGtzfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:15.520] Browser WARN    Image with src "https://images.unsplash.com/photo-1599106242383-271adeb2e828?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SGlsbHN8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:15.520] Browser WARN    Image with src "https://images.unsplash.com/photo-1651678938586-affccc71c270?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:15.520] Browser WARN    Image with src "https://images.unsplash.com/photo-1629248457649-b082812aea6c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Uml2ZXIlMjBSYWZ0aW5nfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:15.520] Browser WARN    Image with src "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VHJla2tpbmd8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:15.520] Browser WARN    Image with src "/img/puri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:15.520] Browser WARN    Image with src "https://images.unsplash.com/photo-1761933810905-ccc35b14d937?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2hvcnQlMjBCcmVha3N8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:45.960] Browser LOG     Check-in: 21-02-2026 Date: "2026-02-21T00:00:00.000Z"
-[00:49:45.960] Browser LOG     Check-out: 26-02-2026 Date: "2026-02-26T00:00:00.000Z"
-[00:49:45.960] Browser LOG     Diff time: 432000000
-[00:49:45.960] Browser LOG     Diff days: 5
-[00:50:11.883] Server  LOG     Hotel email server is ready to send messages
-[00:50:11.887] Server  LOG     Tour email server is ready to send messages
-[00:50:14.901] Server  LOG     Email sent successfully to: "bengaltourism@gmail.com" "via tour transporter"
-[00:50:15.260] Server  LOG     Email sent successfully to: "mharshit130921@gmail.com" "via tour transporter"
-[00:50:16.184] Server  LOG     Email sent successfully to: "hotel.bengaltourism@gmail.com" "via tour transporter"
-[00:51:53.580] Server  LOG     Hotel email server is ready to send messages
-[00:51:53.602] Server  LOG     Tour email server is ready to send messages
-[00:51:55.485] Server  LOG     Email sent successfully to: "bengaltourism@gmail.com" "via tour transporter"
-[00:51:56.199] Server  LOG     Email sent successfully to: "booking.bengaltourism@gmail.com" "via tour transporter"
-[00:51:56.594] Server  LOG     Email sent successfully to: "mharshit130921@gmail.com" "via tour transporter"
-[00:58:47.588] Server  LOG       Reload env: .env.local
-[00:58:49.261] Server  LOG     ✓ Compiled in 1654ms
-[00:59:25.365] Server  LOG       Reload env: .env.local
-[00:59:38.406] Server  LOG       Reload env: .env.local
-[01:00:03.786] Server  LOG       Reload env: .env.local
-[01:14:38.174] Browser LOG     Membership form submitted: {"accountNumber":"wedwed","address":"Machli mandi, niywana road, near Anand hospital ayodha","bankName":"sdewdew","branchName":"wewqe","city":"Ayodha","dateOfBirth":"2026-02-21","email":"mharshit1309@gmail.com","firstName":"wwqwqe","ifscCode":"wqwewq","initial":"Mrs.","introducedByMember":"121","introducedByUnit":"","lastName":"wewe","mobile":"+918429761056","nomineeName":"sddsd","paymentDate":"2026-02-21","paymentMode":"upi","pinCode":"224001","regdFee":"6000"}
-[01:18:54.771] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:03.148] Server  LOG     ✓ Ready in 2.7s
+[00:00:05.932] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.314] Browser WARN    Image with src "https://images.unsplash.com/photo-1571679654681-ba01b9e1e117?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2VzdCUyMGJlbmdhbHxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:06.314] Browser WARN    Image with src "https://images.unsplash.com/photo-1582899123786-d7123573fe89?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fFN0YXR1ZSUyMG9mJTIwVW5pdHl8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:06.314] Browser WARN    Image with src "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:06.314] Browser WARN    Image with src "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:06.314] Browser WARN    Image with src "https://images.unsplash.com/photo-1622308644420-b20142dc993c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:06.314] Browser WARN    Image with src "/kolkata-DIY.avif" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:06.314] Browser WARN    Image with src "https://images.unsplash.com/photo-1657282928361-ec9de3f2bc74?w=800&h=600&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:06.314] Browser WARN    Image with src "https://images.unsplash.com/photo-1706459671568-9809c9d13430?w=800&h=600&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:10.247] Browser WARN    Image with src "https://images.unsplash.com/photo-1650341259809-9314b0de9268?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:10.247] Browser WARN    Image with src "https://images.unsplash.com/photo-1629723248038-8b3bc1ecce29?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cHVyaS1vZGlzaGF8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:10.247] Browser WARN    Image with src "/img/Bhutan.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:10.247] Browser WARN    Image with src "/Goa.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:10.247] Browser WARN    Image with src "/Himachal.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:10.247] Browser WARN    Image with src "https://images.unsplash.com/photo-1600845747913-e33543f94892?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RGFsJTIwbGFrZXxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:10.247] Browser WARN    Image with src "/Andaman.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:10.247] Browser WARN    Image with src "/hotal/Kamakhya41.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:10.247] Browser WARN    Image with src "https://images.unsplash.com/photo-1651516725197-9ed18b572abe?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fEZvcnQlMjBSYWphc3RoYW58ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:11.393] Browser WARN    Image with src "/Kerala.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:23.289] Browser WARN    Image with src "https://images.unsplash.com/photo-1532008779255-4b4dd2668c84?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Qmh1dGFuLVRoaW1wdXxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:23.290] Browser WARN    Image with src "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RHViYWl8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:23.290] Browser WARN    Image with src "https://images.unsplash.com/photo-1720811970882-70a5196ee37e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TmVwYWwlMjAlMjYlMjBLYXRobWFuZHV8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:23.290] Browser WARN    Image with src "https://images.unsplash.com/photo-1572025310208-2fd6b91764c1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TGFrc2hhZHdlZXB8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:23.290] Browser WARN    Image with src "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:23.290] Browser WARN    Image with src "https://images.unsplash.com/photo-1712487650909-2aaf5c5eac36?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VGhhaWxhbmQlMjAlMjYlMjBCYW5na29rfGVufDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:23.290] Browser WARN    Image with src "https://images.unsplash.com/photo-1496939376851-89342e90adcd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8U2luZ2Fwb3JlfGVufDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:23.290] Browser WARN    Image with src "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:23.290] Browser WARN    Image with src "/Maldives.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:34.827] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:21.637] Server  LOG     ✓ Compiled in 1086ms
+[00:12:31.907] Server  LOG     ✓ Compiled in 56ms
+[00:12:34.370] Server  LOG     ✓ Compiled in 56ms
+[00:16:50.241] Server  LOG     ✓ Compiled in 64ms
+[00:18:36.777] Server  LOG     ✓ Compiled in 61ms
+[00:19:57.902] Server  LOG     ✓ Compiled in 58ms
+[00:20:20.872] Server  LOG     ✓ Compiled in 65ms
+[00:24:18.941] Server  LOG     ✓ Compiled in 66ms
+[00:25:02.660] Server  LOG     ✓ Compiled in 60ms
+[00:25:03.458] Browser ERROR   uncaughtError: ReferenceError: AddOnSection is not defined
+[00:25:47.543] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:25:47.617] Server  LOG     ✓ Compiled in 55ms
+[00:25:47.756] Server  ERROR   ⨯ ReferenceError: AddOnSection is not defined
+[00:25:48.049] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:48.460] Browser ERROR   uncaughtError: ReferenceError: AddOnSection is not defined
+[00:26:27.338] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:26:27.522] Server  LOG     ✓ Compiled in 71ms
+[00:26:27.865] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:28.459] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -123,7 +64,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/membership" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/dubai" notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -142,9 +83,35 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[01:19:22.942] Browser LOG     Membership form submitted: {"accountNumber":"wedwed","address":"Machli mandi, niywana road, near Anand hospital ayodha","bankName":"wedewd","branchName":"wew","city":"Ayodha","dateOfBirth":"2026-02-21","email":"mharshit1309@gmail.com","firstName":"dsss","ifscCode":"weewd","initial":"Miss","introducedByMember":"hhdshs","introducedByUnit":"","lastName":"dsfwedwe","mobile":"+918429761056","nomineeName":"wedew","paymentDate":"2026-02-23","paymentMode":"phonepe","pinCode":"224001","regdFee":"6000"}
-[01:22:01.081] Server  LOG     ✓ Compiled in 101ms
-[01:24:18.041] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:26:41.416] Server  LOG     ✓ Compiled in 131ms
+[00:26:44.424] Server  LOG     ✓ Compiled in 56ms
+[00:26:47.785] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:20.045] Server  LOG     ✓ Compiled in 310ms
+[00:27:20.149] Browser ERROR   ./app/dubai/page.tsx:210:14
+Parsing ecmascript source code failed
+  208 |
+  209 |  </div>
+> 210 | <ContactCTA />
+      |              ^
+  211 |     </main>
+  212 |   )
+  213 | }
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/dubai/page.tsx [Client Component Browser]
+    ./app/dubai/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dubai/page.tsx [Client Component SSR]
+    ./app/dubai/page.tsx [Server Component]
+[00:28:23.991] Server  LOG     ✓ Compiled in 56ms
+[00:31:08.867] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:07.258] Server  LOG     ✓ Compiled in 58.3s
+[00:32:07.698] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:08.284] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -162,7 +129,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/membership" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/book-hotal" notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -181,22 +148,73 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[01:25:00.050] Server  LOG     Tour email server is ready to send messages
-[01:25:00.454] Server  LOG     Hotel email server is ready to send messages
-[01:25:01.353] Server  LOG     Membership email server is ready to send messages
-[01:25:56.266] Server  LOG     ✓ Compiled in 65ms
-[01:26:02.630] Server  LOG     ✓ Compiled in 65ms
-[01:26:02.733] Browser ERROR   A component is changing an uncontrolled input to be controlled. This is likely caused by the value changing from undefined to a defined value, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://react.dev/link/controlled-components
-[01:26:07.304] Server  LOG     ✓ Compiled in 64ms
-[01:29:26.058] Server  LOG     Hotel email server is ready to send messages
-[01:29:26.741] Server  LOG     Tour email server is ready to send messages
-[01:29:27.571] Server  LOG     Membership email server is ready to send messages
-[01:29:28.487] Server  LOG     Email sent successfully to: "member.bengaltourism@gmail.com" "via member transporter"
-[01:29:28.858] Server  LOG     Email sent successfully to: "mharshit1309@gmail.com" "via member transporter"
-[01:29:29.279] Server  LOG     Email sent successfully to: "member.bengaltourism@gmail.com" "via member transporter"
-[01:29:29.535] Server  LOG     Email sent successfully to: "bengaltourism@gmail.com" "via member transporter"
-[01:29:29.694] Browser LOG     Membership form submitted successfully: {"accountNumber":"qweqw","address":"south delhi, panchsheel park","bankName":"wqweqw","branchName":"qweqew","city":"delhi","dateOfBirth":"2026-02-20","email":"mharshit1309@gmail.com","firstName":"wqeqw","ifscUpi":"qweqwe","initial":"Mrs.","introducedByMember":"e323","introducedByUnit":"","lastName":"harshit","nomineeName":"qwewq","paymentDate":"2026-02-21","paymentMode":"phonepe","phone":"+919792696780","pinCode":"110016","regdFee":"6000"}
-[01:29:29.758] Server  LOG     Email sent successfully to: "bengaltourism@gmail.com" "via member transporter"
-[01:29:31.239] Server  LOG     Email sent successfully to: "mharshit1309@gmail.com" "via member transporter"
-[01:29:31.346] Browser LOG     Membership form submitted successfully: {"accountNumber":"qweqw","address":"south delhi, panchsheel park","bankName":"wqweqw","branchName":"qweqew","city":"delhi","dateOfBirth":"2026-02-20","email":"mharshit1309@gmail.com","firstName":"wqeqw","ifscUpi":"qweqwe","initial":"Mrs.","introducedByMember":"e323","introducedByUnit":"","lastName":"harshit","nomineeName":"qwewq","paymentDate":"2026-02-21","paymentMode":"phonepe","phone":"+919792696780","pinCode":"110016","regdFee":"6000"}
-[01:33:23.775] Server  LOG     ✓ Compiled in 296ms
+[00:32:14.841] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:44.378] Browser WARN    Image with src "https://images.unsplash.com/photo-1532008779255-4b4dd2668c84?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Qmh1dGFuLVRoaW1wdXxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:37:44.378] Browser WARN    Image with src "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RHViYWl8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:37:44.378] Browser WARN    Image with src "https://images.unsplash.com/photo-1720811970882-70a5196ee37e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TmVwYWwlMjAlMjYlMjBLYXRobWFuZHV8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:37:44.378] Browser WARN    Image with src "https://images.unsplash.com/photo-1712487650909-2aaf5c5eac36?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VGhhaWxhbmQlMjAlMjYlMjBCYW5na29rfGVufDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:37:44.378] Browser WARN    Image with src "https://images.unsplash.com/photo-1572025310208-2fd6b91764c1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TGFrc2hhZHdlZXB8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:37:44.378] Browser WARN    Image with src "https://images.unsplash.com/photo-1496939376851-89342e90adcd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8U2luZ2Fwb3JlfGVufDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:37:44.378] Browser WARN    Image with src "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:37:44.378] Browser WARN    Image with src "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:37:44.378] Browser WARN    Image with src "/Maldives.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:37:53.354] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:42:14.852] Server  LOG     ✓ Compiled in 67ms
+[00:43:31.061] Server  LOG     ✓ Compiled in 60ms
+[00:43:46.302] Server  LOG     ✓ Compiled in 78ms
+[00:45:19.439] Server  LOG     ✓ Compiled in 57ms
+[00:45:54.122] Server  LOG     ✓ Compiled in 65ms
+[00:47:47.991] Server  LOG     ✓ Compiled in 62ms
+[00:47:52.181] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:52.351] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/book-hotel" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:47:55.520] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:48:12.282] Server  LOG     ✓ Compiled in 50ms
+[00:48:30.513] Server  LOG     ✓ Compiled in 71ms
+[00:49:32.862] Server  LOG     ✓ Compiled in 63ms
+[00:51:36.227] Server  LOG     ✓ Compiled in 64ms
+[00:51:56.319] Server  LOG     ✓ Compiled in 66ms
+[00:52:01.078] Server  LOG     ✓ Compiled in 55ms
+[00:54:04.301] Server  LOG     ✓ Compiled in 58ms
+[00:56:30.133] Server  LOG     Membership email server is ready to send messages
+[00:56:31.271] Server  LOG     Hotel email server is ready to send messages
+[00:56:31.388] Server  ERROR   Tour email service error: Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-82739ff37f1sm969352b3a.40 - gsmtp
+[00:56:32.212] Server  LOG     Email sent successfully to: "hotel.bengaltourism@gmail.com" "via hotel transporter"
+[00:56:33.378] Server  LOG     Email sent successfully to: "bengaltourism@gmail.com" "via hotel transporter"
+[00:56:33.425] Server  LOG     Email sent successfully to: "mharshit1309@gmail.com" "via hotel transporter"

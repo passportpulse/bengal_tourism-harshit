@@ -368,7 +368,7 @@ export default function Navbar() {
                             Contact Us
                         </Link>
                              <Link
-                            href="/book-hotal"
+                            href="/book-hotel"
                             className="block py-2 bg-red-600 text-white px-6 py-2 rounded-full font-semibold text-center"
                             onClick={() => setMobileOpen(false)}
                         >

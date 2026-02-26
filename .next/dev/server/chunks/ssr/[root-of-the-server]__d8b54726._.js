@@ -743,7 +743,7 @@ function HotelBookingPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed",
-                                    children: "Anand Palace | Ascot | Broadway | Bellevue Heritage | Central Heritage | Cedar Inn | Crystal Palace | Central Nirvana | Central Heritage | Dolphin | Dreamland | Dakeling | Elgin | Fairmount | Golden Height Enclave | Glenary | Hermitage | Krishna Residency | Mayfair Resorts | Maple | Mt. Royal | Mt. View | North Star | Oasis | Pineridge | Pinetree | Pink Mountain | Princess | Palbheu | R J Resort | Rhododendron | Spring Burn | Sunflower | Seven Seventeen | Shangri-La | Sonar Bangla | Sinclairs / Swiss Hotel | Sterling Snow Lion | Travellers Inn | Yuma | Viceroy | Windamare | ... & Similar Category Hotels"
+                                    children: "Anand Palace | Ascot | Broadway | Bellevue Heritage | Central Heritage | Cedar Inn | Crystal Palace | Central Nirvana | Central Heritage | Dolphin | Dreamland | Dakeling | Elgin | Fairmount | Golden Height Enclave | Glenary | Hermitage | Krishna Residency | Mayfair Resorts & Spa & Mayfair Himalayan Retreat | Maple | Mt. Royal | Mt. View | North Star | Oasis | Pineridge | Pinetree | Pink Mountain | Princess | Palbheu | R J Resort | Rhododendron | Spring Burn | Sunflower | Seven Seventeen | Shangri-La | Sonar Bangla | Sinclairs / Swiss Hotel | Sterling Snow Lion | Travellers Inn | Yuma | Viceroy | Windamare |  ... & Similar Category Hotels"
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
                                     lineNumber: 180,
@@ -998,7 +998,7 @@ function HotelBookingPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed",
-                                    children: "Apple Orchard | Anola | Bamboo Grove | Central Heritage | Chumbi Residency | Coral Inn | Central Hotel | Cherry Guest House | Casino Mahjong | Doma Palace | Doma Residency | Fortuna | Juniper | Mayfair Resorts & Spa | Maya Inn | Mist Tree Mountain | Oakridge Retreat | The Oriental | Riccasa | Rendezvous | Royal Plaza | Sonam Delek | Silk Route Residency | Sai Kripa | Summit Spa | Tamarind | Terrace Valley | Tres Teli | Tara Palace | Tashi Delek / Tashi Thendup | Tashiling | Tibet | White Conch |... & Similar Hotels"
+                                    children: "Apple Orchard | Anola | Bamboo Grove | Central Heritage | Chumbi Residency | Coral Inn | Central Hotel | Cherry Guest House | Casino Mahjong | Doma Palace | Doma Residency | Fortuna | Juniper | Mayfair Resorts & Spa & Casino | Maya Inn | Mist Tree Mountain | Oakridge Retreat | The Oriental | Riccasa | Rendezvous | Royal Plaza | Sonam Delek | Silk Route Residency | Sai Kripa | Summit Spa | Tamarind | Terrace Valley | Tres Teli | Tara Palace | Tashi Delek / Tashi Thendup | Tashiling | Tibet | White Conch | ... & Similar Hotels"
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
                                     lineNumber: 291,
@@ -1026,7 +1026,7 @@ function HotelBookingPage() {
                                 }, void 0, false, {
                                     fileName: "[project]/app/hotel-booking/page.tsx",
                                     lineNumber: 300,
-                                    columnNumber: 20
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-gray-700 leading-relaxed mb-4",
@@ -1243,7 +1243,8 @@ function HotelBookingPage() {
                                                     "Mangwa Farm",
                                                     "Sillery Gaon",
                                                     "Snow Lion @ Zuluk",
-                                                    "Tinchuley Homestay"
+                                                    "Tinchuley Homestay",
+                                                    "Many more offbeat locations coming soon"
                                                 ].map((stay, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "bg-green-50 p-3 rounded-lg text-sm",
                                                         children: [

@@ -178,7 +178,7 @@ export default function HotelBookingPage() {
               We provide accommodation options near Mall Road, Chowrasta, tea gardens and scenic viewpoints.
             </p>
             <div className="bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed">
-              Anand Palace | Ascot | Broadway | Bellevue Heritage | Central Heritage | Cedar Inn | Crystal Palace | Central Nirvana | Central Heritage | Dolphin | Dreamland | Dakeling | Elgin | Fairmount | Golden Height Enclave | Glenary | Hermitage | Krishna Residency | Mayfair Resorts | Maple | Mt. Royal | Mt. View | North Star | Oasis | Pineridge | Pinetree | Pink Mountain | Princess | Palbheu | R J Resort | Rhododendron | Spring Burn | Sunflower | Seven Seventeen | Shangri-La | Sonar Bangla | Sinclairs / Swiss Hotel | Sterling Snow Lion | Travellers Inn | Yuma | Viceroy | Windamare | ... & Similar Category Hotels
+              Anand Palace | Ascot | Broadway | Bellevue Heritage | Central Heritage | Cedar Inn | Crystal Palace | Central Nirvana | Central Heritage | Dolphin | Dreamland | Dakeling | Elgin | Fairmount | Golden Height Enclave | Glenary | Hermitage | Krishna Residency | Mayfair Resorts & Spa & Mayfair Himalayan Retreat | Maple | Mt. Royal | Mt. View | North Star | Oasis | Pineridge | Pinetree | Pink Mountain | Princess | Palbheu | R J Resort | Rhododendron | Spring Burn | Sunflower | Seven Seventeen | Shangri-La | Sonar Bangla | Sinclairs / Swiss Hotel | Sterling Snow Lion | Travellers Inn | Yuma | Viceroy | Windamare |  ... & Similar Category Hotels
             </div>
           </section>
 
@@ -289,19 +289,19 @@ export default function HotelBookingPage() {
               mountain-view boutique hotels and traditional stays.
             </p>
             <div className="bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-sm text-gray-700 leading-relaxed">
-              Apple Orchard | Anola | Bamboo Grove | Central Heritage | Chumbi Residency | Coral Inn | Central Hotel | Cherry Guest House | Casino Mahjong | Doma Palace | Doma Residency | Fortuna | Juniper | Mayfair Resorts & Spa | Maya Inn | Mist Tree Mountain | Oakridge Retreat | The Oriental | Riccasa | Rendezvous | Royal Plaza | Sonam Delek | Silk Route Residency | Sai Kripa | Summit Spa | Tamarind | Terrace Valley | Tres Teli | Tara Palace | Tashi Delek / Tashi Thendup | Tashiling | Tibet | White Conch |... & Similar Hotels
+              Apple Orchard | Anola | Bamboo Grove | Central Heritage | Chumbi Residency | Coral Inn | Central Hotel | Cherry Guest House | Casino Mahjong | Doma Palace | Doma Residency | Fortuna | Juniper | Mayfair Resorts & Spa & Casino | Maya Inn | Mist Tree Mountain | Oakridge Retreat | The Oriental | Riccasa | Rendezvous | Royal Plaza | Sonam Delek | Silk Route Residency | Sai Kripa | Summit Spa | Tamarind | Terrace Valley | Tres Teli | Tara Palace | Tashi Delek / Tashi Thendup | Tashiling | Tibet | White Conch | ... & Similar Hotels
             </div>
           </section>
 
 
           {/* ECO TOURISM CONTENT */}
           <section className="mt-20 bg-gradient-to-r from-green-50 to-emerald-50 border border-green-200 rounded-2xl p-10 shadow-lg">
-       
-                   <div className="flex items-center gap-5  mb-4">
+
+            <div className="flex items-center gap-5  mb-4">
               <h3 className="text-3xl font-bold text-gray-900">
-              Sustainable Tourism & Bengal Home Stay Concept
+                Sustainable Tourism & Bengal Home Stay Concept
               </h3>
-           
+
             </div>
             <p className="text-gray-700 leading-relaxed mb-4">
               West Bengal’s biodiversity stretches from the Sundarban Mangrove Forest
@@ -387,7 +387,7 @@ export default function HotelBookingPage() {
                 <div className="grid grid-cols-2 gap-3">
                   {["Bagora Diki House", "Bird's View @ Kalimpong", "Cherry Village @ Pelling", "Druk @ Lamahatta",
                     "Everest Hut @ Lamahatta", "Gurung Guest House", "Khushi Farm", "Mangwa Farm",
-                    "Sillery Gaon", "Snow Lion @ Zuluk", "Tinchuley Homestay"].map((stay, index) => (
+                    "Sillery Gaon", "Snow Lion @ Zuluk", "Tinchuley Homestay", "Many more offbeat locations coming soon"].map((stay, index) => (
                       <div key={index} className="bg-green-50 p-3 rounded-lg text-sm">
                         <Home className="w-4 h-4 text-green-600 mb-1" />
                         <span className="text-gray-700">{stay}</span>
