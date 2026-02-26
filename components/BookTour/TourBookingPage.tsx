@@ -97,7 +97,7 @@ export default function TourBookingPage() {
     totalNights: "",
     estimatedCost: "",
     bookingAmount: "",
-    paymentType: "full"
+    paymentType: "partial"
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -108,6 +108,13 @@ export default function TourBookingPage() {
       calculateNights();
     }
   }, [formData.checkIn, formData.checkOut]);
+
+  // Auto calculate totals when adults, children, totalNights, or paymentType change
+  useEffect(() => {
+    if (formData.totalNights && (formData.adults > 0 || formData.children > 0)) {
+      calculateTotals();
+    }
+  }, [formData.adults, formData.children, formData.totalNights, formData.paymentType]);
 
   // Helper function to format date to DD-MM-YYYY
   const formatDateToDDMMYYYY = (dateString: string) => {
@@ -139,15 +146,30 @@ export default function TourBookingPage() {
     setFormData(prev => ({ ...prev, [field]: value }));
   };
 
+  const calculatePerPersonRate = (nights: number): number => {
+    const rates: { [key: number]: number } = {
+      1: 3700,
+      2: 6400,
+      3: 9100,
+      4: 12700,
+      5: 15400
+    };
+    return rates[nights] || 0;
+  };
+
   const calculateTotals = () => {
-    const adultCost = parseFloat(formData.costPerAdult) * formData.adults;
-    const childrenCost = parseFloat(formData.costPerChildren || "0") * formData.children;
+    const nights = parseInt(formData.totalNights);
+    const perPersonRate = calculatePerPersonRate(nights);
+    const adultCost = perPersonRate * formData.adults;
+    const childrenCost = (perPersonRate * 0.5) * formData.children; // 50% of adult rate for children
     const total = adultCost + childrenCost;
     const bookingAmount = formData.paymentType === "full" ? total : total * 0.5;
 
     setFormData(prev => ({
       ...prev,
-      estimatedCost: total.toString(),
+      costPerAdult: adultCost.toString(), // Total cost for all adults
+      costPerChildren: childrenCost.toString(), // Total cost for all children
+      estimatedCost: total.toString(), // Sum of both
       bookingAmount: bookingAmount.toString()
     }));
   };
@@ -432,7 +454,7 @@ export default function TourBookingPage() {
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      No. of Children (5–10 yrs)
+                      No. of Children (5-8 yrs)
                     </label>
                     <input
                       type="number"
@@ -553,10 +575,23 @@ export default function TourBookingPage() {
                   <IndianRupee className="text-red-600" />
                   Pricing Details
                 </h2>
+                {formData.totalNights && (
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
+                    <p className="text-sm text-blue-800">
+                      <strong>Per Person Rate:</strong> ₹{calculatePerPersonRate(parseInt(formData.totalNights))} for {formData.totalNights} night(s)
+                    </p>
+                    <p className="text-xs text-blue-600 mt-1">
+                      <strong>Children Rate:</strong> 50% of adult rate (₹{(calculatePerPersonRate(parseInt(formData.totalNights)) * 0.5).toFixed(0)} per child)
+                    </p>
+                    <p className="text-xs text-blue-600 mt-1">
+                      Rates: 1N - ₹3700 | 2N - ₹6400 | 3N - ₹9100 | 4N - ₹12700 | 5N - ₹15400
+                    </p>
+                  </div>
+                )}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Cost per Adult <span className="text-red-500">*</span>
+                      Total Cost for Adults ({formData.adults} × ₹{calculatePerPersonRate(parseInt(formData.totalNights) || 0)}) <span className="text-red-500">*</span>
                     </label>
                     <div className="flex gap-2">
                       <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
@@ -565,19 +600,19 @@ export default function TourBookingPage() {
                       <input
                         type="number"
                         value={formData.costPerAdult}
-                        onChange={(e) => {
-                          handleInputChange("costPerAdult", e.target.value);
-                          setTimeout(calculateTotals, 100);
-                        }}
-                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
-                        placeholder="See Tariff Section"
+                        readOnly
+                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 text-gray-600"
+                        placeholder="Auto-calculated based on adults and nights"
                         required
                       />
                     </div>
+                    <p className="text-xs text-gray-500 mt-1">
+                      Total cost for all adults ({formData.adults} adults)
+                    </p>
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Cost per Children @ 50%
+                      Total Cost for Children ({formData.children} × ₹{(calculatePerPersonRate(parseInt(formData.totalNights) || 0) * 0.5).toFixed(0)})
                     </label>
                     <div className="flex gap-2">
                       <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
@@ -586,14 +621,14 @@ export default function TourBookingPage() {
                       <input
                         type="number"
                         value={formData.costPerChildren}
-                        onChange={(e) => {
-                          handleInputChange("costPerChildren", e.target.value);
-                          setTimeout(calculateTotals, 100);
-                        }}
-                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
-                        placeholder="0 if no children"
+                        readOnly
+                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 text-gray-600"
+                        placeholder="50% of adult rate per child"
                       />
                     </div>
+                    <p className="text-xs text-gray-500 mt-1">
+                      Total cost for all children ({formData.children} children at 50% rate)
+                    </p>
                   </div>
                
                   <div>

@@ -218,3 +218,217 @@ It can also happen if the client has a browser extension installed which messes 
 [00:56:32.212] Server  LOG     Email sent successfully to: "hotel.bengaltourism@gmail.com" "via hotel transporter"
 [00:56:33.378] Server  LOG     Email sent successfully to: "bengaltourism@gmail.com" "via hotel transporter"
 [00:56:33.425] Server  LOG     Email sent successfully to: "mharshit1309@gmail.com" "via hotel transporter"
+[01:03:49.414] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:04:12.164] Browser LOG     Check-in: 26-02-2026 Date: "2026-02-26T00:00:00.000Z"
+[01:04:12.164] Browser LOG     Check-out: 28-02-2026 Date: "2026-02-28T00:00:00.000Z"
+[01:04:12.164] Browser LOG     Diff time: 172800000
+[01:04:12.164] Browser LOG     Diff days: 2
+[01:07:41.440] Browser WARN    Image with src "https://images.unsplash.com/photo-1698753864905-a447aa362ec9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRhcmplZWxpbmd8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:41.440] Browser WARN    Image with src "https://images.unsplash.com/photo-1657282928361-ec9de3f2bc74?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:41.440] Browser WARN    Image with src "https://images.unsplash.com/photo-1477764250597-dffe9f601ae8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Um95YWwlMjBCZW5nYWwlMjBUaWdlcnxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:41.440] Browser WARN    Image with src "https://images.unsplash.com/photo-1647102208648-5f3175091dda?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8S29sa2F0YXxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:41.440] Browser WARN    Image with src "https://images.unsplash.com/photo-1548574505-5e239809ee19?q=80&w=2764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:41.440] Browser WARN    Image with src "https://images.unsplash.com/photo-1669514463894-0475a3e062ff?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:41.440] Browser WARN    Image with src "https://images.unsplash.com/photo-1550697797-f01b4e83a1be?q=80&w=2676&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:41.440] Browser WARN    Image with src "https://images.unsplash.com/photo-1681137063068-081072cf04b4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RmlsbSUyMHNob290aW5nfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:41.440] Browser WARN    Image with src "https://images.unsplash.com/photo-1727640826472-bf7456dc030c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:42.337] Browser WARN    Image with src "https://images.unsplash.com/photo-1554380726-5bd6b17b42e5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SnVuZ2xlJTIwU2FmYXJpfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:42.337] Browser WARN    Image with src "https://images.unsplash.com/photo-1599106242383-271adeb2e828?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SGlsbHN8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:42.337] Browser WARN    Image with src "https://images.unsplash.com/photo-1763912111586-aed87ee0c3aa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEhlcml0YWdlJTIwVG91ciUyMCUyNiUyMFdhbGtzfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:42.337] Browser WARN    Image with src "https://images.unsplash.com/photo-1651678938586-affccc71c270?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:42.337] Browser WARN    Image with src "/img/puri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:42.337] Browser WARN    Image with src "https://images.unsplash.com/photo-1629248457649-b082812aea6c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Uml2ZXIlMjBSYWZ0aW5nfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:42.337] Browser WARN    Image with src "https://images.unsplash.com/photo-1761933810905-ccc35b14d937?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2hvcnQlMjBCcmVha3N8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:42.337] Browser WARN    Image with src "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VHJla2tpbmd8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:44.806] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:49.467] Browser WARN    Image with src "/hotal/netidhopani.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:49.467] Browser WARN    Image with src "/hotal/Sajnekhali.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:49.467] Browser WARN    Image with src "/hotal/do-banki-camp02.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:49.467] Browser WARN    Image with src "/hotal/burirdabri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:49.467] Browser WARN    Image with src "/hotal/sudhanyakhali.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:49.467] Browser WARN    Image with src "/hotal/kumirmari.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:10:50.070] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:12:14.217] Server  LOG     ✓ Compiled in 278ms
+[01:13:21.392] Server  LOG     ✓ Compiled in 82ms
+[01:16:03.948] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:16:10.518] Browser LOG     Check-in: 26-02-2026 Date: "2026-02-26T00:00:00.000Z"
+[01:16:10.518] Browser LOG     Check-out: 28-02-2026 Date: "2026-02-28T00:00:00.000Z"
+[01:16:10.518] Browser LOG     Diff time: 172800000
+[01:16:10.518] Browser LOG     Diff days: 2
+[01:17:38.483] Server  LOG     ✓ Compiled in 63ms
+[01:19:30.532] Server  LOG     ✓ Compiled in 117ms
+[01:19:35.766] Server  LOG     ✓ Compiled in 108ms
+[01:19:41.565] Server  LOG     ✓ Compiled in 105ms
+[01:20:35.067] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:20:35.295] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/book-tour" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[01:21:07.185] Browser LOG     Check-in: 26-02-2026 Date: "2026-02-26T00:00:00.000Z"
+[01:21:07.185] Browser LOG     Check-out: 26-01-2026 Date: "2026-01-26T00:00:00.000Z"
+[01:21:07.185] Browser LOG     Diff time: -2678400000
+[01:21:07.185] Browser LOG     Diff days: -31
+[01:21:08.612] Browser LOG     Check-in: 26-02-2026 Date: "2026-02-26T00:00:00.000Z"
+[01:21:08.612] Browser LOG     Check-out: 26-02-2026 Date: "2026-02-26T00:00:00.000Z"
+[01:21:08.612] Browser LOG     Diff time: 0
+[01:21:08.612] Browser LOG     Diff days: 0
+[01:21:09.026] Browser LOG     Check-in: 26-02-2026 Date: "2026-02-26T00:00:00.000Z"
+[01:21:09.026] Browser LOG     Check-out: 26-03-2026 Date: "2026-03-26T00:00:00.000Z"
+[01:21:09.026] Browser LOG     Diff time: 2419200000
+[01:21:09.026] Browser LOG     Diff days: 28
+[01:21:12.464] Browser LOG     Check-in: 26-02-2026 Date: "2026-02-26T00:00:00.000Z"
+[01:21:12.464] Browser LOG     Check-out: 03-03-2026 Date: "2026-03-03T00:00:00.000Z"
+[01:21:12.464] Browser LOG     Diff time: 432000000
+[01:21:12.464] Browser LOG     Diff days: 5
+[01:24:15.057] Server  LOG     ✓ Compiled in 173ms
+[01:24:23.610] Server  LOG     ✓ Compiled in 188ms
+[01:24:48.574] Server  LOG     ✓ Compiled in 75ms
+[01:26:02.936] Server  LOG     ✓ Compiled in 137ms
+[01:26:03.444] Server  LOG     ✓ Compiled in 103ms
+[01:26:04.041] Server  LOG     ✓ Compiled in 231ms
+[01:26:14.916] Server  LOG     ✓ Compiled in 102ms
+[01:26:23.362] Server  LOG     ✓ Compiled in 174ms
+[01:26:37.654] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:26:37.821] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/book-tour" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[01:26:49.495] Browser LOG     Check-in: 26-02-2026 Date: "2026-02-26T00:00:00.000Z"
+[01:26:49.495] Browser LOG     Check-out: 28-02-2026 Date: "2026-02-28T00:00:00.000Z"
+[01:26:49.495] Browser LOG     Diff time: 172800000
+[01:26:49.495] Browser LOG     Diff days: 2
+[01:28:01.051] Server  LOG     ✓ Compiled in 232ms
+[01:28:37.980] Browser LOG     Check-in: 26-02-2026 Date: "2026-02-26T00:00:00.000Z"
+[01:28:37.980] Browser LOG     Check-out: 28-02-2026 Date: "2026-02-28T00:00:00.000Z"
+[01:28:37.980] Browser LOG     Diff time: 172800000
+[01:28:37.980] Browser LOG     Diff days: 2
+[01:31:53.042] Server  LOG     ✓ Compiled in 143ms
+[01:31:53.176] Browser ERROR   The final argument passed to %s changed size between renders. The order and size of this array must remain constant.
+
+Previous: %s
+Incoming: %s useEffect [1, 1, 2] [1, 1, 2, full]
+[01:32:21.050] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:32:21.225] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/book-tour" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[01:32:27.838] Browser LOG     Check-in: 26-02-2026 Date: "2026-02-26T00:00:00.000Z"
+[01:32:27.838] Browser LOG     Check-out: 27-02-2026 Date: "2026-02-27T00:00:00.000Z"
+[01:32:27.838] Browser LOG     Diff time: 86400000
+[01:32:27.838] Browser LOG     Diff days: 1
+[01:33:43.378] Server  LOG     ✓ Compiled in 192ms
+[01:34:33.375] Browser LOG     Check-in: 26-02-2026 Date: "2026-02-26T00:00:00.000Z"
+[01:34:33.375] Browser LOG     Check-out: 27-02-2026 Date: "2026-02-27T00:00:00.000Z"
+[01:34:33.375] Browser LOG     Diff time: 86400000
+[01:34:33.375] Browser LOG     Diff days: 1
+[01:34:42.675] Browser LOG     Check-in: 26-02-2026 Date: "2026-02-26T00:00:00.000Z"
+[01:34:42.675] Browser LOG     Check-out: 28-02-2026 Date: "2026-02-28T00:00:00.000Z"
+[01:34:42.675] Browser LOG     Diff time: 172800000
+[01:34:42.675] Browser LOG     Diff days: 2
+[01:35:03.222] Browser LOG     Check-in: 26-02-2026 Date: "2026-02-26T00:00:00.000Z"
+[01:35:03.222] Browser LOG     Check-out: 28-03-2026 Date: "2026-03-28T00:00:00.000Z"
+[01:35:03.222] Browser LOG     Diff time: 2592000000
+[01:35:03.222] Browser LOG     Diff days: 30
+[01:35:06.167] Browser LOG     Check-in: 26-02-2026 Date: "2026-02-26T00:00:00.000Z"
+[01:35:06.167] Browser LOG     Check-out: 01-03-2026 Date: "2026-03-01T00:00:00.000Z"
+[01:35:06.167] Browser LOG     Diff time: 259200000
+[01:35:06.167] Browser LOG     Diff days: 3
