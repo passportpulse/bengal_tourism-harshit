@@ -918,7 +918,7 @@ export default function HotelBookingPage() {
                 </div>
                  <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Below (5 Years) Free
+                  No. of Children (Below 5 Years) Free
                   </label>
                   <input
                     type="number"
