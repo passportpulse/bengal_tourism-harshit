@@ -910,8 +910,8 @@ export default function HotelBookingPage() {
                   </label>
                   <input
                     type="number"
-                    value={formData.below5Children}
-                    onChange={(e) => handleInputChange("below5Children", parseInt(e.target.value) || 0)}
+                    value={formData.children}
+                    onChange={(e) => handleInputChange("children", parseInt(e.target.value) || 0)}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                     min="0"
                   />
