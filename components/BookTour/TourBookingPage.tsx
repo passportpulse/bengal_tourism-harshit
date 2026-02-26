@@ -557,22 +557,17 @@ export default function TourBookingPage() {
                       Auto-calculated from check-in and check-out dates
                     </p>
                   </div>
-                     <div>
+                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Booking Confirmation (50% of Estimated Cost) <span className="text-red-500">*</span>
+                      Unit / Membership No. (For Members only)
                     </label>
-                    <div className="flex gap-2">
-                      <select className="px-4  text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
-                        <option>INR</option>
-                      </select>
-                      <input
-                        type="number"
-                        value={formData.bookingAmount}
-                        readOnly
-                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 text-gray-600"
-                        placeholder="Auto-calculated"
-                      />
-                    </div>
+                    <input
+                      type="text"
+                      value={formData.membershipNo}
+                      onChange={(e) => handleInputChange("membershipNo", e.target.value)}
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                      placeholder="Enter membership number"
+                    />
                   </div>
                       <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
@@ -744,18 +739,7 @@ export default function TourBookingPage() {
                       placeholder="Enter promo code if any"
                     />
                   </div>
-                  <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Unit / Membership No. (For Members only)
-                    </label>
-                    <input
-                      type="text"
-                      value={formData.membershipNo}
-                      onChange={(e) => handleInputChange("membershipNo", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
-                      placeholder="Enter membership number"
-                    />
-                  </div>
+                
                 </div>
               </div>
 
