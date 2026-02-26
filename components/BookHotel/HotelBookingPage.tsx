@@ -738,23 +738,19 @@ export default function HotelBookingPage() {
                     </p>
                   )}
                 </div>
-
-                <div>
+ <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Total No. of Nights <span className="text-red-500">*</span>
+                    Preferred Hotel Name / Similar
                   </label>
                   <input
-                    type="number"
-                    value={formData.totalNights}
-                    readOnly
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600 bg-gray-50"
-                    placeholder="Auto-calculated from dates"
-                    required
+                    type="text"
+                    value={formData.preferredHotel}
+                    onChange={(e) => handleInputChange("preferredHotel", e.target.value)}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    placeholder="Enter preferred hotel name or similar requirements"
                   />
-                  <p className="text-xs text-gray-500 mt-1">
-                    Auto-calculated from check-in and check-out dates
-                  </p>
                 </div>
+               
 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
                     Room Type <span className="text-red-500">*</span>
@@ -852,18 +848,23 @@ export default function HotelBookingPage() {
                     ))}
                   </select>
                 </div>
-                <div>
+                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Preferred Hotel Name / Similar
+                    Total No. of Nights <span className="text-red-500">*</span>
                   </label>
                   <input
-                    type="text"
-                    value={formData.preferredHotel}
-                    onChange={(e) => handleInputChange("preferredHotel", e.target.value)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
-                    placeholder="Enter preferred hotel name or similar requirements"
+                    type="number"
+                    value={formData.totalNights}
+                    readOnly
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600 bg-gray-50"
+                    placeholder="Auto-calculated from dates"
+                    required
                   />
+                  <p className="text-xs text-gray-500 mt-1">
+                    Auto-calculated from check-in and check-out dates
+                  </p>
                 </div>
+               
 
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
@@ -886,7 +887,7 @@ export default function HotelBookingPage() {
                 <Calendar className="text-red-600" />
                 Stay No of person
               </h2>
-              <div className="grid grid-cols-1  gap-6">
+              <div className="grid grid-cols-1  md:grid-cols-2 gap-6">
 
 
                 <div>
