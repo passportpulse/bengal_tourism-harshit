@@ -485,7 +485,7 @@ export default function TourBookingPage() {
                       value={formData.specialInfo}
                       onChange={(e) => handleInputChange("specialInfo", e.target.value)}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
-                      rows={4}
+                      rows={1}
                       placeholder="Extra cost for non-sharing car, premium room, food habits, etc."
                     />
                   </div>
@@ -523,20 +523,24 @@ export default function TourBookingPage() {
                       placeholder="Enter drop location"
                     />
                   </div>
-                  
                     <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      No. of Adult PAX <span className="text-red-500">*</span>
+                      Total Cost <span className="text-red-500">*</span>
                     </label>
-                    <input
-                      type="number"
-                      value={formData.adults}
-                      onChange={(e) => handleInputChange("adults", parseInt(e.target.value) || 0)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
-                      min="1"
-                      required
-                    />
+                    <div className="flex gap-2">
+                      <select className="px-4 text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
+                        <option>INR</option>
+                      </select>
+                      <input
+                        type="number"
+                        value={formData.estimatedCost}
+                        readOnly
+                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 text-gray-600"
+                        placeholder="Auto-calculated"
+                      />
+                    </div>
                   </div>
+                
                       <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
                       Total No. of Nights <span className="text-red-500">*</span>
@@ -552,6 +556,36 @@ export default function TourBookingPage() {
                     <p className="text-xs text-gray-500 mt-1">
                       Auto-calculated from check-in and check-out dates
                     </p>
+                  </div>
+                     <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      Booking Confirmation (50% of Estimated Cost) <span className="text-red-500">*</span>
+                    </label>
+                    <div className="flex gap-2">
+                      <select className="px-4  text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
+                        <option>INR</option>
+                      </select>
+                      <input
+                        type="number"
+                        value={formData.bookingAmount}
+                        readOnly
+                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 text-gray-600"
+                        placeholder="Auto-calculated"
+                      />
+                    </div>
+                  </div>
+                      <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      No. of Adult PAX <span className="text-red-500">*</span>
+                    </label>
+                    <input
+                      type="number"
+                      value={formData.adults}
+                      onChange={(e) => handleInputChange("adults", parseInt(e.target.value) || 0)}
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                      min="1"
+                      required
+                    />
                   </div>
    <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
@@ -579,23 +613,7 @@ export default function TourBookingPage() {
                 </div>
                 
                
-                     <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Total Cost <span className="text-red-500">*</span>
-                    </label>
-                    <div className="flex gap-2">
-                      <select className="px-4 text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
-                        <option>INR</option>
-                      </select>
-                      <input
-                        type="number"
-                        value={formData.estimatedCost}
-                        readOnly
-                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 text-gray-600"
-                        placeholder="Auto-calculated"
-                      />
-                    </div>
-                  </div>
+                   
                 
                  
                 </div>

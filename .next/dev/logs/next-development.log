@@ -579,3 +579,8 @@ It can also happen if the client has a browser extension installed which messes 
 [02:42:39.220] Server  LOG     ✓ Compiled in 68ms
 [02:49:01.945] Server  LOG     ✓ Compiled in 73ms
 [02:49:24.205] Server  LOG     ✓ Compiled in 85ms
+[02:57:29.356] Server  LOG     ✓ Compiled in 69ms
+[02:57:45.669] Server  LOG     ✓ Compiled in 61ms
+[02:57:54.784] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:58:29.974] Server  LOG     ✓ Compiled in 75ms
+[02:59:14.235] Server  LOG     ✓ Compiled in 60ms
