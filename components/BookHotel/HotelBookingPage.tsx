@@ -738,7 +738,8 @@ export default function HotelBookingPage() {
                     </p>
                   )}
                 </div>
-     <div>
+
+                <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
                     Total No. of Nights <span className="text-red-500">*</span>
                   </label>
@@ -754,70 +755,7 @@ export default function HotelBookingPage() {
                     Auto-calculated from check-in and check-out dates
                   </p>
                 </div>
-               
-                <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    No. of Rooms <span className="text-red-500">*</span>
-                  </label>
-                  <select
-                    value={formData.noOfRooms}
-                    onChange={(e) => {
-                      handleInputChange("noOfRooms", e.target.value);
-                    }}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
-                    required
-                  >
-                    {[...Array(10)].map((_, i) => (
-                      <option key={i + 1} value={i + 1}>
-                        {i + 1} {i === 0 ? 'Room' : 'Rooms'}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-                  <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Check-out Date <span className="text-red-500">*</span>
-                  </label>
-                  <input
-                    type="date"
-                    value={parseDDMMYYYYToISO(formData.checkOut)}
-                    onChange={(e) => {
-                      const formattedDate = formatDateToDDMMYYYY(e.target.value);
-                      const newFormData = { ...formData, checkOut: formattedDate };
-                      setFormData(newFormData);
-                      // Auto calculate nights whenever check-out changes
-                      if (newFormData.checkIn) {
-                        calculateNights(newFormData.checkIn, formattedDate);
-                      }
-                    }}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
-                    required
-                  />
-                  {formData.checkOut && (
-                    <p className="text-xs text-gray-500 mt-1">
-                      Selected: {formatDateToDDMMYYYY(parseDDMMYYYYToISO(formData.checkOut))}
-                    </p>
-                  )}
-                </div>
-                     <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Total Cost <span className="text-red-500">*</span>
-                  </label>
-                  <div className="flex gap-2">
-                    <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-500">
-                      <option>INR</option>
-                    </select>
-                    <input
-                      type="number"
-                      value={formData.estimatedCost}
-                      readOnly
-                      className="flex-1 px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 text-gray-600"
-                      placeholder="Auto-calculated"
-                    />
-                  </div>
-                </div>
-              
-                <div>
+<div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
                     Room Type <span className="text-red-500">*</span>
                   </label>
@@ -849,6 +787,71 @@ export default function HotelBookingPage() {
                     </p>
                   )}
                 </div>
+
+                <div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    Check-out Date <span className="text-red-500">*</span>
+                  </label>
+                  <input
+                    type="date"
+                    value={parseDDMMYYYYToISO(formData.checkOut)}
+                    onChange={(e) => {
+                      const formattedDate = formatDateToDDMMYYYY(e.target.value);
+                      const newFormData = { ...formData, checkOut: formattedDate };
+                      setFormData(newFormData);
+                      // Auto calculate nights whenever check-out changes
+                      if (newFormData.checkIn) {
+                        calculateNights(newFormData.checkIn, formattedDate);
+                      }
+                    }}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    required
+                  />
+                  {formData.checkOut && (
+                    <p className="text-xs text-gray-500 mt-1">
+                      Selected: {formatDateToDDMMYYYY(parseDDMMYYYYToISO(formData.checkOut))}
+                    </p>
+                  )}
+                </div>
+                <div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    Total Cost <span className="text-red-500">*</span>
+                  </label>
+                  <div className="flex gap-2">
+                    <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-500">
+                      <option>INR</option>
+                    </select>
+                    <input
+                      type="number"
+                      value={formData.estimatedCost}
+                      readOnly
+                      className="flex-1 px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 text-gray-600"
+                      placeholder="Auto-calculated"
+                    />
+                  </div>
+                </div>
+                
+
+
+                <div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    No. of Rooms <span className="text-red-500">*</span>
+                  </label>
+                  <select
+                    value={formData.noOfRooms}
+                    onChange={(e) => {
+                      handleInputChange("noOfRooms", e.target.value);
+                    }}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    required
+                  >
+                    {[...Array(10)].map((_, i) => (
+                      <option key={i + 1} value={i + 1}>
+                        {i + 1} {i === 0 ? 'Room' : 'Rooms'}
+                      </option>
+                    ))}
+                  </select>
+                </div>
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
                     Preferred Hotel Name / Similar
@@ -861,7 +864,8 @@ export default function HotelBookingPage() {
                     placeholder="Enter preferred hotel name or similar requirements"
                   />
                 </div>
-                  <div>
+
+                <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
                     Special Information / Requirement
                   </label>
@@ -884,7 +888,7 @@ export default function HotelBookingPage() {
               </h2>
               <div className="grid grid-cols-1  gap-6">
 
-          
+
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
                     No. of Adults <span className="text-red-500">*</span>
