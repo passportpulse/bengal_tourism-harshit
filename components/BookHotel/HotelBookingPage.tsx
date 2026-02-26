@@ -373,6 +373,7 @@ const payments = [
       <>
         <p><b>Beneficiary:</b></p>
         <p className="text-pink-700 font-semibold">Bengal Tourism</p>
+           <p><b>UPI:</b>bengaltourism@okaxis</p>
         <p><b> UPI:</b> 9804333779@upi</p>
         <p><b>Phone:</b> 9804333779</p>
         <p><b>Email:</b> hotel.bengaltourism@gmail.com</p>
@@ -384,6 +385,7 @@ const payments = [
     img: "/payments/bhim.jpg",
     details: (
       <>
+      <p><b>UPI:</b>bengaltourism@upi</p>
         <p><b> UPI:</b> 9804333779@okaxis</p>
         <p><b>Phone:</b> 9804333779</p>
         <p><b>Email:</b> hotel.bengaltourism@gmail.com</p>
@@ -395,6 +397,7 @@ const payments = [
     img: "/payments/phonepe.jpg",
     details: (
       <>
+            <p><b>UPI:</b>bengaltourism@ybl</p>
         <p><b>UPI:</b> 9804333779@ybl</p>
         <p><b>Phone:</b> 9804333779</p>
         <p><b>Email:</b> hotel.bengaltourism@gmail.com</p>
@@ -406,6 +409,7 @@ const payments = [
     img: "/payments/axispay.png",
     details: (
       <>
+           <p><b>UPI:</b>bengaltourism@axisbank</p>
         <p><b>UPI:</b> 9804333779@axisbank</p>
         <p><b>Phone:</b> 9804333779</p>
         <p><b>Email:</b> hotel.bengaltourism@gmail.com</p>
@@ -417,6 +421,7 @@ const payments = [
     img: "/payments/gpay.png",
     details: (
       <>
+      <p><b>UPI:</b>bengaltourism@okaxis</p>
         <p><b>UPI:</b> 9804333779@okaxis</p>
         <p><b>Phone:</b> 9804333779</p>
         <p><b>Email:</b> hotel.bengaltourism@gmail.com</p>
