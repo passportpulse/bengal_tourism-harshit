@@ -383,6 +383,7 @@ function TourBookingPage() {
         dropPlace: "",
         costPerAdult: "",
         costPerChildren: "",
+        below5Children: 0,
         totalNights: "",
         estimatedCost: "",
         bookingAmount: "",
@@ -547,20 +548,20 @@ function TourBookingPage() {
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                lineNumber: 253,
+                                lineNumber: 254,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-red-900/40"
                             }, void 0, false, {
                                 fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                lineNumber: 260,
+                                lineNumber: 261,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                        lineNumber: 252,
+                        lineNumber: 253,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -570,27 +571,27 @@ function TourBookingPage() {
                                 className: "absolute top-20 left-10 w-32 h-32 bg-red-500/20 rounded-full blur-3xl animate-pulse"
                             }, void 0, false, {
                                 fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                lineNumber: 265,
+                                lineNumber: 266,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute bottom-20 right-10 w-40 h-40 bg-yellow-500/20 rounded-full blur-3xl animate-pulse delay-75"
                             }, void 0, false, {
                                 fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                lineNumber: 266,
+                                lineNumber: 267,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute top-1/2 left-1/4 w-24 h-24 bg-white/10 rounded-full blur-2xl animate-pulse delay-150"
                             }, void 0, false, {
                                 fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                lineNumber: 267,
+                                lineNumber: 268,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                        lineNumber: 264,
+                        lineNumber: 265,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -618,7 +619,7 @@ function TourBookingPage() {
                                                             strokeLinecap: "round"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 284,
+                                                            lineNumber: 285,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
@@ -634,7 +635,7 @@ function TourBookingPage() {
                                                                         stopColor: "#EF4444"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                        lineNumber: 287,
+                                                                        lineNumber: 288,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
@@ -642,7 +643,7 @@ function TourBookingPage() {
                                                                         stopColor: "#F59E0B"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                        lineNumber: 288,
+                                                                        lineNumber: 289,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
@@ -650,36 +651,36 @@ function TourBookingPage() {
                                                                         stopColor: "#F97316"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                        lineNumber: 289,
+                                                                        lineNumber: 290,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                lineNumber: 286,
+                                                                lineNumber: 287,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 285,
+                                                            lineNumber: 286,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 283,
+                                                    lineNumber: 284,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                            lineNumber: 281,
+                                            lineNumber: 282,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                    lineNumber: 279,
+                                    lineNumber: 280,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -687,7 +688,7 @@ function TourBookingPage() {
                                     children: "Experience the magic of Bengal with our seamless booking process. Your perfect adventure starts here."
                                 }, void 0, false, {
                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                    lineNumber: 297,
+                                    lineNumber: 298,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -701,7 +702,7 @@ function TourBookingPage() {
                                                     children: "100%"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 305,
+                                                    lineNumber: 306,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -709,13 +710,13 @@ function TourBookingPage() {
                                                     children: "Secure Booking"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 306,
+                                                    lineNumber: 307,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                            lineNumber: 304,
+                                            lineNumber: 305,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -726,7 +727,7 @@ function TourBookingPage() {
                                                     children: "24/7"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 309,
+                                                    lineNumber: 310,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -734,13 +735,13 @@ function TourBookingPage() {
                                                     children: "Customer Support"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 310,
+                                                    lineNumber: 311,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                            lineNumber: 308,
+                                            lineNumber: 309,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -751,7 +752,7 @@ function TourBookingPage() {
                                                     children: "500+"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 313,
+                                                    lineNumber: 314,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -759,13 +760,13 @@ function TourBookingPage() {
                                                     children: "Happy Travelers"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 314,
+                                                    lineNumber: 315,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                            lineNumber: 312,
+                                            lineNumber: 313,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -776,7 +777,7 @@ function TourBookingPage() {
                                                     children: "5★"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 317,
+                                                    lineNumber: 318,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -784,30 +785,30 @@ function TourBookingPage() {
                                                     children: "Rated Service"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 318,
+                                                    lineNumber: 319,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                            lineNumber: 316,
+                                            lineNumber: 317,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                    lineNumber: 303,
+                                    lineNumber: 304,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                            lineNumber: 274,
+                            lineNumber: 275,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                        lineNumber: 273,
+                        lineNumber: 274,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -818,23 +819,23 @@ function TourBookingPage() {
                                 className: "w-1 h-3 bg-white/70 rounded-full mt-2"
                             }, void 0, false, {
                                 fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                lineNumber: 329,
+                                lineNumber: 330,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                            lineNumber: 328,
+                            lineNumber: 329,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                        lineNumber: 327,
+                        lineNumber: 328,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                lineNumber: 250,
+                lineNumber: 251,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -857,14 +858,14 @@ function TourBookingPage() {
                                                     className: "text-red-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 344,
+                                                    lineNumber: 345,
                                                     columnNumber: 19
                                                 }, this),
                                                 "Personal Information"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                            lineNumber: 343,
+                                            lineNumber: 344,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -881,13 +882,13 @@ function TourBookingPage() {
                                                                     children: "*"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                    lineNumber: 350,
+                                                                    lineNumber: 351,
                                                                     columnNumber: 33
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 349,
+                                                            lineNumber: 350,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -899,13 +900,13 @@ function TourBookingPage() {
                                                             required: true
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 352,
+                                                            lineNumber: 353,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 348,
+                                                    lineNumber: 349,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -919,13 +920,13 @@ function TourBookingPage() {
                                                                     children: "*"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                    lineNumber: 363,
+                                                                    lineNumber: 364,
                                                                     columnNumber: 33
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 362,
+                                                            lineNumber: 363,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -937,13 +938,13 @@ function TourBookingPage() {
                                                             required: true
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 365,
+                                                            lineNumber: 366,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 361,
+                                                    lineNumber: 362,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -957,13 +958,13 @@ function TourBookingPage() {
                                                                     children: "*"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                    lineNumber: 376,
+                                                                    lineNumber: 377,
                                                                     columnNumber: 54
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 375,
+                                                            lineNumber: 376,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -973,11 +974,11 @@ function TourBookingPage() {
                                                                     type: "text",
                                                                     value: formData.countryCode,
                                                                     onChange: (e)=>handleInputChange("countryCode", e.target.value),
-                                                                    className: "px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600",
+                                                                    className: "flex px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600",
                                                                     placeholder: "+91"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                    lineNumber: 379,
+                                                                    lineNumber: 380,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -990,19 +991,19 @@ function TourBookingPage() {
                                                                     required: true
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                    lineNumber: 386,
+                                                                    lineNumber: 387,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 378,
+                                                            lineNumber: 379,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 374,
+                                                    lineNumber: 375,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1016,13 +1017,13 @@ function TourBookingPage() {
                                                                     children: "*"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                    lineNumber: 399,
+                                                                    lineNumber: 400,
                                                                     columnNumber: 49
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 398,
+                                                            lineNumber: 399,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1034,7 +1035,7 @@ function TourBookingPage() {
                                                             required: true
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 401,
+                                                            lineNumber: 402,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1047,25 +1048,25 @@ function TourBookingPage() {
                                                             required: true
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 409,
+                                                            lineNumber: 410,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 397,
+                                                    lineNumber: 398,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                            lineNumber: 347,
+                                            lineNumber: 348,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                    lineNumber: 342,
+                                    lineNumber: 343,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1077,18 +1078,18 @@ function TourBookingPage() {
                                                     className: "text-red-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 425,
+                                                    lineNumber: 426,
                                                     columnNumber: 19
                                                 }, this),
                                                 "Tour Details"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                            lineNumber: 424,
+                                            lineNumber: 425,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "grid grid-cols-1 md:grid-cols-2 gap-6",
+                                            className: "grid grid-cols-1 md:grid-cols-3 gap-6",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: [
@@ -1101,13 +1102,13 @@ function TourBookingPage() {
                                                                     children: "*"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                    lineNumber: 431,
+                                                                    lineNumber: 432,
                                                                     columnNumber: 56
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 430,
+                                                            lineNumber: 431,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1119,141 +1120,15 @@ function TourBookingPage() {
                                                             required: true
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 433,
+                                                            lineNumber: 434,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 429,
+                                                    lineNumber: 430,
                                                     columnNumber: 19
                                                 }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                            className: "block text-sm font-semibold text-gray-700 mb-2",
-                                                            children: [
-                                                                "No. of Adult PAX ",
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "text-red-500",
-                                                                    children: "*"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                    lineNumber: 444,
-                                                                    columnNumber: 40
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 443,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                            type: "number",
-                                                            value: formData.adults,
-                                                            onChange: (e)=>handleInputChange("adults", parseInt(e.target.value) || 0),
-                                                            className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600",
-                                                            min: "1",
-                                                            required: true
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 446,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 442,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                            className: "block text-sm font-semibold text-gray-700 mb-2",
-                                                            children: "No. of Children (5-8 yrs)"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 456,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                            type: "number",
-                                                            value: formData.children,
-                                                            onChange: (e)=>handleInputChange("children", parseInt(e.target.value) || 0),
-                                                            className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600",
-                                                            min: "0"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 459,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 455,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                            className: "block text-sm font-semibold text-gray-700 mb-2",
-                                                            children: "Special Information / Requirement"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 468,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
-                                                            value: formData.specialInfo,
-                                                            onChange: (e)=>handleInputChange("specialInfo", e.target.value),
-                                                            className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600",
-                                                            rows: 4,
-                                                            placeholder: "Extra cost for non-sharing car, premium room, food habits, etc."
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 471,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 467,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                            lineNumber: 428,
-                                            columnNumber: 17
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                    lineNumber: 423,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                            className: "text-xl font-bold text-gray-900 mb-6 flex items-center gap-2",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
-                                                    className: "text-red-600"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 485,
-                                                    columnNumber: 19
-                                                }, this),
-                                                "Travel Dates"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                            lineNumber: 484,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6",
-                                            children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1265,13 +1140,13 @@ function TourBookingPage() {
                                                                     children: "*"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                    lineNumber: 491,
+                                                                    lineNumber: 446,
                                                                     columnNumber: 45
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 490,
+                                                            lineNumber: 445,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1285,7 +1160,7 @@ function TourBookingPage() {
                                                             required: true
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 493,
+                                                            lineNumber: 448,
                                                             columnNumber: 21
                                                         }, this),
                                                         formData.checkIn && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1296,13 +1171,67 @@ function TourBookingPage() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 504,
+                                                            lineNumber: 459,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 489,
+                                                    lineNumber: 444,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                            className: "block text-sm font-semibold text-gray-700 mb-2",
+                                                            children: "Place of Start / Pick-up"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                            lineNumber: 468,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                            type: "text",
+                                                            value: formData.pickupPlace,
+                                                            onChange: (e)=>handleInputChange("pickupPlace", e.target.value),
+                                                            className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600",
+                                                            placeholder: "Enter pickup location"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                            lineNumber: 471,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                    lineNumber: 467,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                            className: "block text-sm font-semibold text-gray-700 mb-2",
+                                                            children: "Special Information / Requirement"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                            lineNumber: 481,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
+                                                            value: formData.specialInfo,
+                                                            onChange: (e)=>handleInputChange("specialInfo", e.target.value),
+                                                            className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600",
+                                                            rows: 4,
+                                                            placeholder: "Extra cost for non-sharing car, premium room, food habits, etc."
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                            lineNumber: 484,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                    lineNumber: 480,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1316,13 +1245,13 @@ function TourBookingPage() {
                                                                     children: "*"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                    lineNumber: 511,
+                                                                    lineNumber: 496,
                                                                     columnNumber: 44
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 510,
+                                                            lineNumber: 495,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1336,7 +1265,7 @@ function TourBookingPage() {
                                                             required: true
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 513,
+                                                            lineNumber: 498,
                                                             columnNumber: 21
                                                         }, this),
                                                         formData.checkOut && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1347,13 +1276,40 @@ function TourBookingPage() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 524,
+                                                            lineNumber: 509,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 509,
+                                                    lineNumber: 494,
+                                                    columnNumber: 22
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                            className: "block text-sm font-semibold text-gray-700 mb-2",
+                                                            children: "Place of End / Drop"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                            lineNumber: 516,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                            type: "text",
+                                                            value: formData.dropPlace,
+                                                            onChange: (e)=>handleInputChange("dropPlace", e.target.value),
+                                                            className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600",
+                                                            placeholder: "Enter drop location"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                            lineNumber: 519,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                    lineNumber: 515,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1367,13 +1323,13 @@ function TourBookingPage() {
                                                                     children: "*"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                    lineNumber: 531,
+                                                                    lineNumber: 529,
                                                                     columnNumber: 43
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 530,
+                                                            lineNumber: 528,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1385,7 +1341,7 @@ function TourBookingPage() {
                                                             required: true
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 533,
+                                                            lineNumber: 531,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1393,79 +1349,211 @@ function TourBookingPage() {
                                                             children: "Auto-calculated from check-in and check-out dates"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 541,
+                                                            lineNumber: 539,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 529,
-                                                    columnNumber: 22
+                                                    lineNumber: 527,
+                                                    columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                             className: "block text-sm font-semibold text-gray-700 mb-2",
-                                                            children: "Place of Start / Pick-up"
-                                                        }, void 0, false, {
+                                                            children: [
+                                                                "Total Cost ",
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    className: "text-red-500",
+                                                                    children: "*"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                                    lineNumber: 545,
+                                                                    columnNumber: 34
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 546,
+                                                            lineNumber: 544,
                                                             columnNumber: 21
                                                         }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                            type: "text",
-                                                            value: formData.pickupPlace,
-                                                            onChange: (e)=>handleInputChange("pickupPlace", e.target.value),
-                                                            className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600",
-                                                            placeholder: "Enter pickup location"
-                                                        }, void 0, false, {
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: "flex gap-2",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
+                                                                    className: "px-4 text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition",
+                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                        children: "INR"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                                        lineNumber: 549,
+                                                                        columnNumber: 25
+                                                                    }, this)
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                                    lineNumber: 548,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                                    type: "number",
+                                                                    value: formData.estimatedCost,
+                                                                    readOnly: true,
+                                                                    className: "flex-1 px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 text-gray-600",
+                                                                    placeholder: "Auto-calculated"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                                    lineNumber: 551,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 549,
+                                                            lineNumber: 547,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 545,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                            className: "block text-sm font-semibold text-gray-700 mb-2",
-                                                            children: "Place of End / Drop"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 558,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                            type: "text",
-                                                            value: formData.dropPlace,
-                                                            onChange: (e)=>handleInputChange("dropPlace", e.target.value),
-                                                            className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600",
-                                                            placeholder: "Enter drop location"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 561,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 557,
-                                                    columnNumber: 19
+                                                    lineNumber: 543,
+                                                    columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                            lineNumber: 488,
+                                            lineNumber: 429,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                    lineNumber: 483,
+                                    lineNumber: 424,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            className: "text-xl font-bold text-gray-900 mb-6 flex items-center gap-2",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
+                                                    className: "text-red-600"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                    lineNumber: 566,
+                                                    columnNumber: 19
+                                                }, this),
+                                                "Travel Dates"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                            lineNumber: 565,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "grid grid-cols-1 md:grid-cols-3 gap-6",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                            className: "block text-sm font-semibold text-gray-700 mb-2",
+                                                            children: [
+                                                                "No. of Adult PAX ",
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    className: "text-red-500",
+                                                                    children: "*"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                                    lineNumber: 573,
+                                                                    columnNumber: 40
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                            lineNumber: 572,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                            type: "number",
+                                                            value: formData.adults,
+                                                            onChange: (e)=>handleInputChange("adults", parseInt(e.target.value) || 0),
+                                                            className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600",
+                                                            min: "1",
+                                                            required: true
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                            lineNumber: 575,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                    lineNumber: 571,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                            className: "block text-sm font-semibold text-gray-700 mb-2",
+                                                            children: "No. of Children (5-8 yrs)"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                            lineNumber: 585,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                            type: "number",
+                                                            value: formData.children,
+                                                            onChange: (e)=>handleInputChange("children", parseInt(e.target.value) || 0),
+                                                            className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600",
+                                                            min: "0"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                            lineNumber: 588,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                    lineNumber: 584,
+                                                    columnNumber: 4
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                            className: "block text-sm font-semibold text-gray-700 mb-2",
+                                                            children: "No. of Children (Below 5 Years) Free"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                            lineNumber: 597,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                            type: "number",
+                                                            value: formData.below5Children,
+                                                            onChange: (e)=>handleInputChange("below5Children", parseInt(e.target.value) || 0),
+                                                            className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600",
+                                                            min: "0"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                            lineNumber: 600,
+                                                            columnNumber: 19
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                                    lineNumber: 596,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                            lineNumber: 570,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/BookTour/TourBookingPage.tsx",
+                                    lineNumber: 564,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1477,14 +1565,14 @@ function TourBookingPage() {
                                                     className: "text-red-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 575,
+                                                    lineNumber: 615,
                                                     columnNumber: 19
                                                 }, this),
                                                 "Pricing Details"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                            lineNumber: 574,
+                                            lineNumber: 614,
                                             columnNumber: 17
                                         }, this),
                                         formData.totalNights && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1497,7 +1585,7 @@ function TourBookingPage() {
                                                             children: "Per Person Rate:"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 581,
+                                                            lineNumber: 621,
                                                             columnNumber: 23
                                                         }, this),
                                                         " ₹",
@@ -1508,7 +1596,7 @@ function TourBookingPage() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 580,
+                                                    lineNumber: 620,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1518,7 +1606,7 @@ function TourBookingPage() {
                                                             children: "Children Rate:"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 584,
+                                                            lineNumber: 624,
                                                             columnNumber: 23
                                                         }, this),
                                                         " 50% of adult rate (₹",
@@ -1527,7 +1615,7 @@ function TourBookingPage() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 583,
+                                                    lineNumber: 623,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1535,13 +1623,13 @@ function TourBookingPage() {
                                                     children: "Rates: 1N - ₹3700 | 2N - ₹6400 | 3N - ₹9100 | 4N - ₹12700 | 5N - ₹15400"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 586,
+                                                    lineNumber: 626,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                            lineNumber: 579,
+                                            lineNumber: 619,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1562,30 +1650,30 @@ function TourBookingPage() {
                                                                     children: "*"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                    lineNumber: 594,
+                                                                    lineNumber: 634,
                                                                     columnNumber: 130
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 593,
+                                                            lineNumber: 633,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "flex gap-2",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
-                                                                    className: "px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition",
+                                                                    className: "px-4  text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                         children: "INR"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                        lineNumber: 598,
+                                                                        lineNumber: 638,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                    lineNumber: 597,
+                                                                    lineNumber: 637,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1597,13 +1685,13 @@ function TourBookingPage() {
                                                                     required: true
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                    lineNumber: 600,
+                                                                    lineNumber: 640,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 596,
+                                                            lineNumber: 636,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1615,13 +1703,13 @@ function TourBookingPage() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 609,
+                                                            lineNumber: 649,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 592,
+                                                    lineNumber: 632,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1637,24 +1725,24 @@ function TourBookingPage() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 614,
+                                                            lineNumber: 654,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "flex gap-2",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
-                                                                    className: "px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition",
+                                                                    className: "px-4  text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                         children: "INR"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                        lineNumber: 619,
+                                                                        lineNumber: 659,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                    lineNumber: 618,
+                                                                    lineNumber: 658,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1665,13 +1753,13 @@ function TourBookingPage() {
                                                                     placeholder: "50% of adult rate per child"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                    lineNumber: 621,
+                                                                    lineNumber: 661,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 617,
+                                                            lineNumber: 657,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1683,13 +1771,13 @@ function TourBookingPage() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 629,
+                                                            lineNumber: 669,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 613,
+                                                    lineNumber: 653,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1703,30 +1791,30 @@ function TourBookingPage() {
                                                                     children: "*"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                    lineNumber: 636,
+                                                                    lineNumber: 676,
                                                                     columnNumber: 38
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 635,
+                                                            lineNumber: 675,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "flex gap-2",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
-                                                                    className: "px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition",
+                                                                    className: "px-4 py-3  text-gray-500 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                         children: "INR"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                        lineNumber: 640,
+                                                                        lineNumber: 680,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                    lineNumber: 639,
+                                                                    lineNumber: 679,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1737,19 +1825,19 @@ function TourBookingPage() {
                                                                     placeholder: "Auto-calculated"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                    lineNumber: 642,
+                                                                    lineNumber: 682,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 638,
+                                                            lineNumber: 678,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 634,
+                                                    lineNumber: 674,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1763,30 +1851,30 @@ function TourBookingPage() {
                                                                     children: "*"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                    lineNumber: 653,
+                                                                    lineNumber: 693,
                                                                     columnNumber: 68
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 652,
+                                                            lineNumber: 692,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "flex gap-2",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
-                                                                    className: "px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition",
+                                                                    className: "px-4  text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                         children: "INR"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                        lineNumber: 657,
+                                                                        lineNumber: 697,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                    lineNumber: 656,
+                                                                    lineNumber: 696,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1797,31 +1885,31 @@ function TourBookingPage() {
                                                                     placeholder: "Auto-calculated"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                                    lineNumber: 659,
+                                                                    lineNumber: 699,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 655,
+                                                            lineNumber: 695,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 651,
+                                                    lineNumber: 691,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                            lineNumber: 591,
+                                            lineNumber: 631,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                    lineNumber: 573,
+                                    lineNumber: 613,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1833,14 +1921,14 @@ function TourBookingPage() {
                                                     className: "text-red-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 674,
+                                                    lineNumber: 714,
                                                     columnNumber: 19
                                                 }, this),
                                                 "Promotional Offers"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                            lineNumber: 673,
+                                            lineNumber: 713,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1853,7 +1941,7 @@ function TourBookingPage() {
                                                             children: "Promotional Code No. (Discount / Offer)"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 679,
+                                                            lineNumber: 719,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1864,13 +1952,13 @@ function TourBookingPage() {
                                                             placeholder: "Enter promo code if any"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 682,
+                                                            lineNumber: 722,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 678,
+                                                    lineNumber: 718,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1880,7 +1968,7 @@ function TourBookingPage() {
                                                             children: "Unit / Membership No. (For Members only)"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 691,
+                                                            lineNumber: 731,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1891,25 +1979,25 @@ function TourBookingPage() {
                                                             placeholder: "Enter membership number"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 694,
+                                                            lineNumber: 734,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 690,
+                                                    lineNumber: 730,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                            lineNumber: 677,
+                                            lineNumber: 717,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                    lineNumber: 672,
+                                    lineNumber: 712,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1921,7 +2009,7 @@ function TourBookingPage() {
                                                     className: "text-red-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 708,
+                                                    lineNumber: 748,
                                                     columnNumber: 19
                                                 }, this),
                                                 "Payment Type ",
@@ -1930,13 +2018,13 @@ function TourBookingPage() {
                                                     children: "*"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 709,
+                                                    lineNumber: 749,
                                                     columnNumber: 32
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                            lineNumber: 707,
+                                            lineNumber: 747,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1957,7 +2045,7 @@ function TourBookingPage() {
                                                             className: "w-4 h-4 text-red-600 focus:ring-red-500"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 713,
+                                                            lineNumber: 753,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1965,13 +2053,13 @@ function TourBookingPage() {
                                                             children: "Full Payment"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 724,
+                                                            lineNumber: 764,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 712,
+                                                    lineNumber: 752,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1989,7 +2077,7 @@ function TourBookingPage() {
                                                             className: "w-4 h-4 text-red-600 focus:ring-red-500"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 727,
+                                                            lineNumber: 767,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1997,25 +2085,25 @@ function TourBookingPage() {
                                                             children: "50% Payment"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                            lineNumber: 738,
+                                                            lineNumber: 778,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 726,
+                                                    lineNumber: 766,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                            lineNumber: 711,
+                                            lineNumber: 751,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                    lineNumber: 706,
+                                    lineNumber: 746,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2029,7 +2117,7 @@ function TourBookingPage() {
                                                 className: "mt-1 w-4 h-4 text-red-600 focus:ring-red-500 rounded"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                lineNumber: 747,
+                                                lineNumber: 787,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2037,18 +2125,18 @@ function TourBookingPage() {
                                                 children: "I accept: Submission without successful payment is not valid. Please remember to save the acknowledgement after you hit Submit Button (&/or) payment confirmation from Bank. In case of manual submission of Booking Form via e-mail, we will send the confirmation of receipt & booking details via E-mail / WhatsApp after we acknowledge receipt of valid payment at our Bank. I also agree to accept any similar hotel rooms provided by you and be liable to pay for any extra cost as per your special instructions, extra provision required, extra person/bed (1 child under 4 yrs free & other person above 4 Yrs chargeable) to be provided (&) Service Charges/GST will be calculated & paid later on acceptance & as per final invoice/bill."
                                             }, void 0, false, {
                                                 fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                lineNumber: 752,
+                                                lineNumber: 792,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                        lineNumber: 746,
+                                        lineNumber: 786,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                    lineNumber: 745,
+                                    lineNumber: 785,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2056,7 +2144,7 @@ function TourBookingPage() {
                                     children: "Proceed to PAY using any mode given below. Earn Cash-Back upto Rs.10000/-"
                                 }, void 0, false, {
                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                    lineNumber: 759,
+                                    lineNumber: 799,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2072,12 +2160,12 @@ function TourBookingPage() {
                                                         className: "h-20 object-contain"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                        lineNumber: 771,
+                                                        lineNumber: 811,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 770,
+                                                    lineNumber: 810,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2085,7 +2173,7 @@ function TourBookingPage() {
                                                     children: item.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 778,
+                                                    lineNumber: 818,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2093,18 +2181,18 @@ function TourBookingPage() {
                                                     children: item.details
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 782,
+                                                    lineNumber: 822,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, i, true, {
                                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                            lineNumber: 766,
+                                            lineNumber: 806,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                    lineNumber: 764,
+                                    lineNumber: 804,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2119,47 +2207,47 @@ function TourBookingPage() {
                                                     className: "w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin inline-block mr-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                                    lineNumber: 797,
-                                                    columnNumber: 25
+                                                    lineNumber: 837,
+                                                    columnNumber: 23
                                                 }, this),
                                                 "Processing..."
                                             ]
                                         }, void 0, true) : 'SUBMIT after PAYMENT'
                                     }, void 0, false, {
                                         fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                        lineNumber: 790,
-                                        columnNumber: 19
+                                        lineNumber: 830,
+                                        columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                                    lineNumber: 789,
-                                    columnNumber: 17
+                                    lineNumber: 829,
+                                    columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                            lineNumber: 339,
+                            lineNumber: 340,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                        lineNumber: 338,
+                        lineNumber: 339,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                    lineNumber: 336,
+                    lineNumber: 337,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-                lineNumber: 335,
+                lineNumber: 336,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/BookTour/TourBookingPage.tsx",
-        lineNumber: 248,
+        lineNumber: 249,
         columnNumber: 5
     }, this);
 }

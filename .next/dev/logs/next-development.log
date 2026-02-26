@@ -504,3 +504,70 @@ It can also happen if the client has a browser extension installed which messes 
 [02:03:57.475] Server  LOG     ✓ Compiled in 69ms
 [02:05:59.501] Server  LOG     ✓ Compiled in 102ms
 [02:06:59.906] Server  LOG     ✓ Compiled in 57ms
+[02:08:53.834] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:09:54.896] Server  LOG     ✓ Compiled in 75ms
+[02:10:43.776] Server  LOG     ✓ Compiled in 66ms
+[02:12:42.376] Server  LOG     ✓ Compiled in 111ms
+[02:20:50.797] Server  LOG     ✓ Compiled in 127ms
+[02:21:27.554] Server  LOG     ✓ Compiled in 75ms
+[02:21:45.103] Server  LOG     ✓ Compiled in 66ms
+[02:22:15.518] Server  LOG     ✓ Compiled in 79ms
+[02:23:07.249] Server  LOG     ✓ Compiled in 157ms
+[02:23:15.923] Server  LOG     ✓ Compiled in 68ms
+[02:23:47.384] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:23:47.670] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/darjeeling" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[02:23:49.167] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:23:57.406] Server  LOG     ✓ Compiled in 83ms
+[02:24:27.461] Server  LOG     ✓ Compiled in 83ms
+[02:24:41.184] Server  LOG     ✓ Compiled in 65ms
+[02:25:22.002] Server  LOG     ✓ Compiled in 63ms
+[02:25:48.979] Server  LOG     ✓ Compiled in 78ms
+[02:26:01.630] Server  LOG     ✓ Compiled in 67ms
+[02:26:06.501] Server  LOG     ✓ Compiled in 72ms
+[02:27:01.695] Server  LOG     ✓ Compiled in 85ms
+[02:27:03.393] Server  LOG     ✓ Compiled in 79ms
+[02:27:08.429] Server  LOG     ✓ Compiled in 134ms
+[02:27:12.976] Server  LOG     ✓ Compiled in 83ms
+[02:27:19.669] Server  LOG     ✓ Compiled in 86ms
+[02:27:22.147] Server  LOG     ✓ Compiled in 72ms
+[02:27:28.075] Server  LOG     ✓ Compiled in 70ms
+[02:28:12.888] Browser LOG     Check-in: 26-02-2026 Date: "2026-02-26T00:00:00.000Z"
+[02:28:12.888] Browser LOG     Check-out: 27-02-2026 Date: "2026-02-27T00:00:00.000Z"
+[02:28:12.888] Browser LOG     Diff time: 86400000
+[02:28:12.888] Browser LOG     Diff days: 1

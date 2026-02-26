@@ -94,6 +94,7 @@ export default function TourBookingPage() {
     dropPlace: "",
     costPerAdult: "",
     costPerChildren: "",
+      below5Children: 0,
     totalNights: "",
     estimatedCost: "",
     bookingAmount: "",
@@ -179,18 +180,18 @@ export default function TourBookingPage() {
       // Convert DD-MM-YYYY to Date objects
       const checkInDate = new Date(parseDDMMYYYYToISO(formData.checkIn));
       const checkOutDate = new Date(parseDDMMYYYYToISO(formData.checkOut));
-      
+
       console.log('Check-in:', formData.checkIn, 'Date:', checkInDate);
       console.log('Check-out:', formData.checkOut, 'Date:', checkOutDate);
-      
+
       if (!isNaN(checkInDate.getTime()) && !isNaN(checkOutDate.getTime())) {
         // Calculate difference in days (check-out date - check-in date)
         const diffTime = checkOutDate.getTime() - checkInDate.getTime();
         const diffDays = Math.round(diffTime / (1000 * 60 * 60 * 24));
-        
+
         console.log('Diff time:', diffTime);
         console.log('Diff days:', diffDays);
-        
+
         // Ensure positive number of nights
         if (diffDays >= 0) {
           setFormData(prev => ({ ...prev, totalNights: diffDays.toString() }));
@@ -267,13 +268,13 @@ export default function TourBookingPage() {
           <div className="absolute top-1/2 left-1/4 w-24 h-24 bg-white/10 rounded-full blur-2xl animate-pulse delay-150"></div>
         </div>
 
-    
+
 
         {/* Hero Content */}
         <div className="relative z-10 h-full flex items-center justify-center px-6">
           <div className="text-center max-w-5xl mx-auto">
             {/* Badge */}
-          
+
 
             {/* Main Heading */}
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
@@ -295,7 +296,7 @@ export default function TourBookingPage() {
 
             {/* Subheading */}
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-12 leading-relaxed">
-              Experience the magic of Bengal with our seamless booking process. 
+              Experience the magic of Bengal with our seamless booking process.
               Your perfect adventure starts here.
             </p>
 
@@ -380,7 +381,7 @@ export default function TourBookingPage() {
                         type="text"
                         value={formData.countryCode}
                         onChange={(e) => handleInputChange("countryCode", e.target.value)}
-                        className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                        className="flex px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
                         placeholder="+91"
                       />
                       <input
@@ -425,7 +426,7 @@ export default function TourBookingPage() {
                   <MapPin className="text-red-600" />
                   Tour Details
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
                       Tour Destination (Name of Place) <span className="text-red-500">*</span>
@@ -439,53 +440,7 @@ export default function TourBookingPage() {
                       required
                     />
                   </div>
-                  <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      No. of Adult PAX <span className="text-red-500">*</span>
-                    </label>
-                    <input
-                      type="number"
-                      value={formData.adults}
-                      onChange={(e) => handleInputChange("adults", parseInt(e.target.value) || 0)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
-                      min="1"
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      No. of Children (5-8 yrs)
-                    </label>
-                    <input
-                      type="number"
-                      value={formData.children}
-                      onChange={(e) => handleInputChange("children", parseInt(e.target.value) || 0)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
-                      min="0"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Special Information / Requirement
-                    </label>
-                    <textarea
-                      value={formData.specialInfo}
-                      onChange={(e) => handleInputChange("specialInfo", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
-                      rows={4}
-                      placeholder="Extra cost for non-sharing car, premium room, food habits, etc."
-                    />
-                  </div>
-                </div>
-              </div>
 
-              {/* Travel Dates Section */}
-              <div>
-                <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-                  <Calendar className="text-red-600" />
-                  Travel Dates
-                </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
                       Check-in / Start Date <span className="text-red-500">*</span>
@@ -506,7 +461,37 @@ export default function TourBookingPage() {
                       </p>
                     )}
                   </div>
+
+              
+               
+                    <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      Place of Start / Pick-up
+                    </label>
+                    <input
+                      type="text"
+                      value={formData.pickupPlace}
+                      onChange={(e) => handleInputChange("pickupPlace", e.target.value)}
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                      placeholder="Enter pickup location"
+                    />
+                  </div>
+
                   <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      Special Information / Requirement
+                    </label>
+                    <textarea
+                      value={formData.specialInfo}
+                      onChange={(e) => handleInputChange("specialInfo", e.target.value)}
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                      rows={4}
+                      placeholder="Extra cost for non-sharing car, premium room, food habits, etc."
+                    />
+                  </div>
+                  
+                  
+                     <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
                       Check-out / End Date <span className="text-red-500">*</span>
                     </label>
@@ -526,7 +511,20 @@ export default function TourBookingPage() {
                       </p>
                     )}
                   </div>
-                     <div>
+               
+                  <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      Place of End / Drop
+                    </label>
+                    <input
+                      type="text"
+                      value={formData.dropPlace}
+                      onChange={(e) => handleInputChange("dropPlace", e.target.value)}
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                      placeholder="Enter drop location"
+                    />
+                  </div>
+                    <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
                       Total No. of Nights <span className="text-red-500">*</span>
                     </label>
@@ -542,30 +540,72 @@ export default function TourBookingPage() {
                       Auto-calculated from check-in and check-out dates
                     </p>
                   </div>
-                  <div>
+                    <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Place of Start / Pick-up
+                      Total Cost <span className="text-red-500">*</span>
+                    </label>
+                    <div className="flex gap-2">
+                      <select className="px-4 text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
+                        <option>INR</option>
+                      </select>
+                      <input
+                        type="number"
+                        value={formData.estimatedCost}
+                        readOnly
+                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 text-gray-600"
+                        placeholder="Auto-calculated"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Travel Dates Section */}
+              <div>
+                <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
+                  <Calendar className="text-red-600" />
+                  Travel Dates
+                </h2>
+                  
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      No. of Adult PAX <span className="text-red-500">*</span>
                     </label>
                     <input
-                      type="text"
-                      value={formData.pickupPlace}
-                      onChange={(e) => handleInputChange("pickupPlace", e.target.value)}
+                      type="number"
+                      value={formData.adults}
+                      onChange={(e) => handleInputChange("adults", parseInt(e.target.value) || 0)}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
-                      placeholder="Enter pickup location"
+                      min="1"
+                      required
+                    />
+                  </div>
+   <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      No. of Children (5-8 yrs)
+                    </label>
+                    <input
+                      type="number"
+                      value={formData.children}
+                      onChange={(e) => handleInputChange("children", parseInt(e.target.value) || 0)}
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                      min="0"
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Place of End / Drop
-                    </label>
-                    <input
-                      type="text"
-                      value={formData.dropPlace}
-                      onChange={(e) => handleInputChange("dropPlace", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
-                      placeholder="Enter drop location"
-                    />
-                  </div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                  No. of Children (Below 5 Years) Free
+                  </label>
+                  <input
+                    type="number"
+                     value={formData.below5Children}
+                    onChange={(e) => handleInputChange("below5Children", parseInt(e.target.value) || 0)}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    min="0"
+                  />
+                </div>
+                
                 </div>
               </div>
 
@@ -594,7 +634,7 @@ export default function TourBookingPage() {
                       Total Cost for Adults ({formData.adults} × ₹{calculatePerPersonRate(parseInt(formData.totalNights) || 0)}) <span className="text-red-500">*</span>
                     </label>
                     <div className="flex gap-2">
-                      <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
+                      <select className="px-4  text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
                         <option>INR</option>
                       </select>
                       <input
@@ -615,7 +655,7 @@ export default function TourBookingPage() {
                       Total Cost for Children ({formData.children} × ₹{(calculatePerPersonRate(parseInt(formData.totalNights) || 0) * 0.5).toFixed(0)})
                     </label>
                     <div className="flex gap-2">
-                      <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
+                      <select className="px-4  text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
                         <option>INR</option>
                       </select>
                       <input
@@ -630,13 +670,13 @@ export default function TourBookingPage() {
                       Total cost for all children ({formData.children} children at 50% rate)
                     </p>
                   </div>
-               
+
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
                       Estimated Cost <span className="text-red-500">*</span>
                     </label>
                     <div className="flex gap-2">
-                      <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
+                      <select className="px-4 py-3  text-gray-500 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
                         <option>INR</option>
                       </select>
                       <input
@@ -653,7 +693,7 @@ export default function TourBookingPage() {
                       Booking Confirmation (50% of Estimated Cost) <span className="text-red-500">*</span>
                     </label>
                     <div className="flex gap-2">
-                      <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
+                      <select className="px-4  text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
                         <option>INR</option>
                       </select>
                       <input
@@ -737,7 +777,7 @@ export default function TourBookingPage() {
                     />
                     <span className="font-medium text-gray-700">50% Payment</span>
                   </label>
-                 
+
                 </div>
               </div>
 
@@ -784,24 +824,24 @@ export default function TourBookingPage() {
                     </div>
                   </div>
                 ))}
-</div>
-                {/* Submit Button */}
-                <div className="text-center">
-                  <button
-                    type="submit"
-                    disabled={isSubmitting}
-                    className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-12 py-4 rounded-xl font-bold text-lg shadow-lg transform hover:scale-105 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
-                  >
-                    {isSubmitting ? (
-                      <>
-                        <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin inline-block mr-2"></div>
-                        Processing...
-                      </>
-                    ) : (
-                      'SUBMIT after PAYMENT'
-                    )}
-                  </button>
-                </div>
+              </div>
+              {/* Submit Button */}
+              <div className="text-center">
+                <button
+                  type="submit"
+                  disabled={isSubmitting}
+                  className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-12 py-4 rounded-xl font-bold text-lg shadow-lg transform hover:scale-105 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+                >
+                  {isSubmitting ? (
+                    <>
+                      <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin inline-block mr-2"></div>
+                      Processing...
+                    </>
+                  ) : (
+                    'SUBMIT after PAYMENT'
+                  )}
+                </button>
+              </div>
 
             </form>
           </div>
