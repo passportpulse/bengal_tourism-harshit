@@ -267,22 +267,29 @@ export default function ContactPage() {
           {contactMethods.map((item, index) => (
             <div
               key={index}
-              className="flex items-center justify-between bg-white border rounded-xl p-5 shadow-sm hover:shadow-md transition"
+              className="flex items-center justify-between bg-white border rounded-xl p-5 shadow-sm hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 cursor-pointer group"
             >
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-lg bg-gray-100 flex items-center justify-center">
-                  <item.icon className={`w-6 h-6 ${item.color}`} />
+                <div className="w-12 h-12 rounded-lg bg-gray-100 flex items-center justify-center group-hover:bg-gray-200 transition-colors duration-300">
+                  <item.icon className={`w-6 h-6 ${item.color} group-hover:scale-110 transition-transform duration-300`} />
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-900">{item.title}</p>
-                  <p className="text-gray-600 text-sm">{item.value}</p>
+                  <p className="font-semibold text-gray-900 group-hover:text-gray-700 transition-colors duration-300">{item.title}</p>
+                  <p className="text-gray-600 text-sm group-hover:text-gray-500 transition-colors duration-300">{item.value}</p>
                 </div>
               </div>
 
               <a
                 href={item.action}
-                target="_blank"
-                className="px-4 py-2 text-sm font-semibold rounded-lg bg-gray-900 text-white hover:bg-gray-800 transition"
+                target={item.action.startsWith('mailto:') ? '_self' : '_blank'}
+                rel={item.action.startsWith('mailto:') ? '' : 'noopener noreferrer'}
+                onClick={(e) => {
+                  if (item.action.startsWith('mailto:')) {
+                    e.preventDefault();
+                    window.location.href = item.action;
+                  }
+                }}
+                className="px-4 py-2 text-sm font-semibold rounded-lg bg-gradient-to-r from-red-600 to-orange-600 text-white hover:from-red-700 hover:to-orange-700 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl hover:shadow-red-500/25"
               >
                 {item.button}
               </a>

@@ -6,6 +6,7 @@
   "/bhutan/page": "app/bhutan/page.js",
   "/book-hotel/page": "app/book-hotel/page.js",
   "/book-tour/page": "app/book-tour/page.js",
+  "/contact/page": "app/contact/page.js",
   "/darjeeling/page": "app/darjeeling/page.js",
   "/digha/page": "app/digha/page.js",
   "/dooars/page": "app/dooars/page.js",

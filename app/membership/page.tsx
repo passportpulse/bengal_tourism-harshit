@@ -2,18 +2,19 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { User, MapPin, Phone, Mail, Calendar, CreditCard, Building, IndianRupee, FileText, ArrowRight, Check } from "lucide-react";
+import { User, MapPin, Phone, Mail, Calendar, CreditCard, Building, IndianRupee, FileText, ArrowRight, Check, X, QrCode, MessageCircle } from "lucide-react";
 const payments = [
   {
     title: "BANK TRANSFER / CASH DEPOSIT",
     img: "/payments/sbi.png",
     details: (
       <>
-        <p><b>Beneficiary:</b></p>
-        <p className="text-pink-700 font-semibold">Bengal Tourism</p>
-        <p><b> UPI:</b> 9804333779@upi</p>
-        <p><b>Phone:</b> 9804333779</p>
-        <p><b>Email:</b> members.bengaltourism@gmail.com</p>
+     <p><b>Name:</b> Bengal Tourism. In</p>
+  <p><b>Bank:</b> State Bank of India (SBI)</p>
+  <p><b>Branch:</b> Kestopur</p>
+  <p><b>CA No.:</b> 33530363411</p>
+  <p><b>IFS Code:</b> SBIN 0014534</p>
+  <p><b>UPI:</b> bengaltourism@upi</p>
       </>
     ),
   },
@@ -22,6 +23,7 @@ const payments = [
     img: "/payments/bhim.jpg",
     details: (
       <>
+    <p><b>UPI:</b>bengaltourism@upi</p>
         <p><b> UPI:</b> 9804333779@okaxis</p>
         <p><b>Phone:</b> 9804333779</p>
         <p><b>Email:</b> members.bengaltourism@gmail.com</p>
@@ -33,6 +35,7 @@ const payments = [
     img: "/payments/phonepe.jpg",
     details: (
       <>
+         <p><b>UPI:</b>bengaltourism@ybl</p>
         <p><b>UPI:</b> 9804333779@ybl</p>
         <p><b>Phone:</b> 9804333779</p>
         <p><b>Email:</b> members.bengaltourism@gmail.com</p>
@@ -44,6 +47,7 @@ const payments = [
     img: "/payments/axispay.png",
     details: (
       <>
+            <p><b>UPI:</b>bengaltourism@axisbank</p>
         <p><b>UPI:</b> 9804333779@axisbank</p>
         <p><b>Phone:</b> 9804333779</p>
         <p><b>Email:</b> members.bengaltourism@gmail.com</p>
@@ -55,6 +59,7 @@ const payments = [
     img: "/payments/gpay.png",
     details: (
       <>
+    <p><b>UPI:</b>bengaltourism@okaxis</p>
         <p><b>UPI:</b> 9804333779@okaxis</p>
         <p><b>Phone:</b> 9804333779</p>
         <p><b>Email:</b> members.bengaltourism@gmail.com</p>
@@ -66,7 +71,7 @@ const payments = [
     img: "/payments/paypal.png",
     details: (
       <>
-        <p><b>Email:</b> members.bengaltourism@gmail.com</p>
+         <p><b>Email:</b> bengaltourism@gmail.com</p>
         <p><b>Mobile:</b> 9804333779</p>
       </>
     ),
@@ -113,14 +118,16 @@ export default function MembershipPage() {
 
   const [currentStep, setCurrentStep] = useState(1);
   const [showSuccess, setShowSuccess] = useState(false);
-
+  const [selectedPayment, setSelectedPayment] = useState<number | null>(null);
+  const [showPaymentModal, setShowPaymentModal] = useState(false);
+  const [selectedPaymentType, setSelectedPaymentType] = useState<string>("");
   const handleInputChange = (field: string, value: string) => {
     setFormData(prev => ({ ...prev, [field]: value }));
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     try {
       const response = await fetch('/api/membership', {
         method: 'POST',
@@ -192,6 +199,12 @@ export default function MembershipPage() {
     );
   }
 
+  function handlePaymentClick(i: number, title: string): void {
+    setSelectedPayment(i);
+    setSelectedPaymentType(title);
+    setShowPaymentModal(true);
+  }
+
   return (
     <>
       {/* ================= HERO ================= */}
@@ -206,14 +219,14 @@ export default function MembershipPage() {
           />
           <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-red-900/40"></div>
         </div>
-        
+
         <div className="relative z-10 h-full flex items-center justify-center px-6">
           <div className="text-center max-w-5xl mx-auto">
             <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md border border-white/30 rounded-full px-6 py-3 mb-8">
               <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
               <span className="text-white font-medium text-sm">Join Our Network</span>
             </div>
-            
+
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Become a
               <span className="block bg-gradient-to-r from-red-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
@@ -230,7 +243,7 @@ export default function MembershipPage() {
                 </svg>
               </span>
             </h1>
-            
+
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-12 leading-relaxed">
               Join Bengal Tourism network • Start earning • Build your career in tourism
             </p>
@@ -269,7 +282,7 @@ export default function MembershipPage() {
       <section id="membership-form" className="bg-gradient-to-br from-slate-50 to-slate-100 py-16 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="bg-white rounded-b-xl shadow-lg p-6 md:p-10">
-            
+
             <form onSubmit={handleSubmit} className="space-y-8">
               {/* Personal Information Section */}
               <div>
@@ -566,31 +579,57 @@ export default function MembershipPage() {
                 </div>
 
                 {/* Payment Grid */}
-            {/* Grid */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 border-t">
-                {payments.map((item, i) => (
-                  <div
-                    key={i}
-                    className="border-r border-b last:border-r-0 p-4 text-center"
-                  >
-                    <div className="flex justify-center mb-3">
-                      <img
-                        src={item.img}
-                        alt={item.title}
-                        className="h-20 object-contain"
-                      />
-                    </div>
-
-                    <h3 className="text-sm font-bold text-pink-700 mb-3">
-                      {item.title}
-                    </h3>
-
-                    <div className="text-xs text-gray-800 space-y-1">
-                      {item.details}
+                {/* Grid */}
+                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 border-t">
+              {payments.map((item, i) => (
+                <div
+                  key={i}
+                  className={`border-r border-b last:border-r-0 p-4 text-center cursor-pointer relative transition-all ${selectedPayment === i ? 'bg-blue-50 border-blue-500' : 'hover:bg-gray-50'
+                    }`}
+                  onClick={() => handlePaymentClick(i, item.title)}
+                >
+                  {/* Checkbox in top-right corner */}
+                  <div className="absolute top-2 right-2">
+                    <div
+                      className={`w-5 h-5 border-2 rounded flex items-center justify-center transition-all ${selectedPayment === i
+                          ? 'bg-blue-600 border-blue-600'
+                          : 'border-gray-300 bg-white'
+                        }`}
+                    >
+                      {selectedPayment === i && (
+                        <svg
+                          className="w-3 h-3 text-white"
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      )}
                     </div>
                   </div>
-                ))}
-</div>
+
+                  <div className="flex justify-center mb-3">
+                    <img
+                      src={item.img}
+                      alt={item.title}
+                      className="h-20 object-contain"
+                    />
+                  </div>
+
+                  <h3 className="text-sm font-bold text-pink-700 mb-3">
+                    {item.title}
+                  </h3>
+
+                  <div className="text-xs text-gray-800 space-y-1">
+                    {item.details}
+                  </div>
+                </div>
+              ))}
+            </div>
               </div>
 
               {/* Submit Button */}
@@ -603,6 +642,150 @@ export default function MembershipPage() {
                 </button>
               </div>
             </form>
+
+          {/* Payment Modal */}
+          {showPaymentModal && (
+            <div className="fixed inset-0 bg-black/60 bg-opacity-60 backdrop-blur-md flex items-center justify-center z-50 p-4">
+              <div className="bg-white rounded-xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+                {/* Modal Header */}
+                <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white p-6 rounded-t-xl">
+                  <div className="flex justify-between items-center">
+                    <h3 className="text-xl font-bold flex items-center gap-2">
+                      <QrCode className="w-6 h-6" />
+                      Payment Details
+                    </h3>
+                    <button
+                      onClick={() => setShowPaymentModal(false)}
+                      className="text-white hover:bg-white hover:bg-opacity-20 rounded-full p-2 transition-all"
+                    >
+                      <X className="w-5 h-5" />
+                    </button>
+                  </div>
+                  <p className="text-sm mt-2 opacity-90">{selectedPaymentType}</p>
+                </div>
+
+                {/* Modal Content */}
+                <div className="p-6">
+                  {/* QR Code Display */}
+                  <div className="text-center mb-6">
+                    {(selectedPaymentType.includes("SBI") || selectedPaymentType.includes("BANK TRANSFER")) ? (
+                      <div className="space-y-4">
+                        <div className="bg-gray-50 p-4 rounded-lg">
+                          <h4 className="font-semibold text-gray-800 mb-3">Bank Transfer Details</h4>
+                          <div className="text-left text-gray-500 space-y-2 text-sm">
+                            <p><b>Name:</b> Bengal Tourism. In</p>
+                            <p><b>Bank:</b> State Bank of India (SBI)</p>
+                            <p><b>Branch:</b> Kestopur</p>
+                            <p><b>CA No.:</b> 33530363411</p>
+                            <p><b>IFS Code:</b> SBIN 0014534</p>
+                            <p><b>UPI:</b> bengaltourism@upi</p>
+                          </div>
+                        </div>
+                      </div>
+                    ) : selectedPaymentType.includes("BHARAT") || selectedPaymentType.includes("PAYMENT GATEWAY") ? (
+                      <div className="space-y-4">
+                        <div className="bg-gray-50 p-4 rounded-lg">
+                          <h4 className="font-semibold text-gray-800 mb-3">Scan QR Code</h4>
+                          <img
+                            src="/Qr/gpay.jpeg"
+                            alt="Google Pay QR Code"
+                            className="w-86 h-86 mx-auto  object-contain p-2"
+                          />
+                          <div className="text-left text-gray-500 space-y-2 text-sm mt-4">
+                            <p><b>UPI:</b> bengaltourism@upi</p>
+                            <p><b>UPI:</b> 9804333779@okaxis</p>
+                            <p><b>Phone:</b> 9804333779</p>
+                            <p><b>Email:</b> members.bengaltourism@gmail.com</p>
+                          </div>
+                        </div>
+                      </div>
+                    ) : selectedPaymentType.includes("PHONEPE") ? (
+                      <div className="space-y-4">
+                        <div className="bg-gray-50 p-4 rounded-lg">
+                          <h4 className="font-semibold  text-gray-800 mb-3">Scan QR Code</h4>
+                          <img
+                            src="/Qr/phonpau.jpeg"
+                            alt="PhonePe QR Code"
+                              className="w-86 h-86 mx-auto  object-contain p-2"
+                          />
+                          <div className="text-left text-gray-500 space-y-2 text-sm mt-4">
+                            <p><b>UPI:</b> bengaltourism@ybl</p>
+                            <p><b>UPI:</b> 9804333779@ybl</p>
+                            <p><b>Phone:</b> 9804333779</p>
+                            <p><b>Email:</b> members.bengaltourism@gmail.com</p>
+                          </div>
+                        </div>
+                      </div>
+                    ) : selectedPaymentType.includes("AXIS") ? (
+                      <div className="space-y-4">
+                        <div className="bg-gray-50 p-4 rounded-lg">
+                          <h4 className="font-semibold text-gray-800 mb-3">Scan QR Code</h4>
+                          <img
+                            src="/Qr/axix.jpeg"
+                            alt="Axis Bank QR Code"
+                             className="w-86 h-86 mx-auto  object-contain p-2"
+                          />
+                          <div className="text-left  text-gray-500 space-y-2 text-sm mt-4">
+                            <p><b>UPI:</b> bengaltourism@axisbank</p>
+                            <p><b>UPI:</b> 9804333779@axisbank</p>
+                            <p><b>Phone:</b> 9804333779</p>
+                            <p><b>Email:</b> members.bengaltourism@gmail.com</p>
+                          </div>
+                        </div>
+                      </div>
+                    ) : (
+                      <div className="space-y-4">
+                        <div className="bg-gray-50 p-4 rounded-lg">
+                          <h4 className="font-semibold text-gray-800 mb-3">Payment Information</h4>
+                          <div className="text-left  text-gray-500 space-y-2 text-sm">
+                            <p><b>Email:</b> bengaltourism@gmail.com</p>
+                            <p><b>Mobile:</b> 9804333779</p>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Payment Instructions */}
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
+                    <h4 className="font-semibold text-blue-800 mb-2">Payment Instructions:</h4>
+                    <ol className="text-sm text-blue-700 space-y-1 list-decimal list-inside">
+                      <li>Complete the payment using the details above</li>
+                      <li>Take a screenshot of the payment confirmation</li>
+                      <li>Share the screenshot on WhatsApp</li>
+                    </ol>
+                  </div>
+
+                  {/* Action Buttons */}
+                  <div className="flex gap-3">
+                    <button
+                      onClick={() => {
+                        const phoneNumber = "6289783779";
+                        const message = encodeURIComponent(`Hello, I have made a membership payment. Please find the payment confirmation attached.`);
+                        window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
+                      }}
+                      className="flex-1 bg-green-600 hover:bg-green-700 text-white px-4 py-3 rounded-lg font-semibold flex items-center justify-center gap-2 transition-all"
+                    >
+                      <MessageCircle className="w-5 h-5" />
+                      Share on WhatsApp
+                    </button>
+                    <button
+                      onClick={() => setShowPaymentModal(false)}
+                      className="flex-1 bg-gray-600 hover:bg-gray-700 text-white px-4 py-3 rounded-lg font-semibold transition-all"
+                    >
+                      Close
+                    </button>
+                  </div>
+
+                  {/* Contact Info */}
+                  <div className="mt-4 text-center text-sm text-gray-600">
+                    <p>WhatsApp Number: <span className="font-semibold">6289783779</span></p>
+                    <p className="text-xs mt-1">Please share payment screenshot on this number</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
           </div>
         </div>
       </section>

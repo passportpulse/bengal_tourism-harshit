@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowLeft, Calendar, Users, MapPin, Phone, Mail, CreditCard, Percent, User, Home, Clock, IndianRupee, Bed } from "lucide-react";
+import { ArrowLeft, Calendar, Users, MapPin, Phone, Mail, CreditCard, Percent, User, Home, Clock, IndianRupee, Bed, X, QrCode, MessageCircle } from "lucide-react";
 
 const destinations = [
   { value: "17", label: "BAKKHALI" },
@@ -471,6 +471,8 @@ export default function HotelBookingPage() {
   const [availableRooms, setAvailableRooms] = useState<Array<{ value: string; label: string; price: number; meal?: string }>>([]);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [selectedPayment, setSelectedPayment] = useState<number | null>(null);
+  const [showPaymentModal, setShowPaymentModal] = useState(false);
+  const [selectedPaymentType, setSelectedPaymentType] = useState<string>("");
 
 
   // Helper function to format date to DD-MM-YYYY
@@ -567,6 +569,12 @@ export default function HotelBookingPage() {
     }
   };
 
+
+  const handlePaymentClick = (paymentIndex: number, paymentTitle: string) => {
+    setSelectedPayment(paymentIndex);
+    setSelectedPaymentType(paymentTitle);
+    setShowPaymentModal(true);
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -1093,7 +1101,7 @@ export default function HotelBookingPage() {
                   key={i}
                   className={`border-r border-b last:border-r-0 p-4 text-center cursor-pointer relative transition-all ${selectedPayment === i ? 'bg-blue-50 border-blue-500' : 'hover:bg-gray-50'
                     }`}
-                  onClick={() => setSelectedPayment(i === selectedPayment ? null : i)}
+                  onClick={() => handlePaymentClick(i, item.title)}
                 >
                   {/* Checkbox in top-right corner */}
                   <div className="absolute top-2 right-2">
@@ -1157,6 +1165,150 @@ export default function HotelBookingPage() {
             </div>
 
           </form>
+
+          {/* Payment Modal */}
+          {showPaymentModal && (
+            <div className="fixed inset-0 bg-black/60 bg-opacity-60 backdrop-blur-md flex items-center justify-center z-50 p-4">
+              <div className="bg-white rounded-xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+                {/* Modal Header */}
+                <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white p-6 rounded-t-xl">
+                  <div className="flex justify-between items-center">
+                    <h3 className="text-xl font-bold flex items-center gap-2">
+                      <QrCode className="w-6 h-6" />
+                      Payment Details
+                    </h3>
+                    <button
+                      onClick={() => setShowPaymentModal(false)}
+                      className="text-white hover:bg-white hover:bg-opacity-20 rounded-full p-2 transition-all"
+                    >
+                      <X className="w-5 h-5" />
+                    </button>
+                  </div>
+                  <p className="text-sm mt-2 opacity-90">{selectedPaymentType}</p>
+                </div>
+
+                {/* Modal Content */}
+                <div className="p-6">
+                  {/* QR Code Display */}
+                  <div className="text-center mb-6">
+                    {(selectedPaymentType.includes("SBI") || selectedPaymentType.includes("BANK TRANSFER")) ? (
+                      <div className="space-y-4">
+                        <div className="bg-gray-50 p-4 rounded-lg">
+                          <h4 className="font-semibold text-gray-800 mb-3">Bank Transfer Details</h4>
+                          <div className="text-left text-gray-500 space-y-2 text-sm">
+                            <p><b>Name:</b> Bengal Tourism. In</p>
+                            <p><b>Bank:</b> State Bank of India (SBI)</p>
+                            <p><b>Branch:</b> Kestopur</p>
+                            <p><b>CA No.:</b> 33530363411</p>
+                            <p><b>IFS Code:</b> SBIN 0014534</p>
+                            <p><b>UPI:</b> bengaltourism@upi</p>
+                          </div>
+                        </div>
+                      </div>
+                    ) : selectedPaymentType.includes("BHARAT") || selectedPaymentType.includes("PAYMENT GATEWAY") ? (
+                      <div className="space-y-4">
+                        <div className="bg-gray-50 p-4 rounded-lg">
+                          <h4 className="font-semibold text-gray-800 mb-3">Scan QR Code</h4>
+                          <img
+                            src="/Qr/gpay.jpeg"
+                            alt="Google Pay QR Code"
+                            className="w-86 h-86 mx-auto  object-contain p-2"
+                          />
+                          <div className="text-left text-gray-500 space-y-2 text-sm mt-4">
+                            <p><b>UPI:</b> bengaltourism@upi</p>
+                            <p><b>UPI:</b> 9804333779@okaxis</p>
+                            <p><b>Phone:</b> 9804333779</p>
+                            <p><b>Email:</b> hotel.bengaltourism@gmail.com</p>
+                          </div>
+                        </div>
+                      </div>
+                    ) : selectedPaymentType.includes("PHONEPE") ? (
+                      <div className="space-y-4">
+                        <div className="bg-gray-50 p-4 rounded-lg">
+                          <h4 className="font-semibold  text-gray-800 mb-3">Scan QR Code</h4>
+                          <img
+                            src="/Qr/phonpau.jpeg"
+                            alt="PhonePe QR Code"
+                              className="w-86 h-86 mx-auto  object-contain p-2"
+                          />
+                          <div className="text-left text-gray-500 space-y-2 text-sm mt-4">
+                            <p><b>UPI:</b> bengaltourism@ybl</p>
+                            <p><b>UPI:</b> 9804333779@ybl</p>
+                            <p><b>Phone:</b> 9804333779</p>
+                            <p><b>Email:</b> hotel.bengaltourism@gmail.com</p>
+                          </div>
+                        </div>
+                      </div>
+                    ) : selectedPaymentType.includes("AXIS") ? (
+                      <div className="space-y-4">
+                        <div className="bg-gray-50 p-4 rounded-lg">
+                          <h4 className="font-semibold text-gray-800 mb-3">Scan QR Code</h4>
+                          <img
+                            src="/Qr/axix.jpeg"
+                            alt="Axis Bank QR Code"
+                             className="w-86 h-86 mx-auto  object-contain p-2"
+                          />
+                          <div className="text-left  text-gray-500 space-y-2 text-sm mt-4">
+                            <p><b>UPI:</b> bengaltourism@axisbank</p>
+                            <p><b>UPI:</b> 9804333779@axisbank</p>
+                            <p><b>Phone:</b> 9804333779</p>
+                            <p><b>Email:</b> hotel.bengaltourism@gmail.com</p>
+                          </div>
+                        </div>
+                      </div>
+                    ) : (
+                      <div className="space-y-4">
+                        <div className="bg-gray-50 p-4 rounded-lg">
+                          <h4 className="font-semibold text-gray-800 mb-3">Payment Information</h4>
+                          <div className="text-left  text-gray-500 space-y-2 text-sm">
+                            <p><b>Email:</b> bengaltourism@gmail.com</p>
+                            <p><b>Mobile:</b> 9804333779</p>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Payment Instructions */}
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
+                    <h4 className="font-semibold text-blue-800 mb-2">Payment Instructions:</h4>
+                    <ol className="text-sm text-blue-700 space-y-1 list-decimal list-inside">
+                      <li>Complete the payment using the details above</li>
+                      <li>Take a screenshot of the payment confirmation</li>
+                      <li>Share the screenshot on WhatsApp</li>
+                    </ol>
+                  </div>
+
+                  {/* Action Buttons */}
+                  <div className="flex gap-3">
+                    <button
+                      onClick={() => {
+                        const phoneNumber = "9007995888";
+                        const message = encodeURIComponent(`Hello, I have made a hotel booking payment for ${formData.destination || "my booking"}. Please find the payment confirmation attached.`);
+                        window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
+                      }}
+                      className="flex-1 bg-green-600 hover:bg-green-700 text-white px-4 py-3 rounded-lg font-semibold flex items-center justify-center gap-2 transition-all"
+                    >
+                      <MessageCircle className="w-5 h-5" />
+                      Share on WhatsApp
+                    </button>
+                    <button
+                      onClick={() => setShowPaymentModal(false)}
+                      className="flex-1 bg-gray-600 hover:bg-gray-700 text-white px-4 py-3 rounded-lg font-semibold transition-all"
+                    >
+                      Close
+                    </button>
+                  </div>
+
+                  {/* Contact Info */}
+                  <div className="mt-4 text-center text-sm text-gray-600">
+                    <p>WhatsApp Number: <span className="font-semibold">9007995888</span></p>
+                    <p className="text-xs mt-1">Please share payment screenshot on this number</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
 
 
         </div>
