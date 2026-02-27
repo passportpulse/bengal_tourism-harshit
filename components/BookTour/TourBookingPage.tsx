@@ -108,6 +108,7 @@ export default function TourBookingPage() {
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [selectedPayment, setSelectedPayment] = useState<number | null>(null);
 
   // Auto calculate nights when dates change
   useEffect(() => {
@@ -808,30 +809,58 @@ export default function TourBookingPage() {
               </div>
 
               {/* Grid */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 border-t">
-                {payments.map((item, i) => (
-                  <div
-                    key={i}
-                    className="border-r border-b last:border-r-0 p-4 text-center"
-                  >
-                    <div className="flex justify-center mb-3">
-                      <img
-                        src={item.img}
-                        alt={item.title}
-                        className="h-20 object-contain"
-                      />
-                    </div>
-
-                    <h3 className="text-sm font-bold text-pink-700 mb-3">
-                      {item.title}
-                    </h3>
-
-                    <div className="text-xs text-gray-800 space-y-1">
-                      {item.details}
+                 {/* Grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 border-t">
+              {payments.map((item, i) => (
+                <div
+                  key={i}
+                  className={`border-r border-b last:border-r-0 p-4 text-center cursor-pointer relative transition-all ${selectedPayment === i ? 'bg-blue-50 border-blue-500' : 'hover:bg-gray-50'
+                    }`}
+                  onClick={() => setSelectedPayment(i === selectedPayment ? null : i)}
+                >
+                  {/* Checkbox in top-right corner */}
+                  <div className="absolute top-2 right-2">
+                    <div
+                      className={`w-5 h-5 border-2 rounded flex items-center justify-center transition-all ${selectedPayment === i
+                          ? 'bg-blue-600 border-blue-600'
+                          : 'border-gray-300 bg-white'
+                        }`}
+                    >
+                      {selectedPayment === i && (
+                        <svg
+                          className="w-3 h-3 text-white"
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      )}
                     </div>
                   </div>
-                ))}
-              </div>
+
+                  <div className="flex justify-center mb-3">
+                    <img
+                      src={item.img}
+                      alt={item.title}
+                      className="h-20 object-contain"
+                    />
+                  </div>
+
+                  <h3 className="text-sm font-bold text-pink-700 mb-3">
+                    {item.title}
+                  </h3>
+
+                  <div className="text-xs text-gray-800 space-y-1">
+                    {item.details}
+                  </div>
+                </div>
+              ))}
+            </div>
+
               {/* Submit Button */}
               <div className="text-center">
                 <button

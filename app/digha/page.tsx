@@ -97,7 +97,108 @@ export default function DighaPage() {
           </div>
         </div>
       </section>
+   <section className="py-24 bg-gradient-to-b from-gray-50 to-white">
+        <div className="max-w-7xl mx-auto px-6">
 
+          {/* Header */}
+          <div className="flex gap-5 flex-col mb-16">
+                  <div className="flex gap-5 items-center mt-8">
+
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Digha & Mandarmoni – Beach Circuit Tour Itinerary
+            </h2>
+
+              <a
+                href="/book-tour"
+                className="bg-red-600 shrink-0 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+              >
+                Book Now for 4N/5D
+              </a>
+            </div>
+            <p className="text-gray-600 max-w-2xl ">
+              Detailed sightseeing plan covering Digha, Mandarmoni,
+              Tajpur, Shankarpur & Udaipur.
+            </p>
+
+
+          
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
+
+            {/* Day 1 */}
+            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-blue-500 
+  hover:shadow-xl transition h-full flex flex-col">
+              <h3 className="text-2xl font-bold text-blue-600 mb-4 flex items-center gap-2">
+                <MapPin className="w-6 h-6" />
+                Day 1 – Arrival & Digha Transfer
+              </h3>
+              <p className="text-gray-700 leading-relaxed flex-grow">
+                Depart from Kolkata (7-8 AM). Breakfast at Kolaghat.
+                Reach Digha (1-2 PM). Hotel check-in & lunch.
+                Evening local market visit. Dinner & Overnight stay at Digha.
+              </p>
+            </div>
+            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-purple-500 
+  hover:shadow-xl transition h-full flex flex-col">
+              <h3 className="text-2xl font-bold text-purple-600 mb-4 flex items-center gap-2">
+                <Ship className="w-6 h-6" />
+                Day 4 – Mandarmoni Beach Day
+              </h3>
+              <p className="text-gray-700 leading-relaxed flex-grow">
+                Check-out (10-11 AM). En-route Mohona visit.
+                Mandarmoni check-in. Rolling beach exploration.
+                Evening bonfire & BBQ. Dinner & Overnight at Mandarmoni.
+              </p>
+            </div>
+            {/* Day 2 */}
+            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-yellow-500 
+  hover:shadow-xl transition h-full flex flex-col">
+              <h3 className="text-2xl font-bold text-yellow-600 mb-4 flex items-center gap-2">
+                <Sunrise className="w-6 h-6" />
+                Day 2 – Beach Exploration
+              </h3>
+              <p className="text-gray-700 leading-relaxed flex-grow">
+                Early morning sunrise experience. Old Digha/New Digha beach.
+                Udaipur (Odisha border) option. Water sports & rides.
+                Fresh coconut & beach beer. Dinner & Overnight at Digha.
+              </p>
+            </div>
+            {/* Day 5 */}
+            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-red-500 
+  hover:shadow-xl transition h-full flex flex-col">
+              <h3 className="text-2xl font-bold text-red-600 mb-4 flex items-center gap-2">
+                <Plane className="w-6 h-6" />
+                Day 5 – Departure
+              </h3>
+              <p className="text-gray-700 leading-relaxed flex-grow">
+                Sunrise with morning tea. Beach stroll. Sea bath.
+                Check-out (11 AM). Return to Kolkata.
+                Tour ends with beautiful beach memories.
+              </p>
+            </div>
+            {/* Day 3 */}
+            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-green-500 
+  hover:shadow-xl transition h-full flex flex-col">
+              <h3 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
+                <Waves className="w-6 h-6" />
+                Day 3 – Shankarpur & Tajpur
+              </h3>
+              <p className="text-gray-700 leading-relaxed flex-grow">
+                Full day tour covering Shankarpur & Tajpur.
+                Beach activities. Local seafood lunch.
+                Spicy crab curry special. Country chicken fry.
+                Dinner & Overnight at Digha.
+              </p>
+            </div>
+
+
+
+          </div>
+
+
+        </div>
+      </section>
       <div className="bg-gray-50 py-16 px-6 md:px-12">
         <div className="max-w-7xl mx-auto space-y-16">
 
@@ -299,108 +400,7 @@ export default function DighaPage() {
         </div>
       </section>
 
-      <section className="py-24 bg-gradient-to-b from-gray-50 to-white">
-        <div className="max-w-7xl mx-auto px-6">
-
-          {/* Header */}
-          <div className="flex gap-5 flex-col mb-16">
-                  <div className="flex gap-5 items-center mt-8">
-
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              Digha & Mandarmoni – Beach Circuit Tour Itinerary
-            </h2>
-
-              <a
-                href="/book-tour"
-                className="bg-red-600 shrink-0 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
-              >
-                Book Now for 4N/5D
-              </a>
-            </div>
-            <p className="text-gray-600 max-w-2xl ">
-              Detailed sightseeing plan covering Digha, Mandarmoni,
-              Tajpur, Shankarpur & Udaipur.
-            </p>
-
-
-          
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
-
-            {/* Day 1 */}
-            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-blue-500 
-  hover:shadow-xl transition h-full flex flex-col">
-              <h3 className="text-2xl font-bold text-blue-600 mb-4 flex items-center gap-2">
-                <MapPin className="w-6 h-6" />
-                Day 1 – Arrival & Digha Transfer
-              </h3>
-              <p className="text-gray-700 leading-relaxed flex-grow">
-                Depart from Kolkata (7-8 AM). Breakfast at Kolaghat.
-                Reach Digha (1-2 PM). Hotel check-in & lunch.
-                Evening local market visit. Dinner & Overnight stay at Digha.
-              </p>
-            </div>
-            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-purple-500 
-  hover:shadow-xl transition h-full flex flex-col">
-              <h3 className="text-2xl font-bold text-purple-600 mb-4 flex items-center gap-2">
-                <Ship className="w-6 h-6" />
-                Day 4 – Mandarmoni Beach Day
-              </h3>
-              <p className="text-gray-700 leading-relaxed flex-grow">
-                Check-out (10-11 AM). En-route Mohona visit.
-                Mandarmoni check-in. Rolling beach exploration.
-                Evening bonfire & BBQ. Dinner & Overnight at Mandarmoni.
-              </p>
-            </div>
-            {/* Day 2 */}
-            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-yellow-500 
-  hover:shadow-xl transition h-full flex flex-col">
-              <h3 className="text-2xl font-bold text-yellow-600 mb-4 flex items-center gap-2">
-                <Sunrise className="w-6 h-6" />
-                Day 2 – Beach Exploration
-              </h3>
-              <p className="text-gray-700 leading-relaxed flex-grow">
-                Early morning sunrise experience. Old Digha/New Digha beach.
-                Udaipur (Odisha border) option. Water sports & rides.
-                Fresh coconut & beach beer. Dinner & Overnight at Digha.
-              </p>
-            </div>
-            {/* Day 5 */}
-            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-red-500 
-  hover:shadow-xl transition h-full flex flex-col">
-              <h3 className="text-2xl font-bold text-red-600 mb-4 flex items-center gap-2">
-                <Plane className="w-6 h-6" />
-                Day 5 – Departure
-              </h3>
-              <p className="text-gray-700 leading-relaxed flex-grow">
-                Sunrise with morning tea. Beach stroll. Sea bath.
-                Check-out (11 AM). Return to Kolkata.
-                Tour ends with beautiful beach memories.
-              </p>
-            </div>
-            {/* Day 3 */}
-            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-green-500 
-  hover:shadow-xl transition h-full flex flex-col">
-              <h3 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
-                <Waves className="w-6 h-6" />
-                Day 3 – Shankarpur & Tajpur
-              </h3>
-              <p className="text-gray-700 leading-relaxed flex-grow">
-                Full day tour covering Shankarpur & Tajpur.
-                Beach activities. Local seafood lunch.
-                Spicy crab curry special. Country chicken fry.
-                Dinner & Overnight at Digha.
-              </p>
-            </div>
-
-
-
-          </div>
-
-
-        </div>
-      </section>
+   
 
       {/* ================= PLACES OF INTEREST ================= */}
       <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
