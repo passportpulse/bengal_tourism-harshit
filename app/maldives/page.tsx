@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout } from 'lucide-react'
 import ContactCTA from '@/components/ContactCTA'
 import PackagePricing from '@/components/PackagePricing'
+import TourPricingSection from '@/components/TourPricingSection'
 
 export default function MaldivesPage() {
   return (
@@ -60,6 +61,91 @@ export default function MaldivesPage() {
         </div>
       </section>
 
+      {/* ================= DETAILED ITINERARY ================= */}
+      <div className="bg-gray-50 py-20 px-6 md:px-12">
+        <div className="max-w-7xl mx-auto space-y-20">
+
+          {/* HEADER */}
+          <div className="text-center space-y-4">
+            <h1 className="text-4xl md:text-5xl font-bold text-blue-700">
+              Visit and Explore Maldives
+            </h1>
+            <p className="text-lg text-gray-700">
+              Male, Atolls, Overwater Villas, Island Hopping with Bengal Tourism
+            </p>
+            <p className="text-gray-600">
+              Special Tailor made Combination Package, Number of Days & Cost can be designed on Request.
+            </p>
+          </div>
+
+          {/* MAIN CIRCUIT TITLE */}
+          <SectionTitle
+            title="MALDIVES"
+            subtitle="Tropical Paradise with MALE – NORTH MALE ATOLL – SOUTH MALE ATOLL"
+          />
+
+          {/* MAIN DAY WISE */}
+          <div className="grid gap-10 grid-col-1">
+            <DayCard title="Day – 1">
+              Arrival at Male International Airport: Our representative will be there to receive you at Velana International Airport, Male. After immigration clearance, transfer to your resort by speedboat or seaplane depending on the resort location. Check-in to your luxurious overwater villa or beach villa. Welcome drink and orientation about the resort facilities. Lunch at the resort restaurant. In the evening, enjoy a sunset walk along the pristine beach or relax at your private villa. Dinner at the resort restaurant with ocean views. Overnight stay at the resort.
+            </DayCard>
+
+            <DayCard title="Day – 2">
+              Island Exploration & Water Sports: After breakfast, proceed for a half-day island hopping tour. Visit local fishing villages to experience authentic Maldivian culture and lifestyle. Explore the capital city Male - visit the Grand Friday Mosque, Presidential Palace, and local markets for souvenirs. Lunch at a local restaurant in Male to taste traditional Maldivian cuisine. Return to resort in the afternoon. Enjoy water sports activities like snorkeling, jet skiing, or kayaking. Evening sunset dolphin watching cruise. Dinner at the resort. Overnight stay at the resort.
+            </DayCard>
+
+            <DayCard title="Day – 3">
+              Underwater World & Spa Experience: Morning after breakfast, proceed for a guided snorkeling tour to explore vibrant coral reefs and tropical marine life. Visit a nearby house reef for swimming with manta rays and sea turtles (seasonal). Lunch at the resort. In the afternoon, indulge in a luxurious spa treatment at the resort's world-class spa overlooking the ocean. Experience traditional Maldivian therapies and modern wellness treatments. Evening free for leisure - relax at your private pool or beachside. Dinner at an underwater restaurant (if available at resort) or special beach BBQ setup. Overnight stay at the resort.
+            </DayCard>
+
+            <DayCard title="Day – 4">
+              Luxury Yacht Experience & Sunset Cruise: After breakfast, embark on a luxury yacht cruise to explore nearby uninhabited islands and sandbanks. Enjoy swimming and snorkeling in pristine lagoons. BBQ lunch on the yacht or a deserted sandbank. Return to resort in the afternoon. Evening special sunset cruise on a traditional dhoni boat with champagne service and canapés. Watch the spectacular Maldivian sunset while dolphins play alongside the boat. Farewell dinner at the resort's specialty restaurant. Overnight stay at the resort.
+            </DayCard>
+
+            <DayCard title="Day – 5">
+              Leisure & Departure: After breakfast, enjoy the morning at leisure. Take advantage of resort facilities - swimming pool, fitness center, or last-minute water activities. Optional last-minute shopping for local handicrafts. Check-out from the resort. Transfer to Male International Airport for your return flight with unforgettable memories of tropical paradise. Tour ends.
+            </DayCard>
+          </div>
+
+          {/* ADD-ON SECTIONS */}
+          <AddOnSection
+            title="LUXURY CRUISE PACKAGE"
+            subtitle="Add-on (or) Separately From MALE"
+          />
+          <div className="grid gap-10 grid-col-1">
+            <DayCard title="Day – 1">
+              Board Luxury Cruise: After breakfast, transfer to Male to board your luxury liveaboard cruise vessel. Orientation and safety briefing by the cruise director. Set sail towards North Male Atoll. Lunch onboard while cruising to your first destination. Afternoon snorkeling at a vibrant coral reef. Evening anchorage at a beautiful lagoon. Dinner onboard under the stars. Overnight on the cruise.
+            </DayCard>
+
+            <DayCard title="Day – 2">
+              Atoll Hopping: Early morning cruise to Baa Atoll, a UNESCO Biosphere Reserve. Breakfast onboard followed by snorkeling with manta rays at Hanifaru Bay (seasonal). Visit a local island for cultural experience. Lunch onboard. Afternoon cruise to Ari Atoll, famous for whale shark sightings (seasonal). Evening fishing trip with local guides. Dinner onboard with fresh catch. Overnight on the cruise.
+            </DayCard>
+
+            <DayCard title="Day – 3">
+              South Male Exploration: Morning cruise to South Male Atoll. Breakfast while enjoying ocean views. Visit a resort island for lunch and spa facilities. Afternoon water sports activities - jet skiing, windsurfing, or paddleboarding. Evening visit to a sandbank for sunset photography. Special farewell dinner on the beach setup by cruise crew. Overnight on the cruise.
+            </DayCard>
+          </div>
+
+          <AddOnSection
+            title="ROMANTIC HONEYMOON PACKAGE"
+            subtitle="Add-on (or) Separately From MAIN PACKAGE"
+          />
+          <div className="grid gap-10 grid-col-1">
+            <DayCard title="Day – 1">
+              Romantic Arrival: Private seaplane transfer to your overwater villa with champagne welcome. Decorated villa with rose petals and romantic setup. Private candlelit dinner on your villa deck overlooking the ocean. Couples spa treatment in your villa. Breakfast in bed service. Evening private sunset cruise on a traditional dhoni boat. Overnight in luxury overwater villa.
+            </DayCard>
+
+            <DayCard title="Day – 2">
+              Island Romance: Private breakfast on a deserted sandbank arranged exclusively for you. Couples cooking class with resort chef to learn Maldivian cuisine. Afternoon private yacht trip to a secluded island for swimming and relaxation. Romantic beach BBQ dinner under the stars with personal butler service. Stargazing session with astronomy guide. Overnight in luxury villa.
+            </DayCard>
+
+            <DayCard title="Day – 3">
+              Luxury Indulgence: Private underwater dining experience at the resort's signature restaurant. Couples spa day with full body treatments and massages. Afternoon private photoshoot around the resort and island. Evening sunset dolphin cruise with champagne. Special romantic dinner setup on the beach with live music. Overnight in luxury villa.
+            </DayCard>
+          </div>
+
+        </div>
+      </div>
       {/* ================= MAIN TOUR PACKAGES ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
@@ -150,7 +236,7 @@ export default function MaldivesPage() {
                 Islamic architecture, and luxury shopping. 
                 Visit the Presidential Palace and Grand Friday Mosque.
               </p>
-              <div className="flex items-center gap-2 text-blue-600">
+              <div className="flex items-center justify-center gap-2 text-blue-600">
                 <MapPin className="w-4 h-4" />
                 <span className="text-sm">Capital Experience</span>
               </div>
@@ -167,7 +253,7 @@ export default function MaldivesPage() {
                 parasailing, windsurfing, and kitesurfing. 
                 Professional instructors and top-quality equipment.
               </p>
-              <div className="flex items-center gap-2 text-cyan-600">
+              <div className="flex items-center justify-center gap-2 text-cyan-600">
                 <MapPin className="w-4 h-4" />
                 <span className="text-sm">All Resorts</span>
               </div>
@@ -184,7 +270,7 @@ export default function MaldivesPage() {
                 couples massages, and holistic wellness programs 
                 overlooking the pristine Indian Ocean.
               </p>
-              <div className="flex items-center gap-2 text-green-600">
+              <div className="flex items-center justify-center gap-2 text-green-600">
                 <MapPin className="w-4 h-4" />
                 <span className="text-sm">Luxury Spas</span>
               </div>
@@ -201,7 +287,7 @@ export default function MaldivesPage() {
                 with 360-degree views of marine life. 
                 Fine dining with sharks, rays, and tropical fish.
               </p>
-              <div className="flex items-center gap-2 text-purple-600">
+              <div className="flex items-center justify-center gap-2 text-purple-600">
                 <MapPin className="w-4 h-4" />
                 <span className="text-sm">Unique Experience</span>
               </div>
@@ -218,7 +304,7 @@ export default function MaldivesPage() {
                 and countless tropical fish. PADI certification 
                 courses and guided dives available.
               </p>
-              <div className="flex items-center gap-2 text-teal-600">
+              <div className="flex items-center justify-center gap-2 text-teal-600">
                 <MapPin className="w-4 h-4" />
                 <span className="text-sm">Marine Paradise</span>
               </div>
@@ -235,7 +321,7 @@ export default function MaldivesPage() {
                 dolphin watching, and private beach dinners 
                 under the stars with champagne service.
               </p>
-              <div className="flex items-center gap-2 text-orange-600">
+              <div className="flex items-center justify-center gap-2 text-orange-600">
                 <MapPin className="w-4 h-4" />
                 <span className="text-sm">Romantic Experience</span>
               </div>
@@ -244,10 +330,62 @@ export default function MaldivesPage() {
         </div>
       </section>
 
- 
+
+   <TourPricingSection
+    title="Maldives Signature Island Experiences"
+subtitle="Exclusive stays in the world’s most luxurious tropical paradise"
+     
+       packages={[
+         { label: "recommended for extended duration", days: "6N / 7D", price: 22600 },
+         { label: "highly recommended", days: "5N / 6D", price: 19000 },
+         { label: "most popular", days: "4N / 5D", price: 15400 },
+          { label: "Group 20+", days: "3N / 4D", price: 12700 },
+         { label: "", days: "2N / 3D", price: 9100},
+         { label: "Not Feasible", days: "1N / 2D", price: 3700, disabled: true },
+       ]}
+     />
         
      <ContactCTA />
 
     </main>
+  )
+}
+
+/* COMPONENTS */
+
+function SectionTitle({ title, subtitle }: { title: string; subtitle: string }) {
+  return (
+    <div className="flex flex-col space-y-2">
+      <div className='flex gap-5 items-center'>
+      <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
+       <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+        Book now For 5N/6D
+      </a>
+      </div>
+      <p className="font-semibold text-gray-700">{subtitle}</p>
+    </div>
+  )
+}
+
+function DayCard({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-blue-600">
+      <h3 className="text-2xl font-semibold text-blue-700 mb-4">{title}</h3>
+      <p className="text-gray-700 leading-8 whitespace-pre-line">{children}</p>
+    </div>
+  )
+}
+
+function AddOnSection({ title, subtitle }: { title: string; subtitle: string }) {
+  return (
+    <div className="flex flex-col space-y-2">
+      <div className='flex gap-5 items-center'> 
+      <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
+       <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+        Book now For 2N/3D
+      </a>
+      </div>
+     <p className="font-semibold text-gray-700">{subtitle}</p>
+    </div>
   )
 }

@@ -274,3 +274,378 @@ Import traces:
 [21:40:10.408] Server  LOG     ✓ Compiled in 58ms
 [21:40:17.219] Server  LOG     ✓ Compiled in 59ms
 [21:40:35.493] Server  LOG     ✓ Compiled in 55ms
+[21:44:17.873] Browser WARN    Image with src "https://images.unsplash.com/photo-1650341259809-9314b0de9268?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[21:44:17.873] Browser WARN    Image with src "https://images.unsplash.com/photo-1629723248038-8b3bc1ecce29?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cHVyaS1vZGlzaGF8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[21:44:17.873] Browser WARN    Image with src "/img/Bhutan.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[21:44:17.873] Browser WARN    Image with src "/Goa.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[21:44:17.873] Browser WARN    Image with src "https://images.unsplash.com/photo-1600845747913-e33543f94892?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RGFsJTIwbGFrZXxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[21:44:17.873] Browser WARN    Image with src "/Himachal.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[21:44:17.873] Browser WARN    Image with src "/Andaman.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[21:44:17.873] Browser WARN    Image with src "https://images.unsplash.com/photo-1651516725197-9ed18b572abe?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fEZvcnQlMjBSYWphc3RoYW58ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[21:44:17.873] Browser WARN    Image with src "/hotal/Kamakhya41.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[21:45:08.725] Browser WARN    Image with src "/Kerala.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[21:48:01.963] Server  LOG     ✓ Compiled in 119ms
+[21:48:22.923] Server  LOG     ✓ Compiled in 114ms
+[21:48:23.022] Browser ERROR   uncaughtError: ReferenceError: TourPricingSection is not defined
+[21:48:51.397] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[21:48:51.518] Server  LOG     ✓ Compiled in 597ms
+[21:48:51.839] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[21:49:16.741] Server  LOG     ✓ Compiled in 66ms
+[21:49:47.803] Server  LOG     ✓ Compiled in 57ms
+[21:50:29.853] Server  LOG     ✓ Compiled in 61ms
+[21:50:30.165] Browser ERROR   uncaughtError: ReferenceError: children is not defined
+[21:50:50.242] Server  LOG     ✓ Compiled in 69ms
+[21:50:51.167] Browser ERROR   ./app/dubai/page.tsx:250:118
+Parsing ecmascript source code failed
+  248 |
+  249 |
+> 250 | function AddOnSection({ title, subtitle, children }: { title: string; subtitle: string; children: React.ReactNode }) ) {
+      |                                                                                                                      ^
+  251 |   return (
+  252 |     <div className="flex flex-col  space-y-2">
+  253 |
+
+Expected '{', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/dubai/page.tsx [Client Component Browser]
+    ./app/dubai/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dubai/page.tsx [Client Component SSR]
+    ./app/dubai/page.tsx [Server Component]
+[21:50:51.167] Browser ERROR   ./app/dubai/page.tsx:250:118
+Parsing ecmascript source code failed
+  248 |
+  249 |
+> 250 | function AddOnSection({ title, subtitle, children }: { title: string; subtitle: string; children: React.ReactNode }) ) {
+      |                                                                                                                      ^
+  251 |   return (
+  252 |     <div className="flex flex-col  space-y-2">
+  253 |
+
+Expected '{', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/dubai/page.tsx [Client Component Browser]
+    ./app/dubai/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dubai/page.tsx [Client Component SSR]
+    ./app/dubai/page.tsx [Server Component]
+[21:50:57.706] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[21:50:58.124] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[21:51:26.612] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[21:52:11.469] Server  LOG     ✓ Compiled in 60ms
+[21:52:18.844] Server  LOG     ✓ Compiled in 49ms
+[21:52:36.177] Server  LOG     ✓ Compiled in 55ms
+[21:53:02.361] Server  LOG     ✓ Compiled in 66ms
+[21:53:10.262] Server  LOG     ✓ Compiled in 58ms
+[21:53:16.733] Server  LOG     ✓ Compiled in 65ms
+[21:53:41.592] Server  LOG     ✓ Compiled in 59ms
+[21:54:24.387] Server  LOG     ✓ Compiled in 212ms
+[21:54:39.171] Server  LOG     ✓ Compiled in 70ms
+[21:54:50.667] Server  LOG     ✓ Compiled in 124ms
+[21:54:55.704] Server  LOG     ✓ Compiled in 51ms
+[21:54:59.927] Server  LOG     ✓ Compiled in 56ms
+[21:55:11.000] Server  LOG     ✓ Compiled in 53ms
+[21:55:30.210] Server  LOG     ✓ Compiled in 57ms
+[21:55:50.453] Server  LOG     ✓ Compiled in 60ms
+[21:56:05.080] Browser WARN    Image with src "https://images.unsplash.com/photo-1532008779255-4b4dd2668c84?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Qmh1dGFuLVRoaW1wdXxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[21:56:05.080] Browser WARN    Image with src "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RHViYWl8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[21:56:05.080] Browser WARN    Image with src "https://images.unsplash.com/photo-1720811970882-70a5196ee37e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TmVwYWwlMjAlMjYlMjBLYXRobWFuZHV8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[21:56:05.080] Browser WARN    Image with src "https://images.unsplash.com/photo-1712487650909-2aaf5c5eac36?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VGhhaWxhbmQlMjAlMjYlMjBCYW5na29rfGVufDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[21:56:05.080] Browser WARN    Image with src "https://images.unsplash.com/photo-1572025310208-2fd6b91764c1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TGFrc2hhZHdlZXB8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[21:56:05.080] Browser WARN    Image with src "https://images.unsplash.com/photo-1496939376851-89342e90adcd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8U2luZ2Fwb3JlfGVufDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[21:56:05.080] Browser WARN    Image with src "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[21:56:05.080] Browser WARN    Image with src "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[21:56:05.080] Browser WARN    Image with src "/Maldives.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[21:57:02.101] Server  LOG     ✓ Compiled in 59ms
+[21:57:02.185] Browser ERROR   uncaughtError: ReferenceError: TourPricingSection is not defined
+[21:57:09.277] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[21:57:09.418] Server  LOG     ✓ Compiled in 64ms
+[21:57:09.804] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[21:57:18.066] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[21:57:30.941] Server  LOG     ✓ Compiled in 59ms
+[21:57:40.113] Server  LOG     ✓ Compiled in 52ms
+[21:57:43.393] Server  LOG     ✓ Compiled in 55ms
+[21:57:58.693] Server  LOG     ✓ Compiled in 57ms
+[21:59:19.450] Server  LOG     ✓ Compiled in 89ms
+[22:03:00.677] Browser WARN    Image with src "https://images.unsplash.com/photo-1532008779255-4b4dd2668c84?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Qmh1dGFuLVRoaW1wdXxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:00.677] Browser WARN    Image with src "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RHViYWl8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:00.677] Browser WARN    Image with src "https://images.unsplash.com/photo-1720811970882-70a5196ee37e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TmVwYWwlMjAlMjYlMjBLYXRobWFuZHV8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:00.677] Browser WARN    Image with src "https://images.unsplash.com/photo-1712487650909-2aaf5c5eac36?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VGhhaWxhbmQlMjAlMjYlMjBCYW5na29rfGVufDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:00.677] Browser WARN    Image with src "https://images.unsplash.com/photo-1496939376851-89342e90adcd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8U2luZ2Fwb3JlfGVufDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:00.677] Browser WARN    Image with src "https://images.unsplash.com/photo-1572025310208-2fd6b91764c1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TGFrc2hhZHdlZXB8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:00.677] Browser WARN    Image with src "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:00.677] Browser WARN    Image with src "/Maldives.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:00.677] Browser WARN    Image with src "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:18.346] Browser WARN    Image with src "https://images.unsplash.com/photo-1698753864905-a447aa362ec9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRhcmplZWxpbmd8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:18.346] Browser WARN    Image with src "https://images.unsplash.com/photo-1657282928361-ec9de3f2bc74?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:18.346] Browser WARN    Image with src "https://images.unsplash.com/photo-1477764250597-dffe9f601ae8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Um95YWwlMjBCZW5nYWwlMjBUaWdlcnxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:18.346] Browser WARN    Image with src "https://images.unsplash.com/photo-1647102208648-5f3175091dda?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8S29sa2F0YXxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:18.346] Browser WARN    Image with src "https://images.unsplash.com/photo-1548574505-5e239809ee19?q=80&w=2764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:18.346] Browser WARN    Image with src "https://images.unsplash.com/photo-1669514463894-0475a3e062ff?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:18.346] Browser WARN    Image with src "https://images.unsplash.com/photo-1550697797-f01b4e83a1be?q=80&w=2676&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:18.346] Browser WARN    Image with src "https://images.unsplash.com/photo-1727640826472-bf7456dc030c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:18.346] Browser WARN    Image with src "https://images.unsplash.com/photo-1681137063068-081072cf04b4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RmlsbSUyMHNob290aW5nfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:18.346] Browser WARN    Image with src "https://images.unsplash.com/photo-1763912111586-aed87ee0c3aa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEhlcml0YWdlJTIwVG91ciUyMCUyNiUyMFdhbGtzfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:18.346] Browser WARN    Image with src "https://images.unsplash.com/photo-1599106242383-271adeb2e828?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SGlsbHN8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:18.346] Browser WARN    Image with src "https://images.unsplash.com/photo-1554380726-5bd6b17b42e5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SnVuZ2xlJTIwU2FmYXJpfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:18.346] Browser WARN    Image with src "https://images.unsplash.com/photo-1651678938586-affccc71c270?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:18.346] Browser WARN    Image with src "/img/puri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:18.346] Browser WARN    Image with src "https://images.unsplash.com/photo-1629248457649-b082812aea6c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Uml2ZXIlMjBSYWZ0aW5nfGVufDB8fDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:18.346] Browser WARN    Image with src "https://images.unsplash.com/photo-1761933810905-ccc35b14d937?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2hvcnQlMjBCcmVha3N8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:03:18.346] Browser WARN    Image with src "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VHJla2tpbmd8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:05:29.456] Server  LOG     ✓ Compiled in 69ms
+[22:06:48.101] Server  LOG     ✓ Compiled in 61ms
+[22:07:06.449] Server  LOG     ✓ Compiled in 74ms
+[22:24:44.067] Server  LOG     ✓ Compiled in 67ms
+[22:32:43.548] Server  LOG     ✓ Compiled in 67ms
+[22:33:51.650] Server  LOG     ✓ Compiled in 59ms
+[22:34:01.549] Server  LOG     ✓ Compiled in 62ms
+[22:34:08.602] Server  LOG     ✓ Compiled in 64ms
+[22:34:19.187] Server  LOG     ✓ Compiled in 67ms
+[22:34:34.194] Server  LOG     ✓ Compiled in 118ms
+[22:34:36.853] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:34:37.060] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/digha" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[22:34:46.895] Server  LOG     ✓ Compiled in 59ms
+[22:34:57.998] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:35:03.829] Browser WARN    Image with src "https://images.unsplash.com/photo-1532008779255-4b4dd2668c84?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Qmh1dGFuLVRoaW1wdXxlbnwwfHwwfHx8MA%3D%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:35:03.829] Browser WARN    Image with src "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RHViYWl8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:35:03.829] Browser WARN    Image with src "https://images.unsplash.com/photo-1720811970882-70a5196ee37e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TmVwYWwlMjAlMjYlMjBLYXRobWFuZHV8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:35:03.829] Browser WARN    Image with src "https://images.unsplash.com/photo-1712487650909-2aaf5c5eac36?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VGhhaWxhbmQlMjAlMjYlMjBCYW5na29rfGVufDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:35:03.829] Browser WARN    Image with src "https://images.unsplash.com/photo-1572025310208-2fd6b91764c1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TGFrc2hhZHdlZXB8ZW58MHx8MHx8fDA%3D" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:35:03.829] Browser WARN    Image with src "https://images.unsplash.com/photo-1496939376851-89342e90adcd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8U2luZ2Fwb3JlfGVufDB8fHww" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:35:03.829] Browser WARN    Image with src "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:35:03.829] Browser WARN    Image with src "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=1200" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:35:03.829] Browser WARN    Image with src "/Maldives.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:37:56.388] Server  LOG     ✓ Compiled in 68ms
+[22:37:56.492] Browser ERROR   ./app/nepal/page.tsx:78:19
+Parsing ecmascript source code failed
+  76 |               <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+  77 |           Boo
+> 78 |             </div>k now For 2N/3D
+     |                   ^^^^^^^^^^^^^^^
+> 79 |         </a>
+     | ^^^^^^^^^
+  80 |           <p className="text-gray-700 text-lg">
+  81 |             Special Tailor made Combination Package
+  82 |           </p>
+
+Expected '</', got 'jsx text'
+
+Import traces:
+  Client Component Browser:
+    ./app/nepal/page.tsx [Client Component Browser]
+    ./app/nepal/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/nepal/page.tsx [Client Component SSR]
+    ./app/nepal/page.tsx [Server Component]
+[22:37:56.642] Browser ERROR   ./app/nepal/page.tsx:78:19
+Parsing ecmascript source code failed
+  76 |               <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+  77 |           Boo
+> 78 |             </div>k now For 2N/3D
+     |                   ^^^^^^^^^^^^^^^
+> 79 |         </a>
+     | ^^^^^^^^^
+  80 |           <p className="text-gray-700 text-lg">
+  81 |             Special Tailor made Combination Package
+  82 |           </p>
+
+Expected '</', got 'jsx text'
+
+Import traces:
+  Client Component Browser:
+    ./app/nepal/page.tsx [Client Component Browser]
+    ./app/nepal/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/nepal/page.tsx [Client Component SSR]
+    ./app/nepal/page.tsx [Server Component]
+[22:38:24.454] Server  LOG     ✓ Compiled in 57ms
+[22:40:33.844] Server  LOG     ✓ Compiled in 91ms
+[22:41:37.591] Server  LOG     ✓ Compiled in 64ms
+[22:41:40.846] Server  LOG     ✓ Compiled in 59ms
+[22:42:41.240] Server  LOG     ✓ Compiled in 55ms
+[22:42:52.065] Server  LOG     ✓ Compiled in 93ms
+[22:42:52.168] Browser ERROR   ./app/thailand/page.tsx:97:118
+Parsing ecmascript source code failed
+   95 |
+   96 |             {/* DAY 1 */}
+>  97 |             <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-pink-500 h-full flex flex-col min-h-[520px]">
+      |                                                                                                                      ^
+   98 |               <h3 className="text-xl font-semibold mb-4 text-pink-600">Day –1</h3>
+   99 |               <div className="text-gray-700 leading-8 flex-grow">
+  100 |                 Start from Kolkata: Board a flight at Kolkata Airport & reach Bangkok after a 2 hrs 40 mins non-stop flight to a warm reception. A 2.5 hrs drive will take you to picturesque Pattaya, a breathtakingly beautiful beach destination. A tropical beach retreat town, Pattaya is a perfect place to laze around under the swaying coconut trees, exploring white sandy beaches, numerous water sports facilities & crystal azure water. Night life in Pattaya; specially for adventure seekers, it is extremely & most happening place in the world. Lunch en-route. Post lunch, will take you for a village tour to Nong Nooch. You can either have the evening all to yourself or see the Alkazar Show at 08.00pm (extra cost), a world famous Cabaret show that can give Lido & Paris’s Moulin Rogue a run for their money. Return & Dinner place of your choice & Overnight at Hotel at Pattaya.
+
+Expected '</', got '['
+
+Import traces:
+  Client Component Browser:
+    ./app/thailand/page.tsx [Client Component Browser]
+    ./app/thailand/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/thailand/page.tsx [Client Component SSR]
+    ./app/thailand/page.tsx [Server Component]
+[22:42:52.283] Browser ERROR   ./app/thailand/page.tsx:97:118
+Parsing ecmascript source code failed
+   95 |
+   96 |             {/* DAY 1 */}
+>  97 |             <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-pink-500 h-full flex flex-col min-h-[520px]">
+      |                                                                                                                      ^
+   98 |               <h3 className="text-xl font-semibold mb-4 text-pink-600">Day –1</h3>
+   99 |               <div className="text-gray-700 leading-8 flex-grow">
+  100 |                 Start from Kolkata: Board a flight at Kolkata Airport & reach Bangkok after a 2 hrs 40 mins non-stop flight to a warm reception. A 2.5 hrs drive will take you to picturesque Pattaya, a breathtakingly beautiful beach destination. A tropical beach retreat town, Pattaya is a perfect place to laze around under the swaying coconut trees, exploring white sandy beaches, numerous water sports facilities & crystal azure water. Night life in Pattaya; specially for adventure seekers, it is extremely & most happening place in the world. Lunch en-route. Post lunch, will take you for a village tour to Nong Nooch. You can either have the evening all to yourself or see the Alkazar Show at 08.00pm (extra cost), a world famous Cabaret show that can give Lido & Paris’s Moulin Rogue a run for their money. Return & Dinner place of your choice & Overnight at Hotel at Pattaya.
+
+Expected '</', got '['
+
+Import traces:
+  Client Component Browser:
+    ./app/thailand/page.tsx [Client Component Browser]
+    ./app/thailand/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/thailand/page.tsx [Client Component SSR]
+    ./app/thailand/page.tsx [Server Component]
+[22:43:03.675] Server  LOG     ✓ Compiled in 70ms
+[22:43:54.206] Server  LOG     ✓ Compiled in 62ms
+[22:43:59.384] Server  LOG     ✓ Compiled in 55ms
+[22:44:40.608] Server  LOG     ✓ Compiled in 67ms
+[22:45:35.996] Server  LOG     ✓ Compiled in 56ms
+[22:46:02.741] Server  LOG     ✓ Compiled in 72ms
+[22:46:02.853] Browser ERROR   ./app/thailand/page.tsx:239:1
+Parsing ecmascript source code failed
+  237 |     </div>
+  238 |   )
+> 239 | }
+      | ^
+  240 |
+  241 | interface ContentProps {
+  242 |   children: React.ReactNode;
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/thailand/page.tsx [Client Component Browser]
+    ./app/thailand/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/thailand/page.tsx [Client Component SSR]
+    ./app/thailand/page.tsx [Server Component]
+[22:46:03.008] Browser ERROR   ./app/thailand/page.tsx:239:1
+Parsing ecmascript source code failed
+  237 |     </div>
+  238 |   )
+> 239 | }
+      | ^
+  240 |
+  241 | interface ContentProps {
+  242 |   children: React.ReactNode;
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/thailand/page.tsx [Client Component Browser]
+    ./app/thailand/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/thailand/page.tsx [Client Component SSR]
+    ./app/thailand/page.tsx [Server Component]
+[22:46:03.206] Browser ERROR   ./app/thailand/page.tsx:239:1
+Parsing ecmascript source code failed
+  237 |     </div>
+  238 |   )
+> 239 | }
+      | ^
+  240 |
+  241 | interface ContentProps {
+  242 |   children: React.ReactNode;
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/thailand/page.tsx [Client Component Browser]
+    ./app/thailand/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/thailand/page.tsx [Client Component SSR]
+    ./app/thailand/page.tsx [Server Component]
+[22:46:30.942] Server  LOG     ✓ Compiled in 57ms
+[22:46:57.508] Server  LOG     ✓ Compiled in 54ms
+[22:54:41.862] Server  LOG     ✓ Compiled in 82ms
+[22:54:55.386] Server  LOG     ✓ Compiled in 66ms
+[22:55:08.506] Server  LOG     ✓ Compiled in 58ms
+[22:55:25.113] Server  LOG     ✓ Compiled in 60ms
+[22:55:50.396] Server  LOG     ✓ Compiled in 61ms
+[22:56:03.162] Server  LOG     ✓ Compiled in 63ms
+[22:56:31.483] Server  LOG     ✓ Compiled in 68ms
+[22:56:50.871] Server  LOG     ✓ Compiled in 58ms
+[22:56:59.231] Server  LOG     ✓ Compiled in 57ms
+[22:59:18.889] Server  LOG     ✓ Compiled in 65ms
+[22:59:24.023] Server  LOG     ✓ Compiled in 55ms
+[22:59:58.249] Server  LOG     ✓ Compiled in 54ms
+[23:00:16.277] Server  LOG     ✓ Compiled in 56ms
+[23:00:23.206] Server  LOG     ✓ Compiled in 98ms
+[23:00:39.371] Server  LOG     ✓ Compiled in 66ms
+[23:01:03.315] Server  LOG     ✓ Compiled in 58ms
+[23:01:15.379] Server  LOG     ✓ Compiled in 59ms
+[23:03:13.635] Server  LOG     ✓ Compiled in 76ms
+[23:03:40.511] Server  LOG     ✓ Compiled in 60ms
+[23:04:04.090] Server  LOG     ✓ Compiled in 62ms
+[23:05:51.067] Server  LOG     ✓ Compiled in 57ms
+[23:06:02.384] Server  LOG     ✓ Compiled in 52ms
+[23:06:19.054] Server  LOG     ✓ Compiled in 57ms
+[23:07:35.856] Server  LOG     ✓ Compiled in 93ms
+[23:07:35.967] Browser ERROR   uncaughtError: ReferenceError: SectionTitle is not defined
+[23:07:46.920] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[23:07:47.096] Server  LOG     ✓ Compiled in 80ms
+[23:07:47.722] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[23:08:41.035] Browser WARN    Image with src "/newsletter.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:09:00.690] Server  LOG     ✓ Compiled in 59ms
+[23:09:13.708] Server  LOG     ✓ Compiled in 60ms
+[23:10:16.969] Server  LOG     ✓ Compiled in 68ms

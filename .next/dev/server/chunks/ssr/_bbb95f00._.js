@@ -785,29 +785,34 @@ function BhutanPage() {
                 subtitle: "Explore the Land of the Thunder Dragon with curated journeys",
                 packages: [
                     {
-                        label: "Most Popular",
-                        days: "5N / 6D",
-                        price: 19400
+                        label: "recommended for extended duration",
+                        days: "6N / 7D",
+                        price: 22600
                     },
                     {
-                        label: "Recommended",
+                        label: "highly recommended",
+                        days: "5N / 6D",
+                        price: 19000
+                    },
+                    {
+                        label: "most popular",
                         days: "4N / 5D",
                         price: 15400
                     },
                     {
-                        label: "Short Break",
+                        label: "Group 20+",
                         days: "3N / 4D",
                         price: 12700
                     },
                     {
-                        label: "Group 20+",
+                        label: "",
                         days: "2N / 3D",
                         price: 9100
                     },
                     {
                         label: "Not Feasible",
                         days: "1N / 2D",
-                        price: 6400,
+                        price: 3700,
                         disabled: true
                     }
                 ]
@@ -818,7 +823,7 @@ function BhutanPage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/bhutan/page.tsx",
-                lineNumber: 178,
+                lineNumber: 179,
                 columnNumber: 7
             }, this)
         ]
@@ -840,7 +845,7 @@ function BhutanPage() {
                         children: title
                     }, void 0, false, {
                         fileName: "[project]/app/bhutan/page.tsx",
-                        lineNumber: 189,
+                        lineNumber: 190,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -849,13 +854,13 @@ function BhutanPage() {
                         children: "Book now For 6N/7D"
                     }, void 0, false, {
                         fileName: "[project]/app/bhutan/page.tsx",
-                        lineNumber: 190,
+                        lineNumber: 191,
                         columnNumber: 8
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/bhutan/page.tsx",
-                lineNumber: 188,
+                lineNumber: 189,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -863,13 +868,13 @@ function BhutanPage() {
                 children: subtitle
             }, void 0, false, {
                 fileName: "[project]/app/bhutan/page.tsx",
-                lineNumber: 194,
+                lineNumber: 195,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/bhutan/page.tsx",
-        lineNumber: 187,
+        lineNumber: 188,
         columnNumber: 5
     }, this);
 }
@@ -882,7 +887,7 @@ function DayCard({ title, children }) {
                 children: title
             }, void 0, false, {
                 fileName: "[project]/app/bhutan/page.tsx",
-                lineNumber: 203,
+                lineNumber: 204,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -890,13 +895,13 @@ function DayCard({ title, children }) {
                 children: children
             }, void 0, false, {
                 fileName: "[project]/app/bhutan/page.tsx",
-                lineNumber: 204,
+                lineNumber: 205,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/bhutan/page.tsx",
-        lineNumber: 202,
+        lineNumber: 203,
         columnNumber: 5
     }, this);
 }
@@ -912,7 +917,7 @@ function AddOnSection({ title, subtitle }) {
                         children: title
                     }, void 0, false, {
                         fileName: "[project]/app/bhutan/page.tsx",
-                        lineNumber: 215,
+                        lineNumber: 216,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -921,13 +926,13 @@ function AddOnSection({ title, subtitle }) {
                         children: "Book now For 2N/3D"
                     }, void 0, false, {
                         fileName: "[project]/app/bhutan/page.tsx",
-                        lineNumber: 216,
+                        lineNumber: 217,
                         columnNumber: 8
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/bhutan/page.tsx",
-                lineNumber: 214,
+                lineNumber: 215,
                 columnNumber: 12
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -935,13 +940,13 @@ function AddOnSection({ title, subtitle }) {
                 children: subtitle
             }, void 0, false, {
                 fileName: "[project]/app/bhutan/page.tsx",
-                lineNumber: 221,
+                lineNumber: 222,
                 columnNumber: 6
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/bhutan/page.tsx",
-        lineNumber: 211,
+        lineNumber: 212,
         columnNumber: 5
     }, this);
 }

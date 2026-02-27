@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout } from 'lucide-react'
 import ContactCTA from '@/components/ContactCTA'
 import PackagePricing from '@/components/PackagePricing'
+import TourPricingSection from '@/components/TourPricingSection'
 
 export default function MalaysiaPage() {
   return (
@@ -64,20 +65,27 @@ export default function MalaysiaPage() {
       <div className="max-w-7xl mx-auto space-y-16">
 
         {/* HEADER */}
-        <div className="text-center space-y-4">
+          <div className="flex flex-col  space-y-2">
+
+
+        <div className='flex gap-5 items-center'>
           <h1 className="text-4xl md:text-5xl font-bold text-blue-700">
             Malaysia Tour Itinerary
           </h1>
+            <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+            Book now For 3N/4D
+          </a>
+          </div>
           <p className="text-gray-600">
             Kuala Lumpur & Genting Highlands – 4 Days
           </p>
         </div>
 
         {/* GRID */}
-        <div className="grid md:grid-cols-2 gap-10 items-stretch">
+        <div className="grid md:grid-cols-1 gap-10 items-stretch">
 
           {/* DAY 1 */}
-          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-blue-500 h-full flex flex-col min-h-[480px]">
+          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-blue-500 h-full flex flex-col ">
             <h2 className="text-2xl font-semibold text-blue-600 mb-4">
               Day – 1 : Arrival & Kuala Lumpur City Tour
             </h2>
@@ -85,11 +93,18 @@ export default function MalaysiaPage() {
              Arrival at Kuala Lumpur Airport by Air Asia Airlines and Meet and greet at airport and t transfer to hotel. . Pick up  from hotel, we proceed for panoramic city tour of Kuala Lumpur to get a closer look at Kuala Lumpur's most famou landmarks, like the King's Palace, National Monument, National Mosque, Jamed Mosque, Merdeka Square and National Museum. Admire Malaysia's most renowned structure, the world famous Petronas Twin Towers and enjoy a photo stop. See the magnificent Menara K L Tower - the tallest tower in Southeast Asia. Evening you can shop around at Loyat Plaza, Lot 10 or Bukit Bitang area of Kuala Lampur city. Overnight at hotel.
             </div>
           </div>
-
+ <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-green-500 h-full flex flex-col ">
+            <h2 className="text-2xl font-semibold text-green-600 mb-4">
+              Day – 2 : Batu Caves & Firefly Tour
+            </h2>
+            <div className="text-gray-700 leading-8 flex-grow">
+           Morning after breakfast. Pick up at 11.00A.M from hotel’s lobby and proceed to Batu Caves for a short tour. Batu Caves that comprises of three caverns and several smaller caves. It is the shrine of Lord Murugah, a Hindu deity – a flight of 272 steps lead up to the temple cave. Tour continues to Kuala Selangor town in the quiet hamlet of Kampung Kuantan, one of the largest firefly colonies in the world. On arrival at Kuala Selangor, visit “Kota Melawati” formerly known as “Fort Altingsburg”, the execution block, royal mausoleum and colonial buildings. A bird sanctuary park at the foot of Bukit Melawati is an ideal place for bird watchers to watch migratory birds. Also found are silvered – leaf monkeys, butterflies etc. Next proceed to Kampung Kuantan – the highlight of the tour. Row upstream in a small un-motorised boat (tongkang) in the quiet darkness to witness the blinking trees. This scintillating display of fireflies portrays an image of a flashing Christmas tree. The synchronized, rhythmic flashing is produced by the thousands of fireflies found in the mangrove swamp of Kampung Kuantan. The skilled local oarsmen make this experience a memorable and unforgettable one. Dinner at a famous seafood restaurant. Transfer back to hotel 
+            </div>
+          </div>
         
 
           {/* DAY 3 */}
-          <div className="bg-white shadow-xl rounded-3xl p-8 border-r-4 border-purple-500 h-full flex flex-col min-h-[480px]">
+          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-purple-500 h-full flex flex-col ">
             <h2 className="text-2xl font-semibold text-purple-600 mb-4">
               Day – 3 : Genting Highlands
             </h2>
@@ -98,16 +113,9 @@ export default function MalaysiaPage() {
             </div>
           </div>
   {/* DAY 2 */}
-          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-green-500 h-full flex flex-col min-h-[480px]">
-            <h2 className="text-2xl font-semibold text-green-600 mb-4">
-              Day – 2 : Batu Caves & Firefly Tour
-            </h2>
-            <div className="text-gray-700 leading-8 flex-grow">
-           Morning after breakfast. Pick up at 11.00A.M from hotel’s lobby and proceed to Batu Caves for a short tour. Batu Caves that comprises of three caverns and several smaller caves. It is the shrine of Lord Murugah, a Hindu deity – a flight of 272 steps lead up to the temple cave. Tour continues to Kuala Selangor town in the quiet hamlet of Kampung Kuantan, one of the largest firefly colonies in the world. On arrival at Kuala Selangor, visit “Kota Melawati” formerly known as “Fort Altingsburg”, the execution block, royal mausoleum and colonial buildings. A bird sanctuary park at the foot of Bukit Melawati is an ideal place for bird watchers to watch migratory birds. Also found are silvered – leaf monkeys, butterflies etc. Next proceed to Kampung Kuantan – the highlight of the tour. Row upstream in a small un-motorised boat (tongkang) in the quiet darkness to witness the blinking trees. This scintillating display of fireflies portrays an image of a flashing Christmas tree. The synchronized, rhythmic flashing is produced by the thousands of fireflies found in the mangrove swamp of Kampung Kuantan. The skilled local oarsmen make this experience a memorable and unforgettable one. Dinner at a famous seafood restaurant. Transfer back to hotel 
-            </div>
-          </div>
+         
           {/* DAY 4 */}
-          <div className="bg-white shadow-xl rounded-3xl p-8 border-r-4 border-red-500 h-full flex flex-col min-h-[480px]">
+          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-red-500 h-full flex flex-col ">
             <h2 className="text-2xl font-semibold text-red-600 mb-4">
               Day – 4 : Departure
             </h2>
@@ -140,7 +148,19 @@ export default function MalaysiaPage() {
 
       </div>
     </div>
-
+  <TourPricingSection
+  title="Malaysia Elite Getaway Collection"
+subtitle="Curated stays, iconic landmarks & tropical indulgence"
+    
+      packages={[
+        { label: "recommended for extended duration", days: "6N / 7D", price: 22600 },
+        { label: "highly recommended", days: "5N / 6D", price: 19000 },
+        { label: "most popular", days: "4N / 5D", price: 15400 },
+         { label: "Group 20+", days: "3N / 4D", price: 12700 },
+        { label: "", days: "2N / 3D", price: 9100},
+        { label: "Not Feasible", days: "1N / 2D", price: 3700, disabled: true },
+      ]}
+    />
        
     <ContactCTA />
     </main>

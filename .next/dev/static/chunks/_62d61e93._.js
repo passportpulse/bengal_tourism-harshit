@@ -674,9 +674,45 @@ function DubaiPage() {
                 lineNumber: 126,
                 columnNumber: 5
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TourPricingSection, {
+                title: "Bhutan Luxury & Adventure Packages",
+                subtitle: "Explore the Land of the Thunder Dragon with curated journeys",
+                packages: [
+                    {
+                        label: "Most Popular",
+                        days: "6N / 7D",
+                        price: 19000
+                    },
+                    {
+                        label: "Recommended",
+                        days: "5N / 4D",
+                        price: 15400
+                    },
+                    {
+                        label: "Short Break",
+                        days: "4N / 3D",
+                        price: 12700
+                    },
+                    {
+                        label: "Group 20+",
+                        days: "2N / 3D",
+                        price: 9100
+                    },
+                    {
+                        label: "Not Feasible",
+                        days: "1N / 2D",
+                        price: 6400,
+                        disabled: true
+                    }
+                ]
+            }, void 0, false, {
                 fileName: "[project]/app/dubai/page.tsx",
                 lineNumber: 214,
+                columnNumber: 10
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/app/dubai/page.tsx",
+                lineNumber: 226,
                 columnNumber: 1
             }, this)
         ]
@@ -696,7 +732,7 @@ _c = DubaiPage;
                 children: title
             }, void 0, false, {
                 fileName: "[project]/app/dubai/page.tsx",
-                lineNumber: 224,
+                lineNumber: 236,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -704,13 +740,13 @@ _c = DubaiPage;
                 children: children
             }, void 0, false, {
                 fileName: "[project]/app/dubai/page.tsx",
-                lineNumber: 227,
+                lineNumber: 239,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/dubai/page.tsx",
-        lineNumber: 223,
+        lineNumber: 235,
         columnNumber: 5
     }, this);
 }
@@ -724,7 +760,7 @@ function AddOnSection({ title, subtitle, children }) {
                 children: title
             }, void 0, false, {
                 fileName: "[project]/app/dubai/page.tsx",
-                lineNumber: 237,
+                lineNumber: 249,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -732,14 +768,14 @@ function AddOnSection({ title, subtitle, children }) {
                 children: subtitle
             }, void 0, false, {
                 fileName: "[project]/app/dubai/page.tsx",
-                lineNumber: 238,
+                lineNumber: 250,
                 columnNumber: 7
             }, this),
             children
         ]
     }, void 0, true, {
         fileName: "[project]/app/dubai/page.tsx",
-        lineNumber: 236,
+        lineNumber: 248,
         columnNumber: 5
     }, this);
 }

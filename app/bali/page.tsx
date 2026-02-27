@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout } from 'lucide-react'
 import PackagePricing from '@/components/PackagePricing'
 import ContactCTA from '@/components/ContactCTA'
+import TourPricingSection from '@/components/TourPricingSection'
 
 export default function BaliPage() {
   return (
@@ -63,18 +64,24 @@ export default function BaliPage() {
  <div className="bg-gray-50 py-20 px-6 md:px-12">
       <div className="max-w-7xl mx-auto space-y-16">
 
-        {/* HEADER */}
-        <div className="text-center space-y-4">
+                <div className="flex flex-col  space-y-2">
+
+
+        <div className='flex gap-5 items-center'>
           <h1 className="text-4xl md:text-5xl font-bold text-orange-600">
             Bali Tour Itinerary
           </h1>
+             <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+            Book now For 3N/4D
+          </a>
+           </div>
           <p className="text-gray-600">
             4 Days – Leisure, Culture & Scenic Experience
           </p>
         </div>
 
         {/* GRID LAYOUT */}
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid md:grid-cols-1 gap-12">
 
           {/* LEFT COLUMN */}
           <div className="space-y-12">
@@ -117,7 +124,7 @@ export default function BaliPage() {
           <div className="space-y-12">
 
             {/* DAY 3 */}
-            <div className="bg-white shadow-xl rounded-3xl p-8 border-r-4 border-purple-500">
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-purple-500">
               <h2 className="text-2xl font-semibold text-purple-600 mb-4">
                 Day – 3 : Bedugul & Tanah Lot Tour
               </h2>
@@ -134,7 +141,7 @@ export default function BaliPage() {
             </div>
 
             {/* DAY 4 */}
-            <div className="bg-white shadow-xl rounded-3xl p-8 border-r-4 border-red-500">
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-red-500">
               <h2 className="text-2xl font-semibold text-red-600 mb-4">
                 Day – 4 : Departure
               </h2>
@@ -167,7 +174,19 @@ export default function BaliPage() {
       </div>
     </div>
 
+  <TourPricingSection
+ title="Bali Romantic Escape Collection"
+subtitle="Sunset beaches, jungle villas & unforgettable moments"
 
+       packages={[
+         { label: "recommended for extended duration", days: "6N / 7D", price: 22600 },
+         { label: "highly recommended", days: "5N / 6D", price: 19000 },
+         { label: "most popular", days: "4N / 5D", price: 15400 },
+          { label: "Group 20+", days: "3N / 4D", price: 12700 },
+         { label: "", days: "2N / 3D", price: 9100},
+         { label: "Not Feasible", days: "1N / 2D", price: 3700, disabled: true },
+       ]}
+     />
 <ContactCTA />
     </main>
   )

@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout } from 'lucide-react'
 import ContactCTA from '@/components/ContactCTA'
 import PackagePricing from '@/components/PackagePricing'
+import TourPricingSection from '@/components/TourPricingSection'
 
 export default function LakshadweepPage() {
   return (
@@ -76,17 +77,24 @@ export default function LakshadweepPage() {
             </p>
           </div>
 
-          <div className="space-y-6 text-center">
+   <div className="flex flex-col  space-y-2">
+
+
+      <div className='flex gap-5 items-center'>
             <h2 className="text-3xl font-bold text-gray-800">LAKSHADWEEP</h2>
+            <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+                Book now For 4N/5D
+              </a>
+              </div>
             <p className="font-semibold text-gray-700">
-              Circuit with [AGATTI – BANGARAM – KAVARATTI – 4N/5D]
+              Circuit with AGATTI – BANGARAM – KAVARATTI
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-10 items-stretch">
+          <div className="grid md:grid-cols-1 gap-10 items-stretch">
 
             {/* DAY 1 */}
-            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-pink-500 h-full flex flex-col min-h-[520px]">
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-pink-500 h-full flex flex-col ">
               <h3 className="text-xl font-semibold mb-4 text-cyan-600">Day –1</h3>
               <div className="text-gray-700 leading-8 flex-grow">
                 Arrival at Agatti Airport. Our representative will receive you and transfer you to the beach resort. Agatti is famous for its turquoise lagoon and coral reefs. After check-in, relax and enjoy the pristine beach.
@@ -96,7 +104,7 @@ export default function LakshadweepPage() {
             </div>
 
             {/* DAY 2 */}
-            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-blue-500 h-full flex flex-col min-h-[520px]">
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-blue-500 h-full flex flex-col ">
               <h3 className="text-xl font-semibold mb-4 text-blue-600">Day –2</h3>
               <div className="text-gray-700 leading-8 flex-grow">
                 After breakfast, proceed by boat to Bangaram Island – one of the most beautiful coral islands in Lakshadweep. Famous for crystal clear water and exotic marine life.
@@ -108,7 +116,7 @@ export default function LakshadweepPage() {
             </div>
 
             {/* DAY 3 */}
-            <div className="bg-white shadow-xl rounded-3xl p-8 border-r-4 border-green-500 h-full flex flex-col min-h-[520px]">
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-green-500 h-full flex flex-col ">
               <h3 className="text-xl font-semibold mb-4 text-green-600">Day –3</h3>
               <div className="text-gray-700 leading-8 flex-grow">
                 After breakfast, transfer to Kavaratti Island – the capital of Lakshadweep. Visit Marine Aquarium showcasing rare marine species and corals.
@@ -120,7 +128,7 @@ export default function LakshadweepPage() {
             </div>
 
             {/* DAY 4 */}
-            <div className="bg-white shadow-xl rounded-3xl p-8 border-r-4 border-purple-500 h-full flex flex-col min-h-[520px]">
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-purple-500 h-full flex flex-col ">
               <h3 className="text-xl font-semibold mb-4 text-purple-600">Day –4</h3>
               <div className="text-gray-700 leading-8 flex-grow">
                 After breakfast, day free for leisure and adventure activities. Enjoy optional scuba diving, deep sea fishing, kayaking, reef walking or simply relax by the beach.
@@ -131,7 +139,7 @@ export default function LakshadweepPage() {
               </div>
             </div>
 
-            <div className="bg-white shadow-xl rounded-3xl p-8 border-r-4 border-purple-500 h-full flex flex-col min-h-[520px]">
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-purple-500 h-full flex flex-col ">
 
               <h3 className="text-xl font-semibold mb-4 text-pink-600">Day –5</h3>
               <div className="text-gray-700 leading-8 flex-grow">
@@ -142,10 +150,18 @@ export default function LakshadweepPage() {
             </div>
           </div>
 
-      
+          {/* ADDITIONAL ISLAND DESTINATIONS */}
+          <div className="text-center space-y-4 mb-12">
+            <h2 className="text-4xl font-bold text-indigo-600">
+              Additional Island Destinations
+            </h2>
+            <p className="text-lg text-gray-700">
+              Explore more pristine islands with our add-on packages
+            </p>
+          </div>
 
           {/* KRABI */}
-          <Section title="KADMAT ISLAND" subtitle="Add-on (or) Separately with [KADMAT – 2N/3D]">
+          <Section title="KADMAT ISLAND" subtitle="Add-on (or) Separately with KADMAT ">
             <Content>
              Day –1: Arrival at Kadmat Island. Transfer to Resort. Relax at white sandy beach. Evening sunset walk. Dinner & Overnight stay.
 
@@ -156,7 +172,7 @@ Day –2: After breakfast, enjoy water sports like snorkeling, scuba diving, kay
 Day –3: After breakfast, check-out and transfer to Agatti Airport for onward journey. Tour ends.
             </Content>
           </Section>
-<Section title="MINICOY ISLAND" subtitle="Add-on (or) Separately with [MINICOY – 2N/3D]">
+<Section title="MINICOY ISLAND" subtitle="Add-on (or) Separately with MINICOY">
   <Content>
     Day –1: Arrival at Minicoy Island. Transfer to beach resort. Minicoy is famous for its crescent-shaped lagoon and lighthouse views. After check-in, relax on the untouched beaches surrounded by coconut groves. Evening visit to the historic Lighthouse offering panoramic sunset views. Dinner & Overnight stay at Resort.
 
@@ -170,7 +186,7 @@ Day –3: After breakfast, check-out and transfer to Agatti Airport for onward j
   </Content>
 </Section>
 
-<Section title="KALPENI ISLAND" subtitle="Add-on (or) Separately with [KALPENI – 2N/3D]">
+<Section title="KALPENI ISLAND" subtitle="Add-on (or) Separately with KALPENI">
   <Content>
     Day –1: Arrival at Kalpeni Island. Transfer to resort. Kalpeni is known for its shallow lagoons and beautiful coral debris beaches. After check-in, relax and enjoy serene beach time. Evening sunset photography and lagoon walk. Dinner & Overnight stay.
 
@@ -186,6 +202,18 @@ Day –3: After breakfast, check-out and transfer to Agatti Airport for onward j
 
         </div>
       </div>
+           <TourPricingSection
+                  title="Lakshadweep Luxury Island Retreats"
+subtitle="Crystal-clear waters, private beaches & curated tropical escapes"
+                        packages={[
+              { label: "recommended for extended duration", days: "6N / 7D", price: 22600 },
+              { label: "highly recommended", days: "5N / 6D", price: 19000 },
+              { label: "most popular", days: "4N / 5D", price: 15400 },
+               { label: "Group 20+", days: "3N / 4D", price: 12700 },
+              { label: "", days: "2N / 3D", price: 9100},
+              { label: "Not Feasible", days: "1N / 2D", price: 3700, disabled: true },
+            ]}
+                   />
       <ContactCTA />
     </main>
   )
@@ -201,8 +229,17 @@ interface SectionProps {
 function Section({ title, subtitle, children }: SectionProps) {
   return (
     <div className="bg-white shadow-xl rounded-3xl p-10 space-y-6">
-      <h2 className="text-3xl font-bold text-indigo-600">{title}</h2>
-      <p className="text-gray-700 font-medium">{subtitle}</p>
+      <div className="flex flex-col  space-y-2">
+
+
+        <div className='flex gap-5 items-center'>
+          <h2 className="text-3xl font-bold text-indigo-600">{title}</h2>
+          <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+            Book now For 2N/3D
+          </a>
+        </div>
+        <p className="text-gray-700 font-medium">{subtitle}</p>
+      </div>
       {children}
     </div>
   )

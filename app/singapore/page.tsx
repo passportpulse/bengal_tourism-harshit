@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout } from 'lucide-react'
 import ContactCTA from '@/components/ContactCTA'
 import PackagePricing from '@/components/PackagePricing'
+import TourPricingSection from '@/components/TourPricingSection'
 
 export default function SingaporePage() {
   return (
@@ -64,23 +65,28 @@ export default function SingaporePage() {
       <div className="max-w-7xl mx-auto space-y-16">
 
         {/* HEADER */}
-        <div className="text-center space-y-4">
+            <div className="flex flex-col  space-y-2">
+
+
+        <div className='flex gap-5 items-center'>
           <h1 className="text-4xl md:text-5xl font-bold text-red-600">
             Singapore Tour Itinerary
           </h1>
+              <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+            Book now For 3N/4D
+          </a>
+        </div>
           <p className="text-gray-700 text-lg">
             Special Tailor made Combination Package
           </p>
-          <p className="text-gray-600">
-            Number of Days & Cost can be designed on Request.
-          </p>
+       
         </div>
 
         {/* DAY GRID */}
-        <div className="grid md:grid-cols-2 gap-10 items-stretch">
+        <div className="grid md:grid-cols-1 gap-10 items-stretch">
 
           {/* DAY 1 */}
-          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-red-500 h-full flex flex-col min-h-[280px]">
+          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-red-500 h-full flex flex-col ">
             <h2 className="text-2xl font-semibold text-red-600 mb-4">
               Day – 1 : Arrival & City Tour
             </h2>
@@ -90,17 +96,8 @@ export default function SingaporePage() {
 
             </div>
           </div>
-       {/* DAY 3 */}
-          <div className="bg-white shadow-xl rounded-3xl p-8 border-r-4 border-green-500 h-full flex flex-col min-h-[280px]">
-            <h2 className="text-2xl font-semibold text-green-600 mb-4">
-              Day – 3 : Jurong Bird Park & Shopping
-            </h2>
-            <div className="text-gray-700 leading-8 flex-grow">
-         After breakfast visit Jurong National Park. Jurong Bird Park is a 20.2 hectare open-concept park. It is the largest in the Asia Pacific and the best in the world. Its collection of more than 8,000 birds from 600 species is among the largest in the world. The Park specializes in birds from Southeast Asia. Evening free and walk to the city mall for shopping and free evening and Night stayat Hotel / Resort / Singapore.
-            </div>
-          </div>
-          {/* DAY 2 */}
-          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-blue-500 h-full flex flex-col min-h-[280px]">
+            {/* DAY 2 */}
+          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-blue-500 h-full flex flex-col ">
             <h2 className="text-2xl font-semibold text-blue-600 mb-4">
               Day – 2 : Sentosa Island & Night Safari
             </h2>
@@ -108,11 +105,21 @@ export default function SingaporePage() {
   Enjoy your breakfast in the morning; today you will proceed to see an optional tour of Sentosa Island. Visit the Underwater, World, Asia's most popular Sea Aquarium and Cable Car. Return by late afternoon.  Evening you can enjoy the Singapore night safari 4 hrs tour. Night stay at Hotel / Resort / Singapore.
             </div>
           </div>
+       {/* DAY 3 */}
+          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-green-500 h-full flex flex-col ">
+            <h2 className="text-2xl font-semibold text-green-600 mb-4">
+              Day – 3 : Jurong Bird Park & Shopping
+            </h2>
+            <div className="text-gray-700 leading-8 flex-grow">
+         After breakfast visit Jurong National Park. Jurong Bird Park is a 20.2 hectare open-concept park. It is the largest in the Asia Pacific and the best in the world. Its collection of more than 8,000 birds from 600 species is among the largest in the world. The Park specializes in birds from Southeast Asia. Evening free and walk to the city mall for shopping and free evening and Night stayat Hotel / Resort / Singapore.
+            </div>
+          </div>
+        
 
    
 
           {/* DAY 4 */}
-          <div className="bg-white shadow-xl rounded-3xl p-8 border-r-4 border-purple-500 h-full flex flex-col min-h-[280px]">
+          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-purple-500 h-full flex flex-col ">
             <h2 className="text-2xl font-semibold text-purple-600 mb-4">
               Day – 4 : Departure
             </h2>
@@ -145,7 +152,19 @@ export default function SingaporePage() {
 
       </div>
     </div>
-
+  <TourPricingSection
+  title="Bali Elite Adventure & Retreat Packages"
+subtitle="Island thrills, cultural wonders & luxury relaxation"
+     
+       packages={[
+         { label: "recommended for extended duration", days: "6N / 7D", price: 22600 },
+         { label: "highly recommended", days: "5N / 6D", price: 19000 },
+         { label: "most popular", days: "4N / 5D", price: 15400 },
+          { label: "Group 20+", days: "3N / 4D", price: 12700 },
+         { label: "", days: "2N / 3D", price: 9100},
+         { label: "Not Feasible", days: "1N / 2D", price: 3700, disabled: true },
+       ]}
+     />
       <ContactCTA />
 
     </main>

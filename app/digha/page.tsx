@@ -135,7 +135,7 @@ export default function DighaPage() {
             <div className="flex gap-5 items-center mt-8">
 
               <h2 className="text-4xl font-bold text-orange-600 border-b-4 border-orange-500 inline-block pb-2">
-                Mandrmoni
+                Mandarmoni
               </h2>
               <a
                 href="/book-tour"
@@ -196,7 +196,7 @@ export default function DighaPage() {
                <div className="flex gap-5 items-center mt-8">
 
               <h2 className="text-4xl font-bold text-orange-600 border-b-4 border-orange-500 inline-block pb-2">
-            Tajpur – The Hidden Beach Gem of West Bengal
+            Tajpur – Upcoming Port town
               </h2>
               <a
                 href="/book-tour"
@@ -229,24 +229,6 @@ export default function DighaPage() {
             </p>
           </section>
 
-          <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
-            <div className="flex gap-5 items-center mt-8">
-
-              <h2 className="text-4xl font-bold text-orange-600 border-b-4 border-orange-500 inline-block pb-2">
-                Upcoming port Town
-              </h2>
-              <a
-                href="/book-tour"
-                className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
-              >
-                Book Now for 2N/3D
-              </a>
-            </div>
-
-            <p className="text-gray-700 leading-8">
-              Near by coastal town of Digha, Mandarmoni, and Tajpur
-            </p>
-          </section>
 
           {/* Nearby Destinations */}
           <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
@@ -321,14 +303,27 @@ export default function DighaPage() {
         <div className="max-w-7xl mx-auto px-6">
 
           {/* Header */}
-          <div className="text-center mb-16">
+          <div className="flex gap-5 flex-col mb-16">
+                  <div className="flex gap-5 items-center mt-8">
+
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               Digha & Mandarmoni – Beach Circuit Tour Itinerary
             </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
+
+              <a
+                href="/book-tour"
+                className="bg-red-600 shrink-0 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+              >
+                Book Now for 4N/5D
+              </a>
+            </div>
+            <p className="text-gray-600 max-w-2xl ">
               Detailed sightseeing plan covering Digha, Mandarmoni,
               Tajpur, Shankarpur & Udaipur.
             </p>
+
+
+          
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
