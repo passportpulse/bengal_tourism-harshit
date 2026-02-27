@@ -1407,47 +1407,47 @@ function DarjeelingPage() {
                     className: "max-w-7xl mx-auto px-6",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex justify-between items-center mb-16",
+                            className: "flex flex-col  space-y-2",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: " ",
+                                    className: "flex gap-5 items-center",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                             className: "text-4xl md:text-5xl font-bold text-gray-900 mb-4",
                                             children: "Darjeeling – Kalimpong Tour Itinerary"
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 160,
+                                            lineNumber: 162,
                                             columnNumber: 15
                                         }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-gray-600 max-w-2xl",
-                                            children: "Detailed sightseeing plan covering Darjeeling, Kurseong, Kalimpong & Mirik."
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: "/book-tour",
+                                            className: "bg-red-500 px-4 py-4 text-white rounded-full",
+                                            children: "Book now For 5N/6D"
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 163,
-                                            columnNumber: 15
+                                            lineNumber: 165,
+                                            columnNumber: 16
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 159,
-                                    columnNumber: 13
+                                    lineNumber: 161,
+                                    columnNumber: 9
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    href: "/book-tour",
-                                    className: "bg-red-500 px-4 py-4 text-white rounded-full",
-                                    children: "Book now For 5N/6D"
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-gray-600 max-w-2xl",
+                                    children: "Detailed sightseeing plan covering Darjeeling, Kurseong, Kalimpong & Mirik."
                                 }, void 0, false, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 168,
-                                    columnNumber: 13
+                                    lineNumber: 170,
+                                    columnNumber: 12
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/darjeeling/page.tsx",
                             lineNumber: 158,
-                            columnNumber: 11
+                            columnNumber: 10
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch",
@@ -1462,14 +1462,14 @@ function DarjeelingPage() {
                                                     className: "w-6 h-6"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                                    lineNumber: 178,
+                                                    lineNumber: 181,
                                                     columnNumber: 17
                                                 }, this),
                                                 "Day 1 – Arrival & Darjeeling Transfer"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 177,
+                                            lineNumber: 180,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1477,13 +1477,13 @@ function DarjeelingPage() {
                                             children: "Receive at NJP / IXB / Tenzing Norgay Bus Stand. Transfer to Darjeeling (6750 ft), known as the Queen of the Hills. Scenic drive through tea gardens with Himalayan views. Check-in at hotel. Evening free at Mall Road. Dinner & Overnight stay at Darjeeling."
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 181,
+                                            lineNumber: 184,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 175,
+                                    lineNumber: 178,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1496,14 +1496,14 @@ function DarjeelingPage() {
                                                     className: "w-6 h-6"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                                    lineNumber: 192,
+                                                    lineNumber: 195,
                                                     columnNumber: 17
                                                 }, this),
                                                 "Day 4 – Kurseong / Toy Train"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 191,
+                                            lineNumber: 194,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1511,13 +1511,13 @@ function DarjeelingPage() {
                                             children: "Visit Kurseong attractions including Eagle’s Craig, Dow Hills, Makaibari Tea Estate. Optional Toy Train Ride (subject to availability). Dinner & Overnight at Darjeeling."
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 195,
+                                            lineNumber: 198,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 189,
+                                    lineNumber: 192,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1530,14 +1530,14 @@ function DarjeelingPage() {
                                                     className: "w-6 h-6"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                                    lineNumber: 206,
+                                                    lineNumber: 209,
                                                     columnNumber: 17
                                                 }, this),
                                                 "Day 2 – Tiger Hill & City Tour"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 205,
+                                            lineNumber: 208,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1545,13 +1545,13 @@ function DarjeelingPage() {
                                             children: "Early morning visit to Tiger Hill for sunrise view. En-route visit Ghoom Monastery & Batasia Loop. After breakfast, city tour including HMI, Zoo, Ropeway, Tea Estate, Japanese Temple, Tibetan Refugee Centre & more. Dinner & Overnight at Darjeeling."
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 209,
+                                            lineNumber: 212,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 203,
+                                    lineNumber: 206,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1564,14 +1564,14 @@ function DarjeelingPage() {
                                                     className: "w-6 h-6"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                                    lineNumber: 222,
+                                                    lineNumber: 225,
                                                     columnNumber: 17
                                                 }, this),
                                                 "Day 5 – Kalimpong Transfer / South Sikkim (Optional)"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 221,
+                                            lineNumber: 224,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1579,13 +1579,13 @@ function DarjeelingPage() {
                                             children: "Transfer to Kalimpong. Visit Durpin Monastery, Deolo Hill, Morgan House etc. OR Optional South Sikkim tour (Char Dham, Temi Tea Garden, Namchi – extra charge). Dinner & Overnight at Kalimpong."
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 225,
+                                            lineNumber: 228,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 219,
+                                    lineNumber: 222,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1598,14 +1598,14 @@ function DarjeelingPage() {
                                                     className: "w-6 h-6"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                                    lineNumber: 237,
+                                                    lineNumber: 240,
                                                     columnNumber: 17
                                                 }, this),
                                                 "Day 3 – Scenic Local Sightseeing"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 236,
+                                            lineNumber: 239,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1613,13 +1613,13 @@ function DarjeelingPage() {
                                             children: "Full day tour covering Ghoom, Lepchajagat, Lamahatta, Teen Chuley, Lover’s View Point, and Tea Estates. Return by evening. Dinner & Overnight at Darjeeling."
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 240,
+                                            lineNumber: 243,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 234,
+                                    lineNumber: 237,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1632,14 +1632,14 @@ function DarjeelingPage() {
                                                     className: "w-6 h-6"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                                    lineNumber: 257,
+                                                    lineNumber: 260,
                                                     columnNumber: 17
                                                 }, this),
                                                 "Day 6 – Mirik & Departure"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 256,
+                                            lineNumber: 259,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1647,19 +1647,19 @@ function DarjeelingPage() {
                                             children: "After breakfast check-out. Visit Mirik, Gopal Dhara View Point, Pashupati Market (Nepal border). Drop at NJP / IXB before 6 PM. Tour ends with beautiful memories."
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 260,
+                                            lineNumber: 263,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 254,
+                                    lineNumber: 257,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/darjeeling/page.tsx",
-                            lineNumber: 172,
+                            lineNumber: 175,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1686,7 +1686,7 @@ function DarjeelingPage() {
                                     children: "Places of Interest"
                                 }, void 0, false, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 278,
+                                    lineNumber: 281,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1694,13 +1694,13 @@ function DarjeelingPage() {
                                     children: "Discover the crown jewels of Darjeeling - from majestic mountains to serene monasteries"
                                 }, void 0, false, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 279,
+                                    lineNumber: 282,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/darjeeling/page.tsx",
-                            lineNumber: 277,
+                            lineNumber: 280,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1715,12 +1715,12 @@ function DarjeelingPage() {
                                                 className: "w-16 h-16 text-white"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/darjeeling/page.tsx",
-                                                lineNumber: 288,
+                                                lineNumber: 291,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 287,
+                                            lineNumber: 290,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1731,7 +1731,7 @@ function DarjeelingPage() {
                                                     children: "Mountain Views"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                                    lineNumber: 291,
+                                                    lineNumber: 294,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1744,14 +1744,14 @@ function DarjeelingPage() {
                                                                     className: "w-4 h-4 text-orange-500"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                                                    lineNumber: 294,
+                                                                    lineNumber: 297,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 "Tiger Hill - Sunrise over Kanchendzonga"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                                            lineNumber: 293,
+                                                            lineNumber: 296,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1761,14 +1761,14 @@ function DarjeelingPage() {
                                                                     className: "w-4 h-4 text-orange-500"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                                                    lineNumber: 298,
+                                                                    lineNumber: 301,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 "Observatory Hill - Panoramic views"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                                            lineNumber: 297,
+                                                            lineNumber: 300,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1778,32 +1778,32 @@ function DarjeelingPage() {
                                                                     className: "w-4 h-4 text-orange-500"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                                                    lineNumber: 302,
+                                                                    lineNumber: 305,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 "Batasia Loop - Spiral railway track"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                                            lineNumber: 301,
+                                                            lineNumber: 304,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                                    lineNumber: 292,
+                                                    lineNumber: 295,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 290,
+                                            lineNumber: 293,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 286,
+                                    lineNumber: 289,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1815,12 +1815,12 @@ function DarjeelingPage() {
                                                 className: "w-16 h-16 text-white"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/darjeeling/page.tsx",
-                                                lineNumber: 312,
+                                                lineNumber: 315,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 311,
+                                            lineNumber: 314,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1831,7 +1831,7 @@ function DarjeelingPage() {
                                                     children: "Heritage Sites"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                                    lineNumber: 315,
+                                                    lineNumber: 318,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1844,14 +1844,14 @@ function DarjeelingPage() {
                                                                     className: "w-4 h-4 text-orange-500"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                                                    lineNumber: 318,
+                                                                    lineNumber: 321,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 "Himalayan Heritage Train - UNESCO Site"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                                            lineNumber: 317,
+                                                            lineNumber: 320,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1861,14 +1861,14 @@ function DarjeelingPage() {
                                                                     className: "w-4 h-4 text-orange-500"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                                                    lineNumber: 322,
+                                                                    lineNumber: 325,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 "Ghoom Monastery - Oldest in area"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                                            lineNumber: 321,
+                                                            lineNumber: 324,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1878,32 +1878,32 @@ function DarjeelingPage() {
                                                                     className: "w-4 h-4 text-orange-500"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                                                    lineNumber: 326,
+                                                                    lineNumber: 329,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 "Himalayan Mountaineering Institute"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                                            lineNumber: 325,
+                                                            lineNumber: 328,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                                    lineNumber: 316,
+                                                    lineNumber: 319,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 314,
+                                            lineNumber: 317,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 310,
+                                    lineNumber: 313,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1915,12 +1915,12 @@ function DarjeelingPage() {
                                                 className: "w-16 h-16 text-white"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/darjeeling/page.tsx",
-                                                lineNumber: 336,
+                                                lineNumber: 339,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 335,
+                                            lineNumber: 338,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1931,7 +1931,7 @@ function DarjeelingPage() {
                                                     children: "Gardens & Parks"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                                    lineNumber: 339,
+                                                    lineNumber: 342,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1944,14 +1944,14 @@ function DarjeelingPage() {
                                                                     className: "w-4 h-4 text-orange-500"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                                                    lineNumber: 342,
+                                                                    lineNumber: 345,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 "Padmaja Naidu Zoological Park"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                                            lineNumber: 341,
+                                                            lineNumber: 344,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1961,14 +1961,14 @@ function DarjeelingPage() {
                                                                     className: "w-4 h-4 text-orange-500"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                                                    lineNumber: 346,
+                                                                    lineNumber: 349,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 "Lloyd Botanical Garden"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                                            lineNumber: 345,
+                                                            lineNumber: 348,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1978,38 +1978,38 @@ function DarjeelingPage() {
                                                                     className: "w-4 h-4 text-orange-500"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                                                    lineNumber: 350,
+                                                                    lineNumber: 353,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 "Rock Garden & Ganga Maiya Park"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                                            lineNumber: 349,
+                                                            lineNumber: 352,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                                    lineNumber: 340,
+                                                    lineNumber: 343,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 338,
+                                            lineNumber: 341,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 334,
+                                    lineNumber: 337,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/darjeeling/page.tsx",
-                            lineNumber: 284,
+                            lineNumber: 287,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2034,7 +2034,7 @@ function DarjeelingPage() {
                                             className: "w-6 h-6 text-orange-500 mx-auto mb-2"
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 366,
+                                            lineNumber: 369,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2042,29 +2042,29 @@ function DarjeelingPage() {
                                             children: place
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 367,
+                                            lineNumber: 370,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 365,
+                                    lineNumber: 368,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/darjeeling/page.tsx",
-                            lineNumber: 359,
+                            lineNumber: 362,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/darjeeling/page.tsx",
-                    lineNumber: 276,
+                    lineNumber: 279,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/darjeeling/page.tsx",
-                lineNumber: 275,
+                lineNumber: 278,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2080,7 +2080,7 @@ function DarjeelingPage() {
                                     children: "Nearby Destinations"
                                 }, void 0, false, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 379,
+                                    lineNumber: 382,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2088,13 +2088,13 @@ function DarjeelingPage() {
                                     children: "Extend your journey to these enchanting destinations around Darjeeling"
                                 }, void 0, false, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 382,
+                                    lineNumber: 385,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/darjeeling/page.tsx",
-                            lineNumber: 378,
+                            lineNumber: 381,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2139,14 +2139,14 @@ function DarjeelingPage() {
                                             className: "w-full h-64 object-cover group-hover:scale-110 transition duration-700"
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 402,
+                                            lineNumber: 405,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 408,
+                                            lineNumber: 411,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2159,7 +2159,7 @@ function DarjeelingPage() {
                                                             children: place.name
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                                            lineNumber: 414,
+                                                            lineNumber: 417,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2167,13 +2167,13 @@ function DarjeelingPage() {
                                                             children: place.desc
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                                            lineNumber: 415,
+                                                            lineNumber: 418,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                                    lineNumber: 413,
+                                                    lineNumber: 416,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2184,40 +2184,40 @@ function DarjeelingPage() {
                                                         children: "Book Now for 2N/3D"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/darjeeling/page.tsx",
-                                                        lineNumber: 422,
+                                                        lineNumber: 425,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                                    lineNumber: 418,
+                                                    lineNumber: 421,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 411,
+                                            lineNumber: 414,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 398,
+                                    lineNumber: 401,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/darjeeling/page.tsx",
-                            lineNumber: 387,
+                            lineNumber: 390,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/darjeeling/page.tsx",
-                    lineNumber: 376,
+                    lineNumber: 379,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/darjeeling/page.tsx",
-                lineNumber: 375,
+                lineNumber: 378,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2235,7 +2235,7 @@ function DarjeelingPage() {
                                             className: "w-8 h-8 text-orange-500"
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 446,
+                                            lineNumber: 449,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2243,13 +2243,13 @@ function DarjeelingPage() {
                                             children: "Must Try Cuisine"
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 447,
+                                            lineNumber: 450,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 445,
+                                    lineNumber: 448,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2257,13 +2257,13 @@ function DarjeelingPage() {
                                     children: "Authentic local delicacies influenced by Bengal's hill region cultures"
                                 }, void 0, false, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 449,
+                                    lineNumber: 452,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/darjeeling/page.tsx",
-                            lineNumber: 444,
+                            lineNumber: 447,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2317,7 +2317,7 @@ function DarjeelingPage() {
                                             children: item.icon
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 466,
+                                            lineNumber: 469,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2325,7 +2325,7 @@ function DarjeelingPage() {
                                             children: item.name
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 467,
+                                            lineNumber: 470,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2333,18 +2333,18 @@ function DarjeelingPage() {
                                             children: item.desc
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 468,
+                                            lineNumber: 471,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 465,
+                                    lineNumber: 468,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/darjeeling/page.tsx",
-                            lineNumber: 454,
+                            lineNumber: 457,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2355,7 +2355,7 @@ function DarjeelingPage() {
                                     children: "Cultural Influences"
                                 }, void 0, false, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 474,
+                                    lineNumber: 477,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2373,29 +2373,29 @@ function DarjeelingPage() {
                                             children: culture
                                         }, index, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 477,
+                                            lineNumber: 480,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 475,
+                                    lineNumber: 478,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/darjeeling/page.tsx",
-                            lineNumber: 473,
+                            lineNumber: 476,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/darjeeling/page.tsx",
-                    lineNumber: 443,
+                    lineNumber: 446,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/darjeeling/page.tsx",
-                lineNumber: 442,
+                lineNumber: 445,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2411,7 +2411,7 @@ function DarjeelingPage() {
                                     children: "Adventures & Activities"
                                 }, void 0, false, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 490,
+                                    lineNumber: 493,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2419,13 +2419,13 @@ function DarjeelingPage() {
                                     children: "From thrilling treks to peaceful experiences - Darjeeling offers it all"
                                 }, void 0, false, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 491,
+                                    lineNumber: 494,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/darjeeling/page.tsx",
-                            lineNumber: 489,
+                            lineNumber: 492,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2438,7 +2438,7 @@ function DarjeelingPage() {
                                             className: "w-12 h-12 text-green-600 mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 498,
+                                            lineNumber: 501,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2446,7 +2446,7 @@ function DarjeelingPage() {
                                             children: "Trekking"
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 499,
+                                            lineNumber: 502,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2454,7 +2454,7 @@ function DarjeelingPage() {
                                             children: "Tangtey • River Rafting • Singla • Majitar"
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 500,
+                                            lineNumber: 503,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2462,13 +2462,13 @@ function DarjeelingPage() {
                                             children: "Explore Treks →"
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 501,
+                                            lineNumber: 504,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 497,
+                                    lineNumber: 500,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2478,7 +2478,7 @@ function DarjeelingPage() {
                                             className: "w-12 h-12 text-blue-600 mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 505,
+                                            lineNumber: 508,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2486,7 +2486,7 @@ function DarjeelingPage() {
                                             children: "Photography"
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 506,
+                                            lineNumber: 509,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2494,7 +2494,7 @@ function DarjeelingPage() {
                                             children: "Sunrise at Tiger Hill • Tea Gardens • Mountain Views"
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 507,
+                                            lineNumber: 510,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2502,13 +2502,13 @@ function DarjeelingPage() {
                                             children: "Photo Tours →"
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 508,
+                                            lineNumber: 511,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 504,
+                                    lineNumber: 507,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2518,7 +2518,7 @@ function DarjeelingPage() {
                                             className: "w-12 h-12 text-orange-600 mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 512,
+                                            lineNumber: 515,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2526,7 +2526,7 @@ function DarjeelingPage() {
                                             children: "Heritage Train"
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 513,
+                                            lineNumber: 516,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2534,7 +2534,7 @@ function DarjeelingPage() {
                                             children: "Toy Train Ride • Ghoom Station • Batasia Loop"
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 514,
+                                            lineNumber: 517,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2542,30 +2542,30 @@ function DarjeelingPage() {
                                             children: "Book Journey →"
                                         }, void 0, false, {
                                             fileName: "[project]/app/darjeeling/page.tsx",
-                                            lineNumber: 515,
+                                            lineNumber: 518,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/darjeeling/page.tsx",
-                                    lineNumber: 511,
+                                    lineNumber: 514,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/darjeeling/page.tsx",
-                            lineNumber: 496,
+                            lineNumber: 499,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/darjeeling/page.tsx",
-                    lineNumber: 488,
+                    lineNumber: 491,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/darjeeling/page.tsx",
-                lineNumber: 487,
+                lineNumber: 490,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PackagePricing$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -2573,12 +2573,12 @@ function DarjeelingPage() {
                 subtitle: "Choose your perfect Himalayan getaway duration"
             }, void 0, false, {
                 fileName: "[project]/app/darjeeling/page.tsx",
-                lineNumber: 522,
+                lineNumber: 525,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/darjeeling/page.tsx",
-                lineNumber: 528,
+                lineNumber: 531,
                 columnNumber: 7
             }, this)
         ]

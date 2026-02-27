@@ -94,6 +94,96 @@ export default function DooarsPage() {
         </div>
       </section>
 
+
+      {/* ================= DETAILED ITINERARY ================= */}
+      <div className="bg-gray-50 py-20 px-6 md:px-12">
+        <div className="max-w-7xl mx-auto space-y-20">
+
+          {/* HEADER */}
+          <div className="text-center space-y-4">
+            <h1 className="text-4xl md:text-5xl font-bold text-green-700">
+              Visit and Explore Dooars
+            </h1>
+            <p className="text-lg text-gray-700">
+              Jaldapara, Gorumara, Buxa, Chilapata with Bengal Tourism
+            </p>
+            <p className="text-gray-600">
+              Special Tailor made Combination Package, Number of Days & Cost can be designed on Request.
+            </p>
+          </div>
+
+          {/* MAIN CIRCUIT TITLE */}
+          <SectionTitle
+            title="DOOARS JUNGLE CIRCUIT"
+            subtitle="Wildlife Paradise with JALDAPARA – GORUMARA – BUXA – CHILAPATA"
+          />
+
+          {/* MAIN DAY WISE */}
+          <div className="grid gap-10 grid-col-1">
+            <DayCard title="Day – 1">
+              Arrival at NJP/Bagdogra: Our representative will receive you at NJP Railway Station or Bagdogra Airport. After pickup, proceed towards Dooars through the beautiful tea gardens of Dooars region. En-route visit the magnificent Coronation Bridge over River Teesta. Arrive at Jaldapara and check-in to your hotel/resort. Lunch at the resort. In the evening, you can explore the nearby surroundings or relax at the resort. Evening cultural program with tribal dance performance (optional). Dinner and overnight stay at Jaldapara.
+            </DayCard>
+
+            <DayCard title="Day – 2">
+              Jaldapara Elephant Safari & Local Sightseeing: Early morning proceed for the most exciting Elephant Safari in Jaldapara National Park (1.5 hours). Experience the thrill of riding through the tall grasslands and spotting one-horned rhinoceros, elephants, bison, and various deer species. Return to resort for breakfast. After breakfast, visit the nearby Jayanti River and Buxa Fort area. Explore the historic Buxa Fort and enjoy the scenic beauty of Jayanti riverbed. Visit Mahakal Temple for spiritual experience. Evening visit to Sikiyajhora for beautiful sunset views. Dinner and overnight stay at Jaldapara.
+            </DayCard>
+
+            <DayCard title="Day – 3">
+              Chilapata Forest & Cooch Behar: After breakfast, check-out from Jaldapara hotel and proceed towards Chilapata Forest. Enjoy the dense forest drive and spot various wildlife species. Visit the Chilapata Forest Watch Tower for wildlife viewing. Proceed to Cooch Behar to visit the magnificent Cooch Behar Rajbari (Royal Palace) - a UNESCO World Heritage Site. Visit Madan Mohan Temple and explore the royal architecture of Cooch Behar. Lunch at Cooch Behar. After lunch, proceed to Phuntsholing (Bhutan Border) if time permits, or directly to Lataguri. Check-in at Lataguri resort. Dinner and overnight stay at Lataguri.
+            </DayCard>
+
+            <DayCard title="Day – 4">
+              Gorumara Jeep Safari & Murti River: Early morning proceed for Jeep Safari in Gorumara National Park. Spot Indian bison, elephants, leopards, and various bird species. Visit the famous watchtowers - Jatraposad, Chapramari, and Chukchuki for wildlife viewing. Return to resort for breakfast. After breakfast, proceed to Murti River - a beautiful spot surrounded by forests and hills. Enjoy the scenic beauty and peaceful environment. Visit Samsing and Suntalekhola for breathtaking mountain views and orange orchards. Evening free for leisure at Murti riverside. Dinner and overnight stay at Lataguri/Murti.
+            </DayCard>
+
+            <DayCard title="Day – 5">
+              Bindu, Jhalong & Rocky Island: After breakfast, proceed for a full day excursion to Bindu and Jhalong - the last hamlets of West Bengal near the Bhutan border. Visit the beautiful Bindu Dam and enjoy the confluence of three rivers. At Jhalong, enjoy the beautiful river views and the hydroelectric project. Proceed to Rocky Island - a beautiful picnic spot with river rocks and natural beauty. Lunch at Jhalong. Evening return to Lataguri. Optional cultural program in the evening. Dinner and overnight stay at Lataguri.
+            </DayCard>
+
+            <DayCard title="Day – 6">
+              Departure: After breakfast, check-out from the hotel. If time permits, visit Gajoldoba Teesta Barrage for bird watching and scenic views. Proceed towards NJP/Bagdogra for your onward journey with unforgettable memories of the Dooars wilderness. Tour ends.
+            </DayCard>
+          </div>
+
+          {/* ADD-ON SECTIONS */}
+          <AddOnSection
+            title="SAMSING & SUNTALEKHOLA"
+            subtitle="Add-on (or) Separately From LATAGURI"
+          />
+          <div className="grid gap-10 grid-col-1">
+            <DayCard title="Day – 1">
+              Hill Station Exploration: After breakfast from Lataguri, proceed towards Samsing - a beautiful hill station known for its orange orchards and scenic beauty. Visit Suntalekhola - a beautiful valley with pristine natural beauty. Enjoy the breathtaking views of the Eastern Himalayas. Visit the famous Rocky Island and Mouchuki viewpoint. Lunch at Samsing. Evening enjoy the peaceful environment of the hills. Dinner and overnight stay at Samsing/Suntalekhola.
+            </DayCard>
+
+            <DayCard title="Day – 2">
+              Neora Valley & Lava: After breakfast, proceed to Neora Valley National Park - one of the most pristine forests in the region. Enjoy the biodiversity and spot various Himalayan species. Proceed to Lava - a beautiful small village with Buddhist monasteries. Visit the Lava Monastery and enjoy the panoramic views of the Himalayas. Lunch at Lava. Evening return to Samsing. Dinner and overnight stay at Samsing.
+            </DayCard>
+
+            <DayCard title="Day – 3">
+              Lolegaon & Rishyap: After breakfast, proceed to Lolegaon - famous for its canopy walk and beautiful views of Kanchenjunga. Experience the thrilling canopy walk through the forest. Proceed to Rishyap - a small Himalayan village with stunning mountain views. Lunch at Rishyap. Evening return to Lataguri or proceed to NJP/Bagdogra for departure. Tour ends.
+            </DayCard>
+          </div>
+
+          <AddOnSection
+            title="BHUTAN BORDER TOUR"
+            subtitle="Add-on (or) Separately From PHUNTSHOLING"
+          />
+          <div className="grid gap-10 grid-col-1">
+            <DayCard title="Day – 1">
+              Phuntsholing Exploration: After breakfast, proceed to Phuntsholing - the gateway to Bhutan. Complete immigration formalities. Visit the Zangthoo Pelri Lhakhang - a beautiful Buddhist temple. Explore the local market and Bhutanese culture. Visit the Amo Chuu Crocodile Breeding Centre. Lunch at Phuntsholing. Evening free to explore the border town. Dinner and overnight stay at Phuntsholing.
+            </DayCard>
+
+            <DayCard title="Day – 2">
+              Bhutan Sightseeing: After breakfast, proceed for local sightseeing in Phuntsholing. Visit the Karbandi Monastery for panoramic views of Phuntsholing and surrounding areas. Explore the Bhutanese architecture and lifestyle. Visit the local handicraft centers. Lunch at Phuntsholing. Evening free for shopping Bhutanese souvenirs. Dinner and overnight stay at Phuntsholing.
+            </DayCard>
+
+            <DayCard title="Day – 3">
+              Return to India: After breakfast, check-out from Phuntsholing hotel. Complete exit formalities. Proceed towards Jaigaon (Indian side). Visit the local markets and return to Lataguri or proceed to NJP/Bagdogra for departure. Tour ends.
+            </DayCard>
+          </div>
+
+        </div>
+      </div>
       {/* ================= TOUR PACKAGES ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
@@ -493,7 +583,6 @@ export default function DooarsPage() {
         </div>
       </section>
 
-   
 
       {/* ================= PACKAGE PRICING ================= */}
       <PackagePricing 
@@ -503,5 +592,44 @@ export default function DooarsPage() {
 
 <ContactCTA />
     </main>
+  )
+}
+
+/* COMPONENTS */
+
+function SectionTitle({ title, subtitle }: { title: string; subtitle: string }) {
+  return (
+    <div className="flex flex-col space-y-2">
+      <div className='flex gap-5 items-center'>
+      <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
+       <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+        Book now For 5N/6D
+      </a>
+      </div>
+      <p className="font-semibold text-gray-700">{subtitle}</p>
+    </div>
+  )
+}
+
+function DayCard({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-green-600">
+      <h3 className="text-2xl font-semibold text-green-700 mb-4">{title}</h3>
+      <p className="text-gray-700 leading-8 whitespace-pre-line">{children}</p>
+    </div>
+  )
+}
+
+function AddOnSection({ title, subtitle }: { title: string; subtitle: string }) {
+  return (
+    <div className="flex flex-col space-y-2">
+      <div className='flex gap-5 items-center'> 
+      <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
+       <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+        Book now For 2N/3D
+      </a>
+      </div>
+     <p className="font-semibold text-gray-700">{subtitle}</p>
+    </div>
   )
 }

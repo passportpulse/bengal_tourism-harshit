@@ -155,19 +155,22 @@ export default function DarjeelingPage() {
         <div className="max-w-7xl mx-auto px-6">
 
           {/* Header */}
-          <div className="flex justify-between items-center mb-16">
-            <div className=" ">
+         <div className="flex flex-col  space-y-2">
+
+
+        <div className='flex gap-5 items-center'>
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
                  Darjeeling – Kalimpong Tour Itinerary
               </h2>
-              <p className="text-gray-600 max-w-2xl">
+               <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+              Book now For 5N/6D
+            </a>
+              
+            </div>
+           <p className="text-gray-600 max-w-2xl">
                 Detailed sightseeing plan covering Darjeeling, Kurseong,
                 Kalimpong & Mirik.
               </p>
-            </div>
-            <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
-              Book now For 5N/6D
-            </a>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
 

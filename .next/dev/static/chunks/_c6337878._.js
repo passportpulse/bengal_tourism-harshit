@@ -1243,6 +1243,202 @@ function DooarsPage() {
                 lineNumber: 62,
                 columnNumber: 7
             }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "bg-gray-50 py-20 px-6 md:px-12",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "max-w-7xl mx-auto space-y-20",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "text-center space-y-4",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                    className: "text-4xl md:text-5xl font-bold text-green-700",
+                                    children: "Visit and Explore Dooars"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/dooars/page.tsx",
+                                    lineNumber: 104,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-lg text-gray-700",
+                                    children: "Jaldapara, Gorumara, Buxa, Chilapata with Bengal Tourism"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/dooars/page.tsx",
+                                    lineNumber: 107,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-gray-600",
+                                    children: "Special Tailor made Combination Package, Number of Days & Cost can be designed on Request."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/dooars/page.tsx",
+                                    lineNumber: 110,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/dooars/page.tsx",
+                            lineNumber: 103,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SectionTitle, {
+                            title: "DOOARS JUNGLE CIRCUIT",
+                            subtitle: "Wildlife Paradise with JALDAPARA – GORUMARA – BUXA – CHILAPATA"
+                        }, void 0, false, {
+                            fileName: "[project]/app/dooars/page.tsx",
+                            lineNumber: 116,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "grid gap-10 grid-col-1",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DayCard, {
+                                    title: "Day – 1",
+                                    children: "Arrival at NJP/Bagdogra: Our representative will receive you at NJP Railway Station or Bagdogra Airport. After pickup, proceed towards Dooars through the beautiful tea gardens of Dooars region. En-route visit the magnificent Coronation Bridge over River Teesta. Arrive at Jaldapara and check-in to your hotel/resort. Lunch at the resort. In the evening, you can explore the nearby surroundings or relax at the resort. Evening cultural program with tribal dance performance (optional). Dinner and overnight stay at Jaldapara."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/dooars/page.tsx",
+                                    lineNumber: 123,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DayCard, {
+                                    title: "Day – 2",
+                                    children: "Jaldapara Elephant Safari & Local Sightseeing: Early morning proceed for the most exciting Elephant Safari in Jaldapara National Park (1.5 hours). Experience the thrill of riding through the tall grasslands and spotting one-horned rhinoceros, elephants, bison, and various deer species. Return to resort for breakfast. After breakfast, visit the nearby Jayanti River and Buxa Fort area. Explore the historic Buxa Fort and enjoy the scenic beauty of Jayanti riverbed. Visit Mahakal Temple for spiritual experience. Evening visit to Sikiyajhora for beautiful sunset views. Dinner and overnight stay at Jaldapara."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/dooars/page.tsx",
+                                    lineNumber: 127,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DayCard, {
+                                    title: "Day – 3",
+                                    children: "Chilapata Forest & Cooch Behar: After breakfast, check-out from Jaldapara hotel and proceed towards Chilapata Forest. Enjoy the dense forest drive and spot various wildlife species. Visit the Chilapata Forest Watch Tower for wildlife viewing. Proceed to Cooch Behar to visit the magnificent Cooch Behar Rajbari (Royal Palace) - a UNESCO World Heritage Site. Visit Madan Mohan Temple and explore the royal architecture of Cooch Behar. Lunch at Cooch Behar. After lunch, proceed to Phuntsholing (Bhutan Border) if time permits, or directly to Lataguri. Check-in at Lataguri resort. Dinner and overnight stay at Lataguri."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/dooars/page.tsx",
+                                    lineNumber: 131,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DayCard, {
+                                    title: "Day – 4",
+                                    children: "Gorumara Jeep Safari & Murti River: Early morning proceed for Jeep Safari in Gorumara National Park. Spot Indian bison, elephants, leopards, and various bird species. Visit the famous watchtowers - Jatraposad, Chapramari, and Chukchuki for wildlife viewing. Return to resort for breakfast. After breakfast, proceed to Murti River - a beautiful spot surrounded by forests and hills. Enjoy the scenic beauty and peaceful environment. Visit Samsing and Suntalekhola for breathtaking mountain views and orange orchards. Evening free for leisure at Murti riverside. Dinner and overnight stay at Lataguri/Murti."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/dooars/page.tsx",
+                                    lineNumber: 135,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DayCard, {
+                                    title: "Day – 5",
+                                    children: "Bindu, Jhalong & Rocky Island: After breakfast, proceed for a full day excursion to Bindu and Jhalong - the last hamlets of West Bengal near the Bhutan border. Visit the beautiful Bindu Dam and enjoy the confluence of three rivers. At Jhalong, enjoy the beautiful river views and the hydroelectric project. Proceed to Rocky Island - a beautiful picnic spot with river rocks and natural beauty. Lunch at Jhalong. Evening return to Lataguri. Optional cultural program in the evening. Dinner and overnight stay at Lataguri."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/dooars/page.tsx",
+                                    lineNumber: 139,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DayCard, {
+                                    title: "Day – 6",
+                                    children: "Departure: After breakfast, check-out from the hotel. If time permits, visit Gajoldoba Teesta Barrage for bird watching and scenic views. Proceed towards NJP/Bagdogra for your onward journey with unforgettable memories of the Dooars wilderness. Tour ends."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/dooars/page.tsx",
+                                    lineNumber: 143,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/dooars/page.tsx",
+                            lineNumber: 122,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(AddOnSection, {
+                            title: "SAMSING & SUNTALEKHOLA",
+                            subtitle: "Add-on (or) Separately From LATAGURI"
+                        }, void 0, false, {
+                            fileName: "[project]/app/dooars/page.tsx",
+                            lineNumber: 149,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "grid gap-10 grid-col-1",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DayCard, {
+                                    title: "Day – 1",
+                                    children: "Hill Station Exploration: After breakfast from Lataguri, proceed towards Samsing - a beautiful hill station known for its orange orchards and scenic beauty. Visit Suntalekhola - a beautiful valley with pristine natural beauty. Enjoy the breathtaking views of the Eastern Himalayas. Visit the famous Rocky Island and Mouchuki viewpoint. Lunch at Samsing. Evening enjoy the peaceful environment of the hills. Dinner and overnight stay at Samsing/Suntalekhola."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/dooars/page.tsx",
+                                    lineNumber: 154,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DayCard, {
+                                    title: "Day – 2",
+                                    children: "Neora Valley & Lava: After breakfast, proceed to Neora Valley National Park - one of the most pristine forests in the region. Enjoy the biodiversity and spot various Himalayan species. Proceed to Lava - a beautiful small village with Buddhist monasteries. Visit the Lava Monastery and enjoy the panoramic views of the Himalayas. Lunch at Lava. Evening return to Samsing. Dinner and overnight stay at Samsing."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/dooars/page.tsx",
+                                    lineNumber: 158,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DayCard, {
+                                    title: "Day – 3",
+                                    children: "Lolegaon & Rishyap: After breakfast, proceed to Lolegaon - famous for its canopy walk and beautiful views of Kanchenjunga. Experience the thrilling canopy walk through the forest. Proceed to Rishyap - a small Himalayan village with stunning mountain views. Lunch at Rishyap. Evening return to Lataguri or proceed to NJP/Bagdogra for departure. Tour ends."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/dooars/page.tsx",
+                                    lineNumber: 162,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/dooars/page.tsx",
+                            lineNumber: 153,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(AddOnSection, {
+                            title: "BHUTAN BORDER TOUR",
+                            subtitle: "Add-on (or) Separately From PHUNTSHOLING"
+                        }, void 0, false, {
+                            fileName: "[project]/app/dooars/page.tsx",
+                            lineNumber: 167,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "grid gap-10 grid-col-1",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DayCard, {
+                                    title: "Day – 1",
+                                    children: "Phuntsholing Exploration: After breakfast, proceed to Phuntsholing - the gateway to Bhutan. Complete immigration formalities. Visit the Zangthoo Pelri Lhakhang - a beautiful Buddhist temple. Explore the local market and Bhutanese culture. Visit the Amo Chuu Crocodile Breeding Centre. Lunch at Phuntsholing. Evening free to explore the border town. Dinner and overnight stay at Phuntsholing."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/dooars/page.tsx",
+                                    lineNumber: 172,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DayCard, {
+                                    title: "Day – 2",
+                                    children: "Bhutan Sightseeing: After breakfast, proceed for local sightseeing in Phuntsholing. Visit the Karbandi Monastery for panoramic views of Phuntsholing and surrounding areas. Explore the Bhutanese architecture and lifestyle. Visit the local handicraft centers. Lunch at Phuntsholing. Evening free for shopping Bhutanese souvenirs. Dinner and overnight stay at Phuntsholing."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/dooars/page.tsx",
+                                    lineNumber: 176,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DayCard, {
+                                    title: "Day – 3",
+                                    children: "Return to India: After breakfast, check-out from Phuntsholing hotel. Complete exit formalities. Proceed towards Jaigaon (Indian side). Visit the local markets and return to Lataguri or proceed to NJP/Bagdogra for departure. Tour ends."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/dooars/page.tsx",
+                                    lineNumber: 180,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/dooars/page.tsx",
+                            lineNumber: 171,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/dooars/page.tsx",
+                    lineNumber: 100,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/app/dooars/page.tsx",
+                lineNumber: 99,
+                columnNumber: 7
+            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "py-20 bg-white",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1256,7 +1452,7 @@ function DooarsPage() {
                                     children: "Tour Packages"
                                 }, void 0, false, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 101,
+                                    lineNumber: 191,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1264,13 +1460,13 @@ function DooarsPage() {
                                     children: "Special tailor-made combination packages designed for your perfect Dooars experience"
                                 }, void 0, false, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 102,
+                                    lineNumber: 192,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/dooars/page.tsx",
-                            lineNumber: 100,
+                            lineNumber: 190,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1287,12 +1483,12 @@ function DooarsPage() {
                                                     children: "Jungle Circuit - Jaldapara, Gorumara, Murti"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 112,
+                                                    lineNumber: 202,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 111,
+                                                lineNumber: 201,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1301,18 +1497,18 @@ function DooarsPage() {
                                                 children: "Book now For 5N/6D"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 114,
+                                                lineNumber: 204,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/dooars/page.tsx",
-                                        lineNumber: 110,
+                                        lineNumber: 200,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 109,
+                                    lineNumber: 199,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1330,7 +1526,7 @@ function DooarsPage() {
                                                                 className: "w-4 h-4 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 124,
+                                                                lineNumber: 214,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1338,13 +1534,13 @@ function DooarsPage() {
                                                                 children: "Day 1"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 125,
+                                                                lineNumber: 215,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/dooars/page.tsx",
-                                                        lineNumber: 123,
+                                                        lineNumber: 213,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1354,54 +1550,54 @@ function DooarsPage() {
                                                                 children: "• NJP/Bagdogra pickup"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 128,
+                                                                lineNumber: 218,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Drive to Jaldapara (120km/3.5hrs)"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 129,
+                                                                lineNumber: 219,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Via Coronation Bridge"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 130,
+                                                                lineNumber: 220,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Bengal Safari Park (if time permits)"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 131,
+                                                                lineNumber: 221,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Check-in & Elephant Safari booking"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 132,
+                                                                lineNumber: 222,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Breakfast & Dinner included"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 133,
+                                                                lineNumber: 223,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/dooars/page.tsx",
-                                                        lineNumber: 127,
+                                                        lineNumber: 217,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 122,
+                                                lineNumber: 212,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1414,7 +1610,7 @@ function DooarsPage() {
                                                                 className: "w-4 h-4 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 139,
+                                                                lineNumber: 229,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1422,13 +1618,13 @@ function DooarsPage() {
                                                                 children: "Day 2"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 140,
+                                                                lineNumber: 230,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/dooars/page.tsx",
-                                                        lineNumber: 138,
+                                                        lineNumber: 228,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1438,54 +1634,54 @@ function DooarsPage() {
                                                                 children: "• Elephant Safari (1.5hrs)"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 143,
+                                                                lineNumber: 233,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Jayanti & Buxa Fort visit"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 144,
+                                                                lineNumber: 234,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Mahakal Temple trek"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 145,
+                                                                lineNumber: 235,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Tiger Rehabilitation Centre"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 146,
+                                                                lineNumber: 236,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Sikiyajhora evening"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 147,
+                                                                lineNumber: 237,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Breakfast & Dinner included"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 148,
+                                                                lineNumber: 238,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/dooars/page.tsx",
-                                                        lineNumber: 142,
+                                                        lineNumber: 232,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 137,
+                                                lineNumber: 227,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1498,7 +1694,7 @@ function DooarsPage() {
                                                                 className: "w-4 h-4 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 154,
+                                                                lineNumber: 244,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1506,13 +1702,13 @@ function DooarsPage() {
                                                                 children: "Day 3"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 155,
+                                                                lineNumber: 245,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/dooars/page.tsx",
-                                                        lineNumber: 153,
+                                                        lineNumber: 243,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1522,54 +1718,54 @@ function DooarsPage() {
                                                                 children: "• Chilapata Forest"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 158,
+                                                                lineNumber: 248,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Cooch Behar Rajbari"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 159,
+                                                                lineNumber: 249,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Madan Mohan Temple"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 160,
+                                                                lineNumber: 250,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Phuntsholing (Bhutan)"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 161,
+                                                                lineNumber: 251,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Zangthoo Pelri Lhakhang"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 162,
+                                                                lineNumber: 252,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Breakfast & Dinner included"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 163,
+                                                                lineNumber: 253,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/dooars/page.tsx",
-                                                        lineNumber: 157,
+                                                        lineNumber: 247,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 152,
+                                                lineNumber: 242,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1582,7 +1778,7 @@ function DooarsPage() {
                                                                 className: "w-4 h-4 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 169,
+                                                                lineNumber: 259,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1590,13 +1786,13 @@ function DooarsPage() {
                                                                 children: "Day 4"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 170,
+                                                                lineNumber: 260,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/dooars/page.tsx",
-                                                        lineNumber: 168,
+                                                        lineNumber: 258,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1606,54 +1802,54 @@ function DooarsPage() {
                                                                 children: "• Jhalong & Bindu visit"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 173,
+                                                                lineNumber: 263,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Murti River exploration"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 174,
+                                                                lineNumber: 264,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Scenic beauty of hills"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 175,
+                                                                lineNumber: 265,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Transfer to Lataguri"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 176,
+                                                                lineNumber: 266,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Check-in at resort"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 177,
+                                                                lineNumber: 267,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Breakfast & Dinner included"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 178,
+                                                                lineNumber: 268,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/dooars/page.tsx",
-                                                        lineNumber: 172,
+                                                        lineNumber: 262,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 167,
+                                                lineNumber: 257,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1666,7 +1862,7 @@ function DooarsPage() {
                                                                 className: "w-4 h-4 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 184,
+                                                                lineNumber: 274,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1674,13 +1870,13 @@ function DooarsPage() {
                                                                 children: "Day 5"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 185,
+                                                                lineNumber: 275,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/dooars/page.tsx",
-                                                        lineNumber: 183,
+                                                        lineNumber: 273,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1690,54 +1886,54 @@ function DooarsPage() {
                                                                 children: "• Gorumara Jeep Safari"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 188,
+                                                                lineNumber: 278,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Samsing & Suntalekhola"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 189,
+                                                                lineNumber: 279,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Rocky Island visit"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 190,
+                                                                lineNumber: 280,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Jatraposad Watch Tower"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 191,
+                                                                lineNumber: 281,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Cultural program evening"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 192,
+                                                                lineNumber: 282,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Breakfast & Dinner included"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 193,
+                                                                lineNumber: 283,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/dooars/page.tsx",
-                                                        lineNumber: 187,
+                                                        lineNumber: 277,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 182,
+                                                lineNumber: 272,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1750,7 +1946,7 @@ function DooarsPage() {
                                                                 className: "w-4 h-4 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 199,
+                                                                lineNumber: 289,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1758,13 +1954,13 @@ function DooarsPage() {
                                                                 children: "Day 6"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 200,
+                                                                lineNumber: 290,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/dooars/page.tsx",
-                                                        lineNumber: 198,
+                                                        lineNumber: 288,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1774,75 +1970,75 @@ function DooarsPage() {
                                                                 children: "• Breakfast & checkout"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 203,
+                                                                lineNumber: 293,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Gajoldoba visit (if time permits)"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 204,
+                                                                lineNumber: 294,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Drive to NJP/Bagdogra"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 205,
+                                                                lineNumber: 295,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Drop for onward journey"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 206,
+                                                                lineNumber: 296,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: "• Breakfast & Dinner included"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                                lineNumber: 207,
+                                                                lineNumber: 297,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/dooars/page.tsx",
-                                                        lineNumber: 202,
+                                                        lineNumber: 292,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 197,
+                                                lineNumber: 287,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/dooars/page.tsx",
-                                        lineNumber: 121,
+                                        lineNumber: 211,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 120,
+                                    lineNumber: 210,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/dooars/page.tsx",
-                            lineNumber: 108,
+                            lineNumber: 198,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/dooars/page.tsx",
-                    lineNumber: 99,
+                    lineNumber: 189,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/dooars/page.tsx",
-                lineNumber: 98,
+                lineNumber: 188,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1858,7 +2054,7 @@ function DooarsPage() {
                                     children: "Wildlife Sanctuaries"
                                 }, void 0, false, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 222,
+                                    lineNumber: 312,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1866,13 +2062,13 @@ function DooarsPage() {
                                     children: "Explore the pristine national parks and wildlife sanctuaries of Dooars"
                                 }, void 0, false, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 223,
+                                    lineNumber: 313,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/dooars/page.tsx",
-                            lineNumber: 221,
+                            lineNumber: 311,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1887,12 +2083,12 @@ function DooarsPage() {
                                                 className: "w-16 h-16 text-white group-hover:scale-110 transition"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 231,
+                                                lineNumber: 321,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 230,
+                                            lineNumber: 320,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1903,7 +2099,7 @@ function DooarsPage() {
                                                     children: "Jaldapara National Park"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 234,
+                                                    lineNumber: 324,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1911,7 +2107,7 @@ function DooarsPage() {
                                                     children: "Famous for one-horned rhinoceros and elephant safaris"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 235,
+                                                    lineNumber: 325,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1921,7 +2117,7 @@ function DooarsPage() {
                                                             className: "w-4 h-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/dooars/page.tsx",
-                                                            lineNumber: 237,
+                                                            lineNumber: 327,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1929,25 +2125,25 @@ function DooarsPage() {
                                                             children: "Alipurduar District"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/dooars/page.tsx",
-                                                            lineNumber: 238,
+                                                            lineNumber: 328,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 236,
+                                                    lineNumber: 326,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 233,
+                                            lineNumber: 323,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 229,
+                                    lineNumber: 319,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1959,12 +2155,12 @@ function DooarsPage() {
                                                 className: "w-16 h-16 text-white group-hover:scale-110 transition"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 245,
+                                                lineNumber: 335,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 244,
+                                            lineNumber: 334,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1975,7 +2171,7 @@ function DooarsPage() {
                                                     children: "Gorumara National Park"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 248,
+                                                    lineNumber: 338,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1983,7 +2179,7 @@ function DooarsPage() {
                                                     children: "Home to Indian bison, leopards, and diverse birdlife"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 249,
+                                                    lineNumber: 339,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1993,7 +2189,7 @@ function DooarsPage() {
                                                             className: "w-4 h-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/dooars/page.tsx",
-                                                            lineNumber: 251,
+                                                            lineNumber: 341,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2001,25 +2197,25 @@ function DooarsPage() {
                                                             children: "Jalpaiguri District"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/dooars/page.tsx",
-                                                            lineNumber: 252,
+                                                            lineNumber: 342,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 250,
+                                                    lineNumber: 340,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 247,
+                                            lineNumber: 337,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 243,
+                                    lineNumber: 333,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2031,12 +2227,12 @@ function DooarsPage() {
                                                 className: "w-16 h-16 text-white group-hover:scale-110 transition"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 259,
+                                                lineNumber: 349,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 258,
+                                            lineNumber: 348,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2047,7 +2243,7 @@ function DooarsPage() {
                                                     children: "Buxa Tiger Reserve"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 262,
+                                                    lineNumber: 352,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2055,7 +2251,7 @@ function DooarsPage() {
                                                     children: "Historic fort and diverse wildlife with trekking opportunities"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 263,
+                                                    lineNumber: 353,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2065,7 +2261,7 @@ function DooarsPage() {
                                                             className: "w-4 h-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/dooars/page.tsx",
-                                                            lineNumber: 265,
+                                                            lineNumber: 355,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2073,25 +2269,25 @@ function DooarsPage() {
                                                             children: "Alipurduar District"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/dooars/page.tsx",
-                                                            lineNumber: 266,
+                                                            lineNumber: 356,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 264,
+                                                    lineNumber: 354,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 261,
+                                            lineNumber: 351,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 257,
+                                    lineNumber: 347,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2103,12 +2299,12 @@ function DooarsPage() {
                                                 className: "w-16 h-16 text-white group-hover:scale-110 transition"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 273,
+                                                lineNumber: 363,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 272,
+                                            lineNumber: 362,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2119,7 +2315,7 @@ function DooarsPage() {
                                                     children: "Chapramari Wildlife Sanctuary"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 276,
+                                                    lineNumber: 366,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2127,7 +2323,7 @@ function DooarsPage() {
                                                     children: "Birdwatcher's paradise with elephants and bison"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 277,
+                                                    lineNumber: 367,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2137,7 +2333,7 @@ function DooarsPage() {
                                                             className: "w-4 h-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/dooars/page.tsx",
-                                                            lineNumber: 279,
+                                                            lineNumber: 369,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2145,25 +2341,25 @@ function DooarsPage() {
                                                             children: "Jalpaiguri District"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/dooars/page.tsx",
-                                                            lineNumber: 280,
+                                                            lineNumber: 370,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 278,
+                                                    lineNumber: 368,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 275,
+                                            lineNumber: 365,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 271,
+                                    lineNumber: 361,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2175,12 +2371,12 @@ function DooarsPage() {
                                                 className: "w-16 h-16 text-white group-hover:scale-110 transition"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 287,
+                                                lineNumber: 377,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 286,
+                                            lineNumber: 376,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2191,7 +2387,7 @@ function DooarsPage() {
                                                     children: "Neora Valley National Park"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 290,
+                                                    lineNumber: 380,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2199,7 +2395,7 @@ function DooarsPage() {
                                                     children: "Pristine tropical forest with endangered species"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 291,
+                                                    lineNumber: 381,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2209,7 +2405,7 @@ function DooarsPage() {
                                                             className: "w-4 h-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/dooars/page.tsx",
-                                                            lineNumber: 293,
+                                                            lineNumber: 383,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2217,25 +2413,25 @@ function DooarsPage() {
                                                             children: "Kalimpong District"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/dooars/page.tsx",
-                                                            lineNumber: 294,
+                                                            lineNumber: 384,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 292,
+                                                    lineNumber: 382,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 289,
+                                            lineNumber: 379,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 285,
+                                    lineNumber: 375,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2247,12 +2443,12 @@ function DooarsPage() {
                                                 className: "w-16 h-16 text-white group-hover:scale-110 transition"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 301,
+                                                lineNumber: 391,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 300,
+                                            lineNumber: 390,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2263,7 +2459,7 @@ function DooarsPage() {
                                                     children: "Mahananda Wildlife Sanctuary"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 304,
+                                                    lineNumber: 394,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2271,7 +2467,7 @@ function DooarsPage() {
                                                     children: "Elephant corridor with stunning Himalayan views"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 305,
+                                                    lineNumber: 395,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2281,7 +2477,7 @@ function DooarsPage() {
                                                             className: "w-4 h-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/dooars/page.tsx",
-                                                            lineNumber: 307,
+                                                            lineNumber: 397,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2289,42 +2485,42 @@ function DooarsPage() {
                                                             children: "Darjeeling District"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/dooars/page.tsx",
-                                                            lineNumber: 308,
+                                                            lineNumber: 398,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 306,
+                                                    lineNumber: 396,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 303,
+                                            lineNumber: 393,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 299,
+                                    lineNumber: 389,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/dooars/page.tsx",
-                            lineNumber: 228,
+                            lineNumber: 318,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/dooars/page.tsx",
-                    lineNumber: 220,
+                    lineNumber: 310,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/dooars/page.tsx",
-                lineNumber: 219,
+                lineNumber: 309,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2340,7 +2536,7 @@ function DooarsPage() {
                                     children: "Key Destinations"
                                 }, void 0, false, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 320,
+                                    lineNumber: 410,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2348,13 +2544,13 @@ function DooarsPage() {
                                     children: "Discover the main hubs and attractions of Dooars tourism"
                                 }, void 0, false, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 321,
+                                    lineNumber: 411,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/dooars/page.tsx",
-                            lineNumber: 319,
+                            lineNumber: 409,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2369,12 +2565,12 @@ function DooarsPage() {
                                                 className: "w-10 h-10 text-white"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 329,
+                                                lineNumber: 419,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 328,
+                                            lineNumber: 418,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2382,7 +2578,7 @@ function DooarsPage() {
                                             children: "Jaldapara"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 331,
+                                            lineNumber: 421,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2390,7 +2586,7 @@ function DooarsPage() {
                                             children: "Elephant safari hub with rhino sightings"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 332,
+                                            lineNumber: 422,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2398,13 +2594,13 @@ function DooarsPage() {
                                             children: "Main Attraction"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 333,
+                                            lineNumber: 423,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 327,
+                                    lineNumber: 417,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2416,12 +2612,12 @@ function DooarsPage() {
                                                 className: "w-10 h-10 text-white"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 338,
+                                                lineNumber: 428,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 337,
+                                            lineNumber: 427,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2429,7 +2625,7 @@ function DooarsPage() {
                                             children: "Lataguri"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 340,
+                                            lineNumber: 430,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2437,7 +2633,7 @@ function DooarsPage() {
                                             children: "Gateway to Gorumara National Park"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 341,
+                                            lineNumber: 431,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2445,13 +2641,13 @@ function DooarsPage() {
                                             children: "Tourist Center"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 342,
+                                            lineNumber: 432,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 336,
+                                    lineNumber: 426,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2463,12 +2659,12 @@ function DooarsPage() {
                                                 className: "w-10 h-10 text-white"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 347,
+                                                lineNumber: 437,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 346,
+                                            lineNumber: 436,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2476,7 +2672,7 @@ function DooarsPage() {
                                             children: "Murti"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 349,
+                                            lineNumber: 439,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2484,7 +2680,7 @@ function DooarsPage() {
                                             children: "Scenic river beauty amidst hills"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 350,
+                                            lineNumber: 440,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2492,13 +2688,13 @@ function DooarsPage() {
                                             children: "Nature Spot"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 351,
+                                            lineNumber: 441,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 345,
+                                    lineNumber: 435,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2510,12 +2706,12 @@ function DooarsPage() {
                                                 className: "w-10 h-10 text-white"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 356,
+                                                lineNumber: 446,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 355,
+                                            lineNumber: 445,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2523,7 +2719,7 @@ function DooarsPage() {
                                             children: "Chalsa"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 358,
+                                            lineNumber: 448,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2531,7 +2727,7 @@ function DooarsPage() {
                                             children: "Tea garden paradise with scenic views"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 359,
+                                            lineNumber: 449,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2539,19 +2735,19 @@ function DooarsPage() {
                                             children: "Tea Hub"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 360,
+                                            lineNumber: 450,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 354,
+                                    lineNumber: 444,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/dooars/page.tsx",
-                            lineNumber: 326,
+                            lineNumber: 416,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2576,7 +2772,7 @@ function DooarsPage() {
                                             className: "w-6 h-6 text-green-600 mx-auto mb-2"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 371,
+                                            lineNumber: 461,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2584,29 +2780,29 @@ function DooarsPage() {
                                             children: place
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 372,
+                                            lineNumber: 462,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 370,
+                                    lineNumber: 460,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/dooars/page.tsx",
-                            lineNumber: 365,
+                            lineNumber: 455,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/dooars/page.tsx",
-                    lineNumber: 318,
+                    lineNumber: 408,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/dooars/page.tsx",
-                lineNumber: 317,
+                lineNumber: 407,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2622,7 +2818,7 @@ function DooarsPage() {
                                     children: "Safari & Adventure"
                                 }, void 0, false, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 383,
+                                    lineNumber: 473,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2630,13 +2826,13 @@ function DooarsPage() {
                                     children: "Thrilling wildlife experiences and adventure activities"
                                 }, void 0, false, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 384,
+                                    lineNumber: 474,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/dooars/page.tsx",
-                            lineNumber: 382,
+                            lineNumber: 472,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2651,12 +2847,12 @@ function DooarsPage() {
                                                 className: "w-8 h-8 text-orange-600"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 392,
+                                                lineNumber: 482,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 391,
+                                            lineNumber: 481,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2664,7 +2860,7 @@ function DooarsPage() {
                                             children: "Elephant Safari"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 394,
+                                            lineNumber: 484,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2672,7 +2868,7 @@ function DooarsPage() {
                                             children: "1.5 hour jungle ride"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 395,
+                                            lineNumber: 485,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2680,13 +2876,13 @@ function DooarsPage() {
                                             children: "Jaldapara"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 396,
+                                            lineNumber: 486,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 390,
+                                    lineNumber: 480,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2698,12 +2894,12 @@ function DooarsPage() {
                                                 className: "w-8 h-8 text-green-600"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 401,
+                                                lineNumber: 491,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 400,
+                                            lineNumber: 490,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2711,7 +2907,7 @@ function DooarsPage() {
                                             children: "Jeep Safari"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 403,
+                                            lineNumber: 493,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2719,7 +2915,7 @@ function DooarsPage() {
                                             children: "Morning & evening trips"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 404,
+                                            lineNumber: 494,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2727,13 +2923,13 @@ function DooarsPage() {
                                             children: "Gorumara"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 405,
+                                            lineNumber: 495,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 399,
+                                    lineNumber: 489,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2745,12 +2941,12 @@ function DooarsPage() {
                                                 className: "w-8 h-8 text-blue-600"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 410,
+                                                lineNumber: 500,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 409,
+                                            lineNumber: 499,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2758,7 +2954,7 @@ function DooarsPage() {
                                             children: "Trekking"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 412,
+                                            lineNumber: 502,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2766,7 +2962,7 @@ function DooarsPage() {
                                             children: "Buxa Fort & Mahakal"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 413,
+                                            lineNumber: 503,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2774,13 +2970,13 @@ function DooarsPage() {
                                             children: "Buxa"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 414,
+                                            lineNumber: 504,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 408,
+                                    lineNumber: 498,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2792,12 +2988,12 @@ function DooarsPage() {
                                                 className: "w-8 h-8 text-purple-600"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 419,
+                                                lineNumber: 509,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 418,
+                                            lineNumber: 508,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2805,7 +3001,7 @@ function DooarsPage() {
                                             children: "Bird Watching"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 421,
+                                            lineNumber: 511,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2813,7 +3009,7 @@ function DooarsPage() {
                                             children: "300+ species"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 422,
+                                            lineNumber: 512,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2821,30 +3017,30 @@ function DooarsPage() {
                                             children: "All Parks"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 423,
+                                            lineNumber: 513,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 417,
+                                    lineNumber: 507,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/dooars/page.tsx",
-                            lineNumber: 389,
+                            lineNumber: 479,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/dooars/page.tsx",
-                    lineNumber: 381,
+                    lineNumber: 471,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/dooars/page.tsx",
-                lineNumber: 380,
+                lineNumber: 470,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2860,7 +3056,7 @@ function DooarsPage() {
                                     children: "Important Information"
                                 }, void 0, false, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 433,
+                                    lineNumber: 523,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2868,13 +3064,13 @@ function DooarsPage() {
                                     children: "Essential details for your Dooars jungle safari"
                                 }, void 0, false, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 434,
+                                    lineNumber: 524,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/dooars/page.tsx",
-                            lineNumber: 432,
+                            lineNumber: 522,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2890,7 +3086,7 @@ function DooarsPage() {
                                                     className: "w-8 h-8 text-red-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 442,
+                                                    lineNumber: 532,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2898,13 +3094,13 @@ function DooarsPage() {
                                                     children: "Forest Closure Notice"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 443,
+                                                    lineNumber: 533,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 441,
+                                            lineNumber: 531,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2915,14 +3111,14 @@ function DooarsPage() {
                                                     children: "15th June to 15th September"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 446,
+                                                    lineNumber: 536,
                                                     columnNumber: 54
                                                 }, this),
                                                 " annually due to monsoon season and wildlife breeding period."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 445,
+                                            lineNumber: 535,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2934,25 +3130,25 @@ function DooarsPage() {
                                                         children: "Best Time to Visit:"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/dooars/page.tsx",
-                                                        lineNumber: 451,
+                                                        lineNumber: 541,
                                                         columnNumber: 19
                                                     }, this),
                                                     " October to March"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 450,
+                                                lineNumber: 540,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 449,
+                                            lineNumber: 539,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 440,
+                                    lineNumber: 530,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2965,7 +3161,7 @@ function DooarsPage() {
                                                     className: "w-8 h-8 text-green-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 458,
+                                                    lineNumber: 548,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2973,13 +3169,13 @@ function DooarsPage() {
                                                     children: "Safari Booking"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 459,
+                                                    lineNumber: 549,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 457,
+                                            lineNumber: 547,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2987,7 +3183,7 @@ function DooarsPage() {
                                             children: "Guests can book Safari Tickets at their own discretion through official portal"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 461,
+                                            lineNumber: 551,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2997,24 +3193,24 @@ function DooarsPage() {
                                                 children: "www.wbsfda.org/safari"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/dooars/page.tsx",
-                                                lineNumber: 465,
+                                                lineNumber: 555,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 464,
+                                            lineNumber: 554,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 456,
+                                    lineNumber: 546,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/dooars/page.tsx",
-                            lineNumber: 439,
+                            lineNumber: 529,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3025,7 +3221,7 @@ function DooarsPage() {
                                     children: "Additional Information"
                                 }, void 0, false, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 473,
+                                    lineNumber: 563,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3038,7 +3234,7 @@ function DooarsPage() {
                                                     children: "Transportation"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 476,
+                                                    lineNumber: 566,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -3048,33 +3244,33 @@ function DooarsPage() {
                                                             children: "• AC vehicles available for all tours"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/dooars/page.tsx",
-                                                            lineNumber: 478,
+                                                            lineNumber: 568,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                             children: "• Pickup from NJP/Bagdogra Airport"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/dooars/page.tsx",
-                                                            lineNumber: 479,
+                                                            lineNumber: 569,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                             children: "• Extra vehicle cost: ₹2500 per vehicle (4-6 PAX)"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/dooars/page.tsx",
-                                                            lineNumber: 480,
+                                                            lineNumber: 570,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 477,
+                                                    lineNumber: 567,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 475,
+                                            lineNumber: 565,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3084,7 +3280,7 @@ function DooarsPage() {
                                                     children: "What's Included"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 484,
+                                                    lineNumber: 574,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -3094,56 +3290,56 @@ function DooarsPage() {
                                                             children: "• Accommodation in hotels/resorts"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/dooars/page.tsx",
-                                                            lineNumber: 486,
+                                                            lineNumber: 576,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                             children: "• Daily breakfast and dinner"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/dooars/page.tsx",
-                                                            lineNumber: 487,
+                                                            lineNumber: 577,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                             children: "• All transfers and sightseeing"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/dooars/page.tsx",
-                                                            lineNumber: 488,
+                                                            lineNumber: 578,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/dooars/page.tsx",
-                                                    lineNumber: 485,
+                                                    lineNumber: 575,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dooars/page.tsx",
-                                            lineNumber: 483,
+                                            lineNumber: 573,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dooars/page.tsx",
-                                    lineNumber: 474,
+                                    lineNumber: 564,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/dooars/page.tsx",
-                            lineNumber: 472,
+                            lineNumber: 562,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/dooars/page.tsx",
-                    lineNumber: 431,
+                    lineNumber: 521,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/dooars/page.tsx",
-                lineNumber: 430,
+                lineNumber: 520,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PackagePricing$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -3151,12 +3347,12 @@ function DooarsPage() {
                 subtitle: "Choose your perfect wilderness adventure duration"
             }, void 0, false, {
                 fileName: "[project]/app/dooars/page.tsx",
-                lineNumber: 499,
+                lineNumber: 588,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/dooars/page.tsx",
-                lineNumber: 504,
+                lineNumber: 593,
                 columnNumber: 1
             }, this)
         ]
@@ -3167,8 +3363,131 @@ function DooarsPage() {
     }, this);
 }
 _c = DooarsPage;
-var _c;
+/* COMPONENTS */ function SectionTitle({ title, subtitle }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "flex flex-col space-y-2",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex gap-5 items-center",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "text-3xl font-bold text-gray-800",
+                        children: title
+                    }, void 0, false, {
+                        fileName: "[project]/app/dooars/page.tsx",
+                        lineNumber: 604,
+                        columnNumber: 7
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                        href: "/book-tour",
+                        className: "bg-red-500 px-4 py-4 text-white rounded-full",
+                        children: "Book now For 5N/6D"
+                    }, void 0, false, {
+                        fileName: "[project]/app/dooars/page.tsx",
+                        lineNumber: 605,
+                        columnNumber: 8
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/dooars/page.tsx",
+                lineNumber: 603,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "font-semibold text-gray-700",
+                children: subtitle
+            }, void 0, false, {
+                fileName: "[project]/app/dooars/page.tsx",
+                lineNumber: 609,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/app/dooars/page.tsx",
+        lineNumber: 602,
+        columnNumber: 5
+    }, this);
+}
+_c1 = SectionTitle;
+function DayCard({ title, children }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "bg-white shadow-xl rounded-3xl p-8 border-l-4 border-green-600",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                className: "text-2xl font-semibold text-green-700 mb-4",
+                children: title
+            }, void 0, false, {
+                fileName: "[project]/app/dooars/page.tsx",
+                lineNumber: 617,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-gray-700 leading-8 whitespace-pre-line",
+                children: children
+            }, void 0, false, {
+                fileName: "[project]/app/dooars/page.tsx",
+                lineNumber: 618,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/app/dooars/page.tsx",
+        lineNumber: 616,
+        columnNumber: 5
+    }, this);
+}
+_c2 = DayCard;
+function AddOnSection({ title, subtitle }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "flex flex-col space-y-2",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex gap-5 items-center",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "text-3xl font-bold text-gray-800",
+                        children: title
+                    }, void 0, false, {
+                        fileName: "[project]/app/dooars/page.tsx",
+                        lineNumber: 627,
+                        columnNumber: 7
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                        href: "/book-tour",
+                        className: "bg-red-500 px-4 py-4 text-white rounded-full",
+                        children: "Book now For 2N/3D"
+                    }, void 0, false, {
+                        fileName: "[project]/app/dooars/page.tsx",
+                        lineNumber: 628,
+                        columnNumber: 8
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/dooars/page.tsx",
+                lineNumber: 626,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "font-semibold text-gray-700",
+                children: subtitle
+            }, void 0, false, {
+                fileName: "[project]/app/dooars/page.tsx",
+                lineNumber: 632,
+                columnNumber: 6
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/app/dooars/page.tsx",
+        lineNumber: 625,
+        columnNumber: 5
+    }, this);
+}
+_c3 = AddOnSection;
+var _c, _c1, _c2, _c3;
 __turbopack_context__.k.register(_c, "DooarsPage");
+__turbopack_context__.k.register(_c1, "SectionTitle");
+__turbopack_context__.k.register(_c2, "DayCard");
+__turbopack_context__.k.register(_c3, "AddOnSection");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
