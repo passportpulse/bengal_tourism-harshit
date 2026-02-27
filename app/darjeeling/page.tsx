@@ -155,16 +155,20 @@ export default function DarjeelingPage() {
         <div className="max-w-7xl mx-auto px-6">
 
           {/* Header */}
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              6 Days Darjeeling – Kalimpong Tour Itinerary
-            </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Detailed sightseeing plan covering Darjeeling, Kurseong,
-              Kalimpong & Mirik.
-            </p>
+          <div className="flex justify-between items-center mb-16">
+            <div className=" ">
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                 Darjeeling – Kalimpong Tour Itinerary
+              </h2>
+              <p className="text-gray-600 max-w-2xl">
+                Detailed sightseeing plan covering Darjeeling, Kurseong,
+                Kalimpong & Mirik.
+              </p>
+            </div>
+            <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+              Book now For 5N/6D
+            </a>
           </div>
-
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
 
             {/* Day 1 */}
@@ -368,70 +372,70 @@ export default function DarjeelingPage() {
       </section>
 
       {/* ================= NEARBY DESTINATIONS ================= */}
-  <section className="py-20 bg-white">
-  <div className="max-w-7xl mx-auto px-6">
-    
-    <div className="text-center mb-12">
-      <h2 className="text-4xl md:text-5xl font-bold mb-4">
-        Nearby Destinations
-      </h2>
-      <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-        Extend your journey to these enchanting destinations around Darjeeling
-      </p>
-    </div>
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
 
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              Nearby Destinations
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Extend your journey to these enchanting destinations around Darjeeling
+            </p>
+          </div>
 
-      {/* CARD */}
-      {[
-        { name: "Mirik", img: "/Mirik.jpeg", desc: "Divine Lake & Orange Orchards", link: "/mirik" },
-        { name: "Kurseong", img: "/Kurseong.jpeg", desc: "Land of the White Orchid", link: "/kurseong" },
-        { name: "Kalimpong", img: "/Kalimpong.jpeg", desc: "Flower Nurseries & Views", link: "/kalimpong" },
-        { name: "Lava", img: "/Lava.jpg", desc: "Gateway to Neora Valley", link: "/lava" },
-        { name: "Rishap", img: "/Rishap.jpeg", desc: "Misty Magic", link: "/rishap" },
-      ].map((place, index) => (
-        
-        <div
-          key={index}
-          className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition duration-500"
-        >
-          <img
-            src={place.img}
-            alt={place.name}
-            className="w-full h-64 object-cover group-hover:scale-110 transition duration-700"
-          />
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+            {/* CARD */}
+            {[
+              { name: "Mirik", img: "/Mirik.jpeg", desc: "Divine Lake & Orange Orchards", link: "/mirik" },
+              { name: "Kurseong", img: "/Kurseong.jpeg", desc: "Land of the White Orchid", link: "/kurseong" },
+              { name: "Kalimpong", img: "/Kalimpong.jpeg", desc: "Flower Nurseries & Views", link: "/kalimpong" },
+              { name: "Lava", img: "/Lava.jpg", desc: "Gateway to Neora Valley", link: "/lava" },
+              { name: "Rishap", img: "/Rishap.jpeg", desc: "Misty Magic", link: "/rishap" },
+            ].map((place, index) => (
 
-          {/* Content */}
-          <div className="absolute bottom-0 p-6 text-white w-full">
-          
-              <div>
-            <h3 className="text-2xl font-bold mb-2">{place.name}</h3>
-            <p className="text-gray-200 mb-4">{place.desc}</p>
-</div>
-            {/* Buttons */}
-            <div className="flex gap-3  transition duration-500">
-              
-           
-
-              <a
-                href="/book-tour"
-                className="bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-orange-600 transition"
+              <div
+                key={index}
+                className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition duration-500"
               >
-                Book Now for 2N/3D
-              </a>
+                <img
+                  src={place.img}
+                  alt={place.name}
+                  className="w-full h-64 object-cover group-hover:scale-110 transition duration-700"
+                />
 
-          
-            </div>
-            </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+
+                {/* Content */}
+                <div className="absolute bottom-0 p-6 text-white w-full">
+
+                  <div>
+                    <h3 className="text-2xl font-bold mb-2">{place.name}</h3>
+                    <p className="text-gray-200 mb-4">{place.desc}</p>
+                  </div>
+                  {/* Buttons */}
+                  <div className="flex gap-3  transition duration-500">
+
+
+
+                    <a
+                      href="/book-tour"
+                      className="bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-orange-600 transition"
+                    >
+                      Book Now for 2N/3D
+                    </a>
+
+
+                  </div>
+                </div>
+              </div>
+
+            ))}
+
+          </div>
         </div>
-
-      ))}
-
-    </div>
-  </div>
-</section>
+      </section>
 
 
       {/* ================= CUISINE SECTION ================= */}

@@ -20,16 +20,16 @@ export default function HotelBookingPage() {
       region: "NORTH BENGAL",
       image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=800&h=400&fit=crop",
       rooms: [
-        { type: "Basic", meals: "[Free Breakfast]", price: "₹ 2000" },
-        { type: "Standard", meals: "[Free Breakfast]", price: "₹ 2800" },
-        { type: "Deluxe", meals: "[Free Breakfast]", price: "₹ 3700" },
-        { type: "Super Deluxe", meals: "[Free Breakfast]", price: "₹ 4600" },
-        { type: "Executive", meals: "[Free Breakfast]", price: "₹ 5500" },
-        { type: "Royal", meals: "[Free Breakfast]", price: "₹ 6400" },
-        { type: "Premium", meals: "[Free Breakfast]", price: "₹ 7300" },
-        { type: "Super Premium", meals: "[Free Breakfast]", price: "₹ 8200" },
-        { type: "Luxury", meals: "[Free Breakfast]", price: "₹ 9100" },
-        { type: "Star Luxury", meals: "[Free Breakfast]", price: "₹ 15400" }
+        { type: "Basic", meals: "Excluding Breakfast", price: "₹ 2000" },
+        { type: "Standard", meals: "Including Breakfast", price: "₹ 2800" },
+        { type: "Deluxe", meals: "Including Breakfast", price: "₹ 3700" },
+        { type: "Super Deluxe", meals: "Including Breakfast", price: "₹ 4600" },
+        { type: "Executive", meals: "Including Breakfast", price: "₹ 5500" },
+        { type: "Royal", meals: "Including Breakfast", price: "₹ 6400" },
+        { type: "Premium", meals: "Including Breakfast", price: "₹ 7300" },
+        { type: "Super Premium", meals: "Including Breakfast", price: "₹ 8200" },
+        { type: "Luxury", meals: "Including Breakfast", price: "₹ 9100" },
+        { type: "Star Luxury", meals: "Including Breakfast", price: "₹ 15400" }
       ],
       hotels: ["Anand Palace", "Ascot", "Broadway", "Bellevue Heritage", "Central Heritage", "Cedar Inn", "Crystal Palace", "Central Nirvana", "Dolphin", "Dreamland", "Dakeling", "Elgin", "Fairmount", "Golden Height Enclave", "Glenary", "Hermitage", "Krishna Residency", "Mayfair Resorts", "Maple", "Mt. Royal", "Mt. View", "North Star", "Oasis", "Pineridge", "Pinetree", "Pink Mountain", "Princess", "Palbheu", "R J Resort", "Rhododendron", "Spring Burn", "Sunflower", "Seven Seventeen", "Shangri-La", "Sonar Bangla", "Sinclairs / Swiss Hotel", "Sterling Snow Lion", "Travellers Inn", "Yuma", "Viceroy", "Windamare"]
     }

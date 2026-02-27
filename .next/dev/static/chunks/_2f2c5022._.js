@@ -403,14 +403,14 @@ function BhutanPage() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SectionTitle, {
                             title: "BHUTAN",
-                            subtitle: "Land of the Thunder Dragon With [PARO – THIMPU – PUNAKHA- 6N/7D]"
+                            subtitle: "Land of the Thunder Dragon With PARO – THIMPU – PUNAKHA-"
                         }, void 0, false, {
                             fileName: "[project]/app/bhutan/page.tsx",
                             lineNumber: 81,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "space-y-10 grid md:grid-cols-2 gap-10 grid-col-1",
+                            className: " grid  gap-10 grid-col-1",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DayCard, {
                                     title: "Day – 1",
@@ -462,7 +462,7 @@ function BhutanPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DayCard, {
                                     title: "Day – 7",
-                                    children: "Early breakfast. some local sightseeing & places of interest in the Forest of Jangapara / Gorumara can be visited. You can also take a Jeep Safari if time permits. Lunch-en-route. Then drive to Bagdogra Airport / NJP Railway Station in Bengal for Forwarding Journey before (06.00pm) Tour ends."
+                                    children: "Early breakfast. some local sightseeing & places of interest in the Forest of Jaldapara / Gorumara can be visited. You can also take a Jeep Safari if time permits. Lunch-en-route. Then drive to Bagdogra Airport / NJP Railway Station in Bengal for Forwarding Journey before (06.00pm) Tour ends."
                                 }, void 0, false, {
                                     fileName: "[project]/app/bhutan/page.tsx",
                                     lineNumber: 116,
@@ -476,14 +476,14 @@ function BhutanPage() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(AddOnSection, {
                             title: "PUNAKHA",
-                            subtitle: "Add-on (or) Separately From [THIMPU - PARO- 2N/3D]"
+                            subtitle: "Add-on (or) Separately From THIMPU - PARO"
                         }, void 0, false, {
                             fileName: "[project]/app/bhutan/page.tsx",
                             lineNumber: 122,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "space-y-10 grid md:grid-cols-2 gap-10 grid-col-1",
+                            className: " grid  gap-10 grid-col-1",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DayCard, {
                                     title: "Day – 1  ",
@@ -517,14 +517,14 @@ function BhutanPage() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(AddOnSection, {
                             title: "PHOBCHIKA",
-                            subtitle: "Add-on (or) Separately From [PUNAKHA - PARO- 2N/3D]"
+                            subtitle: "Add-on (or) Separately From PUNAKHA"
                         }, void 0, false, {
                             fileName: "[project]/app/bhutan/page.tsx",
                             lineNumber: 144,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "space-y-10 grid md:grid-cols-2 gap-10 grid-col-1",
+                            className: " grid  gap-10 grid-col-1",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DayCard, {
                                     title: "Day – 1",
@@ -582,12 +582,30 @@ function BhutanPage() {
 _c = BhutanPage;
 /* COMPONENTS */ function SectionTitle({ title, subtitle }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "text-center space-y-2",
+        className: "flex flex-col space-y-2",
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                className: "text-3xl font-bold text-gray-800",
-                children: title
-            }, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex  gap-5 items-center",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "text-3xl font-bold text-gray-800",
+                        children: title
+                    }, void 0, false, {
+                        fileName: "[project]/app/bhutan/page.tsx",
+                        lineNumber: 176,
+                        columnNumber: 7
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                        href: "/book-tour",
+                        className: "bg-red-500 px-4 py-4 text-white rounded-full",
+                        children: "Book now For 6N/7D"
+                    }, void 0, false, {
+                        fileName: "[project]/app/bhutan/page.tsx",
+                        lineNumber: 177,
+                        columnNumber: 8
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/app/bhutan/page.tsx",
                 lineNumber: 175,
                 columnNumber: 7
@@ -597,7 +615,7 @@ _c = BhutanPage;
                 children: subtitle
             }, void 0, false, {
                 fileName: "[project]/app/bhutan/page.tsx",
-                lineNumber: 176,
+                lineNumber: 181,
                 columnNumber: 7
             }, this)
         ]
@@ -617,7 +635,7 @@ function DayCard({ title, children }) {
                 children: title
             }, void 0, false, {
                 fileName: "[project]/app/bhutan/page.tsx",
-                lineNumber: 184,
+                lineNumber: 190,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -625,49 +643,59 @@ function DayCard({ title, children }) {
                 children: children
             }, void 0, false, {
                 fileName: "[project]/app/bhutan/page.tsx",
-                lineNumber: 185,
+                lineNumber: 191,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/bhutan/page.tsx",
-        lineNumber: 183,
+        lineNumber: 189,
         columnNumber: 5
     }, this);
 }
 _c2 = DayCard;
 function AddOnSection({ title, subtitle }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "bg-white shadow-xl rounded-3xl p-10 space-y-4",
+        className: "flex flex-col  space-y-2",
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "text-2xl font-bold text-indigo-700",
-                children: title
-            }, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex gap-5 items-center",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "text-3xl font-bold text-gray-800",
+                        children: title
+                    }, void 0, false, {
+                        fileName: "[project]/app/bhutan/page.tsx",
+                        lineNumber: 202,
+                        columnNumber: 7
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                        href: "/book-tour",
+                        className: "bg-red-500 px-4 py-4 text-white rounded-full",
+                        children: "Book now For 2N/3D"
+                    }, void 0, false, {
+                        fileName: "[project]/app/bhutan/page.tsx",
+                        lineNumber: 203,
+                        columnNumber: 8
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/app/bhutan/page.tsx",
-                lineNumber: 193,
-                columnNumber: 7
+                lineNumber: 201,
+                columnNumber: 12
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "text-gray-700 font-medium",
+                className: "font-semibold text-gray-700",
                 children: subtitle
             }, void 0, false, {
                 fileName: "[project]/app/bhutan/page.tsx",
-                lineNumber: 194,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "text-gray-600",
-                children: "(Detailed day-wise content continues as per above structure.)"
-            }, void 0, false, {
-                fileName: "[project]/app/bhutan/page.tsx",
-                lineNumber: 195,
-                columnNumber: 7
+                lineNumber: 208,
+                columnNumber: 6
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/bhutan/page.tsx",
-        lineNumber: 192,
+        lineNumber: 198,
         columnNumber: 5
     }, this);
 }

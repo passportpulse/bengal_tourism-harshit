@@ -111,7 +111,9 @@ export default function DooarsPage() {
                 <div>
                   <h3 className="text-2xl font-bold mb-2">Jungle Circuit - Jaldapara, Gorumara, Murti</h3>
                 </div>
-        
+        <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+        Book now For 5N/6D
+      </a>
               </div>
             </div>
             

@@ -230,52 +230,52 @@ function HotelBookingPage() {
             rooms: [
                 {
                     type: "Basic",
-                    meals: "[Free Breakfast]",
+                    meals: "Excluding Breakfast",
                     price: "₹ 2000"
                 },
                 {
                     type: "Standard",
-                    meals: "[Free Breakfast]",
+                    meals: "Including Breakfast",
                     price: "₹ 2800"
                 },
                 {
                     type: "Deluxe",
-                    meals: "[Free Breakfast]",
+                    meals: "Including Breakfast",
                     price: "₹ 3700"
                 },
                 {
                     type: "Super Deluxe",
-                    meals: "[Free Breakfast]",
+                    meals: "Including Breakfast",
                     price: "₹ 4600"
                 },
                 {
                     type: "Executive",
-                    meals: "[Free Breakfast]",
+                    meals: "Including Breakfast",
                     price: "₹ 5500"
                 },
                 {
                     type: "Royal",
-                    meals: "[Free Breakfast]",
+                    meals: "Including Breakfast",
                     price: "₹ 6400"
                 },
                 {
                     type: "Premium",
-                    meals: "[Free Breakfast]",
+                    meals: "Including Breakfast",
                     price: "₹ 7300"
                 },
                 {
                     type: "Super Premium",
-                    meals: "[Free Breakfast]",
+                    meals: "Including Breakfast",
                     price: "₹ 8200"
                 },
                 {
                     type: "Luxury",
-                    meals: "[Free Breakfast]",
+                    meals: "Including Breakfast",
                     price: "₹ 9100"
                 },
                 {
                     type: "Star Luxury",
-                    meals: "[Free Breakfast]",
+                    meals: "Including Breakfast",
                     price: "₹ 15400"
                 }
             ],

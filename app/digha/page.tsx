@@ -192,9 +192,19 @@ export default function DighaPage() {
 
           {/* Places of Interest */}
           <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
-            <h2 className="text-3xl font-bold text-purple-700 border-b-4 border-purple-500 inline-block pb-2">
-              Tajpur – The Hidden Beach Gem of West Bengal
-            </h2>
+         
+               <div className="flex gap-5 items-center mt-8">
+
+              <h2 className="text-4xl font-bold text-orange-600 border-b-4 border-orange-500 inline-block pb-2">
+            Tajpur – The Hidden Beach Gem of West Bengal
+              </h2>
+              <a
+                href="/book-tour"
+                className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+              >
+                Book Now for 2N/3D
+              </a>
+            </div>
 
             <p className="text-gray-700 leading-8">
               Tajpur is one of the most peaceful and offbeat beach destinations in West Bengal,

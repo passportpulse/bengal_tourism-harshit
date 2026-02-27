@@ -1,8 +1,12 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
   "/bhutan/page": "app/bhutan/page.js",
   "/book-hotel/page": "app/book-hotel/page.js",
   "/book-tour/page": "app/book-tour/page.js",
   "/darjeeling/page": "app/darjeeling/page.js",
+  "/digha/page": "app/digha/page.js",
+  "/dooars/page": "app/dooars/page.js",
+  "/hotel-booking/page": "app/hotel-booking/page.js",
   "/packages/bengal-beckons/page": "app/packages/bengal-beckons/page.js",
   "/packages/foreign-tours/page": "app/packages/foreign-tours/page.js",
   "/page": "app/page.js"

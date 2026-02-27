@@ -80,11 +80,11 @@ export default function BhutanPage() {
           {/* MAIN CIRCUIT TITLE */}
           <SectionTitle
             title="BHUTAN"
-            subtitle="Land of the Thunder Dragon With [PARO – THIMPU – PUNAKHA- 6N/7D]"
+            subtitle="Land of the Thunder Dragon With PARO – THIMPU – PUNAKHA-"
           />
 
           {/* MAIN DAY WISE */}
-          <div className="space-y-10 grid md:grid-cols-2 gap-10 grid-col-1">
+          <div className=" grid  gap-10 grid-col-1">
             <DayCard title="Day – 1">
               Start of tour from BENGAL: Our representative will be there to receive the Guest at Bagdogra Airport / NJP / Hasimara Station in Bengal. After getting entry permit form immigration office (Closed on Saturday & Sunday). Phuntsholing, we proceed towards Thimpu. Check-into Hotel at Thimpu. Lunch en-route or after check-in. (Note: Avoid reaching on Fridays & Saturdays as immigration office are closed on Saturday & Sunday). Dinner & Overnight stay at Hotel at Phunsholing/Jaigaon.
 
@@ -114,16 +114,16 @@ export default function BhutanPage() {
             </DayCard>
 
             <DayCard title="Day – 7">
-              Early breakfast. some local sightseeing & places of interest in the Forest of Jangapara / Gorumara can be visited. You can also take a Jeep Safari if time permits. Lunch-en-route. Then drive to Bagdogra Airport / NJP Railway Station in Bengal for Forwarding Journey before (06.00pm) Tour ends.
+              Early breakfast. some local sightseeing & places of interest in the Forest of Jaldapara / Gorumara can be visited. You can also take a Jeep Safari if time permits. Lunch-en-route. Then drive to Bagdogra Airport / NJP Railway Station in Bengal for Forwarding Journey before (06.00pm) Tour ends.
             </DayCard>
           </div>
 
           {/* ADD-ON SECTIONS */}
           <AddOnSection
             title="PUNAKHA"
-            subtitle="Add-on (or) Separately From [THIMPU - PARO- 2N/3D]"
+            subtitle="Add-on (or) Separately From THIMPU - PARO"
           />
-          <div className="space-y-10 grid md:grid-cols-2 gap-10 grid-col-1">
+          <div className=" grid  gap-10 grid-col-1">
             <DayCard title="Day – 1  ">
               ALTERNATIVELY: Thimpu – Punakha: For visiting Punakha, one has to rise early & visit Punakha. (Rs.3000/5500) per vehicle will be charged extra / payable locally). Punakha is situated at an elevation of 4265 feet. Punakha is the winter seat of Je Khenpo (the chief abbot). Its natural drainage from Pho Chhu (male) and Mo Chhu (female) rivers - It offers splendid views of the distant Himalayas at Dochula Pass situated at an elevation of 10065 feet on Thimphu – Punakha road.  The pass is also popular spiritual place for both locals and tourists because of an important temple that is located on the crest of Dochula pass. Visit  Punakha Dzong; strategically built at the confluence of the Pho Chu (male) and Mo Chu (female) rivers by the first Shabdrung of Bhutan, Ngawang Namgyel in 1637. Lunch-en-route. Return in the evening. Dinner & Overnight  at Hote l at Punakha.
             </DayCard>
@@ -143,9 +143,9 @@ export default function BhutanPage() {
 
           <AddOnSection
             title="PHOBCHIKA"
-            subtitle="Add-on (or) Separately From [PUNAKHA - PARO- 2N/3D]"
+            subtitle="Add-on (or) Separately From PUNAKHA"
           />
-          <div className="space-y-10 grid md:grid-cols-2 gap-10 grid-col-1">
+          <div className=" grid  gap-10 grid-col-1">
             <DayCard title="Day – 1">
               Thimphu-Phobchika valley-After breakfast move towards Phobjika valley-also known as the valley of the Cranes. As you leave Thimphu you’ll be surrounded by forest as your car climbs to the Dochulla Pass with its spectacular northern facing mountain views, continue to the subtropical valley of Punakha and down in to glacial valley of Phobjikha. Lunch-en-route. Return in the evening. Check into Hotel. Dinner & Overnight stay at Hotel/Resort at Phobchika.
 
@@ -171,9 +171,15 @@ export default function BhutanPage() {
 
 function SectionTitle({ title, subtitle }: { title: string; subtitle: string }) {
   return (
-    <div className="text-center space-y-2">
+    <div className="flex flex-col space-y-2">
+      <div className='flex  gap-5 items-center'>
       <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
+       <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+        Book now For 6N/7D
+      </a>
+      </div>
       <p className="font-semibold text-gray-700">{subtitle}</p>
+     
     </div>
   )
 }
@@ -189,12 +195,17 @@ function DayCard({ title, children }: { title: string; children: React.ReactNode
 
 function AddOnSection({ title, subtitle }: { title: string; subtitle: string }) {
   return (
-    <div className="bg-white shadow-xl rounded-3xl p-10 space-y-4">
-      <h3 className="text-2xl font-bold text-indigo-700">{title}</h3>
-      <p className="text-gray-700 font-medium">{subtitle}</p>
-      <p className="text-gray-600">
-        (Detailed day-wise content continues as per above structure.)
-      </p>
+    <div className="flex flex-col  space-y-2">
+      
+
+           <div className='flex gap-5 items-center'> 
+      <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
+       <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+        Book now For 2N/3D
+      </a>
+      
+      </div>
+     <p className="font-semibold text-gray-700">{subtitle}</p>
     </div>
   )
 } 
