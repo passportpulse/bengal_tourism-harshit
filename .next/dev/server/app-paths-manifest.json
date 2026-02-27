@@ -7,6 +7,7 @@
   "/digha/page": "app/digha/page.js",
   "/dooars/page": "app/dooars/page.js",
   "/hotel-booking/page": "app/hotel-booking/page.js",
+  "/maldives/page": "app/maldives/page.js",
   "/packages/bengal-beckons/page": "app/packages/bengal-beckons/page.js",
   "/packages/foreign-tours/page": "app/packages/foreign-tours/page.js",
   "/page": "app/page.js"

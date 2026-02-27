@@ -2,8 +2,9 @@
 
 import Image from 'next/image'
 import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout } from 'lucide-react'
-import PackagePricing from '@/components/PackagePricing'
+import TourPricingSection from "@/components/TourPricingSection"
 import ContactCTA from '@/components/ContactCTA'
+
 
 export default function BhutanPage() {
   return (
@@ -161,6 +162,18 @@ export default function BhutanPage() {
           </div>
         </div>
       </div>
+        <TourPricingSection
+     title="Bhutan Luxury & Adventure Packages"
+subtitle="Explore the Land of the Thunder Dragon with curated journeys"
+    
+      packages={[
+        { label: "Most Popular", days: "5N / 6D", price: 19400 },
+        { label: "Recommended", days: "4N / 5D", price: 15400 },
+        { label: "Short Break", days: "3N / 4D", price: 12700 },
+        { label: "Group 20+", days: "2N / 3D", price: 9100 },
+        { label: "Not Feasible", days: "1N / 2D", price: 6400, disabled: true },
+      ]}
+    />
 
       <ContactCTA />
     </main>
