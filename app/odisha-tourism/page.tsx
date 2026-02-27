@@ -63,9 +63,14 @@ export default function OdishaTourismPage() {
       {/* ================= PURI PACKAGE ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Golden Beach Puri</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <div className="flex flex-col space-y-2">
+            <div className='flex gap-5 items-center'>
+              <h2 className="text-4xl md:text-5xl font-bold mb-4">Golden Beach Puri</h2>
+              <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+                Book now For 4N/5D
+              </a>
+            </div>
+            <p className="text-xl text-gray-600 max-w-3xl mb-10">
               With Konark, Chilika & Bhubaneswar
             </p>
           </div>
@@ -196,7 +201,7 @@ export default function OdishaTourismPage() {
           {/* DESTINATIONS */}
           <Destination
             title="BHITARKANIKA"
-             cta='Book Now for 2N/3D'
+            cta='Book Now for 2N/3D'
             subtitle="Add-on (or) Separately with GAHIRMATA"
             content={[
               `Day – 1: Start of tour: Our representative will receive you at Bhubaneswar Airport / Balasore Station in the morning at (06-10 am). If from Airport, drive to Bhadrak via Chadbali (or) pick-up from Bhadrak station. Lunch en-route. Check into Hotel/Resort. Lunch break. Rest. Evening free to visit the local market. Dinner & Overnight at Hotel / Resort at Panchalingeswar.`,
@@ -207,7 +212,7 @@ export default function OdishaTourismPage() {
 
           <Destination
             title="CHANDIPUR"
-             cta='Book Now for 2N/3D'
+            cta='Book Now for 2N/3D'
             subtitle="Add-on (or) Separately with SEA BEACH"
             content={[
               `Day – 1: Start of tour: Our representative will receive you at Bhubaneswar Airport / Balsore Station in the morning at (06-10 am). If from Airport, drive to Chandipur Sea Beach (or) pick-up from Balasore station. Lunch en-route. Check into Hotel/Resort. Lunch break. Rest. Evening free to visit the local market. Dinner & Overnight at Hotel / Resort at Chandipur.`,
@@ -218,7 +223,7 @@ export default function OdishaTourismPage() {
 
           <Destination
             title="SIMLIPAL"
-             cta='Book Now for 2N/3D'
+            cta='Book Now for 2N/3D'
             subtitle="Add-on (or) Separately with FOREST"
             content={[
               `Day – 1: Start of tour: Our representative will receive you at Bhubaneswar Airport / Balsore Station in the morning at (06-10 am). If from Airport, drive to Simlipal (or) pick-up from Balasore station. Lunch en-route. Check into Hotel/Resort. Lunch break. Rest. Evening free to visit the local market. Dinner & Overnight at Hotel / Resort at Chandipur.`,
@@ -234,7 +239,7 @@ export default function OdishaTourismPage() {
 
           <Destination
             title="GOPALPUR"
-             cta='Book Now for 2N/3D'
+            cta='Book Now for 2N/3D'
             subtitle="Add-on (or) Separately with ON-SEA BEACH"
             content={[
               `Day – 1: Start of tour: Our representative will receive you at Bhubaneswar Airport / Berhampur Station in the morning at (06-10 am). If from Airport, drive to Chandipur Sea Beach (or) pick-up from Balasore station. Lunch en-route. Check into Hotel/Resort. Lunch break. Rest. Evening free to visit the local market. Dinner &   Overnight at  Hotel / Resort at Gopalpur.`,
@@ -258,7 +263,7 @@ export default function OdishaTourismPage() {
 
           <Destination
             title="SATKOSIA TIGER RESERVE"
-             cta='Book Now for 2N/3D'
+            cta='Book Now for 2N/3D'
             subtitle="Add-on (or) Separately with PLAYLAND OF THE TIGERS"
             content={[
               `Day –1: Start of tour: Our representative will receive you at Bhubaneswar Airport (extra charge) / Angul/Khurda Rd. Railway Station in the morning at (06-10 am). If from Airport, drive to Satkosia. Breakfast at Dhenkanal. Arrive & Check-in at Hotel/Resort at Purunakot. Lunch & rest. Afternoon, go for a jungle safari at Kandahera range. Evening free. Overnight at  Hotel / Resort (or) Swiss Cottages (extra charge) at Satkosia / Purunakot.`,
@@ -276,7 +281,7 @@ export default function OdishaTourismPage() {
 
           <Destination
             title="CHANDRABHAGA "
-             cta='Book Now for 2N/3D'
+            cta='Book Now for 2N/3D'
             subtitle="Add-on (or) Separately with KONARK- WATER SPORTS"
             content={[
               `Day –1: Start of tour: Our representative will receive you at Bhubaneswar Airport (extra charge) / Puri Station in the morning at (06-10 am). Drive to Chandrabhaga Sea Beach .Check into Hotel/Resort at Konark (or) Swiss Tent at Chandrabhaga beach (extra cost).Then visit the Konark Sun Temple, a must visit place while at Konark. Lunch en-route. Evening free to visit the local market. Dinner & Overnight at  Hotel / Resort (or) Swiss Cottages at Chandrabhaga / Konark.`,
@@ -343,18 +348,18 @@ export default function OdishaTourismPage() {
 function Destination({ title, subtitle, content, cta }: { title: string; subtitle: string; content: string[]; cta: string; }) {
   return (
     <div className="bg-white shadow-xl rounded-3xl p-10 space-y-6">
-       <div className="flex gap-5 items-center mt-8">
-   
-      <h2 className="text-3xl font-bold text-indigo-700">{title}</h2>
-        <a 
-          href="/book-tour" 
+      <div className="flex gap-5 items-center mt-8">
+
+        <h2 className="text-3xl font-bold text-indigo-700">{title}</h2>
+        <a
+          href="/book-tour"
           className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
         >
           {cta}
         </a>
-       </div>
-  
-    
+      </div>
+
+
 
       <div className="space-y-6">
         {content.map((item, index) => (
@@ -368,9 +373,9 @@ function Destination({ title, subtitle, content, cta }: { title: string; subtitl
           </div>
         ))}
       </div>
-      
-     
-     
+
+
+
     </div>
   )
 } 

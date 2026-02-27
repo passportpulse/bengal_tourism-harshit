@@ -1101,29 +1101,47 @@ function SikkimTourismPage() {
                     className: "max-w-7xl mx-auto px-6",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-center mb-12",
+                            className: "flex flex-col space-y-2",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-4xl md:text-5xl font-bold mb-4",
-                                    children: "Sikkim & Gangtok"
-                                }, void 0, false, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex gap-5 items-center",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            className: "text-4xl md:text-5xl font-bold mb-4",
+                                            children: "Sikkim & Gangtok"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/sikkim-tourism/page.tsx",
+                                            lineNumber: 68,
+                                            columnNumber: 13
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: "/book-tour",
+                                            className: "bg-red-500 px-4 py-4 text-white rounded-full",
+                                            children: "Book now For 5N/6D"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/sikkim-tourism/page.tsx",
+                                            lineNumber: 69,
+                                            columnNumber: 13
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
                                     lineNumber: 67,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-xl text-gray-600 max-w-3xl mx-auto",
+                                    className: "text-xl text-gray-600 max-w-3xl mb-10",
                                     children: "With Changu Lake – Nathu La Pass – Baba Mandir "
                                 }, void 0, false, {
                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                    lineNumber: 68,
+                                    lineNumber: 73,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/sikkim-tourism/page.tsx",
                             lineNumber: 66,
-                            columnNumber: 11
+                            columnNumber: 10
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 shadow-xl",
@@ -1144,7 +1162,7 @@ function SikkimTourismPage() {
                                                                     className: "w-5 h-5 text-blue-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                    lineNumber: 79,
+                                                                    lineNumber: 84,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1152,13 +1170,13 @@ function SikkimTourismPage() {
                                                                     children: "Day 1: Arrival in Gangtok"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                    lineNumber: 80,
+                                                                    lineNumber: 85,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                            lineNumber: 78,
+                                                            lineNumber: 83,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1166,13 +1184,13 @@ function SikkimTourismPage() {
                                                             children: "Our representative will receive you at New Jalpaiguri Railway Station (NJP) / Pakyong Airport / Bagdogra Airport. Transfer to Gangtok, the capital of Sikkim at 1670 meters / 5480 feet height. Nearly 135 kilometers, 4½ - 5 hours drive. Check into hotel. Evening free to roam around M G Road (Mall) or local Shopping center. Dinner & Overnight stay at Hotel in Gangtok."
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                            lineNumber: 82,
+                                                            lineNumber: 87,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                    lineNumber: 77,
+                                                    lineNumber: 82,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1185,7 +1203,7 @@ function SikkimTourismPage() {
                                                                     className: "w-5 h-5 text-blue-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                    lineNumber: 94,
+                                                                    lineNumber: 99,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1193,13 +1211,13 @@ function SikkimTourismPage() {
                                                                     children: "Day 2: Gangtok City Tour"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                    lineNumber: 95,
+                                                                    lineNumber: 100,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                            lineNumber: 93,
+                                                            lineNumber: 98,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1207,13 +1225,13 @@ function SikkimTourismPage() {
                                                             children: "After breakfast, visit Ranka Monastery - one of the oldest and most beautiful monasteries of India. Visit Ban Jhagri Falls, Shanti View Point, Ban Jhagri Falls, Institute of Tibetology, Ganesh Tok, Cottage Industry, Flower Show, White Hall, Tashi View Point, Hanuman Tok. Dinner & Overnight at Hotel in Gangtok."
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                            lineNumber: 97,
+                                                            lineNumber: 102,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                    lineNumber: 92,
+                                                    lineNumber: 97,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1226,7 +1244,7 @@ function SikkimTourismPage() {
                                                                     className: "w-5 h-5 text-blue-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                    lineNumber: 108,
+                                                                    lineNumber: 113,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1234,13 +1252,13 @@ function SikkimTourismPage() {
                                                                     children: "Day 3: Gangtok Sightseeing"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                    lineNumber: 109,
+                                                                    lineNumber: 114,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                            lineNumber: 107,
+                                                            lineNumber: 112,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1248,24 +1266,24 @@ function SikkimTourismPage() {
                                                             children: 'After breakfast, experience full day sightseeing of places like Char Dham, Samdruptse, at 135 ft high is the tallest statue of "Guru Padmasambhava", also known as Guru Rinpoche & Siddhesvar Dham, DuDrul Chorten, Temi Tea Garden, Namchi Village. Lunch en-route. Return to Hotel by evening. Night stay in Hotel/Resort at Gangtok.'
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                            lineNumber: 111,
+                                                            lineNumber: 116,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                    lineNumber: 106,
+                                                    lineNumber: 111,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                            lineNumber: 75,
+                                            lineNumber: 80,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                        lineNumber: 74,
+                                        lineNumber: 79,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1282,7 +1300,7 @@ function SikkimTourismPage() {
                                                                     className: "w-5 h-5 text-blue-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                    lineNumber: 126,
+                                                                    lineNumber: 131,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1290,13 +1308,13 @@ function SikkimTourismPage() {
                                                                     children: "Day 4: Changu Lake & Nathu La Pass"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                    lineNumber: 127,
+                                                                    lineNumber: 132,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                            lineNumber: 125,
+                                                            lineNumber: 130,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1307,20 +1325,20 @@ function SikkimTourismPage() {
                                                                     children: "Nathu La Pass permits have to be arranged the previous night when Voters ID card will be asked for."
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                    lineNumber: 136,
+                                                                    lineNumber: 141,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "Nathu La Pass (Monday closed) - once booked, amount is not refunded even if trip gets cancelled. (For Nathula Pass, extra US $100 / Rs. 5,000/- per vehicle with 4-6 PAX has to be paid for permit & to be paid at spot). Lunch en-route. Without permit, you can only visit Changu Lake & Baba Mandir. Evening free to stroll around M G Road or Local Market. Dinner & Overnight stay in Hotel/Resort at Gangtok."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                            lineNumber: 129,
+                                                            lineNumber: 134,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                    lineNumber: 124,
+                                                    lineNumber: 129,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1333,7 +1351,7 @@ function SikkimTourismPage() {
                                                                     className: "w-5 h-5 text-blue-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                    lineNumber: 148,
+                                                                    lineNumber: 153,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1341,13 +1359,13 @@ function SikkimTourismPage() {
                                                                     children: "Day 5: Rumtek Monastery"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                    lineNumber: 149,
+                                                                    lineNumber: 154,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                            lineNumber: 147,
+                                                            lineNumber: 152,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1355,13 +1373,13 @@ function SikkimTourismPage() {
                                                             children: "After breakfast, proceed to visit Rumtek Monastery, Do Drul Chorten, Saramsa Garden, Enchey Monastery - a must visit when in Sikkim. Lunch en-route. Return in evening. Dinner & Overnight at Hotel/Resort in Gangtok."
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                            lineNumber: 151,
+                                                            lineNumber: 156,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                    lineNumber: 146,
+                                                    lineNumber: 151,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1374,7 +1392,7 @@ function SikkimTourismPage() {
                                                                     className: "w-5 h-5 text-blue-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                    lineNumber: 162,
+                                                                    lineNumber: 167,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1382,13 +1400,13 @@ function SikkimTourismPage() {
                                                                     children: "Day 6: Departure"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                    lineNumber: 163,
+                                                                    lineNumber: 168,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                            lineNumber: 161,
+                                                            lineNumber: 166,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1396,13 +1414,13 @@ function SikkimTourismPage() {
                                                             children: "After breakfast & Check-out. Lunch en-route. Drive to Pakyong Airport in Sikkim / Bagdogra Airport in Bengal (IXB) / New Jalpaiguri Railway Station (NJP), a 3-4 hrs drive in AC vehicle for forwarding journey. Tour ends..."
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                            lineNumber: 165,
+                                                            lineNumber: 170,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                    lineNumber: 160,
+                                                    lineNumber: 165,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1413,7 +1431,7 @@ function SikkimTourismPage() {
                                                             children: "Package Highlights"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                            lineNumber: 174,
+                                                            lineNumber: 179,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1426,7 +1444,7 @@ function SikkimTourismPage() {
                                                                             className: "w-4 h-4 text-blue-600"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                            lineNumber: 177,
+                                                                            lineNumber: 182,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1434,13 +1452,13 @@ function SikkimTourismPage() {
                                                                             children: "Gangtok - Capital at 1670 meters"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                            lineNumber: 178,
+                                                                            lineNumber: 183,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                    lineNumber: 176,
+                                                                    lineNumber: 181,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1450,7 +1468,7 @@ function SikkimTourismPage() {
                                                                             className: "w-4 h-4 text-blue-600"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                            lineNumber: 181,
+                                                                            lineNumber: 186,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1458,13 +1476,13 @@ function SikkimTourismPage() {
                                                                             children: "Tsomgo Lake & Baba Mandir"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                            lineNumber: 182,
+                                                                            lineNumber: 187,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                    lineNumber: 180,
+                                                                    lineNumber: 185,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1474,7 +1492,7 @@ function SikkimTourismPage() {
                                                                             className: "w-4 h-4 text-blue-600"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                            lineNumber: 185,
+                                                                            lineNumber: 190,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1482,13 +1500,13 @@ function SikkimTourismPage() {
                                                                             children: "Nathu La Pass (Permit required)"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                            lineNumber: 186,
+                                                                            lineNumber: 191,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                    lineNumber: 184,
+                                                                    lineNumber: 189,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1498,7 +1516,7 @@ function SikkimTourismPage() {
                                                                             className: "w-4 h-4 text-blue-600"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                            lineNumber: 189,
+                                                                            lineNumber: 194,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1506,47 +1524,47 @@ function SikkimTourismPage() {
                                                                             children: "Rumtek Monastery visit"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                            lineNumber: 190,
+                                                                            lineNumber: 195,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                                    lineNumber: 188,
+                                                                    lineNumber: 193,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                            lineNumber: 175,
+                                                            lineNumber: 180,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                    lineNumber: 173,
+                                                    lineNumber: 178,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                            lineNumber: 122,
+                                            lineNumber: 127,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                        lineNumber: 121,
+                                        lineNumber: 126,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                lineNumber: 73,
+                                lineNumber: 78,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                            lineNumber: 72,
+                            lineNumber: 77,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1573,7 +1591,7 @@ function SikkimTourismPage() {
                                     children: "Sikkim Add-On Tour Packages"
                                 }, void 0, false, {
                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                    lineNumber: 206,
+                                    lineNumber: 211,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1581,13 +1599,13 @@ function SikkimTourismPage() {
                                     children: "Explore Wildlife, Beaches & Eco Tourism Destinations"
                                 }, void 0, false, {
                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                    lineNumber: 209,
+                                    lineNumber: 214,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                            lineNumber: 205,
+                            lineNumber: 210,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Destination, {
@@ -1602,7 +1620,7 @@ function SikkimTourismPage() {
                             ]
                         }, void 0, false, {
                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                            lineNumber: 215,
+                            lineNumber: 220,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Destination, {
@@ -1616,7 +1634,7 @@ function SikkimTourismPage() {
                             ]
                         }, void 0, false, {
                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                            lineNumber: 231,
+                            lineNumber: 236,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Destination, {
@@ -1632,18 +1650,18 @@ function SikkimTourismPage() {
                             ]
                         }, void 0, false, {
                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                            lineNumber: 244,
+                            lineNumber: 249,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                    lineNumber: 202,
+                    lineNumber: 207,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/sikkim-tourism/page.tsx",
-                lineNumber: 201,
+                lineNumber: 206,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1659,7 +1677,7 @@ function SikkimTourismPage() {
                                     children: "Sikkim Highlights"
                                 }, void 0, false, {
                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                    lineNumber: 271,
+                                    lineNumber: 276,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1667,13 +1685,13 @@ function SikkimTourismPage() {
                                     children: "Key attractions and experiences in the land of monasteries"
                                 }, void 0, false, {
                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                    lineNumber: 272,
+                                    lineNumber: 277,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                            lineNumber: 270,
+                            lineNumber: 275,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1686,7 +1704,7 @@ function SikkimTourismPage() {
                                             className: "w-12 h-12 text-blue-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                            lineNumber: 279,
+                                            lineNumber: 284,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1694,7 +1712,7 @@ function SikkimTourismPage() {
                                             children: "Ancient Monasteries"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                            lineNumber: 280,
+                                            lineNumber: 285,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1702,13 +1720,13 @@ function SikkimTourismPage() {
                                             children: "Rumtek, Ranka, Pemayangtse, Enchey Monasteries"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                            lineNumber: 281,
+                                            lineNumber: 286,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                    lineNumber: 278,
+                                    lineNumber: 283,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1718,7 +1736,7 @@ function SikkimTourismPage() {
                                             className: "w-12 h-12 text-cyan-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                            lineNumber: 285,
+                                            lineNumber: 290,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1726,7 +1744,7 @@ function SikkimTourismPage() {
                                             children: "Sacred Lakes"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                            lineNumber: 286,
+                                            lineNumber: 291,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1734,13 +1752,13 @@ function SikkimTourismPage() {
                                             children: "Tsomgo Lake, Gurudongmar Lake, Lampokhri Lake"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                            lineNumber: 287,
+                                            lineNumber: 292,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                    lineNumber: 284,
+                                    lineNumber: 289,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1750,7 +1768,7 @@ function SikkimTourismPage() {
                                             className: "w-12 h-12 text-green-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                            lineNumber: 291,
+                                            lineNumber: 296,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1758,7 +1776,7 @@ function SikkimTourismPage() {
                                             children: "Mountain Passes"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                            lineNumber: 292,
+                                            lineNumber: 297,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1766,13 +1784,13 @@ function SikkimTourismPage() {
                                             children: "Nathu La Pass, Jeelep-La Pass, Zero Point Yumesamdong"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                            lineNumber: 293,
+                                            lineNumber: 298,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                    lineNumber: 290,
+                                    lineNumber: 295,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1782,7 +1800,7 @@ function SikkimTourismPage() {
                                             className: "w-12 h-12 text-purple-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                            lineNumber: 297,
+                                            lineNumber: 302,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1790,7 +1808,7 @@ function SikkimTourismPage() {
                                             children: "Silk Route"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                            lineNumber: 298,
+                                            lineNumber: 303,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1798,30 +1816,30 @@ function SikkimTourismPage() {
                                             children: "Historic trade route with Zuluk, Aritar, Reshikhola"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                            lineNumber: 299,
+                                            lineNumber: 304,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                    lineNumber: 296,
+                                    lineNumber: 301,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                            lineNumber: 277,
+                            lineNumber: 282,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                    lineNumber: 269,
+                    lineNumber: 274,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/sikkim-tourism/page.tsx",
-                lineNumber: 268,
+                lineNumber: 273,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1838,7 +1856,7 @@ function SikkimTourismPage() {
                                         className: "w-6 h-6 text-yellow-600 flex-shrink-0 mt-1"
                                     }, void 0, false, {
                                         fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                        lineNumber: 310,
+                                        lineNumber: 315,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1848,7 +1866,7 @@ function SikkimTourismPage() {
                                                 children: "Nathu La Pass Information"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                lineNumber: 312,
+                                                lineNumber: 317,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1858,53 +1876,53 @@ function SikkimTourismPage() {
                                                         children: "• Permits must be arranged the previous night"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                        lineNumber: 314,
+                                                        lineNumber: 319,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Voters ID card required"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                        lineNumber: 315,
+                                                        lineNumber: 320,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Monday closed"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                        lineNumber: 316,
+                                                        lineNumber: 321,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Extra US $100 / Rs. 5,000/- per vehicle (4-6 PAX)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                        lineNumber: 317,
+                                                        lineNumber: 322,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Amount non-refundable once booked"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                        lineNumber: 318,
+                                                        lineNumber: 323,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                lineNumber: 313,
+                                                lineNumber: 318,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                        lineNumber: 311,
+                                        lineNumber: 316,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                lineNumber: 309,
+                                lineNumber: 314,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1914,7 +1932,7 @@ function SikkimTourismPage() {
                                         className: "w-6 h-6 text-blue-600 flex-shrink-0 mt-1"
                                     }, void 0, false, {
                                         fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                        lineNumber: 323,
+                                        lineNumber: 328,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1924,7 +1942,7 @@ function SikkimTourismPage() {
                                                 children: "Best Time to Visit"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                lineNumber: 325,
+                                                lineNumber: 330,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1934,62 +1952,62 @@ function SikkimTourismPage() {
                                                         children: "• March to June: Clear views, blooming flowers"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                        lineNumber: 327,
+                                                        lineNumber: 332,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• October to December: Snow-covered landscapes"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                        lineNumber: 328,
+                                                        lineNumber: 333,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• December to April: Snow at higher altitudes"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                        lineNumber: 329,
+                                                        lineNumber: 334,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Avoid monsoon (July-September) for clear views"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                        lineNumber: 330,
+                                                        lineNumber: 335,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                                lineNumber: 326,
+                                                lineNumber: 331,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                        lineNumber: 324,
+                                        lineNumber: 329,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/sikkim-tourism/page.tsx",
-                                lineNumber: 322,
+                                lineNumber: 327,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/sikkim-tourism/page.tsx",
-                        lineNumber: 308,
+                        lineNumber: 313,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/sikkim-tourism/page.tsx",
-                    lineNumber: 307,
+                    lineNumber: 312,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/sikkim-tourism/page.tsx",
-                lineNumber: 306,
+                lineNumber: 311,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PackagePricing$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1997,12 +2015,12 @@ function SikkimTourismPage() {
                 subtitle: "Choose your perfect Himalayan adventure duration"
             }, void 0, false, {
                 fileName: "[project]/app/sikkim-tourism/page.tsx",
-                lineNumber: 338,
+                lineNumber: 343,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/sikkim-tourism/page.tsx",
-                lineNumber: 342,
+                lineNumber: 347,
                 columnNumber: 7
             }, this)
         ]
@@ -2024,7 +2042,7 @@ function Destination({ title, subtitle, content, cta }) {
                         children: title
                     }, void 0, false, {
                         fileName: "[project]/app/sikkim-tourism/page.tsx",
-                        lineNumber: 353,
+                        lineNumber: 358,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -2033,13 +2051,13 @@ function Destination({ title, subtitle, content, cta }) {
                         children: cta
                     }, void 0, false, {
                         fileName: "[project]/app/sikkim-tourism/page.tsx",
-                        lineNumber: 354,
+                        lineNumber: 359,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/sikkim-tourism/page.tsx",
-                lineNumber: 351,
+                lineNumber: 356,
                 columnNumber: 8
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2047,7 +2065,7 @@ function Destination({ title, subtitle, content, cta }) {
                 children: subtitle
             }, void 0, false, {
                 fileName: "[project]/app/sikkim-tourism/page.tsx",
-                lineNumber: 362,
+                lineNumber: 367,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2059,23 +2077,23 @@ function Destination({ title, subtitle, content, cta }) {
                             children: item
                         }, void 0, false, {
                             fileName: "[project]/app/sikkim-tourism/page.tsx",
-                            lineNumber: 371,
+                            lineNumber: 376,
                             columnNumber: 13
                         }, this)
                     }, index, false, {
                         fileName: "[project]/app/sikkim-tourism/page.tsx",
-                        lineNumber: 367,
+                        lineNumber: 372,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/app/sikkim-tourism/page.tsx",
-                lineNumber: 365,
+                lineNumber: 370,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/sikkim-tourism/page.tsx",
-        lineNumber: 350,
+        lineNumber: 355,
         columnNumber: 5
     }, this);
 }

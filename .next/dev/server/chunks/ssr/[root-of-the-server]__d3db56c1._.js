@@ -1101,22 +1101,40 @@ function RajasthanTourismPage() {
                     className: "max-w-7xl mx-auto px-6",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-center mb-12",
+                            className: "flex flex-col space-y-2",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-4xl md:text-5xl font-bold mb-4",
-                                    children: "Rajasthan Circuit Package"
-                                }, void 0, false, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex gap-5 items-center",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            className: "text-4xl md:text-5xl font-bold mb-4",
+                                            children: "Rajasthan Circuit Package"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/rajasthan-tourism/page.tsx",
+                                            lineNumber: 68,
+                                            columnNumber: 13
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: "/book-tour",
+                                            className: "bg-red-500 px-4 py-4 text-white rounded-full",
+                                            children: "Book now For 6N/7D"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/rajasthan-tourism/page.tsx",
+                                            lineNumber: 69,
+                                            columnNumber: 16
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/app/rajasthan-tourism/page.tsx",
                                     lineNumber: 67,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-xl text-gray-600 max-w-3xl mx-auto",
+                                    className: "text-xl text-gray-600 max-w-3xl mb-10",
                                     children: "Jodhpur - Udaipur - Jaipur - Mt. Abu"
                                 }, void 0, false, {
                                     fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                    lineNumber: 68,
+                                    lineNumber: 73,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -1143,7 +1161,7 @@ function RajasthanTourismPage() {
                                                                 className: "w-5 h-5 text-orange-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 80,
+                                                                lineNumber: 85,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1151,13 +1169,13 @@ function RajasthanTourismPage() {
                                                                 children: "Day 1: Arrival in Jodhpur"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 81,
+                                                                lineNumber: 86,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 79,
+                                                        lineNumber: 84,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1165,13 +1183,13 @@ function RajasthanTourismPage() {
                                                         children: "Our representative will be there to receive the Guest on your arrival at morning Jodhpur Station / Airport. Drive over to Jodhpur. Check into Hotel. Lunch & rest. Post lunch, visit local sightseeing of Umaid Bhawan and Meheran Garh Fort. Return in evening. Free to explore local area. Dinner & Overnight at Hotel/Resort/Haveli in Jodhpur."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 83,
+                                                        lineNumber: 88,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                lineNumber: 78,
+                                                lineNumber: 83,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1184,7 +1202,7 @@ function RajasthanTourismPage() {
                                                                 className: "w-5 h-5 text-orange-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 95,
+                                                                lineNumber: 100,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1192,13 +1210,13 @@ function RajasthanTourismPage() {
                                                                 children: "Day 2: Jaisalmer Exploration"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 96,
+                                                                lineNumber: 101,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 94,
+                                                        lineNumber: 99,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1206,13 +1224,13 @@ function RajasthanTourismPage() {
                                                         children: "After breakfast, proceed towards Jaisalmer. On the way visit, Sonar Kella, Patwa Haveli and Gadisar lake. After that go to Sam Desert. Lunch en-route. Check into Desert Camp. Experience sunset point on a Desert Safari on Jeep. Enjoy evening with live local Folk Dance & cultural show. Dinner & Overnight at Tent in Jaisalmer."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 98,
+                                                        lineNumber: 103,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                lineNumber: 93,
+                                                lineNumber: 98,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1225,7 +1243,7 @@ function RajasthanTourismPage() {
                                                                 className: "w-5 h-5 text-orange-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 111,
+                                                                lineNumber: 116,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1233,13 +1251,13 @@ function RajasthanTourismPage() {
                                                                 children: "Day 3: Udaipur"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 112,
+                                                                lineNumber: 117,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 110,
+                                                        lineNumber: 115,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1247,13 +1265,13 @@ function RajasthanTourismPage() {
                                                         children: "Early morning; you can enjoy a Camel Safari (your cost). Back to tent for breakfast. Then check out & proceed towards Udaipur via Sonar Kella (if you have not visited on earlier day). Lunch en route. Return in evening. Free to explore local area. Dinner & Overnight at Hotel/Resort/Haveli in Udaipur."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 114,
+                                                        lineNumber: 119,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                lineNumber: 109,
+                                                lineNumber: 114,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1266,7 +1284,7 @@ function RajasthanTourismPage() {
                                                                 className: "w-5 h-5 text-orange-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 126,
+                                                                lineNumber: 131,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1274,13 +1292,13 @@ function RajasthanTourismPage() {
                                                                 children: "Day 4: Mount Abu"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 127,
+                                                                lineNumber: 132,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 125,
+                                                        lineNumber: 130,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1288,13 +1306,13 @@ function RajasthanTourismPage() {
                                                         children: "After breakfast, visit local sightseeing at Udaipur like City Palace, Fate Sagar Lake, Pichola Lake & Rope way. Return to Hotel in evening. Lunch en-route. Evening free to explore local area. Dinner & Overnight at Hotel/Resort/Haveli in Udaipur (or) you can proceed towards Mount Abu (extra cost). Reach Mt. Abu & check-in at Hotel. Evening free to explore local area. Dinner & Overnight at Hotel/Resort in Mount Abu."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 129,
+                                                        lineNumber: 134,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                lineNumber: 124,
+                                                lineNumber: 129,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1307,7 +1325,7 @@ function RajasthanTourismPage() {
                                                                 className: "w-5 h-5 text-orange-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 143,
+                                                                lineNumber: 148,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1315,13 +1333,13 @@ function RajasthanTourismPage() {
                                                                 children: "Day 5: Towards Jaipur"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 144,
+                                                                lineNumber: 149,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 142,
+                                                        lineNumber: 147,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1329,13 +1347,13 @@ function RajasthanTourismPage() {
                                                         children: "After breakfast in the morning, check-out & visit Puskar via Chittor & Ajmer Sharif. Lunch en-route. Night Stay at Puskar (or) proceed straight to Jaipur. Check into Hotel. Evening free to explore local area. Dinner & Overnight at Hotel/Resort/Haveli in Jaipur."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 146,
+                                                        lineNumber: 151,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                lineNumber: 141,
+                                                lineNumber: 146,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1348,7 +1366,7 @@ function RajasthanTourismPage() {
                                                                 className: "w-5 h-5 text-orange-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 158,
+                                                                lineNumber: 163,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1356,13 +1374,13 @@ function RajasthanTourismPage() {
                                                                 children: "Day 6: Jaipur Local Sightseeing"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 159,
+                                                                lineNumber: 164,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 157,
+                                                        lineNumber: 162,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1370,13 +1388,13 @@ function RajasthanTourismPage() {
                                                         children: "After breakfast visit local sight-seeing like Amer Fort, City Palace, Jantar Mantar, Hawa Mahal, Pink City, etc. Lunch en-route. Evening free to explore local area. Dinner & Overnight at Hotel/Resort/Haveli in Jaipur."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 161,
+                                                        lineNumber: 166,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                lineNumber: 156,
+                                                lineNumber: 161,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1389,7 +1407,7 @@ function RajasthanTourismPage() {
                                                                 className: "w-5 h-5 text-orange-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 172,
+                                                                lineNumber: 177,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1397,13 +1415,13 @@ function RajasthanTourismPage() {
                                                                 children: "Day 7: Departure"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 173,
+                                                                lineNumber: 178,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 171,
+                                                        lineNumber: 176,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1411,13 +1429,13 @@ function RajasthanTourismPage() {
                                                         children: "Breakfast & check-out from Hotel. Visit Johuree Bazaar if time permits. Then leave to drop-off at Jaipur Airport / Station for your onward / return train journey flight to Kolkata as per your departure timing. Tour ends..."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 175,
+                                                        lineNumber: 180,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                lineNumber: 170,
+                                                lineNumber: 175,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1428,7 +1446,7 @@ function RajasthanTourismPage() {
                                                         children: "Package Highlights"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 184,
+                                                        lineNumber: 189,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1441,7 +1459,7 @@ function RajasthanTourismPage() {
                                                                         className: "w-4 h-4 text-orange-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                        lineNumber: 187,
+                                                                        lineNumber: 192,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1449,13 +1467,13 @@ function RajasthanTourismPage() {
                                                                         children: "Pink City - Jaipur"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                        lineNumber: 188,
+                                                                        lineNumber: 193,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 186,
+                                                                lineNumber: 191,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1465,7 +1483,7 @@ function RajasthanTourismPage() {
                                                                         className: "w-4 h-4 text-orange-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                        lineNumber: 191,
+                                                                        lineNumber: 196,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1473,13 +1491,13 @@ function RajasthanTourismPage() {
                                                                         children: "City Palace & Jantar Mantar"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                        lineNumber: 192,
+                                                                        lineNumber: 197,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 190,
+                                                                lineNumber: 195,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1489,7 +1507,7 @@ function RajasthanTourismPage() {
                                                                         className: "w-4 h-4 text-orange-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                        lineNumber: 195,
+                                                                        lineNumber: 200,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1497,13 +1515,13 @@ function RajasthanTourismPage() {
                                                                         children: "Desert Safari & Camel Rides"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                        lineNumber: 196,
+                                                                        lineNumber: 201,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 194,
+                                                                lineNumber: 199,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1513,7 +1531,7 @@ function RajasthanTourismPage() {
                                                                         className: "w-4 h-4 text-orange-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                        lineNumber: 199,
+                                                                        lineNumber: 204,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1521,46 +1539,46 @@ function RajasthanTourismPage() {
                                                                         children: "Mount Abu Hill Station"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                        lineNumber: 200,
+                                                                        lineNumber: 205,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 198,
+                                                                lineNumber: 203,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 185,
+                                                        lineNumber: 190,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                lineNumber: 183,
+                                                lineNumber: 188,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                        lineNumber: 76,
+                                        lineNumber: 81,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                    lineNumber: 75,
+                                    lineNumber: 80,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                lineNumber: 74,
+                                lineNumber: 79,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                            lineNumber: 73,
+                            lineNumber: 78,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1590,7 +1608,7 @@ function RajasthanTourismPage() {
                                             children: " Add-on Bikaner "
                                         }, void 0, false, {
                                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                            lineNumber: 218,
+                                            lineNumber: 223,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1599,13 +1617,13 @@ function RajasthanTourismPage() {
                                             children: "Book Now For  2N/3D"
                                         }, void 0, false, {
                                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                            lineNumber: 219,
+                                            lineNumber: 224,
                                             columnNumber: 16
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                    lineNumber: 217,
+                                    lineNumber: 222,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1613,13 +1631,13 @@ function RajasthanTourismPage() {
                                     children: "Mandwa - Sanbhar Salt Lake -"
                                 }, void 0, false, {
                                     fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                    lineNumber: 224,
+                                    lineNumber: 229,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                            lineNumber: 216,
+                            lineNumber: 221,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1640,7 +1658,7 @@ function RajasthanTourismPage() {
                                                                 className: "w-5 h-5 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 235,
+                                                                lineNumber: 240,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1648,13 +1666,13 @@ function RajasthanTourismPage() {
                                                                 children: "Day 1: Arrival in Bikaner"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 236,
+                                                                lineNumber: 241,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 234,
+                                                        lineNumber: 239,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1662,13 +1680,13 @@ function RajasthanTourismPage() {
                                                         children: "Our representative will receive you at Jodhpur Airport / Bikaner Railway Station (or) on your arrival from Jaipur. Check into Hotel. Lunch break. Post lunch, visit Junagarh Fort & Laalgarh Palace. Evening free to explore local area. Dinner & Overnight at Hotel/Resort/Haveli in Bikaner."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 238,
+                                                        lineNumber: 243,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                lineNumber: 233,
+                                                lineNumber: 238,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1681,7 +1699,7 @@ function RajasthanTourismPage() {
                                                                 className: "w-5 h-5 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 250,
+                                                                lineNumber: 255,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1689,13 +1707,13 @@ function RajasthanTourismPage() {
                                                                 children: "Day 2: Bikaner Sightseeing"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 251,
+                                                                lineNumber: 256,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 249,
+                                                        lineNumber: 254,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1703,13 +1721,13 @@ function RajasthanTourismPage() {
                                                         children: "After breakfast, proceed to explore Bikaner. Visit Bhansagar Jain Temple, Shiv Bari & Camel Breeding centre. Lunch en-route. Post Lunch, you may visit Deshnoke Temple (Rat Temple) where one can see 100s of rats manning to deity. Evening free to explore local area. Dinner & Overnight at Hotel/Resort/Haveli in Bikaner."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 253,
+                                                        lineNumber: 258,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                lineNumber: 248,
+                                                lineNumber: 253,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1722,7 +1740,7 @@ function RajasthanTourismPage() {
                                                                 className: "w-5 h-5 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 265,
+                                                                lineNumber: 270,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1730,13 +1748,13 @@ function RajasthanTourismPage() {
                                                                 children: "Day 3: Mandwa"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 266,
+                                                                lineNumber: 271,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 264,
+                                                        lineNumber: 269,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1744,13 +1762,13 @@ function RajasthanTourismPage() {
                                                         children: "Breakfast & check-out from Hotel. On route, you stop-over at Sanbhar Salt Lake (extra cost) and if time permits. Lunch en-route. Then drop-off at Jodhpur Airport / Nearest Railway Station for your onward / return Train journey (or) Flight as per your departure timing. Tour ends..."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 268,
+                                                        lineNumber: 273,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                lineNumber: 263,
+                                                lineNumber: 268,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1761,7 +1779,7 @@ function RajasthanTourismPage() {
                                                         children: "Bikaner Highlights"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 281,
+                                                        lineNumber: 286,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1774,7 +1792,7 @@ function RajasthanTourismPage() {
                                                                         className: "w-4 h-4 text-blue-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                        lineNumber: 284,
+                                                                        lineNumber: 289,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1782,13 +1800,13 @@ function RajasthanTourismPage() {
                                                                         children: "Junagarh Fort & Laalgarh Palace"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                        lineNumber: 285,
+                                                                        lineNumber: 290,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 283,
+                                                                lineNumber: 288,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1798,7 +1816,7 @@ function RajasthanTourismPage() {
                                                                         className: "w-4 h-4 text-blue-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                        lineNumber: 288,
+                                                                        lineNumber: 293,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1806,13 +1824,13 @@ function RajasthanTourismPage() {
                                                                         children: "Bhansagar Jain Temple"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                        lineNumber: 289,
+                                                                        lineNumber: 294,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 287,
+                                                                lineNumber: 292,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1822,7 +1840,7 @@ function RajasthanTourismPage() {
                                                                         className: "w-4 h-4 text-blue-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                        lineNumber: 292,
+                                                                        lineNumber: 297,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1830,57 +1848,57 @@ function RajasthanTourismPage() {
                                                                         children: "Camel Breeding Centre"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                        lineNumber: 293,
+                                                                        lineNumber: 298,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 291,
+                                                                lineNumber: 296,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 282,
+                                                        lineNumber: 287,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                lineNumber: 280,
+                                                lineNumber: 285,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                        lineNumber: 231,
+                                        lineNumber: 236,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                    lineNumber: 230,
+                                    lineNumber: 235,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                lineNumber: 229,
+                                lineNumber: 234,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                            lineNumber: 228,
+                            lineNumber: 233,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                    lineNumber: 213,
+                    lineNumber: 218,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                lineNumber: 212,
+                lineNumber: 217,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1899,7 +1917,7 @@ function RajasthanTourismPage() {
                                             children: " Add-on Ranthambore "
                                         }, void 0, false, {
                                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                            lineNumber: 312,
+                                            lineNumber: 317,
                                             columnNumber: 16
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1908,13 +1926,13 @@ function RajasthanTourismPage() {
                                             children: "Book Now For  2N/3D"
                                         }, void 0, false, {
                                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                            lineNumber: 313,
+                                            lineNumber: 318,
                                             columnNumber: 16
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                    lineNumber: 311,
+                                    lineNumber: 316,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1922,13 +1940,13 @@ function RajasthanTourismPage() {
                                     children: "Wildlife Safari - Tiger Reserve"
                                 }, void 0, false, {
                                     fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                    lineNumber: 318,
+                                    lineNumber: 323,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                            lineNumber: 310,
+                            lineNumber: 315,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1949,7 +1967,7 @@ function RajasthanTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 329,
+                                                                lineNumber: 334,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1957,13 +1975,13 @@ function RajasthanTourismPage() {
                                                                 children: "Day 1: Arrival in Ranthambore"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 330,
+                                                                lineNumber: 335,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 328,
+                                                        lineNumber: 333,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1971,13 +1989,13 @@ function RajasthanTourismPage() {
                                                         children: "Our representative will receive you at Sawai Madhopur Railway Station / Airport. Transfer to hotel & check-in. Lunch & rest. Post lunch, visit Ranthambore Fort. Evening free to explore local area. Dinner & Overnight at Hotel/Resort in Ranthambore."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 332,
+                                                        lineNumber: 337,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                lineNumber: 327,
+                                                lineNumber: 332,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1990,7 +2008,7 @@ function RajasthanTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 344,
+                                                                lineNumber: 349,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1998,13 +2016,13 @@ function RajasthanTourismPage() {
                                                                 children: "Day 2: Wildlife Safari"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 345,
+                                                                lineNumber: 350,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 343,
+                                                        lineNumber: 348,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2012,13 +2030,13 @@ function RajasthanTourismPage() {
                                                         children: "Early morning jeep safari into Ranthambore National Park. Return to hotel for breakfast. Post lunch, afternoon jeep safari for tiger spotting. Evening free for leisure. Dinner & Overnight at Hotel/Resort in Ranthambore."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 347,
+                                                        lineNumber: 352,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                lineNumber: 342,
+                                                lineNumber: 347,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2031,7 +2049,7 @@ function RajasthanTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 359,
+                                                                lineNumber: 364,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2039,13 +2057,13 @@ function RajasthanTourismPage() {
                                                                 children: "Day 3: Departure"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 360,
+                                                                lineNumber: 365,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 358,
+                                                        lineNumber: 363,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2053,13 +2071,13 @@ function RajasthanTourismPage() {
                                                         children: "Breakfast & check-out from Hotel. Visit local markets if time permits. Then drop-off at Sawai Madhopur Railway Station / Airport for your onward journey. Tour ends..."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 362,
+                                                        lineNumber: 367,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                lineNumber: 357,
+                                                lineNumber: 362,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2070,7 +2088,7 @@ function RajasthanTourismPage() {
                                                         children: "Ranthambore Highlights"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 372,
+                                                        lineNumber: 377,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2083,7 +2101,7 @@ function RajasthanTourismPage() {
                                                                         className: "w-4 h-4 text-green-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                        lineNumber: 375,
+                                                                        lineNumber: 380,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2091,13 +2109,13 @@ function RajasthanTourismPage() {
                                                                         children: "Tiger Safari in National Park"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                        lineNumber: 376,
+                                                                        lineNumber: 381,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 374,
+                                                                lineNumber: 379,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2107,7 +2125,7 @@ function RajasthanTourismPage() {
                                                                         className: "w-4 h-4 text-green-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                        lineNumber: 379,
+                                                                        lineNumber: 384,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2115,13 +2133,13 @@ function RajasthanTourismPage() {
                                                                         children: "Ranthambore Fort Visit"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                        lineNumber: 380,
+                                                                        lineNumber: 385,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 378,
+                                                                lineNumber: 383,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2131,7 +2149,7 @@ function RajasthanTourismPage() {
                                                                         className: "w-4 h-4 text-green-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                        lineNumber: 383,
+                                                                        lineNumber: 388,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2139,57 +2157,57 @@ function RajasthanTourismPage() {
                                                                         children: "Wildlife Photography"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                        lineNumber: 384,
+                                                                        lineNumber: 389,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                                lineNumber: 382,
+                                                                lineNumber: 387,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 373,
+                                                        lineNumber: 378,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                lineNumber: 371,
+                                                lineNumber: 376,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                        lineNumber: 325,
+                                        lineNumber: 330,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                    lineNumber: 324,
+                                    lineNumber: 329,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                lineNumber: 323,
+                                lineNumber: 328,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                            lineNumber: 322,
+                            lineNumber: 327,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                    lineNumber: 306,
+                    lineNumber: 311,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                lineNumber: 305,
+                lineNumber: 310,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2205,7 +2223,7 @@ function RajasthanTourismPage() {
                                     children: "Rajasthan Highlights"
                                 }, void 0, false, {
                                     fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                    lineNumber: 399,
+                                    lineNumber: 404,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2213,13 +2231,13 @@ function RajasthanTourismPage() {
                                     children: "Key attractions and experiences in the land of kings"
                                 }, void 0, false, {
                                     fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                    lineNumber: 400,
+                                    lineNumber: 405,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                            lineNumber: 398,
+                            lineNumber: 403,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2232,7 +2250,7 @@ function RajasthanTourismPage() {
                                             className: "w-12 h-12 text-orange-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                            lineNumber: 407,
+                                            lineNumber: 412,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2240,7 +2258,7 @@ function RajasthanTourismPage() {
                                             children: "Royal Palaces"
                                         }, void 0, false, {
                                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                            lineNumber: 408,
+                                            lineNumber: 413,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2248,13 +2266,13 @@ function RajasthanTourismPage() {
                                             children: "City Palace, Amer Fort, Hawa Mahal"
                                         }, void 0, false, {
                                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                            lineNumber: 409,
+                                            lineNumber: 414,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                    lineNumber: 406,
+                                    lineNumber: 411,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2264,7 +2282,7 @@ function RajasthanTourismPage() {
                                             className: "w-12 h-12 text-blue-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                            lineNumber: 413,
+                                            lineNumber: 418,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2272,7 +2290,7 @@ function RajasthanTourismPage() {
                                             children: "Desert Safari"
                                         }, void 0, false, {
                                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                            lineNumber: 414,
+                                            lineNumber: 419,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2280,13 +2298,13 @@ function RajasthanTourismPage() {
                                             children: "Camel rides, desert camps, sunset points"
                                         }, void 0, false, {
                                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                            lineNumber: 415,
+                                            lineNumber: 420,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                    lineNumber: 412,
+                                    lineNumber: 417,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2296,7 +2314,7 @@ function RajasthanTourismPage() {
                                             className: "w-12 h-12 text-purple-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                            lineNumber: 419,
+                                            lineNumber: 424,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2304,7 +2322,7 @@ function RajasthanTourismPage() {
                                             children: "Heritage Sites"
                                         }, void 0, false, {
                                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                            lineNumber: 420,
+                                            lineNumber: 425,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2312,13 +2330,13 @@ function RajasthanTourismPage() {
                                             children: "Jantar Mantar, Junagarh Fort, Laalgarh Palace"
                                         }, void 0, false, {
                                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                            lineNumber: 421,
+                                            lineNumber: 426,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                    lineNumber: 418,
+                                    lineNumber: 423,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2328,7 +2346,7 @@ function RajasthanTourismPage() {
                                             className: "w-12 h-12 text-green-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                            lineNumber: 425,
+                                            lineNumber: 430,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2336,7 +2354,7 @@ function RajasthanTourismPage() {
                                             children: "Sacred Temples"
                                         }, void 0, false, {
                                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                            lineNumber: 426,
+                                            lineNumber: 431,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2344,13 +2362,13 @@ function RajasthanTourismPage() {
                                             children: "Deshnoke Temple, Bhansagar Jain Temple"
                                         }, void 0, false, {
                                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                            lineNumber: 427,
+                                            lineNumber: 432,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                    lineNumber: 424,
+                                    lineNumber: 429,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2360,7 +2378,7 @@ function RajasthanTourismPage() {
                                             className: "w-12 h-12 text-cyan-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                            lineNumber: 431,
+                                            lineNumber: 436,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2368,7 +2386,7 @@ function RajasthanTourismPage() {
                                             children: "Hill Stations"
                                         }, void 0, false, {
                                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                            lineNumber: 432,
+                                            lineNumber: 437,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2376,30 +2394,30 @@ function RajasthanTourismPage() {
                                             children: "Mount Abu, Udaipur lakes, Pichola Lake"
                                         }, void 0, false, {
                                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                            lineNumber: 433,
+                                            lineNumber: 438,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                    lineNumber: 430,
+                                    lineNumber: 435,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                            lineNumber: 405,
+                            lineNumber: 410,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                    lineNumber: 397,
+                    lineNumber: 402,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                lineNumber: 396,
+                lineNumber: 401,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2416,7 +2434,7 @@ function RajasthanTourismPage() {
                                         className: "w-6 h-6 text-yellow-600 flex-shrink-0 mt-1"
                                     }, void 0, false, {
                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                        lineNumber: 444,
+                                        lineNumber: 449,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2426,7 +2444,7 @@ function RajasthanTourismPage() {
                                                 children: "Best Time to Visit"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                lineNumber: 446,
+                                                lineNumber: 451,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2436,46 +2454,46 @@ function RajasthanTourismPage() {
                                                         children: "• October to March: Pleasant weather, clear skies"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 448,
+                                                        lineNumber: 453,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• November to February: Cool weather, perfect for sightseeing"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 449,
+                                                        lineNumber: 454,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• April to June: Hot weather, indoor attractions recommended"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 450,
+                                                        lineNumber: 455,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Avoid monsoon (July-September) for outdoor activities"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 451,
+                                                        lineNumber: 456,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                lineNumber: 447,
+                                                lineNumber: 452,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                        lineNumber: 445,
+                                        lineNumber: 450,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                lineNumber: 443,
+                                lineNumber: 448,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2485,7 +2503,7 @@ function RajasthanTourismPage() {
                                         className: "w-6 h-6 text-blue-600 flex-shrink-0 mt-1"
                                     }, void 0, false, {
                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                        lineNumber: 456,
+                                        lineNumber: 461,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2495,7 +2513,7 @@ function RajasthanTourismPage() {
                                                 children: "Travel Tips"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                lineNumber: 458,
+                                                lineNumber: 463,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2505,62 +2523,62 @@ function RajasthanTourismPage() {
                                                         children: "• Book accommodations in advance during peak season (October-March)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 460,
+                                                        lineNumber: 465,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Carry light cotton clothing and sun protection"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 461,
+                                                        lineNumber: 466,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Stay hydrated during desert safaris"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 462,
+                                                        lineNumber: 467,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Respect local customs and traditions"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                        lineNumber: 463,
+                                                        lineNumber: 468,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                                lineNumber: 459,
+                                                lineNumber: 464,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                        lineNumber: 457,
+                                        lineNumber: 462,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                                lineNumber: 455,
+                                lineNumber: 460,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                        lineNumber: 442,
+                        lineNumber: 447,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                    lineNumber: 441,
+                    lineNumber: 446,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                lineNumber: 440,
+                lineNumber: 445,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PackagePricing$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2568,12 +2586,12 @@ function RajasthanTourismPage() {
                 subtitle: "Choose your perfect desert and palace adventure"
             }, void 0, false, {
                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                lineNumber: 472,
+                lineNumber: 477,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/rajasthan-tourism/page.tsx",
-                lineNumber: 478,
+                lineNumber: 483,
                 columnNumber: 7
             }, this)
         ]

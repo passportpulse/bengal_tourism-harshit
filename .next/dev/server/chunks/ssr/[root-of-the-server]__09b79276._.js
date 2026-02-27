@@ -1101,29 +1101,47 @@ function HimachalTourismPage() {
                     className: "max-w-7xl mx-auto px-6",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-center mb-12",
+                            className: "flex flex-col space-y-2",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-4xl md:text-5xl font-bold mb-4",
-                                    children: "Himachal Pradesh Circuit"
-                                }, void 0, false, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex gap-5 items-center",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            className: "text-4xl md:text-5xl font-bold mb-4",
+                                            children: "Himachal Pradesh Circuit"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/himachal-tourism/page.tsx",
+                                            lineNumber: 70,
+                                            columnNumber: 13
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: "/book-tour",
+                                            className: "bg-red-500 px-4 py-4 text-white rounded-full",
+                                            children: "Book now For 6N/7D"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/himachal-tourism/page.tsx",
+                                            lineNumber: 71,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
                                     lineNumber: 69,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-xl text-gray-600 max-w-3xl mx-auto",
+                                    className: "text-xl text-gray-600 max-w-3xl  mb-6",
                                     children: "Simla - Kullu Manali - Dehradun - Muissourie"
                                 }, void 0, false, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                                    lineNumber: 70,
+                                    lineNumber: 75,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/himachal-tourism/page.tsx",
                             lineNumber: 68,
-                            columnNumber: 11
+                            columnNumber: 10
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 shadow-xl",
@@ -1143,7 +1161,7 @@ function HimachalTourismPage() {
                                                                 className: "w-5 h-5 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 82,
+                                                                lineNumber: 87,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1151,13 +1169,13 @@ function HimachalTourismPage() {
                                                                 children: "Day 1: Arrival in Shimla"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 83,
+                                                                lineNumber: 88,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 81,
+                                                        lineNumber: 86,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1165,13 +1183,13 @@ function HimachalTourismPage() {
                                                         children: "Arrive at Delhi / Chandigarh Airport / Railway Station and drive to Shimla. Upon arrival in Shimla, check-in to hotel. Lunch break. Enjoy the rest of the day at leisure. Return in evening. Free to explore local market area. Dinner & Overnight at Hotel/Resort in Shimla."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 85,
+                                                        lineNumber: 90,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 80,
+                                                lineNumber: 85,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1184,7 +1202,7 @@ function HimachalTourismPage() {
                                                                 className: "w-5 h-5 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 97,
+                                                                lineNumber: 102,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1192,13 +1210,13 @@ function HimachalTourismPage() {
                                                                 children: "Day 2: Explore Shimla"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 98,
+                                                                lineNumber: 103,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 96,
+                                                        lineNumber: 101,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1206,13 +1224,13 @@ function HimachalTourismPage() {
                                                         children: "After enjoying breakfast, proceed for a half-day sightseeing tour of Kufri. Back to Shimla. Lunch enroute. Post lunch, visit Kalibari, Shimla State Museum, Jaku Hills, etc. Return in evening. Free to explore local Mall area. Dinner & Overnight at Hotel/Resort in Shimla."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 100,
+                                                        lineNumber: 105,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 95,
+                                                lineNumber: 100,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1225,7 +1243,7 @@ function HimachalTourismPage() {
                                                                 className: "w-5 h-5 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 112,
+                                                                lineNumber: 117,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1233,13 +1251,13 @@ function HimachalTourismPage() {
                                                                 children: "Day 3: Explore Manali"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 113,
+                                                                lineNumber: 118,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 111,
+                                                        lineNumber: 116,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1247,13 +1265,13 @@ function HimachalTourismPage() {
                                                         children: "After enjoying breakfast, check-out & drive towards Manali. En-route, visit Roerich Art Gallery at Naggar. Lunch en-route. Check-in to Hotel. Then visit Hadimba Temple, The Mall, Vaishno Devi Village, etc. Enjoy the rest of the day at leisure at Mall area. Return in evening. Free to explore local area. Dinner & Overnight at Hotel/Resort in Manali."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 115,
+                                                        lineNumber: 120,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 110,
+                                                lineNumber: 115,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1266,7 +1284,7 @@ function HimachalTourismPage() {
                                                                 className: "w-5 h-5 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 129,
+                                                                lineNumber: 134,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1274,13 +1292,13 @@ function HimachalTourismPage() {
                                                                 children: "Day 4: Rohtang Pass Excursion"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 130,
+                                                                lineNumber: 135,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 128,
+                                                        lineNumber: 133,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1291,20 +1309,20 @@ function HimachalTourismPage() {
                                                                 children: "not included in the cost & subject to weather conditions and road being open."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 134,
+                                                                lineNumber: 139,
                                                                 columnNumber: 45
                                                             }, this),
                                                             "(As per Himachal Govt. Rules, outsiders can't go to Rohtang Pass & Guest have to arrange own Car/Vehicle from local Union on Direct Payment Basis). Lunch en-route. Return in evening. Free to explore local area. Dinner & Overnight at Hotel/Resort in Manali."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 132,
+                                                        lineNumber: 137,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 127,
+                                                lineNumber: 132,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1317,7 +1335,7 @@ function HimachalTourismPage() {
                                                                 className: "w-5 h-5 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 146,
+                                                                lineNumber: 151,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1325,13 +1343,13 @@ function HimachalTourismPage() {
                                                                 children: "Day 5: Dharamshala Visit"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 147,
+                                                                lineNumber: 152,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 145,
+                                                        lineNumber: 150,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1339,13 +1357,13 @@ function HimachalTourismPage() {
                                                         children: "After enjoying breakfast, proceed for Dharamshala, holy abode of His Holiness, the Dalai Lama. Local sightseeing of Dalhousie Churches, Subhash Baoli, Bara Pather Panchpula, etc, can be visited as per time. Return in evening. Free to explore local area. Dinner & Overnight at Hotel/Resort in Manali/Dharamshala/Dalhousie."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 149,
+                                                        lineNumber: 154,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 144,
+                                                lineNumber: 149,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1358,7 +1376,7 @@ function HimachalTourismPage() {
                                                                 className: "w-5 h-5 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 160,
+                                                                lineNumber: 165,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1366,13 +1384,13 @@ function HimachalTourismPage() {
                                                                 children: "Day 6: Kullu Valley & Delhi"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 161,
+                                                                lineNumber: 166,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 159,
+                                                        lineNumber: 164,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1380,13 +1398,13 @@ function HimachalTourismPage() {
                                                         children: "After enjoying breakfast, Check-out proceed towards Delhi / Chandigarh after stop-over at Kullu Valley. It is also known as the 'valley of gods', is a beautiful district in the state of Himachal Pradesh. Visit Mata Vaishno Devi Tirth temple located just 5 km from Kullu. Lunch en-route. Proceed towards your destination & Check-in at Hotel. Enjoy the rest of the day at leisure exploring markets on your own. Return in evening. Free to explore local area. Dinner & Overnight at Hotel/Resort in Delhi / Chandigarh."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 163,
+                                                        lineNumber: 168,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 158,
+                                                lineNumber: 163,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1399,7 +1417,7 @@ function HimachalTourismPage() {
                                                                 className: "w-5 h-5 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 177,
+                                                                lineNumber: 182,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1407,13 +1425,13 @@ function HimachalTourismPage() {
                                                                 children: "Day 7: Departure"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 178,
+                                                                lineNumber: 183,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 176,
+                                                        lineNumber: 181,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1421,13 +1439,13 @@ function HimachalTourismPage() {
                                                         children: "Breakfast & check-out from Hotel. Visit some local area if time permits. Lunch en-route. Then leave to drop-off at Delhi / Chandigarh Airport / Station for your onward / return train journey flight to your destination as per your departure timing. Tour ends..."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 180,
+                                                        lineNumber: 185,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 175,
+                                                lineNumber: 180,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1438,7 +1456,7 @@ function HimachalTourismPage() {
                                                         children: "Package Highlights"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 191,
+                                                        lineNumber: 196,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1451,7 +1469,7 @@ function HimachalTourismPage() {
                                                                         className: "w-4 h-4 text-blue-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                        lineNumber: 194,
+                                                                        lineNumber: 199,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1459,13 +1477,13 @@ function HimachalTourismPage() {
                                                                         children: "Shimla - The Queen of Hills"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                        lineNumber: 195,
+                                                                        lineNumber: 200,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 193,
+                                                                lineNumber: 198,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1475,7 +1493,7 @@ function HimachalTourismPage() {
                                                                         className: "w-4 h-4 text-blue-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                        lineNumber: 198,
+                                                                        lineNumber: 203,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1483,13 +1501,13 @@ function HimachalTourismPage() {
                                                                         children: "Manali - Valley of Gods"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                        lineNumber: 199,
+                                                                        lineNumber: 204,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 197,
+                                                                lineNumber: 202,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1499,7 +1517,7 @@ function HimachalTourismPage() {
                                                                         className: "w-4 h-4 text-blue-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                        lineNumber: 202,
+                                                                        lineNumber: 207,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1507,13 +1525,13 @@ function HimachalTourismPage() {
                                                                         children: "Rohtang Pass Excursion"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                        lineNumber: 203,
+                                                                        lineNumber: 208,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 201,
+                                                                lineNumber: 206,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1523,7 +1541,7 @@ function HimachalTourismPage() {
                                                                         className: "w-4 h-4 text-blue-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                        lineNumber: 206,
+                                                                        lineNumber: 211,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1531,46 +1549,46 @@ function HimachalTourismPage() {
                                                                         children: "Dharamshala - Holy Abode"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                        lineNumber: 207,
+                                                                        lineNumber: 212,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 205,
+                                                                lineNumber: 210,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 192,
+                                                        lineNumber: 197,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 190,
+                                                lineNumber: 195,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                        lineNumber: 78,
+                                        lineNumber: 83,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                                    lineNumber: 77,
+                                    lineNumber: 82,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                lineNumber: 76,
+                                lineNumber: 81,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                            lineNumber: 75,
+                            lineNumber: 80,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1600,7 +1618,7 @@ function HimachalTourismPage() {
                                             children: "Add-on Chandigarh "
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 227,
+                                            lineNumber: 232,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1609,13 +1627,13 @@ function HimachalTourismPage() {
                                             children: "Book Now For 2N/3D"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 228,
+                                            lineNumber: 233,
                                             columnNumber: 14
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                                    lineNumber: 226,
+                                    lineNumber: 231,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1623,13 +1641,13 @@ function HimachalTourismPage() {
                                     children: "Wagah Border - Golden Temple"
                                 }, void 0, false, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                                    lineNumber: 233,
+                                    lineNumber: 238,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                            lineNumber: 225,
+                            lineNumber: 230,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1650,7 +1668,7 @@ function HimachalTourismPage() {
                                                                 className: "w-5 h-5 text-orange-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 245,
+                                                                lineNumber: 250,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1658,13 +1676,13 @@ function HimachalTourismPage() {
                                                                 children: "Day 1: Arrival in Chandigarh"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 246,
+                                                                lineNumber: 251,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 244,
+                                                        lineNumber: 249,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1672,13 +1690,13 @@ function HimachalTourismPage() {
                                                         children: "On your arrival at Chandigarh, we will proceed to Check into Hotel. Lunch break. Post lunch, visit Wagah Border in the evening. Return & free to explore local area. Dinner & Overnight at Hotel/Resort in Chandigarh."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 248,
+                                                        lineNumber: 253,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 243,
+                                                lineNumber: 248,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1691,7 +1709,7 @@ function HimachalTourismPage() {
                                                                 className: "w-5 h-5 text-orange-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 258,
+                                                                lineNumber: 263,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1699,13 +1717,13 @@ function HimachalTourismPage() {
                                                                 children: "Day 2: Explore Chandigarh"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 259,
+                                                                lineNumber: 264,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 257,
+                                                        lineNumber: 262,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1713,13 +1731,13 @@ function HimachalTourismPage() {
                                                         children: "After breakfast, visit Rose Garden, Rock Garden, Golden Temple (a must visit), etc. Attend lunch at Langar of Golden Temple (or) any local restaurant. Post lunch, visit Jalianwala Bagh, Hall Bazaar, etc. Return in evening. Free to explore local area. Dinner & Overnight at Hotel/Resort in Chandigarh."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 261,
+                                                        lineNumber: 266,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 256,
+                                                lineNumber: 261,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1732,7 +1750,7 @@ function HimachalTourismPage() {
                                                                 className: "w-5 h-5 text-orange-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 273,
+                                                                lineNumber: 278,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1740,13 +1758,13 @@ function HimachalTourismPage() {
                                                                 children: "Day 3: Departure"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 274,
+                                                                lineNumber: 279,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 272,
+                                                        lineNumber: 277,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1754,13 +1772,13 @@ function HimachalTourismPage() {
                                                         children: "Breakfast & check-out from Hotel. Visit some local area if time permits. Lunch en-route. Then leave to drop-off at Chandigarh Airport / Station for your onward / return train journey flight to your destination as per your departure timing. Tour ends..."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 276,
+                                                        lineNumber: 281,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 271,
+                                                lineNumber: 276,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1771,7 +1789,7 @@ function HimachalTourismPage() {
                                                         children: "Chandigarh Highlights"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 289,
+                                                        lineNumber: 294,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1784,7 +1802,7 @@ function HimachalTourismPage() {
                                                                         className: "w-4 h-4 text-orange-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                        lineNumber: 292,
+                                                                        lineNumber: 297,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1792,13 +1810,13 @@ function HimachalTourismPage() {
                                                                         children: "Rose Garden & Rock Garden"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                        lineNumber: 293,
+                                                                        lineNumber: 298,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 291,
+                                                                lineNumber: 296,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1808,7 +1826,7 @@ function HimachalTourismPage() {
                                                                         className: "w-4 h-4 text-orange-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                        lineNumber: 296,
+                                                                        lineNumber: 301,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1816,13 +1834,13 @@ function HimachalTourismPage() {
                                                                         children: "Golden Temple - Must Visit"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                        lineNumber: 297,
+                                                                        lineNumber: 302,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 295,
+                                                                lineNumber: 300,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1832,7 +1850,7 @@ function HimachalTourismPage() {
                                                                         className: "w-4 h-4 text-orange-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                        lineNumber: 300,
+                                                                        lineNumber: 305,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1840,57 +1858,57 @@ function HimachalTourismPage() {
                                                                         children: "Wagah Border Experience"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                        lineNumber: 301,
+                                                                        lineNumber: 306,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 299,
+                                                                lineNumber: 304,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 290,
+                                                        lineNumber: 295,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 288,
+                                                lineNumber: 293,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                        lineNumber: 241,
+                                        lineNumber: 246,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                                    lineNumber: 240,
+                                    lineNumber: 245,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                lineNumber: 239,
+                                lineNumber: 244,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                            lineNumber: 238,
+                            lineNumber: 243,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                    lineNumber: 222,
+                    lineNumber: 227,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                lineNumber: 221,
+                lineNumber: 226,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1909,7 +1927,7 @@ function HimachalTourismPage() {
                                             children: "Add-on Delhi, Agra & Mathura"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 317,
+                                            lineNumber: 322,
                                             columnNumber: 9
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1918,13 +1936,13 @@ function HimachalTourismPage() {
                                             children: "Book Now For 3N/4D"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 318,
+                                            lineNumber: 323,
                                             columnNumber: 9
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                                    lineNumber: 316,
+                                    lineNumber: 321,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1932,13 +1950,13 @@ function HimachalTourismPage() {
                                     children: "Taj Mahal – India Gate – Red Fort – Vrindavan Temples"
                                 }, void 0, false, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                                    lineNumber: 322,
+                                    lineNumber: 327,
                                     columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                            lineNumber: 315,
+                            lineNumber: 320,
                             columnNumber: 5
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1956,7 +1974,7 @@ function HimachalTourismPage() {
                                                         className: "w-5 h-5 text-orange-600"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 333,
+                                                        lineNumber: 338,
                                                         columnNumber: 13
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1964,13 +1982,13 @@ function HimachalTourismPage() {
                                                         children: "Day 1: Arrival in Delhi"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 334,
+                                                        lineNumber: 339,
                                                         columnNumber: 13
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 332,
+                                                lineNumber: 337,
                                                 columnNumber: 11
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1978,13 +1996,13 @@ function HimachalTourismPage() {
                                                 children: "Arrival at Delhi Airport / Railway Station. Transfer to hotel. Visit India Gate, Rashtrapati Bhavan (Drive Pass), Parliament House, Lotus Temple & Qutub Minar. Evening free for shopping at Connaught Place. Overnight stay in Delhi."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 336,
+                                                lineNumber: 341,
                                                 columnNumber: 11
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                        lineNumber: 331,
+                                        lineNumber: 336,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1997,7 +2015,7 @@ function HimachalTourismPage() {
                                                         className: "w-5 h-5 text-orange-600"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 347,
+                                                        lineNumber: 352,
                                                         columnNumber: 13
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2005,13 +2023,13 @@ function HimachalTourismPage() {
                                                         children: "Day 2: Delhi – Agra"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 348,
+                                                        lineNumber: 353,
                                                         columnNumber: 13
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 346,
+                                                lineNumber: 351,
                                                 columnNumber: 11
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2019,13 +2037,13 @@ function HimachalTourismPage() {
                                                 children: "After breakfast, drive to Agra. Visit the magnificent Taj Mahal, Agra Fort & Mehtab Bagh. Explore local handicraft markets. Overnight stay in Agra."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 350,
+                                                lineNumber: 355,
                                                 columnNumber: 11
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                        lineNumber: 345,
+                                        lineNumber: 350,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2038,7 +2056,7 @@ function HimachalTourismPage() {
                                                         className: "w-5 h-5 text-orange-600"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 360,
+                                                        lineNumber: 365,
                                                         columnNumber: 13
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2046,13 +2064,13 @@ function HimachalTourismPage() {
                                                         children: "Day 3: Agra – Mathura – Vrindavan – Delhi"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 361,
+                                                        lineNumber: 366,
                                                         columnNumber: 13
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 359,
+                                                lineNumber: 364,
                                                 columnNumber: 11
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2060,13 +2078,13 @@ function HimachalTourismPage() {
                                                 children: "After breakfast, drive to Mathura. Visit Shri Krishna Janmabhoomi Temple, Dwarkadhish Temple & Banke Bihari Temple in Vrindavan. Attend evening aarti. Later return to Delhi. Overnight stay in Delhi."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 363,
+                                                lineNumber: 368,
                                                 columnNumber: 11
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                        lineNumber: 358,
+                                        lineNumber: 363,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2079,7 +2097,7 @@ function HimachalTourismPage() {
                                                         className: "w-5 h-5 text-orange-600"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 374,
+                                                        lineNumber: 379,
                                                         columnNumber: 13
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2087,13 +2105,13 @@ function HimachalTourismPage() {
                                                         children: "Day 4: Departure"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 375,
+                                                        lineNumber: 380,
                                                         columnNumber: 13
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 373,
+                                                lineNumber: 378,
                                                 columnNumber: 11
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2101,13 +2119,13 @@ function HimachalTourismPage() {
                                                 children: "Breakfast at hotel & check-out. Visit Red Fort & Jama Masjid if time permits. Transfer to Airport / Railway Station for onward journey. Tour ends with memorable experiences."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 377,
+                                                lineNumber: 382,
                                                 columnNumber: 11
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                        lineNumber: 372,
+                                        lineNumber: 377,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2118,7 +2136,7 @@ function HimachalTourismPage() {
                                                 children: "Tour Highlights"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 386,
+                                                lineNumber: 391,
                                                 columnNumber: 11
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2131,7 +2149,7 @@ function HimachalTourismPage() {
                                                                 className: "w-4 h-4 text-orange-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 389,
+                                                                lineNumber: 394,
                                                                 columnNumber: 15
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2139,13 +2157,13 @@ function HimachalTourismPage() {
                                                                 children: "Taj Mahal – World Wonder"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 390,
+                                                                lineNumber: 395,
                                                                 columnNumber: 15
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 388,
+                                                        lineNumber: 393,
                                                         columnNumber: 13
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2155,7 +2173,7 @@ function HimachalTourismPage() {
                                                                 className: "w-4 h-4 text-orange-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 393,
+                                                                lineNumber: 398,
                                                                 columnNumber: 15
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2163,13 +2181,13 @@ function HimachalTourismPage() {
                                                                 children: "India Gate & Qutub Minar"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 394,
+                                                                lineNumber: 399,
                                                                 columnNumber: 15
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 392,
+                                                        lineNumber: 397,
                                                         columnNumber: 13
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2179,7 +2197,7 @@ function HimachalTourismPage() {
                                                                 className: "w-4 h-4 text-orange-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 397,
+                                                                lineNumber: 402,
                                                                 columnNumber: 15
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2187,47 +2205,47 @@ function HimachalTourismPage() {
                                                                 children: "Mathura & Vrindavan Temple Darshan"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                                lineNumber: 398,
+                                                                lineNumber: 403,
                                                                 columnNumber: 15
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 396,
+                                                        lineNumber: 401,
                                                         columnNumber: 13
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 387,
+                                                lineNumber: 392,
                                                 columnNumber: 11
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                        lineNumber: 385,
+                                        lineNumber: 390,
                                         columnNumber: 9
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                lineNumber: 328,
+                                lineNumber: 333,
                                 columnNumber: 7
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                            lineNumber: 327,
+                            lineNumber: 332,
                             columnNumber: 5
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                    lineNumber: 313,
+                    lineNumber: 318,
                     columnNumber: 3
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                lineNumber: 312,
+                lineNumber: 317,
                 columnNumber: 1
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2243,7 +2261,7 @@ function HimachalTourismPage() {
                                     children: "Himachal Highlights"
                                 }, void 0, false, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                                    lineNumber: 412,
+                                    lineNumber: 417,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2251,13 +2269,13 @@ function HimachalTourismPage() {
                                     children: "Key attractions and experiences in the 'Valley of Gods'"
                                 }, void 0, false, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                                    lineNumber: 413,
+                                    lineNumber: 418,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                            lineNumber: 411,
+                            lineNumber: 416,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2270,7 +2288,7 @@ function HimachalTourismPage() {
                                             className: "w-12 h-12 text-blue-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 420,
+                                            lineNumber: 425,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2278,7 +2296,7 @@ function HimachalTourismPage() {
                                             children: "Hill Stations"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 421,
+                                            lineNumber: 426,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2286,13 +2304,13 @@ function HimachalTourismPage() {
                                             children: "Shimla, Kullu, Manali, Kufri"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 422,
+                                            lineNumber: 427,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                                    lineNumber: 419,
+                                    lineNumber: 424,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2302,7 +2320,7 @@ function HimachalTourismPage() {
                                             className: "w-12 h-12 text-green-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 426,
+                                            lineNumber: 431,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2310,7 +2328,7 @@ function HimachalTourismPage() {
                                             children: "Snow Points"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 427,
+                                            lineNumber: 432,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2318,13 +2336,13 @@ function HimachalTourismPage() {
                                             children: "Rohtang Pass, Kullu Valley"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 428,
+                                            lineNumber: 433,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                                    lineNumber: 425,
+                                    lineNumber: 430,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2334,7 +2352,7 @@ function HimachalTourismPage() {
                                             className: "w-12 h-12 text-purple-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 432,
+                                            lineNumber: 437,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2342,7 +2360,7 @@ function HimachalTourismPage() {
                                             children: "Sacred Sites"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 433,
+                                            lineNumber: 438,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2350,13 +2368,13 @@ function HimachalTourismPage() {
                                             children: "Dharamshala, Hadimba Temple, Mata Vaishno Devi"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 434,
+                                            lineNumber: 439,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                                    lineNumber: 431,
+                                    lineNumber: 436,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2366,7 +2384,7 @@ function HimachalTourismPage() {
                                             className: "w-12 h-12 text-orange-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 438,
+                                            lineNumber: 443,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2374,7 +2392,7 @@ function HimachalTourismPage() {
                                             children: "Natural Beauty"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 439,
+                                            lineNumber: 444,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2382,13 +2400,13 @@ function HimachalTourismPage() {
                                             children: "Pine forests, Apple orchards, Kullu Valley"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 440,
+                                            lineNumber: 445,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                                    lineNumber: 437,
+                                    lineNumber: 442,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2398,7 +2416,7 @@ function HimachalTourismPage() {
                                             className: "w-12 h-12 text-cyan-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 444,
+                                            lineNumber: 449,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2406,7 +2424,7 @@ function HimachalTourismPage() {
                                             children: "Adventure"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 445,
+                                            lineNumber: 450,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2414,30 +2432,30 @@ function HimachalTourismPage() {
                                             children: "Paragliding, River rafting, Trekking"
                                         }, void 0, false, {
                                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                                            lineNumber: 446,
+                                            lineNumber: 451,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                                    lineNumber: 443,
+                                    lineNumber: 448,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/himachal-tourism/page.tsx",
-                            lineNumber: 418,
+                            lineNumber: 423,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                    lineNumber: 410,
+                    lineNumber: 415,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                lineNumber: 409,
+                lineNumber: 414,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2454,7 +2472,7 @@ function HimachalTourismPage() {
                                         className: "w-6 h-6 text-yellow-600 flex-shrink-0 mt-1"
                                     }, void 0, false, {
                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                        lineNumber: 459,
+                                        lineNumber: 464,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2464,7 +2482,7 @@ function HimachalTourismPage() {
                                                 children: "Rohtang Pass Information"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 461,
+                                                lineNumber: 466,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2474,46 +2492,46 @@ function HimachalTourismPage() {
                                                         children: "• Subject to weather conditions and road being open"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 463,
+                                                        lineNumber: 468,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Outsiders need to arrange own vehicle from local Union"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 464,
+                                                        lineNumber: 469,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Direct payment basis for local transport"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 465,
+                                                        lineNumber: 470,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Not included in package cost"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 466,
+                                                        lineNumber: 471,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 462,
+                                                lineNumber: 467,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                        lineNumber: 460,
+                                        lineNumber: 465,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                lineNumber: 458,
+                                lineNumber: 463,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2523,7 +2541,7 @@ function HimachalTourismPage() {
                                         className: "w-6 h-6 text-blue-600 flex-shrink-0 mt-1"
                                     }, void 0, false, {
                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                        lineNumber: 471,
+                                        lineNumber: 476,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2533,7 +2551,7 @@ function HimachalTourismPage() {
                                                 children: "Best Time to Visit"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 473,
+                                                lineNumber: 478,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2543,62 +2561,62 @@ function HimachalTourismPage() {
                                                         children: "• March to June: Pleasant weather, blooming flowers"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 475,
+                                                        lineNumber: 480,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• October to February: Snow-covered landscapes"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 476,
+                                                        lineNumber: 481,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• December to January: Winter sports and snow activities"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 477,
+                                                        lineNumber: 482,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Avoid monsoon (July-September) for clear mountain views"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                        lineNumber: 478,
+                                                        lineNumber: 483,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                                lineNumber: 474,
+                                                lineNumber: 479,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                                        lineNumber: 472,
+                                        lineNumber: 477,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                                lineNumber: 470,
+                                lineNumber: 475,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/himachal-tourism/page.tsx",
-                        lineNumber: 457,
+                        lineNumber: 462,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/himachal-tourism/page.tsx",
-                    lineNumber: 456,
+                    lineNumber: 461,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                lineNumber: 455,
+                lineNumber: 460,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PackagePricing$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2606,12 +2624,12 @@ function HimachalTourismPage() {
                 subtitle: "Choose your perfect mountain adventure duration"
             }, void 0, false, {
                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                lineNumber: 487,
+                lineNumber: 492,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/himachal-tourism/page.tsx",
-                lineNumber: 493,
+                lineNumber: 498,
                 columnNumber: 5
             }, this)
         ]

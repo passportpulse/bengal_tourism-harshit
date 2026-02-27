@@ -63,9 +63,14 @@ export default function AndamanNicobarTourismPage() {
       {/* ================= HAVELOCK - NEIL - ROSS PACKAGE ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
+        <div className="flex flex-col space-y-2">
+            <div className='flex gap-5 items-center'>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">HaveLock - Neil - Ross Island</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+                Book now For 6N/7D
+              </a>
+            </div>
+            <p className="text-xl text-gray-600 max-w-3xl mb-10">
               Cellular Jail & Marine Life
             </p>
           </div>

@@ -1101,29 +1101,47 @@ function KeralaTourismPage() {
                     className: "max-w-7xl mx-auto px-6",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-center mb-12",
+                            className: "flex flex-col space-y-2",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-4xl md:text-5xl font-bold mb-4",
-                                    children: "Kerala Circuit Package"
-                                }, void 0, false, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex gap-5 items-center",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            className: "text-4xl md:text-5xl font-bold mb-4",
+                                            children: "Kerala Circuit Package"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/kerala-tourism/page.tsx",
+                                            lineNumber: 69,
+                                            columnNumber: 13
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: "/book-tour",
+                                            className: "bg-red-500 px-4 py-4 text-white rounded-full",
+                                            children: "Book now For 5N/6D"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/kerala-tourism/page.tsx",
+                                            lineNumber: 70,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/app/kerala-tourism/page.tsx",
                                     lineNumber: 67,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-xl text-gray-600 max-w-3xl mx-auto",
+                                    className: "text-xl text-gray-600 max-w-3xl mb-10",
                                     children: "Cochin - Munnar - Thekkady - Alleppey"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kerala-tourism/page.tsx",
-                                    lineNumber: 68,
+                                    lineNumber: 74,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/kerala-tourism/page.tsx",
                             lineNumber: 66,
-                            columnNumber: 11
+                            columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 shadow-xl",
@@ -1143,7 +1161,7 @@ function KeralaTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 80,
+                                                                lineNumber: 86,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1151,13 +1169,13 @@ function KeralaTourismPage() {
                                                                 children: "Day 1: Arrival in Munnar"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 81,
+                                                                lineNumber: 87,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 79,
+                                                        lineNumber: 85,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1165,13 +1183,13 @@ function KeralaTourismPage() {
                                                         children: "You will be picking from Cochin Airport / Ernakulam railway station and drive to Munnar (04 Hrs drive). On the way enjoy some waterfalls and natural scenic spots. On arrival at Munnar check into Hotel and relax for the rest of the day. Breakfast & Dinner included. Overnight stay at Hotel will be arranged."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 83,
+                                                        lineNumber: 89,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                lineNumber: 78,
+                                                lineNumber: 84,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1184,7 +1202,7 @@ function KeralaTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 94,
+                                                                lineNumber: 100,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1192,13 +1210,13 @@ function KeralaTourismPage() {
                                                                 children: "Day 2: Munnar Local Sightseeing"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 95,
+                                                                lineNumber: 101,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 93,
+                                                        lineNumber: 99,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1206,13 +1224,13 @@ function KeralaTourismPage() {
                                                         children: "After breakfast spend the day with local sightseeing. Situated at the confluence of three mountain streams - Mudrapuzha, Nallathanni and Kundale, Munnar is 1600 Meter above sea level. This majestic hill station was once the summer resort of the British government in South India. Local sightseeing of Munnar includes visit to Mattupetty Dam, Kundale Lake and Echo point. Breakfast & Dinner included. Overnight stay is arranged at Munnar."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 97,
+                                                        lineNumber: 103,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                lineNumber: 92,
+                                                lineNumber: 98,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1225,7 +1243,7 @@ function KeralaTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 109,
+                                                                lineNumber: 115,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1233,13 +1251,13 @@ function KeralaTourismPage() {
                                                                 children: "Day 3: Thekkady"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 110,
+                                                                lineNumber: 116,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 108,
+                                                        lineNumber: 114,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1247,13 +1265,13 @@ function KeralaTourismPage() {
                                                         children: "After breakfast check out from Hotel and drive to Thekkady (04 Hrs). On arrival check in to Hotel. Proceed for sightseeing tour of Thekkady - one of the world's most fascinating wild life reserves. The Periyar wild life sanctuary in Thekkady is spread across 777 sq km of which 360 sq km is thick evergreen forest. Noted for its geomorphology, diversity of wild life and scenic beauty, the sanctuary was declared a Tiger Reserve in 1978. Optional activities like Boating at Periyar Lake, Spice Plantation visit and Elephant Ride can be done at an extra cost. Breakfast & Dinner included. Overnight stay is arranged in Thekkady."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 112,
+                                                        lineNumber: 118,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                lineNumber: 107,
+                                                lineNumber: 113,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1266,7 +1284,7 @@ function KeralaTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 126,
+                                                                lineNumber: 132,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1274,13 +1292,13 @@ function KeralaTourismPage() {
                                                                 children: "Day 4: Alleppey Backwater Cruise"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 127,
+                                                                lineNumber: 133,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 125,
+                                                        lineNumber: 131,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1288,13 +1306,13 @@ function KeralaTourismPage() {
                                                         children: "After breakfast check out from Hotel / houseboat and drive to Alleppey. Set out on an enchanting overnight backwater cruise in traditionally decorated houseboats. Check in time is 01:00 PM and cruise starts with lunch. While cruising, let your eyes settle for bowed-down paddy fields, local inhabitants, rustic homes, ancient churches / temples and swaying coconut groves. Food will be served onboard. Breakfast & Dinner included. Overnight stay in houseboat."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 129,
+                                                        lineNumber: 135,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                lineNumber: 124,
+                                                lineNumber: 130,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1307,7 +1325,7 @@ function KeralaTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 142,
+                                                                lineNumber: 148,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1315,13 +1333,13 @@ function KeralaTourismPage() {
                                                                 children: "Day 5: Kovalam"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 143,
+                                                                lineNumber: 149,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 141,
+                                                        lineNumber: 147,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1329,13 +1347,13 @@ function KeralaTourismPage() {
                                                         children: "After breakfast check out from Hotel / houseboat and drive to Kovalam (04 Hrs Drive). On arrival check-in into Hotel. Kovalam is one of the prime beach destinations in India. Enjoy evening watching a spectacular sunset or swimming at picturesque Kovalam Beach. Breakfast & Dinner included. Overnight stay is to be spent at Hotel."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 145,
+                                                        lineNumber: 151,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                lineNumber: 140,
+                                                lineNumber: 146,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1348,7 +1366,7 @@ function KeralaTourismPage() {
                                                                 className: "w-5 h-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 157,
+                                                                lineNumber: 163,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1356,13 +1374,13 @@ function KeralaTourismPage() {
                                                                 children: "Day 6: Departure"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 158,
+                                                                lineNumber: 164,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 156,
+                                                        lineNumber: 162,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1370,13 +1388,13 @@ function KeralaTourismPage() {
                                                         children: "After breakfast check-out from Hotel. Visit some local area if time permits. Then leave to drop-off at Cochin Airport / Ernakulam Railway Station for your onward journey. Breakfast & Dinner included. Tour ends..."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 160,
+                                                        lineNumber: 166,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                lineNumber: 155,
+                                                lineNumber: 161,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1387,7 +1405,7 @@ function KeralaTourismPage() {
                                                         children: "Package Highlights"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 169,
+                                                        lineNumber: 175,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1400,7 +1418,7 @@ function KeralaTourismPage() {
                                                                         className: "w-4 h-4 text-green-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                        lineNumber: 172,
+                                                                        lineNumber: 178,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1408,13 +1426,13 @@ function KeralaTourismPage() {
                                                                         children: "Munnar Hill Station"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                        lineNumber: 173,
+                                                                        lineNumber: 179,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 171,
+                                                                lineNumber: 177,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1424,7 +1442,7 @@ function KeralaTourismPage() {
                                                                         className: "w-4 h-4 text-green-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                        lineNumber: 176,
+                                                                        lineNumber: 182,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1432,13 +1450,13 @@ function KeralaTourismPage() {
                                                                         children: "Periyar Wildlife Sanctuary"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                        lineNumber: 177,
+                                                                        lineNumber: 183,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 175,
+                                                                lineNumber: 181,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1448,7 +1466,7 @@ function KeralaTourismPage() {
                                                                         className: "w-4 h-4 text-green-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                        lineNumber: 180,
+                                                                        lineNumber: 186,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1456,13 +1474,13 @@ function KeralaTourismPage() {
                                                                         children: "Alleppey Backwater Cruise"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                        lineNumber: 181,
+                                                                        lineNumber: 187,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 179,
+                                                                lineNumber: 185,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1472,7 +1490,7 @@ function KeralaTourismPage() {
                                                                         className: "w-4 h-4 text-green-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                        lineNumber: 184,
+                                                                        lineNumber: 190,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1480,46 +1498,46 @@ function KeralaTourismPage() {
                                                                         children: "Kovalam Beach Experience"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                        lineNumber: 185,
+                                                                        lineNumber: 191,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 183,
+                                                                lineNumber: 189,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 170,
+                                                        lineNumber: 176,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                lineNumber: 168,
+                                                lineNumber: 174,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                        lineNumber: 76,
+                                        lineNumber: 82,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/kerala-tourism/page.tsx",
-                                    lineNumber: 75,
+                                    lineNumber: 81,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                lineNumber: 74,
+                                lineNumber: 80,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/kerala-tourism/page.tsx",
-                            lineNumber: 73,
+                            lineNumber: 79,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1549,7 +1567,7 @@ function KeralaTourismPage() {
                                             children: " Add-on Houseboat "
                                         }, void 0, false, {
                                             fileName: "[project]/app/kerala-tourism/page.tsx",
-                                            lineNumber: 203,
+                                            lineNumber: 209,
                                             columnNumber: 16
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1558,13 +1576,13 @@ function KeralaTourismPage() {
                                             children: "Book Now For  2N/3D"
                                         }, void 0, false, {
                                             fileName: "[project]/app/kerala-tourism/page.tsx",
-                                            lineNumber: 204,
+                                            lineNumber: 210,
                                             columnNumber: 16
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/kerala-tourism/page.tsx",
-                                    lineNumber: 202,
+                                    lineNumber: 208,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1572,13 +1590,13 @@ function KeralaTourismPage() {
                                     children: "Alleppey Backwaters - Luxury Houseboat Experience"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kerala-tourism/page.tsx",
-                                    lineNumber: 209,
+                                    lineNumber: 215,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/kerala-tourism/page.tsx",
-                            lineNumber: 201,
+                            lineNumber: 207,
                             columnNumber: 14
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1599,7 +1617,7 @@ function KeralaTourismPage() {
                                                                 className: "w-5 h-5 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 221,
+                                                                lineNumber: 227,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1607,13 +1625,13 @@ function KeralaTourismPage() {
                                                                 children: "Day 1: Board Houseboat at Alleppey"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 222,
+                                                                lineNumber: 228,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 220,
+                                                        lineNumber: 226,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1621,13 +1639,13 @@ function KeralaTourismPage() {
                                                         children: "Arrive at Alleppey and board your luxury houseboat. Welcome drink and lunch served onboard. Start cruising through the serene backwaters of Alleppey. Evening tea/coffee with snacks. Dinner onboard. Overnight stay in the houseboat."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 224,
+                                                        lineNumber: 230,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                lineNumber: 219,
+                                                lineNumber: 225,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1640,7 +1658,7 @@ function KeralaTourismPage() {
                                                                 className: "w-5 h-5 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 236,
+                                                                lineNumber: 242,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1648,13 +1666,13 @@ function KeralaTourismPage() {
                                                                 children: "Day 2: Backwater Exploration"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 237,
+                                                                lineNumber: 243,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 235,
+                                                        lineNumber: 241,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1662,13 +1680,13 @@ function KeralaTourismPage() {
                                                         children: "Breakfast onboard while cruising. Visit local villages, paddy fields, and coir factories. Lunch served during the cruise. Anchor for the night in a peaceful location. Dinner onboard with traditional Kerala cuisine. Overnight stay in the houseboat."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 239,
+                                                        lineNumber: 245,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                lineNumber: 234,
+                                                lineNumber: 240,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1681,7 +1699,7 @@ function KeralaTourismPage() {
                                                                 className: "w-5 h-5 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 252,
+                                                                lineNumber: 258,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1689,13 +1707,13 @@ function KeralaTourismPage() {
                                                                 children: "Day 3: Disembark"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 253,
+                                                                lineNumber: 259,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 251,
+                                                        lineNumber: 257,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1703,13 +1721,13 @@ function KeralaTourismPage() {
                                                         children: "Breakfast onboard. Morning cruise through narrow canals. Check-out from houseboat after lunch. Transfer to your next destination. Tour ends with beautiful backwater memories."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 255,
+                                                        lineNumber: 261,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                lineNumber: 250,
+                                                lineNumber: 256,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1720,7 +1738,7 @@ function KeralaTourismPage() {
                                                         children: "Houseboat Highlights"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 266,
+                                                        lineNumber: 272,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1733,7 +1751,7 @@ function KeralaTourismPage() {
                                                                         className: "w-4 h-4 text-blue-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                        lineNumber: 269,
+                                                                        lineNumber: 275,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1741,13 +1759,13 @@ function KeralaTourismPage() {
                                                                         children: "Luxury AC Houseboat"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                        lineNumber: 270,
+                                                                        lineNumber: 276,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 268,
+                                                                lineNumber: 274,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1757,7 +1775,7 @@ function KeralaTourismPage() {
                                                                         className: "w-4 h-4 text-blue-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                        lineNumber: 273,
+                                                                        lineNumber: 279,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1765,13 +1783,13 @@ function KeralaTourismPage() {
                                                                         children: "All Meals Included"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                        lineNumber: 274,
+                                                                        lineNumber: 280,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 272,
+                                                                lineNumber: 278,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1781,7 +1799,7 @@ function KeralaTourismPage() {
                                                                         className: "w-4 h-4 text-blue-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                        lineNumber: 277,
+                                                                        lineNumber: 283,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1789,57 +1807,57 @@ function KeralaTourismPage() {
                                                                         children: "Scenic Backwater Cruise"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                        lineNumber: 278,
+                                                                        lineNumber: 284,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                                lineNumber: 276,
+                                                                lineNumber: 282,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 267,
+                                                        lineNumber: 273,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                lineNumber: 265,
+                                                lineNumber: 271,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                        lineNumber: 217,
+                                        lineNumber: 223,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/kerala-tourism/page.tsx",
-                                    lineNumber: 216,
+                                    lineNumber: 222,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                lineNumber: 215,
+                                lineNumber: 221,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/kerala-tourism/page.tsx",
-                            lineNumber: 214,
+                            lineNumber: 220,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/kerala-tourism/page.tsx",
-                    lineNumber: 198,
+                    lineNumber: 204,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                lineNumber: 197,
+                lineNumber: 203,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1855,7 +1873,7 @@ function KeralaTourismPage() {
                                     children: "Kerala Highlights"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kerala-tourism/page.tsx",
-                                    lineNumber: 293,
+                                    lineNumber: 299,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1863,13 +1881,13 @@ function KeralaTourismPage() {
                                     children: "Key attractions and experiences in God's own country"
                                 }, void 0, false, {
                                     fileName: "[project]/app/kerala-tourism/page.tsx",
-                                    lineNumber: 294,
+                                    lineNumber: 300,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/kerala-tourism/page.tsx",
-                            lineNumber: 292,
+                            lineNumber: 298,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1882,7 +1900,7 @@ function KeralaTourismPage() {
                                             className: "w-12 h-12 text-green-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/kerala-tourism/page.tsx",
-                                            lineNumber: 301,
+                                            lineNumber: 307,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1890,44 +1908,12 @@ function KeralaTourismPage() {
                                             children: "Backwaters"
                                         }, void 0, false, {
                                             fileName: "[project]/app/kerala-tourism/page.tsx",
-                                            lineNumber: 302,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-sm text-gray-600",
-                                            children: "Alleppey, Kumarakom, houseboats"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/kerala-tourism/page.tsx",
-                                            lineNumber: 303,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/kerala-tourism/page.tsx",
-                                    lineNumber: 300,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-6 text-center hover:shadow-lg transition",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"], {
-                                            className: "w-12 h-12 text-blue-600 mx-auto mb-4"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/kerala-tourism/page.tsx",
-                                            lineNumber: 307,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "font-bold mb-2",
-                                            children: "Beaches"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/kerala-tourism/page.tsx",
                                             lineNumber: 308,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-sm text-gray-600",
-                                            children: "Kovalam, Varkala, Cherai Beach"
+                                            children: "Alleppey, Kumarakom, houseboats"
                                         }, void 0, false, {
                                             fileName: "[project]/app/kerala-tourism/page.tsx",
                                             lineNumber: 309,
@@ -1940,10 +1926,10 @@ function KeralaTourismPage() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-6 text-center hover:shadow-lg transition",
+                                    className: "bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-6 text-center hover:shadow-lg transition",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"], {
-                                            className: "w-12 h-12 text-purple-600 mx-auto mb-4"
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"], {
+                                            className: "w-12 h-12 text-blue-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/kerala-tourism/page.tsx",
                                             lineNumber: 313,
@@ -1951,7 +1937,7 @@ function KeralaTourismPage() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             className: "font-bold mb-2",
-                                            children: "Hill Stations"
+                                            children: "Beaches"
                                         }, void 0, false, {
                                             fileName: "[project]/app/kerala-tourism/page.tsx",
                                             lineNumber: 314,
@@ -1959,7 +1945,7 @@ function KeralaTourismPage() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-sm text-gray-600",
-                                            children: "Munnar, Thekkady, Wayanad"
+                                            children: "Kovalam, Varkala, Cherai Beach"
                                         }, void 0, false, {
                                             fileName: "[project]/app/kerala-tourism/page.tsx",
                                             lineNumber: 315,
@@ -1972,10 +1958,10 @@ function KeralaTourismPage() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl p-6 text-center hover:shadow-lg transition",
+                                    className: "bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-6 text-center hover:shadow-lg transition",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$camera$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Camera$3e$__["Camera"], {
-                                            className: "w-12 h-12 text-orange-600 mx-auto mb-4"
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"], {
+                                            className: "w-12 h-12 text-purple-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/kerala-tourism/page.tsx",
                                             lineNumber: 319,
@@ -1983,7 +1969,7 @@ function KeralaTourismPage() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             className: "font-bold mb-2",
-                                            children: "Wildlife"
+                                            children: "Hill Stations"
                                         }, void 0, false, {
                                             fileName: "[project]/app/kerala-tourism/page.tsx",
                                             lineNumber: 320,
@@ -1991,7 +1977,7 @@ function KeralaTourismPage() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-sm text-gray-600",
-                                            children: "Periyar, Eravikulam, Chinnar"
+                                            children: "Munnar, Thekkady, Wayanad"
                                         }, void 0, false, {
                                             fileName: "[project]/app/kerala-tourism/page.tsx",
                                             lineNumber: 321,
@@ -2004,10 +1990,10 @@ function KeralaTourismPage() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-gradient-to-br from-teal-50 to-cyan-50 rounded-xl p-6 text-center hover:shadow-lg transition",
+                                    className: "bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl p-6 text-center hover:shadow-lg transition",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Building$3e$__["Building"], {
-                                            className: "w-12 h-12 text-teal-600 mx-auto mb-4"
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$camera$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Camera$3e$__["Camera"], {
+                                            className: "w-12 h-12 text-orange-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/kerala-tourism/page.tsx",
                                             lineNumber: 325,
@@ -2015,7 +2001,7 @@ function KeralaTourismPage() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             className: "font-bold mb-2",
-                                            children: "Cultural Sites"
+                                            children: "Wildlife"
                                         }, void 0, false, {
                                             fileName: "[project]/app/kerala-tourism/page.tsx",
                                             lineNumber: 326,
@@ -2023,7 +2009,7 @@ function KeralaTourismPage() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-sm text-gray-600",
-                                            children: "Temples, Churches, Spice Plantations"
+                                            children: "Periyar, Eravikulam, Chinnar"
                                         }, void 0, false, {
                                             fileName: "[project]/app/kerala-tourism/page.tsx",
                                             lineNumber: 327,
@@ -2034,22 +2020,54 @@ function KeralaTourismPage() {
                                     fileName: "[project]/app/kerala-tourism/page.tsx",
                                     lineNumber: 324,
                                     columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "bg-gradient-to-br from-teal-50 to-cyan-50 rounded-xl p-6 text-center hover:shadow-lg transition",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Building$3e$__["Building"], {
+                                            className: "w-12 h-12 text-teal-600 mx-auto mb-4"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/kerala-tourism/page.tsx",
+                                            lineNumber: 331,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "font-bold mb-2",
+                                            children: "Cultural Sites"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/kerala-tourism/page.tsx",
+                                            lineNumber: 332,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-sm text-gray-600",
+                                            children: "Temples, Churches, Spice Plantations"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/kerala-tourism/page.tsx",
+                                            lineNumber: 333,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/kerala-tourism/page.tsx",
+                                    lineNumber: 330,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/kerala-tourism/page.tsx",
-                            lineNumber: 299,
+                            lineNumber: 305,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/kerala-tourism/page.tsx",
-                    lineNumber: 291,
+                    lineNumber: 297,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                lineNumber: 290,
+                lineNumber: 296,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2066,7 +2084,7 @@ function KeralaTourismPage() {
                                         className: "w-6 h-6 text-yellow-600 flex-shrink-0 mt-1"
                                     }, void 0, false, {
                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                        lineNumber: 338,
+                                        lineNumber: 344,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2076,7 +2094,7 @@ function KeralaTourismPage() {
                                                 children: "Best Time to Visit"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                lineNumber: 340,
+                                                lineNumber: 346,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2086,46 +2104,46 @@ function KeralaTourismPage() {
                                                         children: "• September to March: Pleasant weather, clear skies"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 342,
+                                                        lineNumber: 348,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• October to February: Cool weather, perfect for sightseeing"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 343,
+                                                        lineNumber: 349,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• June to August: Monsoon season - lush green landscapes"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 344,
+                                                        lineNumber: 350,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• November to January: Winter season, minimal crowds"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 345,
+                                                        lineNumber: 351,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                lineNumber: 341,
+                                                lineNumber: 347,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                        lineNumber: 339,
+                                        lineNumber: 345,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                lineNumber: 337,
+                                lineNumber: 343,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2135,7 +2153,7 @@ function KeralaTourismPage() {
                                         className: "w-6 h-6 text-green-600 flex-shrink-0 mt-1"
                                     }, void 0, false, {
                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                        lineNumber: 350,
+                                        lineNumber: 356,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2145,7 +2163,7 @@ function KeralaTourismPage() {
                                                 children: "Travel Tips"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                lineNumber: 352,
+                                                lineNumber: 358,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2155,62 +2173,62 @@ function KeralaTourismPage() {
                                                         children: "• Book houseboats in advance during peak season"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 354,
+                                                        lineNumber: 360,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Carry light cotton clothing and rain gear"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 355,
+                                                        lineNumber: 361,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Respect local customs and traditions"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 356,
+                                                        lineNumber: 362,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Try authentic Kerala cuisine"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                        lineNumber: 357,
+                                                        lineNumber: 363,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                                lineNumber: 353,
+                                                lineNumber: 359,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                                        lineNumber: 351,
+                                        lineNumber: 357,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                                lineNumber: 349,
+                                lineNumber: 355,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/kerala-tourism/page.tsx",
-                        lineNumber: 336,
+                        lineNumber: 342,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/kerala-tourism/page.tsx",
-                    lineNumber: 335,
+                    lineNumber: 341,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                lineNumber: 334,
+                lineNumber: 340,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PackagePricing$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2218,12 +2236,12 @@ function KeralaTourismPage() {
                 subtitle: "Choose your perfect backwater and hill station adventure"
             }, void 0, false, {
                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                lineNumber: 364,
+                lineNumber: 370,
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/kerala-tourism/page.tsx",
-                lineNumber: 370,
+                lineNumber: 376,
                 columnNumber: 5
             }, this)
         ]

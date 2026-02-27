@@ -1105,29 +1105,47 @@ function GoaTourismPage() {
                     className: "max-w-7xl mx-auto px-6",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-center mb-12",
+                            className: "flex flex-col space-y-2",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-4xl md:text-5xl font-bold mb-4",
-                                    children: "Goa Beach Circuit"
-                                }, void 0, false, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex gap-5 items-center",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            className: "text-4xl md:text-5xl font-bold mb-4",
+                                            children: "Goa Beach Circuit"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/goa-tourism/page.tsx",
+                                            lineNumber: 68,
+                                            columnNumber: 13
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: "/book-tour",
+                                            className: "bg-red-500 px-4 py-4 text-white rounded-full",
+                                            children: "Book now For 4N/5D"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/goa-tourism/page.tsx",
+                                            lineNumber: 69,
+                                            columnNumber: 18
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
                                     lineNumber: 67,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-xl text-gray-600 max-w-3xl mx-auto",
+                                    className: "text-xl text-gray-600 max-w-3xl mb-10",
                                     children: "Anjuna - Calangute - Baga"
                                 }, void 0, false, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 68,
+                                    lineNumber: 73,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/goa-tourism/page.tsx",
                             lineNumber: 66,
-                            columnNumber: 11
+                            columnNumber: 7
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 shadow-xl",
@@ -1148,7 +1166,7 @@ function GoaTourismPage() {
                                                                     className: "w-5 h-5 text-blue-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 80,
+                                                                    lineNumber: 85,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1156,13 +1174,13 @@ function GoaTourismPage() {
                                                                     children: "Day 1: Arrival & Beach Relaxation"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 81,
+                                                                    lineNumber: 86,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 79,
+                                                            lineNumber: 84,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1170,13 +1188,13 @@ function GoaTourismPage() {
                                                             children: "On arrival at Dabolim Airport / Madgaon Railway Station, you will be transferred to Hotel. Check in and relax for a while. Lunch break. Spend a leisurely time on beaches near you, sampling some delicious Goan cuisine. Soak in the pulsating night-life on Goan Beaches. Breakfast & Dinner included. Dinner & Overnight at Hotel/Resort at Anjuna / Calangute / Goa."
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 83,
+                                                            lineNumber: 88,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                    lineNumber: 78,
+                                                    lineNumber: 83,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1189,7 +1207,7 @@ function GoaTourismPage() {
                                                                     className: "w-5 h-5 text-blue-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 95,
+                                                                    lineNumber: 100,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1197,13 +1215,13 @@ function GoaTourismPage() {
                                                                     children: "Day 2: North Goa Exploration"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 96,
+                                                                    lineNumber: 101,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 94,
+                                                            lineNumber: 99,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1211,13 +1229,13 @@ function GoaTourismPage() {
                                                             children: "After a delicious breakfast, go on a full-Day Tour of North Goa. Go for a Dolphin sight-seeing Tour. Lunch en-route. Visit Fort Aguada, Calangute Beach, Anjuna Beach, Baga Beach and Coco Beach. Lunch en-route. Return in evening. Soak in the pulsating night-life on Goan Beaches. Breakfast & Dinner included. Overnight at Hotel/Resort at Anjuna / Calangute / Goa."
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 98,
+                                                            lineNumber: 103,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                    lineNumber: 93,
+                                                    lineNumber: 98,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1230,7 +1248,7 @@ function GoaTourismPage() {
                                                                     className: "w-5 h-5 text-blue-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 111,
+                                                                    lineNumber: 116,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1238,13 +1256,13 @@ function GoaTourismPage() {
                                                                     children: "Day 3: South Goa Sightseeing"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 112,
+                                                                    lineNumber: 117,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 110,
+                                                            lineNumber: 115,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1252,24 +1270,24 @@ function GoaTourismPage() {
                                                             children: "Savour a delectable breakfast and get ready to explore South Goa. Visit temples like Shri Manguesh, Shantadurga and Kavlem, at Priol. Explore churches of old Goa like Basilica of Bom Jesus and Se Cathedral. Lunch en-route. After lunch, visit Dona Paula Bay and Miramar Beach. Afterwards, spend some time at Panjim Market and indulge in some shopping. Soak in the pulsating night-life on Goan Beaches. Breakfast & Dinner included. Overnight at Hotel/Resort at Baga / Palolem / Goa."
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 114,
+                                                            lineNumber: 119,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                    lineNumber: 109,
+                                                    lineNumber: 114,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 76,
+                                            lineNumber: 81,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                        lineNumber: 75,
+                                        lineNumber: 80,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1286,7 +1304,7 @@ function GoaTourismPage() {
                                                                     className: "w-5 h-5 text-blue-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 132,
+                                                                    lineNumber: 137,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1294,13 +1312,13 @@ function GoaTourismPage() {
                                                                     children: "Day 4: Leisure Day"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 133,
+                                                                    lineNumber: 138,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 131,
+                                                            lineNumber: 136,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1308,13 +1326,13 @@ function GoaTourismPage() {
                                                             children: "Wake up late after late night revelry. After a hearty breakfast, hit the beach for some Water Sports activity on your own. Have your Lunch in any of the Shacks dotting the sea-shore. Return to your Hotel. Take an afternoon siesta. Evening free for your last minute shopping & another last visit to Beach. Breakfast & Dinner included. Overnight at Hotel/Resort at Baga / Palolem / Goa."
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 135,
+                                                            lineNumber: 140,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                    lineNumber: 130,
+                                                    lineNumber: 135,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1327,7 +1345,7 @@ function GoaTourismPage() {
                                                                     className: "w-5 h-5 text-blue-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 148,
+                                                                    lineNumber: 153,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1335,13 +1353,13 @@ function GoaTourismPage() {
                                                                     children: "Day 5: Departure"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 149,
+                                                                    lineNumber: 154,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 147,
+                                                            lineNumber: 152,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1349,13 +1367,13 @@ function GoaTourismPage() {
                                                             children: "After breakfast, check-out & transfer to Dabolim Airport / Madgaon Railway Station for your return journey on your departure time. Breakfast & Dinner included. Tour ends..."
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 151,
+                                                            lineNumber: 156,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                    lineNumber: 146,
+                                                    lineNumber: 151,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1366,7 +1384,7 @@ function GoaTourismPage() {
                                                             children: "Package Highlights"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 159,
+                                                            lineNumber: 164,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1379,7 +1397,7 @@ function GoaTourismPage() {
                                                                             className: "w-4 h-4 text-blue-600"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                            lineNumber: 162,
+                                                                            lineNumber: 167,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1387,13 +1405,13 @@ function GoaTourismPage() {
                                                                             children: "Dolphin Sight-seeing Tour"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                            lineNumber: 163,
+                                                                            lineNumber: 168,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 161,
+                                                                    lineNumber: 166,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1403,7 +1421,7 @@ function GoaTourismPage() {
                                                                             className: "w-4 h-4 text-blue-600"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                            lineNumber: 166,
+                                                                            lineNumber: 171,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1411,13 +1429,13 @@ function GoaTourismPage() {
                                                                             children: "North & South Goa Exploration"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                            lineNumber: 167,
+                                                                            lineNumber: 172,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 165,
+                                                                    lineNumber: 170,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1427,7 +1445,7 @@ function GoaTourismPage() {
                                                                             className: "w-4 h-4 text-blue-600"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                            lineNumber: 170,
+                                                                            lineNumber: 175,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1435,13 +1453,13 @@ function GoaTourismPage() {
                                                                             children: "Beach Activities & Water Sports"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                            lineNumber: 171,
+                                                                            lineNumber: 176,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 169,
+                                                                    lineNumber: 174,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1451,7 +1469,7 @@ function GoaTourismPage() {
                                                                             className: "w-4 h-4 text-blue-600"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                            lineNumber: 174,
+                                                                            lineNumber: 179,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1459,47 +1477,47 @@ function GoaTourismPage() {
                                                                             children: "Pulsating Night-life"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                            lineNumber: 175,
+                                                                            lineNumber: 180,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 173,
+                                                                    lineNumber: 178,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 160,
+                                                            lineNumber: 165,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                    lineNumber: 158,
+                                                    lineNumber: 163,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 128,
+                                            lineNumber: 133,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                        lineNumber: 127,
+                                        lineNumber: 132,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/goa-tourism/page.tsx",
-                                lineNumber: 74,
+                                lineNumber: 79,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/goa-tourism/page.tsx",
-                            lineNumber: 73,
+                            lineNumber: 78,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1526,7 +1544,7 @@ function GoaTourismPage() {
                                     children: "Entertainment & Casino Options"
                                 }, void 0, false, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 190,
+                                    lineNumber: 195,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1534,13 +1552,13 @@ function GoaTourismPage() {
                                     children: "Optional activities with extra cost"
                                 }, void 0, false, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 191,
+                                    lineNumber: 196,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/goa-tourism/page.tsx",
-                            lineNumber: 189,
+                            lineNumber: 194,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1556,7 +1574,7 @@ function GoaTourismPage() {
                                                     className: "w-12 h-12 text-purple-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                    lineNumber: 199,
+                                                    lineNumber: 204,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1566,7 +1584,7 @@ function GoaTourismPage() {
                                                             children: "Casino on Floating Ship"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 201,
+                                                            lineNumber: 206,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1574,19 +1592,19 @@ function GoaTourismPage() {
                                                             children: "Try your luck at the casino"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 202,
+                                                            lineNumber: 207,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                    lineNumber: 200,
+                                                    lineNumber: 205,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 198,
+                                            lineNumber: 203,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1597,7 +1615,7 @@ function GoaTourismPage() {
                                                     children: "What's Included"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                    lineNumber: 206,
+                                                    lineNumber: 211,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1610,7 +1628,7 @@ function GoaTourismPage() {
                                                                     className: "w-4 h-4 text-purple-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 209,
+                                                                    lineNumber: 214,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1618,13 +1636,13 @@ function GoaTourismPage() {
                                                                     children: " Casino & Entry permit excluded"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 210,
+                                                                    lineNumber: 215,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 208,
+                                                            lineNumber: 213,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1634,7 +1652,7 @@ function GoaTourismPage() {
                                                                     className: "w-4 h-4 text-purple-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 213,
+                                                                    lineNumber: 218,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1642,13 +1660,13 @@ function GoaTourismPage() {
                                                                     children: "Free-flowing drinks"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 214,
+                                                                    lineNumber: 219,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 212,
+                                                            lineNumber: 217,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1658,7 +1676,7 @@ function GoaTourismPage() {
                                                                     className: "w-4 h-4 text-purple-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 217,
+                                                                    lineNumber: 222,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1666,13 +1684,13 @@ function GoaTourismPage() {
                                                                     children: "Buffet dinner"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 218,
+                                                                    lineNumber: 223,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 216,
+                                                            lineNumber: 221,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1682,7 +1700,7 @@ function GoaTourismPage() {
                                                                     className: "w-4 h-4 text-purple-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 221,
+                                                                    lineNumber: 226,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1690,31 +1708,31 @@ function GoaTourismPage() {
                                                                     children: "Optional activity"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 222,
+                                                                    lineNumber: 227,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 220,
+                                                            lineNumber: 225,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                    lineNumber: 207,
+                                                    lineNumber: 212,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 205,
+                                            lineNumber: 210,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 197,
+                                    lineNumber: 202,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1727,7 +1745,7 @@ function GoaTourismPage() {
                                                     className: "w-12 h-12 text-orange-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                    lineNumber: 231,
+                                                    lineNumber: 236,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1737,7 +1755,7 @@ function GoaTourismPage() {
                                                             children: "Beach Activities"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 233,
+                                                            lineNumber: 238,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1745,19 +1763,19 @@ function GoaTourismPage() {
                                                             children: "Water sports and beach fun"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 234,
+                                                            lineNumber: 239,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                    lineNumber: 232,
+                                                    lineNumber: 237,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 230,
+                                            lineNumber: 235,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1768,7 +1786,7 @@ function GoaTourismPage() {
                                                     children: "Available Activities"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                    lineNumber: 238,
+                                                    lineNumber: 243,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1781,7 +1799,7 @@ function GoaTourismPage() {
                                                                     className: "w-4 h-4 text-orange-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 241,
+                                                                    lineNumber: 246,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1789,13 +1807,13 @@ function GoaTourismPage() {
                                                                     children: "Parasailing"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 242,
+                                                                    lineNumber: 247,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 240,
+                                                            lineNumber: 245,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1805,7 +1823,7 @@ function GoaTourismPage() {
                                                                     className: "w-4 h-4 text-orange-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 245,
+                                                                    lineNumber: 250,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1813,13 +1831,13 @@ function GoaTourismPage() {
                                                                     children: "Jet skiing"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 246,
+                                                                    lineNumber: 251,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 244,
+                                                            lineNumber: 249,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1829,7 +1847,7 @@ function GoaTourismPage() {
                                                                     className: "w-4 h-4 text-orange-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 249,
+                                                                    lineNumber: 254,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1837,13 +1855,13 @@ function GoaTourismPage() {
                                                                     children: "Banana boat rides"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 250,
+                                                                    lineNumber: 255,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 248,
+                                                            lineNumber: 253,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1853,7 +1871,7 @@ function GoaTourismPage() {
                                                                     className: "w-4 h-4 text-orange-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 253,
+                                                                    lineNumber: 258,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1861,48 +1879,48 @@ function GoaTourismPage() {
                                                                     children: "Beach volleyball"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                                    lineNumber: 254,
+                                                                    lineNumber: 259,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                                            lineNumber: 252,
+                                                            lineNumber: 257,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                                    lineNumber: 239,
+                                                    lineNumber: 244,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 237,
+                                            lineNumber: 242,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 229,
+                                    lineNumber: 234,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/goa-tourism/page.tsx",
-                            lineNumber: 196,
+                            lineNumber: 201,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/goa-tourism/page.tsx",
-                    lineNumber: 188,
+                    lineNumber: 193,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/goa-tourism/page.tsx",
-                lineNumber: 187,
+                lineNumber: 192,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1918,7 +1936,7 @@ function GoaTourismPage() {
                                     children: "Goa Highlights"
                                 }, void 0, false, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 267,
+                                    lineNumber: 272,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1926,13 +1944,13 @@ function GoaTourismPage() {
                                     children: "Key attractions and experiences in beach paradise"
                                 }, void 0, false, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 268,
+                                    lineNumber: 273,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/goa-tourism/page.tsx",
-                            lineNumber: 266,
+                            lineNumber: 271,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1945,7 +1963,7 @@ function GoaTourismPage() {
                                             className: "w-12 h-12 text-blue-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 275,
+                                            lineNumber: 280,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1953,7 +1971,7 @@ function GoaTourismPage() {
                                             children: "Beautiful Beaches"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 276,
+                                            lineNumber: 281,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1961,13 +1979,13 @@ function GoaTourismPage() {
                                             children: "Anjuna, Calangute, Baga, Coco, Palolem"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 277,
+                                            lineNumber: 282,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 274,
+                                    lineNumber: 279,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1977,7 +1995,7 @@ function GoaTourismPage() {
                                             className: "w-12 h-12 text-purple-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 281,
+                                            lineNumber: 286,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1985,7 +2003,7 @@ function GoaTourismPage() {
                                             children: "Dolphin Tours"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 282,
+                                            lineNumber: 287,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1993,13 +2011,13 @@ function GoaTourismPage() {
                                             children: "Dolphin sightseeing in Arabian Sea"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 283,
+                                            lineNumber: 288,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 280,
+                                    lineNumber: 285,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2009,7 +2027,7 @@ function GoaTourismPage() {
                                             className: "w-12 h-12 text-orange-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 287,
+                                            lineNumber: 292,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2017,7 +2035,7 @@ function GoaTourismPage() {
                                             children: "Historic Churches"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 288,
+                                            lineNumber: 293,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2025,13 +2043,13 @@ function GoaTourismPage() {
                                             children: "Basilica of Bom Jesus, Se Cathedral"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 289,
+                                            lineNumber: 294,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 286,
+                                    lineNumber: 291,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2041,7 +2059,7 @@ function GoaTourismPage() {
                                             className: "w-12 h-12 text-green-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 293,
+                                            lineNumber: 298,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2049,7 +2067,7 @@ function GoaTourismPage() {
                                             children: "Ancient Temples"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 294,
+                                            lineNumber: 299,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2057,13 +2075,13 @@ function GoaTourismPage() {
                                             children: "Shri Manguesh, Shantadurga, Kavlem"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 295,
+                                            lineNumber: 300,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 292,
+                                    lineNumber: 297,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2073,7 +2091,7 @@ function GoaTourismPage() {
                                             className: "w-12 h-12 text-indigo-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 299,
+                                            lineNumber: 304,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2081,7 +2099,7 @@ function GoaTourismPage() {
                                             children: "Nightlife"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 300,
+                                            lineNumber: 305,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2089,13 +2107,13 @@ function GoaTourismPage() {
                                             children: "Pulsating beach parties & clubs"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 301,
+                                            lineNumber: 306,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 298,
+                                    lineNumber: 303,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2105,7 +2123,7 @@ function GoaTourismPage() {
                                             className: "w-12 h-12 text-teal-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 305,
+                                            lineNumber: 310,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2113,7 +2131,7 @@ function GoaTourismPage() {
                                             children: "Fort Aguada"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 306,
+                                            lineNumber: 311,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2121,13 +2139,13 @@ function GoaTourismPage() {
                                             children: "Historic fort with panoramic views"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 307,
+                                            lineNumber: 312,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 304,
+                                    lineNumber: 309,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2137,7 +2155,7 @@ function GoaTourismPage() {
                                             className: "w-12 h-12 text-red-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 311,
+                                            lineNumber: 316,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2145,7 +2163,7 @@ function GoaTourismPage() {
                                             children: "Panjim Market"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 312,
+                                            lineNumber: 317,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2153,30 +2171,30 @@ function GoaTourismPage() {
                                             children: "Shopping & local handicrafts"
                                         }, void 0, false, {
                                             fileName: "[project]/app/goa-tourism/page.tsx",
-                                            lineNumber: 313,
+                                            lineNumber: 318,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/goa-tourism/page.tsx",
-                                    lineNumber: 310,
+                                    lineNumber: 315,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/goa-tourism/page.tsx",
-                            lineNumber: 273,
+                            lineNumber: 278,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/goa-tourism/page.tsx",
-                    lineNumber: 265,
+                    lineNumber: 270,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/goa-tourism/page.tsx",
-                lineNumber: 264,
+                lineNumber: 269,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2193,7 +2211,7 @@ function GoaTourismPage() {
                                         className: "w-6 h-6 text-yellow-600 flex-shrink-0 mt-1"
                                     }, void 0, false, {
                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                        lineNumber: 324,
+                                        lineNumber: 329,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2203,7 +2221,7 @@ function GoaTourismPage() {
                                                 children: "Beach Safety Tips"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/goa-tourism/page.tsx",
-                                                lineNumber: 326,
+                                                lineNumber: 331,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2213,46 +2231,46 @@ function GoaTourismPage() {
                                                         children: "• Avoid swimming during monsoon (June-September)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                                        lineNumber: 328,
+                                                        lineNumber: 333,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Carry sunscreen and hats for beach activities"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                                        lineNumber: 329,
+                                                        lineNumber: 334,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Stay hydrated during water sports"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                                        lineNumber: 330,
+                                                        lineNumber: 335,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Respect local customs and dress codes"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                                        lineNumber: 331,
+                                                        lineNumber: 336,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/goa-tourism/page.tsx",
-                                                lineNumber: 327,
+                                                lineNumber: 332,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                        lineNumber: 325,
+                                        lineNumber: 330,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/goa-tourism/page.tsx",
-                                lineNumber: 323,
+                                lineNumber: 328,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2262,7 +2280,7 @@ function GoaTourismPage() {
                                         className: "w-6 h-6 text-blue-600 flex-shrink-0 mt-1"
                                     }, void 0, false, {
                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                        lineNumber: 336,
+                                        lineNumber: 341,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2272,7 +2290,7 @@ function GoaTourismPage() {
                                                 children: "Best Time to Visit"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/goa-tourism/page.tsx",
-                                                lineNumber: 338,
+                                                lineNumber: 343,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2282,62 +2300,62 @@ function GoaTourismPage() {
                                                         children: "• November to February: Pleasant weather, fewer crowds"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                                        lineNumber: 340,
+                                                        lineNumber: 345,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• March to May: Perfect beach weather, water sports"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                                        lineNumber: 341,
+                                                        lineNumber: 346,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• September to October: Post-monsoon beauty"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                                        lineNumber: 342,
+                                                        lineNumber: 347,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• December: Christmas and New Year celebrations"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                                        lineNumber: 343,
+                                                        lineNumber: 348,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/goa-tourism/page.tsx",
-                                                lineNumber: 339,
+                                                lineNumber: 344,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/goa-tourism/page.tsx",
-                                        lineNumber: 337,
+                                        lineNumber: 342,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/goa-tourism/page.tsx",
-                                lineNumber: 335,
+                                lineNumber: 340,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/goa-tourism/page.tsx",
-                        lineNumber: 322,
+                        lineNumber: 327,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/goa-tourism/page.tsx",
-                    lineNumber: 321,
+                    lineNumber: 326,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/goa-tourism/page.tsx",
-                lineNumber: 320,
+                lineNumber: 325,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PackagePricing$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -2345,12 +2363,12 @@ function GoaTourismPage() {
                 subtitle: "Choose your perfect beach paradise duration"
             }, void 0, false, {
                 fileName: "[project]/app/goa-tourism/page.tsx",
-                lineNumber: 352,
+                lineNumber: 357,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/goa-tourism/page.tsx",
-                lineNumber: 358,
+                lineNumber: 363,
                 columnNumber: 5
             }, this)
         ]
