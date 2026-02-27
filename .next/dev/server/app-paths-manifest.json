@@ -28,6 +28,7 @@
   "/packages/india/page": "app/packages/india/page.js",
   "/page": "app/page.js",
   "/rajasthan-tourism/page": "app/rajasthan-tourism/page.js",
+  "/river-rafting/page": "app/river-rafting/page.js",
   "/sikkim-tourism/page": "app/sikkim-tourism/page.js",
   "/singapore/page": "app/singapore/page.js",
   "/sundarban/page": "app/sundarban/page.js",
