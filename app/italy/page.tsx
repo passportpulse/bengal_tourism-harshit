@@ -17,19 +17,19 @@ export default function ItalyPage() {
             alt="Beautiful Italy with Colosseum and Venice canals"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-red-900/80 via-green-800/60 to-red-900/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-yellow-900/80 via-green-800/60 to-yellow-900/80"></div>
         </div>
 
         <div className="relative h-full flex items-center justify-center text-center text-white px-6">
           <div className="max-w-4xl">
             <div className="flex items-center justify-center gap-2 mb-4">
-              <Landmark className="w-6 h-6 text-red-400" />
-              <span className="text-red-400 font-semibold tracking-wide">Romantic Heritage</span>
+              <Landmark className="w-6 h-6 text-yellow-400" />
+              <span className="text-yellow-400 font-semibold tracking-wide">Romantic Heritage</span>
             </div>
 
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
               Italy
-              <span className="block text-3xl md:text-5xl mt-2 text-red-300">
+              <span className="block text-3xl md:text-5xl mt-2 text-yellow-300">
                 Rome • Venice • Florence • Milan
               </span>
             </h1>
@@ -40,7 +40,7 @@ export default function ItalyPage() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-              <button className="bg-red-600 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:bg-red-500 transition transform hover:scale-105">
+              <button className="bg-yellow-600 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:bg-yellow-500 transition transform hover:scale-105">
                 Explore Italy
               </button>
               <button className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-green-800 transition transform hover:scale-105">
@@ -66,7 +66,7 @@ export default function ItalyPage() {
 
           {/* HEADER */}
           <div className="text-center space-y-4">
-            <h1 className="text-4xl md:text-5xl font-bold text-red-700">
+            <h1 className="text-4xl md:text-5xl font-bold text-yellow-700">
               Visit and Explore Italy
             </h1>
             <p className="text-lg text-gray-700">
@@ -159,7 +159,7 @@ function SectionTitle({ title, subtitle }: { title: string; subtitle: string }) 
     <div className="flex flex-col space-y-2">
       <div className='flex  gap-5 items-center'>
       <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
-       <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+       <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
         Book now For 6N/7D
       </a>
       </div>
@@ -171,8 +171,8 @@ function SectionTitle({ title, subtitle }: { title: string; subtitle: string }) 
 
 function DayCard({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-red-600">
-      <h3 className="text-2xl font-semibold text-red-700 mb-4">{title}</h3>
+    <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-yellow-600">
+      <h3 className="text-2xl font-semibold text-yellow-700 mb-4">{title}</h3>
       <p className="text-gray-700 leading-8 whitespace-pre-line">{children}</p>
     </div>
   )
@@ -185,7 +185,7 @@ function AddOnSection({ title, subtitle }: { title: string; subtitle: string }) 
 
            <div className='flex gap-5 items-center'> 
       <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
-       <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+       <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
         Book now For 2N/3D
       </a>
       

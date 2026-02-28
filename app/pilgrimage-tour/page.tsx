@@ -89,7 +89,7 @@ export default function PilgrimageTour() {
             <h1 className="text-5xl font-bold mb-4">Religious & Pilgrimage Tour</h1>
             <p className="text-xl mb-6">Embark on a spiritual journey through Bengal's sacred destinations</p>
             <div className="flex gap-4">
-              <Link href="/book-tour" className="bg-red-600 text-white px-6 py-3 rounded-lg hover:bg-red-700 transition flex items-center gap-2">
+              <Link href="/book-tour" className="bg-yellow-600 text-white px-6 py-3 rounded-lg hover:bg-yellow-700 transition flex items-center gap-2">
                 Book Now
                 <ArrowRight className="w-4 h-4" />
               </Link>

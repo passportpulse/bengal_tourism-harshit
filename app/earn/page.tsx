@@ -121,7 +121,7 @@ export default function EarnPage() {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-red-900/40"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-yellow-900/40"></div>
         </div>
         
         <div className="relative z-10 h-full flex items-center justify-center px-6">
@@ -133,7 +133,7 @@ export default function EarnPage() {
             
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Build Your
-              <span className="block bg-gradient-to-r from-red-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
+              <span className="block bg-gradient-to-r from-yellow-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
                 Income Stream
                 <svg className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-3/4 h-4" viewBox="0 0 300 16" fill="none">
                   <path d="M10 8 Q 75 4, 150 8 T 290 8" stroke="url(#gradient)" strokeWidth="3" strokeLinecap="round" />
@@ -197,11 +197,11 @@ export default function EarnPage() {
               <div
                 key={index}
                 className={`bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer ${
-                  selectedMethod === method.title ? "ring-4 ring-red-500" : ""
+                  selectedMethod === method.title ? "ring-4 ring-yellow-500" : ""
                 }`}
                 onClick={() => setSelectedMethod(method.title)}
               >
-                <div className="w-16 h-16 bg-gradient-to-r from-red-600 to-orange-600 rounded-2xl flex items-center justify-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-r from-yellow-600 to-orange-600 rounded-2xl flex items-center justify-center mb-6">
                   <method.icon className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">{method.title}</h3>
@@ -236,7 +236,7 @@ export default function EarnPage() {
             {successStories.map((story, index) => (
               <div key={index} className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 shadow-lg">
                 <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 bg-gradient-to-r from-red-600 to-orange-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                  <div className="w-12 h-12 bg-gradient-to-r from-yellow-600 to-orange-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
                     {story.name.split(' ').map(n => n[0]).join('')}
                   </div>
                   <div>
@@ -254,7 +254,7 @@ export default function EarnPage() {
       </section>
 
       {/* ================= WHY CHOOSE US ================= */}
-      <section className="py-20 bg-gradient-to-br from-red-50 to-orange-50">
+      <section className="py-20 bg-gradient-to-br from-yellow-50 to-orange-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-black text-gray-900 mb-6">Why Earn With Bengal Tourism?</h2>
@@ -265,17 +265,17 @@ export default function EarnPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <Award className="w-12 h-12 text-red-600 mb-4" />
+              <Award className="w-12 h-12 text-yellow-600 mb-4" />
               <h3 className="text-xl font-bold text-gray-900 mb-3">Trusted Brand</h3>
               <p className="text-gray-700">15+ years of excellence in tourism with thousands of satisfied customers.</p>
             </div>
             <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <TrendingUp className="w-12 h-12 text-red-600 mb-4" />
+              <TrendingUp className="w-12 h-12 text-yellow-600 mb-4" />
               <h3 className="text-xl font-bold text-gray-900 mb-3">Growth Potential</h3>
               <p className="text-gray-700">Unlimited earning potential with our proven growth structure and support system.</p>
             </div>
             <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <Users className="w-12 h-12 text-red-600 mb-4" />
+              <Users className="w-12 h-12 text-yellow-600 mb-4" />
               <h3 className="text-xl font-bold text-gray-900 mb-3">Team Support</h3>
               <p className="text-gray-700">Complete training and ongoing support to help you succeed in your journey.</p>
             </div>
@@ -300,26 +300,26 @@ export default function EarnPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      First Name <span className="text-red-500">*</span>
+                      First Name <span className="text-yellow-500">*</span>
                     </label>
                     <input
                       type="text"
                       value={formData.firstName}
                       onChange={(e) => handleInputChange("firstName", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="Enter first name"
                       required
                     />
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Last Name <span className="text-red-500">*</span>
+                      Last Name <span className="text-yellow-500">*</span>
                     </label>
                     <input
                       type="text"
                       value={formData.lastName}
                       onChange={(e) => handleInputChange("lastName", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="Enter last name"
                       required
                     />
@@ -329,26 +329,26 @@ export default function EarnPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Email <span className="text-red-500">*</span>
+                      Email <span className="text-yellow-500">*</span>
                     </label>
                     <input
                       type="email"
                       value={formData.email}
                       onChange={(e) => handleInputChange("email", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="your@email.com"
                       required
                     />
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Phone <span className="text-red-500">*</span>
+                      Phone <span className="text-yellow-500">*</span>
                     </label>
                     <input
                       type="tel"
                       value={formData.phone}
                       onChange={(e) => handleInputChange("phone", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="+91 98765 43210"
                       required
                     />
@@ -357,12 +357,12 @@ export default function EarnPage() {
 
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Select Earning Method <span className="text-red-500">*</span>
+                    Select Earning Method <span className="text-yellow-500">*</span>
                   </label>
                   <select
                     value={formData.earningMethod}
                     onChange={(e) => handleInputChange("earningMethod", e.target.value)}
-                    className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                    className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition placeholder-gray-500"
                     required
                   >
                     <option value="" className=" text-gray-500">--Select Method--</option>
@@ -376,12 +376,12 @@ export default function EarnPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Payment Mode <span className="text-red-500">*</span>
+                      Payment Mode <span className="text-yellow-500">*</span>
                     </label>
                     <select
                       value={formData.paymentMode}
                       onChange={(e) => handleInputChange("paymentMode", e.target.value)}
-                      className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition placeholder-gray-500"
                       required
                     >
                       <option value="" className=" text-gray-500"> --Select Payment--</option>
@@ -393,13 +393,13 @@ export default function EarnPage() {
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      IFSC Code / UPI Name <span className="text-red-500">*</span>
+                      IFSC Code / UPI Name <span className="text-yellow-500">*</span>
                     </label>
                     <input
                       type="text"
                       value={formData.ifscUpi}
                       onChange={(e) => handleInputChange("ifscUpi", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="Enter IFSC code or UPI name"
                       required
                     />
@@ -410,7 +410,7 @@ export default function EarnPage() {
                   <input
                     type="checkbox"
                     required
-                    className="mt-1 w-4 h-4 text-red-600 focus:ring-red-500 rounded"
+                    className="mt-1 w-4 h-4 text-yellow-600 focus:ring-yellow-500 rounded"
                   />
                   <span className="text-sm text-gray-700 leading-relaxed ml-3">
                     I agree to the terms and conditions of Bengal Tourism earning program and understand that submission without payment is not valid.
@@ -421,7 +421,7 @@ export default function EarnPage() {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="flex-1 bg-gradient-to-r from-red-600 to-orange-600 text-white font-bold py-4 px-8 rounded-xl hover:from-red-700 hover:to-orange-700 transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+                    className="flex-1 bg-gradient-to-r from-yellow-600 to-orange-600 text-white font-bold py-4 px-8 rounded-xl hover:from-yellow-700 hover:to-orange-700 transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
                   >
                     {isSubmitting ? (
                       <>
@@ -472,20 +472,20 @@ export default function EarnPage() {
       </section>
  <CareerPage />
       {/* ================= CTA ================= */}
-      <section className="py-20 bg-gradient-to-br from-red-600 to-orange-600">
+      <section className="py-20 bg-gradient-to-br from-yellow-600 to-orange-600">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-black text-white mb-6">Ready to Start Earning?</h2>
           <p className="text-xl text-white/90 max-w-3xl mx-auto mb-12">
             Join thousands of people who are already earning with Bengal Tourism
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/membership" className="px-8 py-3 bg-white text-red-600 font-bold rounded-xl hover:bg-gray-100 transition">
+            <a href="/membership" className="px-8 py-3 bg-white text-yellow-600 font-bold rounded-xl hover:bg-gray-100 transition">
               Join Membership
             </a>
-            <a href="mgm" className="px-8 py-3 bg-white text-red-600 font-bold rounded-xl hover:bg-gray-100 transition">
+            <a href="mgm" className="px-8 py-3 bg-white text-yellow-600 font-bold rounded-xl hover:bg-gray-100 transition">
               View MgM Plan
             </a>
-            <a href="/career" className="px-8 py-3 bg-white text-red-600 font-bold rounded-xl hover:bg-gray-100 transition">
+            <a href="/career" className="px-8 py-3 bg-white text-yellow-600 font-bold rounded-xl hover:bg-gray-100 transition">
               Explore Careers
             </a>
           </div>

@@ -277,8 +277,8 @@ export default function BoatStayPage() {
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {experiences.map((experience, index) => (
-              <div key={index} className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8">
-                <div className="w-16 h-16 bg-gradient-to-r from-orange-600 to-red-600 rounded-2xl flex items-center justify-center mb-6">
+              <div key={index} className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-2xl p-8">
+                <div className="w-16 h-16 bg-gradient-to-r from-orange-600 to-yellow-600 rounded-2xl flex items-center justify-center mb-6">
                   <experience.icon className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">{experience.title}</h3>

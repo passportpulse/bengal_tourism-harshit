@@ -129,7 +129,7 @@ export default function AssamGuwahatiTourismPage() {
                 <div>
                   <h3 className="text-2xl font-bold mb-2">ADD ON: Kaziranga Forest</h3>
                 </div>
-                <a href="/book-tour" className="bg-red-600 font-semibold shadow-md rounded-full text-white px-4 py-2">
+                <a href="/book-tour" className="bg-yellow-600 font-semibold shadow-md rounded-full text-white px-4 py-2">
                   Book Now For 1N/2D
                 </a>
               </div>
@@ -173,7 +173,7 @@ export default function AssamGuwahatiTourismPage() {
             </div>
 
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center">
+              <div className="h-48 bg-gradient-to-br from-orange-400 to-yellow-500 flex items-center justify-center">
                 <Trees className="w-16 h-16 text-white group-hover:scale-110 transition" />
               </div>
               <div className="p-6">
@@ -507,7 +507,7 @@ function Destination({ title, subtitle, content, cta }: { title: string; subtitl
         <h2 className="text-3xl font-bold text-indigo-700">{title}</h2>
         <a
           href="/book-tour"
-          className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+          className="bg-yellow-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
         >
           {cta}
         </a>

@@ -244,7 +244,7 @@ function SectionTitle({ title, subtitle }: { title: string; subtitle: string }) 
     <div className="flex flex-col space-y-2">
       <div className='flex  gap-5 items-center'>
         <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
-        <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+        <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
           Book now For 6N/7D
         </a>
       </div>
@@ -270,7 +270,7 @@ function AddOnSection({ title, subtitle }: { title: string; subtitle: string }) 
 
       <div className='flex gap-5 items-center'>
         <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
-        <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+        <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
           Book now For 2N/3D
         </a>
 

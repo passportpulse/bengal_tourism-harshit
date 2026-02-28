@@ -315,12 +315,12 @@ export default function TourBookingPage() {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-red-900/40"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-yellow-900/40"></div>
         </div>
 
         {/* Floating Animated Elements */}
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-20 left-10 w-32 h-32 bg-red-500/20 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute top-20 left-10 w-32 h-32 bg-yellow-500/20 rounded-full blur-3xl animate-pulse"></div>
           <div className="absolute bottom-20 right-10 w-40 h-40 bg-yellow-500/20 rounded-full blur-3xl animate-pulse delay-75"></div>
           <div className="absolute top-1/2 left-1/4 w-24 h-24 bg-white/10 rounded-full blur-2xl animate-pulse delay-150"></div>
         </div>
@@ -336,7 +336,7 @@ export default function TourBookingPage() {
             {/* Main Heading */}
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Book Your
-              <span className="block bg-gradient-to-r from-red-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
+              <span className="block bg-gradient-to-r from-yellow-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
                 Dream Journey
                 <svg className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-3/4 h-4" viewBox="0 0 300 16" fill="none">
                   <path d="M10 8 Q 75 4, 150 8 T 290 8" stroke="url(#gradient)" strokeWidth="3" strokeLinecap="round" />
@@ -399,53 +399,53 @@ export default function TourBookingPage() {
               {/* Personal Information Section */}
               <div>
                 <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-                  <User className="text-red-600" />
+                  <User className="text-yellow-600" />
                   Personal Information
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Full Name <span className="text-red-500">*</span>
+                      Full Name <span className="text-yellow-500">*</span>
                     </label>
                     <input
                       type="text"
                       value={formData.fullName}
                       onChange={(e) => handleInputChange("fullName", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                       placeholder="Enter your full name"
                       required
                     />
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      E-mail ID <span className="text-red-500">*</span>
+                      E-mail ID <span className="text-yellow-500">*</span>
                     </label>
                     <input
                       type="email"
                       value={formData.email}
                       onChange={(e) => handleInputChange("email", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                       placeholder="Enter your email address"
                       required
                     />
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Mobile No. (With country code) <span className="text-red-500">*</span>
+                      Mobile No. (With country code) <span className="text-yellow-500">*</span>
                     </label>
                     <div className="flex gap-3">
                       <input
                         type="text"
                         value={formData.countryCode}
                         onChange={(e) => handleInputChange("countryCode", e.target.value)}
-                        className="flex px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                        className="flex px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                         placeholder="+91"
                       />
                       <input
                         type="tel"
                         value={formData.phone}
                         onChange={(e) => handleInputChange("phone", e.target.value)}
-                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                         placeholder="Enter 10 digit mobile number"
                         maxLength={10}
                         required
@@ -454,13 +454,13 @@ export default function TourBookingPage() {
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Address with Pin/Zip Code <span className="text-red-500">*</span>
+                      Address with Pin/Zip Code <span className="text-yellow-500">*</span>
                     </label>
                     <input
                       type="text"
                       value={formData.address}
                       onChange={(e) => handleInputChange("address", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                       placeholder="Enter your complete address"
                       required
                     />
@@ -468,7 +468,7 @@ export default function TourBookingPage() {
                       type="text"
                       value={formData.pinCode}
                       onChange={(e) => handleInputChange("pinCode", e.target.value)}
-                      className="w-full mt-3 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                      className="w-full mt-3 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                       placeholder="Enter PIN/Zip Code"
                       maxLength={6}
                       required
@@ -480,19 +480,19 @@ export default function TourBookingPage() {
               {/* Tour Details Section */}
               <div>
                 <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-                  <MapPin className="text-red-600" />
+                  <MapPin className="text-yellow-600" />
                   Tour Details
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Tour Destination (Name of Place) <span className="text-red-500">*</span>
+                      Tour Destination (Name of Place) <span className="text-yellow-500">*</span>
                     </label>
                     <input
                       type="text"
                       value={formData.destination}
                       onChange={(e) => handleInputChange("destination", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                       placeholder="Enter your destination"
                       required
                     />
@@ -500,7 +500,7 @@ export default function TourBookingPage() {
 
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Start of Journey Date <span className="text-red-500">*</span>
+                    Start of Journey Date <span className="text-yellow-500">*</span>
                     </label>
                     <input
                       type="date"
@@ -509,7 +509,7 @@ export default function TourBookingPage() {
                         const formattedDate = formatDateToDDMMYYYY(e.target.value);
                         handleInputChange("checkIn", formattedDate);
                       }}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                       required
                     />
                     {formData.checkIn && (
@@ -529,7 +529,7 @@ export default function TourBookingPage() {
                       type="text"
                       value={formData.pickupPlace}
                       onChange={(e) => handleInputChange("pickupPlace", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                       placeholder="Enter pickup location"
                     />
                   </div>
@@ -541,7 +541,7 @@ export default function TourBookingPage() {
                     <textarea
                       value={formData.specialInfo}
                       onChange={(e) => handleInputChange("specialInfo", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                       rows={1}
                       placeholder="Extra cost for non-sharing car, premium room, food habits, etc."
                     />
@@ -550,7 +550,7 @@ export default function TourBookingPage() {
                   
                      <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      End of Journey Date <span className="text-red-500">*</span>
+                      End of Journey Date <span className="text-yellow-500">*</span>
                     </label>
                     <input
                       type="date"
@@ -559,7 +559,7 @@ export default function TourBookingPage() {
                         const formattedDate = formatDateToDDMMYYYY(e.target.value);
                         handleInputChange("checkOut", formattedDate);
                       }}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                       required
                     />
                     {formData.checkOut && (
@@ -576,19 +576,19 @@ export default function TourBookingPage() {
                       type="text"
                       value={formData.dropPlace}
                       onChange={(e) => handleInputChange("dropPlace", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                       placeholder="Enter drop location"
                     />
                   </div>
                     <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                     Cost for number of nights <span className="text-red-500">*</span>
+                     Cost for number of nights <span className="text-yellow-500">*</span>
                     </label>
                     <div className="flex gap-2">
                       <select 
                         value={formData.currency}
                         onChange={(e) => handleInputChange("currency", e.target.value)}
-                        className="px-4 text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                        className="px-4 text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition"
                       >
                         <option value="INR">INR</option>
                         <option value="USD">USD</option>
@@ -605,13 +605,13 @@ export default function TourBookingPage() {
                 
                       <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Total No. of Nights <span className="text-red-500">*</span>
+                      Total No. of Nights <span className="text-yellow-500">*</span>
                     </label>
                     <input
                       type="number"
                       value={formData.totalNights}
                       readOnly
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600 bg-gray-50"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600 bg-gray-50"
                       placeholder="Auto-calculated from dates"
                       required
                     />
@@ -627,19 +627,19 @@ export default function TourBookingPage() {
                       type="text"
                       value={formData.membershipNo}
                       onChange={(e) => handleInputChange("membershipNo", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                       placeholder="Enter membership number"
                     />
                   </div>
                       <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      No. of Adult PAX <span className="text-red-500">*</span>
+                      No. of Adult PAX <span className="text-yellow-500">*</span>
                     </label>
                     <input
                       type="number"
                       value={formData.adults}
                       onChange={(e) => handleInputChange("adults", parseInt(e.target.value) || 0)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                       min="1"
                       required
                     />
@@ -652,7 +652,7 @@ export default function TourBookingPage() {
                       type="number"
                       value={formData.children}
                       onChange={(e) => handleInputChange("children", parseInt(e.target.value) || 0)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                       min="0"
                     />
                   </div>
@@ -664,7 +664,7 @@ export default function TourBookingPage() {
                     type="number"
                      value={formData.below5Children}
                     onChange={(e) => handleInputChange("below5Children", parseInt(e.target.value) || 0)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                     min="0"
                   />
                 </div>
@@ -686,7 +686,7 @@ export default function TourBookingPage() {
               {/* Pricing Section */}
               <div>
                 <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-                  <IndianRupee className="text-red-600" />
+                  <IndianRupee className="text-yellow-600" />
                   Pricing Details
                 </h2>
                 {formData.totalNights && (
@@ -708,13 +708,13 @@ export default function TourBookingPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Total Cost for Adults ({formData.adults} × {formatCurrency(calculatePerPersonRate(parseInt(formData.totalNights) || 0), "INR")}) <span className="text-red-500">*</span>
+                      Total Cost for Adults ({formData.adults} × {formatCurrency(calculatePerPersonRate(parseInt(formData.totalNights) || 0), "INR")}) <span className="text-yellow-500">*</span>
                     </label>
                     <div className="flex gap-2">
                       <select 
                         value={formData.currency}
                         onChange={(e) => handleInputChange("currency", e.target.value)}
-                        className="px-4 text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                        className="px-4 text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition"
                       >
                         <option value="INR">INR</option>
                         <option value="USD">USD</option>
@@ -740,7 +740,7 @@ export default function TourBookingPage() {
                       <select 
                         value={formData.currency}
                         onChange={(e) => handleInputChange("currency", e.target.value)}
-                        className="px-4 text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                        className="px-4 text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition"
                       >
                         <option value="INR">INR</option>
                         <option value="USD">USD</option>
@@ -760,13 +760,13 @@ export default function TourBookingPage() {
 
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Estimated Cost <span className="text-red-500">*</span>
+                      Estimated Cost <span className="text-yellow-500">*</span>
                     </label>
                     <div className="flex gap-2">
                       <select 
                         value={formData.currency}
                         onChange={(e) => handleInputChange("currency", e.target.value)}
-                        className="px-4 py-3 text-gray-500 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                        className="px-4 py-3 text-gray-500 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition"
                       >
                         <option value="INR">INR</option>
                         <option value="USD">USD</option>
@@ -782,13 +782,13 @@ export default function TourBookingPage() {
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Booking Confirmation (50% of Estimated Cost) <span className="text-red-500">*</span>
+                      Booking Confirmation (50% of Estimated Cost) <span className="text-yellow-500">*</span>
                     </label>
                     <div className="flex gap-2">
                       <select 
                         value={formData.currency}
                         onChange={(e) => handleInputChange("currency", e.target.value)}
-                        className="px-4 text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                        className="px-4 text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition"
                       >
                         <option value="INR">INR</option>
                         <option value="USD">USD</option>
@@ -808,7 +808,7 @@ export default function TourBookingPage() {
               {/* Promotional Section */}
               <div>
                 <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-                  <Percent className="text-red-600" />
+                  <Percent className="text-yellow-600" />
                   Promotional Offers
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -820,7 +820,7 @@ export default function TourBookingPage() {
                       type="text"
                       value={formData.promoCode}
                       onChange={(e) => handleInputChange("promoCode", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                       placeholder="Enter promo code if any"
                     />
                   </div>
@@ -831,8 +831,8 @@ export default function TourBookingPage() {
               {/* Payment Type */}
               <div>
                 <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-                  <CreditCard className="text-red-600" />
-                  Payment Type <span className="text-red-500">*</span>
+                  <CreditCard className="text-yellow-600" />
+                  Payment Type <span className="text-yellow-500">*</span>
                 </h2>
                 <div className="flex gap-8">
                   <label className="flex items-center gap-3 cursor-pointer">
@@ -845,7 +845,7 @@ export default function TourBookingPage() {
                         handleInputChange("paymentType", e.target.value);
                         setTimeout(calculateTotals, 100);
                       }}
-                      className="w-4 h-4 text-red-600 focus:ring-red-500"
+                      className="w-4 h-4 text-yellow-600 focus:ring-yellow-500"
                     />
                     <span className="font-medium text-gray-700">Full Payment</span>
                   </label>
@@ -859,7 +859,7 @@ export default function TourBookingPage() {
                         handleInputChange("paymentType", e.target.value);
                         setTimeout(calculateTotals, 100);
                       }}
-                      className="w-4 h-4 text-red-600 focus:ring-red-500"
+                      className="w-4 h-4 text-yellow-600 focus:ring-yellow-500"
                     />
                     <span className="font-medium text-gray-700">50% Payment</span>
                   </label>
@@ -873,7 +873,7 @@ export default function TourBookingPage() {
                   <input
                     type="checkbox"
                     required
-                    className="mt-1 w-4 h-4 text-red-600 focus:ring-red-500 rounded"
+                    className="mt-1 w-4 h-4 text-yellow-600 focus:ring-yellow-500 rounded"
                   />
                   <span className="text-sm text-gray-700 leading-relaxed">
                     I accept: Submission without successful payment is not valid. Please remember to save the acknowledgement after you hit Submit Button (&/or) payment confirmation from Bank. In case of manual submission of Booking Form via e-mail, we will send the confirmation of receipt & booking details via E-mail / WhatsApp after we acknowledge receipt of valid payment at our Bank. I also agree to accept any similar hotel rooms provided by you and be liable to pay for any extra cost as per your special instructions, extra provision required, extra person/bed (1 child under 4 yrs free & other person above 4 Yrs chargeable) to be provided (&) Service Charges/GST will be calculated & paid later on acceptance & as per final invoice/bill.
@@ -882,7 +882,7 @@ export default function TourBookingPage() {
               </div>
 
               {/* Top Note */}
-              <div className="bg-red-700 text-white text-center py-2 text-sm font-semibold">
+              <div className="bg-yellow-700 text-white text-center py-2 text-sm font-semibold">
                 Proceed to PAY using any mode given below. Earn Cash-Back upto Rs.10000/-
               </div>
 
@@ -944,7 +944,7 @@ export default function TourBookingPage() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-12 py-4 rounded-xl font-bold text-lg shadow-lg transform hover:scale-105 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+                  className="bg-gradient-to-r from-yellow-600 to-yellow-700 hover:from-yellow-700 hover:to-yellow-800 text-white px-12 py-4 rounded-xl font-bold text-lg shadow-lg transform hover:scale-105 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
                 >
                   {isSubmitting ? (
                     <>

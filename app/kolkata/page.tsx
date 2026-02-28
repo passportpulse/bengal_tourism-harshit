@@ -132,7 +132,7 @@ export default function KolkataPage() {
       </section>
 
       {/* ================= QUICK FACTS ================= */}
-      <section className="py-16 bg-gradient-to-r from-orange-50 to-red-50">
+      <section className="py-16 bg-gradient-to-r from-orange-50 to-yellow-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
@@ -144,7 +144,7 @@ export default function KolkataPage() {
             </div>
             <div className="text-center">
               <div className="bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 shadow-lg">
-                <Archive className="w-10 h-10 text-red-600" />
+                <Archive className="w-10 h-10 text-yellow-600" />
               </div>
               <h3 className="font-bold text-lg mb-2">Heritage Sites</h3>
               <p className="text-gray-600 text-sm">15+ monuments</p>
@@ -368,7 +368,7 @@ export default function KolkataPage() {
               </ul>
             </div>
 
-            <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8">
+            <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-2xl p-8">
               <h3 className="text-2xl font-bold mb-4 text-orange-700">Bhaat or Steamed Rice</h3>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start gap-2">
@@ -470,7 +470,7 @@ export default function KolkataPage() {
             </div>
 
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center">
+              <div className="h-48 bg-gradient-to-br from-orange-400 to-yellow-500 flex items-center justify-center">
                 <ShoppingBag className="w-16 h-16 text-white group-hover:scale-110 transition" />
               </div>
               <div className="p-6">

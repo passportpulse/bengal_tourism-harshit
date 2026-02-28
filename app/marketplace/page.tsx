@@ -365,7 +365,7 @@ export default function MarketplacePage() {
 
           <h1 className="text-5xl md:text-7xl font-black text-white leading-tight mb-6">
             Discover
-            <span className="block bg-gradient-to-r from-yellow-400 via-orange-400 to-red-400 bg-clip-text text-transparent">
+            <span className="block bg-gradient-to-r from-yellow-400 via-orange-400 to-yellow-400 bg-clip-text text-transparent">
               The Best of Bengal
             </span>
           </h1>
@@ -375,10 +375,10 @@ export default function MarketplacePage() {
           </p>
 
           <div className="mt-10 flex gap-4 justify-center flex-wrap">
-            <button className="px-8 py-3 rounded-xl bg-white text-red-600 font-bold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-xl">
+            <button className="px-8 py-3 rounded-xl bg-white text-yellow-600 font-bold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-xl">
               Explore Brands
             </button>
-            <button className="px-8 py-3 rounded-xl bg-gradient-to-r from-red-600 to-orange-600 text-white font-bold hover:from-red-700 hover:to-orange-700 transition-all duration-300 transform hover:scale-105 shadow-xl">
+            <button className="px-8 py-3 rounded-xl bg-gradient-to-r from-yellow-600 to-orange-600 text-white font-bold hover:from-yellow-700 hover:to-orange-700 transition-all duration-300 transform hover:scale-105 shadow-xl">
               Become a Partner
             </button>
           </div>
@@ -395,7 +395,7 @@ export default function MarketplacePage() {
                 onClick={() => setSelectedCategory(cat.id)}
                 className={`px-5 py-2 rounded-full font-semibold whitespace-nowrap transition-all ${
                   selectedCategory === cat.id
-                    ? "bg-red-600 text-white shadow-lg"
+                    ? "bg-yellow-600 text-white shadow-lg"
                     : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                 }`}
               >
@@ -424,7 +424,7 @@ export default function MarketplacePage() {
                     className="object-cover group-hover:scale-105 transition"
                   />
                   {/* {brand.featured && (
-                    <span className="absolute top-3 right-3 bg-red-600 text-white text-xs px-3 py-1 rounded-full">
+                    <span className="absolute top-3 right-3 bg-yellow-600 text-white text-xs px-3 py-1 rounded-full">
                       ⭐ Featured
                     </span>
                   )} */}
@@ -432,11 +432,11 @@ export default function MarketplacePage() {
 
                 {/* Content */}
                 <div className="p-5 flex flex-col h-full">
-                  <h3 className="font-black text-gray-700 text-lg mb-2 group-hover:text-red-600 transition-colors">
+                  <h3 className="font-black text-gray-700 text-lg mb-2 group-hover:text-yellow-600 transition-colors">
                     {brand.name}
                   </h3>
                   <p className="text-sm text-gray-600 mb-3 flex items-center">
-                    <svg className="w-4 h-4 mr-1 text-red-500" fill="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-4 h-4 mr-1 text-yellow-500" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
                     </svg>
                     {brand.location}
@@ -450,7 +450,7 @@ export default function MarketplacePage() {
 
                   <div className="mt-auto">
                     {brand.action ? (
-                      <button className="w-full py-2.5 rounded-lg bg-gradient-to-r from-red-600 to-orange-600 text-white font-bold hover:from-red-700 hover:to-orange-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
+                      <button className="w-full py-2.5 rounded-lg bg-gradient-to-r from-yellow-600 to-orange-600 text-white font-bold hover:from-yellow-700 hover:to-orange-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
                         {brand.action}
                       </button>
                     ) : (

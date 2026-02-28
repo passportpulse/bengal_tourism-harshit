@@ -162,7 +162,7 @@ export default function ShankarpurPage() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Beach Attractions */}
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition">
-              <div className="h-48 bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center">
+              <div className="h-48 bg-gradient-to-br from-orange-400 to-yellow-500 flex items-center justify-center">
                 <Waves className="w-16 h-16 text-white" />
               </div>
               <div className="p-6">

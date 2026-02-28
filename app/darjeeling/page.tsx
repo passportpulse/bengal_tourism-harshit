@@ -162,7 +162,7 @@ export default function DarjeelingPage() {
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
                  Darjeeling – Kalimpong Tour Itinerary
               </h2>
-               <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+               <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
               Book now For 5N/6D
             </a>
               
@@ -252,8 +252,8 @@ export default function DarjeelingPage() {
     </div>
 
     {/* Day 6 */}
-    <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-red-500 hover:shadow-xl transition">
-      <h3 className="text-2xl font-bold text-red-600 mb-4 flex items-center gap-2">
+    <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-yellow-500 hover:shadow-xl transition">
+      <h3 className="text-2xl font-bold text-yellow-600 mb-4 flex items-center gap-2">
         <Plane className="w-6 h-6" />
         Day 6 – Mirik & Departure
       </h3>
@@ -288,7 +288,7 @@ export default function DarjeelingPage() {
     </div>
 
     {/* Advertisement Section */}
-    <div className="bg-gradient-to-br from-orange-500 to-red-500 text-white rounded-3xl shadow-lg p-8 text-center">
+    <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
       <h3 className="text-2xl font-bold mb-4">
         🚀 Paste Your Advertisement Here
       </h3>
@@ -321,7 +321,7 @@ export default function DarjeelingPage() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Major Attractions */}
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition">
-              <div className="h-48 bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center">
+              <div className="h-48 bg-gradient-to-br from-orange-400 to-yellow-500 flex items-center justify-center">
                 <Mountain className="w-16 h-16 text-white" />
               </div>
               <div className="p-6">
@@ -545,7 +545,7 @@ export default function DarjeelingPage() {
               <button className="text-blue-600 font-semibold hover:text-blue-700">Photo Tours →</button>
             </div>
 
-            <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8 hover:shadow-xl transition">
+            <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-2xl p-8 hover:shadow-xl transition">
               <Train className="w-12 h-12 text-orange-600 mb-4" />
               <h3 className="text-2xl font-bold mb-3">Heritage Train</h3>
               <p className="text-gray-700 mb-4">Toy Train Ride • Ghoom Station • Batasia Loop</p>

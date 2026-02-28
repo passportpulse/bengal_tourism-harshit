@@ -17,7 +17,7 @@ export default function CambodiaPage() {
             alt="Beautiful Cambodia with Angkor Wat temple"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-orange-900/80 via-red-800/60 to-orange-900/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-orange-900/80 via-yellow-800/60 to-orange-900/80"></div>
         </div>
 
         <div className="relative h-full flex items-center justify-center text-center text-white px-6">
@@ -43,7 +43,7 @@ export default function CambodiaPage() {
               <button className="bg-orange-500 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:bg-orange-400 transition transform hover:scale-105">
                 Explore Cambodia
               </button>
-              <button className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-red-800 transition transform hover:scale-105">
+              <button className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-yellow-800 transition transform hover:scale-105">
                 Book Ancient Journey
               </button>
             </div>
@@ -139,7 +139,7 @@ export default function CambodiaPage() {
               </div>
 
               {/* Advertisement Section */}
-              <div className="bg-gradient-to-br from-orange-500 to-red-600 text-white rounded-3xl shadow-lg p-8 text-center">
+              <div className="bg-gradient-to-br from-orange-500 to-yellow-600 text-white rounded-3xl shadow-lg p-8 text-center">
                 <h3 className="text-2xl font-bold mb-4">
                   🏛️ Ancient Kingdom Special
                 </h3>
@@ -245,7 +245,7 @@ function SectionTitle({ title, subtitle }: { title: string; subtitle: string }) 
     <div className="flex flex-col space-y-2">
       <div className='flex  gap-5 items-center'>
       <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
-       <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+       <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
         Book now For 6N/7D
       </a>
       </div>
@@ -271,7 +271,7 @@ function AddOnSection({ title, subtitle }: { title: string; subtitle: string }) 
 
            <div className='flex gap-5 items-center'> 
       <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
-       <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+       <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
         Book now For 2N/3D
       </a>
       

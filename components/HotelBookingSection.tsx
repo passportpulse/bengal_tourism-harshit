@@ -26,11 +26,11 @@ export default function HotelBookingSection({ className = "" }: { className?: st
 
         {/* Header */}
         <div className="mb-14 ">
-          <span className="text-sm font-semibold tracking-widest text-red-600 uppercase">
+          <span className="text-sm font-semibold tracking-widest text-yellow-600 uppercase">
             Hotel Booking
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-3 mb-4">
-            Find Your Perfect <span className="text-red-600">Stay</span>
+            Find Your Perfect <span className="text-yellow-600">Stay</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl ">
             Discover comfortable and affordable hotels across West Bengal with instant booking.

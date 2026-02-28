@@ -632,39 +632,39 @@ export default function HotelBookingPage() {
             {/* Personal Information Section */}
             <div>
               <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-                <User className="text-red-600" />
+                <User className="text-yellow-600" />
                 Personal Information
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Full Name <span className="text-red-500">*</span>
+                    Full Name <span className="text-yellow-500">*</span>
                   </label>
                   <input
                     type="text"
                     value={formData.fullName}
                     onChange={(e) => handleInputChange("fullName", e.target.value)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                     placeholder="Enter your full name"
                     required
                   />
                 </div>
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    E-mail ID <span className="text-red-500">*</span>
+                    E-mail ID <span className="text-yellow-500">*</span>
                   </label>
                   <input
                     type="email"
                     value={formData.email}
                     onChange={(e) => handleInputChange("email", e.target.value)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                     placeholder="Enter your email address"
                     required
                   />
                 </div>
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Mobile No. (With country code) <span className="text-red-500">*</span>
+                    Mobile No. (With country code) <span className="text-yellow-500">*</span>
                   </label>
                   <div className="flex gap-3">
                     <input
@@ -687,13 +687,13 @@ export default function HotelBookingPage() {
                 </div>
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Address with Pin/Zip Code <span className="text-red-500">*</span>
+                    Address with Pin/Zip Code <span className="text-yellow-500">*</span>
                   </label>
                   <input
                     type="text"
                     value={formData.address}
                     onChange={(e) => handleInputChange("address", e.target.value)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                     placeholder="Enter your complete address"
                     required
                   />
@@ -701,7 +701,7 @@ export default function HotelBookingPage() {
                     type="text"
                     value={formData.pinCode}
                     onChange={(e) => handleInputChange("pinCode", e.target.value)}
-                    className="w-full mt-3 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    className="w-full mt-3 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                     placeholder="Enter PIN/Zip Code"
                     maxLength={6}
                     required
@@ -713,18 +713,18 @@ export default function HotelBookingPage() {
             {/* Hotel Details Section */}
             <div>
               <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-                <Bed className="text-red-600" />
+                <Bed className="text-yellow-600" />
                 Hotel Details
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Destination <span className="text-red-500">*</span>
+                    Destination <span className="text-yellow-500">*</span>
                   </label>
                   <select
                     value={formData.destination}
                     onChange={(e) => handleInputChange("destination", e.target.value)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                     required
                   >
                     <option value="">-- Select --</option>
@@ -737,7 +737,7 @@ export default function HotelBookingPage() {
                 </div>
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Check-in Date <span className="text-red-500">*</span>
+                    Check-in Date <span className="text-yellow-500">*</span>
                   </label>
                   <input
                     type="date"
@@ -751,7 +751,7 @@ export default function HotelBookingPage() {
                         calculateNights(formattedDate, newFormData.checkOut);
                       }
                     }}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                     required
                   />
                   {formData.checkIn && (
@@ -769,21 +769,21 @@ export default function HotelBookingPage() {
                     type="text"
                     value={formData.preferredHotel}
                     onChange={(e) => handleInputChange("preferredHotel", e.target.value)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                     placeholder="Enter preferred hotel name or similar requirements"
                   />
                 </div>
 
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Room Type <span className="text-red-500">*</span>
+                    Room Type <span className="text-yellow-500">*</span>
                   </label>
                   <select
                     value={formData.roomType}
                     onChange={(e) => {
                       handleInputChange("roomType", e.target.value);
                     }}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                     required
                     disabled={!formData.destination}
                   >
@@ -809,7 +809,7 @@ export default function HotelBookingPage() {
 
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Check-out Date <span className="text-red-500">*</span>
+                    Check-out Date <span className="text-yellow-500">*</span>
                   </label>
                   <input
                     type="date"
@@ -823,7 +823,7 @@ export default function HotelBookingPage() {
                         calculateNights(newFormData.checkIn, formattedDate);
                       }
                     }}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                     required
                   />
                   {formData.checkOut && (
@@ -834,10 +834,10 @@ export default function HotelBookingPage() {
                 </div>
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Total Cost <span className="text-red-500">*</span>
+                    Total Cost <span className="text-yellow-500">*</span>
                   </label>
                   <div className="flex gap-2">
-                    <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-500">
+                    <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-500">
                       <option>INR</option>
                     </select>
                     <input
@@ -854,14 +854,14 @@ export default function HotelBookingPage() {
 
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    No. of Rooms <span className="text-red-500">*</span>
+                    No. of Rooms <span className="text-yellow-500">*</span>
                   </label>
                   <select
                     value={formData.noOfRooms}
                     onChange={(e) => {
                       handleInputChange("noOfRooms", e.target.value);
                     }}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                     required
                   >
                     {[...Array(10)].map((_, i) => (
@@ -873,13 +873,13 @@ export default function HotelBookingPage() {
                 </div>
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Total No. of Nights <span className="text-red-500">*</span>
+                    Total No. of Nights <span className="text-yellow-500">*</span>
                   </label>
                   <input
                     type="number"
                     value={formData.totalNights}
                     readOnly
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600 bg-gray-50"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600 bg-gray-50"
                     placeholder="Auto-calculated from dates"
                     required
                   />
@@ -896,7 +896,7 @@ export default function HotelBookingPage() {
                   <textarea
                     value={formData.specialInfo}
                     onChange={(e) => handleInputChange("specialInfo", e.target.value)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                     rows={1}
                     placeholder="Extra requirements, special requests, etc."
                   />
@@ -907,7 +907,7 @@ export default function HotelBookingPage() {
             {/* Travel Dates Section */}
             <div>
               <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-                <Calendar className="text-red-600" />
+                <Calendar className="text-yellow-600" />
                 Stay No of person
               </h2>
               <div className="grid grid-cols-1  md:grid-cols-3 gap-6">
@@ -915,13 +915,13 @@ export default function HotelBookingPage() {
 
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    No. of Adults <span className="text-red-500">*</span>
+                    No. of Adults <span className="text-yellow-500">*</span>
                   </label>
                   <input
                     type="number"
                     value={formData.adults}
                     onChange={(e) => handleInputChange("adults", parseInt(e.target.value) || 0)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                     min="2"
                     required
                   />
@@ -934,7 +934,7 @@ export default function HotelBookingPage() {
                     type="number"
                     value={formData.children}
                     onChange={(e) => handleInputChange("children", parseInt(e.target.value) || 0)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                     min="0"
                   />
                 </div>
@@ -946,7 +946,7 @@ export default function HotelBookingPage() {
                     type="number"
                     value={formData.below5Children}
                     onChange={(e) => handleInputChange("below5Children", parseInt(e.target.value) || 0)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                     min="0"
                   />
                 </div>
@@ -956,16 +956,16 @@ export default function HotelBookingPage() {
             {/* Pricing Section */}
             <div>
               <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-                <span className="text-red-600">₹</span>
+                <span className="text-yellow-600">₹</span>
                 Pricing Details
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Cost per Room (per night) <span className="text-red-500">*</span>
+                    Cost per Room (per night) <span className="text-yellow-500">*</span>
                   </label>
                   <div className="flex gap-2">
-                    <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-500">
+                    <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-500">
                       <option>INR</option>
                     </select>
                     <select
@@ -988,7 +988,7 @@ export default function HotelBookingPage() {
                           alert("Please select check-in and check-out dates first to calculate the total price.");
                         }
                       }}
-                      className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-600"
+                      className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                       required
                     >
                       <option value="">Select Cost</option>
@@ -1008,10 +1008,10 @@ export default function HotelBookingPage() {
 
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Estimated Cost <span className="text-red-500">*</span>
+                    Estimated Cost <span className="text-yellow-500">*</span>
                   </label>
                   <div className="flex gap-2">
-                    <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-500">
+                    <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-500">
                       <option>INR</option>
                     </select>
                     <input
@@ -1025,10 +1025,10 @@ export default function HotelBookingPage() {
                 </div>
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Booking Confirmation (50% of Estimated Cost) <span className="text-red-500">*</span>
+                    Booking Confirmation (50% of Estimated Cost) <span className="text-yellow-500">*</span>
                   </label>
                   <div className="flex gap-2">
-                    <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition text-gray-500">
+                    <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-500">
                       <option>INR</option>
                     </select>
                     <input
@@ -1047,7 +1047,7 @@ export default function HotelBookingPage() {
             <div>
               <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
                 <CreditCard className="text-blue-600" />
-                Payment Type <span className="text-red-500">*</span>
+                Payment Type <span className="text-yellow-500">*</span>
               </h2>
               <div className="flex gap-8">
                 <label className="flex items-center gap-3 cursor-pointer">
@@ -1085,7 +1085,7 @@ export default function HotelBookingPage() {
                 <input
                   type="checkbox"
                   required
-                  className="mt-1 w-4 h-4 text-red-600 focus:ring-red-500 rounded"
+                  className="mt-1 w-4 h-4 text-yellow-600 focus:ring-yellow-500 rounded"
                 />
                 <span className="text-sm text-gray-700 leading-relaxed">
                   I accept: Submission without successful payment is not valid. Please remember to save of acknowledgement after you hit Submit Button (&/or) payment confirmation from Bank. In case of manual submission of Booking Form via e-mail, we will send the confirmation of receipt & booking details via E-mail / WhatsApp after we acknowledge receipt of valid payment at our Bank. I also agree to accept any similar hotel rooms provided by you and be liable to pay for any extra cost as per your special instructions, extra provision required, extra person/bed (1 child under 4 yrs free & other person above 4 Yrs chargeable) to be provided (&) Service Charges/GST will be calculated & paid later on acceptance & as per final invoice/bill.
@@ -1094,7 +1094,7 @@ export default function HotelBookingPage() {
             </div>
 
             {/* Top Note */}
-            <div className="bg-red-700 text-white text-center py-2 text-sm font-semibold">
+            <div className="bg-yellow-700 text-white text-center py-2 text-sm font-semibold">
               Proceed to PAY using any mode given below. Earn Cash-Back upto Rs.10000/-
             </div>
 
@@ -1156,7 +1156,7 @@ export default function HotelBookingPage() {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 text-white px-12 py-4 rounded-xl font-bold text-lg shadow-lg transform hover:scale-105 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+                className="bg-gradient-to-r from-yellow-600 to-orange-600 hover:from-yellow-700 hover:to-orange-700 text-white px-12 py-4 rounded-xl font-bold text-lg shadow-lg transform hover:scale-105 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
               >
                 {isSubmitting ? (
                   <>

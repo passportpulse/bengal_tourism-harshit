@@ -201,7 +201,7 @@ export default function DooarsPage() {
                 <div>
                   <h3 className="text-2xl font-bold mb-2">Jungle Circuit - Jaldapara, Gorumara, Murti</h3>
                 </div>
-        <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+        <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
         Book now For 5N/6D
       </a>
               </div>
@@ -331,7 +331,7 @@ export default function DooarsPage() {
             </div>
 
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center">
+              <div className="h-48 bg-gradient-to-br from-orange-400 to-yellow-500 flex items-center justify-center">
                 <Eye className="w-16 h-16 text-white group-hover:scale-110 transition" />
               </div>
               <div className="p-6">
@@ -527,10 +527,10 @@ export default function DooarsPage() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-red-50 border-2 border-red-200 rounded-2xl p-6">
+            <div className="bg-yellow-50 border-2 border-yellow-200 rounded-2xl p-6">
               <div className="flex items-center gap-3 mb-4">
-                <AlertCircle className="w-8 h-8 text-red-600" />
-                <h3 className="text-2xl font-bold text-red-700">Forest Closure Notice</h3>
+                <AlertCircle className="w-8 h-8 text-yellow-600" />
+                <h3 className="text-2xl font-bold text-yellow-700">Forest Closure Notice</h3>
               </div>
               <p className="text-gray-700 mb-4">
                 Forest Entry / Safari is closed from <strong>15th June to 15th September</strong> annually 
@@ -602,7 +602,7 @@ function SectionTitle({ title, subtitle }: { title: string; subtitle: string }) 
     <div className="flex flex-col space-y-2">
       <div className='flex gap-5 items-center'>
       <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
-       <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+       <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
         Book now For 5N/6D
       </a>
       </div>
@@ -625,7 +625,7 @@ function AddOnSection({ title, subtitle }: { title: string; subtitle: string }) 
     <div className="flex flex-col space-y-2">
       <div className='flex gap-5 items-center'> 
       <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
-       <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+       <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
         Book now For 2N/3D
       </a>
       </div>

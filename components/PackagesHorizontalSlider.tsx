@@ -42,12 +42,12 @@ export default function PackagesHorizontalSlider() {
             <div className="max-w-7xl mx-auto px-6">
                 <div className=" mb-12">
                     <div className="flex  gap-2 mb-3 ">
-                        <span className="text-red-600 font-semibold">
+                        <span className="text-yellow-600 font-semibold">
                             Popular Packages
                         </span>
                     </div>
                     <h2 className="text-4xl font-bold text-gray-900">
-                        Find Your <span className="text-red-600">Tour Packages</span>
+                        Find Your <span className="text-yellow-600">Tour Packages</span>
                     </h2>
                 </div>
             </div>

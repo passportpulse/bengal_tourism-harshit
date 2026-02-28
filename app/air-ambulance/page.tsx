@@ -17,7 +17,7 @@ export default function AirAmbulancePage() {
             alt="Medical helicopter with emergency medical team and equipment"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-red-900/80 via-orange-800/60 to-red-900/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-yellow-900/80 via-orange-800/60 to-yellow-900/80"></div>
         </div>
 
         <div className="relative h-full flex items-center justify-center text-white px-6">
@@ -43,7 +43,7 @@ export default function AirAmbulancePage() {
               <button className="bg-yellow-500 text-black px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:bg-yellow-400 transition transform hover:scale-105">
                 Emergency Services
               </button>
-              <button className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-red-800 transition transform hover:scale-105">
+              <button className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-yellow-800 transition transform hover:scale-105">
                 Book Charter Flight
               </button>
             </div>
@@ -72,14 +72,14 @@ export default function AirAmbulancePage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Helicopter Services */}
-            <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-red-400 to-orange-500 flex items-center justify-center">
+            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
+              <div className="h-48 bg-gradient-to-br from-yellow-400 to-orange-500 flex items-center justify-center">
                 <Ship className="w-16 h-16 text-white group-hover:scale-110 transition" />
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-3">Helicopter Charter</h3>
                 <p className="text-gray-700 mb-4">Rapid medical evacuation with experienced medical teams</p>
-                <div className="bg-red-100 p-4 rounded-lg">
+                <div className="bg-yellow-100 p-4 rounded-lg">
                   <h4 className="font-bold mb-2">Emergency Response</h4>
                   <ul className="space-y-1 text-sm text-gray-700">
                     <li>• 24/7 availability</li>
@@ -89,8 +89,8 @@ export default function AirAmbulancePage() {
                   </ul>
                 </div>
                 <div className="flex items-center justify-between mt-4">
-                  <span className="text-red-600 font-semibold">Critical Care</span>
-                  <button className="bg-red-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-red-700 transition">
+                  <span className="text-yellow-600 font-semibold">Critical Care</span>
+                  <button className="bg-yellow-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-yellow-700 transition">
                     Book Now
                   </button>
                 </div>

@@ -612,7 +612,7 @@ export default function JungleSafariPage() {
             </p>
           </div>
 
-          <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8 md:p-12">
+          <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-2xl p-8 md:p-12">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">Authentic Bengali Dishes</h3>

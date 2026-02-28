@@ -55,7 +55,7 @@ export default function OffbeatHills() {
             <h1 className="text-5xl font-bold mb-4">OFFBEAT TOUR – Hills</h1>
             <p className="text-xl mb-6">Special Tailor made Combination Package, Number of Days & Cost can be designed on Request</p>
             <div className="flex gap-4 justify-center">
-              <Link href="/book-tour" className="bg-red-600 text-white px-6 py-3 rounded-lg hover:bg-red-700 transition flex items-center gap-2">
+              <Link href="/book-tour" className="bg-yellow-600 text-white px-6 py-3 rounded-lg hover:bg-yellow-700 transition flex items-center gap-2">
                 <ArrowRight className="w-5 h-5" />
                 Book Your Adventure
               </Link>
@@ -175,7 +175,7 @@ export default function OffbeatHills() {
               <h2 className="text-3xl font-bold text-indigo-700">   Offbeat Hill Locations</h2>
               <a
                 href="/book-tour"
-                className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+                className="bg-yellow-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
               >
                 Book Now for 2N/3D
               </a>
@@ -309,7 +309,7 @@ export default function OffbeatHills() {
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-lg">
-              <h3 className="text-xl font-semibold text-red-700 mb-4">✗ Excludes</h3>
+              <h3 className="text-xl font-semibold text-yellow-700 mb-4">✗ Excludes</h3>
               <ul className="space-y-2 text-gray-700">
                 <li>• AC Accommodation where available</li>
                 <li>• Price of Air Travel</li>
@@ -364,7 +364,7 @@ function Destination({ title, subtitle, content, cta }: { title: string; subtitl
         <h2 className="text-3xl font-bold text-indigo-700">{title}</h2>
         <a
           href="/book-tour"
-          className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+          className="bg-yellow-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
         >
           {cta}
         </a>

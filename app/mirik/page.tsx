@@ -210,23 +210,23 @@ export default function MirikPage() {
                 </div>
 
                 {/* Exclusions */}
-                <div className="bg-red-50 rounded-xl p-6">
-                  <h4 className="font-bold text-red-800 mb-3">What's Excluded</h4>
+                <div className="bg-yellow-50 rounded-xl p-6">
+                  <h4 className="font-bold text-yellow-800 mb-3">What's Excluded</h4>
                   <ul className="space-y-2 text-gray-700">
                     <li className="flex items-start gap-2">
-                      <span className="text-red-600 mt-1">✗</span>
+                      <span className="text-yellow-600 mt-1">✗</span>
                       <span>Airfare/Train fare</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-red-600 mt-1">✗</span>
+                      <span className="text-yellow-600 mt-1">✗</span>
                       <span>Lunch and other meals</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-red-600 mt-1">✗</span>
+                      <span className="text-yellow-600 mt-1">✗</span>
                       <span>Personal expenses</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-red-600 mt-1">✗</span>
+                      <span className="text-yellow-600 mt-1">✗</span>
                       <span>Shopping expenses</span>
                     </li>
                   </ul>

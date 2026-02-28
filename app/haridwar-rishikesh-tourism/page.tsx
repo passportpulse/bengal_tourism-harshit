@@ -281,8 +281,8 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
               <p className="text-sm text-gray-600">Cable car temple ride</p>
             </div>
 
-            <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl p-6 text-center hover:shadow-lg transition">
-              <Heart className="w-12 h-12 text-red-600 mx-auto mb-4" />
+            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-xl p-6 text-center hover:shadow-lg transition">
+              <Heart className="w-12 h-12 text-yellow-600 mx-auto mb-4" />
               <h3 className="font-bold mb-2">Meditation</h3>
               <p className="text-sm text-gray-600">Spiritual wellness centers</p>
             </div>
@@ -351,7 +351,7 @@ function Destination({ title, subtitle, content, cta }: { title: string; subtitl
         <h2 className="text-3xl font-bold text-indigo-700">{title}</h2>
         <a
           href="/book-tour"
-          className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+          className="bg-yellow-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
         >
           {cta}
         </a>

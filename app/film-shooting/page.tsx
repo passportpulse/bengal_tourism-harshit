@@ -171,7 +171,7 @@ export default function FilmShootingPage() {
             
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Film Shooting
-              <span className="block bg-gradient-to-r from-yellow-400 via-orange-400 to-red-400 bg-clip-text text-transparent relative">
+              <span className="block bg-gradient-to-r from-yellow-400 via-orange-400 to-yellow-400 bg-clip-text text-transparent relative">
                 Locations & Spots
                 <svg className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-3/4 h-4" viewBox="0 0 300 16" fill="none">
                   <path d="M10 8 Q 75 4, 150 8 T 290 8" stroke="url(#gradient)" strokeWidth="3" strokeLinecap="round" />
@@ -403,7 +403,7 @@ export default function FilmShootingPage() {
               }`}>
                 {pkg.recommended && (
                   <div className="absolute top-4 right-4">
-                    <span className="bg-gradient-to-r from-orange-600 to-red-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg">
+                    <span className="bg-gradient-to-r from-orange-600 to-yellow-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg">
                       RECOMMENDED
                     </span>
                   </div>
@@ -424,7 +424,7 @@ export default function FilmShootingPage() {
                   
                   <button className={`w-full py-3 px-6 rounded-xl font-semibold transition ${
                     pkg.recommended
-                      ? "bg-gradient-to-r from-orange-600 to-red-600 text-white hover:from-orange-700 hover:to-red-700"
+                      ? "bg-gradient-to-r from-orange-600 to-yellow-600 text-white hover:from-orange-700 hover:to-yellow-700"
                       : "bg-gray-100 text-gray-900 hover:bg-gray-200"
                   }`}>
                     Get Quote
@@ -437,7 +437,7 @@ export default function FilmShootingPage() {
       </section>
 
       {/* ================= ALL-INCLUSIVE SERVICES ================= */}
-      <section className="py-20 bg-gradient-to-br from-orange-50 to-red-50">
+      <section className="py-20 bg-gradient-to-br from-orange-50 to-yellow-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-black text-gray-900 mb-6">All-Inclusive Services</h2>
@@ -463,7 +463,7 @@ export default function FilmShootingPage() {
                 "Local Coordination"
               ].map((service, index) => (
                 <div key={index} className="flex items-center">
-                  <div className="w-12 h-12 bg-gradient-to-r from-orange-600 to-red-600 rounded-full flex items-center justify-center text-white mr-4 flex-shrink-0">
+                  <div className="w-12 h-12 bg-gradient-to-r from-orange-600 to-yellow-600 rounded-full flex items-center justify-center text-white mr-4 flex-shrink-0">
                     <Check className="w-6 h-6" />
                   </div>
                   <span className="text-gray-800 font-semibold">{service}</span>

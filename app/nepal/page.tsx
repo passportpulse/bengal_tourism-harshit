@@ -70,10 +70,10 @@ export default function NepalPage() {
 
 
             <div className='flex gap-5 items-center'>
-              <h1 className="text-4xl md:text-5xl font-bold text-red-600">
+              <h1 className="text-4xl md:text-5xl font-bold text-yellow-600">
                 Nepal Tour Itinerary
               </h1>
-              <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+              <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
                 Book now For 6N/7D
               </a>
             </div>
@@ -147,7 +147,7 @@ export default function NepalPage() {
     </div>
 
     {/* Advertisement Section */}
-    <div className="bg-gradient-to-br from-red-500 to-orange-600 text-white rounded-3xl shadow-lg p-8 text-center">
+    <div className="bg-gradient-to-br from-yellow-500 to-orange-600 text-white rounded-3xl shadow-lg p-8 text-center">
       <h3 className="text-2xl font-bold mb-4">
         🏔️ Himalayan Paradise Special
       </h3>
@@ -155,7 +155,7 @@ export default function NepalPage() {
         Get exclusive discounts on mountain tours.
         Limited seats available for peak season!
       </p>
-      <button className="mt-6 bg-white text-red-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+      <button className="mt-6 bg-white text-yellow-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
         Book Now
       </button>
     </div>
@@ -165,7 +165,7 @@ export default function NepalPage() {
 </div>
 
           {/* EXTRA COST SECTION */}
-          <div className="bg-red-50 border border-red-200 rounded-3xl p-8 shadow-md">
+          <div className="bg-yellow-50 border border-yellow-200 rounded-3xl p-8 shadow-md">
             <p className="text-gray-700 leading-8">
               *All ground transfer by AC Car. Kathmandu- Pokhara round air fare (USD$125 or equivalent in INR per person) or return ground transfer by AC Car/MUV (USD$400 or equivalent in INR for 4 PAX / vehicle) will be charged extra if availed.
             </p>
@@ -210,8 +210,8 @@ interface SectionProps {
 /* Reusable Day Card Component */
 function DayCard({ title, children }: SectionProps) {
   return (
-    <div className="bg-white shadow-lg rounded-3xl p-8 border-l-4 border-red-500">
-      <h2 className="text-2xl font-semibold text-red-600 mb-4">{title}</h2>
+    <div className="bg-white shadow-lg rounded-3xl p-8 border-l-4 border-yellow-500">
+      <h2 className="text-2xl font-semibold text-yellow-600 mb-4">{title}</h2>
       <p className="text-gray-700 leading-8 whitespace-pre-line text-lg">
         {children}
       </p>

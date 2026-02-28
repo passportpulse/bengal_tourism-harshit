@@ -169,7 +169,7 @@ export default function HotelBookingPage() {
               <h3 className="text-3xl font-bold text-gray-900">
                 Hotels in Darjeeling
               </h3>
-              <Link href="/book-hotel" className="bg-gradient-to-r rounded-full from-red-600 to-red-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
+              <Link href="/book-hotel" className="bg-gradient-to-r rounded-full from-yellow-600 to-yellow-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
                 Book Now
               </Link>
             </div>
@@ -188,7 +188,7 @@ export default function HotelBookingPage() {
               <h3 className="text-3xl font-bold text-gray-900">
                 Dooars Resorts – Jungle Retreats & Wildlife Stays
               </h3>
-              <Link href="/book-hotel" className="bg-gradient-to-r rounded-full from-red-600 to-red-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
+              <Link href="/book-hotel" className="bg-gradient-to-r rounded-full from-yellow-600 to-yellow-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
                 Book Now
               </Link>
             </div>
@@ -210,7 +210,7 @@ export default function HotelBookingPage() {
               <h3 className="text-3xl font-bold text-gray-900">
                 Sundarban Eco Resorts – Mangrove & Wildlife Tourism
               </h3>
-              <Link href="/book-hotel" className="bg-gradient-to-r rounded-full from-red-600 to-red-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
+              <Link href="/book-hotel" className="bg-gradient-to-r rounded-full from-yellow-600 to-yellow-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
                 Book Now
               </Link>
             </div>
@@ -230,7 +230,7 @@ export default function HotelBookingPage() {
               <h3 className="text-3xl font-bold text-gray-900">
                 Hotel names at Puri
               </h3>
-              <Link href="/book-hotel" className="bg-gradient-to-r rounded-full from-red-600 to-red-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
+              <Link href="/book-hotel" className="bg-gradient-to-r rounded-full from-yellow-600 to-yellow-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
                 Book Now
               </Link>
             </div>
@@ -258,7 +258,7 @@ export default function HotelBookingPage() {
               <h3 className="text-3xl font-bold text-gray-900">
                 Coastal Hotels – Digha, Mandarmoni, Puri & Bakkhali
               </h3>
-              <Link href="/book-hotel" className="bg-gradient-to-r rounded-full from-red-600 to-red-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
+              <Link href="/book-hotel" className="bg-gradient-to-r rounded-full from-yellow-600 to-yellow-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
                 Book Now
               </Link>
             </div>
@@ -279,7 +279,7 @@ export default function HotelBookingPage() {
               <h3 className="text-3xl font-bold text-gray-900">
                 Sikkim Hotels – Gangtok, Pelling, Lachung & Lachen
               </h3>
-              <Link href="/book-hotel" className="bg-gradient-to-r rounded-full from-red-600 to-red-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
+              <Link href="/book-hotel" className="bg-gradient-to-r rounded-full from-yellow-600 to-yellow-600 text-white px-6 py-3  hover:from-blue-700 hover:to-cyan-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
                 Book Now
               </Link>
             </div>
@@ -323,7 +323,7 @@ export default function HotelBookingPage() {
 
 
       {/* ================= EXTRA PERSON CHARGES ================= */}
-      {/* <section className="py-20 bg-gradient-to-br from-orange-50 to-red-50">
+      {/* <section className="py-20 bg-gradient-to-br from-orange-50 to-yellow-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Extra Person Charges</h2>

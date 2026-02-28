@@ -348,8 +348,8 @@ export default function DehradunNainitalTourismPage() {
               <p className="text-sm text-gray-600">Natural cave formation</p>
             </div>
 
-            <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl p-6 text-center hover:shadow-lg transition">
-              <Building className="w-12 h-12 text-red-600 mx-auto mb-4" />
+            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-xl p-6 text-center hover:shadow-lg transition">
+              <Building className="w-12 h-12 text-yellow-600 mx-auto mb-4" />
               <h3 className="font-bold mb-2">FRI Campus</h3>
               <p className="text-sm text-gray-600">Colonial architecture</p>
             </div>

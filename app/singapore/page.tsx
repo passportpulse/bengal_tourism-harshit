@@ -69,10 +69,10 @@ export default function SingaporePage() {
 
 
         <div className='flex gap-5 items-center'>
-          <h1 className="text-4xl md:text-5xl font-bold text-red-600">
+          <h1 className="text-4xl md:text-5xl font-bold text-yellow-600">
             Singapore Tour Itinerary
           </h1>
-              <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+              <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
             Book now For 3N/4D
           </a>
         </div>
@@ -86,8 +86,8 @@ export default function SingaporePage() {
         <div className="grid md:grid-cols-1 gap-10 items-stretch">
 
           {/* DAY 1 */}
-          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-red-500 h-full flex flex-col ">
-            <h2 className="text-2xl font-semibold text-red-600 mb-4">
+          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-yellow-500 h-full flex flex-col ">
+            <h2 className="text-2xl font-semibold text-yellow-600 mb-4">
               Day – 1 : Arrival & City Tour
             </h2>
             <div className="text-gray-700 leading-8 flex-grow">
@@ -133,7 +133,7 @@ export default function SingaporePage() {
         </div>
 
         {/* EXTENSION BOX */}
-        <div className="bg-red-50 border border-red-200 rounded-3xl p-8 text-center shadow-lg">
+        <div className="bg-yellow-50 border border-yellow-200 rounded-3xl p-8 text-center shadow-lg">
           <p className="text-gray-700 leading-8">
             (You may extend your tour for 3-4 more days covering Malaysia / Bali / Indonesia at a minimum cost / free*)
           </p>

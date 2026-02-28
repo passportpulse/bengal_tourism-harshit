@@ -38,7 +38,7 @@ const growthStages = [
     fee: "",
     requirement: "Team grows to 81 members",
     benefit: "Each stage x 3 Team grows",
-    color: "bg-red-500"
+    color: "bg-yellow-500"
   },
   {
     stage: "Stage-5",
@@ -90,7 +90,7 @@ export default function DPPage() {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-red-900/40"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-yellow-900/40"></div>
         </div>
         
         <div className="relative z-10 h-full flex items-center justify-center px-6">
@@ -102,7 +102,7 @@ export default function DPPage() {
             
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Membership
-              <span className="block bg-gradient-to-r from-red-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
+              <span className="block bg-gradient-to-r from-yellow-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
                 Growth Plan
                 <svg className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-3/4 h-4" viewBox="0 0 300 16" fill="none">
                   <path d="M10 8 Q 75 4, 150 8 T 290 8" stroke="url(#gradient)" strokeWidth="3" strokeLinecap="round" />
@@ -172,7 +172,7 @@ export default function DPPage() {
                   <div className="flex-1">
                     <h3 className="text-xl font-bold text-gray-900 mb-2">{stage.stage}</h3>
                     {stage.fee && (
-                      <p className="text-lg font-semibold text-red-600 mb-1">{stage.fee}</p>
+                      <p className="text-lg font-semibold text-yellow-600 mb-1">{stage.fee}</p>
                     )}
                     <p className="text-gray-700 mb-1">{stage.requirement}</p>
                     <p className="text-green-600 font-medium">{stage.benefit}</p>
@@ -247,7 +247,7 @@ export default function DPPage() {
         <div className="max-w-md mx-auto px-4">
           <div className="bg-white rounded-2xl shadow-2xl p-8">
             <div className="text-center mb-8">
-              <div className="w-16 h-16 bg-gradient-to-r from-red-600 to-orange-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-gradient-to-r from-yellow-600 to-orange-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
                 <User className="w-8 h-8 text-white" />
               </div>
               <h2 className="text-2xl font-black text-gray-900 mb-2">Member Login</h2>
@@ -265,7 +265,7 @@ export default function DPPage() {
                     type="text"
                     value={loginData.username}
                     onChange={(e) => handleLoginChange("username", e.target.value)}
-                    className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
+                    className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent"
                     placeholder="Enter your username"
                     required
                   />
@@ -282,7 +282,7 @@ export default function DPPage() {
                     type="password"
                     value={loginData.password}
                     onChange={(e) => handleLoginChange("password", e.target.value)}
-                    className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
+                    className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent"
                     placeholder="Enter your password"
                     required
                   />
@@ -294,14 +294,14 @@ export default function DPPage() {
                   <input type="checkbox" className="mr-2" />
                   <span className="text-sm text-gray-600">Remember me</span>
                 </label>
-                <a href="#" className="text-sm text-red-600 hover:text-red-700">
+                <a href="#" className="text-sm text-yellow-600 hover:text-yellow-700">
                   Forgot password?
                 </a>
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 text-white font-bold py-3 rounded-lg transition"
+                className="w-full bg-gradient-to-r from-yellow-600 to-orange-600 hover:from-yellow-700 hover:to-orange-700 text-white font-bold py-3 rounded-lg transition"
               >
                 Login
               </button>
@@ -309,7 +309,7 @@ export default function DPPage() {
               <div className="text-center">
                 <p className="text-sm text-gray-600">
                   Not a member?{" "}
-                  <a href="/membership" className="text-red-600 hover:text-red-700 font-semibold">
+                  <a href="/membership" className="text-yellow-600 hover:text-yellow-700 font-semibold">
                     Join Now
                   </a>
                 </p>
@@ -327,7 +327,7 @@ export default function DPPage() {
             Join Bengal Tourism today and start building your team for unlimited earning potential
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/membership" className="px-8 py-3 bg-gradient-to-r from-red-600 to-orange-600 text-white font-bold rounded-xl hover:from-red-700 hover:to-orange-700 transition">
+            <a href="/membership" className="px-8 py-3 bg-gradient-to-r from-yellow-600 to-orange-600 text-white font-bold rounded-xl hover:from-yellow-700 hover:to-orange-700 transition">
               Register Now
             </a>
             <a href="/career" className="px-8 py-3 bg-white text-gray-900 font-bold rounded-xl hover:bg-gray-100 transition">

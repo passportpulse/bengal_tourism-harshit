@@ -65,7 +65,7 @@ const contactMethods = [
     value: "+91 62897 83779",
     action: "tel:+916289783779",
     button: "Call Now",
-    color: "text-red-600"
+    color: "text-yellow-600"
   },
   {
     icon: Phone,
@@ -177,7 +177,7 @@ export default function ContactPage() {
 
   if (showSuccess) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-red-50 to-orange-50 flex items-center justify-center px-4">
+      <div className="min-h-screen bg-gradient-to-br from-yellow-50 to-orange-50 flex items-center justify-center px-4">
         <div className="max-w-2xl mx-auto text-center">
           <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-8">
             <Send className="w-10 h-10 text-green-600" />
@@ -188,7 +188,7 @@ export default function ContactPage() {
           </p>
           <button 
             onClick={() => setShowSuccess(false)}
-            className="px-8 py-3 bg-gradient-to-r from-red-600 to-orange-600 text-white font-bold rounded-xl hover:from-red-700 hover:to-orange-700 transition"
+            className="px-8 py-3 bg-gradient-to-r from-yellow-600 to-orange-600 text-white font-bold rounded-xl hover:from-yellow-700 hover:to-orange-700 transition"
           >
             Send Another Message
           </button>
@@ -209,7 +209,7 @@ export default function ContactPage() {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-red-900/40"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-yellow-900/40"></div>
         </div>
         
         <div className="relative z-10 h-full flex items-center justify-center px-6">
@@ -221,7 +221,7 @@ export default function ContactPage() {
             
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Contact
-              <span className="block bg-gradient-to-r from-red-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
+              <span className="block bg-gradient-to-r from-yellow-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
                 Bengal Tourism
                 <svg className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-3/4 h-4" viewBox="0 0 300 16" fill="none">
                   <path d="M10 8 Q 75 4, 150 8 T 290 8" stroke="url(#gradient)" strokeWidth="3" strokeLinecap="round" />
@@ -289,7 +289,7 @@ export default function ContactPage() {
                     window.location.href = item.action;
                   }
                 }}
-                className="px-4 py-2 text-sm font-semibold rounded-lg bg-gradient-to-r from-red-600 to-orange-600 text-white hover:from-red-700 hover:to-orange-700 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl hover:shadow-red-500/25"
+                className="px-4 py-2 text-sm font-semibold rounded-lg bg-gradient-to-r from-yellow-600 to-orange-600 text-white hover:from-yellow-700 hover:to-orange-700 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl hover:shadow-yellow-500/25"
               >
                 {item.button}
               </a>
@@ -313,7 +313,7 @@ export default function ContactPage() {
               placeholder="Your Name"
               value={formData.name}
               onChange={(e) => handleInputChange("name", e.target.value)}
-              className="w-full pl-12 py-4 border rounded-lg text-gray-800 focus:ring-2 focus:ring-red-500 outline-none"
+              className="w-full pl-12 py-4 border rounded-lg text-gray-800 focus:ring-2 focus:ring-yellow-500 outline-none"
               required
             />
           </div>
@@ -325,7 +325,7 @@ export default function ContactPage() {
               placeholder="Email Address"
               value={formData.email}
               onChange={(e) => handleInputChange("email", e.target.value)}
-              className="w-full pl-12 py-4 border rounded-lg text-gray-800 focus:ring-2 focus:ring-red-500 outline-none"
+              className="w-full pl-12 py-4 border rounded-lg text-gray-800 focus:ring-2 focus:ring-yellow-500 outline-none"
               required
             />
           </div>
@@ -337,7 +337,7 @@ export default function ContactPage() {
               placeholder="Phone Number"
               value={formData.phone}
               onChange={(e) => handleInputChange("phone", e.target.value)}
-              className="w-full pl-12 py-4 border rounded-lg text-gray-800 focus:ring-2 focus:ring-red-500 outline-none"
+              className="w-full pl-12 py-4 border rounded-lg text-gray-800 focus:ring-2 focus:ring-yellow-500 outline-none"
               required
             />
           </div>
@@ -347,14 +347,14 @@ export default function ContactPage() {
             placeholder="Write your message..."
             value={formData.message}
             onChange={(e) => handleInputChange("message", e.target.value)}
-            className="w-full p-4 border rounded-lg text-gray-800 focus:ring-2 focus:ring-red-500 outline-none"
+            className="w-full p-4 border rounded-lg text-gray-800 focus:ring-2 focus:ring-yellow-500 outline-none"
             required
           />
 
           <button 
             type="submit"
             disabled={isSubmitting}
-            className="w-full py-4 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+            className="w-full py-4 bg-yellow-600 text-white font-bold rounded-lg hover:bg-yellow-700 transition flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {isSubmitting ? (
               <>
@@ -433,7 +433,7 @@ export default function ContactPage() {
               
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
-                  <MapPin className="w-5 h-5 text-red-600 mt-1 flex-shrink-0" />
+                  <MapPin className="w-5 h-5 text-yellow-600 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-bold text-gray-900 mb-1">Office Address</h4>
                     <p className="text-gray-700">AG-209, Flat No. 402</p>
@@ -443,7 +443,7 @@ export default function ContactPage() {
                 </div>
                 
                 <div className="flex items-start gap-3">
-                  <Phone className="w-5 h-5 text-red-600 mt-1 flex-shrink-0" />
+                  <Phone className="w-5 h-5 text-yellow-600 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-bold text-gray-900 mb-1">Contact Numbers</h4>
                     <p className="text-gray-700">Tour Booking: 6289783779</p>
@@ -452,7 +452,7 @@ export default function ContactPage() {
                 </div>
                 
                 <div className="flex items-start gap-3">
-                  <Mail className="w-5 h-5 text-red-600 mt-1 flex-shrink-0" />
+                  <Mail className="w-5 h-5 text-yellow-600 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-bold text-gray-900 mb-1">Email</h4>
                     <p className="text-gray-700">General: bengaltourism@gmail.com</p>

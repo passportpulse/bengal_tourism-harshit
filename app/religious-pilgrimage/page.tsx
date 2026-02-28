@@ -296,7 +296,7 @@ export default function ReligiousPilgrimagePage() {
             
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Religious &
-              <span className="block bg-gradient-to-r from-orange-400 via-red-400 to-pink-400 bg-clip-text text-transparent relative">
+              <span className="block bg-gradient-to-r from-orange-400 via-yellow-400 to-pink-400 bg-clip-text text-transparent relative">
                 Pilgrimage Tours
                 <svg className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-3/4 h-4" viewBox="0 0 300 16" fill="none">
                   <path d="M10 8 Q 75 4, 150 8 T 290 8" stroke="url(#gradient)" strokeWidth="3" strokeLinecap="round" />
@@ -354,7 +354,7 @@ export default function ReligiousPilgrimagePage() {
                 onClick={() => setActiveTab("shakti")}
                 className={`px-6 py-2 rounded-full font-semibold transition ${
                   activeTab === "shakti" 
-                    ? "bg-gradient-to-r from-orange-600 to-red-600 text-white" 
+                    ? "bg-gradient-to-r from-orange-600 to-yellow-600 text-white" 
                     : "text-gray-600 hover:text-gray-900"
                 }`}
               >
@@ -364,7 +364,7 @@ export default function ReligiousPilgrimagePage() {
                 onClick={() => setActiveTab("religious")}
                 className={`px-6 py-2 rounded-full font-semibold transition ${
                   activeTab === "religious" 
-                    ? "bg-gradient-to-r from-orange-600 to-red-600 text-white" 
+                    ? "bg-gradient-to-r from-orange-600 to-yellow-600 text-white" 
                     : "text-gray-600 hover:text-gray-900"
                 }`}
               >
@@ -374,7 +374,7 @@ export default function ReligiousPilgrimagePage() {
                 onClick={() => setActiveTab("info")}
                 className={`px-6 py-2 rounded-full font-semibold transition ${
                   activeTab === "info" 
-                    ? "bg-gradient-to-r from-orange-600 to-red-600 text-white" 
+                    ? "bg-gradient-to-r from-orange-600 to-yellow-600 text-white" 
                     : "text-gray-600 hover:text-gray-900"
                 }`}
               >
@@ -387,7 +387,7 @@ export default function ReligiousPilgrimagePage() {
 
       {/* ================= SHAKTI PEETHS ================= */}
       {activeTab === "shakti" && (
-        <section className="py-20 bg-gradient-to-br from-orange-50 to-red-50">
+        <section className="py-20 bg-gradient-to-br from-orange-50 to-yellow-50">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-black text-gray-900 mb-6">Religious Tours in West Bengal</h2>
@@ -418,7 +418,7 @@ export default function ReligiousPilgrimagePage() {
                   </div>
                   
                   <div className="p-6">
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">{peeth.name}   <span className="bg-red-600 text-white px-3 py-1 rounded-full text-sm font-bold">
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">{peeth.name}   <span className="bg-yellow-600 text-white px-3 py-1 rounded-full text-sm font-bold">
                         {peeth.bodyPart}
                       </span></h3>
                     <p className="text-gray-600 mb-4">{peeth.description}</p>
@@ -428,7 +428,7 @@ export default function ReligiousPilgrimagePage() {
                     </div>
                     <button 
                       onClick={() => router.push('/book-tour')}
-                      className="px-4 text-red-500 border border-red-500 py-3 rounded-lg font-semibold  transition mt-4"
+                      className="px-4 text-yellow-500 border border-yellow-500 py-3 rounded-lg font-semibold  transition mt-4"
                     >
                       Book Now for 2N/3D
                     </button>
@@ -453,9 +453,9 @@ export default function ReligiousPilgrimagePage() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {otherReligiousDestinations.map((destination, index) => (
-                <div key={index} className="bg-gradient-to-br from-orange-50 to-red-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all">
+                <div key={index} className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all">
                   <div className="flex items-center mb-4">
-                    <div className="w-12 h-12 bg-gradient-to-r from-orange-600 to-red-600 rounded-full flex items-center justify-center text-white mr-4">
+                    <div className="w-12 h-12 bg-gradient-to-r from-orange-600 to-yellow-600 rounded-full flex items-center justify-center text-white mr-4">
                       <Building className="w-6 h-6" />
                     </div>
                     <div>
@@ -468,7 +468,7 @@ export default function ReligiousPilgrimagePage() {
                     <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">
                       {destination.type}
                     </span>
-                    <span className="text-red-600 text-sm font-semibold">
+                    <span className="text-yellow-600 text-sm font-semibold">
                       {destination.significance}
                     </span>
                   </div>
@@ -481,7 +481,7 @@ export default function ReligiousPilgrimagePage() {
 
       {/* ================= PILGRIMAGE INFO ================= */}
       {activeTab === "info" && (
-        <section className="py-20 bg-gradient-to-br from-red-50 to-orange-50">
+        <section className="py-20 bg-gradient-to-br from-yellow-50 to-orange-50">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-black text-gray-900 mb-6">Pilgrimage Information</h2>
@@ -497,7 +497,7 @@ export default function ReligiousPilgrimagePage() {
                   {pilgrimageFeatures.map((feature, index) => (
                     <div key={index} className="bg-white rounded-xl p-6 shadow-lg">
                       <div className="flex items-center mb-4">
-                        <div className="w-12 h-12 bg-gradient-to-r from-orange-600 to-red-600 rounded-full flex items-center justify-center text-white mr-4">
+                        <div className="w-12 h-12 bg-gradient-to-r from-orange-600 to-yellow-600 rounded-full flex items-center justify-center text-white mr-4">
                           <feature.icon className="w-6 h-6" />
                         </div>
                         <h4 className="text-lg font-bold text-gray-900">{feature.title}</h4>
@@ -534,11 +534,11 @@ export default function ReligiousPilgrimagePage() {
             </p>
           </div>
 
-          <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8 md:p-12">
+          <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-2xl p-8 md:p-12">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {includedServices.map((service, index) => (
                 <div key={index} className="flex items-center">
-                  <div className="w-12 h-12 bg-gradient-to-r from-orange-600 to-red-600 rounded-full flex items-center justify-center text-white mr-4 flex-shrink-0">
+                  <div className="w-12 h-12 bg-gradient-to-r from-orange-600 to-yellow-600 rounded-full flex items-center justify-center text-white mr-4 flex-shrink-0">
                     <Check className="w-6 h-6" />
                   </div>
                   <span className="text-gray-800 font-semibold">{service}</span>

@@ -630,7 +630,7 @@ export default function TariffPage() {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-red-900/40"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-yellow-900/40"></div>
         </div>
         
         <div className="relative z-10 h-full flex items-center justify-center px-6">
@@ -642,7 +642,7 @@ export default function TariffPage() {
             
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Bengal Tourism's
-              <span className="block bg-gradient-to-r from-red-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
+              <span className="block bg-gradient-to-r from-yellow-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
                 Tariff
                 <svg className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-3/4 h-4" viewBox="0 0 300 16" fill="none">
                   <path d="M10 8 Q 75 4, 150 8 T 290 8" stroke="url(#gradient)" strokeWidth="3" strokeLinecap="round" />
@@ -670,7 +670,7 @@ export default function TariffPage() {
 
         {/* Header */}
         <div className="mb-8 text-center">
-          <h1 className="text-3xl font-bold text-red-600">
+          <h1 className="text-3xl font-bold text-yellow-600">
             Bengal Tourism’s Tariff
           </h1>
           <p className="text-gray-600 mt-2">
@@ -749,8 +749,8 @@ export default function TariffPage() {
           </h2>
 
           <div className="space-y-6 text-gray-700 text-sm leading-relaxed">
-            <div className="bg-red-50 border-l-4 border-red-500 p-4 rounded">
-              <h3 className="font-bold text-red-700 mb-2">ALL INCLUSIVE PRICE:</h3>
+            <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4 rounded">
+              <h3 className="font-bold text-yellow-700 mb-2">ALL INCLUSIVE PRICE:</h3>
               <p className="mb-3">
                 All transfer in Deluxe Car/Bus/Coach/Train Seats/Berth as booked. Accommodation in 2* Dlx Hotels/Resort with Spacious Deluxe Rooms with Satellite TV, essential Toiletries, attached Bath (hot/cold running water) on Double/Triple sharing basis with children. All meals in MAP plan includes Bed Tea, Breakfast, Lunch/Dinner (All meals in Home Stays) Evening Tea/Coffee with bottled Drinking water, Tea/Coffee Maker (where available) in Rooms as inclusive & Complementary Welcome Drinks with all Local sightseeing as per Itinerary in (SIC).
               </p>
@@ -840,15 +840,15 @@ export default function TariffPage() {
               </p>
             </div>
 
-            <div className="bg-red-50 border-l-4 border-red-500 p-4 rounded">
-              <h3 className="font-bold text-red-700 mb-2">EXCLUDES:</h3>
+            <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4 rounded">
+              <h3 className="font-bold text-yellow-700 mb-2">EXCLUDES:</h3>
               <p className="mb-3">
                 Air travel (actual), 4-5 Star Premium Hotels/Resorts/Haveli/Tea Estates boarding & facilities as per itinerary. Charges for Safari/Entry Fees/Cruises/Shows/Exclusive non-sharing Vehicle (surface transfer)/Recreational activities not included in Itinerary. Extra Beverages/Drinks, Porter charges, Non-Sharing Vehicle, Entry fees, Recreational rides, Tips, Laundry, Phone bills, Room heaters & anything not specifically mentioned & taxes.
               </p>
             </div>
 
-            <div className="bg-slate-100 border-4 border-red-600 p-6 rounded-lg mt-6">
-              <p className="font-bold text-red-600 text-center text-lg">
+            <div className="bg-slate-100 border-4 border-yellow-600 p-6 rounded-lg mt-6">
+              <p className="font-bold text-yellow-600 text-center text-lg">
                 ⚠️ Please read all Terms & Conditions carefully before booking. *
               </p>
             </div>

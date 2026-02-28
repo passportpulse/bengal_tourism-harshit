@@ -7,7 +7,7 @@ export default function NotFound() {
       <div className="max-w-2xl mx-auto text-center">
         {/* 404 Animation */}
         <div className="mb-8">
-          <div className="text-9xl font-bold bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent animate-pulse">
+          <div className="text-9xl font-bold bg-gradient-to-r from-yellow-600 to-orange-600 bg-clip-text text-transparent animate-pulse">
             404
           </div>
         </div>
@@ -26,7 +26,7 @@ export default function NotFound() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-red-600 to-orange-600 text-white font-semibold rounded-lg hover:from-red-700 hover:to-orange-700 transition-all duration-200 shadow-lg"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-yellow-600 to-orange-600 text-white font-semibold rounded-lg hover:from-yellow-700 hover:to-orange-700 transition-all duration-200 shadow-lg"
           >
             <Home className="w-5 h-5" />
             Back to Home
@@ -34,7 +34,7 @@ export default function NotFound() {
           
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 px-6 py-3 border-2 border-red-600 text-red-600 font-semibold rounded-lg hover:bg-red-600 hover:text-white transition-all duration-200"
+            className="inline-flex items-center gap-2 px-6 py-3 border-2 border-yellow-600 text-yellow-600 font-semibold rounded-lg hover:bg-yellow-600 hover:text-white transition-all duration-200"
           >
             <Search className="w-5 h-5" />
             Contact Support
@@ -58,7 +58,7 @@ export default function NotFound() {
               <Link
                 key={index}
                 href={destination.href}
-                className="text-red-600 hover:text-red-700 font-medium text-sm hover:underline transition-colors"
+                className="text-yellow-600 hover:text-yellow-700 font-medium text-sm hover:underline transition-colors"
               >
                 {destination.name}
               </Link>
@@ -72,13 +72,13 @@ export default function NotFound() {
             Still can't find what you're looking for?
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center text-sm">
-            <Link href="/book-tour" className="text-red-600 hover:text-red-700 font-medium">
+            <Link href="/book-tour" className="text-yellow-600 hover:text-yellow-700 font-medium">
               → Book a Tour
             </Link>
-            <Link href="/book-hotel" className="text-red-600 hover:text-red-700 font-medium">
+            <Link href="/book-hotel" className="text-yellow-600 hover:text-yellow-700 font-medium">
               → Book a Hotel
             </Link>
-            <Link href="/package-cost" className="text-red-600 hover:text-red-700 font-medium">
+            <Link href="/package-cost" className="text-yellow-600 hover:text-yellow-700 font-medium">
               → View Packages
             </Link>
           </div>

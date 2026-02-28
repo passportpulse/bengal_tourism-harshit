@@ -84,7 +84,7 @@ export default function DubaiPage() {
             <div className='flex gap-5 items-center'>
               <h2 className="text-3xl font-bold text-gray-800">DUBAI</h2>
 
-              <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+              <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
                 Book now For 6N/7D
               </a>
             </div>
@@ -305,7 +305,7 @@ export default function DubaiPage() {
                 </div>
 
                 {/* Advertisement Section */}
-                <div className="bg-gradient-to-br from-orange-500 to-red-600 text-white rounded-3xl shadow-lg p-8 text-center">
+                <div className="bg-gradient-to-br from-orange-500 to-yellow-600 text-white rounded-3xl shadow-lg p-8 text-center">
                   <h3 className="text-2xl font-bold mb-4">
                     🌅 Desert Adventure Special
                   </h3>
@@ -438,7 +438,7 @@ function AddOnSection({ title, subtitle, children }: { title: string; subtitle: 
 
       <div className='flex gap-5 items-center'>
         <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
-        <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+        <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
           Book now For 2N/3D
         </a>
 

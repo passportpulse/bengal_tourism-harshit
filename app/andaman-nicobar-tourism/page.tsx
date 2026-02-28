@@ -385,7 +385,7 @@ function Destination({ title, subtitle, content, cta }: { title: string; subtitl
         <h2 className="text-3xl font-bold text-indigo-700">{title}</h2>
         <a
           href="/book-tour"
-          className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+          className="bg-yellow-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
         >
           {cta}
         </a>

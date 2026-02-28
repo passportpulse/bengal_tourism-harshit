@@ -49,7 +49,7 @@ const TourPackage: React.FC<TourPackageProps> = ({
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-red-900/40"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-yellow-900/40"></div>
         </div>
         
         <div className="relative z-10 h-full flex items-center justify-center px-6">
@@ -61,7 +61,7 @@ const TourPackage: React.FC<TourPackageProps> = ({
             
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               {title}
-              <span className="block bg-gradient-to-r from-red-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
+              <span className="block bg-gradient-to-r from-yellow-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
                 {subtitle}
                 <svg className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-3/4 h-4" viewBox="0 0 300 16" fill="none">
                   <path d="M10 8 Q 75 4, 150 8 T 290 8" stroke="url(#gradient)" strokeWidth="3" strokeLinecap="round" />
@@ -119,7 +119,7 @@ const TourPackage: React.FC<TourPackageProps> = ({
                 onClick={() => setActiveTab("overview")}
                 className={`px-6 py-2 rounded-full font-semibold transition ${
                   activeTab === "overview" 
-                    ? "bg-gradient-to-r from-red-600 to-orange-600 text-white" 
+                    ? "bg-gradient-to-r from-yellow-600 to-orange-600 text-white" 
                     : "text-gray-600 hover:text-gray-900"
                 }`}
               >
@@ -129,7 +129,7 @@ const TourPackage: React.FC<TourPackageProps> = ({
                 onClick={() => setActiveTab("itinerary")}
                 className={`px-6 py-2 rounded-full font-semibold transition ${
                   activeTab === "itinerary" 
-                    ? "bg-gradient-to-r from-red-600 to-orange-600 text-white" 
+                    ? "bg-gradient-to-r from-yellow-600 to-orange-600 text-white" 
                     : "text-gray-600 hover:text-gray-900"
                 }`}
               >
@@ -139,7 +139,7 @@ const TourPackage: React.FC<TourPackageProps> = ({
                 onClick={() => setActiveTab("inclusions")}
                 className={`px-6 py-2 rounded-full font-semibold transition ${
                   activeTab === "inclusions" 
-                    ? "bg-gradient-to-r from-red-600 to-orange-600 text-white" 
+                    ? "bg-gradient-to-r from-yellow-600 to-orange-600 text-white" 
                     : "text-gray-600 hover:text-gray-900"
                 }`}
               >
@@ -179,7 +179,7 @@ const TourPackage: React.FC<TourPackageProps> = ({
                   <ul className="space-y-3">
                     {day.activities.map((activity, idx) => (
                       <li key={idx} className="flex items-start">
-                        <span className="text-red-600 mr-3">•</span>
+                        <span className="text-yellow-600 mr-3">•</span>
                         <span className="text-gray-700">{activity}</span>
                       </li>
                     ))}
@@ -206,11 +206,11 @@ const TourPackage: React.FC<TourPackageProps> = ({
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900 mb-6">What's Excluded</h2>
-                <div className="bg-red-50 rounded-xl p-6">
+                <div className="bg-yellow-50 rounded-xl p-6">
                   <ul className="space-y-3">
                     {exclusions.map((item, index) => (
                       <li key={index} className="flex items-start">
-                        <span className="text-red-600 mr-3">•</span>
+                        <span className="text-yellow-600 mr-3">•</span>
                         <span className="text-gray-700">{item}</span>
                       </li>
                     ))}
@@ -223,17 +223,17 @@ const TourPackage: React.FC<TourPackageProps> = ({
       </section>
 
       {/* ================= CTA ================= */}
-      <section className="py-20 bg-gradient-to-br from-red-600 to-orange-600">
+      <section className="py-20 bg-gradient-to-br from-yellow-600 to-orange-600">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-black text-white mb-6">Ready to Book Your Adventure?</h2>
           <p className="text-xl text-white/90 max-w-3xl mx-auto mb-12">
             Experience the best of {title} with our expert guides
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/book-tour" className="px-8 py-3 bg-white text-red-600 font-bold rounded-xl hover:bg-gray-100 transition">
+            <a href="/book-tour" className="px-8 py-3 bg-white text-yellow-600 font-bold rounded-xl hover:bg-gray-100 transition">
               Book Now
             </a>
-            <a href="/contact" className="px-8 py-3 bg-white text-red-600 font-bold rounded-xl hover:bg-gray-100 transition">
+            <a href="/contact" className="px-8 py-3 bg-white text-yellow-600 font-bold rounded-xl hover:bg-gray-100 transition">
               Get Quote
             </a>
           </div>

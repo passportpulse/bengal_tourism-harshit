@@ -28,12 +28,12 @@ export default function LoginPage() {
         <div className="max-w-7xl w-full  overflow-hidden">
           <div className=" mb-12">
             <div className="flex  gap-2 mb-3 ">
-              <span className="text-red-600 font-semibold">
+              <span className="text-yellow-600 font-semibold">
                 Membership
               </span>
             </div>
             <h2 className="text-4xl font-bold text-gray-900">
-              Sign In for <span className="text-red-600"> Membership</span>
+              Sign In for <span className="text-yellow-600"> Membership</span>
             </h2>
             <p className="text-gray-600">Enter your credentials to access your account</p>
 

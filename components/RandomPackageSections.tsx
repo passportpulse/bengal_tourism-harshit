@@ -151,7 +151,7 @@ function PackageCard({ pkg, isPopular = false }: PackageCardProps) {
       
       {/* Popular Badge */}
       {isPopular && (
-        <div className="absolute top-4 right-4 z-10 bg-gradient-to-r from-red-500 to-orange-500 text-white px-3 py-1 rounded-full text-xs font-bold">
+        <div className="absolute top-4 right-4 z-10 bg-gradient-to-r from-yellow-500 to-orange-500 text-white px-3 py-1 rounded-full text-xs font-bold">
           POPULAR
         </div>
       )}
@@ -178,13 +178,13 @@ function PackageCard({ pkg, isPopular = false }: PackageCardProps) {
         {/* Title + Price */}
         <div className="flex justify-between gap-4 mb-3">
           <div>
-            <h3 className="text-xl font-bold text-gray-900 group-hover:text-red-600">
+            <h3 className="text-xl font-bold text-gray-900 group-hover:text-yellow-600">
               {pkg.title}
             </h3>
             <p className="text-sm text-gray-600">{pkg.subtitle}</p>
           </div>
           {/* <div className="text-right">
-            <p className="text-xl font-bold text-red-600">{pkg.price}</p>
+            <p className="text-xl font-bold text-yellow-600">{pkg.price}</p>
             <p className="text-xs text-gray-500">per person</p>
           </div> */}
         </div>
@@ -211,7 +211,7 @@ function PackageCard({ pkg, isPopular = false }: PackageCardProps) {
         <div className="mt-auto flex gap-2">
           {/* <Link
             href="/book-tour"
-            className="flex-1 flex items-center justify-center gap-2 bg-red-600 text-white py-2 rounded-lg hover:bg-red-700 text-sm font-medium"
+            className="flex-1 flex items-center justify-center gap-2 bg-yellow-600 text-white py-2 rounded-lg hover:bg-yellow-700 text-sm font-medium"
           >
             Book Now
             <ArrowRight className="w-4 h-4" />
@@ -219,7 +219,7 @@ function PackageCard({ pkg, isPopular = false }: PackageCardProps) {
 
           <Link
             href={pkg.route}
-            className="px-4 py-2 flex items-center justify-center border-2 border-red-600 text-red-600 rounded-lg hover:bg-red-50"
+            className="px-4 py-2 flex items-center justify-center border-2 border-yellow-600 text-yellow-600 rounded-lg hover:bg-yellow-50"
           >
             View Details
           </Link>
@@ -247,8 +247,8 @@ export default function RandomPackageSections() {
       title: "Bengal Beckons",
       subtitle: "Explore the beauty of West Bengal",
       icon: Mountain,
-      iconColor: "text-red-500",
-      bgColor: "from-red-500 to-orange-500"
+      iconColor: "text-yellow-500",
+      bgColor: "from-yellow-500 to-orange-500"
     },
     "EXCLUSIVE": {
       title: "Exclusive Services",
@@ -274,14 +274,14 @@ export default function RandomPackageSections() {
   };
 
   return (
-    <section className="py-16 px-4 bg-gradient-to-br from-red-50 to-orange-50">
+    <section className="py-16 px-4 bg-gradient-to-br from-yellow-50 to-orange-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-left mb-12">
-          <div className="inline-flex items-center gap-2  text-red-600 rounded-full mb-4">
+          <div className="inline-flex items-center gap-2  text-yellow-600 rounded-full mb-4">
             <span className="text-sm font-semibold">MOST POPULAR</span>
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Trending <span className="text-red-600">Packages</span>
+            Trending <span className="text-yellow-600">Packages</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl">
             Handpicked destinations loved by our travelers

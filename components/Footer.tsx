@@ -37,7 +37,7 @@ export default function Footer() {
                 href="https://facebook.com/BengalTourismWestBengalTourism"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 flex items-center justify-center rounded-full bg-red-600/90 hover:bg-red-600 transition"
+                className="w-9 h-9 flex items-center justify-center rounded-full bg-yellow-600/90 hover:bg-yellow-600 transition"
               >
                 <Facebook size={16} />
               </a>
@@ -45,7 +45,7 @@ export default function Footer() {
                 href="https://instagram.com/bengaltourismco"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 flex items-center justify-center rounded-full bg-red-600/90 hover:bg-red-600 transition"
+                className="w-9 h-9 flex items-center justify-center rounded-full bg-yellow-600/90 hover:bg-yellow-600 transition"
               >
                 <Instagram size={16} />
               </a>
@@ -53,7 +53,7 @@ export default function Footer() {
                 href="https://twitter.com/BengalTourismCo"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 flex items-center justify-center rounded-full bg-red-600/90 hover:bg-red-600 transition"
+                className="w-9 h-9 flex items-center justify-center rounded-full bg-yellow-600/90 hover:bg-yellow-600 transition"
               >
                 <Twitter size={16} />
               </a>
@@ -62,7 +62,7 @@ export default function Footer() {
 
           {/* QUICK LINKS */}
           <div>
-            <h4 className="text-lg font-semibold mb-5 text-red-400">
+            <h4 className="text-lg font-semibold mb-5 text-yellow-400">
               Quick Links
             </h4>
             <ul className="space-y-3 text-sm">
@@ -76,7 +76,7 @@ export default function Footer() {
                 <li key={label}>
                   <Link
                     href={href}
-                    className="text-gray-400 hover:text-red-400 transition"
+                    className="text-gray-400 hover:text-yellow-400 transition"
                   >
                     {label}
                   </Link>
@@ -87,7 +87,7 @@ export default function Footer() {
 
           {/* DESTINATIONS */}
           <div>
-            <h4 className="text-lg font-semibold mb-5 text-red-400">
+            <h4 className="text-lg font-semibold mb-5 text-yellow-400">
               Popular Destinations
             </h4>
             <ul className="space-y-3 text-sm">
@@ -104,7 +104,7 @@ export default function Footer() {
                 <li key={place}>
                   <Link
                     href={`/${place.toLowerCase().replace(" ", "-")}`}
-                    className="text-gray-400 hover:text-red-400 transition"
+                    className="text-gray-400 hover:text-yellow-400 transition"
                   >
                     {place}
                   </Link>
@@ -115,14 +115,14 @@ export default function Footer() {
 
           {/* CONTACT */}
           <div>
-            <h4 className="text-lg font-semibold mb-5 text-red-400">
+            <h4 className="text-lg font-semibold mb-5 text-yellow-400">
               Contact Info
             </h4>
 
             <div className="space-y-4 text-sm text-gray-400">
               
               <div className="flex gap-3">
-                <Phone size={18} className="text-red-400" />
+                <Phone size={18} className="text-yellow-400" />
                 <div>
                  <p>
   Tour Booking:{" "}
@@ -142,13 +142,13 @@ export default function Footer() {
               </div>
 
               <div className="flex gap-3">
-                <MessageCircle size={18} className="text-red-400" />
+                <MessageCircle size={18} className="text-yellow-400" />
                 <div>
-                  <a href="https://wa.me/916289783779" target="_blank" className="hover:text-red-400">
+                  <a href="https://wa.me/916289783779" target="_blank" className="hover:text-yellow-400">
                     Tour WhatsApp: <strong className="text-white">6289783779</strong>
                   </a>
                   <br />
-                  <a href="https://wa.me/919007995888" target="_blank" className="hover:text-red-400">
+                  <a href="https://wa.me/919007995888" target="_blank" className="hover:text-yellow-400">
                     Hotel WhatsApp: <strong className="text-white">9007995888</strong>
                   </a>
                 </div>
@@ -156,7 +156,7 @@ export default function Footer() {
 
            
               <div className="flex gap-3">
-                <MapPin size={18} className="text-red-400 mt-1" />
+                <MapPin size={18} className="text-yellow-400 mt-1" />
                 <span>
                   AG-209, Flat No402, <br />
                   Kestopur, Kolkata - 700101
@@ -164,7 +164,7 @@ export default function Footer() {
               </div>
 
               <div className="flex gap-3">
-                <Clock size={18} className="text-red-400" />
+                <Clock size={18} className="text-yellow-400" />
                 <span>
                   Mon–Sat: 9:00 AM – 6:00 PM <br />
                   Sunday: Closed
@@ -185,14 +185,14 @@ export default function Footer() {
               <Link
                 key={page}
                 href={`/${page}`}
-                className="hover:text-red-400 transition capitalize"
+                className="hover:text-yellow-400 transition capitalize"
               >
                 {page} policy
               </Link>
             ))}
             <Link
               href="/site-map"
-              className="hover:text-red-400 transition"
+              className="hover:text-yellow-400 transition"
             >
               Sitemap
             </Link>

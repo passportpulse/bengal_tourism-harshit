@@ -14,8 +14,8 @@ const packageCategories = [
     subtitle: "Explore the beauty of West Bengal",
     description: "From the Himalayan foothills to the Bay of Bengal",
     icon: Mountain,
-    iconColor: "text-red-500",
-    bgColor: "from-red-500 to-orange-500",
+    iconColor: "text-yellow-500",
+    bgColor: "from-yellow-500 to-orange-500",
     image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     route: "/packages/bengal-beckons"
   },
@@ -67,7 +67,7 @@ export default function PackagesPage() {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-red-900/40"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-yellow-900/40"></div>
         </div>
         
         <div className="relative z-10 h-full flex items-center justify-center px-6">
@@ -79,7 +79,7 @@ export default function PackagesPage() {
             
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Bengal Tourism's
-              <span className="block bg-gradient-to-r from-red-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
+              <span className="block bg-gradient-to-r from-yellow-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
                 Tour Packages
                 <svg className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-3/4 h-4" viewBox="0 0 300 16" fill="none">
                   <path d="M10 8 Q 75 4, 150 8 T 290 8" stroke="url(#gradient)" strokeWidth="3" strokeLinecap="round" />
@@ -106,7 +106,7 @@ export default function PackagesPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Explore Our <span className="text-red-600">Package Categories</span>
+              Explore Our <span className="text-yellow-600">Package Categories</span>
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Select a category to view all available packages in that segment
@@ -140,7 +140,7 @@ export default function PackagesPage() {
                 
                 {/* Content */}
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-red-600 transition-colors">
+                  <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-yellow-600 transition-colors">
                     {category.name}
                   </h3>
                   <p className="text-sm font-medium text-gray-600 mb-3">
@@ -150,14 +150,14 @@ export default function PackagesPage() {
                     {category.description}
                   </p>
                   
-                  <div className="flex items-center gap-2 text-red-600 font-semibold text-sm group-hover:gap-3 transition-all">
+                  <div className="flex items-center gap-2 text-yellow-600 font-semibold text-sm group-hover:gap-3 transition-all">
                     <span>Explore Packages</span>
                     <ArrowRight className="w-4 h-4" />
                   </div>
                 </div>
                 
                 {/* Hover Effect Border */}
-                <div className="absolute inset-0 rounded-2xl border-2 border-transparent group-hover:border-red-200 transition-colors"></div>
+                <div className="absolute inset-0 rounded-2xl border-2 border-transparent group-hover:border-yellow-200 transition-colors"></div>
               </Link>
             ))}
           </div>
@@ -172,19 +172,19 @@ export default function PackagesPage() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-3xl font-bold text-red-600 mb-2">50+</div>
+              <div className="text-3xl font-bold text-yellow-600 mb-2">50+</div>
               <div className="text-sm text-gray-600">Tour Packages</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-red-600 mb-2">15+</div>
+              <div className="text-3xl font-bold text-yellow-600 mb-2">15+</div>
               <div className="text-sm text-gray-600">Years Experience</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-red-600 mb-2">10K+</div>
+              <div className="text-3xl font-bold text-yellow-600 mb-2">10K+</div>
               <div className="text-sm text-gray-600">Happy Customers</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-red-600 mb-2">4.8★</div>
+              <div className="text-3xl font-bold text-yellow-600 mb-2">4.8★</div>
               <div className="text-sm text-gray-600">Average Rating</div>
             </div>
           </div>

@@ -609,7 +609,7 @@ export default function ShortBreaks() {
             <p className="text-2xl mb-4 text-blue-100">Custom-designed packages with flexible duration & pricing</p>
             <p className="text-lg mb-8 text-blue-100 max-w-3xl mx-auto">Explore 47+ diverse destinations across West Bengal - from pristine beaches to ancient temples, tribal villages to colonial heritage</p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <Link href="/book-tour" className="bg-gradient-to-r from-red-600 to-orange-600 text-white px-8 py-4 rounded-xl hover:from-red-700 hover:to-orange-700 transition-all transform hover:scale-105 flex items-center gap-3 shadow-lg">
+              <Link href="/book-tour" className="bg-gradient-to-r from-yellow-600 to-orange-600 text-white px-8 py-4 rounded-xl hover:from-yellow-700 hover:to-orange-700 transition-all transform hover:scale-105 flex items-center gap-3 shadow-lg">
                 Book Your Adventure
                 <ArrowRight className="w-5 h-5" />
               </Link>
@@ -667,7 +667,7 @@ export default function ShortBreaks() {
                   </div>
 
                   {/* Cuisine */}
-                  <div className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-4 py-3 rounded-xl mb-6 shadow-lg">
+                  <div className="bg-gradient-to-r from-orange-500 to-yellow-500 text-white px-4 py-3 rounded-xl mb-6 shadow-lg">
                     <span className="text-sm font-bold flex items-center gap-2">
                       <Utensils className="w-5 h-5" />
                       {destination.cuisine}
@@ -691,7 +691,7 @@ export default function ShortBreaks() {
       </section>
 
       {/* Local Cuisine Section */}
-      <section className="py-20 px-4 bg-gradient-to-br from-orange-50 via-red-50 to-yellow-50">
+      <section className="py-20 px-4 bg-gradient-to-br from-orange-50 via-yellow-50 to-yellow-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <div className="inline-flex items-center bg-orange-100 text-orange-700 px-4 py-2 rounded-full mb-4">
@@ -714,7 +714,7 @@ export default function ShortBreaks() {
               <p className="text-gray-600 leading-relaxed">Fresh river and sea fish prepared with traditional Bengali spices and mustard oil, bringing you the true taste of Bengal's waters</p>
             </div>
             <div className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 text-center hover:-translate-y-2">
-              <div className="w-20 h-20 bg-gradient-to-br from-orange-100 to-red-100 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
+              <div className="w-20 h-20 bg-gradient-to-br from-orange-100 to-yellow-100 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
                 <span className="text-4xl">🦐</span>
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Crab & Prawn Delicacies</h3>

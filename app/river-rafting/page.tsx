@@ -516,7 +516,7 @@ export default function RiverRaftingPage() {
                 <div className="bg-white rounded-xl p-6 shadow-lg">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {exclusivePackages.map((pkg, index) => (
-                      <div key={index} className="bg-gradient-to-br from-orange-50 to-red-50 rounded-lg p-4 text-center">
+                      <div key={index} className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-lg p-4 text-center">
                         <p className="font-semibold text-gray-800">{pkg}</p>
                       </div>
                     ))}

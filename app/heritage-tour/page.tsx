@@ -463,7 +463,7 @@ export default function HeritageTourPage() {
       {/* ================= CULTURAL NOTE ================= */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8">
+          <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-2xl p-8">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Local Culture (Must Watch)</h3>
             <p className="text-gray-700 leading-relaxed mb-6">
               We tell our guests to experience any of the rituals given under the Religious Tours and undertake any of the local sights given under the Boat Stay & Heritage Walks to experience the local flavours of Bengal to encourage local artisans & workers for a sustainable living.

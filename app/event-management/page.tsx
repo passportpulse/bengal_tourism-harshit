@@ -17,7 +17,7 @@ const serviceCategories = [
     icon: Film,
     title: "Film Production",
     description: "Film Shoots, Location Management, Production Support",
-    color: "from-red-600 to-orange-600"
+    color: "from-yellow-600 to-orange-600"
   },
   {
     icon: GraduationCap,
@@ -124,7 +124,7 @@ export default function EventManagementPage() {
             
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Event Management &
-              <span className="block bg-gradient-to-r from-purple-400 via-pink-400 to-red-400 bg-clip-text text-transparent relative">
+              <span className="block bg-gradient-to-r from-purple-400 via-pink-400 to-yellow-400 bg-clip-text text-transparent relative">
                 Concierge Facility
                 <svg className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-3/4 h-4" viewBox="0 0 300 16" fill="none">
                   <path d="M10 8 Q 75 4, 150 8 T 290 8" stroke="url(#gradient)" strokeWidth="3" strokeLinecap="round" />

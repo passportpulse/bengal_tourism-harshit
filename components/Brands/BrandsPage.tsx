@@ -472,7 +472,7 @@ export default function BrandsPage() {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-red-900/40"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-yellow-900/40"></div>
         </div>
         
         <div className="relative z-10 h-full flex items-center justify-center px-6">
@@ -484,7 +484,7 @@ export default function BrandsPage() {
             
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Best Brands,
-              <span className="block bg-gradient-to-r from-red-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
+              <span className="block bg-gradient-to-r from-yellow-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
                 Affiliates, Partners
                 <svg className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-3/4 h-4" viewBox="0 0 300 16" fill="none">
                   <path d="M10 8 Q 75 4, 150 8 T 290 8" stroke="url(#gradient)" strokeWidth="3" strokeLinecap="round" />
@@ -544,7 +544,7 @@ export default function BrandsPage() {
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
                   placeholder="Search brands by name or location..."
-                  className="w-full px-4 py-3 pl-10 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
+                  className="w-full px-4 py-3 pl-10 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent"
                 />
                 <div className="absolute left-3 top-1/2 transform -translate-y-1/2">
                   <Search className="w-5 h-5 text-gray-400" />
@@ -559,7 +559,7 @@ export default function BrandsPage() {
                   onClick={() => setSelectedCategory(category.id)}
                   className={`px-4 py-2 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 ${
                     selectedCategory === category.id
-                      ? "bg-gradient-to-r from-red-600 to-orange-600 text-white shadow-lg ring-2 ring-red-500 ring-offset-2"
+                      ? "bg-gradient-to-r from-yellow-600 to-orange-600 text-white shadow-lg ring-2 ring-yellow-500 ring-offset-2"
                       : "bg-gray-100 text-gray-700 hover:bg-gray-200 shadow-sm hover:shadow-md"
                   }`}
                 >
@@ -582,7 +582,7 @@ export default function BrandsPage() {
               <div
                 key={brand.id}
                 className={`group relative bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden border border-gray-100 h-full flex flex-col ${
-                  brand.featured ? "ring-2 ring-red-500 ring-offset-2" : ""
+                  brand.featured ? "ring-2 ring-yellow-500 ring-offset-2" : ""
                 }`}
               >
                
@@ -604,7 +604,7 @@ export default function BrandsPage() {
                   {/* Location Badge */}
                   <div className="absolute bottom-3 left-3">
                     <div className="flex items-center bg-white/90 backdrop-blur-sm px-3 py-1.5 rounded-full">
-                      <MapPin className="w-4 h-4 mr-1 text-red-600" />
+                      <MapPin className="w-4 h-4 mr-1 text-yellow-600" />
                       <span className="text-xs font-semibold text-gray-800">{brand.location}</span>
                     </div>
                   </div>
@@ -613,7 +613,7 @@ export default function BrandsPage() {
                 {/* Content Section */}
                 <div className="p-5 flex-1 flex flex-col">
                   <div className="mb-3 flex-1">
-                    <h3 className="text-lg font-bold text-gray-900 mb-2 leading-tight group-hover:text-red-600 transition-colors line-clamp-2">
+                    <h3 className="text-lg font-bold text-gray-900 mb-2 leading-tight group-hover:text-yellow-600 transition-colors line-clamp-2">
                       {brand.name}
                     </h3>
                     
@@ -651,7 +651,7 @@ export default function BrandsPage() {
                           setSelectedBrand(brand);
                           setShowModal(true);
                         }}
-                        className="w-full bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 text-white font-bold py-2 px-3 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg text-sm"
+                        className="w-full bg-gradient-to-r from-yellow-600 to-orange-600 hover:from-yellow-700 hover:to-orange-700 text-white font-bold py-2 px-3 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg text-sm"
                       >
                         {brand.action}
                       </button>
@@ -687,7 +687,7 @@ export default function BrandsPage() {
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900">{selectedBrand.name}</h3>
                   <p className="text-gray-600 flex items-center mt-1">
-                    <MapPin className="w-4 h-4 mr-1 text-red-600" />
+                    <MapPin className="w-4 h-4 mr-1 text-yellow-600" />
                     {selectedBrand.location}
                   </p>
                 </div>
@@ -719,7 +719,7 @@ export default function BrandsPage() {
                 )}
                 
                 <div className="flex gap-4">
-                  <button className="flex-1 bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 text-white font-bold py-3 px-4 rounded-xl transition">
+                  <button className="flex-1 bg-gradient-to-r from-yellow-600 to-orange-600 hover:from-yellow-700 hover:to-orange-700 text-white font-bold py-3 px-4 rounded-xl transition">
                     Contact Brand
                   </button>
                   <button className="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-xl transition">
@@ -733,17 +733,17 @@ export default function BrandsPage() {
       )}
 
       {/* ================= CTA ================= */}
-      <section className="py-20 bg-gradient-to-br from-red-600 to-orange-600">
+      <section className="py-20 bg-gradient-to-br from-yellow-600 to-orange-600">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-black text-white mb-6">Partner With Us</h2>
           <p className="text-xl text-white/90 max-w-3xl mx-auto mb-12">
             Join Brand Bengal and showcase your products to thousands of potential customers
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/contact" className="px-8 py-3 bg-white text-red-600 font-bold rounded-xl hover:bg-gray-100 transition">
+            <a href="/contact" className="px-8 py-3 bg-white text-yellow-600 font-bold rounded-xl hover:bg-gray-100 transition">
               Become a Partner
             </a>
-            <a href="/membership" className="px-8 py-3 bg-white text-red-600 font-bold rounded-xl hover:bg-gray-100 transition">
+            <a href="/membership" className="px-8 py-3 bg-white text-yellow-600 font-bold rounded-xl hover:bg-gray-100 transition">
               Join as Member
             </a>
           </div>

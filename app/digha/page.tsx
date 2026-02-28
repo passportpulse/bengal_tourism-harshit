@@ -110,7 +110,7 @@ export default function DighaPage() {
 
               <a
                 href="/book-tour"
-                className="bg-red-600 shrink-0 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+                className="bg-yellow-600 shrink-0 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
               >
                 Book Now for 4N/5D
               </a>
@@ -203,8 +203,8 @@ export default function DighaPage() {
     </div>
 
     {/* Day 5 */}
-    <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-red-500 hover:shadow-xl transition">
-      <h3 className="text-2xl font-bold text-red-600 mb-4 flex items-center gap-2">
+    <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-yellow-500 hover:shadow-xl transition">
+      <h3 className="text-2xl font-bold text-yellow-600 mb-4 flex items-center gap-2">
         <Plane className="w-6 h-6" />
         Day 5 – Departure
       </h3>
@@ -303,7 +303,7 @@ export default function DighaPage() {
               </h2>
               <a
                 href="/book-tour"
-                className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+                className="bg-yellow-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
               >
                 Book Now for 2N/3D
               </a>
@@ -341,7 +341,7 @@ export default function DighaPage() {
               </h2>
               <a
                 href="/book-tour"
-                className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+                className="bg-yellow-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
               >
                 Book Now for 2N/3D
               </a>
@@ -364,7 +364,7 @@ export default function DighaPage() {
               </h2>
               <a
                 href="/book-tour"
-                className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+                className="bg-yellow-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
               >
                 Book Now for 2N/3D
               </a>
@@ -396,7 +396,7 @@ export default function DighaPage() {
 
           {/* Nearby Destinations */}
           <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
-            <h2 className="text-3xl font-bold text-red-600 border-b-4 border-red-500 inline-block pb-2">
+            <h2 className="text-3xl font-bold text-yellow-600 border-b-4 border-yellow-500 inline-block pb-2">
               At a Short Distance
             </h2>
 
@@ -526,7 +526,7 @@ export default function DighaPage() {
 
             {/* Adventure Activities */}
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition">
-              <div className="h-48 bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center">
+              <div className="h-48 bg-gradient-to-br from-orange-400 to-yellow-500 flex items-center justify-center">
                 <Ship className="w-16 h-16 text-white" />
               </div>
               <div className="p-6">

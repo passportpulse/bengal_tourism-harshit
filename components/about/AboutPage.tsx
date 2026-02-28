@@ -65,7 +65,7 @@ export default function AboutPage() {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-red-900/40"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-yellow-900/40"></div>
         </div>
         
         <div className="relative z-10 h-full flex items-center justify-center px-6">
@@ -77,7 +77,7 @@ export default function AboutPage() {
             
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Discover the
-              <span className="block bg-gradient-to-r from-red-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
+              <span className="block bg-gradient-to-r from-yellow-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
                 Beauty of Bengal
                 <svg className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-3/4 h-4" viewBox="0 0 300 16" fill="none">
                   <path d="M10 8 Q 75 4, 150 8 T 290 8" stroke="url(#gradient)" strokeWidth="3" strokeLinecap="round" />
@@ -170,7 +170,7 @@ export default function AboutPage() {
                 onClick={() => setActiveTab("mission")}
                 className={`px-6 py-2 rounded-full font-semibold transition ${
                   activeTab === "mission" 
-                    ? "bg-gradient-to-r from-red-600 to-orange-600 text-white" 
+                    ? "bg-gradient-to-r from-yellow-600 to-orange-600 text-white" 
                     : "text-gray-600 hover:text-gray-900"
                 }`}
               >
@@ -180,7 +180,7 @@ export default function AboutPage() {
                 onClick={() => setActiveTab("vision")}
                 className={`px-6 py-2 rounded-full font-semibold transition ${
                   activeTab === "vision" 
-                    ? "bg-gradient-to-r from-red-600 to-orange-600 text-white" 
+                    ? "bg-gradient-to-r from-yellow-600 to-orange-600 text-white" 
                     : "text-gray-600 hover:text-gray-900"
                 }`}
               >
@@ -191,7 +191,7 @@ export default function AboutPage() {
 
           <div className="max-w-4xl mx-auto">
             {activeTab === "mission" && (
-              <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-2xl p-8">
+              <div className="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-2xl p-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
                 <p className="text-gray-700 leading-relaxed">
                   To provide exceptional travel experiences that showcase the authentic beauty, rich culture, 
@@ -227,7 +227,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {values.map((value, index) => (
               <div key={index} className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
-                <div className="w-16 h-16 bg-gradient-to-r from-red-600 to-orange-600 rounded-2xl flex items-center justify-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-r from-yellow-600 to-orange-600 rounded-2xl flex items-center justify-center mb-6">
                   <value.icon className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">{value.title}</h3>
@@ -249,21 +249,21 @@ export default function AboutPage() {
           </div>
 
           <div className="relative">
-            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-red-600 to-orange-600"></div>
+            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-yellow-600 to-orange-600"></div>
             <div className="space-y-12">
               {milestones.map((milestone, index) => (
                 <div key={index} className={`flex items-center ${index % 2 === 0 ? "flex-row" : "flex-row-reverse"}`}>
                   <div className="w-1/2 pr-8">
                     <div className={`text-right ${index % 2 === 0 ? "" : "text-left"}`}>
-                      <div className="inline-block px-4 py-2 bg-gradient-to-r from-red-600 to-orange-600 text-white rounded-full font-bold mb-2">
+                      <div className="inline-block px-4 py-2 bg-gradient-to-r from-yellow-600 to-orange-600 text-white rounded-full font-bold mb-2">
                         {milestone.year}
                       </div>
                       <h3 className="text-2xl font-bold text-gray-900 mb-2">{milestone.title}</h3>
                       <p className="text-gray-600">{milestone.description}</p>
                     </div>
                   </div>
-                  <div className="w-12 h-12 bg-white border-4 border-red-600 rounded-full flex items-center justify-center z-10">
-                    <Calendar className="w-6 h-6 text-red-600" />
+                  <div className="w-12 h-12 bg-white border-4 border-yellow-600 rounded-full flex items-center justify-center z-10">
+                    <Calendar className="w-6 h-6 text-yellow-600" />
                   </div>
                   <div className="w-1/2 pl-8"></div>
                 </div>
@@ -339,18 +339,18 @@ export default function AboutPage() {
       </section>
 
       {/* ================= CTA ================= */}
-      <section className="py-20 bg-gradient-to-br from-red-600 to-orange-600">
+      <section className="py-20 bg-gradient-to-br from-yellow-600 to-orange-600">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-black text-white mb-6">Ready to Explore Bengal?</h2>
           <p className="text-xl text-white/90 max-w-3xl mx-auto mb-12">
             Join thousands of satisfied travelers who have discovered the magic of Bengal with us
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/book-tour" className="px-8 py-3 bg-white text-red-600 font-bold rounded-xl hover:bg-gray-100 transition flex items-center justify-center">
+            <a href="/book-tour" className="px-8 py-3 bg-white text-yellow-600 font-bold rounded-xl hover:bg-gray-100 transition flex items-center justify-center">
               <Briefcase className="w-5 h-5 mr-2" />
               Book a Tour
             </a>
-            <a href="/membership" className="px-8 py-3 bg-white text-red-600 font-bold rounded-xl hover:bg-gray-100 transition flex items-center justify-center">
+            <a href="/membership" className="px-8 py-3 bg-white text-yellow-600 font-bold rounded-xl hover:bg-gray-100 transition flex items-center justify-center">
               <Users className="w-5 h-5 mr-2" />
               Become a Member
             </a>

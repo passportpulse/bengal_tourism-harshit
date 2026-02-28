@@ -453,29 +453,29 @@ export default function TeaTourismPage() {
             </div>
 
             {/* Excludes */}
-            <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-2xl p-8">
-              <h3 className="text-2xl font-bold mb-6 text-red-800">Package Excludes</h3>
+            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-2xl p-8">
+              <h3 className="text-2xl font-bold mb-6 text-yellow-800">Package Excludes</h3>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
-                  <div className="w-6 h-6 bg-red-500 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <div className="w-6 h-6 bg-yellow-500 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                     ✗
                   </div>
                   <span className="text-gray-700">Price of Air / AC Train Fare (if availed)</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="w-6 h-6 bg-red-500 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <div className="w-6 h-6 bg-yellow-500 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                     ✗
                   </div>
                   <span className="text-gray-700">Personal expenses and shopping</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="w-6 h-6 bg-red-500 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <div className="w-6 h-6 bg-yellow-500 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                     ✗
                   </div>
                   <span className="text-gray-700">Additional activities not mentioned in itinerary</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="w-6 h-6 bg-red-500 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <div className="w-6 h-6 bg-yellow-500 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                     ✗
                   </div>
                   <span className="text-gray-700">Travel insurance</span>

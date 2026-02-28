@@ -160,7 +160,7 @@ export default function MembershipPage() {
 
   if (showSuccess) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-red-50 to-orange-50 flex items-center justify-center px-4">
+      <div className="min-h-screen bg-gradient-to-br from-yellow-50 to-orange-50 flex items-center justify-center px-4">
         <div className="max-w-2xl mx-auto text-center">
           <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-8">
             <Check className="w-10 h-10 text-green-600" />
@@ -189,7 +189,7 @@ export default function MembershipPage() {
                 You can start booking tours immediately after activation
               </li>
             </ul>
-            <button className="mt-8 px-8 py-3 bg-gradient-to-r from-red-600 to-orange-600 text-white font-bold rounded-xl hover:from-red-700 hover:to-orange-700 transition">
+            <button className="mt-8 px-8 py-3 bg-gradient-to-r from-yellow-600 to-orange-600 text-white font-bold rounded-xl hover:from-yellow-700 hover:to-orange-700 transition">
               Go to Homepage
             </button>
           </div>
@@ -222,7 +222,7 @@ export default function MembershipPage() {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-red-900/40"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-yellow-900/40"></div>
         </div>
 
         <div className="relative z-10 h-full flex items-center justify-center px-6">
@@ -234,7 +234,7 @@ export default function MembershipPage() {
 
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Become a
-              <span className="block bg-gradient-to-r from-red-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
+              <span className="block bg-gradient-to-r from-yellow-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
                 Member Today
                 <svg className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-3/4 h-4" viewBox="0 0 300 16" fill="none">
                   <path d="M10 8 Q 75 4, 150 8 T 290 8" stroke="url(#gradient)" strokeWidth="3" strokeLinecap="round" />
@@ -292,7 +292,7 @@ export default function MembershipPage() {
               {/* Personal Information Section */}
               <div>
                 <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-                  <User className="text-red-600" />
+                  <User className="text-yellow-600" />
                   Personal Information
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -304,7 +304,7 @@ export default function MembershipPage() {
                       type="text"
                       value={formData.introducedByMember}
                       onChange={(e) => handleInputChange("introducedByMember", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="Enter member/unit do t"
                     />
                   </div>
@@ -315,7 +315,7 @@ export default function MembershipPage() {
                     <select
                       value={formData.initial}
                       onChange={(e) => handleInputChange("initial", e.target.value)}
-                      className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition placeholder-gray-500"
                     >
                       <option value="text-gray-500">Select</option>
                       {titles.map(title => (
@@ -325,51 +325,51 @@ export default function MembershipPage() {
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      First Name <span className="text-red-500">*</span>
+                      First Name <span className="text-yellow-500">*</span>
                     </label>
                     <input
                       type="text"
                       value={formData.firstName}
                       onChange={(e) => handleInputChange("firstName", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="Enter first name"
                       required
                     />
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Last Name <span className="text-red-500">*</span>
+                      Last Name <span className="text-yellow-500">*</span>
                     </label>
                     <input
                       type="text"
                       value={formData.lastName}
                       onChange={(e) => handleInputChange("lastName", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="Enter last name"
                       required
                     />
                   </div>
                   <div>
                     <label className="block text-gray-500 text-sm font-semibold text-gray-700 mb-2">
-                      Date of Birth <span className="text-red-500">*</span>
+                      Date of Birth <span className="text-yellow-500">*</span>
                     </label>
                     <input
                       type="date"
                       value={formData.dateOfBirth}
                       onChange={(e) => handleInputChange("dateOfBirth", e.target.value)}
-                      className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition placeholder-gray-500"
                       required
                     />
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Email <span className="text-red-500">*</span>
+                      Email <span className="text-yellow-500">*</span>
                     </label>
                     <input
                       type="email"
                       value={formData.email}
                       onChange={(e) => handleInputChange("email", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="your@email.com"
                       required
                     />
@@ -377,13 +377,13 @@ export default function MembershipPage() {
                 </div>
                 <div>
                   <label className="block text-sm text-gray-500 font-semibold text-gray-700 mt-4 mb-2">
-                    Mobile (Write ISD/STD code before number) <span className="text-red-500">*</span>
+                    Mobile (Write ISD/STD code before number) <span className="text-yellow-500">*</span>
                   </label>
                   <input
                     type="tel"
                     value={formData.phone}
                     onChange={(e) => handleInputChange("phone", e.target.value)}
-                    className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                    className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition"
                     placeholder="Ex: +91 98765 43210"
                     required
                   />
@@ -393,18 +393,18 @@ export default function MembershipPage() {
               {/* Address & Nominee Section */}
               <div>
                 <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-                  <MapPin className="text-red-600" />
+                  <MapPin className="text-yellow-600" />
                   Address & Nominee Details
                 </h2>
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Address <span className="text-red-500">*</span>
+                    Address <span className="text-yellow-500">*</span>
                   </label>
                   <textarea
                     value={formData.address}
                     onChange={(e) => handleInputChange("address", e.target.value)}
                     rows={3}
-                    className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                    className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition"
                     placeholder="Enter your complete address"
                     required
                   />
@@ -412,26 +412,26 @@ export default function MembershipPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      City <span className="text-red-500">*</span>
+                      City <span className="text-yellow-500">*</span>
                     </label>
                     <input
                       type="text"
                       value={formData.city}
                       onChange={(e) => handleInputChange("city", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="Enter city"
                       required
                     />
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Pin Code <span className="text-red-500">*</span>
+                      Pin Code <span className="text-yellow-500">*</span>
                     </label>
                     <input
                       type="text"
                       value={formData.pinCode}
                       onChange={(e) => handleInputChange("pinCode", e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="Enter pin code"
                       maxLength={6}
                       required
@@ -446,7 +446,7 @@ export default function MembershipPage() {
                     type="text"
                     value={formData.nomineeName}
                     onChange={(e) => handleInputChange("nomineeName", e.target.value)}
-                    className="w-full text-gray-500  px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                    className="w-full text-gray-500  px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition"
                     placeholder="Enter nominee name"
                   />
                 </div>
@@ -455,18 +455,18 @@ export default function MembershipPage() {
               {/* Payment & Bank Details Section */}
               <div>
                 <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-                  <CreditCard className="text-red-600" />
+                  <CreditCard className="text-yellow-600" />
                   Payment & Bank Details
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Regd. / Unit Fee <span className="text-red-500">*</span>
+                      Regd. / Unit Fee <span className="text-yellow-500">*</span>
                     </label>
                     <select
                       value={formData.regdFee}
                       onChange={(e) => handleInputChange("regdFee", e.target.value)}
-                      className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition placeholder-gray-500"
                       required
                     >
                       <option value="" className="text-gray-500">--Select--</option>
@@ -484,12 +484,12 @@ export default function MembershipPage() {
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Mode of Payment <span className="text-red-500">*</span>
+                      Mode of Payment <span className="text-yellow-500">*</span>
                     </label>
                     <select
                       value={formData.paymentMode}
                       onChange={(e) => handleInputChange("paymentMode", e.target.value)}
-                      className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition placeholder-gray-500"
                       required
                     >
                       <option value="">--Select--</option>
@@ -509,7 +509,7 @@ export default function MembershipPage() {
                     type="text"
                     value={formData.bankName}
                     onChange={(e) => handleInputChange("bankName", e.target.value)}
-                    className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                    className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition"
                     placeholder="Enter your bank name"
                   />
                 </div>
@@ -521,7 +521,7 @@ export default function MembershipPage() {
                     type="text"
                     value={formData.accountNumber}
                     onChange={(e) => handleInputChange("accountNumber", e.target.value)}
-                    className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                    className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition"
                     placeholder="Enter account number"
                   />
                 </div>
@@ -534,19 +534,19 @@ export default function MembershipPage() {
                       type="text"
                       value={formData.branchName}
                       onChange={(e) => handleInputChange("branchName", e.target.value)}
-                      className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder="Enter branch name/code"
                     />
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mt-4 mb-2">
-                      {formData.paymentMode === "bank_transfer" ? "IFSC Code" : "UPI Name / Phone No"} <span className="text-red-500">*</span>
+                      {formData.paymentMode === "bank_transfer" ? "IFSC Code" : "UPI Name / Phone No"} <span className="text-yellow-500">*</span>
                     </label>
                     <input
                       type="text"
                       value={formData.ifscUpi}
                       onChange={(e) => handleInputChange("ifscUpi", e.target.value)}
-                      className="w-full px-4 py-3 text-gray-500 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition placeholder-gray-500"
+                      className="w-full px-4 py-3 text-gray-500 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition placeholder-gray-500"
                       placeholder={formData.paymentMode === "bank_transfer" ? "Enter IFSC code" : "Enter UPI name or phone number"}
                       required
                     />
@@ -560,7 +560,7 @@ export default function MembershipPage() {
                     type="date"
                     value={formData.paymentDate}
                     onChange={(e) => handleInputChange("paymentDate", e.target.value)}
-                    className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                    className="w-full text-gray-500 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition"
                   />
                 </div>
               </div>
@@ -571,7 +571,7 @@ export default function MembershipPage() {
                   <input
                     type="checkbox"
                     required
-                    className="mt-1 w-4 h-4 text-red-600 focus:ring-red-500 rounded"
+                    className="mt-1 w-4 h-4 text-yellow-600 focus:ring-yellow-500 rounded"
                   />
                   <span className="text-sm text-gray-700 leading-relaxed ml-3">
                     I accept: Submission without successful payment is not valid. Please remember to save the acknowledgement after you hit Submit Button (&/or) payment confirmation from Bank. In case of manual submission of Membership Form via e-mail, we will send the confirmation of receipt & membership details via E-mail / WhatsApp after we acknowledge receipt of valid payment at our Bank. I also agree to the terms and conditions of Bengal Tourism membership program.
@@ -579,7 +579,7 @@ export default function MembershipPage() {
                 </div>
 
                 {/* Top Note */}
-                <div className="bg-red-700 text-white text-center py-2 text-sm font-semibold">
+                <div className="bg-yellow-700 text-white text-center py-2 text-sm font-semibold">
                   Proceed to PAY using any mode given below. Earn Cash-Back upto Rs.10000/-
                 </div>
 
@@ -641,7 +641,7 @@ export default function MembershipPage() {
               <div className="text-center pt-8">
                 <button
                   type="submit"
-                  className="px-12 py-4 bg-gradient-to-r from-red-600 to-orange-600 text-white font-bold rounded-xl hover:from-red-700 hover:to-orange-700 transition"
+                  className="px-12 py-4 bg-gradient-to-r from-yellow-600 to-orange-600 text-white font-bold rounded-xl hover:from-yellow-700 hover:to-orange-700 transition"
                 >
                   Submit Application
                 </button>
@@ -663,7 +663,7 @@ export default function MembershipPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all">
-              <div className="w-16 h-16 bg-gradient-to-r from-red-600 to-orange-600 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-r from-yellow-600 to-orange-600 rounded-2xl flex items-center justify-center mb-6">
                 <IndianRupee className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Great Earnings</h3>
@@ -671,7 +671,7 @@ export default function MembershipPage() {
             </div>
 
             <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all">
-              <div className="w-16 h-16 bg-gradient-to-r from-red-600 to-orange-600 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-r from-yellow-600 to-orange-600 rounded-2xl flex items-center justify-center mb-6">
                 <User className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Training & Support</h3>
@@ -679,7 +679,7 @@ export default function MembershipPage() {
             </div>
 
             <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all">
-              <div className="w-16 h-16 bg-gradient-to-r from-red-600 to-orange-600 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-r from-yellow-600 to-orange-600 rounded-2xl flex items-center justify-center mb-6">
                 <Building className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Network Building</h3>

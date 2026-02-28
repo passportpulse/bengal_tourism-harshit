@@ -138,7 +138,7 @@ export default function CareerPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {benefits.map((benefit, index) => (
               <div key={index} className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
-                <div className="w-16 h-16 bg-gradient-to-r from-red-600 to-orange-600 rounded-2xl flex items-center justify-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-r from-yellow-600 to-orange-600 rounded-2xl flex items-center justify-center mb-6">
                   <benefit.icon className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">{benefit.title}</h3>
@@ -167,7 +167,7 @@ export default function CareerPage() {
                 onClick={() => setSelectedCategory(category.id)}
                 className={`px-5 py-2 rounded-full font-semibold transition-all ${
                   selectedCategory === category.id
-                    ? "bg-gradient-to-r from-red-600 to-orange-600 text-white shadow-lg"
+                    ? "bg-gradient-to-r from-yellow-600 to-orange-600 text-white shadow-lg"
                     : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                 }`}
               >
@@ -180,11 +180,11 @@ export default function CareerPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {filteredJobs.map(job => (
               <div key={job.id} className={`bg-white rounded-2xl border-2 p-8 hover:shadow-2xl transition-all duration-300 ${
-                job.featured ? "border-red-500 shadow-xl" : "border-gray-200"
+                job.featured ? "border-yellow-500 shadow-xl" : "border-gray-200"
               }`}>
                 {job.featured && (
                   <div className="inline-block mb-4">
-                    <span className="bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+                    <span className="bg-yellow-600 text-white text-xs font-bold px-3 py-1 rounded-full">
                       ⭐ Featured Position
                     </span>
                   </div>
@@ -195,19 +195,19 @@ export default function CareerPage() {
 
                 <div className="grid grid-cols-2 gap-4 mb-6">
                   <div className="flex items-center text-gray-700">
-                    <MapPin className="w-4 h-4 mr-2 text-red-600" />
+                    <MapPin className="w-4 h-4 mr-2 text-yellow-600" />
                     <span className="text-sm">{job.location}</span>
                   </div>
                   <div className="flex items-center text-gray-700">
-                    <Briefcase className="w-4 h-4 mr-2 text-red-600" />
+                    <Briefcase className="w-4 h-4 mr-2 text-yellow-600" />
                     <span className="text-sm">{job.type}</span>
                   </div>
                   <div className="flex items-center text-gray-700">
-                    <Clock className="w-4 h-4 mr-2 text-red-600" />
+                    <Clock className="w-4 h-4 mr-2 text-yellow-600" />
                     <span className="text-sm">{job.experience}</span>
                   </div>
                   <div className="flex items-center text-gray-700">
-                    <IndianRupee className="w-4 h-4 mr-2 text-red-600" />
+                    <IndianRupee className="w-4 h-4 mr-2 text-yellow-600" />
                     <span className="text-sm">{job.salary}</span>
                   </div>
                 </div>
@@ -217,14 +217,14 @@ export default function CareerPage() {
                   <ul className="space-y-1">
                     {job.requirements.map((req, index) => (
                       <li key={index} className="text-sm text-gray-600 flex items-start">
-                        <span className="text-red-600 mr-2">•</span>
+                        <span className="text-yellow-600 mr-2">•</span>
                         {req}
                       </li>
                     ))}
                   </ul>
                 </div>
 
-                <button className="w-full bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 text-white font-bold py-3 rounded-xl transition-all duration-300 transform hover:scale-105">
+                <button className="w-full bg-gradient-to-r from-yellow-600 to-orange-600 hover:from-yellow-700 hover:to-orange-700 text-white font-bold py-3 rounded-xl transition-all duration-300 transform hover:scale-105">
                   Apply Now
                 </button>
               </div>
@@ -247,7 +247,7 @@ export default function CareerPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
-              <div className="w-16 h-16 bg-gradient-to-r from-red-600 to-orange-600 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-r from-yellow-600 to-orange-600 rounded-2xl flex items-center justify-center mb-6">
                 <Building className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-black text-gray-900 mb-3">Area Agency</h3>
@@ -260,7 +260,7 @@ export default function CareerPage() {
             </div>
 
             <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
-              <div className="w-16 h-16 bg-gradient-to-r from-red-600 to-orange-600 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-r from-yellow-600 to-orange-600 rounded-2xl flex items-center justify-center mb-6">
                 <Users className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-black text-gray-900 mb-3">Franchisee</h3>
@@ -273,7 +273,7 @@ export default function CareerPage() {
             </div>
 
             <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
-              <div className="w-16 h-16 bg-gradient-to-r from-red-600 to-orange-600 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-r from-yellow-600 to-orange-600 rounded-2xl flex items-center justify-center mb-6">
                 <TrendingUp className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-black text-gray-900 mb-3">Team Leader</h3>
@@ -287,7 +287,7 @@ export default function CareerPage() {
           </div>
 
           {/* Financial Partners Section */}
-          <div className="bg-gradient-to-r from-red-600 to-orange-600 rounded-3xl p-12 text-white text-center">
+          <div className="bg-gradient-to-r from-yellow-600 to-orange-600 rounded-3xl p-12 text-white text-center">
             <h3 className="text-3xl font-black mb-6">Financial Partners & Stake Holders</h3>
             <p className="text-xl mb-8 max-w-4xl mx-auto">
               Partner with us in various tourism ventures and be part of Bengal's growing tourism industry

@@ -100,7 +100,7 @@ const bengalPackages = [
         locations: "Darjeeling, Kalimpong, Kurseong, Mirik",
         image: "https://images.unsplash.com/photo-1698753864905-a447aa362ec9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRhcmplZWxpbmd8ZW58MHx8MHx8fDA%3D",
         icon: Mountain,
-        iconColor: "text-red-500",
+        iconColor: "text-yellow-500",
         route: "/darjeeling",
         showBookNow: true,
     },
@@ -171,7 +171,7 @@ export default function BengalBeckonsPackagesPage() {
                         className="object-cover"
                         priority
                     />
-                    <div className="absolute inset-0 bg-gradient-to-br from-red-900/70 via-orange-800/50 to-yellow-900/40"></div>
+                    <div className="absolute inset-0 bg-gradient-to-br from-yellow-900/70 via-orange-800/50 to-yellow-900/40"></div>
                 </div>
                 
                 <div className="relative z-10 h-full flex items-center justify-center px-6">
@@ -183,7 +183,7 @@ export default function BengalBeckonsPackagesPage() {
                         
                         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
                             Bengal
-                            <span className="block bg-gradient-to-r from-red-400 via-orange-400 to-yellow-400 bg-clip-text text-transparent">
+                            <span className="block bg-gradient-to-r from-yellow-400 via-orange-400 to-yellow-400 bg-clip-text text-transparent">
                                 Beckons
                             </span>
                         </h1>
@@ -207,7 +207,7 @@ export default function BengalBeckonsPackagesPage() {
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                            Popular <span className="text-red-600">Bengal</span> Tour Packages
+                            Popular <span className="text-yellow-600">Bengal</span> Tour Packages
                         </h2>
                         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                             From the Himalayan foothills to the Bay of Bengal, experience the best of West Bengal
@@ -292,11 +292,11 @@ export default function BengalBeckonsPackagesPage() {
                                     <div className="flex gap-2">
                                         {/* <Link
                                             href="/book-tour"
-                                            className="flex-1 flex items-center justify-center gap-2 bg-red-600 text-white py-3 rounded-xl text-sm font-semibold hover:bg-red-700 transition-colors"
+                                            className="flex-1 flex items-center justify-center gap-2 bg-yellow-600 text-white py-3 rounded-xl text-sm font-semibold hover:bg-yellow-700 transition-colors"
                                         >
                                             Book Now
                                         </Link> */}
-                                        <Link href={item.route} className="flex items-center justify-center gap-2 border border-red-600 text-red-600 px-4 py-3 rounded-xl text-sm font-semibold hover:bg-red-50 transition-colors">
+                                        <Link href={item.route} className="flex items-center justify-center gap-2 border border-yellow-600 text-yellow-600 px-4 py-3 rounded-xl text-sm font-semibold hover:bg-yellow-50 transition-colors">
                                             View Details
                                         </Link>
                                     </div>
@@ -312,7 +312,7 @@ export default function BengalBeckonsPackagesPage() {
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                            Amazing <span className="text-red-600">Experiences</span>
+                            Amazing <span className="text-yellow-600">Experiences</span>
                         </h2>
                         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                             Discover unique adventures and unforgettable moments across Bengal
@@ -339,7 +339,7 @@ export default function BengalBeckonsPackagesPage() {
                                     {/* Icon Overlay */}
                                     <div className="absolute top-4 right-4">
                                         <div className="w-10 h-10 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg">
-                                            <experience.icon className="w-5 h-5 text-red-600" />
+                                            <experience.icon className="w-5 h-5 text-yellow-600" />
                                         </div>
                                     </div>
                                     

@@ -178,13 +178,13 @@ const getEmailBySource = () => {
               <ArrowLeft className="w-6 h-6" />
             </Link>
             <h1 className="text-2xl font-bold text-gray-900 flex items-center gap-2">
-              <QrCode className="w-6 h-6 text-red-600" />
+              <QrCode className="w-6 h-6 text-yellow-600" />
               Payment Details
             </h1>
           </div>
           
           {/* Payment Amount Display */}
-          <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white p-6 rounded-lg text-center">
+          <div className="bg-gradient-to-r from-yellow-600 to-orange-600 text-white p-6 rounded-lg text-center">
             <h2 className="text-lg font-semibold mb-2">{paymentType}</h2>
             <div className="flex items-center justify-center gap-2">
               <IndianRupee className="w-6 h-6" />
@@ -250,7 +250,7 @@ export default function QRPaymentPage() {
     <Suspense fallback={
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 flex items-center justify-center">
         <div className="text-center">
-          <div className="w-8 h-8 border-4 border-red-600 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+          <div className="w-8 h-8 border-4 border-yellow-600 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
           <p className="text-gray-600">Loading payment details...</p>
         </div>
       </div>

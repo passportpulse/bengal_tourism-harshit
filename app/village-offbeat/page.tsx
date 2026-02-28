@@ -486,12 +486,12 @@ export default function VillageOffbeatPage() {
                 </ul>
               </div>
 
-              <div className="bg-red-50 border border-red-200 rounded-xl p-6">
-                <h4 className="font-bold text-red-900 mb-3">Excluded Services:</h4>
+              <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-6">
+                <h4 className="font-bold text-yellow-900 mb-3">Excluded Services:</h4>
                 <ul className="space-y-2 text-gray-700">
                   {excludedServices.map((service, index) => (
                     <li key={index} className="flex items-start">
-                      <span className="text-red-600 mr-2">•</span>
+                      <span className="text-yellow-600 mr-2">•</span>
                       <span className="text-gray-700">{service}</span>
                     </li>
                   ))}
@@ -524,7 +524,7 @@ export default function VillageOffbeatPage() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+            <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
               <div className="text-center mb-4">
                 <h3 className="text-xl font-bold text-gray-900">Adventure Seekers</h3>
                 <p className="text-gray-600">SANDAKPHU, TAKDAH, MANEBHANJAN</p>

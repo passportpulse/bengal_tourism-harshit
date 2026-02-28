@@ -75,7 +75,7 @@ export default function TajpurPage() {
             </div>
             <div className="text-center">
               <div className="bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 shadow-lg">
-                <Fish className="w-10 h-10 text-red-600" />
+                <Fish className="w-10 h-10 text-yellow-600" />
               </div>
               <h3 className="font-bold text-lg mb-2">Red Crabs</h3>
               <p className="text-gray-600 text-sm">Unique beach life</p>
@@ -210,7 +210,7 @@ export default function TajpurPage() {
 
             {/* Relaxation Spots */}
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition">
-              <div className="h-48 bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center">
+              <div className="h-48 bg-gradient-to-br from-orange-400 to-yellow-500 flex items-center justify-center">
                 <Sun className="w-16 h-16 text-white" />
               </div>
               <div className="p-6">

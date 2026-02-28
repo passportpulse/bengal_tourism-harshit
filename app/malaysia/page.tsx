@@ -72,7 +72,7 @@ export default function MalaysiaPage() {
           <h1 className="text-4xl md:text-5xl font-bold text-blue-700">
             Malaysia Tour Itinerary
           </h1>
-            <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+            <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
             Book now For 3N/4D
           </a>
           </div>
@@ -115,8 +115,8 @@ export default function MalaysiaPage() {
   {/* DAY 2 */}
          
           {/* DAY 4 */}
-          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-red-500 h-full flex flex-col ">
-            <h2 className="text-2xl font-semibold text-red-600 mb-4">
+          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-yellow-500 h-full flex flex-col ">
+            <h2 className="text-2xl font-semibold text-yellow-600 mb-4">
               Day – 4 : Departure
             </h2>
             <div className="text-gray-700 leading-8 flex-grow">

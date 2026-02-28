@@ -105,7 +105,7 @@ export default function MedicalTourismPage() {
             </div>
 
             {/* Linguistic Advantage */}
-            <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8 text-center hover:shadow-xl transition">
+            <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-2xl p-8 text-center hover:shadow-xl transition">
               <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Globe className="w-8 h-8 text-orange-600" />
               </div>
@@ -162,8 +162,8 @@ export default function MedicalTourismPage() {
 
             {/* Bone Marrow Transplant */}
             <div className="bg-white rounded-xl p-6 text-center hover:shadow-lg transition">
-              <div className="bg-red-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
-                <Bone className="w-6 h-6 text-red-600" />
+              <div className="bg-yellow-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                <Bone className="w-6 h-6 text-yellow-600" />
               </div>
               <h3 className="font-bold mb-2">Bone Marrow Transplant</h3>
               <p className="text-sm text-gray-600">Advanced transplant procedures</p>
@@ -256,8 +256,8 @@ export default function MedicalTourismPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Tata Memorial Hospital */}
-            <div className="bg-gradient-to-br from-red-50 to-pink-50 rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
-              <div className="bg-gradient-to-r from-red-500 to-pink-500 p-6 text-white">
+            <div className="bg-gradient-to-br from-yellow-50 to-pink-50 rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
+              <div className="bg-gradient-to-r from-yellow-500 to-pink-500 p-6 text-white">
                 <Award className="w-8 h-8 mb-2" />
                 <h3 className="text-xl font-bold">TOP CANCER HOSPITAL</h3>
                 <p className="text-2xl font-bold mt-2">TATA MEMORIAL HOSPITAL</p>
@@ -267,7 +267,7 @@ export default function MedicalTourismPage() {
                 <p className="text-gray-700 mb-4">
                   Premier cancer treatment center with world-class oncology services and research facilities
                 </p>
-                <button className="w-full bg-red-600 text-white py-2 rounded-lg font-semibold hover:bg-red-700 transition">
+                <button className="w-full bg-yellow-600 text-white py-2 rounded-lg font-semibold hover:bg-yellow-700 transition">
                   Enquire Now
                 </button>
               </div>
@@ -328,8 +328,8 @@ export default function MedicalTourismPage() {
             </div>
 
             {/* NH Rabindranath Tagore - Orthopedic */}
-            <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
-              <div className="bg-gradient-to-r from-orange-500 to-red-500 p-6 text-white">
+            <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
+              <div className="bg-gradient-to-r from-orange-500 to-yellow-500 p-6 text-white">
                 <Bone className="w-8 h-8 mb-2" />
                 <h3 className="text-xl font-bold">BEST ORTHOPEDIC HOSPITAL</h3>
                 <p className="text-2xl font-bold mt-2">NH RABINDRANATH TAGORE</p>
@@ -395,7 +395,7 @@ export default function MedicalTourismPage() {
 
             {/* Air Ambulance */}
             <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition">
-              <Ship className="w-12 h-12 text-red-600 mb-4" />
+              <Ship className="w-12 h-12 text-yellow-600 mb-4" />
               <h3 className="text-lg font-bold mb-2">TOP AIR AMBULANCE SERVICE</h3>
               <p className="text-gray-700 mb-3">BENGAL AIR AMBULANCE [24x7]</p>
               <p className="text-sm text-gray-600">Kolkata-North East-Odisha</p>

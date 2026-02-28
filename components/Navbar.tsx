@@ -53,92 +53,92 @@ export default function Navbar() {
                             <div className="space-y-6">
                                 {/* BENGAL BECKONS */}
                                 <div>
-                                    <h3 className="font-bold text-red-600 mb-3">BENGAL BECKONS</h3>
+                                    <h3 className="font-bold text-yellow-600 mb-3">BENGAL BECKONS</h3>
                                     <ul className="space-y-2">
-                                        <li><a href="/darjeeling" className="text-gray-700 hover:text-red-600 block py-1">Queen of the Hills</a></li>
-                                        <li><a href="/digha" className="text-gray-700 hover:text-red-600 block py-1">Sea & Sand of the East</a></li>
-                                        <li><a href="/dooars" className="text-gray-700 hover:text-red-600 block py-1">Wildlife Forest & Jungle Safari</a></li>
-                                        <li><a href="/kolkata" className="text-gray-700 hover:text-red-600 block py-1">Kolkata City Pkj</a></li>
-                                        <li><a href="/sundarban" className="text-gray-700 hover:text-red-600 block py-1">Largest Mangrove of the World</a></li>
+                                        <li><a href="/darjeeling" className="text-gray-700 hover:text-yellow-600 block py-1">Queen of the Hills</a></li>
+                                        <li><a href="/digha" className="text-gray-700 hover:text-yellow-600 block py-1">Sea & Sand of the East</a></li>
+                                        <li><a href="/dooars" className="text-gray-700 hover:text-yellow-600 block py-1">Wildlife Forest & Jungle Safari</a></li>
+                                        <li><a href="/kolkata" className="text-gray-700 hover:text-yellow-600 block py-1">Kolkata City Pkj</a></li>
+                                        <li><a href="/sundarban" className="text-gray-700 hover:text-yellow-600 block py-1">Largest Mangrove of the World</a></li>
                                     </ul>
                                 </div>
 
                                 {/* HOT SPOTS */}
                                 <div>
-                                    <h3 className="font-bold text-red-600 mb-3">HOT SPOTS</h3>
+                                    <h3 className="font-bold text-yellow-600 mb-3">HOT SPOTS</h3>
                                     <ul className="space-y-2">
-                                        <li><a href="/darjeeling" className="text-gray-700 hover:text-red-600 block py-1">Darjeeling & Kalimpong Pkj</a></li>
-                                        <li><a href="/dooars" className="text-gray-700 hover:text-red-600 block py-1">Dooars - Lataguri & Jaldapara Pkj</a></li>
-                                        <li><a href="/digha" className="text-gray-700 hover:text-red-600 block py-1">Digha & Mandarmoni Pkj</a></li>
-                                        <li><a href="/bakkhali" className="text-gray-700 hover:text-red-600 block py-1">Bakkhali Pkj</a></li>
-                                        <li><a href="/kolkata" className="text-gray-700 hover:text-red-600 block py-1">Kolkata Pkj</a></li>
-                                        <li><a href="/eco-tourism" className="text-gray-700 hover:text-red-600 block py-1">Regional Bengal Pkj</a></li>
-                                        <li><a href="/sundarban" className="text-gray-700 hover:text-red-600 block py-1">Sundarban Pkj</a></li>
+                                        <li><a href="/darjeeling" className="text-gray-700 hover:text-yellow-600 block py-1">Darjeeling & Kalimpong Pkj</a></li>
+                                        <li><a href="/dooars" className="text-gray-700 hover:text-yellow-600 block py-1">Dooars - Lataguri & Jaldapara Pkj</a></li>
+                                        <li><a href="/digha" className="text-gray-700 hover:text-yellow-600 block py-1">Digha & Mandarmoni Pkj</a></li>
+                                        <li><a href="/bakkhali" className="text-gray-700 hover:text-yellow-600 block py-1">Bakkhali Pkj</a></li>
+                                        <li><a href="/kolkata" className="text-gray-700 hover:text-yellow-600 block py-1">Kolkata Pkj</a></li>
+                                        <li><a href="/eco-tourism" className="text-gray-700 hover:text-yellow-600 block py-1">Regional Bengal Pkj</a></li>
+                                        <li><a href="/sundarban" className="text-gray-700 hover:text-yellow-600 block py-1">Sundarban Pkj</a></li>
                                     </ul>
                                 </div>
 
                                 {/* TAILOR MADE */}
                                 <div>
-                                    <h3 className="font-bold text-red-600 mb-3">TAILOR MADE</h3>
+                                    <h3 className="font-bold text-yellow-600 mb-3">TAILOR MADE</h3>
                                     <ul className="space-y-2">
 
-                                        <li><a href="/boat-stay" className="text-gray-700 hover:text-red-600 block py-1">Boat Cruise & Stay</a></li>
-                                        <li><a href="/camping-adventure" className="text-gray-700 hover:text-red-600 block py-1">Camping & Tenting</a></li>
-                                        <li><a href="/event-management" className="text-gray-700 hover:text-red-600 block py-1">Event Management</a></li>
-                                        <li><a href="/film-shooting" className="text-gray-700 hover:text-red-600 block py-1">Film Shooting</a></li>
-                                        <li><a href="/heritage-tour" className="text-gray-700 hover:text-red-600 block py-1">Heritage Tour & Walks</a></li>
-                                        <li><a href="#" className="text-gray-700 hover:text-red-600 block py-1">Hills - Off Beat Destinations</a></li>
-                                        <li><a href="/jungle-safari" className="text-gray-700 hover:text-red-600 block py-1">Jungle Safari</a></li>
-                                        <li><a href="/village-offbeat" className="text-gray-700 hover:text-red-600 block py-1">Plains - Off Beat Destinations</a></li>
-                                        <li><a href="/religious-pilgrimage" className="text-gray-700 hover:text-red-600 block py-1">Religious & Pilgrimage Tour</a></li>
-                                        <li><a href="/river-rafting" className="text-gray-700 hover:text-red-600 block py-1">River Rafting</a></li>
-                                        <li><a href="/theme-tours" className="text-gray-700 hover:text-red-600 block py-1">Short Breaks from Kolkata</a></li>
-                                        <li><a href="/trekking-trails" className="text-gray-700 hover:text-red-600 block py-1">Trekking</a></li>
+                                        <li><a href="/boat-stay" className="text-gray-700 hover:text-yellow-600 block py-1">Boat Cruise & Stay</a></li>
+                                        <li><a href="/camping-adventure" className="text-gray-700 hover:text-yellow-600 block py-1">Camping & Tenting</a></li>
+                                        <li><a href="/event-management" className="text-gray-700 hover:text-yellow-600 block py-1">Event Management</a></li>
+                                        <li><a href="/film-shooting" className="text-gray-700 hover:text-yellow-600 block py-1">Film Shooting</a></li>
+                                        <li><a href="/heritage-tour" className="text-gray-700 hover:text-yellow-600 block py-1">Heritage Tour & Walks</a></li>
+                                        <li><a href="#" className="text-gray-700 hover:text-yellow-600 block py-1">Hills - Off Beat Destinations</a></li>
+                                        <li><a href="/jungle-safari" className="text-gray-700 hover:text-yellow-600 block py-1">Jungle Safari</a></li>
+                                        <li><a href="/village-offbeat" className="text-gray-700 hover:text-yellow-600 block py-1">Plains - Off Beat Destinations</a></li>
+                                        <li><a href="/religious-pilgrimage" className="text-gray-700 hover:text-yellow-600 block py-1">Religious & Pilgrimage Tour</a></li>
+                                        <li><a href="/river-rafting" className="text-gray-700 hover:text-yellow-600 block py-1">River Rafting</a></li>
+                                        <li><a href="/theme-tours" className="text-gray-700 hover:text-yellow-600 block py-1">Short Breaks from Kolkata</a></li>
+                                        <li><a href="/trekking-trails" className="text-gray-700 hover:text-yellow-600 block py-1">Trekking</a></li>
                                     </ul>
                                 </div>
 
                                 {/* OTHERS */}
                                 <div>
-                                    <h3 className="font-bold text-red-600 mb-3">OTHERS</h3>
+                                    <h3 className="font-bold text-yellow-600 mb-3">OTHERS</h3>
                                     <ul className="space-y-2">
-                                        <li><a href="/odisha-tourism" className="text-gray-700 hover:text-red-600 block py-1">Puri & Odisha Pkj</a></li>
-                                        <li><a href="/sikkim-tourism" className="text-gray-700 hover:text-red-600 block py-1">Sikkim & Gangtok</a></li>
-                                        <li><a href="/silk-route-tourism" className="text-gray-700 hover:text-red-600 block py-1">Silk Route Pkj</a></li>
-                                        <li><a href="/goa-tourism" className="text-gray-700 hover:text-red-600 block py-1">Goa Pkj</a></li>
-                                        <li><a href="/himachal-tourism" className="text-gray-700 hover:text-red-600 block py-1">Himachal Pkj</a></li>
-                                        <li><a href="/jammu-kashmir-tourism" className="text-gray-700 hover:text-red-600 block py-1">Jammu & Kashmir Pkj</a></li>
-                                        <li><a href="/andaman-nicobar-tourism" className="text-gray-700 hover:text-red-600 block py-1">Andaman & Nicobar Pkj</a></li>
-                                        <li><a href="/shillong-tourism" className="text-gray-700 hover:text-red-600 block py-1">Assam & Guwahati Pkj</a></li>
-                                        <li><a href="/rajasthan-tourism" className="text-gray-700 hover:text-red-600 block py-1">Rajasthan & Jaipur Pkj</a></li>
-                                        <li><a href="/kerala-tourism" className="text-gray-700 hover:text-red-600 block py-1">Kerala & Munnar Pkj</a></li>
+                                        <li><a href="/odisha-tourism" className="text-gray-700 hover:text-yellow-600 block py-1">Puri & Odisha Pkj</a></li>
+                                        <li><a href="/sikkim-tourism" className="text-gray-700 hover:text-yellow-600 block py-1">Sikkim & Gangtok</a></li>
+                                        <li><a href="/silk-route-tourism" className="text-gray-700 hover:text-yellow-600 block py-1">Silk Route Pkj</a></li>
+                                        <li><a href="/goa-tourism" className="text-gray-700 hover:text-yellow-600 block py-1">Goa Pkj</a></li>
+                                        <li><a href="/himachal-tourism" className="text-gray-700 hover:text-yellow-600 block py-1">Himachal Pkj</a></li>
+                                        <li><a href="/jammu-kashmir-tourism" className="text-gray-700 hover:text-yellow-600 block py-1">Jammu & Kashmir Pkj</a></li>
+                                        <li><a href="/andaman-nicobar-tourism" className="text-gray-700 hover:text-yellow-600 block py-1">Andaman & Nicobar Pkj</a></li>
+                                        <li><a href="/shillong-tourism" className="text-gray-700 hover:text-yellow-600 block py-1">Assam & Guwahati Pkj</a></li>
+                                        <li><a href="/rajasthan-tourism" className="text-gray-700 hover:text-yellow-600 block py-1">Rajasthan & Jaipur Pkj</a></li>
+                                        <li><a href="/kerala-tourism" className="text-gray-700 hover:text-yellow-600 block py-1">Kerala & Munnar Pkj</a></li>
                                     </ul>
                                 </div>
 
                                 {/* EXCLUSIVE */}
                                 <div>
-                                    <h3 className="font-bold text-red-600 mb-3">EXCLUSIVE</h3>
+                                    <h3 className="font-bold text-yellow-600 mb-3">EXCLUSIVE</h3>
                                     <ul className="space-y-2">
-                                        <li><a href="/medical-tourism" className="text-gray-700 hover:text-red-600 block py-1">Medical Tourism</a></li>
-                                        <li><a href="/air-ambulance" className="text-gray-700 hover:text-red-600 block py-1">Air Ambulance Service</a></li>
-                                        <li><a href="/spa-wellness" className="text-gray-700 hover:text-red-600 block py-1">Wellness Tourism -Spa-Massage-Yoga</a></li>
-                                        <li><a href="/tea-tourism" className="text-gray-700 hover:text-red-600 block py-1">Tea Tourism</a></li>
-                                        <li><a href="/hotel-booking" className="text-gray-700 hover:text-red-600 block py-1">Hotel-Resort-Guest House</a></li>
+                                        <li><a href="/medical-tourism" className="text-gray-700 hover:text-yellow-600 block py-1">Medical Tourism</a></li>
+                                        <li><a href="/air-ambulance" className="text-gray-700 hover:text-yellow-600 block py-1">Air Ambulance Service</a></li>
+                                        <li><a href="/spa-wellness" className="text-gray-700 hover:text-yellow-600 block py-1">Wellness Tourism -Spa-Massage-Yoga</a></li>
+                                        <li><a href="/tea-tourism" className="text-gray-700 hover:text-yellow-600 block py-1">Tea Tourism</a></li>
+                                        <li><a href="/hotel-booking" className="text-gray-700 hover:text-yellow-600 block py-1">Hotel-Resort-Guest House</a></li>
                                     </ul>       
                                 </div>
 
                                 {/* FOREIGN TOURS */}
                                 <div>
-                                    <h3 className="font-bold text-red-600 mb-3">FOREIGN TOURS</h3>  
+                                    <h3 className="font-bold text-yellow-600 mb-3">FOREIGN TOURS</h3>  
                                     <ul className="space-y-2">
-                                        <li><a href="/bhutan" className="text-gray-700 hover:text-red-600 block py-1">Bhutan - Thimpu & Paro</a></li>
-                                        <li><a href="/dubai" className="text-gray-700 hover:text-red-600 block py-1">Dubai</a></li>
-                                        <li><a href="/nepal" className="text-gray-700 hover:text-red-600 block py-1">Nepal & Kathmandu</a></li>
-                                        <li><a href="/thailand" className="text-gray-700 hover:text-red-600 block py-1">Thailand & Bangkok</a></li>
-                                        <li><a href="/lakshadweep" className="text-gray-700 hover:text-red-600 block py-1">Lakshadweep</a></li>
-                                        <li><a href="/singapore" className="text-gray-700 hover:text-red-600 block py-1">Singapore</a></li>
-                                        <li><a href="/malaysia" className="text-gray-700 hover:text-red-600 block py-1">Malaysia</a></li>
-                                        <li><a href="/bali" className="text-gray-700 hover:text-red-600 block py-1">Bali</a></li>
-                                        <li><a href="/maldives" className="text-gray-700 hover:text-red-600 block py-1">Maldives</a></li>
+                                        <li><a href="/bhutan" className="text-gray-700 hover:text-yellow-600 block py-1">Bhutan - Thimpu & Paro</a></li>
+                                        <li><a href="/dubai" className="text-gray-700 hover:text-yellow-600 block py-1">Dubai</a></li>
+                                        <li><a href="/nepal" className="text-gray-700 hover:text-yellow-600 block py-1">Nepal & Kathmandu</a></li>
+                                        <li><a href="/thailand" className="text-gray-700 hover:text-yellow-600 block py-1">Thailand & Bangkok</a></li>
+                                        <li><a href="/lakshadweep" className="text-gray-700 hover:text-yellow-600 block py-1">Lakshadweep</a></li>
+                                        <li><a href="/singapore" className="text-gray-700 hover:text-yellow-600 block py-1">Singapore</a></li>
+                                        <li><a href="/malaysia" className="text-gray-700 hover:text-yellow-600 block py-1">Malaysia</a></li>
+                                        <li><a href="/bali" className="text-gray-700 hover:text-yellow-600 block py-1">Bali</a></li>
+                                        <li><a href="/maldives" className="text-gray-700 hover:text-yellow-600 block py-1">Maldives</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -155,7 +155,7 @@ export default function Navbar() {
                         {/* Tour Packages Hamburger - Top Left */}
                         {/* <button
                             onClick={() => setTourSidebarOpen(true)}
-                            className="flex items-center gap-2 text-red-600 hover:text-red-700 transition p-2 rounded-lg hover:bg-red-50"
+                            className="flex items-center gap-2 text-yellow-600 hover:text-yellow-700 transition p-2 rounded-lg hover:bg-yellow-50"
                         >
                             <Menu size={24} />
                         </button> */}
@@ -174,12 +174,12 @@ export default function Navbar() {
 
                         {/* Desktop Nav */}
                         <nav className="hidden lg:flex items-center gap-6">
-                            <Link href="/" className="text-amber-700 font-semibold hover:text-red-600 transition">
+                            <Link href="/" className="text-amber-700 font-semibold hover:text-yellow-600 transition">
                                 HOME
                             </Link>
                    
                             
-                            <Link href="/about" className="text-gray-700 font-semibold hover:text-red-600 transition">
+                            <Link href="/about" className="text-gray-700 font-semibold hover:text-yellow-600 transition">
                                 About Us
                             </Link>
                                      
@@ -190,7 +190,7 @@ export default function Navbar() {
                                 onMouseLeave={handleMouseLeave}
                             >
                                 <button
-                                    className="text-gray-700 font-semibold hover:text-red-600 transition flex items-center gap-1"
+                                    className="text-gray-700 font-semibold hover:text-yellow-600 transition flex items-center gap-1"
                                 >
                                     Destinations
                                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -206,50 +206,50 @@ export default function Navbar() {
                                     >
                                         <Link
                                             href="/packages/bengal-beckons"
-                                            className="block px-4 py-3 text-gray-700 hover:bg-red-50 hover:text-red-600 transition"
+                                            className="block px-4 py-3 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600 transition"
                                         >
                                             Bengal Beckons
                                         </Link>
                                         <Link
                                             href="/packages/india"
-                                            className="block px-4 py-3 text-gray-700 hover:bg-red-50 hover:text-red-600 transition"
+                                            className="block px-4 py-3 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600 transition"
                                         >
                                             Incredible India
                                         </Link>
                                         <Link
                                             href="/packages/foreign-tours"
-                                            className="block px-4 py-3 text-gray-700 hover:bg-red-50 hover:text-red-600 transition"
+                                            className="block px-4 py-3 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600 transition"
                                         >
                                             Foreign Destinations
                                         </Link>
                                         <Link
                                             href="/packages/exclusive"
-                                            className="block px-4 py-3 text-gray-700 hover:bg-red-50 hover:text-red-600 transition"
+                                            className="block px-4 py-3 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600 transition"
                                         >
                                             Exclusive Offers
                                         </Link>
                                     </div>
                                 )}
                             </div>
-                            <Link href="/earn" className="text-gray-700 font-semibold hover:text-red-600 transition">
+                            <Link href="/earn" className="text-gray-700 font-semibold hover:text-yellow-600 transition">
                                 Earn With Us
                             </Link>
-                            {/* <Link href="/career" className="text-gray-700 font-semibold hover:text-red-600 transition">
+                            {/* <Link href="/career" className="text-gray-700 font-semibold hover:text-yellow-600 transition">
                                 Career
                             </Link> */}
-                            {/* <Link href="/package-cost" className="text-gray-700 font-semibold hover:text-red-600 transition">
+                            {/* <Link href="/package-cost" className="text-gray-700 font-semibold hover:text-yellow-600 transition">
                                 Package Cost
                             </Link> */}
-                            <Link href="/brands" className="text-gray-700 font-semibold hover:text-red-600 transition">
+                            <Link href="/brands" className="text-gray-700 font-semibold hover:text-yellow-600 transition">
                                 Brands
                             </Link>
                           
-                            <Link href="/contact" className="text-gray-700 font-semibold hover:text-red-600 transition">
+                            <Link href="/contact" className="text-gray-700 font-semibold hover:text-yellow-600 transition">
                                 Contact Us
                             </Link>
                               <Link
                                 href="/book-hotel"
-                                className="bg-red-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-red-700 transition"
+                                className="bg-yellow-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-yellow-700 transition"
                             >
                                Hotal Booking
                             </Link>
@@ -294,28 +294,28 @@ export default function Navbar() {
                                 <div className="pl-4 mt-2 space-y-2">
                                     <Link
                                         href="/packages/bengal-beckons"
-                                        className="block py-2 text-gray-600 hover:text-red-600"
+                                        className="block py-2 text-gray-600 hover:text-yellow-600"
                                         onClick={() => setMobileOpen(false)}
                                     >
                                         Bengal Beckons
                                     </Link>
                                     <Link
                                         href="/packages/india"
-                                        className="block py-2 text-gray-600 hover:text-red-600"
+                                        className="block py-2 text-gray-600 hover:text-yellow-600"
                                         onClick={() => setMobileOpen(false)}
                                     >
                                         Incredible India
                                     </Link>
                                     <Link
                                         href="/packages/foreign-tours"
-                                        className="block py-2 text-gray-600 hover:text-red-600"
+                                        className="block py-2 text-gray-600 hover:text-yellow-600"
                                         onClick={() => setMobileOpen(false)}
                                     >
                                         Foreign Destinations
                                     </Link>
                                     <Link
                                         href="/packages/exclusive"
-                                        className="block py-2 text-gray-600 hover:text-red-600"
+                                        className="block py-2 text-gray-600 hover:text-yellow-600"
                                         onClick={() => setMobileOpen(false)}
                                     >
                                         Exclusive Offers
@@ -369,7 +369,7 @@ export default function Navbar() {
                         </Link>
                              <Link
                             href="/book-hotel"
-                            className="block py-2 bg-red-600 text-white px-6 py-2 rounded-full font-semibold text-center"
+                            className="block py-2 bg-yellow-600 text-white px-6 py-2 rounded-full font-semibold text-center"
                             onClick={() => setMobileOpen(false)}
                         >
                             Hotal Booking

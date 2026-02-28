@@ -105,7 +105,7 @@ export default function OffbeatPlains() {
 
       <Link
         href="/book-tour"
-        className="bg-red-600 hover:bg-red-700 px-8 py-3 rounded-full font-semibold transition duration-300 flex items-center justify-center gap-2 shadow-lg"
+        className="bg-yellow-600 hover:bg-yellow-700 px-8 py-3 rounded-full font-semibold transition duration-300 flex items-center justify-center gap-2 shadow-lg"
       >
         Book Now
         <ArrowRight className="w-4 h-4" />
@@ -154,7 +154,7 @@ export default function OffbeatPlains() {
                   </div>
                   <Link 
                     href="/book-tour" 
-                    className="w-full bg-red-600 text-white py-2 rounded-lg hover:bg-red-700 transition text-center block"
+                    className="w-full bg-yellow-600 text-white py-2 rounded-lg hover:bg-yellow-700 transition text-center block"
                   >
                     Book for {destination.duration}
                   </Link>
@@ -257,7 +257,7 @@ export default function OffbeatPlains() {
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-lg">
-              <h3 className="text-xl font-semibold text-red-700 mb-4">✗ Excludes</h3>
+              <h3 className="text-xl font-semibold text-yellow-700 mb-4">✗ Excludes</h3>
               <ul className="space-y-2 text-gray-700">
                 <li>• AC Accommodation where available</li>
                 <li>• Price of Air Travel</li>

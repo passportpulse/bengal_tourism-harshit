@@ -186,7 +186,7 @@ export default function UdaipurPage() {
 
             {/* Cultural Sites */}
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition">
-              <div className="h-48 bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center">
+              <div className="h-48 bg-gradient-to-br from-orange-400 to-yellow-500 flex items-center justify-center">
                 <Mountain className="w-16 h-16 text-white" />
               </div>
               <div className="p-6">
