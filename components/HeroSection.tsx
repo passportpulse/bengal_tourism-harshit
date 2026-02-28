@@ -111,7 +111,7 @@ export default function HeroSection() {
           className="max-w-xl mx-auto text-center"
         >
           <p className="text-yellow-400 font-semibold mb-4">
-            ✨ Bengal Tourism Welcomes You
+          ✨ Bengal Tourism Welcomes You ✨ 
           </p>
 
           <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight mb-6">
