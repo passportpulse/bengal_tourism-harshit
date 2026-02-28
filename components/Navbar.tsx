@@ -248,7 +248,7 @@ export default function Navbar() {
                                 Contact Us
                             </Link>
                               <Link
-                                href="/book-hotel"
+                                href="/hotel-booking"
                                 className="bg-yellow-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-yellow-700 transition"
                             >
                                Hotal Booking
@@ -368,7 +368,7 @@ export default function Navbar() {
                             Contact Us
                         </Link>
                              <Link
-                            href="/book-hotel"
+                            href="/hotel-booking"
                             className="block py-2 bg-yellow-600 text-white px-6 py-2 rounded-full font-semibold text-center"
                             onClick={() => setMobileOpen(false)}
                         >
