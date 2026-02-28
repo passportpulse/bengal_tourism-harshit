@@ -4,6 +4,7 @@ import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowLeft, QrCode, MessageCircle, IndianRupee } from 'lucide-react'
+import { Suspense } from 'react'
 
 type PaymentDetails = {
   name?: string;
@@ -86,7 +87,7 @@ const paymentMethods: Record<string, PaymentMethod> = {
   }
 }
 
-export default function QRPaymentPage() {
+function QRPaymentContent() {
   const searchParams = useSearchParams()
   const paymentType = searchParams.get('type') || ''
   const amount = searchParams.get('amount') || '0'
@@ -256,5 +257,20 @@ export default function QRPaymentPage() {
         </div>
       </div>
     </main>
+  )
+}
+
+export default function QRPaymentPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 flex items-center justify-center">
+        <div className="text-center">
+          <div className="w-8 h-8 border-4 border-red-600 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+          <p className="text-gray-600">Loading payment details...</p>
+        </div>
+      </div>
+    }>
+      <QRPaymentContent />
+    </Suspense>
   )
 }
