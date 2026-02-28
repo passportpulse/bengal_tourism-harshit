@@ -124,7 +124,7 @@ export default function DighaPage() {
           
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-10 items-stretch mt-10">
 
             {/* Day 1 */}
             <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-blue-500 
@@ -137,6 +137,31 @@ export default function DighaPage() {
                 Depart from Kolkata (7-8 AM). Breakfast at Kolaghat.
                 Reach Digha (1-2 PM). Hotel check-in & lunch.
                 Evening local market visit. Dinner & Overnight stay at Digha.
+              </p>
+            </div>
+             <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-yellow-500 
+  hover:shadow-xl transition h-full flex flex-col">
+              <h3 className="text-2xl font-bold text-yellow-600 mb-4 flex items-center gap-2">
+                <Sunrise className="w-6 h-6" />
+                Day 2 – Beach Exploration
+              </h3>
+              <p className="text-gray-700 leading-relaxed flex-grow">
+                Early morning sunrise experience. Old Digha/New Digha beach.
+                Udaipur (Odisha border) option. Water sports & rides.
+                Fresh coconut & beach beer. Dinner & Overnight at Digha.
+              </p>
+            </div>
+               <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-green-500 
+  hover:shadow-xl transition h-full flex flex-col">
+              <h3 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
+                <Waves className="w-6 h-6" />
+                Day 3 – Shankarpur & Tajpur
+              </h3>
+              <p className="text-gray-700 leading-relaxed flex-grow">
+                Full day tour covering Shankarpur & Tajpur.
+                Beach activities. Local seafood lunch.
+                Spicy crab curry special. Country chicken fry.
+                Dinner & Overnight at Digha.
               </p>
             </div>
             <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-purple-500 
@@ -152,18 +177,7 @@ export default function DighaPage() {
               </p>
             </div>
             {/* Day 2 */}
-            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-yellow-500 
-  hover:shadow-xl transition h-full flex flex-col">
-              <h3 className="text-2xl font-bold text-yellow-600 mb-4 flex items-center gap-2">
-                <Sunrise className="w-6 h-6" />
-                Day 2 – Beach Exploration
-              </h3>
-              <p className="text-gray-700 leading-relaxed flex-grow">
-                Early morning sunrise experience. Old Digha/New Digha beach.
-                Udaipur (Odisha border) option. Water sports & rides.
-                Fresh coconut & beach beer. Dinner & Overnight at Digha.
-              </p>
-            </div>
+           
             {/* Day 5 */}
             <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-red-500 
   hover:shadow-xl transition h-full flex flex-col">
@@ -178,19 +192,7 @@ export default function DighaPage() {
               </p>
             </div>
             {/* Day 3 */}
-            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-green-500 
-  hover:shadow-xl transition h-full flex flex-col">
-              <h3 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
-                <Waves className="w-6 h-6" />
-                Day 3 – Shankarpur & Tajpur
-              </h3>
-              <p className="text-gray-700 leading-relaxed flex-grow">
-                Full day tour covering Shankarpur & Tajpur.
-                Beach activities. Local seafood lunch.
-                Spicy crab curry special. Country chicken fry.
-                Dinner & Overnight at Digha.
-              </p>
-            </div>
+         
 
 
 

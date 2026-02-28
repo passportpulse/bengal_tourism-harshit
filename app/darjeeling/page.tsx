@@ -172,7 +172,7 @@ export default function DarjeelingPage() {
                 Kalimpong & Mirik.
               </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-10 items-stretch mt-10">
 
             {/* Day 1 */}
             <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-orange-500 
@@ -189,20 +189,7 @@ export default function DarjeelingPage() {
                 Dinner & Overnight stay at Darjeeling.
               </p>
             </div>
-            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-purple-500 
-  hover:shadow-xl transition h-full flex flex-col">
-              <h3 className="text-2xl font-bold text-purple-600 mb-4 flex items-center gap-2">
-                <Train className="w-6 h-6" />
-                Day 4 – Kurseong / Toy Train
-              </h3>
-              <p className="text-gray-700 leading-relaxed flex-grow">
-                Visit Kurseong attractions including Eagle’s Craig,
-                Dow Hills, Makaibari Tea Estate.
-                Optional Toy Train Ride (subject to availability).
-                Dinner & Overnight at Darjeeling.
-              </p>
-            </div>
-            {/* Day 2 */}
+                {/* Day 2 */}
             <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-yellow-500 
   hover:shadow-xl transition h-full flex flex-col">
               <h3 className="text-2xl font-bold text-yellow-600 mb-4 flex items-center gap-2">
@@ -216,21 +203,6 @@ export default function DarjeelingPage() {
                 Ropeway, Tea Estate, Japanese Temple,
                 Tibetan Refugee Centre & more.
                 Dinner & Overnight at Darjeeling.
-              </p>
-            </div>
-            {/* Day 5 */}
-            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-blue-500 
-  hover:shadow-xl transition h-full flex flex-col">
-              <h3 className="text-2xl font-bold text-blue-600 mb-4 flex items-center gap-2">
-                <Home className="w-6 h-6" />
-                Day 5 – Kalimpong Transfer / South Sikkim (Optional)
-              </h3>
-              <p className="text-gray-700 leading-relaxed flex-grow">
-                Transfer to Kalimpong. Visit Durpin Monastery,
-                Deolo Hill, Morgan House etc.
-                OR Optional South Sikkim tour (Char Dham,
-                Temi Tea Garden, Namchi – extra charge).
-                Dinner & Overnight at Kalimpong.
               </p>
             </div>
             {/* Day 3 */}
@@ -247,6 +219,36 @@ export default function DarjeelingPage() {
                 Dinner & Overnight at Darjeeling.
               </p>
             </div>
+            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-purple-500 
+  hover:shadow-xl transition h-full flex flex-col">
+              <h3 className="text-2xl font-bold text-purple-600 mb-4 flex items-center gap-2">
+                <Train className="w-6 h-6" />
+                Day 4 – Kurseong / Toy Train
+              </h3>
+              <p className="text-gray-700 leading-relaxed flex-grow">
+                Visit Kurseong attractions including Eagle’s Craig,
+                Dow Hills, Makaibari Tea Estate.
+                Optional Toy Train Ride (subject to availability).
+                Dinner & Overnight at Darjeeling.
+              </p>
+            </div>
+        
+            {/* Day 5 */}
+            <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-blue-500 
+  hover:shadow-xl transition h-full flex flex-col">
+              <h3 className="text-2xl font-bold text-blue-600 mb-4 flex items-center gap-2">
+                <Home className="w-6 h-6" />
+                Day 5 – Kalimpong Transfer / South Sikkim (Optional)
+              </h3>
+              <p className="text-gray-700 leading-relaxed flex-grow">
+                Transfer to Kalimpong. Visit Durpin Monastery,
+                Deolo Hill, Morgan House etc.
+                OR Optional South Sikkim tour (Char Dham,
+                Temi Tea Garden, Namchi – extra charge).
+                Dinner & Overnight at Kalimpong.
+              </p>
+            </div>
+            
 
             {/* Day 4 */}
 
