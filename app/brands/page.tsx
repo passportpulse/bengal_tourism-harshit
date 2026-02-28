@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: 'Best Brands of Bengal - Premium Products & Services',
     description: 'Discover Bengal\'s finest brands across jewellery, food, handloom, crafts, hotels, and travel. Premium quality products and authentic services from trusted Bengal brands and businesses.',
     type: 'website',
-    url: 'https://bengaltourism.com/brands',
+    url: 'https://bengaltourism.in/brands',
     images: [
       {
         url: 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200',

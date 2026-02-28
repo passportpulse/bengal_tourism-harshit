@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: 'Book Hotels in Bengal - Hotel Booking',
     description: 'Book hotels across West Bengal with Bengal Tourism. Find AC rooms, deluxe suites, and budget stays.',
     type: 'website',
-    url: 'https://bengaltourism.com/book-hotel',
+    url: 'https://bengaltourism.in/book-hotel',
     images: [
       {
         url: 'https://images.unsplash.com/photo-1566073792557-78d16f48497?w=1200',

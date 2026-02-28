@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: 'Careers at Bengal Tourism - Jobs & Business Opportunities',
     description: 'Explore career opportunities at Bengal Tourism. Find jobs in tourism, marketing, networking, and entrepreneurship with flexible work options.',
     type: 'website',
-    url: 'https://bengaltourism.com/career',
+    url: 'https://bengaltourism.in/career',
     images: [
       {
         url: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200',

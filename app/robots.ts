@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/admin/', '/_next/', '/static/'],
       },
     ],
-    sitemap: 'https://bengaltourism.com/sitemap.xml',
+    sitemap: 'https://bengaltourism.in/sitemap.xml',
   }
 }

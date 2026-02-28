@@ -1079,6 +1079,42 @@ export default function HotelBookingPage() {
               </div>
             </div>
 
+            {/* Policy Section */}
+            <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-bold text-blue-800 mb-4">Policy & Terms</h3>
+              
+              <div className="space-y-4">
+                <div>
+                  <h4 className="font-semibold text-gray-800 mb-2">Upgrade Options:</h4>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>• Upgrade to AC accommodation where available (₹ 500/Night/head)</li>
+                    <li>• AC train/bus tickets as per actual fare</li>
+                    <li>• Non-sharing exclusive AC vehicle (₹1500/Day for group of 5-7 Persons)</li>
+                  </ul>
+                </div>
+                
+                <div>
+                  <h4 className="font-semibold text-gray-800 mb-2">Excluding:</h4>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>• Any rides, Entry permits, Food not mentioned</li>
+                    <li>• Porter charges, tips, camera entry fees</li>
+                    <li>• Room heater, beverages/soft drinks/liquor</li>
+                    <li>• Anything not mentioned in the itinerary</li>
+                    <li>• Extra days due to natural calamities or incidents beyond our control (borne by clients)</li>
+                  </ul>
+                </div>
+                
+                <div>
+                  <h4 className="font-semibold text-gray-800 mb-2">Including:</h4>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>• Accommodations & transport as mentioned</li>
+                    <li>• Meals (bed tea, breakfast & dinner)</li>
+                    <li>• Lunch (your cost, but included in group tour with 20+ heads)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
             {/* Terms and Submit */}
             <div className="bg-gray-50 rounded-lg p-6">
               <label className="flex items-start gap-3 cursor-pointer">

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: 'Contact Bengal Tourism - Get in Touch',
     description: 'Contact Bengal Tourism for tour bookings at 6289783779 and hotel bookings at 9007995888. WhatsApp support available.',
     type: 'website',
-    url: 'https://bengaltourism.com/contact',
+    url: 'https://bengaltourism.in/contact',
     images: [
       {
         url: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200',

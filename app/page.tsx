@@ -14,45 +14,82 @@ import LoginPage from '@/components/LoginPage'
 import VideoLandingSection from '@/components/VideoLandingSection'
 
 
+
 export const metadata: Metadata = {
-  title: 'Bengal Tourism - Explore the Beauty of West Bengal | Official Tourism Portal',
-  description: 'Discover the magic of Bengal with our curated tours and travel packages. Explore Kolkata, Darjeeling, Sundarbans, Digha and more. Book hotels, tours and experience the rich culture, heritage and natural beauty of West Bengal.',
-  keywords: 'Bengal Tourism, West Bengal Tourism, Kolkata Tourism, Darjeeling Tours, Sundarbans, Digha Beach, Bengal Travel, Tour Packages, Hotel Booking, Travel Guide',
+  metadataBase: new URL("https://bengaltourism.in"),
+
+  title: {
+    default: "Bengal Tourism | West Bengal Tour Packages, Darjeeling, Sundarbans",
+    template: "%s | Bengal Tourism"
+  },
+
+  description:
+    "Explore West Bengal tourism with curated tour packages to Darjeeling, Sundarbans, Kolkata, Digha & Dooars. Book hotels, wildlife safaris & cultural trips with Bengal Tourism.",
+
+  keywords: [
+    "West Bengal Tourism",
+    "Bengal Tour Packages",
+    "Darjeeling Tour Package",
+    "Sundarbans Tour",
+    "Kolkata Tourism",
+    "Digha Beach Tour",
+    "Dooars Package",
+    "Bengal Travel Guide",
+    "Hotel Booking West Bengal",
+    "Wildlife Safari Sundarbans"
+  ],
+
+  alternates: {
+    canonical: "https://bengaltourism.in"
+  },
+
   openGraph: {
-    title: 'Bengal Tourism - Explore the Beauty of West Bengal',
-    description: 'Discover the magic of Bengal with our curated tours and travel packages. Explore Kolkata, Darjeeling, Sundarbans and more.',
-    type: 'website',
-    url: 'https://bengaltourism.com',
+    title: "West Bengal Tourism | Darjeeling, Sundarbans & Kolkata Tours",
+    description:
+      "Book West Bengal tour packages covering Darjeeling hills, Sundarbans mangroves, Kolkata heritage & Digha beaches.",
+    url: "https://bengaltourism.in",
+    siteName: "Bengal Tourism",
+    type: "website",
+    locale: "en_IN",
     images: [
       {
-        url: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200',
+        url: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200",
         width: 1200,
         height: 630,
-        alt: 'Bengal Tourism - Beautiful landscapes of West Bengal',
+        alt: "West Bengal Tourism - Darjeeling Hills & Sundarbans",
       },
     ],
   },
+
   twitter: {
-    card: 'summary_large_image',
-    title: 'Bengal Tourism - Explore West Bengal',
-    description: 'Discover the magic of Bengal with our curated tours and travel packages.',
-    images: ['https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200'],
+    card: "summary_large_image",
+    title: "West Bengal Tourism | Darjeeling & Sundarbans Packages",
+    description:
+      "Discover Darjeeling, Sundarbans, Kolkata & Digha with curated Bengal tour packages.",
+    images: [
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200",
+    ],
   },
+
   robots: {
     index: true,
     follow: true,
+    nocache: false,
     googleBot: {
       index: true,
       follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
     },
   },
+
   verification: {
-    google: 'your-google-verification-code',
+    google: "PASTE_REAL_GOOGLE_SEARCH_CONSOLE_CODE_HERE",
   },
-}
+
+  category: "travel",
+};
 
 export default function HomePage() {
   return (

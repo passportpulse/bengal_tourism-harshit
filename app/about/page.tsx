@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: 'About Bengal Tourism - Our Story & Mission',
     description: 'Learn about Bengal Tourism - our journey since 2008, mission to showcase Bengal beauty, and commitment to sustainable tourism.',
     type: 'website',
-    url: 'https://bengaltourism.com/about',
+    url: 'https://bengaltourism.in/about',
     images: [
       {
         url: 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200',

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: 'Book Tours in Bengal - Tour Booking',
     description: 'Book tours across West Bengal with Bengal Tourism. Find adventure tours, cultural trips, and customized travel packages.',
     type: 'website',
-    url: 'https://bengaltourism.com/book-tour',
+    url: 'https://bengaltourism.in/book-tour',
     images: [
       {
         url: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1200',
