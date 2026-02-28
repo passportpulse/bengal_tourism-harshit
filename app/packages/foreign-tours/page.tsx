@@ -331,80 +331,86 @@ export default function ForeignToursPackagesPage() {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {foreignTourPackages.map((item, i) => (
-                            <div
-                                key={item.slug}
-                                className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col group"
-                            >
-                                {/* Image */}
-                                <div className="relative h-56 overflow-hidden">
-                                    <Image
-                                        src={item.image}
-                                        alt={item.title}
-                                        fill
-                                        priority={i < 3}
-                                        className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-                                    />
-                                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                    {(() => {
+                        const remainder = foreignTourPackages.length % 3;
+                        const comingSoonCount =
+                            remainder === 0 ? 0 : 3 - remainder;
 
-                                    {/* Title overlay */}
-                                    <div className="absolute top-4 left-4">
-                                        <h3 className="inline-flex items-center gap-2 bg-white text-black text-sm font-medium px-3 py-2 rounded-lg shadow">
-                                            <MapPinCheck className="w-4 h-4" />
-                                            <span>{item.title}</span>
-                                        </h3>
-                                    </div>
+                        return (
+                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                                {foreignTourPackages.map((item, i) => (
+                                    <div
+                                        key={item.slug}
+                                        className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col group"
+                                    >
+                                        {/* Image */}
+                                        <div className="relative h-56 overflow-hidden">
+                                            <Image
+                                                src={item.image}
+                                                alt={item.title}
+                                                fill
+                                                priority={i < 3}
+                                                className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                                            />
+                                            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
 
-                                    {/* Locations overlay */}
-                                    <div className="absolute bottom-0 left-0 right-0 p-4">
-                                        <div className="overflow-hidden">
-                                            <div className="flex items-center gap-1 whitespace-nowrap">
-                                                {item.locations.split(',').map((location, index) => (
-                                                    <div key={index} className="flex items-center">
-                                                        <span className="text-sm text-white font-medium">{location.trim()}</span>
-                                                        {index < item.locations.split(',').length - 1 && (
-                                                            <ArrowRight className="w-3 h-3 text-white shrink-0 mx-1" />
-                                                        )}
+                                            {/* Title overlay */}
+                                            <div className="absolute top-4 left-4">
+                                                <h3 className="inline-flex items-center gap-2 bg-white text-black text-sm font-medium px-3 py-2 rounded-lg shadow">
+                                                    <MapPinCheck className="w-4 h-4" />
+                                                    <span>{item.title}</span>
+                                                </h3>
+                                            </div>
+
+                                            {/* Locations overlay */}
+                                            <div className="absolute bottom-0 left-0 right-0 p-4">
+                                                <div className="overflow-hidden">
+                                                    <div className="flex items-center gap-1 whitespace-nowrap">
+                                                        {item.locations.split(',').map((location, index) => (
+                                                            <div key={index} className="flex items-center">
+                                                                <span className="text-sm text-white font-medium">{location.trim()}</span>
+                                                                {index < item.locations.split(',').length - 1 && (
+                                                                    <ArrowRight className="w-3 h-3 text-white shrink-0 mx-1" />
+                                                                )}
+                                                            </div>
+                                                        ))}
                                                     </div>
-                                                ))}
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
 
-                                {/* Content */}
-                                <div className="p-6 flex flex-col flex-1">
-                                    {/* Badge */}
-                                    <div className="flex items-center gap-2 mb-3">
-                                        <item.icon className={`w-4 h-4 ${item.iconColor}`} />
-                                        <span className="text-xs font-medium text-gray-600">Foreign Tour</span>
-                                    </div>
+                                        {/* Content */}
+                                        <div className="p-6 flex flex-col flex-1">
+                                            {/* Badge */}
+                                            <div className="flex items-center gap-2 mb-3">
+                                                <item.icon className={`w-4 h-4 ${item.iconColor}`} />
+                                                <span className="text-xs font-medium text-gray-600">Foreign Tour</span>
+                                            </div>
 
-                                    {/* Title and Subtitle */}
-                                    <div className="mb-4">
-                                        <h3 className="text-xl font-bold text-gray-900 mb-1">{item.title}</h3>
-                                        <p className="text-sm text-gray-600">{item.subtitle}</p>
-                                    </div>
+                                            {/* Title and Subtitle */}
+                                            <div className="mb-4">
+                                                <h3 className="text-xl font-bold text-gray-900 mb-1">{item.title}</h3>
+                                                <p className="text-sm text-gray-600">{item.subtitle}</p>
+                                            </div>
 
-                                    {/* Tag and Duration */}
-                                    <div className="grid grid-cols-2 gap-3 mb-4">
-                                        <div className="flex items-center gap-2 text-sm text-gray-600">
-                                            <Compass className="w-4 h-4 text-gray-400" />
-                                            <span>{item.tag}</span>
-                                        </div>
+                                            {/* Tag and Duration */}
+                                            <div className="grid grid-cols-2 gap-3 mb-4">
+                                                <div className="flex items-center gap-2 text-sm text-gray-600">
+                                                    <Compass className="w-4 h-4 text-gray-400" />
+                                                    <span>{item.tag}</span>
+                                                </div>
 
-                                    </div>
+                                            </div>
 
-                                    {/* Description */}
-                                    <div className="mb-4">
-                                        <p className="text-sm text-gray-600 leading-relaxed">
-                                            {item.desc}
-                                        </p>
-                                    </div>
+                                            {/* Description */}
+                                            <div className="mb-4">
+                                                <p className="text-sm text-gray-600 leading-relaxed">
+                                                    {item.desc}
+                                                </p>
+                                            </div>
 
-                                    {/* Price */}
-                                    {/* <div className="mt-auto mb-4">
+                                            {/* Price */}
+                                            {/* <div className="mt-auto mb-4">
                                         <div className="flex items-baseline gap-2">
                                             <span className="text-sm text-gray-500">Starting from</span>
                                             <span className="text-2xl font-bold text-red-600">
@@ -413,9 +419,9 @@ export default function ForeignToursPackagesPage() {
                                         </div>
                                     </div> */}
 
-                                    {/* Action Buttons */}
-                                    <div className="flex gap-2">
-                                        {/* {item.showBookNow && (
+                                            {/* Action Buttons */}
+                                            <div className="flex gap-2">
+                                                {/* {item.showBookNow && (
                                             <Link
                                                 href="/book-tour"
                                                 className="flex-1 flex items-center justify-center gap-2 bg-red-600 text-white py-3 rounded-xl text-sm font-semibold hover:bg-red-700 transition-colors"
@@ -423,14 +429,36 @@ export default function ForeignToursPackagesPage() {
                                                 Book Now
                                             </Link>
                                         )} */}
-                                        <Link href={item.route} className="flex items-center justify-center gap-2 border border-red-600 text-red-600 px-4 py-3 rounded-xl text-sm font-semibold hover:bg-red-50 transition-colors">
-                                            View Details
-                                        </Link>
+                                                <Link href={item.route} className="flex items-center justify-center gap-2 border border-red-600 text-red-600 px-4 py-3 rounded-xl text-sm font-semibold hover:bg-red-50 transition-colors">
+                                                    View Details
+                                                </Link>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
+                                ))}
+                                {/* Coming Soon Cards (Desktop Only) */}
+                                {Array.from({ length: comingSoonCount }).map((_, index) => (
+                                    <div
+                                        key={`coming-soon-${index}`}
+                                        className="hidden lg:flex bg-gray-100 border-2 border-dashed border-gray-300 rounded-xl items-center justify-center p-10 text-center"
+                                    >
+                                        <div>
+                                            <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-red-100 flex items-center justify-center">
+                                                <Clock className="w-8 h-8 text-red-500" />
+                                            </div>
+                                            <h3 className="text-lg font-bold text-gray-800 mb-2">
+                                                Coming Soon
+                                            </h3>
+                                            <p className="text-sm text-gray-500">
+                                                New exclusive destinations launching shortly
+                                            </p>
+                                        </div>
+                                    </div>
+                                ))}
+
                             </div>
-                        ))}
-                    </div>
+                        );
+                    })()}
                 </div>
             </section>
         </main>

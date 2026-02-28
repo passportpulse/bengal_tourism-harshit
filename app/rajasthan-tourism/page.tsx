@@ -63,148 +63,76 @@ export default function RajasthanTourismPage() {
       {/* ================= JAIPUR MAIN PACKAGE ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="flex flex-col space-y-2">
-            <div className='flex gap-5 items-center'>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Rajasthan Circuit Package</h2>
-               <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
-                Book now For 6N/7D
-              </a>
-            </div>
-            <p className="text-xl text-gray-600 max-w-3xl mb-10">
-              Jodhpur - Udaipur - Jaipur - Mt. Abu
-            </p>
-          </div>
+          <Destination
+            title="Rajasthan Circuit Package"
+            cta="Book now For 6N/7D"
+            subtitle="Jodhpur - Udaipur - Jaipur - Mt. Abu"
+            content={[
+              `Day 1: Arrival in Jodhpur, Our representative will be there to receive the Guest on your arrival at morning Jodhpur Station / Airport.
+              Drive over to Jodhpur. Check into Hotel.
+              Lunch & rest. Post lunch, visit local sightseeing of Umaid Bhawan and Meheran Garh Fort.
+              Return in evening. Free to explore local area.
+              Dinner & Overnight at Hotel/Resort/Haveli in Jodhpur.`,
 
-          <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 shadow-xl">
-            <div className="">
-              <div>
-                <div className="space-y-6 grid md:grid-cols-2 gap-8">
-                  {/* Day 1 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 1: Arrival in Jodhpur</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Our representative will be there to receive the Guest on your arrival at morning Jodhpur Station / Airport.
-                      Drive over to Jodhpur. Check into Hotel.
-                      Lunch & rest. Post lunch, visit local sightseeing of Umaid Bhawan and Meheran Garh Fort.
-                      Return in evening. Free to explore local area.
-                      Dinner & Overnight at Hotel/Resort/Haveli in Jodhpur.
-                    </p>
+              `Day 2: Jaisalmer Exploration, After breakfast, proceed towards Jaisalmer.
+              On the way visit, Sonar Kella, Patwa Haveli and Gadisar lake.
+              After that go to Sam Desert. Lunch en-route.
+              Check into Desert Camp. Experience sunset point on a Desert Safari on Jeep.
+              Enjoy evening with live local Folk Dance & cultural show.
+              Dinner & Overnight at Tent in Jaisalmer.`,
+
+              `Day 3: Udaipur, Early morning; you can enjoy a Camel Safari (your cost).
+              Back to tent for breakfast. Then check out & proceed towards Udaipur via Sonar Kella (if you have not visited on earlier day).
+              Lunch en route. Return in evening.
+              Free to explore local area.
+              Dinner & Overnight at Hotel/Resort/Haveli in Udaipur.`,
+
+              `Day 4: Mount Abu, After breakfast, visit local sightseeing at Udaipur like City Palace, Fate Sagar Lake, Pichola Lake & Rope way.
+              Return to Hotel in evening. Lunch en-route.
+              Evening free to explore local area.
+              Dinner & Overnight at Hotel/Resort/Haveli in Udaipur (or) you can proceed towards Mount Abu (extra cost).
+              Reach Mt. Abu & check-in at Hotel.
+              Evening free to explore local area.
+              Dinner & Overnight at Hotel/Resort in Mount Abu.`,
+
+              `Day 5: Towards Jaipur, After breakfast in the morning, check-out & visit Puskar via Chittor & Ajmer Sharif.
+              Lunch en-route. Night Stay at Puskar (or) proceed straight to Jaipur.
+              Check into Hotel.
+              Evening free to explore local area.
+              Dinner & Overnight at Hotel/Resort/Haveli in Jaipur.`,
+
+              `Day 6: Jaipur Local Sightseeing, After breakfast visit local sight-seeing like Amer Fort, City Palace, Jantar Mantar, Hawa Mahal, Pink City, etc.
+              Lunch en-route.
+              Evening free to explore local area.
+              Dinner & Overnight at Hotel/Resort/Haveli in Jaipur.`,
+
+              `Day 7: Departure, Breakfast & check-out from Hotel.
+              Visit Johuree Bazaar if time permits.
+              Then leave to drop-off at Jaipur Airport / Station for your onward / return train journey flight to Kolkata as per your departure timing.
+              Tour ends...`
+            ]}
+          />
+
+          <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 shadow-xl mt-5">
+            <div className="grid md:grid-cols-1 gap-8">
+              <div className="bg-orange-100 rounded-xl p-6 mt-8">
+                <h4 className="font-bold text-orange-800 mb-3">Package Highlights</h4>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-orange-600" />
+                    <span className="text-gray-700">Pink City - Jaipur</span>
                   </div>
-
-                  {/* Day 2 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 2: Jaisalmer Exploration</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast, proceed towards Jaisalmer.
-                      On the way visit, Sonar Kella, Patwa Haveli and Gadisar lake.
-                      After that go to Sam Desert. Lunch en-route.
-                      Check into Desert Camp. Experience sunset point on a Desert Safari on Jeep.
-                      Enjoy evening with live local Folk Dance & cultural show.
-                      Dinner & Overnight at Tent in Jaisalmer.
-                    </p>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-orange-600" />
+                    <span className="text-gray-700">City Palace & Jantar Mantar</span>
                   </div>
-
-                  {/* Day 3 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 3: Udaipur</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Early morning; you can enjoy a Camel Safari (your cost).
-                      Back to tent for breakfast. Then check out & proceed towards Udaipur via Sonar Kella (if you have not visited on earlier day).
-                      Lunch en route. Return in evening.
-                      Free to explore local area.
-                      Dinner & Overnight at Hotel/Resort/Haveli in Udaipur.
-                    </p>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-orange-600" />
+                    <span className="text-gray-700">Desert Safari & Camel Rides</span>
                   </div>
-
-                  {/* Day 4 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 4: Mount Abu</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast, visit local sightseeing at Udaipur like City Palace, Fate Sagar Lake, Pichola Lake & Rope way.
-                      Return to Hotel in evening. Lunch en-route.
-                      Evening free to explore local area.
-                      Dinner & Overnight at Hotel/Resort/Haveli in Udaipur (or) you can proceed towards Mount Abu (extra cost).
-                      Reach Mt. Abu & check-in at Hotel.
-                      Evening free to explore local area.
-                      Dinner & Overnight at Hotel/Resort in Mount Abu.
-                    </p>
-                  </div>
-
-                  {/* Day 5 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 5: Towards Jaipur</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast in the morning, check-out & visit Puskar via Chittor & Ajmer Sharif.
-                      Lunch en-route. Night Stay at Puskar (or) proceed straight to Jaipur.
-                      Check into Hotel.
-                      Evening free to explore local area.
-                      Dinner & Overnight at Hotel/Resort/Haveli in Jaipur.
-                    </p>
-                  </div>
-
-                  {/* Day 6 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 6: Jaipur Local Sightseeing</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast visit local sight-seeing like Amer Fort, City Palace, Jantar Mantar, Hawa Mahal, Pink City, etc.
-                      Lunch en-route.
-                      Evening free to explore local area.
-                      Dinner & Overnight at Hotel/Resort/Haveli in Jaipur.
-                    </p>
-                  </div>
-
-                  {/* Day 7 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 7: Departure</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Breakfast & check-out from Hotel.
-                      Visit Johuree Bazaar if time permits.
-                      Then leave to drop-off at Jaipur Airport / Station for your onward / return train journey flight to Kolkata as per your departure timing.
-                      Tour ends...
-                    </p>
-                  </div>
-
-                  <div className="bg-orange-100 rounded-xl p-6 mt-8">
-                    <h4 className="font-bold text-orange-800 mb-3">Package Highlights</h4>
-                    <div className="space-y-2">
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-orange-600" />
-                        <span className="text-gray-700">Pink City - Jaipur</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-orange-600" />
-                        <span className="text-gray-700">City Palace & Jantar Mantar</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-orange-600" />
-                        <span className="text-gray-700">Desert Safari & Camel Rides</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-orange-600" />
-                        <span className="text-gray-700">Mount Abu Hill Station</span>
-                      </div>
-                    </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-orange-600" />
+                    <span className="text-gray-700">Mount Abu Hill Station</span>
                   </div>
                 </div>
               </div>
@@ -216,88 +144,47 @@ export default function RajasthanTourismPage() {
       {/* ================= BIKANER ADD-ON ================= */}
       <section className="py-20 bg-gradient-to-br from-blue-50 to-indigo-50">
         <div className="max-w-7xl mx-auto px-6">
+          <Destination
+            title="Add-on Bikaner"
+            cta="Book Now For 2N/3D"
+            subtitle="Mandwa - Sanbhar Salt Lake"
+            content={[
+              `Day 1: Arrival in Bikaner, Our representative will receive you at Jodhpur Airport / Bikaner Railway Station (or) on your arrival from Jaipur.
+              Check into Hotel. Lunch break.
+              Post lunch, visit Junagarh Fort & Laalgarh Palace.
+              Evening free to explore local area.
+              Dinner & Overnight at Hotel/Resort/Haveli in Bikaner.`,
 
+              `Day 2: Bikaner Sightseeing, After breakfast, proceed to explore Bikaner.
+              Visit Bhansagar Jain Temple, Shiv Bari & Camel Breeding centre.
+              Lunch en-route. Post Lunch, you may visit Deshnoke Temple (Rat Temple) where one can see 100s of rats manning to deity.
+              Evening free to explore local area.
+              Dinner & Overnight at Hotel/Resort/Haveli in Bikaner.`,
 
-          <div className=" mb-12">
-            <div className='flex gap-5  items-center'>
-              <h2 className="text-4xl md:text-5xl font-bold mb-4"> Add-on Bikaner </h2>
-               <a href="/book-tour" className='bg-red-600 font-semibold shadow-md rounded-full text-white px-3 py-3'>
-              Book Now For  2N/3D
-            </a>
-            </div>
-           
-              <p className="text-xl text-gray-600 max-w-3xl">
-                Mandwa - Sanbhar Salt Lake -
-              </p>
-          </div>
-          <div className="bg-white rounded-2xl shadow-xl p-8">
-            <div className="">
-              <div>
-                <div className="space-y-6 grid md:grid-cols-2 gap-8">
-                  {/* Day 1 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 1: Arrival in Bikaner</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Our representative will receive you at Jodhpur Airport / Bikaner Railway Station (or) on your arrival from Jaipur.
-                      Check into Hotel. Lunch break.
-                      Post lunch, visit Junagarh Fort & Laalgarh Palace.
-                      Evening free to explore local area.
-                      Dinner & Overnight at Hotel/Resort/Haveli in Bikaner.
-                    </p>
+              `Day 3: Mandwa, Breakfast & check-out from Hotel.
+              On route, you stop-over at Sanbhar Salt Lake (extra cost) and if time permits.
+              Lunch en-route.
+              Then drop-off at Jodhpur Airport / Nearest Railway Station for your onward / return Train journey (or) Flight as per your departure timing.
+              Tour ends...`
+            ]}
+          />
+
+          <div className="bg-white rounded-2xl shadow-xl p-8 mt-5">
+            <div className="grid md:grid-cols-1 gap-8">
+              <div className="bg-blue-100 rounded-xl p-6 mt-8">
+                <h4 className="font-bold text-blue-800 mb-3">Bikaner Highlights</h4>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-blue-600" />
+                    <span className="text-gray-700">Junagarh Fort & Laalgarh Palace</span>
                   </div>
-
-                  {/* Day 2 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 2: Bikaner Sightseeing</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast, proceed to explore Bikaner.
-                      Visit Bhansagar Jain Temple, Shiv Bari & Camel Breeding centre.
-                      Lunch en-route. Post Lunch, you may visit Deshnoke Temple (Rat Temple) where one can see 100s of rats manning to deity.
-                      Evening free to explore local area.
-                      Dinner & Overnight at Hotel/Resort/Haveli in Bikaner.
-                    </p>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-blue-600" />
+                    <span className="text-gray-700">Bhansagar Jain Temple</span>
                   </div>
-
-                  {/* Day 3 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 3: Mandwa</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                    
-                      Breakfast & check-out from Hotel.
-                      On route, you stop-over at Sanbhar Salt Lake (extra cost) and if time permits.
-                      Lunch en-route.
-                      Then drop-off at Jodhpur Airport / Nearest Railway Station for your onward / return Train journey (or) Flight as per your departure timing.
-                      Tour ends...
-                    </p>
-                  </div>
-
-                
-
-                  <div className="bg-blue-100 rounded-xl p-6 mt-8">
-                    <h4 className="font-bold text-blue-800 mb-3">Bikaner Highlights</h4>
-                    <div className="space-y-2">
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-blue-600" />
-                        <span className="text-gray-700">Junagarh Fort & Laalgarh Palace</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-blue-600" />
-                        <span className="text-gray-700">Bhansagar Jain Temple</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-blue-600" />
-                        <span className="text-gray-700">Camel Breeding Centre</span>
-                      </div>
-                    </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-blue-600" />
+                    <span className="text-gray-700">Camel Breeding Centre</span>
                   </div>
                 </div>
               </div>
@@ -309,86 +196,46 @@ export default function RajasthanTourismPage() {
       {/* ================= RANTHAMBORE ADD-ON ================= */}
       <section className="py-20 bg-gradient-to-br from-green-50 to-emerald-50">
         <div className="max-w-7xl mx-auto px-6">
-          
-          
+          <Destination
+            title="Add-on Ranthambore"
+            cta="Book Now For 2N/3D"
+            subtitle="Wildlife Safari - Tiger Reserve"
+            content={[
+              `Day 1: Arrival in Ranthambore, Our representative will receive you at Sawai Madhopur Railway Station / Airport.
+              Transfer to hotel & check-in.
+              Lunch & rest. Post lunch, visit Ranthambore Fort.
+              Evening free to explore local area.
+              Dinner & Overnight at Hotel/Resort in Ranthambore.`,
 
-            <div className=" mb-12">
-            <div className='flex gap-5  items-center'>
-               <h2 className="text-4xl md:text-5xl font-bold mb-4"> Add-on Ranthambore </h2>
-               <a href="/book-tour" className='bg-red-600 font-semibold shadow-md rounded-full text-white px-3 py-3'>
-              Book Now For  2N/3D
-            </a>
-            </div>
-           
-              <p className="text-xl text-gray-600 max-w-3xl">
-                Wildlife Safari - Tiger Reserve
-              </p>
-          </div>
-          <div className="bg-white rounded-2xl shadow-xl p-8">
-            <div className="">
-              <div>
-                <div className="space-y-6 grid md:grid-cols-2 gap-8">
-                  {/* Day 1 */}
-                  <div className="border-l-4 border-green-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-green-600" />
-                      <h3 className="text-xl font-bold">Day 1: Arrival in Ranthambore</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Our representative will receive you at Sawai Madhopur Railway Station / Airport.
-                      Transfer to hotel & check-in.
-                      Lunch & rest. Post lunch, visit Ranthambore Fort.
-                      Evening free to explore local area.
-                      Dinner & Overnight at Hotel/Resort in Ranthambore.
-                    </p>
+              `Day 2: Wildlife Safari, Early morning jeep safari into Ranthambore National Park.
+              Return to hotel for breakfast.
+              Post lunch, afternoon jeep safari for tiger spotting.
+              Evening free for leisure.
+              Dinner & Overnight at Hotel/Resort in Ranthambore.`,
+
+              `Day 3: Departure, Breakfast & check-out from Hotel.
+              Visit local markets if time permits.
+              Then drop-off at Sawai Madhopur Railway Station / Airport for your onward journey.
+              Tour ends...`
+            ]}
+          />
+
+          <div className="bg-white rounded-2xl shadow-xl p-8 mt-5">
+            <div className="grid md:grid-cols-1 gap-8">
+              <div className="bg-green-100 rounded-xl p-6 mt-8">
+                <h4 className="font-bold text-green-800 mb-3">Ranthambore Highlights</h4>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-600" />
+                    <span className="text-gray-700">Tiger Safari in National Park</span>
                   </div>
-
-                  {/* Day 2 */}
-                  <div className="border-l-4 border-green-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-green-600" />
-                      <h3 className="text-xl font-bold">Day 2: Wildlife Safari</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Early morning jeep safari into Ranthambore National Park.
-                      Return to hotel for breakfast.
-                      Post lunch, afternoon jeep safari for tiger spotting.
-                      Evening free for leisure.
-                      Dinner & Overnight at Hotel/Resort in Ranthambore.
-                    </p>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-600" />
+                    <span className="text-gray-700">Ranthambore Fort Visit</span>
                   </div>
-
-                  {/* Day 3 */}
-                  <div className="border-l-4 border-green-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-green-600" />
-                      <h3 className="text-xl font-bold">Day 3: Departure</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Breakfast & check-out from Hotel.
-                      Visit local markets if time permits.
-                      Then drop-off at Sawai Madhopur Railway Station / Airport for your onward journey.
-                      Tour ends...
-                    </p>
-                  </div>
-
-                
-                  <div className="bg-green-100 rounded-xl p-6 mt-8">
-                    <h4 className="font-bold text-green-800 mb-3">Ranthambore Highlights</h4>
-                    <div className="space-y-2">
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-green-600" />
-                        <span className="text-gray-700">Tiger Safari in National Park</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-green-600" />
-                        <span className="text-gray-700">Ranthambore Fort Visit</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-green-600" />
-                        <span className="text-gray-700">Wildlife Photography</span>
-                      </div>
-                    </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-600" />
+                    <span className="text-gray-700">Wildlife Photography</span>
                   </div>
                 </div>
               </div>
@@ -482,5 +329,36 @@ export default function RajasthanTourismPage() {
 
       <ContactCTA />
     </main>
+  )
+}
+
+function Destination({ title, subtitle, content, cta }: { title: string; subtitle: string; content: string[]; cta: string; }) {
+  return (
+    <div className="bg-white shadow-xl rounded-3xl p-10 space-y-6">
+      <div className="flex gap-5 items-center mt-8">
+        <h2 className="text-3xl font-bold text-indigo-700">{title}</h2>
+        <a
+          href="/book-tour"
+          className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+        >
+          {cta}
+        </a>
+      </div>
+
+      <p className="font-semibold text-gray-700">{subtitle}</p>
+
+      <div className="space-y-6">
+        {content.map((item, index) => (
+          <div
+            key={index}
+            className="bg-gray-100 rounded-2xl p-6 border-l-4 border-indigo-500"
+          >
+            <p className="text-gray-700 leading-8 whitespace-pre-line">
+              {item}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
   )
 }

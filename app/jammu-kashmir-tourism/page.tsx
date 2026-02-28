@@ -63,147 +63,76 @@ export default function JammuKashmirTourismPage() {
       {/* ================= JAMMU & KASHMIR MAIN PACKAGE ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-         <div className="flex flex-col space-y-2">
-            <div className='flex gap-5 items-center'>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Jammu & Kashmir Circuit</h2>
-              <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
-                Book now For 6N/7D
-              </a>
-            </div>
-            <p className="text-xl text-gray-600 max-w-3xl mb-10">
-              Srinagar - Gulmarg - Sonmarg - Pahalgam </p>
-          </div>
+          <Destination
+            title="Jammu & Kashmir Circuit"
+            cta="Book now For 6N/7D"
+            subtitle="Srinagar - Gulmarg - Sonmarg - Pahalgam"
+            content={[
+              `Day 1: Arrival in Srinagar, Our services start with your arrival at Jammu Railway Station (or) Srinagar Airport.
+              Meet & greet and transfer to Houseboat at Srinagar (or) Hotel at Srinagar.
+              Check-in at Hotel. Lunch break.
+              Rest of the day at leisure.
+              Evening free at your own.
+              Dinner & Overnight stay at Hotel/Resort (or) Houseboat at Dal Lake / Srinagar.`,
 
-          <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 shadow-xl">
-            <div className="">
-              <div>
-                <div className="space-y-6 grid md:grid-cols-2 gap-8">
-                  {/* Day 1 */}
-                  <div className="border-l-4 border-green-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-green-600" />
-                      <h3 className="text-xl font-bold">Day 1: Arrival in Srinagar</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Our services start with your arrival at Jammu Railway Station (or) Srinagar Airport. 
-                      Meet & greet and transfer to Houseboat at Srinagar (or) Hotel at Srinagar. 
-                      Check-in at Hotel. Lunch break. 
-                      Rest of the day at leisure. 
-                      Evening free at your own. 
-                      Dinner & Overnight stay at Hotel/Resort (or) Houseboat at Dal Lake / Srinagar.
-                    </p>
+              `Day 2: Srinagar Local Sightseeing, After breakfast, visit Mughal Gardens, Chashmi-e Shahi, Nishat & Shalimar Bagh.
+              Lunch en-route. In the afternoon, enjoy a Shikara ride on the Dal Lake.
+              Evening free at your own.
+              Dinner & Overnight stay at Hotel/Resort at Srinagar.`,
+
+              `Day 3: Sonmarg Excursion, After breakfast, proceed for a full day excursion of Sonmarg,
+              which is one of the most beautiful drives from Srinagar.
+              Lunch en-route. You may take a pony ride (at your own cost) to Thajiwas Glacier where snow remains round the year.
+              Return to Hotel by evening.
+              Evening free at your own.
+              Dinner & Overnight stay at Hotel/Resort at Srinagar.`,
+
+              `Day 4: Gulmarg - Meadow of Flowers, After breakfast, you will proceed for a full day excursion to Gulmarg,
+              Meadow of Flowers, situated at an altitude of 2730 meters,
+              full day at leisure to take leisurely walks on the lush green meadows of flowers with a backdrop of snow capped mountains.
+              Lunch en-route. Enjoy pony ride or Gondola ride (rope way) to Khillan Marg at your own cost.
+              Return to Hotel by evening.
+              Evening free at your own.
+              Dinner & Overnight stay at Hotel/Resort at Pahalgam / Srinagar (or) Drop to Jammu Airport/Railway Station for your onward journey.
+              Tour ends...`,
+
+              `Day 5: Pahalgam, After breakfast, you will proceed for Pahalgam,
+              The Valley of Shepherds, located on the bank of beautiful Lidder River.
+              Return to Hotel by evening.
+              Evening free at your own.
+              Dinner & Overnight stay at Hotel/Resort at Pahalgam / Srinagar (or) Drop to Jammu Airport/Railway Station for your onward journey.
+              Tour ends...`,
+
+              `Day 6: Local Day, After breakfast, your day is on your own for marketing or visit any place of attraction of your choice.
+              Lunch en-route.
+              Evening free at your own.
+              Dinner & Overnight stay at Hotel/Resort at Srinagar.`,
+
+              `Day 7: Departure, After breakfast, check out of Hotel and get driven to Jammu Railway Station / Srinagar Airport
+              for your return journey. Tour ends...`
+            ]}
+          />
+
+          <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 shadow-xl mt-5">
+            <div className="grid md:grid-cols-1 gap-8">
+              <div className="bg-green-100 rounded-xl p-6 mt-8">
+                <h4 className="font-bold text-green-800 mb-3">Package Highlights</h4>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-600" />
+                    <span className="text-gray-700">Houseboat Stay on Dal Lake</span>
                   </div>
-
-                  {/* Day 2 */}
-                  <div className="border-l-4 border-green-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-green-600" />
-                      <h3 className="text-xl font-bold">Day 2: Srinagar Local Sightseeing</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast, visit Mughal Gardens, Chashmi-e Shahi, Nishat & Shalimar Bagh. 
-                      Lunch en-route. In the afternoon, enjoy a Shikara ride on the Dal Lake. 
-                      Evening free at your own. 
-                      Dinner & Overnight stay at Hotel/Resort at Srinagar.
-                    </p>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-600" />
+                    <span className="text-gray-700">Shikara Ride on Dal Lake</span>
                   </div>
-
-                  {/* Day 3 */}
-                  <div className="border-l-4 border-green-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-green-600" />
-                      <h3 className="text-xl font-bold">Day 3: Sonmarg Excursion</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast, proceed for a full day excursion of Sonmarg, 
-                      which is one of the most beautiful drives from Srinagar. 
-                      Lunch en-route. You may take a pony ride (at your own cost) to Thajiwas Glacier where snow remains round the year. 
-                      Return to Hotel by evening. 
-                      Evening free at your own. 
-                      Dinner & Overnight stay at Hotel/Resort at Srinagar.
-                    </p>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-600" />
+                    <span className="text-gray-700">Mughal Gardens & Nishat Bagh</span>
                   </div>
-
-                  {/* Day 4 */}
-                  <div className="border-l-4 border-green-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-green-600" />
-                      <h3 className="text-xl font-bold">Day 4: Gulmarg - Meadow of Flowers</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast, you will proceed for a full day excursion to Gulmarg, 
-                      Meadow of Flowers, situated at an altitude of 2730 meters, 
-                      full day at leisure to take leisurely walks on the lush green meadows of flowers with a backdrop of snow capped mountains. 
-                      Lunch en-route. Enjoy pony ride or Gondola ride (rope way) to Khillan Marg at your own cost. 
-                      Return to Hotel by evening. 
-                      Evening free at your own. 
-                      Dinner & Overnight stay at Hotel/Resort at Pahalgam / Srinagar (or) Drop to Jammu Airport/Railway Station for your onward journey. 
-                      Tour ends...
-                    </p>
-                  </div>
-
-                  {/* Day 5 */}
-                  <div className="border-l-4 border-green-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-green-600" />
-                      <h3 className="text-xl font-bold">Day 5: Pahalgam</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast, you will proceed for Pahalgam, 
-                      The Valley of Shepherds, located on the bank of beautiful Lidder River. 
-                      Return to Hotel by evening. 
-                      Evening free at your own. 
-                      Dinner & Overnight stay at Hotel/Resort at Pahalgam / Srinagar (or) Drop to Jammu Airport/Railway Station for your onward journey. 
-                      Tour ends...
-                    </p>
-                  </div>
-
-                  {/* Day 6 */}
-                  <div className="border-l-4 border-green-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-green-600" />
-                      <h3 className="text-xl font-bold">Day 6: Local Day</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast, your day is on your own for marketing or visit any place of attraction of your choice. 
-                      Lunch en-route. 
-                      Evening free at your own. 
-                      Dinner & Overnight stay at Hotel/Resort at Srinagar.
-                    </p>
-                  </div>
-
-                  {/* Day 7 */}
-                  <div className="border-l-4 border-green-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-green-600" />
-                      <h3 className="text-xl font-bold">Day 7: Departure</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast, check out of Hotel and get driven to Jammu Railway Station / Srinagar Airport 
-                      for your return journey. Tour ends...
-                    </p>
-                  </div>
-
-                  <div className="bg-green-100 rounded-xl p-6 mt-8">
-                    <h4 className="font-bold text-green-800 mb-3">Package Highlights</h4>
-                    <div className="space-y-2">
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-green-600" />
-                        <span className="text-gray-700">Houseboat Stay on Dal Lake</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-green-600" />
-                        <span className="text-gray-700">Shikara Ride on Dal Lake</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-green-600" />
-                        <span className="text-gray-700">Mughal Gardens & Nishat Bagh</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-green-600" />
-                        <span className="text-gray-700">Sonmarg - Thajiwas Glacier</span>
-                      </div>
-                    </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-600" />
+                    <span className="text-gray-700">Sonmarg - Thajiwas Glacier</span>
                   </div>
                 </div>
               </div>
@@ -215,85 +144,47 @@ export default function JammuKashmirTourismPage() {
       {/* ================= VAISHNO DEVI ADD-ON ================= */}
       <section className="py-20 bg-gradient-to-br from-orange-50 to-amber-50">
         <div className="max-w-7xl mx-auto px-6">
-          <div className=" mb-12">
-            <div className="flex   items-center  gap-5 ">
-            <h2 className="text-4xl md:text-5xl font-bold">Add-on Vaishno Devi Darshan </h2>
-            <a href="/book-tour" className='bg-red-500  shadow-md rounded-full text-white px-3 py-3'>
-              Book Now For 2N/3D
-            </a>
-            
-           
-            </div>
-             <p className="text-xl text-gray-600 max-w-3xl ">
-              Jammu - Katra
-            </p>
-          </div>
+          <Destination
+            title="Add-on Vaishno Devi Darshan"
+            cta="Book Now For 2N/3D"
+            subtitle="Jammu - Katra"
+            content={[
+              `Day 1: Arrival at Jammu, On Arrival at Jammu Airport/Railway Station, meet assistance & transfer to Hotel at Katra.
+              Breakfast en-route. Check-in at Hotel and relax for a while.
+              Lunch break.
+              Start your trekking journey for Darshan of Divine Shrine Vaishno Devi.
+              Offer prayer. Lunch in any of the Langars en-route.
+              After returning from Temple, rest of the day at leisure.
+              Dinner & Overnight stay at Hotel at Katra.`,
 
-          <div className="bg-white rounded-2xl t shadow-xl p-8">
-            <div className="">
-              <div>
-                <div className="space-y-6 grid md:grid-cols-2 gap-8">
-                  {/* Day 1 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 1: Arrival at Jammu</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      On Arrival at Jammu Airport/Railway Station, meet assistance & transfer to Hotel at Katra. 
-                      Breakfast en-route. Check-in at Hotel and relax for a while. 
-                      Lunch break. 
-                      Start your trekking journey for Darshan of Divine Shrine Vaishno Devi. 
-                      Offer prayer. Lunch in any of the Langars en-route. 
-                      After returning from Temple, rest of the day at leisure. 
-                      Dinner & Overnight stay at Hotel at Katra.
-                    </p>
+              `Day 2: Trekking Journey, Start your trekking journey (15 km) early morning on foot for Darshan of Divine Shrine Vaishno Devi.
+              Offer prayer. Lunch in any of the Langars en-route.
+              After returning from Temple, rest of the day at leisure.
+              Dinner & Overnight stay at Hotel at Katra.`,
+
+              `Day 3: Srinagar Transfer, Early morning breakfast & proceed towards Srinagar.
+              Check into Hotel at Srinagar/Jammu.
+              Dinner & Overnight stay at Hotel/Resort at Jammu / Srinagar (or) Drop to Jammu Airport/Railway Station for your onward journey.
+              Tour end...`
+            ]}
+          />
+
+          <div className="bg-white rounded-2xl shadow-xl p-8 mt-5">
+            <div className="grid md:grid-cols-1 gap-8">
+              <div className="bg-orange-100 rounded-xl p-6 mt-8">
+                <h4 className="font-bold text-orange-800 mb-3">Vaishno Devi Highlights</h4>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-orange-600" />
+                    <span className="text-gray-700">Sacred Trek to Vaishno Devi</span>
                   </div>
-
-                  {/* Day 2 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 2: Trekking Journey</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Start your trekking journey (15 km) early morning on foot for Darshan of Divine Shrine Vaishno Devi. 
-                      Offer prayer. Lunch in any of the Langars en-route. 
-                      After returning from Temple, rest of the day at leisure. 
-                      Dinner & Overnight stay at Hotel at Katra.
-                    </p>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-orange-600" />
+                    <span className="text-gray-700">Traditional Langars</span>
                   </div>
-
-                  {/* Day 3 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 3: Srinagar Transfer</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Early morning breakfast & proceed towards Srinagar. 
-                      Check into Hotel at Srinagar/Jammu. 
-                      Dinner & Overnight stay at Hotel/Resort at Jammu / Srinagar (or) Drop to Jammu Airport/Railway Station for your onward journey. 
-                      Tour end...
-                    </p>
-                  </div>
-
-                  <div className="bg-orange-100 rounded-xl p-6 mt-8">
-                    <h4 className="font-bold text-orange-800 mb-3">Vaishno Devi Highlights</h4>
-                    <div className="space-y-2">
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-orange-600" />
-                        <span className="text-gray-700">Sacred Trek to Vaishno Devi</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-orange-600" />
-                        <span className="text-gray-700">Traditional Langars</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-orange-600" />
-                        <span className="text-gray-700">Scenic Mountain Views</span>
-                      </div>
-                    </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-orange-600" />
+                    <span className="text-gray-700">Scenic Mountain Views</span>
                   </div>
                 </div>
               </div>
@@ -389,5 +280,36 @@ export default function JammuKashmirTourismPage() {
        <ContactCTA />
 
     </main>
+  )
+}
+
+function Destination({ title, subtitle, content, cta }: { title: string; subtitle: string; content: string[]; cta: string; }) {
+  return (
+    <div className="bg-white shadow-xl rounded-3xl p-10 space-y-6">
+      <div className="flex gap-5 items-center mt-8">
+        <h2 className="text-3xl font-bold text-indigo-700">{title}</h2>
+        <a
+          href="/book-tour"
+          className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+        >
+          {cta}
+        </a>
+      </div>
+
+      <p className="font-semibold text-gray-700">{subtitle}</p>
+
+      <div className="space-y-6">
+        {content.map((item, index) => (
+          <div
+            key={index}
+            className="bg-gray-100 rounded-2xl p-6 border-l-4 border-indigo-500"
+          >
+            <p className="text-gray-700 leading-8 whitespace-pre-line">
+              {item}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
   )
 }

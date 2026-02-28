@@ -63,138 +63,72 @@ export default function SikkimTourismPage() {
       {/* ================= SIKKIM & GANGTOK MAIN PACKAGE ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-         <div className="flex flex-col space-y-2">
-            <div className='flex gap-5 items-center'>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Sikkim & Gangtok</h2>
-            <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
-                Book now For 5N/6D
-              </a>
-            </div>
-            <p className="text-xl text-gray-600 max-w-3xl mb-10">
-              With Changu Lake – Nathu La Pass – Baba Mandir </p>
-          </div>
+          <Destination
+            title="Sikkim & Gangtok"
+            cta="Book now For 5N/6D"
+            subtitle="With Changu Lake – Nathu La Pass – Baba Mandir"
+            content={[
+              `Day 1: Arrival in Gangtok, Our representative will receive you at New Jalpaiguri Railway Station (NJP) / Pakyong Airport / Bagdogra Airport.
+              Transfer to Gangtok, the capital of Sikkim at 1670 meters / 5480 feet height.
+              Nearly 135 kilometers, 4½ - 5 hours drive. Check into hotel.
+              Evening free to roam around M G Road (Mall) or local Shopping center.
+              Dinner & Overnight stay at Hotel in Gangtok.`,
 
-          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 shadow-xl">
-            <div className="grid md:grid-cols-2 gap-8">
-              <div>
-                <div className="space-y-6">
-                  {/* Day 1 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 1: Arrival in Gangtok</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Our representative will receive you at New Jalpaiguri Railway Station (NJP) / Pakyong Airport / Bagdogra Airport.
-                      Transfer to Gangtok, the capital of Sikkim at 1670 meters / 5480 feet height.
-                      Nearly 135 kilometers, 4½ - 5 hours drive. Check into hotel.
-                      Evening free to roam around M G Road (Mall) or local Shopping center.
-                      Dinner & Overnight stay at Hotel in Gangtok.
-                    </p>
+              `Day 2: Gangtok City Tour, After breakfast, visit Ranka Monastery - one of the oldest and most beautiful monasteries of India.
+              Visit Ban Jhagri Falls, Shanti View Point, Ban Jhagri Falls, Institute of Tibetology,
+              Ganesh Tok, Cottage Industry, Flower Show, White Hall, Tashi View Point, Hanuman Tok.
+              Dinner & Overnight at Hotel in Gangtok.`,
+
+              `Day 3: Gangtok Sightseeing, After breakfast, experience full day sightseeing of places like Char Dham, Samdruptse,
+              at 135 ft high is the tallest statue of "Guru Padmasambhava", also known as Guru Rinpoche &
+              Siddhesvar Dham, DuDrul Chorten, Temi Tea Garden, Namchi Village.
+              Lunch en-route. Return to Hotel by evening. Night stay in Hotel/Resort at Gangtok.`,
+
+              `Day 4: Changu Lake & Nathu La Pass, After early breakfast, this is nearly 50 km drive and takes nearly 2 hours.
+              Visit to Tsomgo / Changu Lake and Baba Mandir to experience cool, serene water and picturesque beauty.
+              Tsomgo lake is one of the holy lakes of the region.
+              A temple of Lord Shiva is built on the lakeside.
+              Primula flowers and other alpine plantation provide immaculate beauty to this place.
+              Till April it is full of snow and lay frozen.
+              Nathu La Pass permits have to be arranged the previous night when Voters ID card will be asked for.
+              Nathu La Pass (Monday closed) - once booked, amount is not refunded even if trip gets cancelled.
+              (For Nathula Pass, extra US $100 / Rs. 5,000/- per vehicle with 4-6 PAX has to be paid for permit & to be paid at spot).
+              Lunch en-route. Without permit, you can only visit Changu Lake & Baba Mandir.
+              Evening free to stroll around M G Road or Local Market.
+              Dinner & Overnight stay in Hotel/Resort at Gangtok.`,
+
+              `Day 5: Rumtek Monastery, After breakfast, proceed to visit Rumtek Monastery, Do Drul Chorten, Saramsa Garden,
+              Enchey Monastery - a must visit when in Sikkim.
+              Lunch en-route. Return in evening.
+              Dinner & Overnight at Hotel/Resort in Gangtok.`,
+
+              `Day 6: Departure, After breakfast & Check-out. Lunch en-route.
+              Drive to Pakyong Airport in Sikkim / Bagdogra Airport in Bengal (IXB) /
+              New Jalpaiguri Railway Station (NJP), a 3-4 hrs drive in AC vehicle for forwarding journey.
+              Tour ends...`
+            ]}
+          />
+
+          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 shadow-xl mt-5">
+            <div className="grid md:grid-cols-1 gap-8">
+              <div className="bg-blue-100 rounded-xl p-6 mt-8">
+                <h4 className="font-bold text-blue-800 mb-3">Package Highlights</h4>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-blue-600" />
+                    <span className="text-gray-700">Gangtok - Capital at 1670 meters</span>
                   </div>
-
-                  {/* Day 2 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 2: Gangtok City Tour</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast, visit Ranka Monastery - one of the oldest and most beautiful monasteries of India.
-                      Visit Ban Jhagri Falls, Shanti View Point, Ban Jhagri Falls, Institute of Tibetology,
-                      Ganesh Tok, Cottage Industry, Flower Show, White Hall, Tashi View Point, Hanuman Tok.
-                      Dinner & Overnight at Hotel in Gangtok.
-                    </p>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-blue-600" />
+                    <span className="text-gray-700">Tsomgo Lake & Baba Mandir</span>
                   </div>
-
-                  {/* Day 3 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 3: Gangtok Sightseeing</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast, experience full day sightseeing of places like Char Dham, Samdruptse,
-                      at 135 ft high is the tallest statue of "Guru Padmasambhava", also known as Guru Rinpoche &
-                      Siddhesvar Dham, DuDrul Chorten, Temi Tea Garden, Namchi Village.
-                      Lunch en-route. Return to Hotel by evening. Night stay in Hotel/Resort at Gangtok.
-                    </p>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-blue-600" />
+                    <span className="text-gray-700">Nathu La Pass (Permit required)</span>
                   </div>
-                </div>
-              </div>
-
-              <div>
-                <div className="space-y-6">
-                  {/* Day 4 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 4: Changu Lake & Nathu La Pass</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After early breakfast, this is nearly 50 km drive and takes nearly 2 hours.
-                      Visit to Tsomgo / Changu Lake and Baba Mandir to experience cool, serene water and picturesque beauty.
-                      Tsomgo lake is one of the holy lakes of the region.
-                      A temple of Lord Shiva is built on the lakeside.
-                      Primula flowers and other alpine plantation provide immaculate beauty to this place.
-                      Till April it is full of snow and lay frozen.
-                      <strong>Nathu La Pass permits have to be arranged the previous night when Voters ID card will be asked for.</strong>
-                      Nathu La Pass (Monday closed) - once booked, amount is not refunded even if trip gets cancelled.
-                      (For Nathula Pass, extra US $100 / Rs. 5,000/- per vehicle with 4-6 PAX has to be paid for permit & to be paid at spot).
-                      Lunch en-route. Without permit, you can only visit Changu Lake & Baba Mandir.
-                      Evening free to stroll around M G Road or Local Market.
-                      Dinner & Overnight stay in Hotel/Resort at Gangtok.
-                    </p>
-                  </div>
-
-                  {/* Day 5 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 5: Rumtek Monastery</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast, proceed to visit Rumtek Monastery, Do Drul Chorten, Saramsa Garden,
-                      Enchey Monastery - a must visit when in Sikkim.
-                      Lunch en-route. Return in evening.
-                      Dinner & Overnight at Hotel/Resort in Gangtok.
-                    </p>
-                  </div>
-
-                  {/* Day 6 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 6: Departure</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast & Check-out. Lunch en-route.
-                      Drive to Pakyong Airport in Sikkim / Bagdogra Airport in Bengal (IXB) /
-                      New Jalpaiguri Railway Station (NJP), a 3-4 hrs drive in AC vehicle for forwarding journey.
-                      Tour ends...
-                    </p>
-                  </div>
-
-                  <div className="bg-blue-100 rounded-xl p-6 mt-8">
-                    <h4 className="font-bold text-blue-800 mb-3">Package Highlights</h4>
-                    <div className="space-y-2">
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-blue-600" />
-                        <span className="text-gray-700">Gangtok - Capital at 1670 meters</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-blue-600" />
-                        <span className="text-gray-700">Tsomgo Lake & Baba Mandir</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-blue-600" />
-                        <span className="text-gray-700">Nathu La Pass (Permit required)</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-blue-600" />
-                        <span className="text-gray-700">Rumtek Monastery visit</span>
-                      </div>
-                    </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-blue-600" />
+                    <span className="text-gray-700">Rumtek Monastery visit</span>
                   </div>
                 </div>
               </div>

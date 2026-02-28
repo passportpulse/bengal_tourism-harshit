@@ -91,155 +91,59 @@ export default function AssamGuwahatiTourismPage() {
       {/* ================= BUDGET TOUR PACKAGE ================= */}
       <section className="py-20 bg-gradient-to-br from-green-50 to-emerald-50">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Shillong, Guwahati, Kaziranga, Cherrapunjee, Kamakhya Temple</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Budget tour package with Bengal Tourism
-            </p>
-            <div className="mt-4 inline-flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-full">
-              <Sparkles className="w-5 h-5" />
-              <span className="font-semibold">Special Tailor made Combination Package</span>
-            </div>
-            <p className="text-lg text-gray-700 mt-4">
-              Number of Days & Cost can be designed on Request
-            </p>
-          </div>
+          <Destination
+            title="Shillong, Guwahati, Kaziranga, Cherrapunjee, Kamakhya Temple"
+            cta="Book Now For 5N/6D"
+            subtitle="Budget tour package with Bengal Tourism - Special Tailor made Combination Package - Number of Days & Cost can be designed on Request"
+            content={[
+              `Day 1: Arrival at Guwahati and Transfer to Shillong, Meet your driver on arrival at Guwahati Railway station or Airport and start your journey towards Shillong which is also known as "Scotland of East".
+              On the way if time permits you can enjoy at Umium lake which is situated in a pristine surrounding. In the lake you can enjoy boating (your cost).
+              Check-in to hotel upon arrival in Shillong. Rest of the day free to explore the market on your own. Overnight stay at Hotel / Shillong.`,
 
-          <div className="bg-white rounded-3xl shadow-2xl overflow-hidden">
-            {/* Package Header */}
-            <div className="bg-gradient-to-r from-green-600 to-emerald-600 text-white p-8">
+              `Day 2: Day tour to Cherrapunjee, After breakfast, start your day tour of Cherapunjee which is famous as the wettest place with highest rainfall on earth.
+              You will be visiting Mawkadok View Point, Wakabha Falls, Noh Kali Kai Falls, Eco Park, Mawsami Cave and the famous
+              Noh Sngithiang Falls (Seven Sister Falls) which is one of the highest waterfall in India.
+              Evening return back to Shillong. Overnight stay at Hotel / Shillong.`,
+
+              `Day 3: Visit Mawllynnong Village, Early morning we will visit the cleanest village in India that is nearly 28 kms from Shillong.
+              Just close to the scenic village, there are interesting sights like the Living Roots Bridge and a beautiful sight of boulders
+              balancing on another rock. In the afternoon we will return back to Shillong by evening. Overnight stay at Hotel / Shillong.`,
+
+              `Day 4: Shillong Local sightseeing, After breakfast we will go for exploring Shillong visiting Shillong Peak, Elephant Falls, Lady Hyderi Park, Golf Course,
+              Cathedral Church, State Museum, Don Bosco Museum and Ward's Lake where you can enjoy boating on direct payment.
+              In the evening you are free to explore the market of Shillong on your own. Overnight at Hotel / Shillong.`,
+
+              `Day 5: Transfer to Guwahati, After breakfast we will start our journey towards Guwahati, which is also known as "Gateway of North-East".
+              Upon arrival check-in to hotel and later go for local sightseeing visiting Kalakshetra, Balaji Temple, Vasist Temple
+              and Umanad, which is a temple on an island on the might Brahmaputra. In the evening we will be going for a River cruise (your cost) or Kamakhya Temple.
+              Overnight at Hotel / Guwahati.`,
+
+              `Day 6: Visit Kamakhya Temple, After breakfast, we will be visiting Kamakhya Temple which is one of the important and famous Shakti Pith Temple in India
+              before boarding train or flight for your return journey. Tour Ends...`
+            ]}
+          />
+
+          <div className="bg-white rounded-3xl shadow-2xl overflow-hidden mt-5">
+            <div className="bg-gradient-to-r from-orange-500 to-amber-500 text-white p-8">
               <div className="flex items-center justify-between">
                 <div>
-                  <h3 className="text-3xl font-bold mb-2">Guwahati Tour</h3>
+                  <h3 className="text-2xl font-bold mb-2">ADD ON: Kaziranga Forest</h3>
                 </div>
-             
+                <a href="/book-tour" className="bg-red-600 font-semibold shadow-md rounded-full text-white px-4 py-2">
+                  Book Now For 1N/2D
+                </a>
               </div>
             </div>
-
-            {/* Detailed Itinerary */}
-            <div className="p-8 space-y-8">
-
-              {/* Day 1 */}
-              <div className="border-l-4 border-green-500 pl-6">
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="bg-green-500 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">
-                    1
-                  </div>
-                  <h4 className="text-2xl font-bold text-gray-900">Arrival at Guwahati and Transfer to Shillong</h4>
-                </div>
-                <p className="text-gray-700 leading-relaxed">
-                  Meet your driver on arrival at Guwahati Railway station or Airport and start your journey towards Shillong which is also known as "Scotland of East".
-                  On the way if time permits you can enjoy at Umium lake which is situated in a pristine surrounding. In the lake you can enjoy boating (your cost).
-                  Check-in to hotel upon arrival in Shillong. Rest of the day free to explore the market on your own. Overnight stay at Hotel / Shillong.
-                </p>
-              </div>
-
-              {/* Day 2 */}
-              <div className="border-l-4 border-blue-500 pl-6">
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="bg-blue-500 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">
-                    2
-                  </div>
-                  <h4 className="text-2xl font-bold text-gray-900">Day tour to Cherrapunjee</h4>
-                </div>
-                <p className="text-gray-700 leading-relaxed">
-                  After breakfast, start your day tour of Cherapunjee which is famous as the wettest place with highest rainfall on earth.
-                  You will be visiting Mawkadok View Point, Wakabha Falls, Noh Kali Kai Falls, Eco Park, Mawsami Cave and the famous
-                  Noh Sngithiang Falls (Seven Sister Falls) which is one of the highest waterfall in India.
-                  Evening return back to Shillong. Overnight stay at Hotel / Shillong.
-                </p>
-              </div>
-
-              {/* Day 3 */}
-              <div className="border-l-4 border-purple-500 pl-6">
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="bg-purple-500 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">
-                    3
-                  </div>
-                  <h4 className="text-2xl font-bold text-gray-900">Visit Mawllynnong Village</h4>
-                </div>
-                <p className="text-gray-700 leading-relaxed">
-                  Early morning we will visit the cleanest village in India that is nearly 28 kms from Shillong.
-                  Just close to the scenic village, there are interesting sights like the Living Roots Bridge and a beautiful sight of boulders
-                  balancing on another rock. In the afternoon we will return back to Shillong by evening. Overnight stay at Hotel / Shillong.
-                </p>
-              </div>
-
-              {/* ADD ON Day */}
-              <div className="border-l-4 border-orange-500 pl-6 bg-orange-50 p-6 rounded-lg">
-                <div>
-
-                  <div className='flex justify-between items-center mb-3'>
-                    <div className="flex items-center gap-3 ">
-                      <div className="bg-orange-500 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">
-                        +
-                      </div>
-                      <h4 className="text-2xl font-bold text-gray-900">ADD ON: Kaziranga Forest</h4>
-                    </div>
-                    <a href="/book-tour" className='bg-red-600 font-semibold shadow-md rounded-full text-white px-3 py-3'>
-                      Book Now For 1N/2D
-                    </a>
-                  </div>
-
-                </div>
-                <p className="text-gray-700 leading-relaxed">
-                  Get up early for elephant safari into the forest. Our representative will take you to the elephant riding point by jeeps.
-                  Here we will be carried through the tall grass. Meanwhile the morning mists will slowly lift leading to an experience that one cannot forget easily.
-                  The elephant safari is the best mean for wildlife viewing as the wild animals are not afraid of the elephants and it is possible to observe them from very closely.
-                  Return to the resort for breakfast. After breakfast, we will go for jeep safari in the national park for wildlife viewing in the central zone.
-                  Later return to the resort for unwinding yourself and having lunch. After lunch we will go on our second jeep safari of the day, this time we will visit the Western zone of the national park.
-                  One can also spend some time at the Donga view point, situated in western zone. Overnight stay at Resort / Kaziranga.
-                </p>
-              </div>
-
-              {/* Day 4 */}
-              <div className="border-l-4 border-teal-500 pl-6">
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="bg-teal-500 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">
-                    4
-                  </div>
-                  <h4 className="text-2xl font-bold text-gray-900">Shillong Local sightseeing</h4>
-                </div>
-                <p className="text-gray-700 leading-relaxed">
-                  After breakfast we will go for exploring Shillong visiting Shillong Peak, Elephant Falls, Lady Hyderi Park, Golf Course,
-                  Cathedral Church, State Museum, Don Bosco Museum and Ward's Lake where you can enjoy boating on direct payment.
-                  In the evening you are free to explore the market of Shillong on your own. Overnight at Hotel / Shillong.
-                </p>
-              </div>
-
-              {/* Day 5 */}
-              <div className="border-l-4 border-indigo-500 pl-6">
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="bg-indigo-500 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">
-                    5
-                  </div>
-                  <h4 className="text-2xl font-bold text-gray-900">Transfer to Guwahati</h4>
-                </div>
-                <p className="text-gray-700 leading-relaxed">
-                  After breakfast we will start our journey towards Guwahati, which is also known as "Gateway of North-East".
-                  Upon arrival check-in to hotel and later go for local sightseeing visiting Kalakshetra, Balaji Temple, Vasist Temple
-                  and Umanad, which is a temple on an island on the might Brahmaputra. In the evening we will be going for a River cruise (your cost) or Kamakhya Temple.
-                  Overnight at Hotel / Guwahati.
-                </p>
-              </div>
-
-              {/* Day 6 */}
-              <div className="border-l-4 border-red-500 pl-6">
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="bg-red-500 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">
-                    6
-                  </div>
-                  <h4 className="text-2xl font-bold text-gray-900">Visit Kamakhya Temple</h4>
-                </div>
-                <p className="text-gray-700 leading-relaxed">
-                  After breakfast, we will be visiting Kamakhya Temple which is one of the important and famous Shakti Pith Temple in India
-                  before boarding train or flight for your return journey. Tour Ends...
-                </p>
-              </div>
-
+            <div className="p-6">
+              <p className="text-gray-700 leading-relaxed">
+                Get up early for elephant safari into the forest. Our representative will take you to the elephant riding point by jeeps.
+                Here we will be carried through the tall grass. Meanwhile the morning mists will slowly lift leading to an experience that one cannot forget easily.
+                The elephant safari is the best mean for wildlife viewing as the wild animals are not afraid of the elephants and it is possible to observe them from very closely.
+                Return to the resort for breakfast. After breakfast, we will go for jeep safari in the national park for wildlife viewing in the central zone.
+                Later return to the resort for unwinding yourself and having lunch. After lunch we will go on our second jeep safari of the day, this time we will visit the Western zone of the national park.
+                One can also spend some time at the Donga view point, situated in western zone. Overnight stay at Resort / Kaziranga.
+              </p>
             </div>
-
-
           </div>
         </div>
       </section>
@@ -593,5 +497,36 @@ export default function AssamGuwahatiTourismPage() {
 
 
     </main>
+  )
+}
+
+function Destination({ title, subtitle, content, cta }: { title: string; subtitle: string; content: string[]; cta: string; }) {
+  return (
+    <div className="bg-white shadow-xl rounded-3xl p-10 space-y-6">
+      <div className="flex gap-5 items-center mt-8">
+        <h2 className="text-3xl font-bold text-indigo-700">{title}</h2>
+        <a
+          href="/book-tour"
+          className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+        >
+          {cta}
+        </a>
+      </div>
+
+      <p className="font-semibold text-gray-700">{subtitle}</p>
+
+      <div className="space-y-6">
+        {content.map((item, index) => (
+          <div
+            key={index}
+            className="bg-gray-100 rounded-2xl p-6 border-l-4 border-indigo-500"
+          >
+            <p className="text-gray-700 leading-8 whitespace-pre-line">
+              {item}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
   )
 }

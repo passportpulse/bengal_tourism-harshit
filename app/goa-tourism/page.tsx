@@ -63,123 +63,65 @@ export default function GoaTourismPage() {
       {/* ================= GOA CIRCUIT PACKAGE ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-      <div className="flex flex-col space-y-2">
-            <div className='flex gap-5 items-center'>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Goa Beach Circuit</h2>
-                 <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
-                Book now For 4N/5D
-              </a>
-            </div>
-            <p className="text-xl text-gray-600 max-w-3xl mb-10">
-              Anjuna - Calangute - Baga 
-            </p>
-          </div>
+          <Destination
+            title="Goa Beach Circuit"
+            cta="Book now For 4N/5D"
+            subtitle="Anjuna - Calangute - Baga"
+            content={[
+              `Day 1: Arrival & Beach Relaxation, On arrival at Dabolim Airport / Madgaon Railway Station, you will be transferred to Hotel.
+              Check in and relax for a while. Lunch break.
+              Spend a leisurely time on beaches near you, sampling some delicious Goan cuisine.
+              Soak in the pulsating night-life on Goan Beaches.
+              Breakfast & Dinner included. Dinner & Overnight at Hotel/Resort at Anjuna / Calangute / Goa.`,
 
-          <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 shadow-xl">
-            <div className="grid md:grid-cols-2 gap-8">
-              <div>
-                <div className="space-y-6">
-                  {/* Day 1 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 1: Arrival & Beach Relaxation</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      On arrival at Dabolim Airport / Madgaon Railway Station, you will be transferred to Hotel. 
-                      Check in and relax for a while. Lunch break. 
-                      Spend a leisurely time on beaches near you, sampling some delicious Goan cuisine. 
-                      Soak in the pulsating night-life on Goan Beaches. 
-                      Breakfast & Dinner included. Dinner & Overnight at Hotel/Resort at Anjuna / Calangute / Goa.
-                    </p>
+              `Day 2: North Goa Exploration, After a delicious breakfast, go on a full-Day Tour of North Goa.
+              Go for a Dolphin sight-seeing Tour. Lunch en-route.
+              Visit Fort Aguada, Calangute Beach, Anjuna Beach, Baga Beach and Coco Beach.
+              Lunch en-route. Return in evening.
+              Soak in the pulsating night-life on Goan Beaches.
+              Breakfast & Dinner included. Overnight at Hotel/Resort at Anjuna / Calangute / Goa.`,
+
+              `Day 3: South Goa Sightseeing, Savour a delectable breakfast and get ready to explore South Goa.
+              Visit temples like Shri Manguesh, Shantadurga and Kavlem, at Priol.
+              Explore churches of old Goa like Basilica of Bom Jesus and Se Cathedral.
+              Lunch en-route. After lunch, visit Dona Paula Bay and Miramar Beach.
+              Afterwards, spend some time at Panjim Market and indulge in some shopping.
+              Soak in the pulsating night-life on Goan Beaches.
+              Breakfast & Dinner included. Overnight at Hotel/Resort at Baga / Palolem / Goa.`,
+
+              `Day 4: Leisure Day, Wake up late after late night revelry. After a hearty breakfast,
+              hit the beach for some Water Sports activity on your own.
+              Have your Lunch in any of the Shacks dotting the sea-shore.
+              Return to your Hotel. Take an afternoon siesta.
+              Evening free for your last minute shopping & another last visit to Beach.
+              Breakfast & Dinner included. Overnight at Hotel/Resort at Baga / Palolem / Goa.`,
+
+              `Day 5: Departure, After breakfast, check-out & transfer to Dabolim Airport / Madgaon Railway Station
+              for your return journey on your departure time.
+              Breakfast & Dinner included. Tour ends...`
+            ]}
+          />
+
+          <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 shadow-xl mt-5">
+            <div className="grid md:grid-cols-1 gap-8">
+              <div className="bg-blue-100 rounded-xl p-6 mt-8">
+                <h4 className="font-bold text-blue-800 mb-3">Package Highlights</h4>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-blue-600" />
+                    <span className="text-gray-700">Dolphin Sight-seeing Tour</span>
                   </div>
-
-                  {/* Day 2 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 2: North Goa Exploration</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After a delicious breakfast, go on a full-Day Tour of North Goa. 
-                      Go for a Dolphin sight-seeing Tour. Lunch en-route. 
-                      Visit Fort Aguada, Calangute Beach, Anjuna Beach, Baga Beach and Coco Beach. 
-                      Lunch en-route. Return in evening. 
-                      Soak in the pulsating night-life on Goan Beaches. 
-                      Breakfast & Dinner included. Overnight at Hotel/Resort at Anjuna / Calangute / Goa.
-                    </p>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-blue-600" />
+                    <span className="text-gray-700">North & South Goa Exploration</span>
                   </div>
-
-                  {/* Day 3 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 3: South Goa Sightseeing</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Savour a delectable breakfast and get ready to explore South Goa. 
-                      Visit temples like Shri Manguesh, Shantadurga and Kavlem, at Priol. 
-                      Explore churches of old Goa like Basilica of Bom Jesus and Se Cathedral. 
-                      Lunch en-route. After lunch, visit Dona Paula Bay and Miramar Beach. 
-                      Afterwards, spend some time at Panjim Market and indulge in some shopping. 
-                      Soak in the pulsating night-life on Goan Beaches. 
-                      Breakfast & Dinner included. Overnight at Hotel/Resort at Baga / Palolem / Goa.
-                    </p>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-blue-600" />
+                    <span className="text-gray-700">Beach Activities & Water Sports</span>
                   </div>
-                </div>
-              </div>
-
-              <div>
-                <div className="space-y-6">
-                  {/* Day 4 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 4: Leisure Day</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Wake up late after late night revelry. After a hearty breakfast, 
-                      hit the beach for some Water Sports activity on your own. 
-                      Have your Lunch in any of the Shacks dotting the sea-shore. 
-                      Return to your Hotel. Take an afternoon siesta. 
-                      Evening free for your last minute shopping & another last visit to Beach. 
-                      Breakfast & Dinner included. Overnight at Hotel/Resort at Baga / Palolem / Goa.
-                    </p>
-                  </div>
-
-                  {/* Day 5 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 5: Departure</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast, check-out & transfer to Dabolim Airport / Madgaon Railway Station 
-                      for your return journey on your departure time. 
-                      Breakfast & Dinner included. Tour ends...
-                    </p>
-                  </div>
-
-                  <div className="bg-blue-100 rounded-xl p-6 mt-8">
-                    <h4 className="font-bold text-blue-800 mb-3">Package Highlights</h4>
-                    <div className="space-y-2">
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-blue-600" />
-                        <span className="text-gray-700">Dolphin Sight-seeing Tour</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-blue-600" />
-                        <span className="text-gray-700">North & South Goa Exploration</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-blue-600" />
-                        <span className="text-gray-700">Beach Activities & Water Sports</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-blue-600" />
-                        <span className="text-gray-700">Pulsating Night-life</span>
-                      </div>
-                    </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-blue-600" />
+                    <span className="text-gray-700">Pulsating Night-life</span>
                   </div>
                 </div>
               </div>
@@ -363,5 +305,36 @@ export default function GoaTourismPage() {
     <ContactCTA />
 
     </main>
+  )
+}
+
+function Destination({ title, subtitle, content, cta }: { title: string; subtitle: string; content: string[]; cta: string; }) {
+  return (
+    <div className="bg-white shadow-xl rounded-3xl p-10 space-y-6">
+      <div className="flex gap-5 items-center mt-8">
+        <h2 className="text-3xl font-bold text-indigo-700">{title}</h2>
+        <a
+          href="/book-tour"
+          className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+        >
+          {cta}
+        </a>
+      </div>
+
+      <p className="font-semibold text-gray-700">{subtitle}</p>
+
+      <div className="space-y-6">
+        {content.map((item, index) => (
+          <div
+            key={index}
+            className="bg-gray-100 rounded-2xl p-6 border-l-4 border-indigo-500"
+          >
+            <p className="text-gray-700 leading-8 whitespace-pre-line">
+              {item}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
   )
 }

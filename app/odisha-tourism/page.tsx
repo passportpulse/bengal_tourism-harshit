@@ -63,120 +63,62 @@ export default function OdishaTourismPage() {
       {/* ================= PURI PACKAGE ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="flex flex-col space-y-2">
-            <div className='flex gap-5 items-center'>
-              <h2 className="text-4xl md:text-5xl font-bold mb-4">Golden Beach Puri</h2>
-              <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
-                Book now For 4N/5D
-              </a>
-            </div>
-            <p className="text-xl text-gray-600 max-w-3xl mb-10">
-              With Konark, Chilika & Bhubaneswar
-            </p>
-          </div>
+          <Destination
+            title="Golden Beach Puri"
+            cta="Book now For 4N/5D"
+            subtitle="With Konark, Chilika & Bhubaneswar"
+            content={[
+              `Day 1: Arrival & Puri, Our representative will receive you at Bhubaneswar Airport / Puri Station in the morning.
+              Drive to Puri and check into Hotel/Resort. Visit Lord Jagannath Temple to offer prayer to the Lord of the Universe.
+              Return to Hotel. Hit the Golden Beach for a bath. Laze around on the beach. Evening free to visit local market.
+              Dinner & Overnight at Hotel/Resort at Puri.`,
 
-          <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 shadow-xl">
-            <div className="grid md:grid-cols-2 gap-8">
-              <div>
-                <div className="space-y-6">
-                  {/* Day 1 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 1: Arrival & Puri</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Our representative will receive you at Bhubaneswar Airport / Puri Station in the morning.
-                      Drive to Puri and check into Hotel/Resort. Visit Lord Jagannath Temple to offer prayer to the Lord of the Universe.
-                      Return to Hotel. Hit the Golden Beach for a bath. Laze around on the beach. Evening free to visit local market.
-                      Dinner & Overnight at Hotel/Resort at Puri.
-                    </p>
+              `Day 2: Chilika Lake Excursion, Wake up early to spend time on the Golden Beach. After breakfast, proceed towards Chilika around 11.00 am.
+              Excursion to Satpada on Chilika Lake to spot Irrawady Dolphins at the confluence of Bay of Bengal & Asia's second largest brackish water lake.
+              Every year from mid-December to mid-April, birds from Siberia & Australia migrate to this lake for breeding.
+              Lunch at Chilika local hotels for famed Odiya cuisine. Return by early evening.
+              Dinner & Overnight in Hotel/Resort at Puri.`,
+
+              `Day 3: Konark Sun Temple, Early morning, watch sunrise over the sea. Offer prayers at Jagannath Dham if not done earlier.
+              Back to hotel for breakfast. Proceed towards Konark to marvel at the Sun Temple, one of the World Heritage sites,
+              built in the form of a Chariot - the culmination of Orissan Temple Architecture in 13th Century AD.
+              The life-size figures depicting social, royal, cultural life on the Temple wall made Rabindranath Tagore express his feelings as
+              'Language of Man is defeated by Language of Stone at Konark'. Also famed Kamasutra carvings.
+              Lunch en-route. Visit 64 Yogini Temple at Heerapur, Pipli Appliqué work village & Raghurajpur Artisan's Village.
+              Return in evening. Dinner & Overnight at Hotel/Resort at Puri.`,
+
+              `Day 4: Udaigiri & Khandagiri, After breakfast, visit Nandan Kanan zoo. The Caves of Udaigiri & Khandagiri dating back to 3rd Century BC
+              are worth visiting for their sculptures depicting social life of people of that age.
+              On the way visit Muketeshwar Temple, Dhauli Sanchi Stupa, Lingaraja Temple, Bramheswara Temple.
+              Lunch en-route. Drop to Bhubaneshwar Airport / Railway Station or back to Puri.
+              Dinner & Overnight at Hotel/Resort at Puri.`,
+
+              `Day 5: Departure, After breakfast, Check-out (10.00 am) of Hotel. On return journey, visit some local places of interest if you have missed earlier.
+              Drop to Bhubaneswar Airport / Bhubaneswar / Puri Station in AC vehicle & drop at your point before 06.00pm for your forwarding journey.
+              Tour ends.`
+            ]}
+          />
+
+          <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 shadow-xl mt-5">
+            <div className="grid md:grid-cols-1 gap-8">
+              <div className="bg-orange-100 rounded-xl p-6 mt-8">
+                <h4 className="font-bold text-orange-800 mb-3">Package Highlights</h4>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-orange-600" />
+                    <span className="text-gray-700">Golden Beach experience</span>
                   </div>
-
-                  {/* Day 2 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 2: Chilika Lake Excursion</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Wake up early to spend time on the Golden Beach. After breakfast, proceed towards Chilika around 11.00 am.
-                      Excursion to Satpada on Chilika Lake to spot Irrawady Dolphins at the confluence of Bay of Bengal & Asia's second largest brackish water lake.
-                      Every year from mid-December to mid-April, birds from Siberia & Australia migrate to this lake for breeding.
-                      Lunch at Chilika local hotels for famed Odiya cuisine. Return by early evening.
-                      Dinner & Overnight in Hotel/Resort at Puri.
-                    </p>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-orange-600" />
+                    <span className="text-gray-700">Lord Jagannath Temple visit</span>
                   </div>
-
-                  {/* Day 3 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 3: Konark Sun Temple</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Early morning, watch sunrise over the sea. Offer prayers at Jagannath Dham if not done earlier.
-                      Back to hotel for breakfast. Proceed towards Konark to marvel at the Sun Temple, one of the World Heritage sites,
-                      built in the form of a Chariot - the culmination of Orissan Temple Architecture in 13th Century AD.
-                      The life-size figures depicting social, royal, cultural life on the Temple wall made Rabindranath Tagore express his feelings as
-                      'Language of Man is defeated by Language of Stone at Konark'. Also famed Kamasutra carvings.
-                      Lunch en-route. Visit 64 Yogini Temple at Heerapur, Pipli Appliqué work village & Raghurajpur Artisan's Village.
-                      Return in evening. Dinner & Overnight at Hotel/Resort at Puri.
-                    </p>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-orange-600" />
+                    <span className="text-gray-700">Chilika Lake Dolphin watching</span>
                   </div>
-                </div>
-              </div>
-
-              <div>
-                <div className="space-y-6">
-                  {/* Day 4 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 4: Udaigiri & Khandagiri</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast, visit Nandan Kanan zoo. The Caves of Udaigiri & Khandagiri dating back to 3rd Century BC
-                      are worth visiting for their sculptures depicting social life of people of that age.
-                      On the way visit Muketeshwar Temple, Dhauli Sanchi Stupa, Lingaraja Temple, Bramheswara Temple.
-                      Lunch en-route. Drop to Bhubaneshwar Airport / Railway Station or back to Puri.
-                      Dinner & Overnight at Hotel/Resort at Puri.
-                    </p>
-                  </div>
-
-                  {/* Day 5 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 5: Departure</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast, Check-out (10.00 am) of Hotel. On return journey, visit some local places of interest if you have missed earlier.
-                      Drop to Bhubaneswar Airport / Bhubaneswar / Puri Station in AC vehicle & drop at your point before 06.00pm for your forwarding journey.
-                      Tour ends.
-                    </p>
-                  </div>
-
-                  <div className="bg-orange-100 rounded-xl p-6 mt-8">
-                    <h4 className="font-bold text-orange-800 mb-3">Package Highlights</h4>
-                    <div className="space-y-2">
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-orange-600" />
-                        <span className="text-gray-700">Golden Beach experience</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-orange-600" />
-                        <span className="text-gray-700">Lord Jagannath Temple visit</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-orange-600" />
-                        <span className="text-gray-700">Chilika Lake Dolphin watching</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-orange-600" />
-                        <span className="text-gray-700">Konark Sun Temple - UNESCO World Heritage</span>
-                      </div>
-                    </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-orange-600" />
+                    <span className="text-gray-700">Konark Sun Temple - UNESCO World Heritage</span>
                   </div>
                 </div>
               </div>

@@ -65,159 +65,87 @@ export default function HimachalTourismPage() {
       {/* ================= HIMACHAL MAIN PACKAGE ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-         <div className="flex flex-col space-y-2">
-            <div className='flex gap-5 items-center'>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Himachal Pradesh Circuit</h2>
-              <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
-                Book now For 6N/7D
-              </a>
-            </div>
-            <p className="text-xl text-gray-600 max-w-3xl  mb-6">
-              Simla - Kullu Manali - Dehradun - Muissourie 
-            </p>
-          </div>
+          <Destination
+            title="Himachal Pradesh Circuit"
+            cta="Book now For 6N/7D"
+            subtitle="Simla - Kullu Manali - Dehradun - Muissourie"
+            content={[
+              `Day 1: Arrival in Shimla, Arrive at Delhi / Chandigarh Airport / Railway Station and drive to Shimla.
+              Upon arrival in Shimla, check-in to hotel. Lunch break.
+              Enjoy the rest of the day at leisure.
+              Return in evening. Free to explore local market area.
+              Dinner & Overnight at Hotel/Resort in Shimla.`,
 
-          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 shadow-xl">
-            <div className="">
-              <div>
-                <div className="space-y-6 grid md:grid-cols-2 gap-8">
-                  {/* Day 1 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 1: Arrival in Shimla</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Arrive at Delhi / Chandigarh Airport / Railway Station and drive to Shimla. 
-                      Upon arrival in Shimla, check-in to hotel. Lunch break. 
-                      Enjoy the rest of the day at leisure. 
-                      Return in evening. Free to explore local market area. 
-                      Dinner & Overnight at Hotel/Resort in Shimla.
-                    </p>
+              `Day 2: Explore Shimla, After enjoying breakfast, proceed for a half-day sightseeing tour of Kufri.
+              Back to Shimla. Lunch enroute.
+              Post lunch, visit Kalibari, Shimla State Museum, Jaku Hills, etc.
+              Return in evening. Free to explore local Mall area.
+              Dinner & Overnight at Hotel/Resort in Shimla.`,
+
+              `Day 3: Explore Manali, After enjoying breakfast, check-out & drive towards Manali.
+              En-route, visit Roerich Art Gallery at Naggar.
+              Lunch en-route. Check-in to Hotel.
+              Then visit Hadimba Temple, The Mall, Vaishno Devi Village, etc.
+              Enjoy the rest of the day at leisure at Mall area.
+              Return in evening. Free to explore local area.
+              Dinner & Overnight at Hotel/Resort in Manali.`,
+
+              `Day 4: Rohtang Pass Excursion, After a hearty breakfast, proceed for a half-day tour of Rohtang Pass / Snow Line.
+              Visit to Rohtang Pass not included in the cost & subject to weather conditions and road being open.
+              (As per Himachal Govt. Rules, outsiders can't go to Rohtang Pass & Guest have to arrange own Car/Vehicle
+              from local Union on Direct Payment Basis).
+              Lunch en-route. Return in evening.
+              Free to explore local area.
+              Dinner & Overnight at Hotel/Resort in Manali.`,
+
+              `Day 5: Dharamshala Visit, After enjoying breakfast, proceed for Dharamshala, holy abode of His Holiness, the Dalai Lama.
+              Local sightseeing of Dalhousie Churches, Subhash Baoli, Bara Pather Panchpula, etc, can be visited as per time.
+              Return in evening. Free to explore local area.
+              Dinner & Overnight at Hotel/Resort in Manali/Dharamshala/Dalhousie.`,
+
+              `Day 6: Kullu Valley & Delhi, After enjoying breakfast, Check-out proceed towards Delhi / Chandigarh after stop-over at Kullu Valley.
+              It is also known as the 'valley of gods', is a beautiful district in the state of Himachal Pradesh.
+              Visit Mata Vaishno Devi Tirth temple located just 5 km from Kullu.
+              Lunch en-route. Proceed towards your destination & Check-in at Hotel.
+              Enjoy the rest of the day at leisure exploring markets on your own.
+              Return in evening. Free to explore local area.
+              Dinner & Overnight at Hotel/Resort in Delhi / Chandigarh.`,
+
+              `Day 7: Departure, Breakfast & check-out from Hotel.
+              Visit some local area if time permits.
+              Lunch en-route.
+              Then leave to drop-off at Delhi / Chandigarh Airport / Station for your onward / return train journey
+              flight to your destination as per your departure timing.
+              Tour ends...`
+            ]}
+          />
+
+          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 shadow-xl mt-5">
+            <div className="grid md:grid-cols-1 gap-8">
+              <div className="bg-blue-100 rounded-xl p-6 mt-8">
+                <h4 className="font-bold text-blue-800 mb-3">Package Highlights</h4>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-blue-600" />
+                    <span className="text-gray-700">Shimla - The Queen of Hills</span>
                   </div>
-
-                  {/* Day 2 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 2: Explore Shimla</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After enjoying breakfast, proceed for a half-day sightseeing tour of Kufri. 
-                      Back to Shimla. Lunch enroute. 
-                      Post lunch, visit Kalibari, Shimla State Museum, Jaku Hills, etc. 
-                      Return in evening. Free to explore local Mall area. 
-                      Dinner & Overnight at Hotel/Resort in Shimla.
-                    </p>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-blue-600" />
+                    <span className="text-gray-700">Manali - Valley of Gods</span>
                   </div>
-
-                  {/* Day 3 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 3: Explore Manali</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After enjoying breakfast, check-out & drive towards Manali. 
-                      En-route, visit Roerich Art Gallery at Naggar. 
-                      Lunch en-route. Check-in to Hotel. 
-                      Then visit Hadimba Temple, The Mall, Vaishno Devi Village, etc. 
-                      Enjoy the rest of the day at leisure at Mall area. 
-                      Return in evening. Free to explore local area. 
-                      Dinner & Overnight at Hotel/Resort in Manali.
-                    </p>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-blue-600" />
+                    <span className="text-gray-700">Rohtang Pass Excursion</span>
                   </div>
-
-                  {/* Day 4 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 4: Rohtang Pass Excursion</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After a hearty breakfast, proceed for a half-day tour of Rohtang Pass / Snow Line. 
-                      Visit to Rohtang Pass <strong>not included in the cost & subject to weather conditions and road being open.</strong>
-                      (As per Himachal Govt. Rules, outsiders can't go to Rohtang Pass & Guest have to arrange own Car/Vehicle 
-                      from local Union on Direct Payment Basis). 
-                      Lunch en-route. Return in evening. 
-                      Free to explore local area. 
-                      Dinner & Overnight at Hotel/Resort in Manali.
-                    </p>
-                  </div>
-
-                  {/* Day 5 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 5: Dharamshala Visit</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After enjoying breakfast, proceed for Dharamshala, holy abode of His Holiness, the Dalai Lama. 
-                      Local sightseeing of Dalhousie Churches, Subhash Baoli, Bara Pather Panchpula, etc, can be visited as per time. 
-                      Return in evening. Free to explore local area. 
-                      Dinner & Overnight at Hotel/Resort in Manali/Dharamshala/Dalhousie.
-                    </p>
-                  </div>
-
-                  {/* Day 6 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 6: Kullu Valley & Delhi</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After enjoying breakfast, Check-out proceed towards Delhi / Chandigarh after stop-over at Kullu Valley. 
-                      It is also known as the 'valley of gods', is a beautiful district in the state of Himachal Pradesh. 
-                      Visit Mata Vaishno Devi Tirth temple located just 5 km from Kullu. 
-                      Lunch en-route. Proceed towards your destination & Check-in at Hotel. 
-                      Enjoy the rest of the day at leisure exploring markets on your own. 
-                      Return in evening. Free to explore local area. 
-                      Dinner & Overnight at Hotel/Resort in Delhi / Chandigarh.
-                    </p>
-                  </div>
-
-                  {/* Day 7 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 7: Departure</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Breakfast & check-out from Hotel. 
-                      Visit some local area if time permits. 
-                      Lunch en-route. 
-                      Then leave to drop-off at Delhi / Chandigarh Airport / Station for your onward / return train journey 
-                      flight to your destination as per your departure timing. 
-                      Tour ends...
-                    </p>
-                  </div>
-
-                  <div className="bg-blue-100 rounded-xl p-6 mt-8">
-                    <h4 className="font-bold text-blue-800 mb-3">Package Highlights</h4>
-                    <div className="space-y-2">
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-blue-600" />
-                        <span className="text-gray-700">Shimla - The Queen of Hills</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-blue-600" />
-                        <span className="text-gray-700">Manali - Valley of Gods</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-blue-600" />
-                        <span className="text-gray-700">Rohtang Pass Excursion</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-blue-600" />
-                        <span className="text-gray-700">Dharamshala - Holy Abode</span>
-                      </div>
-                    </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-blue-600" />
+                    <span className="text-gray-700">Dharamshala - Holy Abode</span>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
         </div>
-         </div>
       </section>
 
       {/* ================= HIMACHAL HIGHLIGHTS ================= */}
@@ -225,191 +153,105 @@ export default function HimachalTourismPage() {
       {/* ================= CHANDIGARH ADD-ON ================= */}
       <section className="py-20 bg-gradient-to-br from-orange-50 to-amber-50">
         <div className="max-w-7xl mx-auto px-6">
-        
+          <Destination
+            title="Add-on Chandigarh"
+            cta="Book Now For 2N/3D"
+            subtitle="Wagah Border - Golden Temple"
+            content={[
+              `Day 1: Arrival in Chandigarh, On your arrival at Chandigarh, we will proceed to Check into Hotel.
+              Lunch break. Post lunch, visit Wagah Border in the evening.
+              Return & free to explore local area.
+              Dinner & Overnight at Hotel/Resort in Chandigarh.`,
 
-            <div className="mb-12">
-            <div className="flex gap-4  items-center mb-4">
-            <h2 className="text-4xl md:text-5xl font-bold ">Add-on Chandigarh </h2>
-             <a href="/book-tour" className='bg-red-500  shadow-md rounded-full text-white px-3 py-3'>
-              Book Now For 2N/3D
-            </a>
-           
-            </div>
-            <p className="text-xl text-gray-600 max-w-3xl ">
-              Wagah Border - Golden Temple 
-            </p>
-          </div>
+              `Day 2: Explore Chandigarh, After breakfast, visit Rose Garden, Rock Garden, Golden Temple (a must visit), etc.
+              Attend lunch at Langar of Golden Temple (or) any local restaurant.
+              Post lunch, visit Jalianwala Bagh, Hall Bazaar, etc.
+              Return in evening. Free to explore local area.
+              Dinner & Overnight at Hotel/Resort in Chandigarh.`,
 
-          <div className="bg-white rounded-2xl shadow-xl p-8">
-            <div className=" gap-8">
-              <div>
-                <div className="space-y-6 grid md:grid-cols-2 gap-8">
-                  {/* Day 1 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 1: Arrival in Chandigarh</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      On your arrival at Chandigarh, we will proceed to Check into Hotel. 
-                      Lunch break. Post lunch, visit Wagah Border in the evening. 
-                      Return & free to explore local area. 
-                      Dinner & Overnight at Hotel/Resort in Chandigarh.
-                    </p>
+              `Day 3: Departure, Breakfast & check-out from Hotel.
+              Visit some local area if time permits.
+              Lunch en-route.
+              Then leave to drop-off at Chandigarh Airport / Station for your onward / return train journey
+              flight to your destination as per your departure timing.
+              Tour ends...`
+            ]}
+          />
+
+          <div className="bg-white rounded-2xl shadow-xl p-8 mt-5">
+            <div className="grid md:grid-cols-1 gap-8">
+              <div className="bg-orange-100 rounded-xl p-6 mt-8">
+                <h4 className="font-bold text-orange-800 mb-3">Chandigarh Highlights</h4>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-orange-600" />
+                    <span className="text-gray-700">Rose Garden & Rock Garden</span>
                   </div>
-  {/* Day 2 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 2: Explore Chandigarh</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast, visit Rose Garden, Rock Garden, Golden Temple (a must visit), etc. 
-                      Attend lunch at Langar of Golden Temple (or) any local restaurant. 
-                      Post lunch, visit Jalianwala Bagh, Hall Bazaar, etc. 
-                      Return in evening. Free to explore local area. 
-                      Dinner & Overnight at Hotel/Resort in Chandigarh.
-                    </p>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-orange-600" />
+                    <span className="text-gray-700">Golden Temple - Must Visit</span>
                   </div>
-
-                  {/* Day 3 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 3: Departure</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Breakfast & check-out from Hotel. 
-                      Visit some local area if time permits. 
-                      Lunch en-route. 
-                      Then leave to drop-off at Chandigarh Airport / Station for your onward / return train journey 
-                      flight to your destination as per your departure timing. 
-                      Tour ends...
-                    </p>
-                  </div>
-
-                
-
-                  <div className="bg-orange-100 rounded-xl p-6 mt-8">
-                    <h4 className="font-bold text-orange-800 mb-3">Chandigarh Highlights</h4>
-                    <div className="space-y-2">
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-orange-600" />
-                        <span className="text-gray-700">Rose Garden & Rock Garden</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-orange-600" />
-                        <span className="text-gray-700">Golden Temple - Must Visit</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-orange-600" />
-                        <span className="text-gray-700">Wagah Border Experience</span>
-                      </div>
-                    </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-orange-600" />
+                    <span className="text-gray-700">Wagah Border Experience</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-           </div>
-        </section>
-
-<section className="py-20 bg-gradient-to-br from-orange-50 to-amber-50">
-  <div className="max-w-7xl mx-auto px-6">
-
-    <div className="mb-12">
-      <div className="flex gap-4 items-center mb-4">
-        <h2 className="text-4xl md:text-5xl font-bold">Add-on Delhi, Agra & Mathura</h2>
-        <a href="/book-tour" className='bg-red-500 shadow-md rounded-full text-white px-3 py-3'>
-          Book Now For 3N/4D
-        </a>
-      </div>
-      <p className="text-xl text-gray-600 max-w-3xl">
-        Taj Mahal – India Gate – Red Fort – Vrindavan Temples
-      </p>
-    </div>
-
-    <div className="bg-white rounded-2xl shadow-xl p-8">
-      <div className="space-y-6 grid md:grid-cols-2 gap-8">
-
-        {/* Day 1 */}
-        <div className="border-l-4 border-orange-500 pl-6">
-          <div className="flex items-center gap-3 mb-2">
-            <Calendar className="w-5 h-5 text-orange-600" />
-            <h3 className="text-xl font-bold">Day 1: Arrival in Delhi</h3>
-          </div>
-          <p className="text-gray-700 leading-relaxed">
-            Arrival at Delhi Airport / Railway Station. Transfer to hotel. 
-            Visit India Gate, Rashtrapati Bhavan (Drive Pass), Parliament House, 
-            Lotus Temple & Qutub Minar. Evening free for shopping at Connaught Place. 
-            Overnight stay in Delhi.
-          </p>
         </div>
+      </section>
 
-        {/* Day 2 */}
-        <div className="border-l-4 border-orange-500 pl-6">
-          <div className="flex items-center gap-3 mb-2">
-            <Calendar className="w-5 h-5 text-orange-600" />
-            <h3 className="text-xl font-bold">Day 2: Delhi – Agra</h3>
-          </div>
-          <p className="text-gray-700 leading-relaxed">
-            After breakfast, drive to Agra. Visit the magnificent Taj Mahal, 
-            Agra Fort & Mehtab Bagh. Explore local handicraft markets. 
-            Overnight stay in Agra.
-          </p>
-        </div>
+      <section className="py-20 bg-gradient-to-br from-orange-50 to-amber-50">
+        <div className="max-w-7xl mx-auto px-6">
+          <Destination
+            title="Add-on Delhi, Agra & Mathura"
+            cta="Book Now For 3N/4D"
+            subtitle="Taj Mahal – India Gate – Red Fort – Vrindavan Temples"
+            content={[
+              `Day 1: Arrival in Delhi, Arrival at Delhi Airport / Railway Station. Transfer to hotel.
+              Visit India Gate, Rashtrapati Bhavan (Drive Pass), Parliament House,
+              Lotus Temple & Qutub Minar. Evening free for shopping at Connaught Place.
+              Overnight stay in Delhi.`,
 
-        {/* Day 3 */}
-        <div className="border-l-4 border-orange-500 pl-6">
-          <div className="flex items-center gap-3 mb-2">
-            <Calendar className="w-5 h-5 text-orange-600" />
-            <h3 className="text-xl font-bold">Day 3: Agra – Mathura – Vrindavan – Delhi</h3>
-          </div>
-          <p className="text-gray-700 leading-relaxed">
-            After breakfast, drive to Mathura. Visit Shri Krishna Janmabhoomi Temple, 
-            Dwarkadhish Temple & Banke Bihari Temple in Vrindavan. 
-            Attend evening aarti. Later return to Delhi. 
-            Overnight stay in Delhi.
-          </p>
-        </div>
+              `Day 2: Delhi – Agra, After breakfast, drive to Agra. Visit the magnificent Taj Mahal,
+              Agra Fort & Mehtab Bagh. Explore local handicraft markets.
+              Overnight stay in Agra.`,
 
-        {/* Day 4 */}
-        <div className="border-l-4 border-orange-500 pl-6">
-          <div className="flex items-center gap-3 mb-2">
-            <Calendar className="w-5 h-5 text-orange-600" />
-            <h3 className="text-xl font-bold">Day 4: Departure</h3>
-          </div>
-          <p className="text-gray-700 leading-relaxed">
-            Breakfast at hotel & check-out. Visit Red Fort & Jama Masjid 
-            if time permits. Transfer to Airport / Railway Station 
-            for onward journey. Tour ends with memorable experiences.
-          </p>
-        </div>
+              `Day 3: Agra – Mathura – Vrindavan – Delhi, After breakfast, drive to Mathura. Visit Shri Krishna Janmabhoomi Temple,
+              Dwarkadhish Temple & Banke Bihari Temple in Vrindavan.
+              Attend evening aarti. Later return to Delhi.
+              Overnight stay in Delhi.`,
 
-        {/* Highlights */}
-        <div className="bg-orange-100 rounded-xl p-6 mt-8 md:col-span-2">
-          <h4 className="font-bold text-orange-800 mb-3">Tour Highlights</h4>
-          <div className="space-y-2">
-            <div className="flex items-center gap-2">
-              <CheckCircle className="w-4 h-4 text-orange-600" />
-              <span className="text-gray-700">Taj Mahal – World Wonder</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <CheckCircle className="w-4 h-4 text-orange-600" />
-              <span className="text-gray-700">India Gate & Qutub Minar</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <CheckCircle className="w-4 h-4 text-orange-600" />
-              <span className="text-gray-700">Mathura & Vrindavan Temple Darshan</span>
+              `Day 4: Departure, Breakfast at hotel & check-out. Visit Red Fort & Jama Masjid
+              if time permits. Transfer to Airport / Railway Station
+              for onward journey. Tour ends with memorable experiences.`
+            ]}
+          />
+
+          <div className="bg-white rounded-2xl shadow-xl p-8 mt-5">
+            <div className="grid md:grid-cols-1 gap-8">
+              <div className="bg-orange-100 rounded-xl p-6 mt-8">
+                <h4 className="font-bold text-orange-800 mb-3">Tour Highlights</h4>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-orange-600" />
+                    <span className="text-gray-700">Taj Mahal – World Wonder</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-orange-600" />
+                    <span className="text-gray-700">India Gate & Qutub Minar</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-orange-600" />
+                    <span className="text-gray-700">Mathura & Vrindavan Temple Darshan</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
-      </div>
-    </div>
-
-  </div>
-</section>
+      </section>
       {/* ================= HIMACHAL HIGHLIGHTS ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
@@ -498,5 +340,36 @@ export default function HimachalTourismPage() {
     <ContactCTA />
    
     </main>
+  )
+}
+
+function Destination({ title, subtitle, content, cta }: { title: string; subtitle: string; content: string[]; cta: string; }) {
+  return (
+    <div className="bg-white shadow-xl rounded-3xl p-10 space-y-6">
+      <div className="flex gap-5 items-center mt-8">
+        <h2 className="text-3xl font-bold text-indigo-700">{title}</h2>
+        <a
+          href="/book-tour"
+          className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+        >
+          {cta}
+        </a>
+      </div>
+
+      <p className="font-semibold text-gray-700">{subtitle}</p>
+
+      <div className="space-y-6">
+        {content.map((item, index) => (
+          <div
+            key={index}
+            className="bg-gray-100 rounded-2xl p-6 border-l-4 border-indigo-500"
+          >
+            <p className="text-gray-700 leading-8 whitespace-pre-line">
+              {item}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
   )
 }
