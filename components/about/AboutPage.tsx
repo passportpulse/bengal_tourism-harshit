@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Heart, MapPin, Users, Award, Target, Globe, TreePine, HandHeart, Briefcase, Calendar, Star, ChevronRight } from "lucide-react";
 
 const stats = [
-  { number: "500+", label: "Happy Members", icon: Users },
+  { number: "1030+", label: "Happy Members", icon: Users },
   { number: "50+", label: "Tour Packages", icon: MapPin },
   { number: "15+", label: "Years Experience", icon: Award },
   { number: "24/7", label: "Customer Support", icon: Heart }
