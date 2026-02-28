@@ -42,40 +42,24 @@ const paymentMethods: Record<string, PaymentMethod> = {
     type: 'gpay',
     qrImage: '/Qr/gpay.jpeg',
     details: {
-      upi1: 'bengaltourism@upi',
-      upi2: '9804333779@okaxis',
-      phone: '9804333779',
-      email: 'hotel.bengaltourism@gmail.com'
     }
   },
   'PHONEPE WALLET / UPI': {
     type: 'phonepe',
     qrImage: '/Qr/phonpau.jpeg',
     details: {
-      upi1: 'bengaltourism@ybl',
-      upi2: '9804333779@ybl',
-      phone: '9804333779',
-      email: 'hotel.bengaltourism@gmail.com'
     }
   },
   'AXIS PAY - UPI': {
     type: 'axis',
     qrImage: '/Qr/axix.jpeg',
     details: {
-      upi1: 'bengaltourism@axisbank',
-      upi2: '9804333779@axisbank',
-      phone: '9804333779',
-      email: 'hotel.bengaltourism@gmail.com'
     }
   },
   'PAYMENT GATEWAY': {
     type: 'gpay',
     qrImage: '/Qr/gpay.jpeg',
     details: {
-      upi1: 'bengaltourism@okaxis',
-      upi2: '9804333779@okaxis',
-      phone: '9804333779',
-      email: 'hotel.bengaltourism@gmail.com'
     }
   },
   'INTERNATIONAL FUND TRANSFER': {
@@ -96,20 +80,26 @@ function QRPaymentContent() {
 
   const paymentMethod = paymentMethods[paymentType as keyof typeof paymentMethods]
 
-  // Dynamic email based on source
-  const getEmailBySource = () => {
-    console.log('Debug - Source parameter:', source); // Debug line
-    switch (source) {
-      case 'tour':
-        return 'booking.bengaltourism@gmail.com'
-      case 'membership':
-        return 'members.bengaltourism@gmail.com'
-      case 'hotel':
-      default:
-        return 'hotel.bengaltourism@gmail.com'
-    }
+  const getWhatsappNumber = () => {
+  switch (source) {
+    case 'tour':
+      return '916289783779'
+    case 'hotel':
+    default:
+      return '9007995888'
   }
-
+}
+const getEmailBySource = () => {
+  switch (source) {
+    case 'tour':
+      return 'booking.bangaltourism@gmail.com'
+    case 'membership':
+      return 'members.bengaltourism@gmail.com'
+    case 'hotel':
+    default:
+      return 'hotel.bengaltourism@gmail.com'
+  }
+}
   if (!paymentMethod) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 flex items-center justify-center">
@@ -171,14 +161,7 @@ function QRPaymentContent() {
                   />
                 )}
               </div>
-              <div className="text-left text-gray-700 space-y-2">
-                <p><span className="font-medium">UPI:</span> {paymentMethod.details.upi1}</p>
-                {paymentMethod.details.upi2 && (
-                  <p><span className="font-medium">UPI:</span> {paymentMethod.details.upi2}</p>
-                )}
-                <p><span className="font-medium">Phone:</span> {paymentMethod.details.phone}</p>
-                <p><span className="font-medium">Email:</span> {paymentMethod.details.email || (source === 'membership' ? 'members.bengaltourism@gmail.com' : source === 'tour' ? 'booking.bengaltourism@gmail.com' : 'hotel.bengaltourism@gmail.com')}</p>
-              </div>
+             
             </div>
           </div>
         )
@@ -230,11 +213,13 @@ function QRPaymentContent() {
         <div className="bg-white rounded-xl shadow-lg p-6">
           <div className="flex gap-4">
             <button
-              onClick={() => {
-                const phoneNumber = "9007995888";
-                const message = encodeURIComponent(`Hello, I have made a hotel booking payment of ₹${parseInt(amount).toLocaleString('en-IN')} (${getPaymentTypeLabel()}). Please find the payment confirmation attached.`);
-                window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
-              }}
+         onClick={() => {
+  const phoneNumber = getWhatsappNumber();
+  const message = encodeURIComponent(
+    `Hello, I have made a ${source} booking payment of ₹${parseInt(amount).toLocaleString('en-IN')} (${getPaymentTypeLabel()}). Please find the payment confirmation attached.`
+  );
+  window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
+}}
               className="flex-1 bg-green-600 hover:bg-green-700 text-white px-6 py-4 rounded-lg font-semibold flex items-center justify-center gap-3 transition-all"
             >
               <MessageCircle className="w-5 h-5" />
@@ -251,7 +236,7 @@ function QRPaymentContent() {
 
           {/* Contact Info */}
           <div className="mt-6 text-center text-sm text-gray-600">
-            <p>WhatsApp Number: <span className="font-semibold">9007995888</span></p>
+            <p>  WhatsApp Number: <span className="font-semibold">{getWhatsappNumber()}</span></p>
             <p className="text-xs mt-1">Please share payment screenshot on this number for confirmation</p>
           </div>
         </div>
