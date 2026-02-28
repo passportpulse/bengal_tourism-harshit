@@ -1164,7 +1164,7 @@ export default function HotelBookingPage() {
                     Processing...
                   </>
                 ) : (
-                  'SUBMIT after PAYMENT'
+                  'Pay Now'
                 )}
               </button>
             </div>

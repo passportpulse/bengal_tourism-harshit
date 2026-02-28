@@ -104,7 +104,8 @@ export default function TourBookingPage() {
     totalNights: "",
     estimatedCost: "",
     bookingAmount: "",
-    paymentType: "partial"
+    paymentType: "partial",
+    currency: "INR"
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -118,12 +119,12 @@ export default function TourBookingPage() {
     }
   }, [formData.checkIn, formData.checkOut]);
 
-  // Auto calculate totals when adults, children, totalNights, or paymentType change
+  // Auto calculate totals when adults, children, totalNights, paymentType, or currency change
   useEffect(() => {
     if (formData.totalNights && (formData.adults > 0 || formData.children > 0)) {
       calculateTotals();
     }
-  }, [formData.adults, formData.children, formData.totalNights, formData.paymentType]);
+  }, [formData.adults, formData.children, formData.totalNights, formData.paymentType, formData.currency]);
 
   // Helper function to format date to DD-MM-YYYY
   const formatDateToDDMMYYYY = (dateString: string) => {
@@ -166,6 +167,30 @@ export default function TourBookingPage() {
     return rates[nights] || 0;
   };
 
+  const convertCurrency = (amount: number, fromCurrency: string, toCurrency: string): number => {
+    if (fromCurrency === toCurrency) return amount;
+    
+    // Convert to INR first if needed
+    let inrAmount = amount;
+    if (fromCurrency === "USD") {
+      inrAmount = amount * 100; // 1 USD = 100 INR
+    }
+    
+    // Convert from INR to target currency
+    if (toCurrency === "USD") {
+      return inrAmount / 100;
+    }
+    
+    return inrAmount; // Default to INR
+  };
+
+  const formatCurrency = (amount: number, currency: string): string => {
+    if (currency === "USD") {
+      return `$${amount.toFixed(2)}`;
+    }
+    return `₹${amount.toLocaleString('en-IN')}`;
+  };
+
   const calculateTotals = () => {
     const nights = parseInt(formData.totalNights);
     const perPersonRate = calculatePerPersonRate(nights);
@@ -174,12 +199,18 @@ export default function TourBookingPage() {
     const total = adultCost + childrenCost;
     const bookingAmount = formData.paymentType === "full" ? total : total * 0.5;
 
+    // Convert to selected currency
+    const convertedAdultCost = convertCurrency(adultCost, "INR", formData.currency);
+    const convertedChildrenCost = convertCurrency(childrenCost, "INR", formData.currency);
+    const convertedTotal = convertCurrency(total, "INR", formData.currency);
+    const convertedBookingAmount = convertCurrency(bookingAmount, "INR", formData.currency);
+
     setFormData(prev => ({
       ...prev,
-      costPerAdult: adultCost.toString(), // Total cost for all adults
-      costPerChildren: childrenCost.toString(), // Total cost for all children
-      estimatedCost: total.toString(), // Sum of both
-      bookingAmount: bookingAmount.toString()
+      costPerAdult: convertedAdultCost.toString(), // Total cost for all adults
+      costPerChildren: convertedChildrenCost.toString(), // Total cost for all children
+      estimatedCost: convertedTotal.toString(), // Sum of both
+      bookingAmount: convertedBookingAmount.toString()
     }));
   };
 
@@ -551,11 +582,16 @@ export default function TourBookingPage() {
                   </div>
                     <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                     Cost for nubmer of nights <span className="text-red-500">*</span>
+                     Cost for number of nights <span className="text-red-500">*</span>
                     </label>
                     <div className="flex gap-2">
-                      <select className="px-4 text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
-                        <option>INR</option>
+                      <select 
+                        value={formData.currency}
+                        onChange={(e) => handleInputChange("currency", e.target.value)}
+                        className="px-4 text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      >
+                        <option value="INR">INR</option>
+                        <option value="USD">USD</option>
                       </select>
                       <input
                         type="number"
@@ -656,24 +692,32 @@ export default function TourBookingPage() {
                 {formData.totalNights && (
                   <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
                     <p className="text-sm text-blue-800">
-                      <strong>Per Person Rate:</strong> ₹{calculatePerPersonRate(parseInt(formData.totalNights))} for {formData.totalNights} night(s)
+                      <strong>Per Person Rate:</strong> {formatCurrency(calculatePerPersonRate(parseInt(formData.totalNights)), formData.currency)} for {formData.totalNights} night(s)
                     </p>
                     <p className="text-xs text-blue-600 mt-1">
-                      <strong>Children Rate:</strong> 50% of adult rate (₹{(calculatePerPersonRate(parseInt(formData.totalNights)) * 0.5).toFixed(0)} per child)
+                      <strong>Children Rate:</strong> 50% of adult rate ({formatCurrency(calculatePerPersonRate(parseInt(formData.totalNights)) * 0.5, formData.currency)} per child)
                     </p>
                     <p className="text-xs text-blue-600 mt-1">
-                      Rates: 1N - ₹3700 | 2N - ₹6400 | 3N - ₹9100 | 4N - ₹12700 | 5N - ₹15400
+                      Rates (INR): 1N - ₹3700 | 2N - ₹6400 | 3N - ₹9100 | 4N - ₹12700 | 5N - ₹15400
+                    </p>
+                    <p className="text-xs text-blue-600 mt-1">
+                      Rates (USD): 1N - $37.00 | 2N - $64.00 | 3N - $91.00 | 4N - $127.00 | 5N - $154.00
                     </p>
                   </div>
                 )}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Total Cost for Adults ({formData.adults} × ₹{calculatePerPersonRate(parseInt(formData.totalNights) || 0)}) <span className="text-red-500">*</span>
+                      Total Cost for Adults ({formData.adults} × {formatCurrency(calculatePerPersonRate(parseInt(formData.totalNights) || 0), "INR")}) <span className="text-red-500">*</span>
                     </label>
                     <div className="flex gap-2">
-                      <select className="px-4  text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
-                        <option>INR</option>
+                      <select 
+                        value={formData.currency}
+                        onChange={(e) => handleInputChange("currency", e.target.value)}
+                        className="px-4 text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      >
+                        <option value="INR">INR</option>
+                        <option value="USD">USD</option>
                       </select>
                       <input
                         type="number"
@@ -690,11 +734,16 @@ export default function TourBookingPage() {
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Total Cost for Children ({formData.children} × ₹{(calculatePerPersonRate(parseInt(formData.totalNights) || 0) * 0.5).toFixed(0)})
+                      Total Cost for Children ({formData.children} × {formatCurrency(calculatePerPersonRate(parseInt(formData.totalNights) || 0) * 0.5, "INR")})
                     </label>
                     <div className="flex gap-2">
-                      <select className="px-4  text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
-                        <option>INR</option>
+                      <select 
+                        value={formData.currency}
+                        onChange={(e) => handleInputChange("currency", e.target.value)}
+                        className="px-4 text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      >
+                        <option value="INR">INR</option>
+                        <option value="USD">USD</option>
                       </select>
                       <input
                         type="number"
@@ -714,8 +763,13 @@ export default function TourBookingPage() {
                       Estimated Cost <span className="text-red-500">*</span>
                     </label>
                     <div className="flex gap-2">
-                      <select className="px-4 py-3  text-gray-500 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
-                        <option>INR</option>
+                      <select 
+                        value={formData.currency}
+                        onChange={(e) => handleInputChange("currency", e.target.value)}
+                        className="px-4 py-3 text-gray-500 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      >
+                        <option value="INR">INR</option>
+                        <option value="USD">USD</option>
                       </select>
                       <input
                         type="number"
@@ -731,8 +785,13 @@ export default function TourBookingPage() {
                       Booking Confirmation (50% of Estimated Cost) <span className="text-red-500">*</span>
                     </label>
                     <div className="flex gap-2">
-                      <select className="px-4  text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
-                        <option>INR</option>
+                      <select 
+                        value={formData.currency}
+                        onChange={(e) => handleInputChange("currency", e.target.value)}
+                        className="px-4 text-gray-500 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                      >
+                        <option value="INR">INR</option>
+                        <option value="USD">USD</option>
                       </select>
                       <input
                         type="number"
@@ -893,7 +952,7 @@ export default function TourBookingPage() {
                       Processing...
                     </>
                   ) : (
-                    'SUBMIT after PAYMENT'
+                    'Pay Now'
                   )}
                 </button>
               </div>
