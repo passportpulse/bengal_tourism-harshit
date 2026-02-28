@@ -834,7 +834,7 @@ function BhutanPage() {
             }, void 0, false, {
                 fileName: "[project]/app/bhutan/page.tsx",
                 lineNumber: 165,
-                columnNumber: 9
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/bhutan/page.tsx",
@@ -862,7 +862,7 @@ _c = BhutanPage;
                     }, void 0, false, {
                         fileName: "[project]/app/bhutan/page.tsx",
                         lineNumber: 190,
-                        columnNumber: 7
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "/book-tour",
@@ -871,7 +871,7 @@ _c = BhutanPage;
                     }, void 0, false, {
                         fileName: "[project]/app/bhutan/page.tsx",
                         lineNumber: 191,
-                        columnNumber: 8
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
@@ -936,7 +936,7 @@ function AddOnSection({ title, subtitle }) {
                     }, void 0, false, {
                         fileName: "[project]/app/bhutan/page.tsx",
                         lineNumber: 216,
-                        columnNumber: 7
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "/book-tour",
@@ -945,13 +945,13 @@ function AddOnSection({ title, subtitle }) {
                     }, void 0, false, {
                         fileName: "[project]/app/bhutan/page.tsx",
                         lineNumber: 217,
-                        columnNumber: 8
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/bhutan/page.tsx",
                 lineNumber: 215,
-                columnNumber: 12
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "font-semibold text-gray-700",
@@ -959,7 +959,7 @@ function AddOnSection({ title, subtitle }) {
             }, void 0, false, {
                 fileName: "[project]/app/bhutan/page.tsx",
                 lineNumber: 222,
-                columnNumber: 6
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {

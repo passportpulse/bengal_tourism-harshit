@@ -63,123 +63,74 @@ export default function HaridwarRishikeshTourismPage() {
       {/* ================= HARIDWAR-RISHIKESH CIRCUIT PACKAGE ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-        <div className="flex flex-col space-y-2">
-      <div className='flex gap-5 items-center'> 
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Haridwar - Rishikesh Spiritual Circuit</h2>
-                <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
-        Book now For 4N/5D
-      </a>
-      </div>
-            <p className="text-xl text-gray-600 max-w-3xl mb-10">
-              Har Ki Pauri • Mansa Devi • Ganga Aarti • Laxman Jhula • Parmarth Niketan
-            </p>
-          </div>
 
-          <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 shadow-xl">
-            <div className="grid md:grid-cols-2 gap-8">
-              <div>
-                <div className="space-y-6">
-                  {/* Day 1 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 1: Arrival in Haridwar</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      On arrival at Haridwar Railway Station / Jolly Grant Airport, you will be transferred to Hotel.
+          <Destination
+            title="Haridwar - Rishikesh Spiritual Circuit"
+            cta="Book now For 4N/5D"
+            subtitle="Har Ki Pauri • Mansa Devi • Ganga Aarti • Laxman Jhula • Parmarth Niketan"
+            content={[
+              `  Day 1: On arrival at Haridwar Railway Station / Jolly Grant Airport, you will be transferred to Hotel.
                       Check in and relax for a while. Lunch break.
                       Evening visit to Har Ki Pauri for the mesmerizing Ganga Aarti ceremony.
                       Explore the local markets and have dinner.
-                      Breakfast & Dinner included. Overnight at Hotel in Haridwar.
-                    </p>
-                  </div>
+                      Breakfast & Dinner included. Overnight at Hotel in Haridwar.`,
 
-                  {/* Day 2 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 2: Haridwar Sightseeing</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast, visit Mansa Devi Temple via cable car, then Chandi Devi Temple.
+              `Day 2: After breakfast, visit Mansa Devi Temple via cable car, then Chandi Devi Temple.
                       Visit Maya Devi Temple and Daksha Mahadev Temple.
                       Lunch at local restaurant.
                       Evening free for personal activities and shopping.
-                      Breakfast & Dinner included. Overnight at Hotel in Haridwar.
-                    </p>
-                  </div>
+                      Breakfast & Dinner included. Overnight at Hotel in Haridwar.`,
 
-                  {/* Day 3 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 3: Transfer to Rishikesh</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast, check-out and transfer to Rishikesh (20 km).
+              `Day 3: After breakfast, check-out and transfer to Rishikesh (20 km).
                       Check in to hotel and relax.
                       Visit Laxman Jhula and Ram Jhula suspension bridges.
                       Explore Parmarth Niketan Ashram and attend evening Ganga Aarti.
                       Lunch en-route.
-                      Breakfast & Dinner included. Overnight at Hotel in Rishikesh.
-                    </p>
-                  </div>
-                </div>
-              </div>
+                      Breakfast & Dinner included. Overnight at Hotel in Rishikesh.`,
 
-              <div>
-                <div className="space-y-6">
-                  {/* Day 4 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 4: Rishikesh Exploration</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast, visit Beatles Ashram and Neelkanth Mahadev Temple.
+              `Day 4: After breakfast, visit Beatles Ashram and Neelkanth Mahadev Temple.
                       Explore yoga and meditation centers.
                       Optional adventure activities like river rafting and bungee jumping.
                       Lunch at local cafe.
                       Evening visit to local markets.
-                      Breakfast & Dinner included. Overnight at Hotel in Rishikesh.
-                    </p>
-                  </div>
-
-                  {/* Day 5 */}
-                  <div className="border-l-4 border-orange-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-orange-600" />
-                      <h3 className="text-xl font-bold">Day 5: Yoga & Departure</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Early morning yoga session by the Ganges.
+                      Breakfast & Dinner included. Overnight at Hotel in Rishikesh.`,
+              `Day 5: Early morning yoga session by the Ganges.
                       After breakfast, check-out & transfer to Haridwar Railway Station / Jolly Grant Airport
                       for your return journey on your departure time.
-                      Breakfast included. Tour ends...
-                    </p>
+                      Breakfast included. Tour ends...`
+            ]}
+          />
+
+
+
+          <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 shadow-xl mt-5">
+            <div className="grid md:grid-cols-1 gap-8">
+
+
+              {/* Day 4 */}
+
+
+
+              <div className="bg-orange-100 rounded-xl p-6 mt-8">
+                <h4 className="font-bold text-orange-800 mb-3">Package Highlights</h4>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-orange-600" />
+                    <span className="text-gray-700">Divine Ganga Aarti at Har Ki Pauri</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-orange-600" />
+                    <span className="text-gray-700">Cable car ride to Mansa Devi Temple</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-orange-600" />
+                    <span className="text-gray-700">Yoga & Meditation in Rishikesh</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-orange-600" />
+                    <span className="text-gray-700">Adventure Sports (Optional)</span>
                   </div>
 
-                  <div className="bg-orange-100 rounded-xl p-6 mt-8">
-                    <h4 className="font-bold text-orange-800 mb-3">Package Highlights</h4>
-                    <div className="space-y-2">
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-orange-600" />
-                        <span className="text-gray-700">Divine Ganga Aarti at Har Ki Pauri</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-orange-600" />
-                        <span className="text-gray-700">Cable car ride to Mansa Devi Temple</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-orange-600" />
-                        <span className="text-gray-700">Yoga & Meditation in Rishikesh</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-orange-600" />
-                        <span className="text-gray-700">Adventure Sports (Optional)</span>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>

@@ -16,6 +16,13 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/waves.js [app-client] (ecmascript) <export default as Waves>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/mountain.js [app-client] (ecmascript) <export default as Mountain>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$compass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Compass$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/compass.js [app-client] (ecmascript) <export default as Compass>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$tree$2d$palm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TreePalm$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/tree-palm.js [app-client] (ecmascript) <export default as TreePalm>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sailboat$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Sailboat$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/sailboat.js [app-client] (ecmascript) <export default as Sailboat>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$landmark$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Landmark$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/landmark.js [app-client] (ecmascript) <export default as Landmark>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$castle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Castle$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/castle.js [app-client] (ecmascript) <export default as Castle>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$crown$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Crown$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/crown.js [app-client] (ecmascript) <export default as Crown>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$church$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Church$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/church.js [app-client] (ecmascript) <export default as Church>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$car$2d$front$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CarFront$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/car-front.js [app-client] (ecmascript) <export default as CarFront>");
 "use client";
 ;
 ;
@@ -148,6 +155,146 @@ const foreignTourPackages = [
         iconColor: "text-cyan-600",
         route: "/maldives",
         showBookNow: true
+    },
+    {
+        slug: "africa-wildlife-adventures",
+        title: "Africa Wildlife Adventures",
+        subtitle: "Into the Wild",
+        tag: "Safari & Nature",
+        duration: "6N & 7D",
+        desc: "Explore the vast savannas, witness the Big Five, and experience thrilling safari adventures.",
+        locations: "Kenya, Tanzania, South Africa",
+        image: "https://images.unsplash.com/photo-1731994634956-94a42f6b6290?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWZyaWNhLXdpbGRsaWZlfGVufDB8fDB8fHww",
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$tree$2d$palm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TreePalm$3e$__["TreePalm"],
+        iconColor: "text-green-600",
+        route: "/africa-wildlife-adventures",
+        showBookNow: true
+    },
+    {
+        slug: "australia-tour",
+        title: "Australia",
+        subtitle: "Land Down Under",
+        tag: "Beaches & Adventure",
+        duration: "5N & 6D",
+        desc: "Discover stunning beaches, iconic landmarks, and vibrant cities across Australia.",
+        locations: "Sydney, Melbourne, Gold Coast",
+        image: "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8QXVzdHJhbGlhfGVufDB8fDB8fHww",
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sailboat$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Sailboat$3e$__["Sailboat"],
+        iconColor: "text-blue-500",
+        route: "/australia",
+        showBookNow: true
+    },
+    {
+        slug: "italy-tour",
+        title: "Italy",
+        subtitle: "Timeless Romance",
+        tag: "History & Culture",
+        duration: "6N & 7D",
+        desc: "Walk through ancient ruins, enjoy world-class cuisine, and explore romantic cities.",
+        locations: "Rome, Venice, Florence",
+        image: "https://images.unsplash.com/photo-1549893072-4bc678117f45?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEl0YWx5fGVufDB8fDB8fHww",
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$landmark$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Landmark$3e$__["Landmark"],
+        iconColor: "text-red-500",
+        route: "/italy",
+        showBookNow: true
+    },
+    {
+        slug: "germany-tour",
+        title: "Germany",
+        subtitle: "Castles & Culture",
+        tag: "Heritage & Scenic",
+        duration: "5N & 6D",
+        desc: "Experience fairy-tale castles, vibrant cities, and rich European heritage.",
+        locations: "Berlin, Munich, Frankfurt",
+        image: "https://images.unsplash.com/photo-1601589313026-80a82ae92920?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fEdlcm1hbnl8ZW58MHx8MHx8fDA%3D",
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$castle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Castle$3e$__["Castle"],
+        iconColor: "text-gray-700",
+        route: "/germany",
+        showBookNow: true
+    },
+    {
+        slug: "switzerland-tour",
+        title: "Switzerland",
+        subtitle: "Heaven on Earth",
+        tag: "Mountains & Luxury",
+        duration: "5N & 6D",
+        desc: "Witness breathtaking Alpine scenery, serene lakes, and charming towns.",
+        locations: "Zurich, Lucerne, Interlaken",
+        image: "https://images.unsplash.com/photo-1594069758873-e79e9075eb7d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3dpdHplcmxhbmR8ZW58MHx8MHx8fDA%3D",
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
+        iconColor: "text-emerald-600",
+        route: "/switzerland",
+        showBookNow: true
+    },
+    {
+        slug: "london-tour",
+        title: "London",
+        subtitle: "The Royal Capital",
+        tag: "Royal & Modern",
+        duration: "4N & 5D",
+        desc: "Explore royal palaces, iconic landmarks, and vibrant city life.",
+        locations: "London, Windsor, Oxford",
+        image: "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bG9uZG9ufGVufDB8fDB8fHww",
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$crown$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Crown$3e$__["Crown"],
+        iconColor: "text-purple-600",
+        route: "/london",
+        showBookNow: true
+    },
+    {
+        slug: "cambodia-tour",
+        title: "Cambodia",
+        subtitle: "Kingdom of Wonders",
+        tag: "Temples & Heritage",
+        duration: "4N & 5D",
+        desc: "Discover ancient temples, rich history, and vibrant local culture.",
+        locations: "Siem Reap, Phnom Penh",
+        image: "https://images.unsplash.com/photo-1599283787923-51b965a58b05?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2FtYm9kaWF8ZW58MHx8MHx8fDA%3D",
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$church$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Church$3e$__["Church"],
+        iconColor: "text-orange-500",
+        route: "/cambodia",
+        showBookNow: true
+    },
+    {
+        slug: "sri-lanka-tour",
+        title: "Sri Lanka",
+        subtitle: "Pearl of the Indian Ocean",
+        tag: "Nature & Beaches",
+        duration: "5N & 6D",
+        desc: "Enjoy lush landscapes, wildlife safaris, and pristine beaches.",
+        locations: "Colombo, Kandy, Bentota",
+        image: "https://images.unsplash.com/photo-1612862862126-865765df2ded?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U3JpJTIwTGFua2F8ZW58MHx8MHx8fDA%3D",
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"],
+        iconColor: "text-cyan-500",
+        route: "/sri-lanka",
+        showBookNow: true
+    },
+    {
+        slug: "indonesia-tour",
+        title: "Indonesia",
+        subtitle: "Island Paradise",
+        tag: "Beaches & Culture",
+        duration: "5N & 6D",
+        desc: "Experience tropical islands, vibrant culture, and breathtaking landscapes.",
+        locations: "Bali, Jakarta, Lombok",
+        image: "https://images.unsplash.com/photo-1501179691627-eeaa65ea017c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SW5kb25lc2lhfGVufDB8fDB8fHww",
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$tree$2d$palm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TreePalm$3e$__["TreePalm"],
+        iconColor: "text-yellow-500",
+        route: "/indonesia",
+        showBookNow: true
+    },
+    {
+        slug: "japan-tour",
+        title: "Japan",
+        subtitle: "Tradition Meets Future",
+        tag: "Culture & Technology",
+        duration: "6N & 7D",
+        desc: "Explore futuristic cities, ancient temples, and stunning cherry blossoms.",
+        locations: "Tokyo, Kyoto, Osaka",
+        image: "https://images.unsplash.com/photo-1526481280693-3bfa7568e0f3?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8SmFwYW58ZW58MHx8MHx8fDA%3D",
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$car$2d$front$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CarFront$3e$__["CarFront"],
+        iconColor: "text-pink-500",
+        route: "/japan",
+        showBookNow: true
     }
 ];
 function ForeignToursPackagesPage() {
@@ -168,20 +315,20 @@ function ForeignToursPackagesPage() {
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                lineNumber: 144,
+                                lineNumber: 284,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute inset-0 bg-gradient-to-br from-red-900/70 via-orange-800/50 to-yellow-900/40"
                             }, void 0, false, {
                                 fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                lineNumber: 151,
+                                lineNumber: 291,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                        lineNumber: 143,
+                        lineNumber: 283,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -196,7 +343,7 @@ function ForeignToursPackagesPage() {
                                             className: "w-2 h-2 bg-green-400 rounded-full animate-pulse"
                                         }, void 0, false, {
                                             fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                            lineNumber: 157,
+                                            lineNumber: 297,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -204,13 +351,13 @@ function ForeignToursPackagesPage() {
                                             children: "International Adventures"
                                         }, void 0, false, {
                                             fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                            lineNumber: 158,
+                                            lineNumber: 298,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                    lineNumber: 156,
+                                    lineNumber: 296,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -222,13 +369,13 @@ function ForeignToursPackagesPage() {
                                             children: "Tour Packages"
                                         }, void 0, false, {
                                             fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                            lineNumber: 163,
+                                            lineNumber: 303,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                    lineNumber: 161,
+                                    lineNumber: 301,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -236,7 +383,7 @@ function ForeignToursPackagesPage() {
                                     children: "Explore exotic destinations worldwide with our curated international tour packages"
                                 }, void 0, false, {
                                     fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                    lineNumber: 168,
+                                    lineNumber: 308,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -249,36 +396,36 @@ function ForeignToursPackagesPage() {
                                                 className: "w-5 h-5 rotate-180"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                lineNumber: 174,
+                                                lineNumber: 314,
                                                 columnNumber: 33
                                             }, this),
                                             "Back to All Packages"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                        lineNumber: 173,
+                                        lineNumber: 313,
                                         columnNumber: 29
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                    lineNumber: 172,
+                                    lineNumber: 312,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                            lineNumber: 155,
+                            lineNumber: 295,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                        lineNumber: 154,
+                        lineNumber: 294,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                lineNumber: 142,
+                lineNumber: 282,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -298,14 +445,14 @@ function ForeignToursPackagesPage() {
                                             children: "Foreign"
                                         }, void 0, false, {
                                             fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                            lineNumber: 187,
+                                            lineNumber: 327,
                                             columnNumber: 37
                                         }, this),
                                         " Tour Packages"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                    lineNumber: 186,
+                                    lineNumber: 326,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -313,13 +460,13 @@ function ForeignToursPackagesPage() {
                                     children: "From Southeast Asia to Middle East, discover world's most amazing destinations"
                                 }, void 0, false, {
                                     fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                    lineNumber: 189,
+                                    lineNumber: 329,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                            lineNumber: 185,
+                            lineNumber: 325,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -338,14 +485,14 @@ function ForeignToursPackagesPage() {
                                                     className: "object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                    lineNumber: 202,
+                                                    lineNumber: 342,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                    lineNumber: 209,
+                                                    lineNumber: 349,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -357,25 +504,25 @@ function ForeignToursPackagesPage() {
                                                                 className: "w-4 h-4"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                                lineNumber: 214,
+                                                                lineNumber: 354,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 children: item.title
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                                lineNumber: 215,
+                                                                lineNumber: 355,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                        lineNumber: 213,
+                                                        lineNumber: 353,
                                                         columnNumber: 41
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                    lineNumber: 212,
+                                                    lineNumber: 352,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -392,41 +539,41 @@ function ForeignToursPackagesPage() {
                                                                             children: location.trim()
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                                            lineNumber: 225,
+                                                                            lineNumber: 365,
                                                                             columnNumber: 57
                                                                         }, this),
                                                                         index < item.locations.split(',').length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
                                                                             className: "w-3 h-3 text-white shrink-0 mx-1"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                                            lineNumber: 227,
+                                                                            lineNumber: 367,
                                                                             columnNumber: 61
                                                                         }, this)
                                                                     ]
                                                                 }, index, true, {
                                                                     fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                                    lineNumber: 224,
+                                                                    lineNumber: 364,
                                                                     columnNumber: 53
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                            lineNumber: 222,
+                                                            lineNumber: 362,
                                                             columnNumber: 45
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                        lineNumber: 221,
+                                                        lineNumber: 361,
                                                         columnNumber: 41
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                    lineNumber: 220,
+                                                    lineNumber: 360,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                            lineNumber: 201,
+                                            lineNumber: 341,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -439,7 +586,7 @@ function ForeignToursPackagesPage() {
                                                             className: `w-4 h-4 ${item.iconColor}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                            lineNumber: 240,
+                                                            lineNumber: 380,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -447,13 +594,13 @@ function ForeignToursPackagesPage() {
                                                             children: "Foreign Tour"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                            lineNumber: 241,
+                                                            lineNumber: 381,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                    lineNumber: 239,
+                                                    lineNumber: 379,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -464,7 +611,7 @@ function ForeignToursPackagesPage() {
                                                             children: item.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                            lineNumber: 246,
+                                                            lineNumber: 386,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -472,13 +619,13 @@ function ForeignToursPackagesPage() {
                                                             children: item.subtitle
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                            lineNumber: 247,
+                                                            lineNumber: 387,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                    lineNumber: 245,
+                                                    lineNumber: 385,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -490,25 +637,25 @@ function ForeignToursPackagesPage() {
                                                                 className: "w-4 h-4 text-gray-400"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                                lineNumber: 253,
+                                                                lineNumber: 393,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 children: item.tag
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                                lineNumber: 254,
+                                                                lineNumber: 394,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                        lineNumber: 252,
+                                                        lineNumber: 392,
                                                         columnNumber: 41
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                    lineNumber: 251,
+                                                    lineNumber: 391,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -518,12 +665,12 @@ function ForeignToursPackagesPage() {
                                                         children: item.desc
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                        lineNumber: 261,
+                                                        lineNumber: 401,
                                                         columnNumber: 41
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                    lineNumber: 260,
+                                                    lineNumber: 400,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -534,46 +681,46 @@ function ForeignToursPackagesPage() {
                                                         children: "View Details"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                        lineNumber: 286,
+                                                        lineNumber: 426,
                                                         columnNumber: 41
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                                    lineNumber: 277,
+                                                    lineNumber: 417,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                            lineNumber: 237,
+                                            lineNumber: 377,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, item.slug, true, {
                                     fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                                    lineNumber: 196,
+                                    lineNumber: 336,
                                     columnNumber: 29
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                            lineNumber: 194,
+                            lineNumber: 334,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                    lineNumber: 184,
+                    lineNumber: 324,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/packages/foreign-tours/page.tsx",
-                lineNumber: 183,
+                lineNumber: 323,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/packages/foreign-tours/page.tsx",
-        lineNumber: 140,
+        lineNumber: 280,
         columnNumber: 9
     }, this);
 }

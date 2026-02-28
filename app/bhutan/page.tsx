@@ -162,19 +162,19 @@ export default function BhutanPage() {
           </div>
         </div>
       </div>
-        <TourPricingSection
-     title="Bhutan Luxury & Adventure Packages"
-subtitle="Explore the Land of the Thunder Dragon with curated journeys"
-    
-      packages={[
-        { label: "recommended for extended duration", days: "6N / 7D", price: 22600 },
-        { label: "highly recommended", days: "5N / 6D", price: 19000 },
-        { label: "most popular", days: "4N / 5D", price: 15400 },
-         { label: "Group 20+", days: "3N / 4D", price: 12700 },
-        { label: "", days: "2N / 3D", price: 9100},
-        { label: "Not Feasible", days: "1N / 2D", price: 3700, disabled: true },
-      ]}
-    />
+      <TourPricingSection
+        title="Bhutan Luxury & Adventure Packages"
+        subtitle="Explore the Land of the Thunder Dragon with curated journeys"
+
+        packages={[
+          { label: "recommended for extended duration", days: "6N / 7D", price: 22600 },
+          { label: "highly recommended", days: "5N / 6D", price: 19000 },
+          { label: "most popular", days: "4N / 5D", price: 15400 },
+          { label: "Group 20+", days: "3N / 4D", price: 12700 },
+          { label: "", days: "2N / 3D", price: 9100 },
+          { label: "Not Feasible", days: "1N / 2D", price: 3700, disabled: true },
+        ]}
+      />
 
       <ContactCTA />
     </main>
@@ -187,13 +187,13 @@ function SectionTitle({ title, subtitle }: { title: string; subtitle: string }) 
   return (
     <div className="flex flex-col space-y-2">
       <div className='flex  gap-5 items-center'>
-      <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
-       <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
-        Book now For 6N/7D
-      </a>
+        <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
+        <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+          Book now For 6N/7D
+        </a>
       </div>
       <p className="font-semibold text-gray-700">{subtitle}</p>
-     
+
     </div>
   )
 }
@@ -210,16 +210,16 @@ function DayCard({ title, children }: { title: string; children: React.ReactNode
 function AddOnSection({ title, subtitle }: { title: string; subtitle: string }) {
   return (
     <div className="flex flex-col  space-y-2">
-      
 
-           <div className='flex gap-5 items-center'> 
-      <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
-       <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
-        Book now For 2N/3D
-      </a>
-      
+
+      <div className='flex gap-5 items-center'>
+        <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
+        <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
+          Book now For 2N/3D
+        </a>
+
       </div>
-     <p className="font-semibold text-gray-700">{subtitle}</p>
+      <p className="font-semibold text-gray-700">{subtitle}</p>
     </div>
   )
 } 

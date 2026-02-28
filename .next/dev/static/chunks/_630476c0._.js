@@ -1107,420 +1107,177 @@ function HaridwarRishikeshTourismPage() {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-7xl mx-auto px-6",
                     children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Destination, {
+                            title: "Haridwar - Rishikesh Spiritual Circuit",
+                            cta: "Book now For 4N/5D",
+                            subtitle: "Har Ki Pauri • Mansa Devi • Ganga Aarti • Laxman Jhula • Parmarth Niketan",
+                            content: [
+                                `  Day 1: On arrival at Haridwar Railway Station / Jolly Grant Airport, you will be transferred to Hotel.
+                      Check in and relax for a while. Lunch break.
+                      Evening visit to Har Ki Pauri for the mesmerizing Ganga Aarti ceremony.
+                      Explore the local markets and have dinner.
+                      Breakfast & Dinner included. Overnight at Hotel in Haridwar.`,
+                                `Day 2: After breakfast, visit Mansa Devi Temple via cable car, then Chandi Devi Temple.
+                      Visit Maya Devi Temple and Daksha Mahadev Temple.
+                      Lunch at local restaurant.
+                      Evening free for personal activities and shopping.
+                      Breakfast & Dinner included. Overnight at Hotel in Haridwar.`,
+                                `Day 3: After breakfast, check-out and transfer to Rishikesh (20 km).
+                      Check in to hotel and relax.
+                      Visit Laxman Jhula and Ram Jhula suspension bridges.
+                      Explore Parmarth Niketan Ashram and attend evening Ganga Aarti.
+                      Lunch en-route.
+                      Breakfast & Dinner included. Overnight at Hotel in Rishikesh.`,
+                                `Day 4: After breakfast, visit Beatles Ashram and Neelkanth Mahadev Temple.
+                      Explore yoga and meditation centers.
+                      Optional adventure activities like river rafting and bungee jumping.
+                      Lunch at local cafe.
+                      Evening visit to local markets.
+                      Breakfast & Dinner included. Overnight at Hotel in Rishikesh.`,
+                                `Day 5: Early morning yoga session by the Ganges.
+                      After breakfast, check-out & transfer to Haridwar Railway Station / Jolly Grant Airport
+                      for your return journey on your departure time.
+                      Breakfast included. Tour ends...`
+                            ]
+                        }, void 0, false, {
+                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
+                            lineNumber: 67,
+                            columnNumber: 11
+                        }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-col space-y-2",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex gap-5 items-center",
+                            className: "bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 shadow-xl mt-5",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "grid md:grid-cols-1 gap-8",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "bg-orange-100 rounded-xl p-6 mt-8",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                            className: "text-4xl md:text-5xl font-bold mb-4",
-                                            children: "Haridwar - Rishikesh Spiritual Circuit"
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                            className: "font-bold text-orange-800 mb-3",
+                                            children: "Package Highlights"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 68,
-                                            columnNumber: 13
+                                            lineNumber: 115,
+                                            columnNumber: 17
                                         }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "/book-tour",
-                                            className: "bg-red-500 px-4 py-4 text-white rounded-full",
-                                            children: "Book now For 4N/5D"
-                                        }, void 0, false, {
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "space-y-2",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "flex items-center gap-2",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2d$big$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle$3e$__["CheckCircle"], {
+                                                            className: "w-4 h-4 text-orange-600"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
+                                                            lineNumber: 118,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-gray-700",
+                                                            children: "Divine Ganga Aarti at Har Ki Pauri"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
+                                                            lineNumber: 119,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
+                                                    lineNumber: 117,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "flex items-center gap-2",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2d$big$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle$3e$__["CheckCircle"], {
+                                                            className: "w-4 h-4 text-orange-600"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
+                                                            lineNumber: 122,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-gray-700",
+                                                            children: "Cable car ride to Mansa Devi Temple"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
+                                                            lineNumber: 123,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
+                                                    lineNumber: 121,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "flex items-center gap-2",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2d$big$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle$3e$__["CheckCircle"], {
+                                                            className: "w-4 h-4 text-orange-600"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
+                                                            lineNumber: 126,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-gray-700",
+                                                            children: "Yoga & Meditation in Rishikesh"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
+                                                            lineNumber: 127,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
+                                                    lineNumber: 125,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "flex items-center gap-2",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2d$big$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle$3e$__["CheckCircle"], {
+                                                            className: "w-4 h-4 text-orange-600"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
+                                                            lineNumber: 130,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-gray-700",
+                                                            children: "Adventure Sports (Optional)"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
+                                                            lineNumber: 131,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
+                                                    lineNumber: 129,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 69,
+                                            lineNumber: 116,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 67,
-                                    columnNumber: 7
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-xl text-gray-600 max-w-3xl mb-10",
-                                    children: "Har Ki Pauri • Mansa Devi • Ganga Aarti • Laxman Jhula • Parmarth Niketan"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 73,
-                                    columnNumber: 13
+                                    lineNumber: 114,
+                                    columnNumber: 15
                                 }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                            lineNumber: 66,
-                            columnNumber: 9
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 shadow-xl",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "grid md:grid-cols-2 gap-8",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "space-y-6",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "border-l-4 border-orange-500 pl-6",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "flex items-center gap-3 mb-2",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
-                                                                    className: "w-5 h-5 text-orange-600"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                                    lineNumber: 85,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                    className: "text-xl font-bold",
-                                                                    children: "Day 1: Arrival in Haridwar"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                                    lineNumber: 86,
-                                                                    columnNumber: 23
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                            lineNumber: 84,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "text-gray-700 leading-relaxed",
-                                                            children: "On arrival at Haridwar Railway Station / Jolly Grant Airport, you will be transferred to Hotel. Check in and relax for a while. Lunch break. Evening visit to Har Ki Pauri for the mesmerizing Ganga Aarti ceremony. Explore the local markets and have dinner. Breakfast & Dinner included. Overnight at Hotel in Haridwar."
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                            lineNumber: 88,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                    lineNumber: 83,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "border-l-4 border-orange-500 pl-6",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "flex items-center gap-3 mb-2",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
-                                                                    className: "w-5 h-5 text-orange-600"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                                    lineNumber: 100,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                    className: "text-xl font-bold",
-                                                                    children: "Day 2: Haridwar Sightseeing"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                                    lineNumber: 101,
-                                                                    columnNumber: 23
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                            lineNumber: 99,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "text-gray-700 leading-relaxed",
-                                                            children: "After breakfast, visit Mansa Devi Temple via cable car, then Chandi Devi Temple. Visit Maya Devi Temple and Daksha Mahadev Temple. Lunch at local restaurant. Evening free for personal activities and shopping. Breakfast & Dinner included. Overnight at Hotel in Haridwar."
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                            lineNumber: 103,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                    lineNumber: 98,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "border-l-4 border-orange-500 pl-6",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "flex items-center gap-3 mb-2",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
-                                                                    className: "w-5 h-5 text-orange-600"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                                    lineNumber: 115,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                    className: "text-xl font-bold",
-                                                                    children: "Day 3: Transfer to Rishikesh"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                                    lineNumber: 116,
-                                                                    columnNumber: 23
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                            lineNumber: 114,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "text-gray-700 leading-relaxed",
-                                                            children: "After breakfast, check-out and transfer to Rishikesh (20 km). Check in to hotel and relax. Visit Laxman Jhula and Ram Jhula suspension bridges. Explore Parmarth Niketan Ashram and attend evening Ganga Aarti. Lunch en-route. Breakfast & Dinner included. Overnight at Hotel in Rishikesh."
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                            lineNumber: 118,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                    lineNumber: 113,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 81,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                        lineNumber: 80,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "space-y-6",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "border-l-4 border-orange-500 pl-6",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "flex items-center gap-3 mb-2",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
-                                                                    className: "w-5 h-5 text-orange-600"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                                    lineNumber: 135,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                    className: "text-xl font-bold",
-                                                                    children: "Day 4: Rishikesh Exploration"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                                    lineNumber: 136,
-                                                                    columnNumber: 23
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                            lineNumber: 134,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "text-gray-700 leading-relaxed",
-                                                            children: "After breakfast, visit Beatles Ashram and Neelkanth Mahadev Temple. Explore yoga and meditation centers. Optional adventure activities like river rafting and bungee jumping. Lunch at local cafe. Evening visit to local markets. Breakfast & Dinner included. Overnight at Hotel in Rishikesh."
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                            lineNumber: 138,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                    lineNumber: 133,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "border-l-4 border-orange-500 pl-6",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "flex items-center gap-3 mb-2",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
-                                                                    className: "w-5 h-5 text-orange-600"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                                    lineNumber: 151,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                    className: "text-xl font-bold",
-                                                                    children: "Day 5: Yoga & Departure"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                                    lineNumber: 152,
-                                                                    columnNumber: 23
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                            lineNumber: 150,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "text-gray-700 leading-relaxed",
-                                                            children: "Early morning yoga session by the Ganges. After breakfast, check-out & transfer to Haridwar Railway Station / Jolly Grant Airport for your return journey on your departure time. Breakfast included. Tour ends..."
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                            lineNumber: 154,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                    lineNumber: 149,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "bg-orange-100 rounded-xl p-6 mt-8",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                            className: "font-bold text-orange-800 mb-3",
-                                                            children: "Package Highlights"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                            lineNumber: 163,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "space-y-2",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "flex items-center gap-2",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2d$big$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle$3e$__["CheckCircle"], {
-                                                                            className: "w-4 h-4 text-orange-600"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                                            lineNumber: 166,
-                                                                            columnNumber: 25
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                            className: "text-gray-700",
-                                                                            children: "Divine Ganga Aarti at Har Ki Pauri"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                                            lineNumber: 167,
-                                                                            columnNumber: 25
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                                    lineNumber: 165,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "flex items-center gap-2",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2d$big$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle$3e$__["CheckCircle"], {
-                                                                            className: "w-4 h-4 text-orange-600"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                                            lineNumber: 170,
-                                                                            columnNumber: 25
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                            className: "text-gray-700",
-                                                                            children: "Cable car ride to Mansa Devi Temple"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                                            lineNumber: 171,
-                                                                            columnNumber: 25
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                                    lineNumber: 169,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "flex items-center gap-2",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2d$big$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle$3e$__["CheckCircle"], {
-                                                                            className: "w-4 h-4 text-orange-600"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                                            lineNumber: 174,
-                                                                            columnNumber: 25
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                            className: "text-gray-700",
-                                                                            children: "Yoga & Meditation in Rishikesh"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                                            lineNumber: 175,
-                                                                            columnNumber: 25
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                                    lineNumber: 173,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "flex items-center gap-2",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2d$big$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle$3e$__["CheckCircle"], {
-                                                                            className: "w-4 h-4 text-orange-600"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                                            lineNumber: 178,
-                                                                            columnNumber: 25
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                            className: "text-gray-700",
-                                                                            children: "Adventure Sports (Optional)"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                                            lineNumber: 179,
-                                                                            columnNumber: 25
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                                    lineNumber: 177,
-                                                                    columnNumber: 23
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                            lineNumber: 164,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                    lineNumber: 162,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 131,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                        lineNumber: 130,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                            }, void 0, false, {
                                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                lineNumber: 79,
+                                lineNumber: 107,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                            lineNumber: 78,
+                            lineNumber: 106,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1547,7 +1304,7 @@ function HaridwarRishikeshTourismPage() {
                                     children: "Add-On Tour Packages"
                                 }, void 0, false, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 195,
+                                    lineNumber: 146,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1555,13 +1312,13 @@ function HaridwarRishikeshTourismPage() {
                                     children: "Explore Wildlife, Beaches & Eco Tourism Destinations"
                                 }, void 0, false, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 198,
+                                    lineNumber: 149,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                            lineNumber: 194,
+                            lineNumber: 145,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Destination, {
@@ -1582,7 +1339,7 @@ After breakfast, check-out and proceed for onward journey with beautiful hill me
                             ]
                         }, void 0, false, {
                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                            lineNumber: 204,
+                            lineNumber: 155,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Destination, {
@@ -1603,18 +1360,18 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                             ]
                         }, void 0, false, {
                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                            lineNumber: 224,
+                            lineNumber: 175,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                    lineNumber: 191,
+                    lineNumber: 142,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                lineNumber: 190,
+                lineNumber: 141,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1630,7 +1387,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                     children: "Adventure Activities"
                                 }, void 0, false, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 252,
+                                    lineNumber: 203,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1638,13 +1395,13 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                     children: "Optional activities with extra cost"
                                 }, void 0, false, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 253,
+                                    lineNumber: 204,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                            lineNumber: 251,
+                            lineNumber: 202,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1660,7 +1417,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                                     className: "w-10 h-10 text-blue-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                    lineNumber: 261,
+                                                    lineNumber: 212,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1668,13 +1425,13 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                                     children: "River Rafting"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                    lineNumber: 262,
+                                                    lineNumber: 213,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 260,
+                                            lineNumber: 211,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1682,13 +1439,13 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             children: "White water rafting in Ganges"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 264,
+                                            lineNumber: 215,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 259,
+                                    lineNumber: 210,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1701,7 +1458,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                                     className: "w-10 h-10 text-green-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                    lineNumber: 269,
+                                                    lineNumber: 220,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1709,13 +1466,13 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                                     children: "Bungee Jumping"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                    lineNumber: 270,
+                                                    lineNumber: 221,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 268,
+                                            lineNumber: 219,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1723,13 +1480,13 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             children: "India's highest bungee platform"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 272,
+                                            lineNumber: 223,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 267,
+                                    lineNumber: 218,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1742,7 +1499,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                                     className: "w-10 h-10 text-purple-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                    lineNumber: 277,
+                                                    lineNumber: 228,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1750,13 +1507,13 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                                     children: "Trekking"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                    lineNumber: 278,
+                                                    lineNumber: 229,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 276,
+                                            lineNumber: 227,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1764,30 +1521,30 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             children: "Guided trekking in Himalayan foothills"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 280,
+                                            lineNumber: 231,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 275,
+                                    lineNumber: 226,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                            lineNumber: 258,
+                            lineNumber: 209,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                    lineNumber: 250,
+                    lineNumber: 201,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                lineNumber: 249,
+                lineNumber: 200,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1803,7 +1560,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                     children: "Spiritual Highlights"
                                 }, void 0, false, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 290,
+                                    lineNumber: 241,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1811,13 +1568,13 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                     children: "Key attractions and spiritual experiences"
                                 }, void 0, false, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 291,
+                                    lineNumber: 242,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                            lineNumber: 289,
+                            lineNumber: 240,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1830,7 +1587,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             className: "w-12 h-12 text-orange-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 298,
+                                            lineNumber: 249,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1838,7 +1595,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             children: "Har Ki Pauri"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 299,
+                                            lineNumber: 250,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1846,13 +1603,13 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             children: "Sacred bathing ghats & Ganga Aarti"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 300,
+                                            lineNumber: 251,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 297,
+                                    lineNumber: 248,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1862,7 +1619,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             className: "w-12 h-12 text-blue-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 304,
+                                            lineNumber: 255,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1870,7 +1627,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             children: "Ganga Aarti"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 305,
+                                            lineNumber: 256,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1878,13 +1635,13 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             children: "Evening prayer ceremony"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 306,
+                                            lineNumber: 257,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 303,
+                                    lineNumber: 254,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1894,7 +1651,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             className: "w-12 h-12 text-green-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 310,
+                                            lineNumber: 261,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1902,7 +1659,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             children: "Yoga Centers"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 311,
+                                            lineNumber: 262,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1910,13 +1667,13 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             children: "World's yoga capital"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 312,
+                                            lineNumber: 263,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 309,
+                                    lineNumber: 260,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1926,7 +1683,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             className: "w-12 h-12 text-purple-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 316,
+                                            lineNumber: 267,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1934,7 +1691,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             children: "Ashrams"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 317,
+                                            lineNumber: 268,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1942,13 +1699,13 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             children: "Parmarth Niketan & Beatles Ashram"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 318,
+                                            lineNumber: 269,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 315,
+                                    lineNumber: 266,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1958,7 +1715,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             className: "w-12 h-12 text-indigo-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 322,
+                                            lineNumber: 273,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1966,7 +1723,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             children: "Laxman Jhula"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 323,
+                                            lineNumber: 274,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1974,13 +1731,13 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             children: "Iconic suspension bridge"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 324,
+                                            lineNumber: 275,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 321,
+                                    lineNumber: 272,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1990,7 +1747,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             className: "w-12 h-12 text-teal-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 328,
+                                            lineNumber: 279,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1998,7 +1755,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             children: "Mansa Devi"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 329,
+                                            lineNumber: 280,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2006,13 +1763,13 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             children: "Cable car temple ride"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 330,
+                                            lineNumber: 281,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 327,
+                                    lineNumber: 278,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2022,7 +1779,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             className: "w-12 h-12 text-red-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 334,
+                                            lineNumber: 285,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2030,7 +1787,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             children: "Meditation"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 335,
+                                            lineNumber: 286,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2038,13 +1795,13 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             children: "Spiritual wellness centers"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 336,
+                                            lineNumber: 287,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 333,
+                                    lineNumber: 284,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2054,7 +1811,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             className: "w-12 h-12 text-yellow-600 mx-auto mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 340,
+                                            lineNumber: 291,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2062,7 +1819,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             children: "Neelkanth Temple"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 341,
+                                            lineNumber: 292,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2070,30 +1827,30 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                             children: "Ancient Shiva temple"
                                         }, void 0, false, {
                                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                            lineNumber: 342,
+                                            lineNumber: 293,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                    lineNumber: 339,
+                                    lineNumber: 290,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                            lineNumber: 296,
+                            lineNumber: 247,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                    lineNumber: 288,
+                    lineNumber: 239,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                lineNumber: 287,
+                lineNumber: 238,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2110,7 +1867,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                         className: "w-6 h-6 text-yellow-600 flex-shrink-0 mt-1"
                                     }, void 0, false, {
                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                        lineNumber: 354,
+                                        lineNumber: 305,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2120,7 +1877,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                                 children: "Spiritual Visit Tips"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                lineNumber: 356,
+                                                lineNumber: 307,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2130,46 +1887,46 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                                         children: "• Dress modestly when visiting temples"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                        lineNumber: 358,
+                                                        lineNumber: 309,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Remove shoes before entering temples"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                        lineNumber: 359,
+                                                        lineNumber: 310,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Carry offerings like flowers and prasad"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                        lineNumber: 360,
+                                                        lineNumber: 311,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Respect local customs and traditions"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                        lineNumber: 361,
+                                                        lineNumber: 312,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                lineNumber: 357,
+                                                lineNumber: 308,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                        lineNumber: 355,
+                                        lineNumber: 306,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                lineNumber: 353,
+                                lineNumber: 304,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2179,7 +1936,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                         className: "w-6 h-6 text-blue-600 flex-shrink-0 mt-1"
                                     }, void 0, false, {
                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                        lineNumber: 366,
+                                        lineNumber: 317,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2189,7 +1946,7 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                                 children: "Best Time to Visit"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                lineNumber: 368,
+                                                lineNumber: 319,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2199,62 +1956,62 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                                                         children: "• October to March: Pleasant weather for sightseeing"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                        lineNumber: 370,
+                                                        lineNumber: 321,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• July to September: Monsoon season (avoid)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                        lineNumber: 371,
+                                                        lineNumber: 322,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• April to June: Summer months (hot but good for rafting)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                        lineNumber: 372,
+                                                        lineNumber: 323,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "• Festival times: Kumbh Mela special celebrations"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                        lineNumber: 373,
+                                                        lineNumber: 324,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                                lineNumber: 369,
+                                                lineNumber: 320,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                        lineNumber: 367,
+                                        lineNumber: 318,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                                lineNumber: 365,
+                                lineNumber: 316,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                        lineNumber: 352,
+                        lineNumber: 303,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                    lineNumber: 351,
+                    lineNumber: 302,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                lineNumber: 350,
+                lineNumber: 301,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PackagePricing$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -2262,12 +2019,12 @@ After breakfast, check-out and transfer to railway station/airport for onward jo
                 subtitle: "Choose your perfect spiritual journey duration"
             }, void 0, false, {
                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                lineNumber: 382,
+                lineNumber: 333,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                lineNumber: 388,
+                lineNumber: 339,
                 columnNumber: 7
             }, this)
         ]
@@ -2290,7 +2047,7 @@ function Destination({ title, subtitle, content, cta }) {
                         children: title
                     }, void 0, false, {
                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                        lineNumber: 400,
+                        lineNumber: 351,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -2299,13 +2056,13 @@ function Destination({ title, subtitle, content, cta }) {
                         children: cta
                     }, void 0, false, {
                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                        lineNumber: 401,
+                        lineNumber: 352,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                lineNumber: 398,
+                lineNumber: 349,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2313,7 +2070,7 @@ function Destination({ title, subtitle, content, cta }) {
                 children: subtitle
             }, void 0, false, {
                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                lineNumber: 409,
+                lineNumber: 360,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2325,23 +2082,23 @@ function Destination({ title, subtitle, content, cta }) {
                             children: item
                         }, void 0, false, {
                             fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                            lineNumber: 418,
+                            lineNumber: 369,
                             columnNumber: 13
                         }, this)
                     }, index, false, {
                         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                        lineNumber: 414,
+                        lineNumber: 365,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-                lineNumber: 412,
+                lineNumber: 363,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/haridwar-rishikesh-tourism/page.tsx",
-        lineNumber: 397,
+        lineNumber: 348,
         columnNumber: 5
     }, this);
 }

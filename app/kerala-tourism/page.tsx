@@ -26,7 +26,7 @@ export default function KeralaTourismPage() {
               <TreesIcon className="w-6 h-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold tracking-wide">KERALA TOURISM</span>
             </div>
-            
+
             <h1 className="text-5xl text-center md:text-7xl font-bold mb-6 leading-tight">
               God's Own Country
               <span className="block text-3xl md:text-5xl mt-2 text-green-300">
@@ -35,7 +35,7 @@ export default function KeralaTourismPage() {
             </h1>
 
             <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto text-center leading-relaxed">
-              Experience the tropical paradise with special tailor-made 
+              Experience the tropical paradise with special tailor-made
               combination packages designed on request
             </p>
 
@@ -63,113 +63,56 @@ export default function KeralaTourismPage() {
       {/* ================= KERALA MAIN PACKAGE ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-     <div className="flex flex-col space-y-2">
-            <div className='flex gap-5 items-center'>
+   <Destination
+                    title="Kerala Circuit Package"
+                    cta="Book now For 5N/6D"
+                    subtitle=" Cochin - Munnar - Thekkady - Alleppey"
+                    content={[
+                      `Day 1: Arrival in Munnar, You will be picking from Cochin Airport / Ernakulam railway station and drive to Munnar (04 Hrs drive).
+                      On the way enjoy some waterfalls and natural scenic spots.
+                      On arrival at Munnar check into Hotel and relax for the rest of the day.
+                      Breakfast & Dinner included. Overnight stay at Hotel will be arranged.`,
+                      `Day 2: Munnar Local Sightseeing, After breakfast spend the day with local sightseeing.
+                      Situated at the confluence of three mountain streams - Mudrapuzha, Nallathanni and Kundale, Munnar is 1600 Meter above sea level.
+                      This majestic hill station was once the summer resort of the British government in South India.
+                      Local sightseeing of Munnar includes visit to Mattupetty Dam, Kundale Lake and Echo point.
+                      Breakfast & Dinner included. Overnight stay is arranged at Munnar.`,
+                      `Day 3: Thekkady, After breakfast check out from Hotel and drive to Thekkady (04 Hrs).
+                      On arrival check in to Hotel.
+                      Proceed for sightseeing tour of Thekkady - one of the world's most fascinating wild life reserves.
+                      The Periyar wild life sanctuary in Thekkady is spread across 777 sq km of which 360 sq km is thick evergreen forest.
+                      Noted for its geomorphology, diversity of wild life and scenic beauty, the sanctuary was declared a Tiger Reserve in 1978.
+                      Optional activities like Boating at Periyar Lake, Spice Plantation visit and Elephant Ride can be done at an extra cost.
+                      Breakfast & Dinner included. Overnight stay is arranged in Thekkady.`,
 
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Kerala Circuit Package</h2>
-              <a href='/book-tour' className='bg-red-500 px-4 py-4 text-white rounded-full'>
-                Book now For 5N/6D
-              </a>
-            </div>
-            <p className="text-xl text-gray-600 max-w-3xl mb-10">
-              Cochin - Munnar - Thekkady - Alleppey 
-            </p>
-          </div>
-
-          <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 shadow-xl">
-            <div className="">
-              <div>
-                <div className="space-y-6 grid md:grid-cols-2 gap-8">
-                  {/* Day 1 */}
-                  <div className="border-l-4 border-green-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-green-600" />
-                      <h3 className="text-xl font-bold">Day 1: Arrival in Munnar</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      You will be picking from Cochin Airport / Ernakulam railway station and drive to Munnar (04 Hrs drive). 
-                      On the way enjoy some waterfalls and natural scenic spots. 
-                      On arrival at Munnar check into Hotel and relax for the rest of the day. 
-                      Breakfast & Dinner included. Overnight stay at Hotel will be arranged.
-                    </p>
-                  </div>
-
-                  {/* Day 2 */}
-                  <div className="border-l-4 border-green-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-green-600" />
-                      <h3 className="text-xl font-bold">Day 2: Munnar Local Sightseeing</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast spend the day with local sightseeing. 
-                      Situated at the confluence of three mountain streams - Mudrapuzha, Nallathanni and Kundale, Munnar is 1600 Meter above sea level. 
-                      This majestic hill station was once the summer resort of the British government in South India. 
-                      Local sightseeing of Munnar includes visit to Mattupetty Dam, Kundale Lake and Echo point. 
-                      Breakfast & Dinner included. Overnight stay is arranged at Munnar.
-                    </p>
-                  </div>
-
-                  {/* Day 3 */}
-                  <div className="border-l-4 border-green-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-green-600" />
-                      <h3 className="text-xl font-bold">Day 3: Thekkady</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast check out from Hotel and drive to Thekkady (04 Hrs). 
-                      On arrival check in to Hotel. 
-                      Proceed for sightseeing tour of Thekkady - one of the world's most fascinating wild life reserves. 
-                      The Periyar wild life sanctuary in Thekkady is spread across 777 sq km of which 360 sq km is thick evergreen forest. 
-                      Noted for its geomorphology, diversity of wild life and scenic beauty, the sanctuary was declared a Tiger Reserve in 1978. 
-                      Optional activities like Boating at Periyar Lake, Spice Plantation visit and Elephant Ride can be done at an extra cost. 
-                      Breakfast & Dinner included. Overnight stay is arranged in Thekkady.
-                    </p>
-                  </div>
-
-                  {/* Day 4 */}
-                  <div className="border-l-4 border-green-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-green-600" />
-                      <h3 className="text-xl font-bold">Day 4: Alleppey Backwater Cruise</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast check out from Hotel / houseboat and drive to Alleppey. 
+                      `Day 4: Alleppey Backwater Cruise,   After breakfast check out from Hotel / houseboat and drive to Alleppey. 
                       Set out on an enchanting overnight backwater cruise in traditionally decorated houseboats. 
                       Check in time is 01:00 PM and cruise starts with lunch. 
                       While cruising, let your eyes settle for bowed-down paddy fields, local inhabitants, rustic homes, ancient churches / temples and swaying coconut groves. 
                       Food will be served onboard. 
-                      Breakfast & Dinner included. Overnight stay in houseboat.
-                    </p>
-                  </div>
+                      Breakfast & Dinner included. Overnight stay in houseboat.`,
 
-                  {/* Day 5 */}
-                  <div className="border-l-4 border-green-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-green-600" />
-                      <h3 className="text-xl font-bold">Day 5: Kovalam</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast check out from Hotel / houseboat and drive to Kovalam (04 Hrs Drive). 
+                      `Day 5: Kovalam, After breakfast check out from Hotel / houseboat and drive to Kovalam (04 Hrs Drive). 
                       On arrival check-in into Hotel. 
                       Kovalam is one of the prime beach destinations in India. 
                       Enjoy evening watching a spectacular sunset or swimming at picturesque Kovalam Beach. 
-                      Breakfast & Dinner included. Overnight stay is to be spent at Hotel.
-                    </p>
-                  </div>
+                      Breakfast & Dinner included. Overnight stay is to be spent at Hotel.`,
 
-                  {/* Day 6 */}
-                  <div className="border-l-4 border-green-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-green-600" />
-                      <h3 className="text-xl font-bold">Day 6: Departure</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      After breakfast check-out from Hotel. 
+                      `Day 6: After breakfast check-out from Hotel. 
                       Visit some local area if time permits. 
                       Then leave to drop-off at Cochin Airport / Ernakulam Railway Station for your onward journey. 
-                      Breakfast & Dinner included. Tour ends...
-                    </p>
-                  </div>
+                      Breakfast & Dinner included. Tour ends...`
+                    ]}
+                  />
+
+          <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 shadow-xl mt-5">
+           
+                <div className="space-y-6 grid md:grid-cols-1 gap-8 ">
+
+
+
+
+               
 
                   <div className="bg-green-100 rounded-xl p-6 mt-8">
                     <h4 className="font-bold text-green-800 mb-3">Package Highlights</h4>
@@ -192,8 +135,7 @@ export default function KeralaTourismPage() {
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -202,88 +144,57 @@ export default function KeralaTourismPage() {
       {/* ================= HOUSEBOAT ADD-ON ================= */}
       <section className="py-20 bg-gradient-to-br from-blue-50 to-cyan-50">
         <div className="max-w-7xl mx-auto px-6">
-   
 
-             <div className=" mb-12">
-            <div className='flex gap-5  items-center'>
-               <h2 className="text-4xl md:text-5xl font-bold mb-4"> Add-on Houseboat </h2>
-               <a href="/book-tour" className='bg-red-600 font-semibold shadow-md rounded-full text-white px-3 py-3'>
-              Book Now For  2N/3D
-            </a>
-            </div>
-           
-              <p className="text-xl text-gray-600 max-w-3xl">
-                           Alleppey Backwaters - Luxury Houseboat Experience
 
-              </p>
-          </div>
-          <div className="bg-white rounded-2xl shadow-xl p-8">
-            <div className="">
-              <div>
-                <div className="space-y-6 grid md:grid-cols-2 gap-8">
-                  {/* Day 1 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 1: Board Houseboat at Alleppey</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Arrive at Alleppey and board your luxury houseboat.
+
+          <Destination
+            title="Add-on Houseboat"
+            cta="Book Now For  2N/3D"
+            subtitle="Alleppey Backwaters - Luxury Houseboat Experience"
+            content={[
+
+              `Day 1: Arrive at Alleppey and board your luxury houseboat.
                       Welcome drink and lunch served onboard.
                       Start cruising through the serene backwaters of Alleppey.
                       Evening tea/coffee with snacks. Dinner onboard.
-                      Overnight stay in the houseboat.
-                    </p>
-                  </div>
+                      Overnight stay in the houseboat.`,
 
-                  {/* Day 2 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 2: Backwater Exploration</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Breakfast onboard while cruising.
+              `Day 2:  Breakfast onboard while cruising.
                       Visit local villages, paddy fields, and coir factories.
                       Lunch served during the cruise.
                       Anchor for the night in a peaceful location.
                       Dinner onboard with traditional Kerala cuisine.
-                      Overnight stay in the houseboat.
-                    </p>
-                  </div>
+                      Overnight stay in the houseboat.`,
 
-                  {/* Day 3 */}
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-xl font-bold">Day 3: Disembark</h3>
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Breakfast onboard.
+              `Day 3: Breakfast onboard.
                       Morning cruise through narrow canals.
                       Check-out from houseboat after lunch.
                       Transfer to your next destination.
-                      Tour ends with beautiful backwater memories.
-                    </p>
-                  </div>
+                      Tour ends with beautiful backwater memories.`
+            ]}
+          />
 
-                
-                  <div className="bg-blue-100 rounded-xl p-6 mt-8">
-                    <h4 className="font-bold text-blue-800 mb-3">Houseboat Highlights</h4>
-                    <div className="space-y-2">
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-blue-600" />
-                        <span className="text-gray-700">Luxury AC Houseboat</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-blue-600" />
-                        <span className="text-gray-700">All Meals Included</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-blue-600" />
-                        <span className="text-gray-700">Scenic Backwater Cruise</span>
-                      </div>
-                    </div>
+
+
+          <div className="bg-white rounded-2xl shadow-xl mt-5 p-8">
+            <div className="space-y-6 grid md:grid-cols-1 gap-8">
+
+
+
+              <div className="bg-blue-100 rounded-xl p-6 mt-8">
+                <h4 className="font-bold text-blue-800 mb-3">Houseboat Highlights</h4>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-blue-600" />
+                    <span className="text-gray-700">Luxury AC Houseboat</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-blue-600" />
+                    <span className="text-gray-700">All Meals Included</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-blue-600" />
+                    <span className="text-gray-700">Scenic Backwater Cruise</span>
                   </div>
                 </div>
               </div>
@@ -292,7 +203,7 @@ export default function KeralaTourismPage() {
         </div>
       </section>
 
- {/* ================= KERALA HIGHLIGHTS ================= */}
+      {/* ================= KERALA HIGHLIGHTS ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
@@ -367,15 +278,52 @@ export default function KeralaTourismPage() {
           </div>
         </div>
       </section>
-     <PackagePricing 
+      <PackagePricing
         title="Kerala Tour Packages"
         subtitle="Choose your perfect backwater and hill station adventure"
       />
 
-       
-    <ContactCTA />
-   
+
+      <ContactCTA />
+
 
     </main>
   )
 }
+
+
+function Destination({ title, subtitle, content, cta }: { title: string; subtitle: string; content: string[]; cta: string; }) {
+  return (
+    <div className="bg-white shadow-xl rounded-3xl p-10 space-y-6">
+      <div className="flex gap-5 items-center mt-8">
+
+        <h2 className="text-3xl font-bold text-indigo-700">{title}</h2>
+        <a
+          href="/book-tour"
+          className="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
+        >
+          {cta}
+        </a>
+      </div>
+
+      <p className="font-semibold text-gray-700">{subtitle}</p>
+
+
+      <div className="space-y-6">
+        {content.map((item, index) => (
+          <div
+            key={index}
+            className="bg-gray-100 rounded-2xl p-6 border-l-4 border-indigo-500"
+          >
+            <p className="text-gray-700 leading-8 whitespace-pre-line">
+              {item}
+            </p>
+          </div>
+        ))}
+      </div>
+
+
+
+    </div>
+  )
+} 
