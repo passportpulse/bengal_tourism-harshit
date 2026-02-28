@@ -94,40 +94,79 @@ export default function DubaiPage() {
             </p>
           </div>
 
-          {/* DAY CARDS */}
-          <div className="space-y-4 grid md:grid-cols-1 gap-4 grid-col-1">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
 
-            <DayCard title="Day – 1">
-              Start of Tour: Board Flight from Kolkata / Delhi / Mumbai Airport. Arrival at Dubai Airport Terminal around (05-06 pm). Transfer to Hotel. Check-in. Evening free. Dinner & Overnight at Hotel Grand Excelsior / Similar in Dubai.
-            </DayCard>
+            {/* LEFT SIDE – ITINERARY */}
+            <div className="lg:col-span-2 space-y-8">
 
-            <DayCard title="Day – 2">
-              Desert Safari: After breakfast in the Hotel around (07-09 am) – 9:00 am. Then for a 02 Hrs Limo Ride (optional). Lunch en-route or at Restaurant of your choice.Then proceed for Desert Safari on Hummer with BBQ Dinner included.  Return to Hotel. Overnight at Hotel Grand Excelsior / Similar at Dubai.
-            </DayCard>
+              <DayCard title="Day – 1 | Arrival in Dubai – Welcome to the City of Gold">
+                Begin your international journey by boarding your flight from Kolkata / Delhi / Mumbai. Upon arrival at Dubai International Airport (Terminal 1/3) in the evening (approx. 05:00–06:00 PM), meet our local representative for a comfortable transfer to your hotel in Dubai. Check-in at Hotel Grand Excelsior / Similar (or selected category hotel). Relax after your journey and enjoy the glittering skyline of Dubai. Evening free for leisure or optional walk around nearby shopping areas. Dinner at Indian/local restaurant. Overnight stay at Dubai.
+              </DayCard>
 
-            <DayCard title="Day – 3">
-              Dhow Cruise: After breakfast in the Hotel around (07:09 am). Morning free for yourself for shopping on your own. Lunch en-route or at Restaurant of your choice. In the Evening, proceed for the Dhow Cruise with Dinner included. Return to Hotel. Overnight At Hotel Grand Excelsior / Similar at Dubai.
-            </DayCard>
+              <DayCard title="Day – 2 | Desert Safari & Luxury Experience">
+                After breakfast at the hotel (07:00–09:00 AM), enjoy the morning at leisure. Optional 2-hour Luxury Limousine Ride across Dubai Marina, Jumeirah Beach Road, and iconic skyline (at additional cost). Lunch at restaurant of your choice. In the afternoon, proceed for an exciting Desert Safari in a Hummer or 4x4 vehicle across golden sand dunes. Experience dune bashing, camel rides, sandboarding, and traditional Arabic hospitality at a desert camp. Enjoy live belly dance, Tanoura show, and BBQ buffet dinner under the stars. Return to hotel. Overnight stay at Dubai.
+              </DayCard>
 
-            <DayCard title="Day – 4">
-              Ferrari World: After breakfast in the Hotel around (07:09 am). Proceed for Abu Dhabi City Tour with Ferrari World. Lunch en-route or at Restaurant of your choice. Return in the evening. Free for Shopping. Dinner & Overnight at Hotel Grand Excelsior / Similar at Dubai.
-            </DayCard>
+              <DayCard title="Day – 3 | Dhow Cruise & Leisure">
+                After breakfast, morning free for shopping or exploring Dubai on your own (Gold Souk / Meena Bazaar / Dubai Marina Walk). Lunch at your preferred restaurant. In the evening, proceed for a traditional Dhow Cruise Dinner along Dubai Creek or Marina. Enjoy international buffet dinner with live entertainment while cruising past illuminated skyscrapers and waterfront landmarks. Return to hotel. Overnight stay at Dubai.
+              </DayCard>
 
-            <DayCard title="Day – 5">
-              Burj Khalifa & Dubai Mall: After breakfast in the Hotel around (07:09 am). Proceed for Dolphin Show with entry ticket with Pvt. transfer. Visit Ski Dubai entry ticket with Pvt. Transfer. Lunch en-route or at Restaurant of your choice. Return to Hotel. Pick-up for tour of Burj Khalifa around (05:00pm) from Hotel for Dubai Mall & Fountain Show. Return transfer will be arranged by Guest themselves. Dinner & Overnight stay at Hotel Grand Excelsior / Similar at Dubai.
-            </DayCard>
+              <DayCard title="Day – 4 | Abu Dhabi City Tour & Ferrari World">
+                After breakfast, proceed for a full-day Abu Dhabi City Tour. Visit Sheikh Zayed Grand Mosque, one of the largest and most beautiful mosques in the world. Drive past Emirates Palace, Presidential Palace, and Corniche. Visit Ferrari World Theme Park (photo stop or entry as per package inclusion). Lunch en-route. Return to Dubai in the evening. Free time for shopping at local malls. Dinner & Overnight stay at Dubai.
+              </DayCard>
 
-            <DayCard title="Day – 5 (Alternatively)">
-              ALTERNATIVELY: After breakfast in the Hotel around (07:09 am). Full day activity as per your special requirement or choice. Change of Hotel to Atlantis / Similar if requested can be arranged at (Extra Cost). Lunch en-route or at Restaurant/Hotel of your choice; say Atlantis. Dinner & Overnight at Hotel Atlantis / Similar at Dubai.
-            </DayCard>
+              <DayCard title="Day – 5 | Burj Khalifa, Dolphin Show & Dubai Mall">
+                After breakfast, proceed for Dolphin Show (entry ticket with private transfer). Later visit Ski Dubai (Mall of the Emirates) with entry ticket (as per inclusion). Lunch at restaurant of your choice. In the evening, pick-up around 05:00 PM for Burj Khalifa (124th/125th Floor – as per package). Explore Dubai Mall, enjoy the famous Dubai Fountain Show. Return transfer from mall can be arranged or self-managed. Dinner & Overnight stay at Dubai.
+              </DayCard>
 
-            <DayCard title="Day – 6">
-              After breakfast in the Hotel around (07:09 am). Free access to Aqua- Venture & Lost Chamber. Lunch en-route or at Restaurant of your choice & free for leisure, shopping on your own. Overnight at Hotel Atlantis (Extra Cost) / Similar at Dubai.
-            </DayCard>
+              <DayCard title="Day – 5 (Alternative Option) | Atlantis Upgrade">
+                Alternatively, after breakfast enjoy a full-day activity of your choice. Upgrade your stay to Atlantis The Palm / Similar (extra cost applicable). Enjoy premium lunch at Atlantis restaurants. Relax at private beach or explore The Palm Island. Dinner & Overnight stay at Atlantis (if upgraded).
+              </DayCard>
 
-            <DayCard title="Day – 7">
-              Check-out: After breakfast in the Hotel around (07:09 am). Check-out by 11am-12:00 pm. Departure for the Airport & drop 4 Hrs prior to your flight timing. Have Lunch of your choice at the Airport Terminal. Tour ends.
-            </DayCard>
+              <DayCard title="Day – 6 | Atlantis Aquaventure Experience">
+                After breakfast, enjoy complimentary access to Aquaventure Waterpark and The Lost Chambers Aquarium (included with Atlantis stay or optional add-on). Experience thrilling water slides, lazy river, and marine exhibits. Afternoon free for leisure or shopping. Lunch at your preferred restaurant. Overnight stay at Atlantis / Dubai hotel (as per selected package).
+              </DayCard>
+
+              <DayCard title="Day – 7 | Departure">
+                After breakfast, check-out from hotel (11:00–12:00 PM). Transfer to Dubai International Airport 4 hours prior to your flight departure. Enjoy last-minute shopping or dining at airport terminal. Depart with unforgettable memories of Dubai’s luxury lifestyle, desert adventures, world-class attractions, and iconic skyline. Tour Ends.
+              </DayCard>
+
+            </div>
+
+            {/* RIGHT SIDE – VIDEO + AD */}
+            <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+              {/* Video Section */}
+              <div className="bg-white rounded-3xl shadow-lg p-6">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  Watch Dubai Tour Video
+                </h3>
+
+                <div className="aspect-video rounded-xl overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    title="Dubai Tour"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+
+              {/* Advertisement Section */}
+              <div className="bg-gradient-to-br from-amber-500 to-orange-600 text-white rounded-3xl shadow-lg p-8 text-center">
+                <h3 className="text-2xl font-bold mb-4">
+                  🏙️ Dubai Luxury Special
+                </h3>
+                <p className="text-sm opacity-90">
+                  Get exclusive discounts on luxury experiences.
+                  Limited seats available for peak season!
+                </p>
+                <button className="mt-6 bg-white text-amber-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                  Book Now
+                </button>
+              </div>
+
+            </div>
 
           </div>
 
@@ -140,81 +179,216 @@ export default function DubaiPage() {
             <p className="text-gray-600">Enhance your Dubai Journey with Exclusive Experiences</p>
           </div>
           <AddOnSection title="LUXURY YACHT EXPERIENCE" subtitle="Add-on (or) Separately with YACHT CRUISE">
-            <div className="space-y-4 grid md:grid-cols-1 gap-4">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
 
-              <DayCard title="Day – 1 : Dubai Marina Arrival">
-                Arrival at Dubai Hotel. Evening proceed for Private Yacht Cruise at Dubai Marina.
-                Enjoy 3 Hours Sunset Sailing with BBQ Dinner, Soft Drinks & Music System onboard.
-                Witness JBR Skyline, Bluewaters Island & Ain Dubai from Sea.
-                Return to Hotel. Overnight stay at Dubai.
-              </DayCard>
+              {/* LEFT SIDE – ITINERARY */}
+              <div className="lg:col-span-2 space-y-8">
 
-              <DayCard title="Day – 2 : Sky Views & Dinner Experience">
-                After breakfast, visit Sky Views Edge Walk at Address Sky View.
-                Afternoon free for leisure or shopping at Dubai Mall.
-                Evening enjoy Premium Dinner at Marina Waterfront Restaurant.
-                Overnight stay at Hotel.
-              </DayCard>
+           <DayCard title="Day – 1 | Dubai Marina Arrival & Private Yacht Sunset Cruise">
+  Arrival in Dubai and transfer to your hotel in the vibrant Dubai Marina district. 
+  After check-in and relaxation, proceed in the evening for an exclusive 3-hour Private Yacht Cruise from Dubai Marina. 
+  Sail across the sparkling Arabian waters while enjoying a breathtaking sunset backdrop against the world-famous skyline. 
+  Witness stunning views of JBR Skyline, Bluewaters Island, and the iconic Ain Dubai from the sea. 
+  Indulge in a premium BBQ dinner onboard with soft beverages and enjoy music on a private sound system for a true luxury ambiance. 
+  Capture unforgettable photographs with the glittering city lights reflecting on the water. 
+  Return to hotel. Overnight stay at Dubai.
+</DayCard>
 
-              <DayCard title="Day – 3 : Departure">
-                After breakfast, check-out from Hotel.
-                Transfer to Airport as per flight schedule.
-                Tour Ends.
-              </DayCard>
+<DayCard title="Day – 2 | Sky Views Adventure & Waterfront Fine Dining">
+  After breakfast, visit Sky Views Edge Walk at Address Sky View for a thrilling hands-free walk on the edge of a skyscraper overlooking Burj Khalifa and Downtown Dubai. 
+  Experience breathtaking panoramic city views from one of Dubai’s most exciting attractions. 
+  Afternoon free for leisure or shopping at Dubai Mall — explore luxury brands, cafes, and optional attractions like Dubai Aquarium or Fountain Show. 
+  In the evening, enjoy a premium dinner at a Marina Waterfront Restaurant with elegant ambiance and scenic views of yachts and illuminated skyscrapers. 
+  Overnight stay at hotel.
+</DayCard>
+
+<DayCard title="Day – 3 | Departure">
+  After breakfast at hotel, check-out as per standard timing. 
+  Depending on your flight schedule, optional last-minute shopping or leisure time. 
+  Transfer to Dubai International Airport for your onward journey. 
+  Depart with unforgettable memories of luxury cruising, skyline adventures, and Dubai’s glamorous lifestyle. 
+  Tour Ends.
+</DayCard>
+
+              </div>
+
+              {/* RIGHT SIDE – VIDEO + AD */}
+              <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+                {/* Video Section */}
+                <div className="bg-white rounded-3xl shadow-lg p-6">
+                  <h3 className="text-xl font-bold mb-4 text-gray-800">
+                    Watch Yacht Experience Video
+                  </h3>
+
+                  <div className="aspect-video rounded-xl overflow-hidden">
+                    <iframe
+                      className="w-full h-full"
+                      src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                      title="Yacht Experience"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+                </div>
+
+                {/* Advertisement Section */}
+                <div className="bg-gradient-to-br from-blue-500 to-cyan-600 text-white rounded-3xl shadow-lg p-8 text-center">
+                  <h3 className="text-2xl font-bold mb-4">
+                    🛥️ Marina Luxury Special
+                  </h3>
+                  <p className="text-sm opacity-90">
+                    Experience sunset sailing with premium dining.
+                    Private yacht tours available!
+                  </p>
+                  <button className="mt-6 bg-white text-blue-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                    Learn More
+                  </button>
+                </div>
+
+              </div>
 
             </div>
           </AddOnSection>
           <AddOnSection title="DESERT ROYAL EXPERIENCE" subtitle="Add-on (or) Separately with DESERT ROYAL CAMP">
-            <div className="space-y-4 grid md:grid-cols-1 gap-4">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
 
-              <DayCard title="Day – 1 : Luxury Desert Safari">
-                Arrival & Hotel Check-in.
-                Afternoon proceed for Luxury Desert Safari in 4x4 Land Cruiser.
-                Activities include Dune Bashing, Sandboarding, Camel Ride & Falcon Photography.
-                Evening enjoy VIP Seating BBQ Dinner with Live Belly Dance & Tanoura Show.
-                Overnight at Hotel in Dubai.
-              </DayCard>
+              {/* LEFT SIDE – ITINERARY */}
+              <div className="lg:col-span-2 space-y-8">
 
-              <DayCard title="Day – 2 : Hot Air Balloon & Global Village">
-                Early Morning Hot Air Balloon Ride over Dubai Desert with Sunrise Photography.
-                Return for breakfast.
-                Evening visit Global Village or Miracle Garden (seasonal).
-                Dinner at Restaurant of your choice.
-                Overnight stay at Hotel.
-              </DayCard>
+               <DayCard title="Day – 1 | Luxury Desert Safari Experience">
+  Arrival in Dubai and transfer to your hotel. Check-in and relax. 
+  In the afternoon, proceed for an unforgettable Luxury Desert Safari in a premium 4x4 Land Cruiser across the golden dunes of the Arabian Desert. 
+  Experience thrilling dune bashing followed by sandboarding on soft desert slopes. 
+  Enjoy a traditional camel ride and capture memorable Falcon Photography in authentic Arabian style. 
+  Upon arrival at the exclusive desert camp, relax in VIP seating with personalized service. 
+  Indulge in a lavish BBQ buffet dinner under the stars while enjoying live entertainment including Belly Dance, Tanoura Show, and a spectacular Fire Show. 
+  Experience traditional Arabic hospitality with henna painting and shisha lounge access. 
+  Return to hotel. Overnight stay at Dubai.
+</DayCard>
 
-              <DayCard title="Day – 3 : Departure">
-                Breakfast at Hotel.
-                Check-out & Airport Transfer.
-                Tour Ends.
-              </DayCard>
+<DayCard title="Day – 2 | Sunrise Hot Air Balloon & Cultural Evening">
+  Early morning transfer to the desert for a breathtaking Hot Air Balloon Ride. 
+  Float peacefully above the golden dunes while witnessing a spectacular sunrise over the Arabian landscape. 
+  Capture stunning aerial photography and enjoy light refreshments after landing. 
+  Return to hotel for breakfast and leisure time. 
+  In the evening, visit Global Village (seasonal) featuring international pavilions, shopping, and live cultural performances from around the world. 
+  Alternatively, explore Miracle Garden (seasonal), home to millions of vibrant floral displays arranged in artistic designs. 
+  Dinner at restaurant of your choice. Overnight stay at Dubai.
+</DayCard>
+
+<DayCard title="Day – 3 | Departure">
+  After breakfast at hotel, check-out as per standard timing. 
+  Transfer to Dubai International Airport for your onward journey. 
+  Depart with unforgettable memories of desert adventures, sunrise skies, and Dubai’s vibrant lifestyle. 
+  Tour Ends.
+</DayCard>
+
+              </div>
+
+              {/* RIGHT SIDE – VIDEO + AD */}
+              <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+                {/* Video Section */}
+                <div className="bg-white rounded-3xl shadow-lg p-6">
+                  <h3 className="text-xl font-bold mb-4 text-gray-800">
+                    Watch Desert Safari Video
+                  </h3>
+
+                  <div className="aspect-video rounded-xl overflow-hidden">
+                    <iframe
+                      className="w-full h-full"
+                      src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                      title="Desert Safari"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+                </div>
+
+                {/* Advertisement Section */}
+                <div className="bg-gradient-to-br from-orange-500 to-red-600 text-white rounded-3xl shadow-lg p-8 text-center">
+                  <h3 className="text-2xl font-bold mb-4">
+                    🌅 Desert Adventure Special
+                  </h3>
+                  <p className="text-sm opacity-90">
+                    Experience hot air balloon rides and VIP desert camps.
+                    Special adventure packages available!
+                  </p>
+                  <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                    Learn More
+                  </button>
+                </div>
+
+              </div>
 
             </div>
           </AddOnSection>
           <AddOnSection title="ATLANTIS LUXURY ESCAPE" subtitle="Add-on (or) Separately with ATLANTIS ">
-            <div className="space-y-4 grid md:grid-cols-1 gap-4">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
 
-              <DayCard title="Day – 1 : Check-in Atlantis The Palm">
-                Transfer to Atlantis The Palm.
-                Check-in to Luxury Ocean View Room.
-                Evening free to explore The Pointe & Palm Jumeirah.
-                Overnight at Atlantis.
-              </DayCard>
+              {/* LEFT SIDE – ITINERARY */}
+              <div className="lg:col-span-2 space-y-8">
 
-              <DayCard title="Day – 2 : Aquaventure & Lost Chambers">
-                After breakfast, full-day access to Aquaventure Waterpark.
-                Enjoy thrilling water slides & private beach access.
-                Visit Lost Chambers Aquarium.
-                Evening Dinner at Atlantis Signature Restaurant (Optional).
-                Overnight at Atlantis.
-              </DayCard>
+               <DayCard title="Day – 1 | Check-in at Atlantis The Palm – Iconic Island Luxury">
+  Arrival in Dubai and private transfer to the world-famous Atlantis The Palm, located on the crescent of Palm Jumeirah. 
+  Upon arrival, check-in to your Luxury Ocean View Room offering breathtaking views of the Arabian Gulf. 
+  Relax and explore the magnificent resort property featuring grand architecture and marine-themed interiors. 
+  In the evening, enjoy leisure time at The Pointe, a waterfront dining and entertainment destination overlooking Atlantis, or take a scenic walk along Palm Jumeirah promenade. 
+  Optional sunset photography session at Palm West Beach. 
+  Overnight stay at Atlantis The Palm.
+</DayCard>
 
-              <DayCard title="Day – 3 : Departure">
-                Breakfast at Hotel.
-                Check-out by 11 AM.
-                Transfer to Airport.
-                Tour Ends.
-              </DayCard>
+<DayCard title="Day – 2 | Aquaventure & The Lost Chambers Experience">
+  After breakfast at the hotel, enjoy full-day unlimited access to Aquaventure Waterpark, one of the largest waterparks in the world. 
+  Experience adrenaline-pumping slides like Leap of Faith, lazy river rides, wave pools, and private beach access exclusive for Atlantis guests. 
+  Later, visit The Lost Chambers Aquarium, home to over 65,000 marine animals including sharks, rays, and exotic fish species — inspired by the legend of the Lost City of Atlantis. 
+  Free time to relax by the infinity pools or private beach. 
+  Optional fine dining experience at one of Atlantis signature restaurants such as Nobu, Ossiano, or Gordon Ramsay’s Bread Street Kitchen (at additional cost). 
+  Overnight stay at Atlantis The Palm.
+</DayCard>
+
+<DayCard title="Day – 3 | Departure">
+  After breakfast, enjoy final leisure moments at the resort. 
+  Check-out by 11:00 AM as per hotel policy. 
+  Private transfer to Dubai International Airport for your onward journey. 
+  Depart with unforgettable memories of luxury island living, world-class water adventures, and iconic Dubai experiences. 
+  Tour Ends.
+</DayCard>
+              </div>
+
+              {/* RIGHT SIDE – VIDEO + AD */}
+              <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+                {/* Video Section */}
+                <div className="bg-white rounded-3xl shadow-lg p-6">
+                  <h3 className="text-xl font-bold mb-4 text-gray-800">
+                    Watch Atlantis Experience Video
+                  </h3>
+
+                  <div className="aspect-video rounded-xl overflow-hidden">
+                    <iframe
+                      className="w-full h-full"
+                      src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                      title="Atlantis Experience"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+                </div>
+
+                {/* Advertisement Section */}
+                <div className="bg-gradient-to-br from-purple-500 to-pink-600 text-white rounded-3xl shadow-lg p-8 text-center">
+                  <h3 className="text-2xl font-bold mb-4">
+                    🏝️ Island Paradise Special
+                  </h3>
+                  <p className="text-sm opacity-90">
+                    Experience luxury waterpark and ocean views.
+                    Premium island resort packages!
+                  </p>
+                  <button className="mt-6 bg-white text-purple-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                    Learn More
+                  </button>
+                </div>
+
+              </div>
 
             </div>
           </AddOnSection>
@@ -225,14 +399,14 @@ export default function DubaiPage() {
         title="Dubai Elite Getaway Packages"
         subtitle="Luxury stays, desert safaris & world-class experiences"
 
-         packages={[
-        { label: "recommended for extended duration", days: "6N / 7D", price: 22600 },
-        { label: "highly recommended", days: "5N / 6D", price: 19000 },
-        { label: "most popular", days: "4N / 5D", price: 15400 },
-         { label: "Group 20+", days: "3N / 4D", price: 12700 },
-        { label: "", days: "2N / 3D", price: 9100},
-        { label: "Not Feasible", days: "1N / 2D", price: 3700, disabled: true },
-      ]}
+        packages={[
+          { label: "recommended for extended duration", days: "6N / 7D", price: 22600 },
+          { label: "highly recommended", days: "5N / 6D", price: 19000 },
+          { label: "most popular", days: "4N / 5D", price: 15400 },
+          { label: "Group 20+", days: "3N / 4D", price: 12700 },
+          { label: "", days: "2N / 3D", price: 9100 },
+          { label: "Not Feasible", days: "1N / 2D", price: 3700, disabled: true },
+        ]}
       />
       <ContactCTA />
     </main>
@@ -247,7 +421,7 @@ function DayCard({ title, children }: { title: string; children: React.ReactNode
       <h2 className="text-2xl font-semibold text-amber-600 mb-4">
         {title}
       </h2>
-      <p className="text-gray-700 leading-8 whitespace-pre-line">
+      <p className="text-gray-700 leading-8 whitespace-pre-line text-lg">
         {children}
       </p>
     </div>

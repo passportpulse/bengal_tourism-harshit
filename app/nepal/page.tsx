@@ -83,8 +83,10 @@ export default function NepalPage() {
 
           </div>
 
-          {/* DAY CARDS */}
-          <div className="space-y-5 grid md:grid-cols-1 gap-5 grid-col-1">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+
+  {/* LEFT SIDE – ITINERARY */}
+  <div className="lg:col-span-2 space-y-8">
 
             {/* DAY 01 */}
             <DayCard title="Day - 01">
@@ -93,12 +95,12 @@ export default function NepalPage() {
 
             {/* DAY 02 */}
             <DayCard title="Day - 02">
-              After breakfast, full day sightseeing Kathmandu -  PASHUPATI NATH TEMPLE - 5 KM east of Kathmandu city centre. Pashupatinath Temple is one of the most important holiest sites for Hindus all over the world. BOUDHA NATH STUPA -05 km east of central Kathmandu. The stupa stands on a three – tiered platform raised over the crossed rectangles in order to bring the Yantra form. SWAYAMBHU NATH STUPA – 04 km west of central Kathmandu on a little hillock & KATHMANDU DURBAR SQUARE – heart of the Kathmandu city- local name of this area is Hanuman Dhoka – an ancient seat of the Nepalese Royalty. The Royal palace during mediaval times used for Royal Activities, Center of Administration, Cultural Activities and Festivals. Back to hotel or drop to market; back to hotel from market yourself. Overnight stay at Kathmandu.
+              After breakfast, full day sightseeing Kathmandu -  PASHUPATI NATH TEMPLE - 5 KM east of Kathmandu city centre. Pashupatinath Temple is one of the most important holiest sites for Hindus all over the world. BOUDHA NATH STUPA -05 km east of central Kathmandu. The stupa stands on a three – tiered platform raised over the crossed rectangles in order to bring the Yantra form. SWAYAMBHU NATH STUPA – 04 km west of central Kathmandu on a little hillock & KATHMANDU DURBAR SQUARE – heart of the Kathmandu city- local name of this area is Hanuman Dhoka – an ancient seat of the Nepalese Royalty. The Royal palace during mediavel times used for Royal Activities, Center of Administration, Cultural Activities and Festivals. Back to hotel or drop to market; back to hotel from market yourself. Overnight stay at Kathmandu.
             </DayCard>
 
             {/* DAY 03 */}
             <DayCard title="Day – 03">
-              After breakfast full day sightseeing Patan & Bhaktapur – PATAN DURBAR SQUARE - 5 KM south of central Kathmandu, across the Bagmati river. This city founded in 3rd century A.D by King Veera Dev. The monuments in this square date back to the medieval Malla period from 16th to 18th century. BHAKTAPUR DURBAR SQUARE - The City of devotees ‘Bhaktapur’ was founded by AnandDev in 1197 A. D. The existence of the city could be traced back to the Lichavi period (185 – 750 A.D.), according to the Gopal Raj Vamsabali. The present structures were erected from the 12th century to the 18th century. The Durbar square was the seat of the Malla kings located at around 12 KM away from the Kathmandu city. NAGARKOT – located 32 km east of Kathmandu, in Bhaktapur District. At an elevation of 2,195 meters, it is one of the most scenic spots for its sunrise view & Sun set view of the including Mount Everest as well as other snow-capped peaks of the Himalaya range of eastern Nepal. Nagarkot also offers a panoramic view of the Kathmandu Valley. Back to hotel. Overnight stay at Kathmandu.
+              After breakfast full day sightseeing Patan & Bhaktapur – PATAN DURBAR SQUARE - 5 KM south of central Kathmandu, across the Bagmati river. This city founded in 3rd century A.D by King Veera Dev. The monuments in this square date back to the medieval Malla period from 16th to 18th century. BHAKTAPUR DURBAR SQUARE - The City of devotees 'Bhaktapur' was founded by AnandDev in 1197 A. D. The existence of the city could be traced back to the Lichavi period (185 – 750 A.D.), according to the Gopal Raj Vamsabali. The present structures were erected from the 12th century to the 18th century. The Durbar square was the seat of the Malla kings located at around 12 KM away from the Kathmandu city. NAGARKOT – located 32 km east of Kathmandu, in Bhaktapur District. At an elevation of 2,195 meters, it is one of the most scenic spots for its sunrise view & Sun set view of the including Mount Everest as well as other snow-capped peaks of the Himalaya range of eastern Nepal. Nagarkot also offers a panoramic view of the Kathmandu Valley. Back to hotel. Overnight stay at Kathmandu.
             </DayCard>
 
             {/* DAY 04 */}
@@ -123,7 +125,44 @@ export default function NepalPage() {
               Early morningbreakfast. Departure transfer to TIA Airport Kathmandu forwarding / return journey. Tour ends.
             </DayCard>
 
-          </div>
+  </div>
+
+  {/* RIGHT SIDE – VIDEO + AD */}
+  <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+    {/* Video Section */}
+    <div className="bg-white rounded-3xl shadow-lg p-6">
+      <h3 className="text-xl font-bold mb-4 text-gray-800">
+        Watch Nepal Tour Video
+      </h3>
+
+      <div className="aspect-video rounded-xl overflow-hidden">
+        <iframe
+          className="w-full h-full"
+          src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+          title="Nepal Tour"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+
+    {/* Advertisement Section */}
+    <div className="bg-gradient-to-br from-red-500 to-orange-600 text-white rounded-3xl shadow-lg p-8 text-center">
+      <h3 className="text-2xl font-bold mb-4">
+        🏔️ Himalayan Paradise Special
+      </h3>
+      <p className="text-sm opacity-90">
+        Get exclusive discounts on mountain tours.
+        Limited seats available for peak season!
+      </p>
+      <button className="mt-6 bg-white text-red-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+        Book Now
+      </button>
+    </div>
+
+  </div>
+
+</div>
 
           {/* EXTRA COST SECTION */}
           <div className="bg-red-50 border border-red-200 rounded-3xl p-8 shadow-md">
@@ -173,7 +212,7 @@ function DayCard({ title, children }: SectionProps) {
   return (
     <div className="bg-white shadow-lg rounded-3xl p-8 border-l-4 border-red-500">
       <h2 className="text-2xl font-semibold text-red-600 mb-4">{title}</h2>
-      <p className="text-gray-700 leading-8 whitespace-pre-line">
+      <p className="text-gray-700 leading-8 whitespace-pre-line text-lg">
         {children}
       </p>
     </div>

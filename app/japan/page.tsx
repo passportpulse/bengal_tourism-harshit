@@ -83,53 +83,137 @@ export default function JapanPage() {
             subtitle="Land of the Rising Sun With TOKYO – KYOTO – OSAKA-"
           />
 
-          {/* MAIN DAY WISE */}
-          <div className=" grid  gap-10 grid-col-1">
-            <DayCard title="Day – 1">
-              Arrival in Tokyo: Our representative will be there to receive you at Narita/Haneda Airport. Transfer to hotel in Tokyo. Check-in and relax. Evening free for leisure. Dinner at local restaurant. Overnight stay at Tokyo hotel.
-            </DayCard>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
 
-            <DayCard title="Day – 2">
-              Tokyo City Tour: After breakfast, proceed for full day Tokyo city tour. Visit Tokyo Tower, Imperial Palace, Asakusa Kannon Temple, and Nakamise Shopping Street. Lunch at local restaurant. Evening visit Shibuya Crossing and Harajuku district. Dinner & Overnight stay at Tokyo.
-            </DayCard>
+  {/* LEFT SIDE – ITINERARY */}
+  <div className="lg:col-span-2 space-y-8">
+<DayCard title="Day – 1 | Arrival in Tokyo">
+  Arrival at Narita or Haneda International Airport where our local representative will warmly welcome you and assist with transfer to your hotel in Tokyo. Enjoy a comfortable drive through the ultra-modern cityscape of Japan’s capital. Upon arrival, check-in at your hotel and relax after your long journey. The evening is free for leisure — you may explore nearby streets, convenience stores, or experience your first glimpse of Tokyo’s vibrant nightlife. Optional walk through local neighborhoods to experience Japanese culture, vending machines, anime stores and neon-lit streets. Dinner at Indian or local restaurant. Overnight stay at Tokyo.
+</DayCard>
 
-            <DayCard title="Day – 3">
-              Tokyo - Mount Fuji - Hakone: After breakfast, proceed to Mount Fuji 5th Station (subject to weather conditions). Visit Fuji Visitor Center. Continue to Hakone for Lake Ashi cruise and Mount Komagatake Ropeway. Lunch en-route. Return to Tokyo in evening. Dinner & Overnight stay at Tokyo.
-            </DayCard>
+<DayCard title="Day – 2 | Tokyo City Exploration">
+  After breakfast at the hotel, proceed for a full-day guided city tour of Tokyo, a perfect blend of tradition and technology. Visit the iconic Tokyo Tower for panoramic views of the city skyline. Drive past the historic Imperial Palace, the residence of Japan’s Royal Family. Continue to Asakusa district to visit the famous Senso-ji (Asakusa Kannon Temple), Tokyo’s oldest Buddhist temple, followed by a walk through Nakamise Shopping Street for traditional souvenirs and snacks. Lunch at local restaurant. In the evening, experience the world-famous Shibuya Crossing, one of the busiest pedestrian intersections in the world. Explore Harajuku district known for youth fashion and pop culture. Dinner & Overnight stay at Tokyo.
+</DayCard>
 
-            <DayCard title="Day – 4">
-              Tokyo - Kyoto: After breakfast, take Shinkansen (bullet train) to Kyoto. Check-in at Kyoto hotel. Visit Kinkaku-ji Temple (Golden Pavilion), Ryoan-ji Temple (Zen garden), and Kiyomizu-dera Temple. Lunch en-route. Evening explore Gion district. Dinner & Overnight stay at Kyoto.
-            </DayCard>
+<DayCard title="Day – 3 | Mount Fuji & Hakone Experience">
+  After breakfast, depart for a scenic excursion to Mount Fuji, Japan’s highest and most sacred mountain. Drive to the Mount Fuji 5th Station (subject to weather conditions) for spectacular views and photography opportunities. Visit the Fuji Visitor Center to learn about the mountain’s history and volcanic activity. Continue to Hakone region where you will enjoy a relaxing cruise on Lake Ashi offering stunning views of Mount Fuji on clear days. Experience the Mount Komagatake Ropeway for panoramic views of mountains and valleys. Lunch en-route at local restaurant. Return to Tokyo in the evening. Dinner & Overnight stay at Tokyo.
+</DayCard>
 
-            <DayCard title="Day – 5">
-              Kyoto Sightseeing: After breakfast, visit Fushimi Inari Shrine with thousands of torii gates. Continue to Nara to visit Todai-ji Temple and Nara Park with deer. Lunch en-route. Return to Kyoto. Evening free for shopping. Dinner & Overnight stay at Kyoto.
-            </DayCard>
+<DayCard title="Day – 4 | Bullet Train to Kyoto">
+  After breakfast, transfer to Tokyo Station to board the world-famous Shinkansen Bullet Train to Kyoto, experiencing Japan’s advanced railway technology. Enjoy the smooth and fast journey through beautiful landscapes. Upon arrival in Kyoto, check-in at your hotel. Begin your Kyoto sightseeing with visit to the magnificent Kinkaku-ji Temple (Golden Pavilion), covered in gold leaf and surrounded by serene gardens. Visit Ryoan-ji Temple famous for its Zen rock garden symbolizing simplicity and meditation. Continue to Kiyomizu-dera Temple offering panoramic views of Kyoto city. Lunch en-route. In the evening, stroll through the historic Gion district, known for traditional wooden houses and possible Geisha sightings. Dinner & Overnight stay at Kyoto.
+</DayCard>
 
-            <DayCard title="Day – 6">
-              Kyoto - Osaka: After breakfast, transfer to Osaka. Visit Osaka Castle and Shitenno-ji Temple. Explore Dotonbori area for shopping and entertainment. Lunch en-route. Evening visit Umeda Sky Building. Dinner & Overnight stay at Osaka.
-            </DayCard>
+<DayCard title="Day – 5 | Kyoto & Nara Cultural Tour">
+  After breakfast, visit the iconic Fushimi Inari Taisha Shrine, famous for its thousands of vibrant red torii gates forming scenic walking trails up the mountain. Continue to Nara, Japan’s ancient capital. Visit Todai-ji Temple housing the Great Buddha statue, one of the largest bronze Buddha statues in the world. Explore Nara Park where friendly deer roam freely, considered sacred messengers in Japanese culture. Lunch at local restaurant. Return to Kyoto in the afternoon. Evening free for shopping at Nishiki Market or exploring traditional tea houses. Dinner & Overnight stay at Kyoto.
+</DayCard>
 
-            <DayCard title="Day – 7">
-              Departure: After breakfast, check-out and transfer to Kansai International Airport for onward journey with unforgettable memories of Japan. Tour Ends.
-            </DayCard>
-          </div>
+<DayCard title="Day – 6 | Kyoto to Osaka">
+  After breakfast, transfer to Osaka, known as Japan’s food capital. Begin sightseeing with a visit to Osaka Castle, a historic landmark surrounded by scenic gardens and moat. Continue to Shitenno-ji Temple, one of Japan’s oldest temples. Lunch at local restaurant. Explore the lively Dotonbori district famous for neon lights, street food and entertainment. Visit the Umeda Sky Building observatory deck for breathtaking sunset views of Osaka skyline. Enjoy shopping at Shinsaibashi arcade. Dinner & Overnight stay at Osaka.
+</DayCard>
+
+<DayCard title="Day – 7 | Departure from Osaka">
+  After breakfast, check-out from hotel. Depending on your flight schedule, free time for last-minute shopping or leisure. Transfer to Kansai International Airport for your onward flight. Depart with unforgettable memories of Japan’s rich culture, advanced technology, serene temples and vibrant cities. Tour Ends.
+</DayCard>
+
+  </div>
+
+  {/* RIGHT SIDE – VIDEO + AD */}
+  <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+    {/* Video Section */}
+    <div className="bg-white rounded-3xl shadow-lg p-6">
+      <h3 className="text-xl font-bold mb-4 text-gray-800">
+        Watch Japan Tour Video
+      </h3>
+
+      <div className="aspect-video rounded-xl overflow-hidden">
+        <iframe
+          className="w-full h-full"
+          src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+          title="Japan Tour"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+
+    {/* Advertisement Section */}
+    <div className="bg-gradient-to-br from-pink-500 to-purple-600 text-white rounded-3xl shadow-lg p-8 text-center">
+      <h3 className="text-2xl font-bold mb-4">
+        🌸 Japan Special Offer
+      </h3>
+      <p className="text-sm opacity-90">
+        Get exclusive discounts on cherry blossom season bookings.
+        Limited seats available for spring tours!
+      </p>
+      <button className="mt-6 bg-white text-pink-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+        Book Now
+      </button>
+    </div>
+
+  </div>
+
+</div>
 
           {/* ADD-ON SECTIONS */}
           <AddOnSection
             title="HIROSHIMA"
             subtitle="Add-on (or) Separately From OSAKA"
           />
-          <div className=" grid  gap-10 grid-col-1">
-            <DayCard title="Day – 1  ">
-              Osaka - Hiroshima: After breakfast, take Shinkansen to Hiroshima. Visit Peace Memorial Park, Atomic Bomb Dome, and Peace Memorial Museum. Lunch en-route. Check-in at Hiroshima hotel. Evening free. Dinner & Overnight stay at Hiroshima.
-            </DayCard>
-            <DayCard title="Day –  2 ">
-              Hiroshima - Miyajima: After breakfast, take ferry to Miyajima Island. Visit Itsukushima Shrine with floating torii gate. Mount Misen cable car ride for panoramic views. Lunch en-route. Return to Hiroshima. Dinner & Overnight stay at Hiroshima.
-            </DayCard>
-            <DayCard title="Day – 3 ">
-              Hiroshima - Osaka: After breakfast, visit Hiroshima Castle and Shukkeien Garden. Take Shinkansen back to Osaka. Lunch en-route. Evening free for last-minute shopping. Dinner & Overnight stay at Osaka.
-            </DayCard>
-          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+
+  {/* LEFT SIDE – ITINERARY */}
+  <div className="lg:col-span-2 space-y-8">
+
+         <DayCard title="Day – 1  |  Osaka to Hiroshima">
+  After an early breakfast at the hotel in Osaka, transfer to Shin-Osaka Station to board the world-famous Shinkansen Bullet Train to Hiroshima. Enjoy the smooth high-speed journey through the scenic Japanese countryside. Upon arrival in Hiroshima, proceed for a guided city tour beginning with the iconic Peace Memorial Park, a powerful reminder of history and resilience. Visit the Atomic Bomb Dome (UNESCO World Heritage Site), one of the few structures that remained standing after the 1945 bombing, followed by the Hiroshima Peace Memorial Museum where detailed exhibits narrate the events and the city's remarkable recovery journey. Lunch at a local restaurant. Later, transfer to your hotel for check-in and relaxation. Evening free for leisure — you may explore Hiroshima downtown, try authentic Japanese street food like Okonomiyaki (Hiroshima-style), or enjoy shopping at Hondori Street. Dinner at Indian/Local restaurant. Overnight stay at Hiroshima.
+</DayCard>
+
+<DayCard title="Day – 2  |  Hiroshima – Miyajima Island Excursion">
+  After breakfast, proceed to Miyajimaguchi Port and board a ferry to the beautiful Miyajima Island, known as one of Japan’s most scenic spots. Visit the world-famous Itsukushima Shrine, renowned for its iconic “floating” Torii Gate that appears to stand on water during high tide — a truly breathtaking sight. Stroll through the charming island streets filled with traditional shops and local snack stalls. Later, take the Mount Misen Ropeway (cable car) to enjoy panoramic views of the Seto Inland Sea and surrounding islands. Explore observation decks and walking trails offering spectacular photo opportunities. Lunch at a local restaurant featuring regional delicacies. In the afternoon, return to Hiroshima by ferry. Evening free for personal exploration or relaxation at hotel. Dinner & Overnight stay at Hiroshima.
+</DayCard>
+
+<DayCard title="Day – 3  |  Hiroshima to Osaka">
+  After breakfast at the hotel, check-out and proceed for a half-day Hiroshima city exploration. Visit Hiroshima Castle, also known as “Carp Castle,” which showcases samurai-era history and traditional Japanese architecture. Continue to Shukkeien Garden, a beautifully landscaped traditional Japanese garden featuring miniature valleys, mountains, and tea houses — perfect for a peaceful morning walk. Lunch at local restaurant. Later, transfer to Hiroshima Station to board the Shinkansen back to Osaka. Upon arrival, transfer to hotel and check-in. Evening free for last-minute shopping at Shinsaibashi or exploring the lively Dotonbori district. Dinner at Indian/Local restaurant. Overnight stay at Osaka.
+</DayCard>
+
+  </div>
+
+  {/* RIGHT SIDE – VIDEO + AD */}
+  <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+    {/* Video Section */}
+    <div className="bg-white rounded-3xl shadow-lg p-6">
+      <h3 className="text-xl font-bold mb-4 text-gray-800">
+        Watch Hiroshima Tour Video
+      </h3>
+
+      <div className="aspect-video rounded-xl overflow-hidden">
+        <iframe
+          className="w-full h-full"
+          src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+          title="Hiroshima Tour"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+
+    {/* Advertisement Section */}
+    <div className="bg-gradient-to-br from-blue-500 to-teal-600 text-white rounded-3xl shadow-lg p-8 text-center">
+      <h3 className="text-2xl font-bold mb-4">
+        🕊️ Peace Tour Special
+      </h3>
+      <p className="text-sm opacity-90">
+        Experience the historic journey of peace and reconciliation.
+        Educational tours for students available.
+      </p>
+      <button className="mt-6 bg-white text-blue-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+        Learn More
+      </button>
+    </div>
+
+  </div>
+
+</div>
 
         </div>
       </div>
@@ -173,7 +257,7 @@ function DayCard({ title, children }: { title: string; children: React.ReactNode
   return (
     <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-pink-600">
       <h3 className="text-2xl font-semibold text-pink-700 mb-4">{title}</h3>
-      <p className="text-gray-700 leading-8 whitespace-pre-line">{children}</p>
+      <p className="text-gray-700 leading-8 whitespace-pre-line text-lg">{children}</p>
     </div>
   )
 }

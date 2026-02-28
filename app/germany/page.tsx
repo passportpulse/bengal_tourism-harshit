@@ -84,34 +84,76 @@ export default function GermanyPage() {
           />
 
           {/* MAIN DAY WISE */}
-          <div className=" grid  gap-10 grid-col-1">
-            <DayCard title="Day – 1">
-              Arrival in Berlin: Our representative will be there to receive you at Berlin Brandenburg Airport. Transfer to hotel. Check-in and relax. Evening visit Brandenburg Gate and Reichstag Building. Dinner at local restaurant. Overnight stay at Berlin hotel.
-            </DayCard>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
 
-            <DayCard title="Day – 2">
-              Berlin City Tour: After breakfast, proceed for full day Berlin city tour. Visit Berlin Wall Memorial, Checkpoint Charlie, and Museum Island. Lunch en-route. Evening visit Potsdamer Platz. Dinner & Overnight stay at Berlin.
-            </DayCard>
+            {/* LEFT SIDE – ITINERARY */}
+            <div className="lg:col-span-2 space-y-8">
 
-            <DayCard title="Day – 3">
-              Berlin - Munich: After breakfast, take flight to Munich. Check-in at hotel. Visit Marienplatz and New Town Hall. Lunch en-route. Evening visit Hofbräuhaus for Bavarian experience. Dinner & Overnight stay at Munich.
-            </DayCard>
+              <DayCard title="Day – 1 | Arrival in Berlin – Historic Capital">
+                Arrival at Berlin Brandenburg International Airport where our representative will warmly welcome you and assist with transfer to your hotel. After check-in and some relaxation, begin your introduction to Germany's vibrant capital. In the evening, visit the iconic Brandenburg Gate, a powerful symbol of German unity, beautifully illuminated at night. Continue to the Reichstag Building, home of the German Parliament, and admire its impressive glass dome architecture. Enjoy a leisurely walk along Unter den Linden boulevard. Dinner at Indian/local restaurant. Overnight stay at Berlin.
+              </DayCard>
 
-            <DayCard title="Day – 4">
-              Munich & Neuschwanstein: After breakfast, day trip to Neuschwanstein Castle (fairy-tale castle). Visit Hohenschwangau Castle. Lunch en-route. Evening return to Munich. Visit English Garden. Dinner & Overnight stay at Munich.
-            </DayCard>
+              <DayCard title="Day – 2 | Berlin City Exploration">
+                After breakfast, proceed for a comprehensive full-day Berlin city tour. Visit the Berlin Wall Memorial to understand the city's divided past and Cold War history. Stop at Checkpoint Charlie, the famous border crossing between East and West Berlin. Continue to Museum Island, a UNESCO World Heritage Site housing world-class museums and classical architecture. Lunch at a local restaurant en-route. In the evening, explore Potsdamer Platz, a lively district known for modern architecture, shopping, and entertainment. Dinner & Overnight stay at Berlin.
+              </DayCard>
 
-            <DayCard title="Day – 5">
-              Munich - Frankfurt: After breakfast, take train to Frankfurt. Check-in at hotel. Visit Römerberg (Old Town) and St. Bartholomew's Cathedral. Lunch en-route. Evening explore Zeil shopping street. Dinner & Overnight stay at Frankfurt.
-            </DayCard>
+              <DayCard title="Day – 3 | Berlin to Munich – Bavarian Charm">
+                After breakfast, transfer to airport for your flight to Munich, the capital of Bavaria. Upon arrival, check-in at hotel and begin exploring the heart of the city at Marienplatz, Munich's central square. Admire the magnificent New Town Hall (Neues Rathaus) with its famous Glockenspiel clock performance. Lunch at local restaurant. In the evening, visit the legendary Hofbräuhaus beer hall to experience traditional Bavarian culture, music, and cuisine (non-alcoholic options available). Dinner & Overnight stay at Munich.
+              </DayCard>
 
-            <DayCard title="Day – 6">
-              Heidelberg Day Trip: After breakfast, full day excursion to Heidelberg. Visit Heidelberg Castle and Old Bridge. Explore University Town. Lunch en-route. Evening return to Frankfurt. Farewell dinner. Overnight stay at Frankfurt.
-            </DayCard>
+              <DayCard title="Day – 4 | Neuschwanstein Castle – Fairy Tale Experience">
+                After breakfast, proceed for a scenic day trip to the world-famous Neuschwanstein Castle, often referred to as the "fairy-tale castle" that inspired Disney's Sleeping Beauty Castle. Nestled in the Bavarian Alps, this architectural masterpiece offers breathtaking mountain views. Continue to nearby Hohenschwangau Castle, the childhood residence of King Ludwig II. Lunch en-route. Return to Munich in the evening and enjoy a relaxing stroll through the English Garden, one of Europe's largest urban parks. Dinner & Overnight stay at Munich.
+              </DayCard>
 
-            <DayCard title="Day – 7">
-              Departure: After breakfast, check-out and transfer to Frankfurt Airport for onward journey with unforgettable memories of Germany. Tour Ends.
-            </DayCard>
+              <DayCard title="Day – 5 | Munich to Frankfurt – Financial Hub">
+                After breakfast, board a comfortable train to Frankfurt, Germany's financial capital. Upon arrival, check-in at hotel. Visit Römerberg (Old Town Square), featuring charming half-timbered houses and historic buildings. Explore St. Bartholomew's Cathedral, an important imperial coronation site. Lunch at local restaurant. In the evening, stroll along Zeil shopping street, known for its modern retail stores and cafes. Dinner & Overnight stay at Frankfurt.
+              </DayCard>
+
+              <DayCard title="Day – 6 | Heidelberg Day Excursion">
+                After breakfast, proceed for a full-day excursion to Heidelberg, one of Germany's most romantic towns. Visit Heidelberg Castle perched above the Neckar River, offering panoramic views of the valley. Explore the Old Bridge and wander through the charming cobblestone streets of the Old Town. Discover Heidelberg University, Germany's oldest university town with rich academic heritage. Lunch at local restaurant. Return to Frankfurt in the evening. Enjoy a farewell dinner celebrating your unforgettable German journey. Overnight stay at Frankfurt.
+              </DayCard>
+
+              <DayCard title="Day – 7 | Departure">
+                After breakfast, check-out from hotel and transfer to Frankfurt International Airport for your onward journey. Depart with unforgettable memories of Germany's historic landmarks, Bavarian traditions, fairy-tale castles, and scenic landscapes. Tour Ends.
+              </DayCard>
+
+            </div>
+
+            {/* RIGHT SIDE – VIDEO + AD */}
+            <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+              {/* Video Section */}
+              <div className="bg-white rounded-3xl shadow-lg p-6">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  Watch Germany Tour Video
+                </h3>
+
+                <div className="aspect-video rounded-xl overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    title="Germany Tour"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+
+              {/* Advertisement Section */}
+              <div className="bg-gradient-to-br from-gray-700 to-slate-600 text-white rounded-3xl shadow-lg p-8 text-center">
+                <h3 className="text-2xl font-bold mb-4">
+                  🏰 European Heritage Special
+                </h3>
+                <p className="text-sm opacity-90">
+                  Get exclusive discounts on castle tours.
+                  Limited seats available for peak season!
+                </p>
+                <button className="mt-6 bg-white text-gray-700 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                  Book Now
+                </button>
+              </div>
+
+            </div>
+
           </div>
 
           {/* ADD-ON SECTIONS */}
@@ -119,16 +161,60 @@ export default function GermanyPage() {
             title="RHINE VALLEY"
             subtitle="Add-on (or) Separately From FRANKFURT"
           />
-          <div className=" grid  gap-10 grid-col-1">
-            <DayCard title="Day – 1  ">
-              Frankfurt - Rhine Valley: After breakfast, day trip to Rhine Valley. Take Rhine River cruise passing castles. Visit Lorelei Rock. Lunch en-route. Evening return to Frankfurt. Dinner & Overnight stay at Frankfurt.
-            </DayCard>
-            <DayCard title="Day –  2 ">
-              Cologne & Bonn: After breakfast, day trip to Cologne. Visit Cologne Cathedral and Chocolate Museum. Continue to Bonn (former capital). Lunch en-route. Evening return to Frankfurt. Dinner & Overnight stay at Frankfurt.
-            </DayCard>
-            <DayCard title="Day – 3 ">
-              Stuttgart & Black Forest: After breakfast, day trip to Stuttgart. Visit Mercedes-Benz Museum. Continue to Black Forest region. Lunch en-route. Evening return to Frankfurt. Farewell dinner. Overnight stay at Frankfurt.
-            </DayCard>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+
+            {/* LEFT SIDE – ITINERARY */}
+            <div className="lg:col-span-2 space-y-8">
+
+              <DayCard title="Day – 1  |  Rhine Valley – Castles & River Cruise">
+                After breakfast, proceed for a scenic day excursion to the breathtaking Rhine Valley, a UNESCO World Heritage Site renowned for its dramatic landscapes, vineyard-covered hills, and medieval castles perched along the riverbanks. Upon arrival, board a relaxing Rhine River cruise and sail past picturesque towns and ancient fortresses that reflect Germany's romantic heritage. Enjoy spectacular views of the legendary Lorelei Rock, steeped in folklore and Rhine River myths. Lunch at a local riverside restaurant featuring regional cuisine. Spend time exploring charming Rhine Valley villages known for wine production and traditional half-timbered houses. In the evening, return to Frankfurt. Dinner at Indian/local restaurant. Overnight stay at Frankfurt.
+              </DayCard>
+
+              <DayCard title="Day – 2  |  Cologne & Bonn – Cathedral & Culture">
+                After breakfast, depart for Cologne, one of Germany's oldest cities situated along the Rhine River. Visit the magnificent Cologne Cathedral (Kölner Dom), a UNESCO World Heritage Site and one of Europe's largest Gothic cathedrals, famous for its towering twin spires and stunning stained-glass windows. Continue to the interactive Chocolate Museum to learn about the history of cocoa and enjoy sweet tastings. Lunch at local restaurant. Later, proceed to Bonn, the former capital of West Germany and birthplace of composer Ludwig van Beethoven. Explore the charming Old Town, Beethoven House (exterior view), and scenic Rhine promenade. Evening return to Frankfurt. Dinner & Overnight stay at Frankfurt.
+              </DayCard>
+
+              <DayCard title="Day – 3  |  Stuttgart & Black Forest – Automotive & Nature">
+                After breakfast, proceed for a full-day excursion to Stuttgart, the automotive heart of Germany. Visit the world-renowned Mercedes-Benz Museum, showcasing over 130 years of automobile innovation and engineering excellence. Continue your journey towards the enchanting Black Forest region, famous for its dense evergreen forests, traditional cuckoo clocks, and charming villages. Enjoy scenic drives through rolling hills and picturesque landscapes. Lunch at a local restaurant en-route. Experience authentic Black Forest culture and optionally taste the famous Black Forest cake. In the evening, return to Frankfurt. Enjoy a farewell dinner celebrating your memorable German journey. Overnight stay at Frankfurt.
+              </DayCard>
+
+            </div>
+
+            {/* RIGHT SIDE – VIDEO + AD */}
+            <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+              {/* Video Section */}
+              <div className="bg-white rounded-3xl shadow-lg p-6">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  Watch Rhine Valley Tour Video
+                </h3>
+
+                <div className="aspect-video rounded-xl overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    title="Rhine Valley Tour"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+
+              {/* Advertisement Section */}
+              <div className="bg-gradient-to-br from-blue-500 to-indigo-600 text-white rounded-3xl shadow-lg p-8 text-center">
+                <h3 className="text-2xl font-bold mb-4">
+                  🚗 Automotive & Nature Tour
+                </h3>
+                <p className="text-sm opacity-90">
+                  Explore luxury cars and scenic river valleys.
+                  Special cultural tours available!
+                </p>
+                <button className="mt-6 bg-white text-blue-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                  Learn More
+                </button>
+              </div>
+
+            </div>
+
           </div>
 
         </div>
@@ -173,7 +259,7 @@ function DayCard({ title, children }: { title: string; children: React.ReactNode
   return (
     <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-gray-600">
       <h3 className="text-2xl font-semibold text-gray-700 mb-4">{title}</h3>
-      <p className="text-gray-700 leading-8 whitespace-pre-line">{children}</p>
+      <p className="text-gray-700 leading-8 whitespace-pre-line text-lg">{children}</p>
     </div>
   )
 }

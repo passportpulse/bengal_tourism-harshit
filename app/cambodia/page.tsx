@@ -84,34 +84,76 @@ export default function CambodiaPage() {
           />
 
           {/* MAIN DAY WISE */}
-          <div className=" grid  gap-10 grid-col-1">
-            <DayCard title="Day – 1">
-              Arrival in Siem Reap: Our representative will be there to receive you at Siem Reap International Airport. Transfer to hotel. Check-in and relax. Evening visit Pub Street and local markets. Dinner at local restaurant. Overnight stay at Siem Reap hotel.
-            </DayCard>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
 
-            <DayCard title="Day – 2">
-              Angkor Wat Sunrise: Early morning visit to Angkor Wat for spectacular sunrise. Return to hotel for breakfast. Continue to Angkor Thom City including Bayon Temple and Baphuon Temple. Lunch at local restaurant. Evening visit Ta Prohm Temple (Tomb Raider location). Dinner & Overnight stay at Siem Reap.
-            </DayCard>
+            {/* LEFT SIDE – ITINERARY */}
+            <div className="lg:col-span-2 space-y-8">
 
-            <DayCard title="Day – 3">
-              Banteay Srei & Grand Circuit: After breakfast, visit Banteay Srei Temple (Citadel of Women). Continue to Grand Circuit including Pre Rup, East Mebon, and Ta Som. Lunch en-route. Evening visit Phnom Bakheng for sunset views. Dinner & Overnight stay at Siem Reap.
-            </DayCard>
+              <DayCard title="Day – 1 | Arrival in Siem Reap – Cultural Welcome">
+                Arrival at Siem Reap International Airport where our local representative will warmly welcome you and assist with transfer to your hotel. Check-in and relax after your journey. Siem Reap, the gateway to the ancient Angkor temples, offers a charming blend of heritage and modern hospitality. In the evening, explore the vibrant Pub Street area, famous for lively cafes, night markets, and street performances. Stroll through local markets offering handicrafts, Cambodian souvenirs, and traditional snacks. Dinner at Indian/local restaurant. Overnight stay at Siem Reap.
+              </DayCard>
 
-            <DayCard title="Day – 4">
-              Siem Reap - Phnom Penh: After breakfast, transfer to airport for flight to Phnom Penh. Check-in at hotel. Visit Royal Palace and Silver Pagoda. Lunch en-route. Evening visit Wat Phnom and Independence Monument. Dinner & Overnight stay at Phnom Penh.
-            </DayCard>
+              <DayCard title="Day – 2 | Angkor Wat Sunrise & Angkor Thom">
+                Early morning departure to witness a breathtaking sunrise at Angkor Wat, the world’s largest religious monument and a UNESCO World Heritage Site. Watch the temple’s silhouette reflect beautifully over the lotus ponds — a magical and unforgettable experience. Return to hotel for breakfast. Later, explore the grand Angkor Thom complex including the Bayon Temple, famous for its 200+ smiling stone faces, and Baphuon Temple known for its impressive pyramid structure. Visit the Terrace of the Elephants and Terrace of the Leper King. Lunch at local restaurant. In the evening, visit the iconic Ta Prohm Temple, left partially embraced by giant tree roots and famously featured in the movie “Tomb Raider.” Dinner & Overnight stay at Siem Reap.
+              </DayCard>
 
-            <DayCard title="Day – 5">
-              Phnom Penh City Tour: After breakfast, visit Tuol Sleng Genocide Museum (S21) and Choeung Ek Killing Fields. Lunch en-route. Afternoon visit National Museum and Central Market. Evening sunset cruise on Mekong River. Dinner & Overnight stay at Phnom Penh.
-            </DayCard>
+              <DayCard title="Day – 3 | Banteay Srei & Grand Circuit Temples">
+                After breakfast, proceed to Banteay Srei Temple, often called the “Citadel of Women,” renowned for its intricate pink sandstone carvings and fine Khmer artistry. Continue the exploration of the Grand Circuit temples including Pre Rup Temple, known for sunset views and ancient cremation rituals; East Mebon, once surrounded by a vast reservoir; and Ta Som Temple with its picturesque tree-covered entrance. Lunch en-route at local restaurant. In the evening, climb Phnom Bakheng Hill to enjoy panoramic sunset views over the Angkor temple complex. Dinner & Overnight stay at Siem Reap.
+              </DayCard>
 
-            <DayCard title="Day – 6">
-              Phnom Penh Exploration: After breakfast, visit Oudong Mountain (ancient capital). Continue to Silk Island for traditional silk weaving demonstration. Lunch en-route. Evening free for shopping at Russian Market. Dinner & Overnight stay at Phnom Penh.
-            </DayCard>
+              <DayCard title="Day – 4 | Siem Reap to Phnom Penh – Royal Heritage">
+                After breakfast, transfer to the airport for your flight to Phnom Penh, the vibrant capital of Cambodia. Upon arrival, transfer to hotel and check-in. Begin city exploration with a visit to the magnificent Royal Palace, home to the Cambodian King, followed by the Silver Pagoda, famous for its floor paved with over 5,000 silver tiles and priceless Buddha statues. Lunch at local restaurant. In the evening, visit Wat Phnom, the sacred hilltop temple that gave the city its name, and drive past the Independence Monument symbolizing Cambodia’s freedom. Dinner & Overnight stay at Phnom Penh.
+              </DayCard>
 
-            <DayCard title="Day – 7">
-              Departure: After breakfast, check-out and transfer to Phnom Penh International Airport for onward journey with unforgettable memories of Cambodia. Tour Ends.
-            </DayCard>
+              <DayCard title="Day – 5 | Phnom Penh History & River Cruise">
+                After breakfast, visit the Tuol Sleng Genocide Museum (S21), a former school turned prison during the Khmer Rouge regime, offering a somber yet important historical insight. Continue to the Choeung Ek Killing Fields memorial site to understand Cambodia’s tragic past. Lunch at local restaurant. In the afternoon, visit the National Museum showcasing Khmer art, sculptures, and artifacts. Explore Central Market for souvenirs and local handicrafts. In the evening, enjoy a scenic sunset cruise along the Mekong River, witnessing the skyline and riverside life of Phnom Penh. Dinner & Overnight stay at Phnom Penh.
+              </DayCard>
+
+              <DayCard title="Day – 6 | Oudong & Silk Island Experience">
+                After breakfast, proceed to Oudong Mountain, the former royal capital of Cambodia. Climb to the hilltop stupas for panoramic countryside views and learn about Cambodia’s royal history. Continue to Silk Island (Koh Dach), known for traditional silk weaving. Observe local artisans producing handmade silk products using age-old techniques. Lunch en-route at local restaurant. Return to Phnom Penh. Evening free for leisure or shopping at the famous Russian Market. Dinner & Overnight stay at Phnom Penh.
+              </DayCard>
+
+              <DayCard title="Day – 7 | Departure from Cambodia">
+                After breakfast, check-out from hotel and transfer to Phnom Penh International Airport for your onward journey. Depart with unforgettable memories of Cambodia’s majestic temples, royal heritage, resilient history, and warm hospitality. Tour Ends.
+              </DayCard>
+
+            </div>
+
+            {/* RIGHT SIDE – VIDEO + AD */}
+            <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+              {/* Video Section */}
+              <div className="bg-white rounded-3xl shadow-lg p-6">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  Watch Cambodia Tour Video
+                </h3>
+
+                <div className="aspect-video rounded-xl overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    title="Cambodia Tour"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+
+              {/* Advertisement Section */}
+              <div className="bg-gradient-to-br from-orange-500 to-red-600 text-white rounded-3xl shadow-lg p-8 text-center">
+                <h3 className="text-2xl font-bold mb-4">
+                  🏛️ Ancient Kingdom Special
+                </h3>
+                <p className="text-sm opacity-90">
+                  Get exclusive discounts on temple tours.
+                  Limited seats available for peak season!
+                </p>
+                <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                  Book Now
+                </button>
+              </div>
+
+            </div>
+
           </div>
 
           {/* ADD-ON SECTIONS */}
@@ -119,16 +161,60 @@ export default function CambodiaPage() {
             title="TONLE SAP LAKE"
             subtitle="Add-on (or) Separately From SIEM REAP"
           />
-          <div className=" grid  gap-10 grid-col-1">
-            <DayCard title="Day – 1  ">
-              Siem Reap - Tonle Sap: After breakfast, proceed to Tonle Sap Lake (largest freshwater lake in Southeast Asia). Take boat trip to visit floating villages and Kompong Phluk. Lunch en-route. Evening return to Siem Reap. Dinner & Overnight stay at Siem Reap.
-            </DayCard>
-            <DayCard title="Day –  2 ">
-              Kulen Mountain: After breakfast, visit Phnom Kulen National Park (sacred mountain). Visit Reclining Buddha, waterfall, and River of a Thousand Lingas. Lunch en-route. Evening visit local handicraft village. Dinner & Overnight stay at Siem Reap.
-            </DayCard>
-            <DayCard title="Day – 3 ">
-              Beng Mealea & Koh Ker: After breakfast, visit Beng Mealea Temple (jungle temple). Continue to Koh Ker archaeological site with pyramid temple. Lunch en-route. Evening visit local market. Dinner & Overnight stay at Siem Reap.
-            </DayCard>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+
+            {/* LEFT SIDE – ITINERARY */}
+            <div className="lg:col-span-2 space-y-8">
+
+              <DayCard title="Day – 1  |  Tonle Sap Lake & Floating Villages">
+                After breakfast at the hotel, proceed towards Tonle Sap Lake, the largest freshwater lake in Southeast Asia and a lifeline for millions of Cambodians. Upon arrival, enjoy a scenic boat ride through the vast waters and visit the fascinating floating villages of Kompong Phluk, where houses, schools, and even markets are built on tall stilts above the water. Witness the unique lifestyle of local fishing communities who adapt to changing water levels throughout the year. Cruise through flooded mangrove forests (seasonal) and observe traditional wooden boats used for daily transport. Lunch at a local restaurant en-route. In the evening, return to Siem Reap. Dinner at Indian/local restaurant. Overnight stay at Siem Reap.
+              </DayCard>
+
+              <DayCard title="Day – 2  |  Sacred Kulen Mountain Experience">
+                After breakfast, depart for Phnom Kulen National Park, considered the birthplace of the ancient Khmer Empire and one of Cambodia's most sacred mountains. Visit the giant Reclining Buddha statue carved into sandstone at the hilltop pagoda. Continue to the famous "River of a Thousand Lingas," where intricate carvings of Hindu symbols are etched into the riverbed beneath flowing water. Enjoy a refreshing stop at the Kulen Waterfall, where you may relax or take a swim in the natural pool surrounded by lush greenery. Lunch at a local restaurant. In the afternoon, return to Siem Reap and visit a local handicraft village to observe traditional Khmer craftsmanship such as stone carving and silk weaving. Dinner & Overnight stay at Siem Reap.
+              </DayCard>
+
+              <DayCard title="Day – 3  |  Beng Mealea & Koh Ker Exploration">
+                After breakfast, proceed to Beng Mealea Temple, often referred to as the "hidden jungle temple." This mysterious 12th-century temple is partially reclaimed by nature, with massive tree roots entwined around ancient stone walls, offering an adventurous exploration experience. Continue the journey to the remote Koh Ker archaeological site, once the capital of the Khmer Empire in the 10th century. Explore the impressive Prasat Thom pyramid temple, a seven-tiered structure rising dramatically above the jungle landscape, offering panoramic views from the top. Discover ancient ruins scattered across forested surroundings, far from the usual tourist crowds. Lunch at a local restaurant en-route. Return to Siem Reap in the evening and explore a local market for souvenirs and handicrafts. Dinner & Overnight stay at Siem Reap.
+              </DayCard>
+
+            </div>
+
+            {/* RIGHT SIDE – VIDEO + AD */}
+            <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+              {/* Video Section */}
+              <div className="bg-white rounded-3xl shadow-lg p-6">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  Watch Tonle Sap Lake Video
+                </h3>
+
+                <div className="aspect-video rounded-xl overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    title="Tonle Sap Lake Tour"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+
+              {/* Advertisement Section */}
+              <div className="bg-gradient-to-br from-blue-500 to-cyan-600 text-white rounded-3xl shadow-lg p-8 text-center">
+                <h3 className="text-2xl font-bold mb-4">
+                  🌊 Lake Adventure Special
+                </h3>
+                <p className="text-sm opacity-90">
+                  Explore floating villages and sacred mountains.
+                  Special cultural tours available!
+                </p>
+                <button className="mt-6 bg-white text-blue-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                  Learn More
+                </button>
+              </div>
+
+            </div>
+
           </div>
 
         </div>
@@ -173,7 +259,7 @@ function DayCard({ title, children }: { title: string; children: React.ReactNode
   return (
     <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-orange-600">
       <h3 className="text-2xl font-semibold text-orange-700 mb-4">{title}</h3>
-      <p className="text-gray-700 leading-8 whitespace-pre-line">{children}</p>
+      <p className="text-gray-700 leading-8 whitespace-pre-line text-lg">{children}</p>
     </div>
   )
 }

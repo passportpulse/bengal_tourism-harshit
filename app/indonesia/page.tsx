@@ -83,53 +83,138 @@ export default function IndonesiaPage() {
             subtitle="Island Paradise With BALI – JAKARTA – LOMBOK-"
           />
 
-          {/* MAIN DAY WISE */}
-          <div className=" grid  gap-10 grid-col-1">
-            <DayCard title="Day – 1">
-              Arrival in Bali: Our representative will be there to receive you at Ngurah Rai International Airport, Denpasar. Transfer to hotel in Kuta/Seminyak. Check-in and relax. Evening visit Tanah Lot Temple for sunset. Dinner at local restaurant. Overnight stay at Bali hotel.
-            </DayCard>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
 
-            <DayCard title="Day – 2">
-              Bali Cultural Tour: After breakfast, proceed for full day Bali cultural tour. Visit Tirta Empul Temple, Tegallalang Rice Terraces, and Ubud Art Market. Lunch at local restaurant. Evening visit Uluwatu Temple for Kecak Fire Dance performance. Dinner & Overnight stay at Bali.
-            </DayCard>
+  {/* LEFT SIDE – ITINERARY */}
+  <div className="lg:col-span-2 space-y-8">
 
-            <DayCard title="Day – 3">
-              Bali Beach Day: After breakfast, enjoy water sports at Tanjung Benoa. Visit Nusa Dua Beach for relaxation. Lunch at beachfront restaurant. Evening explore Seminyak area and enjoy sunset at Double Six Beach. Dinner & Overnight stay at Bali.
-            </DayCard>
+   <DayCard title="Day – 1 | Arrival in Bali – Sunset at Tanah Lot">
+  Arrival at Ngurah Rai International Airport, Denpasar (Bali), where our local representative will warmly welcome you and assist with transfer to your hotel in Kuta or Seminyak. Enjoy a scenic drive passing through Bali’s vibrant streets and traditional architecture. Upon arrival, check-in at hotel and relax after your journey. In the evening, proceed to the iconic Tanah Lot Temple, one of Bali’s most photographed sea temples, beautifully perched on a rock formation amidst the Indian Ocean. Witness a breathtaking sunset view as waves crash dramatically against the temple rocks — a truly magical experience. Dinner at Indian/local restaurant. Overnight stay at Bali.
+</DayCard>
 
-            <DayCard title="Day – 4">
-              Bali - Jakarta: After breakfast, transfer to airport for flight to Jakarta. Check-in at Jakarta hotel. Visit National Monument (Monas) and Istiqlal Mosque. Lunch en-route. Evening explore Jakarta Old Town (Kota Tua). Dinner & Overnight stay at Jakarta.
-            </DayCard>
+<DayCard title="Day – 2 | Bali Cultural & Heritage Tour">
+  After breakfast, embark on a full-day cultural exploration of Bali’s spiritual and artistic heartland. Visit Tirta Empul Temple, famous for its sacred holy spring water where locals perform purification rituals. Continue to the stunning Tegallalang Rice Terraces, known for their breathtaking layered green landscapes and traditional irrigation system (Subak). Enjoy scenic photo stops and optional Bali Swing experience. Lunch at a local restaurant overlooking lush valleys. Later, explore Ubud Art Market for handcrafted souvenirs, paintings, wooden carvings and Balinese artwork. In the evening, visit the dramatic Uluwatu Temple, situated on a cliff 70 meters above the ocean, and witness the mesmerizing Kecak Fire Dance performance at sunset. Dinner & Overnight stay at Bali.
+</DayCard>
 
-            <DayCard title="Day – 5">
-              Jakarta City Tour: After breakfast, visit Taman Mini Indonesia Indah (Beautiful Indonesia Miniature Park). Continue to Ancol Dreamland and Sea World. Lunch en-route. Evening shopping at Grand Indonesia Mall. Dinner & Overnight stay at Jakarta.
-            </DayCard>
+<DayCard title="Day – 3 | Bali Beaches & Water Adventure">
+  After breakfast, proceed to Tanjung Benoa Beach, the hub for exciting water sports activities. Enjoy thrilling experiences such as Banana Boat Ride, Jet Ski, Parasailing or optional scuba diving (at own cost). Continue to the pristine Nusa Dua Beach for relaxation, sunbathing and enjoying turquoise waters. Lunch at a beachfront restaurant offering fresh seafood and Indonesian delicacies. In the evening, explore the lively Seminyak area known for luxury boutiques and beach clubs. Witness a stunning sunset at Double Six Beach while relaxing by the shore. Dinner & Overnight stay at Bali.
+</DayCard>
 
-            <DayCard title="Day – 6">
-              Jakarta - Lombok: After breakfast, transfer to airport for flight to Lombok. Check-in at Senggigi hotel. Visit Senggigi Beach and Nipah Beach for sunset. Lunch en-route. Evening free for leisure. Dinner & Overnight stay at Lombok.
-            </DayCard>
+<DayCard title="Day – 4 | Bali to Jakarta – Capital City Experience">
+  After breakfast, transfer to the airport for your flight to Jakarta, the dynamic capital of Indonesia. Upon arrival, transfer to hotel and check-in. Begin sightseeing with a visit to the National Monument (Monas), a symbol of Indonesian independence offering panoramic city views. Continue to the grand Istiqlal Mosque, the largest mosque in Southeast Asia, showcasing magnificent Islamic architecture. Lunch at local restaurant. In the evening, explore Jakarta’s historic Old Town (Kota Tua), featuring colonial-era buildings, museums and lively street performances. Dinner & Overnight stay at Jakarta.
+</DayCard>
 
-            <DayCard title="Day – 7">
-              Departure: After breakfast, check-out and transfer to Lombok International Airport for onward journey with unforgettable memories of Indonesia. Tour Ends.
-            </DayCard>
-          </div>
+<DayCard title="Day – 5 | Jakarta City Highlights">
+  After breakfast, proceed for a full-day Jakarta city tour. Visit Taman Mini Indonesia Indah (Beautiful Indonesia Miniature Park), showcasing diverse Indonesian cultures, traditional houses and heritage exhibits from across the archipelago. Continue to Ancol Dreamland, a large waterfront entertainment complex. Explore Sea World Aquarium featuring exotic marine life. Lunch en-route at local restaurant. Evening free for shopping at Grand Indonesia Mall, one of Southeast Asia’s largest luxury malls. Dinner & Overnight stay at Jakarta.
+</DayCard>
+
+<DayCard title="Day – 6 | Jakarta to Lombok – Island Escape">
+  After breakfast, transfer to airport for your flight to Lombok, a peaceful island known for pristine beaches and natural beauty. Upon arrival, transfer to Senggigi area and check-in at hotel. Visit Senggigi Beach, famous for its calm waters and scenic views. Continue to Nipah Beach to witness a serene sunset with Mount Agung visible across the sea (on clear days). Lunch at local restaurant. Evening free to relax at resort or enjoy beachside walk. Dinner & Overnight stay at Lombok.
+</DayCard>
+
+<DayCard title="Day – 7 | Departure from Lombok">
+  After breakfast, check-out from hotel. Depending on your flight schedule, free time for leisure or last-minute souvenir shopping. Transfer to Lombok International Airport for your onward journey. Depart with unforgettable memories of Indonesia’s spiritual temples, tropical beaches, vibrant cities and island charm. Tour Ends.
+</DayCard>
+
+  </div>
+
+  {/* RIGHT SIDE – VIDEO + AD */}
+  <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+    {/* Video Section */}
+    <div className="bg-white rounded-3xl shadow-lg p-6">
+      <h3 className="text-xl font-bold mb-4 text-gray-800">
+        Watch Indonesia Tour Video
+      </h3>
+
+      <div className="aspect-video rounded-xl overflow-hidden">
+        <iframe
+          className="w-full h-full"
+          src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+          title="Indonesia Tour"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+
+    {/* Advertisement Section */}
+    <div className="bg-gradient-to-br from-yellow-500 to-green-600 text-white rounded-3xl shadow-lg p-8 text-center">
+      <h3 className="text-2xl font-bold mb-4">
+        🏝️ Island Paradise Special
+      </h3>
+      <p className="text-sm opacity-90">
+        Get exclusive discounts on tropical island packages.
+        Limited seats available for peak season!
+      </p>
+      <button className="mt-6 bg-white text-green-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+        Book Now
+      </button>
+    </div>
+
+  </div>
+
+</div>
 
           {/* ADD-ON SECTIONS */}
           <AddOnSection
             title="YOGYAKARTA"
             subtitle="Add-on (or) Separately From JAKARTA"
           />
-          <div className=" grid  gap-10 grid-col-1">
-            <DayCard title="Day – 1  ">
-              Jakarta - Yogyakarta: After breakfast, take morning flight to Yogyakarta. Check-in at hotel. Visit Borobudur Temple (UNESCO World Heritage Site). Lunch en-route. Evening visit Prambanan Temple. Dinner & Overnight stay at Yogyakarta.
-            </DayCard>
-            <DayCard title="Day –  2 ">
-              Yogyakarta City Tour: After breakfast, visit Sultan's Palace (Kraton) and Water Castle. Continue to Kota Gede (silver village). Lunch en-route. Evening shopping at Malioboro Street. Dinner & Overnight stay at Yogyakarta.
-            </DayCard>
-            <DayCard title="Day – 3 ">
-              Yogyakarta - Jakarta: After breakfast, visit Mount Merapi viewpoint. Transfer to airport for flight back to Jakarta. Lunch en-route. Evening free for last-minute shopping. Dinner & Overnight stay at Jakarta.
-            </DayCard>
-          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+
+  {/* LEFT SIDE – ITINERARY */}
+  <div className="lg:col-span-2 space-y-8">
+
+         <DayCard title="Day – 1  |  Jakarta to Yogyakarta – Borobudur & Prambanan">
+  After breakfast at your hotel in Jakarta, transfer to the airport for your morning flight to Yogyakarta, the cultural heart of Java Island. Upon arrival, meet your local representative and transfer to the hotel for check-in and freshening up. Begin your exploration with a visit to the magnificent Borobudur Temple, a UNESCO World Heritage Site and the world’s largest Buddhist monument. Built in the 9th century, this architectural masterpiece features intricate stone carvings and stupas that narrate Buddhist teachings. Climb to the upper terraces to enjoy panoramic views of lush green landscapes and surrounding volcanoes. Lunch at a local restaurant en-route. In the evening, visit the majestic Prambanan Temple Complex, the largest Hindu temple site in Indonesia, dedicated to Lord Shiva, Vishnu, and Brahma. Witness the temple’s towering spires glowing beautifully during sunset. Dinner at Indian/local restaurant. Overnight stay at Yogyakarta.
+</DayCard>
+
+<DayCard title="Day – 2  |  Yogyakarta Heritage & City Tour">
+  After breakfast, proceed for a guided city tour of Yogyakarta, known for its royal heritage and traditional arts. Visit the Sultan’s Palace (Kraton), the residence of the Sultan of Yogyakarta, showcasing Javanese culture, royal artifacts, and traditional architecture. Continue to Taman Sari Water Castle, a historic royal garden complex featuring elegant pools, underground tunnels, and unique Islamic-European architectural influences. Later, visit Kota Gede, famous as the silver craftsmanship village, where you can observe skilled artisans creating intricate handmade jewelry and souvenirs. Lunch at local restaurant. In the evening, enjoy shopping at Malioboro Street, the vibrant shopping hub offering batik textiles, handicrafts, souvenirs, and street food. Experience local street performances and traditional music. Dinner & Overnight stay at Yogyakarta.
+</DayCard>
+
+<DayCard title="Day – 3  |  Mount Merapi & Return to Jakarta">
+  After breakfast, proceed for an excursion to Mount Merapi viewpoint, one of Indonesia’s most active volcanoes. Enjoy spectacular views of the volcano and surrounding rural landscapes. Optional jeep lava tour (at additional cost) to explore volcanic terrain and learn about past eruptions. Capture stunning photographs of Java’s dramatic natural beauty. Lunch at local restaurant en-route. Later, transfer to Yogyakarta Airport for your flight back to Jakarta. Upon arrival, transfer to hotel and check-in. Evening free for leisure or last-minute shopping at nearby malls or local markets. Dinner & Overnight stay at Jakarta.
+</DayCard>
+
+  </div>
+
+  {/* RIGHT SIDE – VIDEO + AD */}
+  <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+    {/* Video Section */}
+    <div className="bg-white rounded-3xl shadow-lg p-6">
+      <h3 className="text-xl font-bold mb-4 text-gray-800">
+        Watch Yogyakarta Tour Video
+      </h3>
+
+      <div className="aspect-video rounded-xl overflow-hidden">
+        <iframe
+          className="w-full h-full"
+          src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+          title="Yogyakarta Tour"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+
+    {/* Advertisement Section */}
+    <div className="bg-gradient-to-br from-orange-500 to-red-600 text-white rounded-3xl shadow-lg p-8 text-center">
+      <h3 className="text-2xl font-bold mb-4">
+        🛕️ Temple Heritage Tour
+      </h3>
+      <p className="text-sm opacity-90">
+        Explore ancient Buddhist and Hindu temples.
+        Special cultural tours available!
+      </p>
+      <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+        Learn More
+      </button>
+    </div>
+
+  </div>
+
+</div>
 
         </div>
       </div>
@@ -144,7 +229,7 @@ subtitle="Experience the Emerald Archipelago with curated journeys"
           { label: "Group 20+", days: "3N / 4D", price: 12700 },
           { label: "", days: "2N / 3D", price: 9100 },
           { label: "Not Feasible", days: "1N / 2D", price: 3700, disabled: true },
-        ]}
+        ]} 
     />
 
       <ContactCTA />
@@ -173,7 +258,7 @@ function DayCard({ title, children }: { title: string; children: React.ReactNode
   return (
     <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-green-600">
       <h3 className="text-2xl font-semibold text-green-700 mb-4">{title}</h3>
-      <p className="text-gray-700 leading-8 whitespace-pre-line">{children}</p>
+      <p className="text-gray-700 leading-8 whitespace-pre-line text-lg">{children}</p>
     </div>
   )
 }
