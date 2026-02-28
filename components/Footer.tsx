@@ -9,10 +9,38 @@ import {
   Mail,
   MapPin,
   Clock,
-  Twitter
+  Twitter,
+  Share2
 } from "lucide-react"
 
 export default function Footer() {
+    const copyToClipboard = () => {
+    try {
+      const urlToCopy = window.location.href
+      
+      // Method 1: Try modern clipboard API first
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(urlToCopy)
+      } else {
+        // Fallback method for localhost/http
+        const textarea = document.createElement('textarea')
+        textarea.value = urlToCopy
+        textarea.style.position = 'fixed'
+        textarea.style.left = '-999999px'
+        textarea.style.top = '-999999px'
+        document.body.appendChild(textarea)
+        
+        textarea.focus()
+        textarea.select()
+        textarea.setSelectionRange(0, 99999)
+        
+        document.execCommand('copy')
+        document.body.removeChild(textarea)
+      }
+    } catch (err) {
+      console.error('Failed to copy URL:', err)
+    }
+  }
   return (
     <footer className="bg-gradient-to-b from-gray-900 to-black text-white">
       
@@ -37,7 +65,7 @@ export default function Footer() {
                 href="https://facebook.com/BengalTourismWestBengalTourism"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 flex items-center justify-center rounded-full bg-yellow-600/90 hover:bg-yellow-600 transition"
+                className="w-9 h-9 flex items-center cursor-pointer justify-center rounded-full bg-yellow-600/90 hover:bg-yellow-600 transition"
               >
                 <Facebook size={16} />
               </a>
@@ -45,7 +73,7 @@ export default function Footer() {
                 href="https://instagram.com/bengaltourismco"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 flex items-center justify-center rounded-full bg-yellow-600/90 hover:bg-yellow-600 transition"
+                className="w-9 h-9 flex items-center cursor-pointer justify-center rounded-full bg-yellow-600/90 hover:bg-yellow-600 transition"
               >
                 <Instagram size={16} />
               </a>
@@ -53,10 +81,17 @@ export default function Footer() {
                 href="https://twitter.com/BengalTourismCo"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 flex items-center justify-center rounded-full bg-yellow-600/90 hover:bg-yellow-600 transition"
+                className="w-9 h-9 flex cursor-pointer items-center justify-center rounded-full bg-yellow-600/90 hover:bg-yellow-600 transition"
               >
                 <Twitter size={16} />
               </a>
+                 <button
+        onClick={copyToClipboard}
+        className="w-9 h-9 flex items-center  cursor-pointer justify-center rounded-full bg-yellow-600/90 hover:bg-yellow-600 transition"
+        aria-label="Copy URL"
+      >
+        <Share2 size={16} />
+      </button>
             </div>
           </div>
 

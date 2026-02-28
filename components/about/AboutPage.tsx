@@ -338,25 +338,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ================= CTA ================= */}
-      <section className="py-20 bg-gradient-to-br from-yellow-600 to-orange-600">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-4xl font-black text-white mb-6">Ready to Explore Bengal?</h2>
-          <p className="text-xl text-white/90 max-w-3xl mx-auto mb-12">
-            Join thousands of satisfied travelers who have discovered the magic of Bengal with us
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/book-tour" className="px-8 py-3 bg-white text-yellow-600 font-bold rounded-xl hover:bg-gray-100 transition flex items-center justify-center">
-              <Briefcase className="w-5 h-5 mr-2" />
-              Book a Tour
-            </a>
-            <a href="/membership" className="px-8 py-3 bg-white text-yellow-600 font-bold rounded-xl hover:bg-gray-100 transition flex items-center justify-center">
-              <Users className="w-5 h-5 mr-2" />
-              Become a Member
-            </a>
-          </div>
-        </div>
-      </section>
+ 
     </>
   );
 }
