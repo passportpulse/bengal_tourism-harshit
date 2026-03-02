@@ -19,12 +19,12 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://bengaltourism.in"),
 
   title: {
-    default: "Bengal Tourism | West Bengal Tour Packages, Darjeeling, Sundarbans",
-    template: "%s | Bengal Tourism"
+    default: "Bengal Tourism - Best West Bengal Tour Packages | Home |Darjeeling | Sundarbans | Kolkata | Dooars | Expert Travel Agent",
+    template: "%s | Bengal Tourism.in"
   },
 
   description:
-    "Explore West Bengal tourism with curated tour packages to Darjeeling, Sundarbans, Kolkata, Digha & Dooars. Book hotels, wildlife safaris & cultural trips with Bengal Tourism.",
+    "Plan your perfect West Bengal vacation with Bengal Tourism.in - Leading travel agency offering customized tour packages for Darjeeling tea gardens, Sundarbans tiger reserve, Kolkata heritage tours, Digha beach holidays, Dooars jungle safari. Book budget-friendly family trips, honeymoon packages, adventure tours with best prices guaranteed. 24/7 support, expert guides, verified hotels.",
 
   keywords: [
     "West Bengal Tourism",
@@ -36,7 +36,34 @@ export const metadata: Metadata = {
     "Dooars Package",
     "Bengal Travel Guide",
     "Hotel Booking West Bengal",
-    "Wildlife Safari Sundarbans"
+    "Wildlife Safari Sundarbans",
+    "best travel agent West Bengal",
+    "top tour operator Bengal",
+    "Darjeeling honeymoon package",
+    "Sundarbans tiger safari",
+    "Kolkata city tour",
+    "Dooars forest safari",
+    "Murshidabad heritage tour",
+    "Bishnupur terracotta tour",
+    "Shantiniketan cultural tour",
+    "Gangtok Sikkim package",
+    "Puri Konark tour from Bengal",
+    "budget Bengal tour",
+    "luxury West Bengal travel",
+    "family vacation Bengal",
+    "adventure tourism Bengal",
+    "eco tourism Sundarbans",
+    "tea garden tours Darjeeling",
+    "heritage tours Kolkata",
+    "beach holidays Digha Mandarmani",
+    "jungle safari Dooars",
+    "West Bengal tourism department",
+    "Bengal tourism official packages",
+    "customized Bengal tours",
+    "group travel Bengal",
+    "corporate travel West Bengal",
+    "student tours Bengal",
+    "senior citizen tours Bengal"
   ],
 
   alternates: {
@@ -44,31 +71,35 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "West Bengal Tourism | Darjeeling, Sundarbans & Kolkata Tours",
+    title: "Bengal Tourism.in - #1 West Bengal Travel Agent | Best Tour Packages for Darjeeling, Sundarbans, Kolkata",
     description:
-      "Book West Bengal tour packages covering Darjeeling hills, Sundarbans mangroves, Kolkata heritage & Digha beaches.",
+      "Book customized West Bengal tour packages with Bengal Tourism.in - Expert travel agent offering Darjeeling hill station tours, Sundarbans tiger safari, Kolkata heritage walks, Dooars jungle adventure, Digha beach holidays. Best prices, 24/7 support, verified hotels, expert guides.",
     url: "https://bengaltourism.in",
-    siteName: "Bengal Tourism",
+    siteName: "Bengal Tourism.in",
     type: "website",
     locale: "en_IN",
+    countryName: "India",
     images: [
       {
         url: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200",
         width: 1200,
         height: 630,
-        alt: "West Bengal Tourism - Darjeeling Hills & Sundarbans",
+        alt: "West Bengal Tourism - Darjeeling Tea Gardens & Sundarbans Tiger Reserve",
+        type: "image/jpeg",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "West Bengal Tourism | Darjeeling & Sundarbans Packages",
+    title: "Bengal Tourism.in | Best West Bengal Tour Packages | Darjeeling | Sundarbans",
     description:
-      "Discover Darjeeling, Sundarbans, Kolkata & Digha with curated Bengal tour packages.",
+      "🌟 Top-rated West Bengal travel agent! Book Darjeeling honeymoon, Sundarbans safari, Kolkata heritage tours. Best prices guaranteed! 📞 24/7 Support",
     images: [
       "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200",
     ],
+    site: "@bengaltourism",
+    creator: "@bengaltourism",
   },
 
   robots: {
@@ -86,9 +117,24 @@ export const metadata: Metadata = {
 
   verification: {
     google: "PASTE_REAL_GOOGLE_SEARCH_CONSOLE_CODE_HERE",
+    yandex: "PASTE_YANDEX_VERIFICATION_CODE_HERE",
   },
 
   category: "travel",
+  authors: [{ name: "Bengal Tourism.in", url: "https://bengaltourism.in" }],
+  publisher: "Bengal Tourism.in",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  other: {
+    "theme-color": "#f59e0b",
+    "msapplication-TileColor": "#f59e0b",
+    "apple-mobile-web-app-title": "Bengal Tourism",
+    "application-name": "Bengal Tourism",
+    "msapplication-config": "/browserconfig.xml",
+  },
 };
 
 export default function HomePage() {
