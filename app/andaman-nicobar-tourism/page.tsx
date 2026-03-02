@@ -68,7 +68,7 @@ export default function AndamanNicobarTourismPage() {
             {/* LEFT SIDE – ITINERARY */}
             <div className="lg:col-span-2 space-y-8">
           <Destination
-            title="HaveLock - Neil - Ross Island"
+            title="Andaman & Nicobar Island Circuit"
             cta="Book now For 6N/7D"
             subtitle="Cellular Jail & Marine Life"
             content={[

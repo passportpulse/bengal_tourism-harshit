@@ -169,6 +169,78 @@ export default function GoaTourismPage() {
         </div>
       </section>
 
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-6 space-y-6">
+          {/* SOUTH GOA – ADD ON */}
+          <Destination
+            title="South Goa Escape"
+            cta="Book now for (2N/3D)"
+            subtitle="Colva - Benaulim - Palolem"
+            content={[
+              `Day 1: Arrival in South Goa. On arrival at Dabolim Airport / Madgaon Railway Station,
+    transfer to hotel near Colva / Benaulim. Check-in and relax.
+    Evening leisure at Colva Beach enjoying sunset views and beachside cafes.
+    Dinner & Overnight stay at South Goa.`,
+
+              `Day 2: South Goa Sightseeing. After breakfast visit Shri Manguesh Temple,
+    Shantadurga Temple and Old Goa Churches including Basilica of Bom Jesus
+    and Se Cathedral. Later visit Dona Paula View Point & Miramar Beach.
+    Evening shopping at Panjim Market.
+    Breakfast & Dinner included. Overnight stay at South Goa.`,
+
+              `Day 3: Leisure Morning. After breakfast, enjoy free time at Palolem Beach
+    or relax at resort. Later transfer to Airport / Railway Station.
+    Tour Ends.`
+            ]}
+          />
+
+
+          {/* NORTH GOA – ADD ON */}
+          <Destination
+            title="North Goa Fun Break"
+            cta="Book now for (2N/3D)"
+            subtitle="Baga - Calangute - Anjuna"
+            content={[
+              `Day 1: Arrival in North Goa. Transfer to hotel near Baga / Calangute.
+    Check-in and relax. Evening explore Baga Beach & Tito’s Lane nightlife.
+    Dinner & Overnight stay at North Goa.`,
+
+              `Day 2: Full-Day North Goa Tour. Visit Fort Aguada, Candolim Beach,
+    Calangute Beach, Baga Beach, Anjuna Beach & Vagator Beach.
+    Optional Dolphin Sightseeing Tour. Evening free for beach shacks.
+    Breakfast & Dinner included. Overnight stay.`,
+
+              `Day 3: Morning leisure or water sports activities like jet ski,
+    parasailing, banana ride (optional).
+    After breakfast, transfer to Airport / Railway Station.
+    Tour Ends.`
+            ]}
+          />
+
+
+          {/* MUMBAI – ADD ON */}
+          <Destination
+            title="Mumbai City Extension"
+            cta="Book now for (2N/3D)"
+            subtitle="Gateway - Marine Drive - Elephanta"
+            content={[
+              `Day 1: Arrival in Mumbai. Transfer to hotel & check-in.
+    Visit Gateway of India, Marine Drive, Colaba Causeway
+    and enjoy evening at Chowpatty Beach.
+    Overnight stay at Mumbai.`,
+
+              `Day 2: Mumbai Sightseeing Tour. Visit Elephanta Caves,
+    Chhatrapati Shivaji Maharaj Terminus, Haji Ali Dargah,
+    Bandra-Worli Sea Link & Juhu Beach.
+    Breakfast included. Overnight stay at Mumbai.`,
+
+              `Day 3: After breakfast, free time for shopping.
+    Transfer to Mumbai Airport / Railway Station.
+    Tour Ends.`
+            ]}
+          />
+        </div>
+      </section>
       {/* ================= CASINO & ENTERTAINMENT ================= */}
       <section className="py-20 bg-gradient-to-br from-purple-50 to-pink-50">
         <div className="max-w-7xl mx-auto px-6">

@@ -368,7 +368,7 @@ export default function TourBookingPage() {
                 <div className="text-white/80 text-sm">Customer Support</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-white mb-2">500+</div>
+                <div className="text-3xl md:text-4xl font-bold text-white mb-2">1300+</div>
                 <div className="text-white/80 text-sm">Happy Travelers</div>
               </div>
               <div className="text-center">

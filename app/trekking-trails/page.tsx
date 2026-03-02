@@ -27,7 +27,7 @@ const trekkingRoutes = [
     highlights: ["360° Himalayan views", "Sunrise over Kanchenjunga", "Everest visibility", "Singalila National Park"],
     features: ["Basic accommodation", "Guided trek", "Permits included", "Transport from NJP"],
     bestTime: "March to May, October to December",
-    image: "https://images.unsplash.com/photo-1608095043017-dd2e3bd2d2fd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U2FuZGFrcGh1JTIwVHJla3xlbnwwfHwwfHx8MA%3D%3D"
+    image: "https://images.unsplash.com/photo-1756487730941-d898ac88d76a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8U25vdyUyMENvdmVyZWQlMjBNb3VudGFpbnMlMjAoJTIwc2xlZXBpbmclMjBidWRkaGEpfGVufDB8fDB8fHww"
   },
   {
     name: "Dzongri Trek",
@@ -49,7 +49,7 @@ const trekkingRoutes = [
     highlights: ["Sacred Green Lake", "Highest altitude trek", "Spiritual experience", "Panoramic views"],
     features: ["Expert mountaineering guides", "Advanced equipment", "Medical support", "Emergency evacuation"],
     bestTime: "May to June, September to October",
-    image: "https://images.unsplash.com/photo-1594794637878-bc15ed7d8192?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8R3JlZW4lMjBMYWtlJTIwVHJla3xlbnwwfHwwfHx8MA%3D%3D"
+    image: "https://images.unsplash.com/photo-1765132875604-01b23a4a0296?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   }
 ];
 
@@ -133,7 +133,7 @@ export default function TrekkingTrailsPage() {
       <section className="relative h-[80vh] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VHJla2tpbmd8ZW58MHx8MHx8fDA%3D"
+            src="https://images.unsplash.com/photo-1619854538772-5e750af6f5b1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SGltYWxheWFuJTIwUmFuZ2VzfGVufDB8fDB8fHww"
             alt="Trekking Trails in Himalayan Ranges"
             fill
             className="object-cover"
@@ -418,7 +418,7 @@ export default function TrekkingTrailsPage() {
               </div>
               <div className="relative h-96 rounded-xl overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1568454537842-d933259bb258?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8VHJla2tpbmd8ZW58MHx8MHx8fDA%3D"
+                  src="https://images.unsplash.com/photo-1615462067592-d7ae31015538?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2luZ2FsaWxhJTIwTmF0aW9uYWwlMjBQYXJrfGVufDB8fDB8fHww"
                   alt="Singalila National Park"
                   fill
                   className="object-cover"

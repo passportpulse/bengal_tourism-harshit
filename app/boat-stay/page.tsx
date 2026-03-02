@@ -100,7 +100,7 @@ export default function BoatStayPage() {
       <section className="relative h-[80vh] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            src="https://images.unsplash.com/photo-1715285615481-bc99e14eecc2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Uml2ZXIlMjBDcnVpc2VzfGVufDB8fDB8fHww"
             alt="Boat Stay & River Cruises"
             fill
             className="object-cover"
@@ -190,7 +190,7 @@ export default function BoatStayPage() {
                   <ul className="space-y-2 text-gray-700">
                     <li className="flex items-start">
                       <Check className="w-5 h-5 text-green-500 mr-2 mt-1 flex-shrink-0" />
-                      <span>Luxury boat accommodation with modern amenities</span>
+                      <span>Accomodation in AC cabins in Launch</span>
                     </li>
                     <li className="flex items-start">
                       <Check className="w-5 h-5 text-green-500 mr-2 mt-1 flex-shrink-0" />
@@ -209,7 +209,7 @@ export default function BoatStayPage() {
               </div>
               <div className="relative h-96 rounded-xl overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                  src="https://images.unsplash.com/photo-1710661428083-2bdb61d37aaa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fFJpdmVyJTIwQ3J1aXNlc3xlbnwwfHwwfHx8MA%3D%3D"
                   alt="Sundarban Boat Stay"
                   fill
                   className="object-cover"

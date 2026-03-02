@@ -267,7 +267,6 @@ const safariTypes = [
 const includedServices = [
   "Accommodation in Forest Rest House",
   "All meals (Breakfast, Lunch, Dinner)",
-  "Safari permits and entry fees",
   "Expert naturalist guide",
   "All transportation as per itinerary",
   "Wildlife photography assistance",
@@ -581,7 +580,7 @@ export default function JungleSafariPage() {
       <section className="py-20 bg-gradient-to-br from-emerald-50 to-teal-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-black text-gray-900 mb-6">All-Inclusive Services</h2>
+            <h2 className="text-4xl font-black text-gray-900 mb-6">All-Inclusive Services (Entry permits, Jeep / Elephant Safari cost excluded)</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Complete support for your wildlife adventure
             </p>

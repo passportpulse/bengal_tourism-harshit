@@ -239,7 +239,7 @@ const pilgrimageFeatures = [
 
 const includedServices = [
   "Accommodation in dharamshalas/hotels",
-  "All meals (vegetarian)",
+  "Meals Breakfast & Dinner (Lunch / Bhog Prasad your cost)",
   "Temple darshan arrangements",
   "Priest services for puja",
   "Transportation between sites",
