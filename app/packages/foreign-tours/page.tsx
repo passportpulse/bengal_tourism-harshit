@@ -239,7 +239,7 @@ const foreignTourPackages = [
         duration: "5N & 6D",
         desc: "Enjoy lush landscapes, wildlife safaris, and pristine beaches.",
         locations: "Colombo, Kandy, Bentota",
-        image: "https://images.unsplash.com/photo-1612862862126-865765df2ded?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U3JpJTIwTGFua2F8ZW58MHx8MHx8fDA%3D",
+        image: "https://images.unsplash.com/photo-1580910527739-556eb89f9d65?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3JpJTIwbGFua2F8ZW58MHx8MHx8fDA%3D",
         icon: Waves,
         iconColor: "text-cyan-500",
         route: "/sri-lanka",

@@ -91,10 +91,11 @@ export default function ThailandPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-1 gap-10 ">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+            <div className="lg:col-span-2 space-y-8">
 
             {/* DAY 1 */}
-            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-pink-500 h-full flex flex-col ">
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-pink-500  flex flex-col ">
               <h3 className="text-xl font-semibold mb-4 text-pink-600">Day –1</h3>
               <div className="text-gray-700 leading-8 flex-grow">
                 Start from Kolkata: Board a flight at Kolkata Airport & reach Bangkok after a 2 hrs 40 mins non-stop flight to a warm reception. A 2.5 hrs drive will take you to picturesque Pattaya, a breathtakingly beautiful beach destination. A tropical beach retreat town, Pattaya is a perfect place to laze around under the swaying coconut trees, exploring white sandy beaches, numerous water sports facilities & crystal azure water. Night life in Pattaya; specially for adventure seekers, it is extremely & most happening place in the world. Lunch en-route. Post lunch, will take you for a village tour to Nong Nooch. You can either have the evening all to yourself or see the Alkazar Show at 08.00pm (extra cost), a world famous Cabaret show that can give Lido & Paris’s Moulin Rogue a run for their money. Return & Dinner place of your choice & Overnight at Hotel at Pattaya.
@@ -102,7 +103,7 @@ export default function ThailandPage() {
             </div>
 
             {/* DAY 2 */}
-            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-blue-500 h-full flex flex-col ">
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-blue-500  flex flex-col ">
               <h3 className="text-xl font-semibold mb-4 text-blue-600">Day –2</h3>
               <div className="text-gray-700 leading-8 flex-grow">
                 Coral Island: After breakfast, speed boat your way to the idyllic Coral Island (Kohlan) through the aqua blue water of the Gulf of Thailand. Spend the day luxuriating under the warm tropical sun. Relax, swim, snorkel or just lie around sunning on the island’s immaculate golden beach. Lunch included in this tour. Return in the evening & free for you to shop, explore & seek more. Dinner at place of your choice & Overnight at Hotel at Pattaya
@@ -110,7 +111,7 @@ export default function ThailandPage() {
             </div>
 
             {/* DAY 3 */}
-            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-green-500 h-full flex flex-col ">
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-green-500  flex flex-col ">
               <h3 className="text-xl font-semibold mb-4 text-green-600">Day –3</h3>
               <div className="text-gray-700 leading-8 flex-grow">
                 Towards Bangkok: After breakfast, you will enjoy the journey back to Bangkok where we will take you on a Temple & City Tour to experience another side of Bangkok. Thailand is home to more than 26,000 Wats (Buddhist temples) and we will take to see the most distinguished Wats, such as Wat Po (Temple of the Reclining Buddha), the largest & the oldest shrine in Bangkok or Grand Palace tour. Evening free to shop, explore & seek more. Dinner at place of your choice & Overnight at Hotel at Bangkok.
@@ -118,7 +119,7 @@ export default function ThailandPage() {
             </div>
 
             {/* DAY 4 */}
-            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-purple-500 h-full flex flex-col ">
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-purple-500 flex flex-col ">
               <h3 className="text-xl font-semibold mb-4 text-purple-600">Day –4</h3>
               <div className="text-gray-700 leading-8 flex-grow">
                 ALTERNATIVELY: After breakfast at hotel, morning free for shopping. Later in the evening, Cruise on river Chao Phraya & dinner on board. Return to the hotel & night free to explore varied night life of Bangkok. Overnight stay at Hotel / Resort at Bangkok.
@@ -126,7 +127,7 @@ export default function ThailandPage() {
               </div>
             </div>
             {/* DAY 4 */}
-            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-purple-500 h-full flex flex-col ">
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-purple-500  flex flex-col ">
               <h3 className="text-xl font-semibold mb-4 text-purple-600">Day –5</h3>
               <div className="text-gray-700 leading-8 flex-grow">
 
@@ -136,6 +137,43 @@ export default function ThailandPage() {
             </div>
           </div>
 
+    
+            {/* RIGHT SIDE – VIDEO + AD */}
+            <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+              {/* Video Section */}
+              <div className="bg-white rounded-3xl shadow-lg p-6">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  Watch Germany Tour Video
+                </h3>
+
+                <div className="aspect-video rounded-xl overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    title="Germany Tour"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+
+              {/* Advertisement Section */}
+              {/* Advertisement Section */}
+              <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
+                <h3 className="text-2xl font-bold mb-4">
+                  🚀 Paste Your Advertisement Here
+                </h3>
+                <p className="text-sm opacity-90">
+                  Promote your brand, offer or travel deals here.
+                  This space is perfect for partner promotions.
+                </p>
+                <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                  Contact For Promotion
+                </button>
+              </div>
+
+            </div>
+ </div>
           {/* ADDITIONAL DESTINATIONS */}
           <div className="text-center space-y-4 mb-12">
             <h2 className="text-4xl font-bold text-indigo-600">
