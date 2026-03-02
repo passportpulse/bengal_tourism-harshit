@@ -1,4 +1,5 @@
 import nodemailer from 'nodemailer';
+import { logBooking } from './bookingLogger';
 
 // Hotel Booking Email Configuration
 const EMAIL_HOST = process.env.EMAIL_HOST || 'smtp.gmail.com';
@@ -710,29 +711,51 @@ export const sendTourBookingEmail = async (formData: any): Promise<boolean> => {
   `;
 
   try {
-    await Promise.all([
-      sendEmail({
-        to: TO_EMAIL,
-        subject: `Tour Booking: ${formData.destination} from ${formData.fullName}`,
-        html: adminEmail,
-        transporter: 'tour',
-      }),
-      sendEmail({
-        to: 'booking.bengaltourism@gmail.com',
-        subject: `🔔 New Tour Booking: ${formData.destination} from ${formData.fullName}`,
-        html: adminEmail,
-        transporter: 'tour',
-      }),
-      sendEmail({
-        to: formData.email,
-        subject: 'Tour Booking Request Received - Bengal Tourism',
-        html: userEmail,
-        transporter: 'tour',
-      }),
-    ]);
-    return true;
+    // First, log the booking to file (this always works)
+    logBooking(formData, 'tour');
+    
+    // Log booking data for backup
+    console.log('=== TOUR BOOKING DATA ===');
+    console.log('Timestamp:', new Date().toISOString());
+    console.log('Customer:', formData.fullName, formData.email, formData.phone);
+    console.log('Destination:', formData.destination);
+    console.log('Dates:', formData.checkIn, 'to', formData.checkOut);
+    console.log('Travelers:', formData.adults, 'Adults,', formData.children || 0, 'Children');
+    console.log('Costs: Booking ₹', formData.bookingAmount, 'Total ₹', formData.estimatedCost);
+    console.log('========================');
+
+    // Try to send emails but don't fail if they don't work
+    try {
+      await Promise.all([
+        sendEmail({
+          to: TO_EMAIL,
+          subject: `Tour Booking: ${formData.destination} from ${formData.fullName}`,
+          html: adminEmail,
+          transporter: 'tour',
+        }),
+        sendEmail({
+          to: 'booking.bengaltourism@gmail.com',
+          subject: `🔔 New Tour Booking: ${formData.destination} from ${formData.fullName}`,
+          html: adminEmail,
+          transporter: 'tour',
+        }),
+        sendEmail({
+          to: formData.email,
+          subject: 'Tour Booking Request Received - Bengal Tourism',
+          html: userEmail,
+          transporter: 'tour',
+        }),
+      ]);
+      console.log('✅ All emails sent successfully');
+    } catch (emailError) {
+      console.warn('⚠️ Email sending failed, but booking is saved:', (emailError as Error).message);
+      console.log('📁 Booking saved to bookings-log.json file');
+      // Continue execution even if emails fail
+    }
+    
+    return true; // Always return true so booking succeeds
   } catch (error) {
-    console.error('Error sending tour booking emails:', error);
+    console.error('Error in tour booking process:', error);
     return false;
   }
 };
