@@ -52,6 +52,41 @@ export default function TermsPolicy() {
           </section>
 
           <section>
+            <h2 className="text-2xl font-semibold text-gray-800 mb-4">Package Inclusions & Exclusions</h2>
+            <div className="space-y-4">
+              <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                <h3 className="text-lg font-medium text-blue-900 mb-3">Upgrade Options:</h3>
+                <ul className="list-disc list-inside text-gray-700 space-y-1">
+                  <li>Upgrade to AC accommodation where available (₹ 500/Night/head)</li>
+                  <li>AC train/bus tickets as per actual</li>
+                  <li>Non-sharing exclusive AC vehicle (₹1500/Day / for group of 5-7 Persons)</li>
+                </ul>
+              </div>
+              
+              <div className="bg-red-50 border border-red-200 rounded-lg p-4">
+                <h3 className="text-lg font-medium text-red-900 mb-3">Excluding:</h3>
+                <ul className="list-disc list-inside text-gray-700 space-y-1">
+                  <li>Any Rides, Entry Permits</li>
+                  <li>Food not mentioned</li>
+                  <li>Porter charges, tips, camera entry</li>
+                  <li>Room heater, beverages / soft drinks / liquor</li>
+                  <li>Anything not mentioned in the itinerary</li>
+                  <li>Any extra days due to natural calamities or incidents beyond our control will be borne by the clients</li>
+                </ul>
+              </div>
+              
+              <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                <h3 className="text-lg font-medium text-green-900 mb-3">Including:</h3>
+                <ul className="list-disc list-inside text-gray-700 space-y-1">
+                  <li>Accommodations & transport as mentioned</li>
+                  <li>Meals (bed tea, breakfast & dinner)</li>
+                  <li>Lunch (your cost) but included in group tour with 20+ heads</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section>
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">Traveler Responsibilities</h2>
             <ul className="list-disc list-inside text-gray-600 space-y-2">
               <li>Ensure all travel documents are valid and in order</li>
