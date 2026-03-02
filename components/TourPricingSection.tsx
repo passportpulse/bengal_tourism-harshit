@@ -77,7 +77,19 @@ export default function TourPricingSection({
 
                             <div>
                                 {pkg.label && (
-                                    <span className="text-xs text-gray-500">
+                                    <span className={`text-xs font-semibold ${
+                                        pkg.disabled 
+                                            ? 'text-gray-400' 
+                                            : index === 0 
+                                                ? 'text-purple-700' 
+                                                : index === 1 
+                                                    ? 'text-blue-700' 
+                                                        : index === 2 
+                                                            ? 'text-green-700' 
+                                                                : index === 3 
+                                                                    ? 'text-orange-700' 
+                                                                        : 'text-yellow-700'
+                                    }`}>
                                         {pkg.label}
                                     </span>
                                 )}
