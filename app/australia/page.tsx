@@ -320,12 +320,12 @@ export default function AustraliaPage() {
       <TourPricingSection
         title="Australia Down Under Paradise Packages"
         subtitle="Experience the Land Down Under with curated journeys"
-        packages={[
-          { label: "recommended for extended duration", days: "6N / 7D", price: 22600 },
-          { label: "highly recommended", days: "5N / 6D", price: 19000 },
-          { label: "most popular", days: "4N / 5D", price: 15400 },
-          { label: "Group 20+", days: "3N / 4D", price: 12700 },
-          { label: "", days: "2N / 3D", price: 9100 },
+     packages={[
+          { label: "Customisable & Recommended for extended duration", days: "6N / 7D", price: 22600 },
+          { label: "Highly Recommended", days: "5N / 6D", price: 19000 },
+          { label: "Most Popular", days: "4N / 5D", price: 15400 },
+          { label: "In group of 20+ Persons", days: "3N / 4D", price: 12700 },
+          { label: "As add on / Separately ", days: "2N / 3D", price: 9100 },
           { label: "Not Feasible", days: "1N / 2D", price: 3700, disabled: true },
         ]}
       />
