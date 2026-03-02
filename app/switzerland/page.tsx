@@ -144,7 +144,7 @@ export default function SwitzerlandPage() {
                 </DayCard>
 
                 <DayCard title="Day – 3  |  Montreux & Chillon – Swiss Riviera Experience">
-                  After breakfast, embark on a scenic day trip to Montreux, located along the beautiful shores of Lake Geneva and often referred to as the Swiss Riviera. Visit the magnificent Chillon Castle, a medieval fortress set dramatically on a rocky island by the lake, offering fascinating insights into Swiss history and spectacular lake views. Explore its grand halls, courtyards, and towers. Continue to the Freddie Mercury statue along Montreux promenade, honoring the legendary Queen singer who spent time here. Lunch at a local lakeside restaurant. Enjoy leisure time strolling through flower-lined promenades and boutique shops. Evening return to Geneva. Dinner & Overnight stay at Geneva.
+                  After breakfast, embark on a scenic day trip to Montreux, located along the beautiful shores of Lake Geneva and often referred to as the Swiss Riviera. Visit the magnificent Chillon Castle, a medieval fortress set dramatically on a rocky island by the lake, offering fascinating insights into Swiss history and spectacular lake views. Explore its grand halls, courtyards, and towers. Continue to the Freddie Mercury statue along Montreux promenade, honoring the legendary Queen singer who spent time here. Lunch at a local lakeside restaurant. Enjoy leisure time strolling through flower-lined promenades and boutique shops. Evening return to Geneva. Departure From Geneva. Tour Ends...
                 </DayCard>
 
               </div>

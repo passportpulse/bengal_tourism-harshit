@@ -585,11 +585,11 @@ export const sendTourBookingEmail = async (formData: any): Promise<boolean> => {
             <h3>💰 Pricing Information</h3>
             <div class="info-grid">
               <div class="info-item">
-                <div class="info-label">Cost per Adult</div>
+                <div class="info-label">Cost All Adult</div>
                 <div class="info-value price-tag">₹${formData.costPerAdult}</div>
               </div>
               <div class="info-item">
-                <div class="info-label">Cost per Children</div>
+                <div class="info-label">Cost All Children</div>
                 <div class="info-value price-tag">₹${formData.costPerChildren || '0'}</div>
               </div>
               <div class="info-item">

@@ -68,5 +68,40 @@
       "pickupPlace": "digha",
       "dropPlace": "digha"
     }
+  },
+  {
+    "timestamp": "2026-03-02T08:58:50.435Z",
+    "type": "tour",
+    "customer": {
+      "name": "Harish Maurya",
+      "email": "mharshit1309@gmail.com",
+      "phone": "+91 8429761056",
+      "address": "Niywana road faizabad",
+      "pinCode": "224001"
+    },
+    "booking": {
+      "destination": "digha",
+      "dates": {
+        "checkIn": "02-03-2026",
+        "checkOut": "05-03-2026"
+      },
+      "travelers": {
+        "adults": 3,
+        "children": 1
+      },
+      "costs": {
+        "bookingAmount": "15925",
+        "estimatedCost": "31850",
+        "totalNights": "3"
+      },
+      "paymentType": "partial"
+    },
+    "additional": {
+      "specialInfo": "",
+      "promoCode": "",
+      "membershipNo": "",
+      "pickupPlace": "",
+      "dropPlace": ""
+    }
   }
 ]
