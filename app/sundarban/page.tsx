@@ -5,55 +5,55 @@ import { Trees, Waves, MapPin, Calendar, Users, Star, Clock, Camera, Anchor, Eye
 import ContactCTA from '@/components/ContactCTA'
 import PackagePricing from '@/components/PackagePricing'
 const watchTowers = [
-    {
-      id: 1,
-      name: "Sajnekhali Watch Tower",
-      image: "/hotal/Sajnekhali.jpeg",
-      description:
-        "Main tourist hub with museum, crocodile park, turtle sanctuary and mangrove interpretation center.",
-      location: "Sajnekhali, Sundarbans Tiger Reserve"
-    },
-    {
-      id: 2,
-      name: "Dobanki Watch Tower",
-      image: "/hotal/do-banki-camp02.png",
-      description:
-        "Famous for its thrilling canopy walk through dense mangrove forest.",
-      location: "Dobanki Camp Area"
-    },
-    {
-      id: 3,
-      name: "Netidhopani Watch Tower",
-      image: "/hotal/netidhopani.jpeg",
-      description:
-        "Historic ruins with mythological significance and excellent tiger sighting zone.",
-      location: "Deep Forest Core Area"
-    },
-    {
-      id: 4,
-      name: "Sudhanyakhali Watch Tower",
-      image: "/hotal/sudhanyakhali.jpeg",
-      description:
-        "Prime wildlife spotting location for Royal Bengal Tiger, deer and crocodiles.",
-      location: "Core Tiger Reserve Area"
-    },
-    {
-      id: 5,
-      name: "Burir Dabri Watch Tower",
-      image: "/hotal/burirdabri.jpeg",
-      description:
-        "Mud walk and mangrove cage trail leading to Raimangal View Point near Indo-Bangladesh border.",
-      location: "Extended Zone (Special Permit Required)"
-    },
-    {
-      id: 6,
-      name: "Kumirmari Watch Tower",
-      image: "/hotal/kumirmari.jpeg",
-      description:
-        "Village side watch point offering rustic mangrove landscape and local culture experience.",
-      location: "Kumirmari Village Area"
-    }
-  ];
+  {
+    id: 1,
+    name: "Sajnekhali Watch Tower",
+    image: "/hotal/Sajnekhali.jpeg",
+    description:
+      "Main tourist hub with museum, crocodile park, turtle sanctuary and mangrove interpretation center.",
+    location: "Sajnekhali, Sundarbans Tiger Reserve"
+  },
+  {
+    id: 2,
+    name: "Dobanki Watch Tower",
+    image: "/hotal/do-banki-camp02.png",
+    description:
+      "Famous for its thrilling canopy walk through dense mangrove forest.",
+    location: "Dobanki Camp Area"
+  },
+  {
+    id: 3,
+    name: "Netidhopani Watch Tower",
+    image: "/hotal/netidhopani.jpeg",
+    description:
+      "Historic ruins with mythological significance and excellent tiger sighting zone.",
+    location: "Deep Forest Core Area"
+  },
+  {
+    id: 4,
+    name: "Sudhanyakhali Watch Tower",
+    image: "/hotal/sudhanyakhali.jpeg",
+    description:
+      "Prime wildlife spotting location for Royal Bengal Tiger, deer and crocodiles.",
+    location: "Core Tiger Reserve Area"
+  },
+  {
+    id: 5,
+    name: "Burir Dabri Watch Tower",
+    image: "/hotal/burirdabri.jpeg",
+    description:
+      "Mud walk and mangrove cage trail leading to Raimangal View Point near Indo-Bangladesh border.",
+    location: "Extended Zone (Special Permit Required)"
+  },
+  {
+    id: 6,
+    name: "Kumirmari Watch Tower",
+    image: "/hotal/kumirmari.jpeg",
+    description:
+      "Village side watch point offering rustic mangrove landscape and local culture experience.",
+    location: "Kumirmari Village Area"
+  }
+];
 export default function SundarbanPage() {
   return (
     <main className="text-gray-800">
@@ -158,102 +158,139 @@ export default function SundarbanPage() {
               Special tailor-made combination packages designed for your perfect Sundarban experience
             </p>
           </div>
-<div className="space-y-8">
-          {/* Circuit I - 2N/3D */}
-          <Destination
-            title="SUNDARBAN - I"
-            cta='Book Now for 2N/3D'
-            subtitle="Circuit-I MANGROVE FOREST-ROYAL BENGAL TIGER"
-            content={[
-              `Day - 1 : Start of tour : Pick up from Science City (08.30 a.m.). Packet breakfast with bottled water will be served in the Car / Bus. Arrival at Godhkhali (about 120 km / 3 hrs later). Departure by Launch at Resort / Hotel at Gosaba / Pakhiralay / Dayapur / Dulki / Bonnie Camp Island. Tea / Coffee / Refreshment to be served during the launch journey. Reach & check-in at the Resort / Hotel Buffet Lunch as per menu. Post lunch, Sightseeing by river cruise around Jotirampur Bird Watching Island for sighting of Migratory Birds. Evening Tea / Coffee / Refreshments are served. A colourful Cultural Programme of local village folk dance at the Resort / Hotel  (optional) can be arranged. Dinner & Overnight stay in Resort/ Hotel at Sundarban.`,
+             <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+          <div className="lg:col-span-2 space-y-8">
+            {/* Circuit I - 2N/3D */}
+            <Destination
+              title="SUNDARBAN - I"
+              cta='Book Now for 2N/3D'
+              subtitle="Circuit-I MANGROVE FOREST-ROYAL BENGAL TIGER"
+              content={[
+                `Day - 1 : Start of tour : Pick up from Science City (08.30 a.m.). Packet breakfast with bottled water will be served in the Car / Bus. Arrival at Godhkhali (about 120 km / 3 hrs later). Departure by Launch at Resort / Hotel at Gosaba / Pakhiralay / Dayapur / Dulki / Bonnie Camp Island. Tea / Coffee / Refreshment to be served during the launch journey. Reach & check-in at the Resort / Hotel Buffet Lunch as per menu. Post lunch, Sightseeing by river cruise around Jotirampur Bird Watching Island for sighting of Migratory Birds. Evening Tea / Coffee / Refreshments are served. A colourful Cultural Programme of local village folk dance at the Resort / Hotel  (optional) can be arranged. Dinner & Overnight stay in Resort/ Hotel at Sundarban.`,
 
-              `Day - 2 : Early Morning tea. Breakfast at Resort / Served on Boat, Sightseeing by river cruise around Do-Banki Tiger Reserve & Gazikhali, Pirkhali Creeks & Panchamukhi River crossing. Lunch as per menu at Resort / Served on Boat while-on-cruise. Visit 3 Watch Towers & Canopy Walk; namely in Netidhopani, Dobanki, Sajnekhali in the Tiger Project Area for a view of the wild animals, crocodiles, museum, watch towers, etc. A colourful Cultural Programme of local village folk dance at the Resort / Hotel (optional) can be arranged. Dinner & Overnight stay in Resort / Hotel at Sundarban.`,
+                `Day - 2 : Early Morning tea. Breakfast at Resort / Served on Boat, Sightseeing by river cruise around Do-Banki Tiger Reserve & Gazikhali, Pirkhali Creeks & Panchamukhi River crossing. Lunch as per menu at Resort / Served on Boat while-on-cruise. Visit 3 Watch Towers & Canopy Walk; namely in Netidhopani, Dobanki, Sajnekhali in the Tiger Project Area for a view of the wild animals, crocodiles, museum, watch towers, etc. A colourful Cultural Programme of local village folk dance at the Resort / Hotel (optional) can be arranged. Dinner & Overnight stay in Resort / Hotel at Sundarban.`,
 
-              `Day – 3 : Early Morning tea. Breakfast at Resort / Served on Boat. A stroll down the river sides. A village tour on foot is held to experience the life of the local inhabitants and visit Rabindranath’s Heritage Bungalow & Hamilton’s Bungalow  (OR) visit to Sudhanyakhali watch tower by river cruise through creeks & around the cluster of islands of Sunderban Tiger Project area. Then towards Godhkhali by launch (lunch will be served on Boat. Proceed towards Kolkata by Car / Coach & drop off at Kolkata Science City around (06-07 pm). Tour ends…..`
-            ]}
-          />
+                `Day – 3 : Early Morning tea. Breakfast at Resort / Served on Boat. A stroll down the river sides. A village tour on foot is held to experience the life of the local inhabitants and visit Rabindranath’s Heritage Bungalow & Hamilton’s Bungalow  (OR) visit to Sudhanyakhali watch tower by river cruise through creeks & around the cluster of islands of Sunderban Tiger Project area. Then towards Godhkhali by launch (lunch will be served on Boat. Proceed towards Kolkata by Car / Coach & drop off at Kolkata Science City around (06-07 pm). Tour ends…..`
+              ]}
+            />
 
-          <Destination
-            title=" SUNDARBAN Customise"
-            cta='Book Now for 2N/3D'
-            subtitle=""
-            content={[
-             `OPTION – 1:[Min 10-15 PAX] Rs.19000/- PAX :Overnight stay & food at a  Premium 5* Resort at Sundarban.`,
-             `OPTION –2: [Min 10-15 PAX] Rs.19000/- PAX :Overnight stay & food at AC House Boat anchored on the River in Sundarban.`
-            ]}
-          />
-              <Destination
-            title="SUNDARBAN-III"
-            cta='Book Now for 3N/4D'
-            subtitle="Circuit-III MANGROVE FOREST-OTHER AREAS"
-            content={[
-              `Day - 1 :Start of tour : Pick up from Science City (08.30 a.m.). Packet breakfast with bottled water will be served in the Car / Bus. Arrival at Godhkhali (about 120 km / 3 hrs later). Departure by Launch at Resort / Hotel at Gosaba / Pakhiralay / Dayapur / Dulki / Bonnie Camp Island. Tea / Coffee / Refreshment to be served during the launch journey. Reach & check-in at the Resort / Hotel Buffet Lunch as per menu. Post lunch, Sightseeing by river cruise around Jotirampur Bird Watching Island for sighting of Migratory Birds. Evening Tea / Coffee / Refreshments are served. A colourful Cultural Programme of local village folk dance at the Resort / Hotel  (optional) can be arranged. Dinner & Overnight stay in Resort/ Hotel at Sundarban.`,
+            <Destination
+              title=" SUNDARBAN Customise"
+              cta='Book Now for 2N/3D'
+              subtitle=""
+              content={[
+                `OPTION – 1:[Min 10-15 PAX] Rs.19000/- PAX :Overnight stay & food at a  Premium 5* Resort at Sundarban.`,
+                `OPTION –2: [Min 10-15 PAX] Rs.19000/- PAX :Overnight stay & food at AC House Boat anchored on the River in Sundarban.`
+              ]}
+            />
+            <Destination
+              title="SUNDARBAN-III"
+              cta='Book Now for 3N/4D'
+              subtitle="Circuit-III MANGROVE FOREST-OTHER AREAS"
+              content={[
+                `Day - 1 :Start of tour : Pick up from Science City (08.30 a.m.). Packet breakfast with bottled water will be served in the Car / Bus. Arrival at Godhkhali (about 120 km / 3 hrs later). Departure by Launch at Resort / Hotel at Gosaba / Pakhiralay / Dayapur / Dulki / Bonnie Camp Island. Tea / Coffee / Refreshment to be served during the launch journey. Reach & check-in at the Resort / Hotel Buffet Lunch as per menu. Post lunch, Sightseeing by river cruise around Jotirampur Bird Watching Island for sighting of Migratory Birds. Evening Tea / Coffee / Refreshments are served. A colourful Cultural Programme of local village folk dance at the Resort / Hotel  (optional) can be arranged. Dinner & Overnight stay in Resort/ Hotel at Sundarban.`,
 
-              `Day - 2 :Early Morning tea. Breakfast at Resort / Served on Boat, Sightseeing by river cruise around Do-Banki Tiger Reserve & Gazikhali, Pirkhali Creeks & Panchamukhi River crossing. Lunch as per menu at Resort / Served on Boat while-on-cruise. Visit 3 Watch Towers & Canopy Walk; namely in Netidhopani, Dobanki, Sajnekhali in the Tiger Project Area for a view of the wild animals, crocodiles, museum, watch towers, etc. A colourful Cultural Programme of local village folk dance at the Resort / Hotel (optional) can be arranged. Dinner & Overnight stay in Resort / Hotel at Sundarban.`,
+                `Day - 2 :Early Morning tea. Breakfast at Resort / Served on Boat, Sightseeing by river cruise around Do-Banki Tiger Reserve & Gazikhali, Pirkhali Creeks & Panchamukhi River crossing. Lunch as per menu at Resort / Served on Boat while-on-cruise. Visit 3 Watch Towers & Canopy Walk; namely in Netidhopani, Dobanki, Sajnekhali in the Tiger Project Area for a view of the wild animals, crocodiles, museum, watch towers, etc. A colourful Cultural Programme of local village folk dance at the Resort / Hotel (optional) can be arranged. Dinner & Overnight stay in Resort / Hotel at Sundarban.`,
 
-              `Day - 3 :Sundarban Other Area: (With additional Cost & Minimum 6-8 PAX) After bed tea, you will be cruising through the deep creeks and covering the watchtowers of Burir Dabri, Kumirmari as well as Morich Jhapi & Bonnie Camp. Breakfast on-board. Burirdabri in Sundarban national Park is famous for its watchtower, a mud-walk and mangrove cage trail leading to a viewpoint known as Raimongal View Point. A visit to the watch Tower at Burirdabri camp. The Kumirmari watchtower offers an exciting view of the jungles. (Rs.1000/- extra per persons towards special permission is required for this excursion). Overlooking an untamed forest, enjoy the sights and sounds of nature resplendent in her pristine virginal beauty. Lunch will be served on-board. Guest can also take a stroll through the Kumirmari bazaar if one wants to have a first-hand view of a typical rustic Indian market place. Dinner & Overnight stay in Hotel / Resort at Sundarban (OR) Boat Stay anchored in middle of the river.`,
+                `Day - 3 :Sundarban Other Area: (With additional Cost & Minimum 6-8 PAX) After bed tea, you will be cruising through the deep creeks and covering the watchtowers of Burir Dabri, Kumirmari as well as Morich Jhapi & Bonnie Camp. Breakfast on-board. Burirdabri in Sundarban national Park is famous for its watchtower, a mud-walk and mangrove cage trail leading to a viewpoint known as Raimongal View Point. A visit to the watch Tower at Burirdabri camp. The Kumirmari watchtower offers an exciting view of the jungles. (Rs.1000/- extra per persons towards special permission is required for this excursion). Overlooking an untamed forest, enjoy the sights and sounds of nature resplendent in her pristine virginal beauty. Lunch will be served on-board. Guest can also take a stroll through the Kumirmari bazaar if one wants to have a first-hand view of a typical rustic Indian market place. Dinner & Overnight stay in Hotel / Resort at Sundarban (OR) Boat Stay anchored in middle of the river.`,
 
-              `Day - 4 :Early Morning tea. Breakfast at Resort / Served on Boat. A stroll down the river sides. A village tour on foot is held to experience the life of the local inhabitants and visit Rabindranath’s Heritage Bungalow & Hamilton’s Bungalow  (OR) visit to Sudhanyakhali watch tower by river cruise through creeks & around the cluster of islands of Sunderban Tiger Project area. Then towards Godhkhali by launch (lunch will be served on Boat. Proceed towards Kolkata by Car / Coach & drop off at Kolkata Science City around (06-07 pm). Tour ends`
-            ]}
-          />
-       </div>
+                `Day - 4 :Early Morning tea. Breakfast at Resort / Served on Boat. A stroll down the river sides. A village tour on foot is held to experience the life of the local inhabitants and visit Rabindranath’s Heritage Bungalow & Hamilton’s Bungalow  (OR) visit to Sudhanyakhali watch tower by river cruise through creeks & around the cluster of islands of Sunderban Tiger Project area. Then towards Godhkhali by launch (lunch will be served on Boat. Proceed towards Kolkata by Car / Coach & drop off at Kolkata Science City around (06-07 pm). Tour ends`
+              ]}
+            />
+
+
+          </div>
+          <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+            {/* Video Section */}
+            <div className="bg-white rounded-3xl shadow-lg p-6">
+              <h3 className="text-xl font-bold mb-4 text-gray-800">
+                Watch Sunderban Tour Video
+              </h3>
+
+              <div className="aspect-video rounded-xl overflow-hidden">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                  title="Digha Tour"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+
+            {/* Advertisement Section */}
+            <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
+              <h3 className="text-2xl font-bold mb-4">
+                🚀 Paste Your Advertisement Here
+              </h3>
+              <p className="text-sm opacity-90">
+                Promote your brand, offer or travel deals here.
+                This space is perfect for partner promotions.
+              </p>
+              <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                Contact For Promotion
+              </button>
+            </div>
+
+          </div>
+          </div>
         </div>
       </section>
 
       {/* ================= WATCH TOWERS & ATTRACTIONS ================= */}
-  <section className="py-20 bg-gradient-to-br from-green-50 to-blue-50">
-      <div className="max-w-7xl mx-auto px-6">
-        
-        {/* Heading */}
-        <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Watch Towers & Attractions
-          </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Strategic viewpoints for wildlife spotting and experiencing the mangrove ecosystem
-          </p>
-        </div>
+      <section className="py-20 bg-gradient-to-br from-green-50 to-blue-50">
+        <div className="max-w-7xl mx-auto px-6">
 
-        {/* Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {watchTowers.map((tower) => (
-            <div
-              key={tower.id}
-              className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group"
-            >
-              {/* Image */}
-              <div className="relative h-56">
-                <Image
-                  src={tower.image}
-                  alt={tower.name}
-                  fill
-                  className="object-cover group-hover:scale-110 transition duration-500"
-                />
-              </div>
+          {/* Heading */}
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              Watch Towers & Attractions
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Strategic viewpoints for wildlife spotting and experiencing the mangrove ecosystem
+            </p>
+          </div>
 
-              {/* Content */}
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">
-                  {tower.name}
-                </h3>
+          {/* Grid */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {watchTowers.map((tower) => (
+              <div
+                key={tower.id}
+                className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group"
+              >
+                {/* Image */}
+                <div className="relative h-56">
+                  <Image
+                    src={tower.image}
+                    alt={tower.name}
+                    fill
+                    className="object-cover group-hover:scale-110 transition duration-500"
+                  />
+                </div>
 
-                <p className="text-gray-700 mb-4">
-                  {tower.description}
-                </p>
+                {/* Content */}
+                <div className="p-6">
+                  <h3 className="text-2xl font-bold mb-3">
+                    {tower.name}
+                  </h3>
 
-                <div className="flex items-center gap-2 text-green-600">
-                  <MapPin className="w-4 h-4" />
-                  <span className="text-sm">
-                    {tower.location}
-                  </span>
+                  <p className="text-gray-700 mb-4">
+                    {tower.description}
+                  </p>
+
+                  <div className="flex items-center gap-2 text-green-600">
+                    <MapPin className="w-4 h-4" />
+                    <span className="text-sm">
+                      {tower.location}
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
 
-      </div>
-    </section>
+        </div>
+      </section>
 
       {/* ================= WILDLIFE & NATURE ================= */}
       <section className="py-20 bg-white">

@@ -27,7 +27,7 @@ export default function SingaporePage() {
               <Building className="w-6 h-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold tracking-wide">Singapore Modern Paradise</span>
             </div>
-            
+
             <h1 className="text-5xl md:text-7xl  text-center  font-bold mb-6 leading-tight">
               Singapore
               <span className="block text-3xl md:text-5xl mt-2 text-blue-300">
@@ -36,7 +36,7 @@ export default function SingaporePage() {
             </h1>
 
             <p className="text-xl md:text-2xl mb-8 text-gray-200 text-center max-w-3xl mx-auto leading-relaxed">
-              Experience the ultimate modern city-state with stunning architecture, 
+              Experience the ultimate modern city-state with stunning architecture,
               world-class attractions, and tropical island adventures
             </p>
 
@@ -61,110 +61,143 @@ export default function SingaporePage() {
         </div>
       </section>
 
-     <div className="bg-gray-50 py-20 px-6 md:px-12">
-      <div className="max-w-7xl mx-auto space-y-16">
+      <div className="bg-gray-50 py-20 px-6 md:px-12">
+        <div className="max-w-7xl mx-auto space-y-16">
 
-        {/* HEADER */}
-            <div className="flex flex-col  space-y-2">
+          {/* HEADER */}
+          <div className="flex flex-col  space-y-2">
 
 
-        <div className='flex gap-5 items-center'>
-          <h1 className="text-4xl md:text-5xl font-bold text-yellow-600">
-            Singapore Tour Itinerary
-          </h1>
+            <div className='flex gap-5 items-center'>
+              <h1 className="text-4xl md:text-5xl font-bold text-yellow-600">
+                Singapore Tour Itinerary
+              </h1>
               <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
-            Book now For 3N/4D
-          </a>
-        </div>
-          <p className="text-gray-700 text-lg">
-            Special Tailor made Combination Package
-          </p>
-       
-        </div>
-
-        {/* DAY GRID */}
-        <div className="grid md:grid-cols-1 gap-10 items-stretch">
-
-          {/* DAY 1 */}
-          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-yellow-500 h-full flex flex-col ">
-            <h2 className="text-2xl font-semibold text-yellow-600 mb-4">
-              Day – 1 : Arrival & City Tour
-            </h2>
-            <div className="text-gray-700 leading-8 flex-grow">
-          Departure for direct flight from Kolkata to Singapore by Air Travel. Transfer to respective hotel at Singapore. Check in hotel and free at your own leisure.  You will proceed to see the beautiful city of Singapore.  Half Day City tour ( 4Hrs). half day Singapore city tour which covers major attractions of the city like Little India,  Marina Bay, China Town, Merlion Park etc. Evening leisure and Night stay at Hotel / Resort / Singapore.
-
-
+                Book now For 3N/4D
+              </a>
             </div>
+            <p className="text-gray-700 text-lg">
+              Special Tailor made Combination Package
+            </p>
+
           </div>
+
+         {/* GRID */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+            <div className="lg:col-span-2 space-y-8">
+
+            {/* DAY 1 */}
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-yellow-500 flex flex-col ">
+              <h2 className="text-2xl font-semibold text-yellow-600 mb-4">
+                Day – 1 : Arrival & City Tour
+              </h2>
+              <div className="text-gray-700 leading-8 flex-grow">
+                Departure for direct flight from Kolkata to Singapore by Air Travel. Transfer to respective hotel at Singapore. Check in hotel and free at your own leisure.  You will proceed to see the beautiful city of Singapore.  Half Day City tour ( 4Hrs). half day Singapore city tour which covers major attractions of the city like Little India,  Marina Bay, China Town, Merlion Park etc. Evening leisure and Night stay at Hotel / Resort / Singapore.
+
+
+              </div>
+            </div>
             {/* DAY 2 */}
-          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-blue-500 h-full flex flex-col ">
-            <h2 className="text-2xl font-semibold text-blue-600 mb-4">
-              Day – 2 : Sentosa Island & Night Safari
-            </h2>
-            <div className="text-gray-700 leading-8 flex-grow">
-  Enjoy your breakfast in the morning; today you will proceed to see an optional tour of Sentosa Island. Visit the Underwater, World, Asia's most popular Sea Aquarium and Cable Car. Return by late afternoon.  Evening you can enjoy the Singapore night safari 4 hrs tour. Night stay at Hotel / Resort / Singapore.
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-blue-500 flex flex-col ">
+              <h2 className="text-2xl font-semibold text-blue-600 mb-4">
+                Day – 2 : Sentosa Island & Night Safari
+              </h2>
+              <div className="text-gray-700 leading-8 flex-grow">
+                Enjoy your breakfast in the morning; today you will proceed to see an optional tour of Sentosa Island. Visit the Underwater, World, Asia's most popular Sea Aquarium and Cable Car. Return by late afternoon.  Evening you can enjoy the Singapore night safari 4 hrs tour. Night stay at Hotel / Resort / Singapore.
+              </div>
+            </div>
+            {/* DAY 3 */}
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-green-500  flex flex-col ">
+              <h2 className="text-2xl font-semibold text-green-600 mb-4">
+                Day – 3 : Jurong Bird Park & Shopping
+              </h2>
+              <div className="text-gray-700 leading-8 flex-grow">
+                After breakfast visit Jurong National Park. Jurong Bird Park is a 20.2 hectare open-concept park. It is the largest in the Asia Pacific and the best in the world. Its collection of more than 8,000 birds from 600 species is among the largest in the world. The Park specializes in birds from Southeast Asia. Evening free and walk to the city mall for shopping and free evening and Night stayat Hotel / Resort / Singapore.
+              </div>
+            </div>
+
+            {/* DAY 4 */}
+            <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-purple-500  flex flex-col ">
+              <h2 className="text-2xl font-semibold text-purple-600 mb-4">
+                Day – 4 : Departure
+              </h2>
+              <div className="text-gray-700 leading-8 flex-grow">
+                After breakfast, Check-out from the hotel.
+                Transfer to Singapore Airport for your return journey.
+                Tour Ends...
+              </div>
+            </div>
+
+          </div>
+            <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+              {/* Video Section */}
+              <div className="bg-white rounded-3xl shadow-lg p-6">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  Watch Singapore Tour Video
+                </h3>
+
+                <div className="aspect-video rounded-xl overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    title="Italy Tour"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+
+
+              {/* Advertisement Section */}
+              <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
+                <h3 className="text-2xl font-bold mb-4">
+                  🚀 Paste Your Advertisement Here
+                </h3>
+                <p className="text-sm opacity-90">
+                  Promote your brand, offer or travel deals here.
+                  This space is perfect for partner promotions.
+                </p>
+                <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                  Contact For Promotion
+                </button>
+              </div>
+
             </div>
           </div>
-       {/* DAY 3 */}
-          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-green-500 h-full flex flex-col ">
-            <h2 className="text-2xl font-semibold text-green-600 mb-4">
-              Day – 3 : Jurong Bird Park & Shopping
-            </h2>
-            <div className="text-gray-700 leading-8 flex-grow">
-         After breakfast visit Jurong National Park. Jurong Bird Park is a 20.2 hectare open-concept park. It is the largest in the Asia Pacific and the best in the world. Its collection of more than 8,000 birds from 600 species is among the largest in the world. The Park specializes in birds from Southeast Asia. Evening free and walk to the city mall for shopping and free evening and Night stayat Hotel / Resort / Singapore.
-            </div>
+
+          {/* EXTENSION BOX */}
+          <div className="bg-yellow-50 border border-yellow-200 rounded-3xl p-8 text-center shadow-lg">
+            <p className="text-gray-700 leading-8">
+              (You may extend your tour for 3-4 more days covering Malaysia / Bali / Indonesia at a minimum cost / free*)
+            </p>
           </div>
-        
 
-   
-
-          {/* DAY 4 */}
-          <div className="bg-white shadow-xl rounded-3xl p-8 border-l-4 border-purple-500 h-full flex flex-col ">
-            <h2 className="text-2xl font-semibold text-purple-600 mb-4">
-              Day – 4 : Departure
-            </h2>
-            <div className="text-gray-700 leading-8 flex-grow">
-              After breakfast, Check-out from the hotel.
-              Transfer to Singapore Airport for your return journey.
-              Tour Ends...
-            </div>
+          {/* RECOMMENDED */}
+          <div className="bg-white rounded-3xl shadow-xl p-8 text-center">
+            <h3 className="text-2xl font-semibold text-indigo-600 mb-4">
+              Recommended Stay
+            </h3>
+            <p className="text-gray-700 leading-8">
+              To stay at a resort of our choice at Destinations.
+              See some names of Hotels, Resorts, Home Stay where we keep our Guests.
+            </p>
           </div>
 
         </div>
-
-        {/* EXTENSION BOX */}
-        <div className="bg-yellow-50 border border-yellow-200 rounded-3xl p-8 text-center shadow-lg">
-          <p className="text-gray-700 leading-8">
-            (You may extend your tour for 3-4 more days covering Malaysia / Bali / Indonesia at a minimum cost / free*)
-          </p>
-        </div>
-
-        {/* RECOMMENDED */}
-        <div className="bg-white rounded-3xl shadow-xl p-8 text-center">
-          <h3 className="text-2xl font-semibold text-indigo-600 mb-4">
-            Recommended Stay
-          </h3>
-          <p className="text-gray-700 leading-8">
-            To stay at a resort of our choice at Destinations.
-            See some names of Hotels, Resorts, Home Stay where we keep our Guests.
-          </p>
-        </div>
-
       </div>
-    </div>
-  <TourPricingSection
-  title="Bali Elite Adventure & Retreat Packages"
-subtitle="Island thrills, cultural wonders & luxury relaxation"
-     
-       packages={[
-         { label: "recommended for extended duration", days: "6N / 7D", price: 22600 },
-         { label: "highly recommended", days: "5N / 6D", price: 19000 },
-         { label: "most popular", days: "4N / 5D", price: 15400 },
+      <TourPricingSection
+        title="Bali Elite Adventure & Retreat Packages"
+        subtitle="Island thrills, cultural wonders & luxury relaxation"
+
+        packages={[
+          { label: "recommended for extended duration", days: "6N / 7D", price: 22600 },
+          { label: "highly recommended", days: "5N / 6D", price: 19000 },
+          { label: "most popular", days: "4N / 5D", price: 15400 },
           { label: "Group 20+", days: "3N / 4D", price: 12700 },
-         { label: "", days: "2N / 3D", price: 9100},
-         { label: "Not Feasible", days: "1N / 2D", price: 3700, disabled: true },
-       ]}
-     />
+          { label: "", days: "2N / 3D", price: 9100 },
+          { label: "Not Feasible", days: "1N / 2D", price: 3700, disabled: true },
+        ]}
+      />
       <ContactCTA />
 
     </main>

@@ -76,68 +76,247 @@ export default function ItalyPage() {
               Special Tailor made Combination Package, Number of Days & Cost can be designed on Request.
             </p>
           </div>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+            <div className="lg:col-span-2 space-y-8">
+              {/* MAIN CIRCUIT TITLE */}
+              <SectionTitle
+                title="ITALY"
+                subtitle="Romantic Heritage With ROME – VENICE – FLORENCE-"
+              />
 
-          {/* MAIN CIRCUIT TITLE */}
-          <SectionTitle
-            title="ITALY"
-            subtitle="Romantic Heritage With ROME – VENICE – FLORENCE-"
-          />
+              {/* MAIN DAY WISE */}
+              {/* MAIN DAY WISE */}
+              <div className="grid gap-10 grid-col-1">
 
-          {/* MAIN DAY WISE */}
-          <div className=" grid  gap-10 grid-col-1">
-            <DayCard title="Day – 1">
-              Arrival in Rome: Our representative will be there to receive you at Fiumicino Airport. Transfer to hotel. Check-in and relax. Evening walking tour of Trastevere district. Dinner at local trattoria. Overnight stay at Rome hotel.
-            </DayCard>
+                <DayCard title="Day – 1 | Arrival in Rome & Trastevere Experience">
+                  Welcome to Italy! Upon arrival at Rome Fiumicino International Airport (FCO),
+                  our professional tour representative will warmly receive you and assist with
+                  your private transfer to the hotel. After smooth check-in, relax and freshen up.
 
-            <DayCard title="Day – 2">
-              Ancient Rome Tour: After breakfast, visit Colosseum, Roman Forum, and Palatine Hill. Lunch en-route. Afternoon visit Pantheon and Piazza Navona. Evening Trevi Fountain and Spanish Steps. Dinner & Overnight stay at Rome.
-            </DayCard>
+                  In the evening, enjoy a guided walking tour of the charming Trastevere district,
+                  known for its cobblestone streets, lively piazzas, artisan shops, and authentic
+                  Roman atmosphere. Experience traditional Italian hospitality with a delightful
+                  dinner at a local trattoria featuring fresh pasta, pizza, and classic desserts.
 
-            <DayCard title="Day – 3">
-              Vatican City: After breakfast, full day Vatican tour. Visit St. Peter's Basilica, Vatican Museums, and Sistine Chapel. Lunch en-route. Evening explore Castel Sant'Angelo. Dinner & Overnight stay at Rome.
-            </DayCard>
+                  Overnight stay at Rome hotel.
+                </DayCard>
 
-            <DayCard title="Day – 4">
-              Rome - Florence: After breakfast, take high-speed train to Florence. Check-in at hotel. Visit Duomo (Cathedral) and Baptistery. Lunch en-route. Evening walk across Ponte Vecchio. Dinner & Overnight stay at Florence.
-            </DayCard>
 
-            <DayCard title="Day – 5">
-              Florence Art Tour: After breakfast, visit Uffizi Gallery and Accademia Gallery (David). Continue to Pitti Palace and Boboli Gardens. Lunch en-route. Evening explore Oltrarno district. Dinner & Overnight stay at Florence.
-            </DayCard>
+                <DayCard title="Day – 2 | Ancient Rome & City Highlights">
+                  After breakfast at the hotel, begin your journey into the glorious history of
+                  Ancient Rome with a guided visit to the iconic Colosseum, where gladiators once
+                  battled. Continue to explore the Roman Forum, the political and social heart of
+                  ancient civilization, followed by Palatine Hill offering panoramic city views.
 
-            <DayCard title="Day – 6">
-              Florence - Venice: After breakfast, take train to Venice. Check-in at hotel. Visit St. Mark's Square and Basilica. Lunch en-route. Evening gondola ride through canals. Dinner & Overnight stay at Venice.
-            </DayCard>
+                  Enjoy lunch at a local café en-route. In the afternoon, visit the magnificent
+                  Pantheon, one of Rome’s best-preserved monuments, and stroll through Piazza Navona,
+                  famous for its fountains and vibrant atmosphere.
 
-            <DayCard title="Day – 7">
-              Departure: After breakfast, visit Doge's Palace and Rialto Bridge. Transfer to Venice Marco Polo Airport for onward journey with unforgettable memories of Italy. Tour Ends.
-            </DayCard>
+                  In the evening, toss a coin at the Trevi Fountain and visit the Spanish Steps,
+                  one of Rome’s most romantic landmarks.
+
+                  Dinner and overnight stay at Rome.
+                </DayCard>
+
+
+                <DayCard title="Day – 3 | Vatican City & Spiritual Marvels">
+                  After breakfast, proceed for a full-day guided tour of Vatican City, the world’s
+                  smallest independent state and the spiritual center of Catholicism.
+
+                  Visit St. Peter’s Basilica, admire its grand architecture and Michelangelo’s
+                  Pietà sculpture. Continue to the Vatican Museums, home to centuries of priceless
+                  art collections. Witness the breathtaking ceiling of the Sistine Chapel painted
+                  by Michelangelo.
+
+                  Lunch will be arranged en-route. In the evening, explore Castel Sant'Angelo,
+                  a historic fortress offering stunning views of Rome.
+
+                  Dinner and overnight stay at Rome.
+                </DayCard>
+
+
+                <DayCard title="Day – 4 | Rome to Florence – Renaissance Capital">
+                  After breakfast, check out and transfer to the railway station to board a
+                  high-speed train to Florence, the birthplace of the Renaissance.
+
+                  Upon arrival, transfer to your hotel and complete check-in formalities.
+                  Begin exploring the city with a visit to the Florence Cathedral (Duomo),
+                  an architectural masterpiece, and the historic Baptistery known for its
+                  famous bronze doors.
+
+                  Enjoy lunch at a local restaurant. In the evening, take a scenic walk across
+                  Ponte Vecchio, Florence’s iconic medieval bridge lined with jewelry shops,
+                  and enjoy beautiful sunset views over the Arno River.
+
+                  Dinner and overnight stay at Florence.
+                </DayCard>
+
+
+                <DayCard title="Day – 5 | Florence Art & Cultural Heritage Tour">
+                  After breakfast, embark on an artistic journey through Florence’s most
+                  celebrated museums.
+
+                  Visit the Uffizi Gallery, home to masterpieces by Leonardo da Vinci,
+                  Botticelli, and Raphael. Continue to the Accademia Gallery to witness
+                  Michelangelo’s world-famous statue of David.
+
+                  After lunch en-route, explore the magnificent Pitti Palace, once home to
+                  Florentine royalty, followed by a relaxing stroll through the beautifully
+                  landscaped Boboli Gardens.
+
+                  In the evening, explore the Oltrarno district known for artisan workshops
+                  and authentic local charm.
+
+                  Dinner and overnight stay at Florence.
+                </DayCard>
+
+
+                <DayCard title="Day – 6 | Florence to Venice – The City of Canals">
+                  After breakfast, transfer to the railway station for your scenic train
+                  journey to Venice, one of the world’s most romantic cities.
+
+                  Upon arrival, transfer to your hotel and check in. Begin your exploration
+                  with a visit to St. Mark’s Square, the vibrant heart of Venice, followed by
+                  St. Mark’s Basilica showcasing magnificent Byzantine architecture.
+
+                  Lunch at a local restaurant. In the evening, enjoy a memorable gondola ride
+                  through Venice’s picturesque canals, passing historic buildings and charming
+                  bridges.
+
+                  Dinner and overnight stay at Venice.
+                </DayCard>
+
+
+                <DayCard title="Day – 7 | Venice Highlights & Departure">
+                  After breakfast, check out from the hotel.
+
+                  Visit the historic Doge’s Palace, a masterpiece of Gothic architecture and
+                  former residence of Venetian rulers. Walk across the iconic Rialto Bridge,
+                  one of the oldest bridges spanning the Grand Canal and a perfect spot for
+                  photographs and souvenir shopping.
+
+                  Later, transfer to Venice Marco Polo International Airport for your onward
+                  journey with unforgettable memories of Italy.
+
+                  Tour Ends.
+                </DayCard>
+
+              </div>
+
+              {/* ADD-ON SECTIONS */}
+              <AddOnSection
+                title="MILAN"
+                subtitle="Add-on (or) Separately From VENICE"
+              />
+              <div className=" grid  gap-10 grid-col-1">
+                <DayCard title="Day – 1 | Venice to Milan – Architectural & Cultural Icons">
+                  After breakfast at the hotel in Venice, check out and transfer to the railway
+                  station to board a high-speed train to Milan, Italy’s fashion and financial capital.
+
+                  Upon arrival in Milan, transfer to your hotel and complete check-in formalities.
+                  After some relaxation, begin your Milan exploration with a visit to the
+                  magnificent Duomo di Milano, one of the largest Gothic cathedrals in the world.
+                  Admire its intricate marble façade and, if time permits, enjoy panoramic views
+                  from the rooftop.
+
+                  Continue to the elegant Galleria Vittorio Emanuele II, Italy’s oldest shopping
+                  gallery, known for its luxury boutiques, glass-domed arcade, and vibrant atmosphere.
+
+                  Lunch will be arranged at a local restaurant en-route.
+
+                  In the evening, visit the legendary La Scala Opera House (Teatro alla Scala),
+                  one of the most prestigious opera houses globally, and learn about its rich
+                  musical heritage.
+
+                  Dinner at an Indian or local restaurant.
+                  Overnight stay at Milan.
+                </DayCard>
+
+
+                <DayCard title="Day – 2 | Milan & Scenic Lake Como Excursion">
+                  After breakfast, proceed for a full-day excursion to the breathtaking Lake Como,
+                  located amidst the foothills of the Alps and known for its stunning landscapes
+                  and charming lakeside towns.
+
+                  Visit the picturesque village of Bellagio, often called the “Pearl of Lake Como,”
+                  famous for its cobbled streets, elegant villas, and scenic waterfront views.
+
+                  Enjoy a relaxing boat tour across the crystal-clear waters of Lake Como,
+                  offering spectacular views of surrounding mountains and luxurious villas.
+
+                  Lunch will be arranged at a lakeside restaurant en-route.
+
+                  In the evening, return to Milan and visit the renowned Brera Art Gallery
+                  (Pinacoteca di Brera), home to an impressive collection of Italian Renaissance art.
+
+                  Dinner at a local restaurant.
+                  Overnight stay at Milan.
+                </DayCard>
+
+
+                <DayCard title="Day – 3 | Milan Fashion & Heritage Experience">
+                  After breakfast, begin your day with a visit to Milan’s famous Fashion District,
+                  known as Quadrilatero della Moda. Explore luxury designer boutiques and
+                  experience the glamorous side of Italian fashion.
+
+                  Continue to Sforza Castle (Castello Sforzesco), a historic fortress that now
+                  houses museums and art collections showcasing Milan’s rich heritage.
+
+                  Lunch at a local restaurant en-route.
+
+                  In the evening, enjoy shopping at Corso Buenos Aires, one of Europe’s longest
+                  shopping streets offering a mix of international brands and local stores.
+
+                  Later, return to the hotel for dinner.
+
+                  Overnight stay at Milan.
+                </DayCard>
+              </div>
+            </div>
+            {/* RIGHT SIDE – VIDEO + AD */}
+            <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+              {/* Video Section */}
+              <div className="bg-white rounded-3xl shadow-lg p-6">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  Watch Italy Tour Video
+                </h3>
+
+                <div className="aspect-video rounded-xl overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    title="Italy Tour"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+
+              {/* Advertisement Section */}
+              {/* Advertisement Section */}
+              <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
+                <h3 className="text-2xl font-bold mb-4">
+                  🚀 Paste Your Advertisement Here
+                </h3>
+                <p className="text-sm opacity-90">
+                  Promote your brand, offer or travel deals here.
+                  This space is perfect for partner promotions.
+                </p>
+                <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                  Contact For Promotion
+                </button>
+              </div>
+
+            </div>
+
           </div>
-
-          {/* ADD-ON SECTIONS */}
-          <AddOnSection
-            title="MILAN"
-            subtitle="Add-on (or) Separately From VENICE"
-          />
-          <div className=" grid  gap-10 grid-col-1">
-            <DayCard title="Day – 1  ">
-              Venice - Milan: After breakfast, take train to Milan. Check-in at hotel. Visit Duomo di Milano and Galleria Vittorio Emanuele II. Lunch en-route. Evening visit La Scala Opera House. Dinner & Overnight stay at Milan.
-            </DayCard>
-            <DayCard title="Day –  2 ">
-              Milan & Lake Como: After breakfast, day trip to Lake Como. Visit Bellagio and take boat tour. Lunch en-route. Evening return to Milan. Visit Brera Art Gallery. Dinner & Overnight stay at Milan.
-            </DayCard>
-            <DayCard title="Day – 3 ">
-              Milan Fashion District: After breakfast, visit Milan Fashion District (Quadrilatero della Moda). Continue to Sforza Castle. Lunch en-route. Evening shopping at Corso Buenos Aires. Dinner & Overnight stay at Milan.
-            </DayCard>
-          </div>
-
         </div>
       </div>
-        <TourPricingSection
-     title="Italy Romantic Heritage Packages"
-subtitle="Experience the Land of Romance with curated journeys"
-    
-    packages={[
+      <TourPricingSection
+        title="Italy Romantic Heritage Packages"
+        subtitle="Experience the Land of Romance with curated journeys"
+
+        packages={[
           { label: "Customisable & ecommended for extended duration", days: "6N / 7D", price: 22600 },
           { label: "highly recommended", days: "5N / 6D", price: 19000 },
           { label: "most popular", days: "4N / 5D", price: 15400 },
@@ -145,7 +324,7 @@ subtitle="Experience the Land of Romance with curated journeys"
           { label: "As add on / Separately ", days: "2N / 3D", price: 9100 },
           { label: "Not Feasible", days: "1N / 2D", price: 3700, disabled: true },
         ]}
-    />
+      />
 
       <ContactCTA />
     </main>
@@ -158,13 +337,13 @@ function SectionTitle({ title, subtitle }: { title: string; subtitle: string }) 
   return (
     <div className="flex flex-col space-y-2">
       <div className='flex  gap-5 items-center'>
-      <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
-       <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
-        Book now For 6N/7D
-      </a>
+        <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
+        <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
+          Book now For 6N/7D
+        </a>
       </div>
       <p className="font-semibold text-gray-700">{subtitle}</p>
-     
+
     </div>
   )
 }
@@ -181,16 +360,16 @@ function DayCard({ title, children }: { title: string; children: React.ReactNode
 function AddOnSection({ title, subtitle }: { title: string; subtitle: string }) {
   return (
     <div className="flex flex-col  space-y-2">
-      
 
-           <div className='flex gap-5 items-center'> 
-      <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
-       <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
-        Book now For 2N/3D
-      </a>
-      
+
+      <div className='flex gap-5 items-center'>
+        <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
+        <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
+          Book now For 2N/3D
+        </a>
+
       </div>
-     <p className="font-semibold text-gray-700">{subtitle}</p>
+      <p className="font-semibold text-gray-700">{subtitle}</p>
     </div>
   )
 }

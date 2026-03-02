@@ -26,7 +26,7 @@ export default function GoaTourismPage() {
               <WavesIcon className="w-6 h-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold tracking-wide">GOA TOURISM</span>
             </div>
-            
+
             <h1 className="text-5xl text-center md:text-7xl font-bold mb-6 leading-tight">
               Goa Beach Budget Tour
               <span className="block text-3xl md:text-5xl mt-2 text-blue-300">
@@ -35,7 +35,7 @@ export default function GoaTourismPage() {
             </h1>
 
             <p className="text-xl text-center md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
-              Experience the perfect blend of beaches, nightlife, and Portuguese heritage 
+              Experience the perfect blend of beaches, nightlife, and Portuguese heritage
               with special tailor-made budget packages
             </p>
 
@@ -63,25 +63,29 @@ export default function GoaTourismPage() {
       {/* ================= GOA CIRCUIT PACKAGE ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <Destination
-            title="Goa Beach Circuit"
-            cta="Book now For 4N/5D"
-            subtitle="Anjuna - Calangute - Baga"
-            content={[
-              `Day 1: Arrival & Beach Relaxation, On arrival at Dabolim Airport / Madgaon Railway Station, you will be transferred to Hotel.
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+
+            {/* LEFT SIDE – ITINERARY */}
+            <div className="lg:col-span-2 space-y-8">
+              <Destination
+                title="Goa Beach Circuit"
+                cta="Book now For 4N/5D"
+                subtitle="Anjuna - Calangute - Baga"
+                content={[
+                  `Day 1: Arrival & Beach Relaxation, On arrival at Dabolim Airport / Madgaon Railway Station, you will be transferred to Hotel.
               Check in and relax for a while. Lunch break.
               Spend a leisurely time on beaches near you, sampling some delicious Goan cuisine.
               Soak in the pulsating night-life on Goan Beaches.
               Breakfast & Dinner included. Dinner & Overnight at Hotel/Resort at Anjuna / Calangute / Goa.`,
 
-              `Day 2: North Goa Exploration, After a delicious breakfast, go on a full-Day Tour of North Goa.
+                  `Day 2: North Goa Exploration, After a delicious breakfast, go on a full-Day Tour of North Goa.
               Go for a Dolphin sight-seeing Tour. Lunch en-route.
               Visit Fort Aguada, Calangute Beach, Anjuna Beach, Baga Beach and Coco Beach.
               Lunch en-route. Return in evening.
               Soak in the pulsating night-life on Goan Beaches.
               Breakfast & Dinner included. Overnight at Hotel/Resort at Anjuna / Calangute / Goa.`,
 
-              `Day 3: South Goa Sightseeing, Savour a delectable breakfast and get ready to explore South Goa.
+                  `Day 3: South Goa Sightseeing, Savour a delectable breakfast and get ready to explore South Goa.
               Visit temples like Shri Manguesh, Shantadurga and Kavlem, at Priol.
               Explore churches of old Goa like Basilica of Bom Jesus and Se Cathedral.
               Lunch en-route. After lunch, visit Dona Paula Bay and Miramar Beach.
@@ -89,42 +93,77 @@ export default function GoaTourismPage() {
               Soak in the pulsating night-life on Goan Beaches.
               Breakfast & Dinner included. Overnight at Hotel/Resort at Baga / Palolem / Goa.`,
 
-              `Day 4: Leisure Day, Wake up late after late night revelry. After a hearty breakfast,
+                  `Day 4: Leisure Day, Wake up late after late night revelry. After a hearty breakfast,
               hit the beach for some Water Sports activity on your own.
               Have your Lunch in any of the Shacks dotting the sea-shore.
               Return to your Hotel. Take an afternoon siesta.
               Evening free for your last minute shopping & another last visit to Beach.
               Breakfast & Dinner included. Overnight at Hotel/Resort at Baga / Palolem / Goa.`,
 
-              `Day 5: Departure, After breakfast, check-out & transfer to Dabolim Airport / Madgaon Railway Station
+                  `Day 5: Departure, After breakfast, check-out & transfer to Dabolim Airport / Madgaon Railway Station
               for your return journey on your departure time.
               Breakfast & Dinner included. Tour ends...`
-            ]}
-          />
+                ]}
+              />
 
-          <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 shadow-xl mt-5">
-            <div className="grid md:grid-cols-1 gap-8">
-              <div className="bg-blue-100 rounded-xl p-6 mt-8">
-                <h4 className="font-bold text-blue-800 mb-3">Package Highlights</h4>
-                <div className="space-y-2">
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-blue-600" />
-                    <span className="text-gray-700">Dolphin Sight-seeing Tour</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-blue-600" />
-                    <span className="text-gray-700">North & South Goa Exploration</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-blue-600" />
-                    <span className="text-gray-700">Beach Activities & Water Sports</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-blue-600" />
-                    <span className="text-gray-700">Pulsating Night-life</span>
+              <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 shadow-xl mt-5">
+                <div className="grid md:grid-cols-1 gap-8">
+                  <div className="bg-blue-100 rounded-xl p-6 mt-8">
+                    <h4 className="font-bold text-blue-800 mb-3">Package Highlights</h4>
+                    <div className="space-y-2">
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-blue-600" />
+                        <span className="text-gray-700">Dolphin Sight-seeing Tour</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-blue-600" />
+                        <span className="text-gray-700">North & South Goa Exploration</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-blue-600" />
+                        <span className="text-gray-700">Beach Activities & Water Sports</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-blue-600" />
+                        <span className="text-gray-700">Pulsating Night-life</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+              {/* Video Section */}
+              <div className="bg-white rounded-3xl shadow-lg p-6">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  Watch Goa Video
+                </h3>
+
+                <div className="aspect-video rounded-xl overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    title="Atlantis Experience"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+
+              {/* Advertisement Section */}
+              <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
+                <h3 className="text-2xl font-bold mb-4">
+                  🚀 Paste Your Advertisement Here
+                </h3>
+                <p className="text-sm opacity-90">
+                  Promote your brand, offer or travel deals here.
+                  This space is perfect for partner promotions.
+                </p>
+                <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                  Contact For Promotion
+                </button>
+              </div>
+
             </div>
           </div>
         </div>
@@ -169,7 +208,7 @@ export default function GoaTourismPage() {
                     <span className="text-gray-700">Optional activity</span>
                   </div>
                 </div>
-               
+
               </div>
             </div>
 
@@ -296,13 +335,13 @@ export default function GoaTourismPage() {
       </section>
 
       {/* ================= PACKAGE PRICING ================= */}
-      <PackagePricing 
+      <PackagePricing
         title="Goa Tour Packages"
         subtitle="Choose your perfect beach paradise duration"
       />
 
-       
-    <ContactCTA />
+
+      <ContactCTA />
 
     </main>
   )

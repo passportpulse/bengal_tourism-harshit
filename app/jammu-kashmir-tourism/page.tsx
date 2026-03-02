@@ -26,7 +26,7 @@ export default function JammuKashmirTourismPage() {
               <ShipIcon className="w-6 h-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold tracking-wide">JAMMU & KASHMIR</span>
             </div>
-            
+
             <h1 className="text-5xl text-center md:text-7xl font-bold mb-6 leading-tight">
               Paradise on Earth
               <span className="block text-3xl md:text-5xl mt-2 text-green-300">
@@ -35,7 +35,7 @@ export default function JammuKashmirTourismPage() {
             </h1>
 
             <p className="text-xl text-center md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
-              Experience the heaven on earth with special tailor-made 
+              Experience the heaven on earth with special tailor-made
               combination packages designed on request
             </p>
 
@@ -63,31 +63,35 @@ export default function JammuKashmirTourismPage() {
       {/* ================= JAMMU & KASHMIR MAIN PACKAGE ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <Destination
-            title="Jammu & Kashmir Circuit"
-            cta="Book now For 6N/7D"
-            subtitle="Srinagar - Gulmarg - Sonmarg - Pahalgam"
-            content={[
-              `Day 1: Arrival in Srinagar, Our services start with your arrival at Jammu Railway Station (or) Srinagar Airport.
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+
+            {/* LEFT SIDE – ITINERARY */}
+            <div className="lg:col-span-2 space-y-8">
+              <Destination
+                title="Jammu & Kashmir Circuit"
+                cta="Book now For 6N/7D"
+                subtitle="Srinagar - Gulmarg - Sonmarg - Pahalgam"
+                content={[
+                  `Day 1: Arrival in Srinagar, Our services start with your arrival at Jammu Railway Station (or) Srinagar Airport.
               Meet & greet and transfer to Houseboat at Srinagar (or) Hotel at Srinagar.
               Check-in at Hotel. Lunch break.
               Rest of the day at leisure.
               Evening free at your own.
               Dinner & Overnight stay at Hotel/Resort (or) Houseboat at Dal Lake / Srinagar.`,
 
-              `Day 2: Srinagar Local Sightseeing, After breakfast, visit Mughal Gardens, Chashmi-e Shahi, Nishat & Shalimar Bagh.
+                  `Day 2: Srinagar Local Sightseeing, After breakfast, visit Mughal Gardens, Chashmi-e Shahi, Nishat & Shalimar Bagh.
               Lunch en-route. In the afternoon, enjoy a Shikara ride on the Dal Lake.
               Evening free at your own.
               Dinner & Overnight stay at Hotel/Resort at Srinagar.`,
 
-              `Day 3: Sonmarg Excursion, After breakfast, proceed for a full day excursion of Sonmarg,
+                  `Day 3: Sonmarg Excursion, After breakfast, proceed for a full day excursion of Sonmarg,
               which is one of the most beautiful drives from Srinagar.
               Lunch en-route. You may take a pony ride (at your own cost) to Thajiwas Glacier where snow remains round the year.
               Return to Hotel by evening.
               Evening free at your own.
               Dinner & Overnight stay at Hotel/Resort at Srinagar.`,
 
-              `Day 4: Gulmarg - Meadow of Flowers, After breakfast, you will proceed for a full day excursion to Gulmarg,
+                  `Day 4: Gulmarg - Meadow of Flowers, After breakfast, you will proceed for a full day excursion to Gulmarg,
               Meadow of Flowers, situated at an altitude of 2730 meters,
               full day at leisure to take leisurely walks on the lush green meadows of flowers with a backdrop of snow capped mountains.
               Lunch en-route. Enjoy pony ride or Gondola ride (rope way) to Khillan Marg at your own cost.
@@ -96,48 +100,83 @@ export default function JammuKashmirTourismPage() {
               Dinner & Overnight stay at Hotel/Resort at Pahalgam / Srinagar (or) Drop to Jammu Airport/Railway Station for your onward journey.
               Tour ends...`,
 
-              `Day 5: Pahalgam, After breakfast, you will proceed for Pahalgam,
+                  `Day 5: Pahalgam, After breakfast, you will proceed for Pahalgam,
               The Valley of Shepherds, located on the bank of beautiful Lidder River.
               Return to Hotel by evening.
               Evening free at your own.
               Dinner & Overnight stay at Hotel/Resort at Pahalgam / Srinagar (or) Drop to Jammu Airport/Railway Station for your onward journey.
               Tour ends...`,
 
-              `Day 6: Local Day, After breakfast, your day is on your own for marketing or visit any place of attraction of your choice.
+                  `Day 6: Local Day, After breakfast, your day is on your own for marketing or visit any place of attraction of your choice.
               Lunch en-route.
               Evening free at your own.
               Dinner & Overnight stay at Hotel/Resort at Srinagar.`,
 
-              `Day 7: Departure, After breakfast, check out of Hotel and get driven to Jammu Railway Station / Srinagar Airport
+                  `Day 7: Departure, After breakfast, check out of Hotel and get driven to Jammu Railway Station / Srinagar Airport
               for your return journey. Tour ends...`
-            ]}
-          />
+                ]}
+              />
 
-          <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 shadow-xl mt-5">
-            <div className="grid md:grid-cols-1 gap-8">
-              <div className="bg-green-100 rounded-xl p-6 mt-8">
-                <h4 className="font-bold text-green-800 mb-3">Package Highlights</h4>
-                <div className="space-y-2">
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-green-600" />
-                    <span className="text-gray-700">Houseboat Stay on Dal Lake</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-green-600" />
-                    <span className="text-gray-700">Shikara Ride on Dal Lake</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-green-600" />
-                    <span className="text-gray-700">Mughal Gardens & Nishat Bagh</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-green-600" />
-                    <span className="text-gray-700">Sonmarg - Thajiwas Glacier</span>
+              <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 shadow-xl mt-5">
+                <div className="grid md:grid-cols-1 gap-8">
+                  <div className="bg-green-100 rounded-xl p-6 mt-8">
+                    <h4 className="font-bold text-green-800 mb-3">Package Highlights</h4>
+                    <div className="space-y-2">
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-green-600" />
+                        <span className="text-gray-700">Houseboat Stay on Dal Lake</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-green-600" />
+                        <span className="text-gray-700">Shikara Ride on Dal Lake</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-green-600" />
+                        <span className="text-gray-700">Mughal Gardens & Nishat Bagh</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-green-600" />
+                        <span className="text-gray-700">Sonmarg - Thajiwas Glacier</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+              <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+              {/* Video Section */}
+              <div className="bg-white rounded-3xl shadow-lg p-6">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  Watch Jammu & Kashmir Video
+                </h3>
+
+                <div className="aspect-video rounded-xl overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    title="Atlantis Experience"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+
+              {/* Advertisement Section */}
+              <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
+                <h3 className="text-2xl font-bold mb-4">
+                  🚀 Paste Your Advertisement Here
+                </h3>
+                <p className="text-sm opacity-90">
+                  Promote your brand, offer or travel deals here.
+                  This space is perfect for partner promotions.
+                </p>
+                <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                  Contact For Promotion
+                </button>
+              </div>
+
+            </div>
+            </div>
         </div>
       </section>
 
@@ -270,14 +309,14 @@ export default function JammuKashmirTourismPage() {
       </section>
 
       {/* ================= PACKAGE PRICING ================= */}
-      <PackagePricing 
+      <PackagePricing
         title="Jammu & Kashmir Tour Packages"
         subtitle="Choose your perfect paradise on earth duration"
       />
 
-     
-          
-       <ContactCTA />
+
+
+      <ContactCTA />
 
     </main>
   )

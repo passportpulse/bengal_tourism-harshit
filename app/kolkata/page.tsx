@@ -55,27 +55,27 @@ export const majorAttractions = [
       "Showcasing the vintage tram heritage and transportation history of Kolkata.",
     location: "Esplanade"
   },
- {
-  name: "Marble Palace",
-  image: "/hotal/marble-palace.jpeg",
-  description:
-    "A stunning 19th-century mansion in North Kolkata known for its grand architecture, rare antiques, marble sculptures, and beautiful courtyard.",
-  location: "Muktaram Babu Street, North Kolkata"
-},
-{
-  name: "Park Street",
-  image: "/hotal/park-street.jpg",
-  description:
-    "Kolkata’s most vibrant street famous for its restaurants, nightlife, colonial-era buildings, and festive decorations during Christmas and New Year.",
-  location: "Park Street Area, Central Kolkata"
-}
+  {
+    name: "Marble Palace",
+    image: "/hotal/marble-palace.jpeg",
+    description:
+      "A stunning 19th-century mansion in North Kolkata known for its grand architecture, rare antiques, marble sculptures, and beautiful courtyard.",
+    location: "Muktaram Babu Street, North Kolkata"
+  },
+  {
+    name: "Park Street",
+    image: "/hotal/park-street.jpg",
+    description:
+      "Kolkata’s most vibrant street famous for its restaurants, nightlife, colonial-era buildings, and festive decorations during Christmas and New Year.",
+    location: "Park Street Area, Central Kolkata"
+  }
 ];
 export default function KolkataPage() {
-    const router = useRouter()
-  
-    const handleBookNow = () => {
-      router.push('/book-tour')
-    }
+  const router = useRouter()
+
+  const handleBookNow = () => {
+    router.push('/book-tour')
+  }
   return (
     <main className="text-gray-800">
 
@@ -96,7 +96,7 @@ export default function KolkataPage() {
               <Sparkles className="w-6 h-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold tracking-wide">The City of Joy</span>
             </div>
-            
+
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight mb-6 relative">
               Kolkata
               <span className="block text-3xl md:text-5xl mt-2 text-orange-300">
@@ -105,7 +105,7 @@ export default function KolkataPage() {
             </h1>
 
             <p className="text-gray-600 text-lg mb-10 max-w-md">
-              Experience the vibrant heart of Bengal - where colonial grandeur meets 
+              Experience the vibrant heart of Bengal - where colonial grandeur meets
               cultural richness in every corner of this historic metropolis
             </p>
 
@@ -167,107 +167,135 @@ export default function KolkataPage() {
         </div>
       </section>
 
-<div className="bg-gray-50 text-gray-800 py-16 px-6 md:px-12">
-      <div className="max-w-7xl mx-auto space-y-16">
+      <div className="bg-gray-50 text-gray-800 py-16 px-6 md:px-12">
+        <div className="max-w-7xl mx-auto space-y-16">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+            <div className="lg:col-span-2 space-y-8">        {/* INTRO SECTION */}
+              <section className=" space-y-6">
+                <h1 className="text-4xl md:text-5xl font-bold border-b-4 border-white inline-block pb-3">
+                  Visit & Explore Kolkata
+                </h1>
 
-        {/* INTRO SECTION */}
-        <section className=" space-y-6">
-          <h1 className="text-4xl md:text-5xl font-bold border-b-4 border-white inline-block pb-3">
-            Visit & Explore Kolkata
-          </h1>
+                <p className="leading-8">
+                  Formerly known as Calcutta, 1st Capital of India of the British Rule before it was shifted to New Delhi. Also known as City of Joy. Bastions & remains of the ancient British & French settlements, boasts of a mini China Town within itself, continuing the Bengali Babu culture and witnessing Bengal Renaissance. A truly Heritage City with many diversity where culture & arts gets its true recognition. Where again Food & Football shares the same frenzy as Jazz & Jatras. Where world Politics are equally debated with Global warming. Where you can savor a Mc. Donald’s & Coke together with a Kati roll & Chai in a clay cup. What Thames is to London – Hooghly is to Kolkata and more…
+                </p>
 
-          <p className="leading-8">
-            Formerly known as Calcutta, 1st Capital of India of the British Rule before it was shifted to New Delhi. Also known as City of Joy. Bastions & remains of the ancient British & French settlements, boasts of a mini China Town within itself, continuing the Bengali Babu culture and witnessing Bengal Renaissance. A truly Heritage City with many diversity where culture & arts gets its true recognition. Where again Food & Football shares the same frenzy as Jazz & Jatras. Where world Politics are equally debated with Global warming. Where you can savor a Mc. Donald’s & Coke together with a Kati roll & Chai in a clay cup. What Thames is to London – Hooghly is to Kolkata and more…
-          </p>
+                <p className="leading-8">
+                  Kolkata – known as Calcutta till 1991 - is the Capital City of Bengal State in India. is located in the world’s largest River Delta – the ‘Ganges Delta’, which stretches between River Hooghly on the West and River Meghna on the East and a host of other smaller rivers zigzag through the Ganges Delta which merge and flow into the Bay of Bengal Sea. And the world’s thirteenth most populous urban area with 14.2 million people residing in its urban core and suburbs.
+                </p>
 
-          <p className="leading-8">
-            Kolkata – known as Calcutta till 1991 - is the Capital City of Bengal State in India. is located in the world’s largest River Delta – the ‘Ganges Delta’, which stretches between River Hooghly on the West and River Meghna on the East and a host of other smaller rivers zigzag through the Ganges Delta which merge and flow into the Bay of Bengal Sea. And the world’s thirteenth most populous urban area with 14.2 million people residing in its urban core and suburbs.
-          </p>
+                <p className="leading-8">
+                  Before the establishment of the city of Calcutta – the Anglicized name of ‘Kolkata’, three villages existed in the same area – Kalikata, Govindapur and Sutanuti. Kolkata derives its name from the Kalikata village – which literally means ‘the land of Goddess Kali’. Post the British Imperial Period in 1947, India embarked upon the process of renaming its cities which had to be approved by the Central Government. And thus Calcutta was renamed Kolkata in 2001.
+                </p>
+              </section>
+              {/* CULTURE & HISTORY */}
+              <section className=" space-y-6">
+                <p className="leading-8">
+                  Kolkata, having been gripped by the British politics and culture for centuries and having also been a seat and hub of Indian culture and art and religion, is a mammoth sized entity of a city that influenced the rest of the country towards political, educational, religious, artistic and general lifestyle reforms which is evident in its history and visible in its vibrant culture and myriad traditions.
+                </p>
+              </section>
+              {/* ARCHITECTURE */}
+              <section className="  space-y-6">
+                <h2 className="text-3xl font-semibold border-b-2 border-white inline-block pb-2">
+                  City of Palaces & Bridges
+                </h2>
 
-          <p className="leading-8">
-            Before the establishment of the city of Calcutta – the Anglicized name of ‘Kolkata’, three villages existed in the same area – Kalikata, Govindapur and Sutanuti. Kolkata derives its name from the Kalikata village – which literally means ‘the land of Goddess Kali’. Post the British Imperial Period in 1947, India embarked upon the process of renaming its cities which had to be approved by the Central Government. And thus Calcutta was renamed Kolkata in 2001.
-          </p>
-        </section>
+                <p className="leading-8">
+                  Kolkata is a City of Palaces - owing to the numerous palatial mansions dotting the Kolkata cityscape – most constructed during the British colonial era in Bengal when Kolkata was made the Capital of British India. Their architecture is influenced by and emanates a mix of Neo-classical, neo-Gothic, Baroque, Islamic, Oriental and predominantly European (British, French and Portuguese) schools of design.
+                </p>
 
-        {/* CULTURE & HISTORY */}
-        <section className=" space-y-6">
-          <p className="leading-8">
-            Kolkata, having been gripped by the British politics and culture for centuries and having also been a seat and hub of Indian culture and art and religion, is a mammoth sized entity of a city that influenced the rest of the country towards political, educational, religious, artistic and general lifestyle reforms which is evident in its history and visible in its vibrant culture and myriad traditions.
-          </p>
-        </section>
+                <p className="leading-8">
+                  Apart from the colossal and opulent constructions, Kolkata is home to some structural and technological marvels such as the world’s busiest and the 6th longest suspension type balanced Cantilever Bridge – the Howrah Bridge India’s longest Cable-stayed bridge – the Vidyasagar Setu; a multispan steel bridge – Vivekananda Setu and the Nivedita Setu – another cable-stayed bridge – all on one single river – Hooghly which spines through the city of Kolkata. Nothing short of being glorified, the Howrah Bridge was made the symbol of Kolkata.
+                </p>
+              </section>
+              {/* NOTABLE PERSONALITIES */}
+              <section className=" space-y-6">
+                <p className="leading-8">
+                  Kolkata is also home to or has been a stepping stone for Nobel Prize winning Exponents such as Gurudev Rabindranath Tagore (Literature, 1913); Sir Ronald Ross (Medicine, 1902); C. V. Raman (Physics, 1930); Mother Teresa ( Peace, 1979); Amartya Sen (Economics, 1998); the ‘Oscar for Lifetime achievement’ awardee – Satyajit Ray and multi-time Grammy Winner – Pandit Ravi Shankar.
+                </p>
 
-        {/* ARCHITECTURE */}
-        <section className="  space-y-6">
-          <h2 className="text-3xl font-semibold border-b-2 border-white inline-block pb-2">
-            City of Palaces & Bridges
-          </h2>
+                <p className="leading-8">
+                  Apart from these, there are scrolls of world- renowned and generations of statesmen, freedom fighters, social reformers, poets, scientists, historians, writers, orators, philosophers, linguists, sportsmen, fine artists, theatre artistes, film artistes, musicians, dancers, photographers, magicians, film makers and businessmen.
+                </p>
+              </section>
+              {/* ADDa & FOOD */}
+              <section className="  space-y-6">
+                <p className="leading-8">
+                  Call it a passion or obsession or maybe they are just wired that way but the gregarious Bengalis are all about boisterous and deep conversations, soul-stirring music, writing at the drop of a hat and food – both experimenting and eating. Visit the Coffee House at College Street in Kolkata and you can see what I mean. You will be amazed by the ‘Adda’ culture (having long-drawn and hearty conversations over hot cuppa tea) that’s in your face when you enter the Coffee House.
+                </p>
 
-          <p className="leading-8">
-            Kolkata is a City of Palaces - owing to the numerous palatial mansions dotting the Kolkata cityscape – most constructed during the British colonial era in Bengal when Kolkata was made the Capital of British India. Their architecture is influenced by and emanates a mix of Neo-classical, neo-Gothic, Baroque, Islamic, Oriental and predominantly European (British, French and Portuguese) schools of design.
-          </p>
+                <p className="leading-8">
+                  Food is central to the Bengalis because of which the popular Bengali saying – ‘machhey bhate bangali’ (meaning fish and rice make a Bengali) has come into existence. One may not know a Bengali or not know where their sweets come from but the sweets made by the Bengalis are relished by domestic and foreign sweet-toothies all over.
+                </p>
+              </section>
+              {/* PLACES OF INTEREST */}
+              <section className="  space-y-6">
+                <h2 className="text-3xl font-semibold border-b-2 border-white inline-block pb-2">
+                  Places of Interest
+                </h2>
 
-          <p className="leading-8">
-            Apart from the colossal and opulent constructions, Kolkata is home to some structural and technological marvels such as the world’s busiest and the 6th longest suspension type balanced Cantilever Bridge – the Howrah Bridge India’s longest Cable-stayed bridge – the Vidyasagar Setu; a multispan steel bridge – Vivekananda Setu and the Nivedita Setu – another cable-stayed bridge – all on one single river – Hooghly which spines through the city of Kolkata. Nothing short of being glorified, the Howrah Bridge was made the symbol of Kolkata.
-          </p>
-        </section>
+                <p className="leading-8">
+                  Victoria Memorial • Dakhineshwar Kali • Kalighat Temple • Missionaries of Charity • Banks of the river (Hooghly) Ganges • River Cruise • Indian Museum • St. Paul’s Cathedrae • The Last Supper (original painting) • Zoological Gardens • Botanical Gardens • Town Hall • Kumartuli • Marble Palace • Water World • Heritage Buildings • Night Clubs • Sir. Stuart’s Hog’s (New) Market • Tram Ride • Horse Drawn Carriage • Durga Puja festival (held once every year) • invitation to a Bengali marriage ceremony & more…
+                </p>
+              </section>
+              {/* NEARBY */}
+              <section className=" space-y-6">
+                <h2 className="text-3xl font-semibold border-b-2 border-white inline-block pb-2">
+                  At a Short Distance
+                </h2>
 
-        {/* NOTABLE PERSONALITIES */}
-        <section className=" space-y-6">
-          <p className="leading-8">
-            Kolkata is also home to or has been a stepping stone for Nobel Prize winning Exponents such as Gurudev Rabindranath Tagore (Literature, 1913); Sir Ronald Ross (Medicine, 1902); C. V. Raman (Physics, 1930); Mother Teresa ( Peace, 1979); Amartya Sen (Economics, 1998); the ‘Oscar for Lifetime achievement’ awardee – Satyajit Ray and multi-time Grammy Winner – Pandit Ravi Shankar.
-          </p>
+                <p className="leading-8">
+                  Krishnanagar (Clay models) • Santiniketan ( all about Rabindranath Tagore & Kantha embroidery) • Bolpur (Baul Singers) • Mayapur (ISKCON - Hare Krishna Temple) • Navadwip • Bakreswar (9 Hot Springs) • Tarapeeth (Goddess Tara Ma) • Murshidabad ( Palaces of the erstwhile Nawabs of Bengal) • Chadernagore • Serampore (remains of French bastions) • Fulia (Handloom Weavers) & more…
+                </p>
+              </section>
 
-          <p className="leading-8">
-            Apart from these, there are scrolls of world- renowned and generations of statesmen, freedom fighters, social reformers, poets, scientists, historians, writers, orators, philosophers, linguists, sportsmen, fine artists, theatre artistes, film artistes, musicians, dancers, photographers, magicians, film makers and businessmen.
-          </p>
-        </section>
+              {/* CUISINE */}
+              <section className=" space-y-6">
+                <h2 className="text-3xl font-semibold border-b-2 border-white inline-block pb-2">
+                  Must Try Cuisine
+                </h2>
 
-        {/* ADDa & FOOD */}
-        <section className="  space-y-6">
-          <p className="leading-8">
-            Call it a passion or obsession or maybe they are just wired that way but the gregarious Bengalis are all about boisterous and deep conversations, soul-stirring music, writing at the drop of a hat and food – both experimenting and eating. Visit the Coffee House at College Street in Kolkata and you can see what I mean. You will be amazed by the ‘Adda’ culture (having long-drawn and hearty conversations over hot cuppa tea) that’s in your face when you enter the Coffee House.
-          </p>
+                <p className="leading-8">
+                  Highly recommended authentic Bengali in Fish – Crab – Prawn – Lamb curries & Vegetable preparations & Rice, Rosogolla, Mishti Doi & Sondesh. See Local Cuisine. Also all other Indian regional & International speciality cuisines like Chinese / Continental / Oriental / Lebanese / Thai / Japanese / European are there to pick from. You ask, we present!
+                </p>
+              </section>
+            </div>
+            <div className="space-y-8 lg:sticky lg:top-24 h-fit">
 
-          <p className="leading-8">
-            Food is central to the Bengalis because of which the popular Bengali saying – ‘machhey bhate bangali’ (meaning fish and rice make a Bengali) has come into existence. One may not know a Bengali or not know where their sweets come from but the sweets made by the Bengalis are relished by domestic and foreign sweet-toothies all over.
-          </p>
-        </section>
+              {/* Video Section */}
+              <div className="bg-white rounded-3xl shadow-lg p-6">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  Watch Kolkata Tour Video
+                </h3>
 
-        {/* PLACES OF INTEREST */}
-        <section className="  space-y-6">
-          <h2 className="text-3xl font-semibold border-b-2 border-white inline-block pb-2">
-            Places of Interest
-          </h2>
+                <div className="aspect-video rounded-xl overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    title="Digha Tour"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
 
-          <p className="leading-8">
-            Victoria Memorial • Dakhineshwar Kali • Kalighat Temple • Missionaries of Charity • Banks of the river (Hooghly) Ganges • River Cruise • Indian Museum • St. Paul’s Cathedrae • The Last Supper (original painting) • Zoological Gardens • Botanical Gardens • Town Hall • Kumartuli • Marble Palace • Water World • Heritage Buildings • Night Clubs • Sir. Stuart’s Hog’s (New) Market • Tram Ride • Horse Drawn Carriage • Durga Puja festival (held once every year) • invitation to a Bengali marriage ceremony & more…
-          </p>
-        </section>
+              {/* Advertisement Section */}
+              <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
+                <h3 className="text-2xl font-bold mb-4">
+                  🚀 Paste Your Advertisement Here
+                </h3>
+                <p className="text-sm opacity-90">
+                  Promote your brand, offer or travel deals here.
+                  This space is perfect for partner promotions.
+                </p>
+                <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                  Contact For Promotion
+                </button>
+              </div>
 
-        {/* NEARBY */}
-        <section className=" space-y-6">
-          <h2 className="text-3xl font-semibold border-b-2 border-white inline-block pb-2">
-            At a Short Distance
-          </h2>
-
-          <p className="leading-8">
-            Krishnanagar (Clay models) • Santiniketan ( all about Rabindranath Tagore & Kantha embroidery) • Bolpur (Baul Singers) • Mayapur (ISKCON - Hare Krishna Temple) • Navadwip • Bakreswar (9 Hot Springs) • Tarapeeth (Goddess Tara Ma) • Murshidabad ( Palaces of the erstwhile Nawabs of Bengal) • Chadernagore • Serampore (remains of French bastions) • Fulia (Handloom Weavers) & more…
-          </p>
-        </section>
-
-        {/* CUISINE */}
-        <section className=" space-y-6">
-          <h2 className="text-3xl font-semibold border-b-2 border-white inline-block pb-2">
-            Must Try Cuisine
-          </h2>
-
-          <p className="leading-8">
-            Highly recommended authentic Bengali in Fish – Crab – Prawn – Lamb curries & Vegetable preparations & Rice, Rosogolla, Mishti Doi & Sondesh. See Local Cuisine. Also all other Indian regional & International speciality cuisines like Chinese / Continental / Oriental / Lebanese / Thai / Japanese / European are there to pick from. You ask, we present!
-          </p>
-        </section>
-
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
       {/* ================= MAJOR ATTRACTIONS ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
@@ -278,32 +306,32 @@ export default function KolkataPage() {
             </p>
           </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-  {majorAttractions.map((place, index) => (
-    <div
-      key={index}
-      className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group"
-    >
-      <div className="relative h-56 overflow-hidden">
-        <img
-          src={place.image}
-          alt={place.name}
-          className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
-      </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {majorAttractions.map((place, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group"
+              >
+                <div className="relative h-56 overflow-hidden">
+                  <img
+                    src={place.image}
+                    alt={place.name}
+                    className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                </div>
 
-      <div className="p-6">
-        <h3 className="text-2xl font-bold mb-3">{place.name}</h3>
-        <p className="text-gray-700 mb-4">{place.description}</p>
-        <div className="flex items-center gap-2 text-orange-600">
-          <MapPin className="w-4 h-4" />
-          <span className="text-sm">{place.location}</span>
-        </div>
-      </div>
-    </div>
-  ))}
-</div>
+                <div className="p-6">
+                  <h3 className="text-2xl font-bold mb-3">{place.name}</h3>
+                  <p className="text-gray-700 mb-4">{place.description}</p>
+                  <div className="flex items-center gap-2 text-orange-600">
+                    <MapPin className="w-4 h-4" />
+                    <span className="text-sm">{place.location}</span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -451,9 +479,9 @@ export default function KolkataPage() {
               </div>
             </div>
 
-        
 
-        
+
+
 
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
               <div className="h-48 bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
@@ -503,7 +531,7 @@ export default function KolkataPage() {
                 <h3 className="text-2xl font-bold">New Market</h3>
               </div>
               <p className="text-gray-700 mb-4">
-                One of Kolkata's oldest and busiest markets offering everything from textiles to electronics. 
+                One of Kolkata's oldest and busiest markets offering everything from textiles to electronics.
                 Experience the vibrant chaos and bargaining culture of traditional Bengali markets.
               </p>
               <div className="bg-white p-4 rounded-lg">
@@ -523,7 +551,7 @@ export default function KolkataPage() {
                 <h3 className="text-2xl font-bold">Mullick Bazaar</h3>
               </div>
               <p className="text-gray-700 mb-4">
-                Also known as Chor Bazaar, this historic market offers authentic Bengali items, 
+                Also known as Chor Bazaar, this historic market offers authentic Bengali items,
                 spices, and traditional crafts. A paradise for those seeking genuine and second Hand automobile parts.
               </p>
               <div className="bg-white p-4 rounded-lg">
@@ -538,208 +566,208 @@ export default function KolkataPage() {
           </div>
         </div>
       </section>
-   <section className={`py-24 bg-gray-50`}>
-      <div className="max-w-7xl mx-auto px-6">
+      <section className={`py-24 bg-gray-50`}>
+        <div className="max-w-7xl mx-auto px-6">
 
-        {/* Header */}
-        <div className="text-center mb-20">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-          Kolkata Tour Packages
-          </h2>
-          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-        Choose your perfect cultural and colonial heritage adventure
-          </p>
+          {/* Header */}
+          <div className="text-center mb-20">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Kolkata Tour Packages
+            </h2>
+            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+              Choose your perfect cultural and colonial heritage adventure
+            </p>
+          </div>
+
+          {/* Cards Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+
+            {/* 5N/6D */}
+            <div className="bg-white border border-indigo-100 rounded-3xl p-8 shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300 flex flex-col justify-between">
+
+              <div>
+                <span className="text-gray-500 text-xs py-1 rounded-full">
+                  Most Popular
+                </span>
+
+                <h3 className="text-2xl font-bold mt-6 text-gray-900">5N / 6D</h3>
+                <p className="text-2xl font-semibold text-indigo-600 mt-3">
+                  ₹ 15,400
+                </p>
+
+                <ul className="mt-6 space-y-3 text-gray-600 text-sm">
+                  <li className="flex items-center gap-2">
+                    <Check className="w-4 h-4 text-indigo-600" /> Accommodation
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="w-4 h-4 text-indigo-600" /> Breakfast & Dinner
+                  </li>
+                  <li className="flex items-center gap-2">  <Check className="w-4 h-4 text-indigo-600" /> PickU & Drop
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="w-4 h-4 text-indigo-600" /> Sightseeing as per Itinerary
+                  </li>
+
+                </ul>
+              </div>
+
+              <button
+                onClick={handleBookNow}
+                className="mt-8 bg-blue-500 text-white py-3 rounded-xl font-semibold hover:bg-blue-600 transition"
+              >
+                Book Now
+              </button>
+            </div>
+
+            {/* 4N/5D */}
+            <div className="bg-white border border-indigo-100 rounded-3xl p-8 shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300 flex flex-col justify-between">
+
+              <div>
+                <span className="text-gray-500 text-xs py-1 rounded-full">
+                  Recommended
+                </span>
+
+                <h3 className="text-2xl font-bold mt-6 text-gray-900">4N / 5D</h3>
+                <p className="text-2xl font-bold text-indigo-600 mt-3">
+                  ₹ 12,700
+                </p>
+
+                <ul className="mt-6 space-y-3 text-gray-600 text-sm">
+                  <li className="flex items-center gap-2">
+                    <Check className="w-4 h-4 text-indigo-600" /> Accommodation
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="w-4 h-4 text-indigo-600" /> Breakfast & Dinner
+                  </li>
+                  <li className="flex items-center gap-2">  <Check className="w-4 h-4 text-indigo-600" /> Pick & Drop
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="w-4 h-4 text-indigo-600" /> Sightseeing as per Itinerary
+                  </li>
+
+                </ul>
+              </div>
+
+              <button
+                onClick={handleBookNow}
+                className="mt-8 bg-blue-500 text-white py-3 rounded-xl font-semibold hover:bg-blue-600 transition"
+              >
+                Book Now
+              </button>
+            </div>
+
+            {/* 3N/4D */}
+            <div className="bg-white border border-indigo-100 rounded-3xl p-8 shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300 flex flex-col justify-between">
+
+              <div>
+                <span className="text-gray-500 text-xs py-1 rounded-full">
+                  Recommended for short breaks
+                </span>
+
+                <h3 className="text-2xl font-bold mt-6 text-gray-900">3N / 4D</h3>
+                <p className="text-2xl font-semibold text-indigo-600 mt-3">
+                  ₹ 9,100
+                </p>
+                <ul className="mt-6 space-y-3 text-gray-600 text-sm">
+                  <li className="flex items-center gap-2">
+                    <Check className="w-4 h-4 text-indigo-600" /> Accommodation
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="w-4 h-4 text-indigo-600" /> Breakfast & Dinner
+                  </li>
+                  <li className="flex items-center gap-2">  <Check className="w-4 h-4 text-indigo-600" /> Pick & Drop
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="w-4 h-4 text-indigo-600" /> Sightseeing as per Itinerary
+                  </li>
+
+                </ul>
+              </div>
+
+              <button
+                onClick={handleBookNow}
+                className="mt-8 bg-blue-500 text-white py-3 rounded-xl font-semibold hover:bg-blue-600 transition"
+              >
+                Book Now
+              </button>
+            </div>
+
+            {/* 2N/3D */}
+            <div className="bg-white border border-indigo-100 rounded-3xl p-8 shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300 flex flex-col justify-between">
+
+              <div>
+                <span className="text-gray-500 text-xs py-1 rounded-full">
+                  Recommended only for group of 20+ persons
+                </span>
+
+                <h3 className="text-2xl font-bold mt-6 text-gray-900">2N / 3D</h3>
+                <p className="text-2xl font-semibold text-indigo-600 mt-3">
+                  ₹ 6,400
+                </p>
+                <ul className="mt-6 space-y-3 text-gray-600 text-sm">
+                  <li className="flex items-center gap-2">
+                    <Check className="w-4 h-4 text-indigo-600" /> Accommodation
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="w-4 h-4 text-indigo-600" /> Breakfast & Dinner
+                  </li>
+                  <li className="flex items-center gap-2">  <Check className="w-4 h-4 text-indigo-600" /> Pick & Drop
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="w-4 h-4 text-indigo-600" /> Sightseeing as per Itinerary
+                  </li>
+
+                </ul>
+              </div>
+
+              <button
+                onClick={handleBookNow}
+                className="mt-8 bg-blue-500 text-white py-3 rounded-xl font-semibold hover:bg-blue-600 transition"
+              >
+                Book Now
+              </button>
+            </div>
+
+
+            <div className="bg-white border border-indigo-100 rounded-3xl p-8 shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300 flex flex-col justify-between">
+
+              <div>
+                <span className=" text-black text-sm py-1 rounded-full">
+                  Day Tour
+                </span>
+
+                <h3 className="text-2xl font-bold text-gray-700 mt-6">1 Full day</h3>
+                <p className="text-2xl font-semibold text-indigo-600 mt-3">
+                  ₹ 3,700
+                </p>
+                <ul className="mt-6 space-y-3 text-gray-600 text-sm">
+
+                  <li className="flex items-center gap-2">
+                    <Check className="w-4 h-4 text-indigo-600" /> Launch Your cost
+                  </li>
+                  <li className="flex items-center gap-2">  <Check className="w-4 h-4 text-indigo-600" /> Pick & Drop
+                  </li>
+
+                  <li className="flex items-center gap-2">
+                    <Check className="w-4 h-4 text-indigo-600" /> Sightseeing as per Itinerary
+                  </li>
+
+                </ul>
+              </div>
+
+              <button
+                onClick={handleBookNow}
+                className="mt-8 bg-blue-500 text-white py-3 rounded-xl font-semibold hover:bg-blue-600 transition"
+              >
+                Book Now
+              </button>
+            </div>
+
+          </div>
         </div>
+      </section>
 
-        {/* Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
-
-          {/* 5N/6D */}
-          <div className="bg-white border border-indigo-100 rounded-3xl p-8 shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300 flex flex-col justify-between">
-
-            <div>
-              <span className="text-gray-500 text-xs py-1 rounded-full">
-                Most Popular
-              </span>
-
-      <h3 className="text-2xl font-bold mt-6 text-gray-900">5N / 6D</h3>
-               <p className="text-2xl font-semibold text-indigo-600 mt-3">
-                ₹ 15,400
-              </p>
-
-                   <ul className="mt-6 space-y-3 text-gray-600 text-sm">
-                <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-indigo-600" /> Accommodation
-                </li>
-                <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-indigo-600" /> Breakfast & Dinner
-                </li>
-                 <li className="flex items-center gap-2">  <Check className="w-4 h-4 text-indigo-600" /> PickU & Drop
-                </li>
-                <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-indigo-600" /> Sightseeing as per Itinerary
-                </li>
-               
-              </ul>
-            </div>
-
-             <button
-              onClick={handleBookNow}
-              className="mt-8 bg-blue-500 text-white py-3 rounded-xl font-semibold hover:bg-blue-600 transition"
-            >
-              Book Now
-            </button>
-          </div>
-
-          {/* 4N/5D */}
-          <div className="bg-white border border-indigo-100 rounded-3xl p-8 shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300 flex flex-col justify-between">
-
-            <div>
-              <span className="text-gray-500 text-xs py-1 rounded-full">
-                Recommended
-              </span>
-
-              <h3 className="text-2xl font-bold mt-6 text-gray-900">4N / 5D</h3>
-              <p className="text-2xl font-bold text-indigo-600 mt-3">
-                ₹ 12,700
-              </p>
-
-                  <ul className="mt-6 space-y-3 text-gray-600 text-sm">
-                <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-indigo-600" /> Accommodation
-                </li>
-                <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-indigo-600" /> Breakfast & Dinner
-                </li>
-                 <li className="flex items-center gap-2">  <Check className="w-4 h-4 text-indigo-600" /> Pick & Drop
-                </li>
-                <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-indigo-600" /> Sightseeing as per Itinerary
-                </li>
-               
-              </ul>
-            </div>
-
-            <button
-              onClick={handleBookNow}
-              className="mt-8 bg-blue-500 text-white py-3 rounded-xl font-semibold hover:bg-blue-600 transition"
-            >
-              Book Now
-            </button>
-          </div>
-
-          {/* 3N/4D */}
-          <div className="bg-white border border-indigo-100 rounded-3xl p-8 shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300 flex flex-col justify-between">
-
-            <div>
-              <span className="text-gray-500 text-xs py-1 rounded-full">
-                Recommended for short breaks
-              </span>
-
-              <h3 className="text-2xl font-bold mt-6 text-gray-900">3N / 4D</h3>
-              <p className="text-2xl font-semibold text-indigo-600 mt-3">
-                ₹ 9,100
-              </p>
-                   <ul className="mt-6 space-y-3 text-gray-600 text-sm">
-                <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-indigo-600" /> Accommodation
-                </li>
-                <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-indigo-600" /> Breakfast & Dinner
-                </li>
-                 <li className="flex items-center gap-2">  <Check className="w-4 h-4 text-indigo-600" /> Pick & Drop
-                </li>
-                <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-indigo-600" /> Sightseeing as per Itinerary
-                </li>
-               
-              </ul>
-            </div>
-
-             <button
-              onClick={handleBookNow}
-              className="mt-8 bg-blue-500 text-white py-3 rounded-xl font-semibold hover:bg-blue-600 transition"
-            >
-              Book Now
-            </button>
-          </div>
-
-          {/* 2N/3D */}
-          <div className="bg-white border border-indigo-100 rounded-3xl p-8 shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300 flex flex-col justify-between">
-
-            <div>
-              <span className="text-gray-500 text-xs py-1 rounded-full">
-                Recommended only for group of 20+ persons
-              </span>
-
-              <h3 className="text-2xl font-bold mt-6 text-gray-900">2N / 3D</h3>
-              <p className="text-2xl font-semibold text-indigo-600 mt-3">
-                ₹ 6,400
-              </p>
-                    <ul className="mt-6 space-y-3 text-gray-600 text-sm">
-                <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-indigo-600" /> Accommodation
-                </li>
-                <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-indigo-600" /> Breakfast & Dinner
-                </li>
-                 <li className="flex items-center gap-2">  <Check className="w-4 h-4 text-indigo-600" /> Pick & Drop
-                </li>
-                <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-indigo-600" /> Sightseeing as per Itinerary
-                </li>
-               
-              </ul>
-            </div>
-
-            <button
-              onClick={handleBookNow}
-              className="mt-8 bg-blue-500 text-white py-3 rounded-xl font-semibold hover:bg-blue-600 transition"
-            >
-              Book Now
-            </button>
-          </div>
-
-     
-          <div className="bg-white border border-indigo-100 rounded-3xl p-8 shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300 flex flex-col justify-between">
-
-            <div>
-              <span className=" text-black text-sm py-1 rounded-full">
-                Day Tour
-              </span>
-
-              <h3 className="text-2xl font-bold text-gray-700 mt-6">1 Full day</h3>
-              <p className="text-2xl font-semibold text-indigo-600 mt-3">
-                ₹ 3,700
-              </p>
-                  <ul className="mt-6 space-y-3 text-gray-600 text-sm">
-               
-                <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-indigo-600" /> Launch Your cost
-                </li>
-                 <li className="flex items-center gap-2">  <Check className="w-4 h-4 text-indigo-600" /> Pick & Drop
-                </li>
-                
-                <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-indigo-600" /> Sightseeing as per Itinerary
-                </li>
-               
-              </ul>
-            </div>
-
-         <button
-              onClick={handleBookNow}
-              className="mt-8 bg-blue-500 text-white py-3 rounded-xl font-semibold hover:bg-blue-600 transition"
-            >
-            Book Now
-            </button>
-          </div>
-
-        </div>
-      </div>
-    </section>
-       
-    <ContactCTA />
+      <ContactCTA />
     </main>
   )
 }

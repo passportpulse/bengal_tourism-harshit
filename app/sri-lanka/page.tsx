@@ -77,48 +77,67 @@ export default function SriLankaPage() {
             </p>
           </div>
 
-          {/* MAIN CIRCUIT TITLE */}
-          <SectionTitle
-            title="SRI LANKA"
-            subtitle="Pearl of the Indian Ocean With COLOMBO – KANDY – BENTOTA-"
-          />
-
-          {/* MAIN DAY WISE */}
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
-
-            {/* LEFT SIDE – ITINERARY */}
             <div className="lg:col-span-2 space-y-8">
+              {/* MAIN CIRCUIT TITLE */}
+              <SectionTitle
+                title="SRI LANKA"
+                subtitle="Pearl of the Indian Ocean With COLOMBO – KANDY – BENTOTA-"
+              />
+              {/* LEFT SIDE – ITINERARY */}
+              <div className="lg:col-span-2 space-y-8">
 
-              <DayCard title="Day – 1 | Arrival in Colombo – Capital City Experience">
-                Arrival at Bandaranaike International Airport, where our local representative will warmly welcome you and assist with transfer to your hotel in Colombo. Enjoy a comfortable drive through Sri Lanka's bustling commercial capital. Upon arrival, check-in at hotel and relax after your journey. In the evening, proceed for a guided Colombo city tour. Visit Independence Square, a symbol of Sri Lanka's freedom, and explore the colonial charm of Galle Face Green where locals gather to enjoy sunset views over the Indian Ocean. Drive past historic landmarks, colonial buildings, modern shopping complexes, and vibrant markets. Dinner at Indian/local restaurant. Overnight stay at Colombo.
-              </DayCard>
+                <DayCard title="Day – 1 | Arrival in Colombo – Capital City Experience">
+                  Arrival at Bandaranaike International Airport, where our local representative will warmly welcome you and assist with transfer to your hotel in Colombo. Enjoy a comfortable drive through Sri Lanka's bustling commercial capital. Upon arrival, check-in at hotel and relax after your journey. In the evening, proceed for a guided Colombo city tour. Visit Independence Square, a symbol of Sri Lanka's freedom, and explore the colonial charm of Galle Face Green where locals gather to enjoy sunset views over the Indian Ocean. Drive past historic landmarks, colonial buildings, modern shopping complexes, and vibrant markets. Dinner at Indian/local restaurant. Overnight stay at Colombo.
+                </DayCard>
 
-              <DayCard title="Day – 2 | Colombo to Kandy – Cultural Heritage">
-                After breakfast, proceed to Kandy, the cultural capital of Sri Lanka. En route, visit the famous Pinnawala Elephant Orphanage, where you can observe rescued elephants being fed and bathing in the river — a heartwarming experience. Continue your scenic drive through lush greenery and rolling hills to Kandy. Upon arrival, check-in at hotel. Visit the sacred Temple of the Sacred Tooth Relic (Sri Dalada Maligawa), one of Buddhism's most revered pilgrimage sites housing a relic of Lord Buddha's tooth. Lunch at local restaurant en-route. In the evening, enjoy a vibrant cultural show featuring traditional Kandyan dances, fire performances, and drumming. Dinner & Overnight stay at Kandy.
-              </DayCard>
+                <DayCard title="Day – 2 | Colombo to Kandy – Cultural Heritage">
+                  After breakfast, proceed to Kandy, the cultural capital of Sri Lanka. En route, visit the famous Pinnawala Elephant Orphanage, where you can observe rescued elephants being fed and bathing in the river — a heartwarming experience. Continue your scenic drive through lush greenery and rolling hills to Kandy. Upon arrival, check-in at hotel. Visit the sacred Temple of the Sacred Tooth Relic (Sri Dalada Maligawa), one of Buddhism's most revered pilgrimage sites housing a relic of Lord Buddha's tooth. Lunch at local restaurant en-route. In the evening, enjoy a vibrant cultural show featuring traditional Kandyan dances, fire performances, and drumming. Dinner & Overnight stay at Kandy.
+                </DayCard>
 
-              <DayCard title="Day – 3 | Kandy to Sigiriya – Rock Fortress & Cave Temples">
-                After breakfast, drive towards Sigiriya, passing through scenic countryside landscapes. Visit the iconic Sigiriya Rock Fortress, a UNESCO World Heritage Site and one of Sri Lanka's most famous landmarks. Climb the massive rock citadel built by King Kashyapa in the 5th century and admire ancient frescoes, mirror wall inscriptions, and breathtaking panoramic views from the summit. Lunch at local restaurant. Later, visit the magnificent Dambulla Cave Temple, another UNESCO site featuring ancient Buddhist murals and statues inside rock caves. Dinner & Overnight stay at Sigiriya or Habarana.
-              </DayCard>
+                <DayCard title="Day – 3 | Kandy to Sigiriya – Rock Fortress & Cave Temples">
+                  After breakfast, drive towards Sigiriya, passing through scenic countryside landscapes. Visit the iconic Sigiriya Rock Fortress, a UNESCO World Heritage Site and one of Sri Lanka's most famous landmarks. Climb the massive rock citadel built by King Kashyapa in the 5th century and admire ancient frescoes, mirror wall inscriptions, and breathtaking panoramic views from the summit. Lunch at local restaurant. Later, visit the magnificent Dambulla Cave Temple, another UNESCO site featuring ancient Buddhist murals and statues inside rock caves. Dinner & Overnight stay at Sigiriya or Habarana.
+                </DayCard>
 
-              <DayCard title="Day – 4 | Polonnaruwa & Minneriya Safari">
-                After breakfast, proceed to Polonnaruwa Ancient City, the medieval capital of Sri Lanka and a UNESCO World Heritage Site. Explore the well-preserved ruins including the Royal Palace, Audience Hall, and the impressive Gal Vihara rock sculptures depicting Buddha statues carved from granite. Lunch at local restaurant. In the evening, enjoy an exciting jeep safari at Minneriya National Park (seasonal), famous for "The Gathering" where large herds of wild elephants can be seen near the reservoir. Experience Sri Lanka's rich wildlife and natural beauty. Dinner & Overnight stay at Sigiriya.
-              </DayCard>
+                <DayCard title="Day – 4 | Polonnaruwa & Minneriya Safari">
+                  After breakfast, proceed to Polonnaruwa Ancient City, the medieval capital of Sri Lanka and a UNESCO World Heritage Site. Explore the well-preserved ruins including the Royal Palace, Audience Hall, and the impressive Gal Vihara rock sculptures depicting Buddha statues carved from granite. Lunch at local restaurant. In the evening, enjoy an exciting jeep safari at Minneriya National Park (seasonal), famous for "The Gathering" where large herds of wild elephants can be seen near the reservoir. Experience Sri Lanka's rich wildlife and natural beauty. Dinner & Overnight stay at Sigiriya.
+                </DayCard>
 
-              <DayCard title="Day – 5 | Sigiriya to Nuwara Eliya – Tea Country">
-                After breakfast, proceed towards Nuwara Eliya via the scenic Ramboda Pass. Enjoy breathtaking views of waterfalls, mountains, and mist-covered tea plantations along the way. Visit a traditional tea plantation and tea factory to witness the process of Ceylon tea production and enjoy a fresh cup of world-famous Sri Lankan tea. Lunch en-route. Upon arrival in Nuwara Eliya, check-in at hotel. Evening city tour of "Little England," known for its colonial-era buildings, cool climate, and British-style gardens. Dinner & Overnight stay at Nuwara Eliya.
-              </DayCard>
+                <DayCard title="Day – 5 | Sigiriya to Nuwara Eliya – Tea Country">
+                  After breakfast, proceed towards Nuwara Eliya via the scenic Ramboda Pass. Enjoy breathtaking views of waterfalls, mountains, and mist-covered tea plantations along the way. Visit a traditional tea plantation and tea factory to witness the process of Ceylon tea production and enjoy a fresh cup of world-famous Sri Lankan tea. Lunch en-route. Upon arrival in Nuwara Eliya, check-in at hotel. Evening city tour of "Little England," known for its colonial-era buildings, cool climate, and British-style gardens. Dinner & Overnight stay at Nuwara Eliya.
+                </DayCard>
 
-              <DayCard title="Day – 6 | Nuwara Eliya to Bentota – Beach Relaxation">
-                After breakfast, proceed to Bentota, Sri Lanka's popular beach destination. En route, visit the beautiful Devon Falls and St. Clair's Falls cascading down lush hillsides. Continue the scenic journey towards the southern coast. Upon arrival, check-in at your beach resort. Lunch at hotel. Evening free to relax by the golden sandy beach, enjoy sea breeze, or optional water sports activities. Witness a stunning sunset over the Indian Ocean. Dinner & Overnight stay at Bentota.
-              </DayCard>
+                <DayCard title="Day – 6 | Nuwara Eliya to Bentota – Beach Relaxation">
+                  After breakfast, proceed to Bentota, Sri Lanka's popular beach destination. En route, visit the beautiful Devon Falls and St. Clair's Falls cascading down lush hillsides. Continue the scenic journey towards the southern coast. Upon arrival, check-in at your beach resort. Lunch at hotel. Evening free to relax by the golden sandy beach, enjoy sea breeze, or optional water sports activities. Witness a stunning sunset over the Indian Ocean. Dinner & Overnight stay at Bentota.
+                </DayCard>
 
-              <DayCard title="Day – 7 | Departure">
-                After breakfast, check-out from hotel and transfer to Bandaranaike International Airport for your onward journey. Depart with unforgettable memories of Sri Lanka's ancient heritage, sacred temples, wildlife safaris, misty tea plantations, and pristine beaches. Tour Ends.
-              </DayCard>
+                <DayCard title="Day – 7 | Departure">
+                  After breakfast, check-out from hotel and transfer to Bandaranaike International Airport for your onward journey. Depart with unforgettable memories of Sri Lanka's ancient heritage, sacred temples, wildlife safaris, misty tea plantations, and pristine beaches. Tour Ends.
+                </DayCard>
 
+              </div>
+              {/* ADD-ON SECTIONS */}
+              <AddOnSection
+                title="GALLE"
+                subtitle="Add-on (or) Separately From BENTOTA"
+              />
+              {/* LEFT SIDE – ITINERARY */}
+              <div className="lg:col-span-2 space-y-8">
+
+                <DayCard title="Day – 1  |  Bentota to Galle – Colonial Coastline">
+                  After breakfast at your beach resort in Bentota, proceed towards the historic coastal city of Galle along the scenic southern shoreline. Enjoy picturesque ocean views during the drive. Upon arrival, visit the magnificent Galle Fort, a UNESCO World Heritage Site originally built by the Portuguese and later fortified by the Dutch in the 17th century. Walk through its charming cobblestone streets lined with colonial-era buildings, boutique cafes, art galleries, and souvenir shops. Explore landmarks such as the Dutch Reformed Church, the iconic lighthouse, and the Maritime Museum showcasing Sri Lanka's naval history. Lunch at a local seaside restaurant. In the evening, relax at the pristine Unawatuna Beach, known for its golden sands and calm turquoise waters — perfect for swimming or sunset photography. Dinner at Indian/local restaurant. Overnight stay at Galle.
+                </DayCard>
+
+                <DayCard title="Day – 2  |  Galle Culture & Coastal Traditions">
+                  After breakfast, begin your cultural exploration with a visit to the Martin Wickramasinghe Folk Museum in Koggala, dedicated to Sri Lanka's renowned literary figure and showcasing traditional village life artifacts. Continue to Koggala Lake area to witness the famous Sri Lankan stilt fishermen — a unique traditional fishing method where fishermen balance on wooden poles planted in shallow waters. Capture memorable photographs of this iconic coastal practice. Lunch at local restaurant featuring fresh seafood specialties. Later, visit a Sea Turtle Hatchery, where you will learn about conservation efforts to protect endangered sea turtle species and observe baby turtles being cared for before release into the ocean. Evening free to stroll along Galle Fort ramparts and enjoy sunset views over the Indian Ocean. Dinner & Overnight stay at Galle.
+                </DayCard>
+
+                <DayCard title="Day – 3  |  Galle to Colombo – Coastal Heritage & Shopping">
+                  After breakfast, check-out and proceed towards Colombo via the southern coastal highway. En route, visit the famous Mask Museum in Ambalangoda, where you can explore Sri Lanka's traditional handcrafted wooden masks used in folk dances and rituals. Learn about their cultural significance and craftsmanship. Lunch at a local restaurant. Upon arrival in Colombo, check-in at hotel. Evening free for last-minute shopping at Colombo's popular malls such as Odel, Crescat Boulevard or local handicraft stores. Dinner at Indian/local restaurant. Overnight stay at Colombo.
+                </DayCard>
+
+              </div>
             </div>
-
             {/* RIGHT SIDE – VIDEO + AD */}
             <div className="space-y-8 lg:sticky lg:top-24 h-fit">
 
@@ -132,67 +151,6 @@ export default function SriLankaPage() {
                   <iframe
                     className="w-full h-full"
                     src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-                    title="Sri Lanka Tour"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-              </div>
-
-              {/* Advertisement Section */}
-              <div className="bg-gradient-to-br from-cyan-500 to-teal-600 text-white rounded-3xl shadow-lg p-8 text-center">
-                <h3 className="text-2xl font-bold mb-4">
-                  Teardrop Island Special
-                </h3>
-                <p className="text-sm opacity-90">
-                  Get exclusive discounts on tropical island packages.
-                  Limited seats available for peak season!
-                </p>
-                <button className="mt-6 bg-white text-cyan-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
-                  Book Now
-                </button>
-              </div>
-
-            </div>
-
-          </div>
-
-          {/* ADD-ON SECTIONS */}
-          <AddOnSection
-            title="GALLE"
-            subtitle="Add-on (or) Separately From BENTOTA"
-          />
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
-
-            {/* LEFT SIDE – ITINERARY */}
-            <div className="lg:col-span-2 space-y-8">
-
-              <DayCard title="Day – 1  |  Bentota to Galle – Colonial Coastline">
-                After breakfast at your beach resort in Bentota, proceed towards the historic coastal city of Galle along the scenic southern shoreline. Enjoy picturesque ocean views during the drive. Upon arrival, visit the magnificent Galle Fort, a UNESCO World Heritage Site originally built by the Portuguese and later fortified by the Dutch in the 17th century. Walk through its charming cobblestone streets lined with colonial-era buildings, boutique cafes, art galleries, and souvenir shops. Explore landmarks such as the Dutch Reformed Church, the iconic lighthouse, and the Maritime Museum showcasing Sri Lanka's naval history. Lunch at a local seaside restaurant. In the evening, relax at the pristine Unawatuna Beach, known for its golden sands and calm turquoise waters — perfect for swimming or sunset photography. Dinner at Indian/local restaurant. Overnight stay at Galle.
-              </DayCard>
-
-              <DayCard title="Day – 2  |  Galle Culture & Coastal Traditions">
-                After breakfast, begin your cultural exploration with a visit to the Martin Wickramasinghe Folk Museum in Koggala, dedicated to Sri Lanka's renowned literary figure and showcasing traditional village life artifacts. Continue to Koggala Lake area to witness the famous Sri Lankan stilt fishermen — a unique traditional fishing method where fishermen balance on wooden poles planted in shallow waters. Capture memorable photographs of this iconic coastal practice. Lunch at local restaurant featuring fresh seafood specialties. Later, visit a Sea Turtle Hatchery, where you will learn about conservation efforts to protect endangered sea turtle species and observe baby turtles being cared for before release into the ocean. Evening free to stroll along Galle Fort ramparts and enjoy sunset views over the Indian Ocean. Dinner & Overnight stay at Galle.
-              </DayCard>
-
-              <DayCard title="Day – 3  |  Galle to Colombo – Coastal Heritage & Shopping">
-                After breakfast, check-out and proceed towards Colombo via the southern coastal highway. En route, visit the famous Mask Museum in Ambalangoda, where you can explore Sri Lanka's traditional handcrafted wooden masks used in folk dances and rituals. Learn about their cultural significance and craftsmanship. Lunch at a local restaurant. Upon arrival in Colombo, check-in at hotel. Evening free for last-minute shopping at Colombo's popular malls such as Odel, Crescat Boulevard or local handicraft stores. Dinner at Indian/local restaurant. Overnight stay at Colombo.
-              </DayCard>
-
-            </div>
-
-            {/* RIGHT SIDE – VIDEO + AD */}
-            <div className="space-y-8 lg:sticky lg:top-24 h-fit">
-
-              {/* Video Section */}
-              <div className="bg-white rounded-3xl shadow-lg p-6">
-                <h3 className="text-xl font-bold mb-4 text-gray-800">
-                  Watch Galle Tour Video
-                </h3>
-
-                <div className="aspect-video rounded-xl overflow-hidden">
-                  <iframe
-                    className="w-full h-full"
-                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
                     title="Galle Tour"
                     allowFullScreen
                   ></iframe>
@@ -200,16 +158,16 @@ export default function SriLankaPage() {
               </div>
 
               {/* Advertisement Section */}
-              <div className="bg-gradient-to-br from-blue-500 to-purple-600 text-white rounded-3xl shadow-lg p-8 text-center">
+             <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
                 <h3 className="text-2xl font-bold mb-4">
-                  Colonial Heritage Tour
+                  🚀 Paste Your Advertisement Here
                 </h3>
                 <p className="text-sm opacity-90">
-                  Explore historic Dutch fort and coastal traditions.
-                  Special cultural tours available!
+                  Promote your brand, offer or travel deals here.
+                  This space is perfect for partner promotions.
                 </p>
-                <button className="mt-6 bg-white text-blue-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
-                  Learn More
+                <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                  Contact For Promotion
                 </button>
               </div>
 
@@ -219,11 +177,11 @@ export default function SriLankaPage() {
 
         </div>
       </div>
-        <TourPricingSection
-     title="Sri Lanka Island Paradise Packages"
-subtitle="Experience the Teardrop Island with curated journeys"
-    
-       packages={[
+      <TourPricingSection
+        title="Sri Lanka Island Paradise Packages"
+        subtitle="Experience the Teardrop Island with curated journeys"
+
+        packages={[
           { label: "recommended for extended duration", days: "6N / 7D", price: 22600 },
           { label: "highly recommended", days: "5N / 6D", price: 19000 },
           { label: "most popular", days: "4N / 5D", price: 15400 },
@@ -231,7 +189,7 @@ subtitle="Experience the Teardrop Island with curated journeys"
           { label: "", days: "2N / 3D", price: 9100 },
           { label: "Not Feasible", days: "1N / 2D", price: 3700, disabled: true },
         ]}
-    />
+      />
 
       <ContactCTA />
     </main>
@@ -244,13 +202,13 @@ function SectionTitle({ title, subtitle }: { title: string; subtitle: string }) 
   return (
     <div className="flex flex-col space-y-2">
       <div className='flex  gap-5 items-center'>
-      <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
-       <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
-        Book now For 6N/7D
-      </a>
+        <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
+        <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
+          Book now For 6N/7D
+        </a>
       </div>
       <p className="font-semibold text-gray-700">{subtitle}</p>
-     
+
     </div>
   )
 }
@@ -267,16 +225,16 @@ function DayCard({ title, children }: { title: string; children: React.ReactNode
 function AddOnSection({ title, subtitle }: { title: string; subtitle: string }) {
   return (
     <div className="flex flex-col  space-y-2">
-      
 
-           <div className='flex gap-5 items-center'> 
-      <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
-       <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
-        Book now For 2N/3D
-      </a>
-      
+
+      <div className='flex gap-5 items-center'>
+        <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
+        <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
+          Book now For 2N/3D
+        </a>
+
       </div>
-     <p className="font-semibold text-gray-700">{subtitle}</p>
+      <p className="font-semibold text-gray-700">{subtitle}</p>
     </div>
   )
 }

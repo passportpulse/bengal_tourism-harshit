@@ -147,18 +147,18 @@ export default function NepalPage() {
     </div>
 
     {/* Advertisement Section */}
-    <div className="bg-gradient-to-br from-yellow-500 to-orange-600 text-white rounded-3xl shadow-lg p-8 text-center">
-      <h3 className="text-2xl font-bold mb-4">
-        🏔️ Himalayan Paradise Special
-      </h3>
-      <p className="text-sm opacity-90">
-        Get exclusive discounts on mountain tours.
-        Limited seats available for peak season!
-      </p>
-      <button className="mt-6 bg-white text-yellow-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
-        Book Now
-      </button>
-    </div>
+    <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
+              <h3 className="text-2xl font-bold mb-4">
+                🚀 Paste Your Advertisement Here
+              </h3>
+              <p className="text-sm opacity-90">
+                Promote your brand, offer or travel deals here.
+                This space is perfect for partner promotions.
+              </p>
+              <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                Contact For Promotion
+              </button>
+            </div>
 
   </div>
 

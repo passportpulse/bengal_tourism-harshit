@@ -136,37 +136,37 @@ export default function DubaiPage() {
             {/* RIGHT SIDE – VIDEO + AD */}
             <div className="space-y-8 lg:sticky lg:top-24 h-fit">
 
-              {/* Video Section */}
-              <div className="bg-white rounded-3xl shadow-lg p-6">
-                <h3 className="text-xl font-bold mb-4 text-gray-800">
-                  Watch Dubai Tour Video
-                </h3>
+            {/* Video Section */}
+            <div className="bg-white rounded-3xl shadow-lg p-6">
+              <h3 className="text-xl font-bold mb-4 text-gray-800">
+                Watch Dubai Video
+              </h3>
 
-                <div className="aspect-video rounded-xl overflow-hidden">
-                  <iframe
-                    className="w-full h-full"
-                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-                    title="Dubai Tour"
-                    allowFullScreen
-                  ></iframe>
-                </div>
+              <div className="aspect-video rounded-xl overflow-hidden">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                  title="Atlantis Experience"
+                  allowFullScreen
+                ></iframe>
               </div>
-
-              {/* Advertisement Section */}
-              <div className="bg-gradient-to-br from-amber-500 to-orange-600 text-white rounded-3xl shadow-lg p-8 text-center">
-                <h3 className="text-2xl font-bold mb-4">
-                  🏙️ Dubai Luxury Special
-                </h3>
-                <p className="text-sm opacity-90">
-                  Get exclusive discounts on luxury experiences.
-                  Limited seats available for peak season!
-                </p>
-                <button className="mt-6 bg-white text-amber-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
-                  Book Now
-                </button>
-              </div>
-
             </div>
+
+            {/* Advertisement Section */}
+            <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
+              <h3 className="text-2xl font-bold mb-4">
+                🚀 Paste Your Advertisement Here
+              </h3>
+              <p className="text-sm opacity-90">
+                Promote your brand, offer or travel deals here.
+                This space is perfect for partner promotions.
+              </p>
+              <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                Contact For Promotion
+              </button>
+            </div>
+
+          </div>
 
           </div>
 
@@ -179,217 +179,106 @@ export default function DubaiPage() {
             <p className="text-gray-600">Enhance your Dubai Journey with Exclusive Experiences</p>
           </div>
           <AddOnSection title="LUXURY YACHT EXPERIENCE" subtitle="Add-on (or) Separately with YACHT CRUISE">
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
 
               {/* LEFT SIDE – ITINERARY */}
               <div className="lg:col-span-2 space-y-8">
 
-           <DayCard title="Day – 1 | Dubai Marina Arrival & Private Yacht Sunset Cruise">
-  Arrival in Dubai and transfer to your hotel in the vibrant Dubai Marina district. 
-  After check-in and relaxation, proceed in the evening for an exclusive 3-hour Private Yacht Cruise from Dubai Marina. 
-  Sail across the sparkling Arabian waters while enjoying a breathtaking sunset backdrop against the world-famous skyline. 
-  Witness stunning views of JBR Skyline, Bluewaters Island, and the iconic Ain Dubai from the sea. 
-  Indulge in a premium BBQ dinner onboard with soft beverages and enjoy music on a private sound system for a true luxury ambiance. 
-  Capture unforgettable photographs with the glittering city lights reflecting on the water. 
-  Return to hotel. Overnight stay at Dubai.
-</DayCard>
+                <DayCard title="Day – 1 | Dubai Marina Arrival & Private Yacht Sunset Cruise">
+                  Arrival in Dubai and transfer to your hotel in the vibrant Dubai Marina district.
+                  After check-in and relaxation, proceed in the evening for an exclusive 3-hour Private Yacht Cruise from Dubai Marina.
+                  Sail across the sparkling Arabian waters while enjoying a breathtaking sunset backdrop against the world-famous skyline.
+                  Witness stunning views of JBR Skyline, Bluewaters Island, and the iconic Ain Dubai from the sea.
+                  Indulge in a premium BBQ dinner onboard with soft beverages and enjoy music on a private sound system for a true luxury ambiance.
+                  Capture unforgettable photographs with the glittering city lights reflecting on the water.
+                  Return to hotel. Overnight stay at Dubai.
+                </DayCard>
 
-<DayCard title="Day – 2 | Sky Views Adventure & Waterfront Fine Dining">
-  After breakfast, visit Sky Views Edge Walk at Address Sky View for a thrilling hands-free walk on the edge of a skyscraper overlooking Burj Khalifa and Downtown Dubai. 
-  Experience breathtaking panoramic city views from one of Dubai’s most exciting attractions. 
-  Afternoon free for leisure or shopping at Dubai Mall — explore luxury brands, cafes, and optional attractions like Dubai Aquarium or Fountain Show. 
-  In the evening, enjoy a premium dinner at a Marina Waterfront Restaurant with elegant ambiance and scenic views of yachts and illuminated skyscrapers. 
-  Overnight stay at hotel.
-</DayCard>
+                <DayCard title="Day – 2 | Sky Views Adventure & Waterfront Fine Dining">
+                  After breakfast, visit Sky Views Edge Walk at Address Sky View for a thrilling hands-free walk on the edge of a skyscraper overlooking Burj Khalifa and Downtown Dubai.
+                  Experience breathtaking panoramic city views from one of Dubai’s most exciting attractions.
+                  Afternoon free for leisure or shopping at Dubai Mall — explore luxury brands, cafes, and optional attractions like Dubai Aquarium or Fountain Show.
+                  In the evening, enjoy a premium dinner at a Marina Waterfront Restaurant with elegant ambiance and scenic views of yachts and illuminated skyscrapers.
+                  Overnight stay at hotel.
+                </DayCard>
 
-<DayCard title="Day – 3 | Departure">
-  After breakfast at hotel, check-out as per standard timing. 
-  Depending on your flight schedule, optional last-minute shopping or leisure time. 
-  Transfer to Dubai International Airport for your onward journey. 
-  Depart with unforgettable memories of luxury cruising, skyline adventures, and Dubai’s glamorous lifestyle. 
-  Tour Ends.
-</DayCard>
-
-              </div>
-
-              {/* RIGHT SIDE – VIDEO + AD */}
-              <div className="space-y-8 lg:sticky lg:top-24 h-fit">
-
-                {/* Video Section */}
-                <div className="bg-white rounded-3xl shadow-lg p-6">
-                  <h3 className="text-xl font-bold mb-4 text-gray-800">
-                    Watch Yacht Experience Video
-                  </h3>
-
-                  <div className="aspect-video rounded-xl overflow-hidden">
-                    <iframe
-                      className="w-full h-full"
-                      src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-                      title="Yacht Experience"
-                      allowFullScreen
-                    ></iframe>
-                  </div>
-                </div>
-
-                {/* Advertisement Section */}
-                <div className="bg-gradient-to-br from-blue-500 to-cyan-600 text-white rounded-3xl shadow-lg p-8 text-center">
-                  <h3 className="text-2xl font-bold mb-4">
-                    🛥️ Marina Luxury Special
-                  </h3>
-                  <p className="text-sm opacity-90">
-                    Experience sunset sailing with premium dining.
-                    Private yacht tours available!
-                  </p>
-                  <button className="mt-6 bg-white text-blue-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
-                    Learn More
-                  </button>
-                </div>
+                <DayCard title="Day – 3 | Departure">
+                  After breakfast at hotel, check-out as per standard timing.
+                  Depending on your flight schedule, optional last-minute shopping or leisure time.
+                  Transfer to Dubai International Airport for your onward journey.
+                  Depart with unforgettable memories of luxury cruising, skyline adventures, and Dubai’s glamorous lifestyle.
+                  Tour Ends.
+                </DayCard>
 
               </div>
 
-            </div>
           </AddOnSection>
           <AddOnSection title="DESERT ROYAL EXPERIENCE" subtitle="Add-on (or) Separately with DESERT ROYAL CAMP">
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
 
               {/* LEFT SIDE – ITINERARY */}
               <div className="lg:col-span-2 space-y-8">
 
-               <DayCard title="Day – 1 | Luxury Desert Safari Experience">
-  Arrival in Dubai and transfer to your hotel. Check-in and relax. 
-  In the afternoon, proceed for an unforgettable Luxury Desert Safari in a premium 4x4 Land Cruiser across the golden dunes of the Arabian Desert. 
-  Experience thrilling dune bashing followed by sandboarding on soft desert slopes. 
-  Enjoy a traditional camel ride and capture memorable Falcon Photography in authentic Arabian style. 
-  Upon arrival at the exclusive desert camp, relax in VIP seating with personalized service. 
-  Indulge in a lavish BBQ buffet dinner under the stars while enjoying live entertainment including Belly Dance, Tanoura Show, and a spectacular Fire Show. 
-  Experience traditional Arabic hospitality with henna painting and shisha lounge access. 
-  Return to hotel. Overnight stay at Dubai.
-</DayCard>
+                <DayCard title="Day – 1 | Luxury Desert Safari Experience">
+                  Arrival in Dubai and transfer to your hotel. Check-in and relax.
+                  In the afternoon, proceed for an unforgettable Luxury Desert Safari in a premium 4x4 Land Cruiser across the golden dunes of the Arabian Desert.
+                  Experience thrilling dune bashing followed by sandboarding on soft desert slopes.
+                  Enjoy a traditional camel ride and capture memorable Falcon Photography in authentic Arabian style.
+                  Upon arrival at the exclusive desert camp, relax in VIP seating with personalized service.
+                  Indulge in a lavish BBQ buffet dinner under the stars while enjoying live entertainment including Belly Dance, Tanoura Show, and a spectacular Fire Show.
+                  Experience traditional Arabic hospitality with henna painting and shisha lounge access.
+                  Return to hotel. Overnight stay at Dubai.
+                </DayCard>
 
-<DayCard title="Day – 2 | Sunrise Hot Air Balloon & Cultural Evening">
-  Early morning transfer to the desert for a breathtaking Hot Air Balloon Ride. 
-  Float peacefully above the golden dunes while witnessing a spectacular sunrise over the Arabian landscape. 
-  Capture stunning aerial photography and enjoy light refreshments after landing. 
-  Return to hotel for breakfast and leisure time. 
-  In the evening, visit Global Village (seasonal) featuring international pavilions, shopping, and live cultural performances from around the world. 
-  Alternatively, explore Miracle Garden (seasonal), home to millions of vibrant floral displays arranged in artistic designs. 
-  Dinner at restaurant of your choice. Overnight stay at Dubai.
-</DayCard>
+                <DayCard title="Day – 2 | Sunrise Hot Air Balloon & Cultural Evening">
+                  Early morning transfer to the desert for a breathtaking Hot Air Balloon Ride.
+                  Float peacefully above the golden dunes while witnessing a spectacular sunrise over the Arabian landscape.
+                  Capture stunning aerial photography and enjoy light refreshments after landing.
+                  Return to hotel for breakfast and leisure time.
+                  In the evening, visit Global Village (seasonal) featuring international pavilions, shopping, and live cultural performances from around the world.
+                  Alternatively, explore Miracle Garden (seasonal), home to millions of vibrant floral displays arranged in artistic designs.
+                  Dinner at restaurant of your choice. Overnight stay at Dubai.
+                </DayCard>
 
-<DayCard title="Day – 3 | Departure">
-  After breakfast at hotel, check-out as per standard timing. 
-  Transfer to Dubai International Airport for your onward journey. 
-  Depart with unforgettable memories of desert adventures, sunrise skies, and Dubai’s vibrant lifestyle. 
-  Tour Ends.
-</DayCard>
-
-              </div>
-
-              {/* RIGHT SIDE – VIDEO + AD */}
-              <div className="space-y-8 lg:sticky lg:top-24 h-fit">
-
-                {/* Video Section */}
-                <div className="bg-white rounded-3xl shadow-lg p-6">
-                  <h3 className="text-xl font-bold mb-4 text-gray-800">
-                    Watch Desert Safari Video
-                  </h3>
-
-                  <div className="aspect-video rounded-xl overflow-hidden">
-                    <iframe
-                      className="w-full h-full"
-                      src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-                      title="Desert Safari"
-                      allowFullScreen
-                    ></iframe>
-                  </div>
-                </div>
-
-                {/* Advertisement Section */}
-                <div className="bg-gradient-to-br from-orange-500 to-yellow-600 text-white rounded-3xl shadow-lg p-8 text-center">
-                  <h3 className="text-2xl font-bold mb-4">
-                    🌅 Desert Adventure Special
-                  </h3>
-                  <p className="text-sm opacity-90">
-                    Experience hot air balloon rides and VIP desert camps.
-                    Special adventure packages available!
-                  </p>
-                  <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
-                    Learn More
-                  </button>
-                </div>
+                <DayCard title="Day – 3 | Departure">
+                  After breakfast at hotel, check-out as per standard timing.
+                  Transfer to Dubai International Airport for your onward journey.
+                  Depart with unforgettable memories of desert adventures, sunrise skies, and Dubai’s vibrant lifestyle.
+                  Tour Ends.
+                </DayCard>
 
               </div>
 
-            </div>
           </AddOnSection>
           <AddOnSection title="ATLANTIS LUXURY ESCAPE" subtitle="Add-on (or) Separately with ATLANTIS ">
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
 
-              {/* LEFT SIDE – ITINERARY */}
-              <div className="lg:col-span-2 space-y-8">
 
-               <DayCard title="Day – 1 | Check-in at Atlantis The Palm – Iconic Island Luxury">
-  Arrival in Dubai and private transfer to the world-famous Atlantis The Palm, located on the crescent of Palm Jumeirah. 
-  Upon arrival, check-in to your Luxury Ocean View Room offering breathtaking views of the Arabian Gulf. 
-  Relax and explore the magnificent resort property featuring grand architecture and marine-themed interiors. 
-  In the evening, enjoy leisure time at The Pointe, a waterfront dining and entertainment destination overlooking Atlantis, or take a scenic walk along Palm Jumeirah promenade. 
-  Optional sunset photography session at Palm West Beach. 
-  Overnight stay at Atlantis The Palm.
-</DayCard>
+            {/* LEFT SIDE – ITINERARY */}
+            <div className="lg:col-span-2 space-y-8">
 
-<DayCard title="Day – 2 | Aquaventure & The Lost Chambers Experience">
-  After breakfast at the hotel, enjoy full-day unlimited access to Aquaventure Waterpark, one of the largest waterparks in the world. 
-  Experience adrenaline-pumping slides like Leap of Faith, lazy river rides, wave pools, and private beach access exclusive for Atlantis guests. 
-  Later, visit The Lost Chambers Aquarium, home to over 65,000 marine animals including sharks, rays, and exotic fish species — inspired by the legend of the Lost City of Atlantis. 
-  Free time to relax by the infinity pools or private beach. 
-  Optional fine dining experience at one of Atlantis signature restaurants such as Nobu, Ossiano, or Gordon Ramsay’s Bread Street Kitchen (at additional cost). 
-  Overnight stay at Atlantis The Palm.
-</DayCard>
+              <DayCard title="Day – 1 | Check-in at Atlantis The Palm – Iconic Island Luxury">
+                Arrival in Dubai and private transfer to the world-famous Atlantis The Palm, located on the crescent of Palm Jumeirah.
+                Upon arrival, check-in to your Luxury Ocean View Room offering breathtaking views of the Arabian Gulf.
+                Relax and explore the magnificent resort property featuring grand architecture and marine-themed interiors.
+                In the evening, enjoy leisure time at The Pointe, a waterfront dining and entertainment destination overlooking Atlantis, or take a scenic walk along Palm Jumeirah promenade.
+                Optional sunset photography session at Palm West Beach.
+                Overnight stay at Atlantis The Palm.
+              </DayCard>
 
-<DayCard title="Day – 3 | Departure">
-  After breakfast, enjoy final leisure moments at the resort. 
-  Check-out by 11:00 AM as per hotel policy. 
-  Private transfer to Dubai International Airport for your onward journey. 
-  Depart with unforgettable memories of luxury island living, world-class water adventures, and iconic Dubai experiences. 
-  Tour Ends.
-</DayCard>
-              </div>
+              <DayCard title="Day – 2 | Aquaventure & The Lost Chambers Experience">
+                After breakfast at the hotel, enjoy full-day unlimited access to Aquaventure Waterpark, one of the largest waterparks in the world.
+                Experience adrenaline-pumping slides like Leap of Faith, lazy river rides, wave pools, and private beach access exclusive for Atlantis guests.
+                Later, visit The Lost Chambers Aquarium, home to over 65,000 marine animals including sharks, rays, and exotic fish species — inspired by the legend of the Lost City of Atlantis.
+                Free time to relax by the infinity pools or private beach.
+                Optional fine dining experience at one of Atlantis signature restaurants such as Nobu, Ossiano, or Gordon Ramsay’s Bread Street Kitchen (at additional cost).
+                Overnight stay at Atlantis The Palm.
+              </DayCard>
 
-              {/* RIGHT SIDE – VIDEO + AD */}
-              <div className="space-y-8 lg:sticky lg:top-24 h-fit">
-
-                {/* Video Section */}
-                <div className="bg-white rounded-3xl shadow-lg p-6">
-                  <h3 className="text-xl font-bold mb-4 text-gray-800">
-                    Watch Atlantis Experience Video
-                  </h3>
-
-                  <div className="aspect-video rounded-xl overflow-hidden">
-                    <iframe
-                      className="w-full h-full"
-                      src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-                      title="Atlantis Experience"
-                      allowFullScreen
-                    ></iframe>
-                  </div>
-                </div>
-
-                {/* Advertisement Section */}
-                <div className="bg-gradient-to-br from-purple-500 to-pink-600 text-white rounded-3xl shadow-lg p-8 text-center">
-                  <h3 className="text-2xl font-bold mb-4">
-                    🏝️ Island Paradise Special
-                  </h3>
-                  <p className="text-sm opacity-90">
-                    Experience luxury waterpark and ocean views.
-                    Premium island resort packages!
-                  </p>
-                  <button className="mt-6 bg-white text-purple-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
-                    Learn More
-                  </button>
-                </div>
-
-              </div>
-
+              <DayCard title="Day – 3 | Departure">
+                After breakfast, enjoy final leisure moments at the resort.
+                Check-out by 11:00 AM as per hotel policy.
+                Private transfer to Dubai International Airport for your onward journey.
+                Depart with unforgettable memories of luxury island living, world-class water adventures, and iconic Dubai experiences.
+                Tour Ends.
+              </DayCard>
             </div>
           </AddOnSection>
         </div>
@@ -399,7 +288,7 @@ export default function DubaiPage() {
         title="Dubai Elite Getaway Packages"
         subtitle="Luxury stays, desert safaris & world-class experiences"
 
-     packages={[
+        packages={[
           { label: "Customisable & ecommended for extended duration", days: "6N / 7D", price: 22600 },
           { label: "highly recommended", days: "5N / 6D", price: 19000 },
           { label: "most popular", days: "4N / 5D", price: 15400 },

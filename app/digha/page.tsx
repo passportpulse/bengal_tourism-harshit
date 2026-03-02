@@ -242,16 +242,16 @@ export default function DighaPage() {
     </div>
 
     {/* Advertisement Section */}
-    <div className="bg-gradient-to-br from-blue-600 to-purple-600 text-white rounded-3xl shadow-lg p-8 text-center">
+    <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
       <h3 className="text-2xl font-bold mb-4">
-        🌊 Special Beach Offer
+        🚀 Paste Your Advertisement Here
       </h3>
       <p className="text-sm opacity-90">
-        Get exclusive discounts on group bookings.
-        Limited seats available!
+        Promote your brand, offer or travel deals here.
+        This space is perfect for partner promotions.
       </p>
-      <button className="mt-6 bg-white text-blue-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
-        Book Now
+      <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+        Contact For Promotion
       </button>
     </div>
 

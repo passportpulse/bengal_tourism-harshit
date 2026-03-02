@@ -76,47 +76,75 @@ export default function LondonPage() {
               Special Tailor made Combination Package, Number of Days & Cost can be designed on Request.
             </p>
           </div>
-
-          {/* MAIN CIRCUIT TITLE */}
-          <SectionTitle
-            title="LONDON"
-            subtitle="Royal Capital With LONDON – WINDSOR – OXFORD-"
-          />
-
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
-
-            {/* LEFT SIDE – ITINERARY */}
             <div className="lg:col-span-2 space-y-8">
-              <DayCard title="Day – 1 | Arrival in London – Welcome to the UK">
-                Arrival at Heathrow or Gatwick International Airport where our representative will warmly welcome you and assist with transfer to your hotel in London. Enjoy a scenic drive through one of the world’s most iconic cities, passing historic landmarks and modern cityscapes. Upon arrival, check-in and relax after your journey. In the evening, explore Leicester Square, the heart of London’s entertainment district, followed by a stroll through Covent Garden known for its street performances, boutique shops, and charming cafes. Experience your first taste of British culture. Dinner at Indian/local restaurant. Overnight stay at London.
-              </DayCard>
+              {/* MAIN CIRCUIT TITLE */}
+              <SectionTitle
+                title="LONDON"
+                subtitle="Royal Capital With LONDON – WINDSOR – OXFORD-"
+              />
 
-              <DayCard title="Day – 2 | Classic London City Tour">
-                After breakfast, proceed for a comprehensive full-day London city tour. Visit the historic Tower of London, home to the Crown Jewels and centuries of royal history. Walk across the iconic Tower Bridge for spectacular views of the River Thames. Continue to St. Paul’s Cathedral, an architectural masterpiece where royal weddings and state ceremonies have taken place. Lunch at a local restaurant en-route. In the evening, enjoy a ride on the London Eye offering panoramic views of the London skyline including Big Ben, Houses of Parliament, and Buckingham Palace. Dinner & Overnight stay at London.
-              </DayCard>
 
-              <DayCard title="Day – 3 | Royal London & Cultural Heritage">
-                After breakfast, begin your day with a visit to Buckingham Palace to witness the famous Changing of the Guard ceremony (subject to schedule). Continue to Westminster Abbey, the coronation church of British monarchs and a UNESCO World Heritage Site. Explore the Houses of Parliament and admire the iconic Big Ben clock tower. Lunch en-route. In the afternoon, visit the British Museum, home to world-renowned artifacts including the Rosetta Stone and Egyptian mummies. In the evening, enjoy a spectacular West End theatre show, experiencing London’s world-class performing arts scene. Dinner & Overnight stay at London.
-              </DayCard>
 
-              <DayCard title="Day – 4 | Windsor Castle & Royal Countryside">
-                After breakfast, embark on a day trip to Windsor, one of England’s most charming towns. Visit Windsor Castle, the world’s oldest and largest inhabited castle and an official residence of the British monarch. Explore the magnificent State Apartments and St. George’s Chapel, the resting place of Queen Elizabeth II and other royal family members. Lunch in Windsor town. Continue to Eton College, one of the world’s most prestigious schools. Evening return to London. Dinner & Overnight stay at London.
-              </DayCard>
+              {/* LEFT SIDE – ITINERARY */}
+              <div className="lg:col-span-2 space-y-8">
+                <DayCard title="Day – 1 | Arrival in London – Welcome to the UK">
+                  Arrival at Heathrow or Gatwick International Airport where our representative will warmly welcome you and assist with transfer to your hotel in London. Enjoy a scenic drive through one of the world’s most iconic cities, passing historic landmarks and modern cityscapes. Upon arrival, check-in and relax after your journey. In the evening, explore Leicester Square, the heart of London’s entertainment district, followed by a stroll through Covent Garden known for its street performances, boutique shops, and charming cafes. Experience your first taste of British culture. Dinner at Indian/local restaurant. Overnight stay at London.
+                </DayCard>
 
-              <DayCard title="Day – 5 | Stonehenge & Oxford Excursion">
-                After breakfast, proceed for a full-day excursion to Stonehenge, the mysterious prehistoric stone circle and UNESCO World Heritage Site. Explore the ancient monument and learn about its fascinating history and astronomical significance. Continue to Oxford, home to one of the world’s oldest universities. Visit Oxford University and Christ Church College, famous for its stunning architecture and Harry Potter filming locations. Lunch en-route. Evening return to London. Dinner & Overnight stay at London.
-              </DayCard>
+                <DayCard title="Day – 2 | Classic London City Tour">
+                  After breakfast, proceed for a comprehensive full-day London city tour. Visit the historic Tower of London, home to the Crown Jewels and centuries of royal history. Walk across the iconic Tower Bridge for spectacular views of the River Thames. Continue to St. Paul’s Cathedral, an architectural masterpiece where royal weddings and state ceremonies have taken place. Lunch at a local restaurant en-route. In the evening, enjoy a ride on the London Eye offering panoramic views of the London skyline including Big Ben, Houses of Parliament, and Buckingham Palace. Dinner & Overnight stay at London.
+                </DayCard>
 
-              <DayCard title="Day – 6 | Museums & Luxury Shopping">
-                After breakfast, visit the Natural History Museum, known for its impressive dinosaur skeletons and interactive exhibits. Continue to the Victoria & Albert Museum, showcasing art, fashion, and design from around the world. Lunch at local restaurant. In the evening, enjoy shopping at Oxford Street and Regent Street, London’s most famous retail destinations offering everything from luxury brands to British high-street fashion. Enjoy a farewell dinner celebrating your memorable UK journey. Overnight stay at London.
-              </DayCard>
+                <DayCard title="Day – 3 | Royal London & Cultural Heritage">
+                  After breakfast, begin your day with a visit to Buckingham Palace to witness the famous Changing of the Guard ceremony (subject to schedule). Continue to Westminster Abbey, the coronation church of British monarchs and a UNESCO World Heritage Site. Explore the Houses of Parliament and admire the iconic Big Ben clock tower. Lunch en-route. In the afternoon, visit the British Museum, home to world-renowned artifacts including the Rosetta Stone and Egyptian mummies. In the evening, enjoy a spectacular West End theatre show, experiencing London’s world-class performing arts scene. Dinner & Overnight stay at London.
+                </DayCard>
 
-              <DayCard title="Day – 7 | Departure">
-                After breakfast, check-out from hotel and transfer to Heathrow or Gatwick Airport for your onward journey. Depart with unforgettable memories of London’s royal heritage, historic landmarks, vibrant culture, and timeless charm. Tour Ends.
-              </DayCard>
+                <DayCard title="Day – 4 | Windsor Castle & Royal Countryside">
+                  After breakfast, embark on a day trip to Windsor, one of England’s most charming towns. Visit Windsor Castle, the world’s oldest and largest inhabited castle and an official residence of the British monarch. Explore the magnificent State Apartments and St. George’s Chapel, the resting place of Queen Elizabeth II and other royal family members. Lunch in Windsor town. Continue to Eton College, one of the world’s most prestigious schools. Evening return to London. Dinner & Overnight stay at London.
+                </DayCard>
+
+                <DayCard title="Day – 5 | Stonehenge & Oxford Excursion">
+                  After breakfast, proceed for a full-day excursion to Stonehenge, the mysterious prehistoric stone circle and UNESCO World Heritage Site. Explore the ancient monument and learn about its fascinating history and astronomical significance. Continue to Oxford, home to one of the world’s oldest universities. Visit Oxford University and Christ Church College, famous for its stunning architecture and Harry Potter filming locations. Lunch en-route. Evening return to London. Dinner & Overnight stay at London.
+                </DayCard>
+
+                <DayCard title="Day – 6 | Museums & Luxury Shopping">
+                  After breakfast, visit the Natural History Museum, known for its impressive dinosaur skeletons and interactive exhibits. Continue to the Victoria & Albert Museum, showcasing art, fashion, and design from around the world. Lunch at local restaurant. In the evening, enjoy shopping at Oxford Street and Regent Street, London’s most famous retail destinations offering everything from luxury brands to British high-street fashion. Enjoy a farewell dinner celebrating your memorable UK journey. Overnight stay at London.
+                </DayCard>
+
+                <DayCard title="Day – 7 | Departure">
+                  After breakfast, check-out from hotel and transfer to Heathrow or Gatwick Airport for your onward journey. Depart with unforgettable memories of London’s royal heritage, historic landmarks, vibrant culture, and timeless charm. Tour Ends.
+                </DayCard>
+
+              </div>
+
+
+
+              {/* ADD-ON SECTIONS */}
+              <AddOnSection
+                title="CAMBRIDGE"
+                subtitle="Add-on (or) Separately From LONDON"
+              />
+
+
+              {/* LEFT SIDE – ITINERARY */}
+              <div className="lg:col-span-2 space-y-8">
+
+                <DayCard title="Day – 1  |  Cambridge – Academic Elegance">
+                  After breakfast, proceed for a full-day excursion to the historic university city of Cambridge, renowned for its academic excellence and stunning medieval architecture. Upon arrival, visit the magnificent King’s College Chapel, famous for its breathtaking Gothic architecture and impressive fan-vaulted ceiling. Explore the prestigious University of Cambridge campuses, which have educated some of the world’s greatest minds including Sir Isaac Newton and Stephen Hawking. Enjoy a traditional punting experience on the River Cam, gliding past historic college buildings and picturesque bridges. Lunch at a local restaurant. Later, visit the iconic Mathematical Bridge at Queens’ College and admire Trinity College, one of the largest and most prestigious colleges in Cambridge. Evening return to London. Dinner & Overnight stay at London.
+                </DayCard>
+
+                <DayCard title="Day – 2  |  Bath & The Cotswolds – Roman Heritage & Countryside Charm">
+                  After breakfast, depart for the elegant city of Bath, a UNESCO World Heritage Site celebrated for its Roman and Georgian architecture. Visit the historic Roman Baths complex, where you can explore ancient thermal springs that date back nearly 2,000 years. Continue to Bath Abbey, a stunning example of Gothic architecture located in the heart of the city. Lunch at a local restaurant. Later, drive through the enchanting Cotswolds region, known for its rolling green hills, charming stone cottages, and postcard-perfect villages such as Bourton-on-the-Water or Bibury. Enjoy leisurely walks and scenic photography in this quintessential English countryside setting. Evening return to London. Dinner & Overnight stay at London.
+                </DayCard>
+
+                <DayCard title="Day – 3  |  Canterbury & Leeds Castle – Medieval England">
+                  After breakfast, proceed to Canterbury, one of England’s most historic cities. Visit the magnificent Canterbury Cathedral, a UNESCO World Heritage Site and one of the most important Christian pilgrimage destinations in the world. Explore its stunning stained glass windows and centuries-old architecture. Lunch at a local restaurant. Continue to Leeds Castle, often described as “the loveliest castle in the world,” surrounded by a picturesque moat and beautifully landscaped gardens. Discover its royal history and elegant interiors. Evening return to London. Enjoy a farewell dinner celebrating your memorable journey through England’s heritage. Overnight stay at London.
+                </DayCard>
+              </div>
+
 
             </div>
-
             {/* RIGHT SIDE – VIDEO + AD */}
             <div className="space-y-8 lg:sticky lg:top-24 h-fit">
 
@@ -130,66 +158,6 @@ export default function LondonPage() {
                   <iframe
                     className="w-full h-full"
                     src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-                    title="London Tour"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-              </div>
-
-              {/* Advertisement Section */}
-              <div className="bg-gradient-to-br from-purple-500 to-blue-600 text-white rounded-3xl shadow-lg p-8 text-center">
-                <h3 className="text-2xl font-bold mb-4">
-                  👑 Royal Capital Special
-                </h3>
-                <p className="text-sm opacity-90">
-                  Get exclusive discounts on royal palace tours.
-                  Limited seats available for peak season!
-                </p>
-                <button className="mt-6 bg-white text-purple-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
-                  Book Now
-                </button>
-              </div>
-
-            </div>
-
-          </div>
-
-          {/* ADD-ON SECTIONS */}
-          <AddOnSection
-            title="CAMBRIDGE"
-            subtitle="Add-on (or) Separately From LONDON"
-          />
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
-
-            {/* LEFT SIDE – ITINERARY */}
-            <div className="lg:col-span-2 space-y-8">
-
-              <DayCard title="Day – 1  |  Cambridge – Academic Elegance">
-                After breakfast, proceed for a full-day excursion to the historic university city of Cambridge, renowned for its academic excellence and stunning medieval architecture. Upon arrival, visit the magnificent King’s College Chapel, famous for its breathtaking Gothic architecture and impressive fan-vaulted ceiling. Explore the prestigious University of Cambridge campuses, which have educated some of the world’s greatest minds including Sir Isaac Newton and Stephen Hawking. Enjoy a traditional punting experience on the River Cam, gliding past historic college buildings and picturesque bridges. Lunch at a local restaurant. Later, visit the iconic Mathematical Bridge at Queens’ College and admire Trinity College, one of the largest and most prestigious colleges in Cambridge. Evening return to London. Dinner & Overnight stay at London.
-              </DayCard>
-
-              <DayCard title="Day – 2  |  Bath & The Cotswolds – Roman Heritage & Countryside Charm">
-                After breakfast, depart for the elegant city of Bath, a UNESCO World Heritage Site celebrated for its Roman and Georgian architecture. Visit the historic Roman Baths complex, where you can explore ancient thermal springs that date back nearly 2,000 years. Continue to Bath Abbey, a stunning example of Gothic architecture located in the heart of the city. Lunch at a local restaurant. Later, drive through the enchanting Cotswolds region, known for its rolling green hills, charming stone cottages, and postcard-perfect villages such as Bourton-on-the-Water or Bibury. Enjoy leisurely walks and scenic photography in this quintessential English countryside setting. Evening return to London. Dinner & Overnight stay at London.
-              </DayCard>
-
-              <DayCard title="Day – 3  |  Canterbury & Leeds Castle – Medieval England">
-                After breakfast, proceed to Canterbury, one of England’s most historic cities. Visit the magnificent Canterbury Cathedral, a UNESCO World Heritage Site and one of the most important Christian pilgrimage destinations in the world. Explore its stunning stained glass windows and centuries-old architecture. Lunch at a local restaurant. Continue to Leeds Castle, often described as “the loveliest castle in the world,” surrounded by a picturesque moat and beautifully landscaped gardens. Discover its royal history and elegant interiors. Evening return to London. Enjoy a farewell dinner celebrating your memorable journey through England’s heritage. Overnight stay at London.
-              </DayCard>
-            </div>
-
-            {/* RIGHT SIDE – VIDEO + AD */}
-            <div className="space-y-8 lg:sticky lg:top-24 h-fit">
-
-              {/* Video Section */}
-              <div className="bg-white rounded-3xl shadow-lg p-6">
-                <h3 className="text-xl font-bold mb-4 text-gray-800">
-                  Watch Cambridge Tour Video
-                </h3>
-
-                <div className="aspect-video rounded-xl overflow-hidden">
-                  <iframe
-                    className="w-full h-full"
-                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
                     title="Cambridge Tour"
                     allowFullScreen
                   ></iframe>
@@ -197,16 +165,16 @@ export default function LondonPage() {
               </div>
 
               {/* Advertisement Section */}
-              <div className="bg-gradient-to-br from-green-500 to-teal-600 text-white rounded-3xl shadow-lg p-8 text-center">
+              <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
                 <h3 className="text-2xl font-bold mb-4">
-                  🎓 University Heritage Tour
+                  🚀 Paste Your Advertisement Here
                 </h3>
                 <p className="text-sm opacity-90">
-                  Explore historic universities and ancient castles.
-                  Special educational tours available!
+                  Promote your brand, offer or travel deals here.
+                  This space is perfect for partner promotions.
                 </p>
-                <button className="mt-6 bg-white text-green-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
-                  Learn More
+                <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                  Contact For Promotion
                 </button>
               </div>
 
@@ -220,7 +188,7 @@ export default function LondonPage() {
         title="London Royal Capital Packages"
         subtitle="Experience the Royal City with curated journeys"
 
-   packages={[
+        packages={[
           { label: "Customisable & ecommended for extended duration", days: "6N / 7D", price: 22600 },
           { label: "highly recommended", days: "5N / 6D", price: 19000 },
           { label: "most popular", days: "4N / 5D", price: 15400 },

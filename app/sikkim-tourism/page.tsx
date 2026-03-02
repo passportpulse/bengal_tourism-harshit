@@ -63,28 +63,32 @@ export default function SikkimTourismPage() {
       {/* ================= SIKKIM & GANGTOK MAIN PACKAGE ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <Destination
-            title="Sikkim & Gangtok"
-            cta="Book now For 5N/6D"
-            subtitle="With Changu Lake – Nathu La Pass – Baba Mandir"
-            content={[
-              `Day 1: Arrival in Gangtok, Our representative will receive you at New Jalpaiguri Railway Station (NJP) / Pakyong Airport / Bagdogra Airport.
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+
+            {/* LEFT SIDE – ITINERARY */}
+            <div className="lg:col-span-2 space-y-8">
+              <Destination
+                title="Sikkim & Gangtok"
+                cta="Book now For 5N/6D"
+                subtitle="With Changu Lake – Nathu La Pass – Baba Mandir"
+                content={[
+                  `Day 1: Arrival in Gangtok, Our representative will receive you at New Jalpaiguri Railway Station (NJP) / Pakyong Airport / Bagdogra Airport.
               Transfer to Gangtok, the capital of Sikkim at 1670 meters / 5480 feet height.
               Nearly 135 kilometers, 4½ - 5 hours drive. Check into hotel.
               Evening free to roam around M G Road (Mall) or local Shopping center.
               Dinner & Overnight stay at Hotel in Gangtok.`,
 
-              `Day 2: Gangtok City Tour, After breakfast, visit Ranka Monastery - one of the oldest and most beautiful monasteries of India.
+                  `Day 2: Gangtok City Tour, After breakfast, visit Ranka Monastery - one of the oldest and most beautiful monasteries of India.
               Visit Ban Jhagri Falls, Shanti View Point, Ban Jhagri Falls, Institute of Tibetology,
               Ganesh Tok, Cottage Industry, Flower Show, White Hall, Tashi View Point, Hanuman Tok.
               Dinner & Overnight at Hotel in Gangtok.`,
 
-              `Day 3: Gangtok Sightseeing, After breakfast, experience full day sightseeing of places like Char Dham, Samdruptse,
+                  `Day 3: Gangtok Sightseeing, After breakfast, experience full day sightseeing of places like Char Dham, Samdruptse,
               at 135 ft high is the tallest statue of "Guru Padmasambhava", also known as Guru Rinpoche &
               Siddhesvar Dham, DuDrul Chorten, Temi Tea Garden, Namchi Village.
               Lunch en-route. Return to Hotel by evening. Night stay in Hotel/Resort at Gangtok.`,
 
-              `Day 4: Changu Lake & Nathu La Pass, After early breakfast, this is nearly 50 km drive and takes nearly 2 hours.
+                  `Day 4: Changu Lake & Nathu La Pass, After early breakfast, this is nearly 50 km drive and takes nearly 2 hours.
               Visit to Tsomgo / Changu Lake and Baba Mandir to experience cool, serene water and picturesque beauty.
               Tsomgo lake is one of the holy lakes of the region.
               A temple of Lord Shiva is built on the lakeside.
@@ -97,41 +101,76 @@ export default function SikkimTourismPage() {
               Evening free to stroll around M G Road or Local Market.
               Dinner & Overnight stay in Hotel/Resort at Gangtok.`,
 
-              `Day 5: Rumtek Monastery, After breakfast, proceed to visit Rumtek Monastery, Do Drul Chorten, Saramsa Garden,
+                  `Day 5: Rumtek Monastery, After breakfast, proceed to visit Rumtek Monastery, Do Drul Chorten, Saramsa Garden,
               Enchey Monastery - a must visit when in Sikkim.
               Lunch en-route. Return in evening.
               Dinner & Overnight at Hotel/Resort in Gangtok.`,
 
-              `Day 6: Departure, After breakfast & Check-out. Lunch en-route.
+                  `Day 6: Departure, After breakfast & Check-out. Lunch en-route.
               Drive to Pakyong Airport in Sikkim / Bagdogra Airport in Bengal (IXB) /
               New Jalpaiguri Railway Station (NJP), a 3-4 hrs drive in AC vehicle for forwarding journey.
               Tour ends...`
-            ]}
-          />
+                ]}
+              />
 
-          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 shadow-xl mt-5">
-            <div className="grid md:grid-cols-1 gap-8">
-              <div className="bg-blue-100 rounded-xl p-6 mt-8">
-                <h4 className="font-bold text-blue-800 mb-3">Package Highlights</h4>
-                <div className="space-y-2">
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-blue-600" />
-                    <span className="text-gray-700">Gangtok - Capital at 1670 meters</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-blue-600" />
-                    <span className="text-gray-700">Tsomgo Lake & Baba Mandir</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-blue-600" />
-                    <span className="text-gray-700">Nathu La Pass (Permit required)</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-blue-600" />
-                    <span className="text-gray-700">Rumtek Monastery visit</span>
+              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 shadow-xl mt-5">
+                <div className="grid md:grid-cols-1 gap-8">
+                  <div className="bg-blue-100 rounded-xl p-6 mt-8">
+                    <h4 className="font-bold text-blue-800 mb-3">Package Highlights</h4>
+                    <div className="space-y-2">
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-blue-600" />
+                        <span className="text-gray-700">Gangtok - Capital at 1670 meters</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-blue-600" />
+                        <span className="text-gray-700">Tsomgo Lake & Baba Mandir</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-blue-600" />
+                        <span className="text-gray-700">Nathu La Pass (Permit required)</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-blue-600" />
+                        <span className="text-gray-700">Rumtek Monastery visit</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+              {/* Video Section */}
+              <div className="bg-white rounded-3xl shadow-lg p-6">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  Watch Sikkim Video
+                </h3>
+
+                <div className="aspect-video rounded-xl overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    title="Atlantis Experience"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+
+              {/* Advertisement Section */}
+              <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
+                <h3 className="text-2xl font-bold mb-4">
+                  🚀 Paste Your Advertisement Here
+                </h3>
+                <p className="text-sm opacity-90">
+                  Promote your brand, offer or travel deals here.
+                  This space is perfect for partner promotions.
+                </p>
+                <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                  Contact For Promotion
+                </button>
+              </div>
+
             </div>
           </div>
         </div>
@@ -156,33 +195,33 @@ export default function SikkimTourismPage() {
             subtitle="Add-on (or) Separately with PELLING-RAVANGLA"
             cta='Book Now for 3N/4D'
             content={[
-             `Day – 1 : Pick-up from New Jalpaiguri Railway Station (NJP) / Pakyong Airport / Bagdogra Airport (or) Hotel in Gangtok proceed towards Pelling/Ravangla. En-route local sight seeing. Lunch en-route. Check into Hotel. Evening free. Dinner & Overnight at Hotel/Resort at Pelling / Ravangla.`,
+              `Day – 1 : Pick-up from New Jalpaiguri Railway Station (NJP) / Pakyong Airport / Bagdogra Airport (or) Hotel in Gangtok proceed towards Pelling/Ravangla. En-route local sight seeing. Lunch en-route. Check into Hotel. Evening free. Dinner & Overnight at Hotel/Resort at Pelling / Ravangla.`,
 
-     `Day – 2 : After breakfast, sightseeing to Pemayangsha Monastery, Sangachoely, Kanchenjongha Falls, Singshore Bridge, Pelling Skywalk, Etc. Lunch en-route. Return in evening. Dinner & Overnight at Hotel/Resort at Pelling / Ravangla.`,
+              `Day – 2 : After breakfast, sightseeing to Pemayangsha Monastery, Sangachoely, Kanchenjongha Falls, Singshore Bridge, Pelling Skywalk, Etc. Lunch en-route. Return in evening. Dinner & Overnight at Hotel/Resort at Pelling / Ravangla.`,
 
-          `Day – 3 :ALTERNATIVELY: After breakfast, sightseeing to Ravangla, Buddha Park, Ralang Monastery, Khechiopairi Lake. Lunch en-route. Return in evening.Dinner & Overnight at Hotel/Resort at Pelling / Ravangla.`,
+              `Day – 3 :ALTERNATIVELY: After breakfast, sightseeing to Ravangla, Buddha Park, Ralang Monastery, Khechiopairi Lake. Lunch en-route. Return in evening.Dinner & Overnight at Hotel/Resort at Pelling / Ravangla.`,
 
-          `Day – 4 : After breakfast & Check-out. Lunch en-route. Drive to Pakyong Airport in Sikkim / Bagdogra Airport in Bengal (IXB) / New Jalpaiguri Railway Station (NJP), a 3-4 hrs drive in AC vehicle for Forwarding Journey. Tour ends...`
+              `Day – 4 : After breakfast & Check-out. Lunch en-route. Drive to Pakyong Airport in Sikkim / Bagdogra Airport in Bengal (IXB) / New Jalpaiguri Railway Station (NJP), a 3-4 hrs drive in AC vehicle for Forwarding Journey. Tour ends...`
             ]}
           />
-          
+
 
           <Destination
             title="NORTH SIKKIM"
             subtitle="Add-on (or) Separately with LACHEN - LACHUNG - GORUDONGMAR"
-                cta='Book Now for 2N/3D'
+            cta='Book Now for 2N/3D'
             content={[
-            `Day – 1 :Transfer to Lachen (North Sikkim): After breakfast, pick-up from Hotel at Gangtok (09.00am). Drive 135 km, 5 – 6 hours drive. Chungthang is 96 kilometers from Gangtok. Lunch at Chungthang. Lachen is 35 kilometers from Chungthang. Visit Seven Sister Falls & Naga Waterfalls. Check into a hotel. Welcome Tea. Evening free to stroll and visit the Lepcha Village. Dinner & Overnight stay in Hotel/ Resort at Lachen.`,
+              `Day – 1 :Transfer to Lachen (North Sikkim): After breakfast, pick-up from Hotel at Gangtok (09.00am). Drive 135 km, 5 – 6 hours drive. Chungthang is 96 kilometers from Gangtok. Lunch at Chungthang. Lachen is 35 kilometers from Chungthang. Visit Seven Sister Falls & Naga Waterfalls. Check into a hotel. Welcome Tea. Evening free to stroll and visit the Lepcha Village. Dinner & Overnight stay in Hotel/ Resort at Lachen.`,
 
-          `Day – 2 :Excursion to Gurudongmar Lake and Transfer to Lachung (North Sikkim); After early breakfast, Visit to Gurudongmar Lake 55 km, 2 ½ to 3 ½ hour's drive. A valley at an altitude of 11, 800 feet through which Lachen Chu flows, generally covered with snow from December to April or even more is known as the Holy / Sacred Lak. Next drive through the cold desert till Tibet / China back to Resort for Lunch. After lunch drive to Lachung. The region is fully covered with Rhododendron forest with Chopta Valley and Thangu as the other places of interest. Nearly 50 km and two hours' drive. Check into hotel at Lachung. Evening free to visit Lachung Monastery. Dinner & Overnight stay in Hotel / Resort at Lachung.`,
+              `Day – 2 :Excursion to Gurudongmar Lake and Transfer to Lachung (North Sikkim); After early breakfast, Visit to Gurudongmar Lake 55 km, 2 ½ to 3 ½ hour's drive. A valley at an altitude of 11, 800 feet through which Lachen Chu flows, generally covered with snow from December to April or even more is known as the Holy / Sacred Lak. Next drive through the cold desert till Tibet / China back to Resort for Lunch. After lunch drive to Lachung. The region is fully covered with Rhododendron forest with Chopta Valley and Thangu as the other places of interest. Nearly 50 km and two hours' drive. Check into hotel at Lachung. Evening free to visit Lachung Monastery. Dinner & Overnight stay in Hotel / Resort at Lachung.`,
 
-          `Day – 3 :Sight seeing trip to Yumthang and transfer to Gangtok:  After early morning breakfast, drive towards Yumthang situated at an elevation of nearly 11800 feet, 30 km and 1 ½ hour's drive. On the way back one can visit the famous hot spring which is known for its curative properties of skin diseases. Yumthang is a valley near the river Lachung Chu surrounded by mountains where the tree line ends. In spring the valley erupts in riots of colours as Primulae, Rhododendrons and many other Alpine flowers in full bloom along with snow covered valley except in autumn. During winter Yumthang is sombere with snow all around and the snow clad mountains adding to the beauty. Yumesamdong (Zero Point) is optional tour (with extra US $100/ Rs.4000/- per vehicle with 4-6 PAX has to be paid for permit & to be paid at spot). Return to Lachung for lunch. After lunch drive to Gangtok 130kilometers, 4–5 hours drive. Drop at Hotel/ Resort at Gangtok. Tour ends...`
+              `Day – 3 :Sight seeing trip to Yumthang and transfer to Gangtok:  After early morning breakfast, drive towards Yumthang situated at an elevation of nearly 11800 feet, 30 km and 1 ½ hour's drive. On the way back one can visit the famous hot spring which is known for its curative properties of skin diseases. Yumthang is a valley near the river Lachung Chu surrounded by mountains where the tree line ends. In spring the valley erupts in riots of colours as Primulae, Rhododendrons and many other Alpine flowers in full bloom along with snow covered valley except in autumn. During winter Yumthang is sombere with snow all around and the snow clad mountains adding to the beauty. Yumesamdong (Zero Point) is optional tour (with extra US $100/ Rs.4000/- per vehicle with 4-6 PAX has to be paid for permit & to be paid at spot). Return to Lachung for lunch. After lunch drive to Gangtok 130kilometers, 4–5 hours drive. Drop at Hotel/ Resort at Gangtok. Tour ends...`
             ]}
           />
 
           <Destination
             title="SILK ROUTE"
-                cta='Book Now for 4N/5D'
+            cta='Book Now for 4N/5D'
             subtitle="Add-on (or) Separately with SILLERY-ZULUK-ARITAR-RESHIKHOLA"
             content={[
               `Day –1 :Start of tour: Our representative will be there to receive the Guest at New Jalpaiguri Railway Station (NJP) / Bagdogra Airport (09.00 am). He will be assisting you to proceed for Sillery Gaon. Lunch en-route. Check-in to Hotel/Homestay. Post lunch, rest. Evening free for photography & idle your time. Back to resort. Dinner & Night stay in Hotel / Resort  Home Stay at Sillery Gaon.`,
@@ -287,19 +326,19 @@ export default function SikkimTourismPage() {
 function Destination({ title, subtitle, content, cta }: { title: string; subtitle: string; content: string[]; cta: string; }) {
   return (
     <div className="bg-white shadow-xl rounded-3xl p-10 space-y-6">
-       <div className="flex gap-5 items-center mt-8">
-   
-      <h2 className="text-3xl font-bold text-indigo-700">{title}</h2>
-        <a 
-          href="/book-tour" 
+      <div className="flex gap-5 items-center mt-8">
+
+        <h2 className="text-3xl font-bold text-indigo-700">{title}</h2>
+        <a
+          href="/book-tour"
           className="bg-yellow-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
         >
           {cta}
         </a>
-       </div>
-  
-        <p className="font-semibold text-gray-700">{subtitle}</p>
-    
+      </div>
+
+      <p className="font-semibold text-gray-700">{subtitle}</p>
+
 
       <div className="space-y-6">
         {content.map((item, index) => (
@@ -313,9 +352,9 @@ function Destination({ title, subtitle, content, cta }: { title: string; subtitl
           </div>
         ))}
       </div>
-      
-     
-     
+
+
+
     </div>
   )
 } 

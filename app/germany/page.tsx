@@ -76,15 +76,15 @@ export default function GermanyPage() {
               Special Tailor made Combination Package, Number of Days & Cost can be designed on Request.
             </p>
           </div>
-
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+            <div className="lg:col-span-2 space-y-8">
           {/* MAIN CIRCUIT TITLE */}
           <SectionTitle
             title="GERMANY"
             subtitle="European Heritage With BERLIN – MUNICH – FRANKFURT-"
           />
 
-          {/* MAIN DAY WISE */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+       
 
             {/* LEFT SIDE – ITINERARY */}
             <div className="lg:col-span-2 space-y-8">
@@ -119,8 +119,34 @@ export default function GermanyPage() {
 
             </div>
 
+       
+
+          {/* ADD-ON SECTIONS */}
+          <AddOnSection
+            title="RHINE VALLEY"
+            subtitle="Add-on (or) Separately From FRANKFURT"
+          />
+        
+
+            {/* LEFT SIDE – ITINERARY */}
+            <div className="lg:col-span-2 space-y-8">
+
+              <DayCard title="Day – 1  |  Rhine Valley – Castles & River Cruise">
+                After breakfast, proceed for a scenic day excursion to the breathtaking Rhine Valley, a UNESCO World Heritage Site renowned for its dramatic landscapes, vineyard-covered hills, and medieval castles perched along the riverbanks. Upon arrival, board a relaxing Rhine River cruise and sail past picturesque towns and ancient fortresses that reflect Germany's romantic heritage. Enjoy spectacular views of the legendary Lorelei Rock, steeped in folklore and Rhine River myths. Lunch at a local riverside restaurant featuring regional cuisine. Spend time exploring charming Rhine Valley villages known for wine production and traditional half-timbered houses. In the evening, return to Frankfurt. Dinner at Indian/local restaurant. Overnight stay at Frankfurt.
+              </DayCard>
+
+              <DayCard title="Day – 2  |  Cologne & Bonn – Cathedral & Culture">
+                After breakfast, depart for Cologne, one of Germany's oldest cities situated along the Rhine River. Visit the magnificent Cologne Cathedral (Kölner Dom), a UNESCO World Heritage Site and one of Europe's largest Gothic cathedrals, famous for its towering twin spires and stunning stained-glass windows. Continue to the interactive Chocolate Museum to learn about the history of cocoa and enjoy sweet tastings. Lunch at local restaurant. Later, proceed to Bonn, the former capital of West Germany and birthplace of composer Ludwig van Beethoven. Explore the charming Old Town, Beethoven House (exterior view), and scenic Rhine promenade. Evening return to Frankfurt. Dinner & Overnight stay at Frankfurt.
+              </DayCard>
+
+              <DayCard title="Day – 3  |  Stuttgart & Black Forest – Automotive & Nature">
+                After breakfast, proceed for a full-day excursion to Stuttgart, the automotive heart of Germany. Visit the world-renowned Mercedes-Benz Museum, showcasing over 130 years of automobile innovation and engineering excellence. Continue your journey towards the enchanting Black Forest region, famous for its dense evergreen forests, traditional cuckoo clocks, and charming villages. Enjoy scenic drives through rolling hills and picturesque landscapes. Lunch at a local restaurant en-route. Experience authentic Black Forest culture and optionally taste the famous Black Forest cake. In the evening, return to Frankfurt. Enjoy a farewell dinner celebrating your memorable German journey. Overnight stay at Frankfurt.
+              </DayCard>
+
+            </div>
+</div>
             {/* RIGHT SIDE – VIDEO + AD */}
-            <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+          <div className="space-y-8 lg:sticky lg:top-24 h-fit">
 
               {/* Video Section */}
               <div className="bg-white rounded-3xl shadow-lg p-6">
@@ -139,84 +165,23 @@ export default function GermanyPage() {
               </div>
 
               {/* Advertisement Section */}
-              <div className="bg-gradient-to-br from-gray-700 to-slate-600 text-white rounded-3xl shadow-lg p-8 text-center">
+                {/* Advertisement Section */}
+              <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
                 <h3 className="text-2xl font-bold mb-4">
-                  🏰 European Heritage Special
+                  🚀 Paste Your Advertisement Here
                 </h3>
                 <p className="text-sm opacity-90">
-                  Get exclusive discounts on castle tours.
-                  Limited seats available for peak season!
+                  Promote your brand, offer or travel deals here.
+                  This space is perfect for partner promotions.
                 </p>
-                <button className="mt-6 bg-white text-gray-700 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
-                  Book Now
+                <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                  Contact For Promotion
                 </button>
               </div>
 
             </div>
 
-          </div>
-
-          {/* ADD-ON SECTIONS */}
-          <AddOnSection
-            title="RHINE VALLEY"
-            subtitle="Add-on (or) Separately From FRANKFURT"
-          />
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
-
-            {/* LEFT SIDE – ITINERARY */}
-            <div className="lg:col-span-2 space-y-8">
-
-              <DayCard title="Day – 1  |  Rhine Valley – Castles & River Cruise">
-                After breakfast, proceed for a scenic day excursion to the breathtaking Rhine Valley, a UNESCO World Heritage Site renowned for its dramatic landscapes, vineyard-covered hills, and medieval castles perched along the riverbanks. Upon arrival, board a relaxing Rhine River cruise and sail past picturesque towns and ancient fortresses that reflect Germany's romantic heritage. Enjoy spectacular views of the legendary Lorelei Rock, steeped in folklore and Rhine River myths. Lunch at a local riverside restaurant featuring regional cuisine. Spend time exploring charming Rhine Valley villages known for wine production and traditional half-timbered houses. In the evening, return to Frankfurt. Dinner at Indian/local restaurant. Overnight stay at Frankfurt.
-              </DayCard>
-
-              <DayCard title="Day – 2  |  Cologne & Bonn – Cathedral & Culture">
-                After breakfast, depart for Cologne, one of Germany's oldest cities situated along the Rhine River. Visit the magnificent Cologne Cathedral (Kölner Dom), a UNESCO World Heritage Site and one of Europe's largest Gothic cathedrals, famous for its towering twin spires and stunning stained-glass windows. Continue to the interactive Chocolate Museum to learn about the history of cocoa and enjoy sweet tastings. Lunch at local restaurant. Later, proceed to Bonn, the former capital of West Germany and birthplace of composer Ludwig van Beethoven. Explore the charming Old Town, Beethoven House (exterior view), and scenic Rhine promenade. Evening return to Frankfurt. Dinner & Overnight stay at Frankfurt.
-              </DayCard>
-
-              <DayCard title="Day – 3  |  Stuttgart & Black Forest – Automotive & Nature">
-                After breakfast, proceed for a full-day excursion to Stuttgart, the automotive heart of Germany. Visit the world-renowned Mercedes-Benz Museum, showcasing over 130 years of automobile innovation and engineering excellence. Continue your journey towards the enchanting Black Forest region, famous for its dense evergreen forests, traditional cuckoo clocks, and charming villages. Enjoy scenic drives through rolling hills and picturesque landscapes. Lunch at a local restaurant en-route. Experience authentic Black Forest culture and optionally taste the famous Black Forest cake. In the evening, return to Frankfurt. Enjoy a farewell dinner celebrating your memorable German journey. Overnight stay at Frankfurt.
-              </DayCard>
-
-            </div>
-
-            {/* RIGHT SIDE – VIDEO + AD */}
-            <div className="space-y-8 lg:sticky lg:top-24 h-fit">
-
-              {/* Video Section */}
-              <div className="bg-white rounded-3xl shadow-lg p-6">
-                <h3 className="text-xl font-bold mb-4 text-gray-800">
-                  Watch Rhine Valley Tour Video
-                </h3>
-
-                <div className="aspect-video rounded-xl overflow-hidden">
-                  <iframe
-                    className="w-full h-full"
-                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-                    title="Rhine Valley Tour"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-              </div>
-
-              {/* Advertisement Section */}
-              <div className="bg-gradient-to-br from-blue-500 to-indigo-600 text-white rounded-3xl shadow-lg p-8 text-center">
-                <h3 className="text-2xl font-bold mb-4">
-                  🚗 Automotive & Nature Tour
-                </h3>
-                <p className="text-sm opacity-90">
-                  Explore luxury cars and scenic river valleys.
-                  Special cultural tours available!
-                </p>
-                <button className="mt-6 bg-white text-blue-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
-                  Learn More
-                </button>
-              </div>
-
-            </div>
-
-          </div>
-
+</div>
         </div>
       </div>
         <TourPricingSection

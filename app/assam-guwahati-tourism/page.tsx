@@ -91,60 +91,99 @@ export default function AssamGuwahatiTourismPage() {
       {/* ================= BUDGET TOUR PACKAGE ================= */}
       <section className="py-20 bg-gradient-to-br from-green-50 to-emerald-50">
         <div className="max-w-7xl mx-auto px-6">
-          <Destination
-            title="Shillong, Guwahati, Kaziranga, Cherrapunjee, Kamakhya Temple"
-            cta="Book Now For 5N/6D"
-            subtitle="Budget tour package with Bengal Tourism - Special Tailor made Combination Package - Number of Days & Cost can be designed on Request"
-            content={[
-              `Day 1: Arrival at Guwahati and Transfer to Shillong, Meet your driver on arrival at Guwahati Railway station or Airport and start your journey towards Shillong which is also known as "Scotland of East".
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+
+            {/* LEFT SIDE – ITINERARY */}
+            <div className="lg:col-span-2 space-y-8">
+              <Destination
+                title="Shillong, Guwahati, Kaziranga, Cherrapunjee, Kamakhya Temple"
+                cta="Book Now For 5N/6D"
+                subtitle="Budget tour package with Bengal Tourism - Special Tailor made Combination Package - Number of Days & Cost can be designed on Request"
+                content={[
+                  `Day 1: Arrival at Guwahati and Transfer to Shillong, Meet your driver on arrival at Guwahati Railway station or Airport and start your journey towards Shillong which is also known as "Scotland of East".
               On the way if time permits you can enjoy at Umium lake which is situated in a pristine surrounding. In the lake you can enjoy boating (your cost).
               Check-in to hotel upon arrival in Shillong. Rest of the day free to explore the market on your own. Overnight stay at Hotel / Shillong.`,
 
-              `Day 2: Day tour to Cherrapunjee, After breakfast, start your day tour of Cherapunjee which is famous as the wettest place with highest rainfall on earth.
+                  `Day 2: Day tour to Cherrapunjee, After breakfast, start your day tour of Cherapunjee which is famous as the wettest place with highest rainfall on earth.
               You will be visiting Mawkadok View Point, Wakabha Falls, Noh Kali Kai Falls, Eco Park, Mawsami Cave and the famous
               Noh Sngithiang Falls (Seven Sister Falls) which is one of the highest waterfall in India.
               Evening return back to Shillong. Overnight stay at Hotel / Shillong.`,
 
-              `Day 3: Visit Mawllynnong Village, Early morning we will visit the cleanest village in India that is nearly 28 kms from Shillong.
+                  `Day 3: Visit Mawllynnong Village, Early morning we will visit the cleanest village in India that is nearly 28 kms from Shillong.
               Just close to the scenic village, there are interesting sights like the Living Roots Bridge and a beautiful sight of boulders
               balancing on another rock. In the afternoon we will return back to Shillong by evening. Overnight stay at Hotel / Shillong.`,
 
-              `Day 4: Shillong Local sightseeing, After breakfast we will go for exploring Shillong visiting Shillong Peak, Elephant Falls, Lady Hyderi Park, Golf Course,
+                  `Day 4: Shillong Local sightseeing, After breakfast we will go for exploring Shillong visiting Shillong Peak, Elephant Falls, Lady Hyderi Park, Golf Course,
               Cathedral Church, State Museum, Don Bosco Museum and Ward's Lake where you can enjoy boating on direct payment.
               In the evening you are free to explore the market of Shillong on your own. Overnight at Hotel / Shillong.`,
 
-              `Day 5: Transfer to Guwahati, After breakfast we will start our journey towards Guwahati, which is also known as "Gateway of North-East".
+                  `Day 5: Transfer to Guwahati, After breakfast we will start our journey towards Guwahati, which is also known as "Gateway of North-East".
               Upon arrival check-in to hotel and later go for local sightseeing visiting Kalakshetra, Balaji Temple, Vasist Temple
               and Umanad, which is a temple on an island on the might Brahmaputra. In the evening we will be going for a River cruise (your cost) or Kamakhya Temple.
               Overnight at Hotel / Guwahati.`,
 
-              `Day 6: Visit Kamakhya Temple, After breakfast, we will be visiting Kamakhya Temple which is one of the important and famous Shakti Pith Temple in India
+                  `Day 6: Visit Kamakhya Temple, After breakfast, we will be visiting Kamakhya Temple which is one of the important and famous Shakti Pith Temple in India
               before boarding train or flight for your return journey. Tour Ends...`
-            ]}
-          />
-
-          <div className="bg-white rounded-3xl shadow-2xl overflow-hidden mt-5">
-            <div className="bg-gradient-to-r from-orange-500 to-amber-500 text-white p-8">
-              <div className="flex items-center justify-between">
-                <div>
-                  <h3 className="text-2xl font-bold mb-2">ADD ON: Kaziranga Forest</h3>
+                ]}
+              />
+              <div className="bg-white rounded-3xl shadow-2xl overflow-hidden mt-5">
+                <div className="bg-gradient-to-r from-orange-500 to-amber-500 text-white p-8">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h3 className="text-2xl font-bold mb-2">ADD ON: Kaziranga Forest</h3>
+                    </div>
+                    <a href="/book-tour" className="bg-yellow-600 font-semibold shadow-md rounded-full text-white px-4 py-2">
+                      Book Now For 1N/2D
+                    </a>
+                  </div>
                 </div>
-                <a href="/book-tour" className="bg-yellow-600 font-semibold shadow-md rounded-full text-white px-4 py-2">
-                  Book Now For 1N/2D
-                </a>
+                <div className="p-6">
+                  <p className="text-gray-700 leading-relaxed">
+                    Get up early for elephant safari into the forest. Our representative will take you to the elephant riding point by jeeps.
+                    Here we will be carried through the tall grass. Meanwhile the morning mists will slowly lift leading to an experience that one cannot forget easily.
+                    The elephant safari is the best mean for wildlife viewing as the wild animals are not afraid of the elephants and it is possible to observe them from very closely.
+                    Return to the resort for breakfast. After breakfast, we will go for jeep safari in the national park for wildlife viewing in the central zone.
+                    Later return to the resort for unwinding yourself and having lunch. After lunch we will go on our second jeep safari of the day, this time we will visit the Western zone of the national park.
+                    One can also spend some time at the Donga view point, situated in western zone. Overnight stay at Resort / Kaziranga.
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="p-6">
-              <p className="text-gray-700 leading-relaxed">
-                Get up early for elephant safari into the forest. Our representative will take you to the elephant riding point by jeeps.
-                Here we will be carried through the tall grass. Meanwhile the morning mists will slowly lift leading to an experience that one cannot forget easily.
-                The elephant safari is the best mean for wildlife viewing as the wild animals are not afraid of the elephants and it is possible to observe them from very closely.
-                Return to the resort for breakfast. After breakfast, we will go for jeep safari in the national park for wildlife viewing in the central zone.
-                Later return to the resort for unwinding yourself and having lunch. After lunch we will go on our second jeep safari of the day, this time we will visit the Western zone of the national park.
-                One can also spend some time at the Donga view point, situated in western zone. Overnight stay at Resort / Kaziranga.
-              </p>
+            <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+              {/* Video Section */}
+              <div className="bg-white rounded-3xl shadow-lg p-6">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  Watch Assam Video
+                </h3>
+
+                <div className="aspect-video rounded-xl overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    title="Atlantis Experience"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+
+              {/* Advertisement Section */}
+              <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
+                <h3 className="text-2xl font-bold mb-4">
+                  🚀 Paste Your Advertisement Here
+                </h3>
+                <p className="text-sm opacity-90">
+                  Promote your brand, offer or travel deals here.
+                  This space is perfect for partner promotions.
+                </p>
+                <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                  Contact For Promotion
+                </button>
+              </div>
+
             </div>
           </div>
+
         </div>
       </section>
       {/* ================= WILDLIFE SANCTUARIES ================= */}

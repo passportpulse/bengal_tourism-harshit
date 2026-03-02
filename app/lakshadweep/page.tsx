@@ -77,20 +77,21 @@ export default function LakshadweepPage() {
             </p>
           </div>
 
-   <div className="flex flex-col  space-y-2">
+          <div className="flex flex-col  space-y-2">
 
 
-      <div className='flex gap-5 items-center'>
-            <h2 className="text-3xl font-bold text-gray-800">LAKSHADWEEP</h2>
-            <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
+            <div className='flex gap-5 items-center'>
+              <h2 className="text-3xl font-bold text-gray-800">LAKSHADWEEP</h2>
+              <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
                 Book now For 4N/5D
               </a>
-              </div>
+            </div>
             <p className="font-semibold text-gray-700">
               Circuit with AGATTI – BANGARAM – KAVARATTI
             </p>
           </div>
-
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+            <div className="lg:col-span-2 space-y-8">
           <div className="grid md:grid-cols-1 gap-10 items-stretch">
 
             {/* DAY 1 */}
@@ -149,7 +150,6 @@ export default function LakshadweepPage() {
               </div>
             </div>
           </div>
-
           {/* ADDITIONAL ISLAND DESTINATIONS */}
           <div className="text-center space-y-4 mb-12">
             <h2 className="text-4xl font-bold text-indigo-600">
@@ -159,61 +159,95 @@ export default function LakshadweepPage() {
               Explore more pristine islands with our add-on packages
             </p>
           </div>
-
           {/* KRABI */}
           <Section title="KADMAT ISLAND" subtitle="Add-on (or) Separately with KADMAT ">
             <Content>
-             Day –1: Arrival at Kadmat Island. Transfer to Resort. Relax at white sandy beach. Evening sunset walk. Dinner & Overnight stay.
+              Day –1: Arrival at Kadmat Island. Transfer to Resort. Relax at white sandy beach. Evening sunset walk. Dinner & Overnight stay.
 
-<br />
-Day –2: After breakfast, enjoy water sports like snorkeling, scuba diving, kayaking & reef walking. Explore marine biodiversity and coral gardens. Evening free for leisure. Dinner & Overnight stay.
+              <br />
+              Day –2: After breakfast, enjoy water sports like snorkeling, scuba diving, kayaking & reef walking. Explore marine biodiversity and coral gardens. Evening free for leisure. Dinner & Overnight stay.
 
-<br />
-Day –3: After breakfast, check-out and transfer to Agatti Airport for onward journey. Tour ends.
+              <br />
+              Day –3: After breakfast, check-out and transfer to Agatti Airport for onward journey. Tour ends.
             </Content>
           </Section>
-<Section title="MINICOY ISLAND" subtitle="Add-on (or) Separately with MINICOY">
-  <Content>
-    Day –1: Arrival at Minicoy Island. Transfer to beach resort. Minicoy is famous for its crescent-shaped lagoon and lighthouse views. After check-in, relax on the untouched beaches surrounded by coconut groves. Evening visit to the historic Lighthouse offering panoramic sunset views. Dinner & Overnight stay at Resort.
+          <Section title="MINICOY ISLAND" subtitle="Add-on (or) Separately with MINICOY">
+            <Content>
+              Day –1: Arrival at Minicoy Island. Transfer to beach resort. Minicoy is famous for its crescent-shaped lagoon and lighthouse views. After check-in, relax on the untouched beaches surrounded by coconut groves. Evening visit to the historic Lighthouse offering panoramic sunset views. Dinner & Overnight stay at Resort.
 
-    <br /><br />
+              <br /><br />
 
-    Day –2: After breakfast, enjoy lagoon activities like snorkeling, kayaking and glass-bottom boat ride. Explore vibrant coral reefs and tropical marine species. Later visit local village to experience traditional Mahl culture and tuna fishing heritage. Evening free for leisure by the beach. Dinner & Overnight stay.
+              Day –2: After breakfast, enjoy lagoon activities like snorkeling, kayaking and glass-bottom boat ride. Explore vibrant coral reefs and tropical marine species. Later visit local village to experience traditional Mahl culture and tuna fishing heritage. Evening free for leisure by the beach. Dinner & Overnight stay.
 
-    <br /><br />
+              <br /><br />
 
-    Day –3: After breakfast, check-out and transfer by boat/flight to Agatti for onward journey. Tour Ends.
-  </Content>
-</Section>
+              Day –3: After breakfast, check-out and transfer by boat/flight to Agatti for onward journey. Tour Ends.
+            </Content>
+          </Section>
+          <Section title="KALPENI ISLAND" subtitle="Add-on (or) Separately with KALPENI">
+            <Content>
+              Day –1: Arrival at Kalpeni Island. Transfer to resort. Kalpeni is known for its shallow lagoons and beautiful coral debris beaches. After check-in, relax and enjoy serene beach time. Evening sunset photography and lagoon walk. Dinner & Overnight stay.
 
-<Section title="KALPENI ISLAND" subtitle="Add-on (or) Separately with KALPENI">
-  <Content>
-    Day –1: Arrival at Kalpeni Island. Transfer to resort. Kalpeni is known for its shallow lagoons and beautiful coral debris beaches. After check-in, relax and enjoy serene beach time. Evening sunset photography and lagoon walk. Dinner & Overnight stay.
+              <br /><br />
 
-    <br /><br />
+              Day –2: After breakfast, enjoy water sports like snorkeling, reef walking, kayaking and canoeing in crystal clear lagoon waters. Visit nearby small islets – Tilakkam and Pitti (if permitted). Enjoy beach picnic and marine exploration. Evening free for relaxation. Dinner & Overnight stay.
 
-    Day –2: After breakfast, enjoy water sports like snorkeling, reef walking, kayaking and canoeing in crystal clear lagoon waters. Visit nearby small islets – Tilakkam and Pitti (if permitted). Enjoy beach picnic and marine exploration. Evening free for relaxation. Dinner & Overnight stay.
+              <br /><br />
 
-    <br /><br />
+              Day –3: After breakfast, check-out and transfer to Agatti Airport for departure. Tour Ends.
+            </Content>
+          </Section>
 
-    Day –3: After breakfast, check-out and transfer to Agatti Airport for departure. Tour Ends.
-  </Content>
-</Section>
+</div>
+          <div className="space-y-8 lg:sticky lg:top-24 h-fit">
 
+            {/* Video Section */}
+            <div className="bg-white rounded-3xl shadow-lg p-6">
+              <h3 className="text-xl font-bold mb-4 text-gray-800">
+                Watch Lakshadweep Tour Video
+              </h3>
+
+              <div className="aspect-video rounded-xl overflow-hidden">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                  title="Italy Tour"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+
+
+            {/* Advertisement Section */}
+            <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
+              <h3 className="text-2xl font-bold mb-4">
+                🚀 Paste Your Advertisement Here
+              </h3>
+              <p className="text-sm opacity-90">
+                Promote your brand, offer or travel deals here.
+                This space is perfect for partner promotions.
+              </p>
+              <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                Contact For Promotion
+              </button>
+            </div>
+
+          </div>
+          </div>
         </div>
       </div>
-           <TourPricingSection
-                  title="Lakshadweep Luxury Island Retreats"
-subtitle="Crystal-clear waters, private beaches & curated tropical escapes"
-                        packages={[
-              { label: "recommended for extended duration", days: "6N / 7D", price: 22600 },
-              { label: "highly recommended", days: "5N / 6D", price: 19000 },
-              { label: "most popular", days: "4N / 5D", price: 15400 },
-               { label: "Group 20+", days: "3N / 4D", price: 12700 },
-              { label: "", days: "2N / 3D", price: 9100},
-              { label: "Not Feasible", days: "1N / 2D", price: 3700, disabled: true },
-            ]}
-                   />
+      <TourPricingSection
+        title="Lakshadweep Luxury Island Retreats"
+        subtitle="Crystal-clear waters, private beaches & curated tropical escapes"
+        packages={[
+          { label: "recommended for extended duration", days: "6N / 7D", price: 22600 },
+          { label: "highly recommended", days: "5N / 6D", price: 19000 },
+          { label: "most popular", days: "4N / 5D", price: 15400 },
+          { label: "Group 20+", days: "3N / 4D", price: 12700 },
+          { label: "", days: "2N / 3D", price: 9100 },
+          { label: "Not Feasible", days: "1N / 2D", price: 3700, disabled: true },
+        ]}
+      />
       <ContactCTA />
     </main>
   )

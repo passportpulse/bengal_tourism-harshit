@@ -269,10 +269,10 @@ export default function DarjeelingPage() {
   </div>
 
   {/* RIGHT SIDE – VIDEO + AD */}
-  <div className="space-y-8">
+  <div className="space-y-8 sticky top-8 self-start">
 
     {/* Video Section */}
-    <div className="bg-white rounded-3xl shadow-lg p-6">
+    <div className="bg-white rounded-3xl shadow-lg p-6 ">
       <h3 className="text-xl font-bold mb-4 text-gray-800">
         Watch Darjeeling Tour Video
       </h3>

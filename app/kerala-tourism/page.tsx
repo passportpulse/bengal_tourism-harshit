@@ -63,21 +63,25 @@ export default function KeralaTourismPage() {
       {/* ================= KERALA MAIN PACKAGE ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-   <Destination
-                    title="Kerala Circuit Package"
-                    cta="Book now For 5N/6D"
-                    subtitle=" Cochin - Munnar - Thekkady - Alleppey"
-                    content={[
-                      `Day 1: Arrival in Munnar, You will be picking from Cochin Airport / Ernakulam railway station and drive to Munnar (04 Hrs drive).
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+
+            {/* LEFT SIDE – ITINERARY */}
+            <div className="lg:col-span-2 space-y-8">
+              <Destination
+                title="Kerala Circuit Package"
+                cta="Book now For 5N/6D"
+                subtitle=" Cochin - Munnar - Thekkady - Alleppey"
+                content={[
+                  `Day 1: Arrival in Munnar, You will be picking from Cochin Airport / Ernakulam railway station and drive to Munnar (04 Hrs drive).
                       On the way enjoy some waterfalls and natural scenic spots.
                       On arrival at Munnar check into Hotel and relax for the rest of the day.
                       Breakfast & Dinner included. Overnight stay at Hotel will be arranged.`,
-                      `Day 2: Munnar Local Sightseeing, After breakfast spend the day with local sightseeing.
+                  `Day 2: Munnar Local Sightseeing, After breakfast spend the day with local sightseeing.
                       Situated at the confluence of three mountain streams - Mudrapuzha, Nallathanni and Kundale, Munnar is 1600 Meter above sea level.
                       This majestic hill station was once the summer resort of the British government in South India.
                       Local sightseeing of Munnar includes visit to Mattupetty Dam, Kundale Lake and Echo point.
                       Breakfast & Dinner included. Overnight stay is arranged at Munnar.`,
-                      `Day 3: Thekkady, After breakfast check out from Hotel and drive to Thekkady (04 Hrs).
+                  `Day 3: Thekkady, After breakfast check out from Hotel and drive to Thekkady (04 Hrs).
                       On arrival check in to Hotel.
                       Proceed for sightseeing tour of Thekkady - one of the world's most fascinating wild life reserves.
                       The Periyar wild life sanctuary in Thekkady is spread across 777 sq km of which 360 sq km is thick evergreen forest.
@@ -85,59 +89,89 @@ export default function KeralaTourismPage() {
                       Optional activities like Boating at Periyar Lake, Spice Plantation visit and Elephant Ride can be done at an extra cost.
                       Breakfast & Dinner included. Overnight stay is arranged in Thekkady.`,
 
-                      `Day 4: Alleppey Backwater Cruise,   After breakfast check out from Hotel / houseboat and drive to Alleppey. 
+                  `Day 4: Alleppey Backwater Cruise,   After breakfast check out from Hotel / houseboat and drive to Alleppey. 
                       Set out on an enchanting overnight backwater cruise in traditionally decorated houseboats. 
                       Check in time is 01:00 PM and cruise starts with lunch. 
                       While cruising, let your eyes settle for bowed-down paddy fields, local inhabitants, rustic homes, ancient churches / temples and swaying coconut groves. 
                       Food will be served onboard. 
                       Breakfast & Dinner included. Overnight stay in houseboat.`,
 
-                      `Day 5: Kovalam, After breakfast check out from Hotel / houseboat and drive to Kovalam (04 Hrs Drive). 
+                  `Day 5: Kovalam, After breakfast check out from Hotel / houseboat and drive to Kovalam (04 Hrs Drive). 
                       On arrival check-in into Hotel. 
                       Kovalam is one of the prime beach destinations in India. 
                       Enjoy evening watching a spectacular sunset or swimming at picturesque Kovalam Beach. 
                       Breakfast & Dinner included. Overnight stay is to be spent at Hotel.`,
 
-                      `Day 6: After breakfast check-out from Hotel. 
+                  `Day 6: After breakfast check-out from Hotel. 
                       Visit some local area if time permits. 
                       Then leave to drop-off at Cochin Airport / Ernakulam Railway Station for your onward journey. 
                       Breakfast & Dinner included. Tour ends...`
-                    ]}
-                  />
+                ]}
+              />
+                <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 shadow-xl mt-5">
 
-          <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 shadow-xl mt-5">
-           
-                <div className="space-y-6 grid md:grid-cols-1 gap-8 ">
+            <div className="space-y-6 grid md:grid-cols-1 gap-8 ">
 
-
-
-
-               
-
-                  <div className="bg-green-100 rounded-xl p-6 mt-8">
-                    <h4 className="font-bold text-green-800 mb-3">Package Highlights</h4>
-                    <div className="space-y-2">
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-green-600" />
-                        <span className="text-gray-700">Munnar Hill Station</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-green-600" />
-                        <span className="text-gray-700">Periyar Wildlife Sanctuary</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-green-600" />
-                        <span className="text-gray-700">Alleppey Backwater Cruise</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-green-600" />
-                        <span className="text-gray-700">Kovalam Beach Experience</span>
-                      </div>
-                    </div>
+              <div className="bg-green-100 rounded-xl p-6 mt-8">
+                <h4 className="font-bold text-green-800 mb-3">Package Highlights</h4>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-600" />
+                    <span className="text-gray-700">Munnar Hill Station</span>
                   </div>
-              
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-600" />
+                    <span className="text-gray-700">Periyar Wildlife Sanctuary</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-600" />
+                    <span className="text-gray-700">Alleppey Backwater Cruise</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-600" />
+                    <span className="text-gray-700">Kovalam Beach Experience</span>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
+            </div>
+            <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+              {/* Video Section */}
+              <div className="bg-white rounded-3xl shadow-lg p-6">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  Watch Kerala Video
+                </h3>
+
+                <div className="aspect-video rounded-xl overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    title="Atlantis Experience"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+
+              {/* Advertisement Section */}
+              <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
+                <h3 className="text-2xl font-bold mb-4">
+                  🚀 Paste Your Advertisement Here
+                </h3>
+                <p className="text-sm opacity-90">
+                  Promote your brand, offer or travel deals here.
+                  This space is perfect for partner promotions.
+                </p>
+                <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                  Contact For Promotion
+                </button>
+              </div>
+
+            </div>
+          </div>
+        
         </div>
       </section>
 
