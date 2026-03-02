@@ -123,7 +123,7 @@ export default function MaldivesPage() {
                 </DayCard>
 
                 <DayCard title="Day – 3">
-                  South Male Exploration: Morning cruise to South Male Atoll. Breakfast while enjoying ocean views. Visit a resort island for lunch and spa facilities. Afternoon water sports activities - jet skiing, windsurfing, or paddleboarding. Evening visit to a sandbank for sunset photography. Special farewell dinner on the beach setup by cruise crew. Overnight on the cruise.
+       Leisure & Departure: After breakfast, enjoy the morning at leisure. Take advantage of resort facilities - swimming pool, fitness center, or last-minute water activities. Optional last-minute shopping for local handicrafts. Check-out from the resort. Transfer to Male International Airport for your return flight with unforgettable memories of tropical paradise. Tour ends.
                 </DayCard>
               </div>
 
@@ -141,7 +141,7 @@ export default function MaldivesPage() {
                 </DayCard>
 
                 <DayCard title="Day – 3">
-                  Luxury Indulgence: Private underwater dining experience at the resort's signature restaurant. Couples spa day with full body treatments and massages. Afternoon private photoshoot around the resort and island. Evening sunset dolphin cruise with champagne. Special romantic dinner setup on the beach with live music. Overnight in luxury villa.
+              Leisure & Departure: After breakfast, enjoy the morning at leisure. Take advantage of resort facilities - swimming pool, fitness center, or last-minute water activities. Optional last-minute shopping for local handicrafts. Check-out from the resort. Transfer to Male International Airport for your return flight with unforgettable memories of tropical paradise. Tour ends.
                 </DayCard>
               </div>
             </div>

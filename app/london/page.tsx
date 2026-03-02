@@ -139,7 +139,7 @@ export default function LondonPage() {
                 </DayCard>
 
                 <DayCard title="Day – 3  |  Canterbury & Leeds Castle – Medieval England">
-                  After breakfast, proceed to Canterbury, one of England’s most historic cities. Visit the magnificent Canterbury Cathedral, a UNESCO World Heritage Site and one of the most important Christian pilgrimage destinations in the world. Explore its stunning stained glass windows and centuries-old architecture. Lunch at a local restaurant. Continue to Leeds Castle, often described as “the loveliest castle in the world,” surrounded by a picturesque moat and beautifully landscaped gardens. Discover its royal history and elegant interiors. Evening return to London. Enjoy a farewell dinner celebrating your memorable journey through England’s heritage. Overnight stay at London.
+        After breakfast, check-out from hotel and transfer to Heathrow or Gatwick Airport for your onward journey. Depart with unforgettable memories of London’s royal heritage, historic landmarks, vibrant culture, and timeless charm. Tour Ends.
                 </DayCard>
               </div>
 

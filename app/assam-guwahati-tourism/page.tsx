@@ -144,7 +144,7 @@ export default function AssamGuwahatiTourismPage() {
                     The elephant safari is the best mean for wildlife viewing as the wild animals are not afraid of the elephants and it is possible to observe them from very closely.
                     Return to the resort for breakfast. After breakfast, we will go for jeep safari in the national park for wildlife viewing in the central zone.
                     Later return to the resort for unwinding yourself and having lunch. After lunch we will go on our second jeep safari of the day, this time we will visit the Western zone of the national park.
-                    One can also spend some time at the Donga view point, situated in western zone. Overnight stay at Resort / Kaziranga.
+                    One can also spend some time at the Donga view point, situated in western zone. Departure From Resort / Kaziranga. Tour Ends..
                   </p>
                 </div>
               </div>

@@ -169,7 +169,9 @@ export default function BhutanPage() {
                   DAfter breakfast, Check-out for Half day site seen of Phobjikha valley which include visit to Gangtey Gonpa, etc. After site seen back to Punakha. Some local sight-seeing en-route included. Lunch-en-route. Return in the evening. Overnight stay in a Hotel at Punakha.
                 </DayCard>
                 <DayCard title="Day – 3">
-                  To visit Bumthang / Gangtey / Haa Valley ( 200km, 7 hours drive ): In order to visit these additional places, it is advised to add one more night (or pay Rs. 5000/- per vehicle to visit these places by not visiting other places mentioned elsewhere. Lunch-en-route. Return in the evening. Dinner & Overnight at Hotel at Punakha / Paro.
+                
+                  
+                  Departure: After breakfast, check-out of the Hotel in the afternoon.  if time permits and proceed to the airport for return flight to Kolkata, India. Tour ends
                 </DayCard>
               </div>
             </div>

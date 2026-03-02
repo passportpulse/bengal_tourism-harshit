@@ -255,21 +255,17 @@ export default function ItalyPage() {
 
 
                 <DayCard title="Day – 3 | Milan Fashion & Heritage Experience">
-                  After breakfast, begin your day with a visit to Milan’s famous Fashion District,
-                  known as Quadrilatero della Moda. Explore luxury designer boutiques and
-                  experience the glamorous side of Italian fashion.
+                  After breakfast, check out from the hotel.
 
-                  Continue to Sforza Castle (Castello Sforzesco), a historic fortress that now
-                  houses museums and art collections showcasing Milan’s rich heritage.
+                  Visit the historic Doge’s Palace, a masterpiece of Gothic architecture and
+                  former residence of Venetian rulers. Walk across the iconic Rialto Bridge,
+                  one of the oldest bridges spanning the Grand Canal and a perfect spot for
+                  photographs and souvenir shopping.
 
-                  Lunch at a local restaurant en-route.
+                  Later, transfer to Venice Marco Polo International Airport for your onward
+                  journey with unforgettable memories of Italy.
 
-                  In the evening, enjoy shopping at Corso Buenos Aires, one of Europe’s longest
-                  shopping streets offering a mix of international brands and local stores.
-
-                  Later, return to the hotel for dinner.
-
-                  Overnight stay at Milan.
+                  Tour Ends.
                 </DayCard>
               </div>
             </div>

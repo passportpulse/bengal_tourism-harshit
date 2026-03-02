@@ -139,7 +139,7 @@ export default function CambodiaPage() {
                 </DayCard>
 
                 <DayCard title="Day – 3  |  Beng Mealea & Koh Ker Exploration">
-                  After breakfast, proceed to Beng Mealea Temple, often referred to as the "hidden jungle temple." This mysterious 12th-century temple is partially reclaimed by nature, with massive tree roots entwined around ancient stone walls, offering an adventurous exploration experience. Continue the journey to the remote Koh Ker archaeological site, once the capital of the Khmer Empire in the 10th century. Explore the impressive Prasat Thom pyramid temple, a seven-tiered structure rising dramatically above the jungle landscape, offering panoramic views from the top. Discover ancient ruins scattered across forested surroundings, far from the usual tourist crowds. Lunch at a local restaurant en-route. Return to Siem Reap in the evening and explore a local market for souvenirs and handicrafts. Dinner & Overnight stay at Siem Reap.
+                    Departure: After breakfast, check-out of the Hotel in the afternoon.  if time permits and proceed to the airport for return flight to Kolkata, India. Tour ends
                 </DayCard>
 
               </div>

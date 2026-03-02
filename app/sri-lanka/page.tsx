@@ -133,7 +133,7 @@ export default function SriLankaPage() {
                 </DayCard>
 
                 <DayCard title="Day – 3  |  Galle to Colombo – Coastal Heritage & Shopping">
-                  After breakfast, check-out and proceed towards Colombo via the southern coastal highway. En route, visit the famous Mask Museum in Ambalangoda, where you can explore Sri Lanka's traditional handcrafted wooden masks used in folk dances and rituals. Learn about their cultural significance and craftsmanship. Lunch at a local restaurant. Upon arrival in Colombo, check-in at hotel. Evening free for last-minute shopping at Colombo's popular malls such as Odel, Crescat Boulevard or local handicraft stores. Dinner at Indian/local restaurant. Overnight stay at Colombo.
+                   After breakfast, check-out from hotel and transfer to Bandaranaike International Airport for your onward journey. Depart with unforgettable memories of Sri Lanka's ancient heritage, sacred temples, wildlife safaris, misty tea plantations, and pristine beaches. Tour Ends.
                 </DayCard>
 
               </div>

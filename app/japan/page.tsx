@@ -134,7 +134,7 @@ export default function JapanPage() {
               </DayCard>
 
               <DayCard title="Day – 3  |  Hiroshima to Osaka">
-                After breakfast at the hotel, check-out and proceed for a half-day Hiroshima city exploration. Visit Hiroshima Castle, also known as “Carp Castle,” which showcases samurai-era history and traditional Japanese architecture. Continue to Shukkeien Garden, a beautifully landscaped traditional Japanese garden featuring miniature valleys, mountains, and tea houses — perfect for a peaceful morning walk. Lunch at local restaurant. Later, transfer to Hiroshima Station to board the Shinkansen back to Osaka. Upon arrival, transfer to hotel and check-in. Evening free for last-minute shopping at Shinsaibashi or exploring the lively Dotonbori district. Dinner at Indian/Local restaurant. Overnight stay at Osaka.
+                   After breakfast, check-out from hotel. Depending on your flight schedule, free time for last-minute shopping or leisure. Transfer to Kansai International Airport for your onward flight. Depart with unforgettable memories of Japan’s rich culture, advanced technology, serene temples and vibrant cities. Tour Ends.
               </DayCard>
             </div>
             </div>

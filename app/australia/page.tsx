@@ -76,208 +76,194 @@ export default function AustraliaPage() {
               Special Tailor made Combination Package, Number of Days & Cost can be designed on Request.
             </p>
           </div>
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
             <div className="lg:col-span-2 space-y-8">
-          {/* MAIN CIRCUIT TITLE */}
-          <SectionTitle
-            title="AUSTRALIA"
-            subtitle="Down Under Paradise With SYDNEY – MELBOURNE – GOLD COAST-"
-          />
+              {/* MAIN CIRCUIT TITLE */}
+              <SectionTitle
+                title="AUSTRALIA"
+                subtitle="Down Under Paradise With SYDNEY – MELBOURNE – GOLD COAST-"
+              />
 
-          {/* MAIN DAY WISE */}
-          <div className=" grid  gap-10 grid-col-1">
-            {/* MAIN DAY WISE */}
+              {/* MAIN DAY WISE */}
+              <div className=" grid  gap-10 grid-col-1">
+                {/* MAIN DAY WISE */}
 
-            <DayCard title="Day – 1 | Arrival in Sydney & Harbour Experience">
-              Welcome to Australia! Upon arrival at Sydney Kingsford Smith International Airport,
-              our representative will warmly receive you and assist with your transfer to the hotel.
-              After check-in, relax and freshen up after your journey.
+                <DayCard title="Day – 1 | Arrival in Sydney & Harbour Experience">
+                  Welcome to Australia! Upon arrival at Sydney Kingsford Smith International Airport,
+                  our representative will warmly receive you and assist with your transfer to the hotel.
+                  After check-in, relax and freshen up after your journey.
 
-              In the evening, visit the vibrant Darling Harbour, one of Sydney’s most popular
-              waterfront destinations filled with restaurants, entertainment, and scenic views.
-              Continue to SEA LIFE Sydney Aquarium to witness Australia’s unique marine life,
-              including sharks, rays, and tropical fish.
+                  In the evening, visit the vibrant Darling Harbour, one of Sydney’s most popular
+                  waterfront destinations filled with restaurants, entertainment, and scenic views.
+                  Continue to SEA LIFE Sydney Aquarium to witness Australia’s unique marine life,
+                  including sharks, rays, and tropical fish.
 
-              Enjoy dinner at a local restaurant.
+                  Enjoy dinner at a local restaurant.
 
-              Overnight stay at Sydney.
-            </DayCard>
+                  Overnight stay at Sydney.
+                </DayCard>
 
 
-            <DayCard title="Day – 2 | Sydney City Highlights Tour">
-              After breakfast, proceed for a comprehensive full-day Sydney city tour.
+                <DayCard title="Day – 2 | Sydney City Highlights Tour">
+                  After breakfast, proceed for a comprehensive full-day Sydney city tour.
 
-              Visit the iconic Sydney Opera House and admire its world-famous sail-shaped
-              architecture. Drive across or stop at the Sydney Harbour Bridge for panoramic
-              harbour views and photography.
+                  Visit the iconic Sydney Opera House and admire its world-famous sail-shaped
+                  architecture. Drive across or stop at the Sydney Harbour Bridge for panoramic
+                  harbour views and photography.
 
-              Continue to the famous Bondi Beach, known for its golden sands and surfing culture.
-              Enjoy lunch at a local restaurant en-route.
+                  Continue to the famous Bondi Beach, known for its golden sands and surfing culture.
+                  Enjoy lunch at a local restaurant en-route.
 
-              In the evening, relax at the Royal Botanic Gardens, offering stunning views of
-              Sydney Harbour and a peaceful green escape in the heart of the city.
+                  In the evening, relax at the Royal Botanic Gardens, offering stunning views of
+                  Sydney Harbour and a peaceful green escape in the heart of the city.
 
-              Dinner and overnight stay at Sydney.
-            </DayCard>
+                  Dinner and overnight stay at Sydney.
+                </DayCard>
 
 
-            <DayCard title="Day – 3 | Blue Mountains & Natural Wonders">
-              After breakfast, depart for a full-day excursion to the breathtaking Blue Mountains,
-              a UNESCO World Heritage-listed region known for dramatic cliffs and eucalyptus forests.
+                <DayCard title="Day – 3 | Blue Mountains & Natural Wonders">
+                  After breakfast, depart for a full-day excursion to the breathtaking Blue Mountains,
+                  a UNESCO World Heritage-listed region known for dramatic cliffs and eucalyptus forests.
 
-              Visit Scenic World and enjoy thrilling experiences such as the Scenic Railway,
-              Cableway, or Skyway (optional activities).
+                  Visit Scenic World and enjoy thrilling experiences such as the Scenic Railway,
+                  Cableway, or Skyway (optional activities).
 
-              Stop at Echo Point to witness the famous Three Sisters rock formation and enjoy
-              spectacular valley views.
+                  Stop at Echo Point to witness the famous Three Sisters rock formation and enjoy
+                  spectacular valley views.
 
-              Continue to the historic Jenolan Caves, renowned for their impressive limestone
-              formations.
+                  Continue to the historic Jenolan Caves, renowned for their impressive limestone
+                  formations.
 
-              Lunch will be arranged en-route. In the evening, return to Sydney.
+                  Lunch will be arranged en-route. In the evening, return to Sydney.
 
-              Dinner and overnight stay at Sydney.
-            </DayCard>
+                  Dinner and overnight stay at Sydney.
+                </DayCard>
 
 
-            <DayCard title="Day – 4 | Sydney to Melbourne – Cultural Capital">
-              After breakfast, check out and transfer to the airport for your flight to Melbourne.
+                <DayCard title="Day – 4 | Sydney to Melbourne – Cultural Capital">
+                  After breakfast, check out and transfer to the airport for your flight to Melbourne.
 
-              Upon arrival, transfer to your hotel and complete check-in formalities.
-              Begin exploring the city with a visit to Federation Square, Melbourne’s cultural hub,
-              followed by the iconic Flinders Street Station, one of Australia’s most photographed landmarks.
+                  Upon arrival, transfer to your hotel and complete check-in formalities.
+                  Begin exploring the city with a visit to Federation Square, Melbourne’s cultural hub,
+                  followed by the iconic Flinders Street Station, one of Australia’s most photographed landmarks.
 
-              Lunch at a local restaurant en-route.
+                  Lunch at a local restaurant en-route.
 
-              In the evening, explore Queen Victoria Market (subject to operating days),
-              known for local produce, souvenirs, and vibrant atmosphere.
+                  In the evening, explore Queen Victoria Market (subject to operating days),
+                  known for local produce, souvenirs, and vibrant atmosphere.
 
-              Dinner and overnight stay at Melbourne.
-            </DayCard>
+                  Dinner and overnight stay at Melbourne.
+                </DayCard>
 
 
-            <DayCard title="Day – 5 | Melbourne City & Coastal Experience">
-              After breakfast, proceed for a Melbourne city tour.
+                <DayCard title="Day – 5 | Melbourne City & Coastal Experience">
+                  After breakfast, proceed for a Melbourne city tour.
 
-              Visit the legendary Melbourne Cricket Ground (MCG), one of the world’s most famous
-              sporting stadiums. Continue to the Royal Botanic Gardens for a relaxing walk
-              amidst beautiful landscapes.
+                  Visit the legendary Melbourne Cricket Ground (MCG), one of the world’s most famous
+                  sporting stadiums. Continue to the Royal Botanic Gardens for a relaxing walk
+                  amidst beautiful landscapes.
 
-              Later, head to St. Kilda Beach, a lively seaside suburb perfect for leisure time
-              and scenic coastal views.
+                  Later, head to St. Kilda Beach, a lively seaside suburb perfect for leisure time
+                  and scenic coastal views.
 
-              Lunch at a local restaurant en-route.
+                  Lunch at a local restaurant en-route.
 
-              In the evening, visit Crown Casino & Entertainment Complex for leisure, dining,
-              or optional gaming experience.
+                  In the evening, visit Crown Casino & Entertainment Complex for leisure, dining,
+                  or optional gaming experience.
 
-              Dinner and overnight stay at Melbourne.
-            </DayCard>
+                  Dinner and overnight stay at Melbourne.
+                </DayCard>
 
 
-            <DayCard title="Day – 6 | Melbourne to Gold Coast – Beach Paradise">
-              After breakfast, transfer to the airport for your flight to Gold Coast,
-              Australia’s famous beach and theme park destination.
+                <DayCard title="Day – 6 | Melbourne to Gold Coast – Beach Paradise">
+                  After breakfast, transfer to the airport for your flight to Gold Coast,
+                  Australia’s famous beach and theme park destination.
 
-              Upon arrival, transfer to the hotel and check in.
+                  Upon arrival, transfer to the hotel and check in.
 
-              Visit Surfers Paradise Beach, known for its golden coastline, surf culture,
-              and vibrant atmosphere.
+                  Visit Surfers Paradise Beach, known for its golden coastline, surf culture,
+                  and vibrant atmosphere.
 
-              Lunch at a local restaurant en-route.
+                  Lunch at a local restaurant en-route.
 
-              In the evening, explore Cavill Avenue, the heart of Gold Coast nightlife
-              offering shopping, cafes, and entertainment.
+                  In the evening, explore Cavill Avenue, the heart of Gold Coast nightlife
+                  offering shopping, cafes, and entertainment.
 
-              Dinner and overnight stay at Gold Coast.
-            </DayCard>
+                  Dinner and overnight stay at Gold Coast.
+                </DayCard>
 
 
-            <DayCard title="Day – 7 | Theme Park Experience & Departure">
-              After breakfast, check out from the hotel.
+                <DayCard title="Day – 7 | Theme Park Experience & Departure">
+                  After breakfast, check out from the hotel.
 
-              Enjoy a visit to either Sea World or Warner Bros. Movie World
-              (based on preference), offering thrilling rides, marine life shows,
-              and entertainment experiences.
+                  Enjoy a visit to either Sea World or Warner Bros. Movie World
+                  (based on preference), offering thrilling rides, marine life shows,
+                  and entertainment experiences.
 
-              Later, transfer to Gold Coast Airport for your onward journey
-              with unforgettable memories of Australia.
+                  Later, transfer to Gold Coast Airport for your onward journey
+                  with unforgettable memories of Australia.
 
-              Tour Ends.
-            </DayCard>
-          </div>
+                  Tour Ends.
+                </DayCard>
+              </div>
 
-          {/* ADD-ON SECTIONS */}
-          <AddOnSection
-            title="GREAT BARRIER REEF"
-            subtitle="Add-on (or) Separately From GOLD COAST"
-          />
-          <div className=" grid  gap-10 grid-col-1">
-            {/* CAIRNS EXTENSION */}
+              {/* ADD-ON SECTIONS */}
+              <AddOnSection
+                title="GREAT BARRIER REEF"
+                subtitle="Add-on (or) Separately From GOLD COAST"
+              />
+              <div className=" grid  gap-10 grid-col-1">
+                {/* CAIRNS EXTENSION */}
 
-            <DayCard title="Day – 1 | Gold Coast to Cairns – Tropical Welcome">
-              After breakfast at the hotel, check out and transfer to the airport
-              for your flight to Cairns, the gateway to Tropical North Queensland.
+                <DayCard title="Day – 1 | Gold Coast to Cairns – Tropical Welcome">
+                  After breakfast at the hotel, check out and transfer to the airport
+                  for your flight to Cairns, the gateway to Tropical North Queensland.
 
-              Upon arrival, transfer to your hotel and complete check-in formalities.
-              Relax for a while and freshen up before heading out to explore the city.
+                  Upon arrival, transfer to your hotel and complete check-in formalities.
+                  Relax for a while and freshen up before heading out to explore the city.
 
-              Visit the beautiful Cairns Esplanade, a scenic waterfront promenade
-              overlooking Trinity Inlet, perfect for a leisurely walk and photography.
-              Explore the lively Cairns Night Markets, where you can shop for souvenirs,
-              local handicrafts, and enjoy street performances.
+                  Visit the beautiful Cairns Esplanade, a scenic waterfront promenade
+                  overlooking Trinity Inlet, perfect for a leisurely walk and photography.
+                  Explore the lively Cairns Night Markets, where you can shop for souvenirs,
+                  local handicrafts, and enjoy street performances.
 
-              Lunch will be arranged at a local restaurant en-route.
+                  Lunch will be arranged at a local restaurant en-route.
 
-              In the evening, unwind and relax at the hotel pool or enjoy leisure time.
+                  In the evening, unwind and relax at the hotel pool or enjoy leisure time.
 
-              Dinner at a local or Indian restaurant.
-              Overnight stay at Cairns.
-            </DayCard>
+                  Dinner at a local or Indian restaurant.
+                  Overnight stay at Cairns.
+                </DayCard>
 
 
-            <DayCard title="Day – 2 | Great Barrier Reef Adventure">
-              After breakfast, proceed for a full-day excursion to the world-famous
-              Great Barrier Reef, one of the Seven Natural Wonders of the World.
+                <DayCard title="Day – 2 | Great Barrier Reef Adventure">
+                  After breakfast, proceed for a full-day excursion to the world-famous
+                  Great Barrier Reef, one of the Seven Natural Wonders of the World.
 
-              Board a luxury reef cruise and sail across the Coral Sea to the
-              outer reef platform. Enjoy snorkeling in crystal-clear waters and
-              witness vibrant coral formations, tropical fish, and marine life.
-              Optional scuba diving experience is available for certified divers.
+                  Board a luxury reef cruise and sail across the Coral Sea to the
+                  outer reef platform. Enjoy snorkeling in crystal-clear waters and
+                  witness vibrant coral formations, tropical fish, and marine life.
+                  Optional scuba diving experience is available for certified divers.
 
-              A buffet lunch will be served onboard the cruise.
+                  A buffet lunch will be served onboard the cruise.
 
-              Spend time relaxing on the deck, swimming, or enjoying guided reef
-              presentations before returning to Cairns in the evening.
+                  Spend time relaxing on the deck, swimming, or enjoying guided reef
+                  presentations before returning to Cairns in the evening.
 
-              Dinner at a local restaurant.
-              Overnight stay at Cairns.
-            </DayCard>
+                  Dinner at a local restaurant.
+                  Overnight stay at Cairns.
+                </DayCard>
 
 
-            <DayCard title="Day – 3 | Kuranda Rainforest & Scenic Journey">
-              After breakfast, embark on a memorable journey to Kuranda,
-              a charming rainforest village nestled in the mountains.
+                <DayCard title="Day – 3 | Kuranda Rainforest & Scenic Journey">
 
-              Travel via the Skyrail Rainforest Cableway, gliding above
-              the World Heritage-listed tropical rainforest with spectacular
-              panoramic views.
 
-              Explore Kuranda Village, known for its artisan markets,
-              local cafes, and cultural attractions. Visit the Australian
-              Butterfly Sanctuary to see vibrant native butterfly species.
 
-              Lunch will be arranged at a local restaurant en-route.
-
-              Return to Cairns aboard the historic Kuranda Scenic Railway,
-              passing waterfalls, tunnels, and lush landscapes.
-
-              Evening at leisure. Dinner at a local restaurant.
-
-              Overnight stay at Cairns.
-            </DayCard>
-          </div>
-    </div>
+                  Departure: After breakfast, check-out of the Hotel in the afternoon. Visit the embark on a memorable journey to Kuranda,
+                  a charming rainforest village nestled in the mountains. & if time permits and proceed to the airport for return flight to Kolkata, India. Tour ends
+                </DayCard>
+              </div>
+            </div>
             {/* RIGHT SIDE – VIDEO + AD */}
             <div className="space-y-8 lg:sticky lg:top-24 h-fit">
 
@@ -320,7 +306,7 @@ export default function AustraliaPage() {
       <TourPricingSection
         title="Australia Down Under Paradise Packages"
         subtitle="Experience the Land Down Under with curated journeys"
-     packages={[
+        packages={[
           { label: "Customisable & Recommended for extended duration", days: "6N / 7D", price: 22600 },
           { label: "Highly Recommended", days: "5N / 6D", price: 19000 },
           { label: "Most Popular", days: "4N / 5D", price: 15400 },

@@ -285,7 +285,7 @@ export default function  AfricaPageComponent() {
 
                   Later in the evening, return to Victoria Falls.
 
-                  Dinner and overnight stay at Victoria Falls.
+                  Departure From Victoria Falls. Tour Ends...
                 </DayCard>
               </div>
             </div>

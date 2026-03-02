@@ -137,7 +137,9 @@ export default function IndonesiaPage() {
                 </DayCard>
 
                 <DayCard title="Day – 3  |  Mount Merapi & Return to Jakarta">
-                  After breakfast, proceed for an excursion to Mount Merapi viewpoint, one of Indonesia’s most active volcanoes. Enjoy spectacular views of the volcano and surrounding rural landscapes. Optional jeep lava tour (at additional cost) to explore volcanic terrain and learn about past eruptions. Capture stunning photographs of Java’s dramatic natural beauty. Lunch at local restaurant en-route. Later, transfer to Yogyakarta Airport for your flight back to Jakarta. Upon arrival, transfer to hotel and check-in. Evening free for leisure or last-minute shopping at nearby malls or local markets. Dinner & Overnight stay at Jakarta.
+                  
+
+                   Departure: After breakfast, check-out of the Hotel in the afternoon. ECapture stunning photographs of Java’s dramatic natural beauty. if time permits and proceed to the airport for return flight to Kolkata, India. Tour ends
                 </DayCard>
 
               </div>
