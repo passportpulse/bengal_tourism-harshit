@@ -46,7 +46,7 @@ export default function TermsPolicy() {
             <ul className="list-disc list-inside text-gray-600 space-y-2">
               <li>All payments are processed through secure payment gateways</li>
               <li>We accept credit/debit cards, UPI, and bank transfers</li>
-              <li>Prices are inclusive of all applicable taxes</li>
+              <li>Prices are excluding any applicable taxes</li>
               <li>Additional charges may apply for customization</li>
             </ul>
           </section>
