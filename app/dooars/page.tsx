@@ -220,7 +220,7 @@ export default function DooarsPage() {
         </div>
       </div>
       {/* ================= TOUR PACKAGES ================= */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Tour Packages</h2>
@@ -229,7 +229,6 @@ export default function DooarsPage() {
             </p>
           </div>
 
-          {/* Jungle Circuit - 5N/6D */}
           <div className="mb-8">
             <div className="bg-gradient-to-r from-green-600 to-green-700 text-white p-6 rounded-t-2xl">
               <div className="flex items-center justify-between">
@@ -338,7 +337,7 @@ export default function DooarsPage() {
 
 
         </div>
-      </section>
+      </section> */}
 
       {/* ================= WILDLIFE SANCTUARIES ================= */}
       <section className="py-20 bg-gradient-to-br from-green-50 to-blue-50">

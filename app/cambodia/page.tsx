@@ -139,33 +139,33 @@ export default function CambodiaPage() {
                 </DayCard>
 
                 <DayCard title="Day – 3  |  Beng Mealea & Koh Ker Exploration">
-                    Departure: After breakfast, check-out of the Hotel in the afternoon.  if time permits and proceed to the airport for return flight to Kolkata, India. Tour ends
+                  Departure: After breakfast, check-out of the Hotel in the afternoon.  if time permits and proceed to the airport for return flight to Kolkata, India. Tour ends
                 </DayCard>
 
               </div>
               {/* MAIN CIRCUIT TITLE */}
 
- </div>
-              {/* RIGHT SIDE – VIDEO + AD */}
-              <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+            </div>
+            {/* RIGHT SIDE – VIDEO + AD */}
+            <div className="space-y-8 lg:sticky lg:top-24 h-fit">
 
-                {/* Video Section */}
-                <div className="bg-white rounded-3xl shadow-lg p-6">
-                  <h3 className="text-xl font-bold mb-4 text-gray-800">
-                    Watch Cambodia Ancient Kingdom Video
-                  </h3>
+              {/* Video Section */}
+              <div className="bg-white rounded-3xl shadow-lg p-6">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  Watch Cambodia Ancient Kingdom Video
+                </h3>
 
-                  <div className="aspect-video rounded-xl overflow-hidden">
-                    <iframe
-                      className="w-full h-full"
-                      src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-                      title="Tonle Sap Lake Tour"
-                      allowFullScreen
-                    ></iframe>
-                  </div>
+                <div className="aspect-video rounded-xl overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    title="Tonle Sap Lake Tour"
+                    allowFullScreen
+                  ></iframe>
                 </div>
+              </div>
 
-           {/* Advertisement Section */}
+              {/* Advertisement Section */}
               <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
                 <h3 className="text-2xl font-bold mb-4">
                   🚀 Paste Your Advertisement Here
@@ -179,8 +179,8 @@ export default function CambodiaPage() {
                 </button>
               </div>
 
-              </div>
-           
+            </div>
+
           </div>
 
         </div>
@@ -189,13 +189,12 @@ export default function CambodiaPage() {
         title="Cambodia Ancient Kingdom Packages"
         subtitle="Experience the Kingdom of Wonder with curated journeys"
 
-     packages={[
+        packages={[
           { label: "Customisable & Recommended for extended duration", days: "6N / 7D", price: 22600 },
           { label: "Highly Recommended", days: "5N / 6D", price: 19000 },
           { label: "Most Popular", days: "4N / 5D", price: 15400 },
           { label: "In group of 20+ Persons", days: "3N / 4D", price: 12700 },
           { label: "As add on / Separately ", days: "2N / 3D", price: 9100 },
-          { label: "Not Feasible", days: "1N / 2D", price: 3700, disabled: true },
         ]}
       />
 

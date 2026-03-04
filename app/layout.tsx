@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import ShareButton from "@/components/ShareButton";
 
 
 export const metadata: Metadata = {
@@ -21,7 +20,7 @@ export default function RootLayout({
         className={`antialiased`}
       >
         <Navbar />
-        <ShareButton />
+        {/* <ShareButton /> */}
         {children}
         <Footer />
       </body>

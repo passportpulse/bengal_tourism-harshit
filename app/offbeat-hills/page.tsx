@@ -40,29 +40,37 @@ export default function OffbeatHills() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-blue-50">
       {/* Hero Section */}
-      <section className="relative h-96 bg-gradient-to-r from-green-600 to-blue-600">
-        <div className="absolute inset-0 bg-black/40"></div>
+
+          <section className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/img/Offbeat-hils.jpeg"
-            alt="Offbeat Hills Scenic Beauty"
+            src="https://images.unsplash.com/photo-1652543393354-2056fc3e9551?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fE9mZkJlYXQlMjBIaWxsc3xlbnwwfHwwfHx8MA%3D%3D"
+            alt="Beautiful Cambodia with Angkor Wat temple"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-green-600/80 to-blue-600/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-orange-900/80 via-yellow-800/60 to-orange-900/80"></div>
         </div>
-        <div className="relative container mx-auto px-4 h-full flex items-center justify-center">
-          <div className="text-white max-w-3xl text-center">
-            <h1 className="text-5xl font-bold mb-4">OFFBEAT TOUR – Hills</h1>
+
+        <div className="relative h-full flex items-center justify-center text-center text-white px-6">
+          <div className="max-w-4xl">
+     
+
+        <h1 className="text-5xl font-bold mb-4">OFFBEAT TOUR – Hills</h1>
             <p className="text-xl mb-6">Special Tailor made Combination Package, Number of Days & Cost can be designed on Request</p>
-            <div className="flex gap-4 justify-center">
-              <Link href="/book-tour" className="bg-yellow-600 text-white px-6 py-3 rounded-lg hover:bg-yellow-700 transition flex items-center gap-2">
-                <ArrowRight className="w-5 h-5" />
+
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+            
+           <Link href="/book-tour" className="bg-yellow-600 text-white px-6 py-3 rounded-lg hover:bg-yellow-700 transition flex items-center gap-2">
                 Book Your Adventure
               </Link>
             </div>
           </div>
         </div>
+
+     
       </section>
+
+ 
 
       {/* Destinations Grid */}
       <section id="destinations" className="py-16 px-4">
@@ -74,7 +82,8 @@ export default function OffbeatHills() {
               Support the less privileged community to earn a sustainable income.
             </p>
           </div>
-
+     <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+            <div className="lg:col-span-2 space-y-8">
           <div className='space-y-6'>
             <Destination
               title="RISHYAP"
@@ -161,7 +170,43 @@ export default function OffbeatHills() {
 
           </div>
 
+ </div>
+              {/* RIGHT SIDE – VIDEO + AD */}
+              <div className="space-y-8 lg:sticky lg:top-24 h-fit">
 
+                {/* Video Section */}
+                <div className="bg-white rounded-3xl shadow-lg p-6">
+                  <h3 className="text-xl font-bold mb-4 text-gray-800">
+                    Watch OffBeat Hills Video
+                  </h3>
+
+                  <div className="aspect-video rounded-xl overflow-hidden">
+                    <iframe
+                      className="w-full h-full"
+                      src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                      title="Tonle Sap Lake Tour"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+                </div>
+
+           {/* Advertisement Section */}
+              <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
+                <h3 className="text-2xl font-bold mb-4">
+                  🚀 Paste Your Advertisement Here
+                </h3>
+                <p className="text-sm opacity-90">
+                  Promote your brand, offer or travel deals here.
+                  This space is perfect for partner promotions.
+                </p>
+                <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                  Contact For Promotion
+                </button>
+              </div>
+
+              </div>
+           
+          </div>
         </div>
       </section>
       <section className="py-20 bg-white">

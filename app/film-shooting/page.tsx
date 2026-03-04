@@ -153,7 +153,7 @@ export default function FilmShootingPage() {
       <section className="relative h-[80vh] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            src="https://images.unsplash.com/photo-1632187989763-c9c620420b4d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmlsbSUyMHNldHxlbnwwfHwwfHx8MA%3D%3D"
             alt="Film Shooting Locations"
             fill
             className="object-cover"
@@ -387,55 +387,77 @@ export default function FilmShootingPage() {
       </section>
 
       {/* ================= SERVICES ================= */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-black text-gray-900 mb-6">Film Production Services</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Complete support for your film shooting needs
-            </p>
-          </div>
+     
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {servicePackages.map((pkg, index) => (
-              <div key={index} className={`bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 ${
-                pkg.recommended ? "ring-4 ring-orange-500 ring-offset-2" : ""
-              }`}>
-                {pkg.recommended && (
-                  <div className="absolute top-4 right-4">
-                    <span className="bg-gradient-to-r from-orange-600 to-yellow-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg">
-                      RECOMMENDED
-                    </span>
-                  </div>
-                )}
-                
-                <div className="p-8">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">{pkg.name}</h3>
-                  <p className="text-3xl font-bold text-orange-600 mb-6">{pkg.price}</p>
-                  
-                  <ul className="space-y-3 mb-8">
-                    {pkg.features.map((feature, idx) => (
-                      <li key={idx} className="flex items-start">
-                        <Check className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
-                        <span className="text-gray-700">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  
-                  <button className={`w-full py-3 px-6 rounded-xl font-semibold transition ${
-                    pkg.recommended
-                      ? "bg-gradient-to-r from-orange-600 to-yellow-600 text-white hover:from-orange-700 hover:to-yellow-700"
-                      : "bg-gray-100 text-gray-900 hover:bg-gray-200"
-                  }`}>
-                    Get Quote
-                  </button>
-                </div>
-              </div>
-            ))}
+
+<section className="py-20 bg-gray-50">
+  <div className="max-w-7xl mx-auto px-6">
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
+
+      {/* Video Section */}
+      <div className="lg:col-span-2">
+        <div className="bg-white rounded-3xl shadow-lg p-8">
+          <h3 className="text-2xl font-bold mb-6 text-gray-800">
+            Watch  Film Shooting Video
+          </h3>
+
+          <div className="aspect-video rounded-xl overflow-hidden">
+            <iframe
+              className="w-full h-full"
+                 src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+              title="Sundarban Boat Stay Tour Video"
+              loading="lazy"
+              allowFullScreen
+            />
           </div>
         </div>
-      </section>
+      </div>
 
+      {/* Sidebar */}
+      <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+        {/* Advertisement */}
+        <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
+          <h3 className="text-xl font-bold mb-4">
+            🚀 Advertise With Us
+          </h3>
+
+          <p className="text-sm opacity-90 mb-6">
+            Promote your travel brand, tour packages, or special offers.
+            Reach thousands of travelers visiting our platform.
+          </p>
+
+          <a
+            href="/contact"
+            className="inline-block bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition"
+          >
+            Contact For Promotion
+          </a>
+        </div>
+
+        {/* Special Offer */}
+        <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white rounded-3xl shadow-lg p-8 text-center">
+          <h3 className="text-xl font-bold mb-4">
+            🌍 Travel Partner Promotion
+          </h3>
+
+          <p className="text-sm opacity-90 mb-6">
+            Showcase your brand, hotel deals or travel experiences
+            to our growing travel audience.
+          </p>
+
+          <a
+            href="/contact"
+            className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition"
+          >
+            Contact For Promotion
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
       {/* ================= ALL-INCLUSIVE SERVICES ================= */}
       <section className="py-20 bg-gradient-to-br from-orange-50 to-yellow-50">
         <div className="max-w-7xl mx-auto px-6">

@@ -274,7 +274,7 @@ export default function RiverRaftingPage() {
       </section>
 
       {/* ================= CATEGORY TABS ================= */}
-      <section className="py-16 bg-white  border-b border-gray-100">
+      <section className="py-16 bg-gradient-to-br from-blue-50 to-cyan-50  border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex justify-center">
             <div className="inline-flex rounded-full bg-gray-100 p-1">
@@ -329,7 +329,7 @@ export default function RiverRaftingPage() {
     </div>
 
     {/* Grid Updated */}
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div className="grid grid-cols-1 sm:grid-cols-2  gap-8">
       {raftingLocations.map((location, index) => (
         <div
           key={index}
@@ -568,7 +568,74 @@ export default function RiverRaftingPage() {
           </div>
         </section>
       )}
+<section className="py-20 bg-gray-50">
+  <div className="max-w-7xl mx-auto px-6">
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
 
+      {/* Video Section */}
+      <div className="lg:col-span-2">
+        <div className="bg-white rounded-3xl shadow-lg p-8">
+          <h3 className="text-2xl font-bold mb-6 text-gray-800">
+            Watch  River Rafting Tour Video
+          </h3>
+
+          <div className="aspect-video rounded-xl overflow-hidden">
+            <iframe
+              className="w-full h-full"
+         src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+              title="Sundarban Boat Stay Tour Video"
+              loading="lazy"
+              allowFullScreen
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* Sidebar */}
+      <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+        {/* Advertisement */}
+        <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
+          <h3 className="text-xl font-bold mb-4">
+            🚀 Advertise With Us
+          </h3>
+
+          <p className="text-sm opacity-90 mb-6">
+            Promote your travel brand, tour packages, or special offers.
+            Reach thousands of travelers visiting our platform.
+          </p>
+
+          <a
+            href="/contact"
+            className="inline-block bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition"
+          >
+            Contact For Promotion
+          </a>
+        </div>
+
+        {/* Special Offer */}
+        <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white rounded-3xl shadow-lg p-8 text-center">
+          <h3 className="text-xl font-bold mb-4">
+            🌍 Travel Partner Promotion
+          </h3>
+
+          <p className="text-sm opacity-90 mb-6">
+            Showcase your brand, hotel deals or travel experiences
+            to our growing travel audience.
+          </p>
+
+          <a
+            href="/contact"
+            className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition"
+          >
+            Contact For Promotion
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
       {/* ================= REQUIRED GEAR ================= */}
       <section className="py-20 bg-gradient-to-br from-cyan-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-6">

@@ -49,7 +49,7 @@ const experiences: Experience[] = [
     title: "Hills – Off Beat Destinations",
     icon: Mountain,
     route: "/offbeat-hills",
-    image: "https://images.unsplash.com/photo-1599106242383-271adeb2e828?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SGlsbHN8ZW58MHx8MHx8fDA%3D",
+    image: "/Sunrise.jpeg",
   },
   {
     title: "Jungle Safari",

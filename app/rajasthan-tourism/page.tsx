@@ -147,7 +147,7 @@ export default function RajasthanTourismPage() {
               {/* Video Section */}
               <div className="bg-white rounded-3xl shadow-lg p-6">
                 <h3 className="text-xl font-bold mb-4 text-gray-800">
-                  Watch Kerala Video
+                  Watch Rajasthan Video
                 </h3>
 
                 <div className="aspect-video rounded-xl overflow-hidden">

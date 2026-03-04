@@ -13,7 +13,7 @@ const kolkataHeritage = [
     year: "1867",
     icon: Building,
     features: ["Colonial architecture", "Street food paradise", "Shopping district", "Cultural hub"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "/DalhausiSquare.jpeg"
   },
   {
     name: "Botanical Gardens",
@@ -21,7 +21,7 @@ const kolkataHeritage = [
     year: "1787",
     icon: Trees,
     features: ["Largest banyan tree", "Rare plant species", "Research center", "Beautiful gardens"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "/BotanicalGardens.jpeg"
   },
   {
     name: "College Street",
@@ -29,7 +29,7 @@ const kolkataHeritage = [
     year: "19th Century",
     icon: Book,
     features: ["Book stores", "Academic hub", "Literary cafes", "Student area"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "/CollegeStreet.jpeg"
   },
   {
     name: "Indian Museum",
@@ -37,7 +37,7 @@ const kolkataHeritage = [
     year: "1814",
     icon: Building,
     features: ["Oldest museum", "Rare artifacts", "Natural history", "Art collections"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "/IndianMuseum.jpeg"
   },
   {
     name: "Victoria Memorial Hall",
@@ -45,7 +45,7 @@ const kolkataHeritage = [
     year: "1921",
     icon: Building,
     features: ["Marble architecture", "British heritage", "Museum", "Gardens"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "/VictoriaMemorial.jpeg"
   },
   {
     name: "Marble Palace",
@@ -53,7 +53,7 @@ const kolkataHeritage = [
     year: "1835",
     icon: Building,
     features: ["Marble architecture", "Art collections", "Historic furniture", "Royal heritage"],
-    image: "https://images.unsplash.com/photo-1552832230-c00197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "/MarblePalace.jpeg"
   },
   {
     name: "Town Hall",
@@ -61,7 +61,7 @@ const kolkataHeritage = [
     year: "1853",
     icon: Building,
     features: ["Greek architecture", "Civic center", "Historic meetings", "Public building"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "/TownHall.jpeg"
   },
   {
     name: "St. Paul's Cathedral",
@@ -69,68 +69,11 @@ const kolkataHeritage = [
     year: "1847",
     icon: Church,
     features: ["Gothic architecture", "Religious heritage", "Stained glass", "Historic church"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "/StPaul.jpeg"
   }
 ];
 
-const culturalPlaces = [
-  {
-    name: "Kumartuli",
-    description: "Clay Idol makers Studio/Workshop",
-    specialty: "Traditional clay idols and crafts",
-    features: ["Live demonstrations", "Traditional techniques", "Artisan workshops"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
-  },
-  {
-    name: "Mother Teresa's House",
-    description: "Mother's House",
-    specialty: "Nirmal Hriday - Missionaries of Charity",
-    features: ["Historical residence", "Memorial", "Spiritual significance"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
-  },
-  {
-    name: "Rani Rashmoni House",
-    description: "Built in 1805",
-    specialty: "Historic mansion",
-    features: ["18th century architecture", "Royal heritage", "Historic furniture"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
-  },
-  {
-    name: "Shovabazar Rajbari",
-    description: "1737-97 - House of Raja Nabakrishna Deb",
-    specialty: "Traditional Bengali mansion",
-    features: ["Traditional architecture", "Cultural heritage", "Historic artifacts"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
-  },
-  {
-    name: "National Library",
-    description: "Largest of its kind in India",
-    specialty: "National heritage library",
-    features: ["Largest collection", "Research center", "Public library"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
-  },
-  {
-    name: "North Calcutta",
-    description: "Old Calcutta – Photographer's delight",
-    specialty: "Historic neighborhoods",
-    features: ["Colonial architecture", "Photography spots", "Heritage walks"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
-  },
-  {
-    name: "Park Street",
-    description: "Night Life of Calcutta",
-    specialty: "Entertainment district",
-    features: ["Nightlife", "Restaurants", "Shopping", "Entertainment"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
-  },
-  {
-    name: "Princep Ghat",
-    description: "Banks of the Hoogly",
-    specialty: "River ghat and promenade",
-    features: ["River views", "Evening strolls", "Historic significance"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
-  }
-];
+
 
 const countrysideHeritage = [
   {
@@ -138,49 +81,49 @@ const countrysideHeritage = [
     location: "Bandel",
     description: "Historic church and colonial remnants",
     features: ["Colonial architecture", "Religious heritage", "Historical campsite"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "/Bandel.jpeg"
   },
   {
     name: "Baluchar Sari, Dokra & Panchmura",
     location: "Bishnupur",
     description: "Traditional crafts and textiles",
     features: ["Baluchari saris", "Dokra metal crafts", "Panchmura temples"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "/Baluchar.jpeg"
   },
   {
     name: "Cooch Behar Palace",
     location: "Cooch Behar",
     description: "Royal palace of Cooch Behar",
     features: ["Mughal architecture", "Royal heritage", "Historic palace"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "/CoochBeharPalace.jpeg"
   },
   {
     name: "French Institute",
     location: "Chandernagore",
     description: "French colonial heritage",
     features: ["French architecture", "Historical institute", "Cultural heritage"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "/Chandernagore.jpeg"
   },
   {
     name: "Madan Mohan Temple",
     location: "Bishnupur",
     description: "Terracotta temple",
     features: ["Terracotta architecture", "Religious heritage", "Temple town"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "/Madan.jpeg"
   },
   {
     name: "Hazarduari & Imambara",
     location: "Murshidabad",
     description: "Mughal architecture",
     features: ["Mughal heritage", "Historic monuments", "Architectural marvels"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "/Hazarduari.jpeg"
   },
   {
     name: "Shantiniketan & Bolpur",
     location: "Birbhum",
     description: "Abode of Peace",
     features: ["Visva-Bharati University", "Rabindranath Tagore", "Cultural center"],
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+    image: "/Shantiniketan.jpeg"
   }
 ];
 
@@ -223,7 +166,7 @@ export default function HeritageTourPage() {
       <section className="relative h-[80vh] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            src="https://images.unsplash.com/photo-1765510103179-0c2f628d2ff2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGN1bHR1cmFsJTIwdG91cmlzbXxlbnwwfHwwfHx8MA%3D%3D"
             alt="Heritage Tour & Trails"
             fill
             className="object-cover"
@@ -291,7 +234,7 @@ export default function HeritageTourPage() {
       </section>
 
       {/* ================= CATEGORY TABS ================= */}
-      <section className="py-16 bg-white sticky top-0 z-40 shadow-lg border-b border-gray-100">
+      <section className="py-16 bg-gradient-to-br from-amber-50 to-orange-50 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex justify-center">
             <div className="inline-flex rounded-full bg-gray-100 p-1">
@@ -485,6 +428,74 @@ export default function HeritageTourPage() {
           </div>
         </div>
       </section>
+<section className="py-20 bg-gray-50">
+  <div className="max-w-7xl mx-auto px-6">
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
+
+      {/* Video Section */}
+      <div className="lg:col-span-2">
+        <div className="bg-white rounded-3xl shadow-lg p-8">
+          <h3 className="text-2xl font-bold mb-6 text-gray-800">
+            Watch Heritage Tour Video
+          </h3>
+
+          <div className="aspect-video rounded-xl overflow-hidden">
+            <iframe
+              className="w-full h-full"
+             src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+              title="Sundarban Boat Stay Tour Video"
+              loading="lazy"
+              allowFullScreen
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* Sidebar */}
+      <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+        {/* Advertisement */}
+        <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
+          <h3 className="text-xl font-bold mb-4">
+            🚀 Advertise With Us
+          </h3>
+
+          <p className="text-sm opacity-90 mb-6">
+            Promote your travel brand, tour packages, or special offers.
+            Reach thousands of travelers visiting our platform.
+          </p>
+
+          <a
+            href="/contact"
+            className="inline-block bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition"
+          >
+            Contact For Promotion
+          </a>
+        </div>
+
+        {/* Special Offer */}
+        <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white rounded-3xl shadow-lg p-8 text-center">
+          <h3 className="text-xl font-bold mb-4">
+            🌍 Travel Partner Promotion
+          </h3>
+
+          <p className="text-sm opacity-90 mb-6">
+            Showcase your brand, hotel deals or travel experiences
+            to our growing travel audience.
+          </p>
+
+          <a
+            href="/contact"
+            className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition"
+          >
+            Contact For Promotion
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
 
        <PackagePricing 
           title="Heritage Tour Packages"

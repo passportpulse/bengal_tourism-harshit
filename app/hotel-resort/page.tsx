@@ -1,12 +1,12 @@
 "use client"
 
 import Image from 'next/image'
-import { MapPin,Check , Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout } from 'lucide-react'
+import { MapPin, Check, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout } from 'lucide-react'
 import ContactCTA from '@/components/ContactCTA'
 import PackagePricing from '@/components/PackagePricing'
 import { useRouter } from "next/navigation"
 export default function HotelResortPage() {
-    const router = useRouter()
+  const router = useRouter()
 
   const handleBookNow = () => {
     router.push('/book-tour')
@@ -32,7 +32,7 @@ export default function HotelResortPage() {
               <Building className="w-6 h-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold tracking-wide">Premium Accommodation</span>
             </div>
-            
+
             <h1 className="text-5xl text-center md:text-7xl font-bold mb-6 leading-tight">
               Hotel-Resort
               <span className="block text-3xl md:text-5xl mt-2 text-blue-300">
@@ -74,63 +74,102 @@ export default function HotelResortPage() {
               Exclusive stays tailored for your comfort and luxury experience
             </p>
           </div>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+            <div className="lg:col-span-2 space-y-8">
+              <div className="grid md:grid-cols-1 gap-8">
+                {/* Luxury Resort Package */}
+                <div className="bg-gradient-to-br from-purple-50 to-indigo-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
+                  <div className="h-48 bg-gradient-to-br from-purple-400 to-indigo-500 flex items-center justify-center">
+                    <Building className="w-16 h-16 text-white group-hover:scale-110 transition" />
+                  </div>
+                  <div className="p-6">
+                    <h3 className="text-2xl font-bold mb-3">Luxury Resort Experience</h3>
+                    <p className="text-gray-700 mb-4">Flexible duration with world-class amenities</p>
+                    <div className="bg-purple-100 p-4 rounded-lg">
+                      <h4 className="font-bold mb-2">Luxury Features</h4>
+                      <ul className="space-y-1 text-sm text-gray-700">
+                        <li>• 5-star luxury resorts</li>
+                        <li>• Private pools & spas</li>
+                        <li>• Fine dining restaurants</li>
+                        <li>• Concierge services</li>
+                        <li>• Beach access & views</li>
+                      </ul>
+                    </div>
+                    <div className="flex items-center justify-between mt-4">
+                      <span className="text-purple-600 font-semibold">Premium Luxury</span>
+                      <button className="bg-purple-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-purple-700 transition">
+                        Book Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* Luxury Resort Package */}
-            <div className="bg-gradient-to-br from-purple-50 to-indigo-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-purple-400 to-indigo-500 flex items-center justify-center">
-                <Building className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Luxury Resort Experience</h3>
-                <p className="text-gray-700 mb-4">Flexible duration with world-class amenities</p>
-                <div className="bg-purple-100 p-4 rounded-lg">
-                  <h4 className="font-bold mb-2">Luxury Features</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• 5-star luxury resorts</li>
-                    <li>• Private pools & spas</li>
-                    <li>• Fine dining restaurants</li>
-                    <li>• Concierge services</li>
-                    <li>• Beach access & views</li>
-                  </ul>
+                {/* Guest House Package */}
+                <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
+                  <div className="h-48 bg-gradient-to-br from-blue-400 to-cyan-500 flex items-center justify-center">
+                    <Home className="w-16 h-16 text-white group-hover:scale-110 transition" />
+                  </div>
+                  <div className="p-6">
+                    <h3 className="text-2xl font-bold mb-3">Cozy Guest House Stay</h3>
+                    <p className="text-gray-700 mb-4">Flexible duration with homely comfort</p>
+                    <div className="bg-blue-100 p-4 rounded-lg">
+                      <h4 className="font-bold mb-2">Guest House Features</h4>
+                      <ul className="space-y-1 text-sm text-gray-700">
+                        <li>• Traditional guest houses</li>
+                        <li>• Local family hosts</li>
+                        <li>• Home-cooked meals</li>
+                        <li>• Cultural experiences</li>
+                        <li>• Budget-friendly options</li>
+                      </ul>
+                    </div>
+                    <div className="flex items-center justify-between mt-4">
+                      <span className="text-blue-600 font-semibold">Homely Comfort</span>
+                      <button className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-700 transition">
+                        Book Now
+                      </button>
+                    </div>
+                  </div>
                 </div>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-purple-600 font-semibold">Premium Luxury</span>
-                  <button className="bg-purple-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-purple-700 transition">
-                    Book Now
-                  </button>
-                </div>
               </div>
+
+
             </div>
+            {/* RIGHT SIDE – VIDEO + AD */}
+            <div className="space-y-8 lg:sticky lg:top-24 h-fit">
 
-            {/* Guest House Package */}
-            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
-              <div className="h-48 bg-gradient-to-br from-blue-400 to-cyan-500 flex items-center justify-center">
-                <Home className="w-16 h-16 text-white group-hover:scale-110 transition" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Cozy Guest House Stay</h3>
-                <p className="text-gray-700 mb-4">Flexible duration with homely comfort</p>
-                <div className="bg-blue-100 p-4 rounded-lg">
-                  <h4 className="font-bold mb-2">Guest House Features</h4>
-                  <ul className="space-y-1 text-sm text-gray-700">
-                    <li>• Traditional guest houses</li>
-                    <li>• Local family hosts</li>
-                    <li>• Home-cooked meals</li>
-                    <li>• Cultural experiences</li>
-                    <li>• Budget-friendly options</li>
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-blue-600 font-semibold">Homely Comfort</span>
-                  <button className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-700 transition">
-                    Book Now
-                  </button>
+              {/* Video Section */}
+              <div className="bg-white rounded-3xl shadow-lg p-6">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  Watch Spa Wellness video
+                </h3>
+
+                <div className="aspect-video rounded-xl overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    title="Tonle Sap Lake Tour"
+                    allowFullScreen
+                  ></iframe>
                 </div>
               </div>
+
+              {/* Advertisement Section */}
+              <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
+                <h3 className="text-2xl font-bold mb-4">
+                  🚀 Paste Your Advertisement Here
+                </h3>
+                <p className="text-sm opacity-90">
+                  Promote your brand, offer or travel deals here.
+                  This space is perfect for partner promotions.
+                </p>
+                <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                  Contact For Promotion
+                </button>
+              </div>
+
+            </div>
             </div>
           </div>
-        </div>
       </section>
 
       {/* ================= ACCOMMODATION TYPES ================= */}
@@ -151,8 +190,8 @@ export default function HotelResortPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Beach Resorts</h3>
               <p className="text-gray-700 mb-4">
-                Luxury beachfront properties with stunning ocean views, 
-                private beaches, water sports, and tropical gardens. 
+                Luxury beachfront properties with stunning ocean views,
+                private beaches, water sports, and tropical gardens.
                 Perfect for romantic getaways and family vacations.
               </p>
               <div className="flex items-center gap-2 text-cyan-600">
@@ -168,8 +207,8 @@ export default function HotelResortPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Mountain Retreats</h3>
               <p className="text-gray-700 mb-4">
-                Serene mountain resorts with breathtaking views, 
-                fresh mountain air, and adventure activities. 
+                Serene mountain resorts with breathtaking views,
+                fresh mountain air, and adventure activities.
                 Ideal for nature lovers and peace seekers.
               </p>
               <div className="flex items-center gap-2 text-green-600">
@@ -185,8 +224,8 @@ export default function HotelResortPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Heritage Hotels</h3>
               <p className="text-gray-700 mb-4">
-                Historic properties converted into luxury hotels with 
-                royal architecture, antique furniture, and cultural heritage. 
+                Historic properties converted into luxury hotels with
+                royal architecture, antique furniture, and cultural heritage.
                 Experience regal hospitality.
               </p>
               <div className="flex items-center gap-2 text-purple-600">
@@ -202,8 +241,8 @@ export default function HotelResortPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Business Hotels</h3>
               <p className="text-gray-700 mb-4">
-                Modern business hotels with conference facilities, 
-                executive lounges, and premium business services. 
+                Modern business hotels with conference facilities,
+                executive lounges, and premium business services.
                 Perfect for corporate travelers and meetings.
               </p>
               <div className="flex items-center gap-2 text-orange-600">
@@ -219,8 +258,8 @@ export default function HotelResortPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Eco-Friendly Stays</h3>
               <p className="text-gray-700 mb-4">
-                Sustainable accommodations with solar power, 
-                organic gardens, and nature conservation. 
+                Sustainable accommodations with solar power,
+                organic gardens, and nature conservation.
                 Experience eco-luxury at its finest.
               </p>
               <div className="flex items-center gap-2 text-emerald-600">
@@ -231,114 +270,114 @@ export default function HotelResortPage() {
           </div>
         </div>
       </section>
-<section className="py-24 bg-gray-50">
-  <div className="max-w-7xl mx-auto px-6">
+      <section className="py-24 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-6">
 
-    {/* Header */}
-    <div className="text-center mb-16">
-      <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-        Premium Hotel & Resort Packages
-      </h2>
-      <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-        Luxury stay experience with buffet breakfast included
-      </p>
-    </div>
-
-    {/* 2 Column Layout */}
-    <div className="grid md:grid-cols-2 gap-12 items-center">
-
-      {/* LEFT SIDE IMAGE */}
-      <div className="relative group">
-
-        <div className="relative overflow-hidden rounded-3xl shadow-xl">
-          <img
-            src="/hotal/myfair.jpg"
-            alt="Premium Hotel and Resort"
-            className="w-full h-[450px] object-cover group-hover:scale-105 transition duration-500"
-          />
-
-          {/* Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-
-          {/* Advertise Badge */}
-          <div className="absolute top-6 left-6">
-            <div className="bg-white/90 backdrop-blur-md rounded-2xl p-4 shadow-lg flex justify-between items-center">
-              <div>
-                <h4 className="font-bold text-gray-900 text-sm">
-            Place For advertisement of preminum Hotels & Resorts
-           </h4>
-           </div></div>
+          {/* Header */}
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Premium Hotel & Resort Packages
+            </h2>
+            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+              Luxury stay experience with buffet breakfast included
+            </p>
           </div>
 
-          {/* Bottom CTA */}
-          <div className="absolute bottom-6 left-6 right-6">
-            <div className="w-full bg-white/90 backdrop-blur-md rounded-2xl p-4 shadow-lg flex justify-between items-center">
+          {/* 2 Column Layout */}
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+
+            {/* LEFT SIDE IMAGE */}
+            <div className="relative group">
+
+              <div className="relative overflow-hidden rounded-3xl shadow-xl">
+                <img
+                  src="/hotal/myfair.jpg"
+                  alt="Premium Hotel and Resort"
+                  className="w-full h-[450px] object-cover group-hover:scale-105 transition duration-500"
+                />
+
+                {/* Overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+
+                {/* Advertise Badge */}
+                <div className="absolute top-6 left-6">
+                  <div className="bg-white/90 backdrop-blur-md rounded-2xl p-4 shadow-lg flex justify-between items-center">
+                    <div>
+                      <h4 className="font-bold text-gray-900 text-sm">
+                        Place For advertisement of preminum Hotels & Resorts
+                      </h4>
+                    </div></div>
+                </div>
+
+                {/* Bottom CTA */}
+                <div className="absolute bottom-6 left-6 right-6">
+                  <div className="w-full bg-white/90 backdrop-blur-md rounded-2xl p-4 shadow-lg flex justify-between items-center">
+                    <div>
+                      <h4 className="font-bold text-gray-900 text-sm">
+                        Book Premium Hotels & Resorts
+                      </h4>
+                      <p className="text-gray-600 text-xs">
+                        Experience comfort, luxury & scenic stays
+                      </p>
+                    </div>
+
+                    <a
+                      href="/book-hotel"
+                      className="bg-orange-500 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-orange-600 transition"
+                    >
+                      Book Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* RIGHT SIDE PACKAGE CARD */}
+            <div className="bg-gradient-to-br from-yellow-50 to-orange-100 border border-orange-200 rounded-3xl p-10 shadow-lg hover:shadow-2xl transition duration-300 flex flex-col justify-between">
+
               <div>
-                <h4 className="font-bold text-gray-900 text-sm">
-                  Book Premium Hotels & Resorts
-                </h4>
-                <p className="text-gray-600 text-xs">
-                  Experience comfort, luxury & scenic stays
+                <span className="text-orange-600 text-xs font-semibold">
+                  Premium Hotel & Resort
+                </span>
+
+                <h3 className="text-2xl font-bold text-gray-900 mt-6">
+                  1N / 2D Package
+                </h3>
+
+                <p className="text-4xl font-bold text-orange-600 mt-3">
+                  ₹ 21,000
                 </p>
+
+                <ul className="mt-8 space-y-3 text-gray-700 text-sm">
+                  <li className="flex items-center gap-2">
+                    <Check className="w-4 h-4 text-orange-600" /> Luxury Accommodation
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="w-4 h-4 text-orange-600" /> Buffet Breakfast  & Dinner Included
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="w-4 h-4 text-orange-600" /> Resort Amenities Access
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="w-4 h-4 text-orange-600" /> Scenic & Relaxing Experience
+                  </li>
+                </ul>
               </div>
 
               <a
                 href="/book-hotel"
-                className="bg-orange-500 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-orange-600 transition"
+                className="mt-10 bg-orange-500 text-white py-3 rounded-xl font-semibold text-center hover:bg-orange-600 transition"
               >
                 Book Now
               </a>
             </div>
+
           </div>
         </div>
-      </div>
+      </section>
 
-      {/* RIGHT SIDE PACKAGE CARD */}
-      <div className="bg-gradient-to-br from-yellow-50 to-orange-100 border border-orange-200 rounded-3xl p-10 shadow-lg hover:shadow-2xl transition duration-300 flex flex-col justify-between">
 
-        <div>
-          <span className="text-orange-600 text-xs font-semibold">
-            Premium Hotel & Resort
-          </span>
-
-          <h3 className="text-2xl font-bold text-gray-900 mt-6">
-            1N / 2D Package
-          </h3>
-
-          <p className="text-4xl font-bold text-orange-600 mt-3">
-            ₹ 21,000
-          </p>
-
-          <ul className="mt-8 space-y-3 text-gray-700 text-sm">
-            <li className="flex items-center gap-2">
-              <Check className="w-4 h-4 text-orange-600" /> Luxury Accommodation
-            </li>
-            <li className="flex items-center gap-2">
-              <Check className="w-4 h-4 text-orange-600" /> Buffet Breakfast  & Dinner Included
-            </li>
-            <li className="flex items-center gap-2">
-              <Check className="w-4 h-4 text-orange-600" /> Resort Amenities Access
-            </li>
-            <li className="flex items-center gap-2">
-              <Check className="w-4 h-4 text-orange-600" /> Scenic & Relaxing Experience
-            </li>
-          </ul>
-        </div>
-
-        <a
-          href="/book-hotel"
-          className="mt-10 bg-orange-500 text-white py-3 rounded-xl font-semibold text-center hover:bg-orange-600 transition"
-        >
-          Book Now
-        </a>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-       
-    <ContactCTA />
+      <ContactCTA />
     </main>
   )
 }

@@ -420,7 +420,7 @@ export default function ContactPage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Visit Our Office</h3>
               <div className="aspect-video rounded-xl overflow-hidden mb-6">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.3894846438584!2d88.42254547661936!3d22.601926379470875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02758dc2e6727b%3A0x173b02f3660ee938!2sAc-119%2F1%20Prafulla%20Kanaan%20Kestopur!5e0!3m2!1sen!2sin!4v1770727437400!5m2!1sen!2sin" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10743.073900046735!2d88.4202962477842!3d22.603785367878004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02758dcef4157d%3A0xe9a9b7f4ca68ac9f!2sKolkata%2C%20West%20Bengal%20700101!5e1!3m2!1sen!2sin!4v1772592684946!5m2!1sen!2sin"
                   width="100%" 
                   height="100%" 
                   style={{ border: 0 }} 
@@ -430,7 +430,7 @@ export default function ContactPage() {
                   className="w-full h-full"
                 />
               </div>
-              
+
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-yellow-600 mt-1 flex-shrink-0" />

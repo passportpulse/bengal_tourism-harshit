@@ -69,8 +69,9 @@ export default function SpaWellnessPage() {
               Authentic Ayurvedic treatments with ancient wisdom and modern wellness practices
             </p>
           </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+            <div className="lg:col-span-2 space-y-8">
+          <div className="grid md:grid-cols-2 gap-8">
             {/* Panchakarma */}
             <div className="bg-gradient-to-br from-green-50 to-teal-50 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition group">
               <div className="h-48 bg-gradient-to-br from-green-400 to-teal-500 flex items-center justify-center">
@@ -151,6 +152,44 @@ export default function SpaWellnessPage() {
               </div>
             </div>
           </div>
+
+            </div>
+            {/* RIGHT SIDE – VIDEO + AD */}
+            <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+              {/* Video Section */}
+              <div className="bg-white rounded-3xl shadow-lg p-6">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  Watch Spa Wellness video
+                </h3>
+
+                <div className="aspect-video rounded-xl overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    title="Tonle Sap Lake Tour"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+
+              {/* Advertisement Section */}
+              <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
+                <h3 className="text-2xl font-bold mb-4">
+                  🚀 Paste Your Advertisement Here
+                </h3>
+                <p className="text-sm opacity-90">
+                  Promote your brand, offer or travel deals here.
+                  This space is perfect for partner promotions.
+                </p>
+                <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                  Contact For Promotion
+                </button>
+              </div>
+
+            </div>
+
+          </div>
         </div>
       </section>
 
@@ -164,7 +203,7 @@ export default function SpaWellnessPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 justify-center gap-8">
             {/* Yoga */}
             <div className="bg-white rounded-2xl p-8 text-center hover:shadow-xl transition">
               <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -271,7 +310,7 @@ export default function SpaWellnessPage() {
                 <Clock className="w-16 h-16 text-white group-hover:scale-110 transition" />
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">3-Day Rejuvenation</h3>
+                <h3 className="text-2xl text-gray-700 font-bold mb-3">3-Day Rejuvenation</h3>
                 <p className="text-gray-700 mb-4">
                   Complete wellness program with Ayurvedic treatments, yoga, meditation, 
                   and spa therapies. Perfect for stress relief and rejuvenation.
@@ -290,7 +329,7 @@ export default function SpaWellnessPage() {
                 <Sparkles className="w-16 h-16 text-white group-hover:scale-110 transition" />
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">5-Day Detox</h3>
+                <h3 className="text-2xl text-gray-700 font-bold mb-3">5-Day Detox</h3>
                 <p className="text-gray-700 mb-4">
                   Intensive detoxification program with Panchakarma, herbal treatments, 
                   and specialized diet. Experience complete body purification and renewal.
@@ -310,7 +349,7 @@ export default function SpaWellnessPage() {
                 <Star className="w-16 h-16 text-white group-hover:scale-110 transition" />
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Wellness Retreat</h3>
+                <h3 className="text-2xl text-gray-700 font-bold mb-3">Wellness Retreat</h3>
                 <p className="text-gray-700 mb-4">
                   Ultimate wellness experience combining all treatments, yoga, meditation, 
                   spa therapies, and healthy cuisine. Perfect for complete transformation.

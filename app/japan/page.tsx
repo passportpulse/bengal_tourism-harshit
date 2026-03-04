@@ -191,7 +191,6 @@ export default function JapanPage() {
           { label: "Most Popular", days: "4N / 5D", price: 15400 },
           { label: "In group of 20+ Persons", days: "3N / 4D", price: 12700 },
           { label: "As add on / Separately ", days: "2N / 3D", price: 9100 },
-          { label: "Not Feasible", days: "1N / 2D", price: 3700, disabled: true },
         ]}
       />
 

@@ -108,14 +108,14 @@ export default function CampingAdventurePage() {
           />
           <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-green-900/40"></div>
         </div>
-        
+
         <div className="relative z-10 h-full flex items-center justify-center px-6">
           <div className="text-center max-w-5xl mx-auto">
             <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md border border-white/30 rounded-full px-6 py-3 mb-8">
               <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
               <span className="text-white font-medium text-sm">Adventure Tourism</span>
             </div>
-            
+
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Camping &
               <span className="block bg-gradient-to-r from-green-400 via-blue-400 to-teal-400 bg-clip-text text-transparent relative">
@@ -132,7 +132,7 @@ export default function CampingAdventurePage() {
                 </svg>
               </span>
             </h1>
-            
+
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-12 leading-relaxed">
               West Bengal & Uttarakhand, India with Bengal Tourism • Special Tailor Made Packages
             </p>
@@ -167,130 +167,167 @@ export default function CampingAdventurePage() {
         </div>
       </section>
 
- <div className="bg-gray-50 py-16 px-6 md:px-12 text-gray-800">
-      <div className="max-w-7xl mx-auto space-y-16">
+      <div className="bg-gray-50 py-16 px-6 md:px-12 text-gray-800">
+        <div className="max-w-7xl mx-auto space-y-16">
 
-        {/* HEADER */}
-        <section className="text-center space-y-6">
-          <h1 className="text-4xl md:text-5xl font-bold text-blue-700">
-            Special Tailor-made Combination Package
-          </h1>
-          <p className="text-lg text-gray-600">
-            Number of Days & Cost can be designed on Request
-          </p>
-        </section>
-
-        {/* WEST BENGAL RAFTING */}
-        <section className="bg-white rounded-3xl shadow-xl p-8 md:p-12 space-y-6">
-          <h2 className="text-3xl font-semibold text-blue-600 border-b-2 border-blue-500 inline-block pb-2">
-            White Water Rafting – West Bengal
-          </h2>
-
-          <p className="leading-8">
-            There is a wide range in the intensity of the rapids making it adequate for all, the young and the aged to enjoy the spectacular sport and the scenery while leisurely floating down the rivers here in West Bengal; which till date were lesser known. The well trained members and quality equipment will assure guest a safe and pleasant ride.
-          </p>
-
-          <p className="leading-8">
-            To enjoy rafting guest should spare a day during their stay in Darjeeling, Kalimpong, Tinchuley, Baramangua, ReshiKhola or any other nearby destinations. Take a one and half hour drive down to Teesta Bazar to enjoy this sport.
-          </p>
-
-          <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg">
-            <p className="leading-8">
-              It is advisable to avoid this sport during monsoon or just a month after monsoon rest of the period is comparatively safe.
+          {/* HEADER */}
+          <section className="text-center space-y-6">
+            <h1 className="text-4xl md:text-5xl font-bold text-blue-700">
+              Special Tailor-made Combination Package
+            </h1>
+            <p className="text-lg text-gray-600">
+              Number of Days & Cost can be designed on Request
             </p>
-          </div>
+          </section>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+            <div className="lg:col-span-2 space-y-8">
+              {/* WEST BENGAL RAFTING */}
+              <section className="bg-white rounded-3xl shadow-xl p-8 md:p-12 space-y-6">
+                <h2 className="text-3xl font-semibold text-blue-600 border-b-2 border-blue-500 inline-block pb-2">
+                  White Water Rafting – West Bengal
+                </h2>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-gray-100 p-6 rounded-2xl shadow">
-              <h3 className="font-semibold text-lg mb-2">For Non-Swimmers</h3>
-              <p>Melli to 29th Mile nearly 1½ Hours</p>
-              <p>Melli to Kalijhora nearly 3 hours</p>
+                <p className="leading-8">
+                  There is a wide range in the intensity of the rapids making it adequate for all, the young and the aged to enjoy the spectacular sport and the scenery while leisurely floating down the rivers here in West Bengal; which till date were lesser known. The well trained members and quality equipment will assure guest a safe and pleasant ride.
+                </p>
+
+                <p className="leading-8">
+                  To enjoy rafting guest should spare a day during their stay in Darjeeling, Kalimpong, Tinchuley, Baramangua, ReshiKhola or any other nearby destinations. Take a one and half hour drive down to Teesta Bazar to enjoy this sport.
+                </p>
+
+                <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg">
+                  <p className="leading-8">
+                    It is advisable to avoid this sport during monsoon or just a month after monsoon rest of the period is comparatively safe.
+                  </p>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div className="bg-gray-100 p-6 rounded-2xl shadow">
+                    <h3 className="font-semibold text-lg mb-2">For Non-Swimmers</h3>
+                    <p>Melli to 29th Mile nearly 1½ Hours</p>
+                    <p>Melli to Kalijhora nearly 3 hours</p>
+                  </div>
+
+                  <div className="bg-gray-100 p-6 rounded-2xl shadow">
+                    <h3 className="font-semibold text-lg mb-2">For Swimmers</h3>
+                    <p>Tarkhola to Malli nearly 2 hours</p>
+                    <p>Tarkhola to 29 Mile nearly 3 hours</p>
+                  </div>
+                </div>
+              </section>
+
+              {/* CHITREY & RANGET */}
+              <section className="bg-white rounded-3xl shadow-xl p-8 md:p-12 space-y-6">
+                <h2 className="text-3xl font-semibold text-green-600 border-b-2 border-green-500 inline-block pb-2">
+                  Chitrey & Rangeet
+                </h2>
+
+                <p className="leading-8">
+                  White water rafting in Chitrey is the most sought after adventure for most of the tourist in this part of the region. Water adventure to explore the uniqueness of Darjeeling natural diversity.
+                </p>
+
+                <p className="leading-8">
+                  The famous Teesta and Rangeet rivers offer first class rafting and canoeing adventures. According to tourist experience and interest, guest can either glide along calm blue waters with magnificent scenery rising out of the banks, or rush through roaring white rapids.
+                </p>
+
+                <p className="leading-8">
+                  Guest will always be in the capable hands of accomplished guide employed by government authorized rafting agencies. White Water Rafting is relatively new in the banks of Teesta. River Teesta and Rangeet have turbulent currents making it a formidable challenge to even the seasoned rafter.
+                </p>
+              </section>
+
+              {/* UTTARAKHAND SECTION */}
+              <section className="bg-white rounded-3xl shadow-xl p-8 md:p-12 space-y-10">
+                <h2 className="text-3xl font-semibold text-purple-600 border-b-2 border-purple-500 inline-block pb-2">
+                  White Water Rafting & Camping – Uttarakhand
+                </h2>
+
+                <div className="space-y-6">
+                  <h3 className="text-xl font-semibold text-purple-700">Rishikesh</h3>
+                  <p className="leading-8">
+                    The Ganga in Uttarakhand is one of India's major and holiest of rivers. With a location close to Delhi, it is a popular choice for first-timers, non-swimmers and families. It is also the hub of white-water rafting in India. It combines an action-packed trip with the best rapids, float sections and wilderness. A perfect introduction to white-water rafting and an ideal weekend getaway to calm overworked nerves.
+                  </p>
+                </div>
+
+                <div className="space-y-6">
+                  <h3 className="text-xl font-semibold text-purple-700">Alaknanda</h3>
+                  <p className="leading-8">
+                    The Alaknanda in Uttarakhand is the second major tributary of the Ganga besides the Bhagirathi. It drains through the big mountains of Garhwal and has numerous mighty tributaries including the Mandakini, Nandakini & Pindar.
+                  </p>
+
+                  <p className="leading-8">
+                    Apart from challenging white water the river offers some spectacular scenery. A self-contained trip is a great introduction to expedition rafting. Our journey starts at Nandprayag below the big rapid - ‘Hillary's Fall', named after Sir Edmund Hillary's up-stream jet boat expedition, “Ocean to Sky”, many decades ago.
+                  </p>
+                </div>
+              </section>
+
+              {/* STAY & IMPORTANT NOTES */}
+              <section className="bg-white rounded-3xl shadow-xl p-8 md:p-12 space-y-6">
+                <h2 className="text-2xl font-semibold text-orange-600 border-b-2 border-orange-500 inline-block pb-2">
+                  Stay & Important Information
+                </h2>
+
+                <p className="leading-8">
+                  Recommended to stay in makeshift Tents / Camps but with all modern & hygienic facilities.
+                </p>
+
+                <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-lg space-y-3">
+                  <p>Please try to have the following:</p>
+                  <ul className="list-disc pl-6 space-y-2">
+                    <li>A set of dry clothes</li>
+                    <li>Extra pair of sneakers or any other footwear</li>
+                    <li>Suntan / Sun screen lotion</li>
+                    <li>Shorts & Rain-coats</li>
+                  </ul>
+                  <p>
+                    Foreign Tourists are required to produce their passport & photos.
+                  </p>
+                </div>
+              </section>
             </div>
+            <div className="space-y-8 lg:sticky lg:top-24 h-fit">
 
-            <div className="bg-gray-100 p-6 rounded-2xl shadow">
-              <h3 className="font-semibold text-lg mb-2">For Swimmers</h3>
-              <p>Tarkhola to Malli nearly 2 hours</p>
-              <p>Tarkhola to 29 Mile nearly 3 hours</p>
+              {/* Video Section */}
+              <div className="bg-white rounded-3xl shadow-lg p-6">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  Watch Camping Adventure Video
+                </h3>
+
+                <div className="aspect-video rounded-xl overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    title="Tonle Sap Lake Tour"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+
+              {/* Advertisement Section */}
+              <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
+                <h3 className="text-2xl font-bold mb-4">
+                  🚀 Paste Your Advertisement Here
+                </h3>
+                <p className="text-sm opacity-90">
+                  Promote your brand, offer or travel deals here.
+                  This space is perfect for partner promotions.
+                </p>
+                <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                  Contact For Promotion
+                </button>
+              </div>
+
             </div>
           </div>
-        </section>
 
-        {/* CHITREY & RANGET */}
-        <section className="bg-white rounded-3xl shadow-xl p-8 md:p-12 space-y-6">
-          <h2 className="text-3xl font-semibold text-green-600 border-b-2 border-green-500 inline-block pb-2">
-            Chitrey & Rangeet
-          </h2>
-
-          <p className="leading-8">
-            White water rafting in Chitrey is the most sought after adventure for most of the tourist in this part of the region. Water adventure to explore the uniqueness of Darjeeling natural diversity.
-          </p>
-
-          <p className="leading-8">
-            The famous Teesta and Rangeet rivers offer first class rafting and canoeing adventures. According to tourist experience and interest, guest can either glide along calm blue waters with magnificent scenery rising out of the banks, or rush through roaring white rapids.
-          </p>
-
-          <p className="leading-8">
-            Guest will always be in the capable hands of accomplished guide employed by government authorized rafting agencies. White Water Rafting is relatively new in the banks of Teesta. River Teesta and Rangeet have turbulent currents making it a formidable challenge to even the seasoned rafter.
-          </p>
-        </section>
-
-        {/* UTTARAKHAND SECTION */}
-        <section className="bg-white rounded-3xl shadow-xl p-8 md:p-12 space-y-10">
-          <h2 className="text-3xl font-semibold text-purple-600 border-b-2 border-purple-500 inline-block pb-2">
-            White Water Rafting & Camping – Uttarakhand
-          </h2>
-
-          <div className="space-y-6">
-            <h3 className="text-xl font-semibold text-purple-700">Rishikesh</h3>
-            <p className="leading-8">
-              The Ganga in Uttarakhand is one of India's major and holiest of rivers. With a location close to Delhi, it is a popular choice for first-timers, non-swimmers and families. It is also the hub of white-water rafting in India. It combines an action-packed trip with the best rapids, float sections and wilderness. A perfect introduction to white-water rafting and an ideal weekend getaway to calm overworked nerves.
-            </p>
-          </div>
-
-          <div className="space-y-6">
-            <h3 className="text-xl font-semibold text-purple-700">Alaknanda</h3>
-            <p className="leading-8">
-              The Alaknanda in Uttarakhand is the second major tributary of the Ganga besides the Bhagirathi. It drains through the big mountains of Garhwal and has numerous mighty tributaries including the Mandakini, Nandakini & Pindar.
-            </p>
-
-            <p className="leading-8">
-              Apart from challenging white water the river offers some spectacular scenery. A self-contained trip is a great introduction to expedition rafting. Our journey starts at Nandprayag below the big rapid - ‘Hillary's Fall', named after Sir Edmund Hillary's up-stream jet boat expedition, “Ocean to Sky”, many decades ago.
-            </p>
-          </div>
-        </section>
-
-        {/* STAY & IMPORTANT NOTES */}
-        <section className="bg-white rounded-3xl shadow-xl p-8 md:p-12 space-y-6">
-          <h2 className="text-2xl font-semibold text-orange-600 border-b-2 border-orange-500 inline-block pb-2">
-            Stay & Important Information
-          </h2>
-
-          <p className="leading-8">
-            Recommended to stay in makeshift Tents / Camps but with all modern & hygienic facilities.
-          </p>
-
-          <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-lg space-y-3">
-            <p>Please try to have the following:</p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>A set of dry clothes</li>
-              <li>Extra pair of sneakers or any other footwear</li>
-              <li>Suntan / Sun screen lotion</li>
-              <li>Shorts & Rain-coats</li>
-            </ul>
-            <p>
-              Foreign Tourists are required to produce their passport & photos.
-            </p>
-          </div>
-        </section>
-
+        </div>
       </div>
-    </div>
+
       {/* ================= PACKAGE PRICING ================= */}
-      <PackagePricing 
+      <PackagePricing
         title="Camping Adventure Tour Packages"
         subtitle="Choose your perfect outdoor adventure duration"
       />
-         
+
       <ContactCTA />
     </>
   );

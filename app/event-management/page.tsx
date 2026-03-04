@@ -184,16 +184,10 @@ export default function EventManagementPage() {
             in West Bengal, India with Bengal Tourism
           </p>
 
-          <div className="bg-white shadow-md rounded-2xl inline-block px-8 py-4 mt-4">
-            <p className="text-lg font-semibold">
-              Prices / Day on Request
-            </p>
-            <p className="mt-2">
-              • Normal &nbsp; • Deluxe &nbsp; • Luxury
-            </p>
-          </div>
+    
         </section>
-
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+            <div className="lg:col-span-2 space-y-8">
         {/* SERVICES SECTION */}
         <section className="bg-white rounded-3xl shadow-xl p-8 md:p-12 space-y-6">
           <h2 className="text-3xl font-semibold text-indigo-600 border-b-2 border-indigo-500 inline-block pb-2">
@@ -215,84 +209,106 @@ export default function EventManagementPage() {
         </section>
 
         {/* CLIENTS SECTION */}
-        <section className="bg-white rounded-3xl shadow-xl p-8 md:p-12 space-y-10">
-          <h2 className="text-3xl font-semibold text-indigo-600 border-b-2 border-indigo-500 inline-block pb-2">
-            Our Esteemed Clients
-          </h2>
+      <section className="py-20 bg-gray-50">
+  <div className="max-w-7xl mx-auto px-6">
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 text-center text-sm md:text-base font-medium">
-            <div>AXIS Bank</div>
-            <div>24 Ghonta</div>
-            <div>Panacea</div>
-            <div>Lupin</div>
-            <div>Piramal Healthcare</div>
-            <div>Sun Pharma</div>
-            <div>Amul</div>
-            <div>Glaxo SmithKline</div>
-            <div>Life Medical</div>
-            <div>Ipca Laboratories</div>
-            <div>Abbot</div>
-            <div>USV Limited</div>
-            <div>Dr. Reddy’s</div>
-            <div>Himalaya</div>
-            <div>Procter & Gamble</div>
-            <div>Godrej</div>
-            <div>Reliance Industries</div>
-            <div>SAIL</div>
-            <div>State Bank of India</div>
-            <div>TISCO</div>
-            <div>Lemongrass</div>
-            <div>Rolta</div>
-            <div>ONGC</div>
-            <div>NTPC</div>
-            <div>Bridge & Roof</div>
-            <div>Birla Tyres</div>
-            <div>Britannia</div>
-            <div>Nestle</div>
-            <div>Sahara</div>
-            <div>Ener Vision</div>
-            <div>National Insurance</div>
-            <div>Tata Tea</div>
-            <div>Maruti</div>
-            <div>Hyundai</div>
-            <div>Tata Motors</div>
-            <div>Anjali Jewellers</div>
-            <div>Herbalife</div>
-            <div>Amway</div>
-            <div>Hindusthan Lever</div>
-            <div>Airtel</div>
-            <div>Vodafone</div>
-            <div>Samsung</div>
-            <div>LG</div>
-            <div>NOKIA</div>
-            <div>Heritage School</div>
-            <div>Delhi Public School</div>
-            <div>St. Xaviers’ College</div>
-            <div>Gokhale Memorial</div>
-            <div>La Martiniere</div>
-            <div>Indo English School</div>
-            <div>St. Pauls</div>
-            <div>St. Thomas’ School</div>
-            <div>Carmel School</div>
-            <div>Shree Shikshayatan</div>
-            <div>Balaji Films</div>
-            <div>Tata Memorial Hospital</div>
-            <div>Medica Superspeciality Hospital</div>
-            <div>Desun Hospital</div>
-            <div>SBI</div>
-            <div>HDFC Bank</div>
-            <div>Indian Oil</div>
-            <div>Essar</div>
-            <div>HT</div>
-            <div>Times of India</div>
-            <div>Toyota</div>
-            <div>Yash Raj Films</div>
-            <div>Academy of Cultural Arts</div>
-            <div>Kolkata Marathon</div>
-            <div>And more..</div>
+    {/* Heading */}
+    <div className=" mb-14">
+      <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
+        Our Esteemed Clients
+      </h2>
+      <p className="text-gray-500 mt-3">
+        Trusted by leading brands, organizations and institutions
+      </p>
+    </div>
+
+    {/* Clients Grid */}
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4  gap-6">
+
+      {[
+        "AXIS Bank","24 Ghonta","Panacea","Lupin","Piramal Healthcare",
+        "Sun Pharma","Amul","Glaxo SmithKline","Life Medical","Ipca Laboratories",
+        "Abbot","USV Limited","Dr. Reddy’s","Himalaya","Procter & Gamble",
+        "Godrej","Reliance Industries","SAIL","State Bank of India","TISCO",
+        "Rolta","ONGC","NTPC","Bridge & Roof","Birla Tyres",
+        "Britannia","Nestle","Sahara","National Insurance","Tata Tea",
+        "Maruti","Hyundai","Tata Motors","Anjali Jewellers","Herbalife",
+        "Amway","Hindusthan Lever","Airtel","Vodafone","Samsung",
+        "LG","NOKIA","Heritage School","Delhi Public School","St. Xaviers’ College",
+        "La Martiniere","Balaji Films","Tata Memorial Hospital","Desun Hospital",
+        "HDFC Bank","Indian Oil","Essar","Times of India","Toyota",
+        "Yash Raj Films","Kolkata Marathon"
+      ].map((client, index) => {
+
+        const colors = [
+          "bg-blue-50 border-blue-200",
+          "bg-green-50 border-green-200",
+          "bg-purple-50 border-purple-200",
+          "bg-pink-50 border-pink-200",
+          "bg-yellow-50 border-yellow-200",
+          "bg-indigo-50 border-indigo-200",
+          "bg-orange-50 border-orange-200",
+          "bg-teal-50 border-teal-200"
+        ];
+
+        return (
+          <div
+            key={index}
+            className={`${colors[index % colors.length]} 
+            border rounded-xl p-5 
+            flex items-center justify-center 
+            text-center font-medium text-gray-700
+            hover:shadow-lg hover:scale-105
+            transition duration-300`}
+          >
+            {client}
           </div>
-        </section>
+        );
+      })}
 
+    </div>
+
+    <div className="text-center mt-12 text-gray-500 text-sm">
+      ...and many more trusted partners
+    </div>
+
+  </div>
+</section>
+  </div>
+            <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+
+              {/* Video Section */}
+              <div className="bg-white rounded-3xl shadow-lg p-6">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  Watch Event management Video
+                </h3>
+
+                <div className="aspect-video rounded-xl overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    title="Tonle Sap Lake Tour"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+
+              {/* Advertisement Section */}
+              <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
+                <h3 className="text-2xl font-bold mb-4">
+                  🚀 Paste Your Advertisement Here
+                </h3>
+                <p className="text-sm opacity-90">
+                  Promote your brand, offer or travel deals here.
+                  This space is perfect for partner promotions.
+                </p>
+                <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                  Contact For Promotion
+                </button>
+              </div>
+
+            </div>
+          </div>
       </div>
     </div>
       {/* ================= SERVICE CATEGORIES ================= */}
