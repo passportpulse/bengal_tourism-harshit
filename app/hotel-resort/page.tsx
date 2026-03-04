@@ -194,7 +194,7 @@ export default function HotelResortPage() {
                 private beaches, water sports, and tropical gardens.
                 Perfect for romantic getaways and family vacations.
               </p>
-              <div className="flex items-center gap-2 text-cyan-600">
+              <div className="flex items-center justify-center gap-2 text-cyan-600">
                 <MapPin className="w-4 h-4" />
                 <span className="text-sm">Goa, Kerala, Andaman</span>
               </div>
@@ -211,7 +211,7 @@ export default function HotelResortPage() {
                 fresh mountain air, and adventure activities.
                 Ideal for nature lovers and peace seekers.
               </p>
-              <div className="flex items-center gap-2 text-green-600">
+              <div className="flex items-center justify-center gap-2 text-green-600">
                 <MapPin className="w-4 h-4" />
                 <span className="text-sm">Himalayas, Western Ghats</span>
               </div>
@@ -228,7 +228,7 @@ export default function HotelResortPage() {
                 royal architecture, antique furniture, and cultural heritage.
                 Experience regal hospitality.
               </p>
-              <div className="flex items-center gap-2 text-purple-600">
+              <div className="flex items-center  justify-center gap-2 text-purple-600">
                 <MapPin className="w-4 h-4" />
                 <span className="text-sm">Rajasthan, Mysore, Kolkata</span>
               </div>
@@ -245,7 +245,7 @@ export default function HotelResortPage() {
                 executive lounges, and premium business services.
                 Perfect for corporate travelers and meetings.
               </p>
-              <div className="flex items-center gap-2 text-orange-600">
+              <div className="flex items-center  justify-center gap-2 text-orange-600">
                 <MapPin className="w-4 h-4" />
                 <span className="text-sm">Metro Cities</span>
               </div>
@@ -262,7 +262,7 @@ export default function HotelResortPage() {
                 organic gardens, and nature conservation.
                 Experience eco-luxury at its finest.
               </p>
-              <div className="flex items-center gap-2 text-emerald-600">
+              <div className="flex items-center justify-center gap-2 text-emerald-600">
                 <MapPin className="w-4 h-4" />
                 <span className="text-sm">Wildlife Sanctuaries</span>
               </div>
