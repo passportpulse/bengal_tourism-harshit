@@ -148,6 +148,26 @@ export default function AssamGuwahatiTourismPage() {
                   </p>
                 </div>
               </div>
+              <div className="bg-white rounded-3xl shadow-2xl overflow-hidden mt-5">
+                <div className="bg-gradient-to-r from-green-600 to-emerald-600 text-white p-8">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h3 className="text-2xl font-bold mb-2">ADD ON: Manas National Park</h3>
+                    </div>
+                    <a href="/book-tour" className="bg-yellow-600 font-semibold shadow-md rounded-full text-white px-4 py-2">
+                      Book Now For 2N/3D
+                    </a>
+                  </div>
+                </div>
+                <div className="p-6">
+                  <p className="text-gray-700 leading-relaxed">
+                    Experience the pristine wilderness of Manas National Park, a UNESCO World Heritage Site and Project Tiger reserve. <br /><br />
+                    Day 1: Arrival at Manas and check-in to your forest lodge. Evening jeep safari to explore the eastern range for wildlife viewing including tigers, elephants, and golden langurs. <br /><br />
+                    Day 2: Early morning elephant safari through the grasslands and riverine forests. After breakfast, visit the Mathanguri forest village and enjoy breathtaking views of the Manas River and Bhutan hills. Afternoon jeep safari in the central range with opportunities to spot wild buffaloes, Indian bison, and various bird species. <br /> <br />
+                    Day 3: Morning nature walk with experienced guides to explore the rich biodiversity. Visit the Manas Maozigendri Ecotourism Society to learn about conservation efforts. After lunch, departure from Manas with unforgettable memories of this pristine wilderness. Tour Ends..
+                  </p>
+                </div>
+              </div>
             </div>
             <div className="space-y-8 lg:sticky lg:top-24 h-fit">
 
