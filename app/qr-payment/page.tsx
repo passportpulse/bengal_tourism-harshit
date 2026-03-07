@@ -86,7 +86,7 @@ function QRPaymentContent() {
       return '916289783779'
     case 'hotel':
     default:
-      return '9007995888'
+      return '7890727339'
   }
 }
 const getEmailBySource = () => {

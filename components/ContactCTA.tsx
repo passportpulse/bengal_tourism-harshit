@@ -30,11 +30,11 @@ export default function ContactCTA() {
 
             {/* Hotel Booking */}
             <a 
-              href="tel:9007995888"
+              href="tel:7890727339"
               className="flex items-center gap-3 bg-blue-600 px-6 py-3 rounded-xl font-semibold hover:bg-blue-500 transition"
             >
               <Phone size={20} />
-              Call for Hotel Booking – 9007995888
+              Call for Hotel Booking – 7890727339
             </a>
 
             {/* WhatsApp Tour */}
@@ -49,12 +49,12 @@ export default function ContactCTA() {
 
             {/* WhatsApp Hotel */}
             <a 
-              href="https://wa.me/919007995888"
+              href="https://wa.me/917890727339"
               target="_blank"
               className="flex items-center gap-3 bg-green-700 px-6 py-3 rounded-xl font-semibold hover:bg-green-600 transition"
             >
               <MessageCircle size={20} />
-              WhatsApp for Hotel Booking - 9007995888
+              WhatsApp for Hotel Booking - 7890727339
             </a>
 
             {/* Email */}

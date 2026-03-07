@@ -200,7 +200,7 @@ export default function Sitemap() {
                 <Phone className="w-5 h-5 text-yellow-600 mt-1" />
                 <div>
                   <p className="text-gray-700 font-medium">Hotel Booking</p>
-                  <p className="text-gray-600">9007995888</p>
+                  <p className="text-gray-600">7890727339</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">

@@ -71,7 +71,7 @@ const contactMethods = [
     icon: Phone,
     title: "Hotel Booking",
     value: "+91 90079 95888",
-    action: "tel:+919007995888",
+    action: "tel:+917890727339",
     button: "Call Now",
     color: "text-orange-600"
   },
@@ -111,7 +111,7 @@ const contactMethods = [
     icon: MessageSquare,
     title: "WhatsApp – Hotel",
     value: "+91 90079 95888",
-    action: "https://wa.me/919007995888",
+    action: "https://wa.me/917890727339",
     button: "Chat on WhatsApp",
     color: "text-green-600"
   }
@@ -447,7 +447,7 @@ export default function ContactPage() {
                   <div>
                     <h4 className="font-bold text-gray-900 mb-1">Contact Numbers</h4>
                     <p className="text-gray-700">Tour Booking: 6289783779</p>
-                    <p className="text-gray-700">Hotel Booking: 9007995888</p>
+                    <p className="text-gray-700">Hotel Booking: 7890727339</p>
                   </div>
                 </div>
                 

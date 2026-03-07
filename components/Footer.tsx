@@ -209,8 +209,8 @@ export default function Footer() {
 
 <p>
   Hotel Booking:{" "}
-  <a href="tel:9007995888" className="text-white font-semibold hover:text-yellow-400">
-    9007995888
+  <a href="tel:7890727339" className="text-white font-semibold hover:text-yellow-400">
+    7890727339
   </a>
 </p>
 
@@ -224,8 +224,8 @@ export default function Footer() {
                     Tour WhatsApp: <strong className="text-white">6289783779</strong>
                   </a>
                   <br />
-                  <a href="https://wa.me/919007995888" target="_blank" className="hover:text-yellow-400">
-                    Hotel WhatsApp: <strong className="text-white">9007995888</strong>
+                  <a href="https://wa.me/917890727339" target="_blank" className="hover:text-yellow-400">
+                    Hotel WhatsApp: <strong className="text-white">7890727339</strong>
                   </a>
                 </div>
               </div>
