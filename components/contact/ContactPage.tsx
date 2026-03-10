@@ -70,7 +70,7 @@ const contactMethods = [
   {
     icon: Phone,
     title: "Hotel Booking",
-    value: "+91 90079 95888",
+    value: "+91 7890727339",
     action: "tel:+917890727339",
     button: "Call Now",
     color: "text-orange-600"
@@ -110,7 +110,7 @@ const contactMethods = [
   {
     icon: MessageSquare,
     title: "WhatsApp – Hotel",
-    value: "+91 90079 95888",
+    value: "+91 7890727339",
     action: "https://wa.me/917890727339",
     button: "Chat on WhatsApp",
     color: "text-green-600"

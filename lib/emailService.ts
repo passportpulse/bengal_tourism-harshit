@@ -174,7 +174,7 @@ export const sendContactFormEmail = async (formData: {
       <div style="text-align: center; margin: 30px 0;">
         <h3 style="color: #1f2937;">Contact Information</h3>
         <p><strong>Tour Booking:</strong> +91 62897 83779</p>
-        <p><strong>Hotel Booking:</strong> +91 90079 95888</p>
+        <p><strong>Hotel Booking:</strong> +91 7890727339</p>
         <p><strong>Email:</strong> bengaltourism@gmail.com</p>
       </div>
       <p style="color: #6b7280; font-size: 12px; text-align: center; margin-top: 20px;">
