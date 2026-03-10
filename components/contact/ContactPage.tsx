@@ -298,79 +298,11 @@ export default function ContactPage() {
         </div>
       </div>
 
-      {/* ================= RIGHT SIDE FORM ================= */}
-      <div className="bg-white rounded-2xl shadow-xl p-10">
-        <h3 className="text-2xl font-black text-gray-900 mb-6">
-          Send Us a Message
-        </h3>
-
-        <form onSubmit={handleSubmit} className="space-y-5">
-
-          <div className="relative">
-            <User className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
-            <input
-              type="text"
-              placeholder="Your Name"
-              value={formData.name}
-              onChange={(e) => handleInputChange("name", e.target.value)}
-              className="w-full pl-12 py-4 border rounded-lg text-gray-800 focus:ring-2 focus:ring-yellow-500 outline-none"
-              required
-            />
-          </div>
-
-          <div className="relative">
-            <Mail className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
-            <input
-              type="email"
-              placeholder="Email Address"
-              value={formData.email}
-              onChange={(e) => handleInputChange("email", e.target.value)}
-              className="w-full pl-12 py-4 border rounded-lg text-gray-800 focus:ring-2 focus:ring-yellow-500 outline-none"
-              required
-            />
-          </div>
-
-          <div className="relative">
-            <Phone className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
-            <input
-              type="tel"
-              placeholder="Phone Number"
-              value={formData.phone}
-              onChange={(e) => handleInputChange("phone", e.target.value)}
-              className="w-full pl-12 py-4 border rounded-lg text-gray-800 focus:ring-2 focus:ring-yellow-500 outline-none"
-              required
-            />
-          </div>
-
-          <textarea
-            rows={4}
-            placeholder="Write your message..."
-            value={formData.message}
-            onChange={(e) => handleInputChange("message", e.target.value)}
-            className="w-full p-4 border rounded-lg text-gray-800 focus:ring-2 focus:ring-yellow-500 outline-none"
-            required
-          />
-
-          <button 
-            type="submit"
-            disabled={isSubmitting}
-            className="w-full py-4 bg-yellow-600 text-white font-bold rounded-lg hover:bg-yellow-700 transition flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
-          >
-            {isSubmitting ? (
-              <>
-                <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
-                Sending...
-              </>
-            ) : (
-              <>
-                <Send className="w-5 h-5" />
-                Send Message
-              </>
-            )}
-          </button>
-
-        </form>
-      </div>
+<div>
+  <img src="/HOME3.jpg" alt="" />
+  <img src="/HOME2.jpg" alt="" />
+  <img src="/HOME1.jpg" alt="" />
+</div>
 
     </div>
   </div>
