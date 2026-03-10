@@ -236,56 +236,7 @@ Afternoon free. Enjoy some last-minute shopping or exploration in Varanasi. Have
         </div>
       </section>
 
-      {/* ================= ALLAHABAD ADD-ON ================= */}
-      <section className="py-20 bg-gradient-to-br from-green-50 to-emerald-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <Destination
-            title="Add-on Prayagraj (Allahabad)"
-            cta="Book Now For 2N/3D"
-            subtitle="Sangam City - Triveni Sangam"
-            content={[
-              `Day 1: Arrival in Prayagraj, Our representative will receive you at Prayagraj Airport / Railway Station.
-              Transfer to hotel & check-in.
-              Lunch & rest. Post lunch, visit Triveni Sangam for holy dip and rituals.
-              Evening visit Alopi Devi Temple.
-              Dinner & Overnight at Hotel in Prayagraj.`,
-
-              `Day 2: Prayagraj Sightseeing, Early morning visit Sangam for sunrise and morning prayers.
-              Return to hotel for breakfast.
-              Post lunch, visit Anand Bhavan - Nehru family home, and Allahabad Fort.
-              Evening visit Hanuman Temple and Kalyani Devi Temple.
-              Dinner & Overnight at Hotel in Prayagraj.`,
-
-              `Day 3: Departure, Breakfast & check-out from Hotel.
-              Visit local markets for religious souvenirs if time permits.
-              Then drop-off at Prayagraj Airport / Railway Station for your onward journey.
-              Tour ends...`
-            ]}
-          />
-
-          <div className="bg-white rounded-2xl shadow-xl p-8 mt-5">
-            <div className="grid md:grid-cols-1 gap-8">
-              <div className="bg-green-100 rounded-xl p-6 mt-8">
-                <h4 className="font-bold text-green-800 mb-3">Prayagraj Highlights</h4>
-                <div className="space-y-2">
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-green-600" />
-                    <span className="text-gray-700">Triveni Sangam - Holy Confluence</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-green-600" />
-                    <span className="text-gray-700">Allahabad Fort & Anand Bhavan</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-green-600" />
-                    <span className="text-gray-700">Kumbh Mela Site</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    
 
       {/* ================= SPIRITUAL HIGHLIGHTS ================= */}
       <section className="py-20 bg-white">
