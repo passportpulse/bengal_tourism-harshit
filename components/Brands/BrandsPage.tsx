@@ -585,7 +585,7 @@ export default function BrandsPage() {
             {/* Brand Cards with Advertisement Insertion */}
             {filteredBrands.map((brand, index) => {
               // Insert advertisement card after every 6 brand cards
-              if (index > 0 && index % 4 === 0) {
+              if (index > 0 && index % 0 === 0) {
                 return (
                   <React.Fragment key={`ad-${index}`}>
                     <div className="lg:col-span-1 md:col-span-2 col-span-1">

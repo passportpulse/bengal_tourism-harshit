@@ -83,7 +83,7 @@ export default function ThailandPage() {
             <div className='flex gap-5 items-center'>
               <h2 className="text-3xl font-bold text-gray-800">THAILAND</h2>
               <a href='/book-tour' className='bg-yellow-500 px-4 py-4 text-white rounded-full'>
-                Book now For 6N/7D
+                Book now For 4N/5D
               </a>
             </div>
             <p className="font-semibold text-gray-700">
