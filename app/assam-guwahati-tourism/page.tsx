@@ -130,29 +130,38 @@ export default function AssamGuwahatiTourismPage() {
                 <div className="bg-gradient-to-r from-orange-500 to-amber-500 text-white p-8">
                   <div className="flex items-center justify-between">
                     <div>
-                      <h3 className="text-2xl font-bold mb-2">ADD ON: Kaziranga Forest</h3>
+                      <h3 className="text-2xl font-bold mb-2">Add on (or) Separately: Kaziranga Forest</h3>
                     </div>
                     <a href="/book-tour" className="bg-yellow-600 font-semibold shadow-md rounded-full text-white px-4 py-2">
-                      Book Now For 1N/2D
+                      Book Now For 2N/3D
                     </a>
                   </div>
                 </div>
                 <div className="p-6">
-                  <p className="text-gray-700 leading-relaxed">
-                    Get up early for elephant safari into the forest. Our representative will take you to the elephant riding point by jeeps.
-                    Here we will be carried through the tall grass. Meanwhile the morning mists will slowly lift leading to an experience that one cannot forget easily.
-                    The elephant safari is the best mean for wildlife viewing as the wild animals are not afraid of the elephants and it is possible to observe them from very closely.
-                    Return to the resort for breakfast. After breakfast, we will go for jeep safari in the national park for wildlife viewing in the central zone.
-                    Later return to the resort for unwinding yourself and having lunch. After lunch we will go on our second jeep safari of the day, this time we will visit the Western zone of the national park.
-                    One can also spend some time at the Donga view point, situated in western zone. Departure From Resort / Kaziranga. Tour Ends..
-                  </p>
+              <p className="text-gray-700 leading-relaxed">
+  <strong>Day 1:</strong> Arrival at Kaziranga and transfer to the resort. After check-in, relax and enjoy the natural surroundings. In the evening, explore the nearby area and enjoy local culture. Dinner and overnight stay at the resort.
+</p>
+
+<p className="text-gray-700 leading-relaxed mt-4">
+  <strong>Day 2:</strong> Get up early for elephant safari into the forest. Our representative will take you to the elephant riding point by jeeps. 
+  Here we will be carried through the tall grass while the morning mist slowly lifts, creating an unforgettable experience. 
+  The elephant safari is one of the best ways to view wildlife because animals are not afraid of elephants and can be observed closely. 
+  Return to the resort for breakfast. After breakfast, go for a jeep safari in the central zone of the national park. 
+  Later return to the resort for relaxation and lunch. After lunch, enjoy another jeep safari in the western zone. 
+  You may also visit the Donga viewpoint before returning to the resort.
+</p>
+
+<p className="text-gray-700 leading-relaxed mt-4">
+  <strong>Day 3:</strong> After breakfast, check out from the resort and proceed for departure from Kaziranga. 
+  The tour concludes with wonderful memories of wildlife, nature, and adventure.
+</p>
                 </div>
               </div>
               <div className="bg-white rounded-3xl shadow-2xl overflow-hidden mt-5">
                 <div className="bg-gradient-to-r from-green-600 to-emerald-600 text-white p-8">
                   <div className="flex items-center justify-between">
                     <div>
-                      <h3 className="text-2xl font-bold mb-2">ADD ON: Manas National Park</h3>
+                      <h3 className="text-2xl font-bold mb-2">Add on (or) Separately: Manas National Park</h3>
                     </div>
                     <a href="/book-tour" className="bg-yellow-600 font-semibold shadow-md rounded-full text-white px-4 py-2">
                       Book Now For 2N/3D

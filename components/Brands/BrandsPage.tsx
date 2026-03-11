@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { Star, MapPin, Phone, Mail, Globe, Heart, Award, TrendingUp, Users, Check, ExternalLink, Search, X } from "lucide-react";
+import { Star, MapPin, X } from "lucide-react";
 
 const brands = [
   {
@@ -13,7 +13,7 @@ const brands = [
     price: null,
     action: "Order on-line",
     featured: true,
-    image: "/partners/Final Logo_2018-02-26-18-12-39.jpg",
+    image: "",
     description: "Premium jewellery collection with traditional and modern designs",
     rating: 4.8,
     reviews: 156
@@ -24,7 +24,7 @@ const brands = [
     location: "KOLKATA",
     category: "food",
     price: "Starting INR 800/- for 2 Person",
-    action: null,
+  action: "Order on-line",
     featured: true,
     image: "/partners/374654-bhojohori-manna_2016-05-11-17-51-12.jpg",
     description: "Authentic Bengali cuisine serving traditional dishes and delicacies",
@@ -37,7 +37,7 @@ const brands = [
     location: "FULIA",
     category: "handloom",
     price: "INR 1500/- piece",
-    action: null,
+    action: "Order on-line",
     featured: false,
     image: "/partners/Tangail Saree_2017-11-13-12-27-21.jpg",
     description: "Traditional Tangail sarees with intricate designs and patterns",
@@ -50,9 +50,9 @@ const brands = [
     location: "KOLKATA",
     category: "jewellery",
     price: null,
-    action: null,
+    action: "Order on-line",
     featured: true,
-    image: "/partners/Final Logo_2018-02-26-18-12-39.jpg",
+    image: "",
     description: "Exquisite diamond jewellery and precious gemstones",
     rating: 4.9,
     reviews: 203
@@ -63,7 +63,7 @@ const brands = [
     location: "DARJEELING",
     category: "food",
     price: null,
-    action: "Publish YOUR Brand here",
+     action: "Order on-line",
     featured: true,
     image: "/partners/darjeeling20logo1_2016-05-13-07-49-05.jpg",
     description: "Premium Darjeeling tea from the finest tea gardens",
@@ -76,7 +76,7 @@ const brands = [
     location: "KOLKATA",
     category: "food",
     price: "INR 750/- kg",
-    action: null,
+    action: "Order on-line",
     featured: false,
     image: "/partners/Rosogolla_2016-07-03-19-56-22.jpg",
     description: "Famous Bengali sweet shop serving fresh rosogollas",
@@ -89,7 +89,7 @@ const brands = [
     location: "MIDNAPORE",
     category: "crafts",
     price: "INR 1500/- piece",
-    action: null,
+    action: "Order on-line",
     featured: false,
     image: "/partners/Patachitra_2017-11-13-12-02-04.jpg",
     description: "Traditional Patachitra paintings and folk art",
@@ -102,10 +102,10 @@ const brands = [
     location: "HOOGLY",
     category: "crafts",
     price: null,
-    action: null,
+    action: "Order on-line",
     featured: true,
     image: "/partners/Jute-1_2018-02-26-18-36-58.jpg",
-    "description": "Eco-friendly jute products and handicrafts",
+    description: "Eco-friendly jute products and handicrafts",
     rating: 4.5,
     reviews: 112
   },
@@ -128,7 +128,7 @@ const brands = [
     location: "RURAL BENGAL",
     category: "crafts",
     price: "Rs. 2500/- piece",
-    action: null,
+    action: "Order on-line",
     featured: false,
     image: "/partners/Kantha Stich_2017-11-13-12-14-21.jpg",
     description: "Traditional Kantha embroidered textiles and fabrics",
@@ -141,7 +141,7 @@ const brands = [
     location: "BANKURA",
     category: "crafts",
     price: null,
-    action: null,
+    action: "Order on-line",
     featured: true,
     image: "/partners/Dokra_2017-11-13-11-51-13.jpg",
     description: "Traditional Dokra metal crafts and tribal art",
@@ -154,7 +154,7 @@ const brands = [
     location: "WEST BENGAL",
     category: "handloom",
     price: "INR 5000/- piece",
-    action: null,
+     action: "Order on-line",
     featured: false,
     image: "/partners/Dhakai Saree_2017-11-13-12-20-25.jpg",
     description: "Fine Dhakai sarees with traditional weaving patterns",
@@ -167,7 +167,7 @@ const brands = [
     location: "SANTIPUR",
     category: "handloom",
     price: "INR 7500/- Piece",
-    action: null,
+     action: "Order on-line",
     featured: true,
     image: "/partners/Dhakai Saree_2017-11-13-12-20-25.jpg",
     description: "Premium Jamdani sarees with intricate designs",
@@ -180,7 +180,7 @@ const brands = [
     location: "KOLKATA",
     category: "food",
     price: "INR 450/- Portion",
-    action: null,
+    action: "Order on-line",
     featured: false,
     image: "/partners/Bengali THali_2018-02-26-18-54-37.jpg",
     description: "Delicious Prawn Malai Curry, a Bengali delicacy",
@@ -193,7 +193,7 @@ const brands = [
     location: "KOLKATA",
     category: "food",
     price: "INR 500/- portion",
-    action: null,
+     action: "Order on-line",
     featured: false,
     image: "/partners/Bengali THali_2018-02-26-18-54-37.jpg",
     description: "Fresh Hilsa fish preparations, Bengali specialty",
@@ -219,7 +219,7 @@ const brands = [
     location: "BURDWAN",
     category: "crafts",
     price: "INR 5000/- Set",
-    action: null,
+    action: "Order on-line",
     featured: false,
     image: "/partners/Bell utensils_2016-05-20-10-44-33.jfif",
     description: "Traditional bell metal crafts and utensils",
@@ -232,7 +232,7 @@ const brands = [
     location: "BANKURA",
     category: "crafts",
     price: "INR 750/- pair",
-    action: null,
+     action: "Order on-line",
     featured: false,
     image: "/partners/Teracota_2016-05-20-10-56-17.jfif",
     description: "Handcrafted terracotta pottery and art pieces",
@@ -245,7 +245,7 @@ const brands = [
     location: "KRISHNANAGAR",
     category: "crafts",
     price: "INR 300/- pair",
-    action: null,
+     action: "Order on-line",
     featured: false,
     image: "/partners/Clay Models_2016-05-20-10-57-32.jfif",
     description: "Traditional clay models and figurines from Krishnanagar",
@@ -258,7 +258,7 @@ const brands = [
     location: "PURULIA",
     category: "crafts",
     price: "INR 1500/- piece",
-    action: null,
+    action: "Order on-line",
     featured: false,
     image: "/partners/Wooden Mask_2018-02-26-18-43-14.jpg",
     description: "Traditional Purulia masks and folk art",
@@ -271,7 +271,7 @@ const brands = [
     location: "MURSHIDABAD",
     category: "handloom",
     price: "INR 7500/- Piece",
-    action: null,
+     action: "Order on-line",
     featured: false,
     image: "/partners/Baluchari Saree-1_2017-11-13-12-06-41.jpg",
     description: "Baluchari sarees with mythological themes",
@@ -284,7 +284,7 @@ const brands = [
     location: "DINAJPUR",
     category: "crafts",
     price: "INR 5000/- piece",
-    action: null,
+     action: "Order on-line",
     featured: false,
     image: "/partners/Wooden Mask_2018-02-26-18-43-14.jpg",
     description: "Wooden crafts and Gamira products from Dinajpur",
@@ -299,7 +299,7 @@ const brands = [
     price: null,
     action: "Shop & Order Online",
     featured: true,
-    image: "/partners/Final Logo_2018-02-26-18-12-39.jpg",
+    image: "",
     description: "Latest electronics and gadgets at best prices",
     rating: 4.6,
     reviews: 234
@@ -323,7 +323,7 @@ const brands = [
     location: "KOLKATA",
     category: "food",
     price: "Starting INR 1500/- Thali",
-    action: null,
+     action: "Order on-line",
     featured: false,
     image: "/partners/Bengali THali_2018-02-26-18-54-37.jpg",
     description: "Complete Bengali thali meals with variety",
@@ -344,25 +344,12 @@ const brands = [
     reviews: 123
   },
   {
-    id: 26,
-    name: "BEST FOOD HOME DELIVERY",
-    location: "KOLKATA",
-    category: "food",
-    price: null,
-    action: "KHICHRI BHOG",
-    featured: false,
-    image: "/partners/374654-bhojohori-manna_2016-05-11-17-51-12.jpg",
-    description: "Home delivery of authentic Bengali food",
-    rating: 4.5,
-    reviews: 123
-  },
-  {
     id: 27,
     name: "MAYFAIR RESORTS & SPA",
     location: "DARJEELING",
     category: "hotels",
     price: "Room starting Rs.12,000/-",
-    action: null,
+     action: "Order on-line",
     featured: true,
     image: "/partners/Mayfa_ir-Darj_2021-11-15-11-35-13.jpg",
     description: "Luxury resort with spa facilities in Darjeeling",
@@ -375,7 +362,7 @@ const brands = [
     location: "GANGTOK",
     category: "hotels",
     price: "Room starting Rs.28000/-",
-    action: null,
+     action: "Order on-line",
     featured: true,
     image: "/partners/Mayfa_ir-Gangtok-1_2021-11-15-11-42-25.jpg",
     description: "Premium resort with casino in Gangtok",
@@ -387,8 +374,8 @@ const brands = [
     name: "MAYFAIR HERITAGE & WAVES",
     location: "PURI",
     category: "hotels",
-    "price": "Room starting Rs.12000/-",
-    action: null,
+    price: "Room starting Rs.12000/-",
+     action: "Order on-line",
     featured: true,
     image: "/partners/Mayfa_ir-Puri-1_2021-11-15-11-43-43.jpg",
     description: "Heritage beach resort in Puri, Odisha",
@@ -401,7 +388,7 @@ const brands = [
     location: "KALIMPONG",
     category: "hotels",
     price: "Room starting Rs.12,000/-",
-    action: null,
+     action: "Order on-line",
     featured: true,
     image: "/partners/Mayfa_ir-Darj-2_2021-11-15-11-55-18.jpg",
     description: "Mountain resort with Himalayan views",
@@ -427,9 +414,9 @@ const brands = [
     location: "HOOGLY",
     category: "electronics",
     price: null,
-    action: null,
+     action: "Order on-line",
     featured: false,
-    image: "/partners/Final Logo_2018-02-26-18-12-39.jpg",
+    image: "",
     description: "Electronics and gadgets store in Hooghly",
     rating: 4.4,
     reviews: 98
@@ -533,46 +520,7 @@ export default function BrandsPage() {
         </div>
       </section>
 
-      {/* ================= SEARCH & FILTER ================= */}
-      {/* <section className="py-16 bg-white sticky top-0 z-40 shadow-lg border-b border-gray-100">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="flex flex-col md:flex-row gap-6 items-center justify-between">
-            <div className="flex-1 max-w-md">
-              <div className="relative">
-                <input
-                  type="text"
-                  value={searchTerm}
-                  onChange={(e) => setSearchTerm(e.target.value)}
-                  placeholder="Search brands by name or location..."
-                  className="w-full px-4 py-3 pl-10 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent"
-                />
-                <div className="absolute left-3 top-1/2 transform -translate-y-1/2">
-                  <Search className="w-5 h-5 text-gray-400" />
-                </div>
-              </div>
-            </div>
-
-            <div className="flex flex-wrap gap-3 justify-center">
-              {categories.map(category => (
-                <button
-                  key={category.id}
-                  onClick={() => setSelectedCategory(category.id)}
-                  className={`px-4 py-2 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 ${
-                    selectedCategory === category.id
-                      ? "bg-gradient-to-r from-yellow-600 to-orange-600 text-white shadow-lg ring-2 ring-yellow-500 ring-offset-2"
-                      : "bg-gray-100 text-gray-700 hover:bg-gray-200 shadow-sm hover:shadow-md"
-                  }`}
-                >
-                  <span className="flex items-center">
-                    <span className="text-lg mr-2">{category.icon}</span>
-                    <span className="text-sm">{category.name}</span>
-                  </span>
-                </button>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section> */}
+      
 
       {/* ================= BRANDS GRID ================= */}
       <section className="py-16 bg-gray-50">
