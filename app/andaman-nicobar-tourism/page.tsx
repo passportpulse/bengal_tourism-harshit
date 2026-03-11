@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout, Coffee, Leaf, TreePine, Stethoscope, HeartPulse, Shield, Globe, Phone, Mail, CheckCircle, AlertCircle, Activity, Brain, Bone, Eye, User, Bed, Wifi, Car, Utensils as UtensilsIcon, Wind, Building as Temple, Waves as WavesIcon, Compass as CompassIcon, Trees as TreesIcon, Camera as CameraIcon, Ship as ShipIcon, Snowflake } from 'lucide-react'
 import ContactCTA from '@/components/ContactCTA'
 import PackagePricing from '@/components/PackagePricing'
+import TourPricingSection from '@/components/TourPricingSection'
 
 export default function AndamanNicobarTourismPage() {
   return (
@@ -406,10 +407,19 @@ export default function AndamanNicobarTourismPage() {
         </div>
       </section>
 
-      <PackagePricing
-        title="Andaman & Nicobar Tour Packages"
+    
+            <TourPricingSection
+              title="Andaman & Nicobar Tour Packages"
         subtitle="Choose your perfect Andaman & Nicobar adventure duration"
-      />
+      
+           packages={[
+                { label: "Customisable & Recommended for extended duration", days: "6N / 7D", price: 22600 },
+                { label: "Highly Recommended", days: "5N / 6D", price: 19000 },
+                { label: "Most Popular", days: "4N / 5D", price: 15400 },
+                { label: "In group of 20+ Persons", days: "3N / 4D", price: 12700 },
+                { label: "As add on / Separately ", days: "2N / 3D", price: 9100 },
+              ]}
+            />
       <ContactCTA />
 
 

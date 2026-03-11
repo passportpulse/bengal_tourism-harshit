@@ -35,8 +35,43 @@ export default function PackagePricing({
         </div>
 
         {/* Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
+  <div className="bg-white border border-indigo-100 rounded-3xl p-8 shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300 flex flex-col justify-between">
 
+            <div>
+              <span className="text-gray-500 text-xs py-1 rounded-full">
+                Most Popular
+              </span>
+
+      <h3 className="text-2xl font-bold mt-6 text-gray-900">6N / 7D</h3>
+               <p className="text-2xl font-semibold text-indigo-600 mt-3">
+                ₹ 17,200
+              </p>
+
+
+                   <ul className="mt-6 space-y-3 text-gray-600 text-sm">
+                <li className="flex items-center gap-2">
+                  <Check className="w-4 h-4 text-indigo-600" /> Deluxe Accommodation
+                </li>
+                <li className="flex items-center gap-2">
+                  <Check className="w-4 h-4 text-indigo-600" /> Breakfast & Dinner
+                </li>
+                 <li className="flex items-center gap-2">  <Check className="w-4 h-4 text-indigo-600" /> PickU & Drop
+                </li>
+                <li className="flex items-center gap-2">
+                  <Check className="w-4 h-4 text-indigo-600" /> Sightseeing as per Itinerary
+                </li>
+               
+              </ul>
+            </div>
+
+             <button
+              onClick={handleBookNow}
+              className="mt-8 bg-blue-500 text-white py-3 rounded-xl font-semibold hover:bg-blue-600 transition"
+            >
+              Book Now
+            </button>
+          </div>
           {/* 5N/6D */}
           <div className="bg-white border border-indigo-100 rounded-3xl p-8 shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300 flex flex-col justify-between">
 
@@ -53,7 +88,7 @@ export default function PackagePricing({
 
                    <ul className="mt-6 space-y-3 text-gray-600 text-sm">
                 <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-indigo-600" /> Accommodation
+                  <Check className="w-4 h-4 text-indigo-600" /> Deluxe Accommodation
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-indigo-600" /> Breakfast & Dinner
@@ -90,7 +125,7 @@ export default function PackagePricing({
 
                   <ul className="mt-6 space-y-3 text-gray-600 text-sm">
                 <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-indigo-600" /> Accommodation
+                  <Check className="w-4 h-4 text-indigo-600" /> Deluxe Accommodation
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-indigo-600" /> Breakfast & Dinner
@@ -126,7 +161,7 @@ export default function PackagePricing({
               </p>
                    <ul className="mt-6 space-y-3 text-gray-600 text-sm">
                 <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-indigo-600" /> Accommodation
+                  <Check className="w-4 h-4 text-indigo-600" /> Deluxe Accommodation
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-indigo-600" /> Breakfast & Dinner
@@ -162,7 +197,7 @@ export default function PackagePricing({
               </p>
                     <ul className="mt-6 space-y-3 text-gray-600 text-sm">
                 <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-indigo-600" /> Accommodation
+                  <Check className="w-4 h-4 text-indigo-600" /> Deluxe Accommodation
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-indigo-600" /> Breakfast & Dinner
@@ -198,7 +233,7 @@ export default function PackagePricing({
               </p>
                   <ul className="mt-6 space-y-3 text-gray-600 text-sm">
                 <li className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-indigo-600" /> Accommodation
+                  <Check className="w-4 h-4 text-indigo-600" /> Deluxe Accommodation
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-indigo-600" /> Breakfast & Dinner
