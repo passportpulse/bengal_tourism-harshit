@@ -526,14 +526,14 @@ export default function BrandsPage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
           
 
             {/* Brand Cards with Advertisement Insertion */}
             {filteredBrands.map((brand, index) => {
               // Insert advertisement card after every 6 brand cards
-              if (index > 0 && index % 2 === 0) {
+              if (index > 0 && index % 4 === 0) {
                 return (
                   <React.Fragment key={`ad-${index}`}>
                     <div className="lg:col-span-1 md:col-span-2 col-span-1">
