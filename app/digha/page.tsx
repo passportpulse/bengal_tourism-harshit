@@ -97,16 +97,16 @@ export default function DighaPage() {
           </div>
         </div>
       </section>
-   <section className="py-24 bg-gradient-to-b from-gray-50 to-white">
+      <section className="py-24 bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-7xl mx-auto px-6">
 
           {/* Header */}
           <div className="flex gap-5 flex-col mb-16">
-                  <div className="flex gap-5 items-center mt-8">
+            <div className="flex gap-5 items-center mt-8">
 
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              Digha & Mandarmoni – Beach Circuit Tour Itinerary
-            </h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                Digha & Mandarmoni – Beach Circuit Tour Itinerary
+              </h2>
 
               <a
                 href="/book-tour"
@@ -121,143 +121,143 @@ export default function DighaPage() {
             </p>
 
 
-          
+
           </div>
 
-         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
 
-  {/* LEFT SIDE – ITINERARY */}
-  <div className="lg:col-span-2 space-y-8">
+            {/* LEFT SIDE – ITINERARY */}
+            <div className="lg:col-span-2 space-y-8">
 
-    {/* Day 1 */}
-    <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-blue-500 hover:shadow-xl transition">
-      <h3 className="text-2xl font-bold text-blue-600 mb-4 flex items-center gap-2">
-        <MapPin className="w-6 h-6" />
-        Day 1 – Kolkata to Digha | Arrival & Leisure
-      </h3>
-      <p className="text-gray-700 leading-relaxed">
-     Early morning departure from Kolkata (7:00–8:00 AM). 
-      En-route breakfast stop at Kolaghat Riverside Dhaba.
-      Scenic highway drive towards Digha (approx 4–5 hrs).
-      Arrival by 1–2 PM followed by hotel check-in & freshening up.
-      Enjoy delicious lunch at hotel.
-      Evening free for leisure – explore New Digha Beach, 
-      beachside shopping market & local street food stalls.
-      Optional sea bathing during sunset.
-      Dinner & Overnight stay at Digha.
-      </p>
-    </div>
+              {/* Day 1 */}
+              <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-blue-500 hover:shadow-xl transition">
+                <h3 className="text-2xl font-bold text-blue-600 mb-4 flex items-center gap-2">
+                  <MapPin className="w-6 h-6" />
+                  Day 1 – Kolkata to Digha | Arrival & Leisure
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Early morning departure from Kolkata (7:00–8:00 AM).
+                  En-route breakfast stop at Kolaghat Riverside Dhaba.
+                  Scenic highway drive towards Digha (approx 4–5 hrs).
+                  Arrival by 1–2 PM followed by hotel check-in & freshening up.
+                  Enjoy delicious lunch at hotel.
+                  Evening free for leisure – explore New Digha Beach,
+                  beachside shopping market & local street food stalls.
+                  Optional sea bathing during sunset.
+                  Dinner & Overnight stay at Digha.
+                </p>
+              </div>
 
-    {/* Day 2 */}
-    <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-yellow-500 hover:shadow-xl transition">
-      <h3 className="text-2xl font-bold text-yellow-600 mb-4 flex items-center gap-2">
-        <Sunrise className="w-6 h-6" />
-        Day 2 – Beach Exploration
-      </h3>
-      <p className="text-gray-700 leading-relaxed">
-         Early morning walk to witness breathtaking sunrise at Old Digha Beach.
-      After breakfast, explore Old & New Digha beaches.
-      Optional visit to Udaipur Beach (Odisha Border).
-      Enjoy water sports activities like Banana Ride, Jet Ski,
-      ATV rides & Parasailing (own cost).
-      Fresh coconut water & beach snacks experience.
-      Evening leisure time for photography & relaxation.
-      Dinner & Overnight at Digha.
-      </p>
-    </div>
+              {/* Day 2 */}
+              <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-yellow-500 hover:shadow-xl transition">
+                <h3 className="text-2xl font-bold text-yellow-600 mb-4 flex items-center gap-2">
+                  <Sunrise className="w-6 h-6" />
+                  Day 2 – Beach Exploration
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Early morning walk to witness breathtaking sunrise at Old Digha Beach.
+                  After breakfast, explore Old & New Digha beaches.
+                  Optional visit to Udaipur Beach (Odisha Border).
+                  Enjoy water sports activities like Banana Ride, Jet Ski,
+                  ATV rides & Parasailing (own cost).
+                  Fresh coconut water & beach snacks experience.
+                  Evening leisure time for photography & relaxation.
+                  Dinner & Overnight at Digha.
+                </p>
+              </div>
 
-    {/* Day 3 */}
-    <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-green-500 hover:shadow-xl transition">
-      <h3 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
-        <Waves className="w-6 h-6" />
-        Day 3 – Shankarpur & Tajpur
-      </h3>
-      <p className="text-gray-700 leading-relaxed">
-         After breakfast proceed for full-day coastal excursion.
-      Visit Shankarpur Beach – known for peaceful atmosphere & fishing harbor.
-      Continue towards Tajpur Beach – less crowded & ideal for relaxation.
-      Enjoy beach activities & photography sessions.
-      Special seafood lunch – Spicy Crab Curry, Fresh Pomfret Fry,
-      Country Chicken & Local Bengali delicacies.
-      Return to Digha by evening.
-      Dinner & Overnight stay at Digha.
-      </p>
-    </div>
+              {/* Day 3 */}
+              <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-green-500 hover:shadow-xl transition">
+                <h3 className="text-2xl font-bold text-green-600 mb-4 flex items-center gap-2">
+                  <Waves className="w-6 h-6" />
+                  Day 3 – Shankarpur & Tajpur
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  After breakfast proceed for full-day coastal excursion.
+                  Visit Shankarpur Beach – known for peaceful atmosphere & fishing harbor.
+                  Continue towards Tajpur Beach – less crowded & ideal for relaxation.
+                  Enjoy beach activities & photography sessions.
+                  Special seafood lunch – Spicy Crab Curry, Fresh Pomfret Fry,
+                  Country Chicken & Local Bengali delicacies.
+                  Return to Digha by evening.
+                  Dinner & Overnight stay at Digha.
+                </p>
+              </div>
 
-    {/* Day 4 */}
-    <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-purple-500 hover:shadow-xl transition">
-      <h3 className="text-2xl font-bold text-purple-600 mb-4 flex items-center gap-2">
-        <Ship className="w-6 h-6" />
-        Day 4 – Mandarmoni Transfer
-      </h3>
-      <p className="text-gray-700 leading-relaxed">
-     Breakfast at hotel & check-out (10–11 AM).
-      En-route visit Mohona Fishing Harbour (if time permits).
-      Drive towards Mandarmoni (approx 1.5 hrs).
-      Check-in at beach resort.
-      Afternoon leisure time – explore Asia’s longest motorable beach.
-      Enjoy beach rides, sunset views & photography.
-      Evening special Bonfire & BBQ session (subject to weather conditions).
-      Dinner & Overnight stay at Mandarmoni.
-      </p>
-    </div>
+              {/* Day 4 */}
+              <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-purple-500 hover:shadow-xl transition">
+                <h3 className="text-2xl font-bold text-purple-600 mb-4 flex items-center gap-2">
+                  <Ship className="w-6 h-6" />
+                  Day 4 – Mandarmoni Transfer
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Breakfast at hotel & check-out (10–11 AM).
+                  En-route visit Mohona Fishing Harbour (if time permits).
+                  Drive towards Mandarmoni (approx 1.5 hrs).
+                  Check-in at beach resort.
+                  Afternoon leisure time – explore Asia’s longest motorable beach.
+                  Enjoy beach rides, sunset views & photography.
+                  Evening special Bonfire & BBQ session (subject to weather conditions).
+                  Dinner & Overnight stay at Mandarmoni.
+                </p>
+              </div>
 
-    {/* Day 5 */}
-    <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-yellow-500 hover:shadow-xl transition">
-      <h3 className="text-2xl font-bold text-yellow-600 mb-4 flex items-center gap-2">
-        <Plane className="w-6 h-6" />
-        Day 5 – Departure
-      </h3>
-      <p className="text-gray-700 leading-relaxed">
-         Early morning beach walk with tea.
-      Optional sea bathing & relaxation.
-      Breakfast at resort.
-      Check-out by 11 AM.
-      Return journey towards Kolkata.
-      Arrival by evening with beautiful beach memories.
-      Tour Ends.
-      </p>
-    </div>
+              {/* Day 5 */}
+              <div className="bg-white rounded-3xl shadow-lg p-8 border-l-4 border-yellow-500 hover:shadow-xl transition">
+                <h3 className="text-2xl font-bold text-yellow-600 mb-4 flex items-center gap-2">
+                  <Plane className="w-6 h-6" />
+                  Day 5 – Departure
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Early morning beach walk with tea.
+                  Optional sea bathing & relaxation.
+                  Breakfast at resort.
+                  Check-out by 11 AM.
+                  Return journey towards Kolkata.
+                  Arrival by evening with beautiful beach memories.
+                  Tour Ends.
+                </p>
+              </div>
 
-  </div>
+            </div>
 
 
-  {/* RIGHT SIDE – VIDEO + AD */}
-  <div className="space-y-8 lg:sticky lg:top-24 h-fit">
+            {/* RIGHT SIDE – VIDEO + AD */}
+            <div className="space-y-8 lg:sticky lg:top-24 h-fit">
 
-    {/* Video Section */}
-    <div className="bg-white rounded-3xl shadow-lg p-6">
-      <h3 className="text-xl font-bold mb-4 text-gray-800">
-        Watch Digha Tour Video
-      </h3>
+              {/* Video Section */}
+              <div className="bg-white rounded-3xl shadow-lg p-6">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  Watch Digha Tour Video
+                </h3>
 
-      <div className="aspect-video rounded-xl overflow-hidden">
-        <iframe
-          className="w-full h-full"
-          src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-          title="Digha Tour"
-          allowFullScreen
-        ></iframe>
-      </div>
-    </div>
+                <div className="aspect-video rounded-xl overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    title="Digha Tour"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
 
-    {/* Advertisement Section */}
-    <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
-      <h3 className="text-2xl font-bold mb-4">
-        🚀 Paste Your Advertisement Here
-      </h3>
-      <p className="text-sm opacity-90">
-        Promote your brand, offer or travel deals here.
-        This space is perfect for partner promotions.
-      </p>
-      <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
-        Contact For Promotion
-      </button>
-    </div>
+              {/* Advertisement Section */}
+              <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
+                <h3 className="text-2xl font-bold mb-4">
+                  🚀 Paste Your Advertisement Here
+                </h3>
+                <p className="text-sm opacity-90">
+                  Promote your brand, offer or travel deals here.
+                  This space is perfect for partner promotions.
+                </p>
+                <button className="mt-6 bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+                  Contact For Promotion
+                </button>
+              </div>
 
-  </div>
+            </div>
 
-</div>
+          </div>
 
 
         </div>
@@ -296,11 +296,15 @@ export default function DighaPage() {
           {/* Mandarmani Section */}
           <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
 
-            <div className="flex gap-5 items-center mt-8">
-
-              <h2 className="text-4xl font-bold text-orange-600 border-b-4 border-orange-500 inline-block pb-2">
-                Mandarmoni
-              </h2>
+            <div className="flex gap-5 items-start mt-8">
+              <div>
+                <h2 className="text-4xl font-bold text-orange-600 border-b-4 border-orange-500 inline-block pb-2">
+                  Mandarmoni
+                </h2>
+                <p className='text-gray-500 text-base  mt-3'>
+                  Add on (or) Separately
+                </p>
+              </div>
               <a
                 href="/book-tour"
                 className="bg-yellow-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
@@ -334,11 +338,17 @@ export default function DighaPage() {
           {/* Shankarpur Section */}
           <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
 
-            <div className="flex gap-5 items-center mt-8">
-
-              <h2 className="text-4xl font-bold text-orange-600 border-b-4 border-orange-500 inline-block pb-2">
-                Shankarpur
-              </h2>
+            
+  <div className="flex gap-5 items-start mt-8">
+              <div>
+                <h2 className="text-4xl font-bold text-orange-600 border-b-4 border-orange-500 inline-block pb-2">
+                 Shankarpur
+                </h2>
+                <p className='text-gray-500 text-base mt-3'>
+                  Add on (or) Separately
+                </p>
+              </div>
+            
               <a
                 href="/book-tour"
                 className="bg-yellow-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
@@ -356,12 +366,17 @@ export default function DighaPage() {
 
           {/* Places of Interest */}
           <section className="bg-white shadow-xl rounded-3xl p-8 md:p-12 space-y-6">
-         
-               <div className="flex gap-5 items-center mt-8">
 
-              <h2 className="text-4xl font-bold text-orange-600 border-b-4 border-orange-500 inline-block pb-2">
-            Tajpur – Upcoming Port town
-              </h2>
+            <div className="flex gap-5 items-start mt-8">
+              <div>
+                <h2 className="text-4xl font-bold text-orange-600 border-b-4 border-orange-500 inline-block pb-2">
+                   Tajpur – Upcoming Port town
+                </h2>
+                <p className='text-gray-500 text-base mt-3'>
+                  Add on (or) Separately
+                </p>
+              </div>
+            
               <a
                 href="/book-tour"
                 className="bg-yellow-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"
@@ -463,7 +478,7 @@ export default function DighaPage() {
         </div>
       </section>
 
-   
+
 
       {/* ================= PLACES OF INTEREST ================= */}
       <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">

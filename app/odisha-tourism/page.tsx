@@ -183,7 +183,7 @@ export default function OdishaTourismPage() {
           <Destination
             title="BHITARKANIKA"
             cta='Book Now for 2N/3D'
-            subtitle="Add-on (or) Separately with GAHIRMATA"
+            subtitle="Add-on (or) Separately with Bhubaneswar Airport"
             content={[
               `Day – 1: Start of tour: Our representative will receive you at Bhubaneswar Airport / Balasore Station in the morning at (06-10 am). If from Airport, drive to Bhadrak via Chadbali (or) pick-up from Bhadrak station. Lunch en-route. Check into Hotel/Resort. Lunch break. Rest. Evening free to visit the local market. Dinner & Overnight at Hotel / Resort at Panchalingeswar.`,
               `Day – 2: Local Sight-seeing: Early morning breakfast, excursion to Devkund water Falls, packed lunch served on the way, after launch visit Kuldiha Wildllife Sanctuary, Jorachua, Rishia Dam, Garh Simulia tower. On the returning time at evening we will visit Jagannath Temple, Nilgiri, Chandi Mandir, Kings Palace, etc. Return in evening. Evening free to stroll around local bazaar for shopping of handicrafts and relics. Overnight stay at Hotel/Resort at Panchalingeswar.`,
@@ -194,7 +194,7 @@ export default function OdishaTourismPage() {
           <Destination
             title="CHANDIPUR"
             cta='Book Now for 2N/3D'
-            subtitle="Add-on (or) Separately with SEA BEACH"
+            subtitle="Add-on (or) Separately with Bhubaneswar Airport"
             content={[
               `Day – 1: Start of tour: Our representative will receive you at Bhubaneswar Airport / Balsore Station in the morning at (06-10 am). If from Airport, drive to Chandipur Sea Beach (or) pick-up from Balasore station. Lunch en-route. Check into Hotel/Resort. Lunch break. Rest. Evening free to visit the local market. Dinner & Overnight at Hotel / Resort at Chandipur.`,
               `Day – 2: Early morning enjoy a sunrise over sea. After breakfast, visit Nilagiri & Panchelingeswar . Lunch break. Rest & evening free to explore local area. Dinner & Overnight stay at Hotel/Resort at Chandipur.`,
@@ -221,7 +221,7 @@ export default function OdishaTourismPage() {
           <Destination
             title="GOPALPUR"
             cta='Book Now for 2N/3D'
-            subtitle="Add-on (or) Separately with ON-SEA BEACH"
+            subtitle="Add-on (or) Separately with Bhubaneswar Airport"
             content={[
               `Day – 1: Start of tour: Our representative will receive you at Bhubaneswar Airport / Berhampur Station in the morning at (06-10 am). If from Airport, drive to Chandipur Sea Beach (or) pick-up from Balasore station. Lunch en-route. Check into Hotel/Resort. Lunch break. Rest. Evening free to visit the local market. Dinner &   Overnight at  Hotel / Resort at Gopalpur.`,
               `Day –2: Enjoy an early morning sunrise over the Bay of Bengal. After breakfast, proceed to visit Taptapani , Dhabaleshwar, The Light House, etc.  Lunch en-route. Return  & evening free to explore local area near the sea beach area. Dinner &   Overnight at  Hotel / Resort at Gopalpur.`,
@@ -234,7 +234,7 @@ export default function OdishaTourismPage() {
           <Destination
             title="DARINGBADI"
             cta='Book Now for 2N/3D'
-            subtitle="Add-on (or) Separately with KASHMIR OF THE EAST"
+            subtitle="Add-on (or) Separately with Bhubaneswar Airport"
             content={[
               `Day –1: Start of tour: Our representative will receive you at Bhubaneswar Airport / Berhampur Station in the morning at (06-10 am). If from Airport, drive to Chandipur Sea Beach (or) pick-up from Balasore station. Lunch en-route. Check into Hotel/Resort. Lunch break. Rest. Evening free to visit the local market. Dinner &   Overnight at  Hotel / Resort at Daringbadi.`,
               `Day –2: Local sightseeing: After breakfast, proceed to explore Hill View Point, Nature Park, Dolun River, Pine Jungle, Daringbadi Waterfalls, Coffee Garden, etc. Lunch en-route. Back in evening. Dinner &   Overnight at  Hotel / Resort at Daringbadi.`,
@@ -245,7 +245,7 @@ export default function OdishaTourismPage() {
           <Destination
             title="SATKOSIA TIGER RESERVE"
             cta='Book Now for 2N/3D'
-            subtitle="Add-on (or) Separately with PLAYLAND OF THE TIGERS"
+            subtitle="Add-on (or) Separately with Bhubaneswar Airport"
             content={[
               `Day –1: Start of tour: Our representative will receive you at Bhubaneswar Airport (extra charge) / Angul/Khurda Rd. Railway Station in the morning at (06-10 am). If from Airport, drive to Satkosia. Breakfast at Dhenkanal. Arrive & Check-in at Hotel/Resort at Purunakot. Lunch & rest. Afternoon, go for a jungle safari at Kandahera range. Evening free. Overnight at  Hotel / Resort (or) Swiss Cottages (extra charge) at Satkosia / Purunakot.`,
 
@@ -263,7 +263,7 @@ export default function OdishaTourismPage() {
           <Destination
             title="CHANDRABHAGA "
             cta='Book Now for 2N/3D'
-            subtitle="Add-on (or) Separately with KONARK- WATER SPORTS"
+            subtitle="Add-on (or) Separately with Bhubaneswar Airport"
             content={[
               `Day –1: Start of tour: Our representative will receive you at Bhubaneswar Airport (extra charge) / Puri Station in the morning at (06-10 am). Drive to Chandrabhaga Sea Beach .Check into Hotel/Resort at Konark (or) Swiss Tent at Chandrabhaga beach (extra cost).Then visit the Konark Sun Temple, a must visit place while at Konark. Lunch en-route. Evening free to visit the local market. Dinner & Overnight at  Hotel / Resort (or) Swiss Cottages at Chandrabhaga / Konark.`,
 
@@ -329,9 +329,11 @@ export default function OdishaTourismPage() {
 function Destination({ title, subtitle, content, cta }: { title: string; subtitle: string; content: string[]; cta: string; }) {
   return (
     <div className="bg-white shadow-xl rounded-3xl p-10 space-y-6">
-      <div className="flex gap-5 items-center mt-8">
-
-        <h2 className="text-3xl font-bold text-indigo-700">{title}</h2>
+      <div className="flex gap-5 items-start mt-8">
+        <div>
+          <h2 className="text-3xl font-bold text-indigo-700">{title}</h2>
+          <p className='text-gray-500 text-base mt-2'>{subtitle}</p>
+        </div>
         <a
           href="/book-tour"
           className="bg-yellow-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition-all transform hover:scale-105 shadow-lg"

@@ -178,7 +178,7 @@ export default function AndamanNicobarTourismPage() {
           <Destination
             title="Sitapur Beach & Ross Island"
             cta="Book Now For 3N/4D"
-            subtitle="Beach Paradise & Island Adventure"
+            subtitle="Add-on (or) Separately with Beach Paradise & Island Adventure"
             content={[
               `Day 1: Arrival at Port Blair, Arrival at Port Blair Airport & transfer to Hotel.
               After lunch, visit Corbyn's Cove Beach, Cellular-Jail where the heroic saga of the Indian freedom struggle is brought alive.
@@ -232,7 +232,7 @@ export default function AndamanNicobarTourismPage() {
           <Destination
             title="Mayabunder - Ranget"
             cta="Book Now For 3N/4D"
-            subtitle="Beach Paradise & Turtle Nesting"
+            subtitle="Add-on (or) Separately with Beach Paradise & Turtle Nesting"
             content={[
               `Day 1: Arrival at Port Blair, Arrival at Port Blair Airport & transfer to Hotel.
               After lunch, visit Corbyn's Cove Beach, Cellular-Jail where the heroic saga of the Indian freedom struggle is brought alive.
@@ -284,7 +284,7 @@ export default function AndamanNicobarTourismPage() {
           <Destination
             title="Bara Tang Island"
             cta="Book Now For 3N/4D"
-            subtitle="Island Treasure Hunt"
+            subtitle="Add-on (or) Separately with Island Treasure Hunt"
             content={[
               `Day 1: Arrival at Port Blair, Arrival at Port Blair Airport & transfer to Hotel.
               After lunch, visit Corbyn's Cove Beach, Cellular-Jail where the heroic saga of the Indian freedom struggle is brought alive.

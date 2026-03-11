@@ -175,7 +175,7 @@ export default function GoaTourismPage() {
           <Destination
             title="South Goa Escape"
             cta="Book now for (2N/3D)"
-            subtitle="Colva - Benaulim - Palolem"
+            subtitle="Add-on (or) Separately with Colva - Benaulim - Palolem"
             content={[
               `Day 1: Arrival in South Goa. On arrival at Dabolim Airport / Madgaon Railway Station,
     transfer to hotel near Colva / Benaulim. Check-in and relax.
@@ -199,7 +199,7 @@ export default function GoaTourismPage() {
           <Destination
             title="North Goa Fun Break"
             cta="Book now for (2N/3D)"
-            subtitle="Baga - Calangute - Anjuna"
+            subtitle="Add-on (or) Separately with Baga - Calangute - Anjuna"
             content={[
               `Day 1: Arrival in North Goa. Transfer to hotel near Baga / Calangute.
     Check-in and relax. Evening explore Baga Beach & Tito’s Lane nightlife.
@@ -222,7 +222,7 @@ export default function GoaTourismPage() {
           <Destination
             title="Mumbai City Extension"
             cta="Book now for (2N/3D)"
-            subtitle="Gateway - Marine Drive - Elephanta"
+            subtitle="Add-on (or) Separately with Gateway - Marine Drive - Elephanta"
             content={[
               `Day 1: Arrival in Mumbai. Transfer to hotel & check-in.
     Visit Gateway of India, Marine Drive, Colaba Causeway

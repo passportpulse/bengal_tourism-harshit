@@ -63,76 +63,76 @@ export default function HaridwarRishikeshTourismPage() {
       {/* ================= HARIDWAR-RISHIKESH CIRCUIT PACKAGE ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-  <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
 
             {/* LEFT SIDE – ITINERARY */}
             <div className="lg:col-span-2 space-y-8">
-          <Destination
-            title="Haridwar - Rishikesh Spiritual Circuit"
-            cta="Book now For 4N/5D"
-            subtitle="Har Ki Pauri • Mansa Devi • Ganga Aarti • Laxman Jhula • Parmarth Niketan"
-            content={[
-              `  Day 1: On arrival at Haridwar Railway Station / Jolly Grant Airport, you will be transferred to Hotel.
+              <Destination
+                title="Haridwar - Rishikesh Spiritual Circuit"
+                cta="Book now For 4N/5D"
+                subtitle="Har Ki Pauri • Mansa Devi • Ganga Aarti • Laxman Jhula • Parmarth Niketan"
+                content={[
+                  `  Day 1: On arrival at Haridwar Railway Station / Jolly Grant Airport, you will be transferred to Hotel.
                       Check in and relax for a while. Lunch break.
                       Evening visit to Har Ki Pauri for the mesmerizing Ganga Aarti ceremony.
                       Explore the local markets and have dinner.
                       Breakfast & Dinner included. Overnight at Hotel in Haridwar.`,
 
-              `Day 2: After breakfast, visit Mansa Devi Temple via cable car, then Chandi Devi Temple.
+                  `Day 2: After breakfast, visit Mansa Devi Temple via cable car, then Chandi Devi Temple.
                       Visit Maya Devi Temple and Daksha Mahadev Temple.
                       Lunch at local restaurant.
                       Evening free for personal activities and shopping.
                       Breakfast & Dinner included. Overnight at Hotel in Haridwar.`,
 
-              `Day 3: After breakfast, check-out and transfer to Rishikesh (20 km).
+                  `Day 3: After breakfast, check-out and transfer to Rishikesh (20 km).
                       Check in to hotel and relax.
                       Visit Laxman Jhula and Ram Jhula suspension bridges.
                       Explore Parmarth Niketan Ashram and attend evening Ganga Aarti.
                       Lunch en-route.
                       Breakfast & Dinner included. Overnight at Hotel in Rishikesh.`,
 
-              `Day 4: After breakfast, visit Beatles Ashram and Neelkanth Mahadev Temple.
+                  `Day 4: After breakfast, visit Beatles Ashram and Neelkanth Mahadev Temple.
                       Explore yoga and meditation centers.
                       Optional adventure activities like river rafting and bungee jumping.
                       Lunch at local cafe.
                       Evening visit to local markets.
                       Breakfast & Dinner included. Overnight at Hotel in Rishikesh.`,
-              `Day 5: Early morning yoga session by the Ganges.
+                  `Day 5: Early morning yoga session by the Ganges.
                       After breakfast, check-out & transfer to Haridwar Railway Station / Jolly Grant Airport
                       for your return journey on your departure time.
                       Breakfast included. Tour ends...`
-            ]}
-          />
+                ]}
+              />
 
 
 
-          <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 shadow-xl mt-5">
-            <div className="grid md:grid-cols-1 gap-8">
-              <div className="bg-orange-100 rounded-xl p-6 mt-8">
-                <h4 className="font-bold text-orange-800 mb-3">Package Highlights</h4>
-                <div className="space-y-2">
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-orange-600" />
-                    <span className="text-gray-700">Divine Ganga Aarti at Har Ki Pauri</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-orange-600" />
-                    <span className="text-gray-700">Cable car ride to Mansa Devi Temple</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-orange-600" />
-                    <span className="text-gray-700">Yoga & Meditation in Rishikesh</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-orange-600" />
-                    <span className="text-gray-700">Adventure Sports (Optional)</span>
-                  </div>
+              <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 shadow-xl mt-5">
+                <div className="grid md:grid-cols-1 gap-8">
+                  <div className="bg-orange-100 rounded-xl p-6 mt-8">
+                    <h4 className="font-bold text-orange-800 mb-3">Package Highlights</h4>
+                    <div className="space-y-2">
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-orange-600" />
+                        <span className="text-gray-700">Divine Ganga Aarti at Har Ki Pauri</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-orange-600" />
+                        <span className="text-gray-700">Cable car ride to Mansa Devi Temple</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-orange-600" />
+                        <span className="text-gray-700">Yoga & Meditation in Rishikesh</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-orange-600" />
+                        <span className="text-gray-700">Adventure Sports (Optional)</span>
+                      </div>
 
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-             </div>
             <div className="space-y-8 lg:sticky lg:top-24 h-fit">
 
               {/* Video Section */}
@@ -187,7 +187,7 @@ export default function HaridwarRishikeshTourismPage() {
           <Destination
             title="Nainital Sightseeing Tour"
             cta="Book Now for 2N/3D"
-            subtitle="Lake District of India – Scenic Hill Escape"
+            subtitle="Lake District of India – Scenic Hill Escape - Add on (or) Separately"
             content={[
               `Nainital is one of the most popular hill stations in Uttarakhand, known as the Lake District of India. Surrounded by lush hills and pristine lakes, Nainital offers boating, shopping at Mall Road, and panoramic Himalayan views.`,
 
@@ -207,7 +207,7 @@ After breakfast, check-out and proceed for onward journey with beautiful hill me
           <Destination
             title="Dehradun Sightseeing Tour"
             cta="Book Now for 2N/3D"
-            subtitle="Capital of Uttarakhand – Nature & Heritage"
+            subtitle="Capital of Uttarakhand – Nature & Heritage - Add on (or) Separately " 
             content={[
               `Dehradun, the capital city of Uttarakhand, is surrounded by the Shivalik hills and known for its pleasant climate, caves, waterfalls and colonial heritage buildings. It serves as the gateway to Mussoorie and Char Dham.`,
 

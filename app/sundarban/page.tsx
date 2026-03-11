@@ -177,7 +177,7 @@ export default function SundarbanPage() {
             <Destination
               title=" SUNDARBAN Customise"
               cta='Book Now for 2N/3D'
-              subtitle=""
+              subtitle="Add on (or) Separately"
               content={[
                 `OPTION – 1:[Min 10-15 PAX] Rs.19000/- PAX :Overnight stay & food at a  Premium 5* Resort at Sundarban.`,
                 `OPTION –2: [Min 10-15 PAX] Rs.19000/- PAX :Overnight stay & food at AC House Boat anchored on the River in Sundarban.`
@@ -186,7 +186,7 @@ export default function SundarbanPage() {
             <Destination
               title="SUNDARBAN-III"
               cta='Book Now for 3N/4D'
-              subtitle="Circuit-III MANGROVE FOREST-OTHER AREAS"
+              subtitle="Circuit-III MANGROVE FOREST-OTHER AREAS - Add on (or) Separately"
               content={[
                 `Day - 1 :Start of tour : Pick up from Science City (08.30 a.m.). Packet breakfast with bottled water will be served in the Car / Bus. Arrival at Godhkhali (about 120 km / 3 hrs later). Departure by Launch at Resort / Hotel at Gosaba / Pakhiralay / Dayapur / Dulki / Bonnie Camp Island. Tea / Coffee / Refreshment to be served during the launch journey. Reach & check-in at the Resort / Hotel Buffet Lunch as per menu. Post lunch, Sightseeing by river cruise around Jotirampur Bird Watching Island for sighting of Migratory Birds. Evening Tea / Coffee / Refreshments are served. A colourful Cultural Programme of local village folk dance at the Resort / Hotel  (optional) can be arranged. Dinner & Overnight stay in Resort/ Hotel at Sundarban.`,
 
