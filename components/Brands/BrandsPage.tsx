@@ -117,7 +117,7 @@ const brands = [
     price: null,
     action: "Contact for Tour Packages & Hotel Rooms",
     featured: true,
-    image: "/partners/BT-Logo Image_2021-06-08-10-08-33.jfif",
+    image: "/logo.png",
     description: "Complete tourism solutions for multiple destinations",
     rating: 4.9,
     reviews: 278
@@ -547,7 +547,8 @@ export default function BrandsPage() {
                           </div>
                           <h3 className="text-2xl font-bold mb-2">Advertise Your Brand Here</h3>
                           <p className="text-white/90 mb-6 text-sm leading-relaxed">
-                            Join Brand Bengal and showcase your business to thousands of potential customers across West Bengal and beyond
+                            Join Brand Bengal and promote your business to thousands of potential customers across West Bengal and beyond. 
+Whether you run an electronics shop, jewellery store, restaurant, hotel, or any local business, we help you showcase your brand, attract more customers, and grow your business through powerful online promotion.
                           </p>
                         </div>
 
@@ -589,15 +590,32 @@ export default function BrandsPage() {
                     >
                       {/* Image */}
                       <div className="relative h-56 flex items-center justify-center bg-gray-50">
-                        <Image
-                          src={brand.image}
-                          alt={brand.name}
-                          fill
-                          className="object-contain p-4 transition-transform duration-500 group-hover:scale-105"
-                        />
+                        {brand.image ? (
+                          <Image
+                            src={brand.image}
+                            alt={brand.name}
+                            fill
+                            className="object-contain p-4 transition-transform duration-500 group-hover:scale-105"
+                          />
+                        ) : (
+                          <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-yellow-100 to-orange-100 p-4">
+                            <div className="text-center">
+                              <div className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-3">
+                                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                  <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/>
+                                  <path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd"/>
+                                </svg>
+                              </div>
+                              <h4 className="text-sm font-bold text-yellow-800 mb-1">Advertise Your Brand Here</h4>
+                              <p className="text-xs text-yellow-600">Showcase your business to thousands</p>
+                            </div>
+                          </div>
+                        )}
 
                         {/* Overlay */}
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                        {brand.image && (
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                        )}
 
                         {/* Location */}
                         <div className="absolute bottom-3 left-3">
@@ -674,15 +692,32 @@ export default function BrandsPage() {
                 >
                   {/* Image */}
                   <div className="relative h-56 flex items-center justify-center bg-gray-50">
-                    <Image
-                      src={brand.image}
-                      alt={brand.name}
-                      fill
-                      className="object-contain p-4 transition-transform duration-500 group-hover:scale-105"
-                    />
+                    {brand.image ? (
+                      <Image
+                        src={brand.image}
+                        alt={brand.name}
+                        fill
+                        className="object-contain p-4 transition-transform duration-500 group-hover:scale-105"
+                      />
+                    ) : (
+                      <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-yellow-100 to-orange-100 p-4">
+                        <div className="text-center">
+                          <div className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-3">
+                            <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                              <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/>
+                              <path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd"/>
+                            </svg>
+                          </div>
+                          <h4 className="text-sm font-bold text-yellow-800 mb-1">Advertise Your Brand Here</h4>
+                          <p className="text-xs text-yellow-600">Showcase your business to thousands</p>
+                        </div>
+                      </div>
+                    )}
 
                     {/* Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                    {brand.image && (
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                    )}
 
                     {/* Location */}
                     <div className="absolute bottom-3 left-3">
