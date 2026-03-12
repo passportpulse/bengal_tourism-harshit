@@ -39,7 +39,7 @@ const teamMembers = [
     name: "Bengal Tourism Team",
     role: "Tourism Experts",
     description: "Dedicated professionals with deep knowledge of Bengal's culture, heritage, and tourist destinations.",
-    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+    image: "/Team.avif"
   }
 ];
 
@@ -59,7 +59,7 @@ export default function AboutPage() {
       <section className="relative h-[80vh] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            src="/about.avif"
             alt="About Bengal Tourism"
             fill
             className="object-cover"

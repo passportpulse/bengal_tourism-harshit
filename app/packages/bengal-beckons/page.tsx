@@ -162,45 +162,48 @@ export default function BengalBeckonsPackagesPage() {
     return (
         <main className="min-h-screen bg-gray-50">
             {/* Hero Section */}
-            <section className="relative h-[60vh] overflow-hidden">
-                <div className="absolute inset-0">
-                    <Image
-                        src="/img/Darjeeling.jpeg"
-                        alt="Bengal Tourism"
-                        fill
-                        className="object-cover"
-                        priority
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-br from-yellow-900/70 via-orange-800/50 to-yellow-900/40"></div>
-                </div>
-                
-                <div className="relative z-10 h-full flex items-center justify-center px-6">
-                    <div className="text-center max-w-5xl mx-auto">
-                        <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md border border-white/30 rounded-full px-6 py-3 mb-8">
-                            <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                            <span className="text-white font-medium text-sm">View Details Beautiful Bengal</span>
-                        </div>
-                        
-                        <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-                            Bengal
-                            <span className="block bg-gradient-to-r from-yellow-400 via-orange-400 to-yellow-400 bg-clip-text text-transparent">
-                                Beckons
-                            </span>
-                        </h1>
-                        
-                        <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-12 leading-relaxed">
-                            Discover the diverse landscapes, rich culture, and warm hospitality of West Bengal
-                        </p>
-                        
-                        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <Link href="/packages" className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md border border-white/30 text-white px-8 py-4 rounded-full font-semibold hover:bg-white/30 transition-all">
-                                <ArrowRight className="w-5 h-5 rotate-180" />
-                                Back to All Packages
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-            </section>
+           <section className="relative h-[70vh] overflow-hidden">
+    <div className="absolute inset-0">
+        <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover"
+        >
+            <source src="/video.mp4" type="video/mp4" />
+        </video>
+
+        <div className="absolute inset-0 bg-gradient-to-br from-yellow-900/70 via-orange-800/50 to-yellow-900/40"></div>
+    </div>
+
+    <div className="relative z-10 h-full flex items-center justify-center px-6">
+        <div className="text-center max-w-5xl mx-auto">
+            <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md border border-white/30 rounded-full px-6 py-3 mb-8">
+                <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                <span className="text-white font-medium text-sm">View Details Beautiful Bengal</span>
+            </div>
+
+            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+                Bengal
+                <span className="block bg-gradient-to-r from-yellow-400 via-orange-400 to-yellow-400 bg-clip-text text-transparent">
+                    Beckons
+                </span>
+            </h1>
+
+            <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-12 leading-relaxed">
+                Discover the diverse landscapes, rich culture, and warm hospitality of West Bengal
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Link href="/packages" className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md border border-white/30 text-white px-8 py-4 rounded-full font-semibold hover:bg-white/30 transition-all">
+                    <ArrowRight className="w-5 h-5 rotate-180" />
+                    Back to All Packages
+                </Link>
+            </div>
+        </div>
+    </div>
+</section>
 
             {/* Packages Grid Section */}
             <section className="py-16 px-4">
