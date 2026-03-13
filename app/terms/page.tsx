@@ -85,77 +85,7 @@ export default function TermsPolicy() {
               </div>
             </div>
           </section>
-  <section className="">
-                <div className="max-w-4xl mx-auto">
-                    <div className="bg-gradient-to-r from-red-600 via-red-700 to-red-800 rounded-2xl shadow-xl p-8 text-white">
-                        <div className="grid md:grid-cols-2 gap-8">
-                            {/* Refund Policy */}
-                            <div>
-                            
-                                <div className="space-y-4">
-                                    <div className="flex items-start gap-3">
-                                        <div className="w-2 h-2 bg-red-400 rounded-full mt-2 flex-shrink-0"></div>
-                                        <div>
-                                            <h4 className="font-bold text-lg mb-1">No Refund *</h4>
-                                            <p className="text-white/90">All bookings are non-refundable</p>
-                                        </div>
-                                    </div>
-                                    
-                                    <div className="flex items-start gap-3">
-                                        <div className="w-2 h-2 bg-red-400 rounded-full mt-2 flex-shrink-0"></div>
-                                        <div>
-                                            <h4 className="font-bold text-lg mb-1">Less than 7 days *</h4>
-                                            <p className="text-white/90">No modifications allowed within 7 days of travel date</p>
-                                        </div>
-                                    </div>
-                                    
-                                    <div className="flex items-start gap-3">
-                                        <div className="w-2 h-2 bg-red-400 rounded-full mt-2 flex-shrink-0"></div>
-                                        <div>
-                                            <h4 className="font-bold text-lg mb-1">No Show / Holidays *</h4>
-                                            <p className="text-white/90">No show or holiday periods applicable</p>
-                                        </div>
-                                    </div>
-                                    
-                                    <div className="flex items-start gap-3">
-                                        <div className="w-2 h-2 bg-red-400 rounded-full mt-2 flex-shrink-0"></div>
-                                        <div>
-                                            <h4 className="font-bold text-lg mb-1">Peak Season / Black out Dates *</h4>
-                                            <p className="text-white/90">No changes allowed during peak season or black-out dates</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/* Terms Policy */}
-                            <div>
-                    
-                                <div className="space-y-3">
-                                    <div className="flex items-start gap-3">
-                                        <div className="w-2 h-2 bg-red-400 rounded-full mt-1 flex-shrink-0"></div>
-                                        <p className="text-white/90 text-sm">All bookings subject to availability</p>
-                                    </div>
-                                    
-                                    <div className="flex items-start gap-3">
-                                        <div className="w-2 h-2 bg-red-400 rounded-full mt-1 flex-shrink-0"></div>
-                                        <p className="text-white/90 text-sm">Payment required at time of booking</p>
-                                    </div>
-                                    
-                                    <div className="flex items-start gap-3">
-                                        <div className="w-2 h-2 bg-red-400 rounded-full mt-1 flex-shrink-0"></div>
-                                        <p className="text-white/90 text-sm">Valid ID proof required for all travelers</p>
-                                    </div>
-                                    
-                                    <div className="flex items-start gap-3">
-                                        <div className="w-2 h-2 bg-red-400 rounded-full mt-1 flex-shrink-0"></div>
-                                        <p className="text-white/90 text-sm">Company reserves right to modify itinerary</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+ 
           <section>
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">Traveler Responsibilities</h2>
             <ul className="list-disc list-inside text-gray-600 space-y-2">

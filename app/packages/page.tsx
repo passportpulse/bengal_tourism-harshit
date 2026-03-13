@@ -27,7 +27,7 @@ const packageCategories = [
     icon: Building,
     iconColor: "text-orange-500",
     bgColor: "from-orange-500 to-yellow-500",
-    image: "/video1.mp4",
+    image: "/video2.mp4",
     route: "/packages/india"
   },
   {
@@ -38,7 +38,7 @@ const packageCategories = [
     icon: Waves,
     iconColor: "text-blue-500",
     bgColor: "from-blue-500 to-purple-500",
-    image: "/video2.mp4",
+    image: "/video1.mp4",
     route: "/packages/foreign-tours"
   },
   {
