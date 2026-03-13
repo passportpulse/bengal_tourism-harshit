@@ -28,16 +28,39 @@ export default function TermsPolicy() {
             </div>
           </section>
 
-          <section>
-            <h2 className="text-2xl font-semibold text-gray-800 mb-4">Cancellation Policy</h2>
-            <div className="space-y-3">
-              <h3 className="text-lg font-medium text-gray-700">Cancellation Charges:</h3>
-              <ul className="list-disc list-inside text-gray-600 space-y-2">
-                <li>30+ days before travel: 10% cancellation charge</li>
-                <li>15-29 days before travel: 25% cancellation charge</li>
-                <li>7-14 days before travel: 50% cancellation charge</li>
-                <li>Less than 7 days: No Show / Holidays / Peak Season / Black out Dates</li>
-              </ul>
+    <section>
+            <h2 className="text-2xl font-semibold text-gray-800 mb-4">Cancellation Timeline & Refund</h2>
+            <div className="overflow-x-auto">
+              <table className="w-full border-collapse border border-gray-300">
+                <thead>
+                  <tr className="bg-gray-100">
+                    <th className="border text-gray-500 border-gray-300 px-4 py-2 text-left">Cancellation Time</th>
+                    <th className="border text-gray-500 border-gray-300 px-4 py-2 text-left">Refund Amount</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="border text-gray-500 border-gray-300 px-4 py-2">30+ days before travel</td>
+                    <td className="border text-gray-500 border-gray-300 px-4 py-2">90% of total amount</td>
+                  </tr>
+                  <tr>
+                    <td className="border text-gray-500 border-gray-300 px-4 py-2">21-30 days before travel</td>
+                    <td className="border text-gray-500 border-gray-300 px-4 py-2">75% of total amount</td>
+                  </tr>
+                  <tr>
+                    <td className="border text-gray-500 border-gray-300 px-4 py-2">15-20 days before travel</td>
+                    <td className="border text-gray-500 border-gray-300 px-4 py-2">50% of total amount</td>
+                  </tr>
+                  <tr>
+                    <td className="border text-gray-500 border-gray-300 px-4 py-2">7-14 days before travel</td>
+                    <td className="border text-gray-500 border-gray-300 px-4 py-2">25% of total amount</td>
+                  </tr>
+                  <tr>
+                    <td className="border text-gray-500 border-gray-300 px-4 py-2">Less than 7 days  <br />/ No Show / Holidays / Peak Season / Black out Dates.</td>
+                    <td className="border text-gray-500 border-gray-300 px-4 py-2">No refund</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </section>
 
