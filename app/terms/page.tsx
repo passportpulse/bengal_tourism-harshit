@@ -56,7 +56,7 @@ export default function TermsPolicy() {
                     <td className="border text-gray-500 border-gray-300 px-4 py-2">25% of total amount</td>
                   </tr>
                   <tr>
-                    <td className="border text-gray-500 border-gray-300 px-4 py-2">Less than 7 days  <br />/ No Show / Holidays / Peak Season / Black out Dates.</td>
+                    <td className="border text-gray-500 border-gray-300 px-4 py-2">Less than 7 days  <br />No Show / Holidays / Peak Season / Black out Dates.</td>
                     <td className="border text-gray-500 border-gray-300 px-4 py-2">No refund</td>
                   </tr>
                 </tbody>
