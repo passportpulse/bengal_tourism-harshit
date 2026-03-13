@@ -27,18 +27,18 @@ const packageCategories = [
     icon: Building,
     iconColor: "text-orange-500",
     bgColor: "from-orange-500 to-yellow-500",
-    image: "https://images.unsplash.com/photo-1524492412937-b28074a5607e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/video1.mp4",
     route: "/packages/india"
   },
   {
     id: "foreign-tours",
-    name: "Foreign Tours",
+    name: "Foreign Destinations",
     subtitle: "International Adventures",
     description: "Explore exotic destinations around the world",
     icon: Waves,
     iconColor: "text-blue-500",
     bgColor: "from-blue-500 to-purple-500",
-    image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/video2.mp4",
     route: "/packages/foreign-tours"
   },
   {
@@ -121,25 +121,25 @@ export default function PackagesPage() {
               <Link
                 key={category.id}
                 href={category.route}
-                className="group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
+                className="group relative bg-white  shadow-lg overflow-hidden transition-all duration-300 "
               >
                 {/* Image Background */}
             <div className="relative h-48 overflow-hidden">
   {isVideo(category.image) ? (
-    <video
-      src={category.image}
-      autoPlay
-      loop
-      playsInline
-      className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
-    />
+<video
+  src={category.image}
+  controls
+  loop
+  playsInline
+  className="w-full h-full object-cover transition-transform duration-700 ease-out "
+/>
   ) : (
     <>
       <Image
         src={category.image}
         alt={category.name}
         fill
-        className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+        className="object-cover transition-transform duration-700 ease-out "
       />
 
       {/* Gradient Overlay only for Image */}
@@ -173,8 +173,7 @@ export default function PackagesPage() {
                   </div>
                 </div>
 
-                {/* Hover Effect Border */}
-                <div className="absolute inset-0 rounded-2xl border-2 border-transparent group-hover:border-yellow-200 transition-colors"></div>
+                
               </Link>
             ))}
           </div>
