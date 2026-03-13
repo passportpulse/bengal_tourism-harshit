@@ -1,11 +1,148 @@
 "use client"
 
-import Image from 'next/image'
-import { MapPin, Calendar, Users, Star, Clock, Camera, Sun, Home, IndianRupee, Award, Compass, Utensils, Building, Trees, Ship, Sparkles, Train, ShoppingBag, Book, Mountain, Waves, Fish, Bird, Tent, Flame, PartyPopper, Heart, Sprout, Coffee, Leaf, TreePine, Stethoscope, HeartPulse, Shield, Globe, Phone, Mail, CheckCircle, AlertCircle, Activity, Brain, Bone, Eye, User } from 'lucide-react'
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { 
+  Stethoscope, 
+  Award, 
+  HeartPulse, 
+  Brain, 
+  Bone, 
+  Building, 
+  User, 
+  Ship, 
+  MapPin, 
+  Star, 
+  X,
+  IndianRupee,
+  Calendar,
+  Users,
+  Shield,
+  Phone,
+  Globe,
+  Mail,
+  CheckCircle,
+  AlertCircle,
+  Activity,
+  Eye,
+  Leaf,
+  TreePine,
+  Coffee,
+  Heart,
+  Sprout,
+  PartyPopper,
+  Flame,
+  Tent,
+  Bird,
+  Fish,
+  Waves,
+  Mountain,
+  Book,
+  ShoppingBag,
+  Train,
+  Sparkles,
+  Trees,
+  Utensils,
+  Compass,
+  Camera,
+  Clock,
+  Sun,
+  Home
+} from "lucide-react";
 import ContactCTA from '@/components/ContactCTA'
 import PackagePricing from '@/components/PackagePricing'
 
 export default function MedicalTourismPage() {
+  const [showModal, setShowModal] = useState(false);
+  const [selectedHospital, setSelectedHospital] = useState<any>(null);
+
+  const handleHospitalClick = (hospital: any) => {
+    setSelectedHospital(hospital);
+    setShowModal(true);
+  };
+
+  const hospitals = [
+    {
+      id: 1,
+      name: "TATA MEMORIAL HOSPITAL",
+      category: "TOP CANCER HOSPITAL",
+      location: "KOLKATA",
+      description: "Premier cancer treatment center with world-class oncology services and research facilities",
+      image: "",
+      rating: 4.8,
+      reviews: 1250,
+      price: "Starting from ₹50,000",
+      color: "from-yellow-500 to-pink-500",
+      icon: Award
+    },
+    {
+      id: 2,
+      name: "APOLLO GLENEAGLES",
+      category: "HIGHEST BILLING HOSPITAL",
+      location: "KOLKATA",
+      description: "Premium multi-specialty hospital with international healthcare standards and advanced technology",
+      image: "",
+      rating: 4.7,
+      reviews: 980,
+      price: "Starting from ₹80,000",
+      color: "from-blue-500 to-cyan-500",
+      icon: IndianRupee
+    },
+    {
+      id: 3,
+      name: "NH RABINDRANATH TAGORE",
+      category: "TOP CARDIOLOGY HOSPITAL",
+      location: "MUKUNDAPUR",
+      description: "Leading cardiac care center with expert cardiologists and state-of-the-art heart treatment facilities",
+      image: "",
+      rating: 4.9,
+      reviews: 1450,
+      price: "Starting from ₹45,000",
+      color: "from-green-500 to-emerald-500",
+      icon: HeartPulse
+    },
+    {
+      id: 4,
+      name: "RN TAGORE HOSPITAL",
+      category: "BEST NEUROSURGERY HOSPITAL",
+      location: "KOLKATA",
+      description: "Excellence in neurosurgery and neurological treatments with advanced surgical techniques",
+      image: "",
+      rating: 4.6,
+      reviews: 750,
+      price: "Starting from ₹60,000",
+      color: "from-purple-500 to-indigo-500",
+      icon: Brain
+    },
+    {
+      id: 5,
+      name: "NH RABINDRANATH TAGORE",
+      category: "BEST ORTHOPEDIC HOSPITAL",
+      location: "KOLKATA",
+      description: "Specialized orthopedic care with advanced joint replacement and trauma surgery facilities",
+      image: "",
+      rating: 4.7,
+      reviews: 890,
+      price: "Starting from ₹40,000",
+      color: "from-orange-500 to-yellow-500",
+      icon: Bone
+    },
+    {
+      id: 6,
+      name: "DESUN HOSPITAL",
+      category: "TOP MULTISPECIALITY HOSPITAL",
+      location: "EM Bypass",
+      description: "Comprehensive multi-specialty healthcare with 24/7 emergency services and advanced medical care",
+      image: "",
+      rating: 4.5,
+      reviews: 1100,
+      price: "Starting from ₹35,000",
+      color: "from-teal-500 to-cyan-500",
+      icon: Building
+    }
+  ];
+
   return (
     <main className="text-gray-800">
 
@@ -26,7 +163,7 @@ export default function MedicalTourismPage() {
               <Stethoscope className="w-6 h-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold tracking-wide">MEDICAL TOURISM</span>
             </div>
-            
+
             <h1 className="text-5xl md:text-7xl text-center font-bold mb-6 leading-tight">
               Get Well Soon in Bengal
               <span className="block text-3xl md:text-5xl mt-2 text-blue-300">
@@ -35,7 +172,7 @@ export default function MedicalTourismPage() {
             </h1>
 
             <p className="text-xl text-center md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
-              Experience world-class medical treatment with expert practitioners 
+              Experience world-class medical treatment with expert practitioners
               and international standard facilities in West Bengal
             </p>
 
@@ -243,74 +380,7 @@ export default function MedicalTourismPage() {
           </div>
         </div>
       </section>
-<section className="py-20 bg-gray-50">
-  <div className="max-w-7xl mx-auto px-6">
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
-
-      {/* Video Section */}
-      <div className="lg:col-span-2">
-        <div className="bg-white rounded-3xl shadow-lg p-8">
-          <h3 className="text-2xl font-bold mb-6 text-gray-800">
-            Watch  Medical Tourism Video
-          </h3>
-
-          <div className="aspect-video rounded-xl overflow-hidden">
-            <iframe
-              className="w-full h-full"
-                  src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-              title="Sundarban Boat Stay Tour Video"
-              loading="lazy"
-              allowFullScreen
-            />
-          </div>
-        </div>
-      </div>
-
-      {/* Sidebar */}
-      <div className="space-y-8 lg:sticky lg:top-24 h-fit">
-
-        {/* Advertisement */}
-        <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white rounded-3xl shadow-lg p-8 text-center">
-          <h3 className="text-xl font-bold mb-4">
-            🚀 Advertise With Us
-          </h3>
-
-          <p className="text-sm opacity-90 mb-6">
-            Promote your travel brand, tour packages, or special offers.
-            Reach thousands of travelers visiting our platform.
-          </p>
-
-          <a
-            href="/contact"
-            className="inline-block bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition"
-          >
-            Contact For Promotion
-          </a>
-        </div>
-
-        {/* Special Offer */}
-        <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white rounded-3xl shadow-lg p-8 text-center">
-          <h3 className="text-xl font-bold mb-4">
-            🌍 Travel Partner Promotion
-          </h3>
-
-          <p className="text-sm opacity-90 mb-6">
-            Showcase your brand, hotel deals or travel experiences
-            to our growing travel audience.
-          </p>
-
-          <a
-            href="/contact"
-            className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition"
-          >
-            Contact For Promotion
-          </a>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</section>
+   
       {/* ================= TOP HOSPITALS ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
@@ -322,113 +392,86 @@ export default function MedicalTourismPage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Tata Memorial Hospital */}
-            <div className="bg-gradient-to-br from-yellow-50 to-pink-50 rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
-              <div className="bg-gradient-to-r from-yellow-500 to-pink-500 p-6 text-white">
-                <Award className="w-8 h-8 mb-2" />
-                <h3 className="text-xl font-bold">TOP CANCER HOSPITAL</h3>
-                <p className="text-2xl font-bold mt-2">TATA MEMORIAL HOSPITAL</p>
-                <p className="text-sm opacity-90">KOLKATA</p>
-              </div>
-              <div className="p-6">
-                <p className="text-gray-700 mb-4">
-                  Premier cancer treatment center with world-class oncology services and research facilities
-                </p>
-                <button className="w-full bg-yellow-600 text-white py-2 rounded-lg font-semibold hover:bg-yellow-700 transition">
-                  Enquire Now
-                </button>
-              </div>
-            </div>
+            {hospitals.map((hospital, index) => (
+              <div key={hospital.id} className="group bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 h-full flex flex-col">
+                {/* Image */}
+                <div className="relative h-56 flex items-center justify-center bg-gray-50">
+                  {hospital.image ? (
+                    <Image
+                      src={hospital.image}
+                      alt={hospital.name}
+                      fill
+                      className="object-contain p-4 transition-transform duration-500 group-hover:scale-105"
+                    />
+                  ) : (
+                    <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-yellow-100 to-orange-100 p-4">
+                      <div className="text-center">
+                        <div className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-3">
+                          <Eye className="w-6 h-6 text-white" />
+                        </div>
+                        <h4 className="text-sm font-bold text-yellow-800 mb-1">Advertise Your Hospital Here</h4>
+                        <p className="text-xs text-yellow-600">Showcase your medical facility to thousands</p>
+                      </div>
+                    </div>
+                  )}
 
-            {/* Apollo Gleneagles */}
-            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
-              <div className="bg-gradient-to-r from-blue-500 to-cyan-500 p-6 text-white">
-                <IndianRupee className="w-8 h-8 mb-2" />
-                <h3 className="text-xl font-bold">HIGHEST BILLING HOSPITAL</h3>
-                <p className="text-2xl font-bold mt-2">APOLLO GLENEAGLES</p>
-                <p className="text-sm opacity-90">KOLKATA</p>
-              </div>
-              <div className="p-6">
-                <p className="text-gray-700 mb-4">
-                  Premium multi-specialty hospital with international healthcare standards and advanced technology
-                </p>
-                <button className="w-full bg-blue-600 text-white py-2 rounded-lg font-semibold hover:bg-blue-700 transition">
-                  Enquire Now
-                </button>
-              </div>
-            </div>
+                  {/* Overlay */}
+                  {hospital.image && (
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                  )}
 
-            {/* NH Rabindranath Tagore */}
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
-              <div className="bg-gradient-to-r from-green-500 to-emerald-500 p-6 text-white">
-                <HeartPulse className="w-8 h-8 mb-2" />
-                <h3 className="text-xl font-bold">TOP CARDIOLOGY HOSPITAL</h3>
-                <p className="text-2xl font-bold mt-2">NH RABINDRANATH TAGORE</p>
-                <p className="text-sm opacity-90">MUKUNDAPUR</p>
-              </div>
-              <div className="p-6">
-                <p className="text-gray-700 mb-4">
-                  Leading cardiac care center with expert cardiologists and state-of-the-art heart treatment facilities
-                </p>
-                <button className="w-full bg-green-600 text-white py-2 rounded-lg font-semibold hover:bg-green-700 transition">
-                  Enquire Now
-                </button>
-              </div>
-            </div>
+                  {/* Location */}
+                  <div className="absolute bottom-3 left-3">
+                    <div className="flex items-center bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full">
+                      <MapPin className="w-4 h-4 mr-1 text-yellow-600" />
+                      <span className="text-xs font-semibold text-gray-800">
+                        {hospital.location}
+                      </span>
+                    </div>
+                  </div>
+                </div>
 
-            {/* RN Tagore Hospital - Neurosurgery */}
-            <div className="bg-gradient-to-br from-purple-50 to-indigo-50 rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
-              <div className="bg-gradient-to-r from-purple-500 to-indigo-500 p-6 text-white">
-                <Brain className="w-8 h-8 mb-2" />
-                <h3 className="text-xl font-bold">BEST NEUROSURGERY HOSPITAL</h3>
-                <p className="text-2xl font-bold mt-2">RN TAGORE HOSPITAL</p>
-                <p className="text-sm opacity-90">KOLKATA</p>
-              </div>
-              <div className="p-6">
-                <p className="text-gray-700 mb-4">
-                  Excellence in neurosurgery and neurological treatments with advanced surgical techniques
-                </p>
-                <button className="w-full bg-purple-600 text-white py-2 rounded-lg font-semibold hover:bg-purple-700 transition">
-                  Enquire Now
-                </button>
-              </div>
-            </div>
+                {/* Content */}
+                <div className="p-5 flex flex-col flex-grow">
+                  {/* Badge */}
+                  <div className="flex items-center gap-2 mb-3">
+                    <hospital.icon className={`w-4 h-4 text-white`} />
+                    <span className="text-xs font-medium text-gray-600">{hospital.category}</span>
+                  </div>
 
-            {/* NH Rabindranath Tagore - Orthopedic */}
-            <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
-              <div className="bg-gradient-to-r from-orange-500 to-yellow-500 p-6 text-white">
-                <Bone className="w-8 h-8 mb-2" />
-                <h3 className="text-xl font-bold">BEST ORTHOPEDIC HOSPITAL</h3>
-                <p className="text-2xl font-bold mt-2">NH RABINDRANATH TAGORE</p>
-                <p className="text-sm opacity-90">KOLKATA</p>
-              </div>
-              <div className="p-6">
-                <p className="text-gray-700 mb-4">
-                  Specialized orthopedic care with advanced joint replacement and trauma surgery facilities
-                </p>
-                <button className="w-full bg-orange-600 text-white py-2 rounded-lg font-semibold hover:bg-orange-700 transition">
-                  Enquire Now
-                </button>
-              </div>
-            </div>
+                  {/* Title */}
+                  <div className="mb-4">
+                    <h3 className="text-xl font-bold text-gray-900">{hospital.name}</h3>
+                  </div>
 
-            {/* Desun Hospital */}
-            <div className="bg-gradient-to-br from-teal-50 to-cyan-50 rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
-              <div className="bg-gradient-to-r from-teal-500 to-cyan-500 p-6 text-white">
-                <Building className="w-8 h-8 mb-2" />
-                <h3 className="text-xl font-bold">TOP MULTISPECIALITY HOSPITAL</h3>
-                <p className="text-2xl font-bold mt-2">DESUN HOSPITAL</p>
-                <p className="text-sm opacity-90">EM Bypass</p>
+                  {/* Rating */}
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="flex">
+                      {[...Array(5)].map((_, i) => (
+                        <Star key={i} className="w-4 h-4 text-yellow-500 fill-current" />
+                      ))}
+                    </div>
+                    <span className="text-sm text-gray-600">{hospital.rating}</span>
+                    <span className="text-xs text-gray-500">({hospital.reviews} reviews)</span>
+                  </div>
+
+                  {/* Description */}
+                  <p className="text-gray-600 text-sm mb-4 flex-grow">
+                    {hospital.description}
+                  </p>
+
+            
+
+                  {/* Button */}
+                  <button
+                    onClick={() => handleHospitalClick(hospital)}
+                    className="w-full bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white font-semibold py-3 rounded-lg transition-all duration-300 transform hover:scale-105"
+                  >
+                    Enquire Now
+                  </button>
+                </div>
               </div>
-              <div className="p-6">
-                <p className="text-gray-700 mb-4">
-                  Comprehensive multi-specialty healthcare with 24/7 emergency services and advanced medical care
-                </p>
-                <button className="w-full bg-teal-600 text-white py-2 rounded-lg font-semibold hover:bg-teal-700 transition">
-                  Enquire Now
-                </button>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
@@ -561,7 +604,7 @@ export default function MedicalTourismPage() {
             <div>
               <h3 className="font-bold text-gray-800 mb-2">Important Disclaimer</h3>
               <p className="text-gray-700 leading-relaxed">
-                Bengal Tourism does not endorse the services of the Establishments featured here but limited to general information & advertisement purpose only. 
+                Bengal Tourism does not endorse the services of the Establishments featured here but limited to general information & advertisement purpose only.
                 Services are matter of solicitation by the service provider only.
               </p>
             </div>
@@ -586,7 +629,7 @@ export default function MedicalTourismPage() {
           </div>
         </div>
       </section>
-     {/* ================= PRICING INFORMATION ================= */}
+      {/* ================= PRICING INFORMATION ================= */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="bg-white">
@@ -603,10 +646,10 @@ export default function MedicalTourismPage() {
             <div className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-2xl p-8 mb-6">
               <h3 className="text-xl font-bold mb-4 text-gray-900">Price Factors</h3>
               <p className="text-gray-700 mb-4 leading-relaxed">
-                Price will depend upon the illness & medical treatment prescribed by health service provider, 
+                Price will depend upon the illness & medical treatment prescribed by health service provider,
                 which can be only said by the said hospital. Medical costs vary significantly based on:
               </p>
-              
+
               <div className="grid md:grid-cols-2 gap-4 mb-6">
                 <div className="flex items-center gap-3">
                   <div className="bg-blue-100 w-8 h-8 rounded-full flex items-center justify-center">
@@ -643,7 +686,7 @@ export default function MedicalTourismPage() {
                 <h3 className="text-lg font-bold text-amber-800">Important Advisory</h3>
               </div>
               <p className="text-amber-700 leading-relaxed">
-                It is advised to consult with your health care provider & the hospital regarding everything to your satisfaction. 
+                It is advised to consult with your health care provider & the hospital regarding everything to your satisfaction.
                 Please discuss all aspects of treatment, costs, and expected outcomes directly with the medical facility.
               </p>
             </div>
@@ -656,7 +699,7 @@ export default function MedicalTourismPage() {
                 <h3 className="text-lg font-bold text-green-800">Accommodation Support</h3>
               </div>
               <p className="text-green-700 leading-relaxed">
-                We will take care in providing the stay of the patient parties nearby the hospital / nursing home. 
+                We will take care in providing the stay of the patient parties nearby the hospital / nursing home.
                 Comfortable accommodation options close to your chosen medical facility will be arranged.
               </p>
             </div>
@@ -681,7 +724,107 @@ export default function MedicalTourismPage() {
         </div>
       </section>
 
-<ContactCTA />
+      {/* ================= HOSPITAL MODAL ================= */}
+      {showModal && selectedHospital && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
+          <div className="bg-white rounded-2xl w-full max-w-2xl max-h-[90vh] overflow-hidden shadow-2xl flex flex-col">
+            {/* Image */}
+            <div className="relative h-64 w-full">
+              {selectedHospital.image ? (
+                <Image
+                  src={selectedHospital.image}
+                  alt={selectedHospital.name}
+                  fill
+                  className="object-contain"
+                />
+              ) : (
+                <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-yellow-100 to-orange-100">
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <Eye className="w-8 h-8 text-white" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-yellow-800 mb-2">Advertise Your Hospital Here</h3>
+                    <p className="text-yellow-600">Showcase your medical facility to thousands of patients</p>
+                  </div>
+                </div>
+              )}
+              
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+
+              {/* Close */}
+              <button
+                onClick={() => setShowModal(false)}
+                className="absolute top-4 right-4 bg-white/90 hover:bg-white p-2 rounded-full shadow-md transition"
+              >
+                <X size={20} className="text-black" />
+              </button>
+            </div>
+
+            {/* Content */}
+            <div className="p-6 overflow-y-auto">
+              {/* Title */}
+              <div className="mb-4">
+                <h3 className="text-2xl font-bold text-gray-900">
+                  {selectedHospital.name}
+                </h3>
+
+                <p className="text-gray-600 flex items-center mt-1 text-sm">
+                  <MapPin className="w-4 h-4 mr-1 text-yellow-600" />
+                  {selectedHospital.location}
+                </p>
+              </div>
+
+              {/* Rating */}
+              <div className="flex items-center gap-3 mb-4">
+                <div className="flex items-center">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-5 h-5 text-yellow-500 fill-current" />
+                  ))}
+                </div>
+
+                <span className="font-semibold text-gray-800">
+                  {selectedHospital.rating}
+                </span>
+
+                <span className="text-gray-500 text-sm">
+                  ({selectedHospital.reviews} reviews)
+                </span>
+              </div>
+
+              {/* Category */}
+              <div className="flex items-center gap-2 mb-4">
+                <selectedHospital.icon className={`w-5 h-5 text-blue-600`} />
+                <span className="text-sm font-medium text-gray-700">{selectedHospital.category}</span>
+              </div>
+
+              {/* Description */}
+              <p className="text-gray-700 leading-relaxed mb-5">
+                {selectedHospital.description}
+              </p>
+
+              {/* Price */}
+              <div className="bg-green-50 border border-green-200 rounded-xl p-4 mb-6">
+                <p className="text-green-700 font-bold text-lg">
+                  {selectedHospital.price}
+                </p>
+              </div>
+
+              {/* Buttons */}
+              <div className="grid grid-cols-2 gap-4">
+                <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-xl transition">
+                  Contact Hospital
+                </button>
+
+                <button className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 rounded-xl transition">
+                  Book Appointment
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      <ContactCTA />
     </main>
   )
 }
