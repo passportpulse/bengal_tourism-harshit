@@ -36,7 +36,7 @@ export default function TermsPolicy() {
                 <li>30+ days before travel: 10% cancellation charge</li>
                 <li>15-29 days before travel: 25% cancellation charge</li>
                 <li>7-14 days before travel: 50% cancellation charge</li>
-                <li>Less than 7 days: No refund</li>
+                <li>Less than 7 days: No Show / Holidays / Peak Season / Black out Dates</li>
               </ul>
             </div>
           </section>
