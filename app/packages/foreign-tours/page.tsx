@@ -71,7 +71,7 @@ const foreignTourPackages = [
         duration: "4N & 5D",
         desc: "Explore pristine coral islands, crystal clear waters, and marine life.",
         locations: "Kavaratti, Agatti, Bangaram, Kadmat",
-        image: "https://images.unsplash.com/photo-1572025310208-2fd6b91764c1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TGFrc2hhZHdlZXB8ZW58MHx8MHx8fDA%3D",
+        image: "/laksh.avif",
         icon: Waves,
         iconColor: "text-blue-500",
         route: "/lakshadweep",
