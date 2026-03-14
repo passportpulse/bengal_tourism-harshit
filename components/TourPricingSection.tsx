@@ -104,7 +104,8 @@ export default function TourPricingSection({
 
                                 <ul className="mt-6 space-y-3 text-gray-600 text-sm">
                                     <li className="flex items-center gap-2">
-                                        <Check className="w-4 h-4 text-indigo-600" /> Accommodation
+                                        <Check className="w-4 h-4 text-indigo-600" /> 3-4* Accommodation
+
                                     </li>
                                     <li className="flex items-center gap-2">
                                         <Check className="w-4 h-4 text-indigo-600" /> Breakfast & Dinner
@@ -113,7 +114,7 @@ export default function TourPricingSection({
                                         <Check className="w-4 h-4 text-indigo-600" /> Pick & Drop
                                     </li>
                                     <li className="flex items-center gap-2">
-                                        <Check className="w-4 h-4 text-indigo-600" /> Sightseeing
+                                        <Check className="w-4 h-4 text-indigo-600" /> Sightseeing in SIC
                                     </li>
                                 </ul>
                             </div>
