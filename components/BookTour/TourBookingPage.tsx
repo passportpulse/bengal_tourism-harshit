@@ -89,7 +89,7 @@ export default function TourBookingPage() {
     address: "",
     pinCode: "",
     destination: "",
-    adults: 1,
+    adults: 0,
     children: 0,
     specialInfo: "",
     promoCode: "",
@@ -162,7 +162,8 @@ export default function TourBookingPage() {
       2: 6400,
       3: 9100,
       4: 12700,
-      5: 15400
+      5: 15400,
+      6: 17200
     };
     return rates[nights] || 0;
   };
