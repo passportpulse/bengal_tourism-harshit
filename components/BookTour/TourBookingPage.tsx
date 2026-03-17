@@ -102,7 +102,8 @@ export default function TourBookingPage() {
     costPerChildren: "",
       below5Children: 0,
     totalNights: "",
-    estimatedCost: "",
+    estimatedCost: "0",
+    calculatedTotal: "0",
     bookingAmount: "",
     paymentType: "partial",
     currency: "INR"
@@ -119,12 +120,10 @@ export default function TourBookingPage() {
     }
   }, [formData.checkIn, formData.checkOut]);
 
-  // Auto calculate totals when adults, children, totalNights, paymentType, or currency change
+  // Auto calculate totals when adults, children, estimatedCost, paymentType, or currency change
   useEffect(() => {
-    if (formData.totalNights && (formData.adults > 0 || formData.children > 0)) {
-      calculateTotals();
-    }
-  }, [formData.adults, formData.children, formData.totalNights, formData.paymentType, formData.currency]);
+    calculateTotals();
+  }, [formData.adults, formData.children, formData.estimatedCost, formData.paymentType, formData.currency]);
 
   // Helper function to format date to DD-MM-YYYY
   const formatDateToDDMMYYYY = (dateString: string) => {
@@ -156,18 +155,6 @@ export default function TourBookingPage() {
     setFormData(prev => ({ ...prev, [field]: value }));
   };
 
-  const calculatePerPersonRate = (nights: number): number => {
-    const rates: { [key: number]: number } = {
-      1: 3700,
-      2: 6400,
-      3: 9100,
-      4: 12700,
-      5: 15400,
-      6: 17200
-    };
-    return rates[nights] || 0;
-  };
-
   const convertCurrency = (amount: number, fromCurrency: string, toCurrency: string): number => {
     if (fromCurrency === toCurrency) return amount;
     
@@ -193,12 +180,24 @@ export default function TourBookingPage() {
   };
 
   const calculateTotals = () => {
-    const nights = parseInt(formData.totalNights);
-    const perPersonRate = calculatePerPersonRate(nights);
-    const adultCost = perPersonRate * formData.adults;
-    const childrenCost = (perPersonRate * 0.5) * formData.children; // 50% of adult rate for children
+    // Get the raw value without any parsing issues
+    const rawValue = formData.estimatedCost;
+    const totalCostPerNight = rawValue && rawValue !== "" ? Number(rawValue) : 0;
+    
+    console.log('Raw input:', rawValue, 'Parsed:', totalCostPerNight);
+    
+    // Prevent infinity calculations
+    if (isNaN(totalCostPerNight) || !isFinite(totalCostPerNight) || totalCostPerNight < 0) {
+      console.log('Invalid value, stopping calculation');
+      return;
+    }
+    
+    const adultCost = totalCostPerNight * formData.adults;
+    const childrenCost = (totalCostPerNight / 2) * formData.children; // Half of total cost per night for each child
     const total = adultCost + childrenCost;
     const bookingAmount = formData.paymentType === "full" ? total : total * 0.5;
+
+    console.log('Results - Adult:', adultCost, 'Children:', childrenCost, 'Total:', total, 'Booking:', bookingAmount);
 
     // Convert to selected currency
     const convertedAdultCost = convertCurrency(adultCost, "INR", formData.currency);
@@ -208,11 +207,18 @@ export default function TourBookingPage() {
 
     setFormData(prev => ({
       ...prev,
-      costPerAdult: convertedAdultCost.toString(), // Total cost for all adults
-      costPerChildren: convertedChildrenCost.toString(), // Total cost for all children
-      estimatedCost: convertedTotal.toString(), // Sum of both
+      costPerAdult: convertedAdultCost.toString(),
+      costPerChildren: convertedChildrenCost.toString(),
+      // Set calculatedTotal as the sum of adult and children costs
+      calculatedTotal: convertedTotal.toString(),
       bookingAmount: convertedBookingAmount.toString()
     }));
+  };
+
+  const calculatePerPersonRate = (nights: number): number => {
+    const totalCost = Number(formData.estimatedCost) || 0;
+    if (nights <= 0) return 0;
+    return totalCost / nights;
   };
 
   const calculateNights = () => {
@@ -595,13 +601,22 @@ export default function TourBookingPage() {
                         <option value="USD">USD</option>
                       </select>
                       <input
-                        type="number"
+                        type="text"
                         value={formData.estimatedCost}
-                        readOnly
-                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 text-gray-600"
-                        placeholder="Auto-calculated"
+                        onChange={(e) => {
+                          const value = e.target.value;
+                          console.log('Input value:', value);  // Debug line added
+                          handleInputChange("estimatedCost", value);
+                          setTimeout(calculateTotals, 100);
+                        }}
+                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
+                        placeholder="Enter total cost for nights"
+                        required
                       />
                     </div>
+                    <p className="text-xs text-gray-500 mt-1">
+                      Enter total cost for {formData.totalNights} night(s)
+                    </p>
                   </div>
                 
                       <div>
@@ -690,26 +705,11 @@ export default function TourBookingPage() {
                   <IndianRupee className="text-yellow-600" />
                   Pricing Details
                 </h2>
-                {formData.totalNights && (
-                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
-                    <p className="text-sm text-blue-800">
-                      <strong>Per Person Rate:</strong> {formatCurrency(calculatePerPersonRate(parseInt(formData.totalNights)), formData.currency)} for {formData.totalNights} night(s)
-                    </p>
-                    <p className="text-xs text-blue-600 mt-1">
-                      <strong>Children Rate:</strong> 50% of adult rate ({formatCurrency(calculatePerPersonRate(parseInt(formData.totalNights)) * 0.5, formData.currency)} per child)
-                    </p>
-                    <p className="text-xs text-blue-600 mt-1">
-                      Rates (INR): 1N - ₹3700 | 2N - ₹6400 | 3N - ₹9100 | 4N - ₹12700 | 5N - ₹15400
-                    </p>
-                    <p className="text-xs text-blue-600 mt-1">
-                      Rates (USD): 1N - $37.00 | 2N - $64.00 | 3N - $91.00 | 4N - $127.00 | 5N - $154.00
-                    </p>
-                  </div>
-                )}
+  
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Total Cost for Adults ({formData.adults} × {formatCurrency(calculatePerPersonRate(parseInt(formData.totalNights) || 0), "INR")}) <span className="text-yellow-500">*</span>
+                      Total Cost for Adults  <span className="text-yellow-500">*</span>
                     </label>
                     <div className="flex gap-2">
                       <select 
@@ -734,8 +734,8 @@ export default function TourBookingPage() {
                     </p>
                   </div>
                   <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Total Cost for Children ({formData.children} × {formatCurrency(calculatePerPersonRate(parseInt(formData.totalNights) || 0) * 0.5, "INR")})
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      Total Cost for Children  <span className="text-yellow-500">*</span>
                     </label>
                     <div className="flex gap-2">
                       <select 
@@ -774,7 +774,7 @@ export default function TourBookingPage() {
                       </select>
                       <input
                         type="number"
-                        value={formData.estimatedCost}
+                        value={formData.calculatedTotal}
                         readOnly
                         className="flex-1 px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 text-gray-600"
                         placeholder="Auto-calculated"
