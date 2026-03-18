@@ -192,8 +192,8 @@ export default function TourBookingPage() {
       return;
     }
     
-    const adultCost = totalCostPerNight * formData.adults;
-    const childrenCost = (totalCostPerNight / 2) * formData.children; // Half of total cost per night for each child
+    const adultCost = totalCostPerNight * (Number(formData.adults) || 0);
+    const childrenCost = (totalCostPerNight / 2) * (Number(formData.children) || 0); // Half of total cost per night for each child
     const total = adultCost + childrenCost;
     const bookingAmount = formData.paymentType === "full" ? total : total * 0.5;
 
@@ -258,8 +258,8 @@ export default function TourBookingPage() {
     // Calculate current amount based on payment type
     const nights = parseInt(formData.totalNights);
     const perPersonRate = calculatePerPersonRate(nights);
-    const adultCost = perPersonRate * formData.adults;
-    const childrenCost = (perPersonRate * 0.5) * formData.children;
+    const adultCost = perPersonRate * (Number(formData.adults) || 0);
+    const childrenCost = (perPersonRate * 0.5) * (Number(formData.children) || 0);
     const total = adultCost + childrenCost;
     const bookingAmount = formData.paymentType === "full" ? total : total * 0.5;
     
@@ -615,8 +615,7 @@ export default function TourBookingPage() {
                       />
                     </div>
                     <p className="text-xs text-gray-500 mt-1">
-                    
-                      Fill in the correct price as shown in Destination & Nights selected.
+                      Fill in the correct price as shown in Destination & Nights selected. 
                       <br />
                       Enter total cost for {formData.totalNights} night(s)
                     </p>
@@ -625,7 +624,6 @@ export default function TourBookingPage() {
                       <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
                       Total No. of Nights <span className="text-yellow-500">*</span>
-                     
                     </label>
                     <input
                       type="number"
@@ -658,7 +656,7 @@ export default function TourBookingPage() {
                     <input
                       type="number"
                       value={formData.adults}
-                      onChange={(e) => handleInputChange("adults", parseInt(e.target.value) || 0)}
+                      onChange={(e) => handleInputChange("adults", e.target.value)}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                       min="1"
                       required
@@ -671,7 +669,7 @@ export default function TourBookingPage() {
                     <input
                       type="number"
                       value={formData.children}
-                      onChange={(e) => handleInputChange("children", parseInt(e.target.value) || 0)}
+                      onChange={(e) => handleInputChange("children", e.target.value)}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                       min="0"
                     />
@@ -683,7 +681,7 @@ export default function TourBookingPage() {
                   <input
                     type="number"
                      value={formData.below5Children}
-                    onChange={(e) => handleInputChange("below5Children", parseInt(e.target.value) || 0)}
+                    onChange={(e) => handleInputChange("below5Children", e.target.value)}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-600"
                     min="0"
                   />

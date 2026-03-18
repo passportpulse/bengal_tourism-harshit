@@ -128,6 +128,7 @@ export default function TermsPolicy() {
               <li>Offer professional tour guides and support</li>
               <li>Maintain transparency in all dealings</li>
               <li>Provide emergency assistance when needed</li>
+              <li>We take special care for senior citizens & only ladies group</li>
             </ul>
           </section>
 
