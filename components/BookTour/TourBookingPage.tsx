@@ -89,8 +89,8 @@ export default function TourBookingPage() {
     address: "",
     pinCode: "",
     destination: "",
-    adults: 0,
-    children: 0,
+    adults: "",
+    children: "",
     specialInfo: "",
     promoCode: "",
     membershipNo: "",
@@ -100,9 +100,9 @@ export default function TourBookingPage() {
     dropPlace: "",
     costPerAdult: "",
     costPerChildren: "",
-      below5Children: 0,
+      below5Children: "",
     totalNights: "",
-    estimatedCost: "0",
+    estimatedCost: "",
     calculatedTotal: "0",
     bookingAmount: "",
     paymentType: "partial",
@@ -615,6 +615,9 @@ export default function TourBookingPage() {
                       />
                     </div>
                     <p className="text-xs text-gray-500 mt-1">
+                    
+                      Fill in the correct price as shown in Destination & Nights selected.
+                      <br />
                       Enter total cost for {formData.totalNights} night(s)
                     </p>
                   </div>
@@ -622,6 +625,7 @@ export default function TourBookingPage() {
                       <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
                       Total No. of Nights <span className="text-yellow-500">*</span>
+                     
                     </label>
                     <input
                       type="number"
