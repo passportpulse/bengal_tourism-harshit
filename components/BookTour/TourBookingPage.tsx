@@ -125,6 +125,21 @@ export default function TourBookingPage() {
     calculateTotals();
   }, [formData.adults, formData.children, formData.estimatedCost, formData.paymentType, formData.currency]);
 
+  // Convert estimatedCost when currency changes
+  useEffect(() => {
+    if (formData.estimatedCost && formData.estimatedCost !== "") {
+      const currentValue = parseFloat(formData.estimatedCost);
+      if (!isNaN(currentValue)) {
+        // Convert from current currency to new currency
+        const convertedValue = formData.currency === "USD" ? currentValue / 100 : currentValue * 100;
+        setFormData(prev => ({
+          ...prev,
+          estimatedCost: convertedValue.toString()
+        }));
+      }
+    }
+  }, [formData.currency]);
+
   // Helper function to format date to DD-MM-YYYY
   const formatDateToDDMMYYYY = (dateString: string) => {
     if (!dateString) return '';
