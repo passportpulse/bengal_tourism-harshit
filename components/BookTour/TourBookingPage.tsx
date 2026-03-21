@@ -195,9 +195,14 @@ export default function TourBookingPage() {
   };
 
   const calculateTotals = () => {
-    // Get the raw value without any parsing issues
+    // Get the raw value and convert to INR first
     const rawValue = formData.estimatedCost;
-    const totalCostPerNight = rawValue && rawValue !== "" ? Number(rawValue) : 0;
+    let totalCostPerNight = rawValue && rawValue !== "" ? Number(rawValue) : 0;
+    
+    // Convert to INR if current currency is USD
+    if (formData.currency === "USD") {
+      totalCostPerNight = totalCostPerNight * 100; // Convert USD to INR
+    }
     
     console.log('Raw input:', rawValue, 'Parsed:', totalCostPerNight);
     
