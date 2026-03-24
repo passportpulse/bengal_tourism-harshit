@@ -3,7 +3,7 @@
 import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
-import { ArrowLeft, QrCode, MessageCircle, IndianRupee } from 'lucide-react'
+import { ArrowLeft, QrCode, MessageCircle, IndianRupee, DollarSign } from 'lucide-react'
 import { Suspense } from 'react'
 
 type PaymentDetails = {
@@ -77,6 +77,7 @@ function QRPaymentContent() {
   const amount = searchParams.get('amount') || '0'
   const bookingType = searchParams.get('bookingType') || 'partial'
   const source = searchParams.get('source') || ''
+  const currency = searchParams.get('currency') || 'INR'
 
   const paymentMethod = paymentMethods[paymentType as keyof typeof paymentMethods]
 
@@ -187,7 +188,11 @@ const getEmailBySource = () => {
           <div className="bg-gradient-to-r from-yellow-600 to-orange-600 text-white p-6 rounded-lg text-center">
             <h2 className="text-lg font-semibold mb-2">{paymentType}</h2>
             <div className="flex items-center justify-center gap-2">
-              <IndianRupee className="w-6 h-6" />
+              {currency === 'USD' ? (
+                <DollarSign className="w-6 h-6" />
+              ) : (
+                <IndianRupee className="w-6 h-6" />
+              )}
               <span className="text-3xl font-bold">{parseInt(amount).toLocaleString('en-IN')}</span>
             </div>
             <p className="text-sm mt-2 opacity-90">{getPaymentTypeLabel()}</p>
@@ -216,7 +221,7 @@ const getEmailBySource = () => {
          onClick={() => {
   const phoneNumber = getWhatsappNumber();
   const message = encodeURIComponent(
-    `Hello, I have made a ${source} booking payment of ₹${parseInt(amount).toLocaleString('en-IN')} (${getPaymentTypeLabel()}). Please find the payment confirmation attached.`
+    `Hello, I have made a ${source} booking payment of ${currency === 'USD' ? '$' : '₹'}${parseInt(amount).toLocaleString('en-IN')} (${getPaymentTypeLabel()}). Please find the payment confirmation attached.`
   );
   window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
 }}

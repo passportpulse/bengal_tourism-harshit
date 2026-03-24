@@ -285,7 +285,7 @@ export default function TourBookingPage() {
     
     const bookingType = formData.paymentType || 'partial';
     
-    const qrUrl = `/qr-payment?type=${encodeURIComponent(paymentTitle)}&amount=${encodeURIComponent(bookingAmount.toString())}&bookingType=${encodeURIComponent(bookingType)}&source=tour`;
+    const qrUrl = `/qr-payment?type=${encodeURIComponent(paymentTitle)}&amount=${encodeURIComponent(bookingAmount.toString())}&bookingType=${encodeURIComponent(bookingType)}&source=tour&currency=${encodeURIComponent(formData.currency)}`;
     window.open(qrUrl, '_blank');
   };
 

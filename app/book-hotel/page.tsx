@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import HotelBookingPage from "@/components/BookHotel/HotelBookingPage";
 
 export const metadata: Metadata = {
-  title: 'Book Hotels in Bengal - Hotel Booking | Bengal Tourism',
+  title: 'Bengal Tourism.in | Hotel Booking | top and best hotel booking agent | in West Bengal-the sweetest part of India in | Darjeeling | Kalimpong | Kurseong | Mirik | Homestays in Hills | Jaldapara |  Gorumara | Murti | Lataguri | Digha | Mandarmoni | Tajpur | Bankura | Purulia | Mayapur | Shantiniketan | Bolpur | Tarapith | Homestays in Plains  | Kolkata | All major tourist destinations in Incredible India | Puri | Konark | Bhubaneswar |  Gangtok | Pelling | Lachen | Lachung | Kashmir | Srinagar | Sonmarg | Katra | Manali |  Dehradun | Nainital | Haridwar | Andaman | and all the major tourist destinations mentioned in our website |',
   description: 'Book hotels across West Bengal with Bengal Tourism. Find AC rooms, deluxe suites, and budget stays in Kolkata, Darjeeling, Digha, Sundarbans and more. Best prices guaranteed.',
   keywords: 'Book hotels Bengal, Bengal hotel booking, Kolkata hotels, Darjeeling hotels, Digha hotels, Sundarbans hotels, West Bengal accommodation, hotel rooms, AC rooms',
   openGraph: {

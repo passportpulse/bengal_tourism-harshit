@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://bengaltourism.in"),
 
   title: {
-    default: "Bengal Tourism.in | Home |Bengal Tourism | top and best tour and travel agent for | the sweetest part of India - Bengal | calling and  invites you to visit and explore Bengal | About us | Destinations | Earn with us | Brands | Contact | Hotel booking",
+    default: "Bengal Tourism.in | Home | top and best tour operator and travel agent | in West Bengal | calling and  inviting you to visit and explore Bengal - the sweetest part of India | best and top  tour operator in Incredible India | Foreign Destinations | About us | Tourist Destinations in | Bengal | India | Earn with us | Brands | Contact | Hotel booking |",
     template: "%s | Bengal Tourism.in"
   },
 
