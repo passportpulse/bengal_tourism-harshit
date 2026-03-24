@@ -71,7 +71,7 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Bengal Tourism.in - #1 West Bengal Travel Agent | Best Tour Packages for Darjeeling, Sundarbans, Kolkata",
+    title: "Bengal Tourism.in | Home | top and best tour operator and travel agent | in West Bengal | calling and  inviting you to visit and explore Bengal - the sweetest part of India | best and top  tour operator in Incredible India | Foreign Destinations | About us | Tourist Destinations in | Bengal | India | Earn with us | Brands | Contact | Hotel booking |",
     description:
       "Book customized West Bengal tour packages with Bengal Tourism.in - Expert travel agent offering Darjeeling hill station tours, Sundarbans tiger safari, Kolkata heritage walks, Dooars jungle adventure, Digha beach holidays. Best prices, 24/7 support, verified hotels, expert guides.",
     url: "https://bengaltourism.in",
