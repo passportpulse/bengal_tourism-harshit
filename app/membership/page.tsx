@@ -139,7 +139,6 @@ export default function MembershipPage() {
       const data = await response.json();
 
       if (response.ok && data.success) {
-        console.log("Membership form submitted successfully:", formData);
         setShowSuccess(true);
       } else {
         alert(data.error || 'Failed to submit membership application. Please try again.');

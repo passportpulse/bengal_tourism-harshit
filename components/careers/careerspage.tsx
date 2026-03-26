@@ -118,7 +118,6 @@ export default function CareerPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Career application submitted:", formData);
   };
 
   return (

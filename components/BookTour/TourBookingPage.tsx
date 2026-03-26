@@ -204,11 +204,9 @@ export default function TourBookingPage() {
       totalCostPerNight = totalCostPerNight * 100; // Convert USD to INR
     }
     
-    console.log('Raw input:', rawValue, 'Parsed:', totalCostPerNight);
     
     // Prevent infinity calculations
     if (isNaN(totalCostPerNight) || !isFinite(totalCostPerNight) || totalCostPerNight < 0) {
-      console.log('Invalid value, stopping calculation');
       return;
     }
     
@@ -217,7 +215,6 @@ export default function TourBookingPage() {
     const total = adultCost + childrenCost;
     const bookingAmount = formData.paymentType === "full" ? total : total * 0.5;
 
-    console.log('Results - Adult:', adultCost, 'Children:', childrenCost, 'Total:', total, 'Booking:', bookingAmount);
 
     // Convert to selected currency
     const convertedAdultCost = convertCurrency(adultCost, "INR", formData.currency);
@@ -247,16 +244,13 @@ export default function TourBookingPage() {
       const checkInDate = new Date(parseDDMMYYYYToISO(formData.checkIn));
       const checkOutDate = new Date(parseDDMMYYYYToISO(formData.checkOut));
 
-      console.log('Check-in:', formData.checkIn, 'Date:', checkInDate);
-      console.log('Check-out:', formData.checkOut, 'Date:', checkOutDate);
+    
 
       if (!isNaN(checkInDate.getTime()) && !isNaN(checkOutDate.getTime())) {
         // Calculate difference in days (check-out date - check-in date)
         const diffTime = checkOutDate.getTime() - checkInDate.getTime();
         const diffDays = Math.round(diffTime / (1000 * 60 * 60 * 24));
 
-        console.log('Diff time:', diffTime);
-        console.log('Diff days:', diffDays);
 
         // Ensure positive number of nights
         if (diffDays >= 0) {
@@ -275,17 +269,30 @@ export default function TourBookingPage() {
     setSelectedPayment(paymentIndex);
     setSelectedPaymentType(paymentTitle);
     
-    // Calculate current amount based on payment type
-    const nights = parseInt(formData.totalNights);
-    const perPersonRate = calculatePerPersonRate(nights);
-    const adultCost = perPersonRate * (Number(formData.adults) || 0);
-    const childrenCost = (perPersonRate * 0.5) * (Number(formData.children) || 0);
+    // Calculate fresh amount based on current form data and payment type
+    const rawValue = formData.estimatedCost;
+    let totalCostPerNight = rawValue && rawValue !== "" ? Number(rawValue) : 0;
+    
+    // Convert to INR if current currency is USD
+    if (formData.currency === "USD") {
+      totalCostPerNight = totalCostPerNight * 100;
+    }
+    
+    const adultCost = totalCostPerNight * (Number(formData.adults) || 0);
+    const childrenCost = (totalCostPerNight / 2) * (Number(formData.children) || 0);
     const total = adultCost + childrenCost;
+    
+    // Calculate booking amount based on payment type
     const bookingAmount = formData.paymentType === "full" ? total : total * 0.5;
+    
+    // Convert to selected currency
+    const convertedBookingAmount = convertCurrency(bookingAmount, "INR", formData.currency);
     
     const bookingType = formData.paymentType || 'partial';
     
-    const qrUrl = `/qr-payment?type=${encodeURIComponent(paymentTitle)}&amount=${encodeURIComponent(bookingAmount.toString())}&bookingType=${encodeURIComponent(bookingType)}&source=tour&currency=${encodeURIComponent(formData.currency)}`;
+
+    
+    const qrUrl = `/qr-payment?type=${encodeURIComponent(paymentTitle)}&amount=${encodeURIComponent(convertedBookingAmount.toString())}&bookingType=${encodeURIComponent(bookingType)}&source=tour&currency=${encodeURIComponent(formData.currency)}`;
     window.open(qrUrl, '_blank');
   };
 
@@ -625,7 +632,6 @@ export default function TourBookingPage() {
                         value={formData.estimatedCost}
                         onChange={(e) => {
                           const value = e.target.value;
-                          console.log('Input value:', value);  // Debug line added
                           handleInputChange("estimatedCost", value);
                           setTimeout(calculateTotals, 100);
                         }}

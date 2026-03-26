@@ -75,7 +75,6 @@ export default function DPPage() {
 
   const handleLoginSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Login attempt:", loginData);
   };
 
   return (

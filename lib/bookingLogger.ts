@@ -59,21 +59,11 @@ export const logBooking = (formData: any, type: 'tour' | 'hotel' | 'membership' 
     
     fs.writeFileSync(logFilePath, JSON.stringify(existingLogs, null, 2));
     
-    // Also log to console for immediate visibility
-    console.log('\n🎯 BOOKING CONFIRMED 🎯');
-    console.log('==========================');
-    console.log(`Type: ${type.toUpperCase()}`);
-    console.log(`Customer: ${bookingData.customer.name}`);
-    console.log(`Email: ${bookingData.customer.email}`);
-    console.log(`Phone: ${bookingData.customer.phone}`);
-    console.log(`Destination: ${bookingData.booking.destination}`);
+    
     if (bookingData.booking.dates) {
       console.log(`Dates: ${bookingData.booking.dates.checkIn} to ${bookingData.booking.dates.checkOut}`);
     }
-    console.log(`Travelers: ${bookingData.booking.travelers.adults} Adults, ${bookingData.booking.travelers.children} Children`);
-    console.log(`Booking Amount: ₹${bookingData.booking.costs.bookingAmount}`);
-    console.log(`Total Cost: ₹${bookingData.booking.costs.estimatedCost}`);
-    console.log('==========================\n');
+  
     
     return true;
   } catch (error) {
