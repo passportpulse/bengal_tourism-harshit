@@ -1,9 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowLeft, Calendar, Users, MapPin, Phone, Mail, CreditCard, Percent, User, Home, Clock, IndianRupee, Bed, X, QrCode, MessageCircle } from "lucide-react";
+import { ArrowLeft, Calendar, Users, MapPin, Phone, Mail, CreditCard, Percent, User, Home, Clock, IndianRupee, Bed, X, QrCode, MessageCircle, DollarSign } from "lucide-react";
 
 const destinations = [
   { value: "17", label: "BAKKHALI" },
@@ -466,6 +466,7 @@ export default function HotelBookingPage() {
     paymentType: "partial",
     promoCode: "",
     membershipNo: "",
+    currency: "INR"
   });
 
   const [availableRooms, setAvailableRooms] = useState<Array<{ value: string; label: string; price: number; meal?: string }>>([]);
@@ -521,29 +522,116 @@ export default function HotelBookingPage() {
     if (field === "roomType") {
       const selectedRoom = availableRooms.find(room => room.value === value);
       if (selectedRoom) {
-        setFormData(prev => ({ ...prev, ...newFormData, costPerRoom: selectedRoom.price.toString() }));
+        let roomPrice = selectedRoom.price;
+        
+        // Convert room price to selected currency
+        if (formData.currency === "USD") {
+          roomPrice = roomPrice / 100; // Convert INR to USD
+        }
+        
+        setFormData(prev => ({ ...prev, ...newFormData, costPerRoom: roomPrice.toString() }));
         // Trigger calculation after state update
-        setTimeout(() => calculateTotalsWithNewData(selectedRoom.price.toString(), newFormData.totalNights, newFormData.noOfRooms, newFormData.paymentType), 50);
+        setTimeout(() => calculateTotalsWithNewData(roomPrice.toString(), newFormData.totalNights, newFormData.noOfRooms, newFormData.paymentType), 50);
       }
     }
 
     // Trigger calculation for relevant fields
-    if (field === "noOfRooms" || field === "paymentType") {
+    if (field === "noOfRooms" || field === "paymentType" || field === "currency") {
       setTimeout(() => calculateTotalsWithNewData(newFormData.costPerRoom, newFormData.totalNights, newFormData.noOfRooms, newFormData.paymentType), 50);
     }
   };
 
+  const convertCurrency = (amount: number, fromCurrency: string, toCurrency: string): number => {
+    if (fromCurrency === toCurrency) return amount;
+    
+    // Convert to INR first if needed
+    let inrAmount = amount;
+    if (fromCurrency === "USD") {
+      inrAmount = amount * 100; // 1 USD = 100 INR
+    }
+    
+    // Convert from INR to target currency
+    if (toCurrency === "USD") {
+      return inrAmount / 100;
+    }
+    
+    return inrAmount; // Default to INR
+  };
+
+  const formatCurrency = (amount: number, currency: string): string => {
+    if (currency === "USD") {
+      return `$${amount.toFixed(2)}`;
+    }
+    return `₹${amount.toLocaleString('en-IN')}`;
+  };
+
+  // Convert estimatedCost and bookingAmount when currency changes
+  useEffect(() => {
+    if (formData.estimatedCost && formData.estimatedCost !== "") {
+      const currentValue = parseFloat(formData.estimatedCost);
+      if (!isNaN(currentValue)) {
+        // Convert from current currency to new currency
+        const convertedValue = formData.currency === "USD" ? currentValue / 100 : currentValue * 100;
+        setFormData(prev => ({
+          ...prev,
+          estimatedCost: convertedValue.toString(),
+          bookingAmount: (parseFloat(prev.bookingAmount || "0") * (formData.currency === "USD" ? 0.01 : 100)).toString()
+        }));
+      }
+    }
+  }, [formData.currency]);
+
+  // Convert costPerRoom when currency changes
+  useEffect(() => {
+    if (formData.costPerRoom && formData.costPerRoom !== "") {
+      const currentValue = parseFloat(formData.costPerRoom);
+      if (!isNaN(currentValue)) {
+        // Convert from current currency to new currency
+        const convertedValue = formData.currency === "USD" ? currentValue / 100 : currentValue * 100;
+        setFormData(prev => ({
+          ...prev,
+          costPerRoom: convertedValue.toString()
+        }));
+        // Recalculate totals with converted cost
+        setTimeout(() => calculateTotalsWithNewData(convertedValue.toString(), formData.totalNights, formData.noOfRooms, formData.paymentType), 50);
+      }
+    }
+  }, [formData.currency]);
+
   const calculateTotalsWithNewData = (cost: string, nights: string, rooms: string | number, paymentType: string) => {
-    const costPerRoom = parseFloat(cost || "0");
+    let costPerRoom = parseFloat(cost || "0");
+    
+    // Convert costPerRoom to INR if it's in USD
+    if (formData.currency === "USD") {
+      costPerRoom = costPerRoom * 100; // Convert USD to INR for calculation
+    }
+    
     const totalNights = parseInt(nights || "0");
     const noOfRooms = parseInt(rooms?.toString() || "1");
     const total = costPerRoom * totalNights * noOfRooms;
     const bookingAmount = paymentType === "full" ? total : total * 0.5;
 
+    console.log('Hotel Calculation Debug:');
+    console.log('Cost per room:', cost);
+    console.log('Currency:', formData.currency);
+    console.log('Converted cost per room (INR):', costPerRoom);
+    console.log('Total nights:', totalNights);
+    console.log('No of rooms:', noOfRooms);
+    console.log('Total (INR):', total);
+    console.log('Payment type:', paymentType);
+    console.log('Booking amount (INR):', bookingAmount);
+
+    // Convert to selected currency for display
+    const convertedTotal = convertCurrency(total, "INR", formData.currency);
+    const convertedBookingAmount = convertCurrency(bookingAmount, "INR", formData.currency);
+
+    console.log('Converted total:', convertedTotal);
+    console.log('Converted booking amount:', convertedBookingAmount);
+
     setFormData(prev => ({
       ...prev,
-      estimatedCost: total.toString(),
-      bookingAmount: bookingAmount.toString(),
+      estimatedCost: convertedTotal.toString(),
+      bookingAmount: convertedBookingAmount.toString(),
     }));
   };
 
@@ -577,7 +665,7 @@ export default function HotelBookingPage() {
     const paymentAmount = formData.bookingAmount || '0';
     const bookingType = formData.paymentType || 'partial';
     
-    const qrUrl = `/qr-payment?type=${encodeURIComponent(paymentTitle)}&amount=${encodeURIComponent(paymentAmount)}&bookingType=${encodeURIComponent(bookingType)}&source=hotel`;
+    const qrUrl = `/qr-payment?type=${encodeURIComponent(paymentTitle)}&amount=${encodeURIComponent(paymentAmount)}&bookingType=${encodeURIComponent(bookingType)}&source=hotel&currency=${encodeURIComponent(formData.currency)}`;
     window.open(qrUrl, '_blank');
   };
 
@@ -965,8 +1053,13 @@ export default function HotelBookingPage() {
                     Cost per Room (per night) <span className="text-yellow-500">*</span>
                   </label>
                   <div className="flex gap-2">
-                    <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-500">
-                      <option>INR</option>
+                    <select 
+                      value={formData.currency}
+                      onChange={(e) => handleInputChange("currency", e.target.value)}
+                      className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-500"
+                    >
+                      <option value="INR">INR</option>
+                      <option value="USD">USD</option>
                     </select>
                     <select
                       value={formData.costPerRoom}
@@ -975,8 +1068,12 @@ export default function HotelBookingPage() {
                         const newFormData = { ...formData, costPerRoom: newCost };
                         setFormData(newFormData);
 
-                        // Update room type to match cost per room
-                        const matchedRoom = availableRooms.find(room => room.price.toString() === newCost);
+                        // Find the original room that matches this converted price
+                        const matchedRoom = availableRooms.find(room => {
+                          const convertedPrice = formData.currency === "USD" ? room.price / 100 : room.price;
+                          return convertedPrice.toString() === newCost;
+                        });
+                        
                         if (matchedRoom) {
                           setFormData(prev => ({ ...prev, costPerRoom: newCost, roomType: matchedRoom.value }));
                         }
@@ -992,16 +1089,14 @@ export default function HotelBookingPage() {
                       required
                     >
                       <option value="">Select Cost</option>
-                      <option value="2000">2000 - Basic</option>
-                      <option value="2800">2800 - Standard</option>
-                      <option value="3700">3700 - Deluxe</option>
-                      <option value="4600">4600 - Super Deluxe</option>
-                      <option value="5500">5500 - Executive</option>
-                      <option value="6400">6400 - Royal</option>
-                      <option value="7300">7300 - Premium</option>
-                      <option value="8200">8200 - Super Premium</option>
-                      <option value="9100">9100 - Luxury</option>
-                      <option value="21000">21000 - Star Luxury</option>
+                      {availableRooms.map((room) => {
+                        const convertedPrice = formData.currency === "USD" ? room.price / 100 : room.price;
+                        return (
+                          <option key={room.value} value={convertedPrice.toString()}>
+                            {convertedPrice} - {room.label}
+                          </option>
+                        );
+                      })}
                     </select>
                   </div>
                 </div>
@@ -1011,9 +1106,9 @@ export default function HotelBookingPage() {
                     Estimated Cost <span className="text-yellow-500">*</span>
                   </label>
                   <div className="flex gap-2">
-                    <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-500">
-                      <option>INR</option>
-                    </select>
+                    <span className="px-4 py-3 text-gray-500 border border-gray-300 rounded-lg bg-gray-50">
+                      {formData.currency}
+                    </span>
                     <input
                       type="number"
                       value={formData.estimatedCost}
@@ -1028,9 +1123,9 @@ export default function HotelBookingPage() {
                     Booking Confirmation (50% of Estimated Cost) <span className="text-yellow-500">*</span>
                   </label>
                   <div className="flex gap-2">
-                    <select className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition text-gray-500">
-                      <option>INR</option>
-                    </select>
+                    <span className="px-4 py-3 text-gray-500 border border-gray-300 rounded-lg bg-gray-50">
+                      {formData.currency}
+                    </span>
                     <input
                       type="number"
                       value={formData.bookingAmount}
