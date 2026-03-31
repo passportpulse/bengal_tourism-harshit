@@ -611,22 +611,12 @@ export default function HotelBookingPage() {
     const total = costPerRoom * totalNights * noOfRooms;
     const bookingAmount = paymentType === "full" ? total : total * 0.5;
 
-    console.log('Hotel Calculation Debug:');
-    console.log('Cost per room:', cost);
-    console.log('Currency:', formData.currency);
-    console.log('Converted cost per room (INR):', costPerRoom);
-    console.log('Total nights:', totalNights);
-    console.log('No of rooms:', noOfRooms);
-    console.log('Total (INR):', total);
-    console.log('Payment type:', paymentType);
-    console.log('Booking amount (INR):', bookingAmount);
+  
 
     // Convert to selected currency for display
     const convertedTotal = convertCurrency(total, "INR", formData.currency);
     const convertedBookingAmount = convertCurrency(bookingAmount, "INR", formData.currency);
 
-    console.log('Converted total:', convertedTotal);
-    console.log('Converted booking amount:', convertedBookingAmount);
 
     setFormData(prev => ({
       ...prev,
