@@ -189,66 +189,86 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* CONTACT */}
-          <div>
-            <h4 className="text-lg font-semibold mb-5 text-yellow-400">
-              Contact Info
-            </h4>
+{/* CONTACT */}
+<div>
+  <h4 className="text-lg font-semibold mb-5 text-yellow-400">
+    Contact Info
+  </h4>
 
-            <div className="space-y-4 text-sm text-gray-400">
-              
-              <div className="flex gap-3">
-                <Phone size={18} className="text-yellow-400" />
-                <div>
-                 <p>
-  Tour Booking:{" "}
-  <a href="tel:6289783779" className="text-white font-semibold hover:text-yellow-400">
-    6289783779
-  </a>
-</p>
+  <div className="space-y-4 text-sm text-gray-400">
+    
+    {/* PHONE */}
+    <div className="flex gap-3">
+      <Phone size={18} className="text-yellow-400" />
+      <div>
+        <p>
+          Tour Booking:{" "}
+          <a href="tel:6289783779" className="text-white font-semibold hover:text-yellow-400">
+            6289783779
+          </a>
+        </p>
 
-<p>
-  Hotel Booking:{" "}
-  <a href="tel:7890727339" className="text-white font-semibold hover:text-yellow-400">
-    7890727339
-  </a>
-</p>
+        <p>
+          Hotel Booking:{" "}
+          <a href="tel:7890727339" className="text-white font-semibold hover:text-yellow-400">
+            7890727339
+          </a>
+        </p>
 
-                </div>
-              </div>
+        {/* NEW PHONE */}
+        <p>
+          General Contact:{" "}
+          <a href="tel:9804333779" className="text-white font-semibold hover:text-yellow-400">
+            9804333779
+          </a>
+        </p>
+      </div>
+    </div>
 
-              <div className="flex gap-3">
-                <MessageCircle size={18} className="text-yellow-400" />
-                <div>
-                  <a href="https://wa.me/916289783779" target="_blank" className="hover:text-yellow-400">
-                    Tour WhatsApp: <strong className="text-white">6289783779</strong>
-                  </a>
-                  <br />
-                  <a href="https://wa.me/917890727339" target="_blank" className="hover:text-yellow-400">
-                    Hotel WhatsApp: <strong className="text-white">7890727339</strong>
-                  </a>
-                </div>
-              </div>
+    {/* WHATSAPP */}
+    <div className="flex gap-3">
+      <MessageCircle size={18} className="text-yellow-400" />
+      <div>
+        <a href="https://wa.me/916289783779" target="_blank" className="hover:text-yellow-400">
+          Tour WhatsApp: <strong className="text-white">6289783779</strong>
+        </a>
+        <br />
+        <a href="https://wa.me/917890727339" target="_blank" className="hover:text-yellow-400">
+          Hotel WhatsApp: <strong className="text-white">7890727339</strong>
+        </a>
+      </div>
+    </div>
 
-           
-              <div className="flex gap-3">
-                <MapPin size={18} className="text-yellow-400 mt-1" />
-                <span>
-                  AG-209, Flat No402, <br />
-                  Kestopur, Kolkata - 700101
-                </span>
-              </div>
+    {/* EMAIL (NEW) */}
+    <div className="flex gap-3">
+      <Mail size={18} className="text-yellow-400" />
+      <a
+        href="mailto:prossenjitbiswas@gmail.com"
+        className="hover:text-yellow-400 text-white font-semibold"
+      >
+        prossenjitbiswas@gmail.com
+      </a>
+    </div>
 
-              <div className="flex gap-3">
-                <Clock size={18} className="text-yellow-400" />
-                <span>
-                  Mon–Sat: 9:00 AM – 6:00 PM <br />
-                  Sunday: Closed
-                </span>
-              </div>
-            </div>
-          </div>
+    {/* ADDRESS */}
+    <div className="flex gap-3">
+      <MapPin size={18} className="text-yellow-400 mt-1" />
+      <span>
+        AG-209, Flat No402, <br />
+        Kestopur, Kolkata - 700101
+      </span>
+    </div>
 
+    {/* TIME */}
+    <div className="flex gap-3">
+      <Clock size={18} className="text-yellow-400" />
+      <span>
+        Mon–Sat: 9:00 AM – 6:00 PM <br />
+        Sunday: Closed
+      </span>
+    </div>
+  </div>
+</div>
         </div>
       </div>
 
