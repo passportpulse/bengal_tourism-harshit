@@ -55,9 +55,6 @@ const faqData = [
   }
 ];
 
-
-
-
 const contactMethods = [
   {
     icon: Phone,
@@ -74,6 +71,22 @@ const contactMethods = [
     action: "tel:+917890727339",
     button: "Call Now",
     color: "text-orange-600"
+  },
+  {
+    icon: Phone,
+    title: "Direct Support (Prossenjit Biswas)",
+    value: "+91 98043 33779",
+    action: "tel:+919804333779",
+    button: "Call Now",
+    color: "text-red-600"
+  },
+  {
+    icon: Mail,
+    title: "Personal Support",
+    value: "prossenjitbiswas@gmail.com",
+    action: "mailto:prossenjitbiswas@gmail.com",
+    button: "Send Email",
+    color: "text-red-600"
   },
   {
     icon: Mail,
@@ -128,14 +141,14 @@ export default function ContactPage() {
   });
 
   const [showSuccess, setShowSuccess] = useState(false);
-  const [openFAQ, setOpenFAQ] = useState<number | null>(null);
+  const [openFAQ, setOpenFAQ] = useState(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleInputChange = (field: string, value: string) => {
+  const handleInputChange = (field, value) => {
     setFormData(prev => ({ ...prev, [field]: value }));
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
 
@@ -171,7 +184,7 @@ export default function ContactPage() {
     }
   };
 
-  const toggleFAQ = (id: number) => {
+  const toggleFAQ = (id) => {
     setOpenFAQ(openFAQ === id ? null : id);
   };
 
@@ -263,7 +276,7 @@ export default function ContactPage() {
           Speak with our travel experts for tour planning, hotel booking and support.
         </p>
 
-        <div className="space-y-5">
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-5">
           {contactMethods.map((item, index) => (
             <div
               key={index}
@@ -380,17 +393,18 @@ export default function ContactPage() {
                     <h4 className="font-bold text-gray-900 mb-1">Contact Numbers</h4>
                     <p className="text-gray-700">Tour Booking: 6289783779</p>
                     <p className="text-gray-700">Hotel Booking: 7890727339</p>
+                    <p className="text-gray-900 border-t border-gray-100 pt-2 font-semibold">Direct Support: 9804333779</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start gap-3">
                   <Mail className="w-5 h-5 text-yellow-600 mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-bold text-gray-900 mb-1">Email</h4>
+                    <h4 className="font-bold text-gray-900 mb-1">Email Addresses</h4>
                     <p className="text-gray-700">General: bengaltourism@gmail.com</p>
+                    <p className="text-gray-900 font-semibold text-orange-600">Personal: prossenjitbiswas@gmail.com</p>
                     <p className="text-gray-700">Hotel: hotel.bengaltourism@gmail.com</p>
                     <p className="text-gray-700">Tours: booking.bengaltourism@gmail.com</p>
-                    <p className="text-gray-700">Work: members.bengaltourism@gmail.com</p>
                   </div>
                 </div>
               </div>
