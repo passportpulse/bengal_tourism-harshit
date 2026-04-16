@@ -1174,7 +1174,7 @@ export default function HotelBookingPage() {
                   <ul className="text-sm text-gray-700 space-y-1">
                     <li>• Upgrade to AC accommodation where available (₹ 500/Night/head)</li>
                     <li>• AC train/bus tickets as per actual fare</li>
-                    <li>• Non-sharing exclusive AC vehicle (₹1500/Day for group of 5-7 Persons)</li>
+                    <li>• Non sharing exclusive AC vehicle on demand (@ ₹1500 / day for a group of less than 6-7 Persons & during Peak Season is compulsory & will be charged extra.) AC will not work in hilly locations.)</li>
                   </ul>
                 </div>
                 
@@ -1194,7 +1194,7 @@ export default function HotelBookingPage() {
                   <ul className="text-sm text-gray-700 space-y-1">
                     <li>• Accommodations & transport as mentioned</li>
                     <li>• Meals (bed tea, breakfast & dinner)</li>
-                    <li>• Lunch (your cost, but included in group tour with 20+ heads)</li>
+                    <li>• Lunch (your cost) but included in group tour of 20+ heads & in Homestay's.)</li>
                   </ul>
                 </div>
               </div>
