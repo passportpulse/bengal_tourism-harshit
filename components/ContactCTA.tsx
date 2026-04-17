@@ -20,7 +20,7 @@ export default function ContactCTA() {
           <div className="space-y-4">
 
             {/* Tour Booking */}
-            <a 
+            <a
               href="tel:6289783779"
               className="flex items-center gap-3 bg-yellow-500 text-black px-6 py-3 rounded-xl font-semibold hover:bg-yellow-400 transition"
             >
@@ -29,7 +29,7 @@ export default function ContactCTA() {
             </a>
 
             {/* Hotel Booking */}
-            <a 
+            <a
               href="tel:7890727339"
               className="flex items-center gap-3 bg-blue-600 px-6 py-3 rounded-xl font-semibold hover:bg-blue-500 transition"
             >
@@ -38,7 +38,7 @@ export default function ContactCTA() {
             </a>
 
             {/* WhatsApp Tour */}
-            <a 
+            <a
               href="https://wa.me/916289783779"
               target="_blank"
               className="flex items-center gap-3 bg-green-600 px-6 py-3 rounded-xl font-semibold hover:bg-green-500 transition"
@@ -48,7 +48,7 @@ export default function ContactCTA() {
             </a>
 
             {/* WhatsApp Hotel */}
-            <a 
+            <a
               href="https://wa.me/917890727339"
               target="_blank"
               className="flex items-center gap-3 bg-green-700 px-6 py-3 rounded-xl font-semibold hover:bg-green-600 transition"
@@ -57,8 +57,10 @@ export default function ContactCTA() {
               WhatsApp for Hotel Booking - 7890727339
             </a>
 
+
+
             {/* Email */}
-            <a 
+            <a
               href="mailto:bengaltourism@gmail.com"
               className="flex items-center gap-3 bg-gray-700 px-6 py-3 rounded-xl font-semibold hover:bg-gray-600 transition"
             >
@@ -66,6 +68,21 @@ export default function ContactCTA() {
               bengaltourism@gmail.com
             </a>
 
+            <a
+              href="mailto:prossenjitbiswas@gmail.com"
+              className="flex items-center gap-3 bg-orange-600 px-6 py-3 rounded-xl font-semibold hover:bg-orange-500 transition"
+            >
+              <Mail size={20} />
+              prossenjitbiswas@gmail.com
+            </a>
+
+            <a
+              href="tel:9804333779"
+              className="flex items-center gap-3 bg-red-600 px-6 py-3 rounded-xl font-semibold hover:bg-red-500 transition"
+            >
+              <Phone size={20} />
+              Call for General Contact – 9804333779
+            </a>
           </div>
         </div>
 
