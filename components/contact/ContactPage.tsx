@@ -144,11 +144,11 @@ export default function ContactPage() {
   const [openFAQ, setOpenFAQ] = useState(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleInputChange = (field, value) => {
+  const handleInputChange = (field: string, value: string) => {
     setFormData(prev => ({ ...prev, [field]: value }));
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
 
@@ -184,7 +184,7 @@ export default function ContactPage() {
     }
   };
 
-  const toggleFAQ = (id) => {
+  const toggleFAQ = (id: number) => {
     setOpenFAQ(openFAQ === id ? null : id);
   };
 
@@ -199,7 +199,7 @@ export default function ContactPage() {
           <p className="text-xl text-gray-600 mb-8">
             Thank you for contacting us. We'll get back to you within 24 hours.
           </p>
-          <button 
+          <button
             onClick={() => setShowSuccess(false)}
             className="px-8 py-3 bg-gradient-to-r from-yellow-600 to-orange-600 text-white font-bold rounded-xl hover:from-yellow-700 hover:to-orange-700 transition"
           >
@@ -224,14 +224,14 @@ export default function ContactPage() {
           />
           <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-yellow-900/40"></div>
         </div>
-        
+
         <div className="relative z-10 h-full flex items-center justify-center px-6">
           <div className="text-center max-w-5xl mx-auto">
             <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md border border-white/30 rounded-full px-6 py-3 mb-8">
               <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
               <span className="text-white font-medium text-sm">Get in Touch</span>
             </div>
-            
+
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Contact
               <span className="block bg-gradient-to-r from-yellow-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent relative">
@@ -248,7 +248,7 @@ export default function ContactPage() {
                 </svg>
               </span>
             </h1>
-            
+
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-12 leading-relaxed">
               We're here to help • 24/7 Support • Expert guidance
             </p>
@@ -263,63 +263,63 @@ export default function ContactPage() {
         </div>
       </section>
 
-   <section className="py-24 bg-gray-50">
-  <div className="max-w-7xl mx-auto px-6">
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-14">
+      <section className="py-24 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-14">
 
-      {/* ================= LEFT SIDE ================= */}
-      <div>
-        <h2 className="text-4xl font-black text-gray-900 mb-4">
-          Contact Bengal Tourism
-        </h2>
-        <p className="text-gray-600 mb-10 max-w-md">
-          Speak with our travel experts for tour planning, hotel booking and support.
-        </p>
+            {/* ================= LEFT SIDE ================= */}
+            <div>
+              <h2 className="text-4xl font-black text-gray-900 mb-4">
+                Contact Bengal Tourism
+              </h2>
+              <p className="text-gray-600 mb-10 max-w-md">
+                Speak with our travel experts for tour planning, hotel booking and support.
+              </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-1 gap-5">
-          {contactMethods.map((item, index) => (
-            <div
-              key={index}
-              className="flex items-center justify-between bg-white border rounded-xl p-5 shadow-sm hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 cursor-pointer group"
-            >
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-lg bg-gray-100 flex items-center justify-center group-hover:bg-gray-200 transition-colors duration-300">
-                  <item.icon className={`w-6 h-6 ${item.color} group-hover:scale-110 transition-transform duration-300`} />
-                </div>
-                <div>
-                  <p className="font-semibold text-gray-900 group-hover:text-gray-700 transition-colors duration-300">{item.title}</p>
-                  <p className="text-gray-600 text-sm group-hover:text-gray-500 transition-colors duration-300">{item.value}</p>
-                </div>
+              <div className="grid grid-cols-1 md:grid-cols-1 gap-5">
+                {contactMethods.map((item, index) => (
+                  <div
+                    key={index}
+                    className="flex items-center justify-between bg-white border rounded-xl p-5 shadow-sm hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 cursor-pointer group"
+                  >
+                    <div className="flex items-center gap-4">
+                      <div className="w-12 h-12 rounded-lg bg-gray-100 flex items-center justify-center group-hover:bg-gray-200 transition-colors duration-300">
+                        <item.icon className={`w-6 h-6 ${item.color} group-hover:scale-110 transition-transform duration-300`} />
+                      </div>
+                      <div>
+                        <p className="font-semibold text-gray-900 group-hover:text-gray-700 transition-colors duration-300">{item.title}</p>
+                        <p className="text-gray-600 text-sm group-hover:text-gray-500 transition-colors duration-300">{item.value}</p>
+                      </div>
+                    </div>
+
+                    <a
+                      href={item.action}
+                      target={item.action.startsWith('mailto:') ? '_self' : '_blank'}
+                      rel={item.action.startsWith('mailto:') ? '' : 'noopener noreferrer'}
+                      onClick={(e) => {
+                        if (item.action.startsWith('mailto:')) {
+                          e.preventDefault();
+                          window.location.href = item.action;
+                        }
+                      }}
+                      className="px-4 py-2 text-sm font-semibold rounded-lg bg-gradient-to-r from-yellow-600 to-orange-600 text-white hover:from-yellow-700 hover:to-orange-700 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl hover:shadow-yellow-500/25"
+                    >
+                      {item.button}
+                    </a>
+                  </div>
+                ))}
               </div>
-
-              <a
-                href={item.action}
-                target={item.action.startsWith('mailto:') ? '_self' : '_blank'}
-                rel={item.action.startsWith('mailto:') ? '' : 'noopener noreferrer'}
-                onClick={(e) => {
-                  if (item.action.startsWith('mailto:')) {
-                    e.preventDefault();
-                    window.location.href = item.action;
-                  }
-                }}
-                className="px-4 py-2 text-sm font-semibold rounded-lg bg-gradient-to-r from-yellow-600 to-orange-600 text-white hover:from-yellow-700 hover:to-orange-700 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl hover:shadow-yellow-500/25"
-              >
-                {item.button}
-              </a>
             </div>
-          ))}
+
+            <div>
+              <img src="/HOME3.jpg" alt="" />
+              <img src="/HOME2.jpg" alt="" />
+              <img src="/HOME1.jpg" alt="" />
+            </div>
+
+          </div>
         </div>
-      </div>
-
-<div>
-  <img src="/HOME3.jpg" alt="" />
-  <img src="/HOME2.jpg" alt="" />
-  <img src="/HOME1.jpg" alt="" />
-</div>
-
-    </div>
-  </div>
-</section>
+      </section>
 
 
       {/* ================= FAQ & MAP ================= */}
@@ -350,7 +350,7 @@ export default function ContactPage() {
                       )}
                     </div>
                   </button>
-                  
+
                   {openFAQ === faq.id && (
                     <div className="px-6 pb-5">
                       <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
@@ -364,13 +364,13 @@ export default function ContactPage() {
             <div className="bg-white rounded-2xl shadow-lg p-8 h-fit">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Visit Our Office</h3>
               <div className="aspect-video rounded-xl overflow-hidden mb-6">
-                <iframe 
+                <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10743.073900046735!2d88.4202962477842!3d22.603785367878004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02758dcef4157d%3A0xe9a9b7f4ca68ac9f!2sKolkata%2C%20West%20Bengal%20700101!5e1!3m2!1sen!2sin!4v1772592684946!5m2!1sen!2sin"
-                  width="100%" 
-                  height="100%" 
-                  style={{ border: 0 }} 
-                  allowFullScreen 
-                  loading="lazy" 
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                   className="w-full h-full"
                 />
@@ -386,7 +386,7 @@ export default function ContactPage() {
                     <p className="text-gray-600">West Bengal, India</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start gap-3">
                   <Phone className="w-5 h-5 text-yellow-600 mt-1 flex-shrink-0" />
                   <div>
@@ -396,7 +396,7 @@ export default function ContactPage() {
                     <p className="text-gray-900 border-t border-gray-100 pt-2 font-semibold">Direct Support: 9804333779</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start gap-3">
                   <Mail className="w-5 h-5 text-yellow-600 mt-1 flex-shrink-0" />
                   <div>
@@ -413,7 +413,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      </>
+    </>
   );
 }
- 
+
