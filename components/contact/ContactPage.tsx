@@ -141,7 +141,7 @@ export default function ContactPage() {
   });
 
   const [showSuccess, setShowSuccess] = useState(false);
-  const [openFAQ, setOpenFAQ] = useState(null);
+  const [openFAQ, setOpenFAQ] = useState<number | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleInputChange = (field: string, value: string) => {
