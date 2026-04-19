@@ -5,12 +5,12 @@ export default function TermsPolicy() {
     <div className="min-h-screen bg-gray-50 py-12 px-4">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold text-gray-900 mb-8">Terms of Service</h1>
-        
+
         <div className="bg-white rounded-lg shadow-lg p-8 space-y-6">
           <section>
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">Terms & Conditions</h2>
             <p className="text-gray-600 leading-relaxed">
-              Welcome to Bengal Tourism! These Terms of Service govern your use of our website and booking services. 
+              Welcome to Bengal Tourism! These Terms of Service govern your use of our website and booking services.
               By using our services, you agree to these terms and conditions.
             </p>
           </section>
@@ -28,7 +28,7 @@ export default function TermsPolicy() {
             </div>
           </section>
 
-    <section>
+          <section>
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">Cancellation Timeline & Refund</h2>
             <div className="overflow-x-auto">
               <table className="w-full border-collapse border border-gray-300">
@@ -85,7 +85,7 @@ export default function TermsPolicy() {
                   <li>AC vehicle on demand (@ ₹1500 / day for a group of less than 6-7 Persons & during Peak Season is compulsory & will be charged extra.) AC will not work in hilly locations.</li>
                 </ul>
               </div>
-              
+
               <div className="bg-red-50 border border-red-200 rounded-lg p-4">
                 <h3 className="text-lg font-medium text-red-900 mb-3">Excluding:</h3>
                 <ul className="list-disc list-inside text-gray-700 space-y-1">
@@ -97,18 +97,18 @@ export default function TermsPolicy() {
                   <li>Any extra days due to natural calamities or incidents beyond our control will be borne by the clients</li>
                 </ul>
               </div>
-              
+
               <div className="bg-green-50 border border-green-200 rounded-lg p-4">
                 <h3 className="text-lg font-medium text-green-900 mb-3">Including:</h3>
                 <ul className="list-disc list-inside text-gray-700 space-y-1">
                   <li>Accommodations & transport as mentioned</li>
                   <li>Meals (bed tea, breakfast & dinner)</li>
-                  <li>Under including Lunch (your cost) but included in group tour of 20+ heads & in Homestay's.</li>
+                  <li>Excluding lunch (your cost) but included in group tour of 20+ heads & in Homestays.</li>
                 </ul>
               </div>
             </div>
           </section>
- 
+
           <section>
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">Traveler Responsibilities</h2>
             <ul className="list-disc list-inside text-gray-600 space-y-2">
@@ -135,8 +135,8 @@ export default function TermsPolicy() {
           <section>
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">Limitation of Liability</h2>
             <p className="text-gray-600 leading-relaxed">
-              Bengal Tourism shall not be liable for any loss, damage, or injury caused by factors beyond our control, 
-              including natural disasters, political unrest, or force majeure events. We recommend purchasing travel insurance 
+              Bengal Tourism shall not be liable for any loss, damage, or injury caused by factors beyond our control,
+              including natural disasters, political unrest, or force majeure events. We recommend purchasing travel insurance
               for comprehensive coverage.
             </p>
           </section>
@@ -144,7 +144,7 @@ export default function TermsPolicy() {
           <section>
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">Dispute Resolution</h2>
             <p className="text-gray-600 leading-relaxed">
-              Any disputes arising from our services shall be resolved through mutual discussion. 
+              Any disputes arising from our services shall be resolved through mutual discussion.
               If unresolved, the matter shall be subject to the jurisdiction of courts in Kolkata, West Bengal.
             </p>
           </section>
