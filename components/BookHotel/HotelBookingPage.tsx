@@ -1194,7 +1194,7 @@ export default function HotelBookingPage() {
                   <ul className="text-sm text-gray-700 space-y-1">
                     <li>• Accommodations & transport as mentioned</li>
                     <li>• Meals (bed tea, breakfast & dinner)</li>
-                    <li>• Lunch (your cost) but included in group tour of 20+ heads & in Homestay's.)</li>
+                    <li>Excluding lunch (your cost) but included in group tour of 20+ heads & in Homestays.</li>
                   </ul>
                 </div>
               </div>
